@@ -33,21 +33,18 @@ Enabling `Edit`->`Automatically Sync after Committing` is recommended. Here are 
 1. [Create a pull request](https://help.github.com/articles/creating-a-pull-request/) (merging the code) on the original repository.
 1. You can continue to push fixes and improvements – just add a comment in the pull request to let me know it's been updated.
 
-When the pull request is created, you should see a message saying that "the Travis CI build is in progress" – this means that your solution is being automatically checked for syntax errors.  If this "build" ends up failing (which will show a red "X"), click through the "details" link and scroll to the bottom to see what the errors were.  Per the [requirements](#requirements) below, please fix the issues and push up the changes.
-
 Feedback will be given in the pull request, so please respond with your thoughts and questions!  You are welcome to open the pull request early as a work-in-progress if you are stuck and want to ask a question.
 
 ### Requirements
 
 These apply to real life, as well.
 
-* [Travis CI](https://docs.travis-ci.com/) build should pass, which includes:
-    * All HTML files should pass [W3C Markup Validation](http://validator.w3.org).
-    * All written JS should pass [JSHint](http://jshint.com).
+* All HTML files should pass [W3C Markup Validation](http://validator.w3.org).
+* All written JS should pass [JSHint](http://jshint.com).
 * Must apply "good programming style" learned in class
     * Functions should be "short" (see [Sandi Metz's rules for developers](https://robots.thoughtbot.com/sandi-metz-rules-for-developers)).
     * Optimize for readability.
         * ["Programs must be written for people to read, and only incidentally for machines to execute." -Harold Abelson](https://www.goodreads.com/quotes/9168-programs-must-be-written-for-people-to-read-and-only)
     * Avoid using anonymous callbacks within other functions, especially if the callback is more than one or two lines.
     * For projects, use Object-Oriented Programming.
-* Any borrowed code must be properly annotated otherwise it is plagiarism.
+* Any borrowed code must be properly annotated, otherwise it is plagiarism.
