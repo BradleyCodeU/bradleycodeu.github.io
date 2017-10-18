@@ -8,16 +8,16 @@
 		background-position:center;
 		background-repeat:no-repeat;
 		background-size:cover;
-		z-index:0;
+		z-index:1;
 		font-size:80pt;
 		font-family:sans-serif;
-		letter-spacing:10px;
+		letter-spacing:15px;
 		color:#0033A0;
 	}
 	
 	#programming{
 		position:absolute;
-		top:1000px;
+		top:1145px;
 		height:400px;
 		width:100%;
 		background-image:url("http://www.innovus.org/wp-content/uploads/2016/09/shutterstock-programming-1.jpg");
@@ -25,11 +25,45 @@
 		background-position:center;
 		background-repeat:no-repeat;
 		background-size:cover;
-		z-index:0;
+		z-index:1;
 		font-size:80pt;
 		font-family:sans-serif;
-		letter-spacing:10px;
+		letter-spacing:15px;
 		color:#0033A0;
+	}
+	
+	#gamed{
+		position:absolute;
+		top:2000px;
+		height:400px;
+		width:100%;
+		background-image:url("https://www.windowscentral.com/sites/wpcentral.com/files/styles/larger/public/field/image/2017/06/xbox-one-controller-s%20%282%29.jpg?itok=H06OEtxm");
+		background-attachment:fixed;
+		background-position:center;
+		background-repeat:no-repeat;
+		background-size:cover;
+		z-index:1;
+		font-size:80pt;
+		font-family:sans-serif;
+		letter-spacing:15px;
+		color:#0033A0;			
+	}
+	
+	#apcs{
+		position:absolute;
+		top:2900px;
+		height:400px;
+		width:100%;
+		background-image:url("http://www.dupont.com/content/dam/dupont/products-and-services/electronic-and-electrical-materials/printed-circuit-board-materials/images/DEC-PCB-2x1.jpg");
+		background-attachment:fixed;
+		background-position:center;
+		background-repeat:no-repeat;
+		background-size:cover;
+		z-index:1;
+		font-size:80pt;
+		font-family:sans-serif;
+		letter-spacing:15px;
+		color:#0033A0;			
 	}
 	
 	#top{
@@ -38,8 +72,52 @@
 		background-color:#444444;
 		position:fixed;
 		top:0px;
-		z-index:1;
+		z-index:2;
 	
+	}
+	
+	#bar {
+		overflow:hidden;
+		top:0px;
+		z-index:1;
+	}
+	
+	#barl a{
+		float:left;
+		display:block;
+		color:#f2f2f2;
+		text-align:center;
+		padding: 50px 100px;
+		font-size:32px;
+		text-decoration:none;
+		font-family:sans-serif;
+	}
+	
+	#barl a:hover {
+		color:#0033A0;
+		
+	}
+	
+	#barr {
+		overflow:hidden;
+		top:0px;
+		z-index:1;
+	}
+	
+	#barr a{
+		float:right;
+		display:block;
+		color:#f2f2f2;
+		text-align:center;
+		padding: 50px 70px;
+		font-size:32px;
+		text-decoration:none;
+		font-family:sans-serif;
+	}
+	
+	#barr a:hover {
+		color:#0033A0;
+		
 	}
 	
 	#main{
@@ -65,8 +143,23 @@
 	
 	#progtext{
 		position:absolute;
-		top:1400px;
+		top:1545px;
 		height:500px;
 		background-color:gray;
 		
+	}
+	
+	#gametxt{
+		position:absolute;
+		top:2400px;
+		height:500px;
+		background-color:gray;
+		
+	}
+	
+	#apcstxt{
+		position:absolute;
+		top:3300px;
+		height:500px;
+		background-color:gray;
 	}
