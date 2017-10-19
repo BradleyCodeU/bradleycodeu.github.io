@@ -1,0 +1,165 @@
+	#webd{
+		position:absolute;
+		top:145px;
+		height:400px;
+		width:100%;
+		background-image:url("images/webd.jpg");
+		background-attachment:fixed;
+		background-position:center;
+		background-repeat:no-repeat;
+		background-size:cover;
+		z-index:1;
+		font-size:80pt;
+		font-family:sans-serif;
+		letter-spacing:15px;
+		color:black;
+	}
+	
+	#programming{
+		position:absolute;
+		top:1145px;
+		height:400px;
+		width:100%;
+		background-image:url("images/prog.jpg");
+		background-attachment:fixed;
+		background-position:center;
+		background-repeat:no-repeat;
+		background-size:cover;
+		z-index:1;
+		font-size:80pt;
+		font-family:sans-serif;
+		letter-spacing:15px;
+		color:black;
+	}
+	
+	#gamed{
+		position:absolute;
+		top:2000px;
+		height:400px;
+		width:100%;
+		background-image:url("images/gamed.jpg");
+		background-attachment:fixed;
+		background-position:center;
+		background-repeat:no-repeat;
+		background-size:cover;
+		z-index:1;
+		font-size:80pt;
+		font-family:sans-serif;
+		letter-spacing:15px;
+		color:black;			
+	}
+	
+	#apcs{
+		position:absolute;
+		top:2900px;
+		height:400px;
+		width:100%;
+		background-image:url("images/apcs.jpg");
+		background-attachment:fixed;
+		background-position:center;
+		background-repeat:no-repeat;
+		background-size:cover;
+		z-index:1;
+		font-size:80pt;
+		font-family:sans-serif;
+		letter-spacing:15px;
+		color:black;			
+	}
+	
+	#top{
+		height:145px;
+		width:100%;
+		background-color:#444444;
+		position:fixed;
+		top:0px;
+		z-index:2;
+	
+	}
+	
+	#bar {
+		overflow:hidden;
+		top:0px;
+		z-index:1;
+	}
+	
+	#barl a{
+		float:left;
+		display:block;
+		color:#f2f2f2;
+		text-align:center;
+		padding: 50px 100px;
+		font-size:32px;
+		text-decoration:none;
+		font-family:sans-serif;
+	}
+	
+	#barl a:hover {
+		color:#0033A0;
+		
+	}
+	
+	#barr {
+		overflow:hidden;
+		top:0px;
+		z-index:1;
+	}
+	
+	#barr a{
+		float:right;
+		display:block;
+		color:#f2f2f2;
+		text-align:center;
+		padding: 50px 70px;
+		font-size:32px;
+		text-decoration:none;
+		font-family:sans-serif;
+	}
+	
+	#barr a:hover {
+		color:#0033A0;
+		
+	}
+	
+	#main{
+		position:relative;
+		height:100%;
+		width:100%;
+		top:142.88px;
+		background-color:gray;
+	}
+	
+	body{
+		margin:0px;
+		background-color:gray;
+	}
+	#webdtext{
+		position:absolute;
+		top:545px;
+		height:500px;
+		width:100%;
+		background-color:gray;
+		
+	}
+	
+	#progtext{
+		position:absolute;
+		top:1545px;
+		height:500px;
+		background-color:gray;
+		
+	}
+	
+	#gametxt{
+		position:absolute;
+		top:2400px;
+		height:500px;
+		background-color:gray;
+		
+	}
+	
+	#apcstxt{
+		position:absolute;
+		top:3300px;
+		height:500px;
+		background-color:gray;
+	}
