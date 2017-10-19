@@ -67,7 +67,6 @@
 	}
 	
 	#top{
-		height:145px;
 		width:100%;
 		background-color:#444444;
 		position:fixed;
@@ -76,7 +75,14 @@
 	
 	}
 	
+	#logo{
+		height:100px;
+		width:176.83px;
+		
+	}
+	
 	#bar {
+		height:80px;
 		overflow:hidden;
 		top:0px;
 		z-index:1;
@@ -84,8 +90,9 @@
 	
 	#barl a{
 		float:left;
-		display:block;
+		height:80px;
 		color:#f2f2f2;
+		display:inline-block;
 		text-align:center;
 		padding: 50px 100px;
 		font-size:32px;
@@ -100,6 +107,7 @@
 	
 	#barr {
 		overflow:hidden;
+		height:80px;
 		top:0px;
 		z-index:1;
 	}
@@ -138,6 +146,7 @@
 		height:500px;
 		width:100%;
 		background-color:gray;
+		margin:8px;
 		
 	}
 	
@@ -146,6 +155,7 @@
 		top:1545px;
 		height:500px;
 		background-color:gray;
+		margin:8px;
 		
 	}
 	
@@ -154,6 +164,7 @@
 		top:2400px;
 		height:500px;
 		background-color:gray;
+		margin:8px;
 		
 	}
 	
@@ -162,4 +173,5 @@
 		top:3300px;
 		height:500px;
 		background-color:gray;
+		margin:8px;
 	}
