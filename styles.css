@@ -9,7 +9,6 @@
 		background-repeat:no-repeat;
 		background-size:cover;
 		z-index:1;
-		
 		opacity:0.5;
 	}
 	#webdh2{
@@ -35,11 +34,19 @@
 		background-repeat:no-repeat;
 		background-size:cover;
 		z-index:1;
+		opacity:0.5;
+		
+	}
+	#progh2{
+		position:absolute;
+		top:1145px;
+		height:400px;
+		width:100%;
+		z-index:2;
 		font-size:80pt;
 		font-family:sans-serif;
 		letter-spacing:15px;
 		color:black;
-		
 	}
 	
 	#gamed{
@@ -53,10 +60,18 @@
 		background-repeat:no-repeat;
 		background-size:cover;
 		z-index:1;
+		opacity:0.5;			
+	}
+	#gamedh2{
+		position:absolute;
+		top:2000px;
+		height:400px;
+		width:100%;
+		z-index:2;
 		font-size:80pt;
 		font-family:sans-serif;
 		letter-spacing:15px;
-		color:black;			
+		color:black;
 	}
 	
 	#apcs{
@@ -70,10 +85,18 @@
 		background-repeat:no-repeat;
 		background-size:cover;
 		z-index:1;
+		opacity:0.5;		
+	}
+	#apcsdh2{
+		position:absolute;
+		top:2900px;
+		height:400px;
+		width:100%;
+		z-index:2;
 		font-size:80pt;
 		font-family:sans-serif;
 		letter-spacing:15px;
-		color:black;			
+		color:black;
 	}
 	
 	#top{
