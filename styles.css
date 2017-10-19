@@ -87,13 +87,13 @@
 		z-index:1;
 		opacity:0.5;		
 	}
-	#apcsdh2{
+	#apcsh2{
 		position:absolute;
 		top:2900px;
 		height:400px;
 		width:100%;
 		z-index:2;
-		font-size:80pt;
+		font-size:60pt;
 		font-family:sans-serif;
 		letter-spacing:15px;
 		color:black;
