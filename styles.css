@@ -9,6 +9,15 @@
 		background-repeat:no-repeat;
 		background-size:cover;
 		z-index:1;
+		
+		opacity:0.5;
+	}
+	#webdh2{
+		position:absolute;
+		top:145px;
+		height:400px;
+		width:100%;
+		z-index:2;
 		font-size:80pt;
 		font-family:sans-serif;
 		letter-spacing:15px;
@@ -30,6 +39,7 @@
 		font-family:sans-serif;
 		letter-spacing:15px;
 		color:black;
+		
 	}
 	
 	#gamed{
@@ -69,10 +79,10 @@
 	#top{
 		height:145px;
 		width:100%;
-		background-color:#444444;
+		background-color:lightgray;
 		position:fixed;
 		top:0px;
-		z-index:2;
+		z-index:3;
 	
 	}
 	
@@ -125,19 +135,19 @@
 		height:100%;
 		width:100%;
 		top:142.88px;
-		background-color:gray;
+		background-color:lightgray;
 	}
 	
 	body{
 		margin:0px;
-		background-color:gray;
+		background-color:lightgray;
 	}
 	#webdtext{
 		position:absolute;
 		top:545px;
 		height:500px;
 		width:100%;
-		background-color:gray;
+		background-color:lightgray;
 		
 	}
 	
@@ -145,7 +155,7 @@
 		position:absolute;
 		top:1545px;
 		height:500px;
-		background-color:gray;
+		background-color:lightgray;
 		
 	}
 	
@@ -153,7 +163,7 @@
 		position:absolute;
 		top:2400px;
 		height:500px;
-		background-color:gray;
+		background-color:lightgray;
 		
 	}
 	
@@ -161,5 +171,5 @@
 		position:absolute;
 		top:3300px;
 		height:500px;
-		background-color:gray;
+		background-color:lightgray;
 	}
