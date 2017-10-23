@@ -11,10 +11,10 @@
 		z-index:1;
 		font-size:80pt;
 		font-family:sans-serif;
-		letter-spacing:15px;
+		letter-spacing:40px;
 		color:black;
 	}
-	
+		
 	#programming{
 		position:absolute;
 		top:1145px;
@@ -28,7 +28,7 @@
 		z-index:1;
 		font-size:80pt;
 		font-family:sans-serif;
-		letter-spacing:15px;
+		letter-spacing:40px;
 		color:black;
 	}
 	
@@ -45,8 +45,8 @@
 		z-index:1;
 		font-size:80pt;
 		font-family:sans-serif;
-		letter-spacing:15px;
-		color:black;			
+		letter-spacing:40px;
+		color:black;		
 	}
 	
 	#apcs{
@@ -62,8 +62,8 @@
 		z-index:1;
 		font-size:80pt;
 		font-family:sans-serif;
-		letter-spacing:15px;
-		color:black;			
+		letter-spacing:40px;
+		color:black;		
 	}
 	
 	#top{
@@ -78,11 +78,14 @@
 	#logo{
 		height:100px;
 		width:176.83px;
+		position:absolute;
+		top:0px;
+		left:44%;
 		
 	}
 	
 	#bar {
-		height:80px;
+		height:145px;
 		overflow:hidden;
 		top:0px;
 		z-index:1;
@@ -90,14 +93,15 @@
 	
 	#barl a{
 		float:left;
-		height:80px;
+		height:145px;
 		color:#f2f2f2;
 		display:inline-block;
 		text-align:center;
-		padding: 50px 100px;
+		padding: 3%;
 		font-size:32px;
 		text-decoration:none;
-		font-family:sans-serif;
+		font-family:"Lucida Console";
+		-webkit-transition:color 0.5s;
 	}
 	
 	#barl a:hover {
@@ -107,7 +111,7 @@
 	
 	#barr {
 		overflow:hidden;
-		height:80px;
+		height:145px;
 		top:0px;
 		z-index:1;
 	}
@@ -117,23 +121,16 @@
 		display:block;
 		color:#f2f2f2;
 		text-align:center;
-		padding: 50px 70px;
+		padding: 4%;
 		font-size:32px;
 		text-decoration:none;
-		font-family:sans-serif;
+		font-family:"Lucida Console";
+		-webkit-transition:color 0.5s;
 	}
 	
 	#barr a:hover {
 		color:#0033A0;
 		
-	}
-	
-	#main{
-		position:relative;
-		height:100%;
-		width:100%;
-		top:142.88px;
-		background-color:gray;
 	}
 	
 	body{
