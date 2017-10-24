@@ -10,17 +10,20 @@
 		background-size:cover;
 		z-index:1;
 		opacity:0.5;
-	}
+		min-width:1400px;
+		}
+
 	#webdh2{
 		position:absolute;
 		top:145px;
 		height:400px;
 		width:100%;
 		z-index:2;
-		font-size:80pt;
+		font-size:500%;
 		font-family:sans-serif;
 		letter-spacing:40px;
 		color:black;
+		min-width:1400px;
 	}
 		
 	#programming{
@@ -35,7 +38,7 @@
 		background-size:cover;
 		z-index:1;
 		opacity:0.5;
-		
+		min-width:1400px;
 	}
 	#progh2{
 		position:absolute;
@@ -43,10 +46,11 @@
 		height:400px;
 		width:100%;
 		z-index:2;
-		font-size:80pt;
+		font-size:500%;
 		font-family:sans-serif;
 		letter-spacing:40px;
 		color:black;
+		min-width:1400px;
 	}
 	
 	#gamed{
@@ -60,7 +64,8 @@
 		background-repeat:no-repeat;
 		background-size:cover;
 		z-index:1;
-		opacity:0.5;			
+		opacity:0.5;
+		min-width:1400px;		
 	}
 	#gamedh2{
 		position:absolute;
@@ -68,10 +73,11 @@
 		height:400px;
 		width:100%;
 		z-index:2;
-		font-size:80pt;
+		font-size:500%;
 		font-family:sans-serif;
 		letter-spacing:15px;
 		color:black;
+		min-width:1400px;
 	}
 	
 	#apcs{
@@ -85,7 +91,8 @@
 		background-repeat:no-repeat;
 		background-size:cover;
 		z-index:1;
-		opacity:0.5;		
+		opacity:0.5;
+		min-width:1400px;		
 	}
 	#apcsh2{
 		position:absolute;
@@ -93,18 +100,19 @@
 		height:400px;
 		width:100%;
 		z-index:2;
-		font-size:60pt;
+		font-size:500%;
 		font-family:sans-serif;
 		letter-spacing:15px;
 		color:black;
+		min-width:1400px;
 	}
 	
 	#top{
 		width:100%;
-		background-color:lightgray;
+		background-color:gray;
 		position:fixed;
 		top:0px;
-		z-index:2;
+		z-index:3;
 	}
 		
 	#logo{
@@ -112,7 +120,7 @@
 		width:176.83px;
 		position:absolute;
 		top:0px;
-		left:42%;
+		left:42.5%;
 	}
 	
 	#bar {
@@ -159,13 +167,13 @@
 	}
 	
 	#barr a:hover {
-		color:#0033A0;
-		
+		color:#0033A0;		
 	}
 	
 	body{
-		margin:0px;
-		background-color:lightgray;
+		margin:0 0 0 0;
+		padding:0 0 0 0;
+		background-color:gray;
 	}
 	#webdtext{
 		position:absolute;
@@ -203,7 +211,7 @@
 	}
 	
 	.icon div{
-		height:4px;
+		height:10px;
 		background-color:white;
 		margin:5px 0;
 		border-radius:25px;
@@ -213,9 +221,9 @@
 	
 	.icon{
 		height:30px;
-		width:30px;
+		width:60px;
 		display:block;
-		margin: 1em 0 0 1em;
+		margin: 2em 0 0 2em;
 		z-index:4;
 	}
 	
@@ -225,19 +233,19 @@
 	}
 	
 	.one{
-		width:30px;
+		width:50px;
 	}
 	
 	.two{
-		width:20px;
+		width:40px;
 	}
 	
 	.three{
-		width:25px;
+		width:45px;
 	}
 	
 	.icon:hover div{
-		width:30px;
+		width:50px;
 		background-color:#0033A0;
 		z-index:4;
 	}
@@ -251,7 +259,7 @@
 		height:100%;
 		width:0px;
 		position:fixed;
-		z-index:3;
+		z-index:4;
 		overflow:hidden;
 		background-color:#333333;
 		float:left;
@@ -265,10 +273,10 @@
 	.nav a{
 		clear:left;
 		color:white;
-		font-size:22px;
+		font-size:60px;
 		display:block;
 		text-decoration:none;
-		padding:10px;
+		padding:25px;
 		float:left;
 		font-family:"Lucida Console";
 		transition:0.5s;
@@ -283,14 +291,14 @@
 		float:right;
 	}
 	
-	@media screen and (min-width: 860px){
+	@media screen and (min-width: 880px){
 		.icon {display:none;}
 	}
 	
-	@media screen and (max-width:860px){
+	@media screen and (max-width:880px){
 		#barl{display:none;}
 		#barr{display:none;}
 		#top{height:150px;}
-		#logo{left:36%;}
+		#logo{left:43%;}
 
 	}
