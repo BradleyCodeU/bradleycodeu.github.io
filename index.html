@@ -2,13 +2,41 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<meta name="viewport" content="width=device-width">
+	
+	<script>
+		function openNav()
+		{
+			document.getElementById("nav").style.width = "250px";
+		}
+		
+		function closeNav()
+		{
+			document.getElementById("nav").style.width = "0px"
+		}
+	</script>
+	
 	<title>
 		Bradley CodeU
 	</title>
 </head>
-
 	<body>
-		<div id="top">
+		<div class="nav" id="nav">
+			<ul>
+				<li><a href="javascript:void(0)" class="close" onClick="closeNav()">&times;</a></li>
+				<li><a href="#webd">Web Design</a></li>
+				<li><a href="#programming">Programming</a>			
+				<li><a href="#apcs">AP Computer Science</a>
+				<li><a href="#gamed">Game Design</a>
+			</ul>
+		</div>
+	
+		<div id="top">			
+			<a class="icon" onclick="openNav()">
+				<div class="one"></div>
+				<div class="two"></div>
+				<div class="three"></div>
+			</a>
+			
 			<div id="bar">
 				<div id="barl">
 					<a href="#webd">Web Design</a>

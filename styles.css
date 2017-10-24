@@ -72,15 +72,14 @@
 		position:fixed;
 		top:0px;
 		z-index:2;
-	
 	}
-	
+		
 	#logo{
 		height:100px;
 		width:176.83px;
 		position:absolute;
 		top:0px;
-		left:44%;
+		left:43%;
 		
 	}
 	
@@ -88,7 +87,6 @@
 		height:145px;
 		overflow:hidden;
 		top:0px;
-		z-index:1;
 	}
 	
 	#barl a{
@@ -125,7 +123,7 @@
 		font-size:32px;
 		text-decoration:none;
 		font-family:"Lucida Console";
-		-webkit-transition:color 0.5s;
+		transition:color 0.5s;
 	}
 	
 	#barr a:hover {
@@ -171,4 +169,96 @@
 		height:500px;
 		background-color:gray;
 		margin:8px;
+	}
+	
+	.icon div{
+		height:4px;
+		background-color:white;
+		margin:5px 0;
+		border-radius:25px;
+		transition:0.3s;
+		z-index:4;
+	}
+	
+	.icon{
+		height:30px;
+		width:30px;
+		display:block;
+		margin: 1em 0 0 1em;
+		z-index:4;
+	}
+	
+	.one{
+		width:30px;
+	}
+	
+	.two{
+		width:20px;
+	}
+	
+	.three{
+		width:25px;
+	}
+	
+	.icon:hover div{
+		width:30px;
+		background-color:#0033A0;
+		z-index:4;
+	}
+	
+	.icon:hover{
+		cursor:pointer;
+	}
+	
+	.nav{
+		margin:0;
+		height:100%;
+		width:0px;
+		position:fixed;
+		z-index:3;
+		overflow-x:hidden;
+		padding-top:60px;
+		background-color:#333333;
+		float:left;
+		padding-top:60px;
+		transition:0.5s;
+	}
+	
+	.nav ul{
+		list-style-type:none;
+	}
+	
+	.nav a{
+		clear:left;
+		color:white;
+		font-size:22px;
+		display:block;
+		text-decoration:none;
+		padding:10px;
+		float:left;
+		top:-200px;
+		font-family:"Lucida Console";
+		transition:0.5s;
+	}
+	
+	.nav a:hover{
+		color:#0033A0;
+		
+	}
+	
+	.close{
+		float:right;
+		margin: 1em 0 0 1em;
+	}
+	
+	@media screen and (min-width: 860px){
+		.icon {display:none;}
+	}
+	
+	@media screen and (max-width:860px){
+		#barl{display:none;}
+		#barr{display:none;}
+		#top{height:150px;}
+		#logo{left:36%;}
+		
 	}
