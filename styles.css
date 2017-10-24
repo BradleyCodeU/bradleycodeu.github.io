@@ -9,6 +9,14 @@
 		background-repeat:no-repeat;
 		background-size:cover;
 		z-index:1;
+		opacity:0.5;
+	}
+	#webdh2{
+		position:absolute;
+		top:145px;
+		height:400px;
+		width:100%;
+		z-index:2;
 		font-size:80pt;
 		font-family:sans-serif;
 		letter-spacing:40px;
@@ -26,6 +34,15 @@
 		background-repeat:no-repeat;
 		background-size:cover;
 		z-index:1;
+		opacity:0.5;
+		
+	}
+	#progh2{
+		position:absolute;
+		top:1145px;
+		height:400px;
+		width:100%;
+		z-index:2;
 		font-size:80pt;
 		font-family:sans-serif;
 		letter-spacing:40px;
@@ -43,10 +60,18 @@
 		background-repeat:no-repeat;
 		background-size:cover;
 		z-index:1;
+		opacity:0.5;			
+	}
+	#gamedh2{
+		position:absolute;
+		top:2000px;
+		height:400px;
+		width:100%;
+		z-index:2;
 		font-size:80pt;
 		font-family:sans-serif;
-		letter-spacing:40px;
-		color:black;		
+		letter-spacing:15px;
+		color:black;
 	}
 	
 	#apcs{
@@ -60,15 +85,23 @@
 		background-repeat:no-repeat;
 		background-size:cover;
 		z-index:1;
-		font-size:80pt;
+		opacity:0.5;		
+	}
+	#apcsh2{
+		position:absolute;
+		top:2900px;
+		height:400px;
+		width:100%;
+		z-index:2;
+		font-size:60pt;
 		font-family:sans-serif;
-		letter-spacing:40px;
-		color:black;		
+		letter-spacing:15px;
+		color:black;
 	}
 	
 	#top{
 		width:100%;
-		background-color:#444444;
+		background-color:lightgray;
 		position:fixed;
 		top:0px;
 		z-index:2;
@@ -80,7 +113,6 @@
 		position:absolute;
 		top:0px;
 		left:42%;
-		
 	}
 	
 	#bar {
@@ -133,7 +165,7 @@
 	
 	body{
 		margin:0px;
-		background-color:gray;
+		background-color:lightgray;
 	}
 	#webdtext{
 		position:absolute;
@@ -142,7 +174,6 @@
 		width:100%;
 		background-color:gray;
 		margin:8px;
-		
 	}
 	
 	#progtext{
@@ -151,7 +182,6 @@
 		height:500px;
 		background-color:gray;
 		margin:8px;
-		
 	}
 	
 	#gametxt{
@@ -160,6 +190,7 @@
 		height:500px;
 		background-color:gray;
 		margin:8px;
+
 		
 	}
 	
@@ -261,5 +292,5 @@
 		#barr{display:none;}
 		#top{height:150px;}
 		#logo{left:36%;}
-		
+
 	}
