@@ -188,6 +188,11 @@
 		z-index:4;
 	}
 	
+	#lines{
+		margin-top:1px;
+		margin-left:7px;
+	}
+	
 	.one{
 		width:30px;
 	}
@@ -211,16 +216,14 @@
 	}
 	
 	.nav{
-		margin:0;
+		margin:0px;
 		height:100%;
 		width:0px;
 		position:fixed;
 		z-index:3;
-		overflow-x:hidden;
-		padding-top:60px;
+		overflow:hidden;
 		background-color:#333333;
 		float:left;
-		padding-top:60px;
 		transition:0.5s;
 	}
 	
@@ -236,7 +239,6 @@
 		text-decoration:none;
 		padding:10px;
 		float:left;
-		top:-200px;
 		font-family:"Lucida Console";
 		transition:0.5s;
 	}
@@ -248,7 +250,6 @@
 	
 	.close{
 		float:right;
-		margin: 1em 0 0 1em;
 	}
 	
 	@media screen and (min-width: 860px){
