@@ -101,10 +101,10 @@
 	
 	#top{
 		width:100%;
-		background-color:lightgray;
+		background-color:gray;
 		position:fixed;
 		top:0px;
-		z-index:2;
+		z-index:3;
 	}
 		
 	#logo{
@@ -165,7 +165,7 @@
 	
 	body{
 		margin:0px;
-		background-color:lightgray;
+		background-color:gray;
 	}
 	#webdtext{
 		position:absolute;
