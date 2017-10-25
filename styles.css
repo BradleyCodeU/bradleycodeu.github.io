@@ -118,6 +118,7 @@
 		position:fixed;
 		top:0px;
 		z-index:3;
+		border-bottom:thick solid #000000;
 	}
 		
 	#logo{
@@ -134,16 +135,21 @@
 		top:0px;
 	}
 	
+	#barl{
+		top:0px;
+		
+	}
+	
 	#barl a{
 		float:left;
 		height:145px;
 		color:#f2f2f2;
 		display:inline-block;
 		text-align:center;
-		padding: 3%;
-		font-size:32px;
+		padding: 50px 10px 10px 60px;
+		font-size:23px;
 		text-decoration:none;
-		font-family:"Lucida Console";
+		font-family: 'Press Start 2P', cursive;
 		-webkit-transition:color 0.5s;
 	}
 	
@@ -164,10 +170,10 @@
 		display:block;
 		color:#f2f2f2;
 		text-align:center;
-		padding: 4%;
-		font-size:32px;
+		padding: 50px 60px 10px 10px;
+		font-size:23px;
 		text-decoration:none;
-		font-family:"Lucida Console";
+		font-family: 'Press Start 2P', cursive;
 		transition:color 0.5s;
 	}
 	
