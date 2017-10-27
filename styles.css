@@ -3,9 +3,9 @@
 		
 	}
 	
-	#webd{
+	div#webd{
 		position:absolute;
-		top:145px;
+		top:139px;
 		height:400px;
 		width:100%;
 		background-image:url("images/webd.jpg");
@@ -18,9 +18,9 @@
 		min-width:1400px;
 		}
 
-	#webdh2{
+	div#webdh2{
 		position:absolute;
-		top:145px;
+		top:139px;
 		height:400px;
 		width:100%;
 		z-index:2;
@@ -31,7 +31,7 @@
 		min-width:1400px;
 	}
 		
-	#programming{
+	div#programming{
 		position:absolute;
 		top:1145px;
 		height:400px;
@@ -45,7 +45,7 @@
 		opacity:0.5;
 		min-width:1400px;
 	}
-	#progh2{
+	div#progh2{
 		position:absolute;
 		top:1145px;
 		height:400px;
@@ -58,7 +58,7 @@
 		min-width:1400px;
 	}
 	
-	#gamed{
+	div#gamed{
 		position:absolute;
 		top:2000px;
 		height:400px;
@@ -72,7 +72,7 @@
 		opacity:0.5;
 		min-width:1400px;		
 	}
-	#gamedh2{
+	div#gamedh2{
 		position:absolute;
 		top:2000px;
 		height:400px;
@@ -85,7 +85,7 @@
 		min-width:1400px;
 	}
 	
-	#apcs{
+	div#apcs{
 		position:absolute;
 		top:2900px;
 		height:400px;
@@ -99,7 +99,7 @@
 		opacity:0.5;
 		min-width:1400px;		
 	}
-	#apcsh2{
+	div#apcsh2{
 		position:absolute;
 		top:2900px;
 		height:400px;
@@ -112,7 +112,7 @@
 		min-width:1400px;
 	}
 	
-	#top{
+	div#top{
 		width:100%;
 		background-color:gray;
 		position:fixed;
@@ -121,7 +121,7 @@
 		border-bottom:thick solid #000000;
 	}
 		
-	#logo{
+	div#logo{
 		height:100%;
 		width:33.3%;
 		position:absolute;
@@ -144,7 +144,7 @@
 		display:inline-block;
 		text-align:center;
 		padding: 50px 10px 50px 60px;
-		font-size:38px;
+		font-size:30px;
 		text-decoration:none;
 		font-family: Arial;
 		-webkit-transition:color 0.5s;
@@ -170,7 +170,7 @@
 		color:#f2f2f2;
 		text-align:center;
 		padding-left:10px;
-		font-size:38px;
+		font-size:30px;
 		padding: 50px 60px 50px 10px;
 		text-decoration:none;
 		font-family: Arial;
@@ -185,7 +185,7 @@
 		margin:0px;
 		background-color:gray;
 	}
-	#webdtext{
+	div#webdtext{
 		position:absolute;
 		top:545px;
 		height:500px;
@@ -194,7 +194,7 @@
 		margin:8px;
 	}
 	
-	#progtext{
+	div#progtext{
 		position:absolute;
 		top:1545px;
 		height:500px;
@@ -202,7 +202,7 @@
 		margin:8px;
 	}
 	
-	#gametxt{
+	div#gametxt{
 		position:absolute;
 		top:2400px;
 		height:500px;
@@ -212,7 +212,7 @@
 		
 	}
 	
-	#apcstxt{
+	div#apcstxt{
 		position:absolute;
 		top:3300px;
 		height:500px;
