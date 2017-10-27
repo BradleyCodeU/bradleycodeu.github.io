@@ -122,34 +122,31 @@
 	}
 		
 	#logo{
-		height:100px;
-		width:176.83px;
+		height:100%;
+		width:33.3%;
 		position:absolute;
-		top:0px;
-		left:41%;
+		display:inline-block;
+		top:20px;
+		left:30%;
 	}
-	
-	#bar {
-		height:145px;
-		overflow:hidden;
+		
+	div#barl{
 		top:0px;
-	}
-	
-	#barl{
-		top:0px;
+		width:33.3%;
+		float:left;
+		height:100%;
 		
 	}
 	
 	#barl a{
 		float:left;
-		height:145px;
 		color:#f2f2f2;
 		display:inline-block;
 		text-align:center;
-		padding: 50px 10px 10px 60px;
-		font-size:23px;
+		padding: 50px 0px 50px 60px;
+		font-size:38px;
 		text-decoration:none;
-		font-family: 'Press Start 2P', cursive;
+		font-family: Arial;
 		-webkit-transition:color 0.5s;
 	}
 	
@@ -158,22 +155,25 @@
 		
 	}
 	
-	#barr {
+	div#barr {
 		overflow:hidden;
-		height:145px;
+		height:100%;
 		top:0px;
 		z-index:1;
+		width:39.5%;
+		float:right;
 	}
 	
 	#barr a{
 		float:right;
-		display:block;
+		display:inline-block;
 		color:#f2f2f2;
 		text-align:center;
-		padding: 50px 60px 10px 10px;
-		font-size:23px;
+		padding-left:10px;
+		font-size:38px;
+		padding: 50px 60px 50px 10px;
 		text-decoration:none;
-		font-family: 'Press Start 2P', cursive;
+		font-family: Arial;
 		transition:color 0.5s;
 	}
 	
@@ -288,7 +288,7 @@
 		text-decoration:none;
 		padding:25px;
 		float:left;
-		font-family:"Lucida Console";
+		font-family:sans-serif;
 		transition:0.5s;
 	}
 	
@@ -309,6 +309,6 @@
 		#barl{display:none;}
 		#barr{display:none;}
 		#top{height:150px;}
-		#logo{left:43%;}
+		#logo{left:40%;}
 
 	}
