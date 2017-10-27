@@ -3,9 +3,9 @@
 		
 	}
 	
-	#webd{
+	div#webd{
 		position:absolute;
-		top:145px;
+		top:139px;
 		height:400px;
 		width:100%;
 		background-image:url("images/webd.jpg");
@@ -18,9 +18,9 @@
 		min-width:1400px;
 		}
 
-	#webdh2{
+	div#webdh2{
 		position:absolute;
-		top:145px;
+		top:139px;
 		height:400px;
 		width:100%;
 		z-index:2;
@@ -31,7 +31,7 @@
 		min-width:1400px;
 	}
 		
-	#programming{
+	div#programming{
 		position:absolute;
 		top:1145px;
 		height:400px;
@@ -45,7 +45,7 @@
 		opacity:0.5;
 		min-width:1400px;
 	}
-	#progh2{
+	div#progh2{
 		position:absolute;
 		top:1145px;
 		height:400px;
@@ -58,7 +58,7 @@
 		min-width:1400px;
 	}
 	
-	#gamed{
+	div#gamed{
 		position:absolute;
 		top:2000px;
 		height:400px;
@@ -72,7 +72,7 @@
 		opacity:0.5;
 		min-width:1400px;		
 	}
-	#gamedh2{
+	div#gamedh2{
 		position:absolute;
 		top:2000px;
 		height:400px;
@@ -85,7 +85,7 @@
 		min-width:1400px;
 	}
 	
-	#apcs{
+	div#apcs{
 		position:absolute;
 		top:2900px;
 		height:400px;
@@ -99,7 +99,7 @@
 		opacity:0.5;
 		min-width:1400px;		
 	}
-	#apcsh2{
+	div#apcsh2{
 		position:absolute;
 		top:2900px;
 		height:400px;
@@ -112,44 +112,41 @@
 		min-width:1400px;
 	}
 	
-	#top{
+	div#top{
 		width:100%;
 		background-color:gray;
 		position:fixed;
 		top:0px;
 		z-index:3;
-		border-bottom:thick solid #000000;
+		border-bottom:thick solid #555555;
 	}
 		
-	#logo{
-		height:100px;
-		width:176.83px;
+	div#logo{
+		height:100%;
+		width:229.89px;
 		position:absolute;
-		top:0px;
+		display:inline-block;
+		top:5px;
 		left:41%;
 	}
-	
-	#bar {
-		height:145px;
-		overflow:hidden;
+		
+	div#barl{
 		top:0px;
-	}
-	
-	#barl{
-		top:0px;
+		width:33.3%;
+		float:left;
+		height:100%;
 		
 	}
 	
 	#barl a{
 		float:left;
-		height:145px;
 		color:#f2f2f2;
 		display:inline-block;
 		text-align:center;
-		padding: 50px 10px 10px 60px;
-		font-size:23px;
+		padding: 50px 10px 50px 60px;
+		font-size:30px;
 		text-decoration:none;
-		font-family: 'Press Start 2P', cursive;
+		font-family: Arial;
 		-webkit-transition:color 0.5s;
 	}
 	
@@ -158,22 +155,25 @@
 		
 	}
 	
-	#barr {
+	div#barr {
 		overflow:hidden;
-		height:145px;
+		height:100%;
 		top:0px;
 		z-index:1;
+		width:39.5%;
+		float:right;
 	}
 	
 	#barr a{
 		float:right;
-		display:block;
+		display:inline-block;
 		color:#f2f2f2;
 		text-align:center;
-		padding: 50px 60px 10px 10px;
-		font-size:23px;
+		padding-left:10px;
+		font-size:30px;
+		padding: 50px 60px 50px 10px;
 		text-decoration:none;
-		font-family: 'Press Start 2P', cursive;
+		font-family: Arial;
 		transition:color 0.5s;
 	}
 	
@@ -185,7 +185,7 @@
 		margin:0px;
 		background-color:gray;
 	}
-	#webdtext{
+	div#webdtext{
 		position:absolute;
 		top:545px;
 		height:500px;
@@ -194,7 +194,7 @@
 		margin:8px;
 	}
 	
-	#progtext{
+	div#progtext{
 		position:absolute;
 		top:1545px;
 		height:500px;
@@ -202,7 +202,7 @@
 		margin:8px;
 	}
 	
-	#gametxt{
+	div#gametxt{
 		position:absolute;
 		top:2400px;
 		height:500px;
@@ -212,7 +212,7 @@
 		
 	}
 	
-	#apcstxt{
+	div#apcstxt{
 		position:absolute;
 		top:3300px;
 		height:500px;
@@ -288,7 +288,7 @@
 		text-decoration:none;
 		padding:25px;
 		float:left;
-		font-family:"Lucida Console";
+		font-family:sans-serif;
 		transition:0.5s;
 	}
 	
@@ -309,6 +309,6 @@
 		#barl{display:none;}
 		#barr{display:none;}
 		#top{height:150px;}
-		#logo{left:43%;}
+		
 
 	}
