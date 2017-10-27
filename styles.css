@@ -118,16 +118,16 @@
 		position:fixed;
 		top:0px;
 		z-index:3;
-		border-bottom:thick solid #000000;
+		border-bottom:thick solid #555555;
 	}
 		
 	div#logo{
 		height:100%;
-		width:33.3%;
+		width:229.89px;
 		position:absolute;
 		display:inline-block;
 		top:5px;
-		left:30%;
+		left:41%;
 	}
 		
 	div#barl{
