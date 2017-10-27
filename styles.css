@@ -126,7 +126,7 @@
 		width:33.3%;
 		position:absolute;
 		display:inline-block;
-		top:20px;
+		top:5px;
 		left:30%;
 	}
 		
@@ -143,7 +143,7 @@
 		color:#f2f2f2;
 		display:inline-block;
 		text-align:center;
-		padding: 50px 0px 50px 60px;
+		padding: 50px 10px 50px 60px;
 		font-size:38px;
 		text-decoration:none;
 		font-family: Arial;
@@ -309,6 +309,6 @@
 		#barl{display:none;}
 		#barr{display:none;}
 		#top{height:150px;}
-		#logo{left:40%;}
+		
 
 	}
