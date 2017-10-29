@@ -123,6 +123,7 @@
 	div#logoparent{
 		position:fixed;
 		top:0px;
+		height:0px;
 		width:100%;
 	}
 	div#logo{
