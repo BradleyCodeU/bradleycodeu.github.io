@@ -132,7 +132,7 @@
 
 	div#barl{
 		top:0px;
-		width:33.3%;
+		width:30%;
 		float:left;
 		height:100%;
 
@@ -142,8 +142,9 @@
 		float:left;
 		color:#f2f2f2;
 		display:inline-block;
-		text-align:center;
+		text-align:left;
 		padding: 50px 30px;
+		min-width:356px;
 		font-size:30px;
 		text-decoration:none;
 		font-family: Arial;
@@ -160,7 +161,7 @@
 		height:100%;
 		top:0px;
 		z-index:1;
-		width:39.5%;
+		width:30%;
 		float:right;
 	}
 
@@ -168,10 +169,11 @@
 		float:right;
 		display:inline-block;
 		color:#f2f2f2;
-		text-align:center;
+		text-align:right;
+		min-width:356px;
 		padding-left:10px;
 		font-size:30px;
-		padding: 50px 30px;
+		padding: 50px 20px;
 		text-decoration:none;
 		font-family: Arial;
 		transition:color 0.5s;
