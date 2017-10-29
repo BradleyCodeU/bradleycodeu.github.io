@@ -120,19 +120,23 @@
 		z-index:3;
 		border-bottom:thick solid #555555;
 	}
-
+	div#logoparent{
+		position:fixed;
+		width:100%;
+	}
 	div#logo{
 		height:100%;
 		width:229.89px;
-		position:absolute;
-		display:inline-block;
-		top:5px;
-		left:41%;
+		margin:5px auto;
+		/*position:absolute;*/
+		/*display:inline-block;*/
+		/*top:5px;*/
+		/*left:41%;*/
 	}
 
 	div#barl{
 		top:0px;
-		width:30%;
+		width:35%;
 		float:left;
 		height:100%;
 
@@ -142,9 +146,9 @@
 		float:left;
 		color:#f2f2f2;
 		display:inline-block;
-		text-align:left;
+		text-align:center;
 		padding: 50px 30px;
-		min-width:356px;
+		width:300px;
 		font-size:30px;
 		text-decoration:none;
 		font-family: Arial;
@@ -161,7 +165,7 @@
 		height:100%;
 		top:0px;
 		z-index:1;
-		width:30%;
+		width:35%;
 		float:right;
 	}
 
@@ -169,11 +173,10 @@
 		float:right;
 		display:inline-block;
 		color:#f2f2f2;
-		text-align:right;
-		min-width:356px;
-		padding-left:10px;
+		text-align:center;
+		min-width:300px;
 		font-size:30px;
-		padding: 50px 20px;
+		padding: 50px 30px;
 		text-decoration:none;
 		font-family: Arial;
 		transition:color 0.5s;
