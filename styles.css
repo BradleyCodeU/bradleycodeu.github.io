@@ -134,7 +134,7 @@
 
 	div#barl{
 		top:0px;
-		width:35%;
+		width:45%;
 		float:left;
 		height:100%;
 	}
@@ -162,7 +162,7 @@
 		height:100%;
 		top:0px;
 		z-index:1;
-		width:35%;
+		width:45%;
 		float:right;
 	}
 
