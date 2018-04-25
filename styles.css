@@ -1,320 +1,50 @@
-	h2{
-	font-weight:100;
-
-	}
-
-	div#webd{
-		position:absolute;
-		top:133px;
-		height:400px;
-		width:100%;
-		background-image:url("images/webd.jpg");
-		background-attachment:fixed;
-		background-position:center;
-		background-repeat:no-repeat;
-		background-size:cover;
-		z-index:1;
-		opacity:0.5;
-		min-width:1400px;
-		}
-
-	div#webdh2{
-		position:absolute;
-		top:133px;
-		height:400px;
-		width:100%;
-		z-index:2;
-		font-size:500%;
-		font-family:sans-serif;
-		letter-spacing:40px;
-		color:black;
-		min-width:1400px;
-	}
-
-	div#programming{
-		position:absolute;
-		top:1145px;
-		height:400px;
-		width:100%;
-		background-image:url("images/prog.jpg");
-		background-attachment:fixed;
-		background-position:center;
-		background-repeat:no-repeat;
-		background-size:cover;
-		z-index:1;
-		opacity:0.5;
-		min-width:1400px;
-	}
-	div#progh2{
-		position:absolute;
-		top:1145px;
-		height:400px;
-		width:100%;
-		z-index:2;
-		font-size:500%;
-		font-family:sans-serif;
-		letter-spacing:40px;
-		color:black;
-		min-width:1400px;
-	}
-
-	div#gamed{
-		position:absolute;
-		top:2000px;
-		height:400px;
-		width:100%;
-		background-image:url("images/gamed.jpg");
-		background-attachment:fixed;
-		background-position:center;
-		background-repeat:no-repeat;
-		background-size:cover;
-		z-index:1;
-		opacity:0.5;
-		min-width:1400px;
-	}
-	div#gamedh2{
-		position:absolute;
-		top:2000px;
-		height:400px;
-		width:100%;
-		z-index:2;
-		font-size:500%;
-		font-family:sans-serif;
-		letter-spacing:15px;
-		color:black;
-		min-width:1400px;
-	}
-
-	div#apcs{
-		position:absolute;
-		top:2900px;
-		height:400px;
-		width:100%;
-		background-image:url("images/apcs.jpg");
-		background-attachment:fixed;
-		background-position:center;
-		background-repeat:no-repeat;
-		background-size:cover;
-		z-index:1;
-		opacity:0.5;
-		min-width:1400px;
-	}
-	div#apcsh2{
-		position:absolute;
-		top:2900px;
-		height:400px;
-		width:100%;
-		z-index:2;
-		font-size:500%;
-		font-family:sans-serif;
-		letter-spacing:15px;
-		color:black;
-		min-width:1400px;
-	}
-
-	div#top{
-		width:100%;
-		background-color:gray;
-		position:fixed;
-		top:0px;
-		z-index:3;
-		border-bottom:thick solid #555555;
-	}
-	div#logoparent{
-		position:fixed;
-		top:0px;
-		height:0px;
-		width:100%;
-	}
-	div#logo{
-		height:100%;
-		width:229.89px;
-		margin:5px auto;
-		/*position:absolute;*/
-		/*display:inline-block;*/
-		/*top:5px;*/
-		/*left:41%;*/
-	}
-
-	div#barl{
-		top:0px;
-		width:48%;
-		float:left;
-		height:100%;
-	}
-
-	#barl a{
-		float:left;
-		color:#f2f2f2;
-		display:inline-block;
-		text-align:center;
-		padding: 50px 30px;
-		width:300px;
-		font-size:25px;
-		text-decoration:none;
-		font-family: Arial;
-		-webkit-transition:color 0.5s;
-	}
-
-	#barl a:hover {
-		color:#0033A0;
-
-	}
-
-	div#barr {
-		/*overflow:hidden;*/
-		height:100%;
-		top:0px;
-		z-index:1;
-		width:48%;
-		float:right;
-	}
-
-	#barr a{
-		float:right;
-		display:inline-block;
-		color:#f2f2f2;
-		text-align:center;
-		min-width:300px;
-		font-size:25px;
-		padding: 50px 30px;
-		text-decoration:none;
-		font-family: Arial;
-		transition:color 0.5s;
-	}
-
-	#barr a:hover {
-		color:#0033A0;
-	}
-
-	body{
-		margin:0px;
-		background-color:gray;
-	}
-	div#webdtext{
-		position:absolute;
-		top:545px;
-		height:500px;
-		width:100%;
-		background-color:gray;
-		margin:8px;
-	}
-
-	div#progtext{
-		position:absolute;
-		top:1545px;
-		height:500px;
-		background-color:gray;
-		margin:8px;
-	}
-
-	div#gametxt{
-		position:absolute;
-		top:2400px;
-		height:500px;
-		background-color:gray;
-		margin:8px;
+#navBar
+{
+	height:80px;
+	background-color:gray;
+	border-radius:0px;
+	border-bottom:thick solid;
+	border-color:#555555;
+}
 
 
-	}
-
-	div#apcstxt{
-		position:absolute;
-		top:3300px;
-		height:500px;
-		background-color:gray;
-		margin:8px;
-	}
-
-	.icon div{
-		height:10px;
-		background-color:white;
-		margin:5px 0;
-		border-radius:25px;
-		transition:0.3s;
-		z-index:4;
-	}
-
-	.icon{
-		height:30px;
-		width:60px;
-		display:block;
-		margin: 2em 0 0 2em;
-		z-index:4;
-	}
-
-	#lines{
-		margin-top:1px;
-		margin-left:7px;
-	}
-
-	.one{
-		width:50px;
-	}
-
-	.two{
-		width:40px;
-	}
-
-	.three{
-		width:45px;
-	}
-
-	.icon:hover div{
-		width:50px;
-		background-color:#0033A0;
-		z-index:4;
-	}
-
-	.icon:hover{
-		cursor:pointer;
-	}
-
-	.nav{
-		margin:0px;
-		height:100%;
-		width:0px;
-		position:fixed;
-		z-index:4;
-		overflow:hidden;
-		background-color:#333333;
-		float:left;
-		transition:0.5s;
-	}
-
-	.nav ul{
-		list-style-type:none;
-	}
-
-	.nav a{
-		clear:left;
-		color:white;
-		font-size:60px;
-		display:block;
-		text-decoration:none;
-		padding:25px;
-		float:left;
-		font-family:sans-serif;
-		transition:0.5s;
-	}
-
-	.nav a:hover{
-		color:#0033A0;
-
-	}
-
-	.close{
-		float:right;
-	}
-
-	@media screen and (min-width: 880px){
-		.icon {display:none;}
-	}
-
-	@media screen and (max-width:880px){
-		#barl{display:none;}
-		#barr{display:none;}
-		#top{height:150px;}
+.navbar-nav.navbar-center, .navbar-header-center 
+{
+	margin-left: 50%;
+	transform: translateX(-50%);
+}
 
 
-	}
+.parallax-window {
+    min-height: 400px;
+	min-width:1200px;
+    background: transparent;
+	text-align:center;
+	padding-top:130px;
+}
+
+section
+{
+	padding:25px 10px 35px;
+	background-color:gray;
+}
+
+
+.parallax-mirror
+{
+	top:80px;
+	opacity:.7;
+}
+
+.paraHead
+{
+	font-size:6.5em;
+	color:black;
+	font-weight:300;
+	letter-spacing:40px;
+}
+
+.col-sm-6
+{
+	
+}

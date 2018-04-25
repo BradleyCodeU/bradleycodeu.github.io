@@ -1,93 +1,59 @@
+<!DOCTYPE html>
 <html>
-<head>
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
-	<meta name="viewport" content="width=device-width" >
-	<meta name="theme-color" content="#0033A0" />
-
-	<script>
-		function openNav()
-		{
-			document.getElementById("nav").style.width = "500px";
-		}
-
-		function closeNav()
-		{
-			document.getElementById("nav").style.width = "0px"
-		}
-	</script>
-
-	<title>
-		Bradley Code U
-	</title>
-</head>
-	<body>
-		<div class="nav" id="nav">
-			<a class="icon" id="lines" onclick="closeNav()" onblur="closeNav()">
-				<div class="one"></div>
-				<div class="two"></div>
-				<div class="three"></div>
-			</a>
-
-			<ul>
-				<li><a href="#webd" onclick="closeNav()">Web Design</a></li>
-				<li><a href="#programming" onclick="closeNav()">Programming</a>
-				<li><a href="#apcs" onclick="closeNav()">AP Computer Science</a>
-				<li><a href="#gamed" onclick="closeNav()">Game Design</a>
-			</ul>
-		</div>
-
-		<div id="top">
-			<a class="icon" onclick="openNav()">
-				<div class="one"></div>
-				<div class="two"></div>
-				<div class="three"></div>
-			</a>
-				<div id="logoparent">
-					<div id="logo">
-						<img src="images/bradleycodeu.png" alt="Bradley Code U logo" height=130px>
+	<head>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+		<meta name="viewport" content="width=device-width" >
+		<title>Bradley Code U</title>
+	</head>
+	
+	<body style="background-color:gray">
+		<nav id="navBar" class="navbar fixed-top navbar-light">
+			<div class="container-fluid">
+				<div class="navbar-header navbar-header-center">
+					<a class="navbar-brand" href="#">
+						<img src="images/bradleycodeu.png" height="75px" >
+					</a>
+				</div>
+			<div>
+		</nav>
+		<div class="parallax-window" data-parallax="scroll" data-image-src="images/webd.jpg"><h1 class="paraHead">WEB DESIGN</h1></div>
+		<section>
+			<center>
+				<h1>What Will You Learn?</h1>
+				<p>In this course you will learn basic HTML, CSS, and Javascript.</p>
+			</center>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-6">
+						<h1>HTML & CSS Projects</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>	
+					<div class="col-sm-6">
+						<h1>JavaScript Projects</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					</div>
 				</div>
-
-				<div id="barl">
-						<a href="#webd">Web Design</a>
-						<a href="#programming">Programming</a>
-				</div>
-				<div id="barr">
-					<a href="#apcs">AP Computer Science</a>
-					<a href="#gamed">Game Design</a>
 			</div>
-
-
-		</div>
-		<div id="webd"></div>
-		<div id="webdh2"><h2><center>WEB DESIGN</center></h2></div>
-
-		<div id="webdtext">
-			<h1>What Will You Learn?</h1>
-			<p>In this course you will learn basic HTML, CSS, and Javascript.</p>
-		</div>
-
-		<div id="programming"></div>
-		<div id="progh2"><h2><center>PROGRAMMING</center></h2></div>
-
-		<div id="progtext">
-			<h1>some text about programming</h1>
-		</div>
-		<div id="gamed"></div>
-		<div id="gamedh2"><h2><center>GAME DESIGN</center></h2></div>
-
-		<div id="gametxt">
-			<h1>some text about game design</h1>
-		</div>
-
-		<div id="apcs"></div>
-		<div id="apcsh2"><h2><center>AP COMPUTER SCIENCE</center></h2></div>
-
-
-		<div id="apcstxt">
-			<h1>some text about computer science</h1>
-		</div>
-
-	</body>
+		</section>
+		<div class="parallax-window" data-parallax="scroll" data-image-src="images/prog.jpg" width="100%"><h1 class="paraHead">PROGRAMMING</h1></div>
+		<section>
+			<h1>Some text about programming</h1>
+		</section>
+		<div class="parallax-window" data-parallax="scroll" data-image-src="images/gamed.jpg" width="100%"><h1 class="paraHead">GAME DESIGN</h1></div>
+		<section>
+			<h1>Some text about game design</h1>
+		</section>
+		<div class="parallax-window" data-parallax="scroll" data-image-src="images/apcs.jpg" width="100%"><h1 class="paraHead">AP COMPUTER SCIENCE</h1></div>
+		<section>
+			<h1>Some text about apcs</h1>
+		</section>
+	</body>	
 </html>
+
