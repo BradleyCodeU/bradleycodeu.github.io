@@ -8,7 +8,7 @@
 }
 
 
-.navbar-nav.navbar-center, .navbar-header-center 
+.navbar-nav.navbar-center, .navbar-header-center
 {
 	margin-left: 50%;
 	transform: translateX(-50%);
@@ -17,10 +17,16 @@
 
 .parallax-window {
     min-height: 400px;
-	min-width:1200px;
+		/*min-width:1200px;*/
+		min-width:0;
     background: transparent;
+		background-color:rgba(255, 255, 255, 0.2);
 	text-align:center;
 	padding-top:130px;
+}
+
+header{
+	height:80px;
 }
 
 section
@@ -46,5 +52,11 @@ section
 
 .col-sm-6
 {
-	
+
+}
+
+.grid-container {
+  display: grid;
+  grid-gap: 20px 20px;
+	grid-template-columns: auto auto;
 }
