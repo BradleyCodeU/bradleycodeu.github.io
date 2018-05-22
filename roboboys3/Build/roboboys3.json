@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "roboboys3.data.unityweb",
+"asmCodeUrl": "roboboys3.asm.code.unityweb",
+"asmMemoryUrl": "roboboys3.asm.memory.unityweb",
+"asmFrameworkUrl": "roboboys3.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#222C36"
+}
