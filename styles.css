@@ -60,3 +60,26 @@ section
   grid-gap: 20px 20px;
 	grid-template-columns: auto auto;
 }
+/* unvisited link */
+a:link {
+    color: darkblue;
+	text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: darkblue;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+	text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color: darkblue;
+	text-decoration: underline;
+}
