@@ -1,11 +1,11 @@
 #navBar
 {
 	height:80px;
-	background-color:gray;
 	border-radius:0px;
 	border-bottom:thick solid;
 	border-color:#555555;
 }
+
 
 
 .navbar-nav.navbar-center, .navbar-header-center
@@ -19,10 +19,49 @@
     min-height: 400px;
 		/*min-width:1200px;*/
 		min-width:0;
-    background: transparent;
-		background-color:rgba(255, 255, 255, 0.2);
+		/* background: transparent;
+		background-color:rgba(5, 5, 255, 0.2); */
 	text-align:center;
 	padding-top:130px;
+}
+/* The hero image */
+.hero-image {
+    /* Set a specific height */
+    /* height: 50%; */
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+		opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+		/* background: rgba(55, 55, 255, 0.3) /* Blue background with 30% opacity */ */
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+		text-shadow: 2px 2px white;
+}
+h2{
+	text-shadow: 1px 1px #999;
+}
+.bg-image-1{
+	background-image: url("images/prog.jpg");
+}
+.bg-image-2{
+	background-image: url("images/webd.jpg");
+}
+.bg-image-3{
+	background-image: url("images/gamed.jpg");
+}
+.bg-image-4{
+	background-image: url("images/apcs.jpg");
 }
 
 header{
@@ -32,9 +71,11 @@ header{
 section
 {
 	padding:25px 10px 35px;
-	background-color:gray;
 }
 
+.main-bg-color{
+	background-color:#58626f; /* The main background color for the navbar and text sections*/
+}
 
 .parallax-mirror
 {
