@@ -63,7 +63,7 @@ div.flex-fill:hover{
 		text-shadow: 2px 2px white;
 }
 h2{
-	text-shadow: 1px 1px #999;
+	text-shadow: 2px 1px black;
 }
 .bg-image-1{
 	background-image: url("images/prog.jpg");
