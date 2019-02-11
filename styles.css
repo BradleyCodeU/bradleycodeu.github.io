@@ -5,7 +5,7 @@
 	border-bottom:thick solid;
 	border-color:#555555;
 }
- img { -webkit-filter: drop-shadow(1px 1px 0px gray); /* Safari 6.0 - 9.0 */ filter: drop-shadow(1px 1px 0px gray); }
+ #navBar img { -webkit-filter: drop-shadow(1px 1px 0px gray); /* Safari 6.0 - 9.0 */ filter: drop-shadow(1px 1px 0px gray); }
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
   cursor: pointer;
@@ -149,7 +149,7 @@ a{
 a:link {
     /* color: rgb(0,0,140); */
 	text-decoration: none;
-	font-weight: 400;
+	font-weight: 100;
 	/* font-size:15pt; */
 	font-size: 150%;
 }
