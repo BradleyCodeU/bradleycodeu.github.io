@@ -5,8 +5,22 @@
 	border-bottom:thick solid;
 	border-color:#555555;
 }
-
-
+.text-large {
+  font-size: 150%;
+}
+div.blackborder{
+	border-radius:10px;
+	box-shadow: 1px 1px 5px black;
+}
+div.bg-white{
+	border-radius:10px;
+}
+div.flex-fill{
+	background-color:white;
+}
+div.flex-fill:hover{
+	background-color:lightgray;
+}
 
 .navbar-nav.navbar-center, .navbar-header-center
 {
@@ -49,7 +63,7 @@
 		text-shadow: 2px 2px white;
 }
 h2{
-	text-shadow: 1px 1px #999;
+	text-shadow: 2px 1px black;
 }
 .bg-image-1{
 	background-image: url("images/prog.jpg");
@@ -101,9 +115,7 @@ section
   grid-gap: 20px 20px;
 	grid-template-columns: auto auto;
 }
-div.flex-fill:hover{
-	background-color:lightgray;
-}
+
 
 a{
 	color: rgb(0,0,140);
