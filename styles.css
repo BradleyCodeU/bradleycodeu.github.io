@@ -5,6 +5,32 @@
 	border-bottom:thick solid;
 	border-color:#555555;
 }
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: center;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+details{
+	transition:1s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+/* .active, .accordion:hover {
+  background-color: #ccc;
+} */
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  /* padding: 0 18px; */
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
 .text-large {
   font-size: 150%;
 }
@@ -15,12 +41,12 @@ div.blackborder{
 div.bg-white{
 	border-radius:10px;
 }
-div.flex-fill{
+/* div.flex-fill{
 	background-color:white;
 }
 div.flex-fill:hover{
 	background-color:lightgray;
-}
+} */
 
 .navbar-nav.navbar-center, .navbar-header-center
 {
@@ -84,12 +110,12 @@ header{
 
 section
 {
-	padding:25px 10px 35px;
+	padding:25px 10px 35px 10px;
 }
 
-.main-bg-color{
-	background-color:#58626f; /* The main background color for the navbar and text sections*/
-}
+/* .main-bg-color{
+	background-color:#58626f; /* The main background color for the navbar and text sections
+} */
 
 .parallax-mirror
 {
@@ -105,10 +131,6 @@ section
 	letter-spacing:40px;
 }
 
-.col-sm-6
-{
-
-}
 
 .grid-container {
   display: grid;
@@ -116,7 +138,7 @@ section
 	grid-template-columns: auto auto;
 }
 
-
+/*
 a{
 	color: rgb(0,0,140);
 	text-decoration: none;
@@ -124,27 +146,28 @@ a{
 
 /* unvisited link */
 a:link {
-    color: rgb(0,0,140);
+    /* color: rgb(0,0,140); */
 	text-decoration: none;
 	font-weight: 400;
-	font-size:15pt;
+	/* font-size:15pt; */
+	font-size: 150%;
 }
 
 /* visited link */
-a:visited {
+/* a:visited {
     color: rgb(50,0,140);
 	text-decoration: none;
 	font-weight: 400;
-}
+} */
 
 /* mouse over link */
-a:hover {
+/* a:hover {
     color: rgb(0,0,140);
 	text-decoration: underline;
-}
+} */
 
 /* selected link */
-a:active {
+/* a:active {
     color: rgb(255,100,100);
 	text-decoration: underline;
-}
+} */
