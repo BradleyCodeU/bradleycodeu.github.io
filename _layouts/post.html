@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/styles.css">
+    <meta name="viewport" content="width=device-width">
+    <!-- <meta name="description" content=""> -->
+    <title>{% if page.title %}{{page.title}} · {% endif %}OhioFi.com</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </head>
+<body class="text-bababa">
+  {% include nav.html navclass="navtop" %}
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-9">
+        <br>
+        <h2>{{page.title}}</h2>
+        <p>
+          {{content}}
+        </p>
+        <br>
+        <hr>
+        <div class="PageNavigation float-left">
+          <div class="card darkbg">
+            <div class="card-body">
+              {% if page.previous.url %}
+                <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+              {% endif %}
+              {% if page.next.url %}
+                <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+        <br>
+      </div>
+      <div class="col-12 col-lg-3">
+        <br>
+        <!-- sidebar -->
+        {% include sidebar.html %}
+      </div>
+    </div>
+  </div>
+  <br>
+  &nbsp;
+  <br>
+  {% include nav.html navclass="navbottom" %}
+</body>
+</html>

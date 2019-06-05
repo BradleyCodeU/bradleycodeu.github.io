@@ -25,7 +25,8 @@ a: link {
 body {
   font-weight: 100 !important;
 	background: #000000;
-	font-size: 1.6rem !important;
+	font-size: 1.3rem !important;
+	font-family: 'Roboto', 'Verdana','Arial', sans-serif;
 }
 
 .card{
@@ -63,6 +64,10 @@ div#navBar img {
 
 .font-weight-100 {
   font-weight: 100 !important;
+}
+
+.footer{
+	margin-bottom: 0 !important;
 }
 
 .grid-container {
@@ -113,7 +118,7 @@ h2 {
 }
 
 section {
-  padding: 25px 10px 35px 10px;
+  padding: 25px 0px 35px 0px;
 }
 
 .text-large {

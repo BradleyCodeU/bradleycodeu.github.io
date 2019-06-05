@@ -1,0 +1,24 @@
+<div class="container">
+  <div class="card darkbg">
+    <div class="card-header">
+    </div>
+    <div class="card-body">
+      <p><a class="text-white" href="https://www.twitter.com/20hz20khz"><small>Follow @20hz20khz on Twitter</small></a></p>
+      <br>
+      <p><a class="text-white" href="https://www.youtube.com/20hz20khz"><small>YouTube.com/20hz20khz</small></a></p>
+      <br>
+      <p>
+        <small>RECENT POSTS</small>
+        <ul>
+          {% for p in site.posts limit:50 %}
+            <li>
+              <a class="text-white" href="{{site.baseurl}}{{p.url}}"><small>{{p.title}}</small></a>
+            </li>
+          {% endfor %}
+        </ul>
+      </p>
+    </div>
+    <div class="card-footer">
+    </div>
+  </div>
+</div>
