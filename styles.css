@@ -16,10 +16,14 @@
   outline: none;
   transition: 0.4s;
 }
+body{
+	font-weight:100!important;
+}
 details{
 	transition:1s;
 }
-
+.font-weight-light {
+    font-weight: 100!important;
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 /* .active, .accordion:hover {
   background-color: #ccc;
@@ -34,6 +38,7 @@ details{
 }
 .text-large {
   font-size: 150%;
+	font-weight:100!important;
 }
 div.blackborder{
 	border-radius:10px;
@@ -128,7 +133,7 @@ section
 {
 	font-size:6.5em;
 	color:black;
-	font-weight:300;
+	font-weight:100!important;
 	letter-spacing:40px;
 }
 
@@ -149,7 +154,7 @@ a{
 a:link {
     /* color: rgb(0,0,140); */
 	text-decoration: none;
-	font-weight: 100;
+	font-weight:100!important;
 	/* font-size:15pt; */
 	font-size: 150%;
 }
