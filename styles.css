@@ -1,179 +1,169 @@
-#navBar
-{
-	height:80px;
-	border-radius:0px;
-	border-bottom:thick solid;
-	border-color:#555555;
-}
- #navBar img { -webkit-filter: drop-shadow(1px 1px 0px gray); /* Safari 6.0 - 9.0 */ filter: drop-shadow(1px 1px 0px gray); }
-/* Style the buttons that are used to open and close the accordion panel */
-.accordion {
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  text-align: center;
-  border: none;
-  outline: none;
-  transition: 0.4s;
-}
-body{
-	font-weight:100!important;
-}
-details{
-	transition:1s;
-}
-.font-weight-light {
-    font-weight: 100!important;
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-/* .active, .accordion:hover {
-  background-color: #ccc;
-} */
-
-/* Style the accordion panel. Note: hidden by default */
-.panel {
-  /* padding: 0 18px; */
-  background-color: white;
-  display: none;
-  overflow: hidden;
-}
-.text-large {
+a: link {
+  /* color: rgb(0,0,140); */
+  text-decoration: none;
+  font-weight: 100 !important;
+  /* font-size: 15pt; */
   font-size: 150%;
-	font-weight:100!important;
-}
-div.blackborder{
-	border-radius:10px;
-	box-shadow: 1px 1px 5px black;
-}
-div.bg-white{
-	border-radius:10px;
-}
-/* div.flex-fill{
-	background-color:white;
-}
-div.flex-fill:hover{
-	background-color:lightgray;
-} */
-
-.navbar-nav.navbar-center, .navbar-header-center
-{
-	margin-left: 50%;
-	transform: translateX(-50%);
 }
 
-
-.parallax-window {
-    min-height: 400px;
-		/*min-width:1200px;*/
-		min-width:0;
-		/* background: transparent;
-		background-color:rgba(5, 5, 255, 0.2); */
-	text-align:center;
-	padding-top:130px;
-}
-/* The hero image */
-.hero-image {
-    /* Set a specific height */
-    /* height: 50%; */
-    /* Position and center the image to scale nicely on all screens */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-		opacity: 0.5;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
-		/* background: rgba(55, 55, 255, 0.3) /* Blue background with 30% opacity */ */
+.bg-image-1 {
+  background-image: url("images/prog.jpg");
 }
 
-/* Place text in the middle of the image */
-.hero-text {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: black;
-		text-shadow: 2px 2px white;
-}
-h2{
-	text-shadow: 2px 1px black;
-}
-.bg-image-1{
-	background-image: url("images/prog.jpg");
-}
-.bg-image-2{
-	background-image: url("images/webd.jpg");
-}
-.bg-image-3{
-	background-image: url("images/gamed.jpg");
-}
-.bg-image-4{
-	background-image: url("images/apcs.jpg");
+.bg-image-2 {
+  background-image: url("images/webd.jpg");
 }
 
-header{
-	height:80px;
+.bg-image-3 {
+  background-image: url("images/gamed.jpg");
 }
 
-section
-{
-	padding:25px 10px 35px 10px;
+.bg-image-4 {
+  background-image: url("images/apcs.jpg");
 }
 
-/* .main-bg-color{
-	background-color:#58626f; /* The main background color for the navbar and text sections
-} */
-
-.parallax-mirror
-{
-	top:80px;
-	opacity:.7;
+body {
+  font-weight: 100 !important;
+	background: #000000;
+	font-size: 1.5rem !important;
 }
 
-.paraHead
-{
-	font-size:6.5em;
-	color:black;
-	font-weight:100!important;
-	letter-spacing:40px;
+.card{
+	border-color: #888888;
+	border-radius: 10px;
+  box-shadow: 1px 1px 5px #444;
+	overflow: hidden;
 }
 
+details {
+  transition: 1s;
+}
+
+div.bg-white {
+  border-radius: 10px;
+}
+
+div.navbar-nav.navbar-center, div.navbar-header-center {
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+div#navBar {
+  height: 80px;
+  border-radius: 0px;
+  border-bottom: thick solid;
+  border-color: #555555;
+}
+
+div#navBar img {
+  -webkit-filter: drop-shadow(1px 1px 0px gray);
+  /* Safari 6.0 - 9.0 */
+  filter: drop-shadow(1px 1px 0px gray);
+}
+
+.font-weight-100 {
+  font-weight: 100 !important;
+}
 
 .grid-container {
   display: grid;
   grid-gap: 20px 20px;
-	grid-template-columns: auto auto;
+  grid-template-columns: auto auto;
 }
+
+header {
+  height: 80px;
+}
+
+.hero-image {
+  min-height: 400px;
+  /*min-width: 1200px;*/
+  min-width: 0;
+  /* background: transparent;
+	background-color: rgba(5, 5, 255, 0.2); */
+  text-align: center;
+  padding-top: 130px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  /* For IE8 and earlier */
+  /* background: rgba(55, 55, 255, 0.3) /* Blue background with 30% opacity */
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #000000;
+  text-shadow: 2px 2px white;
+}
+
+h2 {
+  text-shadow: 2px 1px black;
+}
+
+.panel {
+  /* padding: 0 18px; */
+  background-color: #FFFFFF;
+  display: none;
+  overflow: hidden;
+}
+
+section {
+  padding: 25px 10px 35px 10px;
+}
+
+.text-large {
+  font-size: 150%;
+  font-weight: 100 !important;
+}
+
+/* .parallax-mirror {
+  top: 80px;
+  opacity: .7;
+} */
+
+/* .paraHead {
+  font-size: 6.5em;
+  color: #000000;
+  font-weight: 100 !important;
+  letter-spacing: 40px;
+} */
+
+
 
 /*
 a{
-	color: rgb(0,0,140);
-	text-decoration: none;
+color: rgb(0,0,140);
+text-decoration: none;
 }
 
 /* unvisited link */
-a:link {
-    /* color: rgb(0,0,140); */
-	text-decoration: none;
-	font-weight:100!important;
-	/* font-size:15pt; */
-	font-size: 150%;
-}
+
+
 
 /* visited link */
-/* a:visited {
-    color: rgb(50,0,140);
-	text-decoration: none;
-	font-weight: 400;
+
+/* a: visited {
+color: rgb(50,0,140);
+text-decoration: none;
+font-weight: 400;
 } */
 
 /* mouse over link */
-/* a:hover {
-    color: rgb(0,0,140);
-	text-decoration: underline;
+
+/* a: hover {
+color: rgb(0,0,140);
+text-decoration: underline;
 } */
 
 /* selected link */
-/* a:active {
-    color: rgb(255,100,100);
-	text-decoration: underline;
+
+/* a: active {
+color: rgb(255,100,100);
+text-decoration: underline;
 } */
