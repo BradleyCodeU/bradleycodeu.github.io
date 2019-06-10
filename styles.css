@@ -128,6 +128,19 @@ section {
   font-weight: 100 !important;
 }
 
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  h1 {
+    font-size:4rem!important;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* For tablet & desktop: */
+  h1 {
+    font-size:8rem!important;
+  }
+}
+
 /* .parallax-mirror {
   top: 80px;
   opacity: .7;
