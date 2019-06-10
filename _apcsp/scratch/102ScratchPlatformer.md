@@ -1,4 +1,8 @@
-102ScratchPlatformer
+---
+layout: project
+category: scratch
+title: Scratch Platformer
+---
 
 Based on Dog's Dinner
 
