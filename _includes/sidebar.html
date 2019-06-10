@@ -5,8 +5,10 @@
     <div class="card-body">
       <p>
         {% if page.category == "scratch" %}
-          <h3>Scratch Unit</h3>
-          { include apcsp_scratch.md }
+          <h4>Scratch Unit</h4>
+          <small>
+          {% include apcsp_scratch.md %}
+          </small>
         {% endif %}
       </p>
     </div>
