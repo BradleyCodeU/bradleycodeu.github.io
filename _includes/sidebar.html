@@ -6,8 +6,9 @@
       <p>
         {% if page.category == "scratch" %}
           <h4>Scratch Unit</h4>
-          <small>
-          {% include apcsp_scratch.md %}
+          <small class="small">
+            {% capture my_include %}{% include apcsp_scratch.md %}{% endcapture %}
+            {{ my_include | markdownify }}
           </small>
         {% endif %}
       </p>
