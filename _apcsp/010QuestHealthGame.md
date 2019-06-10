@@ -1,4 +1,5 @@
 ---
+  layout: default
 category: scratch
 title: Quest Health Game
 ---
