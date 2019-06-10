@@ -64,7 +64,7 @@ Either [004WalkingAndJumping](scratch/004WalkingAndJumping/) or [005CheeseChase]
 
 [007ShapesAndInitials](scratch/007ShapesAndInitials/)
 
-Either [006LancherGame](scratch/006LancherGame/) or [008HungryBug](scratch/008HungryBug/) or [009RacingGame](scratch/009RacingGame/)
+Either [006LauncherGame](scratch/006LauncherGame/) or [008HungryBug](scratch/008HungryBug/) or [009RacingGame](scratch/009RacingGame/)
 
 Either [010QuestHealthGame](scratch/010QuestHealthGame/) or [102ScratchPlatformer](scratch/102ScratchPlatformer/)
 
