@@ -1,5 +1,7 @@
-# APCSP Curriculum Overview
-
+---
+  layout: default
+  title: APCSP Curriculum Overview
+---
 [1st Quarter](#1st-quarter)
 
 1. **[Scratch](#scratch)** - *2 wks*
