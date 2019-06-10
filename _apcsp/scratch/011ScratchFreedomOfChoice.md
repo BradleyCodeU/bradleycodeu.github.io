@@ -1,7 +1,7 @@
 ---
   layout: project
-category: scratch
-title: Freedom Of Choice
+  category: scratch
+  title: Freedom Of Choice
 ---
 
 Either start with one of these game ideas: https://drive.google.com/open?id=1r-veNY78dhw9W_dRKlGgIOXSwCNrUr-2

@@ -1,7 +1,7 @@
 ---
   layout: project
-category: scratch
-title: Bouncing Off The Walls
+  category: scratch
+  title: Bouncing Off The Walls
 ---
 Switch to an animal other than the cat.
 

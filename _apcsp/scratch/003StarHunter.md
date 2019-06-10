@@ -1,7 +1,7 @@
 ---
   layout: project
-category: scratch
-title: Star Hunter
+  category: scratch
+  title: Star Hunter
 ---
 
 [StarHunterTutorial.pdf](StarHunterTutorial.pdf)
