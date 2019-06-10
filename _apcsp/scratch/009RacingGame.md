@@ -4,7 +4,7 @@ category: scratch
 title: Racing Game
 ---
 
-Download this starter project: [Racing Game.sb2](https://github.com/ohiofi/APCSP-projects/blob/master/Racing%20Game.sb2)
+Download this starter project: [Racing Game.sb2](Racing%20Game.sb2)
 
 Create a two player racing game. When left is pressed, rotate to the left. When right is pressed, rotate right. When up is pressed move forward in whatever direction you are facing.
 
