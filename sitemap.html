@@ -22,7 +22,18 @@ Sitemap
       {% endif %}
     </li>
   {% endfor %}
+  <li>APCSP</li>
   {% for p in site.apcsp %}
+    <li>
+      {% if p.url == '/' %}
+        <a href="{{site.baseurl}}/index.html">/index.html</a>
+      {% else %}
+        <a href="{{site.baseurl}}/apcsp/{{p.slug}}">/apcsp/{{p.slug}}</a>
+      {% endif %}
+    </li>
+  {% endfor %}
+  <li>Scratch</li>
+  {% for p in site.categories.scratch %}
     <li>
       {% if p.url == '/' %}
         <a href="{{site.baseurl}}/index.html">/index.html</a>
