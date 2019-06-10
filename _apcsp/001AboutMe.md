@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: project
 category: scratch
 title: About Me
 ---

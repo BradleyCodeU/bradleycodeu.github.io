@@ -1,4 +1,5 @@
 ---
+  layout: project
 category: scratch
 title: Bouncing Off The Walls
 ---

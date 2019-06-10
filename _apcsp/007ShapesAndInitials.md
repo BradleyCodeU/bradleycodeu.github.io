@@ -1,5 +1,6 @@
 ---
-  layout: default
+
+layout: project
 category: scratch
 title: Shapes And Initials
 ---
