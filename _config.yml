@@ -1,5 +1,5 @@
 exclude: ['README.md']
-permalink: none
+permalink: pretty
 
 collections:
   apcsp:
