@@ -3,20 +3,20 @@ a:link{
   font-weight: 100 !important;
   /* font-size: 15pt; */
   font-size: 1.3rem !important;
-  color:#1E90FF!important;
+  color:#1E90FF;
 }
 a:hover{
   text-decoration: none;
   font-weight: 100 !important;
   /* font-size: 15pt; */
   font-size: 1.3rem !important;
-  color:#1E10FF!important;
+  color:#1E10FF;
 }
 a.nav-link:link{
-  color:rgba(255,255,255,.5)!important;
+  color:rgba(255,255,255,.5);
 }
 a.nav-link:hover{
-  color:rgba(255,255,255,1)!important;
+  color:rgba(255,255,255,1);
 }
 .bg-image-1 {
   background-image: url("images/prog.jpg");
