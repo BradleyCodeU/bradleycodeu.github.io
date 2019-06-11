@@ -1,4 +1,8 @@
-RandomIntArray
+---
+layout: project
+category: console
+title: Console Random Int Array
+---
 
 Concepts: arrays, random numbers, for loop, for each loop, modulus
 

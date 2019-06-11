@@ -1,4 +1,8 @@
-# String Formatting & Loops
+---
+layout: project
+category: console
+title: Console Printf Loops
+---
 
 Concepts: printf-style formatting, While loops, input, multiplication
 

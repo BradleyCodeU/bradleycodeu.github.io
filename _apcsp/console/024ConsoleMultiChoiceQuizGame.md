@@ -1,3 +1,8 @@
+---
+layout: project
+category: console
+title: Console Multiple Choice Quiz Game
+---
 In this project you will use while loop, not, input, print, and a few other things.
 
 Let's discuss loops. Pre-conditional loops include while loop, for loop, and for each loop. The most common post-conditional loop is the do...while loop. Let's look at some pseudocode for using a while loop for a number guessing game
@@ -42,7 +47,7 @@ Which of these isn't an online game? a = Roblox b = Minecraft c = Lego c
 Correct!
 Is this the last question? a = yes b = no c = Roblox a
 Correct!
->>> 
+>>>
 ```
 -=-=-=-=-=-=-=-=-=-
 

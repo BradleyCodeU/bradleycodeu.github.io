@@ -1,6 +1,10 @@
-2D Geometry Calculations
+---
+layout: project
+category: console
+title: Console 2D Geometry Calculations
+---
 
-MUST USE INPUT VALIDATION
+**MUST USE INPUT VALIDATION**
 
 You can learn how to validate user input [here](https://www.101computing.net/number-only/) and [here](https://www.w3schools.com/python/python_try_except.asp)
 Complete the code to display the perimeter/circumference and area of your selected shapes.
@@ -22,8 +26,8 @@ Complete the code to display the perimeter/circumference and area of your select
 
 7. Say the calculation
 
-Sample Run with user input in bold
-```python
+Sample Run with user input
+```
 Pick a shape 1=hexagon 2=pentagon: 1
 You picked Hexagon
 What is your side measurement: 5

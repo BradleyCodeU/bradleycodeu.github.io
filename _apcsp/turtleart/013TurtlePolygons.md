@@ -1,3 +1,8 @@
+---
+layout: project
+category: turtleart
+title: Turtle Polygons
+---
 Write code that will draw triangle, square, pentagon, etc.
 
 ASK THE PLAYER "HOW MANY SIDES?"

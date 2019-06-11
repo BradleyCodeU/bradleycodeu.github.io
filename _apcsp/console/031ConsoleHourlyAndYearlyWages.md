@@ -1,3 +1,8 @@
+---
+layout: project
+category: console
+title: Console Hourly and Yearly Wages
+---
 MUST USE INPUT VALIDATION
 
 You can learn how to validate user input [here](https://www.101computing.net/number-only/) and [here](https://www.w3schools.com/python/python_try_except.asp)
@@ -12,7 +17,7 @@ Validate that they entered a number >0
 Calculate and tell them "The Hourly Wage is roughly $x.xx per hour"
 
 Sample Run 1
-```python 
+```python
 I can calculate your 1) Hourly Wage given a Yearly Wage OR 2) Yearly Wage given a Hourly Wage 1
 What is your yearly wage? 30000.00
 How many days per week do you work on average? 5

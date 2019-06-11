@@ -1,3 +1,8 @@
+---
+layout: project
+category: console
+title: Console Trivia High Low
+---
 Create a variable called score and set it to some large number (for example, 10 or 100).
 
 Create three trivia questions in which the answers are numbers. You must validate the input or the program will crash. For example, how many times have the Cubs won the world series?

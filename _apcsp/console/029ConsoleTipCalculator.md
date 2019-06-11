@@ -1,3 +1,8 @@
+---
+layout: project
+category: console
+title: Console Tip Calculator
+---
 Ask the user how much the bill is (for example, 19.99 or 173.52). MUST BE ABLE TO CALCULATE DECIMAL NUMBERS
 
 Collect the user's input, convert it to a number, and store it in a variable.
@@ -21,7 +26,7 @@ Tell the user what the total will be with the tip added and the coupon subtracte
 Here is a Sample Run. User input is in bold
 
 ```python
-How much is your bill? $_____ 
+How much is your bill? $_____
 50
 How much would you like to tip? ____ %
 20
@@ -34,5 +39,5 @@ no
 You are being sued for $50,000. Please pay your taxes in the future.
 You should tip $10.0
 Your total is $50005.0
->>>  
+>>>
 ```

@@ -1,3 +1,8 @@
+---
+layout: project
+category: console
+title: Console Fill in the Blank Quiz Game
+---
 Let's continue our discussion of loops. Pre-conditional loops include while loop, for loop, and for each loop. The most common post-conditional loop is the do...while loop. **THERE IS NO DO...WHILE LOOP IN PYTHON**, but we can simulate one. Let's look at some pseudocode for using a do...while loop for a number guessing game
 
 1. Declare variables for the number to guess and the user’s guess
@@ -24,11 +29,11 @@ Define a function called checkAnswer. It requires two parameters: question and a
   - convert the user input to lowercase letters
   - if the user input equals the answer (NOTICE: THIS PLACES THE CONDITION AT THE END OF THE LOOP)
     - add a large amount to the score
-    - say correct, your score is ___ 
+    - say correct, your score is ___
     - break the loop
   - else:
     - subtract a small amount from the score
-    - say incorrect, your score is ___ 
+    - say incorrect, your score is ___
 
 Display instructions for the player.
 Create at least 5 "Fill in the Blank" style questions.
