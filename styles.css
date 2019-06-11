@@ -1,3 +1,6 @@
+a{
+  color:#1E90FF!important;
+}
 a: link {
   text-decoration: none;
   font-weight: 100 !important;
@@ -123,7 +126,7 @@ h2 {
 pre,code{
   font-size: .9rem !important;
   font-weight: 100 !important;
-  color:#3A2EFF!important;
+  color:#75BAFD!important;
 }
 section {
   padding: 25px 0px 35px 0px;
