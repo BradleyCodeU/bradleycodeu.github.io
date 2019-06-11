@@ -1,5 +1,5 @@
 
-<p>2 wks. Vocab - input, output, variable, assignment, string, int, boolean, script, conditional, binary selection, comparison operator, loop, prompt, event listeners</p>
+<p>2 weeks Vocab - input, output, variable, assignment, string, int, boolean, script, conditional, binary selection, comparison operator, loop, prompt, event listeners</p>
 
 1. [AboutMe]({{site:baseurl}}/apcsp/scratch/001AboutMe/)
 1. Either [BouncingOffTheWalls]({{site:baseurl}}/apcsp/scratch/002BouncingOffTheWalls/) or [StarHunter]({{site:baseurl}}/apcsp/scratch/003StarHunter/)
