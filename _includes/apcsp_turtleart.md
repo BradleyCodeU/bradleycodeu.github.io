@@ -1,4 +1,4 @@
-*3 wks* Vocab: turtle, for loops, input, validation, try/except, operators, def new functions, random, algorithm, instance, instanciate, object, class, method
+3 wks, Vocab = turtle, for loops, input, validation, try/except, operators, def new functions, random, algorithm, instance, instanciate, object, class, method
 
 1. Pair - [TurtleSimpleDrawing]({{site:baseurl}}/apcsp/turtleart/012TurtleSimpleDrawing/)
 1. [TurtleDrawingsAtRandomLocations]({{site:baseurl}}/apcsp/turtleart/025TurtleDrawingsAtRandomLocations/)
