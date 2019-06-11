@@ -8,8 +8,7 @@ Write code that will draw stars **WITH NO INTERNAL WALLS**. It will create the o
 Ask the user "HOW MANY POINTS?"
 
 
-![Star](/apcsp/turtleart/stars2.PNG)
-
+![Star](/apcsp/turtleart/stars2.jpg)
 
 
 Your code should use calculations (not x-y coodinates) to draw the shape.
