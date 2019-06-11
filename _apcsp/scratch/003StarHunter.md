@@ -4,7 +4,7 @@
   title: Star Hunter
 ---
 
-[StarHunterTutorial.pdf](StarHunterTutorial.pdf)
+[StarHunterTutorial.pdf](https://drive.google.com/file/d/1W4wq8DE6N5-pITI9THZK7Wx_fpU8aZH5/view?usp=sharing)
 
 Follow the directions in the PDF, then also...
 

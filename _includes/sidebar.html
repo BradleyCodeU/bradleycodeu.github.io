@@ -10,6 +10,7 @@
             {% capture my_include %}{% include apcsp_scratch.md %}{% endcapture %}
             {{ my_include | markdownify }}
           </small>
+        {% elsif page.category == "py" %}
         {% endif %}
       </p>
     </div>

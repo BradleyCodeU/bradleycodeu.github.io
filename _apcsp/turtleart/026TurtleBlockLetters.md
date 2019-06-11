@@ -2,7 +2,7 @@ Draw one of the following using block letters. Use at least 3 different colors, 
 
 Your Options Are:
 
-```python
+```
 JAGUARS!
 CODING!
 PYTHON!
@@ -10,11 +10,16 @@ TURTLES!
 COMP SCI!
 CODE IT!
 DRAW IT!
+HILLIARD!
 MAKE ART!
 LOOPING!
-INTERNET!
 BIG DATA!
 CODE.ORG!
 SCRATCH!
+BRADLEY
+BUCKEYES
+INTERNET!
+HELLO WORLD
 ```
+Here are 3 different examples: 
 ![blockletters](/blockletters.jpg)

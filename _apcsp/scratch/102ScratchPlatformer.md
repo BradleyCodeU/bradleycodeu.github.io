@@ -6,7 +6,7 @@ title: Scratch Platformer
 
 Based on Dog's Dinner
 
-[Tutorial PDF](ScratchPlatformer.pdf)
+[Scratch Platformer Tutorial PDF](https://drive.google.com/file/d/1j2YH9r-rmD0-xZdZgYVrEHfiCJEKaI-r/view?usp=sharing)
 
 - Simulate gravity
 - Reset the player to the starting location if they fall below the bottom of the screen
