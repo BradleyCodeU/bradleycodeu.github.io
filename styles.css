@@ -2,14 +2,11 @@ a:link{
   text-decoration: none;
   font-weight: 100 !important;
   /* font-size: 15pt; */
-  font-size: 1.3rem !important;
   color:#1E90FF;
 }
 a:hover{
-  text-decoration: none;
-  font-weight: 100 !important;
+  text-decoration: underline;
   /* font-size: 15pt; */
-  font-size: 1.3rem !important;
   color:#3A2EFF;
 }
 a.nav-link:link{
