@@ -4,10 +4,40 @@
       {% if page.category == "scratch" %}
         <h4>Scratch Unit</h4>
         <small class="small">
-          {% capture my_include %}{% include apcsp_scratch.md %}{% endcapture %}
+          {% capture my_include %}
+            {% include apcsp_scratch.md %}
+          {% endcapture %}
           {{ my_include | markdownify }}
         </small>
       {% elsif page.category == "py" %}
+      {% elsif page.category == "binary" %}
+      {% elsif page.category == "turtleart" %}
+        <h4>Turtle Art Unit</h4>
+        <small class="small">
+          {% capture my_include %}
+            {% include apcsp_turtleart.md %}
+          {% endcapture %}
+          {{ my_include | markdownify }}
+        </small>
+      {% elsif page.category == "ip" %}
+      {% elsif page.category == "scrum" %}
+      {% elsif page.category == "console" %}
+        <h4>Console Unit</h4>
+        <small class="small">
+          {% capture my_include %}
+            {% include apcsp_console.md %}
+          {% endcapture %}
+          {{ my_include | markdownify }}
+        </small>
+      {% elsif page.category == "bigdata" %}
+      {% elsif page.category == "explore" %}
+      {% elsif page.category == "textgames" %}
+      {% elsif page.category == "digitalinfo" %}
+      {% elsif page.category == "turtlegames" %}
+      {% elsif page.category == "tk" %}
+      {% elsif page.category == "create" %}
+      {% elsif page.category == "greenfoot" %}
+      {% elsif page.category == "java" %}
       {% endif %}
     </div>
   </div>

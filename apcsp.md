@@ -91,30 +91,7 @@ Hexadecimal
 Explore 1 - [027ExploreV1OnePageReport.md](027ExploreV1OnePageReport.md)
 
 ## Turtle Art
-- *3 wks* - Vocab: turtle, for loops, input, validation, try/except, operators, def new functions, random, algorithm, instance, instanciate, object, class, method,
-
-[012TurtleSimpleDrawing.md](012TurtleSimpleDrawing.md)
-
-[025TurtleDrawingsAtRandomLocations.md](025TurtleDrawingsAtRandomLocations.md)
-
-Either [026TurtleBlockLetters.md](026TurtleBlockLetters.md) or [013TurtlePolygons.md](013TurtlePolygons.md)
-
-[014TurtleHowManySquares.md](014TurtleHowManySquares.md)
-
-[015TurtleRandomShapes.md](015TurtleRandomShapes.md)
-
-[018TurtleMandalaArt.md](018TurtleMandalaArt.md)
-
-[019TurtleDrawingAlgorithm.md](019TurtleDrawingAlgorithm.md)
-
-[020TurtleBouncingOffWalls.md](020TurtleBouncingOffWalls.md)
-
-Pair - [021TurtleArtScene1.md](021TurtleArtScene1.md)
-
-
-[016TurtleStars1.md](016TurtleStars1.md)
-
-[017TurtleStars2.md](017TurtleStars2.md)
+{% include apcsp_turtleart.md %}
 
 # 2nd Quarter
 
@@ -131,27 +108,7 @@ Pair - [021TurtleArtScene1.md](021TurtleArtScene1.md)
 Create 2
 
 ## Console
-- *3 wks* - Vocab: array, iteration, iterate through an array, input, for each loops, input validation, try/except, conditionals, functions, preconditional loop, postconditional loop, pseudocode,
-
-[023Pseudocode3PPong.md](023Pseudocode3PPong.md)
-
-[103RandomIntArray.md](103RandomIntArray.md)
-
-[022ConsoleTemps.md](022ConsoleTemps.md)
-
-[024ConsoleMultiChoiceQuizGame](024ConsoleMultiChoiceQuizGame.md)
-
-[028ConsoleFillInTheBlankQuizGame.md](028ConsoleFillInTheBlankQuizGame.md)
-
-[029ConsoleTipCalculator.md](029ConsoleTipCalculator.md)
-
-[030Console2DGeometryCalculations](030Console2DGeometryCalculations.md)
-
-[031ConsoleHourlyAndYearlyWages](031ConsoleHourlyAndYearlyWages.md)
-
-[032ConsoleTriviaHighLow.md](032ConsoleTriviaHighLow.md)
-
-[101StringFormattingAndLoops.md](101StringFormattingAndLoops.md)
+{% include apcsp_console.md %}
 
 ## Big Data
 - *2 wks* - Code.org Unit 4: Big Data and Privacy, [https://studio.code.org/s/csp4-2018](https://studio.code.org/s/csp4-2018), Explore 2
