@@ -4,10 +4,10 @@
       {% if page.category == "scratch" %}
         <h4>Scratch Unit</h4>
         <small class="small">
-          {% capture my_include %}
+          {% capture s_include %}
             {% include apcsp_scratch.md %}
           {% endcapture %}
-          {{ my_include | markdownify }}
+          {{ s_include | markdownify }}
         </small>
       {% elsif page.category == "py" %}
       {% elsif page.category == "binary" %}
