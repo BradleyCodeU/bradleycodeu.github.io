@@ -7,4 +7,4 @@ Ask the user "How many squares? Type 1-10" and then draw that many squares. Squa
 
 All squares must be visible! If I ask for 5, I must be able to see 5.
 
-![squares](/squares.jpg)
+![squares](/apcsp/turtleart/squares.jpg)

@@ -37,6 +37,6 @@ Car or Truck<br>Flower<br>Tree<br>Peace sign<br>Dollar sign<br>Snowman<br>Block 
 
 NOT just a squiggle or spiral. Your drawing should be 12 lines of code or more. Should draw 6 or more lines/shapes. Like this...
 
-![smiley](/turtlesmiley.jpg)
+![smiley](/apcsp/turtleart/turtlesmiley.jpg)
 
 SAVE your finished code as a .py file and turn it in here

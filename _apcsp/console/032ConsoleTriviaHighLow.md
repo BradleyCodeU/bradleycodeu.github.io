@@ -11,11 +11,8 @@ While the user's answer is wrong, tell them if their answer is "Too high" or "To
 
 When they answer correctly, say "Correct!", add 4 or 5 points to their score, tell them what their score is, and move on to the next question.
 
-======
-
-Gold Medal Challenge: Use a function in order to avoid repeating yourself three times. Use the smallest amount of code (lines of code) possible.
-
-```python
+Sample Run
+```
 How many times has OSU football won a National Championship? 7
 Too low
 Your score is now 97
@@ -33,3 +30,8 @@ Correct
 Your score is 109
 Congratulations! You have completed the trivia game.
 ```
+
+
+-=-=-=-=-=-=-
+
+Gold Medal Challenge: Define a function in order to avoid repeating yourself three times. Use the smallest amount of code (lines of code) possible.

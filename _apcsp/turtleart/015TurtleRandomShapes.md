@@ -13,3 +13,5 @@ Repeat these six steps 200 times.
 - Start a random color fill (must use 10 or more colors/shades).
 - Draw a small shape (triangle, square, pentagon, or hexagon).
 - End the color fill.
+
+![random shapes](/apcsp/turtleart/randomShapes.jpg)

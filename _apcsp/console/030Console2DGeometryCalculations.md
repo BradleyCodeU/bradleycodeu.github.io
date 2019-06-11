@@ -7,8 +7,8 @@ title: Console 2D Geometry Calculations
 **MUST USE INPUT VALIDATION**
 
 You can learn how to validate user input [here](https://www.101computing.net/number-only/) and [here](https://www.w3schools.com/python/python_try_except.asp)
-Complete the code to display the perimeter/circumference and area of your selected shapes.
 
+Complete the code to display the perimeter/circumference and area of your selected shapes.
 
 **PICK TWO**: Circle, Ellipse, Equilateral Triangle, Right Triangle, Oblique Triangle, Pentagon, Hexagon, Heptagon, Octagon. (NOTE: You can NOT do Square/Rectangle, Trapezoid, or Parallelogram/Rhombus)
 

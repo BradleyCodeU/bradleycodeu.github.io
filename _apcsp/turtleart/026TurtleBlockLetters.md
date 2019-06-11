@@ -26,4 +26,4 @@ INTERNET!
 HELLO WORLD
 ```
 Here are 3 different examples:
-![blockletters](/blockletters.jpg)
+![blockletters](/apcsp/turtleart/blockletters.jpg)

@@ -32,4 +32,4 @@ Write code so that your turtle will forever:
 - Turn a random angle
 - Bounce off walls
 
-![Example](/randwalk11.jpg)
+![Example](/apcsp/turtleart/randwalk11.jpg)

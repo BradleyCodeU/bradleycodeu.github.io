@@ -21,8 +21,8 @@ I recommend defining a function that will draw your little shape using forward()
 You MUST use 20 or more little shapes to draw your big shape.
 
 Here are a few examples of what your finished drawing might look like:
-![Turtle algorithm](/drawingAlgorithm.PNG)
+![Turtle algorithm](/apcsp/turtleart/drawingAlgorithm.PNG)
 
 Your finished drawing should NOT look like a spiral/swirl. Here are a few examples of what your finished drawing should NOT look like:
 
-![IDEK](/IDEK.PNG)
+![IDEK](/apcsp/turtleart/IDEK.PNG)

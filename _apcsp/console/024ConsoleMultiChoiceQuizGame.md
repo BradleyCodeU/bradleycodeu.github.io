@@ -37,15 +37,15 @@ Here is a Sample Run
 ```
 This is a Multiple Choice Quiz Game with 3 Questions.
 You will answer each question by typing the correct letter: a, b, or c.
-What language is this coded in? a = Python b = Scratch c = Roblox script b
+What language is this coded in? a = Python b = Scratch c = Roblox script: b
 Try again.
-What language is this coded in? a = Python b = Scratch c = Roblox script a
+What language is this coded in? a = Python b = Scratch c = Roblox script: a
 Correct!
-Which of these isn't an online game? a = Roblox b = Minecraft c = Lego a
+Which of these isn't an online game? a = Roblox b = Minecraft c = Lego: a
 Try again.
-Which of these isn't an online game? a = Roblox b = Minecraft c = Lego c
+Which of these isn't an online game? a = Roblox b = Minecraft c = Lego: c
 Correct!
-Is this the last question? a = yes b = no c = Roblox a
+Is this the last question? a = yes b = no c = Roblox: a
 Correct!
 >>>
 ```
@@ -53,4 +53,4 @@ Correct!
 
 GOLD MEDAL CHALLENGE: Your entire project uses only 7 lines of code.
 
-![goldmedal](/threeQuestions.jpg)
+![goldmedal](/apcsp/console/threeQuestions.jpg)

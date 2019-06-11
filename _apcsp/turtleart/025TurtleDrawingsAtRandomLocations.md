@@ -30,4 +30,4 @@ Car or Truck<br>Flower<br>Tree<br>Peace sign<br>Dollar sign<br>Snowman<br>Block 
 </tbody>
 </table>
 
-![Example](/randlocations11.jpg)
+![Random Location Example](/apcsp/turtleart/randlocations11.jpg)

@@ -24,8 +24,9 @@ Output should be formatted properly and arranged as seen below.
 - %.2f limit a float to two decimal places. For example, 0.99
 - %03d add a zero (0) after the % symbol to zero-fill your printf integer output. For example, 001
 
-Sample Output (user input is in * * asterisk * * and should not be coded into your program.)
-```Investment Calculator
+Sample Output (user input is in ** asterisk ** and should not be coded into your program.)
+```
+Investment Calculator
 Calculate how many years would it take to double
 your savings if you earn simple interest annually
 

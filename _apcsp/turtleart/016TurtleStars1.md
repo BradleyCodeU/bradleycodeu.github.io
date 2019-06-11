@@ -26,4 +26,4 @@ Gold medal: can make stars 5, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 19, and 20 us
 
 NOTE: Notice that 6 points, 12 points, and 18 points are not required.
 
-![stars](/Stars.PNG)
+![stars](/apcsp/turtleart/Stars.PNG)

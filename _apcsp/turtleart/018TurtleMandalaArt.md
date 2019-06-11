@@ -5,7 +5,7 @@ title: Turtle Mandala Art
 ---
 A [mandala](https://en.wikipedia.org/wiki/Mandala) is a type of art that has [rotational symmetry](https://en.wikipedia.org/wiki/Rotational_symmetry). It has been used in works of art throughout human history, all around the world.
 
-![mandalaArt](/mandala.PNG)
+![mandalaArt](/apcsp/turtleart/mandala.PNG)
 
 [https://www.dispatch.com/entertainmentlife/20181012/monks-making-mandala-as-part-of-dublin-festival]
 
