@@ -1,5 +1,5 @@
 
-*3 wks*, Vocab - array, iteration, iterate through an array, input, for each loops, input validation, try/except, conditionals, functions, preconditional loop, postconditional loop, pseudocode,
+*3 wks*, Vocab: array, iteration, iterate through an array, input, for each loops, input validation, try/except, conditionals, functions, preconditional loop, postconditional loop, pseudocode,
 
 1. [ConsolePseudocode3PPong]({{site:baseurl}}/apcsp/console/023ConsolePseudocode3PPong/)
 1. [ConsoleRandomIntArray]({{site:baseurl}}/apcsp/console/103ConsoleRandomIntArray/)

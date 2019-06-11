@@ -1,3 +1,28 @@
+/* Palette URL: http://paletton.com/#uid=73-0u0kuu++iA+toB+XMn+VZCJw */
+
+.color-primary-0 { color: #1E90FF }	/*a:link*/ /* Main Primary color */
+.color-primary-1 { color: #75BAFD } /*pre*/
+.color-primary-2 { color: #49A6FF }
+.color-primary-3 { color: #0986FF }
+.color-primary-4 { color: #0169CE }
+
+.color-secondary-1-0 { color: #3A2EFF }	/*a:hover*/ /* Main Secondary color (1) */
+.color-secondary-1-1 { color: #867FFE }
+.color-secondary-1-2 { color: #6057FF }
+.color-secondary-1-3 { color: #1E10FF }
+.color-secondary-1-4 { color: #0D01D5 }
+
+.color-secondary-2-0 { color: #FFC60C }	/* Main Secondary color (2) */
+.color-secondary-2-1 { color: #FFDC6B }
+.color-secondary-2-2 { color: #FFD13B }
+.color-secondary-2-3 { color: #FFC300 }
+.color-secondary-2-4 { color: #FFC300 }
+
+.color-complement-0 { color: #FF9C0C }	/* Main Complement color */
+.color-complement-1 { color: #FFC36B }
+.color-complement-2 { color: #FFAF3B }
+.color-complement-3 { color: #FF9700 }
+.color-complement-4 { color: #FF9700 }
 a:link{
   text-decoration: none;
   font-weight: 100 !important;
@@ -143,13 +168,13 @@ section {
   font-weight: 100 !important;
 }
 
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
+@media (min-width: @screen-md-min) < 992px {
+  /* For small tablets and mobile phones: */
   h1,h2 {
     font-size:2rem!important;
   }
 }
-@media only screen and (min-width: 768px) {
+@media (min-width: @screen-md-min) >= 992px {
   /* For tablet & desktop: */
   h1 {
     font-size:4rem;

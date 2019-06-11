@@ -35,13 +35,13 @@
 *Whenever possible, select "Sign up with Google" and use your hilliardschools.org account.*
 
 Sign up for
-- [digitalportfolio.collegeboard.org](digitalportfolio.collegeboard.org)
-- [scratch.mit.edu](scratch.mit.edu)
+- [digitalportfolio.collegeboard.org](https://digitalportfolio.collegeboard.org)
+- [scratch.mit.edu](https://scratch.mit.edu)
 - [code.org](https://code.org/)
-- "Sign up with Google" [trinket.io](trinket.io)
-- "Sign up with Google" [repl.it](repl.it)
-- "Sign up with Google" [codehs.com](codehs.com)
-- [khanacademy.org](khanacademy.org)
+- "Sign up with Google" [trinket.io](https://trinket.io)
+- "Sign up with Google" [repl.it](https://repl.it)
+- "Sign up with Google" [codehs.com](https://codehs.com)
+- [khanacademy.org](https://khanacademy.org)
 
 Join our code.org class, our repl.it class, our khanacademy.org class
 
@@ -57,38 +57,20 @@ Commit to take the AP test by October 4th. Late fee is $40.
 {% include apcsp_scratch.md %}
 
 ## Py
-- *2 wks* - Vocab: syntax, syntax error, variable, assignment, mathmatical operator, comparison operator, conditionals, function def, function call, input, argument, string, int, boolean, division by zero, comment, camelCase, scope, local variable, magic numbers, return, Python Tkinter simple apps, Create 1
-
-Install Python Mu IDE: [https://codewith.mu/](https://codewith.mu/)
-
-[111PyNumberToHundred.md](111PyNumberToHundred.md)
-
-Either [108PyDollarConvert](108PyDollarConvert.md) or PyMenuCalculator or [WeightOnPlanets](https://www.101computing.net/weight-on-the-moon-calculator/)
-
-Either Py2DGeometry or Py3DVolume
-
-[105PyModuloFun.md](105PyModuloFun.md)
-
-[109PyHogwartsHouse.md](109PyHogwartsHouse.md)
-
-[104PyParrotTrouble](104PyParrotTrouble.md)
-
-Either [106PyThreeArgs](106PyThreeArgs.md) or [110PyCollisionFun.md](110PyCollisionFun.md)
-
-Create 1 - Pair - [100Tk1CreateReflectV1.md](100Tk1CreateReflectV1.md)
+{% include apcsp_py.md %}
 
 ## Binary
-- *2 wk* - Vocab: binary, hexadecimal, ASCII, Big Data
+- *2 wk* - Vocab: binary, decimal, digit, bit, hexadecimal, octal, ASCII, Big Data
 
 Code.org Unit 1, Chapter 1: Representing and Transmitting Information, [https://studio.code.org/s/csp1-2018](https://studio.code.org/s/csp1-2018)
 
-Counting with Coins
-
-Binary
-
-Hexadecimal
-
-Explore 1 - [027ExploreV1OnePageReport.md](027ExploreV1OnePageReport.md)
+1. Pair - Counting with Coins
+1. Binary 1 to 50
+1. Binary
+1. Pair - Octal
+1. Pair - Hexadecimal
+1. Practice Quiz
+1. *Explore Practice 1* - Pair - [BinaryExplorePractice1](027BinaryExplorePractice1.md)
 
 ## Turtle Art
 {% include apcsp_turtleart.md %}
