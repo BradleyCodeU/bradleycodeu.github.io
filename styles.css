@@ -1,14 +1,14 @@
-/* a{
+a:link{
   color:#1E90FF!important;
-}
-a: link {
   text-decoration: none;
   font-weight: 100 !important;
   /* font-size: 15pt; */
-/*  font-size: 150%;
+  font-size: 1.3rem !important;
   color:#1E90FF!important;
-} */
-
+}
+a.nav-link:link{
+  color:rgba(255,255,255,.5)!important;
+}
 .bg-image-1 {
   background-image: url("images/prog.jpg");
 }
@@ -152,49 +152,3 @@ section {
     font-size:3rem;
   }
 }
-
-/* .parallax-mirror {
-  top: 80px;
-  opacity: .7;
-} */
-
-/* .paraHead {
-  font-size: 6.5em;
-  color: #000000;
-  font-weight: 100 !important;
-  letter-spacing: 40px;
-} */
-
-
-
-/*
-a{
-color: rgb(0,0,140);
-text-decoration: none;
-}
-
-/* unvisited link */
-
-
-
-/* visited link */
-
-/* a: visited {
-color: rgb(50,0,140);
-text-decoration: none;
-font-weight: 400;
-} */
-
-/* mouse over link */
-
-/* a: hover {
-color: rgb(0,0,140);
-text-decoration: underline;
-} */
-
-/* selected link */
-
-/* a: active {
-color: rgb(255,100,100);
-text-decoration: underline;
-} */
