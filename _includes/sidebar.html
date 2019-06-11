@@ -1,20 +1,14 @@
 <div class="container">
-  <div class="card darkbg">
-    <div class="card-header">
-    </div>
+  <div class="card">
     <div class="card-body">
-      <p>
-        {% if page.category == "scratch" %}
-          <h4>Scratch Unit</h4>
-          <small class="small">
-            {% capture my_include %}{% include apcsp_scratch.md %}{% endcapture %}
-            {{ my_include | markdownify }}
-          </small>
-        {% elsif page.category == "py" %}
-        {% endif %}
-      </p>
-    </div>
-    <div class="card-footer">
+      {% if page.category == "scratch" %}
+        <h4>Scratch Unit</h4>
+        <small class="small">
+          {% capture my_include %}{% include apcsp_scratch.md %}{% endcapture %}
+          {{ my_include | markdownify }}
+        </small>
+      {% elsif page.category == "py" %}
+      {% endif %}
     </div>
   </div>
 </div>

@@ -35,6 +35,7 @@ body {
 	border-radius: 10px;
   box-shadow: 1px 1px 5px #444;
 	overflow: hidden;
+  background: none;
 }
 
 details {
