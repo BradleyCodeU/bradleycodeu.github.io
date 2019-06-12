@@ -23,8 +23,16 @@
 .color-complement-2 { color: #FFAF3B }
 .color-complement-3 { color: #FF9700 }
 .color-complement-4 { color: #FF9700 }
+body {
+  font-weight: 100 !important;
+	background: #000000;
+	font-size: 1.3rem !important;
+	font-family: 'Roboto', 'Verdana','Arial', sans-serif;
+  color:#ffffff!important;
+}
 a:link{
   text-decoration: none;
+  font-weight: bold;
   font-weight: 900 !important;
   /* font-size: 15pt; */
   color:#1E90FF;
@@ -56,13 +64,7 @@ a.nav-link:hover{
   background-image: url("images/apcs.jpg");
 }
 
-body {
-  font-weight: 100 !important;
-	background: #000000;
-	font-size: 1.3rem !important;
-	font-family: 'Roboto', 'Verdana','Arial', sans-serif;
-  color:#ffffff!important;
-}
+
 
 .card{
 	border-color: #888888;
