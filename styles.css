@@ -25,7 +25,7 @@
 .color-complement-4 { color: #FF9700 }
 a:link{
   text-decoration: none;
-  font-weight: 100 !important;
+  font-weight: 900 !important;
   /* font-size: 15pt; */
   color:#1E90FF;
 }
