@@ -27,12 +27,14 @@ body {
   font-weight: 100 !important;
 	background: #000000;
 	font-size: 1.3rem !important;
-	font-family: 'Roboto', 'Verdana','Arial', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+
+	font-family: 'Roboto Condensed', 'Verdana','Arial', sans-serif;
   color:#ffffff!important;
 }
 a:link{
   text-decoration: none;
-  font-weight: bold;
+  font-weight: bold !important;
   font-weight: 900 !important;
   /* font-size: 15pt; */
   color:#1E90FF;
