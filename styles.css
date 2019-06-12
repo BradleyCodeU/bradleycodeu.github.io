@@ -24,7 +24,7 @@
 .color-complement-3 { color: #FF9700 }
 .color-complement-4 { color: #FF9700 }
 body {
-  font-weight: 100 !important;
+  font-weight: 300 !important;
 	background: #000000;
 	font-size: 1.3rem !important;
   font-family: 'Roboto Condensed', sans-serif;
@@ -35,7 +35,7 @@ body {
 a:link{
   text-decoration: none;
   font-weight: bold !important;
-  font-weight: 900 !important;
+  font-weight: 700 !important;
   /* font-size: 15pt; */
   color:#1E90FF;
 }
@@ -102,8 +102,8 @@ div#navBar img {
   filter: drop-shadow(1px 1px 0px gray);
 }
 
-.font-weight-100 {
-  font-weight: 100 !important;
+.font-weight-300 {
+  font-weight: 300 !important;
 }
 
 .footer{
@@ -169,7 +169,7 @@ section {
 
 .text-large {
   font-size: 150%;
-  font-weight: 100 !important;
+  font-weight: 300 !important;
 }
 
 @media (min-width: @screen-md-min) < 992px {
