@@ -33,19 +33,19 @@ Say "Correct"
 
 You should know what to do for the remaining 2 questions. Rather than starting over and re-typing the code for each question... you might want to copy and paste the code for question 1 and just change some details.
 
-Here is a Sample Run
+Sample Run (user input is in ** asterisk ** and should not be coded into your program)
 ```
 This is a Multiple Choice Quiz Game with 3 Questions.
 You will answer each question by typing the correct letter: a, b, or c.
-What language is this coded in? a = Python b = Scratch c = Roblox script: b
+What language is this coded in? a = Python b = Scratch c = Roblox script: **b**
 Try again.
-What language is this coded in? a = Python b = Scratch c = Roblox script: a
+What language is this coded in? a = Python b = Scratch c = Roblox script: **a**
 Correct!
-Which of these isn't an online game? a = Roblox b = Minecraft c = Lego: a
+Which of these isn't an online game? a = Roblox b = Minecraft c = Lego: **a**
 Try again.
-Which of these isn't an online game? a = Roblox b = Minecraft c = Lego: c
+Which of these isn't an online game? a = Roblox b = Minecraft c = Lego: **c**
 Correct!
-Is this the last question? a = yes b = no c = Roblox: a
+Is this the last question? a = yes b = no c = Roblox: **a**
 Correct!
 >>>
 ```

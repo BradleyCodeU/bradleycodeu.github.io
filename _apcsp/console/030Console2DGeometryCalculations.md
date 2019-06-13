@@ -26,20 +26,20 @@ Complete the code to display the perimeter/circumference and area of your select
 
 7. Say the calculation
 
-Sample Run with user input
+Sample Output (user input is in ** asterisk ** and should not be coded into your program)
 ```
-Pick a shape 1=hexagon 2=pentagon: 1
+Pick a shape 1=hexagon 2=pentagon: **1**
 You picked Hexagon
-What is your side measurement: 5
+What is your side measurement: **5**
 Your area is 64.9519052838329
 Your perimeter is 30
-Pick a shape 1=hexagon 2=pentagon: lkjsd
+Pick a shape 1=hexagon 2=pentagon: **lkjsd**
 Please type a number
-Pick a shape 1=hexagon 2=pentagon: 2
+Pick a shape 1=hexagon 2=pentagon: **2**
 You picked Pentagon
-What is your side measurement: afsdg
+What is your side measurement: **afsdg**
 Please type a number
-What is your side measurement: 5
+What is your side measurement: **5**
 Your area is 43.01193501472417
 Your perimeter is 25
 ```

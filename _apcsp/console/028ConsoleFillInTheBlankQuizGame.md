@@ -40,19 +40,19 @@ Create at least 5 "Fill in the Blank" style questions.
 The game will **only** move on to another question when you get the question right.
 
 
-Sample Output
+Sample Output (user input is in ** asterisk ** and should not be coded into your program)
 ```
 Console Fill In The Blank Quiz Game
 Answer the following five questions.
-___ ____ is a term for datasets so large/complex that traditional data processing is inadequate: big boss
+___ ____ is a term for datasets so large/complex that traditional data processing is inadequate: **big boss**
 incorrect, your score is -3
-___ ____ is a term for datasets so large/complex that traditional data processing is inadequate: big data
+___ ____ is a term for datasets so large/complex that traditional data processing is inadequate: **big data**
 correct, your score is 2
-a variable that can only be true or false is: integer
+a variable that can only be true or false is: **integer**
 incorrect, your score is -1
-a variable that can only be true or false is: boolean
+a variable that can only be true or false is: **boolean**
 correct, your score is 4
-U.S. military department that created the Internet for scientific and military communications is: the meme army
+U.S. military department that created the Internet for scientific and military communications is: **meme army**
 incorrect, your score is 1
 ```
 

@@ -16,20 +16,20 @@ Prompt for how many hours per day they work on average
 Validate that they entered a number >0
 Calculate and tell them "The Hourly Wage is roughly $x.xx per hour"
 
-Sample Run 1
+Sample Output 1 (user input is in ** asterisk ** and should not be coded into your program)
 ```
-I can calculate your 1) Hourly Wage given a Yearly Wage OR 2) Yearly Wage given a Hourly Wage: 1
-What is your yearly wage? 30000.00
-How many days per week do you work on average? 5
-How many hours per day do you work on average? 8
+I can calculate your 1) Hourly Wage given a Yearly Wage OR 2) Yearly Wage given a Hourly Wage: **1**
+What is your yearly wage? **30000.00**
+How many days per week do you work on average? **5**
+How many hours per day do you work on average? **8**
 Your hourly wage is $14.42
 ```
 
-Sample Run 2
+Sample Output 2 (user input is in ** asterisk ** and should not be coded into your program)
 ```
-I can calculate your 1) Hourly Wage given a Yearly Wage OR 2) Yearly Wage given a Hourly Wage: 2
-What is your hourly wage? 14.42
-How many days per week do you work on average? 5
-How many hours per day do you work on average? 8
+I can calculate your 1) Hourly Wage given a Yearly Wage OR 2) Yearly Wage given a Hourly Wage: **2**
+What is your hourly wage? **14.42**
+How many days per week do you work on average? **5**
+How many hours per day do you work on average? **8**
 Your yearly wage is $29993.6
 ```

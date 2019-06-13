@@ -23,18 +23,18 @@ Tell the user how much money they should tip.
 
 Tell the user what the total will be with the tip added and the coupon subtracted.
 
-Here is a Sample Run. User input is included
+Sample Output (user input is in ** asterisk ** and should not be coded into your program)
 ```
 How much is your bill? $_____
-50
+**50**
 How much would you like to tip? ____ %
-20
+**20**
 Do you have a coupon? yes or no?
-yes
+**yes**
 How much will your coupon take off the bill? $_____
-55
+**55**
 Do you pay your taxes? yes or no?
-no
+**no**
 You have been fined $50,000 by the IRS. Please pay your taxes in the future.
 You should tip $10.0
 Your total is $50005.0

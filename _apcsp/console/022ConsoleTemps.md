@@ -23,14 +23,14 @@ Copy/paste this pseudocode to guide your thinking:
 ```
 Also... you will notice that there is no way to quit. Add another elif that checks if the person typed "Q" and then break the loop.
 
-Here is a Sample Run. User input is included and should not be printed by your program.
+Sample Run (user input is in ** asterisk ** and should not be coded into your program)
 ```
-Enter 1 to convert Fahrenheit to Celsius, 2 to convert Celsius to Fahrenheit, or Q to quit:  1
-What Fahrenheit temperature would you like to convert?:  32
+Enter 1 to convert Fahrenheit to Celsius, 2 to convert Celsius to Fahrenheit, or Q to quit:  **1**
+What Fahrenheit temperature would you like to convert?: **32**
 That temperature in Celsius is 0.0
-Enter 1 to convert Fahrenheit to Celsius, 2 to convert Celsius to Fahrenheit, or Q to quit:  2
-What Celsius temperature would you like to convert?:  0
+Enter 1 to convert Fahrenheit to Celsius, 2 to convert Celsius to Fahrenheit, or Q to quit:  **2**
+What Celsius temperature would you like to convert?:  **0**
 That temperature in Fahrenheit is 32.0
-Enter 1 to convert Fahrenheit to Celsius, 2 to convert Celsius to Fahrenheit, or Q to quit:  Q
+Enter 1 to convert Fahrenheit to Celsius, 2 to convert Celsius to Fahrenheit, or Q to quit:  **Q**
 >>>
 ```
