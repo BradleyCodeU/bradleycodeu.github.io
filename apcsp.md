@@ -7,21 +7,21 @@
 1. **[Scratch](#scratch)** - *2 wks*
 1. **[Py](#py)** - *2 wks*
 1. **[Binary](#binary)** - *2 wks*
-1. **[Turtle Art](#turtle-art)** - *3 wks*
+1. **[Turtle Art](#turtleart)** - *3 wks*
 
 [2nd Quarter](#2nd-quarter)
 
 1. **[IP](#ip)** - *1 wk*
 1. **[Scrum](#scrum)** - *3 wks*
 1. **[Console](#console)** - *3 wks*
-1. **[Big Data](#big-data)** - *2 wks*
+1. **[Big Data](#bigdata)** - *2 wks*
 
 [3rd Quarter](#3rd-quarter)
 
 1. **[Explore](#explore)** - *2 wks*
-1. **[Text Games](#text-games)** - *2 wks*
-1. **[Digital Info](#digital-info)** - *1 wk*
-1. **[Turtle Games](#turtle-games)** - *2wks*
+1. **[Text Games](#textgames)** - *2 wks*
+1. **[Digital Info](#digitalinfo)** - *1 wk*
+1. **[Turtle Games](#turtlegames)** - *2wks*
 1. **[Tk](#tk)** - *2 wks*
 
 [4th Quarter](#4th-quarter)
@@ -72,7 +72,7 @@ Code.org Unit 1, Chapter 1: Representing and Transmitting Information, [https://
 1. Practice Quiz
 1. *Explore Practice 1* - Pair - [BinaryExplorePractice1](027BinaryExplorePractice1.md)
 
-## Turtle Art
+## TurtleArt
 {% include apcsp_turtleart.md %}
 
 # 2nd Quarter
@@ -92,7 +92,7 @@ Create 2
 ## Console
 {% include apcsp_console.md %}
 
-## Big Data
+## BigData
 - *2 wks* - Code.org Unit 4: Big Data and Privacy, [https://studio.code.org/s/csp4-2018](https://studio.code.org/s/csp4-2018), Explore 2
 
 Explore 2 - [036ExploreV2PhotoCollageArtifact](036ExploreV2PhotoCollageArtifact.md)
@@ -106,7 +106,7 @@ Explore 2 - [036ExploreV2PhotoCollageArtifact](036ExploreV2PhotoCollageArtifact.
 
 [043ExploreTaskQuestions.md](043ExploreTaskQuestions.md)
 
-## Text Games
+## TextGames
 - *2 wks* - Python text games, arrays, logical operators, two-dimensional array, global variables, runtime error, syntax error, while loop
 
 [033TextGamesCastlesAndCreatures](033TextGamesCastlesAndCreatures.md)
@@ -116,13 +116,13 @@ Group - [037TextGameFoobarV1.md](037TextGameFoobarV1.md)
 Group - [038TextgameFoobarv2.md](038TextgameFoobarv2.md)
 
 
-## Digital Info
+## DigitalInfo
 - *1 wk* - Code.org Unit 2: Digital Information, [https://studio.code.org/s/csp2-2018](https://studio.code.org/s/csp2-2018)
 
 
 bytes, kilobytes, megabytes, gigabytes
 
-## Turtle Games
+## TurtleGames
 - *2wks* - instance, instanciate, object, class, method, logical operators, while loop
 
 [039Turtlegamev1.0.md](039Turtlegamev1.0.md)
