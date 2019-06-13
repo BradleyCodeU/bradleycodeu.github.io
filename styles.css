@@ -167,7 +167,7 @@ img{
 pre,code{
   font-weight: 100 !important;
   color:#75BAFD!important;
-  white-space:pre-line!important;
+  white-space:pre-wrap!important;
 }
 section {
   padding: 25px 0px 35px 0px;
@@ -185,7 +185,7 @@ section {
   }
   pre,code{
     font-size: .7rem !important;
-    white-space:pre-line!important;
+    white-space:pre-wrap!important;
   }
 }
 @media (min-width: @screen-md-min) >= 992px {
@@ -198,12 +198,12 @@ section {
   }
   pre,code{
     font-size: .9rem !important;
-    white-space:pre-line!important;
+    white-space:pre-wrap!important;
   }
   /* pre{
     border: solid 1px #75BAFD;
     padding: 7px;
     border-radius: 10px;
-    white-space:pre-line!important;
+    white-space:pre-wrap!important;
   } */
 }
