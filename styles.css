@@ -96,10 +96,7 @@ div#navBar {
   border-color: #555555;
 }
 
-div.navbar{
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
+
 
 div#navBar img {
   -webkit-filter: drop-shadow(1px 1px 0px gray);
@@ -169,6 +166,10 @@ h3, h4 {
 }
 img{
   max-width: 100%!important;
+}
+nav.navbar{
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 .PageNavigation{
   width:100%!important;
