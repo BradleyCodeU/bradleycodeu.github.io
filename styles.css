@@ -197,4 +197,9 @@ section {
   pre,code{
     font-size: .9rem !important;
   }
+  pre{
+    border: solid 1px #75BAFD;
+    padding: 7px;
+    border-radius: 10px;
+  }
 }
