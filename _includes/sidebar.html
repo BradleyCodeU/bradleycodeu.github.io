@@ -1,6 +1,9 @@
 <div class="container">
   <div class="card">
     <div class="card-body">
+
+      {{ include.size }}
+
       {% if page.category == "scratch" %}
         <h4>Scratch Unit</h4>
         <small class="small">
@@ -9,8 +12,18 @@
           {% endcapture %}
           {{ s_include | markdownify }}
         </small>
+
       {% elsif page.category == "py" %}
+        <h4>Py Unit</h4>
+        <small class="small">
+          {% capture s_include %}
+            {% include apcsp_py.md %}
+          {% endcapture %}
+          {{ s_include | markdownify }}
+        </small>
+
       {% elsif page.category == "binary" %}
+
       {% elsif page.category == "turtleart" %}
         <h4>Turtle Art Unit</h4>
         <small class="small">
@@ -19,8 +32,10 @@
           {% endcapture %}
           {{ my_include | markdownify }}
         </small>
+
       {% elsif page.category == "ip" %}
       {% elsif page.category == "scrum" %}
+
       {% elsif page.category == "console" %}
         <h4>Console Unit</h4>
         <small class="small">
@@ -29,6 +44,7 @@
           {% endcapture %}
           {{ my_include | markdownify }}
         </small>
+
       {% elsif page.category == "bigdata" %}
       {% elsif page.category == "explore" %}
       {% elsif page.category == "textgames" %}
