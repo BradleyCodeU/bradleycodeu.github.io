@@ -26,9 +26,9 @@ For THIS project you will use a **pre-conditional loop**. In an upcoming project
 
 Create a function called askQuestion. It requires two parameters: questionText and questionAnswer. It does not return a value.
 
-Introduce the game by explaining, "This is a Multiple Choice Quiz Game with 3 Questions. You will answer each question by typing the correct letter: 1, 2, or 3."
+Introduce the game by explaining, "This is a Multiple Choice Quiz Game with 3 Questions. You will answer each question by typing the correct letter: a, b, or c."
 
-Ask the first question. For example... "Who painted the Mona Lisa? 1) Pablo Picasso 2) Leonardo DaVinci 3) Vincent Van Gogh"
+Ask the first question. For example... "Who painted the Mona Lisa? a) Pablo Picasso b) Leonardo DaVinci c) Vincent Van Gogh"
 
 While the user input does not equal the correct answer, say "Try Again" and ask the first question again. It will repeat saying "Try Again" and asking the question FOREVER, unless the player answers correctly. When the answer is correct, the code will automatically leave the while loop.
 
