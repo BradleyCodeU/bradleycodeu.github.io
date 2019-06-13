@@ -7,7 +7,7 @@ A [mandala](https://en.wikipedia.org/wiki/Mandala) is a type of art that has [ro
 
 ![mandalaArt](/apcsp/turtleart/mandala.PNG)
 
-[https://www.dispatch.com/entertainmentlife/20181012/monks-making-mandala-as-part-of-dublin-festival]
+(https://www.dispatch.com/entertainmentlife/20181012/monks-making-mandala-as-part-of-dublin-festival)[https://www.dispatch.com/entertainmentlife/20181012/monks-making-mandala-as-part-of-dublin-festival]
 
 To complete this assignment you will create a simple drawing with rotational symmetry. Your simple drawing **cannot** be a squiggle, spiral, zig-zag, star, triangle or square. The simple drawing should use 6 or more lines, for example: stick person, house, flower or tree, cat face or bunny face, car or truck, cube, block-letter B.
 

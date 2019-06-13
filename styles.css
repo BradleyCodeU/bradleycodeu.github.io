@@ -152,6 +152,9 @@ h2 {
 h3, h4 {
   text-transform: capitalize;
 }
+img{
+  max-width: 100%!important;
+}
 .PageNavigation{
   width:100%!important;
 }
@@ -162,7 +165,6 @@ h3, h4 {
   overflow: hidden;
 }
 pre,code{
-  font-size: .7rem !important;
   font-weight: 100 !important;
   color:#75BAFD!important;
 }
@@ -180,6 +182,9 @@ section {
   h1,h2 {
     font-size:2rem!important;
   }
+  pre,code{
+    font-size: .7rem !important;
+  }
 }
 @media (min-width: @screen-md-min) >= 992px {
   /* For tablet & desktop: */
@@ -188,5 +193,8 @@ section {
   }
   h2 {
     font-size:3rem;
+  }
+  pre,code{
+    font-size: .9rem !important;
   }
 }
