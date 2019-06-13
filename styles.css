@@ -149,7 +149,7 @@ header {
 h2 {
   text-shadow: 2px 1px black;
 }
-h4 {
+h3, h4 {
   text-transform: capitalize;
 }
 .PageNavigation{

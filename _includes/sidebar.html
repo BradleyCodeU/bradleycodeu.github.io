@@ -3,12 +3,9 @@
     <div class="card-body">
 
 
-      <h3 class="{{ include.size }}">{{page.category}} Unit</h3>
+      <h3 class="{{ include.size }} text-capitalize">{{page.category}} Unit</h3>
       <{{ include.size }} class="{{ include.size }}">
-
-
-
-      -=-=-=-=-=-
+      - - -
 
       {% if page.category == "scratch" %}
           {% capture s_include %}
@@ -17,26 +14,21 @@
           {{ s_include | markdownify }}
 
       {% elsif page.category == "py" %}
-        <h4>Py Unit</h4>
-        <small class="small">
           {% capture s_include %}
             {% include apcsp_py.md %}
           {% endcapture %}
           {{ s_include | markdownify }}
-        </small>
 
       {% elsif page.category == "binary" %}
 
       {% elsif page.category == "turtleart" %}
-        <h4>Turtle Art Unit</h4>
-        <small class="small">
           {% capture my_include %}
             {% include apcsp_turtleart.md %}
           {% endcapture %}
           {{ my_include | markdownify }}
-        </small>
 
       {% elsif page.category == "ip" %}
+
       {% elsif page.category == "scrum" %}
 
       {% elsif page.category == "console" %}
