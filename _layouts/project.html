@@ -33,13 +33,15 @@
         <!-- sidebar -->
         {% include sidebar.html size='small' %}
       </div>
-    <br>
-    <hr>
+      <br>
+      <hr>
 
+    </div>
+    <br>
+    &nbsp;
+    <br>
+    <a href="/{{page.collection}}/#{{page.category}}">{{page.collection}}</a> >> <a href="/{{page.collection}}/{{page.category}}">{{page.category}} Unit</a> >> {{page.title}}
+    {% include navbottom.html %}
   </div>
-  <br>
-  &nbsp;
-  <br>
-  {% include navbottom.html %}
 </body>
 </html>
