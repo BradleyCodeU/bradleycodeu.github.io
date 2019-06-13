@@ -2,16 +2,22 @@
   <div class="card">
     <div class="card-body">
 
-      {{ include.size }}
+      {% if {{ include.size }} == "small" %}
+        <h4>{{page.category}} Unit</h4>
+        <small class="small">
+      {% endif %}
+      {% capture s_include %}
+        {% include apcsp_{{page.category}}.md %}
+      {% endcapture %}
+      {{ s_include | markdownify }}
+
+      -=-=-=-=-=-
 
       {% if page.category == "scratch" %}
-        <h4>Scratch Unit</h4>
-        <small class="small">
           {% capture s_include %}
             {% include apcsp_scratch.md %}
           {% endcapture %}
           {{ s_include | markdownify }}
-        </small>
 
       {% elsif page.category == "py" %}
         <h4>Py Unit</h4>
@@ -37,13 +43,11 @@
       {% elsif page.category == "scrum" %}
 
       {% elsif page.category == "console" %}
-        <h4>Console Unit</h4>
-        <small class="small">
           {% capture my_include %}
             {% include apcsp_console.md %}
           {% endcapture %}
           {{ my_include | markdownify }}
-        </small>
+
 
       {% elsif page.category == "bigdata" %}
       {% elsif page.category == "explore" %}
@@ -55,6 +59,11 @@
       {% elsif page.category == "greenfoot" %}
       {% elsif page.category == "java" %}
       {% endif %}
+
+      {% if {{ include.size }} == "small" %}
+        </small>
+      {% endif %}
+
     </div>
   </div>
 </div>

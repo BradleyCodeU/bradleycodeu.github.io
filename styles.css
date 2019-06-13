@@ -149,6 +149,9 @@ header {
 h2 {
   text-shadow: 2px 1px black;
 }
+h4 {
+  text-transform: capitalize;
+}
 .PageNavigation{
   width:100%!important;
 }
