@@ -3,16 +3,19 @@ layout: project
 category: console
 title: Console Fill in the Blank Quiz Game
 ---
-Let's continue our discussion of loops. Pre-conditional loops include while loop, for loop, and for each loop. The most common post-conditional loop is the do...while loop. **THERE IS NO DO...WHILE LOOP IN PYTHON**, but we can simulate one. Let's look at some pseudocode for using a do...while loop for a number guessing game
+Let's continue our discussion of loops. Pre-conditional loops include while loop, for loop, and for each loop. The most common post-conditional loop is the do...while loop. **THERE IS NO DO...WHILE LOOP IN PYTHON**, but we can simulate one.
+```
+Let's look at some pseudocode for using a do...while loop for a number guessing game:
 
 1. Declare variables for the number to guess and the user’s guess
-1. Generate a random number between 1 and 10
-1. Start do loop that will continue as long as the guess is wrong
-   1. Print message asking user to enter their guess
-   1. Scan in guess
-   1. Check the guess and print the appropriate messages
+2. Generate a random number between 1 and 10
+3. Start do loop that will continue as long as the guess is wrong
+   - Print message asking user to enter their guess
+   - Scan in guess
+   - Check the guess and print the appropriate messages
 
-A key difference between a while loop and do...while loop: the body of the do ... while loop is executed before the condition is ever tested. In the while loop version of the program, it was necessary to read in the user’s first guess before the loop so there would be a value for comparison in the condition. In the do...while loop, the the body will always run one or more times.
+A key difference between a while loop and do...while loop: the body of the do...while loop is executed before the condition is ever tested. In the while loop version of the program, it was necessary to read in the user’s first guess before the loop so there would be a value for comparison in the condition. In the do...while loop, the the body will ALWAYS run one or more times.
+```
 
 For THIS project we will *simulate* a post-conditional loop by creating a while True loop that has a break condition at the end. There is no do...while loop in Python.
 

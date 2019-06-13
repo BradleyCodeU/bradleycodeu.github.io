@@ -5,17 +5,20 @@ title: Console Multiple Choice Quiz Game
 ---
 In this project you will use while loop, not, input, print, and a few other things.
 
-Let's discuss loops. Pre-conditional loops include while loop, for loop, and for each loop. The most common post-conditional loop is the do...while loop. Let's look at some pseudocode for using a while loop for a number guessing game
+Let's discuss loops.
+```
+Pre-conditional loops include while loop, for loop, and for each loop. The most common post-conditional loop is the do...while loop. Let's look at some pseudocode for using a while loop (a pre-conditional loop) for a number guessing game:
 1. Declare variables for the number to guess and the user's guess
-1. Generate a random number between 1 and 10
-1. Print message asking user to enter their guess
-1. Scan in guess
-1. Start while loop that will continue as long as the guess is wrong
-   1. Print message saying guess is wrong
-   1. Get another guess from the user
-1. Print message saying the guess is right
+2. Generate a random number between 1 and 10
+3. Print message asking user to enter their guess
+4. Scan in guess
+5. Start while loop that will continue as long as the guess is wrong
+   - Print message saying guess is wrong
+   - Get another guess from the user
+6. Print message saying the guess is right
 
-Notice that in the while loop version of the program, it is necessary to read in the user's first guess before the loop so there would be a value for comparison in the loop condition. The body of the while loop will NOT happen if this condition is false.
+Notice that in the while loop version of the program, it is necessary to read in the user's first guess BEFORE the loop so there would be a value for comparison in the loop condition. The body of the while loop will NOT happen if this condition is false.
+```
 
 For THIS project you will use a **pre-conditional loop**. In an upcoming project you will use a *post-conditional loop*.
 
