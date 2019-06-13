@@ -193,6 +193,15 @@ section {
   h1 {
     font-size:4rem;
   }
+  h1.project-title{
+    /* background: #007bff; */
+    /* background: #1E90FF; */
+    background: #0169CE;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+  }
   h2 {
     font-size:3rem;
   }
