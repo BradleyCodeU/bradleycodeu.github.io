@@ -2,34 +2,12 @@
   layout: default
   title: APCSP Curriculum Overview
 ---
-[1st Quarter](#1st-quarter)
+{% for unit in site.data.units %}
+  {{ unit.heading | markdownify }}
+  {{ unit.content | markdownify }}
+{% endfor %}
 
-1. **[Scratch](#scratch)** - *2 wks*
-1. **[Py](#py)** - *2 wks*
-1. **[Binary](#binary)** - *2 wks*
-1. **[Turtle Art](#turtleart)** - *3 wks*
-
-[2nd Quarter](#2nd-quarter)
-
-1. **[IP](#ip)** - *1 wk*
-1. **[Scrum](#scrum)** - *3 wks*
-1. **[Console](#console)** - *3 wks*
-1. **[Big Data](#bigdata)** - *2 wks*
-
-[3rd Quarter](#3rd-quarter)
-
-1. **[Explore](#explore)** - *2 wks*
-1. **[Text Games](#textgames)** - *2 wks*
-1. **[Digital Info](#digitalinfo)** - *1 wk*
-1. **[Turtle Games](#turtlegames)** - *2wks*
-1. **[Tk](#tk)** - *2 wks*
-
-[4th Quarter](#4th-quarter)
-
-1. **[Create](#create)** - *3 wks*
-1. **[Greenfoot](#greenfoot)** - *3 wks*
-1. **[Java](#java)** - *3 wks*
-
+ddddddddd
 # 1st Quarter
 
 *Whenever possible, select "Sign up with Google" and use your hilliardschools.org account.*
@@ -76,8 +54,6 @@ Commit to take the AP test by October 4th. Late fee is $40.
 Create 2
 
 ## Console
-{{ include_relative /apcsp/console/sequence.md }}
-dddd
 {% include apcsp_console.md %}
 
 ## BigData

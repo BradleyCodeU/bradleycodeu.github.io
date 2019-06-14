@@ -3,73 +3,14 @@
     <div class="card-body">
       <h5 class="text-capitalize"><a href="/{{page.collection}}/#{{page.category}}">{{page.category}} Unit</a></h5>
       <small class="small">
-
-      aaa= = =
-      {% capture thisfile %}
-        {{page.collection}}_{{page.category}}.md
+        {% assign unit = site.data.units | where:"title",page.category %}
+        {{ unit[0].content | markdownify }}
+      - = - = -
+      {% capture thisfile %}{{page.collection}}_{{page.category}}.md{% endcapture %}
+      {% capture str_include %}
+        {% include {{thisfile}} %}
       {% endcapture %}
-      {% include {{thisfile}} %}
-
-      bbb- - -
-      {% case page.category %}
-        {% when "scratch" %}
-          {% capture s_include %}
-            {% include apcsp_scratch.md %}
-          {% endcapture %}
-        {% when "py" %}
-          {% capture s_include %}
-            {% include apcsp_py.md %}
-          {% endcapture %}
-        {% when "binary" %}
-          {% capture s_include %}
-            {% include apcsp_binary.md %}
-          {% endcapture %}
-
-        {% when "turtleart" %}
-          {% capture s_include %}
-            {% include apcsp_turtleart.md %}
-          {% endcapture %}
-        {% when "ip" %}
-          {% capture s_include %}
-            {% include apcsp_ip.md %}
-          {% endcapture %}
-        {% when "scrum" %}
-          {% capture s_include %}
-            {% include apcsp_scrum.md %}
-          {% endcapture %}
-        {% when "console" %}
-          {% capture s_include %}
-            {% include apcsp_console.md %}
-          {% endcapture %}
-        {% when "bigdata" %}
-          {% capture s_include %}
-            {% include apcsp_bigdata.md %}
-          {% endcapture %}
-        {% when "explore" %}
-          {% capture s_include %}
-            {% include apcsp_explore.md %}
-          {% endcapture %}
-        {% when "textgames" %}
-          {% capture s_include %}
-            {% include apcsp_textgames.md %}
-          {% endcapture %}
-        {% when "digitalinfo" %}
-          {% capture s_include %}
-            {% include apcsp_digitalinfo.md %}
-          {% endcapture %}
-        {% when "turtlegames" %}
-          {% capture s_include %}
-            {% include apcsp_turtlegames.md %}
-          {% endcapture %}
-        {% when "tk" %}
-          {% capture s_include %}
-            {% include apcsp_tk.md %}
-          {% endcapture %}
-
-      {% endcase %}
-      {{ s_include | markdownify }}
-
-
+      {{ str_include | markdownify }}
       </small>
 
     </div>
