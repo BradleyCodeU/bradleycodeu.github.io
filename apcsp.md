@@ -60,17 +60,7 @@ Commit to take the AP test by October 4th. Late fee is $40.
 {% include apcsp_py.md %}
 
 ## Binary
-- *2 wk* - Vocab: binary, decimal, digit, bit, hexadecimal, octal, ASCII, Big Data
-
-Code.org Unit 1, Chapter 1: Representing and Transmitting Information, [https://studio.code.org/s/csp1-2018](https://studio.code.org/s/csp1-2018)
-
-1. Pair - Counting with Coins
-1. Binary 1 to 50
-1. Binary
-1. Pair - Octal
-1. Pair - Hexadecimal
-1. Practice Quiz
-1. *Explore Practice 1* - Pair - [BinaryExplorePractice1](027BinaryExplorePractice1.md)
+{% include apcsp_binary.md %}
 
 ## TurtleArt
 {% include apcsp_turtleart.md %}
@@ -78,14 +68,10 @@ Code.org Unit 1, Chapter 1: Representing and Transmitting Information, [https://
 # 2nd Quarter
 
 ## IP
-- *1 wk* - Code.org Unit 1, Chapter 2: Inventing the Internet, [https://studio.code.org/s/csp1-2018](https://studio.code.org/s/csp1-2018), binary,
+{% include apcsp_ip.md %}
 
 ## Scrum
-- *3 wks* - Python Turtle art generator, collaboration, iterative versions, def new functions, loops, random, colors, Create 2
-
-[034ScrumArtScene2.md](034ScrumArtScene2.md)
-
-[035ScrumArtScene3.md](035ScrumArtScene3.md)
+{% include apcsp_scrum.md %}
 
 Create 2
 
@@ -93,28 +79,15 @@ Create 2
 {% include apcsp_console.md %}
 
 ## BigData
-- *2 wks* - Code.org Unit 4: Big Data and Privacy, [https://studio.code.org/s/csp4-2018](https://studio.code.org/s/csp4-2018), Explore 2
-
-Explore 2 - [036ExploreV2PhotoCollageArtifact](036ExploreV2PhotoCollageArtifact.md)
+{% include apcsp_bigdata.md %}
 
 # 3rd Quarter
 
 ## Explore
-- *2 wks* - Explore - AP Performance Task Prep, Final Explore
-
-[042ExploreTaskArtifact.md](042ExploreTaskArtifact.md)
-
-[043ExploreTaskQuestions.md](043ExploreTaskQuestions.md)
+{% include apcsp_explore.md %}
 
 ## TextGames
-- *2 wks* - Python text games, arrays, logical operators, two-dimensional array, global variables, runtime error, syntax error, while loop
-
-[033TextGamesCastlesAndCreatures](033TextGamesCastlesAndCreatures.md)
-
-Group - [037TextGameFoobarV1.md](037TextGameFoobarV1.md)
-
-Group - [038TextgameFoobarv2.md](038TextgameFoobarv2.md)
-
+{% include apcsp_textgames.md %}
 
 ## DigitalInfo
 - *1 wk* - Code.org Unit 2: Digital Information, [https://studio.code.org/s/csp2-2018](https://studio.code.org/s/csp2-2018)
