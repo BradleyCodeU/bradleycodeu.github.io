@@ -8,7 +8,7 @@
       {% capture thisfile %}
         {{page.collection}}_{{page.category}}.md
       {% endcapture %}
-      {% include thisfile %}
+      {% include {{thisfile}} %}
 
       bbb- - -
       {% case page.category %}
