@@ -1,8 +1,8 @@
 <div class="container">
   <div class="card">
     <div class="card-body">
-      <h3 class="{{ include.size }} text-capitalize"><a href="/{{page.collection}}/#{{page.category}}">{{page.category}} Unit</a></h3>
-      <{{ include.size }} class="{{ include.size }}">
+      <h3 class="text-capitalize"><a href="/{{page.collection}}/#{{page.category}}">{{page.category}} Unit</a></h3>
+      <small class="small">
       - - -
 
       {% if page.category == "scratch" %}
@@ -48,7 +48,7 @@
       {% endif %}
 
 
-      </{{ include.size }}>
+      </small>
 
     </div>
   </div>

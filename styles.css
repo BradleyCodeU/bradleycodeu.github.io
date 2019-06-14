@@ -188,7 +188,9 @@ pre,code{
 section {
   padding: 25px 0px 35px 0px;
 }
-
+small.fine-print{
+  font-size:60% !important;
+}
 .text-large {
   font-size: 150%;
   font-weight: 300 !important;
