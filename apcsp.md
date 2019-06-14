@@ -137,15 +137,15 @@ Create 3
 - *2 wks* - IDLE, reading files, canvas, dictionary, objects, classes, writing files, logical operators
 [PythonTruthTableGenerator]()
 
-[044WeirdCalculatorInputValidationReview.md](044WeirdCalculatorInputValidationReview.md)
+[044TkWeirdCalcInputValidationReview.md](044TkWeirdCalcInputValidationReview.md)
 
-[045TkinterShapesAndButtons.md](045TkinterShapesAndButtons.md)
+[045TkShapesAndButtons.md](045TkShapesAndButtons.md)
 
-[046TkinterAppWithInputValidation.md](046TkinterAppWithInputValidation.md)
+[046TkAppWithInputValidation.md](046TkAppWithInputValidation.md)
 
 [107TkTryLoadFile.md](107TkTryLoadFiles.md)
 
-[047TkinterPollv1.0.md](047TkinterPollv1.0.md)
+[047TkPollv1.0.md](047TkPollv1.0.md)
 
 [TkAddressBook]()
 
