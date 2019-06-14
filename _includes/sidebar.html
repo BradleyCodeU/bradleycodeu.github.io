@@ -5,8 +5,10 @@
       <small class="small">
 
       aaa= = =
-
-      {% include include.myfile %}
+      {% capture thisfile %}
+        {{page.collection}}_{{page.category}}.md
+      {% endcapture %}
+      {% include thisfile %}
 
       bbb- - -
       {% case page.category %}
