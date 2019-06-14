@@ -2,7 +2,7 @@
   layout: default
   title: APCSP Curriculum Overview
 ---
-{% for unit in site.data.units %}
+{% for unit in site.data.units[page.collection] %}
   {{ unit.heading | markdownify }}
   {{ unit.content | markdownify }}
 {% endfor %}

@@ -1,3 +1,4 @@
+apcsp:
 - title: menu
   content: "[1st Quarter](#1st-quarter)
 
@@ -44,7 +45,8 @@
 
 1. **[Greenfoot](#greenfoot)** - *3 wks*
 
-1. **[Java](#java)** - *3 wks*"
+1. **[Java](#java)** - *3 wks*
+"
 
 - title: 1stQuarter
   heading: "# 1st Quarter"
@@ -77,7 +79,8 @@ Texts:
 - [Python for Everybody by Charles Severance](https://books.trinket.io/pfe/index.html)
 
 
-Commit to take the AP test by October 4th. Late fee is $40."
+Commit to take the AP test by October 4th. Late fee is $40.
+"
 
 - title: scratch
   heading: "# Scratch"
@@ -97,4 +100,228 @@ Commit to take the AP test by October 4th. Late fee is $40."
 1. Either [QuestHealthGame](/apcsp/scratch/010QuestHealthGame/) or [ScratchPlatformer](/apcsp/scratch/102ScratchPlatformer/)
 
 1. [ScratchFreedomOfChoice](/apcsp/scratch/011ScratchFreedomOfChoice/)
+"
+
+- title: py
+  heading: "# Py"
+  content: "
+*2 wks*, Vocab: syntax, syntax error, variable, assignment, mathmatical operator, comparison operator, conditionals, function def, function call, input, argument, string, int, boolean, division by zero, comment, camelCase, scope, local variable, magic numbers, return, Tkinter, Create Task practice 1
+
+Install Python Mu IDE: [https://codewith.mu/](https://codewith.mu/)
+
+
+1. [PyNumberToHundred]({{site:baseurl}}/apcsp/py/111PyNumberToHundred/)
+
+1. Pair - Either [PyDollarConvert]({{site:baseurl}}/apcsp/py/108PyDollarConvert/) or PyMenuCalculator or [WeightOnPlanets](https://www.101computing.net/weight-on-the-moon-calculator/)
+
+1. Either Py2DGeometry or [Py3DGeometry]({{site:baseurl}}/apcsp/py/Py3DGeometry/)
+
+1. [PyModuloFun]({{site:baseurl}}/apcsp/py/105PyModuloFun/)
+
+1. Pair - [PyHogwartsHouse]({{site:baseurl}}/apcsp/py/109PyHogwartsHouse/)
+
+1. Pair - Either [PyParrotTrouble]({{site:baseurl}}/apcsp/py/104PyParrotTrouble/) or [PyThreeArgs]({{site:baseurl}}/apcsp/py/106PyThreeArgs/) or [PyCollisionFun]({{site:baseurl}}/apcsp/py/110PyCollisionFun/)
+
+1. *Create Practice 1* - Pair - [PyCreatePractice1]({{site:baseurl}}/apcsp/py/100PyCreatePractice1/)
+"
+- title: binary
+  heading: "# Binary"
+  content: "
+*2 wk*, Vocab: binary, decimal, digit, bit, hexadecimal, octal, ASCII, Big Data
+
+Code.org Unit 1, Chapter 1: Representing and Transmitting Information, [https://studio.code.org/s/csp1-2018](https://studio.code.org/s/csp1-2018)
+
+
+1. Pair - Counting with Coins
+
+1. Binary 1 to 50
+
+1. Binary
+
+1. Pair - Octal
+
+1. Pair - Hexadecimal
+
+1. Practice Quiz
+
+1. *Explore Practice 1* - Pair - [BinaryExplorePractice1](027BinaryExplorePractice1.md)
+"
+
+- title: turtleart
+  heading: "# TurtleArt"
+  content: "
+
+*3 wks*, Vocab: turtle, for loops, input, validation, try/except, operators, def new functions, random, algorithm, instance, instanciate, object, class, method
+
+
+1. Pair - [TurtleSimpleDrawing]({{site:baseurl}}/apcsp/turtleart/012TurtleSimpleDrawing/)
+
+1. [TurtleDrawingsAtRandomLocations]({{site:baseurl}}/apcsp/turtleart/025TurtleDrawingsAtRandomLocations/)
+
+1. Pair - Either [TurtleBlockLetters]({{site:baseurl}}/apcsp/turtleart/026TurtleBlockLetters/) or [TurtlePolygons]({{site:baseurl}}/apcsp/turtleart/013TurtlePolygons/)
+
+1. [TurtleHowManySquares]({{site:baseurl}}/apcsp/turtleart/014TurtleHowManySquares/)
+
+1. Either [TurtleRandomShapes]({{site:baseurl}}/apcsp/turtleart/015TurtleRandomShapes/) or [TurtleMandalaArt]({{site:baseurl}}/apcsp/turtleart/018TurtleMandalaArt/)
+
+1. [TurtleDrawingAlgorithm]({{site:baseurl}}/apcsp/turtleart/019TurtleDrawingAlgorithm/)
+
+1. [TurtleBouncingOffWalls]({{site:baseurl}}/apcsp/turtleart/020TurtleBouncingOffWalls/)
+
+1. Pair - [TurtleArtScene1]({{site:baseurl}}/apcsp/turtleart/021TurtleArtScene1/)
+
+1. Pair - [TurtleStars1]({{site:baseurl}}/apcsp/turtleart/016TurtleStars1/)
+
+1. Pair - [TurtleStars2]({{site:baseurl}}/apcsp/turtleart/017TurtleStars2/)
+"
+
+- title: 2ndquarter
+  heading: "# 2nd Quarter"
+  content: "
+"
+- title: ip
+  heading: "# IP"
+  content: "
+*1 wk*, Vocab: protocol, tcp, ip, http, ssl
+
+Code.org Unit 1, Chapter 2: Inventing the Internet, [https://studio.code.org/s/csp1-2018](https://studio.code.org/s/csp1-2018)
+"
+- title: scrum
+  heading: "# Scrum"
+  content: "
+*3 wks*, Vocab: iteration, waterfall, scrum, collaboration, iterative versions, def new functions, loops, random, colors, Create 2
+
+1. [034ScrumArtScene2.md](034ScrumArtScene2.md)
+
+1. [035ScrumArtScene3.md](035ScrumArtScene3.md)
+"
+- title: console
+  heading: "# Console"
+  content: "
+
+
+*3 wks*, Vocab: array, iteration, iterate through an array, input, for each loops, input validation, try/except, conditionals, functions, pre-conditional loop, post-conditional loop, pseudocode,
+
+
+1. [ConsolePseudocode3PPong]({{site:baseurl}}/apcsp/console/023ConsolePseudocode3PPong/)
+
+1. [ConsoleRandomIntArray]({{site:baseurl}}/apcsp/console/103ConsoleRandomIntArray/)
+
+1. Pair - [ConsoleTemps]({{site:baseurl}}/apcsp/console/022ConsoleTemps/)
+
+1. Pair - [ConsoleMultiChoiceQuizGame]({{site:baseurl}}/apcsp/console/024ConsoleMultiChoiceQuizGame/)
+
+1. [ConsoleFillInTheBlankQuizGame]({{site:baseurl}}/apcsp/console/028ConsoleFillInTheBlankQuizGame/)
+
+1. Pair - [ConsoleTipCalculator]({{site:baseurl}}/apcsp/console/029ConsoleTipCalculator/)
+
+1. [Console2DGeometryCalculations]({{site:baseurl}}/apcsp/console/030Console2DGeometryCalculations/)
+
+1. Pair - [ConsoleHourlyAndYearlyWages]({{site:baseurl}}/apcsp/console/031ConsoleHourlyAndYearlyWages/)
+
+1. [ConsoleTriviaHighLow]({{site:baseurl}}/apcsp/console/032ConsoleTriviaHighLow/)
+
+1. Pair - [ConsolePrintfLoops]({{site:baseurl}}/apcsp/console/101ConsolePrintfLoops/)
+
+"
+- title: bigdata
+  heading: "# BigData"
+  content: "
+*2 wks*, Vocab: datatype, database, data structure, API, data mining, SQL, callback, Internet of Things, JSON, metadata, AJAX, server, analytics, server farm, query, XML
+
+Code.org Unit 4: Big Data and Privacy, [https://studio.code.org/s/csp4-2018](https://studio.code.org/s/csp4-2018), Explore 2
+
+
+1. Explore 2 - [036ExploreV2PhotoCollageArtifact](036ExploreV2PhotoCollageArtifact.md)
+"
+- title: 3rdquarter
+  heading: "# 3rd Quarter"
+  content: "
+"
+- title: explore
+  heading: "# Explore"
+  content: "
+*2 wks* - Explore - AP Performance Task Prep, Final Explore
+
+
+1. [042ExploreTaskArtifact.md](042ExploreTaskArtifact.md)
+
+1. [043ExploreTaskQuestions.md](043ExploreTaskQuestions.md)
+
+"
+- title: textgames
+  heading: "# TextGames"
+  content: "
+*2 wks*, Vocab: text game, arrays, logical operators, two-dimensional array, global variables, runtime error, syntax error, while loop
+
+
+1. [033TextGamesCastlesAndCreatures](033TextGamesCastlesAndCreatures.md)
+
+1. Group - [037TextGameFoobarV1.md](037TextGameFoobarV1.md)
+
+1. Group - [038TextgameFoobarv2.md](038TextgameFoobarv2.md)
+"
+- title: digitalinfo
+  heading: "# DigitalInfo"
+  content: "
+*1 wk*, Vocab: bytes, kilobytes, megabytes, gigabytes
+
+
+Code.org Unit 2: Digital Information, [https://studio.code.org/s/csp2-2018](https://studio.code.org/s/csp2-2018)
+"
+- title: turtlegames
+  heading: "# TurtleGames"
+  content: "
+*2wks*, Vocab: instance, instanciate, object, class, method, logical operators, while loop
+
+
+1. [039Turtlegamev1.0.md](039Turtlegamev1.0.md)
+
+1. [040TurtleGamev2.0.md](040TurtleGamev2.0.md)
+
+1. [041Turtlegamev3.0.md](041Turtlegamev3.0.md)
+
+1. Create 3
+"
+- title: tk
+  heading: "# Tk"
+  content: "
+*2 wks*, Vocab: IDLE, reading files, canvas, dictionary, objects, classes, writing files, logical operators
+
+
+1. [PythonTruthTableGenerator]()
+
+1. [044TkWeirdCalcInputValidationReview.md](044TkWeirdCalcInputValidationReview.md)
+
+1. [045TkShapesAndButtons.md](045TkShapesAndButtons.md)
+
+1. [046TkAppWithInputValidation.md](046TkAppWithInputValidation.md)
+
+1. [107TkTryLoadFile.md](107TkTryLoadFiles.md)
+
+1. [047TkPollv1.0.md](047TkPollv1.0.md)
+
+1. [TkAddressBook]()
+
+1. [TkMenuOrder]()
+
+1. [TkPollAverage]()
+
+1. [TkMultiQuestion]()
+"
+- title: 4thquarter
+  heading: "# 4th Quarter"
+  content: "
+"
+- title: create
+  heading: "# Create"
+  content: "*3 wks* - Create - AP Performance Task Prep, Final Create
+"
+- title: greenfoot
+  heading: "# Greenfoot"
+  content: "*3 wks* - objects, classes
+"
+- title: java
+  heading: "# Java"
+  content: "*3 wks* - input, output, objects, classes
 "

@@ -3,7 +3,7 @@
     <div class="card-body">
       <h5 class="text-capitalize"><a href="/{{page.collection}}/#{{page.category}}">{{page.category}} Unit</a></h5>
       <small class="small">
-        {% assign unit = site.data.units | where:"title",page.category %}
+        {% assign unit = site.data.units[page.collection] | where:"title",page.category %}
         {{ unit[0].content | markdownify }}
       - = - = -
       {% capture thisfile %}{{page.collection}}_{{page.category}}.md{% endcapture %}
