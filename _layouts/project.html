@@ -32,7 +32,10 @@
       <div class="col-12 col-lg-4">
         <br>
         <!-- sidebar -->
-        {% include sidebar.html size='small' %}
+        {% capture thisfile %}
+          {{page.collection}}_{{page.category}}.md
+        {% endcapture %}
+        {% include sidebar.html myfile=thisfile %}
       </div>
       <br>
       <hr>
