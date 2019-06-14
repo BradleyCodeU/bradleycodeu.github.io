@@ -5,12 +5,6 @@
       <small class="small">
         {% assign unit = site.data.units[page.collection] | where:"title",page.category %}
         {{ unit[0].content | markdownify }}
-      - = - = -
-      {% capture thisfile %}{{page.collection}}_{{page.category}}.md{% endcapture %}
-      {% capture str_include %}
-        {% include {{thisfile}} %}
-      {% endcapture %}
-      {{ str_include | markdownify }}
       </small>
 
     </div>
