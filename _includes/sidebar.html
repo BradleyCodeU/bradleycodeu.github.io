@@ -6,8 +6,7 @@
 
       = = =
 
-      {% assign my_page_handle = collection.handle | append:'_gallery' | append: page.category %}
-      {{ pages[my_page_handle].content }}
+      {{ include_relative sequence.md }}
 
       - - -
       {% case page.category %}

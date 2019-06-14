@@ -76,6 +76,8 @@ Commit to take the AP test by October 4th. Late fee is $40.
 Create 2
 
 ## Console
+{{ include_relative /apcsp/console/sequence.md }}
+- - -
 {% include apcsp_console.md %}
 
 ## BigData
