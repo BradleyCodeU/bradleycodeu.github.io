@@ -160,6 +160,7 @@ h1.project-title{
 }
 h1[id]{
   border-top: solid #888888 5px;
+  margin-top:150px;
 }
 h2 {
   text-shadow: 2px 1px black;
