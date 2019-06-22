@@ -49,7 +49,7 @@ apcsp:
 "
 
 - title: 1stQuarter
-  heading: "# **1st Quarter**"
+  heading: "# 1st Quarter"
   content: "*Whenever possible, select 'Sign up with Google' and use your hilliardschools.org account.*
 
 Sign up for
@@ -83,7 +83,7 @@ Commit to take the AP test by October 4th. Late fee is $40.
 "
 
 - title: scratch
-  heading: "# **Scratch**"
+  heading: "# Scratch"
   content: "*2 wks*, Vocab: input, output, variable, assignment, string, int, boolean, script, conditional, binary selection, comparison operator, loop, prompt, event listeners
 
 
@@ -103,7 +103,7 @@ Commit to take the AP test by October 4th. Late fee is $40.
 "
 
 - title: py
-  heading: "# **Py**"
+  heading: "# Py"
   content: "
 *2 wks*, Vocab: syntax, syntax error, variable, assignment, mathmatical operator, comparison operator, conditionals, function def, function call, input, argument, string, int, boolean, division by zero, comment, camelCase, scope, local variable, magic numbers, return, Tkinter, Create Task practice 1
 
@@ -125,7 +125,7 @@ Install Python Mu IDE: [https://codewith.mu/](https://codewith.mu/)
 1. *Create Practice 1* - Pair - [PyCreatePractice1]({{site:baseurl}}/apcsp/py/100PyCreatePractice1/)
 "
 - title: binary
-  heading: "# **Binary**"
+  heading: "# Binary"
   content: "
 *2 wk*, Vocab: binary, decimal, digit, bit, hexadecimal, octal, ASCII, Big Data
 
@@ -148,7 +148,7 @@ Code.org Unit 1, Chapter 1: Representing and Transmitting Information, [https://
 "
 
 - title: turtleart
-  heading: "# **TurtleArt**"
+  heading: "# TurtleArt"
   content: "
 
 *3 wks*, Vocab: turtle, for loops, input, validation, try/except, operators, def new functions, random, algorithm, instance, instanciate, object, class, method
