@@ -158,6 +158,9 @@ h1.project-title{
   border-radius: 10px;
   margin-bottom: 25px;
 }
+h1 strong{
+  border-top: solid #888888 5px;
+}
 h2 {
   text-shadow: 2px 1px black;
 }
