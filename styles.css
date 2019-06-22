@@ -158,7 +158,7 @@ h1.project-title{
   border-radius: 10px;
   margin-bottom: 25px;
 }
-h1 strong{
+h1[id]{
   border-top: solid #888888 5px;
 }
 h2 {
