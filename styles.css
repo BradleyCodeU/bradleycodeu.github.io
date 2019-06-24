@@ -188,8 +188,11 @@ nav.navbar{
 pre,code{
   font-weight: 100 !important;
   /* color:#75BAFD!important; */
-  color:#BBBBBB !important;
+  color:#DDDDDD !important;
   white-space:pre-wrap!important;
+  background:#002040;
+  padding:5px 15px;
+  border-radius: 10px;
 }
 section {
   padding: 25px 0px 35px 0px;

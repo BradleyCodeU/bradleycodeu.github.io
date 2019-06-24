@@ -22,9 +22,9 @@ Calculate and output the weight of the end-user on *one* of the following planet
 
 
 You will:
-- Collect the user's weight in pounds.
+- Collect the user's weight in pounds
 - Validate the number
 - Convert pounds to kilograms
 - Calculate their weight on another planets
 - Convert kilograms to pounds
-- Create a popup that tells the user "Your weight on *whatever planet* is *???* lbs"
+- Create a popup that tells the user "Your weight on *whatever planet* is ___ lbs"
