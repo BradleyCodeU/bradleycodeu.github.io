@@ -200,6 +200,9 @@ section {
 small.fine-print{
   font-size:60% !important;
 }
+table{
+  margin-bottom: 15px;
+}
 td{
   border:solid #888888 1px;
   padding:15px;
