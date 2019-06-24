@@ -185,7 +185,7 @@ nav.navbar{
   display: none;
   overflow: hidden;
 }
-pre,code{
+pre{
   font-weight: 100 !important;
   /* color:#75BAFD!important; */
   color:#DDDDDD !important;
