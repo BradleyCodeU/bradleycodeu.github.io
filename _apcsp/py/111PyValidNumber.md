@@ -26,7 +26,7 @@ Create a function called buttonPress that
 - if validNumber(userInput), then
   - create a popup that says "Thank you"
   - return
-  else
+- else
   - create a popup that says "Not a valid number"
   - return
 
