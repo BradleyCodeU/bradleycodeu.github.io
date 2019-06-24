@@ -6,7 +6,7 @@ title: Weight On Planets
 On planet Earth, gravity has a value of 9.81 N/Kg (Newtons per kilogram). Because the Moon has about one-sixth of the gravity that Earth does, you would weigh less standing on it. On the Moon, gravity has a value of 1.622 N/Kg.
 
 We can hence use the following formula to calculate your weight on the Moon:
-![Weight on the Moon formula](weight-on-the-Moon-formula.png)
+![Weight on the Moon formula](/apcsp/py/weight-on-the-Moon-formula.png)
 
 
 Calculate and output the weight of the end-user on *one* of the following planets (NOT the moon):
