@@ -10,8 +10,9 @@ We can hence use the following formula to calculate your weight on the Moon:
 
 
 Calculate and output the weight of the end-user on *one* of the following planets (NOT the moon):
+
 | Planet | Gravity (in N/Kg) |
-|---|---|
+|----|----|
 | Mercury | 	3.7 |
 | Venus | 	8.87 |
 | Mars | 	3.711 |
