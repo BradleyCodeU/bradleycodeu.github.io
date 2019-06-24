@@ -110,19 +110,19 @@ Commit to take the AP test by October 4th. Late fee is $40.
 Install Python Mu IDE: [https://codewith.mu/](https://codewith.mu/)
 
 
-1. [PyValidNumber]({{site:baseurl}}/apcsp/py/111PyValidNumber/)
+1. [PyValidNumber](/apcsp/py/111PyValidNumber/)
 
-1. Pair - Either [PyDollarConvert]({{site:baseurl}}/apcsp/py/108PyDollarConvert/) or PyMenuCalculator or [WeightOnPlanets](https://www.101computing.net/weight-on-the-moon-calculator/)
+1. Pair - Either [PyDollarConvert](/apcsp/py/108PyDollarConvert/) or PyMenuCalculator or [WeightOnPlanets](https://www.101computing.net/weight-on-the-moon-calculator/)
 
-1. Either Py2DGeometry or [Py3DGeometry]({{site:baseurl}}/apcsp/py/112Py3DGeometry/)
+1. Either Py2DGeometry or [Py3DGeometry](/apcsp/py/112Py3DGeometry/)
 
-1. [PyModuloFun]({{site:baseurl}}/apcsp/py/105PyModuloFun/)
+1. [PyModuloFun](/apcsp/py/105PyModuloFun/)
 
-1. Pair - [PyHogwartsHouse]({{site:baseurl}}/apcsp/py/109PyHogwartsHouse/)
+1. Pair - [PyHogwartsHouse](/apcsp/py/109PyHogwartsHouse/)
 
-1. Pair - Either [PyParrotTrouble]({{site:baseurl}}/apcsp/py/104PyParrotTrouble/) or [PyThreeArgs]({{site:baseurl}}/apcsp/py/106PyThreeArgs/) or [PyCollisionFun]({{site:baseurl}}/apcsp/py/110PyCollisionFun/)
+1. Pair - Either [PyParrotTrouble](/apcsp/py/104PyParrotTrouble/) or [PyThreeArgs](/apcsp/py/106PyThreeArgs/) or [PyCollisionFun](/apcsp/py/110PyCollisionFun/)
 
-1. *Create Practice 1* - Pair - [PyCreatePractice1]({{site:baseurl}}/apcsp/py/100PyCreatePractice1/)
+1. *Create Practice 1* - Pair - [PyCreatePractice1](/apcsp/py/100PyCreatePractice1/)
 "
 - title: binary
   heading: "# Binary"
@@ -154,25 +154,25 @@ Code.org Unit 1, Chapter 1: Representing and Transmitting Information, [https://
 *3 wks*, Vocab: turtle, for loops, input, validation, try/except, operators, def new functions, random, algorithm, instance, instanciate, object, class, method
 
 
-1. Pair - [TurtleSimpleDrawing]({{site:baseurl}}/apcsp/turtleart/012TurtleSimpleDrawing/)
+1. Pair - [TurtleSimpleDrawing](/apcsp/turtleart/012TurtleSimpleDrawing/)
 
-1. [TurtleDrawingsAtRandomLocations]({{site:baseurl}}/apcsp/turtleart/025TurtleDrawingsAtRandomLocations/)
+1. [TurtleDrawingsAtRandomLocations](/apcsp/turtleart/025TurtleDrawingsAtRandomLocations/)
 
-1. Pair - Either [TurtleBlockLetters]({{site:baseurl}}/apcsp/turtleart/026TurtleBlockLetters/) or [TurtlePolygons]({{site:baseurl}}/apcsp/turtleart/013TurtlePolygons/)
+1. Pair - Either [TurtleBlockLetters](/apcsp/turtleart/026TurtleBlockLetters/) or [TurtlePolygons](/apcsp/turtleart/013TurtlePolygons/)
 
-1. [TurtleHowManySquares]({{site:baseurl}}/apcsp/turtleart/014TurtleHowManySquares/)
+1. [TurtleHowManySquares](/apcsp/turtleart/014TurtleHowManySquares/)
 
-1. Either [TurtleRandomShapes]({{site:baseurl}}/apcsp/turtleart/015TurtleRandomShapes/) or [TurtleMandalaArt]({{site:baseurl}}/apcsp/turtleart/018TurtleMandalaArt/)
+1. Either [TurtleRandomShapes](/apcsp/turtleart/015TurtleRandomShapes/) or [TurtleMandalaArt](/apcsp/turtleart/018TurtleMandalaArt/)
 
-1. [TurtleDrawingAlgorithm]({{site:baseurl}}/apcsp/turtleart/019TurtleDrawingAlgorithm/)
+1. [TurtleDrawingAlgorithm](/apcsp/turtleart/019TurtleDrawingAlgorithm/)
 
-1. [TurtleBouncingOffWalls]({{site:baseurl}}/apcsp/turtleart/020TurtleBouncingOffWalls/)
+1. [TurtleBouncingOffWalls](/apcsp/turtleart/020TurtleBouncingOffWalls/)
 
-1. Pair - [TurtleArtScene1]({{site:baseurl}}/apcsp/turtleart/021TurtleArtScene1/)
+1. Pair - [TurtleArtScene1](/apcsp/turtleart/021TurtleArtScene1/)
 
-1. Pair - [TurtleStars1]({{site:baseurl}}/apcsp/turtleart/016TurtleStars1/)
+1. Pair - [TurtleStars1](/apcsp/turtleart/016TurtleStars1/)
 
-1. Pair - [TurtleStars2]({{site:baseurl}}/apcsp/turtleart/017TurtleStars2/)
+1. Pair - [TurtleStars2](/apcsp/turtleart/017TurtleStars2/)
 "
 
 - title: 2ndquarter
@@ -203,25 +203,25 @@ Code.org Unit 1, Chapter 2: Inventing the Internet, [https://studio.code.org/s/c
 *3 wks*, Vocab: array, iteration, iterate through an array, input, for each loops, input validation, try/except, conditionals, functions, pre-conditional loop, post-conditional loop, pseudocode,
 
 
-1. [ConsolePseudocode3PPong]({{site:baseurl}}/apcsp/console/023ConsolePseudocode3PPong/)
+1. [ConsolePseudocode3PPong](/apcsp/console/023ConsolePseudocode3PPong/)
 
-1. [ConsoleRandomIntArray]({{site:baseurl}}/apcsp/console/103ConsoleRandomIntArray/)
+1. [ConsoleRandomIntArray](/apcsp/console/103ConsoleRandomIntArray/)
 
-1. Pair - [ConsoleTemps]({{site:baseurl}}/apcsp/console/022ConsoleTemps/)
+1. Pair - [ConsoleTemps](/apcsp/console/022ConsoleTemps/)
 
-1. Pair - [ConsoleMultiChoiceQuizGame]({{site:baseurl}}/apcsp/console/024ConsoleMultiChoiceQuizGame/)
+1. Pair - [ConsoleMultiChoiceQuizGame](/apcsp/console/024ConsoleMultiChoiceQuizGame/)
 
-1. [ConsoleFillInTheBlankQuizGame]({{site:baseurl}}/apcsp/console/028ConsoleFillInTheBlankQuizGame/)
+1. [ConsoleFillInTheBlankQuizGame](/apcsp/console/028ConsoleFillInTheBlankQuizGame/)
 
-1. Pair - [ConsoleTipCalculator]({{site:baseurl}}/apcsp/console/029ConsoleTipCalculator/)
+1. Pair - [ConsoleTipCalculator](/apcsp/console/029ConsoleTipCalculator/)
 
-1. [Console2DGeometryCalculations]({{site:baseurl}}/apcsp/console/030Console2DGeometryCalculations/)
+1. [Console2DGeometryCalculations](/apcsp/console/030Console2DGeometryCalculations/)
 
-1. Pair - [ConsoleHourlyAndYearlyWages]({{site:baseurl}}/apcsp/console/031ConsoleHourlyAndYearlyWages/)
+1. Pair - [ConsoleHourlyAndYearlyWages](/apcsp/console/031ConsoleHourlyAndYearlyWages/)
 
-1. [ConsoleTriviaHighLow]({{site:baseurl}}/apcsp/console/032ConsoleTriviaHighLow/)
+1. [ConsoleTriviaHighLow](/apcsp/console/032ConsoleTriviaHighLow/)
 
-1. Pair - [ConsolePrintfLoops]({{site:baseurl}}/apcsp/console/101ConsolePrintfLoops/)
+1. Pair - [ConsolePrintfLoops](/apcsp/console/101ConsolePrintfLoops/)
 
 "
 - title: bigdata
