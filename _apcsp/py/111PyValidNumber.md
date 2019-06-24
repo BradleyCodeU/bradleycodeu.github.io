@@ -3,6 +3,16 @@ layout: project
 category: py
 title: Valid Number
 ---
+[Read this tutorial](http://effbot.org/tkinterbook/entry.htm) about the Tkinter Entry widget. Notice that you can create an Entry named myEntry like this...
+```python
+myEntry = Entry(root)
+myEntry.pack()
+```
+When a button is pressed, you can get the user input from that myEntry like this...
+```python
+userInput = myEntry.get()
+```
+
 
 In this project, you will create a Tk app that will ask for a number and validate that the user entered a number that makes sense. For example...
 - "What year were you born?" will only accept numbers 1900-2019
