@@ -3,7 +3,7 @@ layout: project
 category: py
 title: Valid Number
 ---
-[Read this tutorial](http://effbot.org/tkinterbook/entry.htm) about the Tkinter Entry widget. Notice that you can create an Entry named myEntry like this...
+[Read this tutorial](http://effbot.org/tkinterbook/entry.htm) about the Tkinter Entry widget. Notice that you can create an Entry named myEntry like this....
 ```
 myEntry = Entry(root)
 myEntry.pack()
