@@ -200,10 +200,15 @@ section {
 small.fine-print{
   font-size:60% !important;
 }
+td{
+  border:solid #888888 1px;
+  padding:15px;
+}
 .text-large {
   font-size: 150%;
   font-weight: 300 !important;
 }
+
 
 @media (min-width: @screen-md-min) < 992px {
   /* For small tablets and mobile phones: */
