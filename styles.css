@@ -187,7 +187,8 @@ nav.navbar{
 }
 pre,code{
   font-weight: 100 !important;
-  color:#75BAFD!important;
+  /* color:#75BAFD!important; */
+  color:#BBBBBB !important;
   white-space:pre-wrap!important;
 }
 section {
