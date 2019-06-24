@@ -16,23 +16,9 @@ Create a function called hogwartsHouse that requires two arguments: bravery and 
 - If bravery and teamwork are both 5 or less then return "Ravenclaw"
 - If bravery is above 5 and teamwork is 5 or less then return "Slytherin"
 
-<table>
-  <tr>
-    <td>Slytherin</td>
-    <td>High Bravery</td>
-    <td>Gryffindor</td>
-  </tr>
-  <tr>
-    <td>Low Teamwork</td>
-    <td> </td>
-    <td>High Teamwork</td>
-  </tr>
-  <tr>
-    <td>Ravenclaw</td>
-    <td>Low Bravery</td>
-    <td>Hufflepuff</td>
-  </tr>
-</table>
+| Slytherin  | High Bravery | Gryffindor |
+| Low Teamwork | | High Teamwork |
+| Ravenclaw | Low Bravery | Hufflepuff |
 
 Create a function called submit. In this function, you must:
 - collect the user input for bravery
