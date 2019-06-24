@@ -1,7 +1,12 @@
+---
+layout: project
+category: py
+title: Parrot Trouble
+---
 In this project you will use random ints, integer conversion, if and else, and logical operators
 
-We own a loud squawking parrot. A new noise ordinance prohibits noise louder than 55 decibels from 10 p.m. to 7:30 a.m. AND noise louder than 75 decibels during all hours of the day. 
- 
+We own a loud squawking parrot. A new noise ordinance prohibits noise louder than 55 decibels from 10 p.m. to 7:30 a.m. AND noise louder than 75 decibels during all hours of the day.
+
 
 Create a function called randomVolume that:
 - generates a random integer between 0 and 100

@@ -1,3 +1,8 @@
+---
+layout: project
+category: py
+title: Dollar Convert
+---
 Create four functions that will convert to/from US dollars. Each function will require one argument: the amount to be converted. It will return the converted amount
 
 For example you might create these four:

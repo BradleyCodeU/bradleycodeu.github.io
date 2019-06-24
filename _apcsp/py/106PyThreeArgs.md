@@ -1,3 +1,8 @@
+---
+layout: project
+category: py
+title: Three Args
+---
 Pick 2:
 - [giveSpeedingTicket](#giveSpeedingTicket)
 - [netPay](#netPay)

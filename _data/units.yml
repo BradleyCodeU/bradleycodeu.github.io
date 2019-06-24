@@ -110,11 +110,11 @@ Commit to take the AP test by October 4th. Late fee is $40.
 Install Python Mu IDE: [https://codewith.mu/](https://codewith.mu/)
 
 
-1. [PyNumberToHundred]({{site:baseurl}}/apcsp/py/111PyNumberToHundred/)
+1. [PyValidNumber]({{site:baseurl}}/apcsp/py/111PyValidNumber/)
 
 1. Pair - Either [PyDollarConvert]({{site:baseurl}}/apcsp/py/108PyDollarConvert/) or PyMenuCalculator or [WeightOnPlanets](https://www.101computing.net/weight-on-the-moon-calculator/)
 
-1. Either Py2DGeometry or [Py3DGeometry]({{site:baseurl}}/apcsp/py/Py3DGeometry/)
+1. Either Py2DGeometry or [Py3DGeometry]({{site:baseurl}}/apcsp/py/112Py3DGeometry/)
 
 1. [PyModuloFun]({{site:baseurl}}/apcsp/py/105PyModuloFun/)
 

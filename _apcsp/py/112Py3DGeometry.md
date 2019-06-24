@@ -1,4 +1,8 @@
-112Py3DGeometry.md
+---
+layout: project
+category: py
+title: 3D Geometry
+---
 
 Create four functions that will __calculate and return__ the volume of shape 1, surface area of shape 1, volume of shape 2, and surface area of shape 2.
 

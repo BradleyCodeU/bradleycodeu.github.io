@@ -1,4 +1,8 @@
-
+---
+layout: project
+category: py
+title: Create Practice 1
+---
 Create an Educational Quiz
 
 Computers are playing an increasing role in education.

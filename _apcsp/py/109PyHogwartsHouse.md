@@ -1,3 +1,8 @@
+---
+layout: project
+category: py
+title: Hogwarts House
+---
 Create a Tkinter app that:
 - says "Bravery Score (1-10)"
 - has a box for user input
@@ -5,7 +10,7 @@ Create a Tkinter app that:
 - has a box for user input
 - has a submit button
 
-Create a function called hogwartsHouse that requires two arguments: bravery and teamwork. It returns a string.
+Create a function called hogwartsHouse that requires two arguments: bravery and teamwork. It *returns* a string.
 - If bravery and teamwork are both above 5 then return "Gryffindor"
 - If bravery is 5 or less and teamwork is above 5 then return "Hufflepuff"
 - If bravery and teamwork are both 5 or less then return "Ravenclaw"

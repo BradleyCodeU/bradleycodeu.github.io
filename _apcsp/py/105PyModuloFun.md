@@ -1,3 +1,8 @@
+---
+layout: project
+category: py
+title: Modulo Fun
+---
 The % operator returns the remainder of two numbers. It is useful for detecting even/odd numbers (like to make stripes) and for restricting a value to a range (like to wrapping an animated ball around).
 
 Two forward slashes // is the floor division operator. It returns the result of division rounded down. It is useful for conversions. In other programming languages, this is known as integer division.
