@@ -1,29 +1,8 @@
 apcsa:
-- title: menu
-  content: "[1st Quarter](#1st-quarter)
 
 
-1. **[Ch1 Introduction](#ch1-introduction)**
-
-1. **[Ch2 Using Objects](#ch2-using-objects)**
-
-1. **[Ch3 Implementing Classes](#ch3-implementing-classes)**
-
-1. **[Ch4 Fundamental Data Types](#ch4-fundamental-data-types)**
-
-1. **[Ch4.5 Strings](#ch45-strings)**
-
-
-[2nd Quarter](#2nd-quarter)
-
-
-1. **[Ch5 Decisions](#ch5-decisions)**
-
-1. **[Ch6 Loops](#ch6-loops)**
-
-1. **[Ch7 Arrays and Array Lists](#ch7-arrays-and-array-lists)**
-
-
+- title: menu3
+  content: "
 [3rd Quarter](#3rd-quarter)
 
 
@@ -35,7 +14,9 @@ apcsa:
 
 1. **[Ch9 Inheritance](#ch9-inheritance)**
 
-
+"
+- title: menu4
+  content: "
 [4th Quarter](#4th-quarter)
 
 
@@ -103,8 +84,24 @@ References:
 - [Java printf() Method Quick Reference](https://www.cs.colostate.edu/~cs160/.Summer16/resources/Java_printf_method_quick_reference.pdf)
 
 - [Java Money Formatting](https://github.com/ohiofi/Java-Money-Formatting/blob/master/MoneyFormatting.java)
-"
 
+> “Programs must be written for people to read, and only incidentally for machines to execute.”
+*—Abelson and Sussman*
+"
+- title: menu1
+  content: "[1st Quarter](#1st-quarter)
+
+
+1. **[Ch1 Introduction](#ch1-introduction)**
+
+1. **[Ch2 Using Objects](#ch2-using-objects)**
+
+1. **[Ch3 Implementing Classes](#ch3-implementing-classes)**
+
+1. **[Ch4 Fundamental Data Types](#ch4-fundamental-data-types)**
+
+1. **[Ch4.5 Strings](#ch45-strings)**
+"
 - title: ch1-introduction
   heading: "# Ch1 Introduction"
   content: "
@@ -200,20 +197,52 @@ References:
 - title: 2ndquarter
   heading: "# 2nd Quarter"
   content: "
-Units:
-  
+> “Commenting your code is like cleaning your bathroom — you never want to do it, but it really does create a more pleasant experience for you and your guests.”
+
+*—Ryan Campbell*
+"
+- title: menu2
+  content: "
+[2nd Quarter](#2nd-quarter)
+
+
 1. **[Ch5 Decisions](#ch5-decisions)**
+
+1. **[Ch5.7 Short-Circuit Evaluation and De Morgan's Law](#ch57-short-circuit-evaluation)
 
 1. **[Ch6 Loops](#ch6-loops)**
 
 1. **[Ch7 Arrays and Array Lists](#ch7-arrays-and-array-lists)**
 
 "
-
 - title: ch5-decisions
   heading: "# Ch5 Decisions"
   content: "
-1. [Ch45NameGames](/apcsa/ch45/Ch45NameGames/)
+1. [Ch5PaintCalc2ThePaintingMenace](/apcsa/ch5/Ch5PaintCalc2ThePaintingMenace/)
+
+1. [Ch5FindDistance](/apcsa/ch5/Ch5FindDistance/)
+
+1. [Ch5SingleDigitRomanNumerals](/apcsa/ch5/Ch5SingleDigitRomanNumerals/)
+
+1. [Ch5ErrorTraps](/apcsa/ch5/Ch5ErrorTraps/)
+
+1. [Ch5FourDigitRomanNumerals](/apcsa/ch5/Ch5FourDigitRomanNumerals/)
+
+1. [Ch5FrenchCountryPrefixes](/apcsa/ch5/Ch5FrenchCountryPrefixes/)
+
+"
+
+- title: ch57-short-circuit-evaluation
+  heading: "# Ch5.7 Short-Circuit Evaluation"
+  content: "
+1. [Ch57EvaluatingBooleanExpressions](/apcsa/ch57/Ch57EvaluatingBooleanExpressions/)
+
+1. [Ch57Short-CircuitEvaluation1](/apcsa/ch57/Ch57Short-CircuitEvaluation1/)
+
+1. [Ch57Short-CircuitEvaluation2](/apcsa/ch57/Ch57Short-CircuitEvaluation2/)
+
+1. [Ch57DeMorgansLaw](/apcsa/ch57/Ch57DeMorgansLaw/)
+
 
 "
 
@@ -221,28 +250,48 @@ Units:
   heading: "# Ch6 Loops"
   content: "
 
-1. [Ch45NameGames](/apcsa/ch45/Ch45NameGames/)
+1. [Ch6WhileLoops](/apcsa/ch6/Ch6WhileLoops/)
+
+1. [Ch6ForLoops](/apcsa/ch6/Ch6ForLoops/)
+
+1. [Ch6LoopInfo](/apcsa/ch6/Ch6LoopInfo/)
+
+1. [Ch6MultiplicationTable](/apcsa/ch6/Ch6MultiplicationTable/)
+
+1. [Ch6Squares](/apcsa/ch6/Ch6Squares/)
+
+1. [Ch6PalindromeChecker](/apcsa/ch6/Ch6PalindromeChecker/)
+
+1. [Ch6PrimeGenerator](/apcsa/ch6/Ch6PrimeGenerator/)
+
+
 "
 
 - title: ch7-arrays-and-array-lists
   heading: "# Ch7 Arrays and Array Lists"
   content: "
 
-1. [Ch45NameGames](/apcsa/ch45/Ch45NameGames/)
+1. [Ch7ArrayManipulation](/apcsa/ch7/Ch7ArrayManipulation/)
+
+1. [Ch7SeatingArrangements](/apcsa/ch7/Ch7SeatingArrangements/)
+
+1. [Ch7PokerDice](/apcsa/ch7/Ch7PokerDice/)
+
+1. [Ch7PizzaToppings](/apcsa/ch7/Ch7PizzaToppings/)
+
+1. [Ch7PetShopRegister](/apcsa/ch7/Ch7PetShopRegister/)
+
 "
-- title: bigdata
-  heading: "# BigData"
-  content: "
-*2 wks*, Vocab: datatype, database, data structure, API, data mining, SQL, callback, Internet of Things, JSON, metadata, AJAX, server, analytics, server farm, query, XML
-
-Code.org Unit 4: Big Data and Privacy, [https://studio.code.org/s/csp4-2018](https://studio.code.org/s/csp4-2018), Explore 2
 
 
-1. Explore 2 - [036ExploreV2PhotoCollageArtifact](036ExploreV2PhotoCollageArtifact.md)
-"
+
+
+
 - title: 3rdquarter
   heading: "# 3rd Quarter"
   content: "
+> “Computers are good at following instructions, but not at reading your mind.”
+*—Donald Knuth*
 "
 - title: explore
   heading: "# Explore"
@@ -318,6 +367,7 @@ Code.org Unit 2: Digital Information, [https://studio.code.org/s/csp2-2018](http
 - title: 4thquarter
   heading: "# 4th Quarter"
   content: "
+> Computer science inverts the normal. In normal science, you're given a world, and your job is to find out the rules. In computer science, you give the computer the rules, and it creates the world. Alan Kay
 "
 - title: create
   heading: "# Create"
