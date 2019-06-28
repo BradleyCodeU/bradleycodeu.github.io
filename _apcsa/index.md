@@ -3,9 +3,8 @@
   title: APCSA Curriculum Overview
   permalink: /apcsa/
 ---
-yo???
-{{ assign menu = site.data.apcsa_units.apcsa | where:"title","menu1" }}
-{{ menu }}
+yo?
+{{ site.data.apcsa_units.apcsa.content | where:"title","menu1" }}
 {{ assign menu = site.data.apcsa_units.apcsa | where:"title","menu2" }}
 {{ menu | markdownify }}
 {{ menu[0] | markdownify }}
