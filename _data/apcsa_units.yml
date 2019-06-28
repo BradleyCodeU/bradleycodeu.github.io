@@ -1,0 +1,350 @@
+apcsa:
+- title: menu
+  content: "[1st Quarter](#1st-quarter)
+
+
+1. **[Ch1 Introduction](#ch1-introduction)**
+
+1. **[Ch2 Using Objects](#ch2-using-objects)**
+
+1. **[Ch3 Implementing Classes](#ch3-implementing-classes)**
+
+1. **[Ch4 Fundamental Data Types](#ch4-fundamental-data-types)**
+
+1. **[Ch4.5 Strings](#ch4.5-strings)**
+
+
+[2nd Quarter](#2nd-quarter)
+
+
+1. **[Ch5 Decisions](#ch5-decisions)**
+
+1. **[Ch6 Loops](#ch6-loops)**
+
+1. **[Ch7 Arrays and Array Lists](#ch7-arrays-and-array-lists)**
+
+
+[3rd Quarter](#3rd-quarter)
+
+
+1. **[Ch7.2 For Each Loops](#ch7.2-for-each-loops)**
+
+1. **[Ch7.6 2D Arrays](#ch7.6-2d-arrays)**
+
+1. **[Ch8 Designing Classes](#ch8-designing-classes)**
+
+1. **[Ch9 Inheritance](#ch9-inheritance)**
+
+
+[4th Quarter](#4th-quarter)
+
+
+1. **[Ch10 Interfaces](#ch10-interfaces)**
+
+1. **[Ch14 Sorting and Searching](#ch14-sorting-and-searching)**
+
+1. **[Ch13 Recursion](#ch13-recursion)**
+
+1. **[AP Test Prep](#ap-test-prep)**
+
+"
+
+- title: 1stQuarter
+  heading: "# 1st Quarter"
+  content: "*Whenever possible, select 'Sign up with Google' and use your hilliardschools.org account.*
+
+Sign up for:
+
+- [bookshelf.vitalsource.com](https://bookshelf.vitalsource.com)
+
+- 'Sign up with Google' [trinket.io](https://trinket.io)
+
+- 'Sign up with Google' [repl.it](https://repl.it)
+
+- 'Sign up with Google' [codehs.com](https://codehs.com)
+
+- [codingbat.com](https://codingbat.com)
+
+- [khanacademy.org](https://khanacademy.org)
+
+- [github.com](https://github.com)
+
+
+Join our repl.it class and our khanacademy.org class
+
+
+Texts:
+
+- [Big Java: Early Objects, Interactive Edition 6/e by Cay S. Horstmann](https://www.google.com/search?q=Big+Java%3A+Early+Objects%2C+Interactive+Edition+6%2Fe+by+Cay+S.+Horstmann)
+
+
+Adding Big Java Textbook to student iPads:
+
+1. Download VitalSource Bookshelf from the App Store
+
+1. Click “forgot password” and enter school email and click “create account”
+
+1. Complete registration info
+
+1. Click “Redeem Code” and enter textbook code
+
+1. Exit browser and download book through the app
+
+1. You can use either the iPad app OR go to [bookshelf.vitalsource.com](https://bookshelf.vitalsource.com/)
+
+
+## Commit to take the AP test by October 4th. Late fee is $40.
+
+
+References:
+
+- [Java Quick Reference, Appendix B](https://apstudents.collegeboard.org/sites/default/files/2019-05/ap-computer-science-a-2014-java-quick-reference.pdf)
+
+- [Java printf\(\) Method Quick Reference](https://www.cs.colostate.edu/~cs160/.Summer16/resources/Java_printf_method_quick_reference.pdf)
+
+- [Java Money Formatting](https://github.com/ohiofi/Java-Money-Formatting/blob/master/MoneyFormatting.java)
+"
+
+- title: ch1-introduction
+  heading: "# Ch1 Introduction"
+  content: "
+
+1. [Ch1KingsIsland](/apcsa/ch1/Ch1KingsIsland/)
+
+1. [Ch1PaintCalcAreaOnly](/apcsa/ch1/Ch1PaintCalcAreaOnly/)
+
+1. [Ch1Review1](/apcsa/ch1/Ch1Review1/)
+
+1. [Ch1IntegerOverflow](/apcsa/ch1/Ch1IntegerOverflow/)
+
+1. [Ch1Review2](/apcsa/ch1/Ch1Review2/)
+"
+
+- title: ch2-using-objects
+  heading: "# Ch2 Using Objects"
+  content: "
+
+1. [Ch2Exercises1-5-14](/apcsa/ch2/Ch2Exercises1-5-14/)
+
+1. [Ch2Projects2-3-5](/apcsa/ch2/Ch2Projects2-3-5/)
+
+1. [Ch2Project6](/apcsa/ch2/Ch2Project6/)
+
+1. [Ch2Project9](/apcsa/ch2/Ch2Project6/)
+
+1. [Ch2StringExercises](/apcsa/ch2/Ch2StringExercises/)
+
+1. [Ch2MethodMadness](/apcsa/ch2/Ch2MethodMadness/)
+
+1. [Ch2ReviewCh1andCh2](/apcsa/ch2/Ch2ReviewCh1andCh2/)
+
+"
+
+- title: ch3-implementing-classes
+  heading: "# Ch3 Implementing Classes"
+  content: "
+
+1. [Ch3PotatoHeadClass](/apcsa/ch3/Ch3PotatoHeadClass/)
+
+1. [Ch3ShoesClass](/apcsa/ch3/Ch3ShoesClass/)
+
+1. [Ch3BalloonClass](/apcsa/ch3/Ch3BalloonClass/)
+
+1. [Ch3CashRegisterClass](/apcsa/ch3/Ch3CashRegisterClass/)
+
+1. [Ch3EmployeeClass](/apcsa/ch3/Ch3EmployeeClass/)
+
+1. [Ch3StudentClass](/apcsa/ch3/Ch3StudentClass/)
+
+1. [Ch3GraphicsCarClass](/apcsa/ch3/Ch3GraphicsCarClass/)
+
+"
+
+- title: ch4-fundamental-data-types
+  heading: "# Ch4 Fundamental Data Types"
+  content: "
+
+1. [Ch4ModulusClock](/apcsa/ch4/Ch4ModulusClock/)
+
+1. [Ch4ArithmeticCasting](/apcsa/ch4/Ch4ArithmeticCasting/)
+
+1. [Ch4FormattingPrintf](/apcsa/ch4/Ch4FormattingPrintf/)
+
+1. [Ch4WeirdCalculator](/apcsa/ch4/Ch4WeirdCalculator/)
+
+1. [Ch4CedarPointTrip](/apcsa/ch4/Ch4CedarPointTrip/)
+
+1. [Ch4IntDivQuizizz](/apcsa/ch4/Ch4IntDivQuizizz/)
+
+1. [Ch4ModuloQuizizz](/apcsa/ch4/Ch4ModuloQuizizz/)
+
+1. [Ch4Review](/apcsa/ch4/Ch4Review/)
+
+"
+
+- title: ch4.5-strings
+  heading: "# Ch4.5 Strings"
+  content: "
+
+1. [Ch1KingsIsland](/apcsa/ch1/Ch1KingsIsland/)
+
+1. [Ch1PaintCalcAreaOnly](/apcsa/ch1/Ch1PaintCalcAreaOnly/)
+
+1. [Ch1Review1](/apcsa/ch1/Ch1Review1/)
+
+1. [Ch1IntegerOverflow](/apcsa/ch1/Ch1IntegerOverflow/)
+
+1. [Ch1Review2](/apcsa/ch1/Ch1Review2/)
+"
+
+
+- title: 2ndquarter
+  heading: "# 2nd Quarter"
+  content: "
+"
+- title: ip
+  heading: "# IP"
+  content: "
+*1 wk*, Vocab: protocol, tcp, ip, http, ssl
+
+Code.org Unit 1, Chapter 2: Inventing the Internet, [https://studio.code.org/s/csp1-2018](https://studio.code.org/s/csp1-2018)
+"
+- title: scrum
+  heading: "# Scrum"
+  content: "
+*3 wks*, Vocab: iteration, waterfall, scrum, collaboration, iterative versions, def new functions, loops, random, colors, Create 2
+
+1. [034ScrumArtScene2.md](034ScrumArtScene2.md)
+
+1. [035ScrumArtScene3.md](035ScrumArtScene3.md)
+"
+- title: console
+  heading: "# Console"
+  content: "
+
+
+*3 wks*, Vocab: array, iteration, iterate through an array, input, for each loops, input validation, try/except, conditionals, functions, pre-conditional loop, post-conditional loop, pseudocode,
+
+
+1. [ConsolePseudocode3PPong](/apcsa/console/023ConsolePseudocode3PPong/)
+
+1. [ConsoleRandomIntArray](/apcsa/console/103ConsoleRandomIntArray/)
+
+1. Pair - [ConsoleTemps](/apcsa/console/022ConsoleTemps/)
+
+1. Pair - [ConsoleMultiChoiceQuizGame](/apcsa/console/024ConsoleMultiChoiceQuizGame/)
+
+1. [ConsoleFillInTheBlankQuizGame](/apcsa/console/028ConsoleFillInTheBlankQuizGame/)
+
+1. Pair - [ConsoleTipCalculator](/apcsa/console/029ConsoleTipCalculator/)
+
+1. [Console2DGeometryCalculations](/apcsa/console/030Console2DGeometryCalculations/)
+
+1. Pair - [ConsoleHourlyAndYearlyWages](/apcsa/console/031ConsoleHourlyAndYearlyWages/)
+
+1. [ConsoleTriviaHighLow](/apcsa/console/032ConsoleTriviaHighLow/)
+
+1. Pair - [ConsolePrintfLoops](/apcsa/console/101ConsolePrintfLoops/)
+
+"
+- title: bigdata
+  heading: "# BigData"
+  content: "
+*2 wks*, Vocab: datatype, database, data structure, API, data mining, SQL, callback, Internet of Things, JSON, metadata, AJAX, server, analytics, server farm, query, XML
+
+Code.org Unit 4: Big Data and Privacy, [https://studio.code.org/s/csp4-2018](https://studio.code.org/s/csp4-2018), Explore 2
+
+
+1. Explore 2 - [036ExploreV2PhotoCollageArtifact](036ExploreV2PhotoCollageArtifact.md)
+"
+- title: 3rdquarter
+  heading: "# 3rd Quarter"
+  content: "
+"
+- title: explore
+  heading: "# Explore"
+  content: "
+*2 wks* - Explore - AP Performance Task Prep, Final Explore
+
+
+1. [042ExploreTaskArtifact.md](042ExploreTaskArtifact.md)
+
+1. [043ExploreTaskQuestions.md](043ExploreTaskQuestions.md)
+
+"
+- title: textgames
+  heading: "# TextGames"
+  content: "
+*2 wks*, Vocab: text game, arrays, logical operators, two-dimensional array, global variables, runtime error, syntax error, while loop
+
+
+1. [033TextGamesCastlesAndCreatures](033TextGamesCastlesAndCreatures.md)
+
+1. Group - [037TextGameFoobarV1.md](037TextGameFoobarV1.md)
+
+1. Group - [038TextgameFoobarv2.md](038TextgameFoobarv2.md)
+"
+- title: digitalinfo
+  heading: "# DigitalInfo"
+  content: "
+*1 wk*, Vocab: bytes, kilobytes, megabytes, gigabytes
+
+
+Code.org Unit 2: Digital Information, [https://studio.code.org/s/csp2-2018](https://studio.code.org/s/csp2-2018)
+"
+- title: turtlegames
+  heading: "# TurtleGames"
+  content: "
+*2wks*, Vocab: instance, instanciate, object, class, method, logical operators, while loop
+
+
+1. [039Turtlegamev1.0.md](039Turtlegamev1.0.md)
+
+1. [040TurtleGamev2.0.md](040TurtleGamev2.0.md)
+
+1. [041Turtlegamev3.0.md](041Turtlegamev3.0.md)
+
+1. Create 3
+"
+- title: tk
+  heading: "# Tk"
+  content: "
+*2 wks*, Vocab: IDLE, reading files, canvas, dictionary, objects, classes, writing files, logical operators
+
+
+1. [PythonTruthTableGenerator]()
+
+1. [044TkWeirdCalcInputValidationReview.md](044TkWeirdCalcInputValidationReview.md)
+
+1. [045TkShapesAndButtons.md](045TkShapesAndButtons.md)
+
+1. [046TkAppWithInputValidation.md](046TkAppWithInputValidation.md)
+
+1. [107TkTryLoadFile.md](107TkTryLoadFiles.md)
+
+1. [047TkPollv1.0.md](047TkPollv1.0.md)
+
+1. [TkAddressBook]()
+
+1. [TkMenuOrder]()
+
+1. [TkPollAverage]()
+
+1. [TkMultiQuestion]()
+"
+- title: 4thquarter
+  heading: "# 4th Quarter"
+  content: "
+"
+- title: create
+  heading: "# Create"
+  content: "*3 wks* - Create - AP Performance Task Prep, Final Create
+"
+- title: greenfoot
+  heading: "# Greenfoot"
+  content: "*3 wks* - objects, classes
+"
+- title: java
+  heading: "# Java"
+  content: "*3 wks* - input, output, objects, classes
+"
