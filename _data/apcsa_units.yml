@@ -59,7 +59,10 @@ References:
 
 - [Java Money Formatting](https://github.com/ohiofi/Java-Money-Formatting/blob/master/MoneyFormatting.java)
 
-> “Programs must be written for people to read, and only incidentally for machines to execute.”
+
+“Programs must be written for people to read, and only incidentally for machines to execute.”
+
+
 *—Abelson and Sussman*
 "
 - title: menu1
@@ -171,7 +174,8 @@ References:
 - title: 2ndquarter
   heading: "# 2nd Quarter"
   content: "
-> > “Commenting your code is like cleaning your bathroom — you never want to do it, but it really does create a more pleasant experience for you and your guests.”
+“Commenting your code is like cleaning your bathroom — you never want to do it, but it really does create a more pleasant experience for you and your guests.”
+
 
 *—Ryan Campbell*
 "
@@ -285,22 +289,18 @@ References:
 
 "
 
-- title: explore
-  heading: "# Explore"
+- title: ch72-for-each-loops
+  heading: "# Ch7.2 For Each Loops"
   content: "
-*2 wks* - Explore - AP Performance Task Prep, Final Explore
-
 
 1. [042ExploreTaskArtifact.md](042ExploreTaskArtifact.md)
 
 1. [043ExploreTaskQuestions.md](043ExploreTaskQuestions.md)
 
 "
-- title: textgames
-  heading: "# TextGames"
+- title: ch76-2d-arrays
+  heading: "# Ch7.6 2D Arrays"
   content: "
-*2 wks*, Vocab: text game, arrays, logical operators, two-dimensional array, global variables, runtime error, syntax error, while loop
-
 
 1. [033TextGamesCastlesAndCreatures](033TextGamesCastlesAndCreatures.md)
 
@@ -308,16 +308,16 @@ References:
 
 1. Group - [038TextgameFoobarv2.md](038TextgameFoobarv2.md)
 "
-- title: digitalinfo
-  heading: "# DigitalInfo"
+- title: ch8-designing-classes
+  heading: "# Ch8 Designing Classes"
   content: "
 *1 wk*, Vocab: bytes, kilobytes, megabytes, gigabytes
 
 
 Code.org Unit 2: Digital Information, [https://studio.code.org/s/csp2-2018](https://studio.code.org/s/csp2-2018)
 "
-- title: turtlegames
-  heading: "# TurtleGames"
+- title: ch9-inheritance
+  heading: "# Ch9 Inheritance"
   content: "
 *2wks*, Vocab: instance, instanciate, object, class, method, logical operators, while loop
 
@@ -330,40 +330,17 @@ Code.org Unit 2: Digital Information, [https://studio.code.org/s/csp2-2018](http
 
 1. Create 3
 "
-- title: tk
-  heading: "# Tk"
-  content: "
-*2 wks*, Vocab: IDLE, reading files, canvas, dictionary, objects, classes, writing files, logical operators
 
 
-1. [PythonTruthTableGenerator]()
-
-1. [044TkWeirdCalcInputValidationReview.md](044TkWeirdCalcInputValidationReview.md)
-
-1. [045TkShapesAndButtons.md](045TkShapesAndButtons.md)
-
-1. [046TkAppWithInputValidation.md](046TkAppWithInputValidation.md)
-
-1. [107TkTryLoadFile.md](107TkTryLoadFiles.md)
-
-1. [047TkPollv1.0.md](047TkPollv1.0.md)
-
-1. [TkAddressBook]()
-
-1. [TkMenuOrder]()
-
-1. [TkPollAverage]()
-
-1. [TkMultiQuestion]()
-"
 - title: 4thquarter
   heading: "# 4th Quarter"
   content: "
-> “Computer science inverts the normal. In normal science, you're given a world, and your job is to find out the rules. In computer science, you give the computer the rules, and it creates the world.”
+“Computer science inverts the normal. In normal science, you're given a world, and your job is to find out the rules. In computer science, you give the computer the rules, and it creates the world.”
 
 
 *-Alan Kay*
 "
+
 - title: menu4
   content: "
 [4th Quarter](#4th-quarter)
@@ -378,6 +355,7 @@ Code.org Unit 2: Digital Information, [https://studio.code.org/s/csp2-2018](http
 1. **[AP Test Prep](#ap-test-prep)**
 
 "
+
 - title: create
   heading: "# Create"
   content: "*3 wks* - Create - AP Performance Task Prep, Final Create
