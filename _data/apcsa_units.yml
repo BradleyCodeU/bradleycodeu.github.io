@@ -1,34 +1,8 @@
 apcsa:
 
 
-- title: menu3
-  content: "
-[3rd Quarter](#3rd-quarter)
 
 
-1. **[Ch7.2 For Each Loops](#ch72-for-each-loops)**
-
-1. **[Ch7.6 2D Arrays](#ch76-2d-arrays)**
-
-1. **[Ch8 Designing Classes](#ch8-designing-classes)**
-
-1. **[Ch9 Inheritance](#ch9-inheritance)**
-
-"
-- title: menu4
-  content: "
-[4th Quarter](#4th-quarter)
-
-
-1. **[Ch10 Interfaces](#ch10-interfaces)**
-
-1. **[Ch14 Sorting and Searching](#ch14-sorting-and-searching)**
-
-1. **[Ch13 Recursion](#ch13-recursion)**
-
-1. **[AP Test Prep](#ap-test-prep)**
-
-"
 
 - title: 1stQuarter
   heading: "# 1st Quarter"
@@ -293,6 +267,22 @@ References:
 > “Computers are good at following instructions, but not at reading your mind.”
 *—Donald Knuth*
 "
+
+- title: menu3
+  content: "
+[3rd Quarter](#3rd-quarter)
+
+
+1. **[Ch7.2 For Each Loops](#ch72-for-each-loops)**
+
+1. **[Ch7.6 2D Arrays](#ch76-2d-arrays)**
+
+1. **[Ch8 Designing Classes](#ch8-designing-classes)**
+
+1. **[Ch9 Inheritance](#ch9-inheritance)**
+
+"
+
 - title: explore
   heading: "# Explore"
   content: "
@@ -370,6 +360,20 @@ Code.org Unit 2: Digital Information, [https://studio.code.org/s/csp2-2018](http
 > “Computer science inverts the normal. In normal science, you're given a world, and your job is to find out the rules. In computer science, you give the computer the rules, and it creates the world.”
 
 *-Alan Kay*
+"
+- title: menu4
+  content: "
+[4th Quarter](#4th-quarter)
+
+
+1. **[Ch10 Interfaces](#ch10-interfaces)**
+
+1. **[Ch14 Sorting and Searching](#ch14-sorting-and-searching)**
+
+1. **[Ch13 Recursion](#ch13-recursion)**
+
+1. **[AP Test Prep](#ap-test-prep)**
+
 "
 - title: create
   heading: "# Create"
