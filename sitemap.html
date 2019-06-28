@@ -28,14 +28,10 @@ Sitemap
         <a href="{{site.baseurl}}{{p.url}}">{{p.url}}</a>
     </li>
   {% endfor %}
-  <li>Scratch</li>
-  {% for p in site.categories.scratch %}
+  <li>APCSA</li>
+  {% for p in site.apcsa %}
     <li>
-      {% if p.url == '/' %}
-        <a href="{{site.baseurl}}/index.html">/index.html</a>
-      {% else %}
-        <a href="{{site.baseurl}}/apcsp/{{p.slug}}">/apcsp/{{p.slug}}</a>
-      {% endif %}
+        <a href="{{site.baseurl}}{{p.url}}">{{p.url}}</a>
     </li>
   {% endfor %}
 </ul>
