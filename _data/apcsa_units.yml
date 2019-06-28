@@ -11,7 +11,7 @@ apcsa:
 
 1. **[Ch4 Fundamental Data Types](#ch4-fundamental-data-types)**
 
-1. **[Ch4.5 Strings](#ch4.5-strings)**
+1. **[Ch4.5 Strings](#ch45-strings)**
 
 
 [2nd Quarter](#2nd-quarter)
@@ -27,9 +27,9 @@ apcsa:
 [3rd Quarter](#3rd-quarter)
 
 
-1. **[Ch7.2 For Each Loops](#ch7.2-for-each-loops)**
+1. **[Ch7.2 For Each Loops](#ch72-for-each-loops)**
 
-1. **[Ch7.6 2D Arrays](#ch7.6-2d-arrays)**
+1. **[Ch7.6 2D Arrays](#ch76-2d-arrays)**
 
 1. **[Ch8 Designing Classes](#ch8-designing-classes)**
 
@@ -172,7 +172,7 @@ References:
 
 1. [Ch4WeirdCalculator](/apcsa/ch4/Ch4WeirdCalculator/)
 
-1. [Ch4CedarPointTrip](/apcsa/ch4/Ch4CedarPointTrip/)
+1. [Ch4CedarPoint](/apcsa/ch4/Ch4CedarPoint/)
 
 1. [Ch4Review1](/apcsa/ch4/Ch4Review1/)
 
@@ -200,51 +200,35 @@ References:
 - title: 2ndquarter
   heading: "# 2nd Quarter"
   content: "
+Units:
+  
+1. **[Ch5 Decisions](#ch5-decisions)**
+
+1. **[Ch6 Loops](#ch6-loops)**
+
+1. **[Ch7 Arrays and Array Lists](#ch7-arrays-and-array-lists)**
+
 "
-- title: ip
-  heading: "# IP"
-  content: "
-*1 wk*, Vocab: protocol, tcp, ip, http, ssl
 
-Code.org Unit 1, Chapter 2: Inventing the Internet, [https://studio.code.org/s/csp1-2018](https://studio.code.org/s/csp1-2018)
+- title: ch5-decisions
+  heading: "# Ch5 Decisions"
+  content: "
+1. [Ch45NameGames](/apcsa/ch45/Ch45NameGames/)
+
 "
-- title: scrum
-  heading: "# Scrum"
+
+- title: ch6-loops
+  heading: "# Ch6 Loops"
   content: "
-*3 wks*, Vocab: iteration, waterfall, scrum, collaboration, iterative versions, def new functions, loops, random, colors, Create 2
 
-1. [034ScrumArtScene2.md](034ScrumArtScene2.md)
-
-1. [035ScrumArtScene3.md](035ScrumArtScene3.md)
+1. [Ch45NameGames](/apcsa/ch45/Ch45NameGames/)
 "
-- title: console
-  heading: "# Console"
+
+- title: ch7-arrays-and-array-lists
+  heading: "# Ch7 Arrays and Array Lists"
   content: "
 
-
-*3 wks*, Vocab: array, iteration, iterate through an array, input, for each loops, input validation, try/except, conditionals, functions, pre-conditional loop, post-conditional loop, pseudocode,
-
-
-1. [ConsolePseudocode3PPong](/apcsa/console/023ConsolePseudocode3PPong/)
-
-1. [ConsoleRandomIntArray](/apcsa/console/103ConsoleRandomIntArray/)
-
-1. Pair - [ConsoleTemps](/apcsa/console/022ConsoleTemps/)
-
-1. Pair - [ConsoleMultiChoiceQuizGame](/apcsa/console/024ConsoleMultiChoiceQuizGame/)
-
-1. [ConsoleFillInTheBlankQuizGame](/apcsa/console/028ConsoleFillInTheBlankQuizGame/)
-
-1. Pair - [ConsoleTipCalculator](/apcsa/console/029ConsoleTipCalculator/)
-
-1. [Console2DGeometryCalculations](/apcsa/console/030Console2DGeometryCalculations/)
-
-1. Pair - [ConsoleHourlyAndYearlyWages](/apcsa/console/031ConsoleHourlyAndYearlyWages/)
-
-1. [ConsoleTriviaHighLow](/apcsa/console/032ConsoleTriviaHighLow/)
-
-1. Pair - [ConsolePrintfLoops](/apcsa/console/101ConsolePrintfLoops/)
-
+1. [Ch45NameGames](/apcsa/ch45/Ch45NameGames/)
 "
 - title: bigdata
   heading: "# BigData"
