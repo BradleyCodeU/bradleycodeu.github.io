@@ -15,9 +15,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="/styles.css">
   </head>
-<body>
+<body class="pt-5">
   {% include navtop.html %}
-  <div class="container">
+  <div class="container mt-5">
     <small class="small fine-print text-capitalize"><a href="/{{page.collection}}/">{{page.collection}}</a> >> <a href="/{{page.collection}}/#{{page.category}}">{{page.category}} Unit</a> >> {{page.title}}</small>
     <div class="row">
       <div class="col-12 col-lg-8">
@@ -39,10 +39,11 @@
       <hr>
 
     </div>
-    <br>
-    &nbsp;
-    <br>
-    {% include navbottom.html %}
   </div>
+  <br>
+  &nbsp;
+  <br>
+  {% include navbottom.html %}
+
 </body>
 </html>
