@@ -64,6 +64,18 @@ References:
 
 
 *—Abelson and Sussman*
+
+
+“I hear and I forget; I see and I remember; I do and I understand.”
+
+
+*-Confucius*
+
+
+“Computers are good at following instructions, but not at reading your mind.”
+
+
+*—Donald Knuth*
 "
 - title: menu1
   content: "[1st Quarter](#1st-quarter)
@@ -176,6 +188,12 @@ References:
 
 
 *—Ryan Campbell*
+
+
+“Making the simple complicated is commonplace; making the complicated simple, awesomely simple, that's creativity.”
+
+
+*—Charles Mingus*
 "
 - title: menu2
   content: "
@@ -266,10 +284,16 @@ References:
 - title: 3rdquarter
   heading: "# 3rd Quarter"
   content: "
-“Computers are good at following instructions, but not at reading your mind.”
+“A class, in Java, is where we teach objects how to behave.”
 
 
-*—Donald Knuth*
+*-Richard E. Pattis*
+
+
+“Should array indices start at 0 or 1? My compromise of 0.5 was rejected without, I thought, proper consideration.”
+
+
+*—Stan Kelly-Bootle*
 "
 
 - title: menu3
@@ -359,6 +383,12 @@ References:
 
 
 *-Alan Kay*
+
+
+ “Learning is never done without errors and defeat.”
+
+
+ *-Vladimir Lenin*
 "
 
 - title: menu4
