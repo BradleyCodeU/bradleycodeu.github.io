@@ -80,6 +80,13 @@ Texts:
 
 
 Commit to take the AP test by October 4th. Late fee is $40.
+
+
+
+“People think that computer science is the art of geniuses but the actual reality is the opposite, just many people doing things that build on each other, like a wall of mini stones.”
+
+
+*-Donald Knuth*
 "
 
 - title: scratch
@@ -178,6 +185,10 @@ Code.org Unit 1, Chapter 1: Representing and Transmitting Information, [https://
 - title: 2ndquarter
   heading: "# 2nd Quarter"
   content: "
+“Within a computer natural language is unnatural.”
+
+
+*-Alan J. Perlis*
 "
 - title: ip
   heading: "# IP"
@@ -237,6 +248,10 @@ Code.org Unit 4: Big Data and Privacy, [https://studio.code.org/s/csp4-2018](htt
 - title: 3rdquarter
   heading: "# 3rd Quarter"
   content: "
+“Any sufficiently advanced technology is indistinguishable from magic.”
+
+
+*-Arthur C. Clarke*
 "
 - title: explore
   heading: "# Explore"
@@ -312,6 +327,10 @@ Code.org Unit 2: Digital Information, [https://studio.code.org/s/csp2-2018](http
 - title: 4thquarter
   heading: "# 4th Quarter"
   content: "
+“Always remember, however, that there’s usually a simpler and better way to do something than the first way that pops into your head.”
+
+
+*-Donald Knuth*
 "
 - title: create
   heading: "# Create"
