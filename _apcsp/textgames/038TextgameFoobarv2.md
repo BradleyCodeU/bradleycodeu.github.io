@@ -1,7 +1,7 @@
 ---
 layout: project
 category: textgames
-title: Text Games Foobar v2
+title: Text Game Foobar v2
 ---
 
 Turn in your finished text-based Python game based on Foobar.

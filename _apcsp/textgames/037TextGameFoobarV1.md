@@ -1,7 +1,7 @@
 ---
 layout: project
 category: textgames
-title: Text Games Foobar v1
+title: Text Game Foobar v1
 ---
 Create your own text game based on Foobar The Bazbarian
 
