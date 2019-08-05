@@ -26,4 +26,4 @@ Functions MUST be used properly and named with logical names (drawWater, makeSky
 Use comments to explain your steps (before a loop you might comment #draw fish's tail)
 
 
-![Scenes](/ArtScene.PNG)
+![Scenes](/apcsp/turtleart/ArtScene.PNG)

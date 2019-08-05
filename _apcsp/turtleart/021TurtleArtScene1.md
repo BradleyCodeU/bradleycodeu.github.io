@@ -27,5 +27,5 @@ Additional Requirements:
 - Use comments to explain your steps (before a loop you might comment #draw fish tail)
 
 
-![underwater scene](/underwaterScene.png)
-![farmScene](/ArtScene.PNG)
+![underwater scene](/apcsp/turtleart/underwaterScene.png)
+![farmScene](/apcsp/turtleart/ArtScene.PNG)

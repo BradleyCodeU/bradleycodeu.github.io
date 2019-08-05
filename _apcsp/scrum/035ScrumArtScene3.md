@@ -29,4 +29,4 @@ Use comments to explain your steps (before a loop you might comment #draw fish's
 
 
 
-![Scenes](/ArtScene.PNG)
+![Scenes](/apcsp/turtleart/ArtScene.PNG)
