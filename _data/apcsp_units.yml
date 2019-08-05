@@ -82,7 +82,7 @@ Texts:
 Commit to take the AP test by October 4th. Late fee is $40.
 
 
--=-=-
+-=-=-=-
 
 
 “People think that computer science is the art of geniuses but the actual reality is the opposite, just many people doing things that build on each other, like a wall of mini stones.”
@@ -216,9 +216,9 @@ Code.org Unit 1, Chapter 2: Inventing the Internet, [https://studio.code.org/s/c
   content: "
 *3 wks*, Vocab: iteration, waterfall, scrum, collaboration, iterative versions, def new functions, loops, random, colors, Create 2
 
-1. [034ScrumArtScene2.md](034ScrumArtScene2.md)
+1. [034ScrumArtScene2.md](/apcsp/scrum/034ScrumArtScene2/)
 
-1. [035ScrumArtScene3.md](035ScrumArtScene3.md)
+1. [035ScrumArtScene3.md](/apcsp/scrum/035ScrumArtScene3/)
 "
 - title: console
   heading: "# Console"
@@ -257,7 +257,7 @@ Code.org Unit 1, Chapter 2: Inventing the Internet, [https://studio.code.org/s/c
 Code.org Unit 4: Big Data and Privacy, [https://studio.code.org/s/csp4-2018](https://studio.code.org/s/csp4-2018), Explore 2
 
 
-1. Explore 2 - [036ExploreV2PhotoCollageArtifact](036ExploreV2PhotoCollageArtifact.md)
+1. Explore 2 - [036ExploreV2PhotoCollageArtifact](/apcsp/bigdata/036ExploreV2PhotoCollageArtifact/)
 "
 - title: 3rdquarter
   heading: "# 3rd Quarter"
