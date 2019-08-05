@@ -279,9 +279,9 @@ Code.org Unit 4: Big Data and Privacy, [https://studio.code.org/s/csp4-2018](htt
 *2 wks* - Explore - AP Performance Task Prep, Final Explore
 
 
-1. [042ExploreTaskArtifact.md](042ExploreTaskArtifact.md)
+1. [042ExploreTaskArtifact.md](/apcsp/explore/042ExploreTaskArtifact/)
 
-1. [043ExploreTaskQuestions.md](043ExploreTaskQuestions.md)
+1. [043ExploreTaskQuestions.md](/apcsp/explore/043ExploreTaskQuestions/)
 
 "
 - title: textgames
@@ -290,11 +290,11 @@ Code.org Unit 4: Big Data and Privacy, [https://studio.code.org/s/csp4-2018](htt
 *2 wks*, Vocab: text game, arrays, logical operators, two-dimensional array, global variables, runtime error, syntax error, while loop
 
 
-1. [033TextGamesCastlesAndCreatures](033TextGamesCastlesAndCreatures.md)
+1. Pair - [033TextGamesCastlesAndCreatures](/apcsp/textgames/033TextGamesCastlesAndCreatures/)
 
-1. Group - [037TextGameFoobarV1.md](037TextGameFoobarV1.md)
+1. Group - [037TextGameFoobarV1.md](/apcsp/textgames/037TextGameFoobarV1/)
 
-1. Group - [038TextgameFoobarv2.md](038TextgameFoobarv2.md)
+1. Group - [038TextgameFoobarv2.md](/apcsp/textgames/038TextgameFoobarv2/)
 "
 - title: digitalinfo
   heading: "# DigitalInfo"

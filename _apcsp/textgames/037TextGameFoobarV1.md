@@ -1,3 +1,10 @@
+---
+layout: project
+category: textgames
+title: Text Games Foobar v1
+---
+Create your own text game based on Foobar The Bazbarian
+
 You will be graded on the following requirements:
 
 * Plan 5 "blocks" for each person in your group (group of 2 = 10 "blocks", group of 3 = 15 "blocks"). Each of these blocks/rooms must have a unique description. NOT just "you're in a room"

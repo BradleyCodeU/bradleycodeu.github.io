@@ -1,8 +1,11 @@
-Castles and Creatures
+---
+layout: project
+category: textgames
+title: Text Games Castles And Creatures
+---
+Demo video here: [https://drive.google.com/open?id=1JlEKlaDlWA8AcpCWbkH0wlF7noETYy8T](https://drive.google.com/open?id=1JlEKlaDlWA8AcpCWbkH0wlF7noETYy8T)
 
-Demo video here: https://drive.google.com/open?id=1JlEKlaDlWA8AcpCWbkH0wlF7noETYy8T (Links to an external site.)Links to an external site.
-
-Download this starter file: castlesAndCreaturesTemplate.py
+Download this starter file: [castlesAndCreaturesTemplate.py](/apcsp/textgames/castlesAndCreaturesTemplate.py)
 
 Write a program to play a simple adventure-style interactive game. Come up with a unique name and story for your game. The game consists of 3 or more rooms. Each room has a treasure and a creature guarding the treasure.The object of the game is to visit all 3 rooms and gain as many treasures as possible.
 
@@ -23,6 +26,7 @@ You will repeat this next battle while the player's health is greater than zero.
 You should know what to do next.
 
 -=-=-=-=-=-=-=-=-=-
+
 GOLD MEDAL: Use 3 or more of the following details...
 You have a one-time-use healing potion that restores the player to full health.
 Each treasure is a new weapon that you can use in later rooms.
