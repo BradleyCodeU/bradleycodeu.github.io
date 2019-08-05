@@ -1,3 +1,8 @@
+---
+layout: project
+category: turtlegames
+title: Turtle Game v2
+---
 This is NOT a group project
 
 Once you're finished with Turtle game v1.0... **DUPLICATE/COPY YOUR GAME**, rename it v2, and add the following features...

@@ -1,3 +1,8 @@
+---
+layout: project
+category: turtlegames
+title: Turtle Game v3
+---
 This is NOT a group project
 
 Once you're finished with Turtle game v2.0... **DUPLICATE YOUR GAME**, rename it v3.

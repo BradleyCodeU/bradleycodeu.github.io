@@ -1,3 +1,8 @@
+---
+layout: project
+category: turtlegames
+title: Turtle Game v1
+---
 **This is NOT a group project**
 [Using Trinket.io](https://trinket.io/) you will create a simple game using turtle objects.
 
@@ -10,7 +15,7 @@ Review these:
 
 **BEFORE THE GAME LOOP:**
 Create a Screen object with screen = Screen()
-```python 
+```python
 screen = Screen()
 ```
 Set screen.tracer() to zero
@@ -39,7 +44,7 @@ Inside the loop, screen.update()
 Inside the loop, the enemy/enemies follow the player. Use enemy.towards(player) to get the angle from the enemy to the player. Use enemy.setheading() to turn the enemy to a certain heading.
 
 Inside the loop... if you touch an enemy, change the screen's background color and break the loop. Use player.distance(enemy) < 20 to detect if touching enemy.
-```python 
+```python
 player.distance(enemy) < 20
 ```
 Inside the loop... if you touch the collectible (coin), change the screen's background color to green and break the game loop.
