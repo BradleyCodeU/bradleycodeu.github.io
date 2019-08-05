@@ -3,6 +3,7 @@ layout: project
 category: textgames
 title: Text Game Foobar v1
 ---
+
 Create your own text game based on Foobar The Bazbarian
 
 You will be graded on the following requirements:
