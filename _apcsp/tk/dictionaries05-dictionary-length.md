@@ -1,4 +1,8 @@
-Dictionary Length
+---
+layout: project
+category: tk
+title: Dictionaries 5 Dictionary Length
+---
 
 To determine how many items (key-value pairs) a dictionary has, use the **len()** method.
 
@@ -16,4 +20,3 @@ print(len(data))
 if len(data) > 0:
     print("Cool")
 ```
-

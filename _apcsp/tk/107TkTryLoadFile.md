@@ -1,3 +1,9 @@
+---
+layout: project
+category: tk
+title: Tk Try Load File
+---
+
 I recommend switching to IDLE for this project (its already installed on your PC), because Mu will save your text file in a weird place. When you run this code for the first time...
 ```
 file = open("data.txt", "w")   #correct way to open file for writing (or create new file)
@@ -14,8 +20,8 @@ file = open("C:\Users\rileyju\Desktop\data.txt", "w")   #do NOT do this
 Create a function called tryLoadFile that requires one argument: filename.
 The function returns a string that contains the file text if it was able to open the file. Otherwise it returns False.
 
-You will need to use try/except when you open the file, otherwise you could get a FileNotFound error. 
-Once you open the text file, you can read the file into a string. 
+You will need to use try/except when you open the file, otherwise you could get a FileNotFound error.
+Once you open the text file, you can read the file into a string.
 Read this tutorial:  [readingFilesInPython.md](readingFilesInPython.md)
 Here is a demo of reading a file into a string: [https://trinket.io/library/trinkets/d60a3d3251](https://trinket.io/library/trinkets/d60a3d3251)
 

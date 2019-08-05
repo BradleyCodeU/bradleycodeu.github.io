@@ -1,3 +1,9 @@
+---
+layout: project
+category: tk
+title: Tk App With Input Validation
+---
+
 Using Mu, create a simple Tkinter app that has two (or more) text boxes for inputting numbers, does input validation, creates popup messageboxes, and performs a calculation.
 
 Your Tkinter app will NOT use input() at all. You will use Tkinter text entry boxes to collect input.

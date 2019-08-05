@@ -1,3 +1,9 @@
+---
+layout: project
+category: tk
+title: Dictionaries 3 Looping Through A Dictionary
+---
+
 Use the keys() method to get all **key names** in the dictionary, one by one:
 ```
 data = {"key":"value", "room":"B267", "school":"Bradley", "city":"Hilliard", "state":"Ohio"}
@@ -30,7 +36,7 @@ print("\nPrint all **key names** in the dictionary, one by one:\n")
 
 for x in data.keys():
   print(x)
-  
+
 print("\nPrint all **values** in the dictionary, one by one:\n")
 for x in data.keys():
   print(data[x])

@@ -1,3 +1,9 @@
+---
+layout: project
+category: tk
+title: Dictionaries 2 Key Value Pairs
+---
+
 In an array, there are index numbers that correspond with each element in the array.
 ```
 cars = ["Ford", "Honda", "BMW"]

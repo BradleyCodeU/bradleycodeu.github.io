@@ -1,3 +1,9 @@
+---
+layout: project
+category: tk
+title: Tk Weird Calc Input Validation Review
+---
+
 Using Python console commands such as input() and print()
 
 1. Ask for number 1

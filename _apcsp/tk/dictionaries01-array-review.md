@@ -1,3 +1,9 @@
+---
+layout: project
+category: tk
+title: Dictionaries 1 Array Review
+---
+
 Let's review how arrays work. We will create an array called "cars", print the name of the car at index #1, ask the user to type the name of a new car, add the new car to the end of the cars array, and finally print the full array.
 
 ```python.run

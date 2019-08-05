@@ -1,3 +1,9 @@
+---
+layout: project
+category: tk
+title: Dictionaries 4 Check If Key Exists
+---
+
 To determine if a specified key is present in a dictionary use the **in** keyword:
 
 Check if "model" is present in the dictionary:

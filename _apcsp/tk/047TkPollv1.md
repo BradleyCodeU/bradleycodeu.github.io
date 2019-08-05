@@ -1,5 +1,11 @@
+---
+layout: project
+category: tk
+title: Tk Poll v1
+---
+
 Make a Tkinter poll that will store data in a dictionary and calculate the average answer. Create an empty dictionary called data like this...
-```python 
+```python
 data = { }
 ```
 [Read this tutorial](https://www.python-course.eu/python3_dictionaries.php)  for more info about working with dictionaries

@@ -1,3 +1,9 @@
+---
+layout: project
+category: tk
+title: Empty A Tk Text Entry Box
+---
+
 <p>How do you empty a Text Entry Box in Tkinter?</p>
 <p>Let's create a text entry box and call it textbox1:</p>
 <pre>Label(root, text="Name:").grid(row=0,column=0)

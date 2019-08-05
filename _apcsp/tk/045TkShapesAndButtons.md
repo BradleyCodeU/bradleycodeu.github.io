@@ -1,3 +1,9 @@
+---
+layout: project
+category: tk
+title: Tk Shapes and Buttons
+---
+
 Using Mu...
 
 Pick one color and give all shapes that fill color.
