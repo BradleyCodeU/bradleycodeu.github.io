@@ -81,6 +81,8 @@ Texts:
 
 Commit to take the AP test by October 4th. Late fee is $40.
 
+How to Get a Five: AP Computer Science Principles (AP CSP) [https://www.youtube.com/watch?v=aw8i5krRTtc](https://www.youtube.com/watch?v=aw8i5krRTtc) or [https://drive.google.com/file/d/1EYtMYgcG_SxX5tSnTpzWeceLvKVM3BEC/view?usp=sharing](https://drive.google.com/file/d/1EYtMYgcG_SxX5tSnTpzWeceLvKVM3BEC/view?usp=sharing)
+
 
 -=-=-=-
 
@@ -101,6 +103,12 @@ Commit to take the AP test by October 4th. Late fee is $40.
   heading: "# Scratch"
   content: "*2 wks*, Vocab: input, output, variable, assignment, string, int, boolean, script, conditional, binary selection, comparison operator, loop, prompt, event listeners
 
+Resources:
+
+- (Scratch tutorial folder)[https://drive.google.com/open?id=128oYSzZetK25nTV-0YInwofJ_TrGKf3W]
+
+
+Projects:
 
 1. [AboutMe](/apcsp/scratch/001AboutMe/)
 
@@ -144,8 +152,15 @@ Install Python Mu IDE: [https://codewith.mu/](https://codewith.mu/)
   content: "
 *2 wk*, Vocab: binary, decimal, digit, bit, hexadecimal, octal, ASCII, Big Data
 
-Code.org Unit 1, Chapter 1: Representing and Transmitting Information, [https://studio.code.org/s/csp1-2018](https://studio.code.org/s/csp1-2018)
+Resources:
 
+- Code.org Unit 1, Chapter 1: Representing and Transmitting Information, [https://studio.code.org/s/csp1-2018](https://studio.code.org/s/csp1-2018)
+- How To Convert Binary To Decimal Tutorial (The Easy Way) [https://www.youtube.com/watch?v=tfKe8PPI2zs](https://www.youtube.com/watch?v=tfKe8PPI2zs) or [https://drive.google.com/file/d/1-HykewRcCWrClHgX6BOKxTPDoqVlH-rI/view?usp=sharing](https://drive.google.com/file/d/1-HykewRcCWrClHgX6BOKxTPDoqVlH-rI/view?usp=sharing)
+- Decimal To Hexadecimal Made Easy [https://www.youtube.com/watch?v=4um7-QbpAQ8](https://www.youtube.com/watch?v=4um7-QbpAQ8) or [https://drive.google.com/file/d/1iXrkKJEAZGkcMxlli6zpC59VD53P5GM4/view?usp=sharing](https://drive.google.com/file/d/1iXrkKJEAZGkcMxlli6zpC59VD53P5GM4/view?usp=sharing)
+- How To Easily Convert Hexadecimal To Binary And To Decimal Tutorial [https://www.youtube.com/watch?v=t_kA5KQxByc](https://www.youtube.com/watch?v=t_kA5KQxByc) or [https://drive.google.com/file/d/1htXqdfLbYPOOIWrmYlp5LZAXxWho84lV/view?usp=sharing](https://drive.google.com/file/d/1htXqdfLbYPOOIWrmYlp5LZAXxWho84lV/view?usp=sharing)
+
+
+Projects:
 
 1. Pair - Counting with Coins
 
