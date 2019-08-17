@@ -3,22 +3,19 @@ apcsp:
   content: "[1st Quarter](#1st-quarter)
 
 
-1. **[Photoshop](#ps)** - *3 wks*
+1. **[Photoshop](#photoshop)** - *3 wks*
 
-1. **[HTML](#py)** - *2 wks*
+1. **[HTML](#html)** - *3 wks*
 
-1. **[Binary](#binary)** - *2 wks*
-
-1. **[Turtle Art](#turtleart)** - *3 wks*
+1. **[CSS](#css)** - *3 wks*
 
 
 [2nd Quarter](#2nd-quarter)
 
 
-1. **[CSS](#css)** - *4 wk*
+1. **[Javascript](#javascript)** - *5 wks*
 
-1. **[Javascript](#js)** - *5 wks*
-
+1. **[p5js](#p5js)** - *4 wks*
 
 
 [3rd Quarter](#3rd-quarter)
@@ -42,24 +39,22 @@ apcsp:
   heading: "# 1st Quarter"
   content: "*Whenever possible, select 'Sign up with Google' and use your hilliardschools.org account.*
 
+
+We will use Code.org's Computer Science Discoveries course and KhanAcademy's Computer Programming course.
+
+
 Sign up for
 
-- [digitalportfolio.collegeboard.org](https://digitalportfolio.collegeboard.org)
-
-- [scratch.mit.edu](https://scratch.mit.edu)
-
-- [code.org](https://code.org/)
+- 'Sign up with Google' [code.org](https://code.org/)
 
 - 'Sign up with Google' [trinket.io](https://trinket.io)
 
-- 'Sign up with Google' [repl.it](https://repl.it)
-
-- 'Sign up with Google' [codehs.com](https://codehs.com)
+- 'Sign up with Google' [glitch.com](https://glitch.com)
 
 - [khanacademy.org](https://khanacademy.org)
 
 
-Join our code.org class, our repl.it class, our khanacademy.org class
+Join our code.org class, our khanacademy.org class
 
 
 Our “Textbooks”:
@@ -83,4 +78,92 @@ Our “Textbooks”:
 “Java is to JavaScript as ham is to hamster.”
 
 *-Jeremy Keith*
+
+"
+
+- title: Photoshop
+  heading: "# Photoshop"
+  content: "3 weeks
+
+
+
+1. Pizza Logo
+
+1. Photoshop Pizza Flyer
+
+1. Dadaist Collage
+
+1. JPG GIF and PNG
+
+1. Stylish Menu Text
+
+1. Vector Mask Crop Resize
+
+
+"
+
+- title: HTML
+  heading: "# HTML"
+  content: "*3 weeks*
+
+
+1. Hello World
+
+1. Simpler is Better
+
+1. Poetry with Emphasis
+
+1. Club Goals Lists
+
+1. KhanAcademy Picture Perfect Trip
+
+1. Twine Game v1
+
+
+"
+
+- title: CSS
+  heading: "# CSS"
+  content: "*3 weeks*
+
+1. Multi-page Websites
+
+1. KhanAcademy Drawing with Code
+
+1. Colorful Tables
+
+1. Food Drive
+
+1. Twine Game v2
+"
+
+- title: Javascript
+  heading: "# Javascript"
+  content: "*5 weeks*
+
+1. Club Page v1
+
+1. Change Text with JS
+
+1. 12 Buttons Game
+
+1. JS Clicker Game
+
+1. JS Form Game
+
+1. Yes or No
+
+1. Sound Sample Piano
+"
+
+- title: p5js
+  heading: "# p5js"
+  content: "*3 weeks*
+
+1. Snowflakes
+
+1. Bubble Game v1
+
+1. Bubble Game v2
+
 "
