@@ -161,11 +161,12 @@ Our “Textbooks”:
 - title: 3rdQuarter
   heading: "# 3rd Quarter"
   content: "
-“Java is to JavaScript as ham is to hamster.”
 
-*-Jeremy Keith*
+“The web's earliest architects and pioneers fought for their vision of freedom on the Internet at a time when it was still small forums for conversation and text-based gaming. They thought the web could be adequately governed by its users without their needing to empower anyone to police it.”
 
-  "
+*–Jenna Wortham*
+
+    "
 - title: menu3
   content: "[3rd Quarter](#3rd-quarter)
 
@@ -199,6 +200,15 @@ Our “Textbooks”:
 
 1. P5 Agario Game v1
 "
+- title: 4thQuarter
+  heading: "# 4thQuarter"
+  content:
+    "
+“None of us got where we are solely by pulling ourselves up by our bootstraps. We got here because somebody - a parent, a teacher, an Ivy League crony or a few nuns - bent down and helped us pick up our boots.”
+
+*–Thurgood Marshall*
+
+    "
 - title: menu4
   content: "[4th Quarter](#4th-quarter)
 
