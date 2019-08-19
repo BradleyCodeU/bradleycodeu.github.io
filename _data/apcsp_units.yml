@@ -1,53 +1,4 @@
 apcsp:
-- title: menu
-  content: "[1st Quarter](#1st-quarter)
-
-
-1. **[Scratch](#scratch)** - *2 wks*
-
-1. **[Py](#py)** - *2 wks*
-
-1. **[Binary](#binary)** - *2 wks*
-
-1. **[Turtle Art](#turtleart)** - *3 wks*
-
-
-[2nd Quarter](#2nd-quarter)
-
-
-1. **[IP](#ip)** - *1 wk*
-
-1. **[Scrum](#scrum)** - *3 wks*
-
-1. **[Console](#console)** - *3 wks*
-
-1. **[Big Data](#bigdata)** - *2 wks*
-
-
-[3rd Quarter](#3rd-quarter)
-
-
-1. **[Explore](#explore)** - *2 wks*
-
-1. **[Text Games](#textgames)** - *2 wks*
-
-1. **[Digital Info](#digitalinfo)** - *1 wk*
-
-1. **[Turtle Games](#turtlegames)** - *2wks*
-
-1. **[Tk](#tk)** - *2 wks*
-
-
-[4th Quarter](#4th-quarter)
-
-
-1. **[Create](#create)** - *3 wks*
-
-1. **[Greenfoot](#greenfoot)** - *3 wks*
-
-1. **[Java](#java)** - *3 wks*
-"
-
 - title: 1stQuarter
   heading: "# 1st Quarter"
   content: "*Whenever possible, select 'Sign up with Google' and use your hilliardschools.org account.*
@@ -100,6 +51,19 @@ How to Get a Five: AP Computer Science Principles (AP CSP) [https://www.youtube.
 
 *-Andy Hunt*
 "
+- title: menu1
+  content:
+    "[1st Quarter](#1st-quarter)
+
+
+  1. **[Scratch](#scratch)** - *2 wks*
+
+  1. **[Py](#py)** - *2 wks*
+
+  1. **[Binary](#binary)** - *2 wks*
+
+  1. **[Turtle Art](#turtleart)** - *3 wks*"
+
 
 - title: scratch
   heading: "# Scratch"
@@ -231,6 +195,21 @@ Projects:
 
 *-Oscar Godson*
 "
+- title: menu2
+  content: "
+  [2nd Quarter](#2nd-quarter)
+
+
+  1. **[IP](#ip)** - *1 wk*
+
+  1. **[Scrum](#scrum)** - *3 wks*
+
+  1. **[Console](#console)** - *3 wks*
+
+  1. **[Big Data](#bigdata)** - *2 wks*
+
+  "
+
 - title: ip
   heading: "# IP"
   content: "
@@ -300,6 +279,21 @@ Code.org Unit 4: Big Data and Privacy, [https://studio.code.org/s/csp4-2018](htt
 
  *-Woody Allen*
 "
+- title: menu3
+  content: "
+  [3rd Quarter](#3rd-quarter)
+
+
+  1. **[Explore](#explore)** - *2 wks*
+
+  1. **[Text Games](#textgames)** - *2 wks*
+
+  1. **[Digital Info](#digitalinfo)** - *1 wk*
+
+  1. **[Turtle Games](#turtlegames)** - *2wks*
+
+  1. **[Tk](#tk)** - *2 wks*
+  "
 - title: explore
   heading: "# Explore"
   content: "
@@ -385,6 +379,18 @@ Code.org Unit 2: Digital Information, [https://studio.code.org/s/csp2-2018](http
 
 *-Thomas J. Watson*
 "
+- title: menu4
+  content: "
+  [4th Quarter](#4th-quarter)
+
+
+  1. **[Create](#create)** - *3 wks*
+
+  1. **[Greenfoot](#greenfoot)** - *3 wks*
+
+  1. **[Java](#java)** - *3 wks*
+
+  "
 - title: create
   heading: "# Create"
   content: "*3 wks* - Create - AP Performance Task Prep, Final Create
