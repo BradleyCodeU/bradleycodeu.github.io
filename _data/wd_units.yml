@@ -1,6 +1,6 @@
 wd:
 
-- title: 1stQuarter
+- title: 1stquarter
   heading: "# 1st Quarter"
   content: "*Whenever possible, select 'Sign up with Google' and use your hilliardschools.org account.*
 
@@ -55,7 +55,7 @@ Our “Textbooks”:
 
 
 "
-- title: Photoshop
+- title: photoshop
   heading: "# Photoshop"
   content: "*3 weeks*
 
@@ -76,7 +76,7 @@ Our “Textbooks”:
 
 "
 
-- title: HTML
+- title: html
   heading: "# HTML"
   content: "*3 weeks*
 
@@ -96,7 +96,7 @@ Our “Textbooks”:
 
 "
 
-- title: CSS
+- title: css
   heading: "# CSS"
   content: "*3 weeks*
 
@@ -111,7 +111,7 @@ Our “Textbooks”:
 1. Twine Game v2
 
 "
-- title: 2ndQuarter
+- title: 2ndquarter
   heading: "# 2nd Quarter"
   content: "
 “Java is to JavaScript as ham is to hamster.”
@@ -130,7 +130,7 @@ Our “Textbooks”:
 
 "
 
-- title: Javascript
+- title: javascript
   heading: "# Javascript"
   content: "*5 weeks*
 
@@ -158,7 +158,7 @@ Our “Textbooks”:
 1. P5 Mouse Mover
 
 "
-- title: 3rdQuarter
+- title: 3rdquarter
   heading: "# 3rd Quarter"
   content: "
 
@@ -177,7 +177,7 @@ Our “Textbooks”:
 
 
 "
-- title: Scrum
+- title: scrum
   heading: "# Scrum"
   content: "*5 weeks*
 
@@ -190,7 +190,7 @@ Our “Textbooks”:
 1. Foobar v2
 
   "
-- title: Arrays
+- title: arrays
   heading: "# Arrays"
   content: "*4 weeks*
 
@@ -200,7 +200,7 @@ Our “Textbooks”:
 
 1. P5 Agario Game v1
 "
-- title: 4thQuarter
+- title: 4thquarter
   heading: "# 4th Quarter"
   content:
     "
@@ -220,7 +220,7 @@ Our “Textbooks”:
 1. **[Objects](#objects)**
 
 "
-- title: Bootstrap
+- title: bootstrap
   heading: "# Bootstrap"
   content: "*3 weeks*
 
@@ -230,7 +230,7 @@ Our “Textbooks”:
 
 
   "
-- title: NodeJS
+- title: nodejs
   heading: "# NodeJS"
   content: "*3 weeks*
 
@@ -239,7 +239,7 @@ Our “Textbooks”:
 1. NodeJS Order Form v2
 
 "
-- title: Objects
+- title: objects
   heading: "# Objects"
   content: "*3 weeks*
 

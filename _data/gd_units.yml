@@ -1,6 +1,6 @@
 gd:
 
-- title: 1stQuarter
+- title: 1stquarter
   heading: "# 1st Quarter"
   content: "*Whenever possible, select 'Sign up with Google' and use your hilliardschools.org account.*
 
@@ -54,7 +54,7 @@ Our “Textbooks”:
 
 
 "
-- title: Objects
+- title: objects
   heading: "# Objects"
   content: "*4 weeks*
 
@@ -66,7 +66,7 @@ Our “Textbooks”:
 
 "
 
-- title: Inheritance
+- title: inheritance
   heading: "# Inheritance"
   content: "*5 weeks*
 
@@ -82,7 +82,7 @@ Our “Textbooks”:
 
 "
 
-- title: 2ndQuarter
+- title: 2ndquarter
   heading: "# 2nd Quarter"
   content: "
 
@@ -112,7 +112,7 @@ Our “Textbooks”:
 
 "
 
-- title: CSharp
+- title: csharp
   heading: "# CSharp"
   content: "*3 weeks*
 
@@ -124,7 +124,7 @@ Our “Textbooks”:
 
 "
 
-- title: Swift
+- title: swift
   heading: "# Swift"
   content: "*6 weeks*
 
@@ -145,7 +145,7 @@ Our “Textbooks”:
 1. Ch 9 Intro to App Dev
 
 "
-- title: 3rdQuarter
+- title: 3rdquarter
   heading: "# 3rd Quarter"
   content: "
 
@@ -175,7 +175,7 @@ Our “Textbooks”:
 
 
 "
-- title: Multiplayer
+- title: multiplayer
   heading: "# Multiplayer"
   content: "*4 weeks*
 
@@ -186,7 +186,7 @@ Our “Textbooks”:
 1. Team Rollaball
 "
 
-- title: Unity3d
+- title: unity3d
   heading: "# Unity3d"
   content: "*5 weeks*
 
@@ -200,7 +200,7 @@ Our “Textbooks”:
 
 "
 
-- title: 4thQuarter
+- title: 4thquarter
   heading: "# 4th Quarter"
   content:
     "
@@ -230,7 +230,7 @@ Our “Textbooks”:
 1. **[iOS Platformer](#ios-platformer)**
 
 "
-- title: Unity2d
+- title: unity2d
   heading: "# Unity2d"
   content: "*4 weeks*
 
@@ -244,7 +244,7 @@ Our “Textbooks”:
 
 
   "
-- title: iOS Platformer
+- title: ios-platformer
   heading: "# iOS Platformer"
   content: "*3 weeks*
 
