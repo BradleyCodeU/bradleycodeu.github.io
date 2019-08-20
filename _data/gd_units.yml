@@ -1,0 +1,280 @@
+gd:
+
+- title: 1stQuarter
+  heading: "# 1st Quarter"
+  content: "*Whenever possible, select 'Sign up with Google' and use your hilliardschools.org account.*
+
+
+Sign up for:
+
+- 'Sign up with Google' [glitch.com](https://glitch.com)
+
+- [khanacademy.org](https://khanacademy.org)
+
+
+Join our khanacademy.org class
+
+
+Our “Textbooks”:
+
+- [p5js](https://p5js.org/)
+
+- [Tutorials Point C# Tutorial](https://www.tutorialspoint.com/csharp/)
+
+- [Intro to App Development with Swift](https://books.apple.com/us/book/intro-to-app-development-with-swift/id1118575552)
+
+-=-=-=-
+
+
+“Video games are bad for you? That's what they said about rock-n-roll.”
+
+*-Shigeru Miyamoto*
+
+
+“Every age has its storytelling form, and video gaming is a huge part of our culture. You can ignore or embrace video games and imbue them with the best artistic quality. People are enthralled with video games in the same way as other people love the cinema or theatre.”
+
+*–Andy Serkis*
+
+
+“Wakka wakka wakka.”
+
+*-Pac-man*
+
+
+"
+- title: menu1
+  content: "[1st Quarter](#1st-quarter)
+
+
+1. **[Photoshop](#photoshop)**
+
+1. **[HTML](#html)**
+
+1. **[CSS](#css)**
+
+
+"
+- title: Photoshop
+  heading: "# Photoshop"
+  content: "*3 weeks*
+
+
+
+1. Pizza Logo
+
+1. Photoshop Pizza Flyer
+
+1. Dadaist Collage
+
+1. JPG GIF and PNG
+
+1. Stylish Menu Text
+
+1. Vector Mask Crop Resize
+
+
+"
+
+- title: HTML
+  heading: "# HTML"
+  content: "*3 weeks*
+
+
+1. Hello World
+
+1. Simpler is Better
+
+1. Poetry with Emphasis
+
+1. Club Goals Lists
+
+1. KhanAcademy Picture Perfect Trip
+
+1. Twine Game v1
+
+
+"
+
+- title: CSS
+  heading: "# CSS"
+  content: "*3 weeks*
+
+1. Multi-page Websites
+
+1. KhanAcademy Drawing with Code
+
+1. Colorful Tables
+
+1. Food Drive
+
+1. Twine Game v2
+
+"
+- title: 2ndQuarter
+  heading: "# 2nd Quarter"
+  content: "
+
+“...I like video games. That's what got me into software engineering when I was a kid. I wanted to make money so I could buy a better computer to play better video games - nothing like saving the world.”
+
+*-Elon Musk*
+
+
+“Just make games for yourself and try to have a critical eye to what you do. If you genuinely like the game, there will be other people who like it as well.”
+
+*-Markus Persson*
+
+
+“Games shouldn't only be fun. They should teach or spark an interest in other things.”
+
+*-Hideo Kojima*
+
+  "
+- title: menu2
+  content: "[2nd Quarter](#2nd-quarter)
+
+
+1. **[Javascript](#javascript)**
+
+1. **[p5js](#p5js)**
+
+
+"
+
+- title: Javascript
+  heading: "# Javascript"
+  content: "*5 weeks*
+
+1. Club Page v1
+
+1. Change Text with JS
+
+1. 12 Buttons Game
+
+1. JS Clicker Game
+
+1. JS Form Game
+
+1. Yes or No
+
+1. Sound Sample Piano
+"
+
+- title: p5js
+  heading: "# p5js"
+  content: "*4 weeks*
+
+1. KhanAcademy Drawing With Code Challenges
+
+1. P5 Mouse Mover
+
+"
+- title: 3rdQuarter
+  heading: "# 3rd Quarter"
+  content: "
+
+“Don’t ever stop. Always keep going, no matter what happens and is taken from you. Even when life is so unfair, don’t give up.”
+
+*-Ezio (Assassin's Creed II)*
+
+
+“Our world, with its rules of causality, has trained us to be miserly with forgiveness. By forgiving too readily, we can be badly hurt. But if we've learned from a mistake and become better for it, shouldn't we be rewarded for the learning, rather than punished for the mistake?”
+
+ *-Braid*
+
+
+ “If you had a game that said, 'Oops, you're dead. Now switch off the game,' it wouldn't be very successful. So you do need to have something to teach and be there to learn from, and we feel that death in video games is a positive experience.”
+
+ *-Hidetaka Miyazaki*
+
+    "
+- title: menu3
+  content: "[3rd Quarter](#3rd-quarter)
+
+
+1. **[Scrum](#scrum)**
+
+1. **[Arrays](#arrays)**
+
+
+"
+- title: Scrum
+  heading: "# Scrum"
+  content: "*5 weeks*
+
+1. Dungeon of Doom
+
+1. Foobar v1
+
+1. localStorage Character Creator (https://www.aidedd.org/dnd-builder/)
+
+1. Foobar v2
+
+  "
+- title: Arrays
+  heading: "# Arrays"
+  content: "*4 weeks*
+
+1. Random Name Generator
+
+1. P5 Snowflakes
+
+1. P5 Agario Game v1
+"
+- title: 4thQuarter
+  heading: "# 4th Quarter"
+  content:
+    "
+
+“Players are artists who create their own reality within the game.”
+
+*-Shigeru Miyamoto*
+
+
+“There are many museums dedicated to technology, artistic endeavors, music, and that sort of thing. From that perspective, I think games really do have a place as a kind of collaborative art or a synthesis of all these various aspects into a whole, and that, in itself, can be perceived as art.”
+
+*-Hideo Kojima*
+
+
+“Video games can never be art”
+
+*–Roger Ebert*
+
+
+    "
+- title: menu4
+  content: "[4th Quarter](#4th-quarter)
+
+
+1. **[Bootstrap](#bootstrap)**
+
+1. **[NodeJS](#nodejs)**
+
+1. **[Objects](#objects)**
+
+"
+- title: Bootstrap
+  heading: "# Bootstrap"
+  content: "*3 weeks*
+
+1. Bootstrap Club Page v1
+
+1. Bootstrap Club Page v2
+
+
+  "
+- title: NodeJS
+  heading: "# NodeJS"
+  content: "*3 weeks*
+
+1. NodeJS Order Form v1
+
+1. NodeJS Order Form v2
+
+"
+- title: Objects
+  heading: "# Objects"
+  content: "*3 weeks*
+
+1. P5 Game v2
+
+  "
