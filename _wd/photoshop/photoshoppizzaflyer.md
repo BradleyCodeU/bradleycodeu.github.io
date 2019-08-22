@@ -4,7 +4,7 @@ category: photoshop
 title: Photoshop Pizza Flyers
 ---
 
-[Photoshop tutorial - Text Tool Basics](https://www.youtube.com/watch?v=B7sO6rsw1Xo&list=PL6gx4Cwl9DGD25IGk9Xf7oC3wiT9gC75x&index=179)
+[Photoshop tutorial - Text Tool Basics](https://drive.google.com/file/d/1Ipf1JwAgWOWzM8fd6BYS3EAZdvewsQ5E/view?usp=sharing)
 
 Using Photoshop, create a flyer for your pizza restaurant. Each student must create their own unique flyer.
 

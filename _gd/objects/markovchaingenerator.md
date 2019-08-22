@@ -4,7 +4,7 @@ category: objects
 title: Markov Chain Generator
 ---
 
-Follow along with [Coding Train's Coding Challenge #42.1: Markov Chains - Part 1](https://www.youtube.com/watch?v=eGFJ8vugIWA) and create a Glitch page that uses Javascript to read text, analyze the text, and generate random text.
+Follow along with [Coding Train's Coding Challenge #42.1: Markov Chains - Part 1](https://drive.google.com/file/d/1NZfSSq8feuh6aJh-xfiKyS1QCIs29uTB/view?usp=sharing) and create a Glitch page that uses Javascript to read text, analyze the text, and generate random text.
 
 Your program can **NOT** be exactly the same as the Coding Train program. You MUST make one or more of the following changes/additions:
 
