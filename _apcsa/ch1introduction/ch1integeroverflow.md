@@ -1,7 +1,7 @@
 ---
 layout: project
 category: ch1-introduction
-title: Ch1 Integer Overflow Practice
+title: Ch1 Integer Overflow
 ---
 
 
