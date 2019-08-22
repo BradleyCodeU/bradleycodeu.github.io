@@ -1,6 +1,6 @@
 ---
 layout: project
-category: ch1introduction
+category: ch1-introduction
 title: Ch1 Kings Island
 ---
 
