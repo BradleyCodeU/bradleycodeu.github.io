@@ -57,9 +57,24 @@ Our “Textbooks”:
 "
 - title: photoshop
   heading: "# Photoshop"
-  content: "*3 weeks*
+  content: "*3 weeks* Vocab: vector, raster, pixel,
 
 
+Resources:
+
+  - [The Difference Between Vector and Raster (Bitmap) Graphics](https://www.youtube.com/watch?v=kYKYERBgh3w&feature=youtu.be&t=375)
+
+  - [What are Vector and Raster Graphics?](https://www.youtube.com/watch?v=-Fs2t6P5AjY)
+
+  - [Photoshop tutorial video folder](https://drive.google.com/drive/folders/1B-9cvnMOxKOdK18GOz3KfiZ-aM0vTZSr)
+
+  - [How To Design A Modern Logo | Start To Finish](https://drive.google.com/open?id=1v-CX3kED4hMuFp44lnGFVjX7eBGD9061)
+
+  - [Aaron Draplin Takes On a Logo Design Challenge](https://drive.google.com/file/d/1zXr_pJ5wg70eH6Uzgr-04DJqenmQURIn/view?usp=sharing)
+
+
+
+Projects:
 
 1. [Pizza Logo](/wd/photoshop/pizzalogo/)
 
@@ -73,7 +88,7 @@ Our “Textbooks”:
 
 1. [Vector Mask Crop Resize](/wd/photoshop/vectormaskcropresize/)
 
-
+1. [KhanAcademy Logo](/wd/photoshop/khanacademylogo/)
 "
 
 - title: html
