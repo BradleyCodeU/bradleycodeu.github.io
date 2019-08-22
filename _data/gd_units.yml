@@ -9,6 +9,8 @@ Sign up for:
 
 - 'Sign up with Google' [glitch.com](https://glitch.com)
 
+- 'Sign up with Google' [id.unity.com](https://id.unity.com/en/conversations/e2c68135-77f6-42b4-bc5c-7fcb4004cd27012f)
+
 - [khanacademy.org](https://khanacademy.org)
 
 
@@ -56,13 +58,28 @@ Our “Textbooks”:
 "
 - title: objects
   heading: "# Objects"
-  content: "*4 weeks*
+  content: "*4 weeks* Vocab: finite state machine, object, class, constructor, mutator, accessor
 
-1. KhanAcademy Games & Visualizations
 
-1. Bubble Game v1
+Resources:
 
-1. Bubble Game v2
+  - [p5js video folder](https://drive.google.com/open?id=1Vcw2irGn_h8FYIDzU94ShGSLsUdGyCLX)
+
+  - [Coding Train 1.1: Introduction - p5.js Tutorial](https://www.youtube.com/watch?v=8j0UDiN7my4)
+
+  - [Coding Train's p5js tutorials playlist](https://www.youtube.com/watch?v=c3TeLi6Ns1E&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
+
+
+
+Projects:
+
+1. [KhanAcademy Games & Visualizations](/gd/objects/khanacademygames/)
+
+1. [Bubble Game v1](/gd/objects/bubblegamev1/)
+
+1. [Bubble Game v2](/gd/objects/bubblegamev2/)
+
+1. [Markov Chain Generator](/gd/objects/markovchaingenerator/)
 
 "
 
@@ -77,8 +94,6 @@ Our “Textbooks”:
 1. KhanAcademy Making a Side Scroller
 
 1. Platformer v1
-
-1. Markov Chain Generator
 
 "
 
@@ -248,8 +263,8 @@ Our “Textbooks”:
   heading: "# iOS Platformer"
   content: "*3 weeks*
 
-1. NodeJS Order Form v1
+1. iOS Platformer v1
 
-1. NodeJS Order Form v2
+1. iOS Platformer v2
 
 "

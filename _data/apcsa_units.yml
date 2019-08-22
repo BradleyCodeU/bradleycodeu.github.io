@@ -1,9 +1,5 @@
 apcsa:
 
-
-
-
-
 - title: 1stquarter
   heading: "# 1st Quarter"
   content: "*Whenever possible, select 'Sign up with Google' and use your hilliardschools.org account.*
@@ -102,34 +98,34 @@ References:
   heading: "# Ch1 Introduction"
   content: "
 
-1. [Ch1KingsIsland](/apcsa/ch1/Ch1KingsIsland/)
+1. [Ch1KingsIsland](/apcsa/ch1introduction/ch1kingsisland/)
 
-1. [Ch1PaintCalcAreaOnly](/apcsa/ch1/Ch1PaintCalcAreaOnly/)
+1. [Ch1PaintCalcAreaOnly](/apcsa/ch1introduction/ch1paintcalcareaonly/)
 
-1. [Ch1Review1](/apcsa/ch1/Ch1Review1/)
+1. [Ch1Review1](/apcsa/ch1introduction/ch1review1/)
 
-1. [Ch1IntegerOverflow](/apcsa/ch1/Ch1IntegerOverflow/)
+1. [Ch1IntegerOverflow](/apcsa/ch1introduction/ch1integeroverflow/)
 
-1. [Ch1Review2](/apcsa/ch1/Ch1Review2/)
+1. [Ch1Review2](/apcsa/ch1introduction/ch1review2/)
 "
 
 - title: ch2-using-objects
   heading: "# Ch2 Using Objects"
   content: "
 
-1. [Ch2Exercises1-5-14](/apcsa/ch2/Ch2Exercises1-5-14/)
+1. [Ch2Exercises1-5-14](/apcsa/ch2usingobjects/Ch2Exercises1-5-14/)
 
-1. [Ch2Projects2-3-5](/apcsa/ch2/Ch2Projects2-3-5/)
+1. [Ch2Projects2-3-5](/apcsa/ch2usingobjects/Ch2Projects2-3-5/)
 
-1. [Ch2Project6](/apcsa/ch2/Ch2Project6/)
+1. [Ch2Project6](/apcsa/ch2usingobjects/Ch2Project6/)
 
-1. [Ch2Project9](/apcsa/ch2/Ch2Project6/)
+1. [Ch2Project9](/apcsa/ch2usingobjects/Ch2Project6/)
 
-1. [Ch2StringExercises](/apcsa/ch2/Ch2StringExercises/)
+1. [Ch2StringExercises](/apcsa/ch2usingobjects/Ch2StringExercises/)
 
-1. [Ch2MethodMadness](/apcsa/ch2/Ch2MethodMadness/)
+1. [Ch2MethodMadness](/apcsa/ch2usingobjects/Ch2MethodMadness/)
 
-1. [Ch2ReviewCh1andCh2](/apcsa/ch2/Ch2ReviewCh1andCh2/)
+1. [Ch2ReviewCh1andCh2](/apcsa/ch2usingobjects/Ch2ReviewCh1andCh2/)
 
 "
 
@@ -137,19 +133,19 @@ References:
   heading: "# Ch3 Implementing Classes"
   content: "
 
-1. [Ch3PotatoHeadClass](/apcsa/ch3/Ch3PotatoHeadClass/)
+1. [Ch3PotatoHeadClass](/apcsa/ch3implementingclasses/Ch3PotatoHeadClass/)
 
-1. [Ch3ShoesClass](/apcsa/ch3/Ch3ShoesClass/)
+1. [Ch3ShoesClass](/apcsa/ch3implementingclasses/Ch3ShoesClass/)
 
-1. [Ch3BalloonClass](/apcsa/ch3/Ch3BalloonClass/)
+1. [Ch3BalloonClass](/apcsa/ch3implementingclasses/Ch3BalloonClass/)
 
-1. [Ch3CashRegisterClass](/apcsa/ch3/Ch3CashRegisterClass/)
+1. [Ch3CashRegisterClass](/apcsa/ch3implementingclasses/Ch3CashRegisterClass/)
 
-1. [Ch3EmployeeClass](/apcsa/ch3/Ch3EmployeeClass/)
+1. [Ch3EmployeeClass](/apcsa/ch3implementingclasses/Ch3EmployeeClass/)
 
-1. [Ch3StudentClass](/apcsa/ch3/Ch3StudentClass/)
+1. [Ch3StudentClass](/apcsa/ch3implementingclasses/Ch3StudentClass/)
 
-1. [Ch3GraphicsCarClass](/apcsa/ch3/Ch3GraphicsCarClass/)
+1. [Ch3GraphicsCarClass](/apcsa/ch3implementingclasses/Ch3GraphicsCarClass/)
 
 "
 
@@ -157,21 +153,21 @@ References:
   heading: "# Ch4 Fundamental Data Types"
   content: "
 
-1. [Ch4ModulusClock](/apcsa/ch4/Ch4ModulusClock/)
+1. [Ch4ModulusClock](/apcsa/ch4fundamentaldatatypes/Ch4ModulusClock/)
 
-1. [Ch4ArithmeticCasting](/apcsa/ch4/Ch4ArithmeticCasting/)
+1. [Ch4ArithmeticCasting](/apcsa/ch4fundamentaldatatypes/Ch4ArithmeticCasting/)
 
-1. [Ch4FormattingPrintf](/apcsa/ch4/Ch4FormattingPrintf/)
+1. [Ch4FormattingPrintf](/apcsa/ch4fundamentaldatatypes/Ch4FormattingPrintf/)
 
-1. [Ch4WeirdCalculator](/apcsa/ch4/Ch4WeirdCalculator/)
+1. [Ch4WeirdCalculator](/apcsa/ch4fundamentaldatatypes/Ch4WeirdCalculator/)
 
-1. [Ch4CedarPoint](/apcsa/ch4/Ch4CedarPoint/)
+1. [Ch4CedarPoint](/apcsa/ch4fundamentaldatatypes/Ch4CedarPoint/)
 
-1. [Ch4Review1](/apcsa/ch4/Ch4Review1/)
+1. [Ch4Review1](/apcsa/ch4fundamentaldatatypes/Ch4Review1/)
 
-1. [Ch4IntDivQuizizz](/apcsa/ch4/Ch4IntDivQuizizz/)
+1. [Ch4IntDivQuizizz](/apcsa/ch4fundamentaldatatypes/Ch4IntDivQuizizz/)
 
-1. [Ch4ModuloQuizizz](/apcsa/ch4/Ch4ModuloQuizizz/)
+1. [Ch4ModuloQuizizz](/apcsa/ch4fundamentaldatatypes/Ch4ModuloQuizizz/)
 
 "
 
