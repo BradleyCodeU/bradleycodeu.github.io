@@ -4,6 +4,9 @@
       <h5 class="text-capitalize"><a href="/{{page.collection}}/#{{page.category}}">{{page.category}} Unit</a></h5>
       <small class="small">
         {% assign unit = site.data.apcsp_units[page.collection] | where:"title",page.category %}
+        {% unless unit[0].content %}
+          {% assign unit = site.data.apcsa_units[page.collection] | where:"title",page.category %}
+        {% endunless %}
         {{ unit[0].content | markdownify }}
       </small>
 
