@@ -4,7 +4,7 @@ category: ch1-introduction
 title: Ch1 Kings Island
 ---
 
-Download the starter file: [kingsisland.java](/apcsa/ch1introduction/kingsislandtemplate.java)
+Download (or copy/paste) the starter file: [kingsisland.java](/apcsa/ch1introduction/kingsislandtemplate.java)
 
 Screenshot of sample output:
 
