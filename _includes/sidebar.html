@@ -7,6 +7,12 @@
         {% unless unit[0].content %}
           {% assign unit = site.data.apcsa_units[page.collection] | where:"title",page.category %}
         {% endunless %}
+        {% unless unit[0].content %}
+          {% assign unit = site.data.gd_units[page.collection] | where:"title",page.category %}
+        {% endunless %}
+        {% unless unit[0].content %}
+          {% assign unit = site.data.wd_units[page.collection] | where:"title",page.category %}
+        {% endunless %}
         {{ unit[0].content | markdownify }}
       </small>
 
