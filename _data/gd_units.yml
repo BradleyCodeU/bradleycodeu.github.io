@@ -60,13 +60,25 @@ Our “Textbooks”:
   heading: "# Objects"
   content: "*4 weeks*
 
-1. KhanAcademy Games & Visualizations
+Resources:
 
-1. Bubble Game v1
+  - [p5js video folder](https://drive.google.com/open?id=1Vcw2irGn_h8FYIDzU94ShGSLsUdGyCLX)
 
-1. Bubble Game v2
+  - [Coding Train 1.1: Introduction - p5.js Tutorial](https://www.youtube.com/watch?v=8j0UDiN7my4)
 
-1. Markov Chain Generator
+  - [Coding Train's p5js tutorials playlist](https://www.youtube.com/watch?v=c3TeLi6Ns1E&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
+
+
+
+Projects:
+
+1. [KhanAcademy Games & Visualizations](/gd/objects/khanacademygames/)
+
+1. [Bubble Game v1](/gd/objects/bubblegamev1/)
+
+1. [Bubble Game v2](/gd/objects/bubblegamev2/)
+
+1. [Markov Chain Generator](/gd/objects/markovchaingenerator/)
 
 "
 
