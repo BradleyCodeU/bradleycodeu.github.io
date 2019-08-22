@@ -18,17 +18,17 @@ You will extend your bubble game so that you have collectibles and enemies. Coll
 
 Your finished game MUST have:
 
-  - a timer (https://www.w3schools.com/jsref/met_win_setinterval.asp (Links to an external site.))
+  - a timer ([https://www.w3schools.com/jsref/met_win_setinterval.asp](https://www.w3schools.com/jsref/met_win_setinterval.asp))
 
-  - display the game title, the score, and the timer (https://p5js.org/reference/#/p5/text (Links to an external site.))
+  - display the game title, the score, and the timer ([https://p5js.org/reference/#/p5/text](https://p5js.org/reference/#/p5/text))
 
-  - the background turns red if you lose AND turns green if you win (https://p5js.org/reference/#/p5/background (Links to an external site.))
+  - the background turns red if you lose AND turns green if you win ([https://p5js.org/reference/#/p5/background](https://p5js.org/reference/#/p5/background))
 
   - a collectible class based on the bubble class (for example: coins, seeds, jellyfish)
 
   - an enemy class based on the bubble class (for example: Koopas, crows, Hash Slinging Slashers)
 
-  - three or more images (https://p5js.org/reference/#/p5/image (Links to an external site.)): an image for collectibles, an image for enemies, AND an image that follows your mouse pointer (for example: Mario, a farmer, Spongebob)
+  - three or more images ([https://p5js.org/reference/#/p5/image](https://p5js.org/reference/#/p5/image)): an image for collectibles, an image for enemies, AND an image that follows your mouse pointer (for example: Mario, a farmer, Spongebob)
 
   - two or more sounds
 

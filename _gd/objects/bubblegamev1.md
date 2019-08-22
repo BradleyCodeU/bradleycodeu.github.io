@@ -23,7 +23,7 @@ Remix this Glitch project: [https://glitch.com/edit/#!/p5](https://glitch.com/ed
 
 Watch these tutorials:
 
-https://drive.google.com/drive/u/2/folders/1Vcw2irGn_h8FYIDzU94ShGSLsUdGyCLX (Links to an external site.)
+[https://drive.google.com/drive/u/2/folders/1Vcw2irGn_h8FYIDzU94ShGSLsUdGyCLX](https://drive.google.com/drive/u/2/folders/1Vcw2irGn_h8FYIDzU94ShGSLsUdGyCLX)
 
 
 
