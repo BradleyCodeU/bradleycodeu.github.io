@@ -98,6 +98,20 @@ References:
   heading: "# Ch1 Introduction"
   content: "
 
+
+Resources:
+
+  - [The History of the Java Programming Language](https://drive.google.com/file/d/1KbxMKqNgw6T_7EaS8t1hfjnwyJsFhaSd/view?usp=sharing)
+
+  - [What is Java - Java Programming Tutorial](https://drive.google.com/file/d/1fHDyzlE35710X9sQUoS-Ule6VbqfijLh/view?usp=sharing)
+
+  - [The Fetch-Execute Cycle Whats Your Computer Actually Doing](https://drive.google.com/file/d/1f94tL6PrfS1gtTMUn_8ZJawEZS6HYQLT/view?usp=sharing)
+
+
+
+
+Projects:
+
 1. [Ch1KingsIsland](/apcsa/ch1introduction/ch1kingsisland/)
 
 1. [Ch1PaintCalcAreaOnly](/apcsa/ch1introduction/ch1paintcalcareaonly/)
