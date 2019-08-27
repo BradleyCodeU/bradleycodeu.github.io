@@ -7,10 +7,9 @@ Introduce yourself with Scratch!
 
 Your first Scratch assignment is to create a scenario in which a sprite introduces you to your classmates.
 
-Creating Your Game
-1.	Choose any sprite from the Scratch library to represent yourself.
+Creating Your Game:
 
-
+1.	Choose any sprite from the Scratch library to represent yourself. This is your avatar.
 
 2.	 Choose any backdrop from the library and insert it into your scene.
 
