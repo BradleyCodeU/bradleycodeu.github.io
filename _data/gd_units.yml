@@ -69,25 +69,40 @@ Resources:
 
   - [Coding Train's p5js tutorials playlist](https://www.youtube.com/watch?v=c3TeLi6Ns1E&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
 
+  - [Finite State Machine wiki](https://en.wikipedia.org/wiki/Finite-state_machine)
+
+  - [Parking Meter is a finite state machine](https://www.youtube.com/watch?v=vhiiia1_hC4&t=159s)
+
+  - [p5js example of game state](https://www.youtube.com/watch?v=zUXsAW9JTBs&feature=youtu.be&t=1977)
+
 
 
 Projects:
 
-1. [KhanAcademy Drawing With Code](/gd/objects/khanacademydrawingwithcode/)
+  1. [KhanAcademy Drawing With Code](/gd/objects/khanacademydrawingwithcode/)
 
-1. [KhanAcademy Games & Visualizations](/gd/objects/khanacademygames/)
+  1. [KhanAcademy Games & Visualizations](/gd/objects/khanacademygames/)
 
-1. [Bubble Game v1](/gd/objects/bubblegamev1/)
+  1. [Bubble Game v1](/gd/objects/bubblegamev1/)
 
-1. [Bubble Game v2](/gd/objects/bubblegamev2/)
+  1. [Bubble Game v2](/gd/objects/bubblegamev2/)
 
-1. [Markov Chain Generator](/gd/objects/markovchaingenerator/)
+  1. [Markov Chain Generator](/gd/objects/markovchaingenerator/)
 
 "
 
 - title: inheritance
   heading: "# Inheritance"
   content: "*5 weeks*
+
+
+Resources:
+
+  - [Coding Train 16.17: Inheritance in JavaScript](https://drive.google.com/file/d/1f31Hv4RS_QHj-aPZUUjJyY07w8wgRcUg/view?usp=sharing)
+
+
+
+Projects:
 
 1. [KhanAcademy Transformations]
 

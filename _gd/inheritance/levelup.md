@@ -4,7 +4,7 @@ category: inheritance
 title: Level Up
 ---
 
-Add 3 or more levels to a game (a platformer, rpg game, or bubble game). I would *PREFER* that you remix a classmate's game, but you could also remix your own game.
+Add 3 or more levels to a game (platformer, rpg game, or bubble game). I would *PREFER* that you remix a classmate's game, but you could also remix your own game.
 
 Your finished game MUST have:
   - a Title Screen
