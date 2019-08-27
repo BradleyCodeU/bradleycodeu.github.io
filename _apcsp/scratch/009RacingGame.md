@@ -4,11 +4,10 @@ category: scratch
 title: Racing Game
 ---
 
-Download this starter project:
+Download this starter project: [Starter for Scratch v3](/apcsp/scratch/racingGame.sb3)
 
-[Starter for Scratch v3](https://drive.google.com/file/d/17EVahOWsc-Iq467NzUgZZOCU2crnob47/view?usp=sharing)
+Open a new Scratch project, then click the "File" menu and "Load From Your Computer" to upload the starter file. Click "OK" when Scratch asks if you want to replace contents of the current project.
 
-[Starter for Scratch v2](https://drive.google.com/file/d/1ngPZtVAHyVMCrVt0w6pvuO-jqZCgyspb/view?usp=sharing)
 
 Create a two player racing game. When left is pressed, **rotate to the left**. When right is pressed, **rotate right**. When up is pressed **move forward** in whatever direction you are facing.
 

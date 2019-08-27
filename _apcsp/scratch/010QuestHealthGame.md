@@ -6,11 +6,13 @@ title: Quest Health Game
 
 Remix one of these Quest Game starter projects:
 
-[Starter Project 1](https://scratch.mit.edu/projects/247775402/)
+  - [Starter Project 1](/apcsp/scratch/questGameStarterProject1.sb3)
+  - [Starter Project 2](/apcsp/scratch/questGameStarterProject2.sb3)
+  - [Starter Project 3](/apcsp/scratch/questGameStarterProject3.sb3)
 
-[Starter Project 2](https://scratch.mit.edu/projects/247775659/)
+Open a new Scratch project, then click the "File" menu and "Load From Your Computer" to upload the starter file. Click "OK" when Scratch asks if you want to replace contents of the current project.
 
-[Starter Project 3](https://scratch.mit.edu/projects/247775540/)
+
 
 Watch this video for directions: [csfirst.withgoogle.com/c/cs-first/en/game-design/quest-game/introduction-to-the-quest-game.html](https://csfirst.withgoogle.com/c/cs-first/en/game-design/quest-game/introduction-to-the-quest-game.html)
 
@@ -19,5 +21,3 @@ Watch this video for directions: [csfirst.withgoogle.com/c/cs-first/en/game-desi
 - Player MUST have a health variable.
 - There MUST be some way for the player to re-gain health.
 - Create a way to win AND a way to lose. Let the player know how they win and how they lose by typing directions on the Narrative sprite.
-
-Press the SHARE button when finished and then copy/paste the URL for your Scratch project here.
