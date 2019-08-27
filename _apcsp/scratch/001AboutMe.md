@@ -9,9 +9,9 @@ Your first Scratch assignment is to create a scenario in which a sprite introduc
 
 Creating Your Game:
 
-1.	Choose any sprite from the Scratch library to represent yourself. This is your avatar.
+1.	Delete the cat. Choose any other sprite from the Scratch library to represent yourself. This is your avatar.
 
-2.	 Choose any backdrop from the library and insert it into your scene.
+2.	Choose any backdrop from the library and insert it into your scene.
 
 3.	Now it is time to write your script (or program). First, let’s tell the program when to display the speech bubble. From the “Events” scripts menu choose “When the green flag is clicked”. Every block that is connected to this event will be executed in the order specified.
 
