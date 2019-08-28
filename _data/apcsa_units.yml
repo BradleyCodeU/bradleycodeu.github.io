@@ -96,7 +96,7 @@ References:
 "
 - title: ch1-introduction
   heading: "# Ch1 Introduction"
-  content: "
+  content: "Vocab: platform, assembly, binary, bit, byte, declare, assignment, initialize, JVM, IDE, class, method, main, println, Scanner, int, double, boolean, char, String, comment
 
 
 Resources:
@@ -121,6 +121,8 @@ Projects:
 1. [Ch1IntegerOverflow](/apcsa/ch1introduction/ch1integeroverflow/)
 
 1. [Ch1Review2](/apcsa/ch1introduction/ch1review2/)
+
+1. [Ch1SoloLearnJava](/apcsa/ch1introduction/ch1sololearnjava/)
 "
 
 - title: ch2-using-objects
