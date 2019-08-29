@@ -4,7 +4,7 @@ category: scratch
 title: Racing Game
 ---
 
-Download this starter project: [Starter for Scratch v3](/apcsp/scratch/racingGame.sb3)
+Download this starter project: [Starter for Scratch v3](https://drive.google.com/uc?export=download&id=1Wmks4TXO19Z0Qe_1jkIFJQ_mFmmQw0FJ)
 
 Open a new Scratch project, then click the "File" menu and "Load From Your Computer" to upload the starter file. Click "OK" when Scratch asks if you want to replace contents of the current project.
 

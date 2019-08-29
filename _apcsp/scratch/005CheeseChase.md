@@ -4,7 +4,7 @@ category: scratch
 title: Cheese Chase
 ---
 
-Download this starter file: [Starter for Scratch v3](/apcsp/scratch/cheeseChase.sb3)
+Download this starter file: [Starter for Scratch v3](https://drive.google.com/uc?export=download&id=1w85rgclsDclxrUD7ghlALJR4paiWWOsn)
 
 
 Open a new Scratch project, then click the "File" menu and "Load From Your Computer" to upload the starter file. Click "OK" when Scratch asks if you want to replace contents of the current project.
