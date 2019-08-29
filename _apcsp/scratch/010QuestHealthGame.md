@@ -6,9 +6,11 @@ title: Quest Health Game
 
 Remix one of these Quest Game starter projects:
 
-  - [Starter Project 1](/apcsp/scratch/questGameStarterProject1.sb3)
-  - [Starter Project 2](/apcsp/scratch/questGameStarterProject2.sb3)
-  - [Starter Project 3](/apcsp/scratch/questGameStarterProject3.sb3)
+  - [Starter Project 1](https://drive.google.com/uc?export=download&id=1dcoE9QETEiADb88LHBpHCzs1BhNmpvfV)
+  - [Starter Project 2](https://drive.google.com/uc?export=download&id=1ndqseeXrxg32J5BIauMz963OIocO2O9o)
+  - [Starter Project 3](https://drive.google.com/uc?export=download&id=1inuVQANAlPkaCX4eHZQsvCrJXGPn3fqY)
+
+
 
 Open a new Scratch project, then click the "File" menu and "Load From Your Computer" to upload the starter file. Click "OK" when Scratch asks if you want to replace contents of the current project.
 
