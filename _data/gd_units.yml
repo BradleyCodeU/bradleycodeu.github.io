@@ -162,23 +162,23 @@ Projects:
   heading: "# Swift"
   content: "*6 weeks*
 
-1. SoloLearn Swift
+1. [SoloLearn Swift](/gd/swift/sololearnswift/)
 
-1. All About Me iOS app
+1. [All About Me iOS app](/gd/swift/allaboutmeiosapp/)
 
-1. Ch 3 Intro to App Dev
+1. [Ch 3 Intro to App Dev](/gd/swift/ch3introtoappdev/)
 
-1. Ch 4 Intro to App Dev
+1. [Ch 4 Intro to App Dev](/gd/swift/ch4introtoappdev/)
 
-1. Ch 5 Intro to App Dev
+1. [Ch 5 Intro to App Dev](/gd/swift/ch5introtoappdev/)
 
-1. Ch 6 Intro to App Dev
+1. [Ch 6 Intro to App Dev](/gd/swift/ch6introtoappdev/)
 
-1. Ch 7 Intro to App Dev
+1. [Ch 7 Intro to App Dev](/gd/swift/ch7introtoappdev/)
 
-1. Ch 8 Intro to App Dev
+1. [Ch 8 Intro to App Dev](/gd/swift/ch8introtoappdev/)
 
-1. Ch 9 Intro to App Dev
+1. [Ch 9 Intro to App Dev](/gd/swift/ch9introtoappdev/)
 
 "
 - title: 3rdquarter
@@ -215,11 +215,11 @@ Projects:
   heading: "# Multiplayer"
   content: "*4 weeks*
 
-1. Team Rollaball
+1. [Team Rollaball](/gd/multiplayer/teamrollaball/)
 
-1. P5 Multiplayer v1
+1. [P5 Multiplayer v1](/gd/multiplayer/p5multiplayerv1/)
 
-1. P5 Multiplayer v2
+1. [P5 Multiplayer v2](/gd/multiplayer/p5multiplayerv2/)
 
 
 "
@@ -228,13 +228,13 @@ Projects:
   heading: "# Unity3d"
   content: "*5 weeks*
 
-1. Space Shooter v2
+1. [Space Shooter v2](/gd/unity3d/spaceshooterv2/)
 
-1. Terrain v1
+1. [Terrain v1](/gd/unity3d/terrainv1/)
 
-1. Terrain v2
+1. [Terrain v2](/gd/unity3d/terrainv2/)
 
-1. WebGL Export
+1. [WebGL Export](/gd/unity3d/webglexport/)
 
 "
 
@@ -272,22 +272,22 @@ Projects:
   heading: "# Unity2d"
   content: "*4 weeks*
 
-1. Robo Bros
+1. [Robo Bros](/gd/unity2d/robobros/)
 
-1. Super Soy Boy v1
+1. [Super Soy Boy v1](/gd/unity2d/supersoyboyv1/)
 
-1. Super Soy Boy v2
+1. [Super Soy Boy v2](/gd/unity2d/supersoyboyv2/)
 
-1. Super Soy Boy v3
+1. [Super Soy Boy v3](/gd/unity2d/supersoyboyv3/)
 
 
   "
-- title: ios-platformer
+- title: iosplatformer
   heading: "# iOS Platformer"
   content: "*3 weeks*
 
-1. iOS Platformer v1
+1. [iOS Platformer v1](/gd/iosplatformer/iosplatformerv1/)
 
-1. iOS Platformer v2
+1. [iOS Platformer v2](/gd/iosplatformer/iosplatformerv2/)
 
 "
