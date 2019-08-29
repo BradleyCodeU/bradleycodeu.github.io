@@ -58,7 +58,7 @@ Our “Textbooks”:
 "
 - title: objects
   heading: "# Objects"
-  content: "*4 weeks* Vocab: finite state machine, object, class, constructor, mutator, accessor
+  content: "*4 weeks* Vocab: finite state machine, object, class, constructor, getter, setter, method, mutator, accessor
 
 
 Resources:
@@ -215,11 +215,13 @@ Projects:
   heading: "# Multiplayer"
   content: "*4 weeks*
 
+1. Team Rollaball
+
 1. P5 Multiplayer v1
 
 1. P5 Multiplayer v2
 
-1. Team Rollaball
+
 "
 
 - title: unity3d
