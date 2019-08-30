@@ -4,9 +4,7 @@ category: scratch
 title: Scratch Platformer
 ---
 
-Based on Dog's Dinner
-
-[Scratch Platformer Tutorial PDF](https://drive.google.com/file/d/1j2YH9r-rmD0-xZdZgYVrEHfiCJEKaI-r/view?usp=sharing)
+Based on the Dog's Dinner project: [Scratch Platformer Tutorial PDF](https://drive.google.com/file/d/1j2YH9r-rmD0-xZdZgYVrEHfiCJEKaI-r/view?usp=sharing)
 
 - Simulate gravity
 - Reset the player to the starting location if they fall below the bottom of the screen

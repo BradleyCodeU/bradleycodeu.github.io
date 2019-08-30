@@ -4,7 +4,7 @@ category: scratch
 title: Quest Health Game
 ---
 
-Remix one of these Quest Game starter projects:
+Pick *ONE* of these Quest Game starter projects:
 
   - [Starter Project 1](https://drive.google.com/uc?export=download&id=1dcoE9QETEiADb88LHBpHCzs1BhNmpvfV)
   - [Starter Project 2](https://drive.google.com/uc?export=download&id=1ndqseeXrxg32J5BIauMz963OIocO2O9o)
