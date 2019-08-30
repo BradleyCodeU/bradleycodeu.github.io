@@ -68,6 +68,8 @@ Resources:
 
   - [Photoshop tutorial video folder](https://drive.google.com/drive/folders/1B-9cvnMOxKOdK18GOz3KfiZ-aM0vTZSr)
 
+  - [Photoshop - Adjust Image Size and Canvas Size](https://drive.google.com/file/d/1eElNgKiZGciT4YEHEBOy6uWDEoNsrKvn/view?usp=sharing)
+
   - [How To Design A Modern Logo Start To Finish](https://drive.google.com/open?id=1v-CX3kED4hMuFp44lnGFVjX7eBGD9061)
 
   - [Aaron Draplin Takes On a Logo Design Challenge](https://drive.google.com/file/d/1zXr_pJ5wg70eH6Uzgr-04DJqenmQURIn/view?usp=sharing)
@@ -98,19 +100,34 @@ Projects:
   content: "*3 weeks*
 
 
-1. Hello World
 
-1. SoloLearn HTML
+Resources:
 
-1. Simpler is Better
+  - [KhanAcademy Intro to HTML](https://www.khanacademy.org/computing/hour-of-code/hour-of-html/pt/html-basics)
 
-1. Poetry with Emphasis
+  - [What is Design?](https://drive.google.com/open?id=19UTgCtOIuQPbIhIo6B2ktjPeGUDolFCM)
 
-1. Club Goals Lists
+  - [Simpler is Better](https://drive.google.com/open?id=1hpUxydU5K0Lv9N_UkXRrQDSfIBxV8RAp)
 
-1. KhanAcademy Picture Perfect Trip
+  - [KhanAcademy HTML text emphasis](https://www.khanacademy.org/computing/hour-of-code/hour-of-html/pt/html-text-emphasis)
 
-1. Twine Game v1
+  - [KhanAcademy HTML lists](https://www.khanacademy.org/computing/hour-of-code/hour-of-html/pt/html-lists)
+
+Projects:
+
+1. [Hello World](/wd/html/helloworld/)
+
+1. [SoloLearn HTML](/wd/html/sololearnhtml/)
+
+1. [Simpler is Better](/wd/html/simplerisbetter/)
+
+1. [Poetry with Emphasis](/wd/html/poetrywithemphasis/)
+
+1. [Club Goals Lists](/wd/html/clubgoalslists/)
+
+1. [KhanAcademy Picture Perfect Trip](/wd/html/khanacademypictureperfecttrip/)
+
+1. [Twine Game v1](/wd/html/twinegamev1/)
 
 
 "
@@ -119,17 +136,17 @@ Projects:
   heading: "# CSS"
   content: "*3 weeks*
 
-1. Multi-page Pizza Site
+1. [Multi-page Pizza Site]
 
-1. SoloLearn CSS
+1. [SoloLearn CSS]
 
-1. KhanAcademy Drawing with Code
+1. [KhanAcademy Drawing with Code]
 
-1. Colorful Tables
+1. [Colorful Tables]
 
-1. Food Drive
+1. [Food Drive]
 
-1. Twine Game v2
+1. [Twine Game v2]
 
 "
 - title: 2ndquarter
@@ -160,30 +177,30 @@ Projects:
   heading: "# Javascript"
   content: "*5 weeks*
 
-1. Club Page v1
+1. [Club Page v1]
 
-1. SoloLearn JavaScript
+1. [SoloLearn JavaScript]
 
-1. Change Text with JS
+1. [Change Text with JS]
 
-1. 12 Buttons Game
+1. [12 Buttons Game]
 
-1. JS Clicker Game
+1. [JS Clicker Game]
 
-1. JS Form Game
+1. [JS Form Game]
 
-1. Yes or No
+1. [Yes or No]
 
-1. Sound Sample Piano
+1. [Sound Sample Piano]
 "
 
 - title: p5js
   heading: "# p5js"
   content: "*4 weeks*
 
-1. KhanAcademy Drawing With Code Challenges
+1. [KhanAcademy Drawing With Code Challenges]
 
-1. P5 Mouse Mover
+1. [P5 Mouse Mover]
 
 "
 - title: 3rdquarter
@@ -216,24 +233,24 @@ Look out! Here comes the Spider-man”
   heading: "# Scrum"
   content: "*5 weeks*
 
-1. Dungeon of Doom
+1. [Castles and Creatures]
 
-1. Foobar v1
+1. [Foobar v1]
 
 1. localStorage Character Creator (https://www.aidedd.org/dnd-builder/)
 
-1. Foobar v2
+1. [Foobar v2]
 
   "
 - title: arrays
   heading: "# Arrays"
   content: "*4 weeks*
 
-1. Random Name Generator
+1. [Random Name Generator]
 
-1. P5 Snowflakes
+1. [P5 Snowflakes]
 
-1. P5 Agario Game v1
+1. [P5 Agario Game v1]
 "
 - title: 4thquarter
   heading: "# 4th Quarter"
@@ -259,9 +276,9 @@ Look out! Here comes the Spider-man”
   heading: "# Bootstrap"
   content: "*3 weeks*
 
-1. Bootstrap Club Page v1
+1. [Bootstrap Club Page v1]
 
-1. Bootstrap Club Page v2
+1. [Bootstrap Club Page v2]
 
 
   "
@@ -269,15 +286,15 @@ Look out! Here comes the Spider-man”
   heading: "# NodeJS"
   content: "*3 weeks*
 
-1. NodeJS Order Form v1
+1. [NodeJS Order Form v1]
 
-1. NodeJS Order Form v2
+1. [NodeJS Order Form v2]
 
 "
 - title: objects
   heading: "# Objects"
   content: "*3 weeks*
 
-1. P5 Game v2
+1. [P5 Game v2]
 
   "
