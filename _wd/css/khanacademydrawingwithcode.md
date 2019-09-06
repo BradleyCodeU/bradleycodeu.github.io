@@ -8,7 +8,11 @@ Login to KhanAcademy here: [https://www.khanacademy.org/login](https://www.khana
 
 Next go to [https://www.khanacademy.org/computing/computer-programming/programming#drawing-basics](https://www.khanacademy.org/computing/computer-programming/programming#drawing-basics)
 
-Complete the following 3:
+Watch these two KhanAcademy tutorials:
+  - [Making drawings with code](https://www.khanacademy.org/computing/computer-programming/programming/drawing-basics/pt/making-drawings-with-code)
+  - [Coloring with code](https://www.khanacademy.org/computing/computer-programming/programming/coloring/pt/coloring-with-code)
+
+Then complete the following 3:
 
   - [Challenge: Simple Snowman](https://www.khanacademy.org/computing/computer-programming/programming/drawing-basics/pc/challenge-simple-snowman)
   - [Challenge: Sunny Snowy Day](https://www.khanacademy.org/computing/computer-programming/programming/drawing-basics/pc/challenge-waving-snowman)
