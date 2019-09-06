@@ -60,6 +60,7 @@ Our “Textbooks”:
   content: "*3 weeks* Vocab: vector, raster, pixel,
 
 
+
 Resources:
 
   - [The Difference Between Vector and Raster (Bitmap) Graphics](https://drive.google.com/open?id=1ubrlBA4CZGFsjiZdWk2tHCV43epO-jKR)
@@ -113,6 +114,8 @@ Resources:
 
   - [KhanAcademy HTML lists](https://www.khanacademy.org/computing/hour-of-code/hour-of-html/pt/html-lists)
 
+
+
 Projects:
 
 1. [Hello World](/wd/html/helloworld/)
@@ -136,17 +139,31 @@ Projects:
   heading: "# CSS"
   content: "*3 weeks*
 
-1. [Multi-page Pizza Site]
 
-1. [SoloLearn CSS]
 
-1. [KhanAcademy Drawing with Code]
+Resources:
+  - [Images Pixels and RGB](https://drive.google.com/open?id=1WDeCPoWsnHy7-FUteaoZRspIw25sJWyb)
 
-1. [Colorful Tables]
 
-1. [Food Drive]
 
-1. [Twine Game v2]
+
+
+
+Projects:
+
+1. [Multi-page Pizza Site](/wd/css/twinegamev1/)
+
+1. [SoloLearn CSS](/wd/css/twinegamev1/)
+
+1. [KhanAcademy Drawing with Code](/wd/css/twinegamev1/)
+
+1. [Colorful Tables](/wd/css/twinegamev1/)
+
+1. [Hexcodes](/wd/css/twinegamev1/)
+
+1. [Food Drive](/wd/css/twinegamev1/)
+
+1. [Twine Game v2](/wd/css/twinegamev1/)
 
 "
 - title: 2ndquarter
