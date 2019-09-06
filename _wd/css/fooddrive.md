@@ -3,7 +3,13 @@ layout: project
 category: css
 title: Food Drive
 ---
-You'll need to add lots of tags to fix this page: tables, lists, headings, formatted text, images, *INTERNAL LINKS, EMAIL LINKS, FORMS*, and more.  Copy/paste the following text into your HTML editor...
+
+Read these tutorial:
+  - [Internal Links](https://www.yourhtmlsource.com/text/internallinks.html)
+  - [Mailto Links](https://www.w3docs.com/snippets/html/how-to-create-mailto-links.html)
+  - [HTML Forms](https://www.w3schools.com/html/html_forms.asp)
+
+You'll need to add lots of tags to fix this page: tables, lists, headings, formatted text, images, *INTERNAL LINKS, EMAIL LINKS, FORMS*, and more. You form should NOT do anything when the Submit button is pressed. Copy/paste the following text into your HTML editor...
 
 
 <pre>
@@ -74,13 +80,13 @@ powdered milk
 
 VOLUNTEER
 
---- Add a photo of "a spokesperson" here---
+--- Insert a photo of "a spokesperson" here ---
 
 "Everyday hundreds of people in our community wake up hungry. you can make a difference by helping those in need. Knowing that I am changing people's lives is just one of the many reasons why I volunteer my time with the Community Food Drive. Join us today."
 
 Volunteer and Join Now!
 
---- Add an HTML Form here so that people can enter their email address and sign up to volunteer for the food drive ---
+--- Add an HTML Form here so that people can enter their email address  to volunteer for the food drive. You will also have a SUBMIT button that does NOTHING when pressed. ---
 
 
 
@@ -90,7 +96,7 @@ Volunteer and Join Now!
 
 CONTACT US
 
-
+--- Insert a photo of "a phone" here ---
 
 Food Drive Management
 
@@ -100,14 +106,27 @@ Bob Roberts 614- 252-5353 broberts@email.com
 
 Sue Susans 614- 252-5757 ssusans@email.com
 
+Jill Jillian 614- 252-8745 jjillian@email.com
+
+
+
 
 
 Office of Food Services
 
 name  phone number  email
 
+Erica Erikson 614- 252-3478 eerickson@email.com
+
 Bill Williams 614- 252-5959 bwilliams@email.com
 
 Cate Kaitlin 614- 252-6161 ckaitlin@email.com
+
+
+
+
+
+
+Click this link to go back to the top of the page
 
 </pre>
