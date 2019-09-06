@@ -96,7 +96,7 @@ References:
 "
 - title: ch1-introduction
   heading: "# Ch1 Introduction"
-  content: "Vocab: platform, assembly, binary, bit, byte, declare, assignment, initialize, JVM, IDE, class, method, main, println, Scanner, int, double, boolean, char, String, comment, magic number, final
+  content: "*2.5 wks* Vocab: platform, assembly, binary, bit, byte, declare, assignment, initialize, JVM, IDE, class, method, main, println, Scanner, int, double, boolean, char, String, comment, magic number, final
 
 
 Resources:
