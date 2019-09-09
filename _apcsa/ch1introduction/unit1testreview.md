@@ -1,4 +1,5 @@
 ---
+layout: default
 category: ch1-introduction
 title: Unit 1 Test Review
 ---
@@ -56,7 +57,7 @@ Maximum and minimum int values:  Integer.MAX_VALUE and Integer.MIN_VALUE.  These
 
 
 Special note: If you see a line of code like the following, what does it mean?
-int num = <valid int value>;
+int num = &lt;valid int value&gt;;
 
 This means that a variable named num has been declared as an int and has been assigned a value value.  We don’t what that value is and the value does not need to be known in order to answer the question.
 
@@ -66,4 +67,3 @@ string1 = “cat” + “dog”;
 
 //age is converted to a String and concatenated onto “Your age is ”
 System.out.println(“Your age is “ + age);  
-</pre>
