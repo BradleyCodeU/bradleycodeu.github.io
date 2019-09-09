@@ -4,7 +4,7 @@ category: ch1-introduction
 title: Unit 1 Test Review
 ---
 
-
+<pre>
 AP CS A
 Unit 1 Test Topic List
 
@@ -14,7 +14,7 @@ Literal values:
 4.0 – double literal
 3 – int literal
 
-Number literals cannot contain: $, commas, \%
+Number literals cannot contain: $, commas, %
 
 Assignment statements (types on left and right must be compatible):
 	int1 = int1 + 4.2;  	//invalid because an int + double is a double
@@ -23,7 +23,7 @@ Assignment statements (types on left and right must be compatible):
 	String1 = char1;  	//Invalid because a String variable cannot be assigned a character
 
 Evaluating expressions/order of operations:
-\+, \-, \*, \/, \%
++, -, *, /, %
 int/int will result in an int (answer will be truncated)
 int/double or double/int will result in a double answer
 % is the remainder (mod) operator.
@@ -48,8 +48,8 @@ Syntax/compile-time error (typo) – Examples include: missing ;, missing parent
 Logic/run-time error – compiles successfully, but output is incorrect or a run-time exception is thrown
 
 String concatenation
-	System.out.println(“Hello “ + name);
-	System.out.println(“The result is “ + 2 + 9);  // 29 – yikes!
+System.out.println(“Hello “ + name);
+System.out.println(“The result is “ + 2 + 9);  // 29 – yikes!
 System.out.println(“The result is “ + 2 - 9);  // ”The result is 2 ” – 9  Syntax/compile-time
 System.out.println(“The result is “ + 2 * 9);  // works as expected
 
@@ -58,7 +58,7 @@ Maximum and minimum int values:  Integer.MAX_VALUE and Integer.MIN_VALUE.  These
 
 
 Special note: If you see a line of code like the following, what does it mean?
-int num = \<valid int value\>;
+int num = <valid int value>;
 
 This means that a variable named num has been declared as an int and has been assigned a value value.  We don’t what that value is and the value does not need to be known in order to answer the question.
 
@@ -68,3 +68,4 @@ string1 = “cat” + “dog”;
 
 //age is converted to a String and concatenated onto “Your age is ”
 System.out.println(“Your age is “ + age);  
+</pre>
