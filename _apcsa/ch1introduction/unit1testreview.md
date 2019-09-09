@@ -1,5 +1,4 @@
 ---
-layout: project
 category: ch1-introduction
 title: Unit 1 Test Review
 ---
@@ -19,7 +18,7 @@ Assignment statements (types on left and right must be compatible):
 	int1 = int1 + 4.2;  	//invalid because an int + double is a double
 	int1 = 6.0/3;   		//invalid because a double/int is a double
 	double1 = int1;  	//valid because all ints can be stored as doubles
-	String1 = char1;  	//Invalid because a String variable cannot be assigned a character
+	String1 = char1;  	//Invalid because a String variable cannot be assigned a char
 
 Evaluating expressions/order of operations:
 +, -, *, /, %
