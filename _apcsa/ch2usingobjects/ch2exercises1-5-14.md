@@ -11,7 +11,10 @@ Practice Exercises Page 72: 2.1, 2.5, 2.14
 
 ## E2.1
 
-Write an AreaTester program that constructs a Rectangle object and then computes and prints its area. Use the getWidth and getHeight methods. Also print (printf) the expected answer.
+Write an AreaTester program that constructs a Rectangle object.
+Ask the user for a width and height.
+Use the setSize method to adjust the width and height of your Rectangle object.
+Finally, computes and prints its area using the getWidth and getHeight methods.
 
 ## E2.5
 
