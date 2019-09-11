@@ -14,6 +14,8 @@ NOTE: The purpose of this assignment is to demonstrate that you *CAN* create a w
 
   - MUST include your name in the webpage title.
 
-  - MUST include "Hello World" in the body.
+  - In the body, MUST create an h1 heading that says *your name*.
+
+  - In the body, MUST create paragraph that says "Hello World".
 
   ![screenshot of notepad with html tags](/wd/html/notepadhtml.jpg)
