@@ -113,7 +113,7 @@ Projects:
 - title: py
   heading: "# Py"
   content: "
-*2 wks*, Vocab: syntax, syntax error, variable, assignment, mathmatical operator, comparison operator, conditionals, function def, function call, input, argument, string, int, boolean, division by zero, comment, camelCase, scope, local variable, magic numbers, return, Tkinter, Create Task practice 1
+*2 wks*, Vocab: Tkinter, syntax, syntax error, variable, assignment, mathmatical operator, comparison operator, conditionals, function def, function call, return, input, argument, string, int, boolean, division by zero, comment, camelCase, scope, local variable, magic numbers, Create Task practice 1
 
 
 Install Python Mu IDE: [https://codewith.mu/](https://codewith.mu/)
