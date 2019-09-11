@@ -12,4 +12,4 @@ Complete the activity [on KhanAcademy](https://www.khanacademy.org/computing/com
 
 If you don't want to use the pictures that KhanAcademy suggests, you can just copy/paste the URL of any image on the web.
 
-When you're finished, copy all of the HTML code from KhanAcademy. Paste it into Notepad or Codecast.me or any other HTML editor and save it as an HTML file.
+When you're finished, copy all of the HTML code from KhanAcademy. Paste it into Trinket.io or Notepad or any other HTML editor and save it as an HTML file.
