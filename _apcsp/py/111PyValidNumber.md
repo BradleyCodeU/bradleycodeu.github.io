@@ -15,8 +15,9 @@ When a button is pressed, you can get the user input from that myEntry like this
 userInput = myEntry.get()
 ```
 
+In this project, you will create a Tk app that will ask for a number and validate that the user entered a number that makes sense.
 
-In this project, you will create a Tk app that will ask for a number and validate that the user entered a number that makes sense. For example...
+Pick ONE of these:
 - "What year were you born?" will only accept numbers 1900-2019
 - "What is your ZIP code?" will only accept numbers [00501](https://www.google.com/search?q=lowest+zip+code+number)-[99950](https://www.google.com/search?q=highest+zip+code+number)
 - "On a scale of 1-10, how much swag do you have?" will only accept numbers 1-10
