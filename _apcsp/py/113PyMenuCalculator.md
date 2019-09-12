@@ -3,7 +3,7 @@ layout: project
 category: py
 title: Menu Calculator
 ---
-Copy/paste the code from this [starter template](https://repl.it/@JustinRiley1/Menu-Calc)
+Copy/paste this starter code: [https://repl.it/@JustinRiley1/Menu-Calc](https://repl.it/@JustinRiley1/Menu-Calc)
 
 Display a menu with prices for THREE items (for example, burger $4.99, chicken sandwich $3.99, and one other item). Collect how many of item 1, how many item 2, and how many item 3.
 
