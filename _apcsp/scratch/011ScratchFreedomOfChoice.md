@@ -8,7 +8,7 @@ Either start with one of these game ideas: [https://drive.google.com/open?id=1r-
 
 OR
 
-create your own game. Your game can be based on another game (your own version of Smash Bros., Pong, Legend of Zelda, Space Invaders, etc)
+create your own game. Your game can be based on another game (your own version of Smash Bros, Pong, Legend of Zelda, Brick Breaker, Space Invaders, etc)
 
 You game MUST have:
 
