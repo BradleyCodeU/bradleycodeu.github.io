@@ -67,7 +67,7 @@ Resources:
     "[1st Quarter](#1st-quarter)
 
 
-  1. **[Scratch](#scratch)** - *2 wks*
+  1. **[Scratch](#scratch)** - *3 wks*
 
   1. **[Py](#py)** - *2 wks*
 
@@ -78,7 +78,7 @@ Resources:
 
 - title: scratch
   heading: "# Scratch"
-  content: "*2 wks*, Vocab: input, prompt, output, variable, assignment, string, int, boolean, sprite, script, control structure, iteration, loop, selection, conditional, sequencing, event listener, comparison operator, equality operator, Scratch, MIT
+  content: "*3 wks*, Vocab: input, prompt, output, variable, assignment, string, int, boolean, sprite, script, control structure, iteration, loop, selection, conditional, sequencing, event listener, comparison operator, equality operator, Scratch, MIT
 
 
 
@@ -107,7 +107,7 @@ Projects:
 
 1. Either [QuestHealthGame](/apcsp/scratch/010QuestHealthGame/) or [ScratchPlatformer](/apcsp/scratch/102ScratchPlatformer/)
 
-1. [ScratchFreedomOfChoice](/apcsp/scratch/011ScratchFreedomOfChoice/)
+1. Optional Bonus Points [ScratchFreedomOfChoice](/apcsp/scratch/011ScratchFreedomOfChoice/)
 "
 
 - title: py
