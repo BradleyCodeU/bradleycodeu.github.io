@@ -17,4 +17,5 @@ How to use create Simple Gravity in Scratch:
 1.  Make a new "velocity" variable and a new "gravity" variable
 
 1.  Create a script that will change your velocity when you jump and then apply gravity until you touch the platform:
-    ![example gravity script](/apcsp/scratch/platformGravity.PNG)
+
+![example gravity script](/apcsp/scratch/platformGravity.PNG)
