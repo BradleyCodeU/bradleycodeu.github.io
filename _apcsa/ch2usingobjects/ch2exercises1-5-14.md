@@ -14,7 +14,7 @@ Practice Exercises Page 72: 2.1, 2.5, 2.14
 Write an AreaTester program that constructs a Rectangle object.
 Ask the user for a width and height.
 Use the setSize method to adjust the width and height of your Rectangle object.
-Finally, computes and prints its area using the getWidth and getHeight methods.
+Finally, compute and print its area using the getWidth and getHeight methods.
 
 ## E2.5
 
@@ -29,14 +29,14 @@ Rectangle box = new Rectangle(5, 10, 20, 30);
 <pre>
 box.add(0, 0);
 </pre>
-Without writing any code, type your *estimated* new X location, new Y location, new width, and new height. *Your estimate CAN be inaccurate.*
+Print your *predicted* new X location, new Y location, new width, and new height. *NOTE: Your prediction CAN be inaccurate.*
 
 Write a program that will...
 
-  1.  Print your estimated X location for the final box
-  1.  Print your estimated Y location for the final box
-  1.  Print your estimated width for the final box
-  1.  Print your estimated height for the final box
+  1.  Print your predicted X location for the final box
+  1.  Print your predicted Y location for the final box
+  1.  Print your predicted width for the final box
+  1.  Print your predicted height for the final box
   1.  Instantiate a rectangle at 5, 10 that is 20 wide and 30 tall
   1.  Add the point 0, 0 to the rectangle
   1.  Print the actual X location (using the getX method) of the final box
@@ -46,4 +46,4 @@ Write a program that will...
 
 ## E2.14
 
-Look at the API of the Point class and find out how to construct a Point object. In a PointTester program, construct two points with coordinates (3, 4) and (–3, –4). Find the distance between them, using the distance method. Print the distance, as well as the expected value.
+Look at the API of the Point class and find out how to construct a Point object. In a PointTester program, construct two points with coordinates (3, 4) and (–3, –4). Find the distance between them, using the distance method (which is available because it is inherited from a different class). Print your prediction and then the calculated distance.
