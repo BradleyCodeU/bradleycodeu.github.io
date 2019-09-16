@@ -5,8 +5,9 @@ title: Valid Number
 ---
 Copy/paste this starter code: [https://repl.it/@JustinRiley1/Valid-Number-starter-code](https://repl.it/@JustinRiley1/Valid-Number-starter-code)
 
+If you need help with how to define a function, [read this tutorial](/apcsp/py/pythonfunctions/).
 
-## In this project, you will simply create a function that requires one argument (a number) and returns True or False if the number is valid.
+## In this project, you will simply define a function that requires one argument (a number) and returns True or False if the number is valid.
 
 Pick ONE of these:
 - "What year were you born?" will only accept numbers 1900-2019
