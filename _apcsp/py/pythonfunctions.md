@@ -32,7 +32,7 @@ Information can be passed to functions as an argument. Arguments are specified a
 When you are defining a function you can add as many arguments (aka parameters) as you want, just separate them with a comma. Here is an example that requires two arguments:
 <pre>
 def makeStudentEmail(firstName, lastName):
-  print(firstName + "." + lastName + "@hilliardschools.org")
+  print(firstName + "." + lastName + "\@hilliardschools.org")
 </pre>
 
 After defining that function, you can call the function by passing two arguments:
