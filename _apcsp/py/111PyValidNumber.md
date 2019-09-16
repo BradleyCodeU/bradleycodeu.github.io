@@ -25,7 +25,7 @@ Pick ONE of these:
 <pre>
 You MUST create a function called validNumber that requires one argument: myNumber. For this example, I will only accept numbers 1900-2019.
   - Convert myNumber to an int
-  - return True if myNumber is a number between 1900 and 2019, inclusive \[1900, 2019\].
+  - return True if myNumber is a number between 1900 and 2019, inclusive [1900, 2019].
   - Otherwise, return False.
 </pre>
 
