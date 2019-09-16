@@ -116,14 +116,21 @@ Projects:
 *2 wks*, Vocab: Tkinter, import, syntax, syntax error, variable, assignment, mathmatical operator, float, function definition, function call, return, argument, division by zero, comment, camelCase, scope, local variable, magic numbers, Create Task practice 1
 
 
-Install Python Mu IDE: [https://codewith.mu/](https://codewith.mu/)
+Resources:
 
+  - Install Python Mu IDE: [https://codewith.mu/](https://codewith.mu/)
+
+  - [Python Functions Tutorial](/apcsp/py/pythonfunctions/)
+
+
+
+Projects:
 
 1. [PyValidNumber](/apcsp/py/111PyValidNumber/)
 
 1. Pair - Either [PyDollarConvert](/apcsp/py/108PyDollarConvert/) or [PyWeightOnPlanets](/apcsp/py/114PyWeightOnPlanets/)
 
-1. Either [Py2DGeometry](/apcsp/py/Py2DGeometry/) or [Py3DGeometry](/apcsp/py/112Py3DGeometry/)
+1. Pair - Either [Py2DGeometry](/apcsp/py/Py2DGeometry/) or [Py3DGeometry](/apcsp/py/112Py3DGeometry/)
 
 1. [PyModuloFun](/apcsp/py/105PyModuloFun/)
 
