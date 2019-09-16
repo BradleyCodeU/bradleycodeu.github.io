@@ -38,7 +38,4 @@ The starter code's sayHello function will:
   - else
     - create a popup that says "Not a valid number"
 
-Finally, your Python Tkinter app MUST have:
-- a Label that says "What year were you born?" OR whatever question you choose earlier
-- a variable named numberEntry that is assigned an Entry for user input (this was in the starter code)
-- a Button with the text "Submit" that runs a function called buttonPress
+## Finally, change the Label on the Python Tkinter app so that it says "What year were you born?" OR whatever question you choose earlier.
