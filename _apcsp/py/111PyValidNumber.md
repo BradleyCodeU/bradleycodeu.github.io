@@ -32,23 +32,19 @@ Pick ONE of these:
 - "How many Infinity Stones do you have?" will only accept numbers 0-6
 
 
-Create a function called validNumber that requires one argument: myNumber. For this example, I will only accept numbers 1900-2019.
-  - It *returns* True if myNumber is a number between 1900 and 2019, inclusive \[1900, 2019\].
-  - Otherwise, it *returns* False.
+You MUST create a function called validNumber that requires one argument: myNumber. For this example, I will only accept numbers 1900-2019.
+  - Convert myNumber to an int
+  - *return* True if myNumber is a number between 1900 and 2019, inclusive \[1900, 2019\].
+  - Otherwise, *return* False.
 
-
-Replace the starter code's sayHello function with a function called buttonPress that
-  - gets the text from numberEntry, like this: ```numberEntry.get()``` and save it in a userInput variable
-  - convert the userInput variable to a number
-  - if validNumber(userInput), then
+The starter code's sayHello function will:
+  - get the text from numberEntry, like this: ```numberEntry.get()``` and save it in the answer variable
+  - if validNumber(answer), then
     - create a popup that says "Thank you"
-    - return
   - else
     - create a popup that says "Not a valid number"
-    - return
 
-
-Finally, your Python Tkinter app should have:
+Finally, your Python Tkinter app MUST have:
 - a Label that says "What year were you born?" OR whatever question you choose earlier
 - a variable named numberEntry that is assigned an Entry for user input (this was in the starter code)
 - a Button with the text "Submit" that runs a function called buttonPress

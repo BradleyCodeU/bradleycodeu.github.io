@@ -5,7 +5,7 @@ title: Scratch Platformer
 ---
 
 Pick one of these tutorials:
-  1.  [Simple Gravity in Scratch](https://www.mvcode.com/lessons/learn-to-make-a-character-do-realistic-jumps)
+  1.  [Simple Gravity in Scratch](/apcsp/scratch/simplegravityinscratch/)
   1.  [Scratch Platformer Tutorial PDF](https://drive.google.com/file/d/1j2YH9r-rmD0-xZdZgYVrEHfiCJEKaI-r/view?usp=sharing)
 
 
