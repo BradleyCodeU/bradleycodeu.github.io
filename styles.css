@@ -167,8 +167,8 @@ h2 {
   text-shadow: 2px 2px grey;
 }
 h2[id]{
-  margin-top:50px;
-  padding-top:50px;
+  margin-top:75px;
+  padding-top:75px;
   /* line-height: 100px; */
 }
 h3, h4 {
