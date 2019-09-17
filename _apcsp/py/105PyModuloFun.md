@@ -9,11 +9,11 @@ Two forward slashes // is the floor division operator. It returns the result of 
 
 I will demonstrate how to convert square feet to acres. 43560 sq ft = 1 acre. Let's first calculate how many COMPLETE acres we have...
 ```python
-acres = number // 43560
+acres = number // 43560 #floor division gives the number of whole acres
 ```
 Next, how many REMAINING sq ft are left...
 ```python
-remainder = number % 43560
+remainder = number % 43560 #modulus gives the remaining sq ft
 ```
 Return a string...
 ```python
@@ -44,11 +44,14 @@ sqftToAcres(123) &rarr; "0 acres and 123 sq ft"
 
 ## Assignment Details:
 
-Copy/paste this starter code: [https://repl.it/@JustinRiley1/dollar-convert-starter-code](https://repl.it/@JustinRiley1/dollar-convert-starter-code)
+Copy/paste this starter code: [https://repl.it/@JustinRiley1/modulofun-starter-code](https://repl.it/@JustinRiley1/modulofun-starter-code)
 
 For Your Project You Will Pick *ANY TWO* Of The Following:
-- [isDivisible](#isdivisible)
-- [isEven](#iseven)
+- [peopleToBuses](#peopletobuses)
+- [peopleToPizzas](#peopletopizzas)
+- [peopleToBasketballTeams](#peopletobasketballteams)
+- [peopleToPicnicTables](#peopletopicnictables)
+- [peopleToDonuts](#peopletodonuts)
 - [inchesToFeet](#inchestofeet)
 - feetToYards
 - yardsToMiles
@@ -57,25 +60,12 @@ For Your Project You Will Pick *ANY TWO* Of The Following:
 - teaspoonsToTablespoons
 - tablespoonsToCups
 - cupsToGallons
-- [peopleToBuses](#peopletobuses)
-- [peopleToPizzas](#peopletopizzas)
-- [peopleToBasketballTeams](#peopletobasketballteams)
-- [peopleToPicnicTables](#peopletopicnictables)
-- [peopleToDonuts](#peopletodonuts)
+- [isDivisible](#isdivisible)
+- [isEven](#iseven)
 
-## isDivisible
-- Define a function called isDivisible that requires two arguments: number and divisor. It returns True if number is evenly divisible by the divisor (aka, has no remainder).
 
-## isEven
-- Define a function called isEven that requires one argument: number. It returns True if number is divisible by two.
 
-## inchesToFeet
-- Define a function called inchesToFeet that requires one argument: number. It returns a string.
 
-| Input &rarr; Output |
-| inchesToFeet(13) &rarr; "1 ft 1 in" |
-| inchesToFeet(43) &rarr; "3 ft 7 in" |
-| inchesToFeet(0) &rarr; "0 ft 0 in" |
 
 ## peopleToBuses
 - Assume that 90 people fit on a school bus. Define a function called peopleToBuses that requires one argument: people. It returns a string with the number of full school buses and the remaining number of people that get to ride in the last bus.
@@ -99,7 +89,7 @@ For Your Project You Will Pick *ANY TWO* Of The Following:
 | peopleToBasketballTeams(47) &rarr; "9 full basketball teams and 2 benchwarmers" |
 
 ## peopleToPicnicTables
-- Assume 6 people per picnic table. Define a function called peopleToPicnicTables that requires one argument: people. It returns a string with the number of full picnic tables and the remaining number of people that have to sit on the ground.
+- Assume 6 people per picnic table. Define a function called peopleToPicnicTables that requires one argument: people. It returns a string with the number of full picnic tables and the remaining number of people that sit on the ground.
 
 | Input &rarr; Output|
 | peopleToPicnicTables(321) &rarr; "53 full picnic tables and 3 people sit on the ground"|
@@ -110,4 +100,18 @@ For Your Project You Will Pick *ANY TWO* Of The Following:
 
 | Input &rarr; Output|
 | peopleToDonuts(321) &rarr; "321 people would need 24 boxes of doughnuts and 9 single doughnuts"|
-| peopleToDonuts(45) &rarr; "45 people would need 3 boxes of doughnuts and 6 single doughnuts"| 
+| peopleToDonuts(45) &rarr; "45 people would need 3 boxes of doughnuts and 6 single doughnuts"|
+
+## inchesToFeet
+- Define a function called inchesToFeet that requires one argument: number. It returns a string.
+
+| Input &rarr; Output |
+| inchesToFeet(13) &rarr; "1 ft 1 in" |
+| inchesToFeet(43) &rarr; "3 ft 7 in" |
+| inchesToFeet(0) &rarr; "0 ft 0 in" |
+
+## isDivisible
+- Define a function called isDivisible that requires two arguments: number and divisor. It returns True if number is evenly divisible by the divisor (aka, has no remainder).
+
+## isEven
+- Define a function called isEven that requires one argument: number. It returns True if number is divisible by two.
