@@ -17,7 +17,7 @@ NOTE: In order to create a messagebox you will need an extra import...
 from tkinter import *
 from tkinter import messagebox #this is required!!!!
 ```
-[Click Here](http://interactivepython.org/runestone/static/CS152f17/GUIandEventDrivenProgramming/02_standard_dialog_boxes.html)to learn how to create a messagebox
+[Click Here](http://interactivepython.org/runestone/static/CS152f17/GUIandEventDrivenProgramming/02_standard_dialog_boxes.html) to learn how to create a messagebox
 
 Some ideas for your app...
 
@@ -34,7 +34,7 @@ Some ideas for your app...
   - An average calculator that asks for number A and number B.
   - CHALLENGE!!! Create an average calculator that works for any amount of figures. For example, can calculate the average of 2 figures or 7 figures or 13 figures.
 
-*NOTE: If the user inputs a string, your input validation MUST popup a messagebox error such as "Oops, not a number" and ask for input again.*
+NOTE: If the user inputs "banana", your input validation <strong>MUST</strong> popup a messagebox error such as "Oops, not a number" and ask the user to try again.
 
 The app <strong>must NOT</strong> crash from a runtime error if the user inputs a string <strong>OR</strong> a zero.
 
