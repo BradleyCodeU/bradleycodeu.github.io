@@ -169,7 +169,6 @@ h2 {
 h2[id]{
   margin-top:75px;
   padding-top:75px;
-  /* line-height: 100px; */
 }
 h3, h4 {
   text-transform: capitalize;
