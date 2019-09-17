@@ -19,6 +19,9 @@ Return a string...
 ```python
   return str(acres) + " acres and " + str(remainder) + " sq ft"
 ```
+<table>
+<tr>
+<td>
 Input &rarr; Output
 
 sqftToAcres(43561) &rarr; "1 acres and 1 sq ft"
@@ -26,6 +29,11 @@ sqftToAcres(43561) &rarr; "1 acres and 1 sq ft"
 sqftToAcres(99999) &rarr; "2 acres and 12879 sq ft"
 
 sqftToAcres(123) &rarr; "0 acres and 123 sq ft"
+</td>
+</tr>
+</table>
+
+## Assignment Details:
 
 Copy/paste this starter code: [https://repl.it/@JustinRiley1/dollar-convert-starter-code](https://repl.it/@JustinRiley1/dollar-convert-starter-code)
 

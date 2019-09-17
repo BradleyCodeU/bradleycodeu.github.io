@@ -11,6 +11,8 @@ Create a Tkinter app that:
 - has a submit button
 
 Create a function called hogwartsHouse that requires two arguments: bravery and teamwork. It *returns* a string.
+- Convert bravery from string to number
+- Convert teamwork from string to number
 - If bravery and teamwork are both above 5 then return "Gryffindor"
 - If bravery is 5 or less and teamwork is above 5 then return "Hufflepuff"
 - If bravery and teamwork are both 5 or less then return "Ravenclaw"
@@ -20,20 +22,20 @@ Create a function called hogwartsHouse that requires two arguments: bravery and 
 | Low Teamwork | | High Teamwork |
 | Ravenclaw | Low Bravery | Hufflepuff |
 
-Create a function called submit. In this function, you must:
+Create a function called buttonPressed. In this function, you must:
 - collect the user input for bravery
 - collect the user input for teamwork
 - verify that both user inputs are numbers 1-10
-- If not correct, display an error message *(do NOT use print() to display the error message)*
+- If not correct, popup an error message *(do NOT use print() to display the error message)*
 - call the hogwartsHouse function
-- display the quiz result *(do NOT use print() to display the result)*
+- popup the quiz result *(do NOT use print() to display the result)*
 
 
 -=-=-=-=-=-=-=-=-=-
 
 GOLD MEDAL CHALLENGE:
 
-Create your own quiz with four (or more) possible outcomes. The result must not be random. For example:
+Create your own quiz with four (or more) possible outcomes. The result must NOT be random. For example:
 - Which My Little Pony are you?
 - Which superhero are you?
 - Which meme/advice animal are you?
