@@ -23,11 +23,20 @@ Return a string...
 <tr>
 <td>
 Input &rarr; Output
-
+</td>
+</tr>
+<tr>
+<td>
 sqftToAcres(43561) &rarr; "1 acres and 1 sq ft"
-
+</td>
+</tr>
+<tr>
+<td>
 sqftToAcres(99999) &rarr; "2 acres and 12879 sq ft"
-
+</td>
+</tr>
+<tr>
+<td>
 sqftToAcres(123) &rarr; "0 acres and 123 sq ft"
 </td>
 </tr>
