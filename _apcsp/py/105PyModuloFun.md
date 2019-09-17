@@ -72,13 +72,13 @@ For Your Project You Will Pick *ANY TWO* Of The Following:
 ## inchesToFeet
 - Define a function called inchesToFeet that requires one argument: number. It returns a string.
 
-Input &rarr; Output
+| Input &rarr; Output |
 
-inchesToFeet(13) &rarr; "1 ft 1 in"
+| inchesToFeet(13) &rarr; "1 ft 1 in" |
 
-inchesToFeet(43) &rarr; "3 ft 7 in"
+| inchesToFeet(43) &rarr; "3 ft 7 in" |
 
-inchesToFeet(0) &rarr; "0 ft 0 in"
+| inchesToFeet(0) &rarr; "0 ft 0 in" | 
 
 ## peopleToBuses
 - Assume that 90 people fit on a school bus. Define a function called peopleToBuses that requires one argument: people. It returns a string with the number of full school buses and the remaining number of people that get to ride in the last bus.
