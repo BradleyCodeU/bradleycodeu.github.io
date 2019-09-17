@@ -6,7 +6,7 @@ title: Twine Game v2
 
 Continue working on your Twine game. Upload your HTML file here when you are finished.
 
-[Twine tutorial videos](https://www.youtube.com/playlist?list=PLzFQmmaR906JuTkpwMW8TbkluKLhbP-n-)
+[Twine tutorial videos folder](https://drive.google.com/drive/folders/1QrhhzTDg2XA1azNjfLYtH_nnSsQC91os?usp=sharing)
 
 [Twine tutorial blog posts](http://www.ohiofi.com/blog/twine)
 
