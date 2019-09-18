@@ -58,7 +58,7 @@ Our “Textbooks”:
 "
 - title: objects
   heading: "# Objects"
-  content: "*4 weeks* Vocab: object, class, constructor, getter, setter, method, mutator, accessor, instance, instanciate, argument, parameter, finite state machine, game state, edge case, absolute value, encapsulation, specialization, polymorphism
+  content: "*4 weeks* Vocab: object, class, constructor, getter, setter, method, mutator, accessor, instance, instanciate, argument, parameter, finite state machine, game state, edge case, encapsulation, specialization, polymorphism, instance variable
 
 
 Resources:
@@ -71,9 +71,9 @@ Resources:
 
   - [Finite State Machine wiki](https://en.wikipedia.org/wiki/Finite-state_machine)
 
-  - [Parking Meter is a finite state machine](https://www.youtube.com/watch?v=vhiiia1_hC4&t=159s)
+  - [Parking Meter is a finite state machine - Computers Without Memory - Computerphile](https://www.youtube.com/watch?v=vhiiia1_hC4&t=84s)
 
-  - [p5js example of game state](https://www.youtube.com/watch?v=zUXsAW9JTBs&feature=youtu.be&t=1977)
+  - [Pong & Object Oriented Programming - Computerphile](https://youtu.be/KyTUN6_Z9TM?t=148)
 
 
 
@@ -104,7 +104,7 @@ Resources:
 
   - [Coding Train 16.17: Inheritance in JavaScript](https://drive.google.com/file/d/1f31Hv4RS_QHj-aPZUUjJyY07w8wgRcUg/view?usp=sharing)
 
-
+  - [p5js example of player state](https://www.youtube.com/watch?v=zUXsAW9JTBs&feature=youtu.be&t=1977)
 
 Projects:
 
