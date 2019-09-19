@@ -3,7 +3,7 @@ layout: project
 category: py
 title: Buy Sell Phones
 ---
-Copy/paste this starter code: [https://repl.it/@JustinRiley1/Buy-Sell-Phones-starter](https://repl.it/@JustinRiley1/Buy-Sell-Phones-starter)
+Copy/paste this starter code: [https://repl.it/@JustinRiley1/BuySellPhones-starter](https://repl.it/@JustinRiley1/BuySellPhones-starter)
 
 [Read this tutorial](/apcsp/py/pythonfunctions/)
 
