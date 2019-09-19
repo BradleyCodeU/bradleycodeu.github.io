@@ -128,6 +128,8 @@ Projects:
 
 1. [PyValidNumber](/apcsp/py/111PyValidNumber/)
 
+1. [PyBuySellPhones](/apcsp/py/PyBuySellPhones/)
+
 1. Pair - Either [PyDollarConvert](/apcsp/py/108PyDollarConvert/) or [PyWeightOnPlanets](/apcsp/py/114PyWeightOnPlanets/)
 
 1. Pair - Either [Py2DGeometry](/apcsp/py/Py2DGeometry/) or [Py3DGeometry](/apcsp/py/112Py3DGeometry/)
@@ -136,9 +138,9 @@ Projects:
 
 1. Pair - [PyHogwartsHouse](/apcsp/py/109PyHogwartsHouse/)
 
-1. Pair - Either [PyParrotTrouble](/apcsp/py/104PyParrotTrouble/) or [PyThreeArgs](/apcsp/py/106PyThreeArgs/) or [PyCollisionFun](/apcsp/py/110PyCollisionFun/)
-
 1. *Create Practice 1* - Pair - [PyCreatePractice1](/apcsp/py/100PyCreatePractice1/)
+
+1. Pair - Either [PyParrotTrouble](/apcsp/py/104PyParrotTrouble/) or [PyThreeArgs](/apcsp/py/106PyThreeArgs/) or [PyCollisionFun](/apcsp/py/110PyCollisionFun/)
 "
 - title: binary
   heading: "# Binary"
