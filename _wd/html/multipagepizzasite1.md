@@ -1,6 +1,6 @@
 ---
 layout: project
-category: css
+category: html
 title: Multi-page Pizza Site 1
 ---
 
