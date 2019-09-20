@@ -16,6 +16,8 @@ Your program can **NOT** be exactly the same as the Coding Train program. You MU
 
   - add an HTML range slider (input type="range"), use Javascript to get the slider value property, and set the order value (easy)
 
+  - use P5's text to speech feature to read the generated text (easy)
+
   - analyze by "whole words" rather than single letters (medium)
 
   - analyze the musical notes in a melody (for example, "Eb,Eb,Bb,Bb,C,C,Bb") and generate new melodies (medium)
