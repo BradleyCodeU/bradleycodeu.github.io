@@ -24,7 +24,7 @@ Create a function called hogwartsHouse that requires two arguments: bravery and 
 | Low Teamwork | | High Teamwork |
 | Ravenclaw | Low Bravery | Hufflepuff |
 
-Copy/paste this starter code: [https://repl.it/@JustinRiley1/ModuloFun-starter-code](https://repl.it/@JustinRiley1/ModuloFun-starter-code)
+Copy/paste this starter code: [https://repl.it/@JustinRiley1/Hogwarts-House-starter-code](https://repl.it/@JustinRiley1/Hogwarts-House-starter-code)
 
 The starter code has an event listener function called buttonPressed. This function will:
 - collect the user input for bravery
