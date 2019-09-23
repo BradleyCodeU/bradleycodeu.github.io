@@ -10,7 +10,8 @@ Create two functions that will convert to/from US dollars. Each function will re
 Options include:
 - dollarsToBitcoin(dollars) AND bitcoinToDollars(bitcoin)
 - dollarsToEuros(dollars) AND eurosToDollars(euros)
-- dollarsToCanadian (dollars) AND canadianToDollars(canadian)
-- dollarsToPesos (dollars) AND pesosToDollars(pesos)
-- dollarsToYen (dollars) AND yenToDollars(yen)
-- dollarsToRupees (dollars) AND rupeesToDollars(rupees)
+- dollarsToCanadian(dollars) AND canadianToDollars(canadian)
+- dollarsToPesos(dollars) AND pesosToDollars(pesos)
+- dollarsToYen(dollars) AND yenToDollars(yen)
+- dollarsToRupees(dollars) AND rupeesToDollars(rupees)
+- dollarsToSchruteBucks(dollars) AND schruteBucksToDollars(schruteBucks)

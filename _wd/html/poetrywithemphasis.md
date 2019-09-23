@@ -18,13 +18,11 @@ Pick a poem that is appropriate for school. Suggested poets: Shel Silverstein, M
 
 5) MUST use at least 5 of the following HTML formatting tags to format some words in the poem:
 
-  - Bold text
-  - Important (aka strong) text
-  - Italic text
-  - Emphasized text
+  - Bold text or Strong text *(they are the same thing)*
+  - Italic text or Emphasized text *(they are the same thing)*
   - Marked text
   - Small text
-  - Deleted text
-  - Inserted text
+  - Deleted text or Strikethrough text *(they are the same thing)*
+  - Underlined text or Inserted text *(they are almost the same thing)*
   - Subscript text
   - Superscript text

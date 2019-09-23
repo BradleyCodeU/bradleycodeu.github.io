@@ -12,12 +12,15 @@ Write a program that will help a student learn basic fundamentals in math, scien
 
 Code Specifications:
 	-	Contains at least 5 or more quiz questions
-	-	Must check if the answer is correct or incorrect and notify the user with correct or incorrect.
+	-	Must use a function to check if the answer is correct or incorrect
+	-	Must notify the user if correct or incorrect
 
 ## You will turn in *TWO* files:
 
-1. Educational Quiz python program
-	-	Each person will turn in a copy of this Python code
+1. Educational Quiz python program:
+	-	Copy/paste this starter code
+	- Create a function called checkAnswer that requires two arguments: userInput, answerString. It returns True or False if the userInput is identical to the answerString.
+	- Each person will turn in a copy of your finished Python code
 
 2. Written Reflection:
   - [Create a copy of this Google Doc](https://docs.google.com/document/d/1AD-HkxG91RmUEMR6urnpoLyJTMJoNswzmolqJBneUh0/copy) and SHARE it with your partner.

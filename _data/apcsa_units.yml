@@ -96,7 +96,7 @@ References:
 "
 - title: ch1-introduction
   heading: "# Ch1 Introduction"
-  content: "*2.5 wks* Vocab: platform, assembly, binary, bit, byte, declare, assignment, initialize, JVM, IDE, class, method, main, println, Scanner, int, double, boolean, char, String, comment, magic number, final
+  content: "*2.5 wks* Vocab: platform, assembly, binary, bit, byte, declare, assignment, initialize, JVM, IDE, class, method, main, println, Scanner, int, double, boolean, char, String, comment, magic number, final, literal
 
 
 Resources:
@@ -127,7 +127,9 @@ Projects:
 
 - title: ch2-using-objects
   heading: "# Ch2 Using Objects"
-  content: "
+  content: "Vocab: object, accessor, mutator, method, constructor, new, API, naming convention, camelCase, PascalCase, comment
+
+
 
 1. [Ch2Exercises1-5-14](/apcsa/ch2usingobjects/ch2exercises1-5-14/)
 
@@ -135,7 +137,7 @@ Projects:
 
 1. [Ch2Project6](/apcsa/ch2usingobjects/ch2project6/)
 
-1. [Ch2Project9](/apcsa/ch2usingobjects/ch2project6/)
+1. [Ch2Project9](/apcsa/ch2usingobjects/ch2project9/)
 
 1. [Ch2StringExercises](/apcsa/ch2usingobjects/ch2stringexercises/)
 

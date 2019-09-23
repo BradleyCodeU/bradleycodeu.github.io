@@ -67,18 +67,18 @@ Resources:
     "[1st Quarter](#1st-quarter)
 
 
-  1. **[Scratch](#scratch)** - *2 wks*
+  1. [Scratch](#scratch) - *3 wks*
 
-  1. **[Py](#py)** - *2 wks*
+  1. [Py](#py) - *2 wks*
 
-  1. **[Binary](#binary)** - *2 wks*
+  1. [Binary](#binary) - *2 wks*
 
-  1. **[Turtle Art](#turtleart)** - *3 wks*"
+  1. [Turtle Art](#turtleart) - *3 wks*"
 
 
 - title: scratch
   heading: "# Scratch"
-  content: "*2 wks*, Vocab: input, prompt, output, variable, assignment, string, int, boolean, sprite, script, control structure, iteration, loop, selection, conditional, sequencing, event listener, comparison operator, equality operator, Scratch, MIT
+  content: "*3 weeks*, Vocab: input, prompt, output, variable, assignment, string, int, boolean, sprite, script, control structure, iteration, loop, selection, conditional, sequencing, event listener, comparison operator, equality operator, Scratch, MIT
 
 
 
@@ -107,31 +107,40 @@ Projects:
 
 1. Either [QuestHealthGame](/apcsp/scratch/010QuestHealthGame/) or [ScratchPlatformer](/apcsp/scratch/102ScratchPlatformer/)
 
-1. [ScratchFreedomOfChoice](/apcsp/scratch/011ScratchFreedomOfChoice/)
+1. Optional Bonus Points [ScratchFreedomOfChoice](/apcsp/scratch/011ScratchFreedomOfChoice/)
 "
 
 - title: py
   heading: "# Py"
   content: "
-*2 wks*, Vocab: Tkinter, syntax, syntax error, variable, assignment, mathmatical operator, comparison operator, conditionals, function def, function call, return, input, argument, string, int, boolean, division by zero, comment, camelCase, scope, local variable, magic numbers, Create Task practice 1
+*2 wks*, Vocab: Tkinter, import, syntax, syntax error, variable, assignment, mathmatical operator, float, function definition, function call, return, argument, division by zero, comment, camelCase, scope, local variable, magic numbers, Create Task practice 1
 
 
-Install Python Mu IDE: [https://codewith.mu/](https://codewith.mu/)
+Resources:
 
+  - Install Python Mu IDE: [https://codewith.mu/](https://codewith.mu/)
+
+  - [Python Functions Tutorial](/apcsp/py/pythonfunctions/)
+
+
+
+Projects:
 
 1. [PyValidNumber](/apcsp/py/111PyValidNumber/)
 
-1. Pair - Either [PyDollarConvert](/apcsp/py/108PyDollarConvert/) or [PyMenuCalculator](/apcsp/py/113PyMenuCalculator) or [PyWeightOnPlanets](/apcsp/py/114PyWeightOnPlanets/)
+1. [PyBuySellPhones](/apcsp/py/PyBuySellPhones/)
 
-1. Either [Py2DGeometry](/apcsp/py/Py2DGeometry/) or [Py3DGeometry](/apcsp/py/112Py3DGeometry/)
+1. Pair - Either [PyDollarConvert](/apcsp/py/108PyDollarConvert/) or [PyWeightOnPlanets](/apcsp/py/114PyWeightOnPlanets/)
+
+1. Pair - Either [Py2DGeometry](/apcsp/py/Py2DGeometry/) or [Py3DGeometry](/apcsp/py/112Py3DGeometry/)
 
 1. [PyModuloFun](/apcsp/py/105PyModuloFun/)
 
 1. Pair - [PyHogwartsHouse](/apcsp/py/109PyHogwartsHouse/)
 
-1. Pair - Either [PyParrotTrouble](/apcsp/py/104PyParrotTrouble/) or [PyThreeArgs](/apcsp/py/106PyThreeArgs/) or [PyCollisionFun](/apcsp/py/110PyCollisionFun/)
-
 1. *Create Practice 1* - Pair - [PyCreatePractice1](/apcsp/py/100PyCreatePractice1/)
+
+1. Pair - Either [PyParrotTrouble](/apcsp/py/104PyParrotTrouble/) or [PyThreeArgs](/apcsp/py/106PyThreeArgs/) or [PyCollisionFun](/apcsp/py/110PyCollisionFun/)
 "
 - title: binary
   heading: "# Binary"
@@ -216,13 +225,13 @@ Projects:
   [2nd Quarter](#2nd-quarter)
 
 
-  1. **[IP](#ip)** - *1 wk*
+  1. [IP](#ip) - *1 wk*
 
-  1. **[Scrum](#scrum)** - *3 wks*
+  1. [Scrum](#scrum) - *3 wks*
 
-  1. **[Console](#console)** - *3 wks*
+  1. [Console](#console) - *3 wks*
 
-  1. **[Big Data](#bigdata)** - *2 wks*
+  1. [Big Data](#bigdata) - *2 wks*
 
   "
 
@@ -300,15 +309,15 @@ Code.org Unit 4: Big Data and Privacy, [https://studio.code.org/s/csp4-2018](htt
   [3rd Quarter](#3rd-quarter)
 
 
-  1. **[Explore](#explore)** - *2 wks*
+  1. [Explore](#explore) - *2 wks*
 
-  1. **[Text Games](#textgames)** - *2 wks*
+  1. [Text Games](#textgames) - *2 wks*
 
-  1. **[Digital Info](#digitalinfo)** - *1 wk*
+  1. [Digital Info](#digitalinfo) - *1 wk*
 
-  1. **[Turtle Games](#turtlegames)** - *2wks*
+  1. [Turtle Games](#turtlegames) - *2wks*
 
-  1. **[Tk](#tk)** - *2 wks*
+  1. [Tk](#tk) - *2 wks*
   "
 - title: explore
   heading: "# Explore"
@@ -363,15 +372,17 @@ Code.org Unit 2: Digital Information, [https://studio.code.org/s/csp2-2018](http
 
 1. [PythonTruthTableGenerator]()
 
-1. [044TkWeirdCalcInputValidationReview](/apcsp/tk/044TkWeirdCalcInputValidationReview/)
+1. [TkWeirdCalcInputValidationReview](/apcsp/tk/044TkWeirdCalcInputValidationReview/)
 
-1. [045TkShapesAndButtons](/apcsp/tk/045TkShapesAndButtons/)
+1. [TkShapesAndButtons](/apcsp/tk/045TkShapesAndButtons/)
 
-1. [046TkAppWithInputValidation](/apcsp/tk/046TkAppWithInputValidation/)
+1. [TkMenuCalculator1](/apcsp/tk/113TkMenuCalculator1/)
 
-1. [107TkTryLoadFile](/apcsp/tk/107TkTryLoadFiles/)
+1. [TkAppWithInputValidation](/apcsp/tk/046TkAppWithInputValidation/)
 
-1. [047TkPollv1.0.md](/apcsp/tk/047TkPollv1/)
+1. [TkTryLoadFile](/apcsp/tk/107TkTryLoadFiles/)
+
+1. [TkPollv1.0](/apcsp/tk/047TkPollv1/)
 
 1. [TkAddressBook]()
 
@@ -400,11 +411,11 @@ Code.org Unit 2: Digital Information, [https://studio.code.org/s/csp2-2018](http
   [4th Quarter](#4th-quarter)
 
 
-  1. **[Create](#create)** - *3 wks*
+  1. [Create](#create) - *3 wks*
 
-  1. **[Greenfoot](#greenfoot)** - *3 wks*
+  1. [Greenfoot](#greenfoot) - *3 wks*
 
-  1. **[Java](#java)** - *3 wks*
+  1. [Java](#java) - *3 wks*
 
   "
 - title: create

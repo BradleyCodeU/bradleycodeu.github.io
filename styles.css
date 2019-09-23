@@ -164,7 +164,11 @@ h1[id]{
   padding-top:100px;
 }
 h2 {
-  text-shadow: 2px 1px black;
+  text-shadow: 1px 1px grey;
+}
+h2[id]{
+  margin-top:75px;
+  padding-top:75px;
 }
 h3, h4 {
   text-transform: capitalize;

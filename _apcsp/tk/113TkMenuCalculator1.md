@@ -1,7 +1,7 @@
 ---
 layout: project
-category: py
-title: Menu Calculator
+category: tk
+title: Menu Calculator 1
 ---
 Copy/paste this starter code: [https://repl.it/@JustinRiley1/Menu-Calc](https://repl.it/@JustinRiley1/Menu-Calc)
 
