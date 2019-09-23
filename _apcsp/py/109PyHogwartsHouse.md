@@ -22,7 +22,7 @@ Create a function called hogwartsHouse that requires two arguments: bravery and 
 | Low Teamwork | | High Teamwork |
 | Ravenclaw | Low Bravery | Hufflepuff |
 
-Create a function called buttonPressed. In this function, you must:
+The starter code has an event listener function called buttonPressed. This function will:
 - collect the user input for bravery
 - collect the user input for teamwork
 - verify that both user inputs are numbers 1-10
