@@ -15,13 +15,11 @@ Code Specifications:
 	-	Must use a function to check if the answer is correct or incorrect
 	-	Must notify the user if correct or incorrect
 
-Copy/paste this starter code: [https://repl.it/@JustinRiley1/Create-1-starter-file](https://repl.it/@JustinRiley1/Create-1-starter-file)
 
-
-## You will turn in *TWO* files:
+### You will turn in *TWO* files:
 
 1. Educational Quiz python program:
-	-	Copy/paste this starter code
+	-	Copy/paste this starter code: [https://repl.it/@JustinRiley1/Create-1-starter-file](https://repl.it/@JustinRiley1/Create-1-starter-file)
 	- Create a function called checkAnswer that requires two arguments: userInput, answerString. It returns True or False if the userInput is identical to the answerString.
 	- Each person will turn in a copy of your finished Python code
 
