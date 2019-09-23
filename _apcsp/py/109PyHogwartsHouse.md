@@ -3,12 +3,14 @@ layout: project
 category: py
 title: Hogwarts House
 ---
-Create a Tkinter app that:
+In this project, you will create a Tkinter app that:
 - says "Bravery Score (1-10)"
 - has a box for user input
 - says "Teamwork Score (1-10)"
 - has a box for user input
 - has a submit button
+
+Create a function called validNumber, that requires one argument: number. It returns True or False if the number is 1-10.
 
 Create a function called hogwartsHouse that requires two arguments: bravery and teamwork. It *returns* a string.
 - Convert bravery from string to number
@@ -22,13 +24,14 @@ Create a function called hogwartsHouse that requires two arguments: bravery and 
 | Low Teamwork | | High Teamwork |
 | Ravenclaw | Low Bravery | Hufflepuff |
 
+Copy/paste this starter code: [https://repl.it/@JustinRiley1/ModuloFun-starter-code](https://repl.it/@JustinRiley1/ModuloFun-starter-code)
+
 The starter code has an event listener function called buttonPressed. This function will:
 - collect the user input for bravery
 - collect the user input for teamwork
 - verify that both user inputs are numbers 1-10
-- If not correct, popup an error message *(do NOT use print() to display the error message)*
-- call the hogwartsHouse function
-- popup the quiz result *(do NOT use print() to display the result)*
+- If either is invalid, popup an error message
+- If valid numbers, call the hogwartsHouse function and popup the quiz result
 
 
 -=-=-=-=-=-=-=-=-=-
