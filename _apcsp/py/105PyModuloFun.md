@@ -58,8 +58,13 @@ For Your Project You Will Pick *ANY TWO* Of The Following:
 - ouncesToPounds
 - poundsToTons
 - teaspoonsToTablespoons
-- tablespoonsToCups
+- tablespoonsToOunces
+- ouncesToCups
 - cupsToGallons
+- hoursToDays
+- daysToWeeks
+- weeksToYears
+- monthsToYears
 - [isDivisible](#isdivisible)
 - [isEven](#iseven)
 
@@ -75,7 +80,7 @@ For Your Project You Will Pick *ANY TWO* Of The Following:
 | peopleToBuses(47) &rarr; "0 full school buses and 47 people on the last bus" |
 
 ## peopleToPizzas
-- Assume that 1 person can only eat 2 XL slices of pizza and that 1 XL pizza comes in 10 slices. Define a function called peopleToPizzas that requires one argument: people. It returns the number of full pizzas and remaining slices that those people would eat.
+- Assume that 1 person will eat exactly 2 XL slices of pizza and that 1 XL pizza comes in 10 slices. Define a function called peopleToPizzas that requires one argument: people. It returns the number of full pizzas and remaining slices that those people would eat.
 
 | Input &rarr; Output |
 | peopleToPizzas(321) &rarr; "321 people would eat 65 full XL pizzas and 4 XL slices" |
