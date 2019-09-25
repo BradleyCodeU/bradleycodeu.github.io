@@ -8,58 +8,58 @@ Implement a class that models a self-service cash register. The customer scans t
 The starter CashRegister code is in the "How to 3.1", pages 96-99
 <pre>
 /**
-A cash register totals up sales and computes change due.
+  A cash register totals up sales and computes change due.
 */
 public class CashRegister
 {
 /**
-Constructs a cash register with no money in it.
+  Constructs a cash register with no money in it.
 */
 public CashRegister()
 {  
   taxRate = 0.075 // The combined sales tax rate for Hilliard, OH is 7.5%. This is the total of state, county and city sales tax rates.
 }
 /**
-Records the sale of an item.
-@param amount the price of the item
+  Records the sale of an item.
+  @param amount the price of the item
 */
 public void recordPurchase(double amount)
 {
 }
 /**
-Records the sale of an item with tax.
-Uses getItemTax() to calculate the tax for this purchase.
-@param amount the price of the item
+  Records the sale of an item with tax.
+  Uses getItemTax() to calculate the tax for this purchase.
+  @param amount the price of the item
 */
 public void recordTaxablePurchase(double amount)
 {
 }
 /**
-Processes a payment received from the customer.
-@param amount the amount of the payment
+  Processes a payment received from the customer.
+  @param amount the amount of the payment
 */
 public void receivePayment(double amount)
 {
 }
 /**
-Computes the change due and resets the machine for the next customer.
-@return the change due to the customer
+  Computes the change due and resets the machine for the next customer.
+  @return the change due to the customer
 */
 public double giveChange()
 {
 }
 /**
-Returns number of items purchased.
-@return the number of items purchased
+  Returns number of items purchased.
+  @return the number of items purchased
 */
 public int getItemCount()
 {
 }
 /**
-Calculates the total tax collected during recordTaxablePurchase()
-Calculate the amount of tax for this item by multiplying itemAmount and the taxrate instance variable
-@param itemAmount the pretax price for this item
-@return the total tax for this item
+  Calculates the total tax collected during recordTaxablePurchase()
+  Calculate the amount of tax for this item by multiplying itemAmount and the taxrate instance variable
+  @param itemAmount the pretax price for this item
+  @return the total tax for this item
 */
 private double getItemTax(double itemAmount)
 {
