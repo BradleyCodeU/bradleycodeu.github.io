@@ -33,9 +33,9 @@ public class ReviewCh1and2
 		//    original square.
 
 
-		// 6) Generate and print a random number between 1 and 100, inclusive.
+		// 6) Generate and print a random integer between 1 and 100, inclusive.
 
-		// 7) Generate and print a positive integer less than 10.
+		// 7) Generate and print a random integer between 5 and 10, inclusive.
 
 		// 8) Display the day of the week my birthday, June 15th, was on this year.
 
