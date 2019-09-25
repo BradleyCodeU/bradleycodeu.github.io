@@ -13,7 +13,7 @@ that increases the radius by the given amount. Also supply a method
 ```
 public double getVolume()
 ```
-that returns the current volume of the balloon. Use Math.PI for the value of &Pi;.
+that returns the current volume of the balloon. Use Math.PI for the value of 𝛑.
 
 Create both the Balloon class and BalloonTester class. The tester class should test all methods with at least two balloon objects.
 
