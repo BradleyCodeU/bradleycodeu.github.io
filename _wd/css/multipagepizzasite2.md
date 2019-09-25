@@ -38,5 +38,6 @@ Your website MUST have a consistent style across all pages:
       1. same solid 2 pixel black border around all images on all pages
       1. use a different font in your navigation (not the same as your normal text)
       1. use a different text color in your navigation (not the same as your normal text, not black or white)
+      1. use a different text size in your navigation (not the same as your normal text)
       1. use a different background color in your navigation (not the same as the page background, not black or white)
       1. use a solid 2 pixel white border around the navigation on all pages

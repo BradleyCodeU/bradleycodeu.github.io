@@ -16,3 +16,5 @@ Must have:
 - 25 or more passages
 - 15 or more images
 - 2 or more choices in each passage (for example... You hear a loud banging at the front door. [[Run and hide]] or [[See who is there]] )
+
+Finally, select "Publish To File" from the bottom-left Twine menu. Save the file as "index.html" and upload it to a new Glitch project. Turn in the Glitch URL.
