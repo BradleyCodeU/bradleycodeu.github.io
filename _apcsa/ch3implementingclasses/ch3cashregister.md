@@ -6,7 +6,7 @@ title: Ch3 Cash Register
 Implement a class that models a self-service cash register. The customer scans the price tags and deposits money in the machine. The machine dispenses the change.
 
 The starter CashRegister code is in the "How to 3.1", pages 96-99
-```java
+<pre>
 /**
 A cash register totals up sales and computes change due.
 */
@@ -76,7 +76,7 @@ public static void main(String[] args)
     System.out.println(foo.giveChange()); // Expected 3.51
   }
 }
-```
+</pre>
 Complete programming projects 3.1 and 3.2 on page 125.
 
 P3.1 Enhance the CashRegister class so that it counts the purchased items. Provide a getItemCount method that returns the count.
