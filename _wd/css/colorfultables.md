@@ -16,7 +16,7 @@ Add the following HTML:
     - In the first column, Your Name. Second column, CEO.
     - In the first column, a friend's name. Second column, Treasurer.
 
-Add "some color" and "style" to these boring tables. "Some color" means not black and not white. Each "some color" should be a different color. These tables should be very colorful and very full of "style". Pick fonts from this list of some of the worst fonts of all time:
+Next, add "some color" and "style" to these boring tables. "Some color" means not black and not white. Each "some color" should be a different color. These tables should be very colorful and very full of "style". Pick fonts from this list of some of the worst fonts of all time:
 
   - Comic Sans MS
   - Papyrus
