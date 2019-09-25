@@ -24,4 +24,4 @@ How to contribute:
   1.  Add one or more methods related to your attribute
   1.  Add your instance variable to the toString() method
   1.  [Commit](https://help.github.com/articles/github-glossary/#commit) and [Push](https://help.github.com/articles/github-glossary/#push) your changes
-  1.  Create a Pull Request (Links to an external site.)
+  1.  Create a [Pull Request](https://help.github.com/en/articles/about-pull-requests)
