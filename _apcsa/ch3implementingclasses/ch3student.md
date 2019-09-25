@@ -1,7 +1,7 @@
 ---
 layout: project
 category: ch3-implementing-classes
-title: Ch3 Employee
+title: Ch3 Student
 ---
 Implement a class Student. For the purpose of this exercise, a student has a name and a total quiz score. Supply an appropriate constructor and methods...
   - getName()
