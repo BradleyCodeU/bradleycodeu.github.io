@@ -151,7 +151,6 @@ Projects:
   heading: "# Ch3 Implementing Classes"
   content: "
 
-1. [Ch3PotatoHeadClass](/apcsa/ch3implementingclasses/Ch3PotatoHeadClass/)
 
 1. [Ch3ShoesClass](/apcsa/ch3implementingclasses/ch3shoes/)
 
@@ -160,6 +159,8 @@ Projects:
 1. [Ch3CashRegisterClass](/apcsa/ch3implementingclasses/Ch3CashRegisterClass/)
 
 1. [Ch3EmployeeClass](/apcsa/ch3implementingclasses/Ch3EmployeeClass/)
+
+1. [Ch3PotatoHeadClass](/apcsa/ch3implementingclasses/Ch3PotatoHeadClass/)
 
 1. [Ch3StudentClass](/apcsa/ch3implementingclasses/Ch3StudentClass/)
 
