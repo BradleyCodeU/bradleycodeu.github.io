@@ -22,6 +22,10 @@ Calling a function means "running" that function. Functions do not run until you
 
 <pre>
 bonjourPerson("Steve")
+</pre>
+
+Here is another function call...
+<pre>
 bonjourPerson("Fatima")
 </pre>
 
@@ -39,8 +43,11 @@ def makeStudentEmail(firstName, lastName):
 After defining that function, you can call the function by passing two arguments:
 <pre>
 makeStudentEmail("Ariana", "Grande")
+</pre>
+
+Here is another function call with two arguments...
+<pre>
 makeStudentEmail("Justin", "Bieber")
-makeStudentEmail("Taylor", "Swift")
 </pre>
 
 You function might not require any arguments:
