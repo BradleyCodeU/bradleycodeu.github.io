@@ -29,6 +29,7 @@ Which type of CSS should you use?
 Use [CSS comments](https://css-tricks.com/snippets/css/comments-in-css/) to note the name of the programmer that wrote each rule. For example, `/* coded by Mr. Riley */`
 
 Your website MUST have a consistent style across all pages:
+
       1. same navigation system (like a nav bar) on all pages
       1. your navigation uses a small (no larger than 100px wide) logo instead of saying "home." The logo is an anchor that links to index.html
       1. same colorful background (not black or white) on all pages
