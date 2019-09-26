@@ -26,8 +26,6 @@ Which type of CSS should you use?
 
 ### Just like you split up the HTML coding work, you should split up the CSS coding work so that each person in the group writes some CSS code.
 
-Use [CSS comments](https://css-tricks.com/snippets/css/comments-in-css/) to note the name of the programmer that wrote each rule. For example, `/* coded by Mr. Riley */`
-
 Your website MUST have a consistent style across all pages:
 
       1. same navigation system (like a nav bar) on all pages
@@ -42,3 +40,5 @@ Your website MUST have a consistent style across all pages:
       1. use a different text size in your navigation (not the same as your normal text)
       1. use a different background color in your navigation (not the same as the page background, not black or white)
       1. use a solid 2 pixel white border around the navigation on all pages
+
+Use [CSS comments](https://css-tricks.com/snippets/css/comments-in-css/) to note the name of the programmer that wrote each rule. For example, `/* coded by Mr. Riley */`
