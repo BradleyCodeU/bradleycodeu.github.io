@@ -19,8 +19,14 @@ Review the example on Big Java pg 138 about converting pennies to dollars using 
 1.  Prompt for the number of minutes later.
 1.  Calculate the future time.
 1.  Include a conditional statement like the one below at the end of your calculation so that 0 o'clock becomes 12 o'clock (you do NOT need to use the variable name futureHour)
-1.  USE PRINTF to display the future time will be after that many hours and minutes (For example, ```Future time:     4:35```)
+1.  USE PRINTF to display the current time and the future time will be after that many hours and minutes. For example...
+```
+Current time:     2:09
+Future time:      5:09
+```
 
+
+Example conditional statement so that 0 o'clock becomes 12 o'clock (you do NOT need to use the variable name futureHour)
 ```
 // Convert zero o'clock to twelve o'clock
 if (futureHour == 0){
