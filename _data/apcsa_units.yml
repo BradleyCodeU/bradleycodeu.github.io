@@ -173,8 +173,9 @@ Projects:
   content: "
 Resources:
 
+  - [Floating Point Numbers - Computerphile](https://drive.google.com/file/d/15GKsGtSMyjbnm9rMIx3br9ypYq3p33LO/view)
+  - [Characters, Symbols and the Unicode Miracle - Computerphile](https://drive.google.com/file/d/1VwA4wt4wxBLPrGuVPTmCVUdTl1JMiIax/view)
   - Integer division & floating-point division Quizizz https://join.quizizz.com use game code: 208023
-
   - Modulo Operation Quizizz https://join.quizizz.com use game code: 166397
 
 
@@ -182,11 +183,11 @@ Resources:
 
 Projects:
 
-  1. [Ch4ModulusClock](/apcsa/ch4fundamentaldatatypes/ch4modulusclock/)
-
   1. [Ch4ArithmeticCasting](/apcsa/ch4fundamentaldatatypes/ch4arithmeticcasting/)
 
   1. [Ch4Printf](/apcsa/ch4fundamentaldatatypes/ch4printf/)
+
+  1. [Ch4ModulusClock](/apcsa/ch4fundamentaldatatypes/ch4modulusclock/)
 
   1. [Ch4WeirdCalc](/apcsa/ch4fundamentaldatatypes/ch4weirdcalc/)
 
