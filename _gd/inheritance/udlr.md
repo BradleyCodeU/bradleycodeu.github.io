@@ -16,7 +16,6 @@ Must have collectibles and enemies. Collectibles are good and enemies are bad. T
   1. You (Spongebob) are trying to catch jellyfish, but a few Hash Slinging Slashers are trying to catch you. If you catch all the jellyfish before getting caught by a Hash Slinging Slasher, you win.
 
 Here is the complete list of features that your finished game MUST have:
-
   - Title screen
   - Level 1 game state
   - Level 2 title screen
@@ -30,7 +29,8 @@ Here is the complete list of features that your finished game MUST have:
   - an enemy class (for example: Koopas, crows, Hash Slinging Slashers)
   - all classes must be stored in separate files
   - 5 or more images ([https://p5js.org/reference/#/p5/image](https://p5js.org/reference/#/p5/image)): 2+ images for player animation, collectibles, enemies, AND a background image that fills the entire screen
-  - Background music and two or more sound effects
+  - Background music
+  - three or more sound effects
 
 
  For Javascript audio, you will do something like this:
