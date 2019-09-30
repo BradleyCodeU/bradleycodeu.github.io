@@ -3,11 +3,11 @@ layout: project
 category: py
 title: Collision Fun
 ---
-Create one of the following collision functions:
-- [areCirclesColliding](#areCirclesColliding)
-- [doesCircleContain](#doesCircleContain)
-- [doesRectContain](#doesRectContain)
-- [isTouching](#isTouching)
+Create TWO of the following collision functions:
+- [areCirclesColliding](#arecirclescolliding)
+- [doesCircleContain](#doescirclecontain)
+- [doesRectContain](#doesrectcontain)
+- [isTouching](#istouching)
 
 ## areCirclesColliding
 

@@ -163,11 +163,9 @@ Resources:
 
 Projects:
 
-1. Pair - Counting with Coins
+1. Pair - [Counting with Coins](/apcsp/binary/BinaryCountingCoins/)
 
-1. Binary 1 to 50
-
-1. Binary
+1. [Binary Bday](/apcsp/binary/BinaryBday/)
 
 1. Pair - Octal
 
@@ -247,9 +245,20 @@ Code.org Unit 1, Chapter 2: Inventing the Internet, [https://studio.code.org/s/c
   content: "
 *3 wks*, Vocab: iteration, waterfall, scrum, collaboration, iterative versions, def new functions, loops, random, colors, Create 2
 
+
+Resources:
+
+  - [Screencast Instructions for OBS](/apcsp/scrum/screencastobs)
+
+
+
+Projects:
+
 1. [034ScrumArtScene2.md](/apcsp/scrum/034ScrumArtScene2/)
 
 1. [035ScrumArtScene3.md](/apcsp/scrum/035ScrumArtScene3/)
+
+1. Create 2
 "
 - title: console
   heading: "# Console"
@@ -355,6 +364,14 @@ Code.org Unit 2: Digital Information, [https://studio.code.org/s/csp2-2018](http
   content: "
 *2wks*, Vocab: instance, instanciate, object, class, method, logical operators, while loop
 
+
+Resources:
+
+  - [Screencast Instructions for OBS](/apcsp/scrum/screencastobs)
+
+
+
+Projects:
 
 1. [039Turtlegamev1](/apcsp/turtlegames/039Turtlegamev1/)
 

@@ -151,19 +151,20 @@ Projects:
   heading: "# Ch3 Implementing Classes"
   content: "
 
-1. [Ch3PotatoHeadClass](/apcsa/ch3implementingclasses/Ch3PotatoHeadClass/)
 
-1. [Ch3ShoesClass](/apcsa/ch3implementingclasses/Ch3ShoesClass/)
+1. [Ch3ShoesClass](/apcsa/ch3implementingclasses/ch3shoes/)
 
-1. [Ch3BalloonClass](/apcsa/ch3implementingclasses/Ch3BalloonClass/)
+1. [Ch3BalloonClass](/apcsa/ch3implementingclasses/ch3balloon/)
 
-1. [Ch3CashRegisterClass](/apcsa/ch3implementingclasses/Ch3CashRegisterClass/)
+1. [Ch3EmployeeClass](/apcsa/ch3implementingclasses/ch3employee/)
 
-1. [Ch3EmployeeClass](/apcsa/ch3implementingclasses/Ch3EmployeeClass/)
+1. [Ch3StudentClass](/apcsa/ch3implementingclasses/ch3student/)
 
-1. [Ch3StudentClass](/apcsa/ch3implementingclasses/Ch3StudentClass/)
+1. [Ch3CashRegisterClass](/apcsa/ch3implementingclasses/ch3cashregister/)
 
-1. [Ch3GraphicsCarClass](/apcsa/ch3implementingclasses/Ch3GraphicsCarClass/)
+1. [Ch3GraphicsCarClass](/apcsa/ch3implementingclasses/ch3car/)
+
+1. [Ch3PotatoHeadClass](/apcsa/ch3implementingclasses/ch3potatohead/)
 
 "
 
@@ -171,21 +172,32 @@ Projects:
   heading: "# Ch4 Fundamental Data Types"
   content: "
 
-1. [Ch4ModulusClock](/apcsa/ch4fundamentaldatatypes/Ch4ModulusClock/)
+Resources:
 
-1. [Ch4ArithmeticCasting](/apcsa/ch4fundamentaldatatypes/Ch4ArithmeticCasting/)
+  - [Floating Point Numbers - Computerphile](https://drive.google.com/file/d/15GKsGtSMyjbnm9rMIx3br9ypYq3p33LO/view)
 
-1. [Ch4FormattingPrintf](/apcsa/ch4fundamentaldatatypes/Ch4FormattingPrintf/)
+  - [Characters, Symbols and the Unicode Miracle - Computerphile](https://drive.google.com/file/d/1VwA4wt4wxBLPrGuVPTmCVUdTl1JMiIax/view)
 
-1. [Ch4WeirdCalculator](/apcsa/ch4fundamentaldatatypes/Ch4WeirdCalculator/)
+  - Integer division & floating-point division Quizizz https://join.quizizz.com use game code: 208023
 
-1. [Ch4CedarPoint](/apcsa/ch4fundamentaldatatypes/Ch4CedarPoint/)
+  - Modulo Operation Quizizz https://join.quizizz.com use game code: 166397
 
-1. [Ch4Review1](/apcsa/ch4fundamentaldatatypes/Ch4Review1/)
 
-1. [Ch4IntDivQuizizz](/apcsa/ch4fundamentaldatatypes/Ch4IntDivQuizizz/)
 
-1. [Ch4ModuloQuizizz](/apcsa/ch4fundamentaldatatypes/Ch4ModuloQuizizz/)
+
+Projects:
+
+  1. [Ch4ArithmeticCasting](/apcsa/ch4fundamentaldatatypes/ch4arithmeticcasting/)
+
+  1. [Ch4Printf](/apcsa/ch4fundamentaldatatypes/ch4printf/)
+
+  1. [Ch4ModulusClock](/apcsa/ch4fundamentaldatatypes/ch4modulusclock/)
+
+  1. [Ch4WeirdCalc](/apcsa/ch4fundamentaldatatypes/ch4weirdcalc/)
+
+  1. [Ch4CedarPointCalc](/apcsa/ch4fundamentaldatatypes/ch4cedarpointcalc/)
+
+  1. [Ch4ReviewSheet](/apcsa/ch4fundamentaldatatypes/ch4reviewsheet/)
 
 "
 
