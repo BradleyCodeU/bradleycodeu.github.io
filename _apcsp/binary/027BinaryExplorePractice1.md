@@ -1,4 +1,8 @@
-
+---
+layout: project
+category: binary
+title: Explore Practice 1
+---
 ## Big Data Innovation
 
 Choose an innovation related to big data that you and your partner find interesting. For this project, use a broad definition of an “innovation” and it doesn’t need to be a *new* invention.
