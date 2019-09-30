@@ -58,7 +58,7 @@ Our “Textbooks”:
 "
 - title: objects
   heading: "# Objects"
-  content: "*4 weeks* Vocab: object, class, constructor, getter, setter, method, mutator, accessor, instance, instanciate, argument, parameter, finite state machine, game state, edge case, encapsulation, specialization, polymorphism, instance variable
+  content: "*4 weeks* Vocab: object, class, constructor, getter, setter, method, mutator, accessor, instance, instanciate, argument, parameter, finite state machine, game state, edge case, encapsulation, specialization, polymorphism, new, this, instance variable
 
 
 Resources:
