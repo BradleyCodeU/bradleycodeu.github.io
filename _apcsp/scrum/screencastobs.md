@@ -4,9 +4,9 @@ category: scrum
 title: Screencast Instructions for OBS
 ---
 
-Go to OBSproject.com (Links to an external site.)Links to an external site.
+Go to [OBSproject.com/download](https://obsproject.com/download)
+### You MUST choose DOWNLOAD ZIP. Don't click download installer.
 
-  1.  Select download (upper right of screen)
   1.  DOWNLOAD ZIP
   1.  Show in Folder, then Extract All (using default settings)
   1.  Open bin folder, the 64bit folder, and run obs64.exe
