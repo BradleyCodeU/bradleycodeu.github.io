@@ -1,7 +1,7 @@
 ---
 layout: project
 category: binary
-title: Binary Bday Plus Ten
+title: Binary Bday
 ---
 
 For this project, you will use either paper, Notability, Google Docs, a spreadsheet, a text file, etc.
