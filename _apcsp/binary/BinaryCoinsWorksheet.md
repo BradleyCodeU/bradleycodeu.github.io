@@ -1,15 +1,11 @@
 ---
 layout: project
 category: binary
-title: Counting With Coins
+title: Counting Coins Worksheet
 ---
 
-Download and fill in the following worksheet with a partner. Put BOTH names on the worksheet.
+Copy/paste the output into a text editor like Google Docs or Microsoft Word. Set the font to Courier New. Finally, complete the worksheet with a partner.
 
-[PDF format (Notability recommended)](/apcsp\binary\countingwithcoinsworksheet.pdf)
+<iframe src="https://trinket.io/embed/python3/4009d4288b?outputOnly=true&runOption=run&start=result" width="100%" height="900" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-or
-
-[DOCX format](/apcsp\binary\countingwithcoinsworksheet.docx)
-
-Upload the completed worksheet to Canvas
+Raise your hand when finished.
