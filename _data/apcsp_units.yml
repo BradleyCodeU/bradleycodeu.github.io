@@ -160,20 +160,24 @@ Resources:
 
 - [Will YouTube Ever Run Out Of Video IDs? (Base 64)](https://drive.google.com/file/d/1Rkck--o5olYdpS0vZucasha8hy4XD0oH/view?usp=sharing)
 
+- [Squirrel Girl Teaches Binary Finger Counting](https://drive.google.com/file/d/1EiGx0pPU4E57w4D9wzfExLm5zm_eVWEx/view?usp=sharing)
+
 
 Projects:
 
-1. Pair - [Counting with Coins](/apcsp/binary/BinaryCountingCoins/)
+1. Pair - [CoinsWorksheet](/apcsp/binary/BinaryCoinsWorksheet/)
 
 1. [Binary Bday](/apcsp/binary/BinaryBday/)
 
-1. Pair - Octal
+1. Pair - [BinaryWorksheet](/apcsp/binary/BinaryWorksheet/)
 
-1. Pair - Hexadecimal
+1. Pair - [OctalWorksheet](/apcsp/binary/BinaryOctalWorksheet/)
+
+1. Pair - [HexWorksheet](/apcsp/binary/BinaryHexWorksheet/)
 
 1. Practice Quiz
 
-1. *Explore Practice 1* - Pair - [BinaryExplorePractice1](027BinaryExplorePractice1.md)
+1. *Explore Practice 1* - Pair - [BinaryExplorePractice1](/apcsp/binary/027BinaryExplorePractice1/)
 "
 
 - title: turtleart
@@ -245,9 +249,20 @@ Code.org Unit 1, Chapter 2: Inventing the Internet, [https://studio.code.org/s/c
   content: "
 *3 wks*, Vocab: iteration, waterfall, scrum, collaboration, iterative versions, def new functions, loops, random, colors, Create 2
 
+
+Resources:
+
+  - [Screencast Instructions for OBS](/apcsp/scrum/screencastobs)
+
+
+
+Projects:
+
 1. [034ScrumArtScene2.md](/apcsp/scrum/034ScrumArtScene2/)
 
 1. [035ScrumArtScene3.md](/apcsp/scrum/035ScrumArtScene3/)
+
+1. Create 2
 "
 - title: console
   heading: "# Console"
@@ -353,6 +368,14 @@ Code.org Unit 2: Digital Information, [https://studio.code.org/s/csp2-2018](http
   content: "
 *2wks*, Vocab: instance, instanciate, object, class, method, logical operators, while loop
 
+
+Resources:
+
+  - [Screencast Instructions for OBS](/apcsp/scrum/screencastobs)
+
+
+
+Projects:
 
 1. [039Turtlegamev1](/apcsp/turtlegames/039Turtlegamev1/)
 
