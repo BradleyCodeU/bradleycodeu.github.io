@@ -11,5 +11,6 @@ Your finished game MUST have:
   - a Title Screen with controls for P1 and P2 (for example, "P1=WASD P2=arrow keys")
   - background music
   - four or more sound effects
+  - collectables and/or enemies
   - a Win Screen that says either "Player 1 Wins" or "Player 2 Wins"
   - Should NOT be able to complete the game in less than 30 seconds. Add more objectives or levels if necessary.
