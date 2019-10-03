@@ -1,7 +1,7 @@
 ---
 layout: project
 category: css
-title: Hexcodes
+title: Hexcode Pixels
 ---
 
 Go to [https://studio.code.org/s/csp2-2019/stage/4/puzzle/3](https://studio.code.org/s/csp2-2019/stage/4/puzzle/3)
