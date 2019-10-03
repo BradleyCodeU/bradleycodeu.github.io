@@ -1,7 +1,7 @@
 ---
 layout: project
 category: css
-title: Hexcodes
+title: Hexcode Pixels
 ---
 
 Go to [https://studio.code.org/s/csp2-2019/stage/4/puzzle/3](https://studio.code.org/s/csp2-2019/stage/4/puzzle/3)
@@ -29,3 +29,5 @@ FFFFFF 00FF00 FFFFFF FF00FF FFFFFF 00CCFF FFFFFF 0033CC
 Using hexcodes, create a 8px by 8px bitmap. Must use two or more colors (not black and white). Draw a small image (not just a pattern) OR a letter from your initials. For example, Justin Riley would either draw a pixelated J or a pixelated R.
 
 NOTE: You can use a piece of graph paper to plan your pixel art (like you did in the Vector Raster Drawings project)
+
+![Pixelated letter J](/wd\css\hexcodepixels.png)
