@@ -4,6 +4,8 @@ category: inheritance
 title: UDLR
 ---
 
+Watch this tutorial [Coding Train 16.17: Inheritance in JavaScript](https://drive.google.com/file/d/1f31Hv4RS_QHj-aPZUUjJyY07w8wgRcUg/view?usp=sharing)
+
 Create an RPG-style game with Up/Down/Left/Right controls.
 
 
