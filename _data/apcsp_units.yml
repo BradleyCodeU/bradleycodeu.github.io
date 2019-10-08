@@ -113,7 +113,7 @@ Projects:
 - title: py
   heading: "# Py"
   content: "
-*2 wks*, Vocab: Tkinter, import, syntax, syntax error, variable, assignment, mathmatical operator, float, function definition, function call, return, argument, division by zero, comment, camelCase, scope, local variable, magic numbers, Create Task practice 1
+*2 wks*, Vocab: Tkinter, import, syntax, syntax error, variable, assignment, mathematical operator, float, function definition, function call, return, argument, comment, camelCase, scope, local variable, Create Task practice 1
 
 
 Resources:
@@ -145,7 +145,7 @@ Projects:
 - title: binary
   heading: "# Binary"
   content: "
-*2 wk*, Vocab: binary, decimal, digit, bit, hexadecimal, octal, ASCII, Big Data
+*2 wk*, Vocab: binary, base-2, decimal, base-10, digit, bit, byte, hexadecimal, base-16, octal, base-8, ASCII, base-64 Big Data
 
 
 Resources:
@@ -184,7 +184,7 @@ Projects:
   heading: "# TurtleArt"
   content: "
 
-*3 wks*, Vocab: turtle, for loops, input, validation, try/except, operators, def new functions, random, algorithm, instance, instanciate, object, class, method
+*3 wks*, Vocab: IDE, turtle, for loops, input, validation, try/except, operators, def new functions, random, algorithm, instance, instanciate, object, class, method
 
 
 1. Pair - [TurtleSimpleDrawing](/apcsp/turtleart/012TurtleSimpleDrawing/)
