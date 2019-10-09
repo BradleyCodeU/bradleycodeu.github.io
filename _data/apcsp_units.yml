@@ -73,7 +73,6 @@ Resources:
 
   1. [Binary](#binary) - *2 wks*
 
-  1. [Turtle Art](#turtleart) - *3 wks*"
 
 
 - title: scratch
@@ -180,33 +179,7 @@ Projects:
 1. *Explore Practice 1* - Pair - [BinaryExplorePractice1](/apcsp/binary/027BinaryExplorePractice1/)
 "
 
-- title: turtleart
-  heading: "# TurtleArt"
-  content: "
 
-*3 wks*, Vocab: IDE, turtle, for loops, input, validation, try/except, operators, def new functions, random, algorithm, instance, instanciate, object, class, method
-
-
-1. Pair - [TurtleSimpleDrawing](/apcsp/turtleart/012TurtleSimpleDrawing/)
-
-1. [TurtleDrawingsAtRandomLocations](/apcsp/turtleart/025TurtleDrawingsAtRandomLocations/)
-
-1. Pair - Either [TurtleBlockLetters](/apcsp/turtleart/026TurtleBlockLetters/) or [TurtlePolygons](/apcsp/turtleart/013TurtlePolygons/)
-
-1. [TurtleHowManySquares](/apcsp/turtleart/014TurtleHowManySquares/)
-
-1. Either [TurtleRandomShapes](/apcsp/turtleart/015TurtleRandomShapes/) or [TurtleMandalaArt](/apcsp/turtleart/018TurtleMandalaArt/)
-
-1. [TurtleDrawingAlgorithm](/apcsp/turtleart/019TurtleDrawingAlgorithm/)
-
-1. [TurtleBouncingOffWalls](/apcsp/turtleart/020TurtleBouncingOffWalls/)
-
-1. Pair - [TurtleArtScene1](/apcsp/turtleart/021TurtleArtScene1/)
-
-1. Pair - [TurtleStars1](/apcsp/turtleart/016TurtleStars1/)
-
-1. Pair - [TurtleStars2](/apcsp/turtleart/017TurtleStars2/)
-"
 
 - title: 2ndquarter
   heading: "# 2nd Quarter"
@@ -226,16 +199,45 @@ Projects:
   content: "
   [2nd Quarter](#2nd-quarter)
 
+  1. [Turtle Art](#turtleart) - *3 wks*"
 
   1. [IP](#ip) - *1 wk*
 
-  1. [Scrum](#scrum) - *3 wks*
+  1. [Scrum](#scrum) - *2 wks*
 
-  1. [Console](#console) - *3 wks*
+  1. [Console](#console) - *2 wks*
 
   1. [Big Data](#bigdata) - *2 wks*
 
   "
+
+- title: turtleart
+  heading: "# TurtleArt"
+  content: "
+
+*3 wks*, Vocab: IDE, turtle, for loops, input, validation, try/except, operators, def new functions, random, algorithm, instance, instanciate, object, class, method
+
+
+1. Pair - [TrtSimpleDrawing](/apcsp/turtleart/012TurtleSimpleDrawing/)
+
+1. [TrtDrawingsAtRandomLocations](/apcsp/turtleart/025TurtleDrawingsAtRandomLocations/)
+
+1. Pair - Either [TrtBlockLetters](/apcsp/turtleart/026TurtleBlockLetters/) or [TurtlePolygons](/apcsp/turtleart/013TurtlePolygons/)
+
+1. [TrtHowManySquares](/apcsp/turtleart/014TurtleHowManySquares/)
+
+1. Either [TrtRandomShapes](/apcsp/turtleart/015TurtleRandomShapes/) or [TurtleMandalaArt](/apcsp/turtleart/018TurtleMandalaArt/)
+
+1. [TrtDrawingAlgorithm](/apcsp/turtleart/019TurtleDrawingAlgorithm/)
+
+1. [TrtBouncingOffWalls](/apcsp/turtleart/020TurtleBouncingOffWalls/)
+
+1. Pair - [TrtArtScene1](/apcsp/turtleart/021TurtleArtScene1/)
+
+1. Pair - [TrtStars1](/apcsp/turtleart/016TurtleStars1/)
+
+1. Pair - [TrtStars2](/apcsp/turtleart/017TurtleStars2/)
+"
 
 - title: ip
   heading: "# IP"
@@ -247,7 +249,7 @@ Code.org Unit 1, Chapter 2: Inventing the Internet, [https://studio.code.org/s/c
 - title: scrum
   heading: "# Scrum"
   content: "
-*3 wks*, Vocab: iteration, waterfall, scrum, collaboration, iterative versions, def new functions, loops, random, colors, Create 2
+*2 wks*, Vocab: iteration, waterfall, scrum, collaboration, iterative versions, def new functions, loops, random, colors, Create 2
 
 
 Resources:
@@ -262,33 +264,27 @@ Projects:
 
 1. [035ScrumArtScene3.md](/apcsp/scrum/035ScrumArtScene3/)
 
-1. Create 2
+1. Create 2 Written Reflection
 "
 - title: console
   heading: "# Console"
   content: "
 
 
-*3 wks*, Vocab: array, iteration, iterate through an array, input, for each loops, input validation, try/except, conditionals, functions, pre-conditional loop, post-conditional loop, pseudocode,
+*2 wks*, Vocab: array, iteration, iterate through an array, input, for each loops, input validation, try/except, conditionals, functions, pre-conditional loop, post-conditional loop, pseudocode,
 
 
 1. [ConsolePseudocode3PPong](/apcsp/console/023ConsolePseudocode3PPong/)
 
 1. [ConsoleRandomIntArray](/apcsp/console/103ConsoleRandomIntArray/)
 
-1. Pair - [ConsoleTemps](/apcsp/console/022ConsoleTemps/)
-
-1. Pair - [ConsoleMultiChoiceQuizGame](/apcsp/console/024ConsoleMultiChoiceQuizGame/)
+1. Pair - Either [ConsoleTemps](/apcsp/console/022ConsoleTemps/) or [ConsoleMultiChoiceQuizGame](/apcsp/console/024ConsoleMultiChoiceQuizGame/)
 
 1. [ConsoleFillInTheBlankQuizGame](/apcsp/console/028ConsoleFillInTheBlankQuizGame/)
 
-1. Pair - [ConsoleTipCalculator](/apcsp/console/029ConsoleTipCalculator/)
+1. Pair - Either [ConsoleTipCalculator](/apcsp/console/029ConsoleTipCalculator/) or [Console2DGeometryCalculations](/apcsp/console/030Console2DGeometryCalculations/)
 
-1. [Console2DGeometryCalculations](/apcsp/console/030Console2DGeometryCalculations/)
-
-1. Pair - [ConsoleHourlyAndYearlyWages](/apcsp/console/031ConsoleHourlyAndYearlyWages/)
-
-1. [ConsoleTriviaHighLow](/apcsp/console/032ConsoleTriviaHighLow/)
+1. Pair - Either [ConsoleHourlyAndYearlyWages](/apcsp/console/031ConsoleHourlyAndYearlyWages/) or [ConsoleTriviaHighLow](/apcsp/console/032ConsoleTriviaHighLow/)
 
 1. Pair - [ConsolePrintfLoops](/apcsp/console/101ConsolePrintfLoops/)
 
