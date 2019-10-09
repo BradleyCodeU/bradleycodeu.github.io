@@ -116,13 +116,7 @@ Projects:
 
   1. [SoloLearn JS 3](/gd/inheritance/sololearnjs3/)
 
-  1. [Platformer v1](/gd/inheritance/platformerv1/)
-
   1. [SoloLearn JS 4](/gd/inheritance/sololearnjs4/)
-
-  1. [Player 2](/gd/inheritance/player2/)
-
-  1. [Level Up](/gd/inheritance/levelup/)
 
 "
 
@@ -149,12 +143,25 @@ Projects:
   content: "[2nd Quarter](#2nd-quarter)
 
 
+1. **[Platforms](#platforms)**
+
 1. **[CSharp](#csharp)**
 
 1. **[Swift](#swift)**
 
 
 "
+- title: platforms
+  heading: "# Platforms"
+  content: "*2 weeks
+
+
+  1. [Platformer v1](/gd/platforms/platformerv1/)
+
+  1. [Player 2](/gd/platforms/player2/)
+
+  1. [Level Up](/gd/platforms/levelup/)
+  "
 
 - title: csharp
   heading: "# CSharp"
