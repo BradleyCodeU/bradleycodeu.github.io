@@ -22,7 +22,7 @@ giveSpeedingTicket(19, 20, True) &rarr; False
 
 giveSpeedingTicket(999, 55, False) &rarr; True
 
-giveSpeedingTicket(59, 55, False) #above the speed limit but not 10% above &rarr; False
+giveSpeedingTicket(59, 55, False) <small><em>#above the speed limit but not 10% above</em></small> &rarr; False
 
 ## netPay
 Create a function called weeklyPay that requires three arguments: hourlyPay, totalHours, incomeTax.
@@ -32,9 +32,9 @@ Input &rarr; Output
 
 weeklyPay(10, 10, 0.05) &rarr; 95
 
-weeklyPay(10, 50, 0.05) #($400 reg pay + $150 time-and-a-half pay) - 5% &rarr; 522.5
+weeklyPay(10, 50, 0.05) <small><em>#($400 reg pay + $150 time-and-a-half pay) - 5%</em></small> &rarr; 522.5
 
-weeklyPay(10, 60, 0.05) #($400 reg pay + $300 time-and-a-half pay) - 5% &rarr; 665
+weeklyPay(10, 60, 0.05) <small><em>#($400 reg pay + $300 time-and-a-half pay) - 5%</em></small> &rarr; 665
 
 ## employeeSalesBonus
 Create a function called employeeSalesBonus that requires three arguments: hourlyPay, totalHours, totalSales.
@@ -44,6 +44,10 @@ Input &rarr; Output
 
 employeeSalesBonus(10, 30, 500) &rarr; 350
 
-employeeSalesBonus(10, 50, 500) #($400 reg pay + $150 time-and-a-half pay) + $50 &rarr; 600
 
-employeeSalesBonus(10, 60, 500) #($400 reg pay + $300 time-and-a-half pay) + $50 &rarr; 750
+
+employeeSalesBonus(10, 50, 500) <small><em>#($400 reg pay + $150 time-and-a-half pay) + $50</em></small> &rarr; 600
+
+
+
+employeeSalesBonus(10, 60, 500) <small><em>#($400 reg pay + $300 time-and-a-half pay) + $50</em></small> &rarr; 750
