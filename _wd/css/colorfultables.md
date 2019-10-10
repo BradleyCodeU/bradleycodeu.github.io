@@ -4,7 +4,7 @@ category: css
 title: Colorful Tables
 ---
 
-Copy/paste the starter code from here: [https://gist.githubusercontent.com/ohiofi/98bf1ef2f2cf99d8e7d8fcfd7f90763b/raw/556e877d817a29e1caae4c8c9f18e4f4fc72d49d/colorfulTables.html](https://gist.githubusercontent.com/ohiofi/98bf1ef2f2cf99d8e7d8fcfd7f90763b/raw/556e877d817a29e1caae4c8c9f18e4f4fc72d49d/colorfulTables.html)
+Copy/paste the starter code from [here](https://gist.githubusercontent.com/ohiofi/98bf1ef2f2cf99d8e7d8fcfd7f90763b/raw/556e877d817a29e1caae4c8c9f18e4f4fc72d49d/colorfulTables.html)
 
 Add the following HTML:
   1.  add three or more animated GIFs
