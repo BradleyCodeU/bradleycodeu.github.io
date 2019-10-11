@@ -1,6 +1,6 @@
 ---
 layout: project
-category: binary
+category: turtleart
 title: Explore Practice 1
 ---
 ## Big Data Innovation
