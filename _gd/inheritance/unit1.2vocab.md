@@ -1,6 +1,11 @@
 object, class, constructor, getter, setter, method, mutator, accessor, instance, instanciate, argument, parameter, finite state machine, game state, edge case, encapsulation, specialization, polymorphism, new, this, instance variable
-abstraction, parent class, child class, inheritance, containment, is-a, has-a, object-oriented programming, modulo
+abstraction, parent class, child class, subclass, super class, inheritance, containment, is-a, has-a, object-oriented programming, modulo, p5js, JavaScript, ES6
 
+p5js - a JavaScript library based on the Processing language that was created to make coding accessible for artists, designers, educators, and beginners
+
+JavaScript - a programming language created to add dynamic behavior, store information, and handle requests and responses on a webpage. Along with HTML and CSS, it is one of the three core languages of the Web.
+
+ES6 - also known as ECMAScript 6, ECMAScript 2015, or JavaScript 6 was finalized in June 2015. This update added significant new syntax for writing complex applications, including class declarations, block scoped variables, and constants
 
 abstraction - representing essential features without including complex details. Allows programmers to implement efficient models of complicated real-world entities/items.
 
@@ -12,9 +17,17 @@ child class - also known as a subclass, a class that contains all the features o
 
 subclass - also known as a child class, a class that contains all the features of the parent class, but may have new features added or redefine existing features. More specialized than the parent class
 
-inheritance - basing one class on another class while passing on instance variable and methods
+inheritance - the relationship in which one class is based on another class while passing on instance variable and methods
 
-object-oriented programming - 
+is-a - the relationship between parent and child classes. For example, if Vehicle is the parent class and Truck is the child class, then Truck _____ Vehicle
+
+containment - the relationship in which an object of one class includes an instance of an object from another class
+
+has-a - the relationship where one object belongs to another object. For example, if a Radio object is an instance variable within the Truck class, then Truck _____ Radio
+
+modulo - a mathmatic operation that finds the remainder after division
+
+object-oriented programming - an approach to programming centered on modeling real-world entities with both attributes and behaviors. Its three pillars include encapsulation, inheritance, and polymorphism
 
 object - a data structure that contains attributes and behaviors. A software model representing an entity either physical (a box, a car, etc) or conceptual (a chemical process, a sale, driving directions, etc)
 
