@@ -1,13 +1,20 @@
 object, class, constructor, getter, setter, method, mutator, accessor, instance, instanciate, argument, parameter, finite state machine, game state, edge case, encapsulation, specialization, polymorphism, new, this, instance variable
-abstraction, parent class, child class, inheritance, containment, is-a, has-a
+abstraction, parent class, child class, inheritance, containment, is-a, has-a, object-oriented programming, modulo
 
-abstraction - representing essential features without including complex details. Allows programmers to implement efficient models of complicated real-world items.
+
+abstraction - representing essential features without including complex details. Allows programmers to implement efficient models of complicated real-world entities/items.
 
 parent class - also known as a superclass, a class from that can pass on its instance variable and methods to its children. More generic than it's child classes.
 
+superclass - also known as a parent class, a class from that can pass on its instance variable and methods to its children. More generic than it's child classes.
+
 child class - also known as a subclass, a class that contains all the features of the parent class, but may have new features added or redefine existing features. More specialized than the parent class.
 
+subclass - also known as a child class, a class that contains all the features of the parent class, but may have new features added or redefine existing features. More specialized than the parent class
 
+inheritance - basing one class on another class while passing on instance variable and methods
+
+object-oriented programming - 
 
 object - a data structure that contains attributes and behaviors. A software model representing an entity either physical (a box, a car, etc) or conceptual (a chemical process, a sale, driving directions, etc)
 
