@@ -1,10 +1,6 @@
 apcsa:
 
-
-
-
-
-- title: 1stQuarter
+- title: 1stquarter
   heading: "# 1st Quarter"
   content: "*Whenever possible, select 'Sign up with Google' and use your hilliardschools.org account.*
 
@@ -49,6 +45,10 @@ Adding Big Java Textbook to student iPads:
 
 
 ## Commit to take the AP test by October 4th. Late fee is $40.
+
+
+Create a College Board account by Friday, Sept 6th and join our AP class section via collegeboard.org/joinapclass
+
 
 
 References:
@@ -96,36 +96,54 @@ References:
 "
 - title: ch1-introduction
   heading: "# Ch1 Introduction"
-  content: "
+  content: "*2.5 wks* Vocab: platform, assembly, binary, bit, byte, declare, assignment, initialize, JVM, IDE, class, method, main, println, Scanner, int, double, boolean, char, String, comment, magic number, final, literal
 
-1. [Ch1KingsIsland](/apcsa/ch1/Ch1KingsIsland/)
 
-1. [Ch1PaintCalcAreaOnly](/apcsa/ch1/Ch1PaintCalcAreaOnly/)
+Resources:
 
-1. [Ch1Review1](/apcsa/ch1/Ch1Review1/)
+  - [The History of the Java Programming Language](https://drive.google.com/file/d/1KbxMKqNgw6T_7EaS8t1hfjnwyJsFhaSd/view?usp=sharing)
 
-1. [Ch1IntegerOverflow](/apcsa/ch1/Ch1IntegerOverflow/)
+  - [What is Java - Java Programming Tutorial](https://drive.google.com/file/d/1fHDyzlE35710X9sQUoS-Ule6VbqfijLh/view?usp=sharing)
 
-1. [Ch1Review2](/apcsa/ch1/Ch1Review2/)
+  - [The Fetch-Execute Cycle Whats Your Computer Actually Doing](https://drive.google.com/file/d/1f94tL6PrfS1gtTMUn_8ZJawEZS6HYQLT/view?usp=sharing)
+
+  - [Unit 1 Test Review](/apcsa/ch1introduction/unit1testreview/)
+
+
+Projects:
+
+1. [Ch1KingsIsland](/apcsa/ch1introduction/ch1kingsisland/)
+
+1. [Ch1PaintCalcAreaOnly](/apcsa/ch1introduction/ch1paintcalcareaonly/)
+
+1. [Ch1Review1](/apcsa/ch1introduction/ch1review1/)
+
+1. [Ch1IntegerOverflow](/apcsa/ch1introduction/ch1integeroverflow/)
+
+1. [Ch1Review2](/apcsa/ch1introduction/ch1review2/)
+
+1. [Ch1SoloLearnJava](/apcsa/ch1introduction/ch1sololearnjava/)
 "
 
 - title: ch2-using-objects
   heading: "# Ch2 Using Objects"
-  content: "
+  content: "Vocab: object, accessor, mutator, method, constructor, new, API, naming convention, camelCase, PascalCase, comment
 
-1. [Ch2Exercises1-5-14](/apcsa/ch2/Ch2Exercises1-5-14/)
 
-1. [Ch2Projects2-3-5](/apcsa/ch2/Ch2Projects2-3-5/)
 
-1. [Ch2Project6](/apcsa/ch2/Ch2Project6/)
+1. [Ch2Exercises1-5-14](/apcsa/ch2usingobjects/ch2exercises1-5-14/)
 
-1. [Ch2Project9](/apcsa/ch2/Ch2Project6/)
+1. [Ch2Projects2-3-5](/apcsa/ch2usingobjects/ch2projects2-3-5/)
 
-1. [Ch2StringExercises](/apcsa/ch2/Ch2StringExercises/)
+1. [Ch2Project6](/apcsa/ch2usingobjects/ch2project6/)
 
-1. [Ch2MethodMadness](/apcsa/ch2/Ch2MethodMadness/)
+1. [Ch2Project9](/apcsa/ch2usingobjects/ch2project9/)
 
-1. [Ch2ReviewCh1andCh2](/apcsa/ch2/Ch2ReviewCh1andCh2/)
+1. [Ch2StringExercises](/apcsa/ch2usingobjects/ch2stringexercises/)
+
+1. [Ch2MethodMadness](/apcsa/ch2usingobjects/ch2methodmadness/)
+
+1. [Ch2ReviewCh1andCh2](/apcsa/ch2usingobjects/ch2reviewch1andch2/)
 
 "
 
@@ -133,19 +151,20 @@ References:
   heading: "# Ch3 Implementing Classes"
   content: "
 
-1. [Ch3PotatoHeadClass](/apcsa/ch3/Ch3PotatoHeadClass/)
 
-1. [Ch3ShoesClass](/apcsa/ch3/Ch3ShoesClass/)
+1. [Ch3ShoesClass](/apcsa/ch3implementingclasses/ch3shoes/)
 
-1. [Ch3BalloonClass](/apcsa/ch3/Ch3BalloonClass/)
+1. [Ch3BalloonClass](/apcsa/ch3implementingclasses/ch3balloon/)
 
-1. [Ch3CashRegisterClass](/apcsa/ch3/Ch3CashRegisterClass/)
+1. [Ch3EmployeeClass](/apcsa/ch3implementingclasses/ch3employee/)
 
-1. [Ch3EmployeeClass](/apcsa/ch3/Ch3EmployeeClass/)
+1. [Ch3StudentClass](/apcsa/ch3implementingclasses/ch3student/)
 
-1. [Ch3StudentClass](/apcsa/ch3/Ch3StudentClass/)
+1. [Ch3CashRegisterClass](/apcsa/ch3implementingclasses/ch3cashregister/)
 
-1. [Ch3GraphicsCarClass](/apcsa/ch3/Ch3GraphicsCarClass/)
+1. [Ch3GraphicsCarClass](/apcsa/ch3implementingclasses/ch3car/)
+
+1. [Ch3PotatoHeadClass](/apcsa/ch3implementingclasses/ch3potatohead/)
 
 "
 
@@ -153,21 +172,32 @@ References:
   heading: "# Ch4 Fundamental Data Types"
   content: "
 
-1. [Ch4ModulusClock](/apcsa/ch4/Ch4ModulusClock/)
+Resources:
 
-1. [Ch4ArithmeticCasting](/apcsa/ch4/Ch4ArithmeticCasting/)
+  - [Floating Point Numbers - Computerphile](https://drive.google.com/file/d/15GKsGtSMyjbnm9rMIx3br9ypYq3p33LO/view)
 
-1. [Ch4FormattingPrintf](/apcsa/ch4/Ch4FormattingPrintf/)
+  - [Characters, Symbols and the Unicode Miracle - Computerphile](https://drive.google.com/file/d/1VwA4wt4wxBLPrGuVPTmCVUdTl1JMiIax/view)
 
-1. [Ch4WeirdCalculator](/apcsa/ch4/Ch4WeirdCalculator/)
+  - Integer division & floating-point division Quizizz https://join.quizizz.com use game code: 208023
 
-1. [Ch4CedarPoint](/apcsa/ch4/Ch4CedarPoint/)
+  - Modulo Operation Quizizz https://join.quizizz.com use game code: 166397
 
-1. [Ch4Review1](/apcsa/ch4/Ch4Review1/)
 
-1. [Ch4IntDivQuizizz](/apcsa/ch4/Ch4IntDivQuizizz/)
 
-1. [Ch4ModuloQuizizz](/apcsa/ch4/Ch4ModuloQuizizz/)
+
+Projects:
+
+  1. [Ch4ArithmeticCasting](/apcsa/ch4fundamentaldatatypes/ch4arithmeticcasting/)
+
+  1. [Ch4Printf](/apcsa/ch4fundamentaldatatypes/ch4printf/)
+
+  1. [Ch4ModulusClock](/apcsa/ch4fundamentaldatatypes/ch4modulusclock/)
+
+  1. [Ch4WeirdCalc](/apcsa/ch4fundamentaldatatypes/ch4weirdcalc/)
+
+  1. [Ch4CedarPointCalc](/apcsa/ch4fundamentaldatatypes/ch4cedarpointcalc/)
+
+  1. [Ch4ReviewSheet](/apcsa/ch4fundamentaldatatypes/ch4reviewsheet/)
 
 "
 

@@ -31,10 +31,21 @@ Texts:
 - [Python for Everybody by Charles Severance](https://books.trinket.io/pfe/index.html)
 
 
-Commit to take the AP test by October 4th. Late fee is $40.
+## Commit to take the AP test by October 4th. Late fee is $40.
 
 
-How to Get a Five: AP Computer Science Principles (AP CSP) [https://www.youtube.com/watch?v=aw8i5krRTtc](https://www.youtube.com/watch?v=aw8i5krRTtc) or [https://drive.google.com/file/d/1EYtMYgcG_SxX5tSnTpzWeceLvKVM3BEC/view?usp=sharing](https://drive.google.com/file/d/1EYtMYgcG_SxX5tSnTpzWeceLvKVM3BEC/view?usp=sharing)
+Create a College Board account by Friday, Sept 6th and join our AP class section via collegeboard.org/joinapclass
+
+
+
+Resources:
+
+- [What is AP Computer Science Principles?](https://drive.google.com/file/d/1NNAFOaY4L8Y8BOdeQ_5uPmwjJEns8gii/view?usp=sharing)
+
+- [College Board AP Computer Science Principles](https://drive.google.com/file/d/1TCRLWWJbCIa9TLMEevLJlTWyKGGd1CKa/view?usp=sharing)
+
+- [How to Get a Five: AP Computer Science Principles (AP CSP)](https://drive.google.com/file/d/1EYtMYgcG_SxX5tSnTpzWeceLvKVM3BEC/view?usp=sharing)
+
 
 
 -=-=-=-
@@ -56,24 +67,28 @@ How to Get a Five: AP Computer Science Principles (AP CSP) [https://www.youtube.
     "[1st Quarter](#1st-quarter)
 
 
-  1. **[Scratch](#scratch)** - *2 wks*
+  1. [Scratch](#scratch) - *3 wks*
 
-  1. **[Py](#py)** - *2 wks*
+  1. [Py](#py) - *2 wks*
 
-  1. **[Binary](#binary)** - *2 wks*
+  1. [Binary](#binary) - *2 wks*"
 
-  1. **[Turtle Art](#turtleart)** - *3 wks*"
 
 
 - title: scratch
   heading: "# Scratch"
-  content: "*2 wks*, Vocab: input, output, variable, assignment, string, int, boolean, script, conditional, binary selection, comparison operator, loop, prompt, event listeners
+  content: "*3 weeks*, Vocab: input, prompt, output, variable, assignment, string, int, boolean, sprite, script, control structure, iteration, loop, selection, conditional, sequencing, event listener, comparison operator, equality operator, Scratch, MIT
+
 
 
 Resources:
 
-
 - [Scratch tutorial folder](https://drive.google.com/open?id=128oYSzZetK25nTV-0YInwofJ_TrGKf3W)
+
+- [Unit 1 Vocab List](https://docs.google.com/document/d/11kO-_JeG52VHzmv8KBKJtYBh4YvldSXDkjMGVQ-S-bo/edit?usp=sharing)
+
+- [Quiz Review cspquiz1.glitch.me](https://cspquiz1.glitch.me/)
+
 
 
 
@@ -91,95 +106,79 @@ Projects:
 
 1. Either [QuestHealthGame](/apcsp/scratch/010QuestHealthGame/) or [ScratchPlatformer](/apcsp/scratch/102ScratchPlatformer/)
 
-1. [ScratchFreedomOfChoice](/apcsp/scratch/011ScratchFreedomOfChoice/)
+1. Optional Bonus Points [ScratchFreedomOfChoice](/apcsp/scratch/011ScratchFreedomOfChoice/)
 "
 
 - title: py
   heading: "# Py"
   content: "
-*2 wks*, Vocab: syntax, syntax error, variable, assignment, mathmatical operator, comparison operator, conditionals, function def, function call, input, argument, string, int, boolean, division by zero, comment, camelCase, scope, local variable, magic numbers, return, Tkinter, Create Task practice 1
+*2 wks*, Vocab: Tkinter, import, syntax, syntax error, variable, assignment, mathematical operator, float, function definition, function call, return, argument, comment, camelCase, scope, local variable, Create Task practice 1
 
 
-Install Python Mu IDE: [https://codewith.mu/](https://codewith.mu/)
+Resources:
 
+  - Install Python Mu IDE: [https://codewith.mu/](https://codewith.mu/)
+
+  - [Python Functions Tutorial](/apcsp/py/pythonfunctions/)
+
+
+
+Projects:
 
 1. [PyValidNumber](/apcsp/py/111PyValidNumber/)
 
-1. Pair - Either [PyDollarConvert](/apcsp/py/108PyDollarConvert/) or [PyMenuCalculator](/apcsp/py/113PyMenuCalculator) or [PyWeightOnPlanets](/apcsp/py/114PyWeightOnPlanets/)
+1. [PyBuySellPhones](/apcsp/py/PyBuySellPhones/)
 
-1. Either Py2DGeometry or [Py3DGeometry](/apcsp/py/112Py3DGeometry/)
+1. Pair - Either [PyDollarConvert](/apcsp/py/108PyDollarConvert/) or [PyWeightOnPlanets](/apcsp/py/114PyWeightOnPlanets/)
+
+1. Pair - Either [Py2DGeometry](/apcsp/py/Py2DGeometry/) or [Py3DGeometry](/apcsp/py/112Py3DGeometry/)
 
 1. [PyModuloFun](/apcsp/py/105PyModuloFun/)
 
 1. Pair - [PyHogwartsHouse](/apcsp/py/109PyHogwartsHouse/)
 
-1. Pair - Either [PyParrotTrouble](/apcsp/py/104PyParrotTrouble/) or [PyThreeArgs](/apcsp/py/106PyThreeArgs/) or [PyCollisionFun](/apcsp/py/110PyCollisionFun/)
-
 1. *Create Practice 1* - Pair - [PyCreatePractice1](/apcsp/py/100PyCreatePractice1/)
+
+1. Pair - Either [PyParrotTrouble](/apcsp/py/104PyParrotTrouble/) or [PyThreeArgs](/apcsp/py/106PyThreeArgs/) or [PyCollisionFun](/apcsp/py/110PyCollisionFun/)
 "
 - title: binary
   heading: "# Binary"
   content: "
-*2 wk*, Vocab: binary, decimal, digit, bit, hexadecimal, octal, ASCII, Big Data
+*2 wk*, Vocab: binary, base-2, decimal, base-10, digit, bit, byte, hexadecimal, base-16, octal, base-8, ASCII, base-64 Big Data
 
 
 Resources:
 
 - Code.org Unit 1, Chapter 1: Representing and Transmitting Information, [https://studio.code.org/s/csp1-2018](https://studio.code.org/s/csp1-2018)
 
-- How To Convert Binary To Decimal Tutorial (The Easy Way) [https://www.youtube.com/watch?v=tfKe8PPI2zs](https://www.youtube.com/watch?v=tfKe8PPI2zs) or [https://drive.google.com/file/d/1-HykewRcCWrClHgX6BOKxTPDoqVlH-rI/view?usp=sharing](https://drive.google.com/file/d/1-HykewRcCWrClHgX6BOKxTPDoqVlH-rI/view?usp=sharing)
+- [How To Convert Binary To Decimal Tutorial (The Easy Way)](https://drive.google.com/file/d/1-HykewRcCWrClHgX6BOKxTPDoqVlH-rI/view?usp=sharing)
 
-- Decimal To Hexadecimal Made Easy [https://www.youtube.com/watch?v=4um7-QbpAQ8](https://www.youtube.com/watch?v=4um7-QbpAQ8) or [https://drive.google.com/file/d/1iXrkKJEAZGkcMxlli6zpC59VD53P5GM4/view?usp=sharing](https://drive.google.com/file/d/1iXrkKJEAZGkcMxlli6zpC59VD53P5GM4/view?usp=sharing)
+- [Decimal To Hexadecimal Made Easy](https://drive.google.com/file/d/1iXrkKJEAZGkcMxlli6zpC59VD53P5GM4/view?usp=sharing)
 
-- How To Easily Convert Hexadecimal To Binary And To Decimal Tutorial [https://www.youtube.com/watch?v=t_kA5KQxByc](https://www.youtube.com/watch?v=t_kA5KQxByc) or [https://drive.google.com/file/d/1htXqdfLbYPOOIWrmYlp5LZAXxWho84lV/view?usp=sharing](https://drive.google.com/file/d/1htXqdfLbYPOOIWrmYlp5LZAXxWho84lV/view?usp=sharing)
+- [How To Easily Convert Hexadecimal To Binary And To Decimal Tutorial](https://drive.google.com/file/d/1htXqdfLbYPOOIWrmYlp5LZAXxWho84lV/view?usp=sharing)
 
-- Will YouTube Ever Run Out Of Video IDs? (Base 64) [https://www.youtube.com/watch?v=gocwRvLhDf8](https://www.youtube.com/watch?v=gocwRvLhDf8) or [https://drive.google.com/file/d/1Rkck--o5olYdpS0vZucasha8hy4XD0oH/view?usp=sharing](https://drive.google.com/file/d/1Rkck--o5olYdpS0vZucasha8hy4XD0oH/view?usp=sharing)
+- [Will YouTube Ever Run Out Of Video IDs? (Base 64)](https://drive.google.com/file/d/1Rkck--o5olYdpS0vZucasha8hy4XD0oH/view?usp=sharing)
+
+- [Squirrel Girl Teaches Binary Finger Counting](https://drive.google.com/file/d/1EiGx0pPU4E57w4D9wzfExLm5zm_eVWEx/view?usp=sharing)
 
 
 Projects:
 
-1. Pair - Counting with Coins
+1. Pair - [CoinsWorksheet](/apcsp/binary/BinaryCoinsWorksheet/)
 
-1. Binary 1 to 50
+1. [Binary Bday](/apcsp/binary/BinaryBday/)
 
-1. Binary
+1. Pair - [BinaryWorksheet](/apcsp/binary/BinaryWorksheet/)
 
-1. Pair - Octal
+1. Pair - [OctalWorksheet](/apcsp/binary/BinaryOctalWorksheet/)
 
-1. Pair - Hexadecimal
+1. Pair - [HexWorksheet](/apcsp/binary/BinaryHexWorksheet/)
 
 1. Practice Quiz
 
-1. *Explore Practice 1* - Pair - [BinaryExplorePractice1](027BinaryExplorePractice1.md)
 "
 
-- title: turtleart
-  heading: "# TurtleArt"
-  content: "
 
-*3 wks*, Vocab: turtle, for loops, input, validation, try/except, operators, def new functions, random, algorithm, instance, instanciate, object, class, method
-
-
-1. Pair - [TurtleSimpleDrawing](/apcsp/turtleart/012TurtleSimpleDrawing/)
-
-1. [TurtleDrawingsAtRandomLocations](/apcsp/turtleart/025TurtleDrawingsAtRandomLocations/)
-
-1. Pair - Either [TurtleBlockLetters](/apcsp/turtleart/026TurtleBlockLetters/) or [TurtlePolygons](/apcsp/turtleart/013TurtlePolygons/)
-
-1. [TurtleHowManySquares](/apcsp/turtleart/014TurtleHowManySquares/)
-
-1. Either [TurtleRandomShapes](/apcsp/turtleart/015TurtleRandomShapes/) or [TurtleMandalaArt](/apcsp/turtleart/018TurtleMandalaArt/)
-
-1. [TurtleDrawingAlgorithm](/apcsp/turtleart/019TurtleDrawingAlgorithm/)
-
-1. [TurtleBouncingOffWalls](/apcsp/turtleart/020TurtleBouncingOffWalls/)
-
-1. Pair - [TurtleArtScene1](/apcsp/turtleart/021TurtleArtScene1/)
-
-1. Pair - [TurtleStars1](/apcsp/turtleart/016TurtleStars1/)
-
-1. Pair - [TurtleStars2](/apcsp/turtleart/017TurtleStars2/)
-"
 
 - title: 2ndquarter
   heading: "# 2nd Quarter"
@@ -199,16 +198,46 @@ Projects:
   content: "
   [2nd Quarter](#2nd-quarter)
 
+  1. [Turtle Art](#turtleart) - *3 wks*
 
-  1. **[IP](#ip)** - *1 wk*
+  1. [IP](#ip) - *1 wk*
 
-  1. **[Scrum](#scrum)** - *3 wks*
+  1. [Scrum](#scrum) - *2 wks*
 
-  1. **[Console](#console)** - *3 wks*
+  1. [Console](#console) - *2 wks*
 
-  1. **[Big Data](#bigdata)** - *2 wks*
+  1. [Big Data](#bigdata) - *2 wks*
 
   "
+
+- title: turtleart
+  heading: "# TurtleArt"
+  content: "
+
+*3 wks*, Vocab: IDE, turtle, for loops, input, validation, try/except, operators, def new functions, random, algorithm, instance, instanciate, object, class, method
+
+1. *Explore Practice 1* - Pair - [BinaryExplorePractice1](/apcsp/turtleart/027ExplorePractice1/)
+
+1. Pair - [TrtSimpleDrawing](/apcsp/turtleart/012TurtleSimpleDrawing/)
+
+1. [TrtDrawingsAtRandomLocations](/apcsp/turtleart/025TurtleDrawingsAtRandomLocations/)
+
+1. Pair - Either [TrtBlockLetters](/apcsp/turtleart/026TurtleBlockLetters/) or [TrtPolygons](/apcsp/turtleart/013TurtlePolygons/)
+
+1. [TrtHowManySquares](/apcsp/turtleart/014TurtleHowManySquares/)
+
+1. Either [TrtRandomShapes](/apcsp/turtleart/015TurtleRandomShapes/) or [TrtMandalaArt](/apcsp/turtleart/018TurtleMandalaArt/)
+
+1. [TrtDrawingAlgorithm](/apcsp/turtleart/019TurtleDrawingAlgorithm/)
+
+1. [TrtBouncingOffWalls](/apcsp/turtleart/020TurtleBouncingOffWalls/)
+
+1. Pair - [TrtArtScene1](/apcsp/turtleart/021TurtleArtScene1/)
+
+1. Pair - [TrtStars1](/apcsp/turtleart/016TurtleStars1/)
+
+1. Pair - [TrtStars2](/apcsp/turtleart/017TurtleStars2/)
+"
 
 - title: ip
   heading: "# IP"
@@ -220,39 +249,46 @@ Code.org Unit 1, Chapter 2: Inventing the Internet, [https://studio.code.org/s/c
 - title: scrum
   heading: "# Scrum"
   content: "
-*3 wks*, Vocab: iteration, waterfall, scrum, collaboration, iterative versions, def new functions, loops, random, colors, Create 2
+*2 wks*, Vocab: iteration, waterfall, scrum, collaboration, iterative versions, def new functions, loops, random, colors, Create 2
+
+
+Resources:
+
+  - [Screencast Instructions for OBS](/apcsp/scrum/screencastobs)
+
+
+
+Projects:
 
 1. [034ScrumArtScene2.md](/apcsp/scrum/034ScrumArtScene2/)
 
 1. [035ScrumArtScene3.md](/apcsp/scrum/035ScrumArtScene3/)
+
+1. Create 2 Artifact and Written Reflection
 "
 - title: console
   heading: "# Console"
   content: "
 
 
-*3 wks*, Vocab: array, iteration, iterate through an array, input, for each loops, input validation, try/except, conditionals, functions, pre-conditional loop, post-conditional loop, pseudocode,
+*2 wks*, Vocab: array, iteration, iterate through an array, input, for each loops, input validation, try/except, conditionals, functions, pre-conditional loop, post-conditional loop, pseudocode,
 
 
-1. [ConsolePseudocode3PPong](/apcsp/console/023ConsolePseudocode3PPong/)
+1. [ConPseudocode3PPong](/apcsp/console/023ConsolePseudocode3PPong/)
 
-1. [ConsoleRandomIntArray](/apcsp/console/103ConsoleRandomIntArray/)
+1. [ConRandomIntArray](/apcsp/console/103ConsoleRandomIntArray/)
 
-1. Pair - [ConsoleTemps](/apcsp/console/022ConsoleTemps/)
+1. Pair - Either [ConTemps](/apcsp/console/022ConsoleTemps/) or [ConMultiChoiceQuizGame](/apcsp/console/024ConsoleMultiChoiceQuizGame/)
 
-1. Pair - [ConsoleMultiChoiceQuizGame](/apcsp/console/024ConsoleMultiChoiceQuizGame/)
+1. [ConFillInTheBlankQuizGame](/apcsp/console/028ConsoleFillInTheBlankQuizGame/)
 
-1. [ConsoleFillInTheBlankQuizGame](/apcsp/console/028ConsoleFillInTheBlankQuizGame/)
+1. Pair - [ConTipCalculator](/apcsp/console/029ConsoleTipCalculator/)
 
-1. Pair - [ConsoleTipCalculator](/apcsp/console/029ConsoleTipCalculator/)
+1. Pair - [Con2DGeometryCalculations](/apcsp/console/030Console2DGeometryCalculations/)
 
-1. [Console2DGeometryCalculations](/apcsp/console/030Console2DGeometryCalculations/)
+1. Pair - Either [ConHourlyAndYearlyWages](/apcsp/console/031ConsoleHourlyAndYearlyWages/) or [ConTriviaHighLow](/apcsp/console/032ConsoleTriviaHighLow/)
 
-1. Pair - [ConsoleHourlyAndYearlyWages](/apcsp/console/031ConsoleHourlyAndYearlyWages/)
-
-1. [ConsoleTriviaHighLow](/apcsp/console/032ConsoleTriviaHighLow/)
-
-1. Pair - [ConsolePrintfLoops](/apcsp/console/101ConsolePrintfLoops/)
+1. Pair - [ConPrintfLoops](/apcsp/console/101ConsolePrintfLoops/)
 
 "
 - title: bigdata
@@ -284,15 +320,15 @@ Code.org Unit 4: Big Data and Privacy, [https://studio.code.org/s/csp4-2018](htt
   [3rd Quarter](#3rd-quarter)
 
 
-  1. **[Explore](#explore)** - *2 wks*
+  1. [Explore](#explore) - *2 wks*
 
-  1. **[Text Games](#textgames)** - *2 wks*
+  1. [Text Games](#textgames) - *2 wks*
 
-  1. **[Digital Info](#digitalinfo)** - *1 wk*
+  1. [Digital Info](#digitalinfo) - *1 wk*
 
-  1. **[Turtle Games](#turtlegames)** - *2wks*
+  1. [Turtle Games](#turtlegames) - *2wks*
 
-  1. **[Tk](#tk)** - *2 wks*
+  1. [Tk](#tk) - *2 wks*
   "
 - title: explore
   heading: "# Explore"
@@ -311,11 +347,11 @@ Code.org Unit 4: Big Data and Privacy, [https://studio.code.org/s/csp4-2018](htt
 *2 wks*, Vocab: text game, arrays, logical operators, two-dimensional array, global variables, runtime error, syntax error, while loop
 
 
-1. Pair - [033TextGamesCastlesAndCreatures](/apcsp/textgames/033TextGamesCastlesAndCreatures/)
+1. Pair - [TxtCastlesAndCreatures](/apcsp/textgames/033TextGamesCastlesAndCreatures/)
 
-1. Group - [037TextgamesFoobarv1](/apcsp/textgames/037TextgamesFoobarv1/)
+1. Group - [TxtFoobarv1](/apcsp/textgames/037TextgamesFoobarv1/)
 
-1. Group - [038TextgamesFoobarv2](/apcsp/textgames/038TextgamesFoobarv2/)
+1. Group - [TxtFoobarv2](/apcsp/textgames/038TextgamesFoobarv2/)
 "
 - title: digitalinfo
   heading: "# DigitalInfo"
@@ -331,6 +367,14 @@ Code.org Unit 2: Digital Information, [https://studio.code.org/s/csp2-2018](http
 *2wks*, Vocab: instance, instanciate, object, class, method, logical operators, while loop
 
 
+Resources:
+
+  - [Screencast Instructions for OBS](/apcsp/scrum/screencastobs)
+
+
+
+Projects:
+
 1. [039Turtlegamev1](/apcsp/turtlegames/039Turtlegamev1/)
 
 1. [040Turtlegamev2](/apcsp/turtlegames/040Turtlegamev2/)
@@ -345,25 +389,23 @@ Code.org Unit 2: Digital Information, [https://studio.code.org/s/csp2-2018](http
 *2 wks*, Vocab: IDLE, reading files, canvas, dictionary, objects, classes, writing files, logical operators
 
 
-1. [PythonTruthTableGenerator]()
+1. [TkTruthTableGenerator]()
 
-1. [044TkWeirdCalcInputValidationReview](/apcsp/tk/044TkWeirdCalcInputValidationReview/)
+1. [TkInputValidReview](/apcsp/tk/044TkWeirdCalcInputValidationReview/)
 
-1. [045TkShapesAndButtons](/apcsp/tk/045TkShapesAndButtons/)
+1. [TkShapesAndButtons](/apcsp/tk/045TkShapesAndButtons/)
 
-1. [046TkAppWithInputValidation](/apcsp/tk/046TkAppWithInputValidation/)
+1. [TkMenuCalculator1](/apcsp/tk/113TkMenuCalculator1/)
 
-1. [107TkTryLoadFile](/apcsp/tk/107TkTryLoadFiles/)
+1. Pair - [TkAppWithInputValidation](/apcsp/tk/046TkAppWithInputValidation/)
 
-1. [047TkPollv1.0.md](/apcsp/tk/047TkPollv1/)
+1. Pair - [TkTryLoadFile](/apcsp/tk/107TkTryLoadFiles/)
 
-1. [TkAddressBook]()
+1. Pair - [TkPollv1.0](/apcsp/tk/047TkPollv1/)
 
-1. [TkMenuOrder]()
+1. Pair - Either [TkAddressBook]() or [TkMenuOrder]()
 
-1. [TkPollAverage]()
-
-1. [TkMultiQuestion]()
+1. Pair - Either [TkPollAverage]() or [TkMultiQuestion]()
 "
 - title: 4thquarter
   heading: "# 4th Quarter"
@@ -384,11 +426,11 @@ Code.org Unit 2: Digital Information, [https://studio.code.org/s/csp2-2018](http
   [4th Quarter](#4th-quarter)
 
 
-  1. **[Create](#create)** - *3 wks*
+  1. [Create](#create) - *3 wks*
 
-  1. **[Greenfoot](#greenfoot)** - *3 wks*
+  1. [Greenfoot](#greenfoot) - *3 wks*
 
-  1. **[Java](#java)** - *3 wks*
+  1. [Java](#java) - *3 wks*
 
   "
 - title: create

@@ -1,0 +1,198 @@
+[
+{
+"answer": "Abstraction",
+"question": "a simplified representation of something more complex. For example, a programmer will define functions to organize/clean up their code in order to reduce complexity and increase readability and efficiency"
+},
+{
+"answer": "Algorithm",
+"question": "a set of instructions that can be followed to solve a problem, especially by a computer."
+},
+{
+"answer": "Argument",
+"question": "a value that is passed between programs, scripts or functions. Information sent to a function to customize it for a specific need."
+},
+{
+"answer": "ASCII",
+"question": "the American Standard Code for Information Interchange. It is the most common format for representing text characters"
+},
+{
+"answer": "Assignment",
+"question": "a statement that sets a value to a named variable"
+},
+{
+"answer": "Assignment operator        the operator used to assign a new value to a variable. In Python, ="
+},
+{
+"answer": "Bandwidth",
+"question": "transmission capacity measure by bit rate"
+},
+{
+"answer": "Base 64",
+"question": "a counting system that includes 0-9, A-Z in both upper and lowercase, and other characters."
+},
+{
+"answer": "Binary",
+"question": "a base 2 counting system that uses only two characters, 0 and 1."
+},
+{
+"answer": "Bit",
+"question": "a column in the binary counting system with either a zero or a one. A Binary Digit. "
+},
+{
+"answer": "Bit rate",
+"question": "the number of bits that are sent or processed per unit of time. e.g. 8 bits/sec."
+},
+{
+"answer": "Boolean",
+"question": "a data type that stores one of two possible values: True or False"
+},
+{
+"answer": "Boolean expression",
+"question": "a math equation that is either true or false"
+},
+{
+"answer": "Boolean variable",
+"question": "a variable that is either true or false"
+},
+{
+"answer": "camelCase",
+"question": "process of naming multi-word variables without spaces and so that words in the middle of the phrase begins with a capital letter. For example, numberOfCars, iPhone, eBay"
+},
+{
+"answer": "Comment",
+"question": "can be read in the code but does not affect the code in anyway."
+},
+{
+"answer": "Comparison operator",
+"question": "one or more characters that examine two values and return either True or False. For example, greater than, less than, equal to, etc."
+},
+{
+"answer": "Conditional",
+"question": "also known as selection, a statement that uses a boolean condition to determine whether or not to run other statements. Usually an if-then statement"
+},
+{
+"answer": "Control Structure",
+"question": "basic organizing systems for code which include iteration, selection, and sequencing"
+},
+{
+"answer": "Decimal",
+"question": "a base 10 counting system that uses the characters 0-9"
+},
+{
+"answer": "Digit",
+"question": "a numeral based on the counting system you are using. Ex. (base 10 = 0-9)"
+},
+{
+"answer": "Equality operator",
+"question": "returns True if the value on the left is equal to the value on the right, otherwise it returns False. In Python, it is the characters =="
+},
+{
+"answer": "Event Listener",
+"question": "a script that does not run when the program is executed, but instead only occurs when a specific user input occurs. For example, when the space bar key is pressed"
+},
+{
+"answer": "Float",
+"question": "a floating-point decimal number. For example, 42.5, 0.001, or -3.729."
+},
+{
+"answer": "Function",
+"question": "a named group of programming instructions that performs a specific task separately from a main script and returns to the main script when it is complete. Reusable abstractions that reduce the complexity of writing and maintaining programs. "
+},
+{
+"answer": "Function call",
+"question": "a request that runs the code inside of a function"
+},
+{
+"answer": "Function definition",
+"question": "a block of code that includes the keyword def followed by a name, any arguments that are required, code inside the function, and an output that is returned"
+},
+{
+"answer": "Hexadecimal",
+"question": "an 8-bit, base 16 counting system that uses the characters 0-9 and A-F"
+},
+{
+"answer": "Import",
+"question": "allows you to use commands that are not built-in to Python. For example, tkinter windows, random numbers, math functions, or turtles."
+},
+{
+"answer": "Input",
+"question": "information that is given to the computer by a user, usually typed text and mouse clicks"
+},
+{
+"answer": "Integer",
+"question": "a whole number. For example, 42, 0, or -3729."
+},
+{
+"answer": "Iteration",
+"question": "also known as a loop, a control structure in which commands are repeated either a set number of times, until a boolean condition is met, or forever"
+},
+{
+"answer": "Latency",
+"question": "the time it takes for a bit to travel from its sender to its receiver"
+},
+{
+"answer": "Local variable",
+"question": "variables created inside a function definition, that cannot be used outside the function"
+},
+{
+"answer": "Mathematical operator",
+"question": "a mathematical character that takes two numbers and performs a calculation on them. For example, +"
+},
+{
+"answer": "Octal",
+"question": "a 3-bit, base 8 counting system that uses the characters 0-7"
+},
+{
+"answer": "Output",
+"question": "information that is given to the user by a computer, usually text, images, and sound"
+},
+{
+"answer": "Prompt",
+"question": "a message or symbol indicating that the computer is waiting for user to provide input"
+},
+{
+"answer": "Protocol",
+"question": "a set of rules governing the exchange or transmission of data between devices"
+},
+{
+"answer": "Return",
+"question": "a keyword that tells the program to leave the function and send back a value"
+},
+{
+"answer": "Scope",
+"question": "dictates what portions of the code can "see" or use a variable, typically derived from where the variable was first created"
+},
+{
+"answer": "Script",
+"question": "a set of commands written by a programmer"
+},
+{
+"answer": "Selection",
+"question": "also known as a conditional, a statement that uses a boolean condition to determine whether or not to run other statements. Usually an if-then statement"
+},
+{
+"answer": "Sequencing",
+"question": "organizing commands in the correct order"
+},
+{
+"answer": "Sprite",
+"question": "an independent 2D graphic that can be given commands which define how it behaves",
+"question": ""
+},
+{
+"answer": "String",
+"question": "a data type that stores a sequence of characters which could include letters, numbers, spaces, symbols and punctuation. For example, "steve!", "can't", "$9.99""
+},
+{
+"answer": "Syntax",
+"question": "the set of rules that defines a correctly structured document in a language"
+},
+{
+"answer": "syntax error",
+"question": "a character or string incorrectly placed in a command or instruction that causes a failure in execution"
+},
+{
+"answer": "Variable",
+"question": "a named storage location that can store changeable information, depending on conditions or on information passed to the program. A number, string, or boolean that can be set, changed, and recalled"
+}
+]

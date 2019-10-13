@@ -4,17 +4,16 @@ category: scratch
 title: Racing Game
 ---
 
-Download this starter project:
+Download this starter project: [Starter for Racing Game](https://drive.google.com/uc?export=download&id=1Wmks4TXO19Z0Qe_1jkIFJQ_mFmmQw0FJ)
 
-[Starter for Scratch v3](https://drive.google.com/file/d/17EVahOWsc-Iq467NzUgZZOCU2crnob47/view?usp=sharing)
+Open a new Scratch project, then click the "File" menu and "Load From Your Computer" to upload the starter file. Click "OK" when Scratch asks if you want to replace contents of the current project.
 
-[Starter for Scratch v2](https://drive.google.com/file/d/1ngPZtVAHyVMCrVt0w6pvuO-jqZCgyspb/view?usp=sharing)
 
-Create a two player racing game. When left is pressed, **rotate to the left**. When right is pressed, **rotate right**. When up is pressed **move forward** in whatever direction you are facing.
+Create a two player racing game. When left is pressed, *rotate to the left*. When right is pressed, *rotate right*. When up is pressed *move forward* in whatever direction you are facing.
 
 Slow a player down if they are touching the green grass.
 
-Players must **NOT** be able to simply turn around and touch the finish line. You must do *something* to prevent this.
+Players *MUST NOT* be able to simply turn around and touch the finish line. You must do *something* to prevent players from cheating like this.
 
 Make three new sprites:
 - a finish line

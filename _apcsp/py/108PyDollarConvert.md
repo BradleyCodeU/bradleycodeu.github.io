@@ -3,22 +3,15 @@ layout: project
 category: py
 title: Dollar Convert
 ---
-Create four functions that will convert to/from US dollars. Each function will require one argument: the amount to be converted. It will return the converted amount
+Copy/paste this starter code: [https://repl.it/@JustinRiley1/dollar-convert-starter-code](https://repl.it/@JustinRiley1/dollar-convert-starter-code)
 
-For example you might create these four:
-- dollarsToBitcoin(dollars)
-- bitcoinToDollars(bitcoin)
-- dollarsToEuros(dollars)
-- eurosToDollars(euros)
+Create two functions that will convert to/from US dollars. Each function will require one argument: the amount to be converted. It will return the converted amount
 
-A second example you might create these four:
-- dollarsToCanadian (dollars)
-- canadianToDollars(canadian)
-- dollarsToPesos (dollars)
-- pesosToDollars(pesos)
-
-A third example you might create these four:
-- dollarsToYen (dollars)
-- yenToDollars(yen)
-- dollarsToRupees (dollars)
-- rupeesToDollars(rupees)
+Options include:
+- dollarsToBitcoin(dollars) AND bitcoinToDollars(bitcoin)
+- dollarsToEuros(dollars) AND eurosToDollars(euros)
+- dollarsToCanadian(dollars) AND canadianToDollars(canadian)
+- dollarsToPesos(dollars) AND pesosToDollars(pesos)
+- dollarsToYen(dollars) AND yenToDollars(yen)
+- dollarsToRupees(dollars) AND rupeesToDollars(rupees)
+- dollarsToSchruteBucks(dollars) AND schruteBucksToDollars(schruteBucks)

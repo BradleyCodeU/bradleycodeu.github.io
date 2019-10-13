@@ -1,0 +1,170 @@
+[
+  {
+    "answer": "input",
+    "question": "information that is given to the computer by a user, usually typed text and mouse clicks."
+  },
+  {
+    "answer": "prompt",
+    "question": "a message or symbol indicating that the computer is waiting for user to provide input."
+  },
+  {
+    "answer": "output",
+    "question": "information that is given to the user by a computer, usually text, images, and sound."
+  },
+  {
+    "answer": "variable",
+    "question": "a named storage location that can store changeable information, depending on conditions or on information passed to the program"
+  },
+  {
+    "answer": "assignment",
+    "question": "a statement that sets a value to a named variable"
+  },
+  {
+    "answer": "string",
+    "question": "a data type that stores a sequence of characters which could include letters, numbers, spaces, symbols and punctuation"
+  },
+  {
+    "answer": "int",
+    "question": "a data type that stores whole numbers with no fractional part."
+  },
+  {
+    "answer": "boolean",
+    "question": "a data type that stores one of two possible values: True or False"
+  },
+  {
+    "answer": "sprite",
+    "question": "an independent 2D graphic that can be given commands which define how it behaves"
+  },
+  {
+    "answer": "script",
+    "question": "a set of commands written by a programmer"
+  },
+  {
+    "answer": "control structure",
+    "question": "basic organizing systems for code which include iteration, selection, and sequencing."
+  },
+  {
+    "answer": "iteration",
+    "question": "also known as a loop, a control structure in which commands are repeated either a set number of times, until a boolean condition is met, or forever."
+  },
+  {
+    "answer": "loop",
+    "question": "also known as iteration, a control structure in which commands are repeated either a set number of times, until a boolean condition is met, or forever."
+  },
+  {
+    "answer": "selection",
+    "question": "also known as a conditional, a statement that uses a boolean condition to determine whether or not to run other statements. Usually an if-then statement."
+  },
+  {
+    "answer": "conditional",
+    "question": "also known as selection, a statement that uses a boolean condition to determine whether or not to run other statements. Usually an if-then statement."
+  },
+  {
+    "answer": "sequencing",
+    "question": "organizing commands in the correct order."
+  },
+  {
+    "answer": "event listener",
+    "question": "a script that does not run when the program is executed, but instead only occurs when a specific user input occurs. For example, when the space bar key is pressed."
+  },
+  {
+    "answer": "comparison operator",
+    "question": "one or more characters that examine two values and return either True or False. For example, greater than, less than, equal to, etc."
+  },
+  {
+    "answer": "equality operator",
+    "question": "returns True if the value on the left is equal to the value on the right, otherwise it returns False. In Python, it is the characters =="
+  },
+  {
+    "answer": "Scratch",
+    "question": "a block based programming language designed for students and created by the Lifelong Kindergarten Group at the MIT Media Lab. Rather than typing text based commands, programming mainly involves dragging blocks of instructions."
+  },
+  {
+    "answer": "MIT",
+    "question": "The Massachusetts Institute of Technology"
+  },
+  {
+    "answer": "input",
+    "question": "information that is given to the computer by a user, usually typed text and mouse clicks."
+  },
+  {
+    "answer": "prompt",
+    "question": "a message or symbol indicating that the computer is waiting for user to provide input."
+  },
+  {
+    "answer": "output",
+    "question": "information that is given to the user by a computer, usually text, images, and sound."
+  },
+  {
+    "answer": "variable",
+    "question": "a named storage location that can store changeable information, depending on conditions or on information passed to the program"
+  },
+  {
+    "answer": "assignment",
+    "question": "a statement that sets a value to a named variable"
+  },
+  {
+    "answer": "string",
+    "question": "a data type that stores a sequence of characters which could include letters, numbers, spaces, symbols and punctuation"
+  },
+  {
+    "answer": "int",
+    "question": "a data type that stores whole numbers with no fractional part."
+  },
+  {
+    "answer": "boolean",
+    "question": "a data type that stores one of two possible values: True or False"
+  },
+  {
+    "answer": "sprite",
+    "question": "an independent 2D graphic that can be given commands which define how it behaves"
+  },
+  {
+    "answer": "script",
+    "question": "a set of commands written by a programmer"
+  },
+  {
+    "answer": "control structure",
+    "question": "basic organizing systems for code which include iteration, selection, and sequencing."
+  },
+  {
+    "answer": "iteration",
+    "question": "also known as a loop, a control structure in which commands are repeated either a set number of times, until a boolean condition is met, or forever."
+  },
+  {
+    "answer": "loop",
+    "question": "also known as iteration, a control structure in which commands are repeated either a set number of times, until a boolean condition is met, or forever."
+  },
+  {
+    "answer": "selection",
+    "question": "also known as a conditional, a statement that uses a boolean condition to determine whether or not to run other statements. Usually an if-then statement."
+  },
+  {
+    "answer": "conditional",
+    "question": "also known as selection, a statement that uses a boolean condition to determine whether or not to run other statements. Usually an if-then statement."
+  },
+  {
+    "answer": "sequencing",
+    "question": "organizing commands in the correct order."
+  },
+  {
+    "answer": "event listener",
+    "question": "a script that does not run when the program is executed, but instead only occurs when a specific user input occurs. For example, when the space bar key is pressed."
+  },
+  {
+    "answer": "comparison operator",
+    "question": "one or more characters that examine two values and return either True or False. For example, greater than, less than, equal to, etc."
+  },
+  {
+    "answer": "equality operator",
+    "question": "returns True if the value on the left is equal to the value on the right, otherwise it returns False. In Python, it is the characters =="
+  },
+  {
+    "answer": "Scratch",
+    "question": "a block based programming language designed for students and created by the Lifelong Kindergarten Group at the MIT Media Lab. Rather than typing text based commands, programming mainly involves dragging blocks of instructions."
+  },
+  {
+    "answer": "MIT",
+    "question": "The Massachusetts Institute of Technology"
+  }
+]
