@@ -22,8 +22,20 @@ Sitemap
       {% endif %}
     </li>
   {% endfor %}
+  <li>WD</li>
+  {% for p in site.wd %}
+    <li>
+        <a href="{{site.baseurl}}{{p.url}}">{{p.url}}</a>
+    </li>
+  {% endfor %}
   <li>APCSP</li>
   {% for p in site.apcsp %}
+    <li>
+        <a href="{{site.baseurl}}{{p.url}}">{{p.url}}</a>
+    </li>
+  {% endfor %}
+  <li>GD</li>
+  {% for p in site.gd %}
     <li>
         <a href="{{site.baseurl}}{{p.url}}">{{p.url}}</a>
     </li>
