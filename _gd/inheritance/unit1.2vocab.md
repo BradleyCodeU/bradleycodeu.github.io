@@ -1,5 +1,8 @@
-object, class, constructor, getter, setter, method, mutator, accessor, instance, instanciate, argument, parameter, finite state machine, game state, edge case, encapsulation, specialization, polymorphism, new, this, instance variable
-abstraction, parent class, child class, subclass, super class, inheritance, containment, is-a, has-a, object-oriented programming, modulo, p5js, JavaScript, ES6
+---
+layout: project
+category: inheritance
+title: Unit 1.2 Vocab
+---
 
 p5js - a JavaScript library based on the Processing language that was created to make coding accessible for artists, designers, educators, and beginners
 
@@ -9,27 +12,31 @@ ES6 - also known as ECMAScript 6, ECMAScript 2015, or JavaScript 6 was finalized
 
 abstraction - representing essential features without including complex details. Allows programmers to implement efficient models of complicated real-world entities/items.
 
-parent class - also known as a superclass, a class from that can pass on its instance variable and methods to its children. More generic than it's child classes.
+parent class - also known as a superclass, a class that passes on its instance variables and methods to its children. More generic than it's child classes.
 
-superclass - also known as a parent class, a class from that can pass on its instance variable and methods to its children. More generic than it's child classes.
+superclass - also known as a parent class, a class that passes on its instance variables and methods to its children. More generic than it's child classes.
+
+extends - p5js keyword used when creating a child class
 
 child class - also known as a subclass, a class that contains all the features of the parent class, but may have new features added or redefine existing features. More specialized than the parent class.
 
 subclass - also known as a child class, a class that contains all the features of the parent class, but may have new features added or redefine existing features. More specialized than the parent class
 
-inheritance - the relationship in which one class is based on another class while passing on instance variable and methods
+super() - the p5js super class constructor. Used within the child class's constructor, it creates an object of the parent class
+
+inheritance - the relationship in which one class is based on another class while passing on instance variables and methods
 
 is-a - the relationship between parent and child classes. For example, if Vehicle is the parent class and Truck is the child class, then Truck _____ Vehicle
 
-containment - the relationship in which an object of one class includes an instance of an object from another class
+containment - the relationship in which an object of one class includes an instance of an object from another class. For example, the Robot class contains four Arm objects.
 
 has-a - the relationship where one object belongs to another object. For example, if a Radio object is an instance variable within the Truck class, then Truck _____ Radio
 
-modulo - a mathmatic operation that finds the remainder after division
+modulo - a mathematical operation that finds the remainder after division
 
-object-oriented programming - an approach to programming centered on modeling real-world entities with both attributes and behaviors. Its three pillars include encapsulation, inheritance, and polymorphism
+object-oriented programming - an approach to programming centered on simulating/modeling real-world entities with both attributes and behaviors. Its three pillars include encapsulation, inheritance, and polymorphism
 
-object - a data structure that contains attributes and behaviors. A software model representing an entity either physical (a box, a car, etc) or conceptual (a chemical process, a sale, driving directions, etc)
+object - a data structure that contains attributes and behaviors. A software simulation/model representing an entity either physical (a box, a car, etc) or conceptual (a chemical process, a sale, driving directions, etc)
 
 class - a blueprint for creating objects with common attributes and behaviors
 
@@ -70,4 +77,3 @@ edge case - a problem or situation that occurs at minimum and maximum values of 
 encapsulation -  the concept of combining data attributes and behaviors into one object
 
 polymorphism - being able to use objects from multiple classes in the same way because the classes use the same method names. For example, if all classes have a move method and a show method.
-
