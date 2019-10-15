@@ -15,10 +15,10 @@ Draw a bunch of your first drawing at random locations on 1/2 of the screen. Dra
 <tbody>
 <tr>
 <td>
-Ghost<br>Pumpkin<br>UFO<br>Bat<br>Crescent moon<br>Cloud<br>Candy<br>Kite<br>House
+Ghost<br>Pumpkin<br>UFO<br>Bat<br>Cloud<br>Candy<br>Kite<br>House
 </td>
 <td>
-Pepperoni Pizza<br>Music Note (8th note or smaller)<br>Gift with bow on top<br>Ms. Pac-man (aka Pacman with bow)<br>Heart<br>Hamburger<br>Stick Person
+Pepperoni Pizza<br>Music Note (8th note or smaller)<br>Gift with bow on top<br>Ms. Pac-man (aka Pacman with bow)<br>Heart<br>Hamburger<br>Stick Person<br>Crescent moon
 </td>
 <td>
 Cat face<br>Bunny face<br>Pair of cherries<br>Butterfly<br>Bunches of grapes<br>Umbrella<br>Spider<br>Mushroom<br>Sun
