@@ -96,15 +96,15 @@ Projects:
 
 1. [AboutMe](/apcsp/scratch/001AboutMe/)
 
-1. Either [BouncingOffTheWalls](/apcsp/scratch/002BouncingOffTheWalls/) or [StarHunter](/apcsp/scratch/003StarHunter/)
+1. Pick [BouncingOffTheWalls](/apcsp/scratch/002BouncingOffTheWalls/) or [StarHunter](/apcsp/scratch/003StarHunter/)
 
-1. Either [WalkingAndJumping](/apcsp/scratch/004WalkingAndJumping/) or [CheeseChase](/apcsp/scratch/005CheeseChase/)
+1. Pick [WalkingAndJumping](/apcsp/scratch/004WalkingAndJumping/) or [CheeseChase](/apcsp/scratch/005CheeseChase/)
 
 1. [ShapesAndInitials](/apcsp/scratch/007ShapesAndInitials/)
 
-1. Either [LauncherGame](/apcsp/scratch/006LauncherGame/) or [HungryBug](/apcsp/scratch/008HungryBug/) or [RacingGame](/apcsp/scratch/009RacingGame/)
+1. Pick [LauncherGame](/apcsp/scratch/006LauncherGame/) or [HungryBug](/apcsp/scratch/008HungryBug/) or [RacingGame](/apcsp/scratch/009RacingGame/)
 
-1. Either [QuestHealthGame](/apcsp/scratch/010QuestHealthGame/) or [ScratchPlatformer](/apcsp/scratch/102ScratchPlatformer/)
+1. Pick [QuestHealthGame](/apcsp/scratch/010QuestHealthGame/) or [ScratchPlatformer](/apcsp/scratch/102ScratchPlatformer/)
 
 1. Optional Bonus Points [ScratchFreedomOfChoice](/apcsp/scratch/011ScratchFreedomOfChoice/)
 "
@@ -129,9 +129,9 @@ Projects:
 
 1. [PyBuySellPhones](/apcsp/py/PyBuySellPhones/)
 
-1. Pair - Either [PyDollarConvert](/apcsp/py/108PyDollarConvert/) or [PyWeightOnPlanets](/apcsp/py/114PyWeightOnPlanets/)
+1. Pair - Pick [PyDollarConvert](/apcsp/py/108PyDollarConvert/) or [PyWeightOnPlanets](/apcsp/py/114PyWeightOnPlanets/)
 
-1. Pair - Either [Py2DGeometry](/apcsp/py/Py2DGeometry/) or [Py3DGeometry](/apcsp/py/112Py3DGeometry/)
+1. Pair - Pick [Py2DGeometry](/apcsp/py/Py2DGeometry/) or [Py3DGeometry](/apcsp/py/112Py3DGeometry/)
 
 1. [PyModuloFun](/apcsp/py/105PyModuloFun/)
 
@@ -139,7 +139,7 @@ Projects:
 
 1. *Create Practice 1* - Pair - [PyCreatePractice1](/apcsp/py/100PyCreatePractice1/)
 
-1. Pair - Either [PyParrotTrouble](/apcsp/py/104PyParrotTrouble/) or [PyThreeArgs](/apcsp/py/106PyThreeArgs/) or [PyCollisionFun](/apcsp/py/110PyCollisionFun/)
+1. Pair - Pick [PyParrotTrouble](/apcsp/py/104PyParrotTrouble/) or [PyThreeArgs](/apcsp/py/106PyThreeArgs/) or [PyCollisionFun](/apcsp/py/110PyCollisionFun/)
 "
 - title: binary
   heading: "# Binary"
@@ -220,13 +220,13 @@ Projects:
 
 1. Pair - [TrtSimpleDrawing](/apcsp/turtleart/012TurtleSimpleDrawing/)
 
-1. [TrtDrawingsAtRandomLocations](/apcsp/turtleart/025TurtleDrawingsAtRandomLocations/)
+1. [TrtRandomLocations](/apcsp/turtleart/025TurtleDrawingsAtRandomLocations/)
 
-1. Pair - Either [TrtBlockLetters](/apcsp/turtleart/026TurtleBlockLetters/) or [TrtPolygons](/apcsp/turtleart/013TurtlePolygons/)
+1. Pair - Pick [TrtBlockLetters](/apcsp/turtleart/026TurtleBlockLetters/) or [TrtPolygons](/apcsp/turtleart/013TurtlePolygons/)
 
 1. [TrtHowManySquares](/apcsp/turtleart/014TurtleHowManySquares/)
 
-1. Either [TrtRandomShapes](/apcsp/turtleart/015TurtleRandomShapes/) or [TrtMandalaArt](/apcsp/turtleart/018TurtleMandalaArt/)
+1. Pick [TrtRandomShapes](/apcsp/turtleart/015TurtleRandomShapes/) or [TrtMandalaArt](/apcsp/turtleart/018TurtleMandalaArt/)
 
 1. [TrtDrawingAlgorithm](/apcsp/turtleart/019TurtleDrawingAlgorithm/)
 
@@ -278,7 +278,7 @@ Projects:
 
 1. [ConRandomIntArray](/apcsp/console/103ConsoleRandomIntArray/)
 
-1. Pair - Either [ConTemps](/apcsp/console/022ConsoleTemps/) or [ConMultiChoiceQuizGame](/apcsp/console/024ConsoleMultiChoiceQuizGame/)
+1. Pair - Pick [ConTemps](/apcsp/console/022ConsoleTemps/) or [ConMultiChoiceQuizGame](/apcsp/console/024ConsoleMultiChoiceQuizGame/)
 
 1. [ConFillInTheBlankQuizGame](/apcsp/console/028ConsoleFillInTheBlankQuizGame/)
 
@@ -286,7 +286,7 @@ Projects:
 
 1. Pair - [Con2DGeometryCalculations](/apcsp/console/030Console2DGeometryCalculations/)
 
-1. Pair - Either [ConHourlyAndYearlyWages](/apcsp/console/031ConsoleHourlyAndYearlyWages/) or [ConTriviaHighLow](/apcsp/console/032ConsoleTriviaHighLow/)
+1. Pair - Pick [ConHourlyAndYearlyWages](/apcsp/console/031ConsoleHourlyAndYearlyWages/) or [ConTriviaHighLow](/apcsp/console/032ConsoleTriviaHighLow/)
 
 1. Pair - [ConPrintfLoops](/apcsp/console/101ConsolePrintfLoops/)
 
@@ -403,9 +403,9 @@ Projects:
 
 1. Pair - [TkPollv1.0](/apcsp/tk/047TkPollv1/)
 
-1. Pair - Either [TkAddressBook]() or [TkMenuOrder]()
+1. Pair - Pick [TkAddressBook]() or [TkMenuOrder]()
 
-1. Pair - Either [TkPollAverage]() or [TkMultiQuestion]()
+1. Pair - Pick [TkPollAverage]() or [TkMultiQuestion]()
 "
 - title: 4thquarter
   heading: "# 4th Quarter"
