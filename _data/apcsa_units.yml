@@ -130,10 +130,18 @@ Projects:
   content: "Vocab: object, accessor, mutator, method, constructor, new, API, naming convention, camelCase, PascalCase, comment
 
 
+Resources:
 
-1. [Ch2Exercises1-5-14](/apcsa/ch2usingobjects/ch2exercises1-5-14/)
+  - [Java Rectangle class API](https://docs.oracle.com/javase/7/docs/api/index.html?java/awt/Rectangle.html)
 
-1. [Ch2Projects2-3-5](/apcsa/ch2usingobjects/ch2projects2-3-5/)
+
+
+
+Projects:
+
+1. [Ch2Exercises1514](/apcsa/ch2usingobjects/ch2exercises1-5-14/)
+
+1. [Ch2Projects235](/apcsa/ch2usingobjects/ch2projects2-3-5/)
 
 1. [Ch2Project6](/apcsa/ch2usingobjects/ch2project6/)
 
@@ -143,7 +151,7 @@ Projects:
 
 1. [Ch2MethodMadness](/apcsa/ch2usingobjects/ch2methodmadness/)
 
-1. [Ch2ReviewCh1andCh2](/apcsa/ch2usingobjects/ch2reviewch1andch2/)
+1. [Ch2Review12](/apcsa/ch2usingobjects/ch2reviewch1andch2/)
 
 "
 
@@ -151,6 +159,16 @@ Projects:
   heading: "# Ch3 Implementing Classes"
   content: "
 
+
+Resources:
+
+  - [What is a Method Header?](https://www.leepoint.net/JavaBasics/methods/methods-20-define.html)
+
+  - [What is an Access Specifier?](https://www.geeksforgeeks.org/access-specifiers-for-classes-or-interfaces-in-java/)
+
+
+
+Projects:
 
 1. [Ch3ShoesClass](/apcsa/ch3implementingclasses/ch3shoes/)
 
