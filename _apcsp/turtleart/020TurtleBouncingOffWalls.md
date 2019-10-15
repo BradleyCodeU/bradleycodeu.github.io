@@ -5,12 +5,12 @@ title: Turtle Bouncing Off Walls
 ---
 For this project you will use some new commands:
 ```python
-while True:  # Creates a "forever" loop. Indent next line(s) to place them inside the loop
-xcor()       # Returns the x location of the turtle
-ycor()       # Returns the y location of the turtle
-towards(0,0) # Returns the angle between the line from turtle position to another position specified by (x,y) or another turtle
-setheading() # Rotate the turtle to a given angle argument. Common directions: 0 (east), 90 (north), 180 (west), 270 (south).
-# For example, setheading(90) will always point the turtle north.
+while True:   # Creates a "forever" loop. Indent next line(s) to place them inside the loop
+xcor()        # Returns the x location of the turtle
+ycor()        # Returns the y location of the turtle
+towards(0,0)  # Returns the angle from this turtle position to another position (x,y) or another turtle
+setheading(0) # Rotate turtle to an angle. Common directions: 0 (east), 90 (north), 180 (west), 270 (south).
+              # For example, setheading(90) will always point the turtle north.
 ```
 This project is the Python version of the Scratch Bouncing Off The Walls project. If you are using Mu, the "walls" are -450 and 450 horizontally and then -400 and 400 vertically. If you are using Trinket, the "walls" are -200 and 200 horizontally and then -200 and 200 vertically.
 

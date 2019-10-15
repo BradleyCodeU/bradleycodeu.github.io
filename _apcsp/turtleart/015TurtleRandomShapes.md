@@ -3,7 +3,7 @@ layout: project
 category: turtleart
 title: Turtle Random Shapes
 ---
-This exercise is all about using random numbers in Python. [https://www.pythonforbeginners.com/random/how-to-use-the-random-module-in-python]
+This exercise is all about using random numbers in Python. [https://www.pythonforbeginners.com/random/how-to-use-the-random-module-in-python](https://www.pythonforbeginners.com/random/how-to-use-the-random-module-in-python)
 
 Repeat these six steps 200 times.
 
