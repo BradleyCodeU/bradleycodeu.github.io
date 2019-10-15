@@ -203,7 +203,12 @@ Projects:
 
 - title: ch45-strings
   heading: "# Ch4.5 Strings"
-  content: "
+  content: "Resources:
+
+      - [String Methods tutorial](https://drive.google.com/open?id=1XZih87y10vIHvB68vk0CR5rVkYSgbCyi)
+
+
+Projects:
 
 1. [Ch45PhoneNumber](/apcsa/ch45strings/ch45phonenumber/)
 
