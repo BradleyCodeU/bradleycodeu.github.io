@@ -226,7 +226,7 @@ small.fine-print{
 .sticky {
   position: -webkit-sticky;
 	position: sticky;
-	top: 90;
+	top: 90 !important;
   /* padding: 0 15px; */
 }
 table{
