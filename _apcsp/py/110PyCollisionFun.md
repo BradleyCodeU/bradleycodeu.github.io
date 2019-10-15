@@ -25,6 +25,23 @@ areCirclesColliding(12,12,5,1,1,5) &rarr; False
 
 areCirclesColliding(-7,7,5,-1,1,5) &rarr; True
 
+Starter code:
+```python
+from tkinter import *
+
+# define your function here
+
+popup = Tk()
+output = areCirclesColliding(1,1,5,7,"7",5)
+Label(popup, text=str(output)).pack()
+output = areCirclesColliding(-1,1,5,"-12",12,5)
+Label(popup, text=str(output)).pack()
+output = areCirclesColliding(12,12,"5",1,1,5)
+Label(popup, text=str(output)).pack()
+output = areCirclesColliding(-7,"7",5,-1,1,5)
+Label(popup, text=str(output)).pack()
+```
+
 ## doesCircleContain
 
 Create a function that requires the following arguments: circleX, circleY, circleRadius, pointX, pointY. It *returns* True if the circle contains the point (pointX, pointY).
@@ -38,6 +55,23 @@ doesCircleContain(0,0,10,0,-9) &rarr; True
 doesCircleContain(0,0,10,999,999) &rarr; False
 
 doesCircleContain(0,0,10,0,999) &rarr; False
+
+Starter code:
+```python
+from tkinter import *
+
+# define your function here
+
+popup = Tk()
+output = doesCircleContain(0,0,10,"1",2)
+Label(popup, text=str(output)).pack()
+output = doesCircleContain(0,0,"10",0,-9)
+Label(popup, text=str(output)).pack()
+output = doesCircleContain(0,"0",10,999,999)
+Label(popup, text=str(output)).pack()
+output = doesCircleContain("0",0,10,0,999)
+Label(popup, text=str(output)).pack()
+```
 
 ## doesRectContain
 
@@ -53,6 +87,22 @@ doesRectContain(0,10,10,10,9,9) &rarr; True
 
 doesRectContain(0,10,10,10,-9,9) &rarr; False
 
+Starter code:
+```python
+from tkinter import *
+
+# define your function here
+
+popup = Tk()
+output = doesRectContain(0,10,10,10,"1",2)
+Label(popup, text=str(output)).pack()
+output = doesRectContain(0,10,10,"10",-1,-2)
+Label(popup, text=str(output)).pack()
+output = doesRectContain(0,10,"10",10,9,9)
+Label(popup, text=str(output)).pack()
+output = doesRectContain(0,"10",10,10,-9,9)
+Label(popup, text=str(output)).pack()
+```
 
 ## isTouching
 
@@ -67,3 +117,20 @@ isTouching(1,1,3,1,2) &rarr; True
 isTouching(-3,-1,-2,-1,2) &rarr; True
 
 isTouching(-4,-4,-1,-1,2) &rarr; False
+
+Starter code:
+```python
+from tkinter import *
+
+# define your function here
+
+popup = Tk()
+output = isTouching(1,1,3,"3",2)
+Label(popup, text=str(output)).pack()
+output = isTouching(1,1,"3",1,2)
+Label(popup, text=str(output)).pack()
+output = isTouching(-3,"-1",-2,-1,2)
+Label(popup, text=str(output)).pack()
+output = isTouching("-4",-4,-1,-1,2)
+Label(popup, text=str(output)).pack()
+```

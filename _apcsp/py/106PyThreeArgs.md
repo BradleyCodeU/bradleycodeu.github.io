@@ -32,13 +32,13 @@ from tkinter import *
 
 popup = Tk()
 output = giveSpeedingTicket(21, "20", True)
-Label(popup, text=output).pack()
+Label(popup, text=str(output)).pack()
 output = giveSpeedingTicket(19, 20, "True")
-Label(popup, text=output).pack()
+Label(popup, text=str(output)).pack()
 output = giveSpeedingTicket(999, "55", False)
-Label(popup, text=output).pack()
+Label(popup, text=str(output)).pack()
 output = giveSpeedingTicket("59", 55, False)
-Label(popup, text=output).pack()
+Label(popup, text=str(output)).pack()
 ```
 
 ## netPay
