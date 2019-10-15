@@ -1,6 +1,6 @@
 ---
 layout: project
-category: ch45strings
+category: ch45-strings
 title: Phone Number
 ---
 The following pseudocode describes how to turn a string containing a ten-digit phone number (such as 4155551212) into a more readable string with parentheses and dashes, like this: "(415) 555-1212".

@@ -1,6 +1,6 @@
 ---
 layout: project
-category: ch45strings
+category: ch45-strings
 title: Substring Replace
 ---
 Use these String methods to recreate the sample output:
