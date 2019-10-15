@@ -4,13 +4,9 @@ category: css
 title: Internal Links
 ---
 
-Internal links are used to allow readers to jump to specific parts of a Web page. You've probably used them on a Wikipedia page in order to jump to a section on a long page.
+Internal links are used to allow readers to jump to specific parts of a Web page. You've probably used them on a Wikipedia page in order to jump to a section on a long page. These internal links are useful if your webpage is very long.
 
-These internal links can be useful if your webpage is very long.
-
-To make an internal link, you must first create an id, and then add a link to it.
-
-When the link is clicked, the page will scroll to the location with the id.
+To make an internal link, you must first create an id, and then add a link to it. When the link is clicked, the page will scroll to the location with the id.
 
 First, create a "bookmark" by giving any HTML tag (heading, paragraph, image, etc) an id attribute.
 ```
