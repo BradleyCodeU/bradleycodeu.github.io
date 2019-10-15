@@ -8,7 +8,7 @@ title: Food Drive
 In this project you will learn how to create... *INTERNAL LINKS*
 
 Read these tutorial:
-  - [Internal Links](/wd\css\internallinks.md)
+  - [Internal Links](/wd\css\internallinks/)
   - [Mailto Links](https://www.w3docs.com/snippets/html/how-to-create-mailto-links.html)
   - [HTML Forms](https://www.w3schools.com/html/html_forms.asp)
   - [Internal Link To Top Of Page](https://www.yourhtmlsource.com/text/internallinks.html)
