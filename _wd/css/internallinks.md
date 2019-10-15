@@ -12,7 +12,7 @@ First, create a "bookmark" by giving any HTML tag (heading, paragraph, image, et
 ```
 <h2 id="C4">Chapter 4</h2>
 ```
-The id name can be anything that you want, but remember that each id name should be unique. In other words, you shouldn't have two HTML tags with the same id.
+The id name can be anything that you want, but remember that each id name should be ```UNIQUE```. In other words, you shouldn't have two HTML tags with the same id.
 
 Next, create a link to the bookmark from within the same page:
 ```
