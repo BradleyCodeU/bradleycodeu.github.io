@@ -217,6 +217,10 @@ pre{
   padding:5px 15px;
   border-radius: 10px;
 }
+.row{
+  margin-right:0 !important;
+  margin-left:0 !important;
+}
 section {
   padding: 25px 0px 35px 0px;
 }
@@ -260,7 +264,7 @@ td{
     font-size:2rem!important;
   }
   pre,code{
-    font-size: .7rem !important;
+    font-size: .65rem !important;
     white-space:pre-wrap!important;
   }
 }
@@ -273,7 +277,7 @@ td{
     font-size:3rem;
   }
   pre,code{
-    font-size: .9rem !important;
+    font-size: .85rem !important;
     white-space:pre-wrap!important;
   }
   /* pre{
