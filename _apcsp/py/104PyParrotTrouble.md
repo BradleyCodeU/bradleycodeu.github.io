@@ -3,38 +3,48 @@ layout: project
 category: py
 title: Parrot Trouble
 ---
-In this project you will use random ints, integer conversion, if and else, and logical operators
+In this project you will use integer conversion, if and else, and logical operators
 
 We own a loud squawking parrot. A new noise ordinance prohibits noise louder than 55 decibels from 10 p.m. to 7:30 a.m. AND noise louder than 75 decibels during all hours of the day.
 
+Create a function called isVolumeAboveLimit. It requires two arguments: volume and limit. It returns either True if the volume is above the limit, otherwise it returns False.
 
-Create a function called randomVolume that:
-- generates a random integer between 0 and 100
-- sets the text from volumeLabel, like this: ```volumeLabel['text'] = 5```
+Create a function called isNight. It requires one argument: militarytime. It returns True if the time (in military time, 1300 means 1 p.m.) is after 10pm or the time is before 7:30am, otherwise it returns False.
 
-Create a function called isVolumeAboveLimit. It requires two parameters: volume and limit. It returns either True if the volume is above the limit, otherwise it returns False.
-
-Create a function called isNight. It requires one parameter: time. It returns True if the time (in military time format) is after 10pm or the time is before 7:30am, otherwise it returns False.
-
-Create a function called buttonPress that
-- gets the text from volumeLabel, like this: ```volumeLabel.cget("text")``` and save it in a volume variable
-- convert the volume variable to a number
-- if isVolumeAboveLimit(volume,75)
-  - create a popup that says "Quiet down! You are much too loud!"
-  - return
-- get the current time from timeEntry, like this: timeEntry.get() and save it in a time variable
-- convert the time variable to a number
-- if isNight and isVolumeAboveLimit(volume,55)
-  - create a popup that says "Shhhhh! People are trying to sleep"
-  - return
+Create a function called parrotTrouble that requires two arguments: volume and militarytime
+- convert the volume to a number
+- convert the militarytime to a number
+- if isVolumeAboveLimit with a limit of 75
+  - return "Quiet down! You are much too loud!"
+- if isNight and isVolumeAboveLimit with a limit of 55
+  - return "Shhhhh! People are trying to sleep"
 - else
-  - create a popup that says "Good bird. Polly want a cracker?"
-  - return
+  - return "Good bird. Polly want a cracker?"
 
-Create a Python Tkinter app with:
-- a Label that says "Parrot Volume (in decibels)"
-- a variable named volumeLabel that is assigned a Label that says "0" at first (NOTE: you will need to pack() on the next line with volumeLabel.pack())
-- a Button with the text "Random" that runs a function called randomVolume
-- a Label that says "Current Time (military time, 1:30pm = 1330)"
-- a variable named timeEntry that is assigned an Entry for the current time
-- a Button with the text "Submit" that runs a function called buttonPress
+
+  Input &rarr; Output
+
+  parrotTrouble("55","200") &rarr; "Good bird. Polly want a cracker?"
+
+  parrotTrouble("99","1200") &rarr; "Quiet down! You are much too loud!"
+
+  parrotTrouble("75","1200") &rarr; "Good bird. Polly want a cracker?"
+
+  parrotTrouble("57","2300") &rarr; "Shhhhh! People are trying to sleep"
+
+  Starter code:
+  ```python
+  from tkinter import *
+
+  # define your function here
+
+  popup = Tk()
+  output = parrotTrouble("55","200")
+  Label(popup, text=output).pack()
+  output = parrotTrouble("99","1200")
+  Label(popup, text=output).pack()
+  output = parrotTrouble("75","1200")
+  Label(popup, text=output).pack()
+  output = parrotTrouble("57","2300")
+  Label(popup, text=output).pack()
+  ```
