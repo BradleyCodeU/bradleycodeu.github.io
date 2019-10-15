@@ -22,7 +22,7 @@ Create a function called parrotTrouble that requires two arguments: volume and m
   - return "Good bird. Polly want a cracker?"
 
 
-Input &rarr; Output
+### Input &rarr; Output
 
 parrotTrouble("55","200") &rarr; "Good bird. Polly want a cracker?"
 
