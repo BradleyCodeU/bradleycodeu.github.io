@@ -7,12 +7,14 @@ Use the following basic commands (in any order/combination)
 ```python
 from turtle import *
 tracer(0)
+Turtle()
 penup()
 goto()
 pendown()
 forward()
 left()
 right()
+update()
 ```
 Create one simple turtle art drawing:
 <table style="border-collapse: collapse; width: 100%;" border="1">
