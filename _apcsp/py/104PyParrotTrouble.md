@@ -22,29 +22,29 @@ Create a function called parrotTrouble that requires two arguments: volume and m
   - return "Good bird. Polly want a cracker?"
 
 
-  Input &rarr; Output
+Input &rarr; Output
 
-  parrotTrouble("55","200") &rarr; "Good bird. Polly want a cracker?"
+parrotTrouble("55","200") &rarr; "Good bird. Polly want a cracker?"
 
-  parrotTrouble("99","1200") &rarr; "Quiet down! You are much too loud!"
+parrotTrouble("99","1200") &rarr; "Quiet down! You are much too loud!"
 
-  parrotTrouble("75","1200") &rarr; "Good bird. Polly want a cracker?"
+parrotTrouble("75","1200") &rarr; "Good bird. Polly want a cracker?"
 
-  parrotTrouble("57","2300") &rarr; "Shhhhh! People are trying to sleep"
+parrotTrouble("57","2300") &rarr; "Shhhhh! People are trying to sleep"
 
-  Starter code:
-  ```python
-  from tkinter import *
+Starter code:
+```python
+from tkinter import *
 
-  # define your function here
+# define your function here
 
-  popup = Tk()
-  output = parrotTrouble("55","200")
-  Label(popup, text=output).pack()
-  output = parrotTrouble("99","1200")
-  Label(popup, text=output).pack()
-  output = parrotTrouble("75","1200")
-  Label(popup, text=output).pack()
-  output = parrotTrouble("57","2300")
-  Label(popup, text=output).pack()
-  ```
+popup = Tk()
+output = parrotTrouble("55","200")
+Label(popup, text=output).pack()
+output = parrotTrouble("99","1200")
+Label(popup, text=output).pack()
+output = parrotTrouble("75","1200")
+Label(popup, text=output).pack()
+output = parrotTrouble("57","2300")
+Label(popup, text=output).pack()
+```
