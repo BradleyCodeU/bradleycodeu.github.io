@@ -236,6 +236,12 @@ section {
 small.fine-print{
   font-size:60% !important;
 }
+.sticky {
+  position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+  /* padding: 0 15px; */
+}
 table{
   margin-bottom: 15px;
 }
