@@ -4,9 +4,9 @@ category: py
 title: Three Args
 ---
 Pick 2:
-- [giveSpeedingTicket](#giveSpeedingTicket)
-- [netPay](#netPay)
-- [employeeSalesBonus](#employeeSalesBonus)
+- [giveSpeedingTicket](#givespeedingticket)
+- [netPay](#netpay)
+- [employeeSalesBonus](#employeesalesbonus)
 
 
 ## giveSpeedingTicket

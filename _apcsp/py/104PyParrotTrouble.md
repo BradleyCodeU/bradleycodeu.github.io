@@ -14,12 +14,9 @@ Create a function called isNight. It requires one argument: militarytime. It ret
 Create a function called parrotTrouble that requires two arguments: volume and militarytime
 - convert the volume to a number
 - convert the militarytime to a number
-- if isVolumeAboveLimit with a limit of 75
-  - return "Quiet down! You are much too loud!"
-- if isNight and isVolumeAboveLimit with a limit of 55
-  - return "Shhhhh! People are trying to sleep"
-- else
-  - return "Good bird. Polly want a cracker?"
+- if isVolumeAboveLimit with a limit of 75 then return "Quiet down! You are much too loud!"
+- if isNight and isVolumeAboveLimit with a limit of 55 then return "Shhhhh! People are trying to sleep"
+- otherwise return "Good bird. Polly want a cracker?"
 
 
 ### Input &rarr; Output
