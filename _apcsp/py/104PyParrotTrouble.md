@@ -44,4 +44,5 @@ output = parrotTrouble("75","1200")
 Label(popup, text=output).pack()
 output = parrotTrouble("57","2300")
 Label(popup, text=output).pack()
+mainloop()
 ```

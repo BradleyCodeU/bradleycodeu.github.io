@@ -40,6 +40,7 @@ output = areCirclesColliding(12,12,"5",1,1,5)
 Label(popup, text=str(output)).pack()
 output = areCirclesColliding(-7,"7",5,-1,1,5)
 Label(popup, text=str(output)).pack()
+mainloop()
 ```
 
 ## doesCircleContain
@@ -71,6 +72,7 @@ output = doesCircleContain(0,"0",10,999,999)
 Label(popup, text=str(output)).pack()
 output = doesCircleContain("0",0,10,0,999)
 Label(popup, text=str(output)).pack()
+mainloop()
 ```
 
 ## doesRectContain
@@ -102,6 +104,7 @@ output = doesRectContain(0,10,"10",10,9,9)
 Label(popup, text=str(output)).pack()
 output = doesRectContain(0,"10",10,10,-9,9)
 Label(popup, text=str(output)).pack()
+mainloop()
 ```
 
 ## isTouching
@@ -133,4 +136,5 @@ output = isTouching(-3,"-1",-2,-1,2)
 Label(popup, text=str(output)).pack()
 output = isTouching("-4",-4,-1,-1,2)
 Label(popup, text=str(output)).pack()
+mainloop()
 ```

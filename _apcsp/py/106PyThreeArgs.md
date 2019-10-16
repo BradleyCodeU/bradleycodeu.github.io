@@ -39,6 +39,7 @@ output = giveSpeedingTicket(999, "55", False)
 Label(popup, text=str(output)).pack()
 output = giveSpeedingTicket("59", 55, False)
 Label(popup, text=str(output)).pack()
+mainloop()
 ```
 
 ## netPay
@@ -66,6 +67,7 @@ output = netPay(10, "50", 0.05)
 Label(popup, text=output).pack()
 output = netPay(10, 60, "0.05")
 Label(popup, text=output).pack()
+mainloop()
 ```
 
 ## employeeSalesBonus
@@ -93,4 +95,5 @@ output = employeeSalesBonus(10, "50", 500)
 Label(popup, text=output).pack()
 output = employeeSalesBonus("10", 60, 500)
 Label(popup, text=output).pack()
+mainloop()
 ```
