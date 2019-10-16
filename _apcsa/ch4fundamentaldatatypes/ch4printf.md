@@ -16,14 +16,14 @@ x =      27.50 and y =      33.80
 ```
 To display aligned in columns, it would be *annoying* to guess number of spaces to align the rows properly. The length of the area reserved for the data is known as the ```FIELD WIDTH```. Specify the field width by inserting a number between the % sign and the type character (f, d, s, etc). The appropriate number of spaces are reserved for the data and the data is right justified. To left justify the data, place a negative sign before the number. Field width can be specified for any data type.
 ```
-String name1="Adam";
-String name2="Barbara";
-int grade1=100;
-int grade2=99;
-System.out.format("%-10s=%4d\n",name1,grade1);
-System.out.format("%-10s=%4d\n",name2,grade2);
-System.out.format("%-10s=%4f\n","Carol",90.5); // use type character f for double/float
-System.out.format("%-10s %4d\n","1234567890",1234);
+String name1 = "Adam";
+String name2 = "Barbara";
+int grade1 = 100;
+int grade2 = 99;
+System.out.format("%-10s=%4d\n", name1, grade1);
+System.out.format("%-10s=%4d\n", name2, grade2);
+System.out.format("%-10s=%4f\n", "Carol", 90.5); // use type character f for double/float
+System.out.format("%-10s %4d\n", "1234567890", 1234);
 ```
 will output...
 ```
