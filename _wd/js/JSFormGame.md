@@ -5,7 +5,7 @@ title: JS Form Game
 ---
 Create four trivia questions.
 
-Q1 uses a <select> drop-down list.
+Q1 uses a select drop-down list.
  [https://www.w3schools.com/tags/tag_select.asp](https://www.w3schools.com/tags/tag_select.asp) Give select the onchange= attribute:
 ```
 onchange="checkAnswer1()"
