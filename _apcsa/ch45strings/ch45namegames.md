@@ -21,7 +21,7 @@ Try running your code with a different variety of inputs. What happens if you ju
 
 You MUST also complete one or more of the challenges:
 
-  - CHALLENGE 1: Prompt for the user's last name, then automatically generate 10 suggested usernames for that person. For example... jriley, rileyj, juriley, rileyju, justinr, justinri, jr3487, etc
+  - CHALLENGE 1: Prompt for the user's last name, then randomly generate 10 suggested usernames for that person. For example... jriley, rileyj, juriley, rileyju, justinr, justinri, jr3487, etc
 
   - CHALLENGE 2: Write cava jode... I mean, java code... that will prompt for the user's nast lame... I mean, last name... then generate a Spoonerism using their first and last name [https://en.wikipedia.org/wiki/Spoonerism](https://en.wikipedia.org/wiki/Spoonerism)
 
