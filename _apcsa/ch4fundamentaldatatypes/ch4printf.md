@@ -23,14 +23,16 @@ int grade2 = 99;
 System.out.format("%-10s=%4d\n", name1, grade1);
 System.out.format("%-10s=%4d\n", name2, grade2);
 System.out.format("%-10s=%4f\n", "Carol", 90.5); // use type character f for double/float
-System.out.format("%-10s %4d\n", "1234567890", 1234);
+System.out.format("%-10s %4s\n", "└┄┄┄┄┄┬┄┄┘", "└┄┬┘");
+System.out.format("%-10s %4s\n", "width 10", "and4");
 ```
 will output...
 ```
 Adam      = 100
 Barbara   =  99
 Carol     =90.5
-1234567890 1234
+└┄┄┄┄┄┬┄┄┘ └┄┬┘
+width 10   and4
 ```
 
 
