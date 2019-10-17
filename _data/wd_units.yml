@@ -186,7 +186,7 @@ Projects:
   content: "[2nd Quarter](#2nd-quarter)
 
 
-1. **[Javascript](#javascript)**
+1. **[JS](#js)**
 
 1. **[p5js](#p5js)**
 
@@ -194,7 +194,7 @@ Projects:
 "
 
 - title: js
-  heading: "# Javascript"
+  heading: "# JS"
   content: "*5 weeks*
 
 1. [Club Page v1](/wd/js/JSClubPagev1/)
@@ -218,11 +218,13 @@ Projects:
   heading: "# p5js"
   content: "*4 weeks*
 
-1. [KhanAcademy Drawing With Code Challenges]
+1. [KhanAcademy Drawing With Code](/wd/p5js/KADrawingWithCode/)
 
-1. [P5 Mouse Mover]
+1. [P5 Mouse Mover](/wd/p5js/P5MouseMover/)
 
-1. [P5 Bubble Game v1]
+1. [SoloLearn JS 2](/wd/p5js/SoloLearnJS2/)
+
+1. [P5 Bubble Game v1](/wd/p5js/P5BubbleGamev1/)
 
 "
 - title: 3rdquarter
