@@ -15,16 +15,16 @@ Draw a bunch of your first drawing at random locations on 1/2 of the screen. Dra
 <tbody>
 <tr>
 <td>
-Ghost<br>Pumpkin<br>UFO<br>Bat<br>Cloud<br>Candy<br>Kite<br>House
+Ghost<br>Pumpkin<br>UFO<br>Bat<br>Cloud<br>Candy<br>Kite<br>House<br>Tree
 </td>
 <td>
-Pepperoni Pizza<br>Music Note (8th note or smaller)<br>Gift with bow on top<br>Ms. Pac-man (aka Pacman with bow)<br>Heart<br>Hamburger<br>Stick Person<br>Crescent moon
+Pepperoni Pizza<br>Music Note (8th note or smaller)<br>Gift w/ bow on top<br>Ms. Pac-man (aka Pacman w/ bow)<br>Pair of cherries<br>Hamburger<br>Stick Person<br>Crescent moon<br>Bunches of grapes
 </td>
 <td>
-Cat face<br>Bunny face<br>Pair of cherries<br>Butterfly<br>Bunches of grapes<br>Umbrella<br>Spider<br>Mushroom<br>Sun
+Heart<br>Cat face<br>Bunny face<br>Butterfly<br>Triforce<br>Umbrella<br>Spider<br>Mushroom<br>Sun
 </td>
 <td>
-Car or Truck<br>Flower<br>Tree<br>Peace sign<br>Dollar sign<br>Snowman<br>Block letter B<br>3D Cheese Wedge<br>3D Cube
+Car or Truck<br>Flower<br>Peace sign<br>Dollar sign<br>Snowman<br>Block letter B<br>Bubble letter B<br>3D Cheese Wedge<br>3D Cube
 </td>
 </tr>
 </tbody>
