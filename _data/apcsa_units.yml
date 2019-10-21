@@ -90,6 +90,8 @@ References:
 
 1. **[Ch3 Implementing Classes](#ch3-implementing-classes)**
 
+1. **[Ch4 Fundamental Data Types](#ch4-fundamental-data-types)**
+
 "
 - title: ch1-introduction
   heading: "# Ch1 Introduction"
@@ -183,41 +185,6 @@ Projects:
 
 "
 
-
-
-
-- title: 2ndquarter
-  heading: "# 2nd Quarter"
-  content: "
-“Commenting your code is like cleaning your bathroom — you never want to do it, but it really does create a more pleasant experience for you and your guests.”
-
-
-*—Ryan Campbell*
-
-
-“Making the simple complicated is commonplace; making the complicated simple, awesomely simple, that's creativity.”
-
-
-*—Charles Mingus*
-"
-- title: menu2
-  content: "
-[2nd Quarter](#2nd-quarter)
-
-1. **[Ch4 Fundamental Data Types](#ch4-fundamental-data-types)**
-
-1. **[Ch4.5 Strings](#ch45-strings)**
-
-1. **[Ch5 Decisions](#ch5-decisions)**
-
-1. **[Ch5.7 Short-Circuit Evaluation and De Morgan's Law](#ch57-short-circuit-evaluation)**
-
-1. **[Ch6 Loops](#ch6-loops)**
-
-1. **[Ch7 Arrays and Array Lists](#ch7-arrays-and-array-lists)**
-
-"
-
 - title: ch4-fundamental-data-types
   heading: "# Ch4 Fundamental Data Types"
   content: "
@@ -250,6 +217,39 @@ Projects:
   1. [Ch4ReviewSheet](/apcsa/ch4fundamentaldatatypes/ch4reviewsheet/)
 
 "
+
+
+- title: 2ndquarter
+  heading: "# 2nd Quarter"
+  content: "
+“Commenting your code is like cleaning your bathroom — you never want to do it, but it really does create a more pleasant experience for you and your guests.”
+
+
+*—Ryan Campbell*
+
+
+“Making the simple complicated is commonplace; making the complicated simple, awesomely simple, that's creativity.”
+
+
+*—Charles Mingus*
+"
+- title: menu2
+  content: "
+[2nd Quarter](#2nd-quarter)
+
+1. **[Ch4.5 Strings](#ch45-strings)**
+
+1. **[Ch5 Decisions](#ch5-decisions)**
+
+1. **[Ch5.7 Short-Circuit Evaluation and De Morgan's Law](#ch57-short-circuit-evaluation)**
+
+1. **[Ch6 Loops](#ch6-loops)**
+
+1. **[Ch7 Arrays and Array Lists](#ch7-arrays-and-array-lists)**
+
+"
+
+
 
 - title: ch45-strings
   heading: "# Ch4.5 Strings"
