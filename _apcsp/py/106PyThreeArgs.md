@@ -7,6 +7,7 @@ Pick 2:
 - [giveSpeedingTicket](#givespeedingticket)
 - [netPay](#netpay)
 - [employeeSalesBonus](#employeesalesbonus)
+- [parrotTrouble](#parrottrouble)
 
 
 ## giveSpeedingTicket
@@ -94,6 +95,60 @@ Label(popup, text=output).pack()
 output = employeeSalesBonus(10, "50", 500)
 Label(popup, text=output).pack()
 output = employeeSalesBonus("10", 60, 500)
+Label(popup, text=output).pack()
+mainloop()
+```
+
+### parrotTrouble
+
+We own a loud squawking parrot. A noise ordinance prohibits noise louder than 45 decibels from 10 p.m. to 7:30 a.m. on school nights, prohibits noise louder than 60 decibels 10pm-7:30am on non-school nights, AND no noise louder than 75 decibels at ANY time.
+
+Create a function called isVolumeAboveLimit. It requires two arguments: volume and limit. It returns either True if the volume is above the limit, otherwise it returns False.
+
+Create a function called isNight. It requires one argument: militaryTime. It returns True if the time (in military time, 1300 means 1 p.m.) is after 10pm or the time is before 7:30am, otherwise it returns False.
+
+Create a function called parrotTrouble that requires three arguments: volume, militaryTime, and schoolTomorrow
+- convert the volume to a number
+- convert the militaryTime to a number
+- convert schoolTomorrow to a boolean
+- if isVolumeAboveLimit with a limit of 75 then return "Quiet down! You are much too loud!"
+- if isNight and schoolTomorrow and isVolumeAboveLimit with a limit of 45 then return "Shhhhh! Children have school in the morning!"
+- if isNight and schoolTomorrow is False and isVolumeAboveLimit with a limit of 60 then return "Shhhhh! I'm trying to sleep!"
+- otherwise return "Good bird. Polly want a cracker?"
+
+
+### Input &rarr; Output
+
+parrotTrouble("55","200",False) &rarr; "Good bird. Polly want a cracker?"
+
+parrotTrouble("99","1200","False") &rarr; "Quiet down! You are much too loud!"
+
+parrotTrouble("45","2300",True) &rarr; "Good bird. Polly want a cracker?"
+
+parrotTrouble("60","2300","False") &rarr; "Good bird. Polly want a cracker?"
+
+parrotTrouble("61","2300",True) &rarr; "Shhhhh! Children have school in the morning!"
+
+parrotTrouble("61","2300","False") &rarr; "Shhhhh! I'm trying to sleep!"
+
+Starter code:
+```python
+from tkinter import *
+
+# define your functions here
+
+popup = Tk()
+output = parrotTrouble("55","200",False)
+Label(popup, text=output).pack()
+output = parrotTrouble("99","1200","False")
+Label(popup, text=output).pack()
+output = parrotTrouble("45","2300",True)
+Label(popup, text=output).pack()
+output = parrotTrouble("60","2300","False")
+Label(popup, text=output).pack()
+output = parrotTrouble("61","2300",True)
+Label(popup, text=output).pack()
+output = parrotTrouble("61","2300","False")
 Label(popup, text=output).pack()
 mainloop()
 ```
