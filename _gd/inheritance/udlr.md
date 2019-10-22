@@ -1,7 +1,7 @@
 ---
 layout: project
 category: inheritance
-title: UDLR
+title: UDLR v2
 ---
 
 Watch this tutorial [Coding Train 16.17: Inheritance in JavaScript](https://drive.google.com/file/d/1f31Hv4RS_QHj-aPZUUjJyY07w8wgRcUg/view?usp=sharing)
