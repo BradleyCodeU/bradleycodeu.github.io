@@ -5,7 +5,27 @@ title: Ch4 Modulus Clock
 ---
 Create a program that uses integer division and modulus division to calculate the [MILITARY TIME](https://en.wikipedia.org/wiki/24-hour_clock) after a specified number of hours and minutes.
 
-Review the example on Big Java pg 138 about converting pennies to dollars using / and %.
+Review the example on Big Java pg 138 about converting pennies to dollars using / and %. The % operator returns the remainder of two numbers. It is useful for detecting even/odd numbers (like to make striped patterns), for restricting a value to a range (like to wrapping an animated ball around the screen), or for converting one unit to another.
+
+Integer division returns the result of division rounded down. It is useful for conversions.
+
+I will demonstrate how to convert square feet to acres. 43560 sq ft = 1 acre. Let's first calculate how many COMPLETE acres we have...
+```java
+int totalSqFt = 99999;
+
+int acres = totalSqFt / 43560; // integer division gives the number of whole acres
+```
+Next, how many REMAINING sq ft are left...
+```java
+int remainingSqFt = totalSqFt % 43560; // modulus gives the remaining sq ft
+
+System.out.printf("%-10s%10d", "Acres:", acres);
+System.out.println();
+System.out.printf("%-10s%10d", "Sq Ft:", remainingSqFt);
+System.out.println();
+```
+
+You will create a program that uses integer division and modulus to calculate the [MILITARY TIME](https://en.wikipedia.org/wiki/24-hour_clock) after a specified number of hours and minutes.
 
   - DO NOT worry about am or pm because this is a 24-hour clock, [Military Time](https://en.wikipedia.org/wiki/24-hour_clock), in which the first minute of the day is 0:00 and the last minute of the day is 23:59
 
