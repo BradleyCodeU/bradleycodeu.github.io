@@ -125,21 +125,25 @@ Resources:
 
 Projects:
 
-1. [PyValidNumber](/apcsp/py/111PyValidNumber/)
-
 1. [PyBuySellPhones](/apcsp/py/PyBuySellPhones/)
 
+1. [PyMathFun](/apcsp/py/PyMathFun/)
+
+1. [PyCallFun](/apcsp/py/PyCallFun/)
+
+1. [PyValidNumber](/apcsp/py/111PyValidNumber/)
+
 1. Pair - Pick [PyDollarConvert](/apcsp/py/108PyDollarConvert/) or [PyWeightOnPlanets](/apcsp/py/114PyWeightOnPlanets/)
-
-1. Pair - Pick [Py2DGeometry](/apcsp/py/Py2DGeometry/) or [Py3DGeometry](/apcsp/py/112Py3DGeometry/)
-
-1. [PyModuloFun](/apcsp/py/105PyModuloFun/)
 
 1. Pair - [PyHogwartsHouse](/apcsp/py/109PyHogwartsHouse/)
 
 1. *Create Practice 1* - Pair - [PyCreatePractice1](/apcsp/py/100PyCreatePractice1/)
 
-1. Pair - Pick [PyParrotTrouble](/apcsp/py/104PyParrotTrouble/) or [PyThreeArgs](/apcsp/py/106PyThreeArgs/) or [PyCollisionFun](/apcsp/py/110PyCollisionFun/)
+1. Pair - Pick [Py2DGeometry](/apcsp/py/Py2DGeometry/) or [Py3DGeometry](/apcsp/py/112Py3DGeometry/)
+
+1. [PyModuloFun](/apcsp/py/105PyModuloFun/)
+
+1. Pair - Pick [PyThreeArgs](/apcsp/py/106PyThreeArgs/) or [PyCollisionFun](/apcsp/py/110PyCollisionFun/)
 "
 - title: binary
   heading: "# Binary"
