@@ -8,8 +8,7 @@ Watch this tutorial [Coding Train 16.17: Inheritance in JavaScript](https://driv
 
 Create an RPG-style game with Up/Down/Left/Right controls.
 
-
-Create a player class. The player must have 2 or more states (for example, "standing" and "walking"). Animate the walking state by alternating 2 or more images. Use scale(this.direction,1) to flip the image. Use Up/Down/Left/Right to control the player.
+In the Player class, the player must have 2 or more states (for example, "standing" and "walking"). Animate the walking state by alternating 2 or more images. Use scale(this.direction,1) to flip the image. Use Up/Down/Left/Right to control the player.
 
 Must have collectibles and enemies. Collectibles are good and enemies are bad. There are lots of possible games that could be created. Here are some examples...
 
@@ -26,11 +25,12 @@ Here is the complete list of features that your finished game MUST have:
   - Lose screen
   - a timer ([https://www.w3schools.com/jsref/met_win_setinterval.asp](https://www.w3schools.com/jsref/met_win_setinterval.asp))
   - display the score, and the timer ([https://p5js.org/reference/#/p5/text](https://p5js.org/reference/#/p5/text))
-  - a player class with 2+ states, walking animation, scale(this.direction,1) to flip the image, UDLR controls.
-  - a collectible class (for example: coins, seeds, jellyfish)
-  - an enemy class (for example: Koopas, crows, Hash Slinging Slashers)
+  - a Sprite class
+  - a Collectible class (extends Sprite) *OR* just use the Sprite class. For example: coins, seeds, jellyfish
+  - a Player class (extends Sprite) with 2+ states, walking animation, scale(this.direction,1) to flip the image, UDLR controls.
+  - an Enemy class (extends Sprite). For example: Koopas, crows, Hash Slinging Slashers
   - all classes must be stored in separate files
-  - 5 or more images ([https://p5js.org/reference/#/p5/image](https://p5js.org/reference/#/p5/image)): 2+ images for player animation, collectibles, enemies, AND a background image that fills the entire screen
+  - 5 or more images ([https://p5js.org/reference/#/p5/image](https://p5js.org/reference/#/p5/image)): 2+ images for player animation, collectible image, enemy image, AND a background image that fills the entire screen
   - Background music
   - three or more sound effects
 

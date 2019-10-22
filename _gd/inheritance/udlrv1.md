@@ -8,9 +8,9 @@ Watch this tutorial [Coding Train 16.17: Inheritance in JavaScript](https://driv
 
 Create an RPG-style game with Up/Down/Left/Right controls and collectables.
 
-Create a sprite class.
+Create a Sprite class.
 
-Create a player class that EXTENDS THE SPRITE CLASS. The player must have 2 or more states (for example, "standing" and "walking"). Animate the walking state by alternating 2 or more images.
+Create a Player class that EXTENDS THE SPRITE CLASS. The player must have 2 or more states (for example, "standing" and "walking"). Animate the walking state by alternating 2 or more images.
 ```
 update(){
   if (this.state == "standing"){
@@ -31,10 +31,10 @@ Here is the complete list of features that your finished game MUST have:
   - Title screen
   - Ingame game state
   - Win screen (collect all of the collectables to win)
-  - a sprite class for collectables (for example: coins, mushrooms, rings, jellyfish, etc)
-  - a player class with 2+ states, walking animation, UDLR controls.
+  - a Sprite class for collectables (for example: coins, mushrooms, rings, jellyfish, etc)
+  - a Player class (that extends Sprite) with 2+ states, walking animation, UDLR controls.
   - all classes must be stored in separate files
-  - 4 or more images ([https://p5js.org/reference/#/p5/image](https://p5js.org/reference/#/p5/image)): 2+ images for player animation, collectibles, AND a background image that fills the entire screen
+  - 4 or more images ([https://p5js.org/reference/#/p5/image](https://p5js.org/reference/#/p5/image)): 2+ images for player animation, collectible image, AND a background image that fills the entire screen
   - Background music
   - three or more sound effects
 
