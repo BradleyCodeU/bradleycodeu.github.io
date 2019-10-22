@@ -131,19 +131,19 @@ Projects:
 
 1. [PyCallFun](/apcsp/py/PyCallFun/)
 
-1. [PyValidNumber](/apcsp/py/111PyValidNumber/)
+1. Pair-[PyValidNumber](/apcsp/py/111PyValidNumber/)
 
-1. Pair - Pick [PyDollarConvert](/apcsp/py/108PyDollarConvert/) or [PyWeightOnPlanets](/apcsp/py/114PyWeightOnPlanets/)
+1. Pair-Pick-[PyDollarConvert](/apcsp/py/108PyDollarConvert/) or [PyWeightOnPlanets](/apcsp/py/114PyWeightOnPlanets/)
 
-1. Pair - [PyHogwartsHouse](/apcsp/py/109PyHogwartsHouse/)
+1. Pair-[PyHogwartsHouse](/apcsp/py/109PyHogwartsHouse/)
 
-1. *Create Practice 1* - Pair - [PyCreatePractice1](/apcsp/py/100PyCreatePractice1/)
+1. *Create Practice 1* - Pair-[PyCreatePractice1](/apcsp/py/100PyCreatePractice1/)
 
-1. Pair - Pick [Py2DGeometry](/apcsp/py/Py2DGeometry/) or [Py3DGeometry](/apcsp/py/112Py3DGeometry/)
+1. Pair-Pick-[Py2DGeometry](/apcsp/py/Py2DGeometry/) or [Py3DGeometry](/apcsp/py/112Py3DGeometry/)
 
 1. [PyModuloFun](/apcsp/py/105PyModuloFun/)
 
-1. Pair - Pick [PyThreeArgs](/apcsp/py/106PyThreeArgs/) or [PyCollisionFun](/apcsp/py/110PyCollisionFun/)
+1. Pair-Pick-[PyThreeArgs](/apcsp/py/106PyThreeArgs/) or [PyCollisionFun](/apcsp/py/110PyCollisionFun/)
 "
 - title: binary
   heading: "# Binary"
@@ -168,15 +168,15 @@ Resources:
 
 Projects:
 
-1. Pair - [CoinsWorksheet](/apcsp/binary/BinaryCoinsWorksheet/)
+1. Pair-[CoinsWorksheet](/apcsp/binary/BinaryCoinsWorksheet/)
 
 1. [Binary Bday](/apcsp/binary/BinaryBday/)
 
-1. Pair - [BinaryWorksheet](/apcsp/binary/BinaryWorksheet/)
+1. Pair-[BinaryWorksheet](/apcsp/binary/BinaryWorksheet/)
 
-1. Pair - [OctalWorksheet](/apcsp/binary/BinaryOctalWorksheet/)
+1. Pair-[OctalWorksheet](/apcsp/binary/BinaryOctalWorksheet/)
 
-1. Pair - [HexWorksheet](/apcsp/binary/BinaryHexWorksheet/)
+1. Pair-[HexWorksheet](/apcsp/binary/BinaryHexWorksheet/)
 
 1. Practice Quiz
 
@@ -220,13 +220,13 @@ Projects:
 
 *3 wks*, Vocab: IDE, turtle, for loops, input, validation, try/except, operators, def new functions, random, algorithm, instance, instanciate, object, class, method
 
-1. *Explore Practice 1* - Pair - [BinaryExplorePractice1](/apcsp/turtleart/027ExplorePractice1/)
+1. *Explore Practice 1* - Pair-[BinaryExplorePractice1](/apcsp/turtleart/027ExplorePractice1/)
 
-1. Pair - [TrtSimpleDrawing](/apcsp/turtleart/012TurtleSimpleDrawing/)
+1. Pair-[TrtSimpleDrawing](/apcsp/turtleart/012TurtleSimpleDrawing/)
 
 1. [TrtRandomLocations](/apcsp/turtleart/025TurtleDrawingsAtRandomLocations/)
 
-1. Pair - Pick [TrtBlockLetters](/apcsp/turtleart/026TurtleBlockLetters/) or [TrtPolygons](/apcsp/turtleart/013TurtlePolygons/)
+1. Pair-Pick-[TrtBlockLetters](/apcsp/turtleart/026TurtleBlockLetters/) or [TrtPolygons](/apcsp/turtleart/013TurtlePolygons/)
 
 1. [TrtHowManySquares](/apcsp/turtleart/014TurtleHowManySquares/)
 
@@ -236,11 +236,11 @@ Projects:
 
 1. [TrtBouncingOffWalls](/apcsp/turtleart/020TurtleBouncingOffWalls/)
 
-1. Pair - [TrtArtScene1](/apcsp/turtleart/021TurtleArtScene1/)
+1. Pair-[TrtArtScene1](/apcsp/turtleart/021TurtleArtScene1/)
 
-1. Pair - [TrtStars1](/apcsp/turtleart/016TurtleStars1/)
+1. Pair-[TrtStars1](/apcsp/turtleart/016TurtleStars1/)
 
-1. Pair - [TrtStars2](/apcsp/turtleart/017TurtleStars2/)
+1. Pair-[TrtStars2](/apcsp/turtleart/017TurtleStars2/)
 "
 
 - title: ip
@@ -282,17 +282,17 @@ Projects:
 
 1. [ConRandomIntArray](/apcsp/console/103ConsoleRandomIntArray/)
 
-1. Pair - Pick [ConTemps](/apcsp/console/022ConsoleTemps/) or [ConMultiChoiceQuizGame](/apcsp/console/024ConsoleMultiChoiceQuizGame/)
+1. Pair-Pick-[ConTemps](/apcsp/console/022ConsoleTemps/) or [ConMultiChoiceQuizGame](/apcsp/console/024ConsoleMultiChoiceQuizGame/)
 
 1. [ConFillInTheBlankQuizGame](/apcsp/console/028ConsoleFillInTheBlankQuizGame/)
 
-1. Pair - [ConTipCalculator](/apcsp/console/029ConsoleTipCalculator/)
+1. Pair-[ConTipCalculator](/apcsp/console/029ConsoleTipCalculator/)
 
-1. Pair - [Con2DGeometryCalculations](/apcsp/console/030Console2DGeometryCalculations/)
+1. Pair-[Con2DGeometryCalculations](/apcsp/console/030Console2DGeometryCalculations/)
 
-1. Pair - Pick [ConHourlyAndYearlyWages](/apcsp/console/031ConsoleHourlyAndYearlyWages/) or [ConTriviaHighLow](/apcsp/console/032ConsoleTriviaHighLow/)
+1. Pair-Pick-[ConHourlyAndYearlyWages](/apcsp/console/031ConsoleHourlyAndYearlyWages/) or [ConTriviaHighLow](/apcsp/console/032ConsoleTriviaHighLow/)
 
-1. Pair - [ConPrintfLoops](/apcsp/console/101ConsolePrintfLoops/)
+1. Pair-[ConPrintfLoops](/apcsp/console/101ConsolePrintfLoops/)
 
 "
 - title: bigdata
@@ -351,7 +351,7 @@ Code.org Unit 4: Big Data and Privacy, [https://studio.code.org/s/csp4-2018](htt
 *2 wks*, Vocab: text game, arrays, logical operators, two-dimensional array, global variables, runtime error, syntax error, while loop
 
 
-1. Pair - [TxtCastlesAndCreatures](/apcsp/textgames/033TextGamesCastlesAndCreatures/)
+1. Pair-[TxtCastlesAndCreatures](/apcsp/textgames/033TextGamesCastlesAndCreatures/)
 
 1. Group - [TxtFoobarv1](/apcsp/textgames/037TextgamesFoobarv1/)
 
@@ -401,15 +401,15 @@ Projects:
 
 1. [TkMenuCalculator1](/apcsp/tk/113TkMenuCalculator1/)
 
-1. Pair - [TkAppWithInputValidation](/apcsp/tk/046TkAppWithInputValidation/)
+1. Pair-[TkAppWithInputValidation](/apcsp/tk/046TkAppWithInputValidation/)
 
-1. Pair - [TkTryLoadFile](/apcsp/tk/107TkTryLoadFiles/)
+1. Pair-[TkTryLoadFile](/apcsp/tk/107TkTryLoadFiles/)
 
-1. Pair - [TkPollv1.0](/apcsp/tk/047TkPollv1/)
+1. Pair-[TkPollv1.0](/apcsp/tk/047TkPollv1/)
 
-1. Pair - Pick [TkAddressBook]() or [TkMenuOrder]()
+1. Pair-Pick-[TkAddressBook]() or [TkMenuOrder]()
 
-1. Pair - Pick [TkPollAverage]() or [TkMultiQuestion]()
+1. Pair-Pick-[TkPollAverage]() or [TkMultiQuestion]()
 "
 - title: 4thquarter
   heading: "# 4th Quarter"
