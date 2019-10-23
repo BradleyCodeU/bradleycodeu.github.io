@@ -35,6 +35,12 @@ Enabling `Edit`->`Automatically Sync after Committing` is recommended. Here are 
 
 Feedback will be given in the pull request, so please respond with your thoughts and questions!  You are welcome to open the pull request early as a work-in-progress if you are stuck and want to ask a question.
 
+Testing
+1. one
+2. two
+3. three
+4. four
+
 ### Requirements
 
 These apply to real life, as well.

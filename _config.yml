@@ -1,0 +1,16 @@
+exclude: ['README.md']
+permalink: pretty
+
+collections:
+  apcsp:
+    output: true
+    permalink: /apcsp/:path/
+  wd:
+    output: true
+    permalink: /wd/:path/
+  gd:
+    output: true
+    permalink: /gd/:path/
+  apcsa:
+    output: true
+    permalink: /apcsa/:path/

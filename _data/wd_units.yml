@@ -1,0 +1,324 @@
+wd:
+
+- title: 1stquarter
+  heading: "# 1st Quarter"
+  content: "*Whenever possible, select 'Sign up with Google' and use your hilliardschools.org account.*
+
+
+We will use Code.org's Computer Science Discoveries course and KhanAcademy's Computer Programming course.
+
+
+Sign up for
+
+- 'Sign up with Google' [code.org](https://code.org/)
+
+- 'Sign up with Google' [trinket.io](https://trinket.io)
+
+- 'Sign up with Google' [glitch.com](https://glitch.com)
+
+- [khanacademy.org](https://khanacademy.org)
+
+
+Join our code.org class, our khanacademy.org class
+
+
+Our “Textbooks”:
+
+- [W3Schools](https://www.w3schools.com/)
+
+- [p5js](https://p5js.org/)
+
+- [Bootstrap](https://getbootstrap.com/)
+
+
+
+
+-=-=-=-
+
+
+“WorldWideWeb: Proposal for a HyperText Project”
+
+
+*—Tim Berners-Lee*
+
+
+"
+- title: menu1
+  content: "[1st Quarter](#1st-quarter)
+
+
+1. **[Photoshop](#photoshop)**
+
+1. **[HTML](#html)**
+
+1. **[CSS](#css)**
+
+
+"
+- title: photoshop
+  heading: "# Photoshop"
+  content: "*3 weeks* Vocab: vector, raster, pixel,
+
+
+
+Resources:
+
+  - [The Difference Between Vector and Raster (Bitmap) Graphics](https://drive.google.com/open?id=1ubrlBA4CZGFsjiZdWk2tHCV43epO-jKR)
+
+  - [What are Vector and Raster Graphics?](https://drive.google.com/open?id=1W5mGN0GtWFeeiSkojBsa46ozWsuEwce0)
+
+  - [Photoshop tutorial video folder](https://drive.google.com/drive/folders/1B-9cvnMOxKOdK18GOz3KfiZ-aM0vTZSr)
+
+  - [Photoshop - Adjust Image Size and Canvas Size](https://drive.google.com/file/d/1eElNgKiZGciT4YEHEBOy6uWDEoNsrKvn/view?usp=sharing)
+
+  - [How To Design A Modern Logo Start To Finish](https://drive.google.com/open?id=1v-CX3kED4hMuFp44lnGFVjX7eBGD9061)
+
+  - [Aaron Draplin Takes On a Logo Design Challenge](https://drive.google.com/file/d/1zXr_pJ5wg70eH6Uzgr-04DJqenmQURIn/view?usp=sharing)
+
+
+
+Projects:
+
+1. [Pizza Logo](/wd/photoshop/pizzalogo/)
+
+1. [Photoshop Pizza Flyer](/wd/photoshop/photoshoppizzaflyer/)
+
+1. [Dadaist Collage](/wd/photoshop/dadaistcollage/)
+
+1. [JPG GIF and PNG](/wd/photoshop/jpggifandpng/)
+
+1. [Vector Raster Drawings](/wd/photoshop/vectorrasterdrawings/)
+
+1. [Stylish Menu Text](/wd/photoshop/stylishmenutext/)
+
+1. [Vector Mask Crop Resize](/wd/photoshop/vectormaskcropresize/)
+
+1. [KhanAcademy Logo](/wd/photoshop/khanacademylogo/)
+"
+
+- title: html
+  heading: "# HTML"
+  content: "*1.5 weeks*, Vocab: html, hypertext, tag, head, body, title, h1, p, br, bold, italics, img, alt, ordered list, unordered list
+
+
+
+Resources:
+
+  - [KhanAcademy Intro to HTML](https://www.khanacademy.org/computing/hour-of-code/hour-of-html/pt/html-basics)
+
+  - [What is Design?](https://drive.google.com/open?id=19UTgCtOIuQPbIhIo6B2ktjPeGUDolFCM)
+
+  - [Simpler is Better](https://drive.google.com/open?id=1hpUxydU5K0Lv9N_UkXRrQDSfIBxV8RAp)
+
+  - [KhanAcademy HTML text emphasis](https://www.khanacademy.org/computing/hour-of-code/hour-of-html/pt/html-text-emphasis)
+
+  - [KhanAcademy HTML lists](https://www.khanacademy.org/computing/hour-of-code/hour-of-html/pt/html-lists)
+
+
+
+Projects:
+
+1. [Hello World](/wd/html/helloworld/)
+
+1. [SoloLearn HTML](/wd/html/sololearnhtml/)
+
+1. [Simpler is Better](/wd/html/simplerisbetter/)
+
+1. [Poetry with Emphasis](/wd/html/poetrywithemphasis/)
+
+1. [Club Goals Lists](/wd/html/clubgoalslists/)
+
+1. [KhanAcademy Picture Perfect Trip](/wd/html/khanacademypictureperfecttrip/)
+
+1. [SoloLearn HTML 2](/wd/html/sololearnhtml2/)
+
+1. Group - [Multi-page Pizza Site 1](/wd/html/multipagepizzasite1/)
+
+1. [Twine Game v1](/wd/html/twinegamev1/)
+
+"
+
+- title: css
+  heading: "# CSS"
+  content: "*3 weeks* Vocab: css, inline css, internal css, external css, css rule, selector, css declaration, css property and value, rgb, hexcode, font stack, serif font, sans serif font, css box model, padding, border, margin, table, tr, th, td
+
+
+
+Resources:
+  - [Images Pixels and RGB](https://drive.google.com/open?id=1WDeCPoWsnHy7-FUteaoZRspIw25sJWyb)
+
+
+
+
+
+
+Projects:
+
+1. [SoloLearn CSS](/wd/css/sololearncss/)
+
+1. Group - [Multi-page Pizza Site 2](/wd/css/multipagepizzasite2/)
+
+1. [KhanAcademy Drawing with Code](/wd/css/khanacademydrawingwithcode/)
+
+1. [Colorful Tables](/wd/css/colorfultables/)
+
+1. [Hexcode Pixels](/wd/css/hexcodepixels/)
+
+1. [Food Drive](/wd/css/fooddrive/)
+
+1. [Twine Game v2](/wd/css/twinegamev2/)
+
+"
+- title: 2ndquarter
+  heading: "# 2nd Quarter"
+  content: "
+“Java is to JavaScript as ham is to hamster.”
+
+*-Jeremy Keith*
+
+
+“When something is such a creative medium as the web, the limits to it are our imagination.”
+
+*-Tim Berners-Lee*
+
+  "
+- title: menu2
+  content: "[2nd Quarter](#2nd-quarter)
+
+
+1. **[JS](#js)**
+
+1. **[p5js](#p5js)**
+
+
+"
+
+- title: js
+  heading: "# JS"
+  content: "*5 weeks*
+
+1. [Club Page v1](/wd/js/JSClubPagev1/)
+
+1. [SoloLearn JS 1](/wd/js/SoloLearnJS1/)
+
+1. [Change Text with JS](/wd/js/ChangeTextWithJS/)
+
+1. [12 Buttons Game](/wd/js/12ButtonsGame/)
+
+1. [JS Clicker Game](/wd/js/JSClickerGame/)
+
+1. Pair-[JS Form Game](/wd/js/JSFormGame/)
+
+1. [Yes or No](/wd/js/YesOrNo/)
+
+1. [Sound Sample Piano](/wd/js/SoundSamplePiano/)
+"
+
+- title: p5js
+  heading: "# p5js"
+  content: "*4 weeks*
+
+1. [KhanAcademy Drawing With Code](/wd/p5js/KADrawingWithCode/)
+
+1. [P5 Mouse Mover](/wd/p5js/P5MouseMover/)
+
+1. [SoloLearn JS 2](/wd/p5js/SoloLearnJS2/)
+
+1. [P5 Bubble Game v1](/wd/p5js/P5BubbleGamev1/)
+
+"
+- title: 3rdquarter
+  heading: "# 3rd Quarter"
+  content: "
+
+“The web's earliest architects and pioneers fought for their vision of freedom on the Internet at a time when it was still small forums for conversation and text-based gaming. They thought the web could be adequately governed by its users without their needing to empower anyone to police it.”
+
+*–Jenna Wortham*
+
+
+“...Spins a web, any size.
+Catches thieves- just like flies.
+Look out! Here comes the Spider-man”
+
+*-Spider-man*
+
+    "
+- title: menu3
+  content: "[3rd Quarter](#3rd-quarter)
+
+
+1. **[Scrum](#scrum)**
+
+1. **[Arrays](#arrays)**
+
+
+"
+- title: scrum
+  heading: "# Scrum"
+  content: "*5 weeks*
+
+1. [Castles and Creatures]
+
+1. [Foobar v1]
+
+1. localStorage Character Creator (https://www.aidedd.org/dnd-builder/)
+
+1. [Foobar v2]
+
+  "
+- title: arrays
+  heading: "# Arrays"
+  content: "*4 weeks*
+
+1. [Random Name Generator]
+
+1. [P5 Snowflakes]
+
+1. [P5 Agario Game v1]
+"
+- title: 4thquarter
+  heading: "# 4th Quarter"
+  content:
+    "
+“None of us got where we are solely by pulling ourselves up by our bootstraps. We got here because somebody - a parent, a teacher, an Ivy League crony or a few nuns - bent down and helped us pick up our boots.”
+
+*–Thurgood Marshall*
+
+    "
+- title: menu4
+  content: "[4th Quarter](#4th-quarter)
+
+
+1. **[Bootstrap](#bootstrap)**
+
+1. **[NodeJS](#nodejs)**
+
+1. **[Objects](#objects)**
+
+"
+- title: bootstrap
+  heading: "# Bootstrap"
+  content: "*3 weeks*
+
+1. [Bootstrap Club Page v1]
+
+1. [Bootstrap Club Page v2]
+
+
+  "
+- title: nodejs
+  heading: "# NodeJS"
+  content: "*3 weeks*
+
+1. [NodeJS Order Form v1]
+
+1. [NodeJS Order Form v2]
+
+"
+- title: objects
+  heading: "# Objects"
+  content: "*3 weeks*
+
+1. [P5 Game v2]
+
+  "

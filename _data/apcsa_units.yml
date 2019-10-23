@@ -1,0 +1,509 @@
+apcsa:
+
+- title: 1stquarter
+  heading: "# 1st Quarter"
+  content: "*Whenever possible, select 'Sign up with Google' and use your hilliardschools.org account.*
+
+Sign up for:
+
+- [bookshelf.vitalsource.com](https://bookshelf.vitalsource.com)
+
+- 'Sign up with Google' [trinket.io](https://trinket.io)
+
+- 'Sign up with Google' [repl.it](https://repl.it)
+
+- 'Sign up with Google' [codehs.com](https://codehs.com)
+
+- [codingbat.com](https://codingbat.com)
+
+- [khanacademy.org](https://khanacademy.org)
+
+- [github.com](https://github.com)
+
+
+Join our repl.it class and our khanacademy.org class
+
+
+Texts:
+
+- [Big Java: Early Objects, Interactive Edition 6/e by Cay S. Horstmann](https://www.google.com/search?q=Big+Java%3A+Early+Objects%2C+Interactive+Edition+6%2Fe+by+Cay+S.+Horstmann)
+
+
+Adding Big Java Textbook to student iPads:
+
+1. Download VitalSource Bookshelf from the App Store
+
+1. Click “forgot password” and enter school email and click “create account”
+
+1. Complete registration info
+
+1. Click “Redeem Code” and enter textbook code
+
+1. Exit browser and download book through the app
+
+1. You can use either the iPad app OR go to [bookshelf.vitalsource.com](https://bookshelf.vitalsource.com/)
+
+
+## Commit to take the AP test by October 4th. Late fee is $40.
+
+
+Create a College Board account by Friday, Sept 6th and join our AP class section via collegeboard.org/joinapclass
+
+
+
+References:
+
+- [Java Quick Reference, Appendix B](https://apstudents.collegeboard.org/sites/default/files/2019-05/ap-computer-science-a-2014-java-quick-reference.pdf)
+
+- [Java printf() Method Quick Reference](https://www.cs.colostate.edu/~cs160/.Summer16/resources/Java_printf_method_quick_reference.pdf)
+
+- [Java Money Formatting](https://github.com/ohiofi/Java-Money-Formatting/blob/master/MoneyFormatting.java)
+
+
+-=-=-=-
+
+
+“Programs must be written for people to read, and only incidentally for machines to execute.”
+
+
+*—Abelson and Sussman*
+
+
+“I hear and I forget; I see and I remember; I do and I understand.”
+
+
+*-Confucius*
+
+
+“Computers are good at following instructions, but not at reading your mind.”
+
+
+*—Donald Knuth*
+"
+- title: menu1
+  content: "[1st Quarter](#1st-quarter)
+
+
+1. **[Ch1 Introduction](#ch1-introduction)**
+
+1. **[Ch2 Using Objects](#ch2-using-objects)**
+
+1. **[Ch3 Implementing Classes](#ch3-implementing-classes)**
+
+1. **[Ch4 Fundamental Data Types](#ch4-fundamental-data-types)**
+
+"
+- title: ch1-introduction
+  heading: "# Ch1 Introduction"
+  content: "*2.5 wks* Vocab: platform, assembly, binary, bit, byte, declare, assignment, initialize, JVM, IDE, class, method, main, println, Scanner, int, double, boolean, char, String, comment, magic number, final, literal
+
+
+Resources:
+
+  - [The History of the Java Programming Language](https://drive.google.com/file/d/1KbxMKqNgw6T_7EaS8t1hfjnwyJsFhaSd/view?usp=sharing)
+
+  - [What is Java - Java Programming Tutorial](https://drive.google.com/file/d/1fHDyzlE35710X9sQUoS-Ule6VbqfijLh/view?usp=sharing)
+
+  - [The Fetch-Execute Cycle Whats Your Computer Actually Doing](https://drive.google.com/file/d/1f94tL6PrfS1gtTMUn_8ZJawEZS6HYQLT/view?usp=sharing)
+
+  - [Unit 1 Test Review](/apcsa/ch1introduction/unit1testreview/)
+
+
+Projects:
+
+1. [Ch1KingsIsland](/apcsa/ch1introduction/ch1kingsisland/)
+
+1. [Ch1PaintCalcAreaOnly](/apcsa/ch1introduction/ch1paintcalcareaonly/)
+
+1. [Ch1Review1](/apcsa/ch1introduction/ch1review1/)
+
+1. [Ch1IntegerOverflow](/apcsa/ch1introduction/ch1integeroverflow/)
+
+1. [Ch1Review2](/apcsa/ch1introduction/ch1review2/)
+
+1. [Ch1SoloLearnJava](/apcsa/ch1introduction/ch1sololearnjava/)
+"
+
+- title: ch2-using-objects
+  heading: "# Ch2 Using Objects"
+  content: "Vocab: object, accessor, mutator, method, constructor, new, API, naming convention, camelCase, PascalCase, comment
+
+
+Resources:
+
+  - [Java Rectangle class API](https://docs.oracle.com/javase/7/docs/api/index.html?java/awt/Rectangle.html)
+
+
+
+
+Projects:
+
+1. [Ch2Exercises1514](/apcsa/ch2usingobjects/ch2exercises1-5-14/)
+
+1. [Ch2Projects235](/apcsa/ch2usingobjects/ch2projects2-3-5/)
+
+1. [Ch2Project6](/apcsa/ch2usingobjects/ch2project6/)
+
+1. [Ch2Project9](/apcsa/ch2usingobjects/ch2project9/)
+
+1. [Ch2StringExercises](/apcsa/ch2usingobjects/ch2stringexercises/)
+
+1. [Ch2MethodMadness](/apcsa/ch2usingobjects/ch2methodmadness/)
+
+1. [Ch2Review12](/apcsa/ch2usingobjects/ch2reviewch1andch2/)
+
+"
+
+- title: ch3-implementing-classes
+  heading: "# Ch3 Implementing Classes"
+  content: "
+
+
+Resources:
+
+  - [What is a Method Header?](https://www.leepoint.net/JavaBasics/methods/methods-20-define.html)
+
+  - [What is an Access Specifier?](https://www.geeksforgeeks.org/access-specifiers-for-classes-or-interfaces-in-java/)
+
+
+
+Projects:
+
+1. [Ch3ShoesClass](/apcsa/ch3implementingclasses/ch3shoes/)
+
+1. [Ch3BalloonClass](/apcsa/ch3implementingclasses/ch3balloon/)
+
+1. [Ch3EmployeeClass](/apcsa/ch3implementingclasses/ch3employee/)
+
+1. [Ch3StudentClass](/apcsa/ch3implementingclasses/ch3student/)
+
+1. [Ch3CashRegisterClass](/apcsa/ch3implementingclasses/ch3cashregister/)
+
+1. [Ch3GraphicsCarClass](/apcsa/ch3implementingclasses/ch3car/)
+
+1. [Ch3PotatoHeadClass](/apcsa/ch3implementingclasses/ch3potatohead/)
+
+"
+
+- title: ch4-fundamental-data-types
+  heading: "# Ch4 Fundamental Data Types"
+  content: "
+
+Resources:
+
+  - [Floating Point Numbers - Computerphile](https://drive.google.com/file/d/15GKsGtSMyjbnm9rMIx3br9ypYq3p33LO/view)
+
+  - [Characters, Symbols and the Unicode Miracle - Computerphile](https://drive.google.com/file/d/1VwA4wt4wxBLPrGuVPTmCVUdTl1JMiIax/view)
+
+  - Integer division & floating-point division Quizizz https://join.quizizz.com use game code: 208023
+
+  - Modulo Operation Quizizz https://join.quizizz.com use game code: 166397
+
+
+
+
+Projects:
+
+  1. [Ch4ArithmeticCasting](/apcsa/ch4fundamentaldatatypes/ch4arithmeticcasting/)
+
+  1. [Ch4Printf](/apcsa/ch4fundamentaldatatypes/ch4printf/)
+
+  1. [Ch4ModulusClock](/apcsa/ch4fundamentaldatatypes/ch4modulusclock/)
+
+  1. [Ch4WeirdCalc](/apcsa/ch4fundamentaldatatypes/ch4weirdcalc/)
+
+  1. [Ch4CedarPointCalc](/apcsa/ch4fundamentaldatatypes/ch4cedarpointcalc/)
+
+  1. [Ch4ReviewSheet](/apcsa/ch4fundamentaldatatypes/ch4reviewsheet/)
+
+"
+
+
+- title: 2ndquarter
+  heading: "# 2nd Quarter"
+  content: "
+“Commenting your code is like cleaning your bathroom — you never want to do it, but it really does create a more pleasant experience for you and your guests.”
+
+
+*—Ryan Campbell*
+
+
+“Making the simple complicated is commonplace; making the complicated simple, awesomely simple, that's creativity.”
+
+
+*—Charles Mingus*
+"
+- title: menu2
+  content: "
+[2nd Quarter](#2nd-quarter)
+
+1. **[Ch4.5 Strings](#ch45-strings)**
+
+1. **[Ch5 Decisions](#ch5-decisions)**
+
+1. **[Ch5.7 Short-Circuit Evaluation and De Morgan's Law](#ch57-short-circuit-evaluation)**
+
+1. **[Ch6 Loops](#ch6-loops)**
+
+1. **[Ch7 Arrays and Array Lists](#ch7-arrays-and-array-lists)**
+
+"
+
+
+
+- title: ch45-strings
+  heading: "# Ch4.5 Strings"
+  content: "Resources:
+
+      - [String Methods tutorial](https://drive.google.com/open?id=1XZih87y10vIHvB68vk0CR5rVkYSgbCyi)
+
+
+Projects:
+
+1. [Ch45PhoneNumber](/apcsa/ch45strings/ch45phonenumber/)
+
+1. [Ch45NameGames](/apcsa/ch45strings/ch45namegames/)
+
+1. [Ch45SubstringReplace](/apcsa/ch45strings/ch45substringreplace/)
+
+1. [Ch45StringReviewWorksheet](/apcsa/ch45strings/ch45stringreviewworksheet/)
+
+"
+
+- title: ch5-decisions
+  heading: "# Ch5 Decisions"
+  content: "
+1. [Ch5PaintCalc2ThePaintingMenace](/apcsa/ch5/Ch5PaintCalc2ThePaintingMenace/)
+
+1. [Ch5FindDistance](/apcsa/ch5/Ch5FindDistance/)
+
+1. [Ch5SingleDigitRomanNumerals](/apcsa/ch5/Ch5SingleDigitRomanNumerals/)
+
+1. [Ch5ErrorTraps](/apcsa/ch5/Ch5ErrorTraps/)
+
+1. [Ch5FourDigitRomanNumerals](/apcsa/ch5/Ch5FourDigitRomanNumerals/)
+
+1. [Ch5FrenchCountryPrefixes](/apcsa/ch5/Ch5FrenchCountryPrefixes/)
+
+"
+
+- title: ch57-short-circuit-evaluation
+  heading: "# Ch5.7 Short-Circuit Evaluation"
+  content: "
+1. [Ch57EvaluatingBooleanExpressions](/apcsa/ch57/Ch57EvaluatingBooleanExpressions/)
+
+1. [Ch57Short-CircuitEvaluation1](/apcsa/ch57/Ch57Short-CircuitEvaluation1/)
+
+1. [Ch57Short-CircuitEvaluation2](/apcsa/ch57/Ch57Short-CircuitEvaluation2/)
+
+1. [Ch57DeMorgansLaw](/apcsa/ch57/Ch57DeMorgansLaw/)
+
+
+"
+
+- title: ch6-loops
+  heading: "# Ch6 Loops"
+  content: "
+
+1. [Ch6WhileLoops](/apcsa/ch6/Ch6WhileLoops/)
+
+1. [Ch6ForLoops](/apcsa/ch6/Ch6ForLoops/)
+
+1. [Ch6LoopInfo](/apcsa/ch6/Ch6LoopInfo/)
+
+1. [Ch6MultiplicationTable](/apcsa/ch6/Ch6MultiplicationTable/)
+
+1. [Ch6Squares](/apcsa/ch6/Ch6Squares/)
+
+1. [Ch6PalindromeChecker](/apcsa/ch6/Ch6PalindromeChecker/)
+
+1. [Ch6PrimeGenerator](/apcsa/ch6/Ch6PrimeGenerator/)
+
+
+"
+
+- title: ch7-arrays-and-array-lists
+  heading: "# Ch7 Arrays and Array Lists"
+  content: "
+
+1. [Ch7ArrayManipulation](/apcsa/ch7/Ch7ArrayManipulation/)
+
+1. [Ch7SeatingArrangements](/apcsa/ch7/Ch7SeatingArrangements/)
+
+1. [Ch7PokerDice](/apcsa/ch7/Ch7PokerDice/)
+
+1. [Ch7PizzaToppings](/apcsa/ch7/Ch7PizzaToppings/)
+
+1. [Ch7PetShopRegister](/apcsa/ch7/Ch7PetShopRegister/)
+
+"
+
+
+
+
+
+- title: 3rdquarter
+  heading: "# 3rd Quarter"
+  content: "
+“A class, in Java, is where we teach objects how to behave.”
+
+
+*-Richard E. Pattis*
+
+
+“Should array indices start at 0 or 1? My compromise of 0.5 was rejected without, I thought, proper consideration.”
+
+
+*—Stan Kelly-Bootle*
+"
+
+- title: menu3
+  content: "
+[3rd Quarter](#3rd-quarter)
+
+
+1. **[Ch7.2 For Each Loops](#ch72-for-each-loops)**
+
+1. **[Ch7.6 2D Arrays](#ch76-2d-arrays)**
+
+1. **[Ch8 Designing Classes](#ch8-designing-classes)**
+
+1. **[Ch9 Inheritance](#ch9-inheritance)**
+
+"
+
+- title: ch72-for-each-loops
+  heading: "# Ch7.2 For Each Loops"
+  content: "
+
+1. [Ch72ForEachLoopArrayPractice](/apcsa/ch72/Ch72ForEachLoopArrayPractice/)
+
+1. [Ch72ArrayListReviewWordlists](/apcsa/ch72/Ch72ArrayListReviewWordlists/)
+
+1. [Ch72ForLoopHandTracingReview](/apcsa/ch72/Ch72ForLoopHandTracingReview/)
+
+1. [Ch72LoopsAndArraysReview](/apcsa/ch72/Ch72LoopsAndArraysReview/)
+
+"
+- title: ch76-2d-arrays
+  heading: "# Ch7.6 2D Arrays"
+  content: "
+1. [Ch76Checkerboard](/apcsa/ch76/Ch76Checkerboard/)
+
+1. [Ch76MagicSquares](/apcsa/ch76/Ch76MagicSquares/)
+
+1. [Ch76TheaterTicketPrices](/apcsa/ch76/Ch76TheaterTicketPrices/)
+
+1. [Ch76ReadingExternalFile](/apcsa/ch76/Ch76ReadingExternalFile/)
+
+1. [Ch76WritingExternalFile](/apcsa/ch76/Ch76WritingExternalFile/)
+
+1. [Ch76StudentTwoDimArray](/apcsa/ch76/Ch76StudentTwoDimArray/)
+
+1. [Ch76GuessWithFileInput](/apcsa/ch76/Ch76GuessWithFileInput/)
+
+1. [Ch76GuessWithWebScraping](/apcsa/ch76/Ch76GuessWithWebScraping/)
+
+
+"
+- title: ch8-designing-classes
+  heading: "# Ch8 Designing Classes"
+  content: "
+1. [Ch8Worksheet](/apcsa/ch8/Ch8Worksheet/)
+
+1. [Ch8GeometryClass](/apcsa/ch8/Ch8GeometryClass/)
+
+1. [Ch8CoinAndCoinFlipper](/apcsa/ch8/Ch8CoinAndCoinFlipper/)
+
+1. [Ch8Store](/apcsa/ch8/Ch8Store/)
+
+1. [Ch8RobotClass](/apcsa/ch8/Ch8RobotClass/)
+
+
+"
+- title: ch9-inheritance
+  heading: "# Ch9 Inheritance"
+  content: "
+1. [Ch9DogClass](/apcsa/ch9/Ch9DogClass/)
+
+1. [Ch9QuestionClass](/apcsa/ch9/Ch9QuestionClass/)
+
+1. [Ch9ClockClass](/apcsa/ch9/Ch9ClockClass/)
+
+1. [Ch9UMLDiagram](/apcsa/ch9/Ch9UMLDiagram/)
+
+1. [Ch9PetStartupProject](/apcsa/ch9/Ch9PetStartupProject/)
+
+"
+
+
+- title: 4thquarter
+  heading: "# 4th Quarter"
+  content: "
+“Computer science inverts the normal. In normal science, you're given a world, and your job is to find out the rules. In computer science, you give the computer the rules, and it creates the world.”
+
+
+*-Alan Kay*
+
+
+ “Learning is never done without errors and defeat.”
+
+
+ *-Vladimir Lenin*
+"
+
+- title: menu4
+  content: "
+[4th Quarter](#4th-quarter)
+
+
+1. **[Ch10 Interfaces](#ch10-interfaces)**
+
+1. **[Ch14 Sorting and Searching](#ch14-sorting-and-searching)**
+
+1. **[Ch13 Recursion](#ch13-recursion)**
+
+1. **[AP Test Prep](#ap-test-prep)**
+
+"
+
+- title: ch10-interfaces
+  heading: "# Ch10 Interfaces"
+  content: "
+1. [Ch10FlyableImplementation](/apcsa/ch10/Ch10FlyableImplementation/)
+
+1. [Ch10MeasurableInterface](/apcsa/ch10/Ch10MeasurableInterface/)
+
+1. [Ch10ComparableInterface](/apcsa/ch10/Ch10ComparableInterface/)
+
+"
+
+- title: ch14-sorting-and-searching
+  heading: "# Ch14 Sorting and Searching"
+  content: "
+1. [Ch9DogClass](/apcsa/ch9/Ch9DogClass/)
+
+1. [Ch9QuestionClass](/apcsa/ch9/Ch9QuestionClass/)
+
+1. [Ch9ClockClass](/apcsa/ch9/Ch9ClockClass/)
+
+1. [Ch9UMLDiagram](/apcsa/ch9/Ch9UMLDiagram/)
+
+1. [Ch9PetStartupProject](/apcsa/ch9/Ch9PetStartupProject/)
+
+"
+
+- title: ch13-recursion
+  heading: "# Ch13 Recursion"
+  content: "
+1. [Ch9DogClass](/apcsa/ch9/Ch9DogClass/)
+
+1. [Ch9QuestionClass](/apcsa/ch9/Ch9QuestionClass/)
+
+1. [Ch9ClockClass](/apcsa/ch9/Ch9ClockClass/)
+
+1. [Ch9UMLDiagram](/apcsa/ch9/Ch9UMLDiagram/)
+
+1. [Ch9PetStartupProject](/apcsa/ch9/Ch9PetStartupProject/)
+
+"

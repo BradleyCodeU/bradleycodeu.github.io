@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width">
+    <!-- <meta name="description" content=""> -->
+    <title>{% if page.title %}{{page.title}} · {% endif %}BradleyCodeU</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,700&display=swap" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+  </head>
+<body class="pt-5">
+  {% include navtop.html %}
+  <div class="container mt-5">
+    <br>
+    <h1>{{ page.title }}</h1>
+    <!-- <div class="row">
+      <div class="col-12 col-lg-12"> -->
+        {{ content }}
+      <!-- </div>
+
+    </div> -->
+  </div>
+  <br>
+  &nbsp;
+  <br>
+  {% include navbottom.html %}
+</body>
+</html>

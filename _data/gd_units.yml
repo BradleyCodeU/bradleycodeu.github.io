@@ -1,0 +1,314 @@
+gd:
+
+- title: 1stquarter
+  heading: "# 1st Quarter"
+  content: "*Whenever possible, select 'Sign up with Google' and use your hilliardschools.org account.*
+
+
+Sign up for:
+
+- 'Sign up with Google' [glitch.com](https://glitch.com)
+
+- 'Sign up with Google' [id.unity.com](https://id.unity.com/en/conversations/e2c68135-77f6-42b4-bc5c-7fcb4004cd27012f)
+
+- [khanacademy.org](https://khanacademy.org)
+
+
+Join our khanacademy.org class
+
+
+Our “Textbooks”:
+
+- [p5js](https://p5js.org/)
+
+- [Tutorials Point C# Tutorial](https://www.tutorialspoint.com/csharp/)
+
+- [Intro to App Development with Swift](https://books.apple.com/us/book/intro-to-app-development-with-swift/id1118575552)
+
+
+
+-=-=-=-
+
+
+
+“Video games are bad for you? That's what they said about rock-n-roll.”
+
+*-Shigeru Miyamoto*
+
+
+“Every age has its storytelling form, and video gaming is a huge part of our culture. You can ignore or embrace video games and imbue them with the best artistic quality. People are enthralled with video games in the same way as other people love the cinema or theatre.”
+
+*–Andy Serkis*
+
+
+“Wakka wakka wakka.”
+
+*-Pac-man*
+
+
+"
+- title: menu1
+  content: "[1st Quarter](#1st-quarter)
+
+1. **[Objects](#objects)**
+
+1. **[Inheritance](#inheritance)**
+
+
+"
+- title: objects
+  heading: "# Objects"
+  content: "*4 weeks* Vocab: object, class, constructor, getter, setter, method, mutator, accessor, instance, instanciate, argument, parameter, finite state machine, game state, edge case, encapsulation, specialization, polymorphism, new, this, instance variable
+
+
+Resources:
+
+  - [p5js video folder](https://drive.google.com/open?id=1Vcw2irGn_h8FYIDzU94ShGSLsUdGyCLX)
+
+  - [Coding Train 1.1: Introduction - p5.js Tutorial](https://drive.google.com/file/d/1JzKMGRavSjuiYlXAkHkqXOTYFSt8cgvL/view?usp=sharing)
+
+  - [Coding Train's p5js tutorials playlist](https://www.youtube.com/watch?v=c3TeLi6Ns1E&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
+
+  - [Finite State Machine wiki](https://en.wikipedia.org/wiki/Finite-state_machine)
+
+  - [Parking Meter is a finite state machine - Computers Without Memory - Computerphile](https://www.youtube.com/watch?v=vhiiia1_hC4&t=84s)
+
+  - [Pong & Object Oriented Programming - Computerphile](https://youtu.be/KyTUN6_Z9TM?t=148)
+
+
+
+Projects:
+
+  1. [KhanAcademy Drawing With Code](/gd/objects/khanacademydrawingwithcode/) - 10pts
+
+  1. [KhanAcademy Games & Visualizations](/gd/objects/khanacademygames/) - 10pts
+
+  1. [Bubble Game v1](/gd/objects/bubblegamev1/) - 50pts
+
+  1. [SoloLearn JS 1](/gd/objects/sololearnjs1/) - 20pts
+
+  1. [Bubble Game v2](/gd/objects/bubblegamev2/) - 50pts
+
+  1. [SoloLearn Js 2](/gd/objects/sololearnjs2/) - 23pts
+
+  1. Optional Bonus Points [Markov Chain Generator](/gd/objects/markovchaingenerator/) - 50pts
+
+"
+
+- title: inheritance
+  heading: "# Inheritance"
+  content: "*5 weeks*, Vocab: abstraction, parent class, child class, inheritance, containment, is-a, has-a, UML
+
+
+Resources:
+
+  - [Coding Train 16.17: Inheritance in JavaScript](https://drive.google.com/file/d/1f31Hv4RS_QHj-aPZUUjJyY07w8wgRcUg/view?usp=sharing)
+
+  - [p5js example of player state](https://www.youtube.com/watch?v=zUXsAW9JTBs&feature=youtu.be&t=1977)
+
+
+
+Projects:
+
+  1. [KhanAcademy Transformations](/gd/inheritance/khanacademytransformations/) - 10pts
+
+  1. [UDLR v1](/gd/inheritance/udlrv1/) - 50pts
+
+  1. [SoloLearn JS 3](/gd/inheritance/sololearnjs3/) - 17pts
+
+  1. [UDLR v2](/gd/inheritance/udlr/) - 50pts
+
+  1. [SoloLearn JS 4](/gd/inheritance/sololearnjs4/) - 30pts
+
+"
+
+- title: 2ndquarter
+  heading: "# 2nd Quarter"
+  content: "
+
+“...I like video games. That's what got me into software engineering when I was a kid. I wanted to make money so I could buy a better computer to play better video games - nothing like saving the world.”
+
+*-Elon Musk*
+
+
+“Just make games for yourself and try to have a critical eye to what you do. If you genuinely like the game, there will be other people who like it as well.”
+
+*-Markus Persson*
+
+
+“Games shouldn't only be fun. They should teach or spark an interest in other things.”
+
+*-Hideo Kojima*
+
+  "
+- title: menu2
+  content: "[2nd Quarter](#2nd-quarter)
+
+
+1. **[Platforms](#platforms)**
+
+1. **[CSharp](#csharp)**
+
+1. **[Swift](#swift)**
+
+
+"
+- title: platforms
+  heading: "# Platforms"
+  content: "*2 weeks
+
+
+  1. [Platformer v1](/gd/platforms/platformerv1/) - 50pts
+
+  1. [Player 2](/gd/platforms/player2/) - 10pts
+
+  1. [Level Up](/gd/platforms/levelup/) - 10pts
+  "
+
+- title: csharp
+  heading: "# CSharp"
+  content: "*3 weeks*
+
+1. [SoloLearn CSharp](/gd/csharp/sololearncsharp/)
+
+1. [Roll A Ball v1](/gd/csharp/rollaballv1/)
+
+1. [Roll A Ball v2](/gd/csharp/rollaballv2/)
+
+1. [Space Shooter v1](/gd/csharp/spaceshooterv1/)
+
+"
+
+- title: swift
+  heading: "# Swift"
+  content: "*6 weeks*
+
+1. [SoloLearn Swift](/gd/swift/sololearnswift/)
+
+1. [All About Me iOS app](/gd/swift/allaboutmeiosapp/)
+
+1. [Ch 3 Intro to App Dev](/gd/swift/ch3introtoappdev/)
+
+1. [Ch 4 Intro to App Dev](/gd/swift/ch4introtoappdev/)
+
+1. [Ch 5 Intro to App Dev](/gd/swift/ch5introtoappdev/)
+
+1. [Ch 6 Intro to App Dev](/gd/swift/ch6introtoappdev/)
+
+1. [Ch 7 Intro to App Dev](/gd/swift/ch7introtoappdev/)
+
+1. [Ch 8 Intro to App Dev](/gd/swift/ch8introtoappdev/)
+
+1. [Ch 9 Intro to App Dev](/gd/swift/ch9introtoappdev/)
+
+"
+- title: 3rdquarter
+  heading: "# 3rd Quarter"
+  content: "
+
+“Our world, with its rules of causality, has trained us to be miserly with forgiveness. By forgiving too readily, we can be badly hurt. But if we've learned from a mistake and become better for it, shouldn't we be rewarded for the learning, rather than punished for the mistake?”
+
+ *-Braid*
+
+
+
+“Don’t ever stop. Always keep going, no matter what happens and is taken from you. Even when life is so unfair, don’t give up.”
+
+*-Ezio (Assassin's Creed II)*
+
+
+
+ “If you had a game that said, 'Oops, you're dead. Now switch off the game,' it wouldn't be very successful. So you do need to have something to teach and be there to learn from, and we feel that death in video games is a positive experience.”
+
+ *-Hidetaka Miyazaki*
+
+    "
+- title: menu3
+  content: "[3rd Quarter](#3rd-quarter)
+
+1. **[Multiplayer](#multiplayer)**
+
+1. **[Unity3d](#unity3d)**
+
+
+"
+- title: multiplayer
+  heading: "# Multiplayer"
+  content: "*4 weeks*
+
+1. [Team Rollaball](/gd/multiplayer/teamrollaball/)
+
+1. [P5 Multiplayer v1](/gd/multiplayer/p5multiplayerv1/)
+
+1. [P5 Multiplayer v2](/gd/multiplayer/p5multiplayerv2/)
+
+
+"
+
+- title: unity3d
+  heading: "# Unity3d"
+  content: "*5 weeks*
+
+1. [Space Shooter v2](/gd/unity3d/spaceshooterv2/)
+
+1. [Terrain v1](/gd/unity3d/terrainv1/)
+
+1. [Terrain v2](/gd/unity3d/terrainv2/)
+
+1. [WebGL Export](/gd/unity3d/webglexport/)
+
+"
+
+- title: 4thquarter
+  heading: "# 4th Quarter"
+  content:
+    "
+
+“Players are artists who create their own reality within the game.”
+
+*-Shigeru Miyamoto*
+
+
+“There are many museums dedicated to technology, artistic endeavors, music, and that sort of thing. From that perspective, I think games really do have a place as a kind of collaborative art or a synthesis of all these various aspects into a whole, and that, in itself, can be perceived as art.”
+
+*-Hideo Kojima*
+
+
+“Video games can never be art”
+
+*–Roger Ebert*
+
+
+    "
+- title: menu4
+  content: "[4th Quarter](#4th-quarter)
+
+
+1. **[Unity2d](#unity2d)**
+
+1. **[iOS Platformer](#ios-platformer)**
+
+"
+- title: unity2d
+  heading: "# Unity2d"
+  content: "*4 weeks*
+
+1. [Robo Bros](/gd/unity2d/robobros/)
+
+1. [Super Soy Boy v1](/gd/unity2d/supersoyboyv1/)
+
+1. [Super Soy Boy v2](/gd/unity2d/supersoyboyv2/)
+
+1. [Super Soy Boy v3](/gd/unity2d/supersoyboyv3/)
+
+
+  "
+- title: iosplatformer
+  heading: "# iOS Platformer"
+  content: "*3 weeks*
+
+1. [iOS Platformer v1](/gd/iosplatformer/iosplatformerv1/)
+
+1. [iOS Platformer v2](/gd/iosplatformer/iosplatformerv2/)
+
+"
