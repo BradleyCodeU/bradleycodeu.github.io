@@ -218,7 +218,7 @@ Projects:
   heading: "# TurtleArt"
   content: "
 
-*3 wks*, Vocab: IDE, turtle, object,  method, abstraction, constructor, random, algorithm, for loops, input, validation, try/except, operators, def new functions, instance, instanciate, class,
+*3 wks*, Vocab: IDE, turtle, object,  method, abstraction, constructor, random, algorithm, rgb color, hex color, for loops, input, validation, try/except, operators, def new functions, instance, instanciate, class,
 
 1. *Explore Practice 1* - Pair-[BinaryExplorePractice1](/apcsp/turtleart/027ExplorePractice1/)
 
