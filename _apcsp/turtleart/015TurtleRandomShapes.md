@@ -11,7 +11,7 @@ Repeat these six steps 200 times.
 - Jump to a random x, y position (x between -450 and 450 and y between -400 and 400).
 - Put down the pen.
 - Start a random color fill (must use 10 or more colors/shades).
-- Draw a small shape (triangle, square, pentagon, or hexagon).
+- Draw a small shape (must be able to draw a triangle, square, pentagon, and hexagon).
 - End the color fill.
 
 ![random shapes](/apcsp/turtleart/randomShapes.jpg)
