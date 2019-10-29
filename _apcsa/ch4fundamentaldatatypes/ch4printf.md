@@ -20,11 +20,11 @@ String name1 = "Adam";
 String name2 = "Barbara";
 int grade1 = 100;
 int grade2 = 99;
-System.out.format("%-10s=%4d\n", name1, grade1);
-System.out.format("%-10s=%4d\n", name2, grade2);
-System.out.format("%-10s=%4f\n", "Carol", 90.5); // use type character f for double/float
-System.out.format("%-10s %4s\n", "└┄┄┄┄┄┬┄┄┘", "└┄┬┘");
-System.out.format("%-10s %4s\n", "width 10", "and4");
+System.out.printf("%-10s=%4d\n", name1, grade1);
+System.out.printf("%-10s=%4d\n", name2, grade2);
+System.out.printf("%-10s=%4f\n", "Carol", 90.5); // use type character f for double/float
+System.out.printf("%-10s %4s\n", "└┄┄┄┄┄┬┄┄┘", "└┄┬┘");
+System.out.printf("%-10s %4s\n", "width 10", "and4");
 ```
 will output...
 ```
