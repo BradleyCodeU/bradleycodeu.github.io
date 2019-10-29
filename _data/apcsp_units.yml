@@ -202,7 +202,7 @@ Projects:
   content: "
   [2nd Quarter](#2nd-quarter)
 
-  1. [Turtle Art](#turtleart) - *3 wks*
+  1. [Turtle Art](#turtleart) - *2 wks*
 
   1. [IP](#ip) - *1 wk*
 
@@ -218,9 +218,9 @@ Projects:
   heading: "# TurtleArt"
   content: "
 
-*3 wks*, Vocab: IDE, turtle, object,  method, abstraction, constructor, random, algorithm, rgb color, hex color, for loops, input, validation, try/except, operators, def new functions, instance, instanciate, class,
+*3 wks*, Vocab: IDE, turtle, object,  method, abstraction, constructor, random, algorithm, rgb color, hex color, for loops, input, def new functions, instance, instanciate, class, getter, setter
 
-1. *Explore Practice 1* - Pair-[BinaryExplorePractice1](/apcsp/turtleart/027ExplorePractice1/)
+1. *Explore Practice 1* - Pair-[ExplorePractice1](/apcsp/turtleart/027ExplorePractice1/)
 
 1. Pair-[TrtSimpleDrawing](/apcsp/turtleart/012TurtleSimpleDrawing/)
 
