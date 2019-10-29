@@ -6,15 +6,15 @@ title: Turtle Bouncing Off Walls
 For this project you will use some new commands:
 ```python
 while True:   # Creates a "forever" loop. Indent next line(s) to place them inside the loop
-xcor()        # Returns the x location of the turtle
-ycor()        # Returns the y location of the turtle
-towards(0,0)  # Returns the angle from this turtle position to another position (x,y) or another turtle
-setheading(0) # Rotate turtle to an angle. Common directions: 0 (east), 90 (north), 180 (west), 270 (south).
-              # For example, setheading(90) will always point the turtle north.
+xcor()        # Get the x location of the turtle
+ycor()        # Get the y location of the turtle
+towards(0,0)  # Get the angle from turtle's position to another position (x,y) or another turtle
+setheading(0) # Rotate turtle to an angle. Examples: 0 (East), 45 (NE), 90 (N), 180 (W), 270 (S)
+              # For example, setheading(90) will always point the turtle North.
 ```
 This project is the Python version of the Scratch Bouncing Off The Walls project. If you are using Mu, the "walls" are -450 and 450 horizontally and then -400 and 400 vertically. If you are using Trinket, the "walls" are -200 and 200 horizontally and then -200 and 200 vertically.
 
-**IMPORTANT**: For this project, **do NOT use goto() or home() or setposition()**. I want you to demonstrate that you know how to use if statements and use setheading().
+IMPORTANT: For this project, ```do NOT use goto() or home() or setposition()```. I want you to demonstrate that you know how to use if statements and use setheading()
 
 - Switch the shape to turtle.
 - Put the pen down.
