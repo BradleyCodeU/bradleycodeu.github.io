@@ -273,30 +273,30 @@ Projects:
 - title: ch5-decisions
   heading: "# Ch5 Decisions"
   content: "
-1. [Ch5PaintCalc2ThePaintingMenace](/apcsa/ch5/Ch5PaintCalc2ThePaintingMenace/)
+1. [Ch5PaintCalc2ThePaintingMenace](/apcsa/ch5decisions/ch5paintcalc2/)
 
-1. [Ch5FindDistance](/apcsa/ch5/Ch5FindDistance/)
+1. [Ch5FindDistance](/apcsa/ch5decisions/ch5finddistance/)
 
-1. [Ch5SingleDigitRomanNumerals](/apcsa/ch5/Ch5SingleDigitRomanNumerals/)
+1. [Ch5SingleDigitRomanNumerals](/apcsa/ch5decisions/ch5singledigitromannumerals/)
 
-1. [Ch5ErrorTraps](/apcsa/ch5/Ch5ErrorTraps/)
+1. [Ch5ErrorTraps](/apcsa/ch5decisions/ch5errortraps/)
 
-1. [Ch5FourDigitRomanNumerals](/apcsa/ch5/Ch5FourDigitRomanNumerals/)
+1. [Ch5FourDigitRomanNumerals](/apcsa/ch5decisions/ch5fourdigitromannumerals/)
 
-1. [Ch5FrenchCountryPrefixes](/apcsa/ch5/Ch5FrenchCountryPrefixes/)
+1. [Ch5FrenchCountryPrefixes](/apcsa/ch5decisions/ch5frenchcountryprefixes/)
 
 "
 
 - title: ch57-short-circuit-evaluation
   heading: "# Ch5.7 Short-Circuit Evaluation"
   content: "
-1. [Ch57EvaluatingBooleanExpressions](/apcsa/ch57/Ch57EvaluatingBooleanExpressions/)
+1. [Ch57EvaluatingBooleanExpressions](/apcsa/ch57shortcircuitevaluation/ch57evaluatingbooleans/)
 
-1. [Ch57Short-CircuitEvaluation1](/apcsa/ch57/Ch57Short-CircuitEvaluation1/)
+1. [Ch57ShortCircuit1](/apcsa/ch57shortcircuitevaluation/ch57shortcircuit1/)
 
-1. [Ch57Short-CircuitEvaluation2](/apcsa/ch57/Ch57Short-CircuitEvaluation2/)
+1. [Ch57ShortCircuit2](/apcsa/ch57shortcircuitevaluation/ch57shortcircuit2/)
 
-1. [Ch57DeMorgansLaw](/apcsa/ch57/Ch57DeMorgansLaw/)
+1. [Ch57DeMorgansLaw](/apcsa/ch57shortcircuitevaluation/ch57demorganslaw/)
 
 
 "
