@@ -1,12 +1,12 @@
 /* Palette URL: http://paletton.com/#uid=73-0u0kuu++iA+toB+XMn+VZCJw */
 
-.color-primary-0 { color: #FFFFFF }	/*a:link*/ /* Main Primary color */
+.color-primary-0 { color: #A8D4FF }	/*a:link*/ /* Main Primary color */
 .color-primary-1 { color: #75BAFD } /*pre*/
 .color-primary-2 { color: #49A6FF }
 .color-primary-3 { color: #0986FF }
 .color-primary-4 { color: #0169CE }
 
-.color-secondary-1-0 { color: #3B3B3B }	/*a:hover*/ /* Main Secondary color (1) */
+.color-secondary-1-0 { color: #7498BF }	/*a:hover*/ /* Main Secondary color (1) */
 .color-secondary-1-1 { color: #867FFE }
 .color-secondary-1-2 { color: #6057FF }
 .color-secondary-1-3 { color: #1E10FF }
@@ -37,12 +37,12 @@ a:link{
   font-weight: bold !important;
   font-weight: 700 !important;
   /* font-size: 15pt; */
-  color:#FFFFFF;
+  color:#A8D4FF;
 }
 a:hover{
   text-decoration: underline;
   /* font-size: 15pt; */
-  color:#3B3B3B;
+  color:#7498BF;
 }
 a.nav-link:link{
   color:rgba(255,255,255,.5);
