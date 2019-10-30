@@ -28,9 +28,11 @@ body {
 	background: #1F2036 !important;
 	font-size: 1.4rem !important;
   font-family: 'Roboto Condensed', sans-serif;
-
 	font-family: 'Roboto Condensed', 'Verdana','Arial', sans-serif;
   color:#ffffff!important;
+}
+a{
+	color:#A8D4FF;
 }
 a:link{
   text-decoration: none;
