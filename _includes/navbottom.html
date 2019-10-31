@@ -17,9 +17,9 @@
 </div>
 <script>
   let h1Array = document.getElementsByTagName("h1");
-  h2Array.push(document.getElementsByTagName("h2"));
-  h3Array.push(document.getElementsByTagName("h3"));
-  h4Array.push(document.getElementsByTagName("h4"));
+  let h2Array = document.getElementsByTagName("h2");
+  let h3Array = document.getElementsByTagName("h3");
+  let h4Array = document.getElementsByTagName("h4");
   setInterval(()=>{
     for(let i=0;i<h1Array.length;i++){
       h1Array[i].style.marginLeft=Math.floor(Math.random()*10)+"px";
