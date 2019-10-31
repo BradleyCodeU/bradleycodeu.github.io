@@ -173,15 +173,15 @@ h1[id]{
 }
 h1{
   font-family: 'Creepster',sans-serif;
-  transition: margin 1s;
 }
 h2 {
   font-family: 'Nosifer',sans-serif;
   text-shadow: 1px 1px grey;
-  font-size: 1.2rem!important;
+
 }
 h2,h3,h4{
   font-family: 'Nosifer',sans-serif;
+  transition: 1s;
 }
 h2[id]{
   margin-top:75px;
@@ -189,6 +189,7 @@ h2[id]{
 }
 h3, h4 {
   text-transform: capitalize;
+  font-size: 1.2rem!important;
 }
 
 
