@@ -167,17 +167,21 @@ h1.project-title{
   margin-bottom: 25px;
 }
 h1[id]{
-  font-family: 'Creepster',sans-serif;
   border-top: solid #888888 5px;
   margin-top:150px;
   padding-top:100px;
+}
+h1{
+  font-family: 'Creepster',sans-serif;
 }
 h2 {
   font-family: 'Nosifer',sans-serif;
   text-shadow: 1px 1px grey;
 }
-h2[id]{
+h2,h3,h4{
   font-family: 'Nosifer',sans-serif;
+}
+h2[id]{
   margin-top:75px;
   padding-top:75px;
 }
