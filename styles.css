@@ -48,7 +48,8 @@ a:link{
 a:hover{
   text-decoration: underline;
   /* font-size: 15pt; */
-  color:#7498BF;
+  /* color:#7498BF; */
+  color:#4e0550;
 }
 a.nav-link:link{
   color:rgba(255,255,255,.5);
