@@ -22,10 +22,10 @@ IMPORTANT: For this project, ```do NOT use goto() or home() or setposition()```.
 - Define a function called bounceOffWalls() in which you do these steps:
   - Get the turtle's x location
   - Get the turtle's y location
-  - If the turtle's x location is less than -450, then set the heading to point towards arguments 0,0
-  - If the turtle's x location is greater than 450, then set the heading to point towards arguments 0,0
-  - If the turtle's y location is less than -400, then set the heading to point towards arguments 0,0
-  - If the turtle's y location is greater than 400, then set the heading to point towards arguments 0,0
+  - If the turtle's x location is less than -450, then set the heading to face the point at x:0, y:0
+  - If the turtle's x location is greater than 450, then set the heading to face the point at x:0, y:0
+  - If the turtle's y location is less than -400, then set the heading to face the point at x:0, y:0
+  - If the turtle's y location is greater than 400, then set the heading to face the point at x:0, y:0
 
 Write code so that your turtle will forever:
 - Move forward a random amount
