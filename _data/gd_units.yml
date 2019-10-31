@@ -155,7 +155,7 @@ Projects:
 "
 - title: platforms
   heading: "# Platforms"
-  content: "*2 weeks
+  content: "*2 weeks*, vocab: GitHub, commit, push, pull, pull request, clone, fork
 
 
   1. [Platformer v1](/gd/platforms/platformerv1/) - 50pts
