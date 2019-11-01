@@ -190,7 +190,7 @@ h2[id]{
 }
 h3, h4 {
   text-transform: capitalize;
-  font-size: 1.2rem!important;
+  /* font-size: 1.2rem!important; */
 }
 
 
