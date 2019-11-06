@@ -9,22 +9,23 @@ Draw one of the following using block letters (or bubble letters). Use at least 
 
 Your Options Are:
 ```
-JAGUARS!
-CODING!
-PYTHON!
-TURTLES!
-COMP SCI!
-CODE IT!
-DRAW IT!
-HILLIARD!
-MAKE ART!
-LOOPING!
-BIG DATA!
-CODE.ORG!
-SCRATCH!
+JAGUARS
+CODING
+PYTHON
+TURTLES
+COMP SCI
+CODE IT
+DRAW IT
+HILLIARD
+MAKE ART
+LOOPING
+BIG DATA
+CODE.ORG
+SCRATCH
+GO JAGS!
 BRADLEY
-BUCKEYES
-INTERNET!
+BUCKEYE
+INTERNET
 HELLO WORLD
 ```
 Here are 3 different examples:
