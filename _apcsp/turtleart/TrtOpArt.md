@@ -18,14 +18,17 @@ for i in range(10):
 
 ### DIRECTIONS
 
-Define a function that will draw ONE COLUMN from top to bottom. You will use this in the algorithm below.
+Define a function that will draw ONE COLUMN from top to bottom. You will use this in the algorithm below. You could draw a line of squares or circle or stick people or anything.
 
-Algorithm:
+Main Algorithm:
 - Pick pen up
 - Go to the top-left corner of the screen
 - Create a for i in range loop, then
-  - Call the function that draws one column
-  - Go back to the top-left corner
+  - Pen down
+  - Call your function that draws one column
+  - Pen up
+  - Go back to the top
+  - Set heading east
   - Move forward i
 
 
