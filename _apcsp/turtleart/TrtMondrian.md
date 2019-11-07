@@ -8,6 +8,7 @@ Piet Mondrian is a famous modern artist of the "De Stijl" movement. One of his m
 
 ![Mondrian Composition with Red Yellow and Blue Right Piet Mondrian Composition C](/apcsp/turtleart/Mondrian-Composition-with-Red-Yellow-and-Blue-Right-Piet-Mondrian-Composition-C.-Images-via-piet-mondrian.org_.jpg)
 
+<br>
 In this project you will create a Mondrian-style Drawing Generator.
 
 ### DIRECTIONS
