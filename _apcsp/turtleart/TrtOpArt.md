@@ -18,7 +18,7 @@ for i in range(10):
 
 ### DIRECTIONS
 
-Define a function that will draw ONE COLUMN from top to bottom. You will use this in the algorithm below. You could draw a line of squares or circle or stick people or anything.
+Define a function that will draw ONE COLUMN from top to bottom. You will use this in the algorithm below. You could draw a vertical column of squares, circles, triangles, stick people, houses, or anything.
 
 Main Algorithm:
 - Pick pen up
