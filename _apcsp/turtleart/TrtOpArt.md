@@ -5,7 +5,7 @@ title: Turtle Op Art
 ---
 
 "Op Art" is a style of optical illusion art from the 1960's. One of the most famous op art paintings is [Movement in Squares by Bridget Riley](https://www.google.com/search?surl=1&biw=1536&bih=758&tbm=isch&sa=1&q=bridget+riley+movement+in+squares&oq=bridget+riley+movement+in+squares&safe=active&ssui=on)
-
+![Bridget Riley Movement in Squares](/apcsp/turtleart/bridget-riley-movement-in-squares.png)
 In this project you will create an Op Art drawing.
 
 You have used a ```for i in range``` loop before, but we haven't used the variable ```i```. For this project, we will use ```i``` to slowly adjust the space between columns.
