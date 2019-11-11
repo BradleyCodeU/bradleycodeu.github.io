@@ -5,7 +5,7 @@
 ---
 
 {% for unit in site.data.apcsa_units[page.collection] %}
-  {% if user.title == 'menu1' || user.title == 'menu2' || user.title == 'menu3' || user.title == 'menu4'  %}
+  {% if unit.title == 'menu1' || unit.title == 'menu2' || unit.title == 'menu3' || unit.title == 'menu4'  %}
     unit.content | markdownify }}
   {% endif %}
 {% endfor %}
