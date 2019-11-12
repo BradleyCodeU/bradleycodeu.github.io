@@ -3,7 +3,7 @@
   title: Web Design Curriculum Overview
   permalink: /wd/
 ---
-{% for unit in site.data.apcsa_units[page.collection] %}
+{% for unit in site.data.wd_units[page.collection] %}
   {% if unit.title == 'menu1' %}{{ unit.content | markdownify }}{% endif %}
   {% if unit.title == 'menu2' %}{{ unit.content | markdownify }}{% endif %}
   {% if unit.title == 'menu3' %}{{ unit.content | markdownify }}{% endif %}
