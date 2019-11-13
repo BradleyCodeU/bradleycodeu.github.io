@@ -6,8 +6,8 @@ title: Short-Circuit 2
 
 Complete the following:
 
-DOCX format - [Short circuit evaluation practice 1.docx](/apcsa/ch57shortcircuitevaluation/Short circuit evaluation practice 1.docx)
+DOCX format - [ShortCircuit evaluation true false practice.docx](/apcsa/ch57shortcircuitevaluation/ShortCircuit evaluation true false practice.docx)
 
-PDF format - [Short circuit evaluation practice 1.pdf](/apcsa/ch57shortcircuitevaluation/Short circuit evaluation practice 1.pdf)
+PDF format - [ShortCircuit evaluation true false practice.pdf](/apcsa/ch57shortcircuitevaluation/ShortCircuit evaluation true false practice.pdf)
 
 Notability is recommended. Turn in on Canvas.
