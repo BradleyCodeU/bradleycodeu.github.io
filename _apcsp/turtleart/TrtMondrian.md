@@ -14,8 +14,8 @@ In this project you will create a Mondrian-style Drawing Generator.
 ### DIRECTIONS
 
 Define a function that will draw ONE Rectangle. (You will use this in the main algorithm below)
-  - Create a variable called height set it to 40 * a small random integer
-  - Create a variable called width set it to 40 * a small random integer
+  - Create a variable called height set it to 50 multiplied by a small random integer (50 is the grid size)
+  - Create a variable called width set it to 50 multiplied by a small random integer
   - Begin fill
   - Draw a rectangle using the height and width variable and 90-deg turns
   - End fill
@@ -29,8 +29,8 @@ Main Algorithm:
   - Save their answer in another variable
   - Create a for loop
     - Pick up the pen
-    - Create a variable called x set it to 40 * a small random integer
-    - Create a variable called y set it to 40 * a small random integer
+    - Create a variable called x set it to 50 multiplied by a small random integer
+    - Create a variable called y set it to 50 multiplied by a small random integer
     - Go to x, y
     - Randomly set the fill color to either "white", color1, color2, or color3
     - Call your draw one rectangle function
