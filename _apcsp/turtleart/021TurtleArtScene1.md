@@ -3,7 +3,7 @@ layout: project
 category: turtleart
 title: Turtle Art Scene 1
 ---
-This project MUST be completed as a group of 2 or 3.
+### This project MUST be completed as a group of 2 or 3.
 
 Decide if you will be creating an underwater scene, country scene, or city scene
 
