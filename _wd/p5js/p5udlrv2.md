@@ -7,7 +7,7 @@ Watch this tutorial [Coding Train 16.17: Inheritance in JavaScript](https://driv
 
 Create an RPG-style game with Up/Down/Left/Right controls.
 
-In the Player class, the player must have 2 or more states (for example, "standing" and "walking"). Animate the walking state by alternating 2 or more images. One way to do this is to create an image array for the sprite (this.imageArray) and then use this.currentPic to keep track of the array index to display.
+In the Player class, the player must have 2 or more states (for example, "standing" and "walking"). Animate the walking state by alternating 2 or more images. I recommend that you create an image array for the sprite (this.imageArray) and then use this.currentPic to keep track of the array index to display.
 ```
 update(){
   if (this.state == "standing"){

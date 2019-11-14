@@ -12,7 +12,7 @@ Create a Sprite class. Should have a "show" method
 
 Create a Player class that EXTENDS THE SPRITE CLASS. Should have a method called "isTouching" that will check for collisions with a point. The method requires two arguments: otherX, otherY. It checks the distance between this.x, this.y and otherX, otherY. Returns true or false if the distance is less than the radius of the player.
 
-In the Player class, the player must have 2 or more states (for example, "standing" and "walking"). Show one image if the state is "standing" and a different image if the state is "walking"
+In the Player class, the player must have 2 or more states (for example, "standing" and "walking"). Show one image if the state is "standing" and a different image if the state is "walking". I recommend that you create an image array for the sprite (this.imageArray) and then use this.currentPic to keep track of the array index to display.
 
 Here is the complete list of features that your finished game MUST have:
   - Title screen (the "titlescreen" game state)
