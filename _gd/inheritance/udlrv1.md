@@ -10,7 +10,7 @@ Create an RPG-style game with Up/Down/Left/Right controls and collectables.
 
 Create a Sprite class.
 
-Create a Player class that EXTENDS THE SPRITE CLASS. The player must have 2 or more states (for example, "standing" and "walking"). Animate the walking state by alternating 2 or more images.
+Create a Player class that EXTENDS THE SPRITE CLASS. The player must have 2 or more states (for example, "standing" and "walking"). Animate the walking state by alternating 2 or more images. One way to do this is to create an image array for the sprite (this.imageArray) and then use this.currentPic to keep track of the array index to display.
 ```
 update(){
   if (this.state == "standing"){
