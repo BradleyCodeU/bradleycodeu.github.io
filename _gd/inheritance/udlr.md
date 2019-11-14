@@ -3,12 +3,27 @@ layout: project
 category: inheritance
 title: UDLR v2
 ---
-
 Watch this tutorial [Coding Train 16.17: Inheritance in JavaScript](https://drive.google.com/file/d/1f31Hv4RS_QHj-aPZUUjJyY07w8wgRcUg/view?usp=sharing)
 
 Create an RPG-style game with Up/Down/Left/Right controls.
 
-In the Player class, the player must have 2 or more states (for example, "standing" and "walking"). Animate the walking state by alternating 2 or more images. Use scale(this.direction,1) to flip the image. Use Up/Down/Left/Right to control the player.
+In the Player class, the player must have 2 or more states (for example, "standing" and "walking"). Animate the walking state by alternating 2 or more images. One way to do this is to create an image array for the sprite (this.imageArray) and then use this.currentPic to keep track of the array index to display.
+```
+update(){
+  if (this.state == "standing"){
+    this.currentPic = 0;
+  }
+  if (this.state == "walking"){
+    if (frameCount % 6 == 0){ // change pics every 6 frames
+      this.currentPic++;
+    }
+    if (this.currentPic > 3){ // if currentPic > last array index of walking image
+      this.currentPic = 0;
+    }
+  }
+}
+```
+![megaman run cycle](/gd\inheritance\megaman.gif)
 
 Must have collectibles and enemies. Collectibles are good and enemies are bad. There are lots of possible games that could be created. Here are some examples...
 

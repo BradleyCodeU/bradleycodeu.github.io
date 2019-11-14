@@ -23,6 +23,7 @@ update(){
   }
 }
 ```
+![megaman run cycle](/gd\inheritance\megaman.gif)
 
 Must have collectibles and enemies. Collectibles are good and enemies are bad. There are lots of possible games that could be created. Here are some examples...
 

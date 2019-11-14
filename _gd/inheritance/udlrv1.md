@@ -8,35 +8,22 @@ Watch this tutorial [Coding Train 16.17: Inheritance in JavaScript](https://driv
 
 Create an RPG-style game with Up/Down/Left/Right controls and collectables.
 
-Create a Sprite class.
+Create a Sprite class. Should have a "show" method
 
-Create a Player class that EXTENDS THE SPRITE CLASS. The player must have 2 or more states (for example, "standing" and "walking"). Animate the walking state by alternating 2 or more images. One way to do this is to create an image array for the sprite (this.imageArray) and then use this.currentPic to keep track of the array index to display.
-```
-update(){
-  if (this.state == "standing"){
-    this.currentPic = 0;
-  }
-  if (this.state == "walking"){
-    if (frameCount % 6 == 0){ // change pics every 6 frames
-      this.currentPic++;
-    }
-    if (this.currentPic > 3){ // if currentPic > last array index of walking image
-      this.currentPic = 0;
-    }
-  }
-}
-```
+Create a Player class that EXTENDS THE SPRITE CLASS. Should have a method called "isTouching" that will check for collisions with a point. The method requires two arguments: otherX, otherY. It checks the distance between this.x, this.y and otherX, otherY. Returns true or false if the distance is less than the radius of the player.
+
+In the Player class, the player must have 2 or more states (for example, "standing" and "walking"). Show one image if the state is "standing" and a different image if the state is "walking"
 
 Here is the complete list of features that your finished game MUST have:
-  - Title screen
-  - Ingame game state
-  - Win screen (collect all of the collectables to win)
+  - Title screen (the "titlescreen" game state)
+  - An "ingame" game state
+  - Win screen when you collect all of the collectables (the "win" game state)
   - a Sprite class for collectables (for example: coins, mushrooms, rings, jellyfish, etc)
-  - a Player class (that extends Sprite) with 2+ states, walking animation, UDLR controls.
+  - a Player class (that extends Sprite) UDLR controls.
   - all classes must be stored in separate files
-  - 4 or more images ([https://p5js.org/reference/#/p5/image](https://p5js.org/reference/#/p5/image)): 2+ images for player animation, collectible image, AND a background image that fills the entire screen
+  - 4 or more images ([https://p5js.org/reference/#/p5/image](https://p5js.org/reference/#/p5/image)): 2+ player images, collectible image, AND a background image that fills the entire screen
   - Background music
-  - three or more sound effects
+  - two or more sound effects
 
  For Javascript audio, you will do something like this:
 <pre>
