@@ -307,19 +307,19 @@ Projects:
   heading: "# Ch6 Loops"
   content: "
 
-1. [Ch6WhileLoops](/apcsa/ch6/ch6whileloops/)
+1. [Ch6WhileLoops](/apcsa/ch6loops/ch6whileloops/)
 
-1. [Ch6ForLoops](/apcsa/ch6/ch6forloops/)
+1. [Ch6ForLoops](/apcsa/ch6loops/ch6forloops/)
 
-1. [Ch6LoopInfo](/apcsa/ch6/ch6loopinfo/)
+1. [Ch6LoopInfo](/apcsa/ch6loops/ch6loopinfo/)
 
-1. [Ch6MultiplicationTable](/apcsa/ch6/ch6multitable/)
+1. [Ch6MultiplicationTable](/apcsa/ch6loops/ch6multitable/)
 
-1. [Ch6Squares](/apcsa/ch6/ch6squares/)
+1. [Ch6Squares](/apcsa/ch6loops/ch6squares/)
 
-1. [Ch6PalindromeChecker](/apcsa/ch6/ch6palindrome/)
+1. [Ch6PalindromeChecker](/apcsa/ch6loops/ch6palindrome/)
 
-1. [Ch6PrimeGenerator](/apcsa/ch6/ch6primegenerator/)
+1. [Ch6PrimeGenerator](/apcsa/ch6loops/ch6primegenerator/)
 
 
 "
