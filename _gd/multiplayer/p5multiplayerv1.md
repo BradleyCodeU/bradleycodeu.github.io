@@ -3,7 +3,7 @@ layout: project
 category: multiplayer
 title: P5 Multiplayer v1
 ---
-Remix this starter project: [https://glitch.com/edit/#!/p5multiplayer](https://glitch.com/edit/#!/p5multiplayer)
+Click here to remix the starter project: [https://glitch.com/edit/#!/remix/p5multiplayer](https://glitch.com/edit/#!/remix/p5multiplayer)
 
 Create an Agario-style multiplayer game in which players score points for eating "food"
 <ul>
