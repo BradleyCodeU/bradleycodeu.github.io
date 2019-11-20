@@ -31,7 +31,6 @@ For Sprint 1, your team must simply complete a set number of points.
   - Bird = *8pts*
   - Bridge = *13pts*
   - Boat = *13pts*
-  - Bubble = *2pts*
   - Bus = *13pts*
   - Butterfly = *13pts*
   - Car = *13pts*
