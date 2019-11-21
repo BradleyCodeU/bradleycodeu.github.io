@@ -11,9 +11,9 @@ Hold a Sprint Planning Meeting with your group. Start by creating post-its for a
 
 10 REQUIRED TASKS:
   - Create an isValidNumber function that returns true if the number is 1, 2, or 3 and otherwise returns false = *2pts*
-  - Create a cityScene function that calls every function that you want drawn in the city. For example, groundWithOcean, MountainsInTheDistance, skyscraper, car, bridge, cloud, boat, helicopter, etc. = *8pts*
-  - Create a countryScene function that calls every function that you want drawn in the country. For example, groundWithRiver, MountainsInTheDistance, skyscraper, car, bridge, cloud, helicopter, etc. = *8pts*
-  - Create a underwaterScene function that calls every function that you want drawn underwater. For example, waves, boat, cloud, seaweed, helicopter, etc. = *8pts*
+  - Create a cityScene function that calls every function that you want drawn in the city. For example, groundWithOcean, several MountainsInTheDistance, several skyscrapers, several cars, bridge, several clouds, boat, helicopter, etc. = *8pts*
+  - Create a countryScene function that calls every function that you want drawn in the country. For example, groundWithRiver, boat, MountainsInTheDistance, several trees, barn, car, bridge, several clouds, several birds, helicopter, etc. = *8pts*
+  - Create a underwaterScene function that calls every function that you want drawn underwater. For example, waves, boat, several clouds, several seaweed, helicopter, several fish, several starfish, etc. = *8pts*
   - Create a Main function that asks the user "Which scene would you like? Type either 1 for city, 2 for country, or 3 for underwater: " then collects the user input. If the user input is invalid, print "Not a valid number 1-3". If it is valid then call either cityScene, countryScene, or underwaterScene. = *5pts*
   - Create a WriteText function that requires 4 arguments: centerX, centerY, text, color. The function will pick up the pen, go to point (centerX,centerY), set the color, and write the text center aligned. = *8pts*
   - Create the following six random color functions: a randomRed function that requires no arguments and returns an RGB tuple, a randomBlue function that requires no arguments and returns an RGB tuple, a randomGreen function that requires no arguments and returns an RGB tuple, a randomYellow function that requires no arguments and returns an RGB tuple, a randomOrange function that requires no arguments and returns an RGB tuple, randomPurple function that requires no arguments and returns an RGB tuple = *13pts*
