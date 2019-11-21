@@ -21,7 +21,7 @@ Enter upper limit: 20
 19
 ```
 
-### PrimePrinter
+## PrimePrinter
 ```java
 import java.util.Scanner;
 
@@ -50,7 +50,7 @@ public class PrimePrinter
    }
 }
 ```
-### PrimeGenerator
+## PrimeGenerator
 ```java
 /**
    This class generates all prime numbers.
