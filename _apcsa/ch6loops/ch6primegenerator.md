@@ -6,7 +6,7 @@ title: Prime Generator
 
 Using the tester class [PrimePrinter already completed below](#primeprinter) and the [PrimeGenerator class starter code below](#primegenerator) (needs to be completed), write a program that prompts the user for an integer and then prints out all prime numbers up to that integer.
 
-Recall that a number is a prime number if it is not divisible by any number except 1 and itself.
+Recall that a number is a prime number if it is not divisible by any number except 1 and itself. Your PrimeGenerator class will need a counter instance variable that starts at 1. Each time the nextPrime method is called it adds one to the instance variable until it reaches a prime number. Then it returns that number.
 
 Sample Run
 ```
@@ -57,27 +57,30 @@ public class PrimePrinter
 */
 public class PrimeGenerator
 {
-
+   // declare your counter instance variable
    public PrimeGenerator()
    {
 
    }
 
    /**
-      Calculates the next prime number.
-      @return the next prime number
-   */
-   public int nextPrime()
-   {
-      return 0;
-   }
-   /**
-	 Checks to see if number is prime.
+	 Checks to see if a given number is prime.
+   @param n an integer that may or may not be prime
 	 @return true or false
    */
    public static boolean isPrime(int n)
    {
       return true;
    }
+
+   /**
+      Calculates the next prime number using the isPrime method.
+      @return the next prime number
+   */
+   public int nextPrime()
+   {
+      return 0;
+   }
+
 }
 ```

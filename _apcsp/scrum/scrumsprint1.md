@@ -17,7 +17,7 @@ For Sprint 1, your team must simply complete a set number of points.
   - 3 team members = 100 pts or more
   - 4 team members = 133 pts or more
 
-### Product Backlog
+## Product Backlog
 
   - *Required* Create a Test function that requires no arguments. The function will test ALL of the functions that your team has created (or will create) this sprint. For example, DrawCircle(0,0,100,"red"), GotoRandom(), Balloon(), WriteText(200,-200,"Team A","pink"), etc. = *13pts (You might want to save this one for last?)*
   - Create a WriteText function that requires 4 arguments: centerX, centerY, text, color. The function will pick up the pen, go to point (centerX,centerY), set the color, and write the text center aligned. = *8pts*
