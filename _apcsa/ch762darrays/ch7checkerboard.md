@@ -1,5 +1,5 @@
 ---
 layout: project
-category: ch7-arrays-and-array-lists
+category: ch76-2d-arrays
 title: Checkerboard
 ---

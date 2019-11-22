@@ -1,6 +1,6 @@
 ---
 layout: project
-category: ch1-introduction
+category: ch1introduction
 title: Ch1 Integer Overflow
 ---
 

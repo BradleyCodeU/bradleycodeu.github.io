@@ -1,6 +1,6 @@
 ---
 layout: project
-category: ch2-using-objects
+category: ch2usingobjects
 title: Ch2 Review Ch1 and Ch2
 ---
 Copy/paste and complete:

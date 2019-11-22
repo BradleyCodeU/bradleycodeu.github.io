@@ -1,6 +1,6 @@
 ---
 layout: project
-category: ch2-using-objects
+category: ch2usingobjects
 title: Ch2 Project 9
 ---
 In Java 8, the LocalDate class describes a calendar date that does not depend on a location or time zone. You construct a date like this:

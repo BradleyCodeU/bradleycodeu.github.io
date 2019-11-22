@@ -1,6 +1,6 @@
 ---
 layout: project
-category: ch2-using-objects
+category: ch2usingobjects
 title: Ch2 String Exercises
 ---
 Create one Java program that does all of the following:

@@ -1,6 +1,6 @@
 ---
 layout: project
-category: ch2-using-objects
+category: ch2usingobjects
 title: Ch2 Method Madness
 ---
 Combine these 3 parts to create one big Method Madness program.

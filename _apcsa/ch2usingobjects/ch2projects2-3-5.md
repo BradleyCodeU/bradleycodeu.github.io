@@ -1,6 +1,6 @@
 ---
 layout: project
-category: ch2-using-objects
+category: ch2usingobjects
 title: Ch2 Projects 2, 3, 5
 ---
 Programming Projects, Page 74: 2.2, 2.3, and 2.5

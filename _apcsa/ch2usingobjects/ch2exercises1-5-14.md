@@ -1,6 +1,6 @@
 ---
 layout: project
-category: ch2-using-objects
+category: ch2usingobjects
 title: Ch2 Exercises 1, 5, 14
 ---
 Skim Sections 2.1-2.2 (pages 31-40)

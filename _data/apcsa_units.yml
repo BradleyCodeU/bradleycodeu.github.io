@@ -84,15 +84,15 @@ References:
   content: "[1st Quarter](#1st-quarter)
 
 
-1. **[Ch1 Introduction](#ch1-introduction)**
+1. **[ch1introduction](#ch1introduction)**
 
-1. **[Ch2 Using Objects](#ch2-using-objects)**
+1. **[ch2usingobjects](#ch2usingobjects)**
 
 1. **[Ch3 Implementing Classes](#ch3-implementing-classes)**
 
 "
-- title: ch1-introduction
-  heading: "# Ch1 Introduction"
+- title: ch1introduction
+  heading: "# ch1introduction"
   content: "*2.5 wks* Vocab: platform, assembly, binary, bit, byte, declare, assignment, initialize, JVM, IDE, class, method, main, println, Scanner, int, double, boolean, char, String, comment, magic number, final, literal
 
 
@@ -122,8 +122,8 @@ Projects:
 1. [Ch1SoloLearnJava](/apcsa/ch1introduction/ch1sololearnjava/)
 "
 
-- title: ch2-using-objects
-  heading: "# Ch2 Using Objects"
+- title: ch2usingobjects
+  heading: "# ch2usingobjects"
   content: "Vocab: object, accessor, mutator, method, constructor, new, API, naming convention, camelCase, PascalCase, comment
 
 
