@@ -380,63 +380,63 @@ Projects:
   heading: "# Ch7.2 For Each Loops"
   content: "
 
-1. [Ch72ForEachLoopArrayPractice](/apcsa/ch72/Ch72ForEachLoopArrayPractice/)
+1. [Ch72ForEachLoopArrayPractice](/apcsa/ch72foreachloops/Ch72ForEachLoopArrayPractice/)
 
-1. [Ch72ArrayListReviewWordlists](/apcsa/ch72/Ch72ArrayListReviewWordlists/)
+1. [Ch72ArrayListReviewWordlists](/apcsa/ch72foreachloops/Ch72ArrayListReviewWordlists/)
 
-1. [Ch72ForLoopHandTracingReview](/apcsa/ch72/Ch72ForLoopHandTracingReview/)
+1. [Ch72ForLoopHandTracingReview](/apcsa/ch72foreachloops/Ch72ForLoopHandTracingReview/)
 
-1. [Ch72LoopsAndArraysReview](/apcsa/ch72/Ch72LoopsAndArraysReview/)
+1. [Ch72LoopsAndArraysReview](/apcsa/ch72foreachloops/Ch72LoopsAndArraysReview/)
 
 "
 - title: ch762darrays
   heading: "# Ch7.6 2D Arrays"
   content: "
-1. [Ch76Checkerboard](/apcsa/ch76/Ch76Checkerboard/)
+1. [Ch76Checkerboard](/apcsa/ch762darrays/Ch76Checkerboard/)
 
-1. [Ch76MagicSquares](/apcsa/ch76/Ch76MagicSquares/)
+1. [Ch76MagicSquares](/apcsa/ch762darrays/Ch76MagicSquares/)
 
-1. [Ch76TheaterTicketPrices](/apcsa/ch76/Ch76TheaterTicketPrices/)
+1. [Ch76TheaterTicketPrices](/apcsa/ch762darrays/Ch76TheaterTicketPrices/)
 
-1. [Ch76ReadingExternalFile](/apcsa/ch76/Ch76ReadingExternalFile/)
+1. [Ch76ReadingExternalFile](/apcsa/ch762darrays/Ch76ReadingExternalFile/)
 
-1. [Ch76WritingExternalFile](/apcsa/ch76/Ch76WritingExternalFile/)
+1. [Ch76WritingExternalFile](/apcsa/ch762darrays/Ch76WritingExternalFile/)
 
-1. [Ch76StudentTwoDimArray](/apcsa/ch76/Ch76StudentTwoDimArray/)
+1. [Ch76StudentTwoDimArray](/apcsa/ch762darrays/Ch76StudentTwoDimArray/)
 
-1. [Ch76GuessWithFileInput](/apcsa/ch76/Ch76GuessWithFileInput/)
+1. [Ch76GuessWithFileInput](/apcsa/ch762darrays/Ch76GuessWithFileInput/)
 
-1. [Ch76GuessWithWebScraping](/apcsa/ch76/Ch76GuessWithWebScraping/)
+1. [Ch76GuessWithWebScraping](/apcsa/ch762darrays/Ch76GuessWithWebScraping/)
 
 
 "
 - title: ch8designingclasses
   heading: "# Ch8 Designing Classes"
   content: "
-1. [Ch8Worksheet](/apcsa/ch8/Ch8Worksheet/)
+1. [Ch8Worksheet](/apcsa/ch8designingclasses/Ch8Worksheet/)
 
-1. [Ch8GeometryClass](/apcsa/ch8/Ch8GeometryClass/)
+1. [Ch8GeometryClass](/apcsa/ch8designingclasses/Ch8GeometryClass/)
 
-1. [Ch8CoinAndCoinFlipper](/apcsa/ch8/Ch8CoinAndCoinFlipper/)
+1. [Ch8CoinAndCoinFlipper](/apcsa/ch8designingclasses/Ch8CoinAndCoinFlipper/)
 
-1. [Ch8Store](/apcsa/ch8/Ch8Store/)
+1. [Ch8Store](/apcsa/ch8designingclasses/Ch8Store/)
 
-1. [Ch8RobotClass](/apcsa/ch8/Ch8RobotClass/)
+1. [Ch8RobotClass](/apcsa/ch8designingclasses/Ch8RobotClass/)
 
 
 "
 - title: ch9inheritance
   heading: "# Ch9 Inheritance"
   content: "
-1. [Ch9DogClass](/apcsa/ch9/Ch9DogClass/)
+1. [Ch9DogClass](/apcsa/ch9inheritance/Ch9DogClass/)
 
-1. [Ch9QuestionClass](/apcsa/ch9/Ch9QuestionClass/)
+1. [Ch9QuestionClass](/apcsa/ch9inheritance/Ch9QuestionClass/)
 
-1. [Ch9ClockClass](/apcsa/ch9/Ch9ClockClass/)
+1. [Ch9ClockClass](/apcsa/ch9inheritance/Ch9ClockClass/)
 
-1. [Ch9UMLDiagram](/apcsa/ch9/Ch9UMLDiagram/)
+1. [Ch9UMLDiagram](/apcsa/ch9inheritance/Ch9UMLDiagram/)
 
-1. [Ch9PetStartupProject](/apcsa/ch9/Ch9PetStartupProject/)
+1. [Ch9PetStartupProject](/apcsa/ch9inheritance/Ch9PetStartupProject/)
 
 "
 
@@ -474,40 +474,40 @@ Projects:
 - title: ch10interfaces
   heading: "# Ch10 Interfaces"
   content: "
-1. [Ch10FlyableImplementation](/apcsa/ch10/Ch10FlyableImplementation/)
+1. [Ch10FlyableImplementation](/apcsa/ch10interfaces/Ch10FlyableImplementation/)
 
-1. [Ch10MeasurableInterface](/apcsa/ch10/Ch10MeasurableInterface/)
+1. [Ch10MeasurableInterface](/apcsa/ch10interfaces/Ch10MeasurableInterface/)
 
-1. [Ch10ComparableInterface](/apcsa/ch10/Ch10ComparableInterface/)
+1. [Ch10ComparableInterface](/apcsa/ch10interfaces/Ch10ComparableInterface/)
 
 "
 
 - title: ch14sortingandsearching
   heading: "# Ch14 Sorting and Searching"
   content: "
-1. [Ch9DogClass](/apcsa/ch9/Ch9DogClass/)
+1. [Ch9DogClass](/apcsa/ch14sortingandsearching/Ch9DogClass/)
 
-1. [Ch9QuestionClass](/apcsa/ch9/Ch9QuestionClass/)
+1. [Ch9QuestionClass](/apcsa/ch14sortingandsearching/Ch9QuestionClass/)
 
-1. [Ch9ClockClass](/apcsa/ch9/Ch9ClockClass/)
+1. [Ch9ClockClass](/apcsa/ch14sortingandsearching/Ch9ClockClass/)
 
-1. [Ch9UMLDiagram](/apcsa/ch9/Ch9UMLDiagram/)
+1. [Ch9UMLDiagram](/apcsa/ch14sortingandsearching/Ch9UMLDiagram/)
 
-1. [Ch9PetStartupProject](/apcsa/ch9/Ch9PetStartupProject/)
+1. [Ch9PetStartupProject](/apcsa/ch14sortingandsearching/Ch9PetStartupProject/)
 
 "
 
 - title: ch13recursion
   heading: "# Ch13 Recursion"
   content: "
-1. [Ch9DogClass](/apcsa/ch9/Ch9DogClass/)
+1. [Ch9DogClass](/apcsa/ch13recursion/Ch9DogClass/)
 
-1. [Ch9QuestionClass](/apcsa/ch9/Ch9QuestionClass/)
+1. [Ch9QuestionClass](/apcsa/ch13recursion/Ch9QuestionClass/)
 
-1. [Ch9ClockClass](/apcsa/ch9/Ch9ClockClass/)
+1. [Ch9ClockClass](/apcsa/ch13recursion/Ch9ClockClass/)
 
-1. [Ch9UMLDiagram](/apcsa/ch9/Ch9UMLDiagram/)
+1. [Ch9UMLDiagram](/apcsa/ch13recursion/Ch9UMLDiagram/)
 
-1. [Ch9PetStartupProject](/apcsa/ch9/Ch9PetStartupProject/)
+1. [Ch9PetStartupProject](/apcsa/ch13recursion/Ch9PetStartupProject/)
 
 "
