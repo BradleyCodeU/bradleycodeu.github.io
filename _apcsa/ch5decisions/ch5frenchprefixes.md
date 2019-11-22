@@ -1,6 +1,6 @@
 ---
 layout: project
-category: ch5-decisions
+category: ch5decisions
 title: French Prefixes
 ---
 Big Java, page 229

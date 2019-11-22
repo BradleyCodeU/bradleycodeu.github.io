@@ -1,6 +1,6 @@
 ---
 layout: project
-category: ch3-implementing-classes
+category: ch3implementingclasses
 title: Ch3 Shoes
 ---
 Create a Shoes class and its tester file, ShoesTester.

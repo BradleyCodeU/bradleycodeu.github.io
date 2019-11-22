@@ -1,6 +1,6 @@
 ---
 layout: project
-category: ch5-decisions
+category: ch5decisions
 title: Paint Calc 2
 ---
 

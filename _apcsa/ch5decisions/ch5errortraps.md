@@ -1,6 +1,6 @@
 ---
 layout: project
-category: ch5-decisions
+category: ch5decisions
 title: Error Traps
 ---
 Conditional statements are often used to catch input values that are inaccurate.

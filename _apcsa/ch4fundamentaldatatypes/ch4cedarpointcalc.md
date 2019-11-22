@@ -1,6 +1,6 @@
 ---
 layout: project
-category: ch4-fundamental-data-types
+category: ch4fundamentaldatatypes
 title: Ch4 Cedar Point Calc
 ---
 Mr. Cook has decided to send all student class officers from grades 7 - 12 to Cedar Point to thank them for their work. He doesn't know *exactly* how many students will be attending, but has asked you to write a program that can  calculate and display the total expenses of the trip. He will need to send 1 teacher chaperone for every 4 students (rounded down).

@@ -1,6 +1,6 @@
 ---
 layout: project
-category: ch3-implementing-classes
+category: ch3implementingclasses
 title: Ch3 Cash Register
 ---
 Implement a class that models a self-service cash register. The customer scans the price tags and deposits money in the machine. The machine dispenses the change.

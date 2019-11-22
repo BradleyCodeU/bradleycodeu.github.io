@@ -1,6 +1,6 @@
 ---
 layout: project
-category: ch57-short-circuit-evaluation
+category: ch57shortcircuitevaluation
 title: Boolean Review
 ---
 

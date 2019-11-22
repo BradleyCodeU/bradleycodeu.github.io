@@ -1,6 +1,6 @@
 ---
 layout: project
-category: ch5-decisions
+category: ch5decisions
 title: French Flowchart
 ---
 For this project, you will review the rules for French country names and then fix/redesign the flowchart below.

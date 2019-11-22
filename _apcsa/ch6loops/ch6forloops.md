@@ -1,6 +1,6 @@
 ---
 layout: project
-category: ch6-loops
+category: ch6loops
 title: For Loops
 ---
 Write For loops that will compute

@@ -1,6 +1,6 @@
 ---
 layout: project
-category: ch6-loops
+category: ch6loops
 title: While Loops
 ---
 Write while loops that will print

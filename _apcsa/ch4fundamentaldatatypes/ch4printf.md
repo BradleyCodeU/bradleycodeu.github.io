@@ -1,6 +1,6 @@
 ---
 layout: project
-category: ch4-fundamental-data-types
+category: ch4fundamentaldatatypes
 title: Ch4 Printf
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: project
-category: ch5-decisions
+category: ch5decisions
 title: Find Distance
 ---
 You have two errands to run today. Your friend wants you to be able to go out tonight, so he agrees to run one of your errands for you.  

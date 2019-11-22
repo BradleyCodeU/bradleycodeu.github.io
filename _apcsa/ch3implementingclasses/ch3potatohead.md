@@ -1,6 +1,6 @@
 ---
 layout: project
-category: ch3-implementing-classes
+category: ch3implementingclasses
 title: Ch3 Potatohead
 ---
 How to pull everyone's changes into your Fork

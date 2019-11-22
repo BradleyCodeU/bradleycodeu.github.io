@@ -1,6 +1,6 @@
 ---
 layout: project
-category: ch45-strings
+category: ch45strings
 title: Phone Number
 ---
 Prompt user for a telephone number and store it as a string variable.

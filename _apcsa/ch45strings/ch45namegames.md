@@ -1,6 +1,6 @@
 ---
 layout: project
-category: ch45-strings
+category: ch45strings
 title: Name Games
 ---
 

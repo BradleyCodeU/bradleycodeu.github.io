@@ -152,7 +152,7 @@ Projects:
 
 "
 
-- title: ch3-implementing-classes
+- title: ch3implementingclasses
   heading: "# Ch3 Implementing Classes"
   content: "
 
@@ -218,7 +218,7 @@ Projects:
 
 "
 
-- title: ch4-fundamental-data-types
+- title: ch4fundamentaldatatypes
   heading: "# Ch4 Fundamental Data Types"
   content: "
 
@@ -251,7 +251,7 @@ Projects:
 
 "
 
-- title: ch45-strings
+- title: ch45strings
   heading: "# Ch4.5 Strings"
   content: "Resources:
 
@@ -270,7 +270,7 @@ Projects:
 
 "
 
-- title: ch5-decisions
+- title: ch5decisions
   heading: "# Ch5 Decisions"
   content: "
 1. [Ch5PaintCalc2](/apcsa/ch5decisions/ch5paintcalc2/)
@@ -289,7 +289,7 @@ Projects:
 
 "
 
-- title: ch57-short-circuit-evaluation
+- title: ch57shortcircuitevaluation
   heading: "# Ch5.7 Short-Circuit Evaluation"
   content: "
 1. [Ch57EvaluatingBooleanExpressions](/apcsa/ch57shortcircuitevaluation/ch57evaluatingbooleans/)
@@ -305,7 +305,7 @@ Projects:
 
 "
 
-- title: ch6-loops
+- title: ch6loops
   heading: "# Ch6 Loops"
   content: "
 
@@ -376,7 +376,7 @@ Projects:
 
 "
 
-- title: ch72-for-each-loops
+- title: ch72foreachloops
   heading: "# Ch7.2 For Each Loops"
   content: "
 
@@ -389,7 +389,7 @@ Projects:
 1. [Ch72LoopsAndArraysReview](/apcsa/ch72/Ch72LoopsAndArraysReview/)
 
 "
-- title: ch76-2d-arrays
+- title: ch762darrays
   heading: "# Ch7.6 2D Arrays"
   content: "
 1. [Ch76Checkerboard](/apcsa/ch76/Ch76Checkerboard/)
@@ -410,7 +410,7 @@ Projects:
 
 
 "
-- title: ch8-designing-classes
+- title: ch8designingclasses
   heading: "# Ch8 Designing Classes"
   content: "
 1. [Ch8Worksheet](/apcsa/ch8/Ch8Worksheet/)
@@ -425,7 +425,7 @@ Projects:
 
 
 "
-- title: ch9-inheritance
+- title: ch9inheritance
   heading: "# Ch9 Inheritance"
   content: "
 1. [Ch9DogClass](/apcsa/ch9/Ch9DogClass/)
@@ -471,7 +471,7 @@ Projects:
 
 "
 
-- title: ch10-interfaces
+- title: ch10interfaces
   heading: "# Ch10 Interfaces"
   content: "
 1. [Ch10FlyableImplementation](/apcsa/ch10/Ch10FlyableImplementation/)
@@ -482,7 +482,7 @@ Projects:
 
 "
 
-- title: ch14-sorting-and-searching
+- title: ch14sortingandsearching
   heading: "# Ch14 Sorting and Searching"
   content: "
 1. [Ch9DogClass](/apcsa/ch9/Ch9DogClass/)
@@ -497,7 +497,7 @@ Projects:
 
 "
 
-- title: ch13-recursion
+- title: ch13recursion
   heading: "# Ch13 Recursion"
   content: "
 1. [Ch9DogClass](/apcsa/ch9/Ch9DogClass/)

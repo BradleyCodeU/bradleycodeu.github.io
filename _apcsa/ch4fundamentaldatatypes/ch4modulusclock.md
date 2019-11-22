@@ -1,6 +1,6 @@
 ---
 layout: project
-category: ch4-fundamental-data-types
+category: ch4fundamentaldatatypes
 title: Ch4 Modulus Clock
 ---
 Create a program that uses integer division and modulus division to calculate the [MILITARY TIME](https://en.wikipedia.org/wiki/24-hour_clock) after a specified number of hours and minutes.
