@@ -84,15 +84,15 @@ References:
   content: "[1st Quarter](#1st-quarter)
 
 
-1. **[ch1introduction](#ch1introduction)**
+1. **[Ch1 Introduction](#ch1-introduction)**
 
-1. **[ch2usingobjects](#ch2usingobjects)**
+1. **[Ch2 Using Objects](#ch2-using-objects)**
 
 1. **[Ch3 Implementing Classes](#ch3-implementing-classes)**
 
 "
 - title: ch1introduction
-  heading: "# ch1introduction"
+  heading: "# Ch1 Introduction"
   content: "*2.5 wks* Vocab: platform, assembly, binary, bit, byte, declare, assignment, initialize, JVM, IDE, class, method, main, println, Scanner, int, double, boolean, char, String, comment, magic number, final, literal
 
 
@@ -123,7 +123,7 @@ Projects:
 "
 
 - title: ch2usingobjects
-  heading: "# ch2usingobjects"
+  heading: "# Ch2 Using Objects"
   content: "Vocab: object, accessor, mutator, method, constructor, new, API, naming convention, camelCase, PascalCase, comment
 
 
@@ -326,19 +326,19 @@ Projects:
 
 "
 
-- title: ch7-arrays-and-array-lists
+- title: ch7arraysandarraylists
   heading: "# Ch7 Arrays and Array Lists"
   content: "
 
-1. [Ch7ArrayManipulation](/apcsa/ch7/Ch7ArrayManipulation/)
+1. [Ch7ArrayManipulation](/apcsa/ch7arraysandarraylists/ch7arraymanipulation/)
 
-1. [Ch7SeatingArrangements](/apcsa/ch7/Ch7SeatingArrangements/)
+1. [Ch7SeatingArrangements](/apcsa/ch7arraysandarraylists/ch7seatingchart/)
 
-1. [Ch7PokerDice](/apcsa/ch7/Ch7PokerDice/)
+1. [Ch7PokerDice](/apcsa/ch7arraysandarraylists/Ch7pokerdice/)
 
-1. [Ch7PizzaToppings](/apcsa/ch7/Ch7PizzaToppings/)
+1. [Ch7PizzaToppings](/apcsa/ch7arraysandarraylists/ch7pizzatoppings/)
 
-1. [Ch7PetShopRegister](/apcsa/ch7/Ch7PetShopRegister/)
+1. [Ch7PetShopRegister](/apcsa/ch7arraysandarraylists/ch7petshopregister/)
 
 "
 
