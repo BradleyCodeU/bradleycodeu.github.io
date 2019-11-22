@@ -9,56 +9,56 @@ Write a program that prompts the user for a number of seats (any integer number 
 
 For input validation, you may want to use a loop that asks for an integer while NOT scanner hasNextInt()
 
-For example, consider the situation where 10 seats are arranged in one row and are empty.
+For example, consider the situation where 8 seats are arranged in one row and are empty.
 
 ```
-__ __ __ __ __ __ __ __ __ __
+__ __ __ __ __ __ __ __
 ```
 
 The first visitor will occupy a middle position:
 
 ```
-__ __ __ __ __  X  __ __ __ __
+__ __ __ __  X  __ __ __
 ```
 
-The left region has five empty seats and the right region has four. The next visitor will be in the middle of the empty region at the left.
+The left region has four empty seats and the right region has three. The next visitor will sit in the middle of the empty left-most region.
 ```
-__ __  X  __ __  X  __ __ __ __
+__ __  X  __  X  __ __ __
 ```
-The right-most region has four empty seats, so the next visitor will go to the right-most region.
+The right-most region has three empty seats, so the next visitor will go to the middle of the right-most region.
 ```
-__ __  X  __ __  X  __ __  X  __
+__ __  X  __  X  __  X  __
 ```
 This will continue until all seats are filled.
 
 Example Output 1
 ```
-Number of seats:  10
-_ _ _ _ X _ _ _ _ _
-_ _ _ _ X _ _ X _ _
-_ X _ _ X _ _ X _ _
-_ X X _ X _ _ X _ _
-_ X X _ X X _ X _ _
-_ X X _ X X _ X X _
-X X X _ X X _ X X _
-X X X X X X _ X X _
-X X X X X X X X X _
-X X X X X X X X X X
+Number of seats:  8
+_ _ _ _ X _ _ _
+_ _ X _ X _ _ _
+_ _ X _ X _ X _
+_ X X _ X _ X _
+X X X _ X _ X _
+X X X X X _ X _
+X X X X X X X _
+X X X X X X X X
 ```
 Example Output 2
 ```
-Number of seats:  11
-_ _ _ _ _ _ _ _ _ _
-_ _ _ _ _ X _ _ _ _
-_ _ X _ _ X _ _ _ _
-_ _ X _ _ X _ _ X _
-X _ X _ _ X _ _ X _
-X _ X X _ X _ _ X _
-X _ X X _ X X _ X _
-X X X X _ X X _ X _
-X X X X X X X _ X _
-X X X X X X X X X _
-X X X X X X X X X X
+Number of seats:  13
+_ _ _ _ _ _ X _ _ _ _ _ _
+_ _ _ X _ _ X _ _ _ _ _ _
+_ _ _ X _ _ X _ _ _ X _ _
+_ X _ X _ _ X _ _ _ X _ _
+_ X _ X _ _ X _ X _ X _ _
+_ X _ X _ X X _ X _ X _ _
+_ X _ X _ X X _ X _ X _ X
+X X _ X _ X X _ X _ X _ X
+X X X X _ X X _ X _ X _ X
+X X X X X X X _ X _ X _ X
+X X X X X X X X X _ X _ X 
+X X X X X X X X X X X _ X
+X X X X X X X X X X X X X
 ```
 
 HINTS:
