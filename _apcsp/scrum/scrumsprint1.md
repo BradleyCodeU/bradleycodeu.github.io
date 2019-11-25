@@ -19,11 +19,13 @@ For Sprint 1, your team must simply complete a set number of points.
 
 ## Product Backlog
 
-  - *Required* Create a Tester function that requires no arguments. The function will test ALL of the functions that your team has created (or will create) this sprint. Example below. = *13pts (You might want to save this one for last?)*
+  - *Required* Create a Tester function that requires no arguments. The function will test ALL of the functions that your team has created (or will create) this sprint. Example Tester below. = *13pts (You might want to save this one for last?)*
 
-  
+
 ```
-def Tester()
+# Here is an example Tester function
+def Tester():
+  # by Mr. Riley
   DrawCircle(0,0,100,"red")
   GotoRandom(-400,400,800,800)
   Balloon()
@@ -32,7 +34,6 @@ def Tester()
   GotoRandom(-400,400,800,800)
   Car()
   WriteText(200,-200,"Team A","pink")
-
 ```
 
   - Create a WriteText function that requires 4 arguments: centerX, centerY, text, color. The function will pick up the pen, go to point (centerX,centerY), set the color, and write the text center aligned. = *8pts*
