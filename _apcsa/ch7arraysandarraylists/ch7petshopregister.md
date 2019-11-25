@@ -30,10 +30,7 @@ Write a class called PetShopItem that creates objects with:
 
 
 ## Starter code for PetShopTester:
-<textarea name="Text1" rows="5">import java.util.Scanner;
 
-
-</textarea>
 ```java
 import java.util.Scanner;
 
