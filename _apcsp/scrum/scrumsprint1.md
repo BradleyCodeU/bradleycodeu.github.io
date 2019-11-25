@@ -19,7 +19,20 @@ For Sprint 1, your team must simply complete a set number of points.
 
 ## Product Backlog
 
-  - *Required* Create a Test function that requires no arguments. The function will test ALL of the functions that your team has created (or will create) this sprint. For example, DrawCircle(0,0,100,"red"), GotoRandom(), Balloon(), WriteText(200,-200,"Team A","pink"), etc. = *13pts (You might want to save this one for last?)*
+  - *Required* Create a Tester function that requires no arguments. The function will test ALL of the functions that your team has created (or will create) this sprint. Example below. = *13pts (You might want to save this one for last?)*
+```
+def Tester()
+  DrawCircle(0,0,100,"red")
+  GotoRandom(-400,400,800,800)
+  Balloon()
+  GotoRandom(-400,400,800,800)
+  Cloud()
+  GotoRandom(-400,400,800,800)
+  Car()
+  WriteText(200,-200,"Team A","pink")
+
+```
+
   - Create a WriteText function that requires 4 arguments: centerX, centerY, text, color. The function will pick up the pen, go to point (centerX,centerY), set the color, and write the text center aligned. = *8pts*
   - Create the following six random color functions: a randomRed function that requires no arguments and returns an RGB tuple, a randomBlue function that requires no arguments and returns an RGB tuple, a randomGreen function that requires no arguments and returns an RGB tuple, a randomYellow function that requires no arguments and returns an RGB tuple, a randomOrange function that requires no arguments and returns an RGB tuple, randomPurple function that requires no arguments and returns an RGB tuple = *13pts*
   - Create a GotoRandom function that requires four arguments: topLeftX, topLeftY, width, height. The function will pick up the pen, calculate a randomX between topLeftX and (topLeftX + width), calculate a randomY between topLeftY and (topLeftY - height), and then go to the new random location. = *8pts*
