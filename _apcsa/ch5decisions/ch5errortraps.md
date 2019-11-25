@@ -19,3 +19,20 @@ Hints:
   - You can use the toLowerCase String method to make the process 50% easier
   - You can use [this ASCII table](http://www.asciitable.com/) to find the number values for each char
   - You can use the charAt String method to return the char at a specified index
+
+
+SAMPLE RUN 1:
+```
+Enter a letter:  {
+ERROR
+```
+SAMPLE RUN 2:
+```
+Enter a letter:  E
+VOWEL
+```
+SAMPLE RUN 3:
+```
+Enter a letter:  y
+CONSONANT
+```
