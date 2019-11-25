@@ -18,17 +18,17 @@ Use getElementById to get the currently selected value from the select drop-down
 ```
 var selectedAnswer = document.getElementById("myDropDown").value;
 ```
-And then if selectedAnswer == "Banana" (or the correct [option value](https://www.w3schools.com/tags/att_option_value.asp)), create a popup with [alert()]((https://www.w3schools.com/jsref/met_win_alert.asp)) to tell the user if they are correct.
+And then if selectedAnswer == "Banana" (or the correct [option value](https://www.w3schools.com/tags/att_option_value.asp), create a popup with [alert()](https://www.w3schools.com/jsref/met_win_alert.asp) to tell the user if they are correct.
 
 
-Q3 uses a [text input box]((https://www.w3schools.com/tags/att_input_type_text.asp)) and one [button](https://www.w3schools.com/tags/tag_button.asp). You will add the onclick= attribute to the button. This Javascript code will allow you to get the text within a text input box:
+Q3 uses a [text input box](https://www.w3schools.com/tags/att_input_type_text.asp) and one [button](https://www.w3schools.com/tags/tag_button.asp). You will add the onclick= attribute to the button. This Javascript code will allow you to get the text within a text input box:
 ```
 var userText3 = document.getElementById("textinput3").value;
 ```
 Let's assume that the correct answer is Shrek. When the user clicks on the button, you will check if userText3 == "Shrek", then create a popup with alert() to tell the user if they are correct.
 
 
-Q4 uses three or more checkboxes and one button. [https://www.w3schools.com/tags/att_input_type_checkbox.asp](https://www.w3schools.com/tags/att_input_type_checkbox.asp) You will add the onclick= attribute to the button. You will need to determine which checkboxes are checked and which checkboxes are NOT checked. This Javascript code will allow you to get the status of a single checkbox:
+Q4 uses three or more [checkboxes](https://www.w3schools.com/tags/att_input_type_checkbox.asp) and one [button](https://www.w3schools.com/tags/tag_button.asp). You will add the onclick= attribute to the button. You will need to determine which checkboxes are checked and which checkboxes are NOT checked. This Javascript code will allow you to get the status of a single checkbox:
 ```
 var isBoxAChecked = document.getElementById("checkboxA").checked;
 ```
