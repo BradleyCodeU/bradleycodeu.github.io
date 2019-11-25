@@ -32,62 +32,6 @@ Write a class called PetShopItem that creates objects with:
 ## Starter code for PetShopTester:
 <textarea name="Text1" rows="5">import java.util.Scanner;
 
-public class PetShopTester{
-  public static void main(String[] args){
-    //declare variables
-    PetShopRegister myRegister = new PetShopRegister();
-    Scanner scanner = new Scanner(System.in);
-
-    while(true){
-      // prompt a cashier to add an item, remove an item, and check out (sentinel)
-      System.out.print("Type either 'add', 'remove', or 'checkout': ");
-      String input = scanner.nextLine();
-
-      if(input.equals("add")){
-        /*To add an item, the cashier will enter the item’s name, price, quantity, and then a "y" for a pet
-        (anything living) or "n" for any other non-pet item (pet food, pet toys, pet collars, etc) */
-        System.out.print("Name: ");
-        String item = scanner.nextLine();
-        System.out.print("Price: ");
-        double price = scanner.nextDouble();
-        System.out.print("Quantity: ");
-        int quantity = scanner.nextInt();
-        scanner.nextLine();
-        System.out.print("Living? 'y' or 'n'? ");
-        String isLiving = scanner.nextLine();
-        boolean living;
-        if(isLiving.equals("y")){
-          living = true;
-        } else{
-          living = false;
-        }
-        PetShopRegister.purchase(item, price, quantity, living);
-        System.out.println(myRegister.cartToString());
-      } else if(input.equals("remove")){
-        // To remove an item, the cashier will enter the item name and quantity
-        System.out.print("What item would you like to remove? ");
-        String item = scanner.nextLine();
-        System.out.print("How many would you like to remove? ");
-        int quantity = scanner.nextInt();
-        scanner.nextLine();
-        PetShopRegister.remove(item, quantity, cart);
-        System.out.println(myRegister.cartToString());
-      } else{
-        System.out.println("Invalid input try again.");
-      }
-    }
-
-    /* call methods from the PetShopRegister class (described below) to display the results: the order
-    qualifies for a discount or not, the subtotal, sales tax, and total */
-    boolean discount = PetShopRegister.checkDiscount(cart);
-    System.out.println("Qualifies for discount? " + discount);
-    double subtotal = PetShopRegister.subtotal(cart, discount);
-    System.out.printf("Subtotal: $%.2f\n", subtotal);
-    double salesTax = PetShopRegister.salesTax(subtotal);
-    System.out.printf("Sales Tax: $%.2f\n", salesTax);
-    System.out.printf("Total Price: $%.2f",PetShopRegister.total(subtotal, salesTax));
-  }
-}
 
 </textarea>
 ```java
