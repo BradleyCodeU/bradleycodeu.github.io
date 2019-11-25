@@ -1,6 +1,6 @@
 ---
 layout: project
-category: ch6loops
+category: ch7arraysandarraylists
 title: SoloLearn Java 3
 ---
 
