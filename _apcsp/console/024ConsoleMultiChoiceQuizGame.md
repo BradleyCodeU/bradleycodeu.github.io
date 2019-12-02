@@ -20,7 +20,7 @@ Pre-conditional loops include while loop, for loop, and for each loop. The most 
 Notice that in the while loop version of the program, it is necessary to read in the user's first guess BEFORE the loop so there would be a value for comparison in the loop condition. The body of the while loop will NOT happen if this condition is false.
 ```
 
-For THIS project you will use a **pre-conditional loop**. In an upcoming project you will use a *post-conditional loop*.
+For THIS project you will use a *pre-conditional loop*. In an upcoming project you will use a *post-conditional loop*.
 
 ## Project Details:
 

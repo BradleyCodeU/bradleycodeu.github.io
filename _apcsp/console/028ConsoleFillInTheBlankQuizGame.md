@@ -3,7 +3,7 @@ layout: project
 category: console
 title: Console Fill in the Blank Quiz Game
 ---
-Let's continue our discussion of loops. Pre-conditional loops include while loop, for loop, and for each loop. The most common post-conditional loop is the do...while loop. **THERE IS NO DO...WHILE LOOP IN PYTHON**, but we can simulate one.
+Let's continue our discussion of loops. Pre-conditional loops include while loop, for loop, and for each loop. The most common post-conditional loop is the do...while loop. *THERE IS NO DO...WHILE LOOP IN PYTHON*, but we can simulate one.
 ```
 Let's look at some pseudocode for using a do...while loop for a number guessing game:
 
@@ -21,11 +21,11 @@ For THIS project we will *simulate* a post-conditional loop by creating a while 
 
 ## Project Details
 
-Create a new game that asks a minimum of 5 questions. Choose a topic for your quiz and make all of your questions based on this topic. For example... computer science, vocabulary words from a foreign language, or vocabulary from any class you are taking this semester.
+Create a new game that asks a minimum of 6 questions. Choose a topic for your quiz and make all of your questions based on this topic. For example... computer science, vocabulary words from a foreign language, or vocabulary from any class you are taking this semester.
 
 Requirements:
 
-Define a function called checkAnswer. It requires two parameters: question and answer. It does not return a value. Inside this function will be:
+Define a function called askQuestion. It requires two parameters: question and answer. It does not return a value. Inside this function will be:
 - a while True loop
   - ask the question
   - collect user input
@@ -39,22 +39,24 @@ Define a function called checkAnswer. It requires two parameters: question and a
     - say incorrect, your score is ___
 
 Display instructions for the player.
-Create at least 5 "Fill in the Blank" style questions.
+Create at least 6 "Fill in the Blank" style questions.
 The game will **only** move on to another question when you get the question right.
 
 
 Sample Output (user input is in ** asterisk ** and should not be coded into your program)
 ```
 Console Fill In The Blank Quiz Game
-Answer the following five questions.
+Answer the following six questions.
 ___ ____ is a term for datasets so large/complex that traditional data processing is inadequate: **big boss**
 incorrect, your score is -3
 ___ ____ is a term for datasets so large/complex that traditional data processing is inadequate: **big data**
 correct, your score is 2
 a variable that can only be true or false is: **integer**
 incorrect, your score is -1
+a variable that can only be true or false is: **string**
+incorrect, your score is -4
 a variable that can only be true or false is: **boolean**
-correct, your score is 4
+correct, your score is 1
 U.S. military department that created the Internet for scientific and military communications is: **meme army**
 incorrect, your score is 1
 ```

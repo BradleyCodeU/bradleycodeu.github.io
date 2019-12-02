@@ -3,7 +3,7 @@ layout: project
 category: console
 title: Console Hourly and Yearly Wages
 ---
-MUST USE INPUT VALIDATION
+*MUST USE INPUT VALIDATION*
 
 You can learn how to validate user input [here](https://www.101computing.net/number-only/) and [here](https://www.w3schools.com/python/python_try_except.asp)
 - Tell the user "I can calculate your 1) Hourly Wage given a Yearly Wage OR 2) Yearly Wage given a Hourly Wage"
