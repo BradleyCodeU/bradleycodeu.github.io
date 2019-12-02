@@ -3,9 +3,10 @@ layout: project
 category: console
 title: Console Hourly and Yearly Wages
 ---
-*MUST USE INPUT VALIDATION*
+You ```MUST validate the input using Try/Except``` or the program will crash.
 
 You can learn how to validate user input [here](https://www.101computing.net/number-only/) and [here](https://www.w3schools.com/python/python_try_except.asp)
+
 - Tell the user "I can calculate your 1) Hourly Wage given a Yearly Wage OR 2) Yearly Wage given a Hourly Wage"
 - Collect the user input and validate that they pressed 1 or 2
 - (I will give steps for 1 and you can do 2 on your own)
@@ -20,6 +21,8 @@ You can learn how to validate user input [here](https://www.101computing.net/num
 
 Sample Output 1 (user input is in ** asterisk ** and should not be coded into your program)
 ```
+I can calculate your 1) Hourly Wage given a Yearly Wage OR 2) Yearly Wage given a Hourly Wage: **lkjsdf**
+Invalid Input
 I can calculate your 1) Hourly Wage given a Yearly Wage OR 2) Yearly Wage given a Hourly Wage: **1**
 What is your yearly wage? **30000.00**
 How many days per week do you work on average? **5**

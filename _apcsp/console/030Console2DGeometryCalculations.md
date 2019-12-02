@@ -4,7 +4,7 @@ category: console
 title: Console 2D Geometry Calculations
 ---
 
-*MUST USE INPUT VALIDATION*
+You ```MUST validate the input using Try/Except``` or the program will crash.
 
 You can learn how to validate user input [here](https://www.101computing.net/number-only/) and [here](https://www.w3schools.com/python/python_try_except.asp)
 
@@ -28,13 +28,13 @@ Complete the code to display the perimeter/circumference and area of your select
 
 Sample Output (user input is in ** asterisk ** and should not be coded into your program)
 ```
+Pick a shape 1=hexagon 2=pentagon: **lkjsd**
+Please type a number
 Pick a shape 1=hexagon 2=pentagon: **1**
 You picked Hexagon
 What is your side measurement: **5**
 Your area is 64.9519052838329
 Your perimeter is 30
-Pick a shape 1=hexagon 2=pentagon: **lkjsd**
-Please type a number
 Pick a shape 1=hexagon 2=pentagon: **2**
 You picked Pentagon
 What is your side measurement: **afsdg**
