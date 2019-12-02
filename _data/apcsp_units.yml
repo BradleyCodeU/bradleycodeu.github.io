@@ -112,7 +112,7 @@ Projects:
 - title: py
   heading: "# Py"
   content: "
-*2 wks*, Vocab: Tkinter, import, syntax, syntax error, variable, assignment, mathematical operator, float, function definition, function call, return, argument, comment, camelCase, scope, local variable, Create Task practice 1
+*3 wks*, Vocab: Tkinter, import, syntax, syntax error, variable, assignment, mathematical operator, float, function definition, function call, return, argument, comment, camelCase, scope, local variable, Create Task practice 1
 
 
 Resources:
@@ -133,11 +133,11 @@ Projects:
 
 1. Pair-[PyValidNumber](/apcsp/py/111PyValidNumber/)
 
-1. Pair-Pick-[PyDollarConvert](/apcsp/py/108PyDollarConvert/) or [PyWeightOnPlanets](/apcsp/py/114PyWeightOnPlanets/)
-
 1. Pair-[PyHogwartsHouse](/apcsp/py/109PyHogwartsHouse/)
 
 1. *Create Practice 1* - Pair-[PyCreatePractice1](/apcsp/py/100PyCreatePractice1/)
+
+1. Pair-Pick-[PyDollarConvert](/apcsp/py/108PyDollarConvert/) or [PyWeightOnPlanets](/apcsp/py/114PyWeightOnPlanets/)
 
 1. Pair-Pick-[Py2DGeometry](/apcsp/py/Py2DGeometry/) or [Py3DGeometry](/apcsp/py/112Py3DGeometry/)
 
@@ -276,7 +276,6 @@ Projects:
 
 1. Team-[Sprint2](/apcsp/scrum/scrumsprint2/)
 
-1. Create 2 Artifact and Written Reflection
 "
 - title: console
   heading: "# Console"
@@ -285,6 +284,9 @@ Projects:
 
 *2 wks*, Vocab: array, iteration, iterate through an array, input, for each loops, input validation, try/except, conditionals, functions, pre-conditional loop, post-conditional loop, pseudocode,
 
+
+
+1. [Create Practice 2 Artifact, Video, and Written Responses](/apcsp/console/CreatePractice2)
 
 1. [ConPseudocode3PPong](/apcsp/console/023ConsolePseudocode3PPong/)
 
@@ -300,7 +302,6 @@ Projects:
 
 1. Pair-Pick-[ConHourlyAndYearlyWages](/apcsp/console/031ConsoleHourlyAndYearlyWages/) or [ConTriviaHighLow](/apcsp/console/032ConsoleTriviaHighLow/)
 
-1. Pair-[ConPrintfLoops](/apcsp/console/101ConsolePrintfLoops/)
 
 "
 - title: bigdata
