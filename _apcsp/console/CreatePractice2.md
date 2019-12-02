@@ -11,7 +11,6 @@ Your Scrum team worked together to create two iterations of an app that draws ar
 ![Example oval and rectangle](/apcsp\console\ovalRectangle.PNG)
 
 1. Your team's Python code as a PDF marked with an oval and a rectangle:
-
   - Use [bakerfranke.github.io/codePrint/](https://bakerfranke.github.io/codePrint/). Tutorial video [here](https://drive.google.com/file/d/13X1RYJmzUXzpP2r11ysqAUzXLZayJkuD/view)
 
   - Mark with an OVAL the segment of program code that implements the algorithm you created for your program that integrates other algorithms and integrates mathematical and/or logical concepts.
@@ -23,7 +22,6 @@ Your Scrum team worked together to create two iterations of an app that draws ar
   - Turn in your PDF file
 
 2. A screencast recording that demonstrates the app working. ```Your video MUST be smaller than 30MB and MUST be less than 1 minute in length.``` How to use the Windows 10 Game Bar:
-
   - Press the Windows Key + G Key. Doing this will open the Windows 10 Game Bar
 
   - Click the red Record button to start recording and click the Stop button to stop recording
@@ -33,7 +31,6 @@ Your Scrum team worked together to create two iterations of an app that draws ar
   - Turn in your MP4 file
 
 3. Written Reflection:
-
   - [Click here to create a copy of the Google Doc starter template](https://docs.google.com/document/d/1AD-HkxG91RmUEMR6urnpoLyJTMJoNswzmolqJBneUh0/copy)
 	-	Answer ALL four questions 2a-2d
 
