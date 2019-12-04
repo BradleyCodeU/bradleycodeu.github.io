@@ -21,11 +21,10 @@ Your Scrum team worked together to create two iterations of an app that draws ar
   - [Screencast Instructions for OBS](https://bradleycodeu.github.io/apcsp/scrum/screencastobs)
   - Turn in your MP4 file
 
-  <!-- 
-  - How to use the Windows 10 Game Bar:
-  - Press the Windows Key + G Key. Doing this will open the Windows 10 Game Bar
-  - Click the red Record button to start recording and click the Stop button to stop recording
-  - To access your new recording, go to This PC, Videos folder, then Captures folder. You’ll find all of your saved recordings there. By default, your recordings will be named after whichever program you had open and you were viewing at the time. -->
+  <!-- - How to use the Windows 10 Game Bar: -->
+  <!-- - Press the Windows Key + G Key. Doing this will open the Windows 10 Game Bar -->
+  <!-- - Click the red Record button to start recording and click the Stop button to stop recording -->
+  <!-- - To access your new recording, go to This PC, Videos folder, then Captures folder. You’ll find all of your saved recordings there. By default, your recordings will be named after whichever program you had open and you were viewing at the time. -->
 
 
 1. Written Reflection:
