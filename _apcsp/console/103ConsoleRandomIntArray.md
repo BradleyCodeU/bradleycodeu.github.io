@@ -6,16 +6,6 @@ title: Console Random Int Array
 
 Concepts: arrays, random numbers, for loop, for each loop, modulus
 
-Section 1: Generate and print...
-- Create an array
-- Using a for loop, randomly generate 20 positive integers and append them to the array
-- Print a line that says "FULL ARRAY"
-- Print the full contents of the array using a for loop
+Read this tutorial about [how to create a For Each loop to iterate through and array](https://www.geeksforgeeks.org/iterate-over-a-list-in-python/)
 
-Section 2: Choose to do either Odd Integers or Even Integers. Here is an example of what you would do for Odd Integers...
-- Print a line that says "ODD INTEGERS"
-- Next, use a FOR EACH loop to iterate through the array and print only the odd integers. (Hint: you must use modulus)
-
-Section 3: Choose to do either Multiples of 3, Multiples of 4, or Multiples of 5. Here is an example of what you would do for Multiples of 3...
-- Print a line that says "MULTIPLES OF 3"
-- Next, use a FOR EACH loop to iterate through the array and print only the multiples of 3. (Hint: you must use modulus)
+<iframe src="https://trinket.io/embed/python/f88dae8c78?outputOnly=true&runOption=run&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
