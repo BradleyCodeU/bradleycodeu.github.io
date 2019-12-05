@@ -27,4 +27,6 @@ for item in thislist:
   print(item)
 ```
 
+# Project Directions:
+
 <iframe src="https://trinket.io/embed/python/f88dae8c78?outputOnly=true&runOption=run&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
