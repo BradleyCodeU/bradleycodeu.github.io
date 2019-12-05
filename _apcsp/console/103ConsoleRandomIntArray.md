@@ -6,6 +6,8 @@ title: Console Random Int Array
 
 Concepts: arrays, random numbers, append, for loop, for each loop, modulus, concatenate
 
+Read this tutorial about [Python lists](https://www.geeksforgeeks.org/python-list/)
+
 Python lists are sets of numbers, strings, booleans, or objects and are just like arrays in other languages. A single list may contain a mix of DataTypes like Integers, Strings, as well as Objects. Lists are mutable (can be changed) which means that you can add new items to the list or remove items from the list.
 
 Read this tutorial about [how to append something to a list/array](https://www.geeksforgeeks.org/append-extend-python/)
@@ -13,8 +15,11 @@ Read this tutorial about [how to append something to a list/array](https://www.g
 Lists are objects and have methods that only work on list objects. For example...
 ```
 mylist = [79, false, 0.5, "apple"]
+mylist.insert(0)
 mylist.append("banana")
 mylist.sort()
+mylist.insert(1, "orange")
+mylist.pop()
 mylist.reverse()
 ```
 
