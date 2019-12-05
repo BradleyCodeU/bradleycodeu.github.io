@@ -16,5 +16,10 @@ Change the Output Settings
 
   1.  Change Mode to Advanced
   1.  Change Recording Format to mp4
-  1.  Make sure the encoder is hardware
-  1.  Change the path where the file is saved to where you want to store the video
+  1.  Make sure the encoder is x264
+
+Click the + in the Sources section (the bottom left) and add "Display Capture" as a source.
+
+You should be ready to record.
+
+After recording, your video is automatically saved to the Videos folder.
