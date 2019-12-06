@@ -10,15 +10,15 @@
 # Return the number that they choose.
 def askPlayer():
     while True:
-        # sleep for 1 second
-        
-        
+        # sleep for .5 seconds
+
+
         try:
-            
+
         except:
-            
-    return 
-    
+
+    return
+
 
 # create a function called tryToSteal that will return True or False
 # There is one argument, enemyName, so it will look like this: tryToSteal(enemyName)
@@ -27,17 +27,17 @@ def askPlayer():
 # 20% of the time, print a message telling the user that they were able to steal and return True
 # Otherwise, print a message telling the user they were NOT able to steal and return False (80% of the time)
 def tryToSteal(enemyName):
-    if 
-        
-    if 
-        # sleep for 1 second
-        
-        
+    if
+
+    if
+        # sleep for .5 seconds
+
+
         return True
     else:
-        # sleep for 1 second
-        
-        
+        # sleep for .5 seconds
+
+
         return False
 
 
@@ -51,16 +51,16 @@ def tryToSteal(enemyName):
 # create a variable called newEnemyHealth and set it to enemyHealth minus damage
 # return newEnemyHealth
 def enemyLoseHealth(playerChoice, enemyHealth, enemyName, enemyWeakness):
-    if 
-        
+    if
+
     else:
-        
-    if  
-        
-    # sleep for 1 second
-    
-    
-    
+
+    if
+
+    # sleep for .5 seconds
+
+
+
     return newEnemyHealth
 
 
@@ -74,79 +74,80 @@ def enemyLoseHealth(playerChoice, enemyHealth, enemyName, enemyWeakness):
 # Create a variable called newPlayerHealth that is equal to playerHealth minus damage
 # Print a message that says You have newPlayerHealth HP
 # Return the newPlayerHealth
-def 
-    
+def
+
     shuffle(
-    
-    # sleep for 1 second
-    
-    
-    
-    # sleep for 1 second
-    
-    
+
+    # sleep for .5 seconds
+
+
+
+    # sleep for .5 seconds
+
+
     return newPlayerHealth
 
 
 # create a function called gameLevel that will return playerHealth
 # this function needs lots of arguments: roomDescription,enemyName,enemyLevel,enemyHealth,enemyAttacks,enemyWeakness,playerHealth
 # Like this, gameLevel(roomDescription,enemyName,enemyLevel,enemyHealth,enemyAttacks,enemyWeakness,playerHealth)
-# 
-def 
+#
+def
     # create a variable called stealSuccess and set it to False
-    
+
     # print a dividing line like this ==============================================================
-    
-    # sleep for 1 second
-    
+
+    # sleep for .5 seconds
+
     # print the roomDescription
-    
+
     # while the playerHealth is greater than zero
     while
-        # sleep for 1 second
-        
+        # sleep for .5 seconds
+
         # print a small dividing line like this ~ ~ ~
-        
+
         # create a variable called playerChoice and set it to askPlayer()
-        
-        
+
+
         if playerChoice == 1:
             # set stealSuccess to tryToSteal(enemyName)
-            
+
         else:
             # A random amount of enemy's health is lost. set enemyHealth to enemyLoseHealth(playerChoice, enemyHealth, enemyName, enemyWeakness)
-            
-        
+
+
         # If enemy is still alive
-        if 
+        if
             # A random amount of player's health lost. set playerHealth to playerLoseHealth(playerHealth, enemyName, enemyLevel, enemyAttacks)
-            
+
         else:
-            # sleep for 1 second
-            
+            # sleep for .5 seconds
+
             # print You have defeated enemyName!
-            
+
             # break out of this loop so that you can go to the next level
             break
-        
+
         # if player is dead
-        if 
-            # sleep for 1 second
-            
+        if
+            # sleep for .5 seconds
+
             # print Oof.  You have DIED!  R.I.P.  Game Over.
         # if you were able to steal
-        if 
+        if
             # print You steal the treasure and manage to escape past enemyName!
-            
+
             # break out of this loop so that you can go to the next level
             break
     # return the playerHealth
     return playerHealth
 
-    
+
 # **************** THE GAME BEGINS HERE!!! ****************
 # start the playerHealth at 100
-# Print the name of the game 
+# Print the name of the game
+# Visit http://patorjk.com/software/taag/ to get ASCII art version of your title
 
 # Sleep 1 sec
 sleep(1)
@@ -168,9 +169,9 @@ sleep(1)
 sleep(1)
 # Setup Room 1
 # Write a sentence to describe the room
-roomDescription = 
+roomDescription =
 # Give the enemy a name
-enemyName = 
+enemyName =
 # Set enemyLevel to an integer number, maybe 10?
 
 # Set enemyHealth to an integer number, maybe 10?
@@ -178,7 +179,7 @@ enemyName =
 # Here are some possible attacks that the enemy could use. You can delete these, create your own, add more, etc.
 enemyAttacks = ["Sneak Attack", "Roundhouse Kick", "Punchy Punch", "Hair Whip", "Jump Scare", "Evil Slap"]
 # Set the enemyWeakness to a random integer number between 2 and 4
-enemyWeakness = 
+enemyWeakness =
 # Create Level 1 by calling gameLevel()
 playerHealth = gameLevel(roomDescription,enemyName,enemyLevel,enemyHealth,enemyAttacks,enemyWeakness,playerHealth)
 # If you wanna add some story between Room 1 and Room 2, you'd do that here with some sleep 1 sec and print statements
