@@ -25,11 +25,13 @@ Create a new game that asks a minimum of 6 questions. Choose a topic for your qu
 
 Requirements:
 
+Create an empty array called correctAnswers and an empty array called wrongAnswers
+
 Define a function called askQuestion. It requires two parameters: question and answer. It does not return a value. Inside this function will be:
 - a while True loop
   - ask the question
   - collect user input
-  - convert the user input to lowercase letters
+  - *convert the user input to lowercase letters*
   - if the user input equals the answer (NOTICE: THIS PLACES THE CONDITION AT THE END OF THE LOOP)
     - add a large amount to the score
     - say correct, your score is ___
@@ -40,25 +42,35 @@ Define a function called askQuestion. It requires two parameters: question and a
 
 Display instructions for the player.
 Create at least 6 "Fill in the Blank" style questions.
-The game will **only** move on to another question when you get the question right.
+The game will *only* move on to another question when you get the question right.
+Print "Your wrong answers were: " and print the array of user's wrongAnswers
+Finally, print "Your correct answers were: " and print the array of user's correctAnswers
 
 
 Sample Output (user input is in ** asterisk ** and should not be coded into your program)
 ```
 Console Fill In The Blank Quiz Game
-Answer the following six questions.
-___ ____ is a term for datasets so large/complex that traditional data processing is inadequate: **big boss**
-incorrect, your score is -3
-___ ____ is a term for datasets so large/complex that traditional data processing is inadequate: **big data**
-correct, your score is 2
-a variable that can only be true or false is: **integer**
+Answer the following six questions
+
+1) ___ ____ is a term for datasets so large/complex that traditional data processing is inadequate: **Big Data**
+correct, your score is 5
+2) a variable that can only be true or false is: **integer**
+incorrect, your score is 2
+2) a variable that can only be true or false is: **string**
 incorrect, your score is -1
-a variable that can only be true or false is: **string**
-incorrect, your score is -4
-a variable that can only be true or false is: **boolean**
-correct, your score is 1
-U.S. military department that created the Internet for scientific and military communications is: **meme army**
-incorrect, your score is 1
+2) a variable that can only be true or false is: **Boolean**
+correct, your score is 3
+3) U.S. military department that created the Internet for scientific and military communications is: **ARPA**
+correct, your score is 8
+4) a variable that can only store whole number is: **integer**
+correct, your score is 13
+5) what 3-letter acronym means the intranet: **LAN**
+correct, your score is 18
+6) a variable that stores text is: **string**
+correct, your score is 23
+
+Your wrong answers were: integer,string
+Your correct answers were: big data,boolean,arpa,integer,lan,string
 ```
 
 -=-=-=-=-=-=-=-=-=-
