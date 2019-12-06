@@ -25,13 +25,15 @@ mylist.reverse()
 
 Read this tutorial about [how to create a For Each loop to iterate through a list/array](https://www.geeksforgeeks.org/iterate-over-a-list-in-python/)
 
-Most programming languages have a For Each loop, a kind of loop that allows you to grab items from the list one at a time. In Python a For Each loop looks like this...
+Most programming languages have a "For Each" loop, a kind of loop that allows you to grab items from the list one at a time. In Python a For Each loop looks like this...
 ```
 thislist = ["apple", "banana", "cherry"]
-for item in thislist:
-  print(item)
+for each in thislist:
+  print(each)
 ```
 
 ### Project Directions:
+
+Copy/paste the following direction comments into your code...
 
 <iframe src="https://trinket.io/embed/python/f88dae8c78?outputOnly=true&runOption=run&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
