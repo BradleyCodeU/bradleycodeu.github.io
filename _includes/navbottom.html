@@ -121,7 +121,7 @@ var Snowflake = (function() {
         flakes = [];
 
         for (var i = flakesTotal; i--; ) {
-            var size = (Math.random() + 0.1) * 6 + 1;
+            var size = (Math.random() + 0.3) * 6 + 1;
             var flake = new Snowflake(
                 size,
                 Math.random() * window.innerWidth,
