@@ -142,14 +142,15 @@ var Snowflake = (function() {
       container.ontouchstart = function(event) {
           mouseX = event.targetTouches[0].clientX;
           mouseY = event.targetTouches[0].clientY;
+          flakes.length=0;
+          document.getElementById("snow").style.display="none";
           //event.preventDefault();
     };
     container.onclick = function(event){
-      clickcount++;
-      if(clickcount>1){
+
         flakes.length=0;
         document.getElementById("snow").style.display="none";
-      }
+
     };
 
     // window.ondeviceorientation = function(event) {
