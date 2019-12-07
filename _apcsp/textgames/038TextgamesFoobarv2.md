@@ -3,7 +3,7 @@ layout: project
 category: textgames
 title: Text Games Foobar v2
 ---
-Visit http://patorjk.com/software/taag/#p=display&f=ANSI%20Shadow&t=Game%20Title to get an ASCII art version of your title.
+Visit [http://patorjk.com/software/taag/#p=display&f=ANSI%20Shadow&t=Game%20Title](http://patorjk.com/software/taag/#p=display&f=ANSI%20Shadow&t=Game%20Title) to get an ASCII art version of your title.
 
 [Copy/Paste this map class](https://gist.githubusercontent.com/ohiofi/a1fc5080137a832ea42bc1fa7adc8318/raw/f647a82336357a3a4b09c1a2a834c56e61b3bb64/map.py) into a new file, map.py
 
