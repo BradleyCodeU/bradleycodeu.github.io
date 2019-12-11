@@ -24,7 +24,7 @@ For THIS project you will use a *pre-conditional loop*. In an upcoming project y
 
 ## Project Details:
 
-Create a function called askQuestion. It requires two parameters: questionText and questionAnswer. It does not return a value.
+Create a function called askQuestion. It requires two arguments: questionText and questionAnswer. It does not return a value.
 
 Introduce the game by explaining, "This is a Multiple Choice Quiz Game with 3 Questions. You will answer each question by typing the correct letter: a, b, or c."
 

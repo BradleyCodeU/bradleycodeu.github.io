@@ -27,7 +27,7 @@ Requirements:
 
 Create an empty array called correctAnswers and an empty array called wrongAnswers
 
-Define a function called askQuestion. It requires two parameters: question and answer. It does not return a value. Inside this function will be:
+Define a function called askQuestion. It requires two arguments: question and answer. It does not return a value. Inside this function will be:
 - a while True loop
   - ask the question
   - collect user input
