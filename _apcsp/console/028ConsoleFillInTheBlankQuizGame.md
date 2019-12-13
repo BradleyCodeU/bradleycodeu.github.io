@@ -3,9 +3,9 @@ layout: project
 category: console
 title: Console Fill in the Blank Quiz Game
 ---
-Let's continue our discussion of loops. Pre-conditional loops include while loop, for loop, and for each loop. The most common post-conditional loop is the do...while loop. *THERE IS NO DO...WHILE LOOP IN PYTHON*, but we can simulate one.
+Let's continue our discussion of loops. Pre-conditional loops include while loop, for loop, and for each loop. The most common post-conditional loop is the "do while" loop. *THERE IS NO "DO WHILE" LOOP IN PYTHON*, but we can simulate one.
 ```
-Let's look at some pseudocode for using a do...while loop for a number guessing game:
+Let's look at some pseudocode for using a "do while" loop for a number guessing game:
 
 1. Declare variables for the number to guess and the user’s guess
 2. Generate a random number between 1 and 10

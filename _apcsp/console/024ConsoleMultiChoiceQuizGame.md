@@ -7,11 +7,11 @@ In this project you will use while loop, not, input, print, and a few other thin
 
 Let's discuss loops.
 ```
-Pre-conditional loops include while loop, for loop, and for each loop. The most common post-conditional loop is the do...while loop. Let's look at some pseudocode for using a while loop (a pre-conditional loop) for a number guessing game:
+Pre-conditional loops include while loop, for loop, and for each loop. The most common post-conditional loop is the "do while" loop. Let's look at some pseudocode for using a while loop (a pre-conditional loop) for a number guessing game:
 1. Declare variables for the number to guess and the user's guess
 2. Generate a random number between 1 and 10
 3. Print message asking user to enter their guess
-4. Scan in guess
+4. Get user input guess
 5. Start while loop that will continue as long as the guess is wrong
    - Print message saying guess is wrong
    - Get another guess from the user
