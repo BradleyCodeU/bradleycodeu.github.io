@@ -54,6 +54,4 @@ Correct!
 ```
 -=-=-=-=-=-=-=-=-=-
 
-GOLD MEDAL CHALLENGE: Your entire project uses only 7 lines of code.
-
-![goldmedal](/apcsp/console/threeQuestions.jpg)
+GOLD MEDAL CHALLENGE: Your entire project uses less than 10 lines of code.
