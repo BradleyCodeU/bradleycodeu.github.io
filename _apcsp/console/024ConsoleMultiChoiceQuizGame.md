@@ -12,7 +12,7 @@ Pre-conditional loops include while loop, for loop, and for each loop. The most 
 2. Generate a random number between 1 and 10
 3. Print message asking user to enter their guess
 4. Get user input guess
-5. Start while loop that will continue as long as the guess is wrong
+5. Start while loop that will continue as long as the guess is wrong // Condition at top of loop
    - Print message saying guess is wrong
    - Get another guess from the user
 6. Print message saying the guess is right
@@ -54,4 +54,4 @@ Correct!
 ```
 -=-=-=-=-=-=-=-=-=-
 
-GOLD MEDAL CHALLENGE: Your entire project uses less than 10 lines of code.
+GOLD MEDAL CHALLENGE: Your entire project uses less than 12 lines of code.
