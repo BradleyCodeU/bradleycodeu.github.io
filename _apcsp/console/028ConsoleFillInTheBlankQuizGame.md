@@ -3,7 +3,7 @@ layout: project
 category: console
 title: Console Fill in the Blank Quiz Game
 ---
-In this project you will use a global variable, while loop, not, input, print, and a few other things.
+In this project you will use a global variable, while loop, not, input, print, lists/arrays, append, and a few other things.
 
 Let's continue our discussion of loops. Pre-conditional loops include while loop, for loop, and for each loop. The most common post-conditional loop is the "do while" loop. *THERE IS NO "DO WHILE" LOOP IN PYTHON*, but we can simulate one.
 ```
@@ -49,9 +49,9 @@ Create at least 6 "Fill in the Blank" style questions.
 
 The game will *only* move on to another question when you get the question right.
 
-Print "Your wrong answers were: " and print the array of user's wrongAnswers.
+Print ```"Your wrong answers were: "``` and print the array of user's wrongAnswers.
 
-Finally, print "Your correct answers were: " and print the array of user's correctAnswers.
+Finally, print ```"Your correct answers were: "``` and print the array of user's correctAnswers.
 
 Sample Output (user input is in ** asterisk ** and should not be coded into your program)
 ```
