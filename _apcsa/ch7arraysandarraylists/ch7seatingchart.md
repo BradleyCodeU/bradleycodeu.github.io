@@ -56,7 +56,7 @@ _ X _ X _ X X _ X _ X _ X
 X X _ X _ X X _ X _ X _ X
 X X X X _ X X _ X _ X _ X
 X X X X X X X _ X _ X _ X
-X X X X X X X X X _ X _ X 
+X X X X X X X X X _ X _ X
 X X X X X X X X X X X _ X
 X X X X X X X X X X X X X
 ```
@@ -82,8 +82,8 @@ Pseudocode:
       - starting index of current empty region being counted
       - number of seats in current empty region being counted
     - Create nested loops:
-      - an outer loop that repeats number of seats times (so that each seat will be checked)
-      - an inner loop that repeats number of seats times (so that the largest empty region can be found)
-    - return the start of longest + ((number of seats in longest-1) / 2)
+      - an outer loop that repeats number of seats times (so that each seat will be checked). if a seat is filled, then just continue to the next seat. If a seat is empty, then save the starting index of current empty region and run the inner loop to find the number of seats in current empty region
+      - an inner loop that will count the number of seats in current empty region. It begins at the outer loop index and repeats until we reach the end of the array OR we reach a filled seat. If a seat is empty, then add one to the number of seats in current empty region
+    - return (start index of longest + (number of seats in longest-1) / 2)
   - static void printArray requires one argument: array of booleans
     - iterates through the array and prints "X " if true or "_ " if false
