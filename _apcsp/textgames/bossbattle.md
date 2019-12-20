@@ -3,6 +3,8 @@ layout: project
 category: textgames
 title: Boss Battle
 ---
+At the top of your project, add a comment with you name on line 1. Then import time on line 2.
+
 Define a function named randomHealth that returns a random number between 30 - 50
 
 Define a function named randomTrueFalse that returns true 50% of the time and returns false 50% of the time.
@@ -42,20 +44,20 @@ def main():
   magicWeakness = randomTrueFalse()
   while playerHealth > 0 and bossHealth > 0:
     print("The dragon has " + bossHealth + " health")
-    sleep(1)
+    time.sleep(1)
     print("What do you want to use?")
     print("Ice Spell")
     print("Fire Spell")
     print("Ice Sword")
     print("Fire Sword")
     weapon = input()
-    sleep(1)
+    time.sleep(1)
     damage = hitBoss(weapon, iceWeakness, magicWeakness)
     bossHealth = bossHealth - damage
     if bossHealth > 0:
       damage = hitPlayer(playerHealth)
-      sleep(1)
+      time.sleep(1)
       print("You have " + playerHealth + " remaining")
-      sleep(1)
+      time.sleep(1)
   whoWins(playerHealth, bossHealth)
 ```
