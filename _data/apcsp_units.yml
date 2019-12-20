@@ -303,6 +303,10 @@ Code.org Unit 1, Chapter 2: Inventing the Internet, [https://studio.code.org/s/c
 
 Resources:
 
+  - [Explaining Scrum in 120 secs](https://drive.google.com/file/d/1AyLbb9-cgABmFQHp7og0LrZiLGQw06lr/view?usp=sharing)
+
+  - [Agile Scrum and Waterfall videos](https://drive.google.com/open?id=1Jf34A8IUSO4A1HP2tpYiivurYnhE0TOa)
+
   - [Screencast Instructions for OBS](/apcsp/scrum/screencastobs)
 
 
@@ -405,6 +409,12 @@ Code.org Unit 4: Big Data and Privacy, [https://studio.code.org/s/csp4-2018](htt
   content: "
 *2 wks* - Explore - AP Performance Task Prep, Final Explore
 
+Resources:
+
+  - [AP Exam samples and scoring guidelines](https://apcentral.collegeboard.org/courses/ap-computer-science-principles/exam#anchor3)
+
+
+Projects:
 
 1. [042ExploreTaskArtifact.md](/apcsp/explore/042ExploreTaskArtifact/)
 
@@ -416,8 +426,30 @@ Code.org Unit 4: Big Data and Privacy, [https://studio.code.org/s/csp4-2018](htt
   content: "
 *2 wks*, Vocab: text game, arrays, logical operators, two-dimensional array, global variables, runtime error, syntax error, while loop
 
+Resources:
 
-1. Pair-[TxtCastlesAndCreatures](/apcsp/textgames/033TextGamesCastlesAndCreatures/)
+  - [learnpython.org/Loops](https://www.learnpython.org/en/Loops)
+
+  - [w3schools Python While loops](https://www.w3schools.com/python/python_while_loops.asp)
+
+  - [If not equal to](/apcsp/console/ifnotequalto.md)
+
+  - [w3schools arrays](https://www.w3schools.com/python/python_arrays.asp)
+
+  - [w3schools try except](https://www.w3schools.com/python/python_try_except.asp)
+
+  - [101computing.net/number-only/](https://www.101computing.net/number-only/)
+
+  - [Global variables](/apcsp/console/globalvariables.md)
+
+  - [Foobar](https://foobar-the-bazbarian.glitch.me/)
+
+
+Projects:
+
+1. [Random Name Generator]()
+
+1. Pair-[Castles](/apcsp/textgames/033TextGamesCastlesAndCreatures/)
 
 1. Team-[TxtFoobarv1](/apcsp/textgames/037TextgamesFoobarv1/)
 

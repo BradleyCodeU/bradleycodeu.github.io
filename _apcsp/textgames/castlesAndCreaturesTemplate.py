@@ -89,8 +89,8 @@ def
 
 
 # create a function called gameLevel that will return playerHealth
-# this function needs lots of arguments: roomDescription,enemyName,enemyLevel,enemyHealth,enemyAttacks,enemyWeakness,playerHealth
-# Like this, gameLevel(roomDescription,enemyName,enemyLevel,enemyHealth,enemyAttacks,enemyWeakness,playerHealth)
+# this function needs lots of arguments: castleDescription,enemyName,enemyLevel,enemyHealth,enemyAttacks,enemyWeakness,playerHealth
+# Like this, gameLevel(castleDescription,enemyName,enemyLevel,enemyHealth,enemyAttacks,enemyWeakness,playerHealth)
 #
 def
     # create a variable called stealSuccess and set it to False
@@ -99,7 +99,7 @@ def
 
     # sleep for .5 seconds
 
-    # print the roomDescription
+    # print the castleDescription
 
     # while the playerHealth is greater than zero
     while
@@ -167,9 +167,9 @@ sleep(1)
 
 # Sleep 1 sec
 sleep(1)
-# Setup Room 1
-# Write a sentence to describe the room
-roomDescription =
+# Setup castle 1
+# Write a sentence to describe the castle
+castleDescription =
 # Give the enemy a name
 enemyName =
 # Set enemyLevel to an integer number, maybe 10?
@@ -181,24 +181,24 @@ enemyAttacks = ["Sneak Attack", "Roundhouse Kick", "Punchy Punch", "Hair Whip", 
 # Set the enemyWeakness to a random integer number between 2 and 4
 enemyWeakness =
 # Create Level 1 by calling gameLevel()
-playerHealth = gameLevel(roomDescription,enemyName,enemyLevel,enemyHealth,enemyAttacks,enemyWeakness,playerHealth)
-# If you wanna add some story between Room 1 and Room 2, you'd do that here with some sleep 1 sec and print statements
-# Setup Room 2
-# Set roomDescription to a sentence that describes the room
+playerHealth = gameLevel(castleDescription,enemyName,enemyLevel,enemyHealth,enemyAttacks,enemyWeakness,playerHealth)
+# If you wanna add some story between castle 1 and castle 2, you'd do that here with some sleep 1 sec and print statements
+# Setup castle 2
+# Set castleDescription to a sentence that describes the castle
 # Set enemyName to a name
 # Set enemyLevel to an integer number
 # Set enemyHealth to an integer number
 # Set enemyAttacks to a list of some possible attacks that the enemy could use.
 # Set the enemyWeakness to a random integer number between 2 and 4
 # Create Level 2 by calling gameLevel()
-playerHealth = gameLevel(roomDescription,enemyName,enemyLevel,enemyHealth,enemyAttacks,enemyWeakness,playerHealth)
-# If you wanna add some story between Room 2 and Room 3, you'd do that here with some sleep 1 sec and print statements
-# Setup Room 3
-# Set roomDescription to a sentence that describes the room
+playerHealth = gameLevel(castleDescription,enemyName,enemyLevel,enemyHealth,enemyAttacks,enemyWeakness,playerHealth)
+# If you wanna add some story between castle 2 and castle 3, you'd do that here with some sleep 1 sec and print statements
+# Setup castle 3
+# Set castleDescription to a sentence that describes the castle
 # Set enemyName to a name
 # Set enemyLevel to an integer number
 # Set enemyHealth to an integer number
 # Set enemyAttacks to a list of some possible attacks that the enemy could use.
 # Set the enemyWeakness to a random integer number between 2 and 4
 # Create Level 3 by calling gameLevel()
-playerHealth = gameLevel(roomDescription,enemyName,enemyLevel,enemyHealth,enemyAttacks,enemyWeakness,playerHealth)
+playerHealth = gameLevel(castleDescription,enemyName,enemyLevel,enemyHealth,enemyAttacks,enemyWeakness,playerHealth)
