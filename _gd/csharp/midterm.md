@@ -5,7 +5,7 @@ title: Midterm
 ---
 Game Design midterm
 
-Create a new P5js project. You will be creating an animation that is similar to Pong or Breakout (aka Brick Breaker). You must:
+Create a new P5js project. You will be creating an animation that is similar to Breakout (aka Brick Breaker). You must:
 
   - Create a Ball class
   - Create a Brick class

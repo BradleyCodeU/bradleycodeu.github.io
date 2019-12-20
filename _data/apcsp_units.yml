@@ -121,7 +121,19 @@ Resources:
 
   - [Python Functions Tutorial](/apcsp/py/pythonfunctions/)
 
+  - [w3school Python define your own function](https://www.w3schools.com/python/python_functions.asp)
 
+  - [w3schools Python variables](https://www.w3schools.com/python/python_variables.asp)
+
+  - [learnpython.org/en/Variables_and_Types](https://www.learnpython.org/en/Variables_and_Types)
+
+  - [w3schools Python input function](https://www.w3schools.com/python/ref_func_input.asp)
+
+  - [w3schools Convert string to int](https://www.w3schools.com/python/python_casting.asp)
+
+  - [learnpython.org/en/Basic_Operators](https://www.learnpython.org/en/Basic_Operators)
+
+  - [learnpython.org/Conditions](https://www.learnpython.org/en/Conditions)
 
 Projects:
 
@@ -221,6 +233,27 @@ Projects:
 *2 wks*, Vocab: IDE, turtle, import, object,  method, abstraction, constructor, random, randint, algorithm, rgb color, hex color, for loop, while loop, input, function definition, function call, instance, instantiate, class, getter, setter
 
 
+Resources:
+
+  - [Trinket Turtle art tutorial](https://hourofpython.trinket.io/a-visual-introduction-to-python#/welcome/an-hour-of-code)
+
+  - [w3schools Python variables](https://www.w3schools.com/python/python_variables.asp)
+
+  - [learnpython.org/Variables_and_Types](https://www.learnpython.org/en/Variables_and_Types)
+
+  - [w3schools Python input](https://www.w3schools.com/python/ref_func_input.asp)
+
+  - [w3schools string to int](https://www.w3schools.com/python/python_casting.asp)
+
+  - [learnpython.org/Basic_Operators](https://www.learnpython.org/en/Basic_Operators)
+
+  - [learnpython.org/Conditions](https://www.learnpython.org/en/Conditions)
+
+  - [learnpython.org/Loops](https://www.learnpython.org/en/Loops)
+
+  - [w3schools Python While loops](https://www.w3schools.com/python/python_while_loops.asp)
+
+
 
 Projects:
 
@@ -285,6 +318,28 @@ Projects:
 *2 wks*, Vocab: array, iteration, iterate through an array, input, for each loops, input validation, try/except, conditionals, functions, pre-conditional loop, post-conditional loop, pseudocode,
 
 
+Resources:
+
+  - [learnpython.org/Basic_Operators](https://www.learnpython.org/en/Basic_Operators)
+
+  - [learnpython.org/Conditions](https://www.learnpython.org/en/Conditions)
+
+  - [learnpython.org/Loops](https://www.learnpython.org/en/Loops)
+
+  - [w3schools Python While loops](https://www.w3schools.com/python/python_while_loops.asp)
+
+  - [If not equal to](/apcsp/console/ifnotequalto.md)
+
+  - [w3schools arrays](https://www.w3schools.com/python/python_arrays.asp)
+
+  - [w3schools try except](https://www.w3schools.com/python/python_try_except.asp)
+
+  - [101computing.net/number-only/](https://www.101computing.net/number-only/)
+
+  - [Global variables](/apcsp/console/globalvariables.md)
+
+
+Projects:
 
 1. [Create Practice 2 Artifact, Video, and Written Responses](/apcsp/console/CreatePractice2)
 
