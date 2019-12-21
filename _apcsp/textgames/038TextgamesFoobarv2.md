@@ -9,7 +9,7 @@ Visit [http://patorjk.com/software/taag/#p=display&f=ANSI%20Shadow&t=Game%20Titl
 
 You will be graded on the following requirements:
 
-1. Have 10 rooms for each person in your group (group of 2 = 20 rooms, group of 3 = 30 rooms). Each of these rooms must have a unique description. NOT just "you're in a room". Have 2 or more items for each person in your group.
+1. Have 10 rooms for each person in your group (group of 3 = 30 rooms, group of 4 = 40 rooms). Each of these rooms must have a unique description. NOT just "you're in a room". Have 2 or more items for each person in your group.
 2. Have 1 *special room* for each person in your group. A special room could be: a battle with an enemy, a high-low number guessing game (to open a combination lock, for example), a fill-in-the-blank quiz game (to figure out a computer password, for example), or a locked door that is unlocked if the player has the key in their inventory/backpack and types "use key"
 3. Must use the Map class to draw a map for your game (hide or show the items is up to you).
 4. Print the room description, any item in the room, any items in the player's inventory/backpack, and the possible commands that the player can type.
