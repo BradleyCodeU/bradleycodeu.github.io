@@ -1,114 +1,3 @@
-.switch {
-position: relative;
-display: inline-block;
-width: 32px;
-height: 16px;
-margin:0px !important;
-}
-
-.switch input {
-opacity: 0;
-width: 0;
-height: 0;
-}
-
-.slider {
-position: absolute;
-cursor: pointer;
-top: 0;
-left: 0;
-right: 0;
-bottom: 0;
-background-color: #ccc;
--webkit-transition: .4s;
-transition: .4s;
-}
-
-.slider:before {
-position: absolute;
-content: "";
-height: 12px;
-width: 12px;
-left: 2px;
-bottom: 2px;
-background-color: white;
--webkit-transition: .4s;
-transition: .4s;
-}
-
-input:checked + .slider {
-background-color: #2196F3;
-}
-
-input:focus + .slider {
-box-shadow: 0 0 1px #2196F3;
-}
-
-input:checked + .slider:before {
--webkit-transform: translateX(16px);
--ms-transform: translateX(16px);
-transform: translateX(16px);
-}
-
-/* Rounded sliders */
-.slider.round {
-border-radius: 16px;
-}
-
-.slider.round:before {
-border-radius: 50%;
-}
-.snowflake {
-    position: absolute;
-    z-index: 100;
-    display: block;
-    position: absolute;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    -webkit-transform: translateZ(0);
-    -moz-transform: translateZ(0);
-    -ms-transform: translateZ(0);
-    -o-transform: translateZ(0);
-    transform: translateZ(0);
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-    background-image: -webkit-radial-gradient(
-        center,
-        circle farthest-corner,
-        rgba(255, 255, 255, .5) 20%,
-        rgba(255, 255, 255, 0) 100%
-    );
-    background-image: -moz-radial-gradient(
-        center,
-        circle farthest-corner,
-        rgba(255, 255, 255, .5) 20%,
-        rgba(255, 255, 255, 0) 100%
-    );
-    background-image: -ms-radial-gradient(
-        center,
-        circle farthest-corner,
-        rgba(255, 255, 255, .5) 20%,
-        rgba(255, 255, 255, 0) 100%
-    );
-    background-image: radial-gradient(
-        center,
-        circle farthest-corner,
-        rgba(255, 255, 255, 1) 40%,
-        rgba(255, 255, 255, 0) 100%
-    );
-}
-
-#snow {
-    position: fixed;
-    top:0;
-    left:0;
-    padding:3px;
-    width: 100%;
-    height:1px;
-    z-index: 11111;
-}
 /* Palette URL: http://paletton.com/#uid=73-0u0kuu++iA+toB+XMn+VZCJw */
 
 .color-primary-0 { color: #A8D4FF }	/*a:link*/ /* Main Primary color */
@@ -417,3 +306,117 @@ td{
     white-space:pre-wrap!important;
   } */
 }
+/*
+snow stuff
+.switch {
+position: relative;
+display: inline-block;
+width: 32px;
+height: 16px;
+margin:0px !important;
+}
+
+.switch input {
+opacity: 0;
+width: 0;
+height: 0;
+}
+
+.slider {
+position: absolute;
+cursor: pointer;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: #ccc;
+-webkit-transition: .4s;
+transition: .4s;
+}
+
+.slider:before {
+position: absolute;
+content: "";
+height: 12px;
+width: 12px;
+left: 2px;
+bottom: 2px;
+background-color: white;
+-webkit-transition: .4s;
+transition: .4s;
+}
+
+input:checked + .slider {
+background-color: #2196F3;
+}
+
+input:focus + .slider {
+box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+-webkit-transform: translateX(16px);
+-ms-transform: translateX(16px);
+transform: translateX(16px);
+}
+*/
+
+/* Rounded sliders */
+/*.slider.round {
+border-radius: 16px;
+}
+
+.slider.round:before {
+border-radius: 50%;
+}
+.snowflake {
+    position: absolute;
+    z-index: 100;
+    display: block;
+    position: absolute;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-image: -webkit-radial-gradient(
+        center,
+        circle farthest-corner,
+        rgba(255, 255, 255, .5) 20%,
+        rgba(255, 255, 255, 0) 100%
+    );
+    background-image: -moz-radial-gradient(
+        center,
+        circle farthest-corner,
+        rgba(255, 255, 255, .5) 20%,
+        rgba(255, 255, 255, 0) 100%
+    );
+    background-image: -ms-radial-gradient(
+        center,
+        circle farthest-corner,
+        rgba(255, 255, 255, .5) 20%,
+        rgba(255, 255, 255, 0) 100%
+    );
+    background-image: radial-gradient(
+        center,
+        circle farthest-corner,
+        rgba(255, 255, 255, 1) 40%,
+        rgba(255, 255, 255, 0) 100%
+    );
+}
+
+#snow {
+    position: fixed;
+    top:0;
+    left:0;
+    padding:3px;
+    width: 100%;
+    height:1px;
+    z-index: 11111;
+} */
