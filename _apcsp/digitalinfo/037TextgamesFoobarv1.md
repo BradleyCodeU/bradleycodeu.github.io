@@ -1,8 +1,7 @@
 ---
 layout: project
-category: textgames
+category: digitalinfo
 title: Text Games Foobar v1
-permalink: /apcsp/textgames/037TextgamesFoobarv1/
 ---
 
 Create your own text game based on Foobar The Bazbarian

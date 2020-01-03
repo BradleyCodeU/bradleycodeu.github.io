@@ -1,6 +1,6 @@
 ---
 layout: project
-category: textgames
+category: digitalinfo
 title: Text Games Foobar v2
 ---
 
