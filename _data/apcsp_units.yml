@@ -411,9 +411,13 @@ Code.org Unit 4: Big Data and Privacy, [https://studio.code.org/s/csp4-2018](htt
   content: "
 *2 wks* - Explore - AP Performance Task Prep, Final Explore
 
+
+
+
 Resources:
 
   - [AP Exam samples and scoring guidelines](https://apcentral.collegeboard.org/courses/ap-computer-science-principles/exam#anchor3)
+
 
 
 Projects:
@@ -427,6 +431,8 @@ Projects:
   heading: "# TextGames"
   content: "
 *2 wks*, Vocab: text game, arrays, logical operators, two-dimensional array, global variables, runtime error, syntax error, while loop
+
+
 
 Resources:
 
@@ -447,17 +453,18 @@ Resources:
   - [Foobar](https://foobar-the-bazbarian.glitch.me/)
 
 
+
 Projects:
 
-1. [Random Name Generator](/apcsp/textgames/randomNameGenerator/)
+  1. [Random Name Generator](/apcsp/textgames/randomNameGenerator/)
 
-1. Pair-[BossBattle](/apcsp/textgames/bossBattle/)
+  1. Pair-[BossBattle](/apcsp/textgames/bossBattle/)
 
-1. [HighLowWord](/apcsp/textgames/highLowWord/)
+  1. [HighLowWord](/apcsp/textgames/highLowWord/)
 
-1. Pair-[Castles](/apcsp/textgames/033TextGamesCastlesAndCreatures/)
+  1. Pair-[Castles](/apcsp/textgames/033TextGamesCastlesAndCreatures/)
 
-1. [CaesarCypher](/apcsp/textgames/casesarCypher/)
+  1. [CaesarCypher](/apcsp/textgames/casesarCypher/)
 
 "
 - title: digitalinfo
@@ -466,7 +473,9 @@ Projects:
 *1 wk*, Vocab: bytes, kilobytes, megabytes, gigabytes
 
 
+
 Code.org Unit 2: Digital Information, [https://studio.code.org/s/csp2-2018](https://studio.code.org/s/csp2-2018)
+
 
 
 Projects:
@@ -481,6 +490,7 @@ Projects:
   heading: "# TurtleGames"
   content: "
 *2wks*, Vocab: instance, instanciate, object, class, method, logical operators, while loop
+
 
 
 Resources:
