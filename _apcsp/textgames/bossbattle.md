@@ -2,6 +2,7 @@
 layout: project
 category: textgames
 title: Boss Battle
+permalink: /apcsp/textgames/bossBattle/
 ---
 At the top of your project, add a comment with you name on line 1. Then import time on line 2.
 
