@@ -106,7 +106,7 @@ Projects:
 
 1. Pick [QuestHealthGame](/apcsp/scratch/010QuestHealthGame/) or [ScratchPlatformer](/apcsp/scratch/102ScratchPlatformer/)
 
-1. Optional Bonus Points [ScratchFreedomOfChoice](/apcsp/scratch/011ScratchFreedomOfChoice/)
+1. [ScratchFreedomOfChoice](/apcsp/scratch/011ScratchFreedomOfChoice/)
 "
 
 - title: py
@@ -277,15 +277,13 @@ Projects:
 
 1. [TrtBouncingOffWalls](/apcsp/turtleart/020TurtleBouncingOffWalls/)
 
-1. Pair-[TrtArtScene1](/apcsp/turtleart/021TurtleArtScene1/)
+1. Pair-[TrtStars1](/apcsp/turtleart/016TurtleStars1/)
 
-1. Optional Bonus Points Pair-[TrtStars1](/apcsp/turtleart/016TurtleStars1/)
+1. Pair-[TrtStars2](/apcsp/turtleart/017TurtleStars2/)
 
-1. Optional Bonus Points Pair-[TrtStars2](/apcsp/turtleart/017TurtleStars2/)
+1. Pair-[TrtMondrian](/apcsp/turtleart/TrtMondrian/)
 
-1. Optional Bonus Points Pair-[TrtMondrian](/apcsp/turtleart/TrtMondrian/)
-
-1. Optional Bonus Points [TrtOpArt](/apcsp/turtleart/TrtOpArt/)
+1. [TrtOpArt](/apcsp/turtleart/TrtOpArt/)
 "
 
 - title: ip
@@ -316,6 +314,10 @@ Projects:
 1. Team-[Sprint1](/apcsp/scrum/scrumsprint1/)
 
 1. Team-[Sprint2](/apcsp/scrum/scrumsprint2/)
+
+1. Team-[Sprint3](/apcsp/scrum/scrumsprint3/)
+
+1. Team-[Sprint4](/apcsp/scrum/scrumsprint4/)
 
 "
 - title: console
@@ -447,13 +449,16 @@ Resources:
 
 Projects:
 
-1. [Random Name Generator]()
+1. [Random Name Generator](/apcsp/textgames/randomNameGenerator/)
+
+1. Pair-[BossBattle](/apcsp/textgames/bossBattle/)
+
+1. [HighLowWord](/apcsp/textgames/highLowWord/)
 
 1. Pair-[Castles](/apcsp/textgames/033TextGamesCastlesAndCreatures/)
 
-1. Team-[TxtFoobarv1](/apcsp/textgames/037TextgamesFoobarv1/)
+1. [CaesarCypher]()
 
-1. Team-[TxtFoobarv2](/apcsp/textgames/038TextgamesFoobarv2/)
 "
 - title: digitalinfo
   heading: "# DigitalInfo"
@@ -462,6 +467,15 @@ Projects:
 
 
 Code.org Unit 2: Digital Information, [https://studio.code.org/s/csp2-2018](https://studio.code.org/s/csp2-2018)
+
+
+Projects:
+
+  1. Team-[TxtFoobarv1](/apcsp/digitalinfo/037TextgamesFoobarv1/)
+
+  1. Team-[TxtFoobarv2](/apcsp/digitalinfo/038TextgamesFoobarv2/)
+
+
 "
 - title: turtlegames
   heading: "# TurtleGames"
@@ -483,7 +497,7 @@ Projects:
 
 1. [041Turtlegamev3](/apcsp/turtlegames/041Turtlegamev3/)
 
-1. Create 3
+1. Create Practice 3
 "
 - title: tk
   heading: "# Tk"
