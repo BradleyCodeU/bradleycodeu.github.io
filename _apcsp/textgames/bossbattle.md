@@ -35,7 +35,7 @@ Define a function named hitPlayer that require one argument: playerHealth.
 Define a function named whoWins that requires two arguments: playerHealth, bossHealth. Print a message that says who won the game.
 
 
-Here is the main function:
+Here is the code for the main function:
 ```
 def main():
   playerHealth = 50
