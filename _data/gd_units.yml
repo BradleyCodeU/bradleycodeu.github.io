@@ -149,9 +149,6 @@ Projects:
 
 1. **[CSharp](#csharp)**
 
-1. **[Swift](#swift)**
-
-
 "
 - title: platforms
   heading: "# Platforms"
@@ -189,29 +186,7 @@ Projects:
 
 "
 
-- title: swift
-  heading: "# Swift"
-  content: "*6 weeks*
 
-1. [SoloLearn Swift](/gd/swift/sololearnswift/)
-
-1. [All About Me iOS app](/gd/swift/allaboutmeiosapp/)
-
-1. [Ch 3 Intro to App Dev](/gd/swift/ch3introtoappdev/)
-
-1. [Ch 4 Intro to App Dev](/gd/swift/ch4introtoappdev/)
-
-1. [Ch 5 Intro to App Dev](/gd/swift/ch5introtoappdev/)
-
-1. [Ch 6 Intro to App Dev](/gd/swift/ch6introtoappdev/)
-
-1. [Ch 7 Intro to App Dev](/gd/swift/ch7introtoappdev/)
-
-1. [Ch 8 Intro to App Dev](/gd/swift/ch8introtoappdev/)
-
-1. [Ch 9 Intro to App Dev](/gd/swift/ch9introtoappdev/)
-
-"
 - title: 3rdquarter
   heading: "# 3rd Quarter"
   content: "
@@ -236,28 +211,48 @@ Projects:
 - title: menu3
   content: "[3rd Quarter](#3rd-quarter)
 
-1. **[Multiplayer](#multiplayer)**
+
+1. **[Swift](#swift)**
+
 
 1. **[Unity3d](#unity3d)**
 
 
 "
-- title: multiplayer
-  heading: "# Multiplayer"
-  content: "*4 weeks*
+- title: swift
+  heading: "# Swift"
+  content: "*3 weeks*
 
-1. [Team Rollaball](/gd/multiplayer/teamrollaball/)
+1. [SoloLearn Swift](/gd/swift/sololearnswift/)
 
-1. [P5 Multiplayer v1](/gd/multiplayer/p5multiplayerv1/)
+1. [All About Me iOS app](/gd/swift/allaboutmeiosapp/)
 
-1. [P5 Multiplayer v2](/gd/multiplayer/p5multiplayerv2/)
+1. [Ch 3 Intro to App Dev Strings](/gd/swift/ch3introtoappdev/)
 
+1. [Ch 4 Intro to App Dev Hello World](/gd/swift/ch4introtoappdev/)
+
+1. [Ch 6 Intro to App Dev Function](/gd/swift/ch6introtoappdev/)
+
+1. [Ch 7 Intro to App Dev BoogieBot](/gd/swift/ch7introtoappdev/)
+
+1. [Ch 8 Intro to App Dev Constants and Variables](/gd/swift/ch8introtoappdev/)
+
+1. [Ch 9 Intro to App Dev Types](/gd/swift/ch9introtoappdev/)
+
+1. [Ch 10 Intro to App Dev Parameters and Results](/gd/swift/ch10introtoappdev/)
+
+1. [Ch 11 Intro to App Dev Making Decisions](/gd/swift/ch11introtoappdev/)
+
+1. [Ch 12 Intro to App Dev Instances Methods and Procedures](/gd/swift/ch12introtoappdev/)
+
+1. [Ch 13 Intro to App Dev QuestionBot](/gd/swift/ch13introtoappdev/)
 
 "
 
+
 - title: unity3d
   heading: "# Unity3d"
-  content: "*5 weeks*
+  content: "*3 weeks*
 
 1. [Space Shooter v2](/gd/unity3d/spaceshooterv2/)
 
@@ -268,6 +263,29 @@ Projects:
 1. [WebGL Export](/gd/unity3d/webglexport/)
 
 "
+
+- title: swift2
+  heading: "# Swift2"
+  content: "*3 wks*
+
+  1. [Ch 14 Intro to App Dev Arrays and Loops](/gd/swift2/ch14introtoappdev/)
+
+  1. [Ch 15 Intro to App Dev Hello World](/gd/swift2/ch15introtoappdev/)
+
+  1. [Ch 16 Intro to App Dev Function](/gd/swift2/ch16introtoappdev/)
+
+  1. [Ch 17 Intro to App Dev BoogieBot](/gd/swift2/ch17introtoappdev/)
+
+  1. [Ch 18 Intro to App Dev Constants and Variables](/gd/swift2/ch18introtoappdev/)
+
+  1. [Ch 19 Intro to App Dev Types](/gd/swift2/ch19introtoappdev/)
+
+  1. [Ch 20 Intro to App Dev Parameters and Results](/gd/swift2/ch20introtoappdev/)
+
+  1. [Ch 21 Intro to App Dev Making Decisions](/gd/swift2/ch21introtoappdev/)
+
+
+  "
 
 - title: 4thquarter
   heading: "# 4th Quarter"
@@ -296,6 +314,8 @@ Projects:
 
 1. **[Unity2d](#unity2d)**
 
+1. **[Multiplayer](#multiplayer)**
+
 1. **[iOS Platformer](#ios-platformer)**
 
 "
@@ -313,6 +333,20 @@ Projects:
 
 
   "
+
+- title: multiplayer
+  heading: "# Multiplayer"
+  content: "*4 weeks*
+
+1. [Team Rollaball](/gd/multiplayer/teamrollaball/)
+
+1. [P5 Multiplayer v1](/gd/multiplayer/p5multiplayerv1/)
+
+1. [P5 Multiplayer v2](/gd/multiplayer/p5multiplayerv2/)
+
+
+"
+
 - title: iosplatformer
   heading: "# iOS Platformer"
   content: "*3 weeks*
