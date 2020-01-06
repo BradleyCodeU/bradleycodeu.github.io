@@ -223,9 +223,9 @@ Projects:
   heading: "# Swift"
   content: "*3 weeks*
 
-1. [SoloLearn Swift](/gd/swift/sololearnswift/)
-
 1. [All About Me iOS app](/gd/swift/allaboutmeiosapp/)
+
+1. [SoloLearn Swift](/gd/swift/sololearnswift/)
 
 1. [Ch 3 Intro to App Dev Strings](/gd/swift/ch3introtoappdev/)
 
@@ -243,9 +243,7 @@ Projects:
 
 1. [Ch 11 Intro to App Dev Making Decisions](/gd/swift/ch11introtoappdev/)
 
-1. [Ch 12 Intro to App Dev Instances Methods and Procedures](/gd/swift/ch12introtoappdev/)
 
-1. [Ch 13 Intro to App Dev QuestionBot](/gd/swift/ch13introtoappdev/)
 
 "
 
@@ -267,6 +265,10 @@ Projects:
 - title: swift2
   heading: "# Swift2"
   content: "*3 wks*
+
+  1. [Ch 12 Intro to App Dev Instances Methods and Procedures](/gd/swift/ch12introtoappdev/)
+
+  1. [Ch 13 Intro to App Dev QuestionBot](/gd/swift/ch13introtoappdev/)
 
   1. [Ch 14 Intro to App Dev Arrays and Loops](/gd/swift2/ch14introtoappdev/)
 
