@@ -1,7 +1,7 @@
 ---
 layout: project
 category: ch72foreachloops
-title: For Each Loop Array Practice
+title: Array List Review Wordlists
 ---
 These exercises will allow you to have some practice with the idea of ArrayLists, and more practice with programs structured using functions and procedures.
 

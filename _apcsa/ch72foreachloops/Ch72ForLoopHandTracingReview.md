@@ -1,5 +1,5 @@
 ---
 layout: project
 category: ch72foreachloops
-title: For Each Loop Array Practice
+title: For Loop Hand Tracing Review
 ---

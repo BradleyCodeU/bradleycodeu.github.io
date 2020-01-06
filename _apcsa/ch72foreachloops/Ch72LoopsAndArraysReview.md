@@ -1,7 +1,7 @@
 ---
 layout: project
 category: ch72foreachloops
-title: For Each Loop Array Practice
+title: Loops and Arrays Review
 ---
 Watch these two videos:
   - [For Each Loops](https://drive.google.com/open?id=10dAbDprQLGFJ4_aTbwVqmLCWGYblGiyS)
