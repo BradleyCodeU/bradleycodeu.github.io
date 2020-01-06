@@ -252,36 +252,40 @@ Look out! Here comes the Spider-man”
 - title: menu3
   content: "[3rd Quarter](#3rd-quarter)
 
+1. **[Arrays](#arrays)**
 
 1. **[Scrum](#scrum)**
 
-1. **[Arrays](#arrays)**
+
 
 
 "
-- title: scrum
-  heading: "# Scrum"
-  content: "*5 weeks*
-
-1. [Castles and Creatures]
-
-1. [Foobar v1]
-
-1. localStorage Character Creator (https://www.aidedd.org/dnd-builder/)
-
-1. [Foobar v2]
-
-  "
 - title: arrays
   heading: "# Arrays"
   content: "*4 weeks*
 
-1. [Random Name Generator]
+1. [Random Name Generator](/wd/arrays/randomNameGenerator/)
+
+1. [Boss Battle](/wd/arrays/bossBattle/)
 
 1. [P5 Snowflakes]
 
 1. [P5 Agario Game v1]
 "
+- title: scrum
+  heading: "# Scrum"
+  content: "*5 weeks*
+
+1. localStorage Character Creator (https://www.aidedd.org/dnd-builder/)
+
+1. [Castles and Creatures]
+
+1. [Foobar v1]
+
+1. [Foobar v2]
+
+  "
+
 - title: 4thquarter
   heading: "# 4th Quarter"
   content:
