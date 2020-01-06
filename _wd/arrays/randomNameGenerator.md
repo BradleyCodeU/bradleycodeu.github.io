@@ -20,7 +20,7 @@ Decide what type of a generator you are going to make. Ideas include: Video Game
 
 Create at least 3 lists for each noun/verb/adjective/name/place with 12 or more words in each list.
 
-Read this article about the [random choice method](https://www.w3schools.com/python/ref_random_choice.asp)
+Get a random index number using Math.floor(), Math.random(), and myArray.length. Like this: ```randomNumber = Math.floor(Math.random() * myArray.length)```
 
 - Say something like Here Are 5 New Video Game Titles
 
