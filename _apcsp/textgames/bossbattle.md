@@ -12,7 +12,7 @@ Define a function named randomTrueFalse that returns true 50% of the time and re
 
 Define a function named diceRoll that returns a random number between 1 - 6
 
-Define a function named hitBoss that requires four arguments: weapon, iceWeakness, magicWeakness.
+Define a function named hitBoss that requires three arguments: weapon, iceWeakness, magicWeakness.
   - Create a variable called damage and set it to zero.
   - Weapon is a string. Convert weapon to lowercase.
   - If weapon contains either "sword" or "spell" then add diceRoll() to damage.
