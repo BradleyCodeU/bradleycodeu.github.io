@@ -41,7 +41,7 @@ Define a function named hitBoss that requires one argument: weapon.
   - Return the number of damage
 
 Define a function named hitPlayer
-  - Create a list/array of 7 enemyAttacks. For example, "Sneak Attack", "Roundhouse Kick", "Punchy Punch", "Hair Whip", "Jump Scare", "Evil Slap"
+  - Create a list/array of 7 enemyAttacks. For example, "Sneak Attack", "Roundhouse Kick", "Punchy Punch"
   - Randomly pick one of the enemyAttacks
   - Popup a message that says which random attack the dragon uses. For example, "Dragon Uses Hair Whip" or "Dragon Uses Jump Scare"
   - Create a variable called damage and set it to zero.
