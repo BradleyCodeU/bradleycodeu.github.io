@@ -1,11 +1,7 @@
 ---
 layout: project
-
-category: ch762darrays
-
-title: Magic Squares
-
-permalink: /apcsa/ch762darrays/Ch76MagicSquares/
+category: fsdf
+title: Boss Battle
 ---
 
 
