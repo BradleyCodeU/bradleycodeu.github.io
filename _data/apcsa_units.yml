@@ -395,6 +395,17 @@ Projects:
 - title: ch762darrays
   heading: "# Ch7.6 2D Arrays"
   content: "
+
+Resources:
+
+  - [Reading With Scanner](/apcsa/ch762darrays/Ch76ReadingExternalFile/)
+
+  - [Writing With FileWriter](/apcsa/ch762darrays/writingWithFileWriter/)
+
+
+
+Projects:
+
 1. [Ch76Checkerboard](/apcsa/ch762darrays/Ch76Checkerboard/)
 
 1. [Ch76MagicSquares](/apcsa/ch762darrays/Ch76MagicSquares/)
