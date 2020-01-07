@@ -1,7 +1,7 @@
 ---
 layout: project
 category: ch72foreachloops
-title: For Loop Hand Tracing Review
+title: Hand Tracing Review
 ---
 Submit on Canvas
 
