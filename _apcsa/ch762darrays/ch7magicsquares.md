@@ -1,16 +1,17 @@
 ---
 layout: project
 category: ch762darrays
-
+title: Magic Squares
+permalink: /apcsa/ch762darrays/Ch76MagicSquares/
 ---
 
 
 A magic square is a square array in which the sum of each row, each column, and both major diagonals is the same. You are going to write a program to determine if a square is magic.
 
 In your program, declare a two dimensional array named numArray and initialize it using an initializer list.
-```
-int[][] square = {{2,7,6},{9,5,1},{4,3,8}};
-```
+
+int[][] square = \{\{2,7,6\},\{9,5,1\},\{4,3,8\}\};
+
 When we want to check a different square, we can just replace one or more values in this array.  This will make your code easier to test.
 
 Display the square (using nested for-each loops)
