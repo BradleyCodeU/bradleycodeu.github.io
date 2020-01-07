@@ -1,7 +1,10 @@
 ---
 layout: project
+
 category: ch762darrays
-title: MagicSquares
+
+title: Magic Squares
+
 permalink: /apcsa/ch762darrays/Ch76MagicSquares/
 ---
 
