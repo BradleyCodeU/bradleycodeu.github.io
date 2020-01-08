@@ -2,7 +2,7 @@
 <playground version='6.0' target-platform='ios' display-mode='rendered' executeOnSourceChanges='true'>
     <pages>
         <page name='Introduction'/>
-        <page name='What Is a Playground?'/>
+        <page name='What Is a Playground'/>
         <page name='Calculations'/>
         <page name='Comments'/>
         <page name='When Things Go Wrong'/>
