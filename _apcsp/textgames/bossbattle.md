@@ -4,6 +4,10 @@ category: textgames
 title: Boss Battle
 permalink: /apcsp/textgames/bossBattle/
 ---
+Read this article about the [random choice method](https://www.w3schools.com/python/ref_random_choice.asp)
+
+Read this article about the [Python string lower method](https://www.w3schools.com/python/ref_string_lower.asp)
+
 At the top of your project, add a comment with you name on line 1. Then import time on line 2.
 
 Define a function named randomHealth that returns a random number between 30 - 50
@@ -14,7 +18,7 @@ Define a function named diceRoll that returns a random number between 1 - 6
 
 Define a function named hitBoss that requires three arguments: weapon, iceWeakness, magicWeakness.
   - Create a variable called damage and set it to zero.
-  - Weapon is a string. Convert weapon to lowercase.
+  - Weapon is a string. Convert the string to lowercase.
   - If weapon contains either "sword" or "spell" then add diceRoll() to damage.
   - If iceWeakness is true and weapon contains "ice" then add diceRoll() to damage.
   - If iceWeakness is false and weapon contains "fire" then add diceRoll() to damage.
