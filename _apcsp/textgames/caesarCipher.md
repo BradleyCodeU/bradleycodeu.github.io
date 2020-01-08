@@ -12,16 +12,16 @@ Caesar Cipher (or Caesar Shift) is one of the simplest encryption techniques. It
 Here is the encryption algorithm you will use:
 ```
 def caesarEncrypt(myString,myNumber):
-	result = ""
-  # loop thru the string saving each letter in the varable each
-	for each in myString:
+  result = ""
+  # loop thru the string saving each letter in the varable eacj
+  for each in myString:
     # convert each letter to a number
     letterNumber = ord(each)
     # shift the letter number by adding mynumber
     shiftedNumber = letterNumber + myNumber
     # convert the number back to character and string
-		result += str(chr(shiftedNumber))
-	return result
+    result += str(chr(shiftedNumber))
+  return result
 ```
 
 Based on the above encryption algorithm you should be able to create a seperate caesarDecrypt function. It requires two arguments: myString,myNumber. It returns a string that has been shifted -myNumber places.
