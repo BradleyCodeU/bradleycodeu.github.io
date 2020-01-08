@@ -38,7 +38,7 @@ Shadow Luigi's Witchy World
 Super Wars the Return of Ghost Burger
 ```
 
-Check out @BookTitleBot for another example: [https://twitter.com/booktitlebot]([https://twitter.com/booktitlebot)  All of these tweets are being randomly generated based on lists of nouns, verbs, names, places, etc.
+Check out @BookTitleBot for another example: [https://twitter.com/booktitlebot](https://twitter.com/booktitlebot)  All of these tweets are being randomly generated based on lists of nouns, verbs, names, places, etc.
 
 ```
 Michael the Turkey's Perlious Journey through My kitchen
