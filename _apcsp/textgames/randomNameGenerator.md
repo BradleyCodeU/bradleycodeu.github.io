@@ -16,7 +16,7 @@ In 2017, 22 million comments were filed with the Federal Communications Commissi
 
 # Random Name Generator Project Details:
 
-Decide what type of a generator you are going to make. Ideas include: Video Game Titles, Bad Guy Names and Powers, NPC Speech Text, Harry Potter characters.
+Decide what type of a generator you are going to make. Ideas include: Video Game Titles, New Sports Teams, Bad Guy Names and Powers, Heavy Metal Band Names, NPC Speech Text, Horse/My Little Pony/Unicorn Names, Harry Potter Characters, Book Titles and Authors, Random Poetry.
 
 Create at least 3 lists for each noun/verb/adjective/name/place with 12 or more words in each list.
 
@@ -45,6 +45,5 @@ Michael the Turkey's Perlious Journey through My kitchen
 Wiggy, the Anxious Duck from Arby’s
 Kendrick Lamar and the Chicken go to The Trap
 Copper the Wolf's Perlious Journey through Burger king
-Izzy Jimmy and the Short Dragon
 Matthew and the Squirrel go to Taco Bell
 ```
