@@ -1,4 +1,4 @@
-
+ 
 //: ## Playground Basics
 //: Welcome to your first playground! In this course, you’ll use playgrounds to learn the basics of programming. To get started, you’ll take a short tour and write a bit of code.
 //:
