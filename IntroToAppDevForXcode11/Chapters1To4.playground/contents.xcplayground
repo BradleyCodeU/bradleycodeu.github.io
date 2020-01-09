@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='rendered' executeOnSourceChanges='true'>
+    <pages>
+        <page name='Ch1 Intro'/>
+        <page name='What is a playground'/>
+        <page name='Math Operators'/>
+        <page name='Comment'/>
+        <page name='Errors'/>
+        <page name='Ch2 Naming'/>
+        <page name='Autocomplete'/>
+        <page name='Indentifier'/>
+        <page name='Ch3 Introduction'/>
+        <page name='Characters'/>
+        <page name='Defining Strings'/>
+        <page name='Unicode'/>
+        <page name='Combining Strings'/>
+        <page name='String Interpolation'/>
+        <page name='Viewing Results'/>
+        <page name='More Than Strings'/>
+        <page name='The Great Escape'/>
+        <page name='Escape Sequences'/>
+        <page name='Ch4 Introduction'/>
+        <page name='Changing Your Colors'/>
+        <page name='The Console'/>
+        <page name='Hello'/>
+        <page name='Messages from Programmers'/>
+        <page name='What Can You Print'/>
+        <page name='Logging'/>
+        <page name='Exercise 1 - Phone Storage'/>
+        <page name='Exercise 2 -Displaying Values'/>
+        <page name='Exercise 3 -Debugging'/>
+    </pages>
+</playground>
