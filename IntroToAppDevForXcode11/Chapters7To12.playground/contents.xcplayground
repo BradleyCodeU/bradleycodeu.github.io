@@ -10,7 +10,6 @@
         <page name='Routines'/>
         <page name='Sign Your Work'/>
         <page name='Share the Boogie'/>
-        <page name='Algorithms'/>
         <page name='Beyond The Standard Library'/>
         <page name='Importing Frameworks'/>
         <page name='Where Do Types Come From'/>
@@ -24,11 +23,12 @@
         <page name='Methods'/>
         <page name='Properties'/>
         <page name='APIs, revisited'/>
-        <page name='What Does This Do?'/>
+        <page name='What Does This Do'/>
         <page name='Quick Help'/>
         <page name='Read the Fine Manual'/>
         <page name='Classes and Structs'/>
-        <page name='Exercise1 -Leap years'/>
-        <page name='Exercise2 - Boogie Workshop'/>
+        <page name='Exercise 1 - Boogie Workshop'/>
+        <page name='Exercise 2 -Leap years'/>
+        <page name='Exercise 3 -Freight Elevator'/>
     </pages>
 </playground>
