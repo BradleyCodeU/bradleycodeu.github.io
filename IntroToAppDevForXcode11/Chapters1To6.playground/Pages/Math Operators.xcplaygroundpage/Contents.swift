@@ -13,11 +13,5 @@
 24 / 8
 //: For grouping, use parenthesis `( )` :
 (300 + 500 + 400) / 3
-//: - experiment:\
-//: Practice using the playground like a calculator.
-//: Edit some of the existing expressions and add a few of your own.
-//: Notice that every time you make a change the results are updated in the sidebar.
-//:
-//: Next, learn how programmers can leave notes in code.
 //:
 //:[Previous](@previous)  |  page 3 of 7  |  [Next: Comments](@next)

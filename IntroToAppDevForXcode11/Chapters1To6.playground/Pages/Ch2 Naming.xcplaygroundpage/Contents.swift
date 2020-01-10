@@ -1,4 +1,4 @@
-
+  
 //: ## Naming Things
 //: In programming, names can be very descriptive and useful, helping you keep track of what’s what — just like the names you give things in real life. In code, when you give a value a name, you can use that name everywhere you would use the value. This makes the code easier to read and understand.
 //:
@@ -26,13 +26,5 @@ let totalNumberOfMammals = numberOfDogs + numberOfCats + numberOfHamsters
 //: You can even let the playground do the math for you by adding or subtracting on the right hand side of the equal sign. For example, if two more people were bringing a dog, instead of changing the 6 to an 8, you could type:
 //:
 //: `let numberOfDogs = 6 + 2`
-//: - experiment: As the week goes on, you get even more information about people’s pets.\
-//:Update the code above for the following updates:
-//: - Two more people are bringing a dog.
-//: - The sick turtle is feeling much better and will be coming to the pet show.
-//: - One of the cats cannot make it.
-//: - Another person is bringing a hamster.
-//:
-//: Once you’re finished experimenting, move ahead.
 //:
 //:[Previous](@previous)  |  page 4 of 14  |  [Next: Typing Names and Autocompletion](@next)
