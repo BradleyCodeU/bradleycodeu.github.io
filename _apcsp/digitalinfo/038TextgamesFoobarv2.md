@@ -9,9 +9,9 @@ This file must be in the same location (same folder) as your project.
 
 You will be graded on the following requirements:
 
-1. Visit [this site](http://patorjk.com/software/taag/#p=display&f=ANSI%20Shadow&t=Game%20Title) to get an ASCII art version of your title. Notice that you can change the "font" to something else like Bulbhead, Doom, or Ogre. Some of the fonts will make the text too big.
-1. More rooms (group of 3 = 21 total rooms, group of 4 = 28 total rooms). Each of these rooms must have a unique description. NOT just "you're in a room". Have 2 or more items for each person in your group.
-1. Have 1 or more locked doors. They are unlocked if the player has the key in their inventory/backpack and types "use key". Locked doors are just rooms that are set to false at first, but if you are standing next to them a type "use key" then the room gets a description.
+1. Visit [this site](http://patorjk.com/software/taag/#p=display&f=ANSI%20Shadow&t=Game%20Title) to get an ASCII art version of your title. Notice that you can change the "font" to something else like Bulbhead, Doom, or Ogre. Some of the fonts might make the text too big, so pick one that fits.
+1. MORE rooms (group of 3 = 21 total rooms, group of 4 = 28 total rooms). Each of these rooms must have a unique description. NOT just "you're in a room". Have 2 or more items for each person in your group.
+1. Have 1 or more locked rooms. They are unlocked if the player has the key. Locked rooms are set to false at first, but if you (1) are standing next to them, (2) have a key, and (3) type "use key" then the room gets a description.
 1. Have 1 *special room* for each person in your group. A special room could be:
   - a battle with an enemy
   - a high-low number guessing game (to open a combination lock, for example)

@@ -28,10 +28,10 @@ Define a function called move that requires two arguments: userInput, location.
     - location = location - 1
   - Otherwise if the userInput was "s" and doesRoomExist at the location + 1
     - location = location + 1
-  - Otherwise if the userInput was "e" and # figure this part out yourself
-    - # figure it out yourself
-  - Otherwise if the userInput was "w" and # figure this part out yourself
-    - # figure it out yourself
+  - Otherwise if the userInput was "e" and figure this part out yourself
+    - figure this part out yourself
+  - Otherwise if the userInput was "w" and figure this part out yourself
+    - figure this part out yourself
   - return location
 
 Define a function called main.
