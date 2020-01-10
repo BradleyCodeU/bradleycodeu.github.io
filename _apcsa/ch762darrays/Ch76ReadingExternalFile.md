@@ -10,7 +10,7 @@ You will use data stored in a text file to fill a 2D array. First, create a file
 
 2 6 24 31 14 41 18 11 14 20 17 7 45 33
 
-The dimensions of the 2D array are the first two integers, so the array that will be created and filled is a 6 x 2 (6 columns and 2 rows). Print an error message if any of the values is invalid. For example, if you change testData.txt to be "2rows 6columns" then it would print an error message and not crash.
+The dimensions of the 2D array are the first two integers, so the array that will be created and filled is a 2 x 6 (2 rows x 6 columns). Print an error message if ANY of the values is invalid. For example, if you change testData.txt to be "2rows 6columns" then it would print an error message and not crash.
 
 Here is a table to help you visualize the 2D array (notice that 2 and 6 are NOT in the 2D array, but describe the number of columns and rows):
 
