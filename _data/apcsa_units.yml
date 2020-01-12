@@ -499,15 +499,13 @@ Projects:
 - title: ch14sortingandsearching
   heading: "# Ch14 Sorting and Searching"
   content: "
-1. [Ch9DogClass](/apcsa/ch14sortingandsearching/Ch9DogClass/)
+1. [Ch14SearchingData](/apcsa/ch14sortingandsearching/Ch14SearchingData/)
 
-1. [Ch9QuestionClass](/apcsa/ch14sortingandsearching/Ch9QuestionClass/)
+1. [Ch14ArraySorting](/apcsa/ch14sortingandsearching/Ch14ArraySorting/)
 
-1. [Ch9ClockClass](/apcsa/ch14sortingandsearching/Ch9ClockClass/)
+1. [Ch14PseudocodeSortSearch](/apcsa/ch14sortingandsearching/Ch14PseudocodeSortSearch/)
 
-1. [Ch9UMLDiagram](/apcsa/ch14sortingandsearching/Ch9UMLDiagram/)
-
-1. [Ch9PetStartupProject](/apcsa/ch14sortingandsearching/Ch9PetStartupProject/)
+1. [Ch14SortingWorksheet](/apcsa/ch14sortingandsearching/Ch14SortingWorksheet/)
 
 "
 
