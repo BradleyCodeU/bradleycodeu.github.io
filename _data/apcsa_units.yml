@@ -488,11 +488,12 @@ Projects:
 - title: ch10interfaces
   heading: "# Ch10 Interfaces"
   content: "
-1. [Ch10FlyableImplementation](/apcsa/ch10interfaces/Ch10FlyableImplementation/)
 
-1. [Ch10MeasurableInterface](/apcsa/ch10interfaces/Ch10MeasurableInterface/)
+1. [Ch10Flyable](/apcsa/ch10interfaces/Ch10Flyable/)
 
-1. [Ch10ComparableInterface](/apcsa/ch10interfaces/Ch10ComparableInterface/)
+1. [Ch10Measurable](/apcsa/ch10interfaces/Ch10Measurable/)
+
+1. [Ch10Comparable](/apcsa/ch10interfaces/Ch10Comparable/)
 
 "
 
@@ -516,5 +517,13 @@ Projects:
 1. [Ch13CodingBat](/apcsa/ch13recursion/Ch13CodingBat/)
 
 1. [Ch13DecToBin](/apcsa/ch13recursion/Ch13DecToBin/)
+
+"
+
+- title: textprepandlabs
+  heading: "# Test Prep and Labs"
+  content: "
+
+See Canvas for all details
 
 "
