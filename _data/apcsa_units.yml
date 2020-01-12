@@ -512,14 +512,9 @@ Projects:
 - title: ch13recursion
   heading: "# Ch13 Recursion"
   content: "
-1. [Ch9DogClass](/apcsa/ch13recursion/Ch9DogClass/)
 
-1. [Ch9QuestionClass](/apcsa/ch13recursion/Ch9QuestionClass/)
+1. [Ch13CodingBat](/apcsa/ch13recursion/Ch13CodingBat/)
 
-1. [Ch9ClockClass](/apcsa/ch13recursion/Ch9ClockClass/)
-
-1. [Ch9UMLDiagram](/apcsa/ch13recursion/Ch9UMLDiagram/)
-
-1. [Ch9PetStartupProject](/apcsa/ch13recursion/Ch9PetStartupProject/)
+1. [Ch13DecToBin](/apcsa/ch13recursion/Ch13DecToBin/)
 
 "
