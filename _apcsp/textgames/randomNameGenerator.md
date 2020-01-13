@@ -16,9 +16,9 @@ In 2017, 22 million comments were filed with the Federal Communications Commissi
 
 # Random Name Generator Project Details:
 
-Decide what type of a generator you are going to make. Ideas include: Video Game Titles, New Sports Teams, Bad Guy Names and Powers, Heavy Metal Band Names, NPC Speech Text, Horse/My Little Pony/Unicorn Names, Harry Potter Characters, Book Titles and Authors, Random Poetry.
+Decide what type of a generator you are going to make. Ideas include: Video Game Titles, New Sports Teams, Bad Guy Names and Powers, Heavy Metal Band Names, NPC Speech Text, Horse/My Little Pony/Unicorn Names, Harry Potter Characters, Celebrity Gossip News, Book Titles and Authors, Clickbait Article Titles, Random Poetry.
 
-Create at least 3 lists for each noun/verb/adjective/name/place with 12 or more words in each list.
+Create at least 3 lists. Each list MUST have 12 or more words. For example... a list of names, list of verbs, and a list of places.
 
 Read this article about the [random choice method](https://www.w3schools.com/python/ref_random_choice.asp)
 
@@ -26,7 +26,7 @@ Read this article about the [random choice method](https://www.w3schools.com/pyt
 
 - Create a loop that repeats 5 times
 
-  - Print out text with random nouns, verbs, adjectives, etc.
+  - Print out text with random nouns, verbs, adjectives, adverbs, etc.
 
 For example...
 ```
