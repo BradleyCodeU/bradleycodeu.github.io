@@ -24,4 +24,4 @@ Cut down on clutter by only showing one section at a time. Here are two differen
 2. Use [details and summary](https://www.w3schools.com/tags/tag_details.asp) to create collapsible hidden sections (or use [Bootstrap's collapse](https://www.w3schools.com/bootstrap4/bootstrap_collapse.asp))
 
 
-For v1.0 your Submit button doesn't need to do anything
+For version 1, your Submit button doesn't need to do anything
