@@ -28,7 +28,7 @@ Read this article about the [random choice method](https://www.w3schools.com/pyt
 
   - Print out text with random nouns, verbs, adjectives, adverbs, etc.
 
-For example...
+An example of a Video Game Title generator...
 ```
 Here Are 5 New Video Game Titles...
 Dr. Assassin's Island
@@ -36,6 +36,14 @@ Angry Dog Parable
 Royal Plants vs Tyrannosaurus Kong
 Shadow Luigi's Witchy World
 Super Wars the Return of Ghost Burger
+```
+An example of a Clickbait Article generator...
+```
+Is My Little Pony Destroying Hilliard?
+9 Reasons You Can Blame the Fuzzy Stock Market on Hot Dogs
+You Will Be Shocked To See These 3 Photos Of Minecraft
+8 Things Your Dad Hasn't Told You About Shrek
+How To Talk To Your Cat About Bitcoin
 ```
 
 Check out @BookTitleBot for another example: [https://twitter.com/booktitlebot](https://twitter.com/booktitlebot)  All of these tweets are being randomly generated based on lists of nouns, verbs, names, places, etc.
