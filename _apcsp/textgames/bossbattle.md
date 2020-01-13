@@ -66,3 +66,19 @@ def main():
       time.sleep(1)
   whoWins(playerHealth, bossHealth)
 ```
+
+
+Run the following tests:
+|randomHealth() | only returns 30-50|
+|randomTrueFalse() | returns True 50% of the time, False 50% of the time|
+|diceRoll() | only returns 1-6   |
+|hitBoss("ice spell",True,True) | returns 3-18 (make sure you sometimes get >12) |
+|hitBoss("fire sword",False,False) | returns 3-18 (make sure you sometimes get >12) |
+|hitBoss("",False,True) | returns 0   |
+|hitBoss("ice",False,True) | returns 0   |   
+|hitBoss("ice sword",False,True) | returns 1-6   |
+|hitBoss("fire magic",True,False) | returns 1-6   |
+|hitPlayer(50)   |  returns 2-12 |
+|hitPlayer(5)   |  returns 1-6 |
+|whoWins(1,0)   | says You Win  |
+|whoWins(0,1)   | says You Lose  |
