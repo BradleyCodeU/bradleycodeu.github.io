@@ -1,7 +1,7 @@
 ---
 layout: project
 category: p5js
-title: SoloLearn JS 2
+title: SoloLrn JS 2
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 layout: project
 category: objects
-title: SoloLearn JS 1
+title: SoloLrn JS 1
 ---
 
 

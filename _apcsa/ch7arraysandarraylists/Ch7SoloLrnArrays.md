@@ -1,7 +1,7 @@
 ---
 layout: project
 category: ch7arraysandarraylists
-title: SoloLearn Java 3
+title: SoloLrn Java Arrays
 ---
 
 Go to [sololearn.com/Play/Java](https://www.sololearn.com/Play/Java) and complete Module 3: "Arrays" (all 10 questions)

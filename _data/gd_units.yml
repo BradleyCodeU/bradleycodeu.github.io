@@ -85,11 +85,11 @@ Projects:
 
   1. [Bubble Game v1](/gd/objects/bubblegamev1/) - 50pts
 
-  1. [SoloLearn JS 1](/gd/objects/sololearnjs1/) - 13pts
+  1. [SoloLrn JS 1](/gd/objects/sololearnjs1/) - 13pts
 
   1. [Bubble Game v2](/gd/objects/bubblegamev2/) - 50pts
 
-  1. [SoloLearn Js 2](/gd/objects/sololearnjs2/) - 15pts
+  1. [SoloLrn Js 2](/gd/objects/sololearnjs2/) - 15pts
 
   1. Optional Bonus Points [Markov Chain Generator](/gd/objects/markovchaingenerator/) - 50pts
 
@@ -114,11 +114,11 @@ Projects:
 
   1. [UDLR v1](/gd/inheritance/udlrv1/) - 50pts
 
-  1. [SoloLearn JS 3](/gd/inheritance/sololearnjs3/) - 12pts
+  1. [SoloLrn JS 3](/gd/inheritance/sololearnjs3/) - 12pts
 
   1. [UDLR v2](/gd/inheritance/udlr/) - 50pts
 
-  1. [SoloLearn JS 4](/gd/inheritance/sololearnjs4/) - 15pts
+  1. [SoloLrn JS 4](/gd/inheritance/sololearnjs4/) - 15pts
 
 "
 
@@ -175,7 +175,7 @@ Resources:
 
 Projects:
 
-1. [SoloLearn CSharp](/gd/csharp/sololearncsharp/) - 11pts
+1. [SoloLrn CSharp](/gd/csharp/sololearncsharp/) - 11pts
 
 1. [Roll A Ball v1](/gd/csharp/rollaballv1/) - 20pts
 
@@ -223,11 +223,13 @@ Projects:
 
 1. [All About Me iOS app](/gd/swift/allaboutmeiosapp/)
 
-1. [SoloLearn Swift Basics](/gd/swift/sololearnswift/)
+1. [SoloLrn Swift Basics](/gd/swift/sololearnswift/)
 
 1. [Chapters 1 To 6](/gd/swift/chapters1to6/)
 
 1. [Chapters 7 To 12](/gd/swift/chapters7to12/)
+
+1. [SoloLrn Swift Control Flow](/gd/swift/SoloLrnSwiftControlFlow/)
 
 1. [Chapter 13 QuestionBot]()
 
@@ -254,11 +256,11 @@ Projects:
   heading: "# Swift2"
   content: "*3 wks*
 
-  1. [SoloLearn Swift Control Flow & Collections](/gd/swift2/sololearnswift2/)
+  1. [SoloLrn Swift Control Flow & Collections](/gd/swift2/sololearnswift2/)
 
   1. [Ch 12 Intro to App Dev Instances Methods and Procedures](/gd/swift/ch12introtoappdev/)
 
-  1. [SoloLearn Swift Functions Closures](/gd/swift2/sololearnswift3/)
+  1. [SoloLrn Swift Functions Closures](/gd/swift2/sololearnswift3/)
 
   1. [Ch 13 Intro to App Dev QuestionBot](/gd/swift/ch13introtoappdev/)
 
@@ -266,7 +268,7 @@ Projects:
 
   1. [Ch 15 Intro to App Dev Defining Structures](/gd/swift2/ch15introtoappdev/)
 
-  1. [SoloLearn Swift Object Oriented Programming](/gd/swift2/sololearnswift4/)
+  1. [SoloLrn Swift Object Oriented Programming](/gd/swift2/sololearnswift4/)
 
   1. [Ch 16 Intro to App Dev QuestionBot2](/gd/swift2/ch16introtoappdev/)
 

@@ -1,7 +1,7 @@
 ---
 layout: project
 category: inheritance
-title: SoloLearn JS 4
+title: SoloLrn JS 4
 ---
 
 [https://www.sololearn.com/Play/JavaScript](https://www.sololearn.com/Play/JavaScript)

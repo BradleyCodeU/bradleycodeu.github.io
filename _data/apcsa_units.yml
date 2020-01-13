@@ -109,6 +109,8 @@ Resources:
 
 Projects:
 
+1. [Ch1SoloLrnJavaBasicConcepts](/apcsa/ch1introduction/ch1sololearnjava/)
+
 1. [Ch1KingsIsland](/apcsa/ch1introduction/ch1kingsisland/)
 
 1. [Ch1PaintCalcAreaOnly](/apcsa/ch1introduction/ch1paintcalcareaonly/)
@@ -119,7 +121,6 @@ Projects:
 
 1. [Ch1Review2](/apcsa/ch1introduction/ch1review2/)
 
-1. [Ch1SoloLearnJava](/apcsa/ch1introduction/ch1sololearnjava/)
 "
 
 - title: ch2usingobjects
@@ -309,6 +310,8 @@ Projects:
   heading: "# Ch6 Loops"
   content: "
 
+1. [Ch6SoloLrnConditionalsAndLoops](/apcsa/ch6loops/Ch6SoloLrnConditionalsAndLoops/)
+
 1. [Ch6WhileLoops](/apcsa/ch6loops/ch6whileloops/)
 
 1. [Ch6ForLoops](/apcsa/ch6loops/ch6forloops/)
@@ -323,15 +326,13 @@ Projects:
 
 1. [Ch6PrimeGenerator](/apcsa/ch6loops/ch6primegenerator/)
 
-1. [Ch6SoloLearnJava2](/apcsa/ch6loops/ch6sololearnjava2/)
-
 "
 
 - title: ch7arraysandarraylists
   heading: "# Ch7 Arrays and Array Lists"
   content: "
 
-1. [Ch7SoloLearnJava3](/apcsa/ch7arraysandarraylists/ch7sololearnjava3/)
+1. [Ch7SoloLrnArrays](/apcsa/ch7arraysandarraylists/Ch7SoloLrnArrays/)
 
 1. [Ch7ArrayManipulation](/apcsa/ch7arraysandarraylists/ch7arraymanipulation/)
 
@@ -427,6 +428,9 @@ Projects:
 - title: ch8designingclasses
   heading: "# Ch8 Designing Classes"
   content: "
+
+1. [Ch8SoloLrnClassesAndObjects](/apcsa/ch8designingclasses/Ch8SoloLrnClassesAndObjects/)
+
 1. [Ch8Worksheet](/apcsa/ch8designingclasses/Ch8Worksheet/)
 
 1. [Ch8GeometryClass](/apcsa/ch8designingclasses/Ch8GeometryClass/)

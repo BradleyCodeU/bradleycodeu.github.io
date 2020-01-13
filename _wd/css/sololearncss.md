@@ -1,7 +1,7 @@
 ---
 layout: project
 category: css
-title: SoloLearn CSS
+title: SoloLrn CSS
 ---
 
 Go to [sololearn.com/Play/CSS](https://www.sololearn.com/Play/CSS) and complete The Basics (16 questions)

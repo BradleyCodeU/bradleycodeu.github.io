@@ -1,7 +1,7 @@
 ---
 layout: project
 category: html
-title: SoloLearn HTML
+title: SoloLrn HTML
 ---
 
 Go to [sololearn.com/Play/HTML](https://www.sololearn.com/Play/HTML) and complete Overview (13 questions) and *the first row* of HTML Basics (the first 9 questions)
