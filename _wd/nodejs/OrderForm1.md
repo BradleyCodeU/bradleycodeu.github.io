@@ -1,0 +1,27 @@
+---
+layout: project
+category: nodejs
+title: Order Form 1
+---
+
+[https://glitch.com/edit/#!/basic-node-project](https://glitch.com/edit/#!/basic-node-project) remix this New Node App starter project
+
+Create an order form for an online business. It can sell anything you like (anything that is school appropriate). Include images and prices for all items. Use [input type="number"](https://www.w3schools.com/tags/att_input_type_number.asp) so that the customer can order more than one of an item.
+
+Allow the customer to choose from 3 or more LARGE menu items. For example, they might order 2 hot dogs, 1 hamburger, and 3 salads.
+- Hot dogs
+- Hamburgers
+- Salads
+
+
+Cut down on clutter by only showing one section at a time. Here are two different ways to do this:
+
+1. Use [W3Schools Form With Multiple Steps](https://www.w3schools.com/howto/howto_js_form_steps.asp)
+2. Use [details and summary](https://www.w3schools.com/tags/tag_details.asp) to create collapsible hidden sections (or use [Bootstrap's collapse](https://www.w3schools.com/bootstrap4/bootstrap_collapse.asp))
+
+Sell 3 or more SMALL items. This section is hidden at first. For example...
+
+Fries
+Onion Rings
+Tater Tots
+For v1.0 your Submit button doesn't need to do anything
