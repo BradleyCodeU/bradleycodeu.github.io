@@ -233,6 +233,9 @@ Projects:
 
 1. [Chapter 13 QuestionBot]()
 
+1. [SoloLrn Swift Functions Closures](/gd/swift/SoloLrnSwiftFunctionsClosures/)
+
+1. [SoloLrn Swift Object Oriented Prog](/gd/swift/SoloLrnSwiftObjectOrientedProg/)
 
 
 "
@@ -256,19 +259,15 @@ Projects:
   heading: "# Swift2"
   content: "*3 wks*
 
-  1. [SoloLrn Swift Control Flow & Collections](/gd/swift2/sololearnswift2/)
+
 
   1. [Ch 12 Intro to App Dev Instances Methods and Procedures](/gd/swift/ch12introtoappdev/)
-
-  1. [SoloLrn Swift Functions Closures](/gd/swift2/sololearnswift3/)
 
   1. [Ch 13 Intro to App Dev QuestionBot](/gd/swift/ch13introtoappdev/)
 
   1. [Ch 14 Intro to App Dev Arrays and Loops](/gd/swift2/ch14introtoappdev/)
 
   1. [Ch 15 Intro to App Dev Defining Structures](/gd/swift2/ch15introtoappdev/)
-
-  1. [SoloLrn Swift Object Oriented Programming](/gd/swift2/sololearnswift4/)
 
   1. [Ch 16 Intro to App Dev QuestionBot2](/gd/swift2/ch16introtoappdev/)
 
