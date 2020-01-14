@@ -72,16 +72,16 @@ Run the following tests:
 
 |  |  |
 |--|--|
-|randomHealth() | only returns 30-50|
-|randomTrueFalse() | returns True 50% of the time & False 50%|
-|diceRoll() | only returns 1-6   |
-|hitBoss("ice spell",True,True) | returns 3-18 (make sure you sometimes get >12) |
-|hitBoss("fire sword",False,False) | returns 3-18 (make sure you sometimes get >12) |
-|hitBoss("s",False,True) | always returns 0   |
-|hitBoss("ice",False,True) | always returns 0   |   
-|hitBoss("ice sword",False,True) | returns 1-6   |
-|hitBoss("fire magic",True,False) | returns 1-6   |
-|hitPlayer(50)   |  returns 2-12 (make sure you sometimes get >6)|
-|hitPlayer(5)   |  returns 1-6 |
-|whoWins(1,0)   | says You Win  |
-|whoWins(0,1)   | says You Lose  |
+|`randomHealth()` | only returns 30-50|
+|`randomTrueFalse()` | returns True 50% of the time & False 50%|
+|`diceRoll()` | only returns 1-6   |
+|`hitBoss("ice spell",True,True)` | returns 3-18 (make sure you sometimes get >12) |
+|`hitBoss("fire sword",False,False)` | returns 3-18 (make sure you sometimes get >12) |
+|`hitBoss("s",False,True)` | always returns 0   |
+|`hitBoss("ice",False,True)` | always returns 0   |   
+|`hitBoss("ice sword",False,True)` | returns 1-6   |
+|`hitBoss("fire magic",True,False` | returns 1-6   |
+|`hitPlayer(50)`   |  returns 2-12 (make sure you sometimes get >6)|
+|`hitPlayer(5)`   |  returns 1-6 |
+|`whoWins(1,0)`   | says You Win  |
+|`whoWins(0,1)`   | says You Lose  |
