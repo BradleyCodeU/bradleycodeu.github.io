@@ -64,11 +64,11 @@ Here is the starter code for the fight function:
 function fight(weapon){
   let damage = hitBoss(weapon);
   bossHealth = bossHealth - damage;
-  # use document.getElementById to update the bossHealthBox
-  if bossHealth > 0
+  // use document.getElementById to update the bossHealthBox
+  if (bossHealth > 0)
       damage = hitPlayer();
       playerHealth = playerHealth - damage;
-  # use document.getElementById to update the playerHealthBox
+  // use document.getElementById to update the playerHealthBox
   checkForWins();
 }
 ```
