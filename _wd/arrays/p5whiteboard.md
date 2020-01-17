@@ -20,8 +20,8 @@ Create a div and give it the ID "canvasDiv"
 In your Javscript file...
 
 - Create an array that will store Dot objects.
-- Create a variable called pencilButton and set it to document.getElementById("pencil"). Now you don't have to re-type document.getElementById("pencil") and you can use pencilButton.value whenever you want to know if it is selected or not.
-- Create a variable called eraserButton and set it to document.getElementById("eraser"). Now you don't have to re-type document.getElementById("eraser") and you can use eraserButton.value whenever you want to know if it is selected or not.
+- Create a variable called pencilButton and set it to document.getElementById("pencil"). Now you don't have to re-type document.getElementById("pencil") and you can use pencilButton.checked whenever you want to know if it is selected or not.
+- Create a variable called eraserButton and set it to document.getElementById("eraser"). Now you don't have to re-type document.getElementById("eraser") and you can use eraserButton.checked whenever you want to know if it is selected or not.
 
 Add the following P5js setup function...
 ```
@@ -37,11 +37,11 @@ Create a Dot class.
     - Set the fill to the dot color
     - Draw an ellipse at the x and y coordinates
 
-If [mouseIsPressed](https://p5js.org/reference/#/p5/mouseIsPressed) and pencilButton.value == true, then add a new Dot to the array.
+If [mouseIsPressed](https://p5js.org/reference/#/p5/mouseIsPressed) and pencilButton.checked == true, then add a new Dot to the array.
 
-If [mouseIsPressed](https://p5js.org/reference/#/p5/mouseIsPressed) and eraserButton.value == true, then remove any Dots near the mouse. Like this...
+If [mouseIsPressed](https://p5js.org/reference/#/p5/mouseIsPressed) and eraserButton.checked == true, then remove any Dots near the mouse. Like this...
 ```
-if (mouseIsPressed && eraserButton.value == true) {
+if (mouseIsPressed && eraserButton.checked == true) {
   // I'm guessing that your array is named myArray ¯\_(ツ)_/¯
   // Loop through myArray
   for (let i = 0; i < myArray.length; i++){
@@ -61,6 +61,7 @@ If the CLEAR button is clicked, then remove everything in the array.
 
 If you have taken 1 or more computer science classes in the past, add 1 or more extra drawing tools...
   - A color palette (several buttons with common colors so that you can quickly select common colors)
-  - A random color button
+  - A random color button that randomizes the color once each time it is clicked
+  - A "Confetti Mode" checkbox that (if checked) randomizes the color before every new Dot is added
   - A [range slider](https://www.w3schools.com/tags/att_input_type_range.asp) that will change the pen size
   - Add a 3rd radio button, Spray Paint: add multiple slightly random dots near the mouse
