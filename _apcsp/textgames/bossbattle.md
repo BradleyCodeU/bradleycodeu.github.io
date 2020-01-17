@@ -4,6 +4,8 @@ category: textgames
 title: Boss Battle
 permalink: /apcsp/textgames/bossBattle/
 ---
+This project uses [nested conditionals](https://geek-university.com/python/nested-if-statements/) and [logical operators](https://www.tutorialspoint.com/python/logical_operators_example.htm).
+
 Read this article about the [random choice method](https://www.w3schools.com/python/ref_random_choice.asp)
 
 Read this article about the [Python string lower method](https://www.w3schools.com/python/ref_string_lower.asp)
@@ -78,7 +80,7 @@ Run the following tests:
 |`hitBoss("ice spell",True,True)` | returns 3-18 (make sure you sometimes get >12) |
 |`hitBoss("fire sword",False,False)` | returns 3-18 (make sure you sometimes get >12) |
 |`hitBoss("s",False,True)` | always returns 0   |
-|`hitBoss("ice",False,True)` | always returns 0   |   
+|`hitBoss("ice",False,True)` | always returns 0   |
 |`hitBoss("ice sword",False,True)` | returns 1-6   |
 |`hitBoss("fire spell",True,False` | returns 1-6   |
 |`hitPlayer(50)`   |  returns 2-12 (make sure you sometimes get >6)|

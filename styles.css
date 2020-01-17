@@ -246,6 +246,10 @@ section {
 small.fine-print{
   font-size:60% !important;
 }
+.smaller{
+  font-size: 70%;
+  font-weight: 100;
+}
 .sticky {
   position: -webkit-sticky;
 	position: sticky;
