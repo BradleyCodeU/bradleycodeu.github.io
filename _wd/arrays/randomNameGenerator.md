@@ -14,7 +14,7 @@ In 2017, 22 million comments were filed with the Federal Communications Commissi
 
 <img src="/apcsp/textgames/fake-net-neutrality-comments.jpg" style="max-width:400px!important;" alt="fake Net Neutrality comments">
 
-## Random Name Generator Project Details:
+# Random Name Generator Project Details:
 
 Decide what type of a generator you are going to make. Ideas include: Video Game Titles, New Sports Teams, Bad Guy Names and Powers, Heavy Metal Band Names, NPC Speech Text, Horse/My Little Pony/Unicorn Names, Harry Potter Characters, Book Titles and Authors, Random Poetry.
 
