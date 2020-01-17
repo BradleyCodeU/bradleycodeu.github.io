@@ -4,7 +4,7 @@ category: arrays
 title: Random Name Generator
 ---
 
-<img src="/apcsp/textgames/star-wars-rotten-tomatoes-6000-audience-reviews-2.jpeg" style="max-width:400px!important;padding:0px 20px;float:left;" alt="fake Star Wars Rise of Skywalker movie reviews">
+<img src="/apcsp/textgames/star-wars-rotten-tomatoes-6000-audience-reviews-2.jpeg" style="max-width:400px!important;padding:15px 20px;float:left;" alt="fake Star Wars Rise of Skywalker movie reviews">
 
 In December of 2019, thousands of fake reviews were posted for Star Wars: The Rise of Skywalker on RottenTomatoes.com. The fake review were most likely created with a spambot, a random text generating algorithm similar to the random name generator that you will create.
 
@@ -14,7 +14,7 @@ In 2017, 22 million comments were filed with the Federal Communications Commissi
 
 <img src="/apcsp/textgames/fake-net-neutrality-comments.jpg" style="max-width:400px!important;" alt="fake Net Neutrality comments">
 
-# Random Name Generator Project Details:
+## Random Name Generator Project Details:
 
 Decide what type of a generator you are going to make. Ideas include: Video Game Titles, New Sports Teams, Bad Guy Names and Powers, Heavy Metal Band Names, NPC Speech Text, Horse/My Little Pony/Unicorn Names, Harry Potter Characters, Book Titles and Authors, Random Poetry.
 

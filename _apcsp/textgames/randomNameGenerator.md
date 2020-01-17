@@ -3,7 +3,7 @@ layout: project
 category: textgames
 title: Random Name Generator
 ---
-<img src="/apcsp/textgames/star-wars-rotten-tomatoes-6000-audience-reviews-2.jpeg" style="max-width:300px!important;padding:0px 20px;float:left;" alt="fake Star Wars Rise of Skywalker movie reviews">
+<img src="/apcsp/textgames/star-wars-rotten-tomatoes-6000-audience-reviews-2.jpeg" style="max-width:400px!important;padding:15px 20px;float:left;" alt="fake Star Wars Rise of Skywalker movie reviews">
 
 In December of 2019, thousands of fake reviews were posted for Star Wars: The Rise of Skywalker on RottenTomatoes.com. The fake review were most likely created with a spambot, a random text generating algorithm similar to the random name generator that you will create.
 
@@ -11,9 +11,9 @@ According to [ReclaimTheNet.org](https://reclaimthenet.org/new-data-shows-strang
 
 In 2017, 22 million comments were filed with the Federal Communications Commission (FCC) about Net Neutrality, the issue of whether all web traffic should be treated equally. According to the [Pew Research Center](https://www.pewresearch.org/internet/2017/11/29/public-comments-to-the-federal-communications-commission-about-net-neutrality-contain-many-inaccuracies-and-duplicates/), 94% of comments were submitted multiple times with some comments being copied hundreds of thousands of times. The seven most-submitted comments (six of which argued against net neutrality protection) made up 38% of all comments. According to [NPR](https://www.npr.org/2017/12/14/570262688/as-fcc-prepares-net-neutrality-vote-study-finds-millions-of-fake-comments), on several occasions tens of thousands of comments came in at the same precise moment.
 
-<img src="/apcsp/textgames/fake-net-neutrality-comments.jpg" style="max-width:300px!important;padding:20px;float:left;" alt="fake Net Neutrality comments">
+<img src="/apcsp/textgames/fake-net-neutrality-comments.jpg" style="max-width:400px!important;padding:20px;float:left;" alt="fake Net Neutrality comments">
 
-# Random Name Generator Project Details:
+## Random Name Generator Project Details:
 
 Decide what type of a generator you are going to make. Ideas include: Video Game Titles, New Sports Teams, Bad Guy Names and Powers, Heavy Metal Band Names, NPC Speech Text, Horse/My Little Pony/Unicorn Names, Harry Potter Characters, Celebrity Gossip News, Book Titles and Authors, Clickbait Article Titles, Random Poetry.
 
