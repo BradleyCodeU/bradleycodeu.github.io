@@ -3,7 +3,7 @@ layout: project
 category: textgames
 title: Random Name Generator
 ---
-<img src="/apcsp/textgames/star-wars-rotten-tomatoes-6000-audience-reviews-2.jpeg" style="max-width:400px!important;padding:15px 20px;float:left;" alt="fake Star Wars Rise of Skywalker movie reviews">
+<img src="/apcsp/textgames/star-wars-rotten-tomatoes-6000-audience-reviews-2.jpeg" style="max-width:400px!important;padding:15px 20px;float:right;" alt="fake Star Wars Rise of Skywalker movie reviews">
 
 In December of 2019, thousands of fake reviews were posted for Star Wars: The Rise of Skywalker on RottenTomatoes.com. The fake review were most likely created with a spambot, a random text generating algorithm similar to the random name generator that you will create.
 
