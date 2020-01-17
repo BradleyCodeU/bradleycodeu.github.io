@@ -212,7 +212,7 @@ h3, h4 {
 
 
 img{
-  max-width: 100%!important;
+  max-width: 500px !important;
 }
 nav.navbar{
   border-bottom-left-radius: 10px;
