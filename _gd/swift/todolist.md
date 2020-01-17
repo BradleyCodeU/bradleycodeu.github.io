@@ -165,4 +165,4 @@ Let's create an outlet.
 
 In your storyboard, select the text field. While holding the Control button, drag from the text field on your canvas to the code display in the editor on the right, stopping the drag at the line below the class definition (```class ViewController: UIViewController```).
 
-![creating An Outlet](../../../../../AppData/Local/atom/app-1.43.0/_gd/swift/img/creatingAnOutlet.jpg)
+![creating An Outlet](/gd/swift/img/creatingAnOutlet.jpg)
