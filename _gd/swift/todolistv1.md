@@ -1,9 +1,9 @@
 ---
 layout: project
 category: swift
-title: Todo List
+title: Todo List v1
 ---
-The following directions are for Xcode version 11.3
+_Note: the following directions were created for Xcode version 11.3_
 
 In the welcome window, click "Create a new Xcode project" (or choose File > New > Project).
 Xcode displays template choices in a new window.
@@ -166,3 +166,62 @@ Let's create an outlet.
 In your storyboard, select the text field. While holding the Control button, drag from the text field on your canvas to the code display in the editor on the right, stopping the drag at the line below the class definition (```class ViewController: UIViewController```).
 
 ![creating An Outlet](/gd/swift/img/creatingAnOutlet.jpg)
+
+A dialog appears. For Name, type the desired name for your text field. In our example, we've named it nameTextField.
+
+![outlet Dialog Box](/gd/swift/img/outletDialogBox.jpg)
+
+Click Connect.
+
+Xcode adds code to ViewController.swift that will store a pointer to the text field and configures the storyboard to set up that connection:
+`@IBOutlet weak var nameTextField: UITextField!`
+
+The weak keyword means that it's possible for that property to have no value (to be nil) at some point in its life. The rest of the declaration declares a variable of type UITextField named nameTextField.
+
+Repeat the process for the label, and name it nameLabel.
+You now have a way to refer to the interface elements from code. Now, you'll need to define a user-initiated event that triggers interaction between those elements.
+
+###Define an Action to Perform
+
+An action is a piece of code that is linked to an event that can take place at some point in your app. When that event takes place, the code is executed. An action method can be declared to accomplish anything from manipulating a piece of data to updating the UI.
+An action is created in the same way as an outlet. That is, control-drag from a particular object in your storyboard to a view controller file.
+Let's create an action for our button, to set the label's text to the text the user inputs in the text field.
+
+Control-drag from the Submit button on your canvas to the code display in the editor on the right.
+In the dialog that appears, for Connection, select Action.
+For Name, type a name, for example: setLabelText.
+For Type, select UIButton.
+Your dialog should look like this:
+
+![action Dialog Box](/gd/swift/img/actionDialogBox.jpg)
+
+Click Connect.
+The Type field value defaults to AnyObject, a type used in Swift to describe an object that can belong to any class.
+
+Xcode adds the necessary code to ViewController.swift to set up the action method.
+`@IBAction func setLabelText(_ sender: UIButton) {
+
+}`
+
+The sender parameter points to the object responsible for triggering the action - in this case, a button. The rest of the declaration declares a method named setLabelText.
+The IBAction attribute indicates that the method is an action to which you can connect from your storyboard in Interface Builder.
+
+
+###Defining an Action
+
+In the method implementation, add this line of code:
+`nameLabel.text = nameTextField.text`
+
+The above code sets the label's text property to the text field's text property.We refer to the label and text field by the names we defined while creating the corresponding outlets.
+
+Now, run your app on the Simulator, type a name in the text field and press the Submit button. The typed name should appear as the Label.
+
+###View Controller Lifecycle
+
+So far, our app has a single scene, whose UI is managed by a single view controller. As you build apps that are more and more complex, you'll be dealing with greater numbers of scenes. You will need to have the ability to manage loading and unloading views as they're moved on and off the screen.
+An object of the UIViewController class, and of its subclasses, comes with a set of methods that serve to manage its view hierarchy. iOS automatically calls the methods at appropriate times when a view controller transitions between states.
+
+Here are a few...
+- viewDidLoad(): Called when the view controller's content view is created and loaded from a storyboard.
+- viewWillAppear(): Intended for any operations that you want always to occur before the view becomes visible.
+- viewDidAppear(): Intended for any operations that you want to occur as soon as the view becomes visible, such as fetching data or showing an animation.
