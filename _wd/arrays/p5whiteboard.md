@@ -40,7 +40,7 @@ If the Erase button is clicked, then remove everything in the array.
 
 -=-=-=-=-=-=-=-
 
-If you have taken 1 or more computer science classes in the past, add some extra drawing tools...
+If you have taken 1 or more computer science classes in the past, add 1 or more extra drawing tools...
   - A color palette (several buttons with common colors so that you can quickly select common colors)
   - A random color button
   - A [range slider](https://www.w3schools.com/tags/att_input_type_range.asp) that will change the pen size
