@@ -6,7 +6,7 @@ title: Random Name Generator
 
 In December of 2019, thousands of fake reviews were posted for Star Wars: The Rise of Skywalker on RottenTomatoes.com. The fake review were most likely created with a spambot, a random text generating algorithm similar to the random name generator that you will create.
 
-![fake Star Wars Rise of Skywalker movie reviews](/apcsp/textgames/star-wars-rotten-tomatoes-6000-audience-reviews-2.jpeg)
+<img src="/apcsp/textgames/star-wars-rotten-tomatoes-6000-audience-reviews-2.jpeg" style="max-width:500px" alt="fake Star Wars Rise of Skywalker movie reviews">
 
 According to [ReclaimTheNet.org](https://reclaimthenet.org/new-data-shows-strange-patterns-in-rotten-tomatoes-star-wars-the-rise-of-skywalker-audience-reviews/), variations of the phrase “great end to the saga” appear more than 260 times. The large amount of short, similar “great end to the saga” comments is very different from the reviews on another site, Metacritic.com. On Metacritic, most reviews are longer, more varied, and discuss what the reviewer liked or disliked about the movie. Reviews that are variations of “great end to the saga” and nothing else are very hard to find.
 
