@@ -146,4 +146,132 @@ Now, add the method to the viewDidLoad():
    loadSampleItems()
 }`
 
-Add the method to the viewDidLoad().
+#### Display the Data
+
+Methods for displaying data in the table are found in ItemTableViewController.swift. Find the data source method numberOfSections(). The template implementation looks like this:
+`override func numberOfSections(in tableView: UITableView) -> Int {
+  // #warning Incomplete implementation, return the number of sections
+  return 0
+}`
+Change the return value from 0 to 1, and remove the warning comment.
+`override func numberOfSections(in tableView: UITableView) -> Int {
+  return 1
+}`
+This code has the table view show one section instead of zero.
+
+## The tableView method
+
+The next data source method, tableView(), tells the table view how many rows to display in a given section. The number of rows should be the same as the number of Items objects in your items array.
+
+NOTICE that this version of the tableView method has _numberOfRowsInSection_ in the list of parameters.
+`override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+   return items.count
+}`
+
+
+In ItemTableViewController.swift, find and uncomment the tableView(_:*cellForRowAt indexPath*:) data source method.
+
+NOTICE that this version of the tableView method has _cellForRowAt indexPath_ in the list of parameters.
+After you do that, the template implementation looks like this:
+`override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+let cell = tableView.dequeueReusableCell(
+withIdentifier: "reuseIdentifier", for: indexPath) as UITableViewCell
+  // Configure the cell...
+
+  return cell
+}`
+
+The template performs several tasks. It asks the table view for a cell with a placeholder identifier, adds a comment about where code to configure the cell should go, and then returns the cell.
+To make this code work for your app, you'll need to change the placeholder identifier to the one you set earlier for the prototype cell in the storyboard (ItemTableViewCell), and then add code to configure the cell.
+Your tableView(_:*cellForRowAt indexPath*:) method should look like this:
+`override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+let cell = tableView.dequeueReusableCell(
+withIdentifier: "ItemTableViewCell", for: indexPath) as! ItemTableViewCell
+  // Configure the cell...
+ let item = items[indexPath.row]
+  cell.nameLabel.text = item.name
+  return cell
+}`
+
+Notice that the cell type is changed to ItemTableViewCell. Then we take the corresponding item from our items variable and assign the cell's label the name of the item.
+indexPath is the number of the current row, which is used to query the item.
+
+Now, when you run the app, you will see the items you added to the items array appear in the table.
+
+
+## Implement Navigation
+
+The data display as expected; now we need to provide for navigation from the items list to the item scene. The transitions between app scenes are called segues.
+A navigation controller manages transitions backward and forward through a series of view controllers. The set of view controllers managed by a particular navigation controller is called its navigation stack.
+Open Main.storyboard.
+Select the table view controller by clicking on its scene dock.
+
+![Scene Dock](/gd/swift/img/SceneDock.jpeg)
+
+With the table view controller selected, choose Editor > Embed In > Navigation Controller.
+Xcode now adds a new navigation controller to your storyboard, sets its storyboard entry point, and establishes a relationship between the new navigation controller and your existing table view controller.
+
+![Adding A Navigation Controller](/gd/swift/img/AddingANavigationController.jpeg)
+
+On the canvas, the icon that connects the controllers indicates the root view controller relationship.
+You might notice that your table view now has a bar at the top. This is a navigation bar.
+
+Every controller on the navigation stack has its navigation bar, which can contain controls for backward and forward navigation.
+
+#### Configure the Navigation Bar
+
+To add a title, double-click the navigation bar in the items list scene or edit the Title property in Attributes inspector.
+
+![Add A Title To The Nav Bar](/gd/swift/img/AddATitleToTheNavBar.jpeg)
+
+Enter a title and press Return.
+In the Object library, find a Bar Button Item object.
+Drag a Bar Button Item object from the list to the far right of the navigation bar.
+A button called Item appears where you dragged the bar button item.
+
+![Drag A Bar Button Item](/gd/swift/img/DragABarButtonItem.jpeg)
+
+Select the bar button item and open the Attributes inspector, where you'll choose Add from the pop-up menu next to the System Item option.
+The button will change to an Add button (+).
+
+The varying choices for the System Item property can be used to change the appearance of the button.
+
+#### Configure The Add button
+
+To have the Add button (+) bring up the item scene, we need to trigger a segue (or transition) to that scene.
+On the canvas, select the Add button (+) and Control-drag from the button to the item scene.
+
+![Control Drag From The Add Button](/gd/swift/img/ControlDragFromTheAddButton.jpeg)
+
+A shortcut menu with the title Action Segue appears in the location where the drag ended.
+
+![Action Segue Menu](/gd/swift/img/ActionSegueMenu.jpeg)
+
+The Action Segue menu allows you to choose what type of segue to use when transitioning.
+Choose show from the Action Segue menu.
+Run your app. You can click the Add button and navigate to the item scene from the items list scene. Because you're using a navigation controller with a show segue, the backward navigation is handled for you, and a back button automatically appears in the scene.
+
+We have also removed the Save Item button from the scene; we'll add the Save and Cancel button to the navigation.
+
+#### The Save and Cancel Buttons
+
+To add the "New Item" scene to the navigation, simply repeat the steps you used for the items list scene when embedding it in a Navigation Controller. Give it a title and add two Bar Button Items, selecting Cancel and Save as the System Item in Attribute inspector.
+Run the app. When you click the Add button from the items list, you should see this:
+
+![The Save And Cancel Buttons](/gd/swift/img/TheSaveAndCancelButtons.jpeg)
+
+The buttons haven't been linked to any actions yet, so they need to be configured for actions.
+
+## Adding Items
+
+Now we need to implement the Save functionality in our ViewController.
+Open ViewController.swift and add an Item property:
+`var item: Item?`
+
+This is an optional Item, meaning that it may be nil at any point.
+
+The Save button requires an outlet in order to work.
+Open Assistant Editor, and control-drag from the Save button on your canvas to the code display in the editor on the right.
+In the dialog that appears, type saveButton in the Name field and click Connect:
+
+![saveButton Outlet](../../../../../../../_gd/swift/img/saveButtonOutlet.jpeg)
