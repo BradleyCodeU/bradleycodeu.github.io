@@ -58,10 +58,10 @@ a.nav-link:hover{
   color:rgba(255,255,255,1);
 }
 .anchorHeading{
-  display:none;
+  opacity:0.2;
 }
-.anchorHeading:hover{
-  display:block;
+h2:hover .anchorHeading{
+  opacity:1;
 }
 .bg-image-1 {
   background-image: url("images/prog.jpg");
