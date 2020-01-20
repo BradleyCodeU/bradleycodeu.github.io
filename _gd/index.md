@@ -3,14 +3,13 @@
   title: Game Design Curriculum Overview
   permalink: /gd/
 ---
-<!-- {% for unit in site.data.gd_units[page.collection] %}
+{% for unit in site.data.gd_units[page.collection] %}
   {% if unit.title == 'menu1' %}{{ unit.content | markdownify }}{% endif %}
   {% if unit.title == 'menu2' %}{{ unit.content | markdownify }}{% endif %}
   {% if unit.title == 'menu3' %}{{ unit.content | markdownify }}{% endif %}
   {% if unit.title == 'menu4' %}{{ unit.content | markdownify }}{% endif %}
-{% endfor %} -->
-* TOC
-{:toc}
+{% endfor %}
+
 <!-- {{ site.data.gd_units.gd[1].content | markdownify }}
 {{ site.data.gd_units.gd[5].content | markdownify }}
 {{ site.data.gd_units.gd[10].content | markdownify }}
