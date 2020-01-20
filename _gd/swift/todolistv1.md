@@ -164,7 +164,7 @@ To connect the text field to the ViewController.swift code, open your storyboard
 
 #### Open the Assistant Editor
 
-Click the "Add Editor On Right" button and then drag ViewController.swift from the Navigator area to the top of the new Editor window on the right.
+Click the "Add Editor On Right" button and then drag the file you want to open (ViewController.swift) from the Navigator area to the top of the new Editor window on the right.
 
 Another way to get the same split-screen with Storyboard and Code Editor is to click the Editor drop-down menu and then select Assistant. Xcode automatically picks a file for you to edit on the right, but IF IT OPENED THE WRONG FILE you can drag ViewController.swift from the Navigator area to the top of the new Editor window on the right.
 

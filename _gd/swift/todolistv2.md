@@ -92,3 +92,58 @@ The property will be generated for the label:
 `@IBOutlet weak var nameLabel: UILabel!`
 
 Even though you added all the necessary UI elements to your table view cells, they're showing up empty, until you implement the data model behind it.
+
+## Define the Data Model
+
+The data model stores the information to be displayed by the scene. To define it, define a simple class with the properties needed for the items. For our purposes, we need a name property of type String.
+To create a new data model class, choose File > New > File
+When the dialog appears, select Swift File under the Source section, and click Next.
+In the Save As field, type Item as the name of your model.
+Click Create, and Xcode creates a file called Item.swift.
+
+Add the following code to create the class:
+`class Item {
+   var name: String
+
+   init(name: String) {
+     self.name = name
+   }
+}`
+
+This newly defined class can now be used to add items to our table.
+
+## Load Initial Data
+
+At this point, we have a data model for an item, the Item class. We need to write some code to have real data display in the table's cells.
+The first step is to create a custom table view controller subclass to manage the items list scene.
+Choose File > New > File, and then create a new Cocoa Touch Class named Item.
+In the "Subclass of" field, select UITableViewController.
+The class title now changes to ItemTableViewController.
+Leave these defaults as they are, and click Create. Xcode creates ItemTableViewController.swift, a source code file that defines your custom table view controller subclass.
+
+Next, open your storyboard to point the table view controller scene to ItemTableViewController.swift. Select the table view controller by clicking on its scene dock until the entire scene is outlined in blue. Then select the ItemTableViewController class from the Identity inspector.
+
+![Custom Class ItemTableViewController](/gd/swift/img/CustomClassItemTableViewController.jpeg)
+
+Select the ItemTableViewController class from the Identity inspector.
+
+#### Create the items array
+
+Open ItemTableViewController.swift
+Add the following code just below the class line in ItemTableViewController.swift:
+`var items  = [Item]()`
+
+Declare a function to load the sample data into the array:
+`func loadSampleItems() {
+   items += [Item(name:"item1"), Item(name:"item2"), Item(name:"item3")]
+}`
+
+The function adds three sample Items to the array.
+Now, add the method to the viewDidLoad():
+`override func viewDidLoad() {
+   super.viewDidLoad()
+
+   loadSampleItems()
+}`
+
+Add the method to the viewDidLoad().
