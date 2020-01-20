@@ -20,7 +20,7 @@ Next, go to the Utility area to open the Object library. Drag a Table View Contr
 You now have two scenes, one for displaying the list and one for adding a new item.
 If nothing happens when dragging a table view with content to the canvas, you are most likely attempting to drag a table view. Make sure that you select a _table view controller_
 
-## Create the Opening Scene
+#### Create the Opening Scene
 
 When the app is launched the list should be the first thing your users see. We need to set the table view controller as your first scene in Xcode.
 Drag the storyboard entry point (an arrow ---> currently pointing to your original View) over to the table view controller.
@@ -32,7 +32,7 @@ Your storyboard should look like this:
 
 If you test run your app now, you'll see an empty table view, which is a screen with a number of horizontal dividers separating it into rows that contain no content.
 
-## Modifying the Table View
+#### Modifying the Table View
 
 In the outline view, find and select Table View, which is nested under Table View Controller Scene > Table View Controller. With the table view selected, go to the Utility area and open the Size inspector. In the Size inspector, type 90 in the Row Height field. Press Return.
 
@@ -78,4 +78,15 @@ Open the Identity inspector. In the field labeled Class, select ItemTableViewCel
 
 The class of our cell prototype is now set to the newly created ItemTableViewCell class.
 
-##
+#### Connect the Table Cell UI to Code
+
+Before we can display dynamic data in your table view cells, we need to create outlet connections.
+In your storyboard, select the label in the table view cell.
+
+Open the assistant editor. Click here if you need a reminder of how to open the assistant editor.
+
+From the label on your canvas, control-drag to the code display in the editor on the right, to ItemTableViewCell.swift. In the dialog, give your label the Name of nameLabel. Click Connect.
+The property will be generated for the label:
+`@IBOutlet weak var nameLabel: UILabel!`
+
+Even though you added all the necessary UI elements to your table view cells, they're showing up empty, until you implement the data model behind it.

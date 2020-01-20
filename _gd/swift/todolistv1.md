@@ -112,7 +112,7 @@ Make sure the text field is still selected.
 In the Attributes inspector, find the field labeled Return Key and select Done.
 This change will make the default Return key on the keyboard more pronounced to the user by changing it into a Done key.
 
-## Button and Label
+#### Button and Label
 
 Next add a button (Submit) and label (Name) to our scene from the Object library:
 
@@ -156,15 +156,19 @@ Xcode has already created one, ViewController.swift, which was connected to the 
 At runtime, your storyboard will create an instance of ViewController, your custom view controller subclass. The app screen will show the UI defined in this scene in your storyboard and any behavior defined in ViewController.swift.
 The scene is connected to ViewController.swift, but there are other connections to be made, as well. To define interaction in your app, your view controller source code needs to be able to communicate with your storyboard views. This is accomplished by defining additional connections - called outlets and actions - that go between the views in the storyboard and the view controller source code files.
 
-## Creating Outlets
+## Outlets
 
 Outlets offer a way to reference the interface objects that you added to your storyboard from source code files. For example, you'll need to create outlets for the text field and label them in your UI to be able to reference them.
 
-To connect the text field to the ViewController.swift code, open your storyboard, called Main.storyboard. Click the "Add Editor On Right" button and then drag ViewController.swift from the Navigator area to the top of the new Editor window on the right.
+To connect the text field to the ViewController.swift code, open your storyboard, called Main.storyboard.
+
+#### Open the Assistant Editor
+
+Click the "Add Editor On Right" button and then drag ViewController.swift from the Navigator area to the top of the new Editor window on the right.
 
 Another way to get the same split-screen with Storyboard and Code Editor is to click the Editor drop-down menu and then select Assistant. Xcode automatically picks a file for you to edit on the right, but IF IT OPENED THE WRONG FILE you can drag ViewController.swift from the Navigator area to the top of the new Editor window on the right.
 
-Let's create an outlet.
+#### Let's create an outlet
 
 In your storyboard, select the text field. While holding the Control button, drag from the text field on your canvas to the code display in the editor on the right, stopping the drag at the line below the class definition (```class ViewController: UIViewController```).
 
@@ -184,7 +188,7 @@ The weak keyword means that it's possible for that property to have no value (to
 Repeat the process for the label, and name it nameLabel.
 You now have a way to refer to the interface elements from code. Now, you'll need to define a user-initiated event that triggers interaction between those elements.
 
-##Define an Action to Perform
+## Actions
 
 An action is a piece of code that is linked to an event that can take place at some point in your app. When that event takes place, the code is executed. An action method can be declared to accomplish anything from manipulating a piece of data to updating the UI.
 An action is created in the same way as an outlet. That is, control-drag from a particular object in your storyboard to a view controller file.
@@ -210,7 +214,7 @@ The sender parameter points to the object responsible for triggering the action 
 The IBAction attribute indicates that the method is an action to which you can connect from your storyboard in Interface Builder.
 
 
-##Defining an Action
+#### Defining an Action
 
 In the method implementation, add this line of code:
 `nameLabel.text = nameTextField.text`
@@ -219,7 +223,7 @@ The above code sets the label's text property to the text field's text property.
 
 Now, run your app on the Simulator, type a name in the text field and press the Submit button. The typed name should appear as the Label.
 
-##View Controller Lifecycle
+## View Controller Lifecycle
 
 So far, our app has a single scene, whose UI is managed by a single view controller. As you build apps that are more and more complex, you'll be dealing with greater numbers of scenes. You will need to have the ability to manage loading and unloading views as they're moved on and off the screen.
 An object of the UIViewController class, and of its subclasses, comes with a set of methods that serve to manage its view hierarchy. iOS automatically calls the methods at appropriate times when a view controller transitions between states.
