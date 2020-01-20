@@ -89,7 +89,10 @@ Open the assistant editor. [Click here]() if you need a quick reminder of how to
 
 From the label on your canvas, control-drag to the code display in the editor on the right, to ItemTableViewCell.swift. In the dialog, give your label the Name of nameLabel. Click Connect.
 The property will be generated for the label:
-```@IBOutlet weak var nameLabel: UILabel!```
+
+```
+@IBOutlet weak var nameLabel: UILabel!
+```
 
 Even though you added all the necessary UI elements to your table view cells, they're showing up empty, until you implement the data model behind it.
 
@@ -103,13 +106,15 @@ Click Create, and Xcode creates a file called Item.swift.
 
 Add the following code to create the class:
 
-```class Item {
+```
+class Item {
    var name: String
 
    init(name: String) {
      self.name = name
    }
-}```
+}
+```
 
 This newly defined class can now be used to add items to our table.
 
@@ -133,37 +138,47 @@ Select the ItemTableViewController class from the Identity inspector.
 Open ItemTableViewController.swift
 Add the following code just below the class line in ItemTableViewController.swift:
 
-```var items  = [Item]()```
+```
+var items  = [Item]()
+```
 
 Declare a function to load the sample data into the array:
 
-```func loadSampleItems() {
+```
+func loadSampleItems() {
    items += [Item(name:"item1"), Item(name:"item2"), Item(name:"item3")]
-}```
+}
+```
 
 The function adds three sample Items to the array.
 Now, add the method to the viewDidLoad():
 
-```override func viewDidLoad() {
+```
+override func viewDidLoad() {
    super.viewDidLoad()
 
    loadSampleItems()
-}```
+}
+```
 
 #### Display the Data
 
 Methods for displaying data in the table are found in ItemTableViewController.swift. Find the data source method numberOfSections(). The template implementation looks like this:
 
-```override func numberOfSections(in tableView: UITableView) -> Int {
+```
+override func numberOfSections(in tableView: UITableView) -> Int {
   // #warning Incomplete implementation, return the number of sections
   return 0
-}```
+}
+```
 
 Change the return value from 0 to 1, and remove the warning comment.
 
-```override func numberOfSections(in tableView: UITableView) -> Int {
+```
+override func numberOfSections(in tableView: UITableView) -> Int {
   return 1
-}```
+}
+```
 
 This code has the table view show one section instead of zero.
 
@@ -173,9 +188,11 @@ The next data source method, tableView(), tells the table view how many rows to 
 
 NOTICE that this version of the tableView method has _numberOfRowsInSection_ in the list of parameters.
 
-```override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+```
+override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
    return items.count
-}```
+}
+```
 
 
 In ItemTableViewController.swift, find and uncomment the tableView(_:*cellForRowAt indexPath*:) data source method.
@@ -183,26 +200,30 @@ In ItemTableViewController.swift, find and uncomment the tableView(_:*cellForRow
 NOTICE that this version of the tableView method has _cellForRowAt indexPath_ in the list of parameters.
 After you do that, the template implementation looks like this:
 
-```override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+```
+override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 let cell = tableView.dequeueReusableCell(
 withIdentifier: "reuseIdentifier", for: indexPath) as UITableViewCell
   // Configure the cell...
 
   return cell
-}```
+}
+```
 
 The template performs several tasks. It asks the table view for a cell with a placeholder identifier, adds a comment about where code to configure the cell should go, and then returns the cell.
 To make this code work for your app, you'll need to change the placeholder identifier to the one you set earlier for the prototype cell in the storyboard (ItemTableViewCell), and then add code to configure the cell.
 Your tableView(_:*cellForRowAt indexPath*:) method should look like this:
 
-```override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+```
+override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 let cell = tableView.dequeueReusableCell(
 withIdentifier: "ItemTableViewCell", for: indexPath) as! ItemTableViewCell
   // Configure the cell...
  let item = items[indexPath.row]
   cell.nameLabel.text = item.name
   return cell
-}```
+}
+```
 
 Notice that the cell type is changed to ItemTableViewCell. Then we take the corresponding item from our items variable and assign the cell's label the name of the item.
 indexPath is the number of the current row, which is used to query the item.
@@ -278,7 +299,9 @@ The buttons haven't been linked to any actions yet, so they need to be configure
 Now we need to implement the Save functionality in our ViewController.
 Open ViewController.swift and add an Item property:
 
-```var item: Item?```
+```
+var item: Item?
+```
 
 This is an optional Item, meaning that it may be nil at any point.
 
@@ -286,4 +309,4 @@ The Save button requires an outlet in order to work.
 Open Assistant Editor, and control-drag from the Save button on your canvas to the code display in the editor on the right.
 In the dialog that appears, type saveButton in the Name field and click Connect:
 
-![saveButton Outlet](../../../../../../../_gd/swift/img/saveButtonOutlet.jpeg)
+![saveButton Outlet](/gd/swift/img/saveButtonOutlet.jpeg)
