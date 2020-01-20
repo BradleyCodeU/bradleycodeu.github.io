@@ -85,7 +85,9 @@ The class of our cell prototype is now set to the newly created ItemTableViewCel
 Before we can display dynamic data in your table view cells, we need to create outlet connections.
 In your storyboard, select the label in the table view cell.
 
-Open the assistant editor. [Click here]() if you need a quick reminder of how to open the split-screen assistant editor.
+Open the assistant editor. [Click here](https://bradleycodeu.github.io/gd/swift/todolistv1/#open-the-assistant-editor) if you need a quick reminder of how to open the split-screen assistant editor.
+
+![add Editor To Right](/gd/swift/img/addEditorToRight.gif)
 
 From the label on your canvas, control-drag to the code display in the editor on the right, to ItemTableViewCell.swift. In the dialog, give your label the Name of nameLabel. Click Connect.
 The property will be generated for the label:
@@ -212,7 +214,7 @@ withIdentifier: "reuseIdentifier", for: indexPath) as UITableViewCell
 
 The template performs several tasks. It asks the table view for a cell with a placeholder identifier, adds a comment about where code to configure the cell should go, and then returns the cell.
 To make this code work for your app, you'll need to change the placeholder identifier to the one you set earlier for the prototype cell in the storyboard (ItemTableViewCell), and then add code to configure the cell.
-Your tableView(_:*cellForRowAt indexPath*:) method should look like this:
+Your tableView( *cellForRowAt indexPath* ) method should look like this:
 
 ```
 override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -310,3 +312,52 @@ Open Assistant Editor, and control-drag from the Save button on your canvas to t
 In the dialog that appears, type saveButton in the Name field and click Connect:
 
 ![saveButton Outlet](/gd/swift/img/saveButtonOutlet.jpeg)
+
+Now, when a user presses the Save button, we need to display the items list with the new item added. An unwind segue moves backward through one or more segues to return the user to an existing instance of a view controller. Reverse navigation is accomplished by using an unwind segue.
+Whenever a segue is triggered, you're provided with a place to add your own code, which is then gets executed. This method is called prepare(for segue:).
+Open ViewController.swift and add the following method:
+```
+override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+  if sender as AnyObject? === saveButton {
+    let name = nameTextField.text ?? ""
+    item = Item(name: name)
+  }
+}
+```
+This method determines whether the Save button has been tapped and then creates the appropriate item object.
+This code uses the identity operator (===) to check that the object referenced by the saveButton outlet is the same object instance as sender.
+Notice the nil coalescing operator (??) in the name line. It is used to return the value of an optional if the optional has a value, or return a default value otherwise.
+
+#### Store New Items
+
+The next step in creating the unwind segue is to add an action method to the destination view controller.
+In this method, you'll write the logic to add the new item (that's passed from ViewController, the source view controller) to the items list data and add a new row to the table view in the items list scene.
+Open ItemTableViewController.swift and add the following method:
+```
+@IBAction func unwindToList(sender: UIStoryboardSegue) {
+   let srcViewCon = sender.source as? ViewController
+   let item = srcViewCon?.item
+   if  (srcViewCon != nil && item?.name != "") {
+     // Add a new item
+     let newIndexPath = IndexPath(row: items.count, section: 0)
+     items.append(item!)
+     tableView.insertRows(at: [newIndexPath], with: .bottom)
+   }
+}
+```
+
+This code uses the optional type cast operator (as?) to try to downcast the segue's source view controller to type ViewController.
+
+This adds the new item to the existing list of items in the data model. It also animates the addition of a new row to the table view for the cell containing information about the new item.
+
+To trigger this action method, you need to create the actual unwind segue. To do this, first open your storyboard. Control-drag from the Save button to the Exit item at the top of the scene.
+
+![control Drag From Save Button To Exit](/gd/swift/img/controlDragFromSaveButtonToExit.jpeg)
+
+Choose unwindToList: from the shortcut menu.
+Now, when users tap the Save button, they navigate back to the items list scene, during which process the unwindToList action method is called.
+Run the app. Now, when you click the Add button (+), create a new item, and click Save, you should see the new item in your list.
+
+#### Cancel
+
+We will also unwind when the Cancel button is pressed.
