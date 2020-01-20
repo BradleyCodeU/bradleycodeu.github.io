@@ -60,7 +60,7 @@ a.nav-link:hover{
 .anchorHeading{
   opacity:0.2;
 }
-h2:hover .anchorHeading{
+h2:hover .anchorHeading,h4:hover .anchorHeading{
   opacity:1;
 }
 .bg-image-1 {
@@ -172,8 +172,10 @@ h1.project-title{
   border-radius: 10px;
   margin-bottom: 25px;
 }
+h1[id],h2[id],h4[id]{
+  border-top: dotted #444444 5px;
+}
 h1[id]{
-  border-top: solid #888888 5px;
   margin-top:150px;
   padding-top:100px;
 }
@@ -219,6 +221,9 @@ h3, h4 {
 
 img{
   max-width: 500px !important;
+}
+#markdown-toc{
+  font-size: 80%;
 }
 nav.navbar{
   border-bottom-left-radius: 10px;
