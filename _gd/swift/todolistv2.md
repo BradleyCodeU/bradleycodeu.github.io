@@ -102,6 +102,7 @@ In the Save As field, type Item as the name of your model.
 Click Create, and Xcode creates a file called Item.swift.
 
 Add the following code to create the class:
+
 `class Item {
    var name: String
 
@@ -131,15 +132,18 @@ Select the ItemTableViewController class from the Identity inspector.
 
 Open ItemTableViewController.swift
 Add the following code just below the class line in ItemTableViewController.swift:
+
 `var items  = [Item]()`
 
 Declare a function to load the sample data into the array:
+
 `func loadSampleItems() {
    items += [Item(name:"item1"), Item(name:"item2"), Item(name:"item3")]
 }`
 
 The function adds three sample Items to the array.
 Now, add the method to the viewDidLoad():
+
 `override func viewDidLoad() {
    super.viewDidLoad()
 
@@ -149,14 +153,18 @@ Now, add the method to the viewDidLoad():
 #### Display the Data
 
 Methods for displaying data in the table are found in ItemTableViewController.swift. Find the data source method numberOfSections(). The template implementation looks like this:
+
 `override func numberOfSections(in tableView: UITableView) -> Int {
   // #warning Incomplete implementation, return the number of sections
   return 0
 }`
+
 Change the return value from 0 to 1, and remove the warning comment.
+
 `override func numberOfSections(in tableView: UITableView) -> Int {
   return 1
 }`
+
 This code has the table view show one section instead of zero.
 
 ## The tableView method
@@ -164,6 +172,7 @@ This code has the table view show one section instead of zero.
 The next data source method, tableView(), tells the table view how many rows to display in a given section. The number of rows should be the same as the number of Items objects in your items array.
 
 NOTICE that this version of the tableView method has _numberOfRowsInSection_ in the list of parameters.
+
 `override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
    return items.count
 }`
@@ -173,6 +182,7 @@ In ItemTableViewController.swift, find and uncomment the tableView(_:*cellForRow
 
 NOTICE that this version of the tableView method has _cellForRowAt indexPath_ in the list of parameters.
 After you do that, the template implementation looks like this:
+
 `override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 let cell = tableView.dequeueReusableCell(
 withIdentifier: "reuseIdentifier", for: indexPath) as UITableViewCell
@@ -184,6 +194,7 @@ withIdentifier: "reuseIdentifier", for: indexPath) as UITableViewCell
 The template performs several tasks. It asks the table view for a cell with a placeholder identifier, adds a comment about where code to configure the cell should go, and then returns the cell.
 To make this code work for your app, you'll need to change the placeholder identifier to the one you set earlier for the prototype cell in the storyboard (ItemTableViewCell), and then add code to configure the cell.
 Your tableView(_:*cellForRowAt indexPath*:) method should look like this:
+
 `override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 let cell = tableView.dequeueReusableCell(
 withIdentifier: "ItemTableViewCell", for: indexPath) as! ItemTableViewCell
@@ -266,6 +277,7 @@ The buttons haven't been linked to any actions yet, so they need to be configure
 
 Now we need to implement the Save functionality in our ViewController.
 Open ViewController.swift and add an Item property:
+
 `var item: Item?`
 
 This is an optional Item, meaning that it may be nil at any point.
