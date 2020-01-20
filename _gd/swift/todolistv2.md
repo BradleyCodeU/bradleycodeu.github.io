@@ -8,9 +8,11 @@ _Note: the following directions were created for Xcode version 11.3_
 * TOC
 {:toc}
 
-## Creating a ToDo List App
 
-Now that you've become familiar with the basic concepts involved in creating iOS apps, let's create a real-world ToDo List App. In the app, there will be a list of to-do items, which can be removed and edited. New items can also be added to the list.
+
+Now that you've become familiar with the basic concepts involved in creating iOS apps, let's create a real-world ToDo List App. In the app, there will be a list/array of to-do items, which can be removed and edited. New items can also be added to the list.
+
+## Creating a ToDo List App
 
 Delete your old Name label and Submit button.
 
@@ -83,7 +85,7 @@ The class of our cell prototype is now set to the newly created ItemTableViewCel
 Before we can display dynamic data in your table view cells, we need to create outlet connections.
 In your storyboard, select the label in the table view cell.
 
-Open the assistant editor. Click here if you need a reminder of how to open the assistant editor.
+Open the assistant editor. [Click here]() if you need a quick reminder of how to open the split-screen assistant editor.
 
 From the label on your canvas, control-drag to the code display in the editor on the right, to ItemTableViewCell.swift. In the dialog, give your label the Name of nameLabel. Click Connect.
 The property will be generated for the label:
