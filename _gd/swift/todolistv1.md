@@ -34,9 +34,12 @@ The AppDelegate.swift source file has two primary functions.
 1. Creating a point of entry and a run loop that delivers input events to your app. This work is carried out by the UIApplicationMain attribute (@UIApplicationMain), which appears toward the top of the file.
 2. Defining the AppDelegate class, which serves as the blueprint for the app delegate object. The app delegate creates the window where your app's content is drawn, and provides a place to respond to state transitions within the app. The AppDelegate class is where you write your custom app-level code. It contains a single property, window.
 
-`var window: UIWindow?`
+```
+var window: UIWindow?
+```
 
 The AppDelegate class also contains templates of important methods. These predefined methods allow the application object to talk to the app delegate.
+
 ```
 func application(_ application: UIApplication,
         didFinishLaunchingWithOptions launchOptions:
@@ -63,6 +66,7 @@ A view controller manages a view (you could think of it as a "page" perhaps), wh
 
 Select ViewController.swift in the project navigator to view it.
 At this point, your ViewController.swift code should look something like this:
+
 ```
 import UIKit
 
@@ -164,7 +168,11 @@ To connect the text field to the ViewController.swift code, open your storyboard
 
 #### Open the Assistant Editor
 
-Click the "Add Editor On Right" button and then drag the file you want to open (ViewController.swift) from the Navigator area to the top of the new Editor window on the right.
+Click the "Add Editor On Right" button. You should now have a split-screen. Next, click on the file that you want to open (ViewController.swift) from the Navigator area.
+
+![add Editor To Right](/gd/swift/img/addEditorToRight.gif)
+
+If necessary, you can drag a file from the Navigator area to the top of either Editor window.
 
 Another way to get the same split-screen with Storyboard and Code Editor is to click the Editor drop-down menu and then select Assistant. Xcode automatically picks a file for you to edit on the right, but IF IT OPENED THE WRONG FILE you can drag ViewController.swift from the Navigator area to the top of the new Editor window on the right.
 
@@ -181,7 +189,10 @@ A dialog appears. For Name, type the desired name for your text field. In our ex
 Click Connect.
 
 Xcode adds code to ViewController.swift that will store a pointer to the text field and configures the storyboard to set up that connection:
-`@IBOutlet weak var nameTextField: UITextField!`
+
+```
+@IBOutlet weak var nameTextField: UITextField!
+```
 
 The weak keyword means that it's possible for that property to have no value (to be nil) at some point in its life. The rest of the declaration declares a variable of type UITextField named nameTextField.
 
@@ -206,9 +217,12 @@ Click Connect.
 The Type field value defaults to AnyObject, a type used in Swift to describe an object that can belong to any class.
 
 Xcode adds the necessary code to ViewController.swift to set up the action method.
-`@IBAction func setLabelText(_ sender: UIButton) {
 
-}`
+```
+@IBAction func setLabelText(_ sender: UIButton) {
+
+}
+```
 
 The sender parameter points to the object responsible for triggering the action - in this case, a button. The rest of the declaration declares a method named setLabelText.
 The IBAction attribute indicates that the method is an action to which you can connect from your storyboard in Interface Builder.
@@ -217,7 +231,10 @@ The IBAction attribute indicates that the method is an action to which you can c
 #### Defining an Action
 
 In the method implementation, add this line of code:
-`nameLabel.text = nameTextField.text`
+
+```
+nameLabel.text = nameTextField.text
+```
 
 The above code sets the label's text property to the text field's text property.We refer to the label and text field by the names we defined while creating the corresponding outlets.
 
