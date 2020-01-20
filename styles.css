@@ -184,7 +184,7 @@ h2 {
   font-family: 'Nosifer',sans-serif;
   transition: 2s;
 } */
-h2[id]{
+h2[id],h3[id]{
   margin-top:75px;
   padding-top:75px;
 }
