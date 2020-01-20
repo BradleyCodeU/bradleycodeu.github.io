@@ -57,6 +57,12 @@ a.nav-link:link{
 a.nav-link:hover{
   color:rgba(255,255,255,1);
 }
+.anchorHeading{
+  display:none;
+}
+.anchorHeading:hover{
+  display:block;
+}
 .bg-image-1 {
   background-image: url("images/prog.jpg");
 }
@@ -246,7 +252,7 @@ pre{
 section {
   padding: 25px 0px 35px 0px;
 }
-small.fine-print{
+.fine-print{
   font-size:60% !important;
 }
 .smaller{
