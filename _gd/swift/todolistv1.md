@@ -87,7 +87,7 @@ Xcode opens the storyboard in Interface Builder, which is the visual interface e
 
 At this point, your app's storyboard contains one scene that represents an app screen showing content. The left-pointing arrow on the canvas is the storyboard entry point, which means that this scene loads first upon starting the app.
 
-### Build the Basic UI
+#### Build the Basic UI
 
 Xcode provides a library of objects that can be added to a storyboard file.
 The elements in the UI are called views, and they display content to the user.
@@ -101,7 +101,7 @@ Click the text field to reveal the resize handles, which appear as small white s
 
 ![text Field Resize Handles](/gd\swift\img\textFieldResizeHandles.jpg)
 
-### Placeholder Text
+#### Placeholder Text
 
 Use the text field's placeholder text to prompt the user to enter the value you need.
 Select the text field, and open the Attributes inspector (the slider icon that kinda looks like a shield?) in the utility area, in order to edit the properties of an object in your storyboard.
