@@ -360,4 +360,22 @@ Run the app. Now, when you click the Add button (+), create a new item, and clic
 
 #### Cancel
 
-We will also unwind when the Cancel button is pressed.
+We will also unwind when the Cancel button is pressed. Unwind segues roll back action segues, going back to a view controller that was previously on the screen.
+
+Why use an unwind? If you control-drag from the Cancel button to the previous view controller, you will create an action segue. Instead of going back, you will bring a new instance of ItemTableViewController on screen.
+
+We will create the unwind action in code first and then make the connection in the storyboard.
+
+Go to ViewController.swift and add this outlet:
+```
+@IBOutlet weak var cancel: UIBarButtonItem! // CANCEL BUTTON
+```
+
+Go to ItemTableViewController.swift and add this action/function:
+```
+@IBAction func cancel(_ unwindSegue:UIStoryboardSegue){} // CANCEL BUTTON
+```
+
+We can now connect the Cancel button to the unwind action. We do that by control-dragging from the button to the Exit placeholder at the top of the storyboard scene.
+
+![connect Cancel To Exit](/gd/swift/img/connectCancelToExit.png)
