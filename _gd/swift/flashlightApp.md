@@ -11,6 +11,10 @@ In the iOS section at the top of the dialog, click Single View App under the App
 
 In the dialog that appears, type a Product Name such as "Flashlight App" and then you ```MUST``` make sure that the User Interface is set to "Storyboard" (not "SwiftUI"). For the organization identifier, use com.example
 
+## The First Flashlight App
+
+When the iPhone was first released there was no flash and no way to easily use it as a flashlight. One of the most popular apps when the App Store launched in 2008 was Flashlight, an app that simply set the screen background to white.
+
 ## Add A Button
 
 Drag a button into the Scene from the Object Library.
