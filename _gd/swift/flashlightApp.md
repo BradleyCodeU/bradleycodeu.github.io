@@ -5,6 +5,9 @@ title: Flashlight
 ---
 _Note: the following directions were created for Xcode version 11.3_
 
+* TOC
+{:toc}
+
 In the welcome window, click "Create a new Xcode project" (or choose File > New > Project).
 Xcode displays template choices in a new window.
 In the iOS section at the top of the dialog, click Single View App under the Application section and then click Next.
@@ -84,10 +87,10 @@ Test your app.
 
 #### Custom Colors
 
-Change ```.white``` to ```.red``` and notice that there are several autocomplete suggestions:
+Change ```.white``` to ```.red``` and notice that there are _several_ autocomplete suggestions, including:
   - UIColor red <-- a preset red color
   - UIColor systemRed <-- a different red preset
-  - UIColor init(red: CGFloat, green: CGFloat, blue: CGFloat, alpha: CGFloat) <-- constructor that allows use to customize the RGB values (and the alpha/opacity)
+  - UIColor init(red: CGFloat, green: CGFloat, blue: CGFloat, alpha: CGFloat) <-- a constructor that allows use to customize the RGB values (and the alpha/opacity)
 
 Open the Developer Documentation and search for UIColor. Scroll down to "Creating a Color from Component Values" and notice that there are UIColor constructors for HSB and RGB.
 
@@ -100,3 +103,7 @@ var darkColor = UIColor(red:0.9, green:0.5, blue:0.9, alpha:1.0)
 Those RGB values will create a bright pink color, edit them so that you get a custom dark color. Replace ```.darkGray``` with darkColor
 
 Use the UIColor constructor that take HSB values to construct a lightColor. If lightOn is true, then set view.backgroundColor to be lightColor
+
+## Outlets
+
+Outlets offer a way to reference interface objects (on your storyboard) in your source code. We will creating an outlet for the button. It currently says "Button" but it would be really nice if it said "ON" and "OFF"
