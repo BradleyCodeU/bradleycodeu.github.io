@@ -450,7 +450,9 @@ Resources:
 
   - [Global variables](/apcsp/console/globalvariables.md)
 
-  - [Foobar](https://foobar-the-bazbarian.glitch.me/)
+  - [logicalOperatorGenerator](/apcsp/textgames/logicalOperatorGenerator/)
+
+  - [nestedConditionalsGenerator](/apcsp/textgames/nestedConditionalsGenerator/)
 
 
 
@@ -473,9 +475,11 @@ Projects:
 *1 wk*, Vocab: bytes, kilobytes, megabytes, gigabytes
 
 
+Resources:
 
-Code.org Unit 2: Digital Information, [https://studio.code.org/s/csp2-2018](https://studio.code.org/s/csp2-2018)
+  - Code.org Unit 2: Digital Information, [https://studio.code.org/s/csp2-2018](https://studio.code.org/s/csp2-2018)
 
+  - [Foobar the Bazbarian](https://foobar-the-bazbarian.glitch.me/)
 
 
 Projects:
