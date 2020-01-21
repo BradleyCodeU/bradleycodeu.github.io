@@ -88,3 +88,15 @@ Change ```.white``` to ```.red``` and notice that there are several autocomplete
   - UIColor red <-- a preset red color
   - UIColor systemRed <-- a different red preset
   - UIColor init(red: CGFloat, green: CGFloat, blue: CGFloat, alpha: CGFloat) <-- constructor that allows use to customize the RGB values (and the alpha/opacity)
+
+Open the Developer Documentation and search for UIColor. Scroll down to "Creating a Color from Component Values" and notice that there are UIColor constructors for HSB and RGB.
+
+Let's use both.
+
+At the top of the view controller class (just below the lightOn variable declaration and initialization) create a variable called darkColor and another called lightColor. Use the UIColor constructor that takes RGB values:
+```
+var darkColor = UIColor(red:0.9, green:0.5, blue:0.9, alpha:1.0)
+```
+Those RGB values will create a bright pink color, edit them so that you get a custom dark color. Replace ```.darkGray``` with darkColor
+
+Use the UIColor constructor that take HSB values to construct a lightColor. If lightOn is true, then set view.backgroundColor to be lightColor
