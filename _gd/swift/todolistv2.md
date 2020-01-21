@@ -258,7 +258,7 @@ To add a title, double-click the navigation bar in the items list scene or edit 
 
 ![Add A Title To The Nav Bar](/gd/swift/img/AddATitleToTheNavBar.jpeg)
 
-Enter a title and press Return.
+Enter a title such as "List" and press Return.
 In the Object library, find a Bar Button Item object.
 Drag a Bar Button Item object from the list to the far right of the navigation bar.
 A button called Item appears where you dragged the bar button item.
@@ -289,12 +289,20 @@ We have also removed the Save Item button from the scene; we'll add the Save and
 
 #### The Save and Cancel Buttons
 
-To add the "New Item" scene to the navigation, simply repeat the steps you used for the items list scene when embedding it in a Navigation Controller. Give it a title and add two Bar Button Items, selecting Cancel and Save as the System Item in Attribute inspector.
+To add the "New Item" scene to the navigation, simply repeat the steps you used for the items list scene when embedding it in a Navigation Controller. Add the text "Editor" at the center of the nav bar and add two Bar Button Items. After adding them, select Cancel and Save as the System Item in Attribute inspector.
 Run the app. When you click the Add button from the items list, you should see this:
 
-![The Save And Cancel Buttons](/gd/swift/img/TheSaveAndCancelButtons.jpeg)
+![The Save And Cancel Buttons](/gd/swift/img/EditorWithCancelAndSaveButtons.png)
 
 The buttons haven't been linked to any actions yet, so they need to be configured for actions.
+
+#### Editor Scene and List Scene
+
+Before we go any further, let's review our two scenes:
+  - A List Scene (aka ItemTableView) which will display a list of Item objects
+  - An Editor Scene which will allow the user to add items and eventually edit items.
+
+The List Scene is controlled by ItemTableViewController.swift. The Editor Scene is controlled by ViewController.swift. Next, we want to add a behavior to the Editor Scene, so we will be adding code to ViewController.swift
 
 ## Adding Items
 
@@ -313,8 +321,13 @@ In the dialog that appears, type saveButton in the Name field and click Connect:
 
 ![saveButton Outlet](/gd/swift/img/saveButtonOutlet.jpeg)
 
-Now, when a user presses the Save button, we need to display the items list with the new item added. An unwind segue moves backward through one or more segues to return the user to an existing instance of a view controller. Reverse navigation is accomplished by using an unwind segue.
+Now, when a user presses the Save button, we need to display the items list with the new item added.
+
+#### Unwind Segue
+
+An unwind segue moves backward through one or more segues to return the user to an existing instance of a view controller. Reverse navigation is accomplished by using an unwind segue.
 Whenever a segue is triggered, you're provided with a place to add your own code, which is then gets executed. This method is called prepare(for segue:).
+
 Open ViewController.swift and add the following method:
 ```
 override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -360,9 +373,9 @@ Run the app. Now, when you click the Add button (+), create a new item, and clic
 
 #### Cancel
 
-We will also unwind when the Cancel button is pressed. Unwind segues roll back action segues, going back to a view controller that was previously on the screen.
+We will also unwind when the Cancel button is pressed. Unwind segues roll back action segues, going back to a view that was previously on the screen.
 
-Why use an unwind? If you control-drag from the Cancel button to the previous view controller, you will create an action segue. Instead of going back, you will bring a new instance of ItemTableViewController on screen.
+Why use an unwind? Well... if you control-drag from the Cancel button to the previous view controller, you _could_ just create a "show" segue. Unfortunately, instead of going back to the previous view you would actually be bringing a new instance of ItemTableViewController on screen. Let's use unwind instead.
 
 We will create the unwind action in code first and then make the connection in the storyboard.
 
@@ -376,6 +389,130 @@ Go to ItemTableViewController.swift and add this action/function:
 @IBAction func cancel(_ unwindSegue:UIStoryboardSegue){} // CANCEL BUTTON
 ```
 
-We can now connect the Cancel button to the unwind action. We do that by control-dragging from the button to the Exit placeholder at the top of the storyboard scene.
+We can now connect the Cancel button to the action segue "cancel". We do that by control-dragging from the button to the Exit placeholder at the top of the storyboard scene.
 
 ![connect Cancel To Exit](/gd/swift/img/connectCancelToExit.png)
+
+The Action Segue menu should show two options:
+  - cancel
+  - unwindToListWithSender
+
+Select the "cancel" action segue.
+
+Run your app. When you click the Add button (+) and click Cancel instead of Save, you should navigate back to the list without adding a new item.
+
+## Implementing Edit
+
+Next, give users the ability to edit an existing item. When the user taps on an item, the item scene will pop up with information that the user can edit and save.
+Open your storyboard and select the table view cell.
+Control-drag from the table view cell to the item scene.
+Choose show from the Selection Segue menu.
+
+You now have two segues that lead from the Table View to the Item View. You need a way to identify whether the user is adding a new item or editing an existing one.
+
+Select one of the segues, then the other. When the Cell is selected, type EditItem as the identifier in the Attributes inspector. When the (+) button is selected, type AddItem in the Attributes inspector.
+
+![Edit Item Identifier](/gd/swift/img/EditItemIdentifier.png)
+
+![Add Item Identifier](/gd/swift/img/AddItemIdentifier.png)
+
+
+#### Loading An Item Editing
+
+You can differentiate the segues based on the identifiers you assigned to them earlier: AddItem and EditItem.
+Open ItemTableViewController.swift.
+Find and uncomment the prepare(for segue: ) method:
+```
+override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+   // Get the new view controller using segue.destination.
+   // Pass the selected object to the new view controller.
+}
+```
+Edit the code as follows:
+```
+override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+  if segue.identifier == "EditItem" {
+    let editVC = segue.destination as! ViewController
+
+    // Get the cell that generated this segue.
+    if let selectedCell = sender as? ItemTableViewCell {
+      let indexPath = tableView.indexPath(for: selectedCell)!
+      let selectedItem = items[indexPath.row]
+      editVC.item = selectedItem
+     }
+   }
+  else if segue.identifier == "AddItem" {
+
+   }
+}
+```
+The code passes the value of the clicked cell to the ViewController.
+Now, we need to update the ViewController for the item.
+Open ViewController.swift and edit the viewDidLoad() method.
+```
+override func viewDidLoad() {
+  super.viewDidLoad()
+
+  if let item = item {
+     nameTextField.text = item.name
+  }
+
+}
+```
+This code sets the name in ViewController to display data from the item property if it's non-nil. This only happens when editing an existing item.
+Run your app. You should be able to click a table view cell and navigate to the item scene, which is pre-populated with data about the item. However, if you click Save instead of overwriting the existing item, the app adds a new item.
+
+#### Replacing An Array Item
+
+We need to update the implementation of unwindToList() to add OR replace items:
+Modify the method:
+```
+@IBAction func unwindToList(sender: UIStoryboardSegue) {
+ let srcViewCon = sender.source as? ViewController
+ let item = srcViewCon?.item
+ if (srcViewCon != nil && item?.name != "") {
+   if let selectedIndexPath = tableView.indexPathForSelectedRow {
+     // Update an existing item.
+     items[selectedIndexPath.row] = item!
+     tableView.reloadRows(at: [selectedIndexPath], with: .none)
+   }
+   else {
+     // Add a new item.
+     let newIndexPath = NSIndexPath(row: items.count, section: 0)
+     items.append(item!)
+     tableView.insertRows(at: [newIndexPath as IndexPath], with: .bottom)
+   }
+ }
+}
+```
+This code determines whether a row in the table view is selected. If it is, that means a user tapped one of the table view cells to edit an item. In other words, this if statement gets executed when an existing item is being edited.
+Run your app and ensure that the Save functionality is working properly, both for new and existing items.
+
+## Deleting Items
+
+To add an Edit button to the table view, find the viewDidLoad() method in ItemTableViewController.swift, and add the following code:
+```
+navigationItem.leftBarButtonItem = editButtonItem
+```
+Run the app, and notice that there's an Edit button on the left of the table view's navigation bar. Click the Edit button, and the table view goes into editing mode.
+
+To actually delete an item, find and uncomment the tableView(\_:commit editingStyle: forRowAt IndexPath:) method. The template implementation looks like this:
+```
+// Override to support editing the table view.
+override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+  if editingStyle == .delete {
+    tableView.deleteRows(at: [indexPath], with: .fade)
+  } else if editingStyle == .insert {
+  }
+}
+```
+Inside the if editingStyle = .delete condition add one line between if editingStyle == .delete and tableView.deleteRows:
+```
+if editingStyle == .delete {
+  items.remove(at: indexPath.row) // Remove an Item object from the items array
+  tableView.deleteRows(at: [indexPath], with: .fade)
+```
+This removes the selected item from our items list.
+Run the app to see the delete function in action!
+
+Notice that you can automatically swipe left to delete an item.
