@@ -24,14 +24,16 @@ def main():
     # save the userInput
     # convert the userInput to lowercase
     # if the userInput is less than the secret word
-        # output The secret word is after then concatenate the userInput
+      # output The secret word is after then concatenate the userInput
     # if the userInput is greater than the secret word
-        # output The secret word is before then concatenate the userInput
+      # output The secret word is before then concatenate the userInput
     # if the userInput is the secret word
-        # output You got it!!!!!
-        # ask Do you want to play again? y or n?
-        # if userInput is y
-            # call the main function
+      # output You got it!!!!!
+      # ask Do you want to play again? y or n?
+      # if userInput is y
+        # call the main function
+        # break out the forever loop
+      # otherwise
         # break out the forever loop
 
 ```
