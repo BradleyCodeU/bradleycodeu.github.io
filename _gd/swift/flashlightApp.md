@@ -31,6 +31,60 @@ Another way to get the same split-screen with Storyboard and Code Editor is to c
 
 #### Developer Documentation
 
+Option-click on viewDidLoad. Notice that a summary box appears.
+
 Click the Window drop-down menu and then Developer Documentation. Search for viewDidLoad
 
-#### Create an outlet
+Let's set the starting background to dark gray. Inside of the viewDidLoad function, type:
+```
+view.backgroundColor = .darkGray
+```
+
+## Actions
+
+An action is a piece of code that is linked to an event that can take place at some point in your app. When that event takes place, the code is executed. An action method can be declared to accomplish anything from manipulating a piece of data to updating the UI.
+An action is created by control-drag from a particular object in your storyboard to a view controller file. This is the same way an outlet is created. We will learn about outlets later.
+
+Let's create an action for our button.
+
+#### Create an action
+
+While holding the Control button, drag from the button on your canvas to the code display in the editor, stopping the drag at the line below the class definition (```class ViewController: UIViewController```).
+
+Change the connection from Outlet to Action. Name it buttonPressed. Click Connect.
+
+A new function was created in your source code.
+
+Add ```print("hello world")``` inside of the buttonPressed function. Run your app and click the button. "hello world" should appear in the console.
+
+Remove the print("hello world") line. Inside of the buttonPressed function, type:
+```
+view.backgroundColor = .white
+```
+
+Test your app.
+
+
+## Conditionals
+
+Between the class definition (```class ViewController: UIViewController```) and your buttonPressed function, add a new variable. Call the variable lightOn and set it's initial value to false.
+
+Inside of the buttonPressed function, write code that will reverse the variable. You could do this with a conditional statement (an if-else). However, you could also simply set lightOn to not lightOn by using the ! logical NOT operator. For example, !True is the same as False
+
+Next, create a conditional that will change the background color. If lightOn is true, then:
+```
+view.backgroundColor = .white
+```
+else:
+```
+view.backgroundColor = .darkGray
+```
+
+Test your app.
+
+#### Custom Colors
+
+Change ```.white``` to ```.red``` and notice that there are several autocomplete suggestions:
+  - UIColor red <-- a preset red color
+  - UIColor systemRed <-- a different red preset
+  - UIColor init(red: CGFloat, green: CGFloat, blue: CGFloat, alpha: CGFloat) <-- constructor that allows use to customize the RGB values (and the alpha/opacity)
