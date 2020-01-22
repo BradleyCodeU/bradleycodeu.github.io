@@ -85,11 +85,11 @@ The class of our cell prototype is now set to the newly created ItemTableViewCel
 Before we can display dynamic data in your table view cells, we need to create outlet connections.
 In your storyboard, select the label in the table view cell.
 
-Open the assistant editor. [Click here](https://bradleycodeu.github.io/gd/swift/todolistv1/#open-the-assistant-editor) if you need a quick reminder of how to open the split-screen assistant editor.
+Open the assistant editor by clicking the Editor drop-down menu and then selecting Assistant. Xcode automatically picks a file for you to edit on the right. IF IT OPENED THE WRONG FILE you can drag ItemTableViewCell.swift from the Navigator area to the top of the new Editor window on the right.
 
-![add Editor To Right](/gd/swift/img/addEditorToRight.gif)
+![Click Editor DropDown Then Assistant](/gd/swift/img/ClickEditorDropDownThenAssistant.gif)
 
-From the label on your canvas, control-drag to the code display in the editor on the right, to ItemTableViewCell.swift. In the dialog, give your label the Name of nameLabel. Click Connect.
+From the label object on your canvas, control-drag to the code display in the editor on the right, to ItemTableViewCell.swift. In the dialog, give your label the Name of nameLabel. Click Connect.
 The property will be generated for the label:
 
 ```

@@ -24,13 +24,9 @@ Drag a button into the Scene from the Object Library.
 
 #### Open the Assistant Editor
 
-Click the "Add Editor On Right" button. You should now have a split-screen. Next, click on the file that you want to open (ViewController.swift) from the Navigator area.
+Click on Main.storyboard in the Navigator, click the Editor drop-down menu and then select Assistant. Xcode should have automatically opened the ViewController.swift file for you to edit on the right. IF IT OPENED THE WRONG FILE you can drag ViewController.swift from the Navigator area to the top of the new Editor window on the right.
 
-![add Editor To Right](/gd/swift/img/addEditorToRight.gif)
-
-If necessary, you can drag a file from the Navigator area to the top of either Editor window.
-
-Another way to get the same split-screen with Storyboard and Code Editor is to click the Editor drop-down menu and then select Assistant. Xcode automatically picks a file for you to edit on the right, but IF IT OPENED THE WRONG FILE you can drag ViewController.swift from the Navigator area to the top of the new Editor window on the right.
+![Click Editor DropDown Then Assistant](/gd/swift/img/ClickEditorDropDownThenAssistant.gif)
 
 #### Developer Documentation
 
@@ -50,11 +46,13 @@ An action is created by control-drag from a particular object in your storyboard
 
 Let's create an action for our button.
 
-#### Create an action
+#### Create a buttonPressed action
 
 While holding the Control button, drag from the button on your canvas to the code display in the editor, stopping the drag at the line below the class definition (```class ViewController: UIViewController```).
 
 Change the connection from Outlet to Action. Name it buttonPressed. Click Connect.
+
+![Creating The ButtonPressed Action](/gd/swift/img/CreatingTheButtonPressedAction.gif)
 
 A new function was created in your source code.
 
@@ -102,8 +100,22 @@ var darkColor = UIColor(red:0.9, green:0.5, blue:0.9, alpha:1.0)
 ```
 Those RGB values will create a bright pink color, edit them so that you get a custom dark color. Replace ```.darkGray``` with darkColor
 
-Use the UIColor constructor that take HSB values to construct a lightColor. If lightOn is true, then set view.backgroundColor to be lightColor
+Use the UIColor constructor that takes HSB values to construct a lightColor. If lightOn is true, then set view.backgroundColor to be lightColor
 
 ## Outlets
 
-Outlets offer a way to reference interface objects (on your storyboard) in your source code. We will creating an outlet for the button. It currently says "Button" but it would be really nice if it said "ON" and "OFF"
+Outlets offer a way to reference interface objects (on your storyboard) in your source code. We will creating an outlet for the button. The text of the button currently says "Button" but it would be really nice if it said "ON" and then switched to say "OFF"
+
+#### Create an outlet for the button object
+
+If you need to re-open the Assistant Editor... click on Main.storyboard in the Navigator, click the Editor drop-down menu and then select Assistant. Xcode should automatically open the ViewController.swift file for you to edit on the right. If it opened the wrong file, you can drag ViewController.swift from the Navigator area to the top of the new Editor window on the right.
+
+While holding the Control button, drag from the button on your canvas to the code display in the editor on the right, stopping the drag at the line below the class definition (```class ViewController: UIViewController```).
+
+![control Drag From Button To Create An Outlet](/gd/swift/img/controlDragFromButtonToCreateAnOutlet.png)
+
+The outlet dialog appears. For Name, type flashlightButton
+
+![the Outlet Dialog For Flashlight Button](/gd/swift/img/theOutletDialogForFlashlightButton.png)
+
+Click Connect.
