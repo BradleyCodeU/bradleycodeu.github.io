@@ -1,6 +1,6 @@
 # Castles & Creatures by Justin Riley
 # import random
-# import time
+import time
 
 
 # create a function called askPlayer that will prompt, collect input,
@@ -22,12 +22,11 @@ def askPlayer():
         # sleep for .5 seconds
 
 
-        try:
+        # try:
             # try to convert the user input to a number
 
-            # try to use that index number in the weapon array
 
-        except:
+        # except:
             print("Not A Valid Number... Try Again")
 
     return
@@ -38,12 +37,12 @@ def askPlayer():
 # 10% of the time, tell the user that they were able to steal & return True
 # Otherwise (90%), tell the user they were NOT able to steal & return False
 def tryToSteal():
-    if
+    # if
         # sleep for .5 seconds
 
 
         return True
-    else:
+    # else:
         # sleep for .5 seconds
 
 
@@ -62,11 +61,11 @@ def tryToSteal():
 # create variable called newEnemyHealth & set it to enemy["health"] minus damage
 # return newEnemyHealth
 def enemyLoseHealth(playerChoice, enemy):
-    if
+    # if
 
-    else:
+    # else:
 
-    if
+    # if
 
     # sleep for .5 seconds
 
@@ -113,7 +112,7 @@ def gameLevel(castleDescription, enemy, playerHealth):
     # print the castleDescription
 
     # while the playerHealth is greater than zero
-    while
+    while playerHealth > 0:
         # sleep for .5 seconds
 
         # print a small dividing line like this ~ ~ ~
@@ -121,20 +120,20 @@ def gameLevel(castleDescription, enemy, playerHealth):
         # create a variable called playerChoice & set it to askPlayer()
 
 
-        if playerChoice == 1:
+        # if playerChoice == 1:
             # set stealSuccess to tryToSteal(enemy["name"])
-            stealSuccess =
-        else:
+            # stealSuccess =
+        # else:
             # random amount of enemy's health is lost.
             # set enemy["health"] to enemyLoseHealth(playerChoice, enemy)
 
 
         # If enemy is still alive
-        if
+        # if
             # random amount of player's health is lost.
             # set playerHealth to playerLoseHealth(playerHealth, enemy)
 
-        else:
+        # else:
             # sleep for .5 seconds
 
             # print You have defeated enemy["name"]!
@@ -143,12 +142,12 @@ def gameLevel(castleDescription, enemy, playerHealth):
             break
 
         # if player is dead
-        if
+        # if
             # sleep for .5 seconds
 
             # print Oof.  You have DIED!  R.I.P.  Game Over.
         # if you were able to steal
-        if
+        # if
             # print You steal the treasure & escape past enemy["name"]!
 
             # break out of this loop so that you can go to the next level
@@ -156,85 +155,86 @@ def gameLevel(castleDescription, enemy, playerHealth):
     # return the playerHealth
     return playerHealth
 
+def main():
+    # **************** THE GAME BEGINS HERE!!! ****************
+    # start the playerHealth at 100
+    playerHealth = 100
+    # Print the name of the game
+    # Visit http://patorjk.com/software/taag/ to get ASCII art version of your title
 
-# **************** THE GAME BEGINS HERE!!! ****************
-# start the playerHealth at 100
-# Print the name of the game
-# Visit http://patorjk.com/software/taag/ to get ASCII art version of your title
+    # Sleep 1 sec
+    time.sleep(1)
+    # Print "by your name"
 
-# Sleep 1 sec
-sleep(1)
-# Print "by your name"
+    # Sleep 1 sec
 
-# Sleep 1 sec
-sleep(1)
-# Print the 1st sentence of your story
+    # Print the 1st sentence of your story
 
-# Sleep 1 sec
-sleep(1)
-# Print the 2nd sentence of your story
+    # Sleep 1 sec
 
-# Sleep 1 sec
-sleep(1)
-# Print the 3rd sentence of your story
+    # Print the 2nd sentence of your story
 
-# Sleep 1 sec
-sleep(1)
-# Setup castle 1
-# Write a sentence to describe the first castle
-castleDescription =
-# Create an enemy "dictionary" object
-enemy = {}
-# Give the enemy a name as a string
-enemy["name"] =
-# Set the enemy's level to an integer number, maybe 10?
-enemy["level"] =
-# Set the enemy's health to an integer number, maybe 10?
-enemy["health"] =
-# Make an array with SEVEN or more possible attacks that the enemy could use.
-enemy["attacks"] = ["Sneak Attack", "Roundhouse Kick"]
-# Set the enemyWeakness to a random integer number between 2 & 4
-enemy["weakness"] =
+    # Sleep 1 sec
 
-# Create Level 1 by calling gameLevel()
-playerHealth = gameLevel(castleDescription,enemy,playerHealth)
+    # Print the 3rd sentence of your story
 
-# Add some story between castle 1 & 2 with some sleep 1 sec & print statements,
-# BUT THIS SHOULD ONLY HAPPEN IF playerHealth IS ABOVE ZERO
+    # Sleep 1 sec
 
-# -=-=-=-=- Setup castle 2 -=-=-=-=-
-# Set castleDescription to a sentence that describes the castle
+    # Setup castle 1
+    # Write a sentence to describe the first castle
+    castleDescription = ""
+    # Create an enemy "dictionary" object
+    enemy = {}
+    # Give the enemy a name as a string
+    enemy["name"] = ""
+    # Set the enemy's level to an integer number, maybe 10?
+    enemy["level"] = 0
+    # Set the enemy's health to an integer number, maybe 10?
+    enemy["health"] = 0
+    # Make an array with SEVEN or more possible attacks that the enemy could use.
+    enemy["attacks"] = ["Sneak Attack", "Roundhouse Kick"]
+    # Set the enemyWeakness to a random integer number between 2 & 4
+    enemy["weakness"] = 0
 
-# Set enemy name to a new name
+    # Create Level 1 by calling gameLevel()
+    playerHealth = gameLevel(castleDescription,enemy,playerHealth)
 
-# Set enemy level to a new integer number
+    # Add some story between castle 1 & 2 with some sleep 1 sec & print statements,
+    # BUT THIS SHOULD ONLY HAPPEN IF playerHealth IS ABOVE ZERO
 
-# Set enemy health to a new integer number
+    # -=-=-=-=- Setup castle 2 -=-=-=-=-
+    # Set castleDescription to a sentence that describes the castle
 
-# Set enemy attacks to a new list of 7 possible attacks that the enemy could use
+    # Set enemy name to a new name
 
-# Set the enemy weakness to a random integer number between 2 & 4
+    # Set enemy level to a new integer number
 
-# Create Level 2 by calling gameLevel()
-# BUT THIS SHOULD ONLY HAPPEN IF playerHealth IS ABOVE ZERO
-playerHealth = gameLevel(castleDescription,enemy,playerHealth)
+    # Set enemy health to a new integer number
 
-# Add some story between castle 2 & 3, with some sleep 1 sec & print statements,
-# BUT THIS SHOULD ONLY HAPPEN IF playerHealth IS ABOVE ZERO
+    # Set enemy attacks to a new list of 7 possible attacks that the enemy could use
 
-# -=-=-=-=- Setup castle 3 -=-=-=-=-
-# Set castleDescription to a sentence that describes the castle
+    # Set the enemy weakness to a random integer number between 2 & 4
 
-# Set enemy name to a new name
+    # Create Level 2 by calling gameLevel()
+    # BUT THIS SHOULD ONLY HAPPEN IF playerHealth IS ABOVE ZERO
+    playerHealth = gameLevel(castleDescription,enemy,playerHealth)
 
-# Set enemy level to a new integer number
+    # Add some story between castle 2 & 3, with some sleep 1 sec & print statements,
+    # BUT THIS SHOULD ONLY HAPPEN IF playerHealth IS ABOVE ZERO
 
-# Set enemy health to a new integer number
+    # -=-=-=-=- Setup castle 3 -=-=-=-=-
+    # Set castleDescription to a sentence that describes the castle
 
-# Set enemy attacks to a new list of 7 possible attacks that the enemy could use
+    # Set enemy name to a new name
 
-# Set the enemy weakness to a random integer number between 2 & 4
+    # Set enemy level to a new integer number
 
-# Create Level 3 by calling gameLevel()
-# BUT THIS SHOULD ONLY HAPPEN IF playerHealth IS ABOVE ZERO
-playerHealth = gameLevel(castleDescription,enemy,playerHealth)
+    # Set enemy health to a new integer number
+
+    # Set enemy attacks to a new list of 7 possible attacks that the enemy could use
+
+    # Set the enemy weakness to a random integer number between 2 & 4
+
+    # Create Level 3 by calling gameLevel()
+    # BUT THIS SHOULD ONLY HAPPEN IF playerHealth IS ABOVE ZERO
+    playerHealth = gameLevel(castleDescription,enemy,playerHealth)
