@@ -7,8 +7,15 @@
 # & return the number that the player selects
 # No arguments needed... so it'll look like this: askPlayer()
 # Ask the player if they want to try to steal or use one of their weapons
-# (for example, 1=Steal 2=Use fire sword 3=Use ice dagger 4=Use lightning staff)
-# Validate Input. If input is wrong, say "Not a number" & repeat the question.
+# for example...
+#
+# 1=Steal
+# 2=Use fire sword
+# 3=Use ice dagger
+# 4=Use lightning staff
+# TYPE A NUMBER:
+#
+# Validate the Input. If input is wrong, say "Not a number" & repeat the question.
 # Return the number that they choose.
 def askPlayer():
     while True:
@@ -16,8 +23,12 @@ def askPlayer():
 
 
         try:
+            # try to convert the user input to a number
+
+            # try to use that index number in the weapon array
 
         except:
+            print("Not A Valid Number... Try Again")
 
     return
 
