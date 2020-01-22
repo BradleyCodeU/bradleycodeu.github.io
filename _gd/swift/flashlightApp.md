@@ -20,7 +20,7 @@ When the iPhone was first released there was no flash and no way to easily use i
 
 ## Add A Button
 
-Drag a button into the Scene from the Object Library.
+Drag a button into the Scene from the Object Library. In the Attributes inspector (the slider icon that kinda looks like a shield icon), increase the button's font size to 40 or 50.
 
 #### Open the Assistant Editor
 
@@ -119,3 +119,38 @@ The outlet dialog appears. For Name, type flashlightButton
 ![the Outlet Dialog For Flashlight Button](/gd/swift/img/theOutletDialogForFlashlightButton.png)
 
 Click Connect.
+
+#### Setting the Button title
+
+We now a variable flashlightButton that contains a reference to the button object.
+
+In the buttonPressed function, type ```flashlightButton.``` and notice all of the available methods. Type type ```flashlightButton.set``` to see the "setters" which include setImage(), setTitle(), setTitleColor(), and more. We will use the setTitle method.
+
+If lightOn, set the title of flashlightButton to be ```"TURN OFF", for: .normal```
+
+_for_ is a required parameter that wants to know what UI State this will apply to. The state could be disabled, focused, highlighted, or many others. We just need ```for: .normal```
+
+Test your app. Resize the button borders so that the button object extends from the left edge to the right edge.
+
+## Update UI
+
+Before we finish, let's organize our code. The buttonPressed function is growing longer and it would simplify our program if we created a function called updateUI. You can define this function just below the buttonPressed function.
+```
+func updateUI(){
+
+}
+```
+Move the following code into updateUI... the lightOn if-else block, the code that changes view.backgroundColor, and the code that sets the title of flashlightButton.
+
+Add the other button title change so that if the light is off, updateUI will set the title of flashlightButton to be ```"TURN ON", for: .normal```
+
+The buttonPressed is now so much more readable and concise:
+```
+@IBAction func buttonPressed(_ sender: Any) {
+      lightOn = !lightOn
+      updateUI()
+}
+```
+
+Finally, in override func viewDidLoad()...
+remove ```view.backgroundColor = .darkGray``` and call updateUI() so that background color gets set and the button says TURN ON as soon as the app loads.
