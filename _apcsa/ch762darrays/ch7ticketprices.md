@@ -8,7 +8,7 @@ A theater seating chart is implemented as a two-dimensional array of ticket pric
 
 Write a program that prompts a user to enter the number of tickets they are purchasing, and then pick their seat(s). Mark sold seats by changing the price to 0. When a user specifies a seat, make sure that it is available first. When the sale is complete, display the total sale price for the tickets, the number of tickets sold, and the seat numbers again.
 
-<p class="text-monospace">
+```
 Seat#:  1  2  3  4  5  6  7  8  9 10
 Row 9: 10 10 10 10 10 10 10 10 10 10
 Row 8: 10 10 10 10 10 10 10 10 10 10
@@ -17,9 +17,9 @@ Row 6: 10 10 20 20 20 20 20 20 10 10
 Row 5: 10 10 20 20 20 20 20 20 10 10
 Row 4: 10 10 20 20 20 20 20 20 10 10
 Row 3: 20 20 30 30 40 40 30 30 20 20
-Row 2: 20 30 30 <strong>40</strong> 50 50 40 30 30 20
+Row 2: 20 30 30 40 50 50 40 30 30 20
 Row 1: 30 40 50 50 50 50 50 50 40 30
-</p>
+```
 
 Example: If I choose row 2 seat 4, the total sale price should increase by $40 and the number of tickets sold should increase by 1.
 
