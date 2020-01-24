@@ -172,7 +172,7 @@ h1.project-title{
   border-radius: 10px;
   margin-bottom: 25px;
 }
-h1[id],h2[id],h4[id]{
+h1[id],h2[id],h3[id],h4[id]{
   border-top: dotted #444444 5px;
 }
 h1[id]{
@@ -192,7 +192,7 @@ h2 {
   font-family: 'Nosifer',sans-serif;
   transition: 2s;
 } */
-h2[id],h4[id]{
+h2[id],h3[id],h4[id]{
   margin-top:75px;
   padding-top:75px;
 }
