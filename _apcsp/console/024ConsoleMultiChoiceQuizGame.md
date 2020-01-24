@@ -52,6 +52,7 @@ Is this the last question? a = yes b = no c = Roblox: **a**
 Correct!
 >>>
 ```
--=-=-=-=-=-=-=-=-=-
+
+-------
 
 GOLD MEDAL CHALLENGE: Your entire project uses less than 12 lines of code.

@@ -24,7 +24,7 @@ Must have:
 - a text input and submit button in the Sign Up section
 - *** MUST use a Google Font for the About Us, Meetings, and Sign Up headings. Leave the indented text as a normal font. Helpful links: [fonts.google.com](https://fonts.google.com/) and [w3schools How To Google Fonts](https://www.w3schools.com/howto/howto_google_fonts.asp)
 
--=-=-=-=-=-=-=-
+------
 
 If you have completed 1 or more Computer Science courses, pick one of the following:
 

@@ -34,7 +34,7 @@ The starter code has an event listener function called buttonPressed. This funct
 - If valid numbers, call the hogwartsHouse function and popup the quiz result
 
 
--=-=-=-=-=-=-=-=-=-
+-------
 
 GOLD MEDAL CHALLENGE:
 

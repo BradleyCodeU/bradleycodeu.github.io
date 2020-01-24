@@ -18,7 +18,7 @@ Define a function named isValidNumber that requires one argument (myNumber) and 
     - right(900/userinput)???
     - There are multiple solutions!
 
--=-=-=-=-=-
+-------
 
 Bronze medal: you can only make stars 5, 7, 9, 11, 13, 15, 17, 19
 

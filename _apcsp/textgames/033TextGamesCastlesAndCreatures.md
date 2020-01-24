@@ -25,7 +25,7 @@ You will repeat this next battle while the player's health is greater than zero.
 
 You should know what to do next.
 
--=-=-=-=-=-=-=-=-=-
+-------
 
 GOLD MEDAL: Add 2 or more of the following details...
   - You have a one-time-use healing potion that restores the player to full health.
