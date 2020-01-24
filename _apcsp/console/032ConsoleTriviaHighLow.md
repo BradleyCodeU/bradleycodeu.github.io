@@ -38,6 +38,6 @@ Congratulations! You have completed the trivia game.
 ```
 
 
--=-=-=-=-=-=-
+-------
 
 Gold Medal Challenge: Define a function in order to avoid repeating yourself three times. Use the fewest lines of code possible.

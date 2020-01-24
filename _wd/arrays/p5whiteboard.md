@@ -57,7 +57,7 @@ if (mouseIsPressed && eraserButton.checked == true) {
 
 If the CLEAR button is clicked, then remove everything in the array.
 
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-------
 
 If you have taken 1 or more computer science classes in the past, add 1 or more extra drawing tools...
   - A color palette (several buttons with common colors so that you can quickly select common colors)
