@@ -201,6 +201,11 @@ h3, h4 {
   /* font-size: 1.2rem!important; */
 }
 
+hr{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  border-top: dotted #444444 5px;
+}
 
 .iframe_container {
 	position: relative;
