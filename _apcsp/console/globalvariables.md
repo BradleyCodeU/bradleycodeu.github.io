@@ -19,6 +19,18 @@ The error message reads, ``` UnboundLocalError: local variable 'x' referenced be
 
 One solution would be to pass variable x as an argument. That will fix the error message, BUT when you print x at the end you will find that *x is still 5*. Changes made inside of the function will not effect variable x outside of the function. You would need to return x and save the returned value back in x, like this ```x = double(x)```
 
+```
+x = 5
+
+def double(x): # require x as an argument
+    x = x * 2
+    return x   # return x
+
+x = double(x)  # pass x as argument & save the updated x
+x = double(x)
+print(x)
+```
+
 ### A FASTER Solution Would Be To Make X A Global Variable
 
 ```
