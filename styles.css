@@ -200,7 +200,11 @@ h3, h4 {
   text-transform: capitalize;
   /* font-size: 1.2rem!important; */
 }
-
+h3.navbarHeading{
+  margin:0;
+  padding:0;
+  border: none;
+}
 hr{
     margin-top: 3rem;
     margin-bottom: 3rem;
