@@ -15,14 +15,15 @@ In your JS file, create...
 
 A very long array of strings that people visiting your page will be able to search.
 
-[Popular Movies](https://github.com/dariusk/corpora/blob/master/data/film-tv/popular-movies.json)
-[TV Shows](https://github.com/dariusk/corpora/blob/master/data/film-tv/tv_shows.json)
-[Netflix Categories](https://github.com/dariusk/corpora/blob/master/data/film-tv/netflix-categories.json)
-[Flowers](https://github.com/dariusk/corpora/blob/master/data/plants/flowers.json)
-[Fruits](https://github.com/dariusk/corpora/blob/master/data/foods/fruits.json)
-[Vegetables](https://github.com/dariusk/corpora/blob/master/data/foods/vegetables.json)
-[Scientists](https://github.com/dariusk/corpora/blob/master/data/humans/scientists.json)
-[Wrestlers](https://github.com/dariusk/corpora/blob/master/data/humans/wrestlers.json)
+  - [Popular Movies](https://github.com/dariusk/corpora/blob/master/data/film-tv/popular-movies.json)
+  - [TV Shows](https://github.com/dariusk/corpora/blob/master/data/film-tv/tv_shows.json)
+  - [Netflix Categories](https://github.com/dariusk/corpora/blob/master/data/film-tv/netflix-categories.json)
+  - [Flowers](https://github.com/dariusk/corpora/blob/master/data/plants/flowers.json)
+  - [Fruits](https://github.com/dariusk/corpora/blob/master/data/foods/fruits.json)
+  - [Vegetables](https://github.com/dariusk/corpora/blob/master/data/foods/vegetables.json)
+  - [Scientists](https://github.com/dariusk/corpora/blob/master/data/humans/scientists.json)
+  - [Wrestlers](https://github.com/dariusk/corpora/blob/master/data/humans/wrestlers.json)
+  - [US Cities](https://gist.github.com/norcal82/42440bd06a67eb7d9616)
 
 Create a variable named introText and set it to document.getElementById("introText"). You don't have to re-type document.getElementById("intro") now. You can use introText.innerHTML = "whatever you want" to replace the old text
 
