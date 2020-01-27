@@ -31,7 +31,7 @@ Create a method called printSeats that requires 1 argument: a 2D array of seats.
 
 Create a method called isSeatTaken that requires 3 arguments: a 2D array of seats, rowNumberToCheck, and seatNumberToCheck. Returns true or false.
 
-Create a method called purchaseTicket that requires 1 argument: a 2D array of seats. This method prompts for a row number and seat number, calls the isSeatTaken method. If the seat is not taken, fills the seat with zero and returns the price for that one ticket.
+Create a method called purchaseTicket that requires 2 arguments: a 2D array of seats, a Scanner object. This method prompts the user for a row number and seat number, calls the isSeatTaken method. If the seat is NOT taken, fills the seat with zero and returns the price for that one ticket. If the seat IS taken, print an error and repeat the prompt.
 
 When the sale is complete, display the total sale price for the tickets, the number of tickets sold, and the seat numbers again.
 
