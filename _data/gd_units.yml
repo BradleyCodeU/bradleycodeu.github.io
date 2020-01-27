@@ -233,17 +233,7 @@ Projects:
 
 1. [Chapter 13 QuestionBot](/gd/swift/chapter13QuestionBot/)
 
-1. [ShouldBot App](/gd/swift/shouldbotApp/)
 
-1. [SoloLrn Swift Functions Closures](/gd/swift/SoloLrnSwiftFunctionsClosures/)
-
-1. [Flashlight App](/gd/swift/flashlightApp/)
-
-1. [Todo List App v1](/gd/swift/todolistv1/)
-
-1. [SoloLrn Swift Object Oriented Prog](/gd/swift/SoloLrnSwiftObjectOrientedProg/)
-
-1. [Todo List App v2](/gd/swift/todolistv2/)
 
 
 "
@@ -252,6 +242,17 @@ Projects:
 - title: unity3d
   heading: "# Unity3d"
   content: "*3 weeks*
+
+
+Resources:
+
+  1. [Space Shooter tutorials](https://drive.google.com/open?id=1yYnAjzR8CyDajmKLqHUM8pPBGv-HVkbe)
+
+  1. [Terrain tutorials](https://drive.google.com/open?id=1lsFiEbqzo0u6EuoXLDo_E9q0xRFRL0j5)
+
+
+Projects:
+
 
 1. [Space Shooter v2](/gd/unity3d/spaceshooterv2/)
 
@@ -267,11 +268,17 @@ Projects:
   heading: "# Swift2"
   content: "*3 wks*
 
+  1. [ShouldBot App](/gd/swift/shouldbotApp/)
 
+  1. [SoloLrn Swift Functions Closures](/gd/swift/SoloLrnSwiftFunctionsClosures/)
 
-  1. [Ch 12 Intro to App Dev Instances Methods and Procedures](/gd/swift/ch12introtoappdev/)
+  1. [Flashlight App](/gd/swift/flashlightApp/)
 
-  1. [Ch 13 Intro to App Dev QuestionBot](/gd/swift/ch13introtoappdev/)
+  1. [Todo List App v1](/gd/swift/todolistv1/)
+
+  1. [SoloLrn Swift Object Oriented Prog](/gd/swift/SoloLrnSwiftObjectOrientedProg/)
+
+  1. [Todo List App v2](/gd/swift/todolistv2/)
 
   1. [Ch 14 Intro to App Dev Arrays and Loops](/gd/swift2/ch14introtoappdev/)
 
