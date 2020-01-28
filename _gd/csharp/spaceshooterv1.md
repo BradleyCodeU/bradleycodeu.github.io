@@ -4,7 +4,9 @@ category: csharp
 title: Space Shooter v1
 ---
 
-NOTE: In the tutorial videos, you will be directed to assign new values to ```rigidbody.position``` but this is now read-only. Instead you can assign a new values to ```transform.position``` - [Space Shooter tutorials](https://drive.google.com/open?id=1yYnAjzR8CyDajmKLqHUM8pPBGv-HVkbe)
+NOTE: In the tutorial videos, you will be directed to assign new values to ```rigidbody.position``` but this is now read-only. Instead you can assign a new values to ```transform.position```
+
+[Space Shooter tutorials](https://drive.google.com/open?id=1yYnAjzR8CyDajmKLqHUM8pPBGv-HVkbe)
 
 The tutorials also skip the helpful step in which you store the rigidbody in a variable. Like this...
 ```
@@ -25,4 +27,4 @@ Additional requirements:
   - Go to Edit > Project Settings > Input > Axes > Fire1 and change the positive button to space
   - Must have created your own unique skybox ([tutorial video here](https://drive.google.com/open?id=1P-6g1iFS3hhI8ssJkpRXPMlQFbyZxtvi) and in the [Space Shooter Tutorials folder](https://drive.google.com/open?id=1yYnAjzR8CyDajmKLqHUM8pPBGv-HVkbe))
   - Player MUST move on X and Y axis NOT Z axis. (Note: Lasers move on Z axis)
-### 3rd person camera (```NOT top-down```) must move along with the ship
+  - 3rd person camera (```NOT top-down```) must move along with the ship
