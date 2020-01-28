@@ -15,7 +15,8 @@ Create a very long array of strings that people using your app will be able to s
   - [Wrestlers](https://github.com/dariusk/corpora/blob/master/data/humans/wrestlers.json)
   - [US Cities](https://gist.github.com/norcal82/42440bd06a67eb7d9616)
 
-  Create a function called search()
+  Create a function called main():
+  
     - create a counter
     - prompt the user for search text (for example, they could search for "the" or "ee")
     - get the user search text and convert it to lowercase
