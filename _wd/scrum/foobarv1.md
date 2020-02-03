@@ -7,7 +7,7 @@ Working as team, create your own text game based on Foobar The Bazbarian
 
 Start by figuring out a story/theme/setting and title for your game
 
-Plan a map on a grid. It might be a maze-like dungeon or a large open island or a house with rooms and hallways. You should plan 5 "blocks" (grid spaces) for each person in your group.
+Plan a map on a grid. It might be a maze-like dungeon or a large open island or a house with rooms and hallways.
 
 You will be graded on the following requirements:
 
