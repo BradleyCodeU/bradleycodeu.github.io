@@ -41,7 +41,7 @@ score = JSON.parse(scoreString)
 
 Create a random name generator that will create a random character. Something _similar_ to [this D&D character builder](https://www.aidedd.org/dnd-builder/index.php?l=1), but random.
 
-You MUST make this character generator match the theme of your Foobar game. For example, if you are creating a zombie game that happens in Ohio, then all of the characters might be human and the jobs might be Police, Medic, Pilot, Truck Driver, Scientist, Soldier, etc.
+You MUST make this character generator match the theme of your Foobar game. For example, if you are creating a zombie game that happens in modern-day Ohio, then all of the characters might be human and the jobs might be Police Officer, Medic, Fry Cook, Pilot, Scientist, Truck Driver, Soldier, Assistant to the Regional Manager, etc.
 
 Things to generate for a basic D&D character:
   - First name
