@@ -13,5 +13,8 @@ You will be graded on the following requirements:
 - Print the room description, any item in the room, any items in the player's inventory/backpack
 - Must be able to change locations and give a message like "You can't go there" when necessary.
 - Must be able to collect an item (using "take" button), place the item in the player's inventory/backpack, and remove the item from the room.
-- The game ends if the user loses the game, or wins the game. Change the background color to either red (lose) or green (win) and create an alert
 - Use localStorage to save the game after each move
+- The game ends if the user loses the game, or wins the game.
+    * Create an alert
+    * Change the background color to either red (lose) or green (win)
+    * Hide all of the buttons
