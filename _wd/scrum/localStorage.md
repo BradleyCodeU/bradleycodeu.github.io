@@ -39,18 +39,18 @@ score = JSON.parse(scoreString)
 
 ## Project Details
 
-Create a random name generator that will create a random D&D character. Something _similar_ to [this](https://www.aidedd.org/dnd-builder/index.php?l=1), but random.
+Create a random name generator that will create a random character. Something _similar_ to [this D&D character builder](https://www.aidedd.org/dnd-builder/index.php?l=1), but random.
 
-You MUST make this character generator match the theme of your Foobar game. For example, if you are creating a zombie game that happens in Ohio, then all of the characters would _probably_ be human and the jobs might be Police, Medic, Pilot, Truck Driver, etc.
+You MUST make this character generator match the theme of your Foobar game. For example, if you are creating a zombie game that happens in Ohio, then all of the characters might be human and the jobs might be Police, Medic, Pilot, Truck Driver, Scientist, Soldier, etc.
 
 Things to generate for a basic D&D character:
   - First name
   - Last name
   - Type (Hill dwarf, High elf, Lightfoot halfling, Human, Dragonborn, Rock gnome, Half-elf, Half-orc, Tiefling)
   - Job (Barbarian, Bard, Cleric, Druid, Fighter, Monk, Paladin, Ranger, Rogue, Sorcerer, Warlock, Wizard)
-  - Background (Acolyte, Criminal, Folk hero, Noble, Sage, Soldier)
+  - Background (Acolyte, Criminal, Folk hero, Noble, Poor, Rich, Sage, Soldier)
   - Weapon (Dagger, Slingshot, Club, Mace, Staff, Short bow, Light crossbow, Battleaxe, Glaive, Greataxe, Greatsword)
 
 Create a button that randomly generates a new character and saves it to local storage.
 
-When the page loads, load the previous character from local storage and display it on the screen.
+When the page loads, automatically load the previous character from local storage and display it on the screen.
