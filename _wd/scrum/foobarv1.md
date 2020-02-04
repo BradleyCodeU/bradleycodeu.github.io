@@ -18,7 +18,6 @@ You will be graded on the following requirements:
   * An item is something that the player can pick up like a new weapon, a health pack, coins, a potion, some food, a fidget-spinner, etc.
   * Create an array named roomArray that will store room descriptions
   * Create a different array named itemArray that will store items that you can pick up
-  * Create a for loop that repeats 999 times and appends false to these arrays 999 times
   * Add descriptions for your 15 rooms to your roomArray
   * Add 6 items to your itemArray
   * In v1, the player does NOT need to be able to pick up any items, but when visiting a room the game MUST tell you that an item is there IF the room contains an item.
