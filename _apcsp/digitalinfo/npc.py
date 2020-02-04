@@ -12,13 +12,9 @@ dan = {
 
 def tradeItems(thisNpc,userInventory):
     # create a temporary variable and put what thisNpc wants in the variable
-
     # remove what thisNpc wants from userInventory
-
-    # add thisNpc trade to userInventory
-
+    # add thisNpc's trade to userInventory
     # print You give thisNpc name thisNpc wants and got thisNpc trade
-
     return
 
 def talkTo(thisNpc,userInventory):
@@ -29,6 +25,7 @@ def talkTo(thisNpc,userInventory):
         userInput = input()
         if canTrade(thisNpc,userInput,userInventory):
             tradeItems(thisNpc,userInventory)
+            output = '  \"Thanks\"'
             continue
         output = talkSearch(thisNpc, userInput)
         if 'bye' in userInput.lower():
@@ -63,3 +60,4 @@ def canTrade(thisNpc,userInput,userInventory):
         typewriter('  \"Give me '+thisNpc['want']+' & ')
         typewriter('I\'ll give you '+thisNpc['trade']+'\"\n')
     return False
+

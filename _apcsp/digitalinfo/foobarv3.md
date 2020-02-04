@@ -33,3 +33,31 @@ dan = {
    * Call the talkTo function. Pass npcArray[location] and your inventory as arguments.
 -  Otherwise
    * (You should already have this code) Call the move function and pass the arguments userInput, location and save what it returns in location
+
+
+You can test your NPCs like this:
+```
+>>> talkTo(dan,[])
+  Cowboy Dan: "Howdy there"
+  Type a question, give item, or bye:
+give me the key
+  "me the key?! That's not what I want!"
+  "You don't have 25 cents"
+  "Give me 25 cents & I'll give you gold key"
+  "Hot enough for ya?"
+  Type a question, give item, or bye:
+bye
+  "See ya later"
+>>>
+```
+
+You should also test giving the NPC what they want:
+```
+talkTo(dan,["25 cents"])
+  Cowboy Dan: "Howdy there"
+  Type a question, give item, or bye:
+give 25 cents
+You give Cowboy Dan 25 cents and get gold key
+  "Thanks"
+  Type a question, give item, or bye:
+```
