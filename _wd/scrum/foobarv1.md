@@ -20,10 +20,10 @@ You will be graded on the following requirements:
   * Must be able to change locations and give a message like "You can't go there" when necessary.
 
 
-Define a function called doesRoomExist that requires one argument: roomNumber. If roomArray index roomNumber is false then say "You can't go there" and return false. Otherwise return true.
+Define a function named doesRoomExist that requires one argument: roomNumber. If roomArray index roomNumber is false then say "You can't go there" and return false. Otherwise return true.
 
 
-Define a function called move that requires one argument: direction.
+Define a function named move that requires one argument: direction.
 
     - If the direction was "n" and doesRoomExist at the location - 1
         - location = location - 1
@@ -34,3 +34,6 @@ Define a function called move that requires one argument: direction.
     - Otherwise if the direction was "w" and figure this part out yourself
         - figure this part out yourself
     - return location
+
+
+Create 4 buttons that say North, South, East, and West. When clicked, these buttons call the move function.
