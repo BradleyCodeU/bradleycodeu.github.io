@@ -9,7 +9,7 @@ In this version we are adding NPCs (non-player characters) that you can talk to 
 
 [Download or copy/paste](/apcsp\digitalinfo\npc.py) this code into a new file, npc.py
 
-This file must be in the same location (same folder) as your project.
+This file must be in the same location (same folder) as your project. Add `from npc import *` at the top of your game
 
 - Notice that the FIRST FUNCTION (tradeItem) is incomplete. You will need to complete it.
 
