@@ -3,6 +3,26 @@ layout: project
 category: scrum
 title: Foobar v1
 ---
+
+
+* TOC
+{:toc}
+
+## Daily Standup
+
+Each day will begin with [The Daily Standup (aka The Daily Scrum)](https://www.mountaingoatsoftware.com/agile/scrum/meetings/daily-scrum) a standing (not sitting) meeting of 15 minutes or less. Taking turns, each member says:
+  - What did you do yesterday?
+  - What will you do today?
+  - Are there any "blockers" in your way? Any things on which you are currently stuck?
+  - Update the [Scrum Board](https://www.mountaingoatsoftware.com/agile/scrum/scrum-tools/task-boards), if necessary
+
+![Example Scrum Board](/apcsp\scrum\scrum-board.jpg)
+
+Your first meeting is also a [Sprint Planning meeting](https://www.mountaingoatsoftware.com/agile/scrum/meetings/sprint-planning-meeting) in which the team members select tasks from the Product Backlog (the To Do list) that they plan on completing during the upcoming sprint. Pick 10-15 tasks. Write the name and number of points on post-it notes. Place these tasks in the To Do column of your Scrum Board.
+
+
+## Project Details
+
 Working as team, create your own text game based on Foobar The Bazbarian
 
 Start by figuring out a story/theme/setting and title for your game

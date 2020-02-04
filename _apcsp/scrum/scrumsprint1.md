@@ -3,6 +3,12 @@ layout: project
 category: scrum
 title: Scrum Sprint 1
 ---
+
+* TOC
+{:toc}
+
+## Daily Standup
+
 Each day will begin with [The Daily Standup (aka The Daily Scrum)](https://www.mountaingoatsoftware.com/agile/scrum/meetings/daily-scrum) a standing (not sitting) meeting of 15 minutes or less. Taking turns, each member says:
   - What did you do yesterday?
   - What will you do today?
