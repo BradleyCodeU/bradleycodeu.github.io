@@ -3,8 +3,8 @@ import sys
 
 dan = {
     'name': 'Cowboy Dan',
-    'want': 'money',
-    'trade': 'key',
+    'want': '25 cents',
+    'trade': 'gold key',
     'hello': 'Howdy there',
     'bye': 'See ya later',
     'default': 'Hot enough for ya?',
@@ -12,9 +12,13 @@ dan = {
 
 def tradeItems(thisNpc,userInventory):
     # create a temporary variable and put what thisNpc wants in the variable
+
     # remove what thisNpc wants from userInventory
-    # add thisNpc's trade to userInventory
+
+    # add thisNpc trade to userInventory
+
     # print You give thisNpc name thisNpc wants and got thisNpc trade
+
     return
 
 def talkTo(thisNpc,userInventory):
@@ -59,4 +63,3 @@ def canTrade(thisNpc,userInput,userInventory):
         typewriter('  \"Give me '+thisNpc['want']+' & ')
         typewriter('I\'ll give you '+thisNpc['trade']+'\"\n')
     return False
-
