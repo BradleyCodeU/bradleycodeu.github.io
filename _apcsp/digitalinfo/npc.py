@@ -14,7 +14,7 @@ def tradeItems(thisNpc,userInventory):
     # create a temporary variable and put what thisNpc wants in the variable
     # remove what thisNpc wants from userInventory
     # add thisNpc's trade to userInventory
-    # print You give thisNpc name thisNpc wants and got thisNpc trade
+    # print You give thisNpc name thisNpc wants and get thisNpc trade
     return
 
 def talkTo(thisNpc,userInventory):
