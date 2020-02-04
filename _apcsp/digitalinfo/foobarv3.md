@@ -13,7 +13,7 @@ This file must be in the same location (same folder) as your project.
 
 - Notice that the FIRST FUNCTION (tradeItem) is incomplete. You will need to complete it.
 
-- Create characters (group of 3 = 2 characters, group of 4 = 3 characters). Each character is a dictionary with 12 or more key/value pairs. All characters should have the keys name, want, trade, hello, bye, and default. The other keys are up to you. Notice that the spelling/capitalization of the items that the character wants and trades is important.
+- Create characters (group of 3 = 2 characters, group of 4 = 3 characters). Each character is a dictionary that MUST HAVE 12 or more key/value pairs. All characters MUST have the keys name, want, trade, hello, bye, default or it will crash. The OTHER SIX keywords are up to you. Notice that the spelling/capitalization of the items that the character wants and trades is important.
 ```
 dan = {
     'name': 'Cowboy Dan',
@@ -53,7 +53,7 @@ bye
 
 You should also test giving the NPC what they want:
 ```
-talkTo(dan,["25 cents"])
+>>> talkTo(dan,["25 cents"])
   Cowboy Dan: "Howdy there"
   Type a question, give item, or bye:
 give 25 cents
