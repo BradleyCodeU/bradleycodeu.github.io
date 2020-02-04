@@ -11,7 +11,7 @@ In this version we are adding NPCs (non-player characters) that you can talk to 
 
 This file must be in the same location (same folder) as your project. Add `from npc import *` at the top of your game
 
-- Notice that the FIRST FUNCTION (tradeItem) is incomplete. You will need to complete it.
+- Notice that the FIRST FUNCTION (tradeItem) is incomplete. You MUST complete it.
 
 - Create characters (group of 3 = 2 characters, group of 4 = 3 characters). Each character is a dictionary that MUST HAVE 12 or more key/value pairs. All characters MUST have the keys name, want, trade, hello, bye, default or it will crash. The OTHER SIX keywords are up to you. Notice that the spelling/capitalization of the items that the character wants and trades is important.
 ```
