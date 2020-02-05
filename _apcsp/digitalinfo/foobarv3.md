@@ -13,7 +13,9 @@ This file must be in the same location (same folder) as your project. Add `from 
 
 - Notice that the FIRST FUNCTION (tradeItem) is incomplete. You MUST complete it.
 
-- Create characters (group of 3 = 2 characters, group of 4 = 3 characters). Each character is a dictionary that MUST HAVE 12 or more key/value pairs. All characters MUST have the keys name, want, trade, hello, bye, default or it will crash. The OTHER SIX keywords are up to you. Notice that the spelling/capitalization of the items that the character wants and trades is important.
+- Create characters (group of 3 = 2 characters, group of 4 = 3 characters). Characters could be humans, robots, phone calls, talking animals, ghosts/mythical creatures, etc. Whatever makes sense for your story.
+
+- Each character is a dictionary that MUST HAVE 12 or more key/value pairs. All characters MUST have the keys name, want, trade, hello, bye, default or it will crash. The OTHER SIX keywords are up to you, but they should make sense for the story/place/character. Notice that the spelling/capitalization of the items that the character wants and trades is important.
 ```
 dan = {
     'name': 'Cowboy Dan',
