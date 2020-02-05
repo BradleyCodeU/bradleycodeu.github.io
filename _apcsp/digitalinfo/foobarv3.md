@@ -3,7 +3,7 @@ layout: project
 category: digitalinfo
 title: Text Games Foobar v3
 ---
-In this version we are adding NPCs (non-player characters) that you can talk to and trade items with.
+In this version we are adding NPCs (non-player characters) that you can talk to and with whom you can trade items.
 
 - Add MORE rooms (group of 3 = 27 total rooms, group of 4 = 36 total rooms). Each of these rooms must have a unique description. NOT just "you're in a room".
 
