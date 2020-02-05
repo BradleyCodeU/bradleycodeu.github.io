@@ -11,7 +11,7 @@ In this version we are adding NPCs (non-player characters) that you can talk to 
 
 This file must be in the same location (same folder) as your project. Add `from npc import *` at the top of your game
 
-- Notice that the FIRST FUNCTION (tradeItem) is incomplete. You MUST complete it.
+- Notice that the first function tradeItem is incomplete. You MUST complete it.
 
 - Create characters (group of 3 = 2 characters, group of 4 = 3 characters). Characters could be humans, robots, phone calls, talking animals, ghosts/mythical creatures, etc. Whatever makes sense for your story.
 
@@ -26,6 +26,7 @@ dan = {
     'default': 'Hot enough for ya?',
 }
 ```
+In this example, the keys are keywords and the values are responses. Say the word 'name' (or text that contains the word 'name') and the character will respond with 'Cowboy Dan'
 
 - Create an array called npcArray and fill it with False 999 times. Then put your characters in the correct rooms like this, `npcArray[103] = dan`
 
@@ -37,7 +38,7 @@ dan = {
    * (You should already have this code) Call the move function and pass the arguments userInput, location and save what it returns in location
 
 
-You can test your NPCs like this:
+Test your NPCs like this:
 ```
 >>> talkTo(dan,[])
   Cowboy Dan: "Howdy there"
@@ -48,18 +49,23 @@ give me the key
   "Give me 25 cents & I'll give you gold key"
   "Hot enough for ya?"
   Type a question, give item, or bye:
-bye
+bye-bye cowboy dan
   "See ya later"
 >>>
 ```
 
 You should also test giving the NPC what they want:
 ```
->>> talkTo(dan,["25 cents"])
+>>> testInv = ["zebra","25 cents","banana"]
+>>> talkTo(dan,testInv)
   Cowboy Dan: "Howdy there"
   Type a question, give item, or bye:
 give 25 cents
 You give Cowboy Dan 25 cents and get gold key
   "Thanks"
   Type a question, give item, or bye:
+good-bye
+  "See ya later"
+>>> testInv
+["zebra","banana","gold key"]
 ```
