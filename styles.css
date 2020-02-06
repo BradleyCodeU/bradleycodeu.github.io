@@ -36,10 +36,12 @@
 body {
   font-weight: 200 !important;
 	background: #102036 !important;
-	font-size: 1.1rem;
   font-family: robo, 'Roboto Condensed', sans-serif;
 	/* font-family: 'Jolly Lodger','Roboto Condensed', 'Verdana','Arial', sans-serif; */
   color:#ffffff!important;
+}
+html{
+  font-size: 1.1rem;
 }
 @include media-breakpoint-up(sm) {
   html {
