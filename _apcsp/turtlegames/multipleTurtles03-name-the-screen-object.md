@@ -1,17 +1,23 @@
+---
+layout: project
+category: turtlegames
+title: Name the Screen Object
+---
 Name the Screen object and you can control it using its methods.
-```python.run
+```python
 from turtle import *
 
-myscreen = Screen()
-myscreen.tracer(0)
-myscreen.bgcolor('green')
+gameScreen = Screen()
+gameScreen.tracer(0)
+gameScreen.bgcolor('green')
 
 def newBG():
-    myscreen.bgcolor('red')
+  gameScreen.bgcolor('red')
 
-myscreen.onkey(newBG,"Space")
-myscreen.listen()
+gameScreen.onkey(newBG,"Space")
+gameScreen.listen()
 
 while True:
-  myscreen.update()
+  gameScreen.update()
 ```
+<iframe src="https://trinket.io/embed/python/12a39007e6" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

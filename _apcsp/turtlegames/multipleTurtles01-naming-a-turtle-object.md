@@ -1,4 +1,9 @@
-Tina is a Turtle that you control with code. 
+---
+layout: project
+category: turtlegames
+title: Naming a Turtle Object
+---
+Tina is a Turtle that you control with code.
 But what's a turtle? It's what's called an object. This means that a programmer has written some code that we can use to do cool things. In Tina's case, she knows how to go ```
 forward
 ```, ```
@@ -19,3 +24,4 @@ tina.forward(50)
 tina.write('Hello!')
 tina.backward(20)
 ```
+<iframe src="https://trinket.io/embed/python/06ef3fff7b" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

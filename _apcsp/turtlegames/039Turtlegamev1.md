@@ -8,19 +8,19 @@ title: Turtle Game v1
 Using [Trinket.io](https://trinket.io/) or [Repl.it](https://repl.it/) you will create a simple game using turtle objects.
 
 Read these first:
-- [Naming a Turtle object](https://justin_riley_hilliardschools_org.trinket.io/apcsp#/multiple-turtles/naming-a-turtle-object)
-- [Tina and Tommy's colors](https://justin_riley_hilliardschools_org.trinket.io/apcsp#/multiple-turtles/tina-and-tommys-colors) (Notice how you can name a turtle and give that specific turtle commands?)
-- [Name the Screen object](https://justin_riley_hilliardschools_org.trinket.io/apcsp#/multiple-turtles/name-the-screen-object)
-- [Controlling Tina](https://justin_riley_hilliardschools_org.trinket.io/apcsp#/multiple-turtles/controlling-tina)
+- [Naming a Turtle object](https://justin_riley_hilliardschools_org.trinket.io/apcsp#/multiple-turtles/naming-a-turtle-object/)
+- [Tina and Tommy's colors](https://justin_riley_hilliardschools_org.trinket.io/apcsp#/multiple-turtles/tina-and-tommys-colors/) (Notice how you can name a turtle and give that specific turtle commands?)
+- [Name the Screen object](https://justin_riley_hilliardschools_org.trinket.io/apcsp#/multiple-turtles/name-the-screen-object/)
+- [Controlling Tina](https://justin_riley_hilliardschools_org.trinket.io/apcsp#/multiple-turtles/controlling-tina/)
 - [How to make Python games with Trinket](https://blog.trinket.io/python-games/)
 
 **BEFORE THE GAME LOOP:**
 
-Create a Screen object with screen = Screen()
+Create a Screen object with stage = Screen()
 ```python
-screen = Screen()
+stage = Screen()
 ```
-Set screen.tracer() to zero
+Set stage.tracer() to zero
 
 Create one controllable sprite. Use [screen.onkey()](https://docs.python.org/3.3/library/turtle.html?highlight=turtle#turtle.onkey). to bind functions to keys. In the example below, when the "a" key is pressed, the function goLeft() will run. This code will appear before the game loop.
 ```python
@@ -28,10 +28,10 @@ def goLeft():
   forward(1)
   left(10)
 
-screen.onkey(goLeft,"a")  #notice that goLeft doesn't look like the normal goLeft()
-screen.listen()
+stage.onkey(goLeft,"a")  #notice that goLeft doesn't look like the normal goLeft()
+stage.listen()
 ```
-Use screen.listen() to make the screen listen for keys to be pressed.
+Use stage.listen() to make the screen listen for keys to be pressed.
 
 Create one or more collectible items (like coins). These could be turtles with the "circle" [shape](https://docs.python.org/3.3/library/turtle.html?highlight=turtle#turtle.shape) and a different color.
 
@@ -41,7 +41,7 @@ Create a "forever loop" that will serve as the game loop. Use while True:
 
 INSIDE THE GAME LOOP:
 
-Inside the loop, screen.update()
+Inside the loop, stage.update()
 
 Inside the loop, the enemy/enemies follow the player. Use enemy.towards(player) to get the angle from the enemy to the player. Use enemy.setheading() to turn the enemy to a certain heading.
 
