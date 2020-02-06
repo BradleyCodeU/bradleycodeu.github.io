@@ -481,7 +481,7 @@ Projects:
 - title: digitalinfo
   heading: "# DigitalInfo"
   content: "
-*1 wk*, Vocab: bytes, kilobytes, megabytes, gigabytes
+*1 wk*, Vocab: bits, bytes, kilobytes, megabytes, gigabytes, lossy compression, lossless compression, heuristic, Huffman coding, metadata, pixel, hexadecimal, RGB,
 
 
 Resources:
@@ -497,6 +497,8 @@ Projects:
   1. Team-[Foobarv1](/apcsp/digitalinfo/037TextgamesFoobarv1/)
 
   1. Team-[Foobarv2](/apcsp/digitalinfo/038TextgamesFoobarv2/)
+
+  1. Team-[Foobarv3](/apcsp/digitalinfo/foobarv3/)
 
 
 "
