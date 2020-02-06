@@ -3,8 +3,10 @@ layout: project
 category: unity3d
 title: WebGL Export
 ---
-1. Copy/paste this code and save it in a text file named: index.html You will use it during the next step and put it in your GitHub repository
 
+<script src="https://gist.github.com/ohiofi/3a6633456d4dd981bd4f35926b4a3e80.js"></script>
+
+1. Copy/paste this code and save it in a text file named: index.html You will use it during the next step and put it in your GitHub repository
 2. Create a GitHub page. Directions: [https://pages.github.com/](https://pages.github.com/)
 3. In Unity, open one of your previous projects (Terrain 2, Team Rollaball v1, Space Shooter, RollABall v2). Go to File > Build Settings and select WebGL. Click the Build button then select your GitHub repository folder. Note: if you want to upload multiple projects, just create folders within your repository. It will end up like this...
   - [https://bradleycodeu.github.io/spaceshooterpaul/](https://bradleycodeu.github.io/spaceshooterpaul/)
