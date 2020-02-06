@@ -25,4 +25,4 @@ To reduce lag, change these Terrain settings:
   - Detail Distance to about 50
   - Detail Density about 0.2
   - Tree Distance about 100
-  - Billboard Start about 100
+  - Billboard Start about 12
