@@ -37,7 +37,8 @@ You will be graded on the following requirements:
   * Add descriptions for your 15 rooms to your roomArray
   * Add 6 items to your itemArray
   * In v1, the player does NOT need to be able to pick up any items, but when visiting a room the game MUST tell you that an item is there IF the room contains an item.
-  * Must be able to change locations and give a message like "You can't go there" when necessary.
+  * Create a variable named mylocation that stores the current room number. NOTE that "location" is not a good variable name because [it will re-direct the page](https://www.w3schools.com/jsref/obj_location.asp)
+  * Must be able to change rooms and give a message like "You can't go there" when necessary.
 
 
 Define a function named doesRoomExist that requires one argument: roomNumber. If roomArray index roomNumber is false then say "You can't go there" and return false. Otherwise return true.
@@ -45,15 +46,15 @@ Define a function named doesRoomExist that requires one argument: roomNumber. If
 
 Define a function named move that requires one argument: direction.
 
-    - If the direction was "n" and doesRoomExist at the location - 1
-        - location = location - 1
-    - Otherwise if the direction was "s" and doesRoomExist at the location + 1
-        - location = location + 1
+    - If the direction was "n" and doesRoomExist at the mylocation - 1
+        - mylocation = mylocation - 1
+    - Otherwise if the direction was "s" and doesRoomExist at the mylocation + 1
+        - mylocation = mylocation + 1
     - Otherwise if the direction was "e" and figure this part out yourself
         - figure this part out yourself
     - Otherwise if the direction was "w" and figure this part out yourself
         - figure this part out yourself
-    - return location
+    - return mylocation
 
 
 Create 4 buttons that say North, South, East, and West. When clicked, these buttons call the move function.
