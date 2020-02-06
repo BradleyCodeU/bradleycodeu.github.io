@@ -23,11 +23,21 @@
 .color-complement-2 { color: #FFAF3B }
 .color-complement-3 { color: #FF9700 }
 .color-complement-4 { color: #FF9700 }
+@font-face {
+   font-family: robo;
+   src: url(/fonts/RobotoCondensed-Light.ttf);
+}
+
+@font-face {
+   font-family: robo;
+   src: url(/fonts/RobotoCondensed-Bold.ttf);
+   font-weight: bold;
+}
 body {
   font-weight: 300 !important;
 	background: #102036 !important;
 	font-size: 1.4rem !important;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: robo, serif;
 	/* font-family: 'Jolly Lodger','Roboto Condensed', 'Verdana','Arial', sans-serif; */
   color:#ffffff!important;
 }
