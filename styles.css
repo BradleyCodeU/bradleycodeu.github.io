@@ -40,21 +40,21 @@ body {
 	/* font-family: 'Jolly Lodger','Roboto Condensed', 'Verdana','Arial', sans-serif; */
   color:#ffffff!important;
 }
-body{
-  font-size: 1.1rem;
-}
+body{font-size: 1.1rem;}
+.navbarHeading { font-size: 1.1rem; }
+.display-1{font-size:2rem;}
 
 /* // Small devices (landscape phones, 576px and up) */
-@include media-breakpoint-up(sm) { body { font-size: 1.2rem; } .navbarHeading { font-size: 1.2rem; } }
-@media (min-width: 576px) { body { font-size: 1.2rem; } .navbarHeading { font-size: 1.2rem; } }
+@include media-breakpoint-up(sm) { body { font-size: 1.2rem; } .navbarHeading { font-size: 1.2rem; } .display-1{font-size:3rem;}}
+@media (min-width: 576px) { body { font-size: 1.2rem; } .navbarHeading { font-size: 1.2rem; } .display-1{font-size:3rem;}}
 /* // Medium devices (tablets, 768px and up) */
-@include media-breakpoint-up(md) { body { font-size: 1.3rem; } .navbarHeading { font-size: 1.3rem; } }
-@media (min-width: 768px) { body { font-size: 1.3rem; } .navbarHeading { font-size: 1.3rem; } }
+@include media-breakpoint-up(md) { body { font-size: 1.3rem; } .navbarHeading { font-size: 1.3rem; } .display-1{font-size:4rem;}}
+@media (min-width: 768px) { body { font-size: 1.3rem; } .navbarHeading { font-size: 1.3rem; } .display-1{font-size:4rem;}}
 /* // Large devices (desktops, 992px and up) */
-@include media-breakpoint-up(lg) { body { font-size: 1.4rem; } .navbarHeading { font-size: 1.4rem; } }
-@media (min-width: 992px) { body { font-size: 1.4rem; } .navbarHeading { font-size: 1.4rem; } }
+@include media-breakpoint-up(lg) { body { font-size: 1.4rem; } .navbarHeading { font-size: 1.4rem; } .display-1{font-size:5rem;}}
+@media (min-width: 992px) { body { font-size: 1.4rem; } .navbarHeading { font-size: 1.4rem; } .display-1{font-size:5rem;}}
 /* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { body { font-size: 1.5rem; } .navbarHeading { font-size: 1.5rem; } }
+@media (min-width: 1200px) { body{ font-size: 1.5rem; } .navbarHeading{ font-size: 1.5rem; } .display-1{font-size:6rem;} }
 
 a{
   /* font-family: 'Griffy', sans-serif; */
