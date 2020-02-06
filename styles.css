@@ -40,23 +40,23 @@ body {
 	/* font-family: 'Jolly Lodger','Roboto Condensed', 'Verdana','Arial', sans-serif; */
   color:#ffffff!important;
 }
-html{
+body{
   font-size: 1.1rem;
 }
 @include media-breakpoint-up(sm) {
-  html {
+  body {
     font-size: 1.2rem;
   }
 }
 
 @include media-breakpoint-up(md) {
-  html {
+  body {
     font-size: 1.3rem;
   }
 }
 
 @include media-breakpoint-up(lg) {
-  html {
+  body {
     font-size: 1.4rem;
   }
 }
