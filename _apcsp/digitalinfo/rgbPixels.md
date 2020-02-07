@@ -25,6 +25,8 @@ Here is the metadata for a 6-bit 4x5 bitmap:
 
 ## Project Details
 
-Using binary, create a bitmap that is 4x4 or larger. Must use two or more colors and you can NOT include black or white. Draw a small image (not just a pattern) OR a letter from your initials. For example, Justin Riley would either draw a pixelated J or a pixelated R.
+Using binary, create a bitmap that is 4x4 or larger. Must use two or more colors and you can NOT include black or white. Draw a small image (not just a pattern) OR a letter from your initials. For example, Justin Riley would either draw a pixelated J OR a pixelated R.
+
 ![Pixel J](/apcsp\digitalinfo\pixelJ.PNG)
+
 ![Pixel R](/apcsp\digitalinfo\pixelR.PNG)
