@@ -435,7 +435,7 @@ Projects:
 - title: textgames
   heading: "# TextGames"
   content: "
-*2 wks*, Vocab: text game, arrays, logical operators, two-dimensional array, global variables, runtime error, syntax error, while loop, logical operators, nested conditionals
+*2 wks*, Vocab: text game, arrays, logical operators, two-dimensional array, global variables, runtime error, syntax error, while loop, logical operators, nested conditionals, dictionary, object
 
 
 
@@ -481,7 +481,7 @@ Projects:
 - title: digitalinfo
   heading: "# DigitalInfo"
   content: "
-*1 wk*, Vocab: bits, bytes, kilobytes, megabytes, gigabytes, lossy compression, lossless compression, heuristic, Huffman coding, metadata, pixel, hexadecimal, RGB,
+*1 wk*, Vocab: bits, bytes, kilobytes, megabytes, gigabytes, lossy compression, lossless compression, heuristic, Huffman coding, metadata, pixel, hexadecimal, RGB, image resolution, bit depth, dictionary, object
 
 
 Resources:
@@ -499,6 +499,10 @@ Projects:
   1. Team-[Foobarv2](/apcsp/digitalinfo/038TextgamesFoobarv2/)
 
   1. Team-[Foobarv3](/apcsp/digitalinfo/foobarv3/)
+
+  1. [RGB Pixels](/apcsp/digitalinfo/rgbPixels/)
+
+
 
 
 "
