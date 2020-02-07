@@ -481,7 +481,7 @@ Projects:
 - title: digitalinfo
   heading: "# DigitalInfo"
   content: "
-*1 wk*, Vocab: bits, bytes, kilobytes, megabytes, gigabytes, lossy compression, lossless compression, heuristic, Huffman coding, metadata, pixel, hexadecimal, RGB, image resolution, bit depth, dictionary, object
+*1 wk*, Vocab: bits, bytes, kilobytes, megabytes, gigabytes, lossy compression, lossless compression, heuristic, Huffman coding, metadata, raster, bitmap, pixel, hexadecimal, RGB, image resolution, bit depth, dictionary, object
 
 
 Resources:
