@@ -19,6 +19,7 @@ Add 3 or 4 mini-games (1 per person in your group). A mini-game could be:
 I recommend creating a function called specialRooms that redirects the player if they are in one of these locations:
 ```
 def specialRooms():
+  global location, quizCompleted, bossDead, roomArray, inventory
   if location == 6 and quizCompleted == False:
     susansQuizGame()
   if location == 105 and bossDead == False:
