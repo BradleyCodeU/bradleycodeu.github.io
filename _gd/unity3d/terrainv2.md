@@ -7,6 +7,7 @@ In addition to the mountains, grass, hills, shrubs, and first/third person camer
 
 - adjust the Directional Light so that Shadows have a Strength somewhere between 0.5 and 0.75. The default setting (1) is too extreme.
 - water
+- Download the Unity Post-Processing Stack [from Github](https://github.com/Unity-Technologies/PostProcessing), unzip it and move the unzipped folder into your Assets folder
 - an underwater Post-Processing Profile that gives the camera a blue haze when underwater. Watch the [How To Create Underwater FX tutorial video](https://drive.google.com/open?id=1lsFiEbqzo0u6EuoXLDo_E9q0xRFRL0j5)
 - give the "normal" Post-Processing Profile bloom, vignette, and some color grading.
 - enable fog by going to Window > Lighting > Settings and checking the Fog checkbox
