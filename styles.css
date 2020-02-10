@@ -53,8 +53,10 @@ body{font-size: 1.1rem;}
 /* // Large devices (desktops, 992px and up) */
 @include media-breakpoint-up(lg) { body { font-size: 1.4rem; } .navbarHeading { font-size: 1.4rem; } .display-1{font-size:5.5rem;}}
 @media (min-width: 992px) { body { font-size: 1.4rem; } .navbarHeading { font-size: 1.4rem; } .display-1{font-size:5.5rem;}}
-/* // Extra large devices (large desktops, 1200px and up) */
+/* // XL devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { body{ font-size: 1.5rem; } .navbarHeading{ font-size: 1.5rem; } .display-1{font-size:6rem;} }
+/* // XXL devices (large desktops, 1600px and up) */
+@media (min-width: 1600px) { body{ font-size: 1.6rem; } .navbarHeading{ font-size: 1.6rem; } .display-1{font-size:6.5rem;} }
 
 a{
   /* font-family: 'Griffy', sans-serif; */
