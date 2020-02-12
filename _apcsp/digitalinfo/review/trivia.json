@@ -1,7 +1,7 @@
 [
   {
     "answer": "array",
-    "question": "a index-numbered list that can hold more than one value at a time"
+    "question": "an index-numbered list that can hold more than one value at a time"
   },
   {
     "answer": "iteration",
@@ -9,7 +9,7 @@
   },
   {
     "answer": "iterate through an array",
-    "question": "accessing each element of array one by one"
+    "question": "accessing each element of an array one by one"
   },
   {
     "answer": "for each loop",
@@ -25,7 +25,7 @@
   },
   {
     "answer": "conditional",
-    "question": "a control flow structure that perform different actions depending on whether a specific Boolean statement evaluates to true or false"
+    "question": "a control flow structure that performs different actions depending on whether a specific Boolean statement evaluates to true or false"
   },
   {
     "answer": "function",
@@ -37,14 +37,17 @@
   },
   {
     "answer": "post-conditional loop",
-    "question": "a loop in which the body executed before the condition is ever tested. For example, in a 'do while' loop the body will ALWAYS run one or more times"
+    "question": "a loop in which the body is executed before the condition is ever tested. For example, in a 'do while' loop the body will ALWAYS run one or more times"
   },
   {
     "answer": "pseudocode",
     "question": "a human-readable description of what a computer program or algorithm will do. Usually written as comments."
   },
+
+
+
   {
-    "answer": "Big Data",
+    "answer": "big data",
     "question": "a broad term for datasets so large or complex that traditional data processing applications are inadequate"
   },
   {
@@ -60,32 +63,32 @@
     "question": "a security incident in which private information is accessed without authorization"
   },
   {
-    "answer": "Caesar Cipher",
+    "answer": "Caesar cipher",
     "question": "a technique for encryption that shifts the alphabet by some number of characters"
   },
   {
-    "answer": "Cipher",
+    "answer": "cipher",
     "question": "the generic term for a technique (or algorithm) that performs encryption"
   },
   {
-    "answer": "Cracking encryption",
-    "question": "When you attempt to decode a secret message without knowing all the specifics of the cipher, you are trying to 'crack' the encryption."
+    "answer": "cracking encryption",
+    "question": "When you attempt to decode a secret message without knowing all the specifics of the cipher"
   },
   {
-    "answer": "Decryption",
+    "answer": "decryption",
     "question": "a process that reverses encryption, taking a secret message and reproducing the original plain text"
   },
   {
-    "answer": "Encryption",
+    "answer": "encryption",
     "question": "a process of encoding messages to keep them secret, so only 'authorized' parties can read it."
   },
   {
-    "answer": "Random Substitution Cipher",
+    "answer": "random substitution cipher",
     "question": "an encryption technique that maps each letter of the alphabet to a randomly chosen other letters of the alphabet."
   },
   {
-    "answer": "Computationally Hard",
-    "question": "a 'hard' problem for a computer is one in which it cannot arrive at a solution in a reasonable amount of time"
+    "answer": "computationally hard",
+    "question": "a problem for a computer in which it cannot arrive at a solution in a reasonable amount of time"
   },
   {
     "answer": "asymmetric encryption",
@@ -96,19 +99,22 @@
     "question": "a mathematical operation that returns the remainder after integer division."
   },
   {
-    "answer": "Private Key",
+    "answer": "private key",
     "question": "In an asymmetric encryption scheme the decryption key is kept private and never shared, so only the intended recipient has the ability to decrypt a message that has been encrypted with a public key."
   },
   {
-    "answer": "Public Key Encryption",
+    "answer": "public key encryption",
     "question": "Used commonly on the web, it allows for secure messages to be sent between parties without having to agree on, or share, a secret key. It uses an asymmetric encryption scheme in which the encryption key is made public, but the decryption key is kept private."
   },
   {
     "answer": "symmetric encryption",
-    "question": "an encryption scheme in which the key used to encrypt data is also used to decrypt (contrast with: asymmetric encryption)"
+    "question": "an encryption scheme in which the key used to encrypt data is also used to decrypt"
   },
+
+
+
   {
-    "answer": "Logical operators",
+    "answer": "logical operators",
     "question": "extra qualifications that can be added to a conditional. For example:  AND, OR, NOT"
   },
   {
@@ -143,6 +149,9 @@
     "answer": "object",
     "question": "a collection of instance variables (data) and methods (getters/setters) that act on those instance variables"
   },
+
+
+
   {
     "answer": "bit",
     "question": "a column in the binary counting system with either a zero or a one. A Binary Digit."
@@ -181,7 +190,7 @@
   },
   {
     "answer": "metadata",
-    "question": "data that describes other data. For example, a digital image may include data that describe the size of the image, number of colors, or resolution."
+    "question": "data that describes other data. For example, a digital image may include data that describes the size of the image, number of colors, or resolution."
   },
   {
     "answer": "raster",
