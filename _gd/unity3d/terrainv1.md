@@ -22,7 +22,7 @@ Follow the directions in [the Unity Standard Assets Characters video](https://dr
 
 To reduce lag, change these Terrain settings:
 
-  - Detail Distance to about 50
-  - Detail Density about 0.2
-  - Tree Distance about 100
-  - Billboard Start about 12
+  - Detail Distance to about 100
+  - Detail Density about 0.77
+  - Tree Distance about 500
+  - Billboard Start about 25
