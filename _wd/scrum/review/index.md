@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Review Game
-permalink: /apcsp/scrum/review/
+permalink: /wd/scrum/review/
 ---
 
 test123
