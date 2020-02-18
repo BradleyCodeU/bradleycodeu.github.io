@@ -9,13 +9,12 @@ title: Pet Startup Project
 In your tester class (tester template here, you will…
 
 1. instantiate 2 or more customers (different membership levels)
-2. instantiate multiple dogs (some with shot records and some without) and associate them with the customers that own them
-3. instantiate multiple items
-4. instantiate multiple sales
-5. output a list of items that are low stock
-6. output a list of items that are past their sell-by date
-7. instantiate 2 or more appointments (some successful and some that will generate output such as “Star Members can make item purchases only, no appointments” and “That appointment time is not available” and “A valid shot record is required to schedule that appointment”)
-8. create a shopping cart with multiple items (some sale items and some not on sale) and output:
+1. instantiate multiple dogs (some with shot records and some without) and associate them with the customers that own them
+1. instantiate multiple items
+1. output a list of items that are low stock
+1. output a list of items that are past their sell-by date
+1. instantiate 2 or more appointments (some successful and some that will generate output such as “Star Members can make item purchases only, no appointments” and “That appointment time is not available” and “A valid shot record is required to schedule that appointment”)
+1. create a shopping cart with multiple items (some sale items and some not on sale) and output:
   - the individual prices for all items
   - the word "sale" and the amount of money saved
   - the total price for the shopping cart (don’t worry about tax)
