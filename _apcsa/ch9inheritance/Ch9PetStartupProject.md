@@ -17,3 +17,5 @@ In your tester class (tester template here) you will…
 1. create a shopping cart with multiple items and output:
   - the individual prices for all items
   - the total price for the shopping cart (don’t worry about tax)
+  - EITHER the amount of star points earned this sale OR the amount of cash back earned this sale
+  - EITHER the total amount of star points OR the total amount of cash back for this customer (you MUST create a second purchase in order to accurately test this)
