@@ -6,7 +6,7 @@ title: Pet Startup Project
 Read the [Pet Store Startup](https://docs.google.com/document/d/1XDHp466QvmM56X6C90JBB-IRpWRjf9vW2Tv9VUUtv5w/edit?usp=sharing) details.
 
 
-In your tester class (tester template here) you will…
+In your tester class ([tester template here](https://trinket.io/library/trinkets/e368f4b498)) you will…
 
 1. instantiate 2 or more customers (different membership levels)
 1. instantiate multiple dogs (some with shot records and some without) and associate them with the customers that own them
