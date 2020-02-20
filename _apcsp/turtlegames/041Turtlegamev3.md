@@ -11,8 +11,9 @@ You have much more freedom with this game. You can change the controls so that (
 
 Here are the required features...
 
-Create a function called reset() and use it to add MORE enemies, reset enemy locations, reset the player location, reset coins, etc. Do NOT reset scores.
-MUST increase the speed of the game with each level. Players and enemies will move forward slightly faster each round. You should probably make players rotate faster too.
-Players and enemies cannot go out of bounds. If they do... they either wrap around, change their heading, or reset the level. Your choice. You can either use [.position() or .pos()](https://docs.python.org/3.3/library/turtle.html?highlight=turtle#turtle.position). to get both the xy coordinates OR use [.xcor() and .ycor()](https://docs.python.org/3.3/library/turtle.html?highlight=turtle#turtle.xcor). to get each separate coordinate.
-Create one or more "guards." A guard is an enemy that follows a set route (for example, walking back and forth next to the goal) and will kill either player if it touches them.
-Have a writer Turtle that writes the current Level on the screen. For example, "Level 1"
+1.  ALL turtles must have an image file as their shape. [Read this tutorial](https://blog.trinket.io/using-images-in-turtle-programs/). For the best result, find small PNG files with transparent backgrounds.
+1.  Create a function called reset() and use it to add MORE enemies, reset enemy locations, reset the player location, reset coins, etc. Do NOT reset scores.
+1.  MUST increase the speed of the game with each level. Players and enemies will move forward slightly faster each round. You should probably make players rotate faster too.
+1.  Players and enemies cannot go out of bounds. If they do... they either wrap around, change their heading, or reset the level. Your choice. You can either use [.position() or .pos()](https://docs.python.org/3.3/library/turtle.html?highlight=turtle#turtle.position). to get both the xy coordinates OR use [.xcor() and .ycor()](https://docs.python.org/3.3/library/turtle.html?highlight=turtle#turtle.xcor). to get each separate coordinate.
+1.  Create one or more "guards." A guard is an enemy that follows a set route (for example, walking back and forth next to the goal) and will kill either player if it touches them.
+1.  Have a writer Turtle that writes the current Level on the screen. For example, "Level 1"
