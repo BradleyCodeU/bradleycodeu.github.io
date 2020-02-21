@@ -509,7 +509,7 @@ Projects:
 - title: turtlegames
   heading: "# TurtleGames"
   content: "
-*2wks*, Vocab: instance, instanciate, object, class, method, logical operators, while loop, event listener, boolean flag, 
+*2wks*, Vocab: instance, instanciate, object, class, method, logical operators, while loop, event listener, boolean flag, scope, local variable, global variable
 
 
 
