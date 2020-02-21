@@ -15,12 +15,13 @@ In addition to the mountains, grass, hills, shrubs, and first/third person camer
 - - In the Post Processing Volume, place a check next to Is Global and drag the "Underwater" profile into the Profile slot. Next, click the Add Effect button at the bottom of the Post Processing Volume. Add bloom, vignette, and some blue color grading.
 - Add a new script to the FirstPersonCharacter. Name this script controlPostProcess.
 
-  ```using UnityEngine.Rendering.PostProcessing;
+  ```
+  using UnityEngine.Rendering.PostProcessing;
   private PostProcessVolume volume;
   volume = gameObject.GetComponent<PostProcessVolume>();
   volume.enabled = true;
   volume.enabled = false;
-```
+  ```
 - your underwater Post-Processing Profile will give the camera a blue haze when underwater. Watch the [How To Create Underwater FX tutorial video](https://drive.google.com/open?id=1lsFiEbqzo0u6EuoXLDo_E9q0xRFRL0j5)
 
 - enable fog by going to Window > Lighting > Settings and checking the Fog checkbox
