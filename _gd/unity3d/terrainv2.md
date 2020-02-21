@@ -14,6 +14,7 @@ In addition to the mountains, grass, hills, shrubs, and first/third person camer
 - In the Post Processing Layer, the Trigger slot should say "FirstPersonCharacter" and you must set the Layer drop-down to Everything.
 - - In the Post Processing Volume, place a check next to Is Global and drag the "Underwater" profile into the Profile slot. Next, click the Add Effect button at the bottom of the Post Processing Volume. Add bloom, vignette, and some blue color grading.
 - Add a new script to the FirstPersonCharacter. Name this script controlPostProcess.
+
   ```using UnityEngine.Rendering.PostProcessing;
   private PostProcessVolume volume;
   volume = gameObject.GetComponent<PostProcessVolume>();
