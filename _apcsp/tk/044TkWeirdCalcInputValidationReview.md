@@ -4,13 +4,27 @@ category: tk
 title: Tk Weird Calc Input Validation Review
 ---
 
-Using Python console commands such as input() and print()
+Resources:
+- [https://effbot.org/tkinterbook/tkinter-classes.htm](https://effbot.org/tkinterbook/tkinter-classes.htm)
+- [https://www.datacamp.com/community/tutorials/gui-tkinter-python](https://www.datacamp.com/community/tutorials/gui-tkinter-python)
 
-1. Ask for number 1
-2. Validate input, repeat the question until valid
-3. Ask for number 2
-4. Validate input, repeat the question until valid
-5. Give the sum of the two numbers
-6. Give the difference between the two numbers
-7. Give the product of the two numbers (the result of multiplication)
-8. If number 2 is not zero, give the quotient (the result of division)
+
+Project Details:
+
+Using Mu or repl.it...
+
+1. Create and Entry widget for number 1 and another Entry widget for number 2
+2. Create a Button widget
+3. Create 4 text Labels
+5. When the Button is pressed:
+   1. if NOT Validate input, print an error message in text Label 1.
+   1. Otherwise, if input is valid:
+      - Give the sum of the two numbers in text Label 1
+      - Give the difference between the two numbers in text Label 2
+      - Give the product of the two numbers (the result of multiplication) in text Label 3
+      - If number 2 is not zero, give the quotient (the result of division) in text Label 4
+
+Your final line of code MUST be mainloop(). This allows someone to simply click on your file and run your app. **mainloop** works kind of like a game loop that keeps the app running.
+```python
+mainloop() #include me as last line!!!
+```
