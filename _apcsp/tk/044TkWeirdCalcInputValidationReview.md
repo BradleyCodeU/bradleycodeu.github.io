@@ -5,6 +5,7 @@ title: Tk Weird Calc Input Validation Review
 ---
 
 Resources:
+- [https://effbot.org/tkinterbook/](https://effbot.org/tkinterbook/)
 - [https://effbot.org/tkinterbook/tkinter-classes.htm](https://effbot.org/tkinterbook/tkinter-classes.htm)
 - [https://www.datacamp.com/community/tutorials/gui-tkinter-python](https://www.datacamp.com/community/tutorials/gui-tkinter-python)
 
