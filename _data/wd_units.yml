@@ -258,7 +258,7 @@ Look out! Here comes the Spider-man”
 
 1. **[Scrum](#scrum)**
 
-
+1. **[Objects](#objects)**
 
 
 "
@@ -292,7 +292,7 @@ Projects:
 "
 - title: scrum
   heading: "# Scrum"
-  content: "*5 weeks*
+  content: "*3 weeks*
 
 1. Team-[Foobar v1](/wd/scrum/foobarv1/)
 
@@ -303,6 +303,17 @@ Projects:
 1. [Castles and Creatures]
 
   "
+  - title: objects
+    heading: "# Objects"
+    content: "*2 weeks*
+
+  1. Chatbot
+
+  1. P5js WebGL
+
+  1. [P5 Game v2]
+
+    "
 
 - title: 4thquarter
   heading: "# 4th Quarter"
@@ -321,7 +332,7 @@ Projects:
 
 1. **[NodeJS](#nodejs)**
 
-1. **[Objects](#objects)**
+
 
 "
 - title: bootstrap
@@ -343,10 +354,3 @@ Projects:
 1. [NodeJS Order Form v2]
 
 "
-- title: objects
-  heading: "# Objects"
-  content: "*3 weeks*
-
-1. [P5 Game v2]
-
-  "
