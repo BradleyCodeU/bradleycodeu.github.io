@@ -5,10 +5,10 @@ title: Tk Weird Calc Input Validation Review
 ---
 
 Resources:
-- [https://effbot.org/tkinterbook/](https://effbot.org/tkinterbook/)
-- [https://effbot.org/tkinterbook/tkinter-classes.htm](https://effbot.org/tkinterbook/tkinter-classes.htm)
-- [https://www.datacamp.com/community/tutorials/gui-tkinter-python](https://www.datacamp.com/community/tutorials/gui-tkinter-python)
-- [https://www.python-course.eu/python_tkinter.php](https://www.python-course.eu/python_tkinter.php)
+- [effbot.org/tkinterbook/](https://effbot.org/tkinterbook/)
+- [effbot.org/tkinterbook/tkinter-classes.htm](https://effbot.org/tkinterbook/tkinter-classes.htm)
+- [datacamp.com/community/tutorials/gui-tkinter-python](https://www.datacamp.com/community/tutorials/gui-tkinter-python)
+- [python-course.eu/python_tkinter.php](https://www.python-course.eu/python_tkinter.php)
 
 
 Project Details:

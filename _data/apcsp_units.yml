@@ -535,6 +535,22 @@ Projects:
 *2 wks*, Vocab: IDLE, reading files, canvas, dictionary, objects, classes, writing files, logical operators
 
 
+Resources:
+
+- [effbot.org/tkinterbook/](https://effbot.org/tkinterbook/)
+
+- [effbot.org/tkinterbook/tkinter-classes.htm](https://effbot.org/tkinterbook/tkinter-classes.htm)
+
+- [datacamp.com/community/tutorials/gui-tkinter-python](https://www.datacamp.com/community/tutorials/gui-tkinter-python)
+
+- [python-course.eu/python_tkinter.php](https://www.python-course.eu/python_tkinter.php)
+
+
+
+
+
+Projects:
+
 1. [TkShapesAndButtons](/apcsp/tk/045TkShapesAndButtons/)
 
 1. [TkWeirdCalc](/apcsp/tk/044TkWeirdCalcInputValidationReview/)
