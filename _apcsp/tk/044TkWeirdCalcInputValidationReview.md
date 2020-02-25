@@ -8,6 +8,7 @@ Resources:
 - [https://effbot.org/tkinterbook/](https://effbot.org/tkinterbook/)
 - [https://effbot.org/tkinterbook/tkinter-classes.htm](https://effbot.org/tkinterbook/tkinter-classes.htm)
 - [https://www.datacamp.com/community/tutorials/gui-tkinter-python](https://www.datacamp.com/community/tutorials/gui-tkinter-python)
+- [https://www.python-course.eu/python_tkinter.php](https://www.python-course.eu/python_tkinter.php)
 
 
 Project Details:
