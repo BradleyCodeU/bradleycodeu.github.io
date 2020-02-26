@@ -21,11 +21,11 @@ In addition to the mountains, grass, hills, shrubs, and first/third person camer
   volume = gameObject.GetComponent<PostProcessVolume>();
   volume.enabled = false;
   ```
-- your underwater Post-Processing Profile will give the camera a blue haze when underwater. Watch the [How To Create Underwater FX tutorial video](https://drive.google.com/open?id=1lsFiEbqzo0u6EuoXLDo_E9q0xRFRL0j5). NOTICE that this tutorial version *is for an older version*, but the video will demonstrate how to setup the water as a trigger for the post-processing.
+- your underwater Post-Processing Profile will give the camera a blue haze when underwater. Watch the [How To Create Underwater FX tutorial video](https://drive.google.com/open?id=1lsFiEbqzo0u6EuoXLDo_E9q0xRFRL0j5). NOTICE that this tutorial version *is for an older version of Unity*, but the video will demonstrate how to setup the water as a trigger for the post-processing.
 
 - enable fog by going to Window > Lighting > Settings and checking the Fog checkbox
 
-- SketchUp house (with brick, wood, glass, etc textures, with cut-out doors the player can walk through, and with mesh collider walls so the player can't walk through them). Once your SketchUp house is built, click File > Export > 3D Model. Select your Unity project assets folder, then click Options. Check the Export Two-sided Faces checkbox. Then click OK and Export.
+- SketchUp house (with brick, wood, glass, etc textures, with cut-out doors the player can walk through, and with mesh collider walls so the player can't walk through them). Once your SketchUp house is built, click File > Export > 3D Model. Select *OBJ* format (not DAE). Select your Unity project assets folder, then click Options. Check the Export Two-sided Faces checkbox. Then click OK and Export.
 
 - 3 or more collectibles (review the Roll A Ball videos if you don't remember how)
 - Make your collectibles glow by adding a child Point Light or Area Light
