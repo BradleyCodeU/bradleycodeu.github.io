@@ -510,9 +510,6 @@ Projects:
 
   1. [RGB Pixels](/apcsp/digitalinfo/rgbPixels/)
 
-
-
-
 "
 - title: turtlegames
   heading: "# TurtleGames"
@@ -529,13 +526,15 @@ Resources:
 
 Projects:
 
-1. [039Turtlegamev1](/apcsp/turtlegames/039Turtlegamev1/)
+1. [Turtlegame v1](/apcsp/turtlegames/039Turtlegamev1/)
 
-1. [040Turtlegamev2](/apcsp/turtlegames/040Turtlegamev2/)
+1. [Turtlegame v2](/apcsp/turtlegames/040Turtlegamev2/)
 
-1. [041Turtlegamev3](/apcsp/turtlegames/041Turtlegamev3/)
+1. [Turtlegame v3](/apcsp/turtlegames/041Turtlegamev3/)
 
 1. [Create Practice 3](/apcsp/turtlegames/CreatePractice3/)
+
+1. [SoloLrn Python Basic Concepts](/apcsp/turtlegames/SoloLrnPythonBasicConcepts/)
 "
 - title: tk
   heading: "# Tk"
@@ -559,17 +558,19 @@ Resources:
 
 Projects:
 
-1. [TkShapesAndButtons](/apcsp/tk/045TkShapesAndButtons/)
+1. [SoloLrn Control Structures](/apcsp/tk/SoloLrnControlStructures/)
 
-1. [TkWeirdCalc](/apcsp/tk/044TkWeirdCalcInputValidationReview/)
+1. [Tk Shapes And Buttons](/apcsp/tk/045TkShapesAndButtons/)
 
-1. [TkMenuCalculator1](/apcsp/tk/113TkMenuCalculator1/)
+1. [Tk Weird Calc](/apcsp/tk/044TkWeirdCalcInputValidationReview/)
 
-1. Pair-[TkAppWithInputValidation](/apcsp/tk/046TkAppWithInputValidation/)
+1. [Tk Menu Calculator1](/apcsp/tk/113TkMenuCalculator1/)
 
-1. Pair-[TkTryLoadFile](/apcsp/tk/107TkTryLoadFiles/)
+1. Pair-[Tk App With Input Validation](/apcsp/tk/046TkAppWithInputValidation/)
 
-1. Pair-[TkPollv1.0](/apcsp/tk/047TkPollv1/)
+1. Pair-[Tk Try Load File](/apcsp/tk/107TkTryLoadFiles/)
+
+1. Pair-[Tk Poll v1.0](/apcsp/tk/047TkPollv1/)
 
 1. Pair-Pick-[TkAddressBook]() or [TkMenuOrder]()
 
