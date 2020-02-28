@@ -13,7 +13,8 @@ Using Mu or repl.it...
 - Create a "Rectangle" button that draws a rect when pressed.
 - Create a "Square" button that draws a square when pressed.
 - Create a "Quit" button with command=tk.destroy
--
+
+
 When the project loads, you should only see the Triangle and the four buttons. Shapes appear only when their button is pressed.
 
 Your final line of code MUST be mainloop(). This allows someone to simply click on your file and run your app. **mainloop** works kind of like a game loop that keeps the app running.
