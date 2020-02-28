@@ -14,4 +14,4 @@ You MUST include...
 - an Entry widget for each item (so the user can say how many they want).
 - a Button
 
-When the customer clicks the SUBMIT button, you MUST validate the numbers, calculate the total price, create a popup that tells the customer the total price.
+When the customer clicks the SUBMIT button, you MUST validate the numbers, calculate the total price, create messagebox that tells the customer the total price.
