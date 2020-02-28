@@ -4,15 +4,19 @@ category: tk
 title: Tk Weird Calc Input Validation Review
 ---
 
-Resources:
-- [effbot.org/tkinterbook/](https://effbot.org/tkinterbook/)
-- [effbot.org/tkinterbook/tkinter-classes.htm](https://effbot.org/tkinterbook/tkinter-classes.htm)
-- [datacamp.com/community/tutorials/gui-tkinter-python](https://www.datacamp.com/community/tutorials/gui-tkinter-python)
-- [python-course.eu/python_tkinter.php](https://www.python-course.eu/python_tkinter.php)
-
 Watch these [Tkinter tutorial videos](https://drive.google.com/open?id=1gb9k1pepJA0bC8QmTcXv03PY7UyIBypb)
 
-Project Details:
+Follow the directions in the [Tk lesson 4 Grid, Entry, and Messagebox video](https://drive.google.com/file/d/18mbOExKqetH_uKfzx0EoMf6QpucpWVGk/view?usp=sharing) and your finished Tkinter app should look something [like this](https://drive.google.com/file/d/1E0xU9b5N5_I6BCC73QEDc8hZNQA_W_WT/view)
+
+NOTE: In order to create a messagebox you will need an extra import…
+```
+from tkinter import *
+from tkinter import messagebox # this is required!!!!
+```
+
+[Click here](https://www.javatpoint.com/python-tkinter-messagebox) to learn how to create a messagebox
+
+## Project Details:
 
 Using Mu or repl.it...
 
@@ -25,6 +29,13 @@ Using Mu or repl.it...
       - Give the difference between the two numbers
       - Give the product of the two numbers (the result of multiplication)
       - Give the quotient (the result of division)
+
+
+Remember:
+  - Your Tkinter app will NOT use input() at all. You will use Tkinter text entry boxes to collect input.
+  - Your Tkinter app will NOT use print() at all. All output messages should appear as messageboxes.
+  - Because everything in Tkinter occurs based on button clicks, you will NOT have any while loops at all.
+
 
 Your final line of code MUST be mainloop(). This allows someone to simply click on your file and run your app. **mainloop** works kind of like a game loop that keeps the app running.
 ```python

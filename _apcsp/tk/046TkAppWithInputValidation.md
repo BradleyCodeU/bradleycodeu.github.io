@@ -3,13 +3,6 @@ layout: project
 category: tk
 title: Tk App With Input Validation
 ---
-
-Using Mu, create a simple Tkinter app that has two (or more) text boxes for inputting numbers, does input validation, creates popup messageboxes, and performs a calculation.
-
-  - Your Tkinter app will NOT use input() at all. You will use Tkinter text entry boxes to collect input.
-  - Your Tkinter app will NOT use print() at all. All output messages should appear as messageboxes.
-  - Because everything in Tkinter occurs based on button clicks, you will NOT have any while loops at all.
-
 Follow the directions in the Tk lesson 4 [Grid, Entry, and Messagebox video](https://drive.google.com/file/d/18mbOExKqetH_uKfzx0EoMf6QpucpWVGk/view?usp=sharing) and your finished Tkinter app should look [something like this ](https://drive.google.com/open?id=1E0xU9b5N5_I6BCC73QEDc8hZNQA_W_WT)
 
 NOTE: In order to create a messagebox you will need an extra import...
@@ -18,6 +11,16 @@ from tkinter import *
 from tkinter import messagebox #this is required!!!!
 ```
 [Click Here](http://interactivepython.org/runestone/static/CS152f17/GUIandEventDrivenProgramming/02_standard_dialog_boxes.html) to learn how to create a messagebox
+
+## Project Details
+
+
+Using Mu, create a simple Tkinter app that has two (or more) text boxes for inputting numbers, does input validation, creates popup messageboxes, and performs a calculation.
+
+  - Your Tkinter app will NOT use input() at all. You will use Tkinter text entry boxes to collect input.
+  - Your Tkinter app will NOT use print() at all. All output messages should appear as messageboxes.
+  - Because everything in Tkinter occurs based on button clicks, you will NOT have any while loops at all.
+
 
 Some ideas for your app...
 

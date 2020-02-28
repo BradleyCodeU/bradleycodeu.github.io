@@ -542,16 +542,18 @@ Projects:
 *2 wks*, Vocab: IDLE, reading files, canvas, dictionary, objects, classes, writing files, logical operators
 
 
+
 Resources:
 
-- [effbot.org/tkinterbook/](https://effbot.org/tkinterbook/)
+- [effbot.org/tkinterbook](https://effbot.org/tkinterbook/)
 
-- [effbot.org/tkinterbook/tkinter-classes.htm](https://effbot.org/tkinterbook/tkinter-classes.htm)
+- [Tkinter Widget Classes](https://effbot.org/tkinterbook/tkinter-classes.htm)
 
-- [datacamp.com/community/tutorials/gui-tkinter-python](https://www.datacamp.com/community/tutorials/gui-tkinter-python)
+- [Introduction to GUI With Tkinter in Python](https://www.datacamp.com/community/tutorials/gui-tkinter-python)
 
-- [python-course.eu/python_tkinter.php](https://www.python-course.eu/python_tkinter.php)
+- [Python Tkinter Introduction](https://www.python-course.eu/python_tkinter.php)
 
+- [Tkinter messagebox](https://www.javatpoint.com/python-tkinter-messagebox)
 
 
 
@@ -566,7 +568,7 @@ Projects:
 
 1. [Tk Menu Calculator1](/apcsp/tk/113TkMenuCalculator1/)
 
-1. Pair-[Tk App With Input Validation](/apcsp/tk/046TkAppWithInputValidation/)
+1. [Tk App With Input Validation](/apcsp/tk/046TkAppWithInputValidation/)
 
 1. Pair-[Tk Try Load File](/apcsp/tk/107TkTryLoadFiles/)
 
