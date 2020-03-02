@@ -1,6 +1,6 @@
 ---
 layout: project
-category: swift
+category: swift2
 title: SoloLrn Swift Object Oriented Prog
 ---
 

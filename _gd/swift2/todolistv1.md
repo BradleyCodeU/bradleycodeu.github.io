@@ -1,6 +1,6 @@
 ---
 layout: project
-category: swift
+category: swift2
 title: Todo List v1
 ---
 _Note: the following directions were created for Xcode version 11.3_
