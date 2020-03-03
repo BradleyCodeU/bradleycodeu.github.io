@@ -21,3 +21,14 @@ When the customer clicks the SUBMIT button
   - calculate the total price
   - create a messagebox that tells the customer the total price
   - if invalid numbers, display an error message
+
+### Remember:
+    - Your Tkinter app will NOT use input() at all. You will use Tkinter text entry boxes to collect input.
+    - Your Tkinter app will NOT use print() at all. All output messages should appear as messageboxes.
+    - Because everything in Tkinter occurs based on button clicks, you will NOT have any while loops at all.
+
+
+Your final line of code MUST be mainloop(). This allows someone to simply click on your file and run your app. **mainloop** works kind of like a game loop that keeps the app running.
+```python
+mainloop() #include me as last line!!!
+```

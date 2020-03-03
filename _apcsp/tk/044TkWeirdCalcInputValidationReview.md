@@ -20,7 +20,7 @@ from tkinter import messagebox # this is required!!!!
 
 Using Mu or repl.it...
 
-1. Create an Entry widget (you may NOT use Spinbox for this project) for number 1 and another Entry widget for number 2
+1. Create an Entry widget (you may NOT use Spinboxes for this project) for number 1 and another Entry widget for number 2
 2. Create a Button widget
 3. When the Button is pressed:
    1. if NOT Validate input, create a messagebox that will show an error. Check that user has input numbers and that number 2 is not zero.
@@ -31,7 +31,7 @@ Using Mu or repl.it...
       - Give the quotient (the result of division)
 
 
-Remember:
+### Remember:
   - Your Tkinter app will NOT use input() at all. You will use Tkinter text entry boxes to collect input.
   - Your Tkinter app will NOT use print() at all. All output messages should appear as messageboxes.
   - Because everything in Tkinter occurs based on button clicks, you will NOT have any while loops at all.

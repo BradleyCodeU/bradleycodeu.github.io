@@ -15,11 +15,11 @@ from tkinter import messagebox #this is required!!!!
 ## Project Details
 
 
-Using Mu, create a simple Tkinter app that has two (or more) text boxes for inputting numbers, does input validation, creates popup messageboxes, and performs a calculation.
-
-  - Your Tkinter app will NOT use input() at all. You will use Tkinter text entry boxes to collect input.
-  - Your Tkinter app will NOT use print() at all. All output messages should appear as messageboxes.
-  - Because everything in Tkinter occurs based on button clicks, you will NOT have any while loops at all.
+Using Mu, create a simple Tkinter app that:
+  1. has two (or more) Entry boxes for inputting numbers
+  2. does input validation
+  3. performs a calculation
+  4. creates popup messageboxes
 
 
 Some ideas for your app...
@@ -41,7 +41,15 @@ NOTE: If the user inputs "banana", your input validation <strong>MUST</strong> p
 
 The app <strong>must NOT</strong> crash from a runtime error if the user inputs a string <strong>OR</strong> a zero.
 
-Your final line of code must be <strong>mainloop()</strong>. This allows someone to simply click on your file and run your app. mainloop works kind of like a game loop that keeps the app running.
+### Remember:
+  - Your Tkinter app will NOT use input() at all. You will use Tkinter text entry boxes to collect input.
+  - Your Tkinter app will NOT use print() at all. All output messages should appear as messageboxes.
+  - Because everything in Tkinter occurs based on button clicks, you will NOT have any while loops at all.
+
+
+Your final line of code MUST be mainloop(). This allows someone to simply click on your file and run your app. **mainloop** works kind of like a game loop that keeps the app running.
 ```python
+mainloop() #include me as last line!!!
+```
 mainloop() #include me as last line!!!
 ```

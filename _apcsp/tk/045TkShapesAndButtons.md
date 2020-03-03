@@ -18,6 +18,12 @@ Using Mu or repl.it...
 
 When the project loads, you should only see the Triangle and the four buttons. Shapes appear only when their button is pressed.
 
+### Remember:
+  - Your Tkinter app will NOT use input() at all. You will use Tkinter text entry boxes to collect input.
+  - Your Tkinter app will NOT use print() at all. All output messages should appear as messageboxes.
+  - Because everything in Tkinter occurs based on button clicks, you will NOT have any while loops at all.
+
+
 Your final line of code MUST be mainloop(). This allows someone to simply click on your file and run your app. **mainloop** works kind of like a game loop that keeps the app running.
 ```python
 mainloop() #include me as last line!!!
