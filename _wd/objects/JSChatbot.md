@@ -27,3 +27,7 @@ Next, create a while loop that creates the game loop. Inside the while loop:
   - [Prompt](https://www.w3schools.com/jsref/met_win_prompt.asp) the user to ask a question and save their input in userinput
   - if userinput equals "q" or "quit"
     - break out of the loop
+
+
+### If you have already completed 1 or more Computer Science classes...
+Create a counter to track the number of keywords that userinput contains. If the count is zero, then display a default message such as "Sorry, I don't understand." Reset the counter each time the loop repeats.
