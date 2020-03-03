@@ -16,10 +16,12 @@ from tkinter import messagebox #this is required!!!!
 
 
 Using Mu, create a simple Tkinter app that:
+  1. has a label with the name of the app (for example, "BMI calculator")
   1. has two (or more) Entry boxes for inputting numbers
-  2. does input validation
-  3. performs a calculation
-  4. creates popup messageboxes
+  1. has labels for each Entry box
+  1. does input validation
+  1. performs a calculation
+  1. creates popup messageboxes
 
 
 Some ideas for your app...
