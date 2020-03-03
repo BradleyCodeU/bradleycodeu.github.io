@@ -11,7 +11,13 @@ Display a menu with prices for THREE items (for example, burger $4.99, chicken s
 
 You MUST include...
 - Labels for item names and prices
-- an Entry widget for each item (so the user can say how many they want).
+- an Entry widget for each item so that the user can say how many they want (you may NOT use Spinboxes)
 - a Button
 
-When the customer clicks the SUBMIT button, you MUST validate the numbers, calculate the total price, create messagebox that tells the customer the total price.
+Create a function called isValidNumber that requires one argument: userinput. It returns true if the number can be converted to a number without crashing, otherwise it returns false.
+
+When the customer clicks the SUBMIT button
+  - you MUST validate the numbers
+  - calculate the total price
+  - create a messagebox that tells the customer the total price
+  - if invalid numbers, display an error message
