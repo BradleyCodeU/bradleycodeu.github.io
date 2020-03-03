@@ -4,8 +4,8 @@ category: turtlegames
 title: Create Practice 3
 ---
 Write a reflection of your iterative (v1, v2, etc) development process for EITHER:
-  - your team's text-based game
   - your turtle game
+  - your team's text-based game
 
 ### You MUST turn in THREE files for this project:
 
@@ -13,7 +13,7 @@ Write a reflection of your iterative (v1, v2, etc) development process for EITHE
 
 1. Your Python code as a PDF marked with an oval and a rectangle:
   - Use [bakerfranke.github.io/codePrint/](https://bakerfranke.github.io/codePrint/). Tutorial video [here](https://drive.google.com/file/d/13X1RYJmzUXzpP2r11ysqAUzXLZayJkuD/view)
-  - Mark with an OVAL the segment of program code that implements the algorithm you created for your program that integrates other algorithms and integrates mathematical and/or logical concepts.
+  - Mark with an OVAL the segment of program code that implements the _essential_ algorithm you created for your program that integrates other algorithms and integrates mathematical and/or logical concepts.
   - Mark with a RECTANGLE the segment of program code that represents an abstraction you developed individually on your own.
   - Save your code marked with an oval and a rectangle as a PDF file
   - Turn in your PDF file
