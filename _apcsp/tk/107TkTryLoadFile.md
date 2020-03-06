@@ -4,11 +4,11 @@ category: tk
 title: Tk Try Load File
 ---
 
-I recommend switching to IDLE for this project (its already installed on your PC), because Mu will save your text file in a weird place. When you run this code for the first time...
+I recommend switching to IDLE for this project (it's already installed on your PC), because Mu will save your text file in a _weird_ place. When you run this code for the first time...
 ```
 file = open("data.txt", "w")   #correct way to open file for writing (or create new file)
 ```
-...Mu will create the new data.txt file here: C:\Users\yourStudentIdNumber\mu_code\data.txt This only happens with Mu. With other IDEs (like Python IDLE) your data.txt file will be created in the same location as your "poll2.py" file. You can test this by simply double-clicking your "poll2.py" file to run the app. This is what we want.
+...Mu will create the new data.txt file here: `C:\Users\yourStudentIdNumber\mu_code\data.txt` This only happens with Mu. With other IDEs (like Python IDLE) your data.txt file will be created in the same location as your "poll2.py" file. You can test this by simply double-clicking your "poll2.py" file to run the app. This is what we want.
 Do NOT try fixing this Mu issue by listing the full location...
 ```
 file = open("C:\Users\rileyju\Desktop\data.txt", "w")   #do NOT do this
