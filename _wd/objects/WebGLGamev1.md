@@ -9,8 +9,6 @@ Resources:
 - [w3schools JS Classes](https://www.w3schools.com/js/js_classes.asp)
 
 
-
-
 [Click here](https://glitch.com/edit/#!/remix/3dp5) to remix the starter project
 
 Pick any 3 of the following shapes:
@@ -22,7 +20,7 @@ Pick any 3 of the following shapes:
 - ellipsoid()
 - torus()
 
-Add 5 or more of each shape to your game (a total of 15 shapes or more). Search the p5js reference (Links to an external site.) if you need help with using these shapes.
+Add 5 or more of your selected shapes to your game (a total of 15 shapes or more). Search the [p5js reference](https://p5js.org/reference/) if you need help with using these shapes.
 
 Each shape MUST have:
 
