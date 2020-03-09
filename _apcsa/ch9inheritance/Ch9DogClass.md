@@ -23,7 +23,7 @@ BE SPECIFIC! You may NOT name your subclass something basic/generic such as: Dog
 - Therapy Dog
 
 
-"The purpose of inheritance is to model objects with different behavior. When students first learn about inheritance, they have a tendency to overuse it, by creating multiple classes even though the variation could be expressed with a simple instance variable."
+> "The purpose of inheritance is to model objects with different behavior. When students first learn about inheritance, they have a tendency to overuse it, by creating multiple classes even though the variation could be expressed with a simple instance variable."
 
 Your new subclass must contain a minimum of the following:
 
