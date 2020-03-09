@@ -12,6 +12,8 @@ Use the super class Dog to create a new subclass and test all subclass methods i
 
 Remember that a subclass is for objects with new/different BEHAVIORS. Think about types of [dogs that have jobs](https://en.wikipedia.org/wiki/Working_dog), NOT just dog breeds. Breeds only vary in size, shape, color, but all share the same essential behaviors.
 
+BE SPECIFIC! You may NOT name your subclass something basic/generic such as: DogJob, JobDog, or WorkingDog.
+
 "The purpose of inheritance is to model objects with different behavior. When students first learn about inheritance, they have a tendency to overuse it, by creating multiple classes even though the variation could be expressed with a simple instance variable."
 
 Your new subclass must contain a minimum of the following:
