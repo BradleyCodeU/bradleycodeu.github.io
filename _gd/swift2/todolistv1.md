@@ -178,6 +178,8 @@ Another way to get the same split-screen is to click the "Add Editor On Right" b
 
 If necessary, you can drag a file from the Navigator area to the top of either Editor window.
 
+![drag a file from the Navigator area to the top of either Editor window](/gd/swift/img/splitscreen3.gif)
+
 #### Let's create an outlet
 
 In your storyboard, select the text field. While holding the Control button, drag from the text field on your canvas to the code display in the editor on the right, stopping the drag at the line below the class definition (```class ViewController: UIViewController```).
