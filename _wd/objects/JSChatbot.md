@@ -18,15 +18,15 @@ let dan = {
 
 Create a variable named userinput and set it to "hello"
 
-Next, create a while loop that creates the game loop. Inside the while loop:
+Next, create a [while loop](https://www.w3schools.com/js/js_loop_while.asp) that creates the game loop. Inside the while loop:
+  - [Prompt](https://www.w3schools.com/jsref/met_win_prompt.asp) the user to ask a question and save their input in userinput
   - Convert userinput to lowercase
   - Create a [for-each-in loop](https://www.w3schools.com/jsref/jsref_forin.asp) that loops through each keyword
     - if userinput contains a keyword
       - let reply = dan[keyword]
       - create an alert that prints the reply
-  - [Prompt](https://www.w3schools.com/jsref/met_win_prompt.asp) the user to ask a question and save their input in userinput
-  - if userinput equals "q" or "quit"
-    - break out of the loop
+  - if userinput equals "q" or "quit" or "bye"
+    - [break out of the loop](https://www.w3schools.com/jsref/jsref_break.asp)
 
 
 ### If you have already completed 1 or more Computer Science classes...

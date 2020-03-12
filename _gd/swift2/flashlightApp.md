@@ -152,5 +152,9 @@ The buttonPressed is now so much more readable and concise:
 }
 ```
 
-Finally, in override func viewDidLoad()...
+In override func viewDidLoad()...
 remove ```view.backgroundColor = .darkGray``` and call updateUI() so that background color gets set and the button says TURN ON as soon as the app loads.
+
+## Count Taps and Change the 'On' Color
+
+The final requirement for this project is to create a counter and change the 'on' color after 5 or more taps. Select any color (other than black or white) and use that color if the counter is greater than 5 and the light is on.
