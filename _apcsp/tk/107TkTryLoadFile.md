@@ -23,7 +23,7 @@ Before you begin coding:
 Create a function called tryLoadFile that requires one argument: filename. The function returns a string that contains the file text if it was able to open the file. Otherwise it returns False.
 - You will need to use try/except when you open the file, otherwise it could crash with a FileNotFound error.
 - Once you open the text file, you can read the file into a string.
-- Read this tutorial: [readingFilesInPython.md](readingFilesInPython.md)
+- Read this tutorial: [readingFilesInPython.md](/apcsp/tk/readingFilesInPython/)
 - Here is a demo of reading a file into a string: [https://trinket.io/library/trinkets/d60a3d3251](https://trinket.io/library/trinkets/d60a3d3251)
 
 
