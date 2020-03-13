@@ -7,6 +7,7 @@ Resources:
 - [p5js 3D Geometries](https://p5js.org/examples/3d-geometries.html)
 - [p5js Array of Objects](https://p5js.org/examples/objects-array-of-objects.html)
 - [w3schools JS Classes](https://www.w3schools.com/js/js_classes.asp)
+- [Coding Train WebGL in p5js tutorial videos](https://drive.google.com/open?id=104JGFnCCfeQJa5dEkm0Tyrj25R7mVwEM)
 
 
 [Click here](https://glitch.com/edit/#!/remix/3dp5) to remix the starter project
