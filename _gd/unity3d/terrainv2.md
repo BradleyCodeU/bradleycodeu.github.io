@@ -7,7 +7,7 @@ In addition to the mountains, grass, hills, shrubs, and first/third person camer
 
 - adjust the Directional Light so that Shadows have a Strength somewhere between 0.5 and 0.75. The default setting (1) is too extreme.
 
-- water
+- Water. [Watch the tutorial](https://drive.google.com/open?id=1o_n-_BgOu_1RtUqavS9ubGz63pca5R0V)
 
 - Download the Unity Post-Processing Stack [from Github](https://github.com/Unity-Technologies/PostProcessing), unzip it and move the unzipped folder into your Assets folder
 - Go to Assets > Create > Post Processing Profile and name it "Underwater"
