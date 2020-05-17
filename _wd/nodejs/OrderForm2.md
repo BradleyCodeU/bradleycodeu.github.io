@@ -5,7 +5,7 @@ title: Order Form 2
 ---
 Continue your NodeJS Order Form project.
 
-Copy client.js, orders.json, and server.js from [https://glitch.com/edit/#!/basic-node-project](https://glitch.com/edit/#!/basic-node-project)
+Copy client.js, orders.json, and server.js from [https://glitch.com/edit/#!/remix/basic-node-project](https://glitch.com/edit/#!/remix/basic-node-project)
 
 Add two new sections that are hidden at first.
 

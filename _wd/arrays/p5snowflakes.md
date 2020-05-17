@@ -12,6 +12,6 @@ Watch these YouTube tutorials:
   - [Arrays and Loops](https://drive.google.com/open?id=1zv0LwoM1KQxh4MN_ruJIUO8NWjVC1KlT)
   - [Arrays of Objects](https://drive.google.com/open?id=1SRHG_ogvscfzO7RaJQa16lagWqquK8YN)
 
-Remix this Glitch project: [https://glitch.com/edit/#!/p5snowflakes](https://glitch.com/edit/#!/p5snowflakes)
+Click to remix the Glitch starter project: [https://glitch.com/edit/#!/remix/p5snowflakes](https://glitch.com/edit/#!/remix/p5snowflakes)
 
 Edit the script.js file to create a snow falling animation. Then add you own image and turn the snowflakes into Shrek heads or Thanos cars or whatever you'd like.

@@ -18,7 +18,7 @@ Your first draft should have:
   - the background turns red if you lose AND turns green if you win
 
 
-Click here to remix the Glitch starter project: [https://glitch.com/edit/#!/remix/p5](https://glitch.com/edit/#!/remix/p5)
+Click here to remix the Glitch starter project: [https://glitch.com/edit/#!/remix/p5project](https://glitch.com/edit/#!/remix/p5project)
 
 
 Watch these tutorials:
