@@ -7,7 +7,7 @@ title: Bootstrap Colors
 <div id="main" class="w3-col l10 m12">
 <h2>Text Colors</h2>
 <p>Bootstrap 4 has some contextual classes that can be used to provide "meaning through colors".</p>
-<p><span style="background-color: #ffff99;">The classes for text colors are: .text-muted, .text-primary, .text-success, .text-info, .text-warning, .text-danger, .text-secondary, .text-white, .text-dark, .text-body (default body color/often black) and .text-light</span>:</p>
+<p><span >The classes for text colors are: .text-muted, .text-primary, .text-success, .text-info, .text-warning, .text-danger, .text-secondary, .text-white, .text-dark, .text-body (default body color/often black) and .text-light</span>:</p>
 <div class="w3-example">
 <h3>Example</h3>
 <div class="w3-white w3-padding notranslate fix">
@@ -29,7 +29,7 @@ title: Bootstrap Colors
 </div>
 <hr>
 <h2>Background Colors</h2>
-<p><span style="background-color: #ffff99;">The classes for background colors are: .bg-primary, .bg-success, .bg-info, .bg-warning, .bg-danger, .bg-secondary, .bg-dark and .bg-light</span>.</p>
+<p><span >The classes for background colors are: .bg-primary, .bg-success, .bg-info, .bg-warning, .bg-danger, .bg-secondary, .bg-dark and .bg-light</span>.</p>
 <p>Note that background colors do not set the text color, so in some cases you'll want to use them together with a<span> </span>.text-*<span> </span>class.</p>
 <div class="w3-example">
 <h3>Example</h3>
@@ -38,7 +38,7 @@ title: Bootstrap Colors
 </div>
 <hr>
 <h2>Container Border and Color</h2>
-<p><span style="background-color: #ffff99;">A single html object (like a div) can have several classes. Multiple Bootstrap classes, such as background color and text color, are often used together with containers</span>. In the example below, each div is a container with size 3 padding, and size 3 y-axis margins. The first div will have a border. The second with have a dark background and white text. Click the Try it Yourself link to experiment with adding/removing Bootstrap classes.</p>
+<p><span >A single html object (like a div) can have several classes. Multiple Bootstrap classes, such as background color and text color, are often used together with containers</span>. In the example below, each div is a container with size 3 padding, and size 3 y-axis margins. The first div will have a border. The second with have a dark background and white text. Click the Try it Yourself link to experiment with adding/removing Bootstrap classes.</p>
 <div class="w3-example">
 <h3>Example</h3>
 <div class="w3-code notranslate htmlHigh">

@@ -4,8 +4,8 @@ category: bootstrap
 title: Bootstrap Grid
 ---
 <h2>Bootstrap 4 Grid System</h2>
-<p><span style="background-color: #ffff99;">Bootstrap's grid system divides the page into 12 columns.</span></p>
-<p><span style="background-color: #ffff99;">If you do not want to use all 12 columns individually, you can group the columns together to create wider columns:</span></p>
+<p><span >Bootstrap's grid system divides the page into 12 columns.</span></p>
+<p><span >If you do not want to use all 12 columns individually, you can group the columns together to create wider columns:</span></p>
 <div class="table-responsive">
 <table class="table grid" style="width: 100%;">
 <tbody>
@@ -43,7 +43,7 @@ title: Bootstrap Grid
 </table>
 </div>
 <p>The grid system is responsive, and the columns will re-arrange automatically depending on the screen size.</p>
-<p><span style="background-color: #ffff99;">Try to make sure that your column sizes add up to 12. If the total sum is less than 12, it's not a problem because it is not required that you use all 12 available columns. If the total sum is more than 12, it's not a problem because the extra columns will automatically begin a new row.</span></p>
+<p><span >Try to make sure that your column sizes add up to 12. If the total sum is less than 12, it's not a problem because it is not required that you use all 12 available columns. If the total sum is more than 12, it's not a problem because the extra columns will automatically begin a new row.</span></p>
 <h3>Example</h3>
 <div class="w3-code notranslate htmlHigh">
 <span class="tagnamecolor"><span class="tagcolor">&lt;</span>div<span class="attributecolor"> class<span class="attributevaluecolor">="row"</span></span><span class="tagcolor">&gt;</span></span><br>  <span class="tagnamecolor"><span class="tagcolor">&lt;</span>div<span class="attributecolor"> class<span class="attributevaluecolor">="col-6"</span></span><span class="tagcolor">&gt;Size Six Column</span></span><span class="tagnamecolor"><span class="tagcolor">&lt;</span>/div<span class="tagcolor">&gt;</span></span><br>  <span class="tagnamecolor"><span class="tagcolor">&lt;</span>div<span class="attributecolor"> class<span class="attributevaluecolor">="col-2"</span></span><span class="tagcolor">&gt;</span></span>Size Two Column<span class="tagnamecolor"><span class="tagcolor">&lt;</span>/div<span class="tagcolor">&gt;</span></span><br>  <span class="tagnamecolor"><span class="tagcolor">&lt;</span>div<span class="attributecolor"> class<span class="attributevaluecolor">="col-4"</span></span><span class="tagcolor">&gt;</span></span>Size Four Column<span class="tagnamecolor"><span class="tagcolor">&lt;</span>/div<span class="tagcolor">&gt;</span></span><br><span class="tagnamecolor"><span class="tagnamecolor"><span class="tagcolor">&lt;</span>/div<span class="tagcolor">&gt;</span></span></span>
@@ -68,7 +68,7 @@ title: Bootstrap Grid
 <li>.col-xl- (xlarge devices - screen width equal to or greater than 1200px)</li>
 </ul>
 <p>The classes above can be combined to create more dynamic and flexible layouts.</p>
-<p><span style="background-color: #ffff99;"><strong>Tip:</strong> Each class scales up, so if you wish to set the same widths for sm and md, you only need to specify sm.</span></p>
+<p><span ><strong>Tip:</strong> Each class scales up, so if you wish to set the same widths for sm and md, you only need to specify sm.</span></p>
 <h3>Example</h3>
 <div class="w3-code notranslate htmlHigh">
 <span class="tagnamecolor"><span class="tagcolor">&lt;</span>div<span class="attributecolor"> class<span class="attributevaluecolor">="row"</span></span><span class="tagcolor">&gt;</span></span><br>  <span class="tagnamecolor"><span class="tagcolor">&lt;</span>div<span class="attributecolor"> class<span class="attributevaluecolor">="col-md-6"</span></span><span class="tagcolor">&gt;Size Six Column on medium and larger screens</span></span><span class="tagnamecolor"><span class="tagcolor">&lt;</span>/div<span class="tagcolor">&gt;</span></span><br>  <span class="tagnamecolor"><span class="tagcolor">&lt;</span>div<span class="attributecolor"> class<span class="attributevaluecolor">="col-md-2"</span></span><span class="tagcolor">&gt;</span></span>Size Two Column on medium and larger screens<span class="tagnamecolor"><span class="tagcolor">&lt;</span>/div<span class="tagcolor">&gt;</span></span><br>  <span class="tagnamecolor"><span class="tagcolor">&lt;</span>div<span class="attributecolor"> class<span class="attributevaluecolor">="col-md-4"</span></span><span class="tagcolor">&gt;</span></span>Size Four Column on medium and larger screens<span class="tagnamecolor"><span class="tagcolor">&lt;</span>/div<span class="tagcolor">&gt;</span></span><br><span class="tagnamecolor"><span class="tagcolor">&lt;</span>/div<span class="tagcolor">&gt;</span></span>
@@ -89,7 +89,7 @@ title: Bootstrap Grid
 <div class="w3-code notranslate htmlHigh">
 <span class="commentcolor">&lt;!-- Control the column width, and how they should appear on different devices --&gt;</span><br><span class="tagnamecolor"><span class="tagcolor">&lt;</span>div<span class="attributecolor"> class<span class="attributevaluecolor">="row"</span></span><span class="tagcolor">&gt;</span></span><br>  <span class="tagnamecolor"><span class="tagcolor">&lt;</span>div<span class="attributecolor"> class<span class="attributevaluecolor">="col-*-*"</span></span><span class="tagcolor">&gt;</span></span><span class="tagnamecolor"><span class="tagcolor">&lt;</span>/div<span class="tagcolor">&gt;</span></span><br>  <span class="tagnamecolor"><span class="tagcolor">&lt;</span>div<span class="attributecolor"> class<span class="attributevaluecolor">="col-*-*"</span></span><span class="tagcolor">&gt;</span></span><span class="tagnamecolor"><span class="tagcolor">&lt;</span>/div<span class="tagcolor">&gt;</span></span><br><span class="tagnamecolor"><span class="tagcolor">&lt;</span>/div<span class="tagcolor">&gt;</span></span><br><span class="tagnamecolor"><span class="tagcolor">&lt;</span>div<span class="attributecolor"> class<span class="attributevaluecolor">="row"</span></span><span class="tagcolor">&gt;</span></span><br>  <span class="tagnamecolor"><span class="tagcolor">&lt;</span>div<span class="attributecolor"> class<span class="attributevaluecolor">="col-*-*"</span></span><span class="tagcolor">&gt;</span></span><span class="tagnamecolor"><span class="tagcolor">&lt;</span>/div<span class="tagcolor">&gt;</span></span><br>  <span class="tagnamecolor"><span class="tagcolor">&lt;</span>div<span class="attributecolor"> class<span class="attributevaluecolor">="col-*-*"</span></span><span class="tagcolor">&gt;</span></span><span class="tagnamecolor"><span class="tagcolor">&lt;</span>/div<span class="tagcolor">&gt;</span></span><br>  <span class="tagnamecolor"><span class="tagcolor">&lt;</span>div<span class="attributecolor"> class<span class="attributevaluecolor">="col-*-*"</span></span><span class="tagcolor">&gt;</span></span><span class="tagnamecolor"><span class="tagcolor">&lt;</span>/div<span class="tagcolor">&gt;</span></span><br><span class="tagnamecolor"><span class="tagcolor">&lt;</span>/div<span class="tagcolor">&gt;</span></span>
 </div>
-<div class="w3-code notranslate htmlHigh">First, create a row (&lt;div class="row"&gt;). Then <span style="background-color: #ffff99;">the most common approach is to add the desired number of columns using `col-*-*` classes. The first star `*` represents the device-size: sm, md, lg or xl, while the second star represents a column-size, which should add up to 12 for each row.</span>
+<div class="w3-code notranslate htmlHigh">First, create a row (&lt;div class="row"&gt;). Then <span >the most common approach is to add the desired number of columns using `col-*-*` classes. The first star `*` represents the device-size: sm, md, lg or xl, while the second star represents a column-size, which should add up to 12 for each row.</span>
 </div>
 <div class="w3-code notranslate htmlHigh"><a class="w3-btn w3-margin-bottom" href="https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_grid_ex1&amp;stacked=h" >Try it Yourself »</a></div>
 </div>
@@ -105,7 +105,7 @@ title: Bootstrap Grid
 </tr>
 </tbody>
 </table>
-<p>The following example shows <span style="background-color: #ffff99;">how to create four equal-width columns starting at tablets and scaling to extra large desktops. <strong>On mobile phones or screens that are less than 576px wide, the columns will automatically stack on top of each other</strong></span>:</p>
+<p>The following example shows <span >how to create four equal-width columns starting at tablets and scaling to extra large desktops. <strong>On mobile phones or screens that are less than 576px wide, the columns will automatically stack on top of each other</strong></span>:</p>
 <div class="w3-example">
 <h3>Example</h3>
 <div class="w3-code notranslate htmlHigh">
@@ -123,7 +123,7 @@ title: Bootstrap Grid
 </tr>
 </tbody>
 </table>
-<p>The following example shows <span style="background-color: #ffff99;">how to get two various-width columns starting at tablets and scaling to large extra desktops</span>:</p>
+<p>The following example shows <span >how to get two various-width columns starting at tablets and scaling to large extra desktops</span>:</p>
 <div class="w3-example">
 <h3>Example</h3>
 <div class="w3-code notranslate htmlHigh">
@@ -140,8 +140,8 @@ title: Bootstrap Grid
 </div>
 </div>
 <p><span style="font-size: 1rem;">First, create a row (&lt;div class="row"&gt;). Then i</span><span style="font-family: sans-serif; font-size: 1rem;">nstead of adding a number to each col, let bootstrap handle the layout, to create equal width columns: two "col" elements = 50% width to each col. three cols = 33.33% width to each col. four cols = 25% width, etc.</span></p>
-<p><span style="font-family: sans-serif; font-size: 1rem; background-color: #ffff99;">Note: this creates columns that are NOT responsive, but will have the same layout <span style="color: #000000;">on all devices and screen widths.</span></span></p>
-<p><span style="font-family: sans-serif; font-size: 1rem;"><span style="color: #000000;"><a class="w3-btn w3-margin-bottom" href="https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_grid_ex&amp;stacked=h" >Try it Yourself »</a></span></span></p>
+<p><span style="font-family: sans-serif; font-size: 1rem; background-color: #ffff99;">Note: this creates columns that are NOT responsive, but will have the same layout <span >on all devices and screen widths.</span></span></p>
+<p><span style="font-family: sans-serif; font-size: 1rem;"><span ><a class="w3-btn w3-margin-bottom" href="https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_grid_ex&amp;stacked=h" >Try it Yourself »</a></span></span></p>
 <p><span style="font-family: sans-serif; font-size: 1rem;">You can also use col-sm/col-md/col-lg/col-xl to make the automatic columns responsive.</span></p>
 <hr>
 <h2>Three Equal Columns</h2>
@@ -154,7 +154,7 @@ title: Bootstrap Grid
 </tr>
 </tbody>
 </table>
-<p>The following example shows <span style="background-color: #ffff99;">how to <span style="color: #000000;">automatically create three equal-width columns, on all devices and screen widths:</span></span></p>
+<p>The following example shows <span >how to <span >automatically create three equal-width columns, on all devices and screen widths:</span></span></p>
 <div class="w3-example">
 <h3>Example</h3>
 <div class="w3-code notranslate htmlHigh">

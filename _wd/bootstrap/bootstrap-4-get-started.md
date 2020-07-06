@@ -7,12 +7,12 @@ title: Bootstrap Get Started
 <h2>What is Bootstrap?</h2>
 <ul>
 <li>Bootstrap is a free front-end framework for faster and easier web development</li>
-<li><span style="background-color: #ffff99;">Bootstrap includes HTML and CSS based design templates/presets for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins</span></li>
+<li><span >Bootstrap includes HTML and CSS based design templates/presets for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins</span></li>
 <li>Bootstrap also gives you the ability to easily create responsive designs</li>
 </ul>
 <div class="w3-panel w3-note">
-<p><strong>What is Responsive Web Design?</strong><br><br><span style="background-color: #ffff99;">Responsive web design is about creating web sites which automatically adjust themselves to look good on all devices, from small phones to large desktops.</span></p>
-<p><span style="background-color: #ffff99;">You can resize your browser window to see how a Bootstrap page will change for different sized screens.</span></p>
+<p><strong>What is Responsive Web Design?</strong><br><br><span >Responsive web design is about creating web sites which automatically adjust themselves to look good on all devices, from small phones to large desktops.</span></p>
+<p><span >You can resize your browser window to see how a Bootstrap page will change for different sized screens.</span></p>
 <p><img src="/wd/bootstrap/images/bootstrapResponsiveRowsAndColumnsExample-1.gif" alt="bootstrapResponsiveRowsAndColumnsExample-1.gif" width="600" height="272" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/10549901" data-api-returntype="File"></p>
 </div>
 <div class="w3-example">
@@ -36,7 +36,7 @@ title: Bootstrap Get Started
 <ul>
 <li>
 <strong>Easy to use:</strong> Anybody with just basic knowledge of HTML and CSS can start using Bootstrap</li>
-<li><span style="background-color: #ffff99;"><strong>Responsive features:</strong> Bootstrap's responsive CSS adjusts to phones, tablets, and desktops</span></li>
+<li><span ><strong>Responsive features:</strong> Bootstrap's responsive CSS adjusts to phones, tablets, and desktops</span></li>
 <li>
 <strong>Mobile-first approach:</strong> In Bootstrap, mobile-first styles are part of the core framework</li>
 <li>
@@ -47,12 +47,12 @@ title: Bootstrap Get Started
 <p>There are two ways to start using Bootstrap 4 on your own web site.</p>
 <p>You can either:</p>
 <ul>
-<li><span style="background-color: #ffff99;">Include Bootstrap 4 from a CDN</span></li>
+<li><span >Include Bootstrap 4 from a CDN</span></li>
 <li>Download Bootstrap 4 from getbootstrap.com</li>
 </ul>
 <hr>
 <h2>Bootstrap 4 CDN</h2>
-<p><span style="background-color: #ffff99;">If you don't want to download the Bootstrap files and host them on your website, you can include it from a CDN (Content Delivery Network).</span></p>
+<p><span >If you don't want to download the Bootstrap files and host them on your website, you can include it from a CDN (Content Delivery Network).</span></p>
 <p>MaxCDN provides CDN support for Bootstrap's CSS and JavaScript. You must also include jQuery:</p>
 <div class="w3-example">
 <h3>MaxCDN:</h3>
@@ -69,7 +69,7 @@ title: Bootstrap Get Started
 <hr>
 <h2>Create First Web Page With Bootstrap 4</h2>
 <p><strong>1. Add the HTML5 doctype</strong></p>
-<p><span style="background-color: #ffff99;">Bootstrap 4 uses HTML elements and CSS properties that require the HTML5 doctype.</span></p>
+<p><span >Bootstrap 4 uses HTML elements and CSS properties that require the HTML5 doctype.</span></p>
 <p>Always include the <a href="https://www.w3schools.com/tags/tag_doctype.asp">HTML5 doctype</a> at the beginning of the page, along with the lang attribute and the correct character set:</p>
 <div class="w3-example">
 <div class="w3-code notranslate htmlHigh">
@@ -94,10 +94,10 @@ title: Bootstrap Get Started
     &lt;/div&gt;
 &lt;/body&gt;</pre>
 <p> </p>
-<p><span style="background-color: #ffff99;">There are two container classes to choose from:</span></p>
+<p><span >There are two container classes to choose from:</span></p>
 <ol>
-<li><span style="background-color: #ffff99;">The .container class provides a responsive <strong>fixed width container</strong></span></li>
-<li><span style="background-color: #ffff99;">The .container-fluid class provides a <strong>full width container</strong>, spanning the entire width of the viewport</span></li>
+<li><span >The .container class provides a responsive <strong>fixed width container</strong></span></li>
+<li><span >The .container-fluid class provides a <strong>full width container</strong>, spanning the entire width of the viewport</span></li>
 </ol>
 <div class="w3-row-padding">
 <div class="w3-half">
