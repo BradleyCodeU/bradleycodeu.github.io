@@ -292,6 +292,8 @@ pre{
   background:#002040;
   padding:30px 4px 30px 40px;
   border-radius: 10px;
+  border-left: solid;
+  border-bottom: solid;
 }
 .row{
   margin-right:0 !important;
