@@ -3,8 +3,7 @@ layout: project
 category: bootstrap
 title: Responsive Columns
 ---
-<p>Follow along with this Zoom mtg: <a id="media_comment_m-5atnUvZyeTAvGEBtRSaVHaHchx5S35Tq" class="instructure_file_link instructure_video_link" title="wd-20-03-31.mp4" href="%24IMS-CC-FILEBASE%24/eLearning%20videos/wd-20-03-31.mp4?canvas_download=1&amp;canvas_qs_wrap=1" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/10849002" data-api-returntype="File">wd-20-03-31.mp4</a></p>
-<p> </p>
+
 <p>Create a responsive Bootstrap page that uses the <a title="Bootstrap 4 Grid" href="%24WIKI_REFERENCE%24/pages/bootstrap-4-grid" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/pages/bootstrap-4-grid" data-api-returntype="Page">Bootstrap 4 Grid</a> system to automatically change the number of columns on the page. For example:</p>
 <p><img src="/wd/bootstrap/images/bootstrapResponsiveRowsAndColumnsExample-1.gif" alt="bootstrapResponsiveRowsAndColumnsExample-1.gif" width="600" height="272" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/10549901" data-api-returntype="File"></p>
 <p>I recommend that you use <a href="http://glitch.com">glitch.com</a> and create a new Hello-Webpage project. If Glitch goes down, you could use <a href="https://trinket.io/">https://trinket.io/</a> instead.</p>
@@ -30,3 +29,8 @@ title: Responsive Columns
 <li>look up Bootstrap's margin classes and give each column the same margin class</li>
 <li>look up Bootstrap's text alignment classes and center the text by adding the correct class</li>
 </ul>
+
+### Tutorial video
+
+[https://www.youtube.com/watch?v=cAbh6N_2gNY](https://www.youtube.com/watch?v=cAbh6N_2gNY)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cAbh6N_2gNY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
