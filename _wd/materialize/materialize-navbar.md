@@ -17,7 +17,7 @@ title: Materialize Navbar
 <div id="right" class="section scrollspy">
 <p class="caption">The navbar is fully contained by an HTML5 Nav tag. Inside a "nav-wrapper" container div, there are 2 main parts of the navbar. A logo or brand link, and the navigations links. You can align these links to the left or right.</p>
 <h3 class="header">Right Aligned Links</h3>
-<p><img src="/images/materializeNavbarBasic.png" alt="materialize Navbar Basic" width="600" height="77" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/11658660" data-api-returntype="File"></p>
+<p><img src="/wd/materialize//images/materializeNavbarBasic.png" alt="materialize Navbar Basic" width="600" height="77" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/11658660" data-api-returntype="File"></p>
 <p>To right align your navbar links, just add the<span> </span><code class=" language-markup">right</code><span> </span>class to your<span> </span><code class=" language-markup"><span class="token tag"><span class="token punctuation">&lt;</span>ul<span class="token punctuation">&gt;</span></span></code><span> </span>that contains them.</p>
 <nav></nav>
 <pre class=" language-markup"><code class=" language-markup">
@@ -76,7 +76,7 @@ title: Materialize Navbar
 <div id="mobile-collapse" class="section scrollspy">
 <h3 class="header">Mobile Collapse Button</h3>
 <nav></nav>
-<p><img src="/images/materializeNavbarHamburgerButton.png" alt="materialize Navbar Hamburger Button" width="600" height="78" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/11658581" data-api-returntype="File"></p>
+<p><img src="/wd/materialize/images/materializeNavbarHamburgerButton.png" alt="materialize Navbar Hamburger Button" width="600" height="78" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/11658581" data-api-returntype="File"></p>
 <p>When your nav bar is resized, you will see that the items in the unordered list turn into a hamburger icon. If you resize a Canvas page you will see an example as the menu disappears into a hamburger menu. Add the entire<span> </span><code class=" language-markup">sidenav-trigger</code><span> </span>line to your<span> </span><code class=" language-markup">nav</code> to include the hamburger icon.</p>
 <pre class=" language-markup"><code class=" language-markup">
   <span class="token tag"><span class="token punctuation">&lt;</span>nav<span class="token punctuation">&gt;</span></span>
