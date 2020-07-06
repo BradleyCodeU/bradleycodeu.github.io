@@ -1,8 +1,10 @@
 ---
 layout: project
 category: materialize
-title: Birthday Club
+title: Pizza Birthday Club
 ---
+
+This is part 3 of the Materialize pizza webpage
 
 ## Directions
 
