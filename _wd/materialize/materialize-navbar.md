@@ -53,11 +53,13 @@ title: Materialize Navbar
         </code></pre>
 </div>
 <div id="active-label" class="section scrollspy">
-<h3 class="header"><span style="font-size: 18pt;">Search Bar</span></h3>
+
+Search Bar
+
 </div>
 <nav>
 <div class="nav-wrapper">
-<div class="input-field"><span style="font-family: sans-serif; font-size: 1rem;">You can add a search form in the navbar.</span></div>
+<div class="input-field"><span >You can add a search form in the navbar.</span></div>
 </div>
 </nav>
 <pre class=" language-markup"><code class=" language-markup">
