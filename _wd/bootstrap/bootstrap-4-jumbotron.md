@@ -10,7 +10,7 @@ title: Bootstrap Jumbotron
 <p><strong>Tip:</strong><span> </span>Inside a jumbotron you can put nearly any valid HTML, including other Bootstrap elements/classes.</p>
 <p><img src="/wd/bootstrap/images/bootstrapJumbotron01.png" alt="bootstrapJumbotron01.png" width="600" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/10747921" data-api-returntype="File"></p>
 <div class="jumbotron">
-<p><span style="font-family: sans-serif; font-size: 1rem;">Use a &lt;div&gt; element with class .jumbotron to create a jumbotron:</span></p>
+<p><span style="font-family: sans-serif; font-size: 1rem; color:#000;">Use a &lt;div&gt; element with class .jumbotron to create a jumbotron:</span></p>
 </div>
 <div class="w3-example">
 <h3>Example</h3>
