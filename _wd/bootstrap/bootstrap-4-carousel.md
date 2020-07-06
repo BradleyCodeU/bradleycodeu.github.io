@@ -20,7 +20,7 @@ title: Bootstrap Carousel
 <p>A description of what each class from the example above do:</p>
 <table style="border-style: solid; border-color: #AAAAAA;" border="1px" cellspacing="0px" cellpadding="5px">
 <tbody>
-<tr style="border: 1px solid #AAAAAA; padding: 3px; background-color: #eee;">
+<tr style="border: 1px solid #AAAAAA; padding: 3px; ">
 <th>Class</th>
 <th>Description</th>
 </tr>
@@ -28,7 +28,7 @@ title: Bootstrap Carousel
 <td>.carousel</td>
 <td>Creates a carousel</td>
 </tr>
-<tr style="border: 1px solid #AAAAAA; padding: 3px; background-color: #eee;">
+<tr style="border: 1px solid #AAAAAA; padding: 3px; ">
 <td>.carousel-indicators</td>
 <td>Adds indicators for the carousel. These are the little dots at the bottom of each slide (which indicates how many slides there are in the carousel, and which slide the user are currently viewing)</td>
 </tr>
@@ -36,7 +36,7 @@ title: Bootstrap Carousel
 <td>.carousel-inner</td>
 <td>Adds slides to the carousel</td>
 </tr>
-<tr style="border: 1px solid #AAAAAA; padding: 3px; background-color: #eee;">
+<tr style="border: 1px solid #AAAAAA; padding: 3px; ">
 <td>.carousel-item</td>
 <td>Specifies the content of each slide</td>
 </tr>
@@ -44,7 +44,7 @@ title: Bootstrap Carousel
 <td>.carousel-control-prev</td>
 <td>Adds a left (previous) button to the carousel, which allows the user to go back between the slides</td>
 </tr>
-<tr style="border: 1px solid #AAAAAA; padding: 3px; background-color: #eee;">
+<tr style="border: 1px solid #AAAAAA; padding: 3px; ">
 <td>.carousel-control-next</td>
 <td>Adds a right (next) button to the carousel, which allows the user to go forward between the slides</td>
 </tr>
@@ -52,7 +52,7 @@ title: Bootstrap Carousel
 <td>.carousel-control-prev-icon</td>
 <td>Used together with .carousel-control-prev to create a "previous" button</td>
 </tr>
-<tr style="border: 1px solid #AAAAAA; padding: 3px; background-color: #eee;">
+<tr style="border: 1px solid #AAAAAA; padding: 3px; ">
 <td>.carousel-control-next-icon</td>
 <td>Used together with .carousel-control-next to create a "next" button</td>
 </tr>
