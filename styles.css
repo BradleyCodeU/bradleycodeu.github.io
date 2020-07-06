@@ -40,6 +40,9 @@ body {
 	/* font-family: 'Jolly Lodger','Roboto Condensed', 'Verdana','Arial', sans-serif; */
   color:#ffffff!important;
 }
+h1, h2, h3, h4{
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+}
 body{font-size: 1.1rem;}
 .navbarHeading { font-size: 1.1rem; }
 .display-1{font-size:4rem;}
