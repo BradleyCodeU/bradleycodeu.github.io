@@ -294,6 +294,7 @@ pre{
   border-radius: 10px;
   border-left: solid;
   border-bottom: solid;
+  border-color:#343a40;
 }
 .row{
   margin-right:0 !important;
