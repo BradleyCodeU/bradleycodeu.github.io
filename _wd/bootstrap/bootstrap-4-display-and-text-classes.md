@@ -35,7 +35,7 @@ title: Bootstrap Display and Text Classes
 <p>Display headings are used to stand out more than normal headings (larger font-size and lighter font-weight), and there are four classes to choose from:<span> </span>.display-1,<span> </span>.display-2,<span> </span>.display-3,<span> </span>.display-4</p>
 <div class="w3-example">
 <div class="w3-white w3-padding notranslate">
-<h1 class="display-4"><img src="/wd/bootstrap/images/bootstrap4HeadingVsDisplay.png" alt="bootstrap4HeadingVsDisplay.png" width="800" height="318" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/10925748" data-api-returntype="File"></h1>
+<h1 class="display-4"><img src="/wd/bootstrap/images/bootstrap4HeadingVsDisplay.png" alt="bootstrap4HeadingVsDisplay.png" width="800" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/10925748" data-api-returntype="File"></h1>
 </div>
 <a class="w3-btn w3-margin-bottom w3-margin-top" href="https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_txt_display&amp;stacked=h" >Try it Yourself »</a>
 </div>

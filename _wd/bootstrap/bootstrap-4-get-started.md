@@ -13,7 +13,7 @@ title: Bootstrap Get Started
 <div class="w3-panel w3-note">
 <p><strong>What is Responsive Web Design?</strong><br><br><span >Responsive web design is about creating web sites which automatically adjust themselves to look good on all devices, from small phones to large desktops.</span></p>
 <p><span >You can resize your browser window to see how a Bootstrap page will change for different sized screens.</span></p>
-<p><img src="/wd/bootstrap/images/bootstrapResponsiveRowsAndColumnsExample-1.gif" alt="bootstrapResponsiveRowsAndColumnsExample-1.gif" width="600" height="272" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/10549901" data-api-returntype="File"></p>
+<p><img src="/wd/bootstrap/images/bootstrapResponsiveRowsAndColumnsExample-1.gif" alt="bootstrapResponsiveRowsAndColumnsExample-1.gif" width="600" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/10549901" data-api-returntype="File"></p>
 </div>
 <div class="w3-example">
 <h3>Bootstrap 4 Example</h3>
@@ -102,7 +102,7 @@ title: Bootstrap Get Started
 <div class="w3-row-padding">
 <div class="w3-half">
 <div class="w3-padding-16">
-<div class="w3-center w3-display-container"><img src="/wd/bootstrap/images/bootstrap4ContainerVsContainerFluid.png" alt="bootstrap4 Container Vs Container Fluid" width="1968" height="332" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/10549841" data-api-returntype="File"></div>
+<div class="w3-center w3-display-container"><img src="/wd/bootstrap/images/bootstrap4ContainerVsContainerFluid.png" alt="bootstrap4 Container Vs Container Fluid" width="1968" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/10549841" data-api-returntype="File"></div>
 </div>
 </div>
 </div>

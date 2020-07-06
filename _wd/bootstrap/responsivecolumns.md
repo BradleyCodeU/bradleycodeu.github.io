@@ -5,7 +5,7 @@ title: Responsive Columns
 ---
 
 <p>Create a responsive Bootstrap page that uses the <a title="Bootstrap 4 Grid" href="%24WIKI_REFERENCE%24/pages/bootstrap-4-grid" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/pages/bootstrap-4-grid" data-api-returntype="Page">Bootstrap 4 Grid</a> system to automatically change the number of columns on the page. For example:</p>
-<p><img src="/wd/bootstrap/images/bootstrapResponsiveRowsAndColumnsExample-1.gif" alt="bootstrapResponsiveRowsAndColumnsExample-1.gif" width="600" height="272" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/10549901" data-api-returntype="File"></p>
+<p><img src="/wd/bootstrap/images/bootstrapResponsiveRowsAndColumnsExample-1.gif" alt="bootstrapResponsiveRowsAndColumnsExample-1.gif" width="600" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/10549901" data-api-returntype="File"></p>
 <p>I recommend that you use <a href="http://glitch.com">glitch.com</a> and create a new Hello-Webpage project. If Glitch goes down, you could use <a href="https://trinket.io/">https://trinket.io/</a> instead.</p>
 <p>I also recommend that you copy the CDN links for Bootstrap (<a title="Bootstrap 4 Get Started" href="%24WIKI_REFERENCE%24/pages/bootstrap-4-get-started" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/pages/bootstrap-4-get-started" data-api-returntype="Page">Bootstrap 4 Get Started</a>) and paste them into the head section of your HTML.</p>
 <p>Don't forget that Bootstrap 4 requires a <a title="Bootstrap 4 Containers" href="%24WIKI_REFERENCE%24/pages/bootstrap-4-containers" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/pages/bootstrap-4-containers" data-api-returntype="Page">Bootstrap 4 Container</a> to wrap site contents (that means everything will go inside that container). Let's call this the "main container". For example...</p>
@@ -33,4 +33,4 @@ title: Responsive Columns
 ### Tutorial video
 
 [https://www.youtube.com/watch?v=cAbh6N_2gNY](https://www.youtube.com/watch?v=cAbh6N_2gNY)
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cAbh6N_2gNY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" src="https://www.youtube.com/embed/cAbh6N_2gNY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

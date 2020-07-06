@@ -7,7 +7,7 @@ title: Bootstrap Buttons
 <h2>Button Styles</h2>
 <p>Bootstrap 4 provides different styles of buttons:</p>
 <p>Basic,<span> </span>Primary,<span> </span>Secondary,<span> </span>Success,<span> </span>Info,<span> </span>Warning,<span> </span>Danger,<span> </span>Dark,<span> </span>Light,<span> </span>Link</p>
-<p><img src="/wd/bootstrap/images/bootstrapButton01.png" alt="bootstrapButton01.png" width="600" height="39" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/10747983" data-api-returntype="File"></p>
+<p><img src="/wd/bootstrap/images/bootstrapButton01.png" alt="bootstrapButton01.png" width="600" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/10747983" data-api-returntype="File"></p>
 <div class="w3-example">
 <h3>Example</h3>
 <div class="w3-code notranslate htmlHigh">
@@ -30,7 +30,7 @@ title: Bootstrap Buttons
 <h2>Button Outline</h2>
 <p>Bootstrap 4 provides eight outline/bordered buttons:</p>
 <p>Primary,<span> </span>Secondary,<span> </span>Success,<span> </span>Info,<span> </span>Warning,<span> </span>Danger,<span> </span>Dark,<span> </span>Light</p>
-<p><img src="/wd/bootstrap/images/bootstrapButton02.png" alt="bootstrapButton02.png" width="600" height="46" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/10747988" data-api-returntype="File"></p>
+<p><img src="/wd/bootstrap/images/bootstrapButton02.png" alt="bootstrapButton02.png" width="600" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/10747988" data-api-returntype="File"></p>
 <div class="w3-example">
 <h3>Example</h3>
 <div class="w3-code notranslate htmlHigh">
@@ -42,7 +42,7 @@ title: Bootstrap Buttons
 <h2>Button Sizes</h2>
 <p>Use the<span> </span>.btn-lg<span> </span>class for large buttons or<span> </span>.btn-sm<span> </span>class for small buttons:</p>
 <p>Large,<span> </span>Default,<span> </span>Small</p>
-<p><img src="/wd/bootstrap/images/bootstrapButton03.png" alt="bootstrapButton03.png" width="232" height="54" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/10747999" data-api-returntype="File"></p>
+<p><img src="/wd/bootstrap/images/bootstrapButton03.png" alt="bootstrapButton03.png" width="232" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/10747999" data-api-returntype="File"></p>
 <div class="w3-example">
 <h3>Example</h3>
 <div class="w3-code notranslate htmlHigh">
@@ -54,7 +54,7 @@ title: Bootstrap Buttons
 <h2>Block Level Buttons</h2>
 <p>Add class<span> </span>.btn-block<span> </span>to create a block level button that spans the entire width of the parent element.</p>
 <div>Full-Width Button</div>
-<div><img src="/wd/bootstrap/images/bootstrapButton04.png" alt="bootstrapButton04.png" width="100%" height="94" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/10748006" data-api-returntype="File"></div>
+<div><img src="/wd/bootstrap/images/bootstrapButton04.png" alt="bootstrapButton04.png" width="100%" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/10748006" data-api-returntype="File"></div>
 <div class="w3-example">
 <h3>Example</h3>
 <div class="w3-code notranslate htmlHigh">
@@ -66,7 +66,7 @@ title: Bootstrap Buttons
 <h2>Active/Disabled Buttons</h2>
 <p>A button can be set to an active (appear pressed) or a disabled (unclickable) state:</p>
 <p>Active,<span> </span>Disabled</p>
-<p><img src="/wd/bootstrap/images/bootstrapButton05.png" alt="bootstrapButton05.png" width="275" height="42" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/10748024" data-api-returntype="File"></p>
+<p><img src="/wd/bootstrap/images/bootstrapButton05.png" alt="bootstrapButton05.png" width="275" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/10748024" data-api-returntype="File"></p>
 <p>The class<span> </span>.active<span> </span>makes a button appear pressed, and the<span> </span>disabled<span> </span>attribute makes a button unclickable. Note that &lt;a&gt; elements do not support the disabled attribute and must therefore use the<span> </span>.disabled<span> </span>class to make it visually appear disabled.</p>
 <div class="w3-example">
 <h3>Example</h3>

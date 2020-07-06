@@ -8,8 +8,8 @@ title: Bootstrap Club Page 2
 <table style="border-collapse: collapse; width: 100%; height: 29px;" border="1">
 <tbody>
 <tr style="height: 29px;">
-<td style="width: 50%; height: 29px;"><img src="/wd/bootstrap/images/bootstrapClubPage2/BootstrapClubPg2OnLargeScreen.jpg" alt="BootstrapClubPg2OnLargeScreen.jpg" width="1905" height="2500" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/11256965" data-api-returntype="File"></td>
-<td style="width: 50%; height: 29px;"><img src="/wd/bootstrap/images/bootstrapClubPage2/BootstrapClubPg2OnSmallScreen.jpg" alt="BootstrapClubPg2OnSmallScreen.jpg" width="1905" height="2500" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/11256966" data-api-returntype="File"></td>
+<td style="width: 50%; height: 29px;"><img src="/wd/bootstrap/images/bootstrapClubPage2/BootstrapClubPg2OnLargeScreen.jpg" alt="BootstrapClubPg2OnLargeScreen.jpg" width="1905" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/11256965" data-api-returntype="File"></td>
+<td style="width: 50%; height: 29px;"><img src="/wd/bootstrap/images/bootstrapClubPage2/BootstrapClubPg2OnSmallScreen.jpg" alt="BootstrapClubPg2OnSmallScreen.jpg" width="1905" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/11256966" data-api-returntype="File"></td>
 </tr>
 </tbody>
 </table>
