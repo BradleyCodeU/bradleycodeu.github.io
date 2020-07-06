@@ -29,5 +29,3 @@ title: Materialize Select Dropdown
 <p>Using Javascript you can get the value of a selected option in a drop-down list by using the value property. The value property sets or returns the value of the selected option in a drop-down list.</p>
 <pre class="w3-code notranslate jsHigh"><span class="jscolor"><span class="jskeywordcolor">var</span><span> selectedValue1</span> = document.<span class="jspropertycolor">getElementById</span>(<span class="jsstringcolor">"dropdown1"</span>).<span class="jspropertycolor">value</span>;</span></pre>
 </div>
-</body>
-</html>

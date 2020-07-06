@@ -35,5 +35,3 @@ title: Materialize Range Sliders
 <p>By default, the slider's step attribute is set to 1. Each position on the slider is 1 apart. You can change the step to make it less precise (step="10" will round to the nearest 10) or more precise (step="0.01" will round to the nearest 1/100th).</p>
 <p>The following example creates a label and a range slider that goes from 0-1 in steps of 0.01 and is preset to the value 1.</p>
 <pre><span class="tagnamecolor"><span class="tagcolor">&lt;</span>label<span class="attributecolor"><span> </span>for<span class="attributevaluecolor">="service"</span></span><span class="tagcolor">&gt;Please rate the quality of your service</span></span><span>:</span><span class="tagnamecolor"><span class="tagcolor">&lt;</span>/label<span class="tagcolor">&gt;</span></span><br>&lt;input type="range" id="service" min="0" max="1" step="0.01" value="1" &gt;</pre>
-</body>
-</html>
