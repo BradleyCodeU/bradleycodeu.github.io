@@ -4,6 +4,18 @@ category: bootstrap
 title: Responsive Columns
 ---
 
+
+This project uses the following content:
+
+- [Bootstrap 4 Get Started](/wd/bootstrap/bootstrap-4-get-started/)
+
+- [Bootstrap 4 Containers](/wd/bootstrap/bootstrap-4-containers/)
+
+- [Bootstrap 4 Colors](/wd/bootstrap/bootstrap-4-colors/)
+
+- [Bootstrap 4 Grid](/wd/bootstrap/bootstrap-4-grid/)
+
+
 <p>Create a responsive Bootstrap page that uses the <a title="Bootstrap 4 Grid" href="/wd/bootstrap/bootstrap-4-grid" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/pages/bootstrap-4-grid" data-api-returntype="Page">Bootstrap 4 Grid</a> system to automatically change the number of columns on the page. For example:</p>
 <p><img src="/wd/bootstrap/images/bootstrapResponsiveRowsAndColumnsExample-1.gif" alt="bootstrapResponsiveRowsAndColumnsExample-1.gif" width="600" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/10549901" data-api-returntype="File"></p>
 <p>I recommend that you use <a href="http://glitch.com">glitch.com</a> and create a new Hello-Webpage project. If Glitch goes down, you could use <a href="https://trinket.io/">https://trinket.io/</a> instead.</p>

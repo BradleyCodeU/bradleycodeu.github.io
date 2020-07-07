@@ -3,6 +3,20 @@ layout: project
 category: bootstrap
 title: Bootstrap Club Page 2
 ---
+
+
+This project uses the following content:
+
+- [Bootstrap 4 Carousel](/wd/bootstrap/bootstrap-4-carousel/)
+
+- [Bootstrap 4 Modal](/wd/bootstrap/bootstrap-4-modal/)
+
+- [Google Fonts](/wd/bootstrap/google-fonts/)
+
+- [Google Material Icons](/wd/bootstrap/google-material-icons/)
+
+
+
 <p>You will be creating a new version of your club page. This time you MUST include a <a title="Bootstrap 4 Carousel" href="/wd/bootstrap/bootstrap-4-carousel" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/pages/bootstrap-4-carousel" data-api-returntype="Page">Bootstrap 4 Carousel</a>, <a title="Google Material Icons" href="/wd/bootstrap/google-material-icons" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/pages/google-material-icons" data-api-returntype="Page">Google Material Icons</a>, <a title="Google Fonts" href="/wd/bootstrap/google-fonts" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/pages/google-fonts" data-api-returntype="Page">Google Fonts</a>, and <a title="Bootstrap 4 Modal" href="/wd/bootstrap/bootstrap-4-modal" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/pages/bootstrap-4-modal" data-api-returntype="Page">Bootstrap 4 Modal</a>.</p>
 <p>I will be reviewing all of these in the Monday, Apr 13 Zoom mtg.</p>
 <table style="border-collapse: collapse; width: 100%; height: 29px;" border="1">

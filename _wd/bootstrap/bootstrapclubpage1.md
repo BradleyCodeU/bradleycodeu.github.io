@@ -4,6 +4,19 @@ category: bootstrap
 title: Bootstrap Club Page 1
 ---
 
+This project uses the following content:
+
+- [Bootstrap 4 Jumbotron](/wd/bootstrap/bootstrap-4-jumbotron/)
+
+- [Bootstrap 4 Buttons](/wd/bootstrap/bootstrap-4-buttons/)
+
+- [Bootstrap 4 Forms and Inputs](/wd/bootstrap/bootstrap-4-forms-and-inputs/)
+
+- [Bootstrap 4 Collapse](/wd/bootstrap/bootstrap-4-collapse/)
+
+- [Bootstrap 4 Display and Text Classes](/wd/bootstrap/bootstrap-4-display-and-text-classes/)
+
+
 <p>Follow along with this Zoom mtg: <a id="media_comment_m-5ewjH2fcGqPH6wwnhQBDqTNRhToWAXyZ" class="instructure_file_link instructure_video_link" title="wd-20-04-03.mp4" href="%24IMS-CC-FILEBASE%24/eLearning%20videos/wd-20-04-03.mp4?canvas_download=1&amp;canvas_qs_wrap=1" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/11014049" data-api-returntype="File">wd-20-04-03.mp4</a></p>
 
 
