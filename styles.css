@@ -90,9 +90,6 @@ a.nav-link:hover{
 .anchorHeading{
   opacity:0.2;
 }
-h2:hover .anchorHeading,h4:hover .anchorHeading{
-  opacity:1;
-}
 .bg-image-1 {
   background-image: url("images/prog.jpg");
 }
@@ -166,7 +163,9 @@ div#navBar img {
   grid-gap: 20px 20px;
   grid-template-columns: auto auto;
 }
-
+h2:hover .anchorHeading,h4:hover .anchorHeading{
+  opacity:1;
+}
 header {
   height: 80px;
 }
@@ -318,6 +317,7 @@ section {
 }
 table{
   margin-bottom: 15px;
+  color: #ffffff
 }
 td{
   border:solid #888888 1px;
