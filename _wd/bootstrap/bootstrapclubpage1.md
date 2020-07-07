@@ -10,26 +10,26 @@ title: Bootstrap Club Page 1
 <p>Use Bootstrap to create a page for a school club.</p>
 <p>You MUST have:</p>
 <ol>
-<li>a main <a title="Bootstrap 4 Containers" href="%24WIKI_REFERENCE%24/pages/bootstrap-4-containers" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/pages/bootstrap-4-containers" data-api-returntype="Page">container</a> with everything else inside of it</li>
-<li>a <a title="Bootstrap 4 Jumbotron" href="%24WIKI_REFERENCE%24/pages/bootstrap-4-jumbotron" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/pages/bootstrap-4-jumbotron" data-api-returntype="Page">Jumbotron</a> that contains:
+<li>a main <a title="Bootstrap 4 Containers" href="/wd/bootstrap/bootstrap-4-containers" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/pages/bootstrap-4-containers" data-api-returntype="Page">container</a> with everything else inside of it</li>
+<li>a <a title="Bootstrap 4 Jumbotron" href="/wd/bootstrap/bootstrap-4-jumbotron" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/pages/bootstrap-4-jumbotron" data-api-returntype="Page">Jumbotron</a> that contains:
 <ul>
-<li>an h1 (with one of the <a title="Bootstrap 4 Display and Text Classes" href="%24WIKI_REFERENCE%24/pages/bootstrap-4-display-and-text-classes" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/pages/bootstrap-4-display-and-text-classes" data-api-returntype="Page">Bootstrap display classes</a>) that says the club name </li>
+<li>an h1 (with one of the <a title="Bootstrap 4 Display and Text Classes" href="/wd/bootstrap/bootstrap-4-display-and-text-classes" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/pages/bootstrap-4-display-and-text-classes" data-api-returntype="Page">Bootstrap display classes</a>) that says the club name </li>
 <li>logo (you can re-use the one from last fall, if you can find it)</li>
 </ul>
 </li>
-<li>a <a title="Bootstrap 4 Grid" href="%24WIKI_REFERENCE%24/pages/bootstrap-4-grid" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/pages/bootstrap-4-grid" data-api-returntype="Page">Bootstrap row with 3 columns</a>. Each column contains a photo from the actual club (would be great if you could find Bradley photos... if not, then any photos from Google will do).</li>
-<li>two sections (Info section and Sign Up section) on the same line. Hint: <a title="Bootstrap 4 Grid" href="%24WIKI_REFERENCE%24/pages/bootstrap-4-grid" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/pages/bootstrap-4-grid" data-api-returntype="Page">make a row with two columns</a>.
+<li>a <a title="Bootstrap 4 Grid" href="/wd/bootstrap/bootstrap-4-grid" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/pages/bootstrap-4-grid" data-api-returntype="Page">Bootstrap row with 3 columns</a>. Each column contains a photo from the actual club (would be great if you could find Bradley photos... if not, then any photos from Google will do).</li>
+<li>two sections (Info section and Sign Up section) on the same line. Hint: <a title="Bootstrap 4 Grid" href="/wd/bootstrap/bootstrap-4-grid" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/pages/bootstrap-4-grid" data-api-returntype="Page">make a row with two columns</a>.
 <ul>
-<li>the info section has info about when the club meets and a <a title="Bootstrap 4 Collapse" href="%24WIKI_REFERENCE%24/pages/bootstrap-4-collapse" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/pages/bootstrap-4-collapse" data-api-returntype="Page">Bootstrap collapse</a> that has More Info. The div that you hide/show can just have a paragraph of nonsense.</li>
-<li>the Sign Up section has a <a title="Bootstrap 4 Forms and Inputs" href="%24WIKI_REFERENCE%24/pages/bootstrap-4-forms-and-inputs" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/pages/bootstrap-4-forms-and-inputs" data-api-returntype="Page">Bootstrap large input type="text"</a> to type your email address and a <a title="Bootstrap 4 Buttons" href="%24WIKI_REFERENCE%24/pages/bootstrap-4-buttons" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/pages/bootstrap-4-buttons" data-api-returntype="Page">Bootstrap submit button</a>
+<li>the info section has info about when the club meets and a <a title="Bootstrap 4 Collapse" href="/wd/bootstrap/bootstrap-4-collapse" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/pages/bootstrap-4-collapse" data-api-returntype="Page">Bootstrap collapse</a> that has More Info. The div that you hide/show can just have a paragraph of nonsense.</li>
+<li>the Sign Up section has a <a title="Bootstrap 4 Forms and Inputs" href="/wd/bootstrap/bootstrap-4-forms-and-inputs" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/pages/bootstrap-4-forms-and-inputs" data-api-returntype="Page">Bootstrap large input type="text"</a> to type your email address and a <a title="Bootstrap 4 Buttons" href="/wd/bootstrap/bootstrap-4-buttons" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/pages/bootstrap-4-buttons" data-api-returntype="Page">Bootstrap submit button</a>
 </li>
 <li>the info section takes up about 60% of the page width and the form takes up about 40% of the page width. Hint: what is 60% of 12? round to the nearest whole number</li>
 </ul>
 </li>
 <li>Give every Bootstrap column sizes for small, medium, and large screens</li>
-<li>Use 2 or more <a title="Bootstrap 4 Colors" href="%24WIKI_REFERENCE%24/pages/bootstrap-4-colors" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/pages/bootstrap-4-colors" data-api-returntype="Page">Bootstrap text color classes</a>
+<li>Use 2 or more <a title="Bootstrap 4 Colors" href="/wd/bootstrap/bootstrap-4-colors" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/pages/bootstrap-4-colors" data-api-returntype="Page">Bootstrap text color classes</a>
 </li>
-<li>Use 2 or more <a title="Bootstrap 4 Colors" href="%24WIKI_REFERENCE%24/pages/bootstrap-4-colors" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/pages/bootstrap-4-colors" data-api-returntype="Page">Bootstrap background color classes</a>
+<li>Use 2 or more <a title="Bootstrap 4 Colors" href="/wd/bootstrap/bootstrap-4-colors" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/pages/bootstrap-4-colors" data-api-returntype="Page">Bootstrap background color classes</a>
 </li>
 </ol>
 <p> </p>

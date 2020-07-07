@@ -13,18 +13,18 @@ This is part 1 of the Materialize pizza webpage
 <p><a href="https://glitch.com/edit/#!/remix/material-pizza-starter">https://glitch.com/edit/#!/remix/material-pizza-starter</a></p>
 <p>You will add:</p>
 <ol>
-<li>the Materialize CDN links <a title="Materialize Get Started" href="%24WIKI_REFERENCE%24/pages/materialize-get-started" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/pages/materialize-get-started" data-api-returntype="Page">(Materialize Get Started</a>) in the head section</li>
-<li>a navbar (<a title="Materialize Navbar" href="%24WIKI_REFERENCE%24/pages/materialize-navbar" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/pages/materialize-navbar" data-api-returntype="Page">Materialize Navbar</a>) with a customized background color (<a title="Materialize Colors" href="%24WIKI_REFERENCE%24/pages/materialize-colors" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/pages/materialize-colors" data-api-returntype="Page">Materialize Colors</a>) that contains:
+<li>the Materialize CDN links <a title="Materialize Get Started" href="/wd/materialize/materialize-get-started" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/pages/materialize-get-started" data-api-returntype="Page">(Materialize Get Started</a>) in the head section</li>
+<li>a navbar (<a title="Materialize Navbar" href="/wd/materialize/materialize-navbar" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/pages/materialize-navbar" data-api-returntype="Page">Materialize Navbar</a>) with a customized background color (<a title="Materialize Colors" href="/wd/materialize/materialize-colors" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/pages/materialize-colors" data-api-returntype="Page">Materialize Colors</a>) that contains:
 <ul>
 <li>the restaurant logo (small enough to fit on the navbar)</li>
 <li>links for Menu, Order Online, Locations, and Birthday Club</li>
 </ul>
 </li>
-<li>a row with two columns (<a title="Materialize Container and Grid" href="%24WIKI_REFERENCE%24/pages/materialize-container-and-grid" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/pages/materialize-container-and-grid" data-api-returntype="Page">Materialize Container and Grid</a>). Columns are size 12 for small and size 6 for medium and larger. Each column contains one Materialize card (<a title="Materialize Cards" href="%24WIKI_REFERENCE%24/pages/materialize-cards" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/pages/materialize-cards" data-api-returntype="Page">Materialize Cards</a>). Each card contains:
+<li>a row with two columns (<a title="Materialize Container and Grid" href="/wd/materialize/materialize-container-and-grid" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/pages/materialize-container-and-grid" data-api-returntype="Page">Materialize Container and Grid</a>). Columns are size 12 for small and size 6 for medium and larger. Each column contains one Materialize card (<a title="Materialize Cards" href="/wd/materialize/materialize-cards" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/pages/materialize-cards" data-api-returntype="Page">Materialize Cards</a>). Each card contains:
 <ul>
 <li>the name of a new special promotional pizza</li>
 <li>a picture of the pizza</li>
-<li>a Materialize raised button (not flat button!) with waves that says Order Now! (<a title="Materialize Buttons and Waves" href="%24WIKI_REFERENCE%24/pages/materialize-buttons-and-waves" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/pages/materialize-buttons-and-waves" data-api-returntype="Page">Materialize Buttons and Waves</a>)</li>
+<li>a Materialize raised button (not flat button!) with waves that says Order Now! (<a title="Materialize Buttons and Waves" href="/wd/materialize/materialize-buttons-and-waves" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/pages/materialize-buttons-and-waves" data-api-returntype="Page">Materialize Buttons and Waves</a>)</li>
 </ul>
 </li>
 </ol>
