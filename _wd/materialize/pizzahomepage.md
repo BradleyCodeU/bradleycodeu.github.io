@@ -4,8 +4,22 @@ category: materialize
 title: Pizza Homepage
 ---
 
-This is part 1 of the Materialize pizza webpage
+This is part 1 of the Materialize pizza webpage.
 
+
+This project uses the following content:
+
+- [Get Started](/wd/materialize/materialize-get-started/)
+
+- [Container & Grid](/wd/materialize/materialize-container-and-grid/)
+
+- [Colors](/wd/materialize/materialize-colors/)
+
+- [Cards](/wd/materialize/materialize-cards/)
+
+- [Navbar](/wd/materialize/materialize-navbar/)
+
+- [Buttons & Waves](/wd/materialize/materialize-buttons-and-waves/)
 
 
 <p>For this project you will use the Materialize framework to create a website for either Little Louie's Pizza, Pizza Noun, Pizza Prison, or No Pizza.</p>

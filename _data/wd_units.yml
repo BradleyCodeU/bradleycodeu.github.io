@@ -391,6 +391,50 @@ Projects:
 
 
   "
+
+
+- title: materialize
+  heading: "# Materialize"
+  content: "*3 weeks*
+
+
+Resources:
+
+- [Get Started](/wd/materialize/materialize-get-started/)
+
+- [Container & Grid](/wd/materialize/materialize-container-and-grid/)
+
+- [Colors](/wd/materialize/materialize-colors/)
+
+- [Cards](/wd/materialize/materialize-cards/)
+
+- [Navbar](/wd/materialize/materialize-navbar/)
+
+- [Buttons & Waves](/wd/materialize/materialize-buttons-and-waves/)
+
+- [Text Inputs]()
+
+- [Select Dropdown]()
+
+- [Radio Buttons & Checkboxes]()
+
+- [Collapsibles]()
+
+
+
+
+
+
+Projects:
+
+
+
+
+
+"
+
+
+
 - title: nodejs
   heading: "# NodeJS"
   content: "*3 weeks*
