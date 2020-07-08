@@ -264,6 +264,9 @@ hr{
 img{
   max-width: 500px !important;
 }
+li{
+  margin: -.25em 0em;
+}
 #markdown-toc{
   font-size: 80%;
 }
