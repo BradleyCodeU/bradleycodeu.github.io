@@ -4,7 +4,7 @@ category: materialize
 title: Pizza Homepage
 ---
 
-This is part 1 of the Materialize pizza webpage.
+Part 1 of the Materialize pizza webpage.
 
 
 This project uses the following content:

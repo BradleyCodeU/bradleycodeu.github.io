@@ -347,10 +347,6 @@ Projects:
   content: "*3 weeks*
 
 
-
-Resources:
-
-
 - [Get Started](/wd/bootstrap/bootstrap-4-get-started/)
 
 - [Containers](/wd/bootstrap/bootstrap-4-containers/)
@@ -383,7 +379,7 @@ Resources:
 Projects:
 
 
-1. [Bootstrap Responsive Columns](/wd/bootstrap/responsivecolumns/)
+1. [Bootstrap Responsive Columns](/wd/bootstrap/bootstrapresponsivecolumns/)
 
 1. [Bootstrap Club Page 1](/wd/bootstrap/bootstrapclubpage1/)
 
@@ -398,22 +394,17 @@ Projects:
   content: "*3 weeks*
 
 
-Resources:
-
 - [Get Started](/wd/materialize/materialize-get-started/)
 
 - [Container & Grid](/wd/materialize/materialize-container-and-grid/)
 
 - [Colors](/wd/materialize/materialize-colors/)
 
-
-
 - [Cards](/wd/materialize/materialize-cards/)
 
 - [Navbar](/wd/materialize/materialize-navbar/)
 
 - [Buttons & Waves](/wd/materialize/materialize-buttons-and-waves/)
-
 
 - [Text Inputs](/wd/materialize/materialize-text-inputs/)
 
@@ -423,20 +414,26 @@ Resources:
 
 - [Collapsibles](/wd/materialize/materialize-collapsibles/)
 
+- [Pickers](/wd/materialize/materialize-pickers/)
 
+- [Range Sliders](/wd/materialize/materialize-range-sliders/)
+
+- [Switches](/wd/materialize/materialize-switches/)
+
+- [Sidenav](/wd/materialize/materialize-sidenav/)
 
 
 
 
 Projects:
 
-- [Materialize Responsive Columns]()
+1. [Materialize Responsive Columns](/wd/materialize/materializeresponsivecolumns/)
 
-- [Materialize Pizza Homepage](/wd/materialize/pizzahomepage/)
+1. [Materialize Pizza Homepage](/wd/materialize/pizzahomepage/)
 
-- [Materialize Pizza Order Form](/wd/materialize/pizzaorderform/)
+1. [Materialize Pizza Order Form](/wd/materialize/pizzaorderform/)
 
-- [Materialize Pizza Birthday Club](/wd/materialize/pizzabirthdayclub/)
+1. [Materialize Pizza Birthday Club](/wd/materialize/pizzabirthdayclub/)
 
 
 

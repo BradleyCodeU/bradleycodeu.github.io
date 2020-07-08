@@ -4,7 +4,18 @@ category: materialize
 title: Pizza Order Form
 ---
 
-This is part 2 of the Materialize pizza webpage
+Part 2 of the Materialize pizza webpage.
+
+
+This project uses the following content:
+
+- [Text Inputs](/wd/materialize/materialize-text-inputs/)
+
+- [Select Dropdown](/wd/materialize/materialize-select-dropdown/)
+
+- [Radio Buttons & Checkboxes](/wd/materialize/materialize-radio-buttons)
+
+- [Collapsibles](/wd/materialize/materialize-collapsibles/)
 
 
 <p><span>For this project you will CONTINUE your last project using the Materialize framework to create a website for either Little Louie's Pizza, Pizza Noun, Pizza Prison, or No Pizza.</span></p>

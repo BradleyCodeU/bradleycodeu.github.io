@@ -4,7 +4,19 @@ category: materialize
 title: Pizza Birthday Club
 ---
 
-This is part 3 of the Materialize pizza webpage
+Part 3 of the Materialize pizza webpage.
+
+
+This project uses the following content:
+
+- [Pickers](/wd/materialize/materialize-pickers/)
+
+- [Range Sliders](/wd/materialize/materialize-range-sliders/)
+
+- [Switches](/wd/materialize/materialize-switches/)
+
+- [Sidenav](/wd/materialize/materialize-sidenav/)
+
 
 ## Directions
 
