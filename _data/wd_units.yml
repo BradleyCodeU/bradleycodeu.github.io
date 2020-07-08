@@ -383,7 +383,7 @@ Resources:
 Projects:
 
 
-1. [Responsive Columns](/wd/bootstrap/responsivecolumns/)
+1. [Bootstrap Responsive Columns](/wd/bootstrap/responsivecolumns/)
 
 1. [Bootstrap Club Page 1](/wd/bootstrap/bootstrapclubpage1/)
 
@@ -406,19 +406,22 @@ Resources:
 
 - [Colors](/wd/materialize/materialize-colors/)
 
+
+
 - [Cards](/wd/materialize/materialize-cards/)
 
 - [Navbar](/wd/materialize/materialize-navbar/)
 
 - [Buttons & Waves](/wd/materialize/materialize-buttons-and-waves/)
 
-- [Text Inputs]()
 
-- [Select Dropdown]()
+- [Text Inputs](/wd/materialize/materialize-text-inputs/)
 
-- [Radio Buttons & Checkboxes]()
+- [Select Dropdown](/wd/materialize/materialize-select-dropdown/)
 
-- [Collapsibles]()
+- [Radio Buttons & Checkboxes](/wd/materialize/materialize-radio-buttons)
+
+- [Collapsibles](/wd/materialize/materialize-collapsibles/)
 
 
 
@@ -427,7 +430,13 @@ Resources:
 
 Projects:
 
+- [Materialize Responsive Columns]()
 
+- [Materialize Pizza Homepage](/wd/materialize/pizzahomepage/)
+
+- [Materialize Pizza Order Form](/wd/materialize/pizzaorderform/)
+
+- [Materialize Pizza Birthday Club](/wd/materialize/pizzabirthdayclub/)
 
 
 

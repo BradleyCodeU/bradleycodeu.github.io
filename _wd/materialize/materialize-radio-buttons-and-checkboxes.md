@@ -3,6 +3,8 @@ layout: project
 category: materialize
 title: Materialize Radio Buttons and Checkboxes
 ---
+### Radio Buttons
+
 <p><span>Sources:</span></p>
 <ul>
 <li><span><a href="https://materializecss.com/radio-buttons.html">https://materializecss.com/radio-buttons.html</a></span></li>
@@ -27,9 +29,11 @@ title: Materialize Radio Buttons and Checkboxes
 
 <hr>
 
+### Checkboxes
+
 <p>Sources:</p>
 <ul>
-<li><a href="https://materializecss.com/checkboxes.html">https://The indeterminate state is visual only. The checkbox is still either checked or unchecked.com/checkboxes.html</a></li>
+<li><a href="https://materializecss.com/checkboxes.html">https://materializecss.com/checkboxes.html</a></li>
 <li><a href="https://css-tricks.com/indeterminate-checkboxes/">https://css-tricks.com/indeterminate-checkboxes/</a></li>
 </ul>
 <p><span>Use checkboxes when looking for yes or no answers. The </span><code class=" language-markup">for</code><span> attribute is necessary to bind our custom checkbox with the input. Add the input's </span><code class=" language-markup">id</code><span> as the value of the </span><code class=" language-markup">for</code><span> attribute of the label.</span></p>
