@@ -523,7 +523,9 @@ Projects:
   heading: "# Ch13 Recursion"
   content: "
 
-1. [Ch13CodingBat](/apcsa/ch13recursion/Ch13CodingBat/)
+1. [Ch13CodingBat1sumDigitsandcount7](/apcsa/ch13recursion/Ch13CodingBat1/)
+
+1. [Ch13CodingBat2countXandcountHi](/apcsa/ch13recursion/Ch13CodingBat2/)
 
 1. [Ch13DecToBin](/apcsa/ch13recursion/Ch13DecToBin/)
 
