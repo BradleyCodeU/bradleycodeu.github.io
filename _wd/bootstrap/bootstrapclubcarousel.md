@@ -1,7 +1,7 @@
 ---
 layout: project
 category: bootstrap
-title: Bootstrap Club Page 2
+title: Bootstrap Club Carousel
 ---
 
 
@@ -37,3 +37,11 @@ This project uses the following content:
 <a class="instructure_file_link instructure_image_thumbnail" title="banner2.jpg" href="/wd/bootstrap/images/bootstrapClubPage2/banner2.jpg" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/11123017" data-api-returntype="File"></a><a class="instructure_file_link instructure_image_thumbnail" title="banner3.jpg" href="/wd/bootstrap/images/bootstrapClubPage2/banner3.jpg" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/11123019" data-api-returntype="File">banner3.jpg</a>
 </li>
 </ul>
+
+
+
+### Tutorial video
+
+[https://www.youtube.com/watch?v=adIDQ_AUEIk](https://www.youtube.com/watch?v=adIDQ_AUEIk)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/adIDQ_AUEIk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
