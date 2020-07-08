@@ -4,6 +4,7 @@ category: materialize
 title: What is Material Design
 ---
 
+### What is Material Design?
 
 <p>The short's answer is... Google's version of Bootstrap. </p>
 <p>It's also more than that. It is about professional designers agreeing on "best practices" and guidelines. Google made those recommendation easy for web designers and programmers to use.</p>
