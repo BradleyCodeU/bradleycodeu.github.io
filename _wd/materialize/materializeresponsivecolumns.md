@@ -30,4 +30,3 @@ You MUST:
 *   Give each Bootstrap column different sizes for small, medium, and large screens ([Materialize Container & Grid](/wd/materialize/materialize-container-and-grid/))
 *   Use 3 or more text color classes ([Materialize Colors](/wd/materialize/materialize-colors/))
 *   Use 3 or more background color classes ([Materialize Colors](/wd/materialize/materialize-colors/))
-*   Give your main container a background color class ([Materialize Colors](/wd/materialize/materialize-colors/))
