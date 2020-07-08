@@ -42,7 +42,7 @@ Create a College Board account by Friday, Sept 6th and join our AP class section
 
 
 
-Resources:
+
 
 - [What is AP Computer Science Principles?](https://drive.google.com/file/d/1NNAFOaY4L8Y8BOdeQ_5uPmwjJEns8gii/view?usp=sharing)
 
@@ -89,7 +89,7 @@ Resources:
 
 
 
-Resources:
+
 
 - [Scratch tutorial folder](https://drive.google.com/open?id=128oYSzZetK25nTV-0YInwofJ_TrGKf3W)
 
@@ -104,15 +104,15 @@ Projects:
 
 1. [AboutMe](/apcsp/scratch/001AboutMe/)
 
-1. Pick [BouncingOffTheWalls](/apcsp/scratch/002BouncingOffTheWalls/) or [StarHunter](/apcsp/scratch/003StarHunter/)
+1. Pick- [BouncingOffTheWalls](/apcsp/scratch/002BouncingOffTheWalls/) or [StarHunter](/apcsp/scratch/003StarHunter/)
 
-1. Pick [WalkingAndJumping](/apcsp/scratch/004WalkingAndJumping/) or [CheeseChase](/apcsp/scratch/005CheeseChase/)
+1. Pick- [WalkingAndJumping](/apcsp/scratch/004WalkingAndJumping/) or [CheeseChase](/apcsp/scratch/005CheeseChase/)
 
 1. [ShapesAndInitials](/apcsp/scratch/007ShapesAndInitials/)
 
-1. Pick [LauncherGame](/apcsp/scratch/006LauncherGame/) or [HungryBug](/apcsp/scratch/008HungryBug/) or [RacingGame](/apcsp/scratch/009RacingGame/)
+1. Pick- [LauncherGame](/apcsp/scratch/006LauncherGame/) or [HungryBug](/apcsp/scratch/008HungryBug/) or [RacingGame](/apcsp/scratch/009RacingGame/)
 
-1. Pick [QuestHealthGame](/apcsp/scratch/010QuestHealthGame/) or [ScratchPlatformer](/apcsp/scratch/102ScratchPlatformer/)
+1. Pick- [QuestHealthGame](/apcsp/scratch/010QuestHealthGame/) or [ScratchPlatformer](/apcsp/scratch/102ScratchPlatformer/)
 
 1. [ScratchFreedomOfChoice](/apcsp/scratch/011ScratchFreedomOfChoice/)
 "
@@ -123,7 +123,7 @@ Projects:
 *3 wks*, Vocab: Tkinter, import, syntax, syntax error, variable, assignment, mathematical operator, float, function definition, function call, return, argument, comment, camelCase, scope, local variable, Create Task practice 1
 
 
-Resources:
+
 
   - Install Python Mu IDE: [https://codewith.mu/](https://codewith.mu/)
 
@@ -156,19 +156,19 @@ Projects:
 
 1. [PyCallFun](/apcsp/py/PyCallFun/)
 
-1. Pair-[PyValidNumber](/apcsp/py/111PyValidNumber/)
+1. Pair- [PyValidNumber](/apcsp/py/111PyValidNumber/)
 
-1. Pair-[PyHogwartsHouse](/apcsp/py/109PyHogwartsHouse/)
+1. Pair- [PyHogwartsHouse](/apcsp/py/109PyHogwartsHouse/)
 
-1. *Create Practice 1* - Pair-[PyCreatePractice1](/apcsp/py/100PyCreatePractice1/)
+1. *Create Practice 1* - Pair- [PyCreatePractice1](/apcsp/py/100PyCreatePractice1/)
 
-1. Pair-Pick-[PyDollarConvert](/apcsp/py/108PyDollarConvert/) or [PyWeightOnPlanets](/apcsp/py/114PyWeightOnPlanets/)
+1. Pair-Pick- [PyDollarConvert](/apcsp/py/108PyDollarConvert/) or [PyWeightOnPlanets](/apcsp/py/114PyWeightOnPlanets/)
 
-1. Pair-Pick-[Py2DGeometry](/apcsp/py/Py2DGeometry/) or [Py3DGeometry](/apcsp/py/112Py3DGeometry/)
+1. Pair-Pick- [Py2DGeometry](/apcsp/py/Py2DGeometry/) or [Py3DGeometry](/apcsp/py/112Py3DGeometry/)
 
 1. [PyModuloFun](/apcsp/py/105PyModuloFun/)
 
-1. Pair-Pick-[PyThreeArgs](/apcsp/py/106PyThreeArgs/) or [PyCollisionFun](/apcsp/py/110PyCollisionFun/)
+1. Pair-Pick- [PyThreeArgs](/apcsp/py/106PyThreeArgs/) or [PyCollisionFun](/apcsp/py/110PyCollisionFun/)
 "
 - title: binary
   heading: "# Binary"
@@ -176,7 +176,7 @@ Projects:
 *2 wks*, Vocab: binary, base-2, decimal, base-10, digit, bit, byte, hexadecimal, base-16, octal, base-8, ASCII, base-64 Big Data
 
 
-Resources:
+
 
 - Code.org Unit 1, Chapter 1: Representing and Transmitting Information, [https://studio.code.org/s/csp1-2018](https://studio.code.org/s/csp1-2018)
 
@@ -194,15 +194,15 @@ Resources:
 
 Projects:
 
-1. Pair-[CoinsWorksheet](/apcsp/binary/BinaryCoinsWorksheet/)
+1. Pair- [CoinsWorksheet](/apcsp/binary/BinaryCoinsWorksheet/)
 
 1. [Binary Bday](/apcsp/binary/BinaryBday/)
 
-1. Pair-[BinaryWorksheet](/apcsp/binary/BinaryWorksheet/)
+1. Pair- [BinaryWorksheet](/apcsp/binary/BinaryWorksheet/)
 
-1. Pair-[OctalWorksheet](/apcsp/binary/BinaryOctalWorksheet/)
+1. Pair- [OctalWorksheet](/apcsp/binary/BinaryOctalWorksheet/)
 
-1. Pair-[HexWorksheet](/apcsp/binary/BinaryHexWorksheet/)
+1. Pair- [HexWorksheet](/apcsp/binary/BinaryHexWorksheet/)
 
 1. Practice Quiz
 
@@ -247,7 +247,7 @@ Projects:
 *2 wks*, Vocab: IDE, turtle, import, object,  method, abstraction, constructor, random, randint, algorithm, rgb color, hex color, for loop, while loop, input, function definition, function call, instance, instantiate, class, getter, setter
 
 
-Resources:
+
 
   - [Trinket Turtle art tutorial](https://hourofpython.trinket.io/a-visual-introduction-to-python#/welcome/an-hour-of-code)
 
@@ -273,27 +273,27 @@ Resources:
 
 Projects:
 
-1. *Explore Practice 1* - Pair-[ExplorePractice1](/apcsp/turtleart/027ExplorePractice1/)
+1. *Explore Practice 1* - Pair- [ExplorePractice1](/apcsp/turtleart/027ExplorePractice1/)
 
-1. Pair-[TrtSimpleDrawing](/apcsp/turtleart/012TurtleSimpleDrawing/)
+1. Pair- [TrtSimpleDrawing](/apcsp/turtleart/012TurtleSimpleDrawing/)
 
 1. [TrtRandomLocations](/apcsp/turtleart/025TurtleDrawingsAtRandomLocations/)
 
-1. Pair-Pick-[TrtBlockLetters](/apcsp/turtleart/026TurtleBlockLetters/) or [TrtPolygons](/apcsp/turtleart/013TurtlePolygons/)
+1. Pair-Pick- [TrtBlockLetters](/apcsp/turtleart/026TurtleBlockLetters/) or [TrtPolygons](/apcsp/turtleart/013TurtlePolygons/)
 
 1. [TrtHowManySquares](/apcsp/turtleart/014TurtleHowManySquares/)
 
-1. Pick [TrtRandomShapes](/apcsp/turtleart/015TurtleRandomShapes/) or [TrtMandalaArt](/apcsp/turtleart/018TurtleMandalaArt/)
+1. Pick- [TrtRandomShapes](/apcsp/turtleart/015TurtleRandomShapes/) or [TrtMandalaArt](/apcsp/turtleart/018TurtleMandalaArt/)
 
 1. [TrtDrawingAlgorithm](/apcsp/turtleart/019TurtleDrawingAlgorithm/)
 
 1. [TrtBouncingOffWalls](/apcsp/turtleart/020TurtleBouncingOffWalls/)
 
-1. Pair-[TrtStars1](/apcsp/turtleart/016TurtleStars1/)
+1. Pair- [TrtStars1](/apcsp/turtleart/016TurtleStars1/)
 
-1. Pair-[TrtStars2](/apcsp/turtleart/017TurtleStars2/)
+1. Pair- [TrtStars2](/apcsp/turtleart/017TurtleStars2/)
 
-1. Pair-[TrtMondrian](/apcsp/turtleart/TrtMondrian/)
+1. Pair- [TrtMondrian](/apcsp/turtleart/TrtMondrian/)
 
 1. [TrtOpArt](/apcsp/turtleart/TrtOpArt/)
 "
@@ -311,7 +311,7 @@ Code.org Unit 1, Chapter 2: Inventing the Internet, [https://studio.code.org/s/c
 *1 wk*, Vocab: iteration, waterfall, scrum, collaboration, iterative versions, def new functions, loops, random, colors, Create 2
 
 
-Resources:
+
 
   - [Explaining Scrum in 120 secs](https://drive.google.com/file/d/1AyLbb9-cgABmFQHp7og0LrZiLGQw06lr/view?usp=sharing)
 
@@ -340,7 +340,7 @@ Projects:
 *2 wks*, Vocab: array, iteration, iterate through an array, input, for each loops, input validation, try/except, conditionals, functions, pre-conditional loop, post-conditional loop, pseudocode,
 
 
-Resources:
+
 
   - [learnpython.org/Basic_Operators](https://www.learnpython.org/en/Basic_Operators)
 
@@ -370,15 +370,15 @@ Projects:
 
 1. [RandIntArray](/apcsp/console/103ConsoleRandomIntArray/)
 
-1. Pair-Pick-[Temps](/apcsp/console/022ConsoleTemps/) or [MultiChoiceGame](/apcsp/console/024ConsoleMultiChoiceQuizGame/)
+1. Pair-Pick- [Temps](/apcsp/console/022ConsoleTemps/) or [MultiChoiceGame](/apcsp/console/024ConsoleMultiChoiceQuizGame/)
 
-1. Pair-[FillTheBlankGame](/apcsp/console/028ConsoleFillInTheBlankQuizGame/)
+1. Pair- [FillTheBlankGame](/apcsp/console/028ConsoleFillInTheBlankQuizGame/)
 
-1. Pair-[TipCalculator](/apcsp/console/029ConsoleTipCalculator/)
+1. Pair- [TipCalculator](/apcsp/console/029ConsoleTipCalculator/)
 
-1. Pair-[2DGeometryCalculations](/apcsp/console/030Console2DGeometryCalculations/)
+1. Pair- [2DGeometryCalculations](/apcsp/console/030Console2DGeometryCalculations/)
 
-1. Pair-Pick-[HourlyAndYearlyWages](/apcsp/console/031ConsoleHourlyAndYearlyWages/) or [TriviaHighLow](/apcsp/console/032ConsoleTriviaHighLow/)
+1. Pair-Pick- [HourlyAndYearlyWages](/apcsp/console/031ConsoleHourlyAndYearlyWages/) or [TriviaHighLow](/apcsp/console/032ConsoleTriviaHighLow/)
 
 
 "
@@ -427,7 +427,7 @@ Code.org Unit 4: Big Data and Privacy, [https://studio.code.org/s/csp4-2018](htt
 
 
 
-Resources:
+
 
   - [AP Exam samples and scoring guidelines](https://apcentral.collegeboard.org/courses/ap-computer-science-principles/exam#anchor3)
 
@@ -447,7 +447,7 @@ Projects:
 
 
 
-Resources:
+
 
   - [learnpython.org/Loops](https://www.learnpython.org/en/Loops)
 
@@ -475,11 +475,11 @@ Projects:
 
   1. [Random Name Generator](/apcsp/textgames/randomNameGenerator/)
 
-  1. Pair-[BossBattle](/apcsp/textgames/bossBattle/)
+  1. Pair- [BossBattle](/apcsp/textgames/bossBattle/)
 
   1. [HighLowWord](/apcsp/textgames/highLowWord/)
 
-  1. Pair-[Castles](/apcsp/textgames/033TextGamesCastlesAndCreatures/)
+  1. Pair- [Castles](/apcsp/textgames/033TextGamesCastlesAndCreatures/)
 
   1. [CaesarCipher](/apcsp/textgames/caesarCipher/)
 
@@ -492,7 +492,7 @@ Projects:
 *1 wk*, Vocab: bits, bytes, kilobytes, megabytes, gigabytes, lossy compression, lossless compression, heuristic, Huffman coding, metadata, raster, bitmap, pixel, hexadecimal, RGB, image resolution, bit depth, dictionary, object
 
 
-Resources:
+
 
   - Code.org Unit 2: Digital Information, [https://studio.code.org/s/csp2-2018](https://studio.code.org/s/csp2-2018)
 
@@ -518,7 +518,7 @@ Projects:
 
 
 
-Resources:
+
 
   - [Screencast Instructions for OBS](/apcsp/scrum/screencastobs)
 
@@ -543,7 +543,7 @@ Projects:
 
 
 
-Resources:
+
 
 - [effbot.org/tkinterbook](https://effbot.org/tkinterbook/)
 
@@ -570,13 +570,13 @@ Projects:
 
 1. [Tk App With Input Validation](/apcsp/tk/046TkAppWithInputValidation/)
 
-1. Pair-[Tk Try Load File](/apcsp/tk/107TkTryLoadFile/)
+1. Pair- [Tk Try Load File](/apcsp/tk/107TkTryLoadFile/)
 
-1. Pair-[Tk Poll v1.0](/apcsp/tk/047TkPollv1/)
+1. Pair- [Tk Poll v1.0](/apcsp/tk/047TkPollv1/)
 
-1. Pair-Pick-[TkAddressBook]() or [TkMenuOrder]()
+1. Pair-Pick- [TkAddressBook]() or [TkMenuOrder]()
 
-1. Pair-Pick-[TkPollAverage]() or [TkMultiQuestion]()
+1. Pair-Pick- [TkPollAverage]() or [TkMultiQuestion]()
 "
 - title: 4thquarter
   heading: "# 4th Quarter"
