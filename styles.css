@@ -218,7 +218,7 @@ h1[id]{
 } */
 h2 {
   /* font-family: 'Nosifer',sans-serif; */
-  text-shadow: 1px 1px grey;
+  text-shadow: -1px 2px #6c757d;
 
 }
 /* h2,h3,h4{
