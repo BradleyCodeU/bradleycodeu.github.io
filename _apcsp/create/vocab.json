@@ -1,0 +1,418 @@
+[
+	{
+		"answer": "==",
+		"question": "'equal equal') is used to compare two values, and returns a Boolean (true/false). Avoid confusion with the assignment operator '=',"
+	},
+	{
+		"answer": "API",
+		"question": "a collection of commands made available to a programmer"
+	},
+	{
+		"answer": "ASCII American Standard Code for Information Interchange",
+		"question": "This is the universally recognized raw text format that any computer can understand."
+	},
+	{
+		"answer": "Abstraction",
+		"question": "Pulling out specific differences to make one solution work for multiple problems."
+	},
+	{
+		"answer": "Abstraction",
+		"question": "a simplified representation of something more complex. Abstractions allow you to hide details to help you manage complexity, focus on relevant concepts, and reason about problems at a higher level."
+	},
+	{
+		"answer": "Aggregation",
+		"question": "a computation in which rows from a data set are grouped together and used to compute a single value of more significant meaning or measurement. Common aggregations include"
+	},
+	{
+		"answer": "Aggregation",
+		"question": "Average(), Count(), Sum(), Max(), Median(), etc."
+	},
+	{
+		"answer": "Algorithm",
+		"question": "A precise sequence of instructions for processes that can be executed by a computer"
+	},
+	{
+		"answer": "Antivirus Software",
+		"question": "usually keeps big lists of known viruses and scans your computer looking for the virus programs in order to get rid of them."
+	},
+	{
+		"answer": "Array",
+		"question": "A data structure in JavaScript used to represent a list."
+	},
+	{
+		"answer": "Asymmetric Encryption",
+		"question": "used in public key encryption, it is scheme in which the key to encrypt data is different from the key to decrypt."
+	},
+	{
+		"answer": "Bandwidth",
+		"question": "Transmission capacity measure by bit rate"
+	},
+	{
+		"answer": "Big Data",
+		"question": "a broad term for datasets so large or complex that traditional data processing applications are inadequate."
+	},
+	{
+		"answer": "Binary",
+		"question": "A way of representing information using only two options."
+	},
+	{
+		"answer": "Bit",
+		"question": "A contraction of 'Binary Digit'. It is the single unit of information in a computer, typically represented as a 0 or 1."
+	},
+	{
+		"answer": "Bit rate or bitrate",
+		"question": "the number of bits that are conveyed or processed per unit of time (e.g. 8 bits/sec)"
+	},
+	{
+		"answer": "Bit, A contraction of 'Binary Digit'",
+		"question": "the single unit of information in a computer, typically represented as a 0 or 1"
+	},
+	{
+		"answer": "Boolean",
+		"question": "A single value of either TRUE or FALSE"
+	},
+	{
+		"answer": "Boolean Expression",
+		"question": "in programming, an expression that evaluates to True or False."
+	},
+	{
+		"answer": "Caesar Cipher ",
+		"question": "a technique for encryption that shifts the alphabet by some number of characters"
+	},
+	{
+		"answer": "Callback function",
+		"question": "a function specified as part of an event listener, it is written by the programmer but called by the system as the result of an event trigger."
+	},
+	{
+		"answer": "Canvas",
+		"question": "a user interface element to use in HTML/JavaScript which acts as a digital canvas, allowing the programmatic drawing and manipulation of pixels, basic shapes, figures and images."
+	},
+	{
+		"answer": "Cipher",
+		"question": "the generic term for a technique (or algorithm) that performs encryption"
+	},
+	{
+		"answer": "Computationally Hard",
+		"question": "a 'hard' problem for a computer is one in which it cannot arrive at a solution in a reasonable amount of time."
+	},
+	{
+		"answer": "Concatenate",
+		"question": "to link together or join. Typically used when joining together text Strings in programming (e.g. 'Hello, '+name)"
+	},
+	{
+		"answer": "Conditionals",
+		"question": "Statements that only run under certain conditions."
+	},
+	{
+		"answer": "Cracking Encryption",
+		"question": "When you attempt to decode a secret message without knowing all the specifics of the cipher, you are trying to 'crack' the encryption."
+	},
+	{
+		"answer": "DDoS Attack",
+		"question": "Distributed Denial of Service Attack. Typically a virus installed on many computers (thousands) activate at the same time and flood a target with traffic to the point the server becomes overwhelmed."
+	},
+	{
+		"answer": "DNS",
+		"question": "The service that translates URLs to IP addresses."
+	},
+	{
+		"answer": "Data Type",
+		"question": "All values in a programming language have a 'type' - such as a Number, Boolean, or String - that dictates how the computer will interpret it. For example 7+5 is interpreted differently from '7'+'5'"
+	},
+	{
+		"answer": "Debugging",
+		"question": "Finding and fixing problems in your algorithm or program."
+	},
+	{
+		"answer": "Decryption",
+		"question": "a process that reverses encryption, taking a secret message and reproducing the original plain text"
+	},
+	{
+		"answer": "Digital Certificate",
+		"question": "Used to verify that a user sending a message is who he or she claims to be, and to provide the receiver with the means to encode a reply"
+	},
+	{
+		"answer": "Distributed Denial of Service Attack (DDoS)",
+		"question": "occurs when multiple compromised systems flood the bandwidth or resources of a targeted system, usually one or more web servers."
+	},
+	{
+		"answer": "Documentation",
+		"question": "a description of the behavior of a command, function, library, API, etc."
+	},
+	{
+		"answer": "Encryption",
+		"question": "a process of encoding messages to keep them secret, so only 'authorized' parties can read it."
+	},
+	{
+		"answer": "Event",
+		"question": "An action that causes something to happen."
+	},
+	{
+		"answer": "Event handling",
+		"question": "an overarching term for the coding tasks involved in making a program respond to events by triggering functions."
+	},
+	{
+		"answer": "Event listener ",
+		"question": "a command that can be set up to trigger a function when a particular type of event occurs on a particular UI element."
+	},
+	{
+		"answer": "Event-driven program",
+		"question": "a program designed to run blocks of code or functions in response to specified events (e.g. a mouse click)"
+	},
+	{
+		"answer": "Expression",
+		"question": "Any valid unit of code that resolves to a value."
+	},
+	{
+		"answer": "Firewall",
+		"question": "software that runs on servers (often routers) that only allows traffic through according to some set of security rules."
+	},
+	{
+		"answer": "For Loop",
+		"question": "Loops that have a predetermined beginning, end, and increment (step interval)."
+	},
+	{
+		"answer": "For Loop",
+		"question": "A typical looping construct designed to make it easy to repeat a section of code using a counter variable. The for loop combines the creation of a variable, a boolean looping condition, and an update to the variable in one statement."
+	},
+	{
+		"answer": "Function",
+		"question": "A piece of code that you can easily call over and over again."
+	},
+	{
+		"answer": "Global Variable",
+		"question": "A variable whose scope is 'global' to the program, it can be used and updated by any part of the code. Its global scope is typically derived from the variable being declared (created) outside of any function, object, or method."
+	},
+	{
+		"answer": "HTTP HyperText Transfer Protocol",
+		"question": "the protocol used for transmitting web pages over the Internet"
+	},
+	{
+		"answer": "Heuristic",
+		"question": "a problem solving approach (algorithm) to find a satisfactory solution where finding an optimal or exact solution is impractical or impossible."
+	},
+	{
+		"answer": "Hexadecimal",
+		"question": "A base-16 number system that uses sixteen distinct symbols 0-9 and A-F to represent numbers from 0 to 15."
+	},
+	{
+		"answer": "High Level Programming Language",
+		"question": "A programming language with many commands and features designed to make common tasks easier to program. Any high level functionality is encapsulated as combinations of low level commands."
+	},
+	{
+		"answer": "IETF Internet Engineering Task Force",
+		"question": "develops and promotes voluntary Internet standards and protocols, in particular the standards that comprise the Internet protocol suite (TCP/IP)."
+	},
+	{
+		"answer": "IP Address",
+		"question": "A number assigned to any item that is connected to the Internet."
+	},
+	{
+		"answer": "If-Statement",
+		"question": "The common programming structure that implements 'conditional statements'."
+	},
+	{
+		"answer": "Image",
+		"question": "A type of data used for graphics or pictures."
+	},
+	{
+		"answer": "Innovation",
+		"question": "A novel or improved idea, device, product, or the development thereof."
+	},
+	{
+		"answer": "Internet",
+		"question": "A group of computers and servers that are connected to each other."
+	},
+	{
+		"answer": "Iteration",
+		"question": "To repeat in order to achieve, or get closer to, a desired goal."
+	},
+	{
+		"answer": "Key Event",
+		"question": "'keyup' and 'keydown' are event types you can specify. Use event.key - from the 'event' parameter of the onEvent callback function - to figure out which key was pressed."
+	},
+	{
+		"answer": "Latency",
+		"question": "Time it takes for a bit to travel from its sender to its receiver."
+	},
+	{
+		"answer": "Library",
+		"question": "a collection of commands / functions, typically with a shared purpose"
+	},
+	{
+		"answer": "List",
+		"question": "A generic term for a programming data structure that holds multiple items."
+	},
+	{
+		"answer": "Local Variable",
+		"question": "A variable with local scope is one that can only be seen, used and updated by code within the same scope. Typically this means the variable was declared (created) inside a function -- includes function parameter variables."
+	},
+	{
+		"answer": "Loop",
+		"question": "The action of doing something over and over again."
+	},
+	{
+		"answer": "Lossless Compression",
+		"question": "a data compression algorithm that allows the original data to be perfectly reconstructed from the compressed data."
+	},
+	{
+		"answer": "Lossy Compression (or irreversible compression)",
+		"question": "a data compression method that uses inexact approximations, discarding some data to represent the content. Most commonly seen in image formats like .jpg."
+	},
+	{
+		"answer": "Low Level Programming Language",
+		"question": "A programming language that captures only the most primitive operations available to a machine. Anything that a computer can do can be represented with combinations of low level commands."
+	},
+	{
+		"answer": "Metadata",
+		"question": "data that describes other data. For example, a digital image my include _____ that describe the size of the image, number of colors, or resolution."
+	},
+	{
+		"answer": "Models and Simulations",
+		"question": "a program which replicates or mimics key features of a real world event in order to investigate its behavior without the cost, time, or danger of running an experiment in real life."
+	},
+	{
+		"answer": "Modulo",
+		"question": "7 MOD 4 = 3"
+	},
+	{
+		"answer": "Modulo or mod",
+		"question": "a mathematical operation that returns the remainder after integer division. Example"
+	},
+	{
+		"answer": "Moore's Law",
+		"question": "a predication made by Gordon Moore in 1965 that computing power will double every 1.5-2 years, it has remained more or less true ever since."
+	},
+	{
+		"answer": "Net Neutrality",
+		"question": "the principle that all Internet traffic should be treated equally by Internet Service Providers."
+	},
+	{
+		"answer": "Network Redundancy",
+		"question": "having multiple backups to ensure reliability during cases of high usage or failure"
+	},
+	{
+		"answer": "One-pager",
+		"question": "A business/corporate term for a one-page document that summarizes a large issue, topic or plan."
+	},
+	{
+		"answer": "Packets",
+		"question": "Small chunks of information that have been carefully formed from larger chunks of information."
+	},
+	{
+		"answer": "Parameter",
+		"question": "An extra piece of information that you pass to the function to customize it for a specific need."
+	},
+	{
+		"answer": "Phishing Attack",
+		"question": "the attempt to obtain sensitive information such as usernames, passwords, and credit card details (and, indirectly, money), often for malicious reasons, by disguising as a trustworthy entity in an electronic communication."
+	},
+	{
+		"answer": "Phishing Scam",
+		"question": "a thief trying to trick you into sending them sensitive information. Typically these include emails about system updates asking you send your username and password, social security number or other things."
+	},
+	{
+		"answer": "Pivot Table",
+		"question": "in most spreadsheet software it is the name of the tool used to create summary tables."
+	},
+	{
+		"answer": "Pixel",
+		"question": "short for 'picture element' it is the fundamental unit of a digital image, typically a tiny square or dot which contains a single point of color of a larger image."
+	},
+	{
+		"answer": "Private Key",
+		"question": "In an asymmetric encryption scheme the decryption key is kept private and never shared, so only the intended recipient has the ability to decrypt a message that has been encrypted with a public key."
+	},
+	{
+		"answer": "Protocol",
+		"question": "A set of rules governing the exchange or transmission of data between devices."
+	},
+	{
+		"answer": "Public Key Encryption",
+		"question": "Used prevalently on the web, it allows for secure messages to be sent between parties without having to agree on, or share, a secret key. It uses an asymmetric encryption scheme in which the encryption key is made public, but the decryption key is kept private"
+	},
+	{
+		"answer": "RGB",
+		"question": "this color model uses varying intensities of (R)ed, (G)reen, and (B)lue light added together to reproduce a broad array of colors."
+	},
+	{
+		"answer": "Random Substitution Cipher",
+		"question": "an encryption technique that maps each letter of the alphabet to a randomly chosen other letters of the alphabet."
+	},
+	{
+		"answer": "Return Value",
+		"question": "A value sent back by a function to the place in the code where the function was called form - typically asking for value or the result of a calculation or computation of some kind."
+	},
+	{
+		"answer": "Router",
+		"question": "A type of computer that forwards data across a network"
+	},
+	{
+		"answer": "SSL/TLS",
+		"question": "Secure Sockets layer / Transport Layer Security - An encryption layer of HTTP that uses public key cryptography to establish a secure connection."
+	},
+	{
+		"answer": "Selection",
+		"question": "A generic term for a type of programming statement (usually an if-statement) that uses a Boolean condition to determine, or select, whether or not to run a certain block of statements."
+	},
+	{
+		"answer": "Sequencing",
+		"question": "Putting commands in correct order so computers can read the commands."
+	},
+	{
+		"answer": "String",
+		"question": "Any sequence of characters between quotation marks"
+	},
+	{
+		"answer": "String",
+		"question": "'hello', '42', 'this sequence of characters between quotation marks is a _____!')."
+	},
+	{
+		"answer": "Summary Table",
+		"question": "a table that shows the results of aggregations performed on data from a larger data set, hence a 'summary' of larger data. Spreadsheet software typically calls them 'pivot tables'."
+  },
+	{
+		"answer": "TCP",
+		"question": "Transmission Control Protocol - provides reliable, ordered, and error-checked delivery of a stream of packets on the internet. TCP is tightly linked with IP and usually seen as TCP/IP in writing."
+	},
+	{
+		"answer": "TCP Transmission Control Protocol",
+		"question": "provides reliable, ordered, and error-checked delivery of a stream of packets on the internet. It is tightly linked with IP and usually seen as _____/IP in writing."
+	},
+	{
+		"answer": "Top Down Design",
+		"question": "a problem solving approach (also known as stepwise design) in which you break down a system to gain insight into the sub-systems that make it up."
+	},
+	{
+		"answer": "Turtle Programming",
+		"question": "a classic method for learning programming with commands to control movement and drawing of an on-screen robot called a 'turtle'. The turtle hearkens back to early implementations in which children programmed a physical robot whose dome-like shape was reminiscent of a turtle."
+	},
+	{
+		"answer": "UI Elements",
+		"question": "on-screen objects, like buttons, images, text boxes, pull down menus, screens and so on."
+	},
+	{
+		"answer": "URL",
+		"question": "An easy-to-remember address for calling a web page (like www.code.org)."
+	},
+	{
+		"answer": "User Interface",
+		"question": "The visual elements of a program through which a user controls or communications the application. Often abbreviated UI."
+	},
+	{
+		"answer": "Variable",
+		"question": "A placeholder for a piece of information that can change."
+	},
+	{
+		"answer": "Variable Scope",
+		"question": "dictates what portions of the code can 'see' or use a variable, typically derived from where the variable was first created. (See Global vs. Local)"
+	},
+	{
+		"answer": "Virus",
+		"question": "a program that runs on a computer to do something the owner of the computer does not intend."
+	},
+	{
+		"answer": "While loop",
+		"question": "a programming construct used to repeat a set of commands (loop) as long as (while) a boolean condition is true."
+	}
+]
