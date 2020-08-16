@@ -274,3 +274,4 @@ iOSInjectionProject/
 **/xcshareddata/WorkspaceSettings.xcsettings
 
 # End of https://www.gitignore.io/api/osx,java,xcode,swift,python
+_apcsp/.DS_Store
