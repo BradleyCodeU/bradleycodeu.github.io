@@ -6,14 +6,13 @@ title: 2D Geometry
 Copy/paste this starter code: [https://repl.it/@JustinRiley1/2d-Geo-starter](https://repl.it/@JustinRiley1/2d-Geo-starter)
 
 **PICK TWO SHAPES**:
+  - Circle
   - Right Triangle
   - Equilateral Triangle
   - Regular Pentagon
   - Regular Hexagon
   - Regular Heptagon
   - Regular Octagon
-  - Circle
-
 (NOTE: You can NOT do Square or Rectangle)
 
 
