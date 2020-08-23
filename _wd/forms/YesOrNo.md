@@ -1,6 +1,6 @@
 ---
 layout: project
-category: js
+category: forms
 title: Yes Or No
 ---
 Download one of these:

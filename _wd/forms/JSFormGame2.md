@@ -1,25 +1,9 @@
 ---
 layout: project
-category: js
-title: JS Form Game
+category: forms
+title: JS Form Game 2
 ---
-Create four trivia questions.
-
-Q1 uses [radio buttons](https://www.w3schools.com/tags/att_input_type_radio.asp). You can simply add the onclick= attribute to the one radio button that is the correct answer.
-```
-onclick="alert('Correct')"
-```
-
-Q2 uses a [select drop-down list](https://www.w3schools.com/tags/tag_select.asp). Give select the [onchange=](https://www.w3schools.com/jsref/event_onchange.asp) attribute.
-```
-<select id="myDropDown" onchange="checkAnswer2()">
-```
-Use getElementById to get the currently selected value from the select drop-down:
-```
-var selectedAnswer = document.getElementById("myDropDown").value;
-```
-And then if selectedAnswer == "Banana" (or the correct [option value](https://www.w3schools.com/tags/att_option_value.asp), create a popup with [alert()](https://www.w3schools.com/jsref/met_win_alert.asp) to tell the user if they are correct.
-
+Continue your form game by creating the last two trivia questions (Q3 and Q4).
 
 Q3 uses a [text input box](https://www.w3schools.com/tags/att_input_type_text.asp) and one [button](https://www.w3schools.com/tags/tag_button.asp). You will add the onclick= attribute to the button. This Javascript code will allow you to get the text within a text input box:
 ```

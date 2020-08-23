@@ -56,12 +56,13 @@ Our “Textbooks”:
   content: "[1st Quarter](#1st-quarter)
 
 
-1. **[Photoshop](#photoshop)**
+
 
 1. **[HTML](#html)**
 
 1. **[CSS](#css)**
 
+1. **[JS](#js)**
 
 "
 - title: photoshop
@@ -178,6 +179,20 @@ Projects:
 1. [Twine Game v2](/wd/css/twinegamev2/)
 
 "
+
+- title: js
+  heading: "# JS"
+  content: "*3 weeks*
+1. [Club Page v1](/wd/js/JSClubPagev1/)
+
+1. [SoloLrn JS 1](/wd/js/SoloLearnJS1/)
+
+1. [Change Text with JS](/wd/js/ChangeTextWithJS/)
+
+1. [12 Buttons Game](/wd/js/12ButtonsGame/)
+
+1. [JS Clicker Game](/wd/js/JSClickerGame/)
+"
 - title: 2ndquarter
   heading: "# 2nd Quarter"
   content: "
@@ -198,33 +213,26 @@ Projects:
 - title: menu2
   content: "[2nd Quarter](#2nd-quarter)
 
+1. **[Photoshop](#photoshop)**
 
-1. **[JS](#js)**
+1. **[Forms](#forms)**
 
 1. **[p5js](#p5js)**
 
 
 "
 
-- title: js
-  heading: "# JS"
-  content: "*5 weeks*
+- title: forms
+  heading: "# forms"
+  content: "*2 weeks*
 
-1. [Club Page v1](/wd/js/JSClubPagev1/)
+1. [ClubJoin](/wd/forms/JoinClub/)
 
-1. [SoloLrn JS 1](/wd/js/SoloLearnJS1/)
+1. Pair-[Form Game](/wd/forms/JSFormGame/)
 
-1. [Change Text with JS](/wd/js/ChangeTextWithJS/)
+1. [Yes or No](/wd/forms/YesOrNo/)
 
-1. [12 Buttons Game](/wd/js/12ButtonsGame/)
-
-1. [JS Clicker Game](/wd/js/JSClickerGame/)
-
-1. Pair-[JS Form Game](/wd/js/JSFormGame/)
-
-1. [Yes or No](/wd/js/YesOrNo/)
-
-1. [Sound Sample Piano](/wd/js/SoundSamplePiano/)
+1. [Sound Sample Piano](/wd/forms/SoundSamplePiano/)
 "
 
 - title: p5js

@@ -1,6 +1,6 @@
 ---
 layout: project
-category: js
+category: forms
 title: Sound Sample Piano
 ---
 ![Screenshot of Sample Sequencer](/wd\js\samplesequencer.jpg)
