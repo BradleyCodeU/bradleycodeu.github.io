@@ -57,9 +57,9 @@ Our “Textbooks”:
 - title: menu1
   content: "[1st Quarter](#1st-quarter)
 
-1. **[Objects](#objects)**
+1. **[Objects](#objects)** - *4 wks*
 
-1. **[Inheritance](#inheritance)**
+1. **[Inheritance](#inheritance)** - *5 wks*
 
 
 "
@@ -155,14 +155,14 @@ Projects:
 - title: menu2
   content: "[2nd Quarter](#2nd-quarter)
 
-1. **[Platforms](#platforms)**
+1. **[Platforms](#platforms)** - *3 wks*
 
-1. **[CSharp](#csharp)**
+1. **[CSharp](#csharp)** - *4 wks*
 
 "
 - title: platforms
   heading: "# Platforms"
-  content: "*2 weeks*, vocab: GitHub, commit, push, pull, pull request, clone, fork
+  content: "*3 weeks*, vocab: GitHub, commit, push, pull, pull request, clone, fork
 
 
   1. [Platformer v1](/gd/platforms/platformerv1/) - 50pts
@@ -174,7 +174,7 @@ Projects:
 
 - title: csharp
   heading: "# CSharp"
-  content: "*3 weeks*,
+  content: "*4 weeks*,
 
 
 
@@ -225,11 +225,11 @@ Projects:
 - title: menu3
   content: "[3rd Quarter](#3rd-quarter)
 
-1. **[Swift](#swift)**
+1. **[Swift](#swift)** - *3 wks*
 
-1. **[Unity3d](#unity3d)**
+1. **[Unity3d](#unity3d)** - *3 wks*
 
-1. **[Swift2](#swift2)**
+1. **[Swift2](#swift2)** - *3 wks*
 
 
 "
@@ -345,11 +345,11 @@ Projects:
   content: "[4th Quarter](#4th-quarter)
 
 
-1. **[Unity2d](#unity2d)**
+1. **[Unity2d](#unity2d)** - *4 wks*
 
-1. **[Multiplayer](#multiplayer)**
+1. **[Multiplayer](#multiplayer)** - *4 wks*
 
-1. **[iOS Platformer](#ios-platformer)**
+1. **[iOS Platformer](#ios-platformer)** - *3 wks*
 
 "
 - title: unity2d
