@@ -2,7 +2,8 @@ apcsa:
 
 - title: 1stquarter
   heading: "# 1st Quarter"
-  content: "*Whenever possible, select 'Sign up with Google' and use your hilliardschools.org account.*
+  content: "*Whenever possible, select 'Sign up with Google' and always use your hilliardschools.org account.*
+
 
 Sign up for:
 
@@ -14,12 +15,9 @@ Sign up for:
 
 - [codingbat.com](https://codingbat.com)
 
-- [khanacademy.org](https://khanacademy.org)
-
 - [github.com](https://github.com)
 
-
-Join our repl.it class and our khanacademy.org class
+- Join our repl.it class using the *class code* posted on Canvas
 
 
 Texts:
@@ -29,27 +27,29 @@ Texts:
 
 Adding Big Java Textbook to student iPads:
 
-1. Download VitalSource Bookshelf from the App Store
+1. Download VitalSource Bookshelf
 
 1. Click “forgot password” and enter school email and click “create account”
 
 1. Complete registration info
 
-1. Click “Redeem Code” and enter textbook code
+1. Click “Redeem Code” and enter textbook code given to you by your teacher
 
 1. Exit browser and download book through the app
 
 1. You can use either the iPad app OR go to [bookshelf.vitalsource.com](https://bookshelf.vitalsource.com/)
 
 
-## Commit to take the AP test by October 4th. Late fee is $40.
+AP Details:
+
+- Create a College Board account by Sept 1, 2020 and join our AP class section via collegeboard.org/joinapclass
+
+- Commit to take the AP test by Nov 4, 2020. Late fee is $40.
+
+- The AP CSA exam will be held on Thursday, May 6, 2021
 
 
-Create a College Board account by Friday, Sept 6th and join our AP class section via collegeboard.org/joinapclass
-
-
-
-References:
+References and Other Info:
 
 - [Java Quick Reference, Appendix B](https://apstudents.collegeboard.org/sites/default/files/2019-05/ap-computer-science-a-2014-java-quick-reference.pdf)
 

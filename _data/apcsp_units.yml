@@ -1,48 +1,46 @@
 apcsp:
 - title: 1stQuarter
   heading: "# 1st Quarter"
-  content: "*Whenever possible, select 'Sign up with Google' and use your hilliardschools.org account.*
+  content: "*Whenever possible, select 'Sign up with Google' and always use your hilliardschools.org account.*
 
 
-Sign up for
+Sign up for:
 
 - [digitalportfolio.collegeboard.org](https://digitalportfolio.collegeboard.org)
 
 - [scratch.mit.edu](https://scratch.mit.edu)
 
-- [code.org](https://code.org/)
-
-- 'Sign up with Google' [trinket.io](https://trinket.io)
+- 'Sign up with Google' [code.org](https://code.org/)
 
 - 'Sign up with Google' [repl.it](https://repl.it)
 
 - 'Sign up with Google' [sololearn.com](https://www.sololearn.com/) and download the SoloLearn app on your iPad
 
-- 'Sign up with Google' [codehs.com](https://codehs.com)
+- 'Sign up with Google' [khanacademy.org](https://khanacademy.org)
 
-- [khanacademy.org](https://khanacademy.org)
-
-
-Join our code.org class, our repl.it class, our khanacademy.org class
+- Join our code.org class, our repl.it class, our khanacademy.org class using the *class codes* posted on Canvas
 
 
 Texts:
-
-- [CS Principles: Big Ideas in Programming by Mark Guzdial and Barbara Ericson](https://runestone.academy/runestone/books/published/thinkcspy/index.html)
 
 - [Python for Everybody by Charles Severance](https://books.trinket.io/pfe/index.html)
 
 - [An Introduction to Tkinter](https://effbot.org/tkinterbook/)
 
 
-## Commit to take the AP test by October 4th. Late fee is $40.
+AP Details:
+
+- Create a College Board account by Sept 1, 2020 and join our AP class section via collegeboard.org/joinapclass
+
+- Commit to take the AP test by Nov 4, 2020. Late fee is $40.
+
+- The written portion of the AP CSP exam will be held on Thursday, May 13, 2021
+
+- [AP Computer Science Principles / The Exam](https://apcentral.collegeboard.org/courses/ap-computer-science-principles/exam)
 
 
-Create a College Board account by Friday, Sept 6th and join our AP class section via collegeboard.org/joinapclass
 
-
-
-
+References and Other Info:
 
 - [What is AP Computer Science Principles?](https://drive.google.com/file/d/1NNAFOaY4L8Y8BOdeQ_5uPmwjJEns8gii/view?usp=sharing)
 
@@ -59,16 +57,19 @@ Create a College Board account by Friday, Sept 6th and join our AP class section
 -------
 
 
+“...the essence and philosophy of programming. Resilience - Nothing is working but I’ll find a way! Perseverance - Just gotta keep trying. Empowerment - Anything I can think of I can make it a reality”
+
+
+*-Jessica Lam*
+
+
 “People think that computer science is the art of geniuses but the actual reality is the opposite, just many people doing things that build on each other, like a wall of mini stones.”
 
 
 *-Donald Knuth*
 
 
-“No one in the brief history of computing has ever written a piece of perfect software. It's unlikely that you'll be the first.”
 
-
-*-Andy Hunt*
 "
 - title: menu1
   content:
@@ -223,6 +224,12 @@ Projects:
 
 
 *-Oscar Godson*
+
+
+“No one in the brief history of computing has ever written a piece of perfect software. It's unlikely that you'll be the first.”
+
+
+*-Andy Hunt*
 "
 - title: menu2
   content: "
