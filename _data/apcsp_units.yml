@@ -80,9 +80,9 @@ References and Other Info:
     "[1st Quarter](#1st-quarter)
 
 
-  1. [Scratch](#scratch) - *3 wks*
+  1. [Scratch](#scratch) - *2 wks*
 
-  1. [Py](#py) - *2 wks*
+  1. [Py](#py) - *3 wks*
 
   1. [Binary](#binary) - *2 wks*"
 
@@ -90,7 +90,7 @@ References and Other Info:
 
 - title: scratch
   heading: "# Scratch"
-  content: "*3 wks*, Vocab: input, prompt, output, variable, assignment, string, int, boolean, sprite, script, control structure, iteration, loop, selection, conditional, sequencing, event listener, comparison operator, equality operator, Scratch, MIT
+  content: "*2 wks*, Vocab: input, prompt, output, variable, assignment, string, int, boolean, sprite, script, control structure, iteration, loop, selection, conditional, sequencing, event listener, comparison operator, equality operator, Scratch, MIT
 
 
 
@@ -107,19 +107,22 @@ References and Other Info:
 
 Projects:
 
-1. [AboutMe](/apcsp/scratch/001AboutMe/)
 
-1. Pick- [BouncingOffTheWalls](/apcsp/scratch/002BouncingOffTheWalls/) or [StarHunter](/apcsp/scratch/003StarHunter/)
+1. Class Codes
 
-1. Pick- [WalkingAndJumping](/apcsp/scratch/004WalkingAndJumping/) or [CheeseChase](/apcsp/scratch/005CheeseChase/)
+1. [About Me](/apcsp/scratch/001AboutMe/)
 
-1. [ShapesAndInitials](/apcsp/scratch/007ShapesAndInitials/)
+1. Pick- [Bouncing Off The Walls](/apcsp/scratch/002BouncingOffTheWalls/) or [Star Hunter](/apcsp/scratch/003StarHunter/)
 
-1. Pick- [LauncherGame](/apcsp/scratch/006LauncherGame/) or [HungryBug](/apcsp/scratch/008HungryBug/) or [RacingGame](/apcsp/scratch/009RacingGame/)
+1. Pick- [Walking And Jumping](/apcsp/scratch/004WalkingAndJumping/) or [Cheese Chase](/apcsp/scratch/005CheeseChase/)
 
-1. Pick- [QuestHealthGame](/apcsp/scratch/010QuestHealthGame/) or [ScratchPlatformer](/apcsp/scratch/102ScratchPlatformer/)
+1. [Shapes And Initials](/apcsp/scratch/007ShapesAndInitials/)
 
-1. [ScratchFreedomOfChoice](/apcsp/scratch/011ScratchFreedomOfChoice/)
+1. Pick- [Launcher Game](/apcsp/scratch/006LauncherGame/) or [Hungry Bug](/apcsp/scratch/008HungryBug/) or [Racing Game](/apcsp/scratch/009RacingGame/)
+
+1. Pick- [Quest Health Game](/apcsp/scratch/010QuestHealthGame/) or [Scratch Platformer](/apcsp/scratch/102ScratchPlatformer/)
+
+1. [Scratch Freedom Of Choice](/apcsp/scratch/011ScratchFreedomOfChoice/)
 "
 
 - title: py
@@ -155,25 +158,25 @@ Projects:
 
 Projects:
 
-1. [PyBuySellPhones](/apcsp/py/PyBuySellPhones/)
+1. [Py Buy Sell Phones](/apcsp/py/PyBuySellPhones/)
 
-1. [PyMathFun](/apcsp/py/PyMathFun/)
+1. [Py Math Fun](/apcsp/py/PyMathFun/)
 
-1. [PyCallFun](/apcsp/py/PyCallFun/)
+1. [Py Call Fun](/apcsp/py/PyCallFun/)
 
-1. Pair- [PyValidNumber](/apcsp/py/111PyValidNumber/)
+1. Pair- [Py Valid Number](/apcsp/py/111PyValidNumber/)
 
-1. Pair- [PyHogwartsHouse](/apcsp/py/109PyHogwartsHouse/)
+1. Pair- [Py Hogwarts House](/apcsp/py/109PyHogwartsHouse/)
 
-1. *Create Practice 1* - Pair- [PyCreatePractice1](/apcsp/py/100PyCreatePractice1/)
+1. *Create Practice 1* - Pair- [Py Create Practice 1](/apcsp/py/100PyCreatePractice1/)
 
-1. Pair-Pick- [PyDollarConvert](/apcsp/py/108PyDollarConvert/) or [PyWeightOnPlanets](/apcsp/py/114PyWeightOnPlanets/)
+1. Pair-Pick- [Py Dollar Convert](/apcsp/py/108PyDollarConvert/) or [Py Weight On Planets](/apcsp/py/114PyWeightOnPlanets/)
 
-1. Pair-Pick- [Py2DGeometry](/apcsp/py/Py2DGeometry/) or [Py3DGeometry](/apcsp/py/112Py3DGeometry/)
+1. Pair-Pick- [Py 2D Geometry](/apcsp/py/Py2DGeometry/) or [Py 3D Geometry](/apcsp/py/112Py3DGeometry/)
 
-1. [PyModuloFun](/apcsp/py/105PyModuloFun/)
+1. [Py Modulo Fun](/apcsp/py/105PyModuloFun/)
 
-1. Pair-Pick- [PyThreeArgs](/apcsp/py/106PyThreeArgs/) or [PyCollisionFun](/apcsp/py/110PyCollisionFun/)
+1. Pair-Pick- [Py Three Args](/apcsp/py/106PyThreeArgs/) or [Py Collision Fun](/apcsp/py/110PyCollisionFun/)
 "
 - title: binary
   heading: "# Binary"
@@ -199,15 +202,15 @@ Projects:
 
 Projects:
 
-1. Pair- [CoinsWorksheet](/apcsp/binary/BinaryCoinsWorksheet/)
+1. Pair- [Coins Worksheet](/apcsp/binary/BinaryCoinsWorksheet/)
 
 1. [Binary Bday](/apcsp/binary/BinaryBday/)
 
-1. Pair- [BinaryWorksheet](/apcsp/binary/BinaryWorksheet/)
+1. Pair- [Binary Worksheet](/apcsp/binary/BinaryWorksheet/)
 
-1. Pair- [OctalWorksheet](/apcsp/binary/BinaryOctalWorksheet/)
+1. Pair- [Octal Worksheet](/apcsp/binary/BinaryOctalWorksheet/)
 
-1. Pair- [HexWorksheet](/apcsp/binary/BinaryHexWorksheet/)
+1. Pair- [Hex Worksheet](/apcsp/binary/BinaryHexWorksheet/)
 
 1. Practice Quiz
 
@@ -289,29 +292,28 @@ Projects:
 
 Projects:
 
-1. *Explore Practice 1* - Pair- [ExplorePractice1](/apcsp/turtleart/027ExplorePractice1/)
 
-1. Pair- [TrtSimpleDrawing](/apcsp/turtleart/012TurtleSimpleDrawing/)
+1. Pair- [Trt Simple Drawing](/apcsp/turtleart/012TurtleSimpleDrawing/)
 
-1. [TrtRandomLocations](/apcsp/turtleart/025TurtleDrawingsAtRandomLocations/)
+1. [Trt Random Locations](/apcsp/turtleart/025TurtleDrawingsAtRandomLocations/)
 
-1. Pair-Pick- [TrtBlockLetters](/apcsp/turtleart/026TurtleBlockLetters/) or [TrtPolygons](/apcsp/turtleart/013TurtlePolygons/)
+1. Pair-Pick- [Trt Block Letters](/apcsp/turtleart/026TurtleBlockLetters/) or [Trt Polygons](/apcsp/turtleart/013TurtlePolygons/)
 
-1. [TrtHowManySquares](/apcsp/turtleart/014TurtleHowManySquares/)
+1. [Trt How Many Squares](/apcsp/turtleart/014TurtleHowManySquares/)
 
-1. Pick- [TrtRandomShapes](/apcsp/turtleart/015TurtleRandomShapes/) or [TrtMandalaArt](/apcsp/turtleart/018TurtleMandalaArt/)
+1. Pick- [Trt Random Shapes](/apcsp/turtleart/015TurtleRandomShapes/) or [Trt Mandala Art](/apcsp/turtleart/018TurtleMandalaArt/)
 
-1. [TrtDrawingAlgorithm](/apcsp/turtleart/019TurtleDrawingAlgorithm/)
+1. [Trt Drawing Algorithm](/apcsp/turtleart/019TurtleDrawingAlgorithm/)
 
-1. [TrtBouncingOffWalls](/apcsp/turtleart/020TurtleBouncingOffWalls/)
+1. [Trt Bouncing Off Walls](/apcsp/turtleart/020TurtleBouncingOffWalls/)
 
-1. Pair- [TrtStars1](/apcsp/turtleart/016TurtleStars1/)
+1. Pair- [Trt Stars 1](/apcsp/turtleart/016TurtleStars1/)
 
-1. Pair- [TrtStars2](/apcsp/turtleart/017TurtleStars2/)
+1. Pair- [Trt Stars 2](/apcsp/turtleart/017TurtleStars2/)
 
-1. Pair- [TrtMondrian](/apcsp/turtleart/TrtMondrian/)
+1. Pair- [Trt Mondrian](/apcsp/turtleart/TrtMondrian/)
 
-1. [TrtOpArt](/apcsp/turtleart/TrtOpArt/)
+1. [Trt Op Art](/apcsp/turtleart/TrtOpArt/)
 "
 
 - title: ip
@@ -324,7 +326,7 @@ Code.org Unit 1, Chapter 2: Inventing the Internet, [https://studio.code.org/s/c
 - title: scrum
   heading: "# Scrum"
   content: "
-*1 wk*, Vocab: iteration, waterfall, scrum, collaboration, iterative versions, def new functions, loops, random, colors, Create 2
+*2 wk*, Vocab: iteration, waterfall, scrum, collaboration, iterative versions, def new functions, loops, random, colors, Create 2
 
 
 
@@ -403,7 +405,7 @@ Projects:
   content: "
 *2 wks*, Vocab: datatype, database, data structure, API, data mining, SQL, callback, Internet of Things, JSON, metadata, AJAX, server, analytics, server farm, query, XML
 
-Code.org Unit 4: Big Data and Privacy, [https://studio.code.org/s/csp4-2018](https://studio.code.org/s/csp4-2018), Explore 2
+Code.org Unit 4: Big Data and Privacy, [https://studio.code.org/s/csp4-2018](https://studio.code.org/s/csp4-2018)
 
 "
 - title: 3rdquarter
@@ -429,9 +431,6 @@ Code.org Unit 4: Big Data and Privacy, [https://studio.code.org/s/csp4-2018](htt
   content: "
   [3rd Quarter](#3rd-quarter)
 
-
-  1. [Explore](#explore) - *2 wks*
-
   1. [Text Games](#textgames) - *2 wks*
 
   1. [Digital Info](#digitalinfo) - *1 wk*
@@ -440,27 +439,7 @@ Code.org Unit 4: Big Data and Privacy, [https://studio.code.org/s/csp4-2018](htt
 
   1. [Tk](#tk) - *2 wks*
   "
-- title: explore
-  heading: "# Explore"
-  content: "
-*2 wks* - Explore - AP Performance Task Prep, Final Explore
 
-
-
-
-
-
-  - [AP Exam samples and scoring guidelines](https://apcentral.collegeboard.org/courses/ap-computer-science-principles/exam#anchor3)
-
-
-
-Projects:
-
-1. [042ExploreTaskArtifact.md](/apcsp/explore/042ExploreTaskArtifact/)
-
-1. [043ExploreTaskQuestions.md](/apcsp/explore/043ExploreTaskQuestions/)
-
-"
 - title: textgames
   heading: "# TextGames"
   content: "
