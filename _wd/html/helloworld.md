@@ -14,9 +14,14 @@ Read [Web Fundamentals 2.1.1](https://runestone.academy/runestone/books/publishe
 
   - MUST include your name in the webpage title.
 
-  - In the body, MUST create an h1 heading that says "Hello World".
+  - In the body, MUST create an h1 heading that says “Hello World”.
 
-  - In the body, MUST create a paragraph that says "Howdy from *your name*".
+  - In the body, MUST have THREE paragraphs
+  
+    1. 1st paragraph says My favorite class is and then write your favorite class
+    1. 2nd paragraph says says My favorite food or restaurant is and then write your favorite food or restaurant
+    1. 3rd paragraph says says My favorite tv show or movie is and then write your favorite food or restaurant
+
 
   - When finished...
       - click File > Save As
