@@ -13,17 +13,17 @@ Creating Your Game:
 
 2.	Choose any backdrop from the library and insert it into your scene.
 
-3.	Now it is time to write your script (or program). First, let’s tell the program when to display the speech bubble. From the “Events” scripts menu choose “When the green flag is clicked”. Every block that is connected to this event will be executed in the order specified.
+3.	Now it is time to write your script (or program). First, let’s tell the program *when* to display the speech bubble. From the “Events” scripts menu choose “When the green flag is clicked”. Every block that is connected to this event will be executed in the order specified.
 
-4.	Your sprite will be talking, so choose the “say” block from the “Looks” scripts menu. Type your narrative in the field where “Hello!” originally appears. Make sure to adjust the number of seconds so that your text can be read easily.
-
+4.	Your avatar will be talking, so choose the “say” block from the “Looks” scripts menu. Type your narrative in the field where “Hello!” originally appears. Make sure to adjust the number of seconds so that your text can be read easily.
 
 
 Requirements:
 
 Include the following information in your dialogue.
+* Say "Welcome"
 * Ask "What's your name?"
-* If the user's answer equals "Bradley"
+* If the user's answer equals "Hilliard"
   * Change the color effect by 25
 * Otherwise
   * Say "Hello _____" using the user's answer
@@ -35,3 +35,6 @@ Include the following information in your dialogue.
 *	Say what activities/athletics in which you plan to participate
 *	Say anything else you would like to share
 * Say "Goodbye _____" using the user's answer
+
+
+When you are finished, you MUST press the SHARE button. Copy the URL from the search bar and turn in the URL in Canvas.
