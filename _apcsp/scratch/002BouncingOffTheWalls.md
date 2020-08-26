@@ -3,9 +3,9 @@
   category: scratch
   title: Bouncing Off The Walls
 ---
-Switch to an animal other than the cat.
+Switch the sprite to any animal other than the cat.
 
-Write code so that your character (the sprite):
+Write code so that when the green flag is clicked, your sprite:
 
 1. Is always moving forward
 2. Bounces off the walls
