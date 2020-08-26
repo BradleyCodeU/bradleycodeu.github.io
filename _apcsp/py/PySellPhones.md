@@ -19,6 +19,7 @@ Input → Output
 Starter Code:
 ```python
 #define a function called sellPhones that requires one argument: myPhones.
+
 def sellPhones(myPhones):
     #convert myPhones to an int and save it back in myPhones
 
