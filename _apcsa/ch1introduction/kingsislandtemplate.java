@@ -1,33 +1,40 @@
 import java.util.Scanner;
 
-//You are traveling to King's Island for the day.
-//Everyone in the group has agreed to split the cost evenly.
-//Write a program to determine the total cost of the trip and the cost per person.
-//Assume that each ticket is $32.99
+// You are traveling to King's Island for the day.
+// Everyone in the group has agreed to split the cost evenly.
+// Write a program to determine the total cost of the trip and
+// the cost per person.
+// Assume that each ticket is $32.99
 
-public class KingsIsland
+public class Main
 {
 	public static void main(String[] args)
 	{
-		//Declare variables for the number of people, parking cost, food cost, total cost, cost per person
+		Scanner input = new Scanner(System.in);
+		// Declare variables for number of people, parking cost,
+		// food cost, ticket cost, total cost, and cost per person
 
 
-		//Prompt for and read in the number of people in the group
+		// Prompt for and collect input for number of people in
+		// the group.
+		// Hint: use input.nextInt() to collect an integer number
 
 
-		//Prompt for and read in the cost of parking
+		// Prompt for and collect input for cost of parking
+		// for example, $5.50
 
 
-		//Prompt for and read in the amount spent on food
+		// Prompt for and collect amount spent on food
+		// for example, $15.75
 
 
-		//Calculate the total expenses
+		// Calculate the total expenses. Each ticket is $32.99
 
 
-		//Calculate the average per person
+		// Calculate the average cost per person
 
 
-		//Display results
+		// Display results
 
 
 	}
