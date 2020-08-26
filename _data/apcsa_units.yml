@@ -94,7 +94,8 @@ References and Other Info:
 "
 - title: ch1introduction
   heading: "# Ch1 Introduction"
-  content: "*3 wks* Vocab: platform, assembly, binary, bit, byte, declare, assignment, initialize, JVM, IDE, class, method, main, println, Scanner, int, double, boolean, char, String, comment, magic number, final, literal
+  content: "
+  *3 wks* Vocab: platform, assembly, binary, bit, byte, declare, assignment, initialize, JVM, IDE, class, method, main, println, Scanner, int, double, boolean, char, String, comment, magic number, final, literal
 
 
 
