@@ -19,6 +19,7 @@ Input → Output
 Starter Code:
 ```python
 #define a function called buyPhones that requires one argument: myDollars.
+
 def buyPhones( myDollars ):
     #convert myDollars to a float
 
