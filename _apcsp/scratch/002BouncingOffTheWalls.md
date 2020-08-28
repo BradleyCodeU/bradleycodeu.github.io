@@ -16,3 +16,6 @@ Write code so that when the green flag is clicked, your sprite:
 
 
 *NOTE: Do NOT use the "go to random position" block or the "glide 1 secs to random position" block. If you use those, then your sprite isn't actually bouncing off the walls.*
+
+
+![examples of past projects](/apcsp/scratch/bounceOffWalls.gif)
