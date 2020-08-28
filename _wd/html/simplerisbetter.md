@@ -6,14 +6,21 @@ title: Simpler is Better
 
 Watch this video about how [Simpler is Better](https://drive.google.com/open?id=1hpUxydU5K0Lv9N_UkXRrQDSfIBxV8RAp) in web design.
 
-Log in to [trinket.io](https://trinket.io/library/trinkets/create?lang=html) using your school Google account. Then click the blue NEW TRINKET button and select HTML.
 
-Create a simple webpage (for a business, sports team, school club, rock band, etc) with a Title, Heading (H1), and three simple details in normal text on three separate lines (motto or slogan, fake phone number, fake building address, fake email, fake store hours, etc).
+Create a simple logo for your business, sports team, school club, rock band, etc.
+  - Use Photoshop to create the logo. Save it as a jpg
+  - OR you can use [https://logomakr.com/](https://logomakr.com/) or any other graphic design app. With logomakr.com you can either take a screenshot or click SAVE, then it asks if you wanna pay for high quality or you can just choose NO THANKS, DOWNLOAD LOW RESOLUTION FILE.
 
-Use the [center tag](https://www.w3schools.com/tags/tag_center.asp) to center text on the page. Later, we will learn how to center text using CSS instead.
 
-Finally, create a simple logo for your business, sports team, school club, rock band, etc.
-  - Use Photoshop to create the logo
-  - Save it as a jpg
-  - Upload the jpg into your Trinket project by clicking the View/Add Images icon in the center of the screen.
-  - Use [the img tag](https://www.w3schools.com/tags/tag_img.asp) to insert the image into the page
+Go to repl.it classroom to begin coding
+
+Create a simple webpage (for a business, sports team, school club, rock band, etc) with:
+1.  A Title
+1.  Heading (H1)
+1.  Three simple details in normal text on three separate lines (motto or slogan, fake phone number, fake building address, fake email, fake store hours, etc)
+1.  Use the <center> [center tag](https://www.w3schools.com/tags/tag_center.asp) (both opening and closing tags) to center text on the page. Later, we will learn how to center text using CSS instead.
+1.  Upload the logo that you created to repl.it and then use the [img tag](https://www.w3schools.com/tags/tag_img.asp) to insert the image into the page
+
+![how upload an image to repl.it](/wd/html/replitUploadImage.png)
+
+When finished, turn in the URL of your repl.it project.
