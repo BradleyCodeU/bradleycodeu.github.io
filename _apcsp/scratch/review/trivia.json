@@ -117,5 +117,124 @@
 {
 "answer": "sprite",
 "question": "an independent 2D graphic that can be given commands which define how it behaves"
+},
+{
+"answer": "growth mindset",
+"question": "the belief that your basic abilities can be developed through dedication and hard work"
+},
+{
+"answer": "fixed mindset",
+"question": "the belief that your basic qualities such intelligence, talent, and skills are unchangeable"
+},
+{
+"answer": "Scratch",
+"question": "a block based programming language designed for students and created by the Lifelong Kindergarten Group at the MIT Media Lab. Rather than typing text based commands, programming mainly involves dragging blocks of instructions."
+},
+{
+"answer": "MIT",
+"question": "The Massachusetts Institute of Technology"
+},
+{
+"answer": "high-level language",
+"question": "a programming language that is designed to be easy for humans to read and write."
+},
+{
+"answer": "low-level language",
+"question": "a programming language that is easy for a computer to read and run. Also called 'machine code'."
+},
+{
+"answer": "script",
+"question": "a set of commands written by a programmer"
+},
+{
+"answer": "front end",
+"question": "everything with which the user interacts. Also known as the user interface, it might include graphics, text, buttons, menus, and input fields."
+},
+{
+"answer": "back end",
+"question": "any part of a website or software program that the users do not see. This might include code for processing user input, running a script, storing or updating records in a database, and generating output.
+"
+},
+{
+"answer": "prompt",
+"question": "a message or symbol indicating that the computer is waiting for the user to provide input."
+},
+{
+"answer": "input",
+"question": "information that is given to the computer by a user, usually typed text and mouse clicks.
+"
+},
+{
+"answer": "variable",
+"question": "a named storage location that can store changeable information, depending on conditions or on information passed to the program"
+},
+{
+"answer": "conditional",
+"question": "also known as selection, a statement that uses a boolean condition to determine whether or not to run other statements. Usually an if-then statement."
+},
+{
+"answer": "comparison operator",
+"question": "one or more characters that examine two values and return either True or False. For example, greater than, less than, equal to, etc."
+},
+{
+"answer": "equality operator",
+"question": "returns True if the value on the left is equal to the value on the right, otherwise it returns False. In Python, it's the characters ==
+"
+},
+{
+"answer": "control structure",
+"question": "basic organizing systems for code which include iteration, selection, and sequencing."
+},
+{
+"answer": "sequencing",
+"question": "organizing commands in the correct order."
+},
+{
+"answer": "selection",
+"question": "also known as a conditional, a statement that uses a boolean condition to determine whether or not to run other statements. Usually an if-then statement."
+},
+{
+"answer": "iteration",
+"question": "also known as a loop, a control structure in which commands are repeated either a set number of times, until a boolean condition is met, or forever."
+},
+{
+"answer": "loop",
+"question": "also known as iteration, a control structure in which commands are repeated either a set number of times, until a boolean condition is met, or forever."
+},
+{
+"answer": "output",
+"question": "information that is given to the user by a computer, usually text, images, and sound."
+},
+{
+"answer": "boolean",
+"question": "a data type that stores one of two possible values: True or False"
+},
+{
+"answer": "int",
+"question": "a data type that stores whole numbers with no fractional part."
+},
+{
+"answer": "string",
+"question": "a data type that stores a sequence of characters which could include letters, numbers, spaces, symbols and punctuation"
+},
+{
+"answer": "assignment",
+"question": "a statement that sets a value to a named variable"
+},
+{
+"answer": "bug",
+"question": "an error in a program."
+},
+{
+"answer": "debugging",
+"question": "the process of finding and removing errors."
+},
+{
+"answer": "event listener",
+"question": "a script that does not run when the program is executed, but instead only occurs when a specific user input occurs. For example, when the space bar key is pressed."
+},
+{
+"answer": "sprite",
+"question": "an independent 2D graphic that can be given commands which define how it behaves"
 }
 ]

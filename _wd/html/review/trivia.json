@@ -70,5 +70,77 @@
 {
 "answer": "li",
 "question": "defines a list item in an HTML page. It must be placed within ol or ul tags"
+},
+{
+    "answer": "Hypertext Markup Language",
+"question": "the language for describing the proper formatting of text and images so that your Internet browser may display them as they are intended to look"
+},
+{
+"answer": "hypertext",
+"question": "a word, phrase or chunk of text that contains a link to another file or webpage"
+},
+{
+"answer": "tag",
+"question": "an HTML keyword written inside of triangle brackets. They usually are paired with a closing version that consists of: opening triangle bracket, a forward slash, the same HTML keyword, and closing triangle bracket"
+},
+{
+"answer": "element",
+"question": "an individual component of an HTML document created with one or two tags. For example, a heading, a paragraph, or a line break"
+},
+{
+"answer": "head",
+"question": "contains important info about an HTML page, but is not displayed on the HTML page. It is placed between the html tag and the body tag. Typically contains the document title, character set, styles, scripts, and other meta information"
+},
+{
+"answer": "body",
+"question": "contains all the contents displayed within an HTML page, such as text, hyperlinks, images, tables, lists, etc."
+},
+{
+"answer": "title",
+"question": "defines a name for the browser tab and provides a name for the page when it is added to favorites/bookmarks"
+},
+{
+"answer": "h1",
+"question": "defines the most important headings in an HTML page"
+},
+{
+"answer": "p",
+"question": "defines a paragraph in an HTML page. Browsers will automatically give it a top margin and bottom margin."
+},
+{
+"answer": "br",
+"question": "inserts a single line break in an HTML page. It is an empty element which means that it has no closing tag"
+},
+{
+"answer": "bold",
+"question": "text that is thicker, darker, and heavier than normal"
+},
+{
+"answer": "italic",
+"question": "text that is slightly slanted in order to give it emphasis"
+},
+{
+"answer": "img",
+"question": "defines an image in an HTML page. It has two required attributes: src and alt"
+},
+{
+"answer": "attribute",
+"question": "a setting that customizes the characteristics of an HTML element and is placed inside the element's opening tag. Some are required for example, an <img> tag must contain src and alt."
+},
+{
+"answer": "alt",
+"question": "provides alternative information for an image if a user cannot view it (because of an error in loading the image, slow connection, or if the user uses a screen reader)"
+},
+{
+"answer": "ol",
+"question": "defines a numerically or alphabetically sorted list in an HTML page"
+},
+{
+"answer": "ul",
+"question": "defines a bulleted, un-numbered list in an HTML page"
+},
+{
+"answer": "li",
+"question": "defines a list item in an HTML page. It must be placed within ol or ul tags"
 }
 ]
