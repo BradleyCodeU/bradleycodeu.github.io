@@ -52,7 +52,8 @@
 "question": "defines an image in an HTML page. It has two required attributes: src and alt"
 },
 {
-"answer": "attribute - 	a setting that customizes the characteristics of an HTML element and is placed inside the element's opening tag. Some are required for example, an <img> tag must contain src and alt."
+"answer": "attribute",
+"question": "a setting that customizes the characteristics of an HTML element and is placed inside the element's opening tag. Some are required for example, an <img> tag must contain src and alt."
 },
 {
 "answer": "alt",
