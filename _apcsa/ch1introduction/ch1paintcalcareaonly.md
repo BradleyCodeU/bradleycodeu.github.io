@@ -20,26 +20,25 @@ Calculate and display the area to be painted. (*NOTE*: You will NOT be painting 
 Sample run #1:
 <pre>
 Enter the room dimensions below:
-Length? 10
-Width? 20
-Height? 8
+Length: 10
+Width: 20
+Height: 8
+How many doors does the room have: 1
+How many windows does the room have: 2
 
-How many doors does the room have? 1
-How many windows does the room have? 2
-
-Total square feet: 435 square feet
+Total square feet = 435 square feet
 </pre>
 
 
 Sample run #2:
 <pre>
 Enter the room dimensions below:
-Length? 10
-Width? 5
-Height? 10
+Length: 10
+Width: 5
+Height: 10
 
-How many doors does the room have? 0
-How many windows does the room have? 0
+How many doors does the room have: 0
+How many windows does the room have: 0
 
-Total square feet: 300 square feet
+Total square feet = 300 square feet
 </pre>
