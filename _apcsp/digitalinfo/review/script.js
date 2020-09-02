@@ -44,14 +44,14 @@ function loadAnswers() {
       answers.push(newAnswer);
     }
   }
-  console.log(answers);
+  //console.log(answers);
   var answers2 = answers.slice(0);
   answers2 = shuffle(answers2, "" + new Date().getMilliseconds());
   updateOptions(answers2);
 }
 
 function updateOptions(answers) {
-  console.log(answers);
+  //console.log(answers);
   var optArray = document.getElementsByClassName("opt");
   //console.log(optArray);
   for (var i = 0; i < answers.length; i++) {
