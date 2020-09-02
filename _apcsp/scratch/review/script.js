@@ -14,7 +14,7 @@ if (localStorage.getItem("randomseed") === null) {
   currentQuestion = JSON.parse(localStorage.getItem("currentquestion"));
 }
 
-$.getJSON("./trivia.json", function(json) {
+$.getJSON("trivia.json", function(json) {
   questions = shuffle(json, randomSeed);
   //console.log(json);
   loadQuestion();
