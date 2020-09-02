@@ -5,7 +5,7 @@ var currentQuestion = 0;
 var randomSeed = "";
 var numberOfOptions = 6;
 document.body.style.backgroundColor = "#343a40";
-document.getElementById("windowLocation").innerHTML = window.location.slice(31);
+document.getElementById("windowLocation").innerHTML = window.location.toString().slice(31);
 if (localStorage.getItem("randomseed") === null) {
   randomSeed = getRandomSeed();
   localStorage.setItem("currentquestion", currentQuestion);
