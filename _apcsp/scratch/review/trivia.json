@@ -33,8 +33,7 @@
 },
 {
 "answer": "back end",
-"question": "any part of a website or software program that the users do not see. This might include code for processing user input, running a script, storing or updating records in a database, and generating output.
-"
+"question": "any part of a website or software program that the users do not see. This might include code for processing user input, running a script, storing or updating records in a database, and generating output."
 },
 {
 "answer": "prompt",
@@ -42,8 +41,7 @@
 },
 {
 "answer": "input",
-"question": "information that is given to the computer by a user, usually typed text and mouse clicks.
-"
+"question": "information that is given to the computer by a user, usually typed text and mouse clicks."
 },
 {
 "answer": "variable",
@@ -59,8 +57,7 @@
 },
 {
 "answer": "equality operator",
-"question": "returns True if the value on the left is equal to the value on the right, otherwise it returns False. In Python, it's the characters ==
-"
+"question": "returns True if the value on the left is equal to the value on the right, otherwise it returns False. In Python, it's the characters =="
 },
 {
 "answer": "control structure",
@@ -152,8 +149,7 @@
 },
 {
 "answer": "back end",
-"question": "any part of a website or software program that the users do not see. This might include code for processing user input, running a script, storing or updating records in a database, and generating output.
-"
+"question": "any part of a website or software program that the users do not see. This might include code for processing user input, running a script, storing or updating records in a database, and generating output."
 },
 {
 "answer": "prompt",
@@ -177,8 +173,7 @@
 },
 {
 "answer": "equality operator",
-"question": "returns True if the value on the left is equal to the value on the right, otherwise it returns False. In Python, it's the characters ==
-"
+"question": "returns True if the value on the left is equal to the value on the right, otherwise it returns False. In Python, it's the characters =="
 },
 {
 "answer": "control structure",
