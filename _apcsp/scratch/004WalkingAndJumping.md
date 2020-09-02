@@ -14,6 +14,9 @@ Create multiple scripts so that:
 
 Add a non-player character (NPC) that:
 - Automatically walks from the left side of the screen to the right side of the screen
-- If it reaches the right side of the screen (it has an x position >= 240), then set its x position to -240
+- It's legs move
+- If it reaches the right side of the screen (it has an x position > 250), then set its x position to -250. This should make it look like there is another character walking from left to right.
+
+
 
 Raise your hand when finished
