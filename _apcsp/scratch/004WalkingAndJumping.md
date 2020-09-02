@@ -17,6 +17,6 @@ Add a non-player character (NPC) that:
 - Its legs move
 - If it reaches the right side of the screen (it has an x position > 250), then set its x position to -250. This should make it look like there is another character walking from left to right.
 
-![Clip of cat jumping over a chicken](_apcsp/scratch/walkJump.gif)
+![Clip of cat jumping over a chicken](/apcsp/scratch/walkJump.gif)
 
 Raise your hand when finished
