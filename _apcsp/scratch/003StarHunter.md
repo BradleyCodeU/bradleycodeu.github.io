@@ -13,4 +13,6 @@ Follow the directions in the PDF, then also...
 - Add a variable for High Score.
 - If the Score is greater than High Score, set High Score to be Score.
 
+![Example of Star Hunter game](/apcsp/scratch/starHunterExample.gif)
+
 Raise your hand when finished
