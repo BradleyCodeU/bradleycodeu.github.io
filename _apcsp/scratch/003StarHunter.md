@@ -15,4 +15,7 @@ Follow the directions in the PDF, then also...
 
 ![Example of Star Hunter game](/apcsp/scratch/starHunterExample.gif)
 
+![A different example of Star Hunter game](/apcsp/scratch/starHunterExample2.gif)
+
+
 Raise your hand when finished
