@@ -16,33 +16,33 @@ Starter Code:
 ```python
 
 def magicTrick():
-  # REMINDER: All your code MUST be indented by 2 spaces
-  # Use the print function to say "Hello World"
-  print( )
-  # Create variable named magicNumber & set it to any number you like
+    # REMINDER: All your code MUST be indented by 4 spaces
+    # Use the print function to say "Hello World"
+    print( )
+    # Create variable named magicNumber & set it to any number you like
 
-  # Print magicNumber. I will do this step for you
-  print(magicNumber)
-  # Create variable named stepOne & set it to magicNumber multiplied by 2
+    # Print magicNumber. I will do this step for you
+    print(magicNumber)
+    # Create variable named stepOne & set it to magicNumber multiplied by 2
 
-  # Print stepOne
+    # Print stepOne
 
-  # Create variable named stepTwo & set it to stepOne plus 10
+    # Create variable named stepTwo & set it to stepOne plus 10
 
-  # Print stepTwo
+    # Print stepTwo
 
-  # Create variable named stepThree & set it to stepTwo divided by 2
+    # Create variable named stepThree & set it to stepTwo divided by 2
 
-  # Print stepThree
+    # Print stepThree
 
-  # Create variable named stepFour & set it to stepThree minus magicNumber
+    # Create variable named stepFour & set it to stepThree minus magicNumber
 
-  # Print "The next number should be 5"
+    # Print "The next number should be 5"
 
-  # Print stepFour
+    # Print stepFour
 
-  # YOU SHOULD BE DONE! Press the run button. If no errors, then Submit
-  return stepFour
+    # YOU SHOULD BE DONE! Press the run button. If no errors, then Submit
+    return stepFour
 
 magicTrick()
 
