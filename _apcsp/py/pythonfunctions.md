@@ -3,7 +3,7 @@ layout: project
 category: py
 title: Python Functions
 ---
-Here is a simple function. It requires one argument. If I give it the argument "Steve", then it prints "Hello Steve!"
+Here is a simple function. It requires one argument. If I give it the argument "Alex", then it prints "Hello Alex!" If I give it the argument "Steve", then it prints "Hello Steve!"
 <pre>
 def bonjourPerson(name):
   text = "Bonjour " + name + "!"
@@ -21,11 +21,12 @@ def bonjourPerson(name):
 Calling a function means "running" that function. Functions do not run until you call them. To call a function, use the function name followed by parenthesis:
 
 <pre>
-bonjourPerson("Steve")
+bonjourPerson("Alex")
 </pre>
 
-Here is another function call...
+Here is two other function calls...
 <pre>
+bonjourPerson("Steve")
 bonjourPerson("Fatima")
 </pre>
 
