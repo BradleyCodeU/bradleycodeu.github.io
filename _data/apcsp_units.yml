@@ -158,27 +158,32 @@ Projects:
 
 Projects:
 
-1. [Py Sell Phones](/apcsp/py/PySellPhones/)
+  1. [Py SoloLrn Basics](/apcsp/py/sololrnPythonBasicConcepts/)
 
-1. [Py Buy Phones](/apcsp/py/PyBuyPhones/)
+  1. [Py Magic Trick](/apcsp/py/PyMagicTrick/)
 
-1. [Py Math Fun](/apcsp/py/PyMathFun/)
+  1. [Py Sell Phones](/apcsp/py/PySellPhones/)
 
-1. [Py Call Fun](/apcsp/py/PyCallFun/)
+  1. [Py Buy Phones](/apcsp/py/PyBuyPhones/)
 
-1. Pair- [Py Valid Number](/apcsp/py/111PyValidNumber/)
+  1. [Py Math Fun](/apcsp/py/PyMathFun/)
 
-1. Pair- [Py Hogwarts House](/apcsp/py/109PyHogwartsHouse/)
+  1. [Py Call Fun](/apcsp/py/PyCallFun/)
 
-1. *Create Practice 1* - Pair- [Py Create Practice 1](/apcsp/py/100PyCreatePractice1/)
+  1. Pair- [Py Valid Number](/apcsp/py/111PyValidNumber/)
 
-1. Pair-Pick- [Py Dollar Convert](/apcsp/py/108PyDollarConvert/) or [Py Weight On Planets](/apcsp/py/114PyWeightOnPlanets/)
+  1. Pair- [Py Hogwarts House](/apcsp/py/109PyHogwartsHouse/)
 
-1. Pair-Pick- [Py 2D Geometry](/apcsp/py/Py2DGeometry/) or [Py 3D Geometry](/apcsp/py/112Py3DGeometry/)
+  1. *Create Practice 1* - Pair- [Py Create Practice 1](/apcsp/py/100PyCreatePractice1/)
 
-1. [Py Modulo Fun](/apcsp/py/105PyModuloFun/)
+  1. Pair-Pick- [Py Dollar Convert](/apcsp/py/108PyDollarConvert/) or [Py Weight On Planets](/apcsp/py/114PyWeightOnPlanets/)
 
-1. Pair-Pick- [Py Three Args](/apcsp/py/106PyThreeArgs/) or [Py Collision Fun](/apcsp/py/110PyCollisionFun/)
+  1. Pair-Pick- [Py 2D Geometry](/apcsp/py/Py2DGeometry/) or [Py 3D Geometry](/apcsp/py/112Py3DGeometry/)
+
+  1. [Py Modulo Fun](/apcsp/py/105PyModuloFun/)
+
+  1. Pair-Pick- [Py Three Args](/apcsp/py/106PyThreeArgs/) or [Py Collision Fun](/apcsp/py/110PyCollisionFun/)
+
 "
 - title: binary
   heading: "# Binary"
@@ -536,7 +541,6 @@ Projects:
 
 1. [Create Practice 3](/apcsp/turtlegames/CreatePractice3/)
 
-1. [SoloLrn Python Basic Concepts](/apcsp/turtlegames/sololrnPythonBasicConcepts/)
 "
 - title: tk
   heading: "# Tk"
