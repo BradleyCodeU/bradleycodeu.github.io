@@ -25,17 +25,8 @@ Java primitive data types (with ones we will use in APCSA <mark>highlighted</mar
 What is a 32-bit signed two's complement integer? The left-most binary column (aka the most significant bit or MSB) is flipped to negative.
 
 Here are some *simpler* examples:
-```
-3-bit signed two's complement columns = -4 2 1 (min -4 to max 3)
 
-4-bit signed two's complement columns = -8 4 2 1 (min -8 to max 7)
-
-6-bit signed two's complement columns = -32 16 8 4 2 1 (min -32 to max 31)
-
-8-bit signed two's complement columns = -128 64 32 16 8 4 2 1 (min -128 to max 127)
-```
-
-<table class="wikitable" style="float:right; width: 20em; margin-left: 1em; text-align:center">
+<table class="" style="">
 <caption>Eight-bit two's complement
 </caption>
 <tbody><tr>
@@ -100,6 +91,18 @@ Here are some *simpler* examples:
 <td>−1</td>
 <td>255
 </td></tr></tbody></table>
+
+```
+3-bit signed two's complement columns = -4 2 1 (min -4 to max 3)
+
+4-bit signed two's complement columns = -8 4 2 1 (min -8 to max 7)
+
+6-bit signed two's complement columns = -32 16 8 4 2 1 (min -32 to max 31)
+
+8-bit signed two's complement columns = -128 64 32 16 8 4 2 1 (min -128 to max 127)
+```
+
+
 
 ## Directions
 
