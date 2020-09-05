@@ -26,71 +26,6 @@ What is a 32-bit signed two's complement integer? The left-most binary column (a
 
 Here are some *simpler* examples:
 
-<table class="" style="">
-<caption>Eight-bit two's complement
-</caption>
-<tbody><tr>
-<th>Binary value
-</th>
-<th>Two's complement interpretation
-</th>
-<th>Unsigned interpretation
-</th></tr>
-<tr>
-<td>00000000</td>
-<td>0</td>
-<td>0
-</td></tr>
-<tr>
-<td>00000001</td>
-<td>1</td>
-<td>1
-</td></tr>
-<tr>
-<td>⋮</td>
-<td>⋮</td>
-<td>⋮
-</td></tr>
-<tr>
-<td>01111110</td>
-<td>126</td>
-<td>126
-</td></tr>
-<tr>
-<td>01111111</td>
-<td>127</td>
-<td>127
-</td></tr>
-<tr>
-<td>10000000</td>
-<td>−128</td>
-<td>128
-</td></tr>
-<tr>
-<td>10000001</td>
-<td>−127</td>
-<td>129
-</td></tr>
-<tr>
-<td>10000010</td>
-<td>−126</td>
-<td>130
-</td></tr>
-<tr>
-<td>⋮</td>
-<td>⋮</td>
-<td>⋮
-</td></tr>
-<tr>
-<td>11111110</td>
-<td>−2</td>
-<td>254
-</td></tr>
-<tr>
-<td>11111111</td>
-<td>−1</td>
-<td>255
-</td></tr></tbody></table>
 
 ```
 3-bit signed two's complement columns = -4 2 1 (min -4 to max 3)
@@ -102,6 +37,21 @@ Here are some *simpler* examples:
 8-bit signed two's complement columns = -128 64 32 16 8 4 2 1 (min -128 to max 127)
 ```
 
+8-bit signed two's complement columns:
+
+|Binary value|Two's complement|Unsigned|
+|--- |--- |--- |
+|00000000|0|0|
+|00000001|1|1|
+|⋮|⋮|⋮|
+|01111110|126|126|
+|01111111|127|127|
+|10000000|−128|128|
+|10000001|−127|129|
+|10000010|−126|130|
+|⋮|⋮|⋮|
+|11111110|−2|254|
+|11111111|−1|255|
 
 
 ## Directions
