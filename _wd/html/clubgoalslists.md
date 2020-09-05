@@ -6,7 +6,9 @@ title: Club Goals Lists
 
 Watch this [KhanAcademy tutorial about HTML lists](https://www.khanacademy.org/computing/hour-of-code/hour-of-html/pt/html-lists)
 
-Continue working on your webpage from the Simpler Is Better project. At the top of the page you should have the name for your fake business, sports team, school club, rock band, etc (for example, Bradley Flat Earth Society). Have the name as a heading (H1), that is *centered* and at the top of the page. Below the heading, you should already have a logo.
+In this project you will create an unordered list of Club Goals and an ordered list of Directions.
+
+Continue working on your webpage from the Simpler Is Better project. At the top of the page you should already have the name for your fake business, sports team, school club, rock band, etc (for example, Bradley Flat Earth Society). The name should be a heading (H1), that is *centered* and at the top of the page. Below the heading, you should already have a logo.
 
 Next add your club goals as an UNORDERED list. For example...
 
