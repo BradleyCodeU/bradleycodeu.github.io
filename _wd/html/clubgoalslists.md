@@ -10,7 +10,7 @@ Continue working on your webpage from the Simpler Is Better project. At the top 
 
 Next add your club goals as an UNORDERED list. For example...
 
-### Our Goals for Members:
+Our Goals for Members:
 
   - Members will gain a positive attitude
   - Members will achieve sublime happiness
@@ -18,11 +18,16 @@ Next add your club goals as an UNORDERED list. For example...
 
 Next give some steps that members of the club will follow as an ORDERED list. For example...
 
-## Directions to Our Meeting Place:
+Directions to Our Meeting Place:
 
   1.  Find some pixie dust and sprinkle it on yourself
   1.  Think of a wonderful thought
   1.  Fly toward the second star to the right, and a straight-on 'til morning
 
+A few things to note for this project...
+
+  - Lists look best when they are not centered
+  - You should not have paragraphs inside of your list items. Don't do this... &lt;li> &lt;p> text &lt;/p> &lt;/li>
+  - You should have BOTH an unordered list with Club Goals AND an ordered list with Directions
 
 Turn in your repl.it URL when finished
