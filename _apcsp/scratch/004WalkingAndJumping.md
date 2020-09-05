@@ -19,4 +19,7 @@ Add a non-player character (NPC) that:
 
 ![Clip of cat jumping over a chicken](/apcsp/scratch/walkJump.gif)
 
+![Another example of this project](/apcsp/scratch/walkJumpExample2.gif)
+
+
 Raise your hand when finished
