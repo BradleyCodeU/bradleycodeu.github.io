@@ -55,7 +55,7 @@ Here are some *simpler* examples:
 
 ## Directions
 
-  Run the app below, then copy and paste the Console Output into a text document.
+  Run the [IntOverflowGenerator app](https://repl.it/@JustinRiley1/IntOverflowGenerator#Main.java), then copy and paste the Console Output into a text document. 
 
   Solve the problems in your text document.
 
