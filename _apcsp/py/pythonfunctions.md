@@ -41,11 +41,25 @@ This is very useful if your program needs to perform the same task multiple time
 
 ## Return Values
 
-A function often returns some data. When the function is called, we usually store the returned data in a new variable.  Here is an example:
+A function often returns some data. When the function is called, we usually save the returned data in a new variable. Here is an example:
 
 ```python
 newVariable = functionName()
 print(newVariable)
+```
+
+Here is a build-in function that converts a decimal number to an integer. Notice that if you forget to save the returned value in a variable, then the conversion is not saved.
+```python
+myNumber = 5.001
+int(myNumber) # Forgot to save the return value
+print(myNumber) # Oops! This will still print 5.001
+```
+
+Here is how to *correctly* convert from a decimal number to an integer. Don't forget to save the return value:
+```python
+myNumber = 5.001
+myInteger = int(myNumber)
+print(myInteger) # It worked! It prints: 5
 ```
 
 ## Arguments
@@ -77,25 +91,18 @@ def printBye():
   return True
 ```
 
-Call a function that doesn't require arguments like this:
+You can call a function that doesn't require arguments like this:
 ```python
 printBye()
 ```
 
 ## Summary
 
-A function is a package for code.  You can write any code inside a function, including calling other functions.
-
-A function has to be defined (created) before it can be called (used) by the program.
-
-A function can be called at any time during the program by typing its identifier.
-
-Functions allow us to code common tasks once and reuse them many times.  This helps make our program smaller and more efficient.
-
-Function names are created using lowercase letters with underscores between words.  This is not a syntax rule but it is the common convention.  Using this instead of camel case helps us differentiate between functions and variables/lists when we are reading the code.
-
-You may hear the terms ‘procedure’ or ‘subroutine’ referred to in other programming languages.  In more complex languages these are other ‘flavours’ of function that work in slightly different ways.  However, at beginner level Python handily combines them all into functions.
-
-A function will not run when it is created (using the def command). It has to be called in the program.
-
-A function can have many arguments.  They are separated by commas in the brackets when the function is defined.
+- Function names should be verbs. This is not a syntax rule but it is the common convention.
+- A function is a container for code. You can write any code inside a function, including calling other functions.
+- A function has to be *defined* (or created) before it can be *called* (or used) by the program.
+- A function will not run when it is first created (using the def command). It has to be called in the program.
+- A function can be called at any time during the program by typing its identifier (name follow by parentheses).
+- Functions allow us to code common tasks once and reuse them many times. This helps make our programs smaller, more efficient, and easier to read.
+- A function often returns some data. When the function is called, we usually save the returned data in a new variable.
+- A function can have many arguments. They are separated by commas in the parentheses when the function is defined.
