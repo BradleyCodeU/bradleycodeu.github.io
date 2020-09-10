@@ -1,4 +1,4 @@
-// version 2020.02.10
+// version 2020.09.05
 
 var questions;
 var currentQuestion = 0;
@@ -24,6 +24,7 @@ function loadQuestion() {
   document.getElementById("questionText").innerHTML =
     questions[currentQuestion % questions.length].question;
   loadAnswers();
+
 }
 
 function loadAnswers() {
@@ -66,13 +67,16 @@ function checkAnswer(value) {
     value.toLowerCase() ==
     questions[currentQuestion % questions.length].answer.toLowerCase()
   ) {
+    document.activeElement.blur();
     document.body.style.backgroundColor = "#00ff00";
     setTimeout(() => {
       document.body.style.backgroundColor = "#343a40";
     }, 200);
     currentQuestion++;
     localStorage.setItem("currentquestion", currentQuestion);
-    loadQuestion();
+    setTimeout(() => {
+      loadQuestion();
+  }, 300);
   } else {
     document.body.style.backgroundColor = "#ff0000";
     setTimeout(() => {
