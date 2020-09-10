@@ -53,7 +53,7 @@
 },
 {
 "answer": "attribute",
-"question": "a setting that customizes the characteristics of an HTML element and is placed inside the element's opening tag. Some are required for example, an <img> tag must contain src and alt."
+"question": "a setting that customizes the characteristics of an HTML element and is placed inside the element's opening tag. Some are required for example, an img tag must contain src and alt."
 },
 {
 "answer": "alt",
@@ -125,7 +125,7 @@
 },
 {
 "answer": "attribute",
-"question": "a setting that customizes the characteristics of an HTML element and is placed inside the element's opening tag. Some are required for example, an <img> tag must contain src and alt."
+"question": "a setting that customizes the characteristics of an HTML element and is placed inside the element's opening tag. Some are required for example, an img tag must contain src and alt."
 },
 {
 "answer": "alt",
