@@ -6,9 +6,8 @@ title: Buy Phones
 
 Read this [Python Functions tutorial](/apcsp/py/pythonfunctions/) and this page about the [Python float function](https://www.w3schools.com/python/ref_func_float.asp)
 
-Define a function called buyPhones that requires TWO arguments: myDollars and phonePrice. The function will return the amountOfPhones as a whole number.
+Define a function called buyPhones that requires TWO arguments: myDollars and phonePrice. The function will return the amountOfPhones you can buy as a whole number.
 
-Replace ALL SIX blanks in the starter code with the correct code. Blanks look like this: ???
 
 Inputs → Output
 ```
@@ -17,6 +16,10 @@ Inputs → Output
 600, 199.99 → 3
 799, 199.99 → 3
 ```
+
+<u>Replace ALL SIX blanks in the starter code with the correct code. Blanks look like this: ???</u>
+
+When finished, run the code. If no errors, submit to replit classroom and then go to the Canvas assignment and say "done"
 
 Starter Code:
 ```python
