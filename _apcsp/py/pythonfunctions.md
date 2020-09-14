@@ -22,7 +22,7 @@ def sayBonjour(name):
 ```
 
 ## Calling a Function
-Calling a function means "running" that function. Functions do not run until you call them. To call a function, use the function name followed by parenthesis:
+Calling a function means "running" that function. You have probably already called the print function by writing: ```print("Hello world")```. Functions do not run until you call them. To call a function, use the function name followed by parenthesis:
 
 ```python
 # call the sayBonjour function
@@ -48,7 +48,13 @@ newVariable = functionName()
 print(newVariable)
 ```
 
-Here is a build-in function that converts a decimal number to an integer. Notice that if you forget to save the returned value in a variable, then the conversion is not saved.
+Here is a build-in Python function named ```int()``` that converts a decimal number to an integer.
+```python
+myNumber = 5.001
+myNumber = int(myNumber) # Convert myNumber to an integer & save back in myNumber
+```
+
+Notice that if you forget to save the returned value in a variable, then the conversion is not saved.
 ```python
 myNumber = 5.001
 int(myNumber) # Forgot to save the return value
