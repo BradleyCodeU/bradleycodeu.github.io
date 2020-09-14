@@ -3,7 +3,7 @@ layout: project
 category: py
 title: Python Functions
 ---
-A function is a behavior. The names of functions should be verbs. For example, makeStudentEmail or sayBonjour. Functions help us break large tasks down into smaller individual actions that are easy to test and can be reused. Using functions becomes more important as we start to write longer and more complex programs.
+A function is a behavior. It completes a task. The names of functions should be verbs. For example, makeStudentEmail, sayBonjour, or sendTweet. Functions help us break large tasks down into smaller individual actions that are easy to test and can be reused. Using functions becomes more important as we start to write longer and more complex programs.
 
 Here is a simple function. It requires one argument. If I give it the argument "Alex", then it prints "Bonjour Alex!" If I give it the argument "Steve", then it prints "Bonjour Steve!"
 ```python
@@ -64,16 +64,14 @@ print(myInteger) # It worked! It prints: 5
 
 ## Arguments
 
-Information can be passed to functions as an argument. Arguments are specified after the function name, inside the parentheses. In the example above, the first function call passes the argument "Steve" and the second function call passes the argument "Fatima"
+Information can be passed to functions as an argument. Arguments are specified after the function name, inside the parentheses. In the example below, the first function call passes the argument "Steve" and the second function call passes the argument "Fatima"
 
-When you are defining a function you can add as many arguments (aka parameters) as you want, just separate them with a comma. Here is an example that requires two arguments:
 ```python
-def makeStudentEmail(firstName, lastName):
-  email = firstName + "." + lastName + "\@hilliardschools.org"
-  return email
+text1 = sayBonjour("Steve")
+text2 = sayBonjour("Fatima")
 ```
 
-After defining that function, you can call the function by passing two arguments:
+You can call a function that requires two arguments like this:
 ```python
 makeStudentEmail("Ariana", "Grande")
 ```
@@ -82,6 +80,15 @@ Here is another function call with two arguments...
 ```python
 makeStudentEmail("Justin", "Bieber")
 ```
+
+When you are defining a function you can add as many arguments (aka parameters) as you want, just separate them with a comma. Here is an example that requires two arguments:
+```python
+def makeStudentEmail(firstName, lastName):
+  email = firstName + "." + lastName + "\@hilliardschools.org"
+  return email
+```
+
+
 
 You function might not require any arguments:
 ```python
