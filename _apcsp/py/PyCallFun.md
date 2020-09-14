@@ -46,11 +46,13 @@ def playNameGame(fullName):
 # Blanks look like this: ???
 
 def test_1_getFirstVowel():
-    # call getFirstVowel function, pass argument "Steve", save what it returns in steveText
+    # call getFirstVowel function, pass argument "Steve",
+    # save what it returns in steveText
     steveText = getFirstVowel("Steve")
     # print that variable
     print(steveText)
-    # call getFirstVowel function, pass in "Hilliard" as an argument & save what it returns in hillText
+    # call getFirstVowel function, pass in "Hilliard" as
+    # an argument & save what it returns in hillText
     hillText = ???
     # print the variable hillText
     print( ??? )
@@ -58,12 +60,14 @@ def test_1_getFirstVowel():
     return ???
 
 def test_2_getVowelName():
-    # call getVowelName function, pass in YOUR LAST NAME as an argument & save what it returns in a variable
+    # call getVowelName function, pass in YOUR LAST NAME as
+    # an argument & save what it returns in a variable
     ??? = ???
     # print your variable
     print( ??? )
     ???
-    # call getVowelName function, pass the argument "Brynn" & save what it returns in brynnText
+    # call getVowelName function, pass argument "Brynn" &
+    # save what it returns in brynnText
     brynnText = ???
     # print the variable brynnText
     print( ??? )
@@ -71,11 +75,13 @@ def test_2_getVowelName():
     return ???
 
 def test_3_playNameGame():
-    # call playNameGame function, pass argument, saves what it returns in a variable
+    # call playNameGame function, pass argument "Shirley",
+    # saves what it returns in variable shirleyText
     shirleyText = playNameGame("Shirley")  
     # print that variable
     print(shirleyText)
-    # call playNameGame function, pass in YOUR FIRST NAME as an argument, & save what it returns in a new variable
+    # call playNameGame function, pass in YOUR FIRST NAME as
+    # an argument, & save what it returns in a new variable
     ??? = ???
     # print that variable
     print( ??? )
