@@ -98,7 +98,7 @@ def makeStudentEmail(firstName, lastName):
 
 You function might not require any arguments:
 ```python
-def printBye():
+def sayBye():
   for i in range(10):
     print("bye" * i)
   return True
@@ -106,7 +106,7 @@ def printBye():
 
 You can call a function that doesn't require arguments like this:
 ```python
-printBye()
+sayBye()
 ```
 
 ## Summary
