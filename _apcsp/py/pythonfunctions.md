@@ -13,7 +13,7 @@ def sayBonjour(name):
 ```
 
 ## Creating a Function
-In Python a function is defined using the <b>def</b> keyword. A function has to be *defined* (or created) before it can be *called* (or used) by the program.
+In Python a function is defined using the ```def``` keyword. A function has to be *defined* (or created) before it can be *called* (or used) by the program.
 
 ```python
 def sayBonjour(name):
@@ -51,7 +51,7 @@ print(newVariable)
 Here is a build-in Python function named ```int()``` that converts a decimal number to an integer.
 ```python
 myNumber = 5.001
-myNumber = int(myNumber) # Convert myNumber to an integer & save back in myNumber
+myNumber = int(myNumber) # Convert to integer & save back in myNumber
 ```
 
 Notice that if you forget to save the returned value in a variable, then the conversion is not saved.
