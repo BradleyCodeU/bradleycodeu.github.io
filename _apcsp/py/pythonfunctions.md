@@ -90,7 +90,7 @@ makeStudentEmail("Justin", "Bieber")
 When you are defining a function you can add as many arguments (aka parameters) as you want, just separate them with a comma. Here is an example that requires two arguments:
 ```python
 def makeStudentEmail(firstName, lastName):
-  email = firstName + "." + lastName + "\@hilliardschools.org"
+  email = firstName + "." + lastName + "@hilliardschools.org"
   return email
 ```
 
