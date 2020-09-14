@@ -65,7 +65,6 @@ def test_2_getVowelName():
     ??? = ???
     # print your variable
     print( ??? )
-    ???
     # call getVowelName function, pass argument "Brynn" &
     # save what it returns in brynnText
     brynnText = ???
@@ -77,7 +76,7 @@ def test_2_getVowelName():
 def test_3_playNameGame():
     # call playNameGame function, pass argument "Shirley",
     # saves what it returns in variable shirleyText
-    shirleyText = playNameGame("Shirley")  
+    shirleyText = playNameGame( ??? )  
     # print that variable
     print(shirleyText)
     # call playNameGame function, pass in YOUR FIRST NAME as
