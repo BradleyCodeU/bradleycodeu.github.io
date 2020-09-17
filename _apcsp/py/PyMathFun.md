@@ -8,8 +8,8 @@ In this project you will define two functions.
 
 Pick 2:
 - [absoluteValue](#absolutevalue)
-- [minimumValue](#minimumvalue)
 - [maximumValue](#maximumvalue)
+- [minimumValue](#minimumvalue)
 - [distance](#distance)
 - [normalize](#normalize)
 
@@ -30,7 +30,7 @@ Given three numbers as arguments, return the smallest number
 Input → Output
 ```
 minimumValue(1, 3, -5) → -5
-minimumValue("7", "2", "9") → 2
+minimumValue("-7", "-9", "-2") → -9
 ```
 
 ## maximumValue
@@ -38,8 +38,8 @@ Given three numbers as arguments, return the largest number
 
 Input → Output
 ```
-minimumValue(1, 3, -5) → 3
-minimumValue("7", "2", "9") → 9
+maximumValue(1, 3, -5) → 3
+maximumValue("7", "2", "9") → 9
 ```
 
 ## distance
