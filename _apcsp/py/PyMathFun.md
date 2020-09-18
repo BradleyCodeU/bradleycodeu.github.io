@@ -136,11 +136,11 @@ print("\nExpected : distance(-7, -5, 7, 5) → 17.204650534085253 \nYour code: d
 distTest2 = distance("0", "0", "0", "10")
 print("Expected : distance(\"0\", \"0\", \"0\", \"10\") → 10.0 \nYour code: distance(\"0\", \"0\", \"0\", \"10\") → " + str(distTest2))
 ```
-<!---
+<!--
 UNITTESTS
 
 self.assertEquals(int(absoluteValue(-55) == 55 ) + int(minimumValue(1, 3, -5) == -5) + int(maximumValue(1, 3, -5) == 3) + int(distance(-7, -5, 7, 5) == 17.204650534085253) + int(slope(0, 0, 0, 10) == "undefined") >= 2,True)
 
 self.assertEquals(int(absoluteValue("42") == 42) + int(minimumValue("-7", "-9", "-2") == -9) + int(maximumValue("7", "2", "9") == 9) + int(distance("0", "0", "0", "10") == 10.0) + int(slope("-7", "-5", "7", "5") == 0.7142857142857143) >= 2,True)
---->
+-->
 [comment]: <> (This is a comment, it will not be included)
