@@ -10,9 +10,9 @@ Create a Phone Repair Calculator that predicts the amount of profit you can earn
 Fill in ALL 10 blanks in the starter code with the correct code.
 Blanks look like this: ???
 
-Run the following tests to make sure your code works correctly.
+When finished, type in both Test Runs to make sure your code works correctly. If no errors, submit to replit classroom and then go to the Canvas assignment and say "done"
 
-Sample Run 1:
+Test Run 1:
 ```
 How much $ can you invest in cracked-screen phones:
 999.99
@@ -26,7 +26,7 @@ Sale price for fixed phone:
 You earned $173.11 in profit
 ```
 
-Sample Run 2:
+Test Run 2:
 ```
 How much $ can you invest:
 -99
