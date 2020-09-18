@@ -10,6 +10,7 @@ Pick 2:
 - [absoluteValue](#absolutevalue)
 - [maximumValue](#maximumvalue)
 - [minimumValue](#minimumvalue)
+- [slope](#slope)
 - [distance](#distance)
 - [normalize](#normalize)
 
@@ -40,6 +41,15 @@ Input → Output
 ```
 maximumValue(1, 3, -5) → 3
 maximumValue("7", "2", "9") → 9
+```
+
+## slope
+Given four arguments: x1, y1, x2, y2, return the slope between the two points as a float OR if it is a vertical line, return the string "undefined"
+
+Input → Output
+```
+slope(0, 0, 0, 10) → "undefined"
+slope("-7", "-5", "7", "5") → 0.7142857142857143
 ```
 
 ## distance
