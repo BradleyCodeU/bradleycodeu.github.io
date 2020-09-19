@@ -1,4 +1,5 @@
 // version 2020.09.05
+// fixes iPad issue
 
 var questions;
 var currentQuestion = 0;
