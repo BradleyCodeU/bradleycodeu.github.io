@@ -12,7 +12,7 @@ Continue working on your Twine game. Upload your HTML file here when you are fin
 
 Must have:
 
-- 25 or more passages
+- 20 or more passages
 - 15 or more images
 - 2 or more choices in each passage (for example... You hear a loud banging at the front door. [[Run and hide]] or [[See who is there]] )
 - A customized Stylesheet with 10 or more CSS declarations (see the starter CSS code below)

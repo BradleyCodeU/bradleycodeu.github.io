@@ -14,6 +14,6 @@ Twine is already installed on your lab PC. To find it, search for File Explorer.
 
 Must have:
   - Title screen with a centered h1 title and some kind of [[Start Game]] link
-  - 12 or more passages
+  - 10 or more passages
   - 7 or more images
   - 2 or more choices in each passage (for example... You hear a loud banging at the front door. [[Run and hide]] or [[See who is there]] )
