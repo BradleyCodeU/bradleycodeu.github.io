@@ -1,0 +1,162 @@
+[
+{
+"answer": "Syntax",
+"question": "the set of rules that defines a correctly structured document in a language"
+},
+{
+"answer": "Syntax Error",
+"question": "a character or string incorrectly placed in a command or instruction that causes a failure in execution"
+},
+{
+"answer": "Variable",
+"question": "a named storage location that can store changeable information, depending on conditions or on information passed to the program. A number, string, or boolean that can be set, changed, and recalled"
+},
+{
+"answer": "Assignment",
+"question": "a statement that sets a value to a named variable"
+},
+{
+"answer": "Assignment Operator",
+"question": "the operator used to assign a new value to a variable. In Python, ="
+},
+{
+"answer": "Equality Operator",
+"question": "returns True if the value on the left is equal to the value on the right, otherwise it returns False. In Python, it is the characters =="
+},
+{
+"answer": "Mathematical Operator",
+"question": "a mathematical character that takes two numbers and performs a calculation on them. For example, +"
+},
+{
+"answer": "Float",
+"question": "a floating-point decimal number. For example, 42.5, 0.001, or -3.729"
+},
+{
+"answer": "Casting",
+"question": "changing the data type of a piece of data from one type to another"
+},
+{
+"answer": "Function",
+"question": "a named group of programming instructions that performs a specific task separately from a main script and returns to the main script when it is complete. Reusable abstractions that reduce the complexity of writing and maintaining programs. "
+},
+{
+"answer": "Function Definition",
+"question": "a named block of code that includes the keyword def followed by a name, any arguments that are required, code inside the function, and an output that is returned"
+},
+{
+"answer": "Function Call",
+"question": "a request that runs the code inside of a function"
+},
+{
+"answer": "Black Box",
+"question": "a device, system or object which can be viewed in terms of its inputs and outputs"
+},
+{
+"answer": "Return",
+"question": "a keyword that tells the program to leave the function and send back a value"
+},
+{
+"answer": "Argument",
+"question": "a value that is passed between programs, scripts or functions. Information sent to a function to customize it for a specific need."
+},
+{
+"answer": "Comment",
+"question": "statements that can be read in the code but do not affect the code in any way. In Python, they begin with a #"
+},
+{
+"answer": "camelCase",
+"question": "process of naming multi-word variables without spaces and so that words in the middle of the phrase begins with a capital letter. For example, numberOfCars, iPhone, eBay"
+},
+{
+"answer": "Concatenate",
+"question": "the operation of joining character strings end-to-end. For example, 'snow' + 'man' is 'snowman'"
+},
+{
+"answer": "Scope",
+"question": "what section of the code can use a variable, typically caused by where the variable was first created"
+},
+{
+"answer": "Local Variable",
+"question": "a variable created inside a function definition, that cannot be used outside the function"
+},
+{
+"answer": "Syntax",
+"question": "the set of rules that defines a correctly structured document in a language"
+},
+{
+"answer": "Syntax Error",
+"question": "a character or string incorrectly placed in a command or instruction that causes a failure in execution"
+},
+{
+"answer": "Variable",
+"question": "a named storage location that can store changeable information, depending on conditions or on information passed to the program. A number, string, or boolean that can be set, changed, and recalled"
+},
+{
+"answer": "Assignment",
+"question": "a statement that sets a value to a named variable"
+},
+{
+"answer": "Assignment Operator",
+"question": "the operator used to assign a new value to a variable. In Python, ="
+},
+{
+"answer": "Equality Operator",
+"question": "returns True if the value on the left is equal to the value on the right, otherwise it returns False. In Python, it is the characters =="
+},
+{
+"answer": "Mathematical Operator",
+"question": "a mathematical character that takes two numbers and performs a calculation on them. For example, +"
+},
+{
+"answer": "Float",
+"question": "a floating-point decimal number. For example, 42.5, 0.001, or -3.729"
+},
+{
+"answer": "Casting",
+"question": "changing the data type of a piece of data from one type to another"
+},
+{
+"answer": "Function",
+"question": "a named group of programming instructions that performs a specific task separately from a main script and returns to the main script when it is complete. Reusable abstractions that reduce the complexity of writing and maintaining programs. "
+},
+{
+"answer": "Function Definition",
+"question": "a named block of code that includes the keyword def followed by a name, any arguments that are required, code inside the function, and an output that is returned"
+},
+{
+"answer": "Function Call",
+"question": "a request that runs the code inside of a function"
+},
+{
+"answer": "Black Box",
+"question": "a device, system or object which can be viewed in terms of its inputs and outputs"
+},
+{
+"answer": "Return",
+"question": "a keyword that tells the program to leave the function and send back a value"
+},
+{
+"answer": "Argument",
+"question": "a value that is passed between programs, scripts or functions. Information sent to a function to customize it for a specific need."
+},
+{
+"answer": "Comment",
+"question": "statements that can be read in the code but do not affect the code in any way. In Python, they begin with a #"
+},
+{
+"answer": "camelCase",
+"question": "process of naming multi-word variables without spaces and so that words in the middle of the phrase begins with a capital letter. For example, numberOfCars, iPhone, eBay"
+},
+{
+"answer": "Concatenate",
+"question": "the operation of joining character strings end-to-end. For example, 'snow' + 'man' is 'snowman'"
+},
+{
+"answer": "Scope",
+"question": "what section of the code can use a variable, typically caused by where the variable was first created"
+},
+{
+"answer": "Local Variable",
+"question": "a variable created inside a function definition, that cannot be used outside the function"
+}
+]
