@@ -73,7 +73,7 @@
 },
 {
 "answer": "Scope",
-"question": "what section of the code can use a variable, typically caused by where the variable was first created"
+"question": "the section of code that can use a variable, typically caused by where the variable was first created"
 },
 {
 "answer": "Local Variable",
@@ -153,7 +153,7 @@
 },
 {
 "answer": "Scope",
-"question": "what section of the code can use a variable, typically caused by where the variable was first created"
+"question": "the section of code that can use a variable, typically caused by where the variable was first created"
 },
 {
 "answer": "Local Variable",
