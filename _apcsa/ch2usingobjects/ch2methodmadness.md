@@ -5,7 +5,7 @@ title: Ch2 Method Madness
 ---
 Combine these 3 parts to create one big Method Madness program.
 
-Part 1:
+##Part 1:
 
 Use Math.min() and Math.max() to create the following. This is a sample transcript of what your program should do. The numbers 15 and 25 are user input and should not be put on the screen by your program.
 <pre>
@@ -15,11 +15,11 @@ Enter your second number: 25
 </pre>
 A second run of the code might give this output:
 <pre>
-Enter your first number: 99
-Enter your second number: 21
-99 is larger than 21
+Enter your first number: 6
+Enter your second number: 4
+6 is larger than 4
 </pre>
-Part 2:
+##Part 2:
 
 Your program will determine the correct [lexicographic ordering](https://en.wikipedia.org/wiki/Lexicographic_order) of those strings. For this exercise you will need to use the compareTo() String method. Look up the compareTo method in the API docs. This is a sample transcript of what your program should do. The words "apple" and "bananas" are user input and should not be put on the screen by your program.
 <pre>
@@ -33,24 +33,25 @@ Enter the first string: bananas
 Enter the second string: apple
 apple comes before bananas lexicographically
 </pre>
-Part 3:
+##Part 3:
 
 Your program will use the two numbers from Part 1 and then ask a series of math questions. Each question will be evaluated as to whether it is the right or wrong answer. In the end a final score should be reported for the user. This is a sample transcript of what your program should do. User input always comes after a colon : and should not be put on the screen by your program.
 <pre>
 Enter your name: Jeremy
 Welcome Jeremy! Please answer the following questions...
-4 + 6: 10
-Correct!
-4 * 6: 24
-Correct!
-4 / 6: 1
+6 + 4: 1
 Wrong!
-The correct answer is 0
-4 % 6: 4
+The correct answer is 10
+6 * 4: 24
+Correct!
+6 / 4: 1
+Correct!
+6 % 4: 2
 Correct!
 You got 3 correct answers
 That's 75.0%!
 </pre>
+
 Your code will behave differently based on the numbers from Part 1 and the answers provided by the user. Here is a second possible execution of this code:
 <pre>
 Enter your name: Bob
@@ -70,6 +71,9 @@ The correct answer is 2
 You got 0 correct answers
 That's 0.0%!
 </pre>
+
+##Expected Output
+
 Here is an example of the expected output that shows all 3 parts together...
 <pre>
 Enter your first number: 3
