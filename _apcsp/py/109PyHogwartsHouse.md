@@ -14,8 +14,9 @@ Directions:
 
 Create a function called validateNumber, that requires one argument: userInput. It *returns* True or False if userInput is 1-10.
 - Convert userInput from string to float
-- If userInput is between 1 and 10 then return True
-- If userInput is less than 1 or greater than 10 return False
+- If userInput is less than 1 return False
+- If userInput is greater than 10 return False
+- If userInput is between 1 & 10 then return True
 
 Create a function called getHouse that requires two arguments: bravery and teamwork. It *returns* a string.
 - Convert bravery from string to float
@@ -28,6 +29,14 @@ Create a function called getHouse that requires two arguments: bravery and teamw
 | Slytherin  | High Bravery | Gryffindor |
 | Low Teamwork | | High Teamwork |
 | Ravenclaw | Low Bravery | Hufflepuff |
+
+```
+   Slytherin │ High Bravery │ Gryffindor
+─────────────┼──────────────┼──────────────
+Low Teamwork │              │ High Teamwork
+─────────────┼──────────────┼──────────────
+   Ravenclaw │ Low Bravery  │ Hufflepuff
+```
 
 The starter code already has a function called main. This function will:
 - collect the user input for bravery
