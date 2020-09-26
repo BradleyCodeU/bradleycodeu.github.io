@@ -56,18 +56,18 @@ Your code will behave differently based on the numbers from Part 1 and the answe
 <pre>
 Enter your name: Bob
 Welcome Bob! Please answer the following questions...
-5 + 3: 0
+15 + 25: 1
 Wrong!
-The correct answer is 6
-5 * 3: 6
+The correct answer is 40
+15 * 25: 2
+Wrong!
+The correct answer is 375
+15 / 25: 3
+Wrong!
+The correct answer is 0
+15 % 25: 4
 Wrong!
 The correct answer is 15
-5 / 3: 0
-Wrong!
-The correct answer is 1
-5 % 3: 1
-Wrong!
-The correct answer is 2
 You got 0 correct answers
 That's 0.0%!
 </pre>
