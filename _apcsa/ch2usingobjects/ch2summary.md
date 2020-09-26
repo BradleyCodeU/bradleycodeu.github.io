@@ -1,12 +1,12 @@
 ---
 layout: project
 category: ch2usingobjects
-title: Ch2 Review Ch1 and Ch2
+title: Ch2 Summary
 ---
 Copy/paste and complete:
 <pre>
 /*
-Chapters 1 & 2 Review
+Summary of Chapters 1 & 2
 */
 
 // 1) Write the import statement for the Rectangle class
@@ -18,11 +18,11 @@ Chapters 1 & 2 Review
 // 3) Write the import statement needed for question 8 (below)
 
 
-public class ReviewCh1and2
+public class Main
 {
 	public static void main(String[] args)
 	{
-		// 4)Write a series of output statements that will produce a smiley face
+		// 4) Write MULTIPLE output statements that will produce a smiley face
 
 
 		// 5) Write a program that constructs a Rectangle object square with
@@ -35,11 +35,19 @@ public class ReviewCh1and2
 
 		// 6) Generate and print a random integer between 1 and 100, inclusive.
 
+
 		// 7) Generate and print a random integer between 5 and 10, inclusive.
 
-		// 8) Display the day of the week my birthday, June 15th, was on this year.
+
+		// 8) Display the day of the week that Mr. Riley's birthday (June 15th) was on this year.
+
 
 		// 9) Calculate and display the number of letters in the word "Bradley".
+
+
+		// 10) Finally, visit http://patorjk.com/software/taag/ to get a fancy ASCII art version of your LAST name. For example, Amy Brown would print Brown. Use println statements to print your ASCII art last name.
+
+
 	}
 }
 </pre>
