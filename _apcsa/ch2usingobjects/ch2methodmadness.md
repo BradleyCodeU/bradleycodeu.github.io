@@ -35,7 +35,7 @@ apple comes before bananas lexicographically
 </pre>
 Part 3:
 
-Your program will generate two random integers between 1 and 20 and then ask a series of math questions. Each question will be evaluated as to whether it is the right or wrong answer. In the end a final score should be reported for the user. This is a sample transcript of what your program should do. User input always comes after a colon : and should not be put on the screen by your program.
+Your program will use the two numbers from Part 1 and then ask a series of math questions. Each question will be evaluated as to whether it is the right or wrong answer. In the end a final score should be reported for the user. This is a sample transcript of what your program should do. User input always comes after a colon : and should not be put on the screen by your program.
 <pre>
 Enter your name: Jeremy
 Welcome Jeremy! Please answer the following questions...
@@ -51,22 +51,22 @@ Correct!
 You got 3 correct answers
 That's 75.0%!
 </pre>
-Your code will behave differently based on the random numbers it selects and the answers provided by the user. Here is a second possible execution of this code:
+Your code will behave differently based on the numbers from Part 1 and the answers provided by the user. Here is a second possible execution of this code:
 <pre>
 Enter your name: Bob
 Welcome Bob! Please answer the following questions...
-3 + 3: 0
+5 + 3: 0
 Wrong!
 The correct answer is 6
-3 * 3: 6
+5 * 3: 6
 Wrong!
-The correct answer is 9
-3 / 3: 0
+The correct answer is 15
+5 / 3: 0
 Wrong!
 The correct answer is 1
-3 % 3: 1
+5 % 3: 1
 Wrong!
-The correct answer is 0
+The correct answer is 2
 You got 0 correct answers
 That's 0.0%!
 </pre>
@@ -80,17 +80,17 @@ Enter the second string: dragonfruit
 coconut comes before dragonfruit lexicographically
 Enter your name: Amy
 Welcome Amy! Please answer the following questions...
-3 + 2: 5
+3 + 7: 10
 Correct!
-3 * 2: 5
+3 * 7: 22
 Wrong!
-The correct answer is 6
-3 / 2: 5
+The correct answer is 21
+3 / 7: 2
 Wrong!
-The correct answer is 1
-3 % 2: 5
+The correct answer is 0
+3 % 7: 0
 Wrong!
-The correct answer is 1
+The correct answer is 3
 You got 1 correct answers
 That's 25.0%!
 </pre>
