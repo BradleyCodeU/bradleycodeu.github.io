@@ -79,14 +79,14 @@ STARTER
 # Pick 2 of the following 5
 
 
-def absoluteValue(number):
-  # convert the argument variable number to an int
+def absoluteValue(myNumber):
+  # convert the argument variable myNumber to an int
 
-  # if the number is less than zero:
+  # if myNumber is less than zero:
 
-    # then multiply number by -1 and save back in number
+    # then multiply myNumber by -1 and save back in myNumber
 
-  # return number
+  # return myNumber
   return
 
 

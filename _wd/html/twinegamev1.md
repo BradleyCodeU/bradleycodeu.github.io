@@ -8,7 +8,7 @@ Twine is already installed on your lab PC. To find it, search for File Explorer.
 
 [Twine tutorial videos folder](https://drive.google.com/drive/folders/1QrhhzTDg2XA1azNjfLYtH_nnSsQC91os?usp=sharing)
 
-[Twine tutorial blog posts](http://www.ohiofi.com/blog/twine)
+[Twine tutorial blog posts](http://www.ohiofi.com/twine)
 
   - Create a simple text-based game using Twine. Upload your HTML file here when you are finished.
 

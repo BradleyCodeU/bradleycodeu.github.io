@@ -3,6 +3,8 @@ layout: project
 category: ch2usingobjects
 title: Ch2 Project 9
 ---
+LocalDate
+
 In Java 8, the LocalDate class describes a calendar date that does not depend on a location or time zone. You construct a date like this:
 <pre>
 LocalDate today = LocalDate.now(); // Today’s date

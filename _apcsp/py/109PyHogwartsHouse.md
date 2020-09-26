@@ -6,7 +6,7 @@ title: Hogwarts House
 In this project, you will create an app that:
 - prompts the user for "Bravery Score (1-10)"
 - collects user input
-- prompts the user for  "Teamwork Score (1-10)"
+- prompts the user for "Teamwork Score (1-10)"
 - collects user input
 - tells the user their Hogwarts House
 
@@ -18,13 +18,13 @@ Create a function called validateNumber, that requires one argument: userInput. 
 - If userInput is greater than 10 return False
 - If userInput is between 1 & 10 then return True
 
-Create a function called getHouse that requires two arguments: bravery and teamwork. It *returns* a string.
+Create a function called getHouse that requires two arguments: bravery & teamwork. It *returns* a string.
 - Convert bravery from string to float
 - Convert teamwork from string to float
-- If bravery and teamwork are both above 5 then return "Gryffindor"
-- If bravery is 5 or less and teamwork is above 5 then return "Hufflepuff"
-- If bravery and teamwork are both 5 or less then return "Ravenclaw"
-- If bravery is above 5 and teamwork is 5 or less then return "Slytherin"
+- If bravery & teamwork are both above 5 then return "Gryffindor"
+- If bravery is 5 or less & teamwork is above 5 then return "Hufflepuff"
+- If bravery & teamwork are both 5 or less then return "Ravenclaw"
+- If bravery is above 5 & teamwork is 5 or less then return "Slytherin"
 
 | Slytherin  | High Bravery | Gryffindor |
 | Low Teamwork | | High Teamwork |
@@ -43,7 +43,7 @@ The starter code already has a function called main. This function will:
 - collect the user input for teamwork
 - validate that both user inputs are numbers 1-10
 - If either is invalid, print an error message
-- If both are valid numbers, call the getHouse function and print the result
+- If both are valid numbers, call the getHouse function & print the result
 
 -------
 STARTER CODE:
@@ -63,7 +63,7 @@ def validateNumber(userInput):
   # If userInput is greater than 10 return False
   if ???:
     return ???
-  # If userInput is between 1 & 10 then return True
+  # If userInput between 1 & 10 (inclusive) then return True
   if ???:
     return ???
 
@@ -76,16 +76,16 @@ def getHouse(bravery, teamwork):
   # Convert teamwork from string to float
   ???
   # If bravery & teamwork are both above 5 then return "Gryffindor"
-  if bravery > 5 and ???:
+  if bravery > 5 & ???:
     return ???
   # If bravery is 5 or less & teamwork is above 5 return "Hufflepuff"
-  if bravery <= 5 and ???:
+  if bravery <= 5 & ???:
     return ???
   # If bravery & teamwork are both 5 or less then return "Ravenclaw"
-  if bravery <= 5 and ???:
+  if bravery <= 5 & ???:
     return ???
   # If bravery is above 5 & teamwork is 5 or less return "Slytherin"
-  if bravery > 5 and ???:
+  if bravery > 5 & ???:
     return ???
 
 
@@ -101,7 +101,7 @@ def main():
     print("Invalid Bravery")
   if validateNumber(teamworkStr) == False:
     print("Invalid Teamwork")
-  if validateNumber(braveryStr) == True and validateNumber(teamworkStr) == True:
+  if validateNumber(braveryStr) == True & validateNumber(teamworkStr) == True:
     result = getHouse(braveryStr, teamworkStr)
     print(result)
 main()

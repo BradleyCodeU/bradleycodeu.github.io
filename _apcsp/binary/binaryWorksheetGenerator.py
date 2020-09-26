@@ -3,10 +3,10 @@ import random
 print(
     """Run this code, then copy/paste the output to a
 text editor like Google Docs or Micrsoft Word.
-Finally, complete the worksheet with a partner."""
+Complete the worksheet."""
 )
 print("\nBinary Worksheet")
-for i in range(2):
+for i in range(1):
     print("  Name: _______________")
 
 print("\nPart A: Convert the 4-bit binary number to decimal")
