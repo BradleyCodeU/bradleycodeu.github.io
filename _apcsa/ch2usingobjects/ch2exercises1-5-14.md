@@ -3,6 +3,8 @@ layout: project
 category: ch2usingobjects
 title: Ch2 Exercises 1, 5, 14
 ---
+Rectangles and Points
+
 Skim Sections 2.1-2.2 (pages 31-40)
 Check out the Rectangle class in the Java API:
   - [Java Rectangle class API](https://docs.oracle.com/javase/7/docs/api/index.html?java/awt/Rectangle.html)
@@ -46,4 +48,6 @@ Write a program that will...
 
 ## E2.14
 
-Look at the API of the Point class and find out how to construct a Point object. In a PointTester program, construct two points with coordinates (3, 4) and (–3, –4). Find the distance between them, using the distance method (which is available because it is inherited from a different class). Print your prediction and then the calculated distance.
+[Java Point class API](https://docs.oracle.com/javase/7/docs/api/java/awt/Point.html)
+
+Look at the API of the Point class and find out how to construct a Point object. In a PointTester program, construct two points with coordinates (3, 4) and (–3, –4). Find the distance between them, using the distance method (which is available because it is *inherited* from a different class). Print your prediction and then the calculated distance.
