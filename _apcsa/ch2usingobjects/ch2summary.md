@@ -33,10 +33,10 @@ public class Main
 		//    original square.
 
 
-		// 6) Generate and print a random integer between 1 and 100, inclusive.
+		// 6) Simulate a dice roll. Generate and print a random integer between 1 and 6, inclusive.
 
 
-		// 7) Generate and print a random integer between 5 and 10, inclusive.
+		// 7) Pick a random HS year. Generate and print a random integer between 9 and 12, inclusive.
 
 
 		// 8) Display the day of the week that Mr. Riley's birthday (June 15th) was on this year.
