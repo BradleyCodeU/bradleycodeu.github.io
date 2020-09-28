@@ -92,6 +92,7 @@ STARTER
 # Pick 2 of the following 5
 
 
+# Given one number as an argument, return the absolute value
 def absoluteValue(myNumber):
   # convert the argument variable myNumber to an int
 
@@ -103,28 +104,38 @@ def absoluteValue(myNumber):
   return
 
 
-def minimumValue(num1, num2, num3):
-  # convert all three argument variables to int
-  # your code goes here. Must use if-then statements
-  return
-
-
-def maximumValue(numA, numB, numC):
-  # convert all three argument variables to int
-  # your code goes here. Must use if-then statements
-  return
-
-
+# Given four arguments: x1, y1, x2, y2, return the slope
+# between the two points as a float OR if it is a vertical
+# line, return the string "undefined"
 def slope(x1, y1, x2, y2):
   # convert all four argument variables to float
   # your code goes here. MUST use an if-then statement
   return
 
 
-def distance(x1, y1, x2, y2):
+# Given four numbers as arguments. Return True if any
+# of the arguments is a negative number OR return False if
+# none are negative numbers
+def anyNegative(num1, num2, num3, num4):
   # convert all four argument variables to float
-  # your code goes here
+  # your code goes here. MUST use an if-then statement
   return
+
+
+# Given three numbers as arguments, return the smallest number
+def minimumValue(num1, num2, num3):
+  # convert all three argument variables to int
+  # your code goes here. Must use if-then statements
+  return
+
+
+# Given three numbers as arguments, return the largest number
+def maximumValue(numA, numB, numC):
+  # convert all three argument variables to int
+  # your code goes here. Must use if-then statements
+  return
+
+
 
 
 # do not edit the following code
@@ -132,6 +143,14 @@ absTest1 = absoluteValue(-55)
 print("\nExpected : absoluteValue(-55) → 55 \nYour code: absoluteValue(-55) → " + str(absTest1))
 absTest2 = absoluteValue("42")
 print("Expected : absoluteValue(\"42\") → 42 \nYour code: absoluteValue(\"42\") → " + str(absTest2))
+slopeTest1 = slope(0, 0, 0, 10)
+print("\nExpected : slope(0, 0, 0, 10) → \"undefined\" \nYour code: slope(0, 0, 0, 10) → " + str(slopeTest1))
+slopeTest2 = slope("-7", "-5", "7", "5")
+print("Expected : slope(\"-7\", \"-5\", \"7\", \"5\") → 0.7142857142857143 \nYour code: slope(\"-7\", \"-5\", \"7\", \"5\") → " + str(slopeTest2))
+negativeTest1 = anyNegative(0, 5, 99, 10)
+print("\nExpected : anyNegative(0, 5, 99, 10) → \"undefined\" \nYour code: anyNegative(0, 5, 99, 10) → " + str(negativeTest1))
+negativeTest2 = anyNegative("-7", "-5", "7", "5")
+print("Expected : anyNegative(\"-7\", \"-5\", \"7\", \"5\") → 0.7142857142857143 \nYour code: anyNegative(\"-7\", \"-5\", \"7\", \"5\") → " + str(negativeTest2))
 minTest1 = minimumValue(1, 3, -5)
 print("\nExpected : minimumValue(1, 3, -5) → -5 \nYour code: minimumValue(1, 3, -5) → " + str(minTest1))
 minTest2 = minimumValue("-7", "-9", "-2")
@@ -140,14 +159,8 @@ maxTest1 = maximumValue(1, 3, -5)
 print("\nExpected : maximumValue(1, 3, -5) → 3 \nYour code: maximumValue(1, 3, -5) → " + str(maxTest1))
 maxTest2 = maximumValue("7", "2", "9")
 print("Expected : maximumValue(\"7\", \"2\", \"9\") → 9 \nYour code: maximumValue(\"7\", \"2\", \"9\") → " + str(maxTest2))
-slopeTest1 = slope(0, 0, 0, 10)
-print("\nExpected : slope(0, 0, 0, 10) → \"undefined\" \nYour code: slope(0, 0, 0, 10) → " + str(slopeTest1))
-slopeTest2 = slope("-7", "-5", "7", "5")
-print("Expected : slope(\"-7\", \"-5\", \"7\", \"5\") → 0.7142857142857143 \nYour code: slope(\"-7\", \"-5\", \"7\", \"5\") → " + str(slopeTest2))
-distTest1 = distance(-7, -5, 7, 5)
-print("\nExpected : distance(-7, -5, 7, 5) → 17.204650534085253 \nYour code: distance(-7, -5, 7, 5) → " + str(distTest1))
-distTest2 = distance("0", "0", "0", "10")
-print("Expected : distance(\"0\", \"0\", \"0\", \"10\") → 10.0 \nYour code: distance(\"0\", \"0\", \"0\", \"10\") → " + str(distTest2))
+
+
 ```
 <!--
 UNITTESTS
