@@ -3,6 +3,9 @@ layout: project
 category: py
 title: Hogwarts House
 ---
+Read this tutorial:
+- [Python Conditionals](https://www.w3schools.com/python/python_conditions.asp)
+
 In this project, you will create an app that:
 - prompts the user for "Bravery Score (1-10)"
 - collects user input
@@ -16,7 +19,7 @@ Create a function called validateNumber, that requires one argument: userInput. 
 - Convert userInput from string to float
 - If userInput is less than 1 return False
 - If userInput is greater than 10 return False
-- If userInput is between 1 & 10 then return True
+- If userInput is between 1 & 10 (inclusive) then return True
 
 Create a function called getHouse that requires two arguments: bravery & teamwork. It *returns* a string.
 - Convert bravery from string to float
