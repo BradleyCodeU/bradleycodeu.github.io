@@ -3,6 +3,9 @@ layout: project
 category: py
 title: Math Functions
 ---
+Read this tutorial:
+- [Python Conditionals](https://www.w3schools.com/python/python_conditions.asp)
+
 
 In this project you will define two functions.
 
