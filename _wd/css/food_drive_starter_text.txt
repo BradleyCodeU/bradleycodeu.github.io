@@ -72,7 +72,7 @@ Our company's mission is to globally ideate user driven services in order to glo
 
 Our belief on that world where our with able to impactfully built 'out the for box' colors and also global services on ordered to impactfully foster.  Our believed on that world where our with able to synergistically actualize human platforms and also power client based solutions then our would do ideate diverse opportunities.  Our company mission is to globally ideate user drive services on ordered to globally designed experiences.
 
-We exist to collaboratively ideate exciting colors so we can administrate diverse users. We strive to constructively promote diverse users and user driven products and integrate creative synergies to allow us to holistically foster. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur nulla nunc, quis euismod massa tempor in. In hac habitasse platea dictumst. Proin facilisis sollicitudin nisl. Nunc vehicula ligula eget condimentum suscipit. Donec faucibus mi et vestibulum suscipit. Integer aliquam ante eget nunc egestas gravida. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur nulla nunc, quis euismod massa tempor in. Lorem Ipsum is simply dummy text of the printing and typesetting industry.  Curabitur pellentesque varius ligula ac dictum. Cras aliquet odio ipsum, in tempus elit blandit eu. Donec venenatis faucibus justo, in tempor ante suscipit eu. Phasellus nec lacinia nisl. Proin suscipit gravida pharetra. Duis mattis efficitur suscipit. Sed sagittis rhoncus nisl vel suscipit. We exist to collaboratively ideate exciting colors so we can administrate diverse users. We strive to constructively promote diverse users and user driven products and integrate creative synergies to allow us to holistically foster. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur nulla nunc, quis euismod massa tempor in. In hac habitasse platea dictumst. Proin facilisis sollicitudin nisl. Nunc vehicula ligula eget condimentum suscipit. Donec faucibus mi et vestibulum suscipit. Integer aliquam ante eget nunc egestas gravida. Curabitur pellentesque varius ligula ac dictum. Cras aliquet odio ipsum, in tempus elit blandit eu. Donec venenatis faucibus justo, in tempor ante suscipit eu. Phasellus nec lacinia nisl. Proin suscipit gravida pharetra. Duis mattis efficitur suscipit. Sed sagittis rhoncus nisl vel suscipit. We exist to collaboratively ideate exciting colors so we can administrate diverse users. We strive to constructively promote diverse users and user driven products and integrate creative synergies to allow us to holistically foster. 
+We exist to collaboratively ideate exciting colors so we can administrate diverse users. We strive to constructively promote diverse users and user driven products and integrate creative synergies to allow us to holistically foster. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur nulla nunc, quis euismod massa tempor in. In hac habitasse platea dictumst. Proin facilisis sollicitudin nisl. Nunc vehicula ligula eget condimentum suscipit. Donec faucibus mi et vestibulum suscipit. Integer aliquam ante eget nunc egestas gravida. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur nulla nunc, quis euismod massa tempor in. Lorem Ipsum is simply dummy text of the printing and typesetting industry.  Curabitur pellentesque varius ligula ac dictum. Cras aliquet odio ipsum, in tempus elit blandit eu. Donec venenatis faucibus justo, in tempor ante suscipit eu. Phasellus nec lacinia nisl. Proin suscipit gravida pharetra. Duis mattis efficitur suscipit. Sed sagittis rhoncus nisl vel suscipit. We exist to collaboratively ideate exciting colors so we can administrate diverse users. We strive to constructively promote diverse users and user driven products and integrate creative synergies to allow us to holistically foster. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur nulla nunc, quis euismod massa tempor in. In hac habitasse platea dictumst. Proin facilisis sollicitudin nisl. Nunc vehicula ligula eget condimentum suscipit. Donec faucibus mi et vestibulum suscipit. Integer aliquam ante eget nunc egestas gravida. Curabitur pellentesque varius ligula ac dictum. Cras aliquet odio ipsum, in tempus elit blandit eu. Donec venenatis faucibus justo, in tempor ante suscipit eu. Phasellus nec lacinia nisl. Proin suscipit gravida pharetra. Duis mattis efficitur suscipit. Sed sagittis rhoncus nisl vel suscipit. We exist to collaboratively ideate exciting colors so we can administrate diverse users. We strive to constructively promote diverse users and user driven products and integrate creative synergies to allow us to holistically foster.
 
 
 We believe in a world where we can impactfully build 'out of the box' colors and also global services in order to impactfully foster. We believe in a world where we can synergistically actualize human platforms and also empower client based solutions so we will ideate diverse opportunities. Our company's mission is to globally ideate user driven services in order to globally design experiences.
@@ -188,11 +188,11 @@ Food Drive Management
 
 name   phone   email
 
-Bob Roberts 614-252-5353 broberts@email.com
+Bob Roberts 614-252-5353 broberts@email.com <!-- Make email mailto link -->
 
-Sue Susans 614-252-5757 ssusans@email.com
+Sue Susans 614-252-5757 ssusans@email.com <!-- Make email mailto link -->
 
-Jill Jillian 614-252-8745 jjillian@email.com
+Jill Jillian 614-252-8745 jjillian@email.com <!-- Make email mailto link -->
 
 
 
@@ -202,11 +202,11 @@ Office of Food Services
 
 name   phone   email
 
-Erica Erikson 614-252-3478 eerickson@email.com
+Erica Erikson 614-252-3478 eerickson@email.com <!-- Make email mailto link -->
 
-Bill Williams 614-252-5959 bwilliams@email.com
+Bill Williams 614-252-5959 bwilliams@email.com <!-- Make email mailto link -->
 
-Cate Kaitlin 614-252-6161 ckaitlin@email.com
+Cate Kaitlin 614-252-6161 ckaitlin@email.com <!-- Make email mailto link -->
 
 
 
