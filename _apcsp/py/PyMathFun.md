@@ -38,6 +38,17 @@ slope(0, 0, 0, 10) → "undefined"
 slope("-7", "-5", "7", "5") → 0.7142857142857143
 ```
 
+
+## smallest
+Given three numbers as arguments, return the smallest number
+
+Input → Output
+```
+smallest(3, -5) → -5
+smallest("-9", "-2") → -9
+```
+
+
 ## anyNegative
 Given four arguments: n1, n2, n3, n4. Return True if any of the arguments is a negative number OR return False if none are negative numbers
 
@@ -47,14 +58,6 @@ anyNegative(0, 5, 99, 10) → False
 anyNegative("-7", "-5", "7", "5") → True
 ```
 
-## minimumValue
-Given three numbers as arguments, return the smallest number
-
-Input → Output
-```
-minimumValue(1, 3, -5) → -5
-minimumValue("-7", "-9", "-2") → -9
-```
 
 ## maximumValue
 Given three numbers as arguments, return the largest number
@@ -64,7 +67,7 @@ Input → Output
 maximumValue(1, 3, -5) → 3
 maximumValue("7", "2", "9") → 9
 ```
-
+<!--
 ## distance
 Given four arguments: x1, y1, x2, y2, return the distance between the two points as a float
 
@@ -83,6 +86,7 @@ normalize(20, 20, "25") → 0
 normalize(25, "20", 25) → 1
 normalize("21", 20, 25) → 0.2
 ```
+-->
 
 --------------
 
@@ -109,8 +113,22 @@ def absoluteValue(myNumber):
 # line, return the string "undefined"
 def slope(x1, y1, x2, y2):
   # convert all four argument variables to float
-  # your code goes here. MUST use an if-then statement
+
+  # calculate rise and save it in a variable named rise
+
+  # calculate run and save it in a variable named run
+
+  # if run equals zero, then return the string "undefined"
+
+  # if run does not equal zero, then return rise divided by run
   return
+
+
+# Given two numbers as arguments, return the smallest number
+def smallest(num1, num2):
+    # convert both argument variables to int
+    # your code goes here. Must use an if-then statement
+    return
 
 
 # Given four numbers as arguments. Return True if any
@@ -119,13 +137,6 @@ def slope(x1, y1, x2, y2):
 def anyNegative(num1, num2, num3, num4):
   # convert all four argument variables to float
   # your code goes here. MUST use an if-then statement
-  return
-
-
-# Given three numbers as arguments, return the smallest number
-def minimumValue(num1, num2, num3):
-  # convert all three argument variables to int
-  # your code goes here. Must use if-then statements
   return
 
 
@@ -147,14 +158,15 @@ slopeTest1 = slope(0, 0, 0, 10)
 print("\nExpected : slope(0, 0, 0, 10) → \"undefined\" \nYour code: slope(0, 0, 0, 10) → " + str(slopeTest1))
 slopeTest2 = slope("-7", "-5", "7", "5")
 print("Expected : slope(\"-7\", \"-5\", \"7\", \"5\") → 0.7142857142857143 \nYour code: slope(\"-7\", \"-5\", \"7\", \"5\") → " + str(slopeTest2))
+minTest1 = smallest(3, -5)
+print("\nExpected : smallest(3, -5) → -5 \nYour code: smallest(3, -5) → " + str(minTest1))
+minTest2 = smallest("-7", "-9", "-2")
+print("Expected : smallest(\"-9\", \"-2\") → -9 \nYour code: smallest(\"-9\", \"-2\") → " + str(minTest2))
 negativeTest1 = anyNegative(0, 5, 99, 10)
 print("\nExpected : anyNegative(0, 5, 99, 10) → \"undefined\" \nYour code: anyNegative(0, 5, 99, 10) → " + str(negativeTest1))
 negativeTest2 = anyNegative("-7", "-5", "7", "5")
 print("Expected : anyNegative(\"-7\", \"-5\", \"7\", \"5\") → 0.7142857142857143 \nYour code: anyNegative(\"-7\", \"-5\", \"7\", \"5\") → " + str(negativeTest2))
-minTest1 = minimumValue(1, 3, -5)
-print("\nExpected : minimumValue(1, 3, -5) → -5 \nYour code: minimumValue(1, 3, -5) → " + str(minTest1))
-minTest2 = minimumValue("-7", "-9", "-2")
-print("Expected : minimumValue(\"-7\", \"-9\", \"-2\") → -9 \nYour code: minimumValue(\"-7\", \"-9\", \"-2\") → " + str(minTest2))
+
 maxTest1 = maximumValue(1, 3, -5)
 print("\nExpected : maximumValue(1, 3, -5) → 3 \nYour code: maximumValue(1, 3, -5) → " + str(maxTest1))
 maxTest2 = maximumValue("7", "2", "9")
