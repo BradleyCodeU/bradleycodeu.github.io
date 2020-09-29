@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Vocab Review</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <script src="./seedrandom.js" defer></script>
+    <script src="./script.js" defer></script>
+  </head>
+  <body class="">
+    <div class="container text-white">
+      <h1 id="windowLocation" class="display3">Study Game</h1>
+      <br>
+      <div class="form-group text-white">
+        <p id="questionText" class="font-weight-light">
+          Question Text
+        </p>
+        <select id="dropdown" class="form-control" onchange="checkAnswer(this.value)">
+          <option id="pick">pick one:</option>
+          <option class="opt"></option>
+          <option class="opt"></option>
+          <option class="opt"></option>
+          <option class="opt"></option>
+          <option class="opt"></option>
+          <option class="opt"></option>
+        </select>
+      </div>
+    </div>
+  </body>
+</html>
