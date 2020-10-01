@@ -4,7 +4,8 @@ category: binary
 title: Octal Worksheet
 ---
 
-Copy/paste the output below into a text editor like Google Docs or Microsoft Word. Finally, complete the worksheet with a partner.
+Take a screenshot and complete in Notability OR copy/paste the output into a text editor like Google Docs, Microsoft Word, or the iOS Notes app. Set the font to COURIER NEW and complete the worksheet.
+
 
 <div class="trinket_container">
 
