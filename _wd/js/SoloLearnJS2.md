@@ -1,13 +1,13 @@
 ---
 layout: project
 category: js
-title: SoloLrn JS 1
+title: SoloLrn JS 2
 ---
 
 [https://www.sololearn.com/Play/JavaScript](https://www.sololearn.com/Play/JavaScript)
 
-Complete the Overview section (complete all 15 questions)
+Complete the Basic Concepts section (complete all 24 questions)
 
 Turn in an *un*cropped screenshot
 
-5pts
+8pts
