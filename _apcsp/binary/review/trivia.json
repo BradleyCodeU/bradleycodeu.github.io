@@ -1,0 +1,86 @@
+[
+{
+"answer": "binary","question": "also known as base-2, a counting system that uses only two characters, 0 and 1"
+},
+{
+"answer": "base-2","question": "also known as binary, a counting system that uses only two characters, 0 and 1"
+},
+{
+"answer": "decimal","question": "also known as base-10, a counting system that uses the characters 0-9"
+},
+{
+"answer": "base-10","question": "also known as decimal, a counting system that uses the characters 0-9"
+},
+{
+"answer": "digit","question": "a single symbol used to make a numeral. For example, 0, 1, 2, 3, 4, 5, 6, 7, 8 and 9."
+},
+{
+"answer": "bit","question": "a column in the binary counting system with either a zero or a one. A Binary Digit."
+},
+{
+"answer": "byte","question": "a group of 8 binary digits"
+},
+{
+"answer": "hexadecimal","question": "also known as base-16, a counting system that uses the characters 0-9 and A-F"
+},
+{
+"answer": "base-16","question": "also known as hexadecimal, a counting system that uses the characters 0-9 and A-F"
+},
+{
+"answer": "octal","question": "also known as base-8, a counting system that uses the characters 0-7"
+},
+{
+"answer": "base-8","question": "also known as octal, a counting system that uses the characters 0-7"
+},
+{
+"answer": "base-64","question": "a counting system that uses the characters 0-9, A-Z, a-z, and two other characters such as - and _"
+},
+{
+"answer": "ASCII","question": "the American Standard Code for Information Interchange"
+},
+{
+"answer": "ASCII code","question": "a code for representing English characters as numbers, assigned from 0 to 127"
+},
+{
+"answer": "binary","question": "also known as base-2, a counting system that uses only two characters, 0 and 1"
+},
+{
+"answer": "base-2","question": "also known as binary, a counting system that uses only two characters, 0 and 1"
+},
+{
+"answer": "decimal","question": "also known as base-10, a counting system that uses the characters 0-9"
+},
+{
+"answer": "base-10","question": "also known as decimal, a counting system that uses the characters 0-9"
+},
+{
+"answer": "digit","question": "a single symbol used to make a numeral. For example, 0, 1, 2, 3, 4, 5, 6, 7, 8 and 9."
+},
+{
+"answer": "bit","question": "a column in the binary counting system with either a zero or a one. A Binary Digit."
+},
+{
+"answer": "byte","question": "a group of 8 binary digits"
+},
+{
+"answer": "hexadecimal","question": "also known as base-16, a counting system that uses the characters 0-9 and A-F"
+},
+{
+"answer": "base-16","question": "also known as hexadecimal, a counting system that uses the characters 0-9 and A-F"
+},
+{
+"answer": "octal","question": "also known as base-8, a counting system that uses the characters 0-7"
+},
+{
+"answer": "base-8","question": "also known as octal, a counting system that uses the characters 0-7"
+},
+{
+"answer": "base-64","question": "a counting system that uses the characters 0-9, A-Z, a-z, and two other characters such as - and _"
+},
+{
+"answer": "ASCII","question": "the American Standard Code for Information Interchange"
+},
+{
+"answer": "ASCII code","question": "a code for representing English characters as numbers, assigned from 0 to 127"
+}
+]
