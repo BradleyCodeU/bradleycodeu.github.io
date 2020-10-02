@@ -1,7 +1,7 @@
 ---
 layout: project
 category: js
-title: SoloLrn JS 1
+title: SoloLrn JS Overview
 ---
 
 [https://www.sololearn.com/Play/JavaScript](https://www.sololearn.com/Play/JavaScript)
