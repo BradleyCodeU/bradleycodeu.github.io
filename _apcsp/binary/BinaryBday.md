@@ -4,13 +4,13 @@ category: binary
 title: Binary Bday
 ---
 
-Working ON YOUR OWN, you will use either paper, Notability, Google Docs, a spreadsheet, a text file, etc.
-Convert the day of the month you were born to binary, then continue converting the following 9 numbers to binary.
+Working on your own, you will use either paper, Notability, Google Docs, a spreadsheet, a text file, etc.
+Convert the number of the day you were born to binary, then continue by converting the following nine numbers to binary. You will convert a total of ten numbers from decimal to binary.
 
 For example...
-  - if your birthday is March 14th, you will convert numbers 14-23 to binary.
-  - if your birthday is September 1st, you will convert numbers 1-10 to binary.
-  - if your birthday is December 31st, you will convert numbers 31-40 to binary.
+  - if your birthday is September 1st, you will convert numbers 1 through 10 to binary.
+  - if your birthday is March 14th, you will convert numbers 14 through 23 to binary.
+  - if your birthday is December 31st, you will convert numbers 31 through 40 to binary.
 
 
 If your birthday is the 31st, you would *start* like this...
