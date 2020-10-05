@@ -20,4 +20,4 @@ These methods return the name and salary, and raise the employee's salary by a c
 Employee harry = new Employee("Harry Hacker", 50000);
 harry.raiseSalary(10); // Harry gets a 10 percent raise
 ```
-Supply an EmployeeTester class that tests all methods.
+Supply an EmployeeTester class that tests all methods. Print your expected results and then the actual results.
