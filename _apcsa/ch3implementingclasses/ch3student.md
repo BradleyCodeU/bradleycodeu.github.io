@@ -3,7 +3,7 @@ layout: project
 category: ch3implementingclasses
 title: Ch3 Student
 ---
-Implement a class Student. For the purpose of this exercise, a student has a name and a total quiz score. Supply an appropriate constructor and methods...
+Implement a class Student. For the purpose of this exercise, a student has a name and a total quiz score. Supply an appropriate constructor (in which name can be supplied) and methods...
   - getName()
   - addQuiz(int score)
   - getTotalScore()
