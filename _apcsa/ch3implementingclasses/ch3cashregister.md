@@ -37,83 +37,86 @@ The starter CashRegister code is in the "How to 3.1", pages 96-99
 */
 public class CashRegister
 {
-/**
-  Constructs a cash register with no money in it.
-*/
-public CashRegister()
-{  
-  taxRate = 0.075; // The combined sales tax rate for Hilliard, OH is 7.5%. This is the total of state, county and city sales tax rates.
+  // private instance variables go here
 
-  //variable for number of items purchased
+  /**
+    Constructs a cash register with no money in it.
+  */
+  public CashRegister()
+  {  
+    taxRate = 0.075; // The combined sales tax rate for Hilliard, OH is 7.5%. This is the total of state, county and city sales tax rates.
 
-  //variable for the "running total" due
+    //variable for number of items purchased
 
-  //
-}
+    //variable for the "running total" due
 
-
-/**
-  recordPurchase(double amount)
-  Records the sale of a NON-TAX item.
-  Adds the price of the item to the running total due.
-  @param amount the price of the item
-*/
-public void recordPurchase(double amount)
-{
-}
+    //
+  }
 
 
-/**
-  recordTaxablePurchase(double amount)
-  Records the sale of a TAXED item.
-  Use getItemTax() to calculate the tax for this purchase.
-  Then, add the price of the item to the running total due.
-  @param amount the price of the item
-*/
-public void recordTaxablePurchase(double amount)
-{
-}
+  /**
+    recordPurchase(double amount)
+    Records the sale of a NON-TAX item.
+    Adds the price of the item to the running total due.
+    @param amount the price of the item
+  */
+  public void recordPurchase(double amount)
+  {
+  }
 
 
-/**
-  receivePayment(double amount)
-  Processes a payment received from the customer.
-  @param amount the amount of the payment
-*/
-public void receivePayment(double amount)
-{
-}
+  /**
+    recordTaxablePurchase(double amount)
+    Records the sale of a TAXED item.
+    Use getItemTax() to calculate the tax for this purchase.
+    Then, add the price of the item to the running total due.
+    @param amount the price of the item
+  */
+  public void recordTaxablePurchase(double amount)
+  {
+  }
 
 
-/**
-  giveChange()
-  Computes the change due and resets the machine for the next customer.
-  @return the change due to the customer
-*/
-public double giveChange()
-{
-}
+  /**
+    receivePayment(double amount)
+    Processes a payment received from the customer.
+    @param amount the amount of the payment
+  */
+  public void receivePayment(double amount)
+  {
+  }
 
 
-/**
-  getItemCount()
-  Returns number of items purchased.
-  @return the number of items purchased
-*/
-public int getItemCount()
-{
-}
+  /**
+    giveChange()
+    Computes the change due and resets the machine for the next customer.
+    @return the change due to the customer
+  */
+  public double giveChange()
+  {
+  }
 
 
-/**
-  getItemTax(double itemAmount)
-  Calculates the total tax collected during recordTaxablePurchase()
-  Calculate the amount of tax for this item by multiplying itemAmount and the taxrate instance variable
-  @param itemAmount the pretax price for this item
-  @return the total tax for this item
-*/
-private double getItemTax(double itemAmount)
-{
+  /**
+    getItemCount()
+    Returns number of items purchased.
+    @return the number of items purchased
+  */
+  public int getItemCount()
+  {
+  }
+
+
+  /**
+    getItemTax(double itemAmount)
+    Calculates the total tax collected during recordTaxablePurchase()
+    Calculate the amount of tax for this item by multiplying itemAmount and the taxrate instance variable
+    @param itemAmount the pretax price for this item
+    @return the total tax for this item
+  */
+  private double getItemTax(double itemAmount)
+  {
+  }
 }
 </pre>
 Complete programming projects 3.1 and 3.2 on page 125.
