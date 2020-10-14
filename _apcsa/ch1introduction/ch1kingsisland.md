@@ -14,7 +14,7 @@ Enter the amount spent on food: 42.54
 
 King's Island Cost Report
 Total Cost: $157.26
-Cost Per Person: $52.42
+Cost Per Person: $52.419999999999995
 ```
 
 SAMPLE OUTPUT 2
