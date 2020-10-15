@@ -25,18 +25,18 @@ public class Main
 		// 4) Write MULTIPLE output statements that will produce a smiley face
 
 
-		// 5) Write a program that constructs a Rectangle object square with
-		//    top-left corner (100, 100) and side length 200, prints its location,
-		//    applies the grow and translate methods, and prints the location again.
-		//    The calls to grow and translate should modify the square so that it
-		//    has half the width and half the length, and is centered in the
-		//    original square.
+		// 5) Write a program that constructs three identical square Rectangle objects with
+		//    top-left corner (100, 100) and side length 200. Print their starting locations,
+		//		apply the grow and translate methods, and print the ending locations again.
+		//		The calls to grow and translate should modify the squares so that each
+		//		square is half the size of the previous (final sizes should be 200, 100,
+		//		and 50) and so that all squares are translated to the origin.
 
 
 		// 6) Simulate a dice roll. Generate and print a random integer between 1 and 6, inclusive.
 
 
-		// 7) Pick a random HS year. Generate and print a random integer between 9 and 12, inclusive.
+		// 7) Pick a random room. Generate and print a random integer between 100 and 134, inclusive.
 
 
 		// 8) Display the day of the week that Mr. Riley's birthday (June 15th) was on this year.
