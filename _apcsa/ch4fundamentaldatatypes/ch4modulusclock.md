@@ -46,8 +46,8 @@ Please input current hour: 11
 Please input current minute: 9
 Please input number of hours later: 2
 Please input number of minutes later: 60
-Current time:     11:09
-Future time:      14:09
+Current time =    11:09
+Future time =     14:09
 ```
 Another example...
 ```
@@ -55,8 +55,8 @@ Please input current hour: 23
 Please input current minute: 59
 Please input number of hours later: 48
 Please input number of minutes later: 1
-Current time:     23:59
-Future time:       0:00
+Current time =    23:59
+Future time =      0:00
 ```
 
 [magic numbers]: https://en.wikipedia.org/wiki/Magic_number_(programming)#Unnamed_numerical_constants
