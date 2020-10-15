@@ -43,7 +43,7 @@ Truncating –    5/4 = 1  (1.25 is truncated) or (int)45.75 = 45
 Underflow – value too close to zero for the data type to represent, so the result is 0.0
 
 Error types:
-Syntax/compile-time error (typo) – Examples include: missing ;, missing parenthesis, misspelled variable
+Syntax/compile-time error – A typo. Examples include: missing ;, missing parenthesis, misspelled variable
 Logic/run-time error – compiles successfully, but output is incorrect or a run-time exception is thrown
 
 String concatenation
