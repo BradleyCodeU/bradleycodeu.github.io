@@ -13,7 +13,7 @@ Write a program that prompts the user for two integers and then prints
   1. The maximum (the larger of the two)
   1. The minimum (the smaller of the two)
 
-<small>Hint: The max and min functions are declared in the Math class.</small>
+<small>Hint: The abs, max, and min functions are declared in the Math class.</small>
 
 USE PRINTF so that the numbers are properly aligned:
 
