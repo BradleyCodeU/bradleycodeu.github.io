@@ -17,14 +17,14 @@ You do not need to construct more than one Random class object. Each time you ne
 
 SAMPLE OUTPUT 1
 ```
-Coding club with meet in room 267 at 4pm.
+Coding club with meet in room 267 at 4 pm.
 10th graders will be providing snacks.
 Membership fee is $7. JOIN TODAY!
 ```
 
 SAMPLE OUTPUT 2
 ```
-Coding club with meet in room 266 at 5pm.
+Coding club with meet in room 266 at 5 pm.
 9th graders will be providing snacks.
 Membership fee is $13. JOIN TODAY!
 ```
