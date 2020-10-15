@@ -85,15 +85,15 @@ References and Other Info:
   content: "[1st Quarter](#1st-quarter)
 
 
-1. **[Ch1 Introduction](#ch1-introduction)**
+1. **[Ch1 Introduction](#ch1introduction)**
 
-1. **[Ch2 Using Objects](#ch2-using-objects)**
+1. **[Ch2 Using Objects](#ch2usingobjects)**
 
-1. **[Ch3 Implementing Classes](#ch3-implementing-classes)**
+1. **[Ch3 Implementing Classes](#ch3implementingclasses)**
 
 "
 - title: ch1introduction
-  heading: "# Ch1 Introduction"
+  heading: "# Ch1Introduction"
   content: "
   *3 wks* Vocab: platform, assembly, binary, bit, byte, declare, assignment, initialize, JVM, IDE, class, method, main, println, Scanner, int, double, boolean, char, String, comment, magic number, final, literal
 
@@ -129,7 +129,7 @@ Projects:
 "
 
 - title: ch2usingobjects
-  heading: "# Ch2 Using Objects"
+  heading: "# Ch2UsingObjects"
   content: "Vocab: object, accessor, mutator, method, constructor, new, API, naming convention, camelCase, PascalCase, comment
 
 
@@ -159,7 +159,7 @@ Projects:
 "
 
 - title: ch3implementingclasses
-  heading: "# Ch3 Implementing Classes"
+  heading: "# Ch3ImplementingClasses"
   content: "
 
 
@@ -215,22 +215,22 @@ Projects:
   content: "
 [2nd Quarter](#2nd-quarter)
 
-1. **[Ch4 Fundamental Data Types](#ch4-fundamental-data-types)**
+1. **[Ch4 Fundamental Data Types](#ch4fundamentaldatatypes)**
 
-1. **[Ch4.5 Strings](#ch45-strings)**
+1. **[Ch4.5 Strings](#ch45strings)**
 
-1. **[Ch5 Decisions](#ch5-decisions)**
+1. **[Ch5 Decisions](#ch5decisions)**
 
-1. **[Ch5.7 Short-Circuit Evaluation and De Morgan's Law](#ch57-short-circuit-evaluation)**
+1. **[Ch5.7 Short-Circuit Evaluation and De Morgan's Law](#ch57shortcircuitevaluation)**
 
-1. **[Ch6 Loops](#ch6-loops)**
+1. **[Ch6 Loops](#ch6loops)**
 
-1. **[Ch7 Arrays and Array Lists](#ch7-arrays-and-array-lists)**
+1. **[Ch7 Arrays and Array Lists](#ch7arraysandarraylists)**
 
 "
 
 - title: ch4fundamentaldatatypes
-  heading: "# Ch4 Fundamental Data Types"
+  heading: "# Ch4FundamentalDataTypes"
   content: "
 
 
@@ -263,7 +263,7 @@ Projects:
 "
 
 - title: ch45strings
-  heading: "# Ch4.5 Strings"
+  heading: "# Ch4.5Strings"
   content: "
 
       - [String Methods tutorial](https://drive.google.com/open?id=1XZih87y10vIHvB68vk0CR5rVkYSgbCyi)
@@ -282,7 +282,7 @@ Projects:
 "
 
 - title: ch5decisions
-  heading: "# Ch5 Decisions"
+  heading: "# Ch5Decisions"
   content: "
 1. [Ch5 Paint Calc 2](/apcsa/ch5decisions/ch5paintcalc2/)
 
@@ -301,7 +301,7 @@ Projects:
 "
 
 - title: ch57shortcircuitevaluation
-  heading: "# Ch5.7 Short-Circuit Evaluation"
+  heading: "# Ch5.7ShortCircuitEvaluation"
   content: "
 1. [Ch5.7 Evaluating Boolean Expressions](/apcsa/ch57shortcircuitevaluation/ch57evaluatingbooleans/)
 
@@ -317,7 +317,7 @@ Projects:
 "
 
 - title: ch6loops
-  heading: "# Ch6 Loops"
+  heading: "# Ch6Loops"
   content: "
 
 1. [Ch6 SoloLrn Conditionals And Loops](/apcsa/ch6loops/Ch6SoloLrnConditionalsAndLoops/)
@@ -339,7 +339,7 @@ Projects:
 "
 
 - title: ch7arraysandarraylists
-  heading: "# Ch7 Arrays and Array Lists"
+  heading: "# Ch7ArraysAndArrayLists"
   content: "
 
 1. [Ch7 SoloLrn Arrays](/apcsa/ch7arraysandarraylists/Ch7SoloLrnArrays/)
@@ -385,18 +385,18 @@ Projects:
 [3rd Quarter](#3rd-quarter)
 
 
-1. **[Ch7.2 For Each Loops](#ch72-for-each-loops)**
+1. **[Ch7.2 For Each Loops](#ch72foreachloops)**
 
-1. **[Ch7.6 2D Arrays](#ch76-2d-arrays)**
+1. **[Ch7.6 2D Arrays](#ch762darrays)**
 
-1. **[Ch8 Designing Classes](#ch8-designing-classes)**
+1. **[Ch8 Designing Classes](#ch8designingclasses)**
 
-1. **[Ch9 Inheritance](#ch9-inheritance)**
+1. **[Ch9 Inheritance](#ch9inheritance)**
 
 "
 
 - title: ch72foreachloops
-  heading: "# Ch7.2 For Each Loops"
+  heading: "# Ch7.2ForEachLoops"
   content: "
 
 1. [Ch7.2 ForEach Practice](/apcsa/ch72foreachloops/Ch72ForEachLoopArrayPractice/)
@@ -409,7 +409,7 @@ Projects:
 
 "
 - title: ch762darrays
-  heading: "# Ch7.6 2D Arrays"
+  heading: "# Ch7.62DArrays"
   content: "
 
 
@@ -441,7 +441,7 @@ Projects:
 
 "
 - title: ch8designingclasses
-  heading: "# Ch8 Designing Classes"
+  heading: "# Ch8DesigningClasses"
   content: "
 
 1. [Ch8 SoloLrn Classes And Objects](/apcsa/ch8designingclasses/Ch8SoloLrnClassesAndObjects/)
@@ -459,7 +459,7 @@ Projects:
 
 "
 - title: ch9inheritance
-  heading: "# Ch9 Inheritance"
+  heading: "# Ch9Inheritance"
   content: "
 
 1. [Ch9 Dog Class](/apcsa/ch9inheritance/Ch9DogClass/)
@@ -500,18 +500,18 @@ Projects:
 [4th Quarter](#4th-quarter)
 
 
-1. **[Ch10 Interfaces](#ch10-interfaces)**
+1. **[Ch10 Interfaces](#ch10interfaces)**
 
-1. **[Ch14 Sorting and Searching](#ch14-sorting-and-searching)**
+1. **[Ch14 Sorting and Searching](#ch14sortingandsearching)**
 
-1. **[Ch13 Recursion](#ch13-recursion)**
+1. **[Ch13 Recursion](#ch13recursion)**
 
-1. **[AP Test Prep](#ap-test-prep)**
+1. **[Test Prep And Labs](#testprepandlabs)**
 
 "
 
 - title: ch10interfaces
-  heading: "# Ch10 Interfaces"
+  heading: "# Ch10Interfaces"
   content: "
 
 1. [Ch10 Flyable](/apcsa/ch10interfaces/Ch10Flyable/)
@@ -523,7 +523,7 @@ Projects:
 "
 
 - title: ch14sortingandsearching
-  heading: "# Ch14 Sorting and Searching"
+  heading: "# Ch14SortingAndSearching"
   content: "
 1. [Ch14 Searching Data](/apcsa/ch14sortingandsearching/Ch14SearchingData/)
 
@@ -536,7 +536,7 @@ Projects:
 "
 
 - title: ch13recursion
-  heading: "# Ch13 Recursion"
+  heading: "# Ch13Recursion"
   content: "
 
 1. [Ch13 CodingBat 1 sumDigits And count7](/apcsa/ch13recursion/Ch13CodingBat1/)
@@ -548,7 +548,7 @@ Projects:
 "
 
 - title: textprepandlabs
-  heading: "# Test Prep and Labs"
+  heading: "# TestPrepAndLabs"
   content: "
 
 See Canvas for all details
