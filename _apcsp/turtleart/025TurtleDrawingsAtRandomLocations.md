@@ -10,7 +10,9 @@ Define a function that will draw a single ghost (for example). Pick a color for 
 Define another function that will draw a single pumpkin (for example). Pick another color for this drawing (not black and white).
 
 Define a main function named main() in which you:
+
     -   draw a bunch of your first drawing at random locations on 1/2 of the screen
+
     -   draw a bunch of your second drawing at random locations on the other 1/2 of the screen.
 
 Call your main function at the end of your file.
