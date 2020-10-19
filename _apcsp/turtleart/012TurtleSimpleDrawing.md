@@ -3,20 +3,9 @@ layout: project
 category: turtleart
 title: Turtle Simple Drawing
 ---
-Use the following basic commands (in any order/combination)
-```python
-from turtle import *
-tracer(0)
-Turtle()
-penup()
-goto()
-pendown()
-forward()
-left()
-right()
-update()
-```
-Create one simple turtle art drawing:
+
+
+Define a function that will create one simple turtle art drawing. At the end of your file, call that function. Ideas for your simple drawing include...
 <table style="border-collapse: collapse; width: 100%;" border="1">
 <tbody>
 <tr>
@@ -41,4 +30,17 @@ NOT just a squiggle or spiral. Your drawing should be 12 lines of code or more. 
 
 ![smiley](/apcsp/turtleart/turtlesmiley.jpg)
 
-SAVE your finished code as a .py file and turn it in here
+
+Here are some of the basic Python Turtle commands you may need:
+```python
+from turtle import *
+tracer(0)
+Turtle()
+penup()
+goto()
+pendown()
+forward()
+left()
+right()
+update()
+```
