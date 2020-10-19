@@ -3,30 +3,32 @@ layout: project
 category: turtleart
 title: Turtle Block Letters
 ---
-Draw one of the following using block letters (or bubble letters). Use at least 3 different colors, and fill all of the letters. You will use basic turtle commands like pendown(), forward(), left(), and right().
-
-*You may NOT use write() or print()*
+Draw one of the following options using block letters (or bubble letters). You must use at least 3 different colors and fill in all of the letters. You will use basic Turtle commands like pendown(), forward(), left(), and right(). *You may NOT use write() or print()*
 
 Your Options Are:
 ```
-JAGUARS
 CODING
 PYTHON
 TURTLES
 COMP SCI
 CODE IT
 DRAW IT
-HILLIARD
 MAKE ART
 LOOPING
 BIG DATA
 CODE.ORG
+REPL.IT
 SCRATCH
-GO JAGS!
-BRADLEY
-BUCKEYE
 INTERNET
 HELLO WORLD
+HILLIARD
+JAGUARS
+GO JAGS!
+BRADLEY
+DARBY!
+PANTHERS
+BUCKEYE
+OHIO STATE
 ```
 Here are 3 different examples:
 ![blockletters](/apcsp/turtleart/blockletters.jpg)
