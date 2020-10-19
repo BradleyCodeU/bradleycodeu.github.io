@@ -3,7 +3,7 @@ layout: project
 category: turtleart
 title: Turtle Drawings At Random Locations
 ---
-Pick two simple drawings from the list below (ghost and pumpkin, for example).
+Pick two simple drawings from the list below (ghost and pumpkin, for example). You MAY re-use your code from the TrtSimpleDrawing project for one of them.
 
 Define a function that will draw a single ghost (for example). Pick a color for this drawing (not black and white).
 
