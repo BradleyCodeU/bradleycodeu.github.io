@@ -25,3 +25,5 @@ left()
 right()
 update()
 ```
+
+*Note: You may NOT use write() or print()*
