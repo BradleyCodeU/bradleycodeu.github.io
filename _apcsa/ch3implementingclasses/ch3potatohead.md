@@ -3,7 +3,23 @@ layout: project
 category: ch3implementingclasses
 title: Ch3 Potatohead
 ---
-How to pull everyone's changes into your Fork
+
+
+How to contribute:
+
+  1.  Go to this repository: [https://github.com/ohiofi/potatohead2020](https://github.com/ohiofi/potatohead2020)
+  1.  Click on Potatohead.java and then click the pencil icon
+  1.  Add one instance variable
+  1.  Initialize your instance variable in the constructor
+  1.  Add one accessor method and one mutator method for your instance variable
+  1.  Add your instance variable to the toString() method
+  1.  [Commit](https://help.github.com/articles/github-glossary/#commit) your changes and create a [Pull Request](https://help.github.com/en/articles/about-pull-requests)
+
+You should be done. Turn in the URL of your pull request.
+
+-=-=-=-
+
+In some cases, your [FORK](https://help.github.com/articles/github-glossary/#fork) (your version) might be behind the main version. Here is how to pull everyone's changes into your Fork
 
 When you login each day, you should pull the newest code into your Fork:
   1.  Go to the GitHub page for your Fork
@@ -14,14 +30,3 @@ When you login each day, you should pull the newest code into your Fork:
   1.  Create pull request, name it update or whatever, then Merge and Confirm
 
 More info here: [https://github.com/KirstieJane/STEMMRoleModels/wiki/Syncing-your-fork-to-the-original-repository-via-the-browser](https://github.com/KirstieJane/STEMMRoleModels/wiki/Syncing-your-fork-to-the-original-repository-via-the-browser)
-
-How to contribute:
-
-  1.  [FORK](https://help.github.com/articles/github-glossary/#fork) this repository: [https://github.com/ohiofi/potatohead2019](https://github.com/ohiofi/potatohead2019)
-  1.  Open your FORKED copy in Github Desktop by clicking the big, green [Clone](https://help.github.com/articles/github-glossary/#clone) button, then Open In Desktop
-  1.  Add one instance variable
-  1.  Initialize your instance variable
-  1.  Add one or more methods related to your attribute
-  1.  Add your instance variable to the toString() method
-  1.  [Commit](https://help.github.com/articles/github-glossary/#commit) and [Push](https://help.github.com/articles/github-glossary/#push) your changes
-  1.  Create a [Pull Request](https://help.github.com/en/articles/about-pull-requests)
