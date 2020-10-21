@@ -37,3 +37,22 @@ Car or Truck<br>Flower<br>Peace sign<br>Dollar sign<br>Snowman<br>Block letter B
 </table>
 
 ![Random Location Example](/apcsp/turtleart/randlocations11.jpg)
+
+Here are some of the basic Python Turtle commands you may need:
+```python
+from turtle import *
+tracer(0)
+Turtle()
+penup()
+goto()
+pendown()
+color()
+pencolor()
+fillcolor()
+begin_fill()
+forward()
+left()
+right()
+end_fill()
+update()
+```
