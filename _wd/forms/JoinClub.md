@@ -31,7 +31,12 @@ Use this w3schools page as a reference: https://www.w3schools.com/html/html_form
   - Add an email type input
     - Set the id attribute to emailAddy.
   - br
-  - Create a label that says "5. Subscribe to our Daily Newsletter"
+  - Create a label that says "5. Favorite Color"
+      - Set the for attribute to favColor.
+    - Add a color type input
+      - Set the id attribute to favColor.
+    - br
+  - Create a label that says "6. Subscribe to our Daily Newsletter"
     - Set the for attribute to subscribe.
   - Add a checkbox
     - Set the id attribute to subscribe.
