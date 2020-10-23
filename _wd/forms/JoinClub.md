@@ -6,7 +6,7 @@ title: Join Club
 
 Use this w3schools page as a reference: https://www.w3schools.com/html/html_form_input_types.asp
 
-## Directions
+Directions
 
 - Add an h1 that says Join Our Club
 - Add a paragraph that says Created By your name
@@ -15,7 +15,7 @@ Use this w3schools page as a reference: https://www.w3schools.com/html/html_form
     - Set the for attribute to username. Like this, for="username"
   - Add a text type input
     - Set the id attribute to username. Like this, id="username"
-  - Add a (br tag)[https://www.w3schools.com/tags/tag_br.asp] to create a line break
+  - Add a [br tag](https://www.w3schools.com/tags/tag_br.asp) to create a line break
   - Create a label that says "2. When Is Your Birthday?"
     - Set the for attribute to bday. Like this, for="bday"
   - Add a date type input
