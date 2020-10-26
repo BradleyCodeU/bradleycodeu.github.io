@@ -273,7 +273,7 @@ Projects:
   heading: "# TurtleArt"
   content: "
 
-*2 wks*, Vocab: IDE, turtle, import, object,  method, abstraction, constructor, random, randint, algorithm, rgb color, hex color, for loop, while loop, input, function definition, function call, instance, instantiate, class, getter, setter
+*2 wks*, Vocab: IDE, turtle, import, object, instance, instantiate, method, abstraction, constructor, class, random, randint, algorithm, rgb color, hex color, for loop, while loop, input, function definition, function call, getter, setter
 
 
 
