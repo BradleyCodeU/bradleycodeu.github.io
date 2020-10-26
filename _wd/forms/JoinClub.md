@@ -32,10 +32,10 @@ Directions
     - Set the id attribute to emailAddy.
   - br
   - Create a label that says "5. Favorite Color"
-      - Set the for attribute to favColor.
-    - Add a color type input
-      - Set the id attribute to favColor.
-    - br
+    - Set the for attribute to favColor.
+  - Add a color type input
+    - Set the id attribute to favColor.
+  - br
   - Create a label that says "6. Subscribe to our Daily Newsletter"
     - Set the for attribute to subscribe.
   - Add a checkbox
