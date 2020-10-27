@@ -13,4 +13,6 @@ If the user input is valid, then draw that many squares. Otherwise, print "Not a
 
 Squares should be drawn one after another in a straight line. All squares must be visible! If I ask for 5, I must be able to see 5.
 
+NOTE: You MUST use a "for i in range()" loop so that the project is less than 30 lines of code.
+
 ![squares](/apcsp/turtleart/squares.jpg)
