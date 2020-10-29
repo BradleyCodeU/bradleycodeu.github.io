@@ -17,17 +17,17 @@ Here is one way to change the background color:
 ```
 Here is a different way to change the background color:
 ```
-"document.body.style.backgroundColor=???;"
+"document.body.style.backgroundColor='???';"
 ```
 If you want to hide OR show something (a button, an image, a paragraph, a heading, etc), you will change ONE of the following CSS attributes:
 ```
-"document.getElementById('myHiddenButton').style.display=???;"
+"document.getElementById('myHiddenButton').style.display='???';"
 ```
 ```
-"document.getElementById('myHiddenButton').style.visibility=???;"
+"document.getElementById('myHiddenButton').style.visibility='???';"
 ```
 ```
-"document.getElementById('myHiddenButton').style.opacity=???;"
+"document.getElementById('myHiddenButton').style.opacity='???';"
 ```
 
 
