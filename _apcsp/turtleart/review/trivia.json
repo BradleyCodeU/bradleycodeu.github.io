@@ -1,86 +1,136 @@
 [
+
 {
-"answer": "binary","question": "also known as base-2, a counting system that uses only two characters, 0 and 1"
+"answer": "abstraction","question": "a simplified representation of something more complex. For example, a programmer can define functions to organize/clean up their code in order to reduce complexity and increase readability and efficiency"
 },
 {
-"answer": "base-2","question": "also known as binary, a counting system that uses only two characters, 0 and 1"
+"answer": "algorithm","question": "a precise sequence of instructions that can be executed by a computer to solve a problem"
 },
 {
-"answer": "decimal","question": "also known as base-10, a counting system that uses the characters 0-9"
+"answer": "class","question": "a blueprint from which an object is instantiated. Defines the abstract characteristics of a thing, its attributes and its behaviors"
 },
 {
-"answer": "base-10","question": "also known as decimal, a counting system that uses the characters 0-9"
+"answer": "constructor","question": "a special method that is called to instantiate an object of a class"
 },
 {
-"answer": "digit","question": "a single symbol used to make a numeral. For example, 0, 1, 2, 3, 4, 5, 6, 7, 8 and 9."
+"answer": "function call","question": "a request that runs the code inside of a function"
 },
 {
-"answer": "bit","question": "a column in the binary counting system with either a zero or a one. A Binary Digit."
+"answer": "function definition","question": "a block of code that includes the keyword def followed by a name, any arguments that are required, code inside the function, and an output that is returned"
 },
 {
-"answer": "byte","question": "a group of 8 binary digits"
+"answer": "for loop","question": "loops that repeat for a predetermined number of iterations"
 },
 {
-"answer": "hexadecimal","question": "also known as base-16, a counting system that uses the characters 0-9 and A-F"
+"answer": "getter method","question": "a method that fetches data that is stored within an object. Provides information about the state of an object. Also known as an accessor"
 },
 {
-"answer": "base-16","question": "also known as hexadecimal, a counting system that uses the characters 0-9 and A-F"
+"answer": "hex color","question": "a six-digit set of values ranging from 0 to F that specifies a color. The first two digits are the amount of red, the next two digits are green, and the last two digits are blue"
 },
 {
-"answer": "octal","question": "also known as base-8, a counting system that uses the characters 0-7"
+"answer": "IDE","question": "a developer’s workspace that provides programming tools and a space for coding. It stands for Integrated Development Environment"
 },
 {
-"answer": "base-8","question": "also known as octal, a counting system that uses the characters 0-7"
+"answer": "import","question": "a Python command that loads an external file and allows you to use new commands that are not built-in to Python. For example, random numbers or turtles"
 },
 {
-"answer": "base-64","question": "a counting system that uses the characters 0-9, A-Z, a-z, and two other characters such as - and _"
+"answer": "input","question": "information that is given to the computer by a user, usually typed text and mouse clicks"
 },
 {
-"answer": "ASCII","question": "the American Standard Code for Information Interchange"
+"answer": "instance","question": "an object created from a class"
 },
 {
-"answer": "ASCII code","question": "a code for representing English characters as numbers, assigned from 0 to 127"
+"answer": "instantiate","question": "the creation of an object (an instance) from a class"
 },
 {
-"answer": "binary","question": "also known as base-2, a counting system that uses only two characters, 0 and 1"
+"answer": "method","question": "a function that belongs to a class"
 },
 {
-"answer": "base-2","question": "also known as binary, a counting system that uses only two characters, 0 and 1"
+"answer": "object","question": "a data structure that contains attributes and behaviors. A software simulation/model representing an entity either physical (a box, a car, etc) or conceptual (a chemical process, a sale, driving directions, etc)"
 },
 {
-"answer": "decimal","question": "also known as base-10, a counting system that uses the characters 0-9"
+"answer": "random()","question": "generates a random decimal number between 0.0 and 1.0"
 },
 {
-"answer": "base-10","question": "also known as decimal, a counting system that uses the characters 0-9"
+"answer": "randint(a, b)","question": "generates a random integer between a and b"
 },
 {
-"answer": "digit","question": "a single symbol used to make a numeral. For example, 0, 1, 2, 3, 4, 5, 6, 7, 8 and 9."
+"answer": "rgb color","question": "a set of three comma separated values ranging from 0 to 255 that specifies a color. The first value is the amount of red, the next is green, and the last is blue"
 },
 {
-"answer": "bit","question": "a column in the binary counting system with either a zero or a one. A Binary Digit."
+"answer": "setter method","question": "a method used to control changes to an object's internal state. Allows you to change the object’s data. Also known as a mutator"
 },
 {
-"answer": "byte","question": "a group of 8 binary digits"
+"answer": "turtle","question": "a Python module that allows you to create drawings with code on a two dimensional plane. It is a Python version of an older language called Logo created by Seymour Papert for learning programming by controlling movement and drawing of an on-screen robot with commands such as forward(), left(), and pendown()"
 },
 {
-"answer": "hexadecimal","question": "also known as base-16, a counting system that uses the characters 0-9 and A-F"
+"answer": "while loop","question": "loops without a predetermined end that either repeat until a condition is met or repeat forever"
 },
 {
-"answer": "base-16","question": "also known as hexadecimal, a counting system that uses the characters 0-9 and A-F"
+"answer": "abstraction","question": "a simplified representation of something more complex. For example, a programmer can define functions to organize/clean up their code in order to reduce complexity and increase readability and efficiency"
 },
 {
-"answer": "octal","question": "also known as base-8, a counting system that uses the characters 0-7"
+"answer": "algorithm","question": "a precise sequence of instructions that can be executed by a computer to solve a problem"
 },
 {
-"answer": "base-8","question": "also known as octal, a counting system that uses the characters 0-7"
+"answer": "class","question": "a blueprint from which an object is instantiated. Defines the abstract characteristics of a thing, its attributes and its behaviors"
 },
 {
-"answer": "base-64","question": "a counting system that uses the characters 0-9, A-Z, a-z, and two other characters such as - and _"
+"answer": "constructor","question": "a special method that is called to instantiate an object of a class"
 },
 {
-"answer": "ASCII","question": "the American Standard Code for Information Interchange"
+"answer": "function call","question": "a request that runs the code inside of a function"
 },
 {
-"answer": "ASCII code","question": "a code for representing English characters as numbers, assigned from 0 to 127"
-}
+"answer": "function definition","question": "a block of code that includes the keyword def followed by a name, any arguments that are required, code inside the function, and an output that is returned"
+},
+{
+"answer": "for loop","question": "loops that repeat for a predetermined number of iterations"
+},
+{
+"answer": "getter method","question": "a method that fetches data that is stored within an object. Provides information about the state of an object. Also known as an accessor"
+},
+{
+"answer": "hex color","question": "a six-digit set of values ranging from 0 to F that specifies a color. The first two digits are the amount of red, the next two digits are green, and the last two digits are blue"
+},
+{
+"answer": "IDE","question": "a developer’s workspace that provides programming tools and a space for coding. It stands for Integrated Development Environment"
+},
+{
+"answer": "import","question": "a Python command that loads an external file and allows you to use new commands that are not built-in to Python. For example, random numbers or turtles"
+},
+{
+"answer": "input","question": "information that is given to the computer by a user, usually typed text and mouse clicks"
+},
+{
+"answer": "instance","question": "an object created from a class"
+},
+{
+"answer": "instantiate","question": "the creation of an object (an instance) from a class"
+},
+{
+"answer": "method","question": "a function that belongs to a class"
+},
+{
+"answer": "object","question": "a data structure that contains attributes and behaviors. A software simulation/model representing an entity either physical (a box, a car, etc) or conceptual (a chemical process, a sale, driving directions, etc)"
+},
+{
+"answer": "random()","question": "generates a random decimal number between 0.0 and 1.0"
+},
+{
+"answer": "randint(a, b)","question": "generates a random integer between a and b"
+},
+{
+"answer": "rgb color","question": "a set of three comma separated values ranging from 0 to 255 that specifies a color. The first value is the amount of red, the next is green, and the last is blue"
+},
+{
+"answer": "setter method","question": "a method used to control changes to an object's internal state. Allows you to change the object’s data. Also known as a mutator"
+},
+{
+"answer": "turtle","question": "a Python module that allows you to create drawings with code on a two dimensional plane. It is a Python version of an older language called Logo created by Seymour Papert for learning programming by controlling movement and drawing of an on-screen robot with commands such as forward(), left(), and pendown()"
+},
+{
+"answer": "while loop","question": "loops without a predetermined end that either repeat until a condition is met or repeat forever"
+},
+
 ]
