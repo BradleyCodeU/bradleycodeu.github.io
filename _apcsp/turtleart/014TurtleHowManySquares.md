@@ -7,9 +7,13 @@ title: Turtle How Many Squares
 
 Define a function named isValidNumber that requires one argument (myNumber) and returns True or False if myNumber is valid. For this project, any integer 1-10 is valid.
 
-Ask the user "How many squares? Type 1-10"
+Define a function named drawSquare() that draws a single square.
 
-If the user input is valid, then draw that many squares. Otherwise, print "Not a valid number"
+Define a main function named main(). Inside of that function...
+
+  - Ask the user "How many squares? Type 1-10" and save their answer in a variable named userAnswer
+
+  - If isValidNumber(userAnswer) is True, then draw that many squares. Otherwise, print "Not a valid number"
 
 Squares should be drawn one after another in a straight line. All squares must be visible! If I ask for 5, I must be able to see 5.
 
