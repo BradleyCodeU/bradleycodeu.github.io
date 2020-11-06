@@ -16,20 +16,20 @@ towards(0,0)  # Get the angle from turtle's position to another position (x,y) o
 setheading(0) # Set turtle facing an angle. Examples: 0 (East), 45 (NE), 90 (N), 180 (W), 270 (S)
               # For example, setheading(90) will always point the turtle North.
 ```
-This project is the Python version of the Scratch Bouncing Off The Walls project. <!--If you are using Mu, the "walls" are -450 and 450 horizontally and then -400 and 400 vertically.--> If you are using Replit or Trinket, the "walls" are -200 and 200 horizontally and then -200 and 200 vertically.
+This project is the Python version of the Scratch Bouncing Off The Walls project. <!--If you are using Mu, the "walls" are -450 and 450 horizontally and then -400 and 400 vertically.--> If you are using Replit or Trinket, the imaginary "walls" are -150 and 150 horizontally and then -150 and 150 vertically.
 
 IMPORTANT: For this project, ```do NOT use goto() or home() or setposition()```. I want you to demonstrate that you know how to use if statements and use setheading()
 
 - Switch the shape to turtle.
 - Put the pen down.
-- Set the tracer with an argument 2.
+- Set the tracer with an argument like 10 or 50 or 100.
 - Define a function called bounceOffWalls() in which you do these steps:
   - Get the turtle's x location
   - Get the turtle's y location
-  - If the turtle's x location is less than -200, then set the heading to face the point at x:0, y:0
-  - If the turtle's x location is greater than 200, then set the heading to face the point at x:0, y:0
-  - If the turtle's y location is less than -200, then set the heading to face the point at x:0, y:0
-  - If the turtle's y location is greater than 200, then set the heading to face the point at x:0, y:0
+  - If the turtle's x location is less than -150, then set the heading to face the point at x:0, y:0
+  - If the turtle's x location is greater than 150, then set the heading to face the point at x:0, y:0
+  - If the turtle's y location is less than -150, then set the heading to face the point at x:0, y:0
+  - If the turtle's y location is greater than 150, then set the heading to face the point at x:0, y:0
 
 Write code so that your turtle will forever:
 - Move forward a random amount
