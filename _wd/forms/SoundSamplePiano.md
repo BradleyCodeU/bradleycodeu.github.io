@@ -16,7 +16,7 @@ In the script section, load all 10 of the sounds. For example...
 var soundA = new Audio("https://cdn.glitch.com/475828fb-3da7-4c90-8b9a-8217d8db7a15%2F0.mp3?1509508399315");
 ```
 
-Create a button class so that all of your piano keys look almost identical. Add a hover class and an active class.
+Create a button class so that all of your piano keys look almost identical. Add a [hover](https://www.w3schools.com/cssref/sel_hover.asp) effect and an [active](https://www.w3schools.com/cssref/sel_active.asp) effect.
 
 Each of the piano keys can simply play one sound using onclick. For example, onclick="soundA.play()"
 
