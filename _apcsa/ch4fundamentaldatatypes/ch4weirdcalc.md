@@ -15,6 +15,21 @@ Write a program that prompts the user for two integers and then prints
 
 <small>Hint: The abs, max, and min functions are declared in the Math class.</small>
 
-USE PRINTF so that the numbers are properly aligned. I want to output to look EXACTLY like this:
+USE PRINTF so that the numbers are properly aligned. I want the output to look EXACTLY like this:
 
 ![weirdcalc output example](/apcsa\ch4fundamentaldatatypes\weirdcalcexample.png)
+
+
+Example Output:
+```
+Enter your first number: 19
+Enter your second number: 20
+
+Sum:                39
+Difference:         -1
+Product:           380
+Average:            19.50
+Distance:            1
+Maximum:            20
+Minimum:            19
+```
