@@ -29,4 +29,19 @@ Add code to set the background to a random color.
 ### If you have already completed 1 or more Computer Science classes...
 
 You MUST ALSO add the ability to play sounds by pressing keyboard keys.
-Give the HTML body tag the [onkeydown](https://www.w3schools.com/jsref/event_onkeydown.asp) attribute. When a key is down, the body will call one of your functions and pass in the argument event. [See this example.](https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_event_key_key) Finally, [read this tutorial about key events](https://www.w3schools.com/jsref/event_key_key.asp)
+```
+// create an event listener function that runs when any key is pressed down
+window.onkeydown = function(){
+  // check if event.key equals a specific key
+	if(event.key == "a"){
+    	//play a sound
+      //change bg color
+    }
+	if(event.key == "s"){
+    	//play a sound
+      //change bg color
+    }
+};
+```
+
+Read this tutorial about [key events](https://www.w3schools.com/jsref/event_key_key.asp)
