@@ -4,7 +4,7 @@ category: p5js
 title: P5 Mouse Mover
 ---
 
-In this project you will use what you learned in [Khan Academy Drawing with Code](https://www.khanacademy.org/computing/computer-programming/programming/drawing-basics/pc/challenge-waving-snowman) (how to draw with ellipse(), rect(), fill(), line(), etc).
+In this project you will use what you learned in [Khan Academy Drawing with Code](https://www.khanacademy.org/computing/computer-programming/programming#drawing-basics) (how to draw with ellipse(), rect(), fill(), line(), etc).
 
 Requirements:
 
