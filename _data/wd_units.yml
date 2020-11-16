@@ -149,7 +149,7 @@ Projects:
 
 - title: js
   heading: "# JS"
-  content: "*3 weeks* Vocab: id, script, variable, var, let, onclick, class, alert, prompt, function, console, debugging, syntax, comment, operators, string, camelCase, display, visibility,
+  content: "*3 weeks* Vocab: id, script, variable, var, let, onclick, getElementById(), class, alert, prompt, function, console, debugging, syntax, comment, operators, string, camelCase, display, visibility,
 
 
 1. [SoloLrn JS Overview](/wd/js/SoloLearnJS1/)
@@ -237,7 +237,9 @@ Projects:
 
 - title: forms
   heading: "# Forms"
-  content: "*2 weeks*
+  content: "*2 weeks* Vocab: label, input, radio button, select, onchange, checkbox, div, border-radius, transition, function, Math.random(), event listener,
+
+
 
 1. [Join Club](/wd/forms/JoinClub/)
 
