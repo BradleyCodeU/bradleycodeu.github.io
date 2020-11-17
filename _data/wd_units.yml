@@ -149,7 +149,7 @@ Projects:
 
 - title: js
   heading: "# JS"
-  content: "*3 weeks* Vocab: id, script, variable, var, let, onclick, getElementById(), class, alert, prompt, function, console, debugging, syntax, comment, operators, string, camelCase, display, visibility,
+  content: "*3 weeks* Vocab: JavaScript, id, script, variable, var, let, button, onclick, getElementById(), innerHTML, class, alert, prompt, function, function definition, function call, console, debugging, syntax, comment, operators, assignment operator, equality operator, string, camelCase, display, block, inline, conditional
 
 
 1. [SoloLrn JS Overview](/wd/js/SoloLearnJS1/)
@@ -237,7 +237,7 @@ Projects:
 
 - title: forms
   heading: "# Forms"
-  content: "*2 weeks* Vocab: label, input, radio button, select, onchange, checkbox, div, border-radius, transition, function, Math.random(), event listener,
+  content: "*2 weeks* Vocab: form, label, input, radio button, select, onchange, checkbox, div, border-radius, transition, function, Math.random(), event listener,
 
 
 
