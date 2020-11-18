@@ -63,7 +63,7 @@
 "answer": "mathematical operator","question": "a mathematical character that takes two numbers and performs a calculation on them. For example, +"
 },
 {
-"answer": "assignment operator","question": "the operator used to assign a new value to a variable. In JavaScript, ="
+"answer": "assignment operator","question": "the operator used to assign a new value to a variable. In JavaScript, = "
 },
 {
 "answer": "equality operator","question": "returns True if the value on the left is equal to the value on the right, otherwise it returns False. In JavaScript, it is the characters =="
