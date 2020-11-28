@@ -16,31 +16,20 @@ Displaying results:
 
 Example calculations to help guide you: [Paint Calculator Calculation Example.docx](/apcsa/ch5decisions/PaintCalculatorCalculationExample.docx)
 
-Sample run #1:
-```
-Enter the room dimensions below
-Length: 10
-Width: 20
-Height: 8
-How many doors does the room have: 1
-How many windows does the room have: 2
-Total square feet =       435.0 square feet
-If gallons only =         2 gallons
-If quarts are available = 1 gallon and 2 quarts
-```
-Sample run #2:
+
+Sample run 1:
 ```
 Enter the room dimensions below
 Length: 10.5
-Width: 5.6
-Height: 5.7
-How many doors does the room have: 0
-How many windows does the room have: 0
-Total square feet =       183.54 square feet
-If gallons only =         1 gallon
-If quarts are available = 0 gallons and 3 quarts
+Width: 25.6
+Height: 10.7
+How many doors does the room have: 1
+How many windows does the room have: 2
+Total square feet =       727.54 square feet
+If gallons only =         3 gallons
+If quarts are available = 2 gallons and 2 quarts
 ```
-Sample run #3:
+Sample run 2:
 ```
 Enter the room dimensions below
 Length: 1
@@ -52,7 +41,7 @@ Total square feet =       4.0 square feet
 If gallons only =         1 gallon
 If quarts are available = 0 gallons and 1 quart
 ```
-Sample run #4:
+Sample run 3:
 ```
 Enter the room dimensions below
 Length: 148
