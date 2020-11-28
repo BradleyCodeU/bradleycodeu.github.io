@@ -21,28 +21,28 @@ You MUST match the spelling, wording, and punctuation in the sample output.
 
 Sample Output:
 ```
-Enter your first name: Becky
-Hello Becky!
+Enter your first name: Steve
+Hello Steve!
 Your name is 5 letters long.
-Your name starts with a B.
-The letter c is at the center of your name.
-Your name ends with a y.
-Enter your last name: Tanner
-Goodbye Tecky Banner!
-Oops I mean Becky Tanner!
+Your name starts with a S.
+The letter e is at the center of your name.
+Your name ends with a e.
+Enter your last name: Jobs
+Goodbye Jeve Stobs!
+Oops I mean Steve Jobs!
 ```
 
 Sample Output 2:
 ```
-Enter your first name: Andrew
-Hello Andrew!
-Your name is 6 letters long.
-Your name starts with a A.
-The letter r is at the center of your name.
-Your name ends with a w.
-Enter your last name: Smith
-Goodbye SmAndrew ith!
-Oops I mean Andrew Smith!
+Enter your first name: Elon
+Hello Elon!
+Your name is 4 letters long.
+Your name starts with a E.
+The letter o is at the center of your name.
+Your name ends with a n.
+Enter your last name: Musk
+Goodbye MElon usk!
+Oops I mean Elon Musk!
 ```
 
 Try running your code with a different variety of inputs. What happens if you just hit the ENTER key instead of entering a name?
