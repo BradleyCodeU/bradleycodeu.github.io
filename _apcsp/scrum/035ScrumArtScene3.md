@@ -17,15 +17,15 @@ Plan things that will be random in the scene (a group of 3 people will plan 9 ra
 - add a randomLocationStars function that moves to turtle to a random x between -400 and 400 and a random y between 0 and 400
 - change the old drawStar function so that it makes random sized stars
 
-Assign jobs.
+Select jobs.
 
 Requirements:
 
-Programmers' first names must be displayed on the scene (like an artist's signature at the bottom of a painting)
+- Programmers' first names must be displayed on the scene (like an artist's signature at the bottom of a painting)
 
-Functions must be used properly and named with logical names (randomBlue, drawSky, randomFish, etc)
+- Functions must be used properly and named with logical names (randomBlue, drawSky, randomFish, etc)
 
-Use comments to explain your steps (before a loop you might comment #draw fish's tail)
+- Use comments to explain your steps (before a loop you might comment #draw fish's tail)
 
 
 
