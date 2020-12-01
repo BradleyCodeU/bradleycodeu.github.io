@@ -8,7 +8,7 @@ In this project you will use what you learned in [Khan Academy Drawing with Code
 
 Requirements:
 
-  - Click here to remix the Glitch starter project: [https://glitch.com/edit/#!/remix/p5](https://glitch.com/edit/#!/remix/p5)
+  - Click here to remix the Glitch starter project: [https://glitch.com/edit/#!/remix/p5project](https://glitch.com/edit/#!/remix/p5project)
   - Add your code inside of the draw() section.
   - Create your own unique drawing with code. Make it something recognizable, not just a blob. For example... a ghost, a skateboarder, a big chungus, etc.
   - Your drawing must combine several shapes: ellipse(), rect(), fill(), line(), etc
