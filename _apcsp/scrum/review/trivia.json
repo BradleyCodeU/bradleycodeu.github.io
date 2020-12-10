@@ -1,162 +1,65 @@
 [
 {
-"answer": "Syntax",
-"question": "the set of rules that defines a correctly structured document in a language"
+"answer": "Waterfall model","question": "__________ is a development method that is linear and sequential. It includes requirements, design, implementation, verification/testing, and maintenance."
 },
 {
-"answer": "Syntax Error",
-"question": "a character or string incorrectly placed in a command or instruction that causes a failure in execution"
+"answer": "Requirements","question": "__________ is the phase where the Project Manager tries to get a detailed understanding of the user's needs"
 },
 {
-"answer": "Variable",
-"question": "a named storage location that can store changeable information, depending on conditions or on information passed to the program. A number, string, or boolean that can be set, changed, and recalled"
+"answer": "Design","question": "__________ is the phase where analysts use the information collected to plan the product in pseudocode, independent of any hardware or software system"
 },
 {
-"answer": "Assignment",
-"question": "a statement that sets a value to a named variable"
+"answer": "Implementation","question": "__________ is the phase where code is written using user's needs and the plan specifications"
 },
 {
-"answer": "Assignment Operator",
-"question": "the operator used to assign a new value to a variable. In Python, ="
+"answer": "Verification/Testing","question": "__________ is the phase where the product is checked for defects and usability and to see if it meets the users' needs. A closed beta, for example."
 },
 {
-"answer": "Equality Operator",
-"question": "returns True if the value on the left is equal to the value on the right, otherwise it returns False. In Python, it is the characters =="
+"answer": "Maintenance","question": "__________ is the phase where the customer is using the developed application. Changes are made as problems are found or as users create additional needs"
 },
 {
-"answer": "Mathematical Operator",
-"question": "a mathematical character that takes two numbers and performs a calculation on them. For example, +"
+"answer": "Agile","question": "__________ is an approach to development where requirements and solutions evolve through iteration and collaboration"
 },
 {
-"answer": "Float",
-"question": "a floating-point decimal number. For example, 42.5, 0.001, or -3.729"
+"answer": "The Agile Manifesto","question": "__________ is a formal proclamation of 4 key values and 12 principles to guide an iterative and people-centric approach to software development"
 },
 {
-"answer": "Casting",
-"question": "changing the data type of a piece of data from one type to another"
+"answer": "Individuals and interactions","question": "__________ over processes and tools"
 },
 {
-"answer": "Function",
-"question": "a named group of programming instructions that performs a specific task separately from a main script and returns to the main script when it is complete. Reusable abstractions that reduce the complexity of writing and maintaining programs. "
+"answer": "Working software","question": "__________ over comprehensive documentation"
 },
 {
-"answer": "Function Definition",
-"question": "a named block of code that includes the keyword def followed by a name, any arguments that are required, code inside the function, and an output that is returned"
+"answer": "Customer collaboration","question": "__________ over contract negotiation"
 },
 {
-"answer": "Function Call",
-"question": "a request that runs the code inside of a function"
+"answer": "Responding to change","question": "__________ over following a plan"
 },
 {
-"answer": "Black Box",
-"question": "a device, system or object which can be viewed in terms of its inputs and outputs"
+"answer": "Scrum","question": "__________ is a project-management and organization system built on Agile"
 },
 {
-"answer": "Return",
-"question": "a keyword that tells the program to leave the function and send back a value"
+"answer": "Scrum Master","question": "__________ is the role within a team accountable for guiding, coaching, teaching and assisting a team with a proper understanding and use of the project-management system"
 },
 {
-"answer": "Argument",
-"question": "a value that is passed between programs, scripts or functions. Information sent to a function to customize it for a specific need."
+"answer": "Scrum Board","question": "__________ is a grid used to visualize information such as tasks that are either to do, busy, or done"
 },
 {
-"answer": "Comment",
-"question": "statements that can be read in the code but do not affect the code in any way. In Python, they begin with a #"
+"answer": "Sprint","question": "__________ is a deadline of 30 days or less that serves as a short-term goal and is immediately followed by another deadline and short-term goal"
 },
 {
-"answer": "camelCase",
-"question": "process of naming multi-word variables without spaces and so that words in the middle of the phrase begins with a capital letter. For example, numberOfCars, iPhone, eBay"
+"answer": "Daily Scrum","question": "__________ is a stand-up meeting of 15 minutes or less for the Development Team to re-plan the next day of development work. Updates are reflected in the Backlog"
 },
 {
-"answer": "Concatenate",
-"question": "the operation of joining character strings end-to-end. For example, 'snow' + 'man' is 'snowman'"
+"answer": "Burn-down Chart","question": "__________ is a grid used to show project progress by graphing the work remaining versus time"
 },
 {
-"answer": "Scope",
-"question": "the section of code that can use a variable, typically caused by where the variable was first created"
+"answer": "Product Backlog","question": "__________ is a list of features and tasks the team will work on for the entire project"
 },
 {
-"answer": "Local Variable",
-"question": "a variable created inside a function definition, that cannot be used outside the function"
+"answer": "Sprint Backlog","question": "__________ is a list of features and tasks pulled from the product backlog for the current sprint"
 },
 {
-"answer": "Syntax",
-"question": "the set of rules that defines a correctly structured document in a language"
-},
-{
-"answer": "Syntax Error",
-"question": "a character or string incorrectly placed in a command or instruction that causes a failure in execution"
-},
-{
-"answer": "Variable",
-"question": "a named storage location that can store changeable information, depending on conditions or on information passed to the program. A number, string, or boolean that can be set, changed, and recalled"
-},
-{
-"answer": "Assignment",
-"question": "a statement that sets a value to a named variable"
-},
-{
-"answer": "Assignment Operator",
-"question": "the operator used to assign a new value to a variable. In Python, ="
-},
-{
-"answer": "Equality Operator",
-"question": "returns True if the value on the left is equal to the value on the right, otherwise it returns False. In Python, it is the characters =="
-},
-{
-"answer": "Mathematical Operator",
-"question": "a mathematical character that takes two numbers and performs a calculation on them. For example, +"
-},
-{
-"answer": "Float",
-"question": "a floating-point decimal number. For example, 42.5, 0.001, or -3.729"
-},
-{
-"answer": "Casting",
-"question": "changing the data type of a piece of data from one type to another"
-},
-{
-"answer": "Function",
-"question": "a named group of programming instructions that performs a specific task separately from a main script and returns to the main script when it is complete. Reusable abstractions that reduce the complexity of writing and maintaining programs. "
-},
-{
-"answer": "Function Definition",
-"question": "a named block of code that includes the keyword def followed by a name, any arguments that are required, code inside the function, and an output that is returned"
-},
-{
-"answer": "Function Call",
-"question": "a request that runs the code inside of a function"
-},
-{
-"answer": "Black Box",
-"question": "a device, system or object which can be viewed in terms of its inputs and outputs"
-},
-{
-"answer": "Return",
-"question": "a keyword that tells the program to leave the function and send back a value"
-},
-{
-"answer": "Argument",
-"question": "a value that is passed between programs, scripts or functions. Information sent to a function to customize it for a specific need."
-},
-{
-"answer": "Comment",
-"question": "statements that can be read in the code but do not affect the code in any way. In Python, they begin with a #"
-},
-{
-"answer": "camelCase",
-"question": "process of naming multi-word variables without spaces and so that words in the middle of the phrase begins with a capital letter. For example, numberOfCars, iPhone, eBay"
-},
-{
-"answer": "Concatenate",
-"question": "the operation of joining character strings end-to-end. For example, 'snow' + 'man' is 'snowman'"
-},
-{
-"answer": "Scope",
-"question": "the section of code that can use a variable, typically caused by where the variable was first created"
-},
-{
-"answer": "Local Variable",
-"question": "a variable created inside a function definition, that cannot be used outside the function"
+"answer": "Retrospective","question": "__________ is a meeting held at the end of a sprint in which the team discusses what succeeded and what could be improved"
 }
 ]
