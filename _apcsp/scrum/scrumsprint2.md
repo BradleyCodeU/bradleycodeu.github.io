@@ -7,7 +7,7 @@ This project is to be completed with your assigned group of 3 or more.
 
 ![Scenes](/apcsp/turtleart/ArtScene.PNG)
 
-Hold a Sprint Planning Meeting with your group. Start by creating post-its for any of the 10 Required Tasks that haven't been completed, then pick 5-10 other drawing tasks from the [Product Backlog below](#product-backlog).
+Hold a Sprint Planning Meeting with your group. Start by creating post-its the following 5 Required Tasks, then pick a dozen other drawing tasks from the [Product Backlog below](#product-backlog).
 
 5 REQUIRED TASKS:
   - Create an isValidNumber function that returns true if the number is 1, 2, or 3 and otherwise returns false = *2pts*
