@@ -11,14 +11,16 @@ They could EITHER take school buses ($1300.42 per 44 person bus) or take charter
 
 Finally, Mr. Cook needs to budget a $25 food allowance for every chaperone and student.
 
-1. Research the cost of admission [https://www.cedarpoint.com/explore/groups/student-youth-groups/single-day-visit](https://www.cedarpoint.com/explore/groups/student-youth-groups/single-day-visit). Be sure to include free tickets in your calculation... every 16th ticket is free.
+1. Summer admission price is $43 per ticket for everyone. Spring admission is $36.99 for students and $45.99 for chaperones. Be sure to include free tickets in your calculation... every 16th ticket is free.
 1. YOU MUST WRITE YOUR PSEUDOCODE AS COMMENTS
 1. Prompt user for number of students
 1. Calculate and printf how many teacher chaperones will be needed
 1. Calculate and printf the cost of admission for fall
 1. Calculate and printf the cost of admission for spring
-1. Calculate and printf the number of school buses needed and school bus cost
-1. Calculate and printf the number of charter buses needed and charter bus cost
+1. Calculate and printf the number of school buses needed
+1. Calculate and printf the school bus cost
+1. Calculate and printf the number of charter buses needed
+1. Calculate and printf the charter bus cost
 1. Calculate and printf the cost for the food allowance
 1. Calculate and printf the FINAL cost of ALL FOUR OPTIONS:
   - a fall trip with school buses
@@ -28,4 +30,4 @@ Finally, Mr. Cook needs to budget a $25 food allowance for every chaperone and s
 
 Aesthetics are important! Keep your pseudocode as comments in order to explain your thinking. Make sure your input and output looks neat and is spaced nicely (USE PRINTF). Make sure you have used appropriate/readable variable names.
 
-### NOTE: You will NOT use any "if" statements for this project
+### NOTE: You do NOT need to use any "if" statements for this project
