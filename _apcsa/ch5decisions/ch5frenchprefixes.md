@@ -23,4 +23,4 @@ For the following plural country names, use les:
   - les Etats-Unis
   - les Pays-Bas
 
-Use this [flowchart for reference](/apcsa/ch5decisions/French Prefix Of Countries.pdf)
+Use your flowchart for reference
