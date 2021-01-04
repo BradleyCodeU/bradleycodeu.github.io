@@ -14,8 +14,8 @@ Read this tutorial about [how to append something to a list/array](https://www.g
 
 Lists are objects and have methods that only work on list objects. For example...
 ```
-mylist = [79, false, 0.5, "apple"]
-mylist.insert(0)
+mylist = [79, False, 0.5, "apple"]
+mylist.insert(0, "coconut")
 mylist.append("banana")
 mylist.sort()
 mylist.insert(1, "orange")
