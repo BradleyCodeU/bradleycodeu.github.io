@@ -34,7 +34,7 @@ for each in thislist:
 
 Finally, what is modulus? The % operator returns the remainder of two numbers. It is useful for detecting even/odd numbers (like to make striped patterns), for restricting a value to a range (like to wrapping an animated ball around the screen), for finding numbers that are multiples of each other (36 is a multiple of 9), and for converting one unit to another.
 ```
-mynumber == 7
+mynumber = 7
 if (mynumber % 2) == 0:
   print("Even number")
 if (mynumber % 2) == 1:
