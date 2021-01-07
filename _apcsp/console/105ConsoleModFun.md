@@ -64,7 +64,6 @@ For Your Project You Will Pick *ANY TWO* Of The Following:
 - weeksToYears
 - monthsToYears
 - [isDivisible](#isdivisible)
-- [isEven](#iseven)
 
 
 
@@ -121,6 +120,3 @@ For Your Project You Will Pick *ANY TWO* Of The Following:
 
 ## isDivisible
 - Define a function called isDivisible that requires two arguments: number and divisor. It returns True if number is evenly divisible by the divisor (aka, has no remainder).
-
-## isEven
-- Define a function called isEven that requires one argument: number. It returns True if number is divisible by two.
