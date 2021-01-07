@@ -124,4 +124,4 @@ For Your Project You Will Pick *ANY TWO* Of The Following:
 ##### Input &rarr; Output
 
 | isDivisible(108, 9) &rarr; True |
-| peopleToBuses(79, 9) &rarr; False |
+| isDivisible(79, 9) &rarr; False |
