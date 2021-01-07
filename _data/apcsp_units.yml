@@ -183,8 +183,6 @@ Projects:
 
   1. Pair-Pick- [Py 2D Geometry](/apcsp/py/Py2DGeometry/) or [Py 3D Geometry](/apcsp/py/112Py3DGeometry/)
 
-  1. [Py Modulo Fun](/apcsp/py/105PyModuloFun/)
-
   1. Pair-Pick- [Py Three Args](/apcsp/py/106PyThreeArgs/) or [Py Collision Fun](/apcsp/py/110PyCollisionFun/)
 
 "
@@ -400,6 +398,8 @@ Projects:
 1. [RandIntArray](/apcsp/console/103ConsoleRandomIntArray/)
 
 1. Pair-Pick- [Temps](/apcsp/console/022ConsoleTemps/) or [MultiChoiceGame](/apcsp/console/024ConsoleMultiChoiceQuizGame/)
+
+1. [Mod Fun](/apcsp/console/105ConsoleModFun/)
 
 1. Pair- [FillTheBlankGame](/apcsp/console/028ConsoleFillInTheBlankQuizGame/)
 
