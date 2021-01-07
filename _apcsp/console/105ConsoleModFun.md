@@ -120,3 +120,8 @@ For Your Project You Will Pick *ANY TWO* Of The Following:
 
 ## isDivisible
 - Define a function called isDivisible that requires two arguments: number and divisor. It returns True if number is evenly divisible by the divisor (aka, has no remainder).
+
+##### Input &rarr; Output
+
+| isDivisible(108, 9) &rarr; True |
+| peopleToBuses(79, 9) &rarr; False |
