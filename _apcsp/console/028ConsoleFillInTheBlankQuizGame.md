@@ -30,7 +30,7 @@ Requirements:
 
 Create an empty array called correctAnswers and an empty array called wrongAnswers
 
-Define a function called askQuestion. It requires two arguments: question and answer. It does not return a value. Inside this function will be:
+Define a function called askQuestion. It requires three arguments: question, answer, score. It returns the new score. Inside this function will be:
 - a while True loop
   - ask the question
   - collect user input
@@ -38,7 +38,7 @@ Define a function called askQuestion. It requires two arguments: question and an
   - if the user input equals the answer (NOTICE: THIS PLACES THE CONDITION AT THE END OF THE LOOP)
     - add a large amount to the score
     - say correct, your score is ___
-    - break the loop
+    - return the score (return will break the loop)
   - else:
     - subtract a small amount from the score
     - say incorrect, your score is ___
