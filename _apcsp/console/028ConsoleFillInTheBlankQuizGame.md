@@ -13,9 +13,9 @@ Let's look at some pseudocode for using a "do while" loop for a number guessing 
 2. Generate a random number between 1 and 10
 3. Start loop
    - Print message asking user to enter their guess
-   - Scan in guess
+   - Input guess
    - Check the guess and print the appropriate messages
-   - Continue to loop if the guess is wrong // Condition at bottom of loop
+   - Continue to loop if the guess is wrong, else break # Condition at bottom of loop
 
 A key difference between a while loop and "do while" loop: the body of the "do while" loop is executed before the condition is ever tested. In the while loop version of the program, it was necessary to read in the user’s first guess before the loop so there would be a value for comparison in the condition. In the "do while" loop, the body will ALWAYS run one or more times.
 ```
@@ -24,7 +24,7 @@ For THIS project we will *simulate* a post-conditional loop by creating a while 
 
 ## Project Details
 
-Create a new game that asks a minimum of 6 questions. Choose a topic for your quiz and make all of your questions based on this topic. For example... computer science, vocabulary words from a foreign language, or vocabulary from any class you are taking this semester.
+Create a new game that asks 6 or more questions. Choose a topic for your quiz and make all of your questions based on this topic. For example... computer science, vocabulary words from a foreign language, or vocabulary from any class you are taking this semester.
 
 Requirements:
 
