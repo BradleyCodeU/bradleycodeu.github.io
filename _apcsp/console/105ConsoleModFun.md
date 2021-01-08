@@ -92,12 +92,12 @@ For Your Project You Will Pick *ANY TWO* Of The Following:
 | peopleToBasketballTeams(47) &rarr; "9 full basketball teams and 2 benchwarmers" |
 
 ## peopleToPicnicTables
-- Assume 6 people per picnic table. Define a function called peopleToPicnicTables that requires one argument: people. It returns a string with the number of full picnic tables and the remaining number of people that sit on the ground.
+- Assume 6 people per picnic table. Define a function called peopleToPicnicTables that requires one argument: people. It returns a string with the number of full picnic tables and the remaining number of people that sit in chairs.
 
 ##### Input &rarr; Output
 
-| peopleToPicnicTables(321) &rarr; "53 full picnic tables and 3 people sit on the ground"|
-| peopleToPicnicTables(43) &rarr; "7 full picnic tables and 1 people sit on the ground"|
+| peopleToPicnicTables(321) &rarr; "53 full picnic tables and 3 people sit in chairs"|
+| peopleToPicnicTables(43) &rarr; "7 full picnic tables and 1 people sit in chairs"|
 
 ## peopleToDonuts
 - Assume that a box of doughnuts contains 13 doughnuts (aka a baker's dozen) and you are only getting 1 doughnut per person. Define a function called peopleToDonuts that requires one argument: people. It returns a string with the number of full boxes of doughnuts and the remaining number of single doughnuts you would need.
