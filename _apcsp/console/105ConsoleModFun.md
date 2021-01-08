@@ -42,8 +42,6 @@ sqftToAcres(123) &rarr; "0 acres and 123 sq ft"
 
 ## Assignment Details:
 
-Copy/paste this starter code: [https://repl.it/@JustinRiley1/ModuloFun-starter-code](https://repl.it/@JustinRiley1/ModuloFun-starter-code)
-
 For Your Project You Will Pick *ANY TWO* Of The Following:
 - [peopleToBuses](#peopletobuses)
 - [peopleToPizzas](#peopletopizzas)
