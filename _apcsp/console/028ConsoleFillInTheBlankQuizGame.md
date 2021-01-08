@@ -3,7 +3,7 @@ layout: project
 category: console
 title: Console Fill in the Blank Quiz Game
 ---
-In this project you will use a global variable, while loop, not, input, print, lists/arrays, append, and a few other things.
+In this project you will use a while loop, not, input, print, lists/arrays, append, and a few other things.
 
 Let's continue our discussion of loops. Pre-conditional loops include while loop, for loop, and for each loop. The most common post-conditional loop is the "do while" loop. *THERE IS NO "DO WHILE" LOOP IN PYTHON*, but we can simulate one.
 ```
@@ -30,18 +30,20 @@ Requirements:
 
 Create an empty array called correctAnswers and an empty array called wrongAnswers
 
-Define a function called askQuestion. It requires three arguments: question, answer, score. It returns the new score. Inside this function will be:
+Define a function called askQuestion. It requires three arguments: questionText, answerText, score. It returns the new score. Inside this function will be:
 - a while True loop
-  - ask the question
+  - ask the questionText
   - collect user input
   - *convert the user input to lowercase letters*
-  - if the user input equals the answer (NOTICE: THIS PLACES THE CONDITION AT THE END OF THE LOOP)
+  - if user input does NOT equal the answerText (NOTICE: THIS PLACES THE CONDITION AT THE END OF THE LOOP)
+    - subtract a small amount from the score
+    - say incorrect, your score is ___
+  - else:
     - add a large amount to the score
     - say correct, your score is ___
     - return the score (return will break the loop)
-  - else:
-    - subtract a small amount from the score
-    - say incorrect, your score is ___
+
+
 
 Display instructions for the player like in the Sample Output below.
 
