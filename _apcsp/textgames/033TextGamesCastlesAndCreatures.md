@@ -3,6 +3,8 @@ layout: project
 category: textgames
 title: Text Games Castles And Creatures
 ---
+Concepts: dictionary
+
 Demo video here: [https://drive.google.com/open?id=1JlEKlaDlWA8AcpCWbkH0wlF7noETYy8T](https://drive.google.com/open?id=1JlEKlaDlWA8AcpCWbkH0wlF7noETYy8T)
 
 Download this starter file: [castlesAndCreaturesTemplate.py](/apcsp/textgames/castlesAndCreaturesTemplate.py)
