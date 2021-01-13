@@ -3,6 +3,7 @@ layout: project
 category: py
 title: Three Args
 ---
+
 Pick 2:
 - [giveTicket](#giveticket)
 - [netPay](#netpay)
