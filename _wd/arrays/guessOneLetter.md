@@ -17,7 +17,12 @@ Create an array named guessedLetters to hold the current guessed letters. It wil
 
 Write a function called guessLetter that requires one argument: checkLetter
 - Loop through the secret word letters and see if checkLetter is in there.
-- If the guessed checkLetter a secret word letter, changed the guessed letters array to reflect that.
-- Update the guessed letter display (for example, 'F _ _')
-- Congratulate the user if they found a new letter.
-- Figure out if there are any more letters that need to be guessed, and if not, congratulate the user for winning the game.
+- If the guessed checkLetter is NOT a secret word letter
+  - tell the user to try again
+  - clear the text input
+- If the guessed checkLetter IS a secret word letter
+  - change the guessed letters array
+  - update the guessed letter display (for example, 'F _ _')
+  - clear the text input 
+  - congratulate the user
+  - figure out if there are any more letters that need to be guessed, and if not, congratulate the user for winning the game.
