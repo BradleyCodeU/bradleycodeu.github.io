@@ -10,13 +10,13 @@ Given the xy coordinates for two points, this function returns the distance betw
 
 Input -> Output
 ```
-findDistance(0,0,0,1) -> 1.0
 findDistance(1,2,3,4) -> 2.8284271247461903
+findDistance(0,0,0,1) -> 1.0
 ```
 
 Finally, you MUST create THREE test cases that show the expected result and print the actual result. This must be outside of the function. Here is an example of what ONE test case might look like...
 
 ```
-Expected findDistance(0,0,0,1) -> 1.0
-Actual 1.0
+Expected findDistance(1,2,3,4) -> 2.8284271247461903
+Actual 2.8284271247461903
 ```
