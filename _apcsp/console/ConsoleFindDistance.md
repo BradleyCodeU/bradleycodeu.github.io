@@ -8,7 +8,7 @@ Create a function named findDistance that requires FOUR arguments: x1, y1, x2, y
 
 Given the xy coordinates for two points, this function returns the distance between the two points. You will use the [Distance Formula](https://www.khanacademy.org/math/geometry/hs-geo-analytic-geometry/hs-geo-distance-and-midpoints/v/distance-formula) from geometry class. You must NOT print inside of the function.
 
-Input &arr; Output
+Input &rarr; Output
 ```
 findDistance(1,2,3,4) -> 2.828
 findDistance(0,0,0,1) -> 1.0
