@@ -3,6 +3,8 @@ layout: project
 category: ch7arraysandarraylists
 title: Pizza Toppings
 ---
+Read this [w3schools ArrayList tutorial](https://www.w3schools.com/java/java_arraylist.asp)
+
 Use an ArrayList to store your favorite toppings for pizza.
 
 Use this starter template:
