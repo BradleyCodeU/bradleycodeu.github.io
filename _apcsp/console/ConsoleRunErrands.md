@@ -16,7 +16,7 @@ Based on the user input, the result will be one of these THREE outcomes:
   - Errand 1 is farther away
   - Errand 2 is farther away
 
-NOTE: The distances will be considered to have similar distances if the distances are within 0.5 units of each other. Your program must print only one of the three outcomes, not more than one.
+NOTE: The errands have similar distances if the distances are within 0.5 units of each other. Your program must print only one of the three outcomes, not more than one.
 
 
 Sample Run #1:
