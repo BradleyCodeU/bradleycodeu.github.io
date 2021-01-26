@@ -8,9 +8,9 @@ title: Run Errands
 
 You have two errands to run today. Your friend wants you to be able to hang out tonight, so they agree to run one of your errands for you.
 
-Imagine that you have a map of the area on a coordinate plane. Prompt for the x and y coordinates of your house. Next, prompt for the x and y coordinates of each errand location. Use your FindDistance function to calculate the distance to each errand. Display the distance to each location. Display the number of the errand that is farther away from your house.
+Imagine that you have a map of the area on a coordinate plane. Use the input() function to prompt for the x and y coordinates of your house. Next, prompt for the x and y coordinates of each errand location. Use your FindDistance function to calculate the distance to each errand. Display the distance to each location. Display the number of the errand that is farther away from your house.
 
-The result will be one of these THREE outcomes:
+Based on the user input, the result will be one of these THREE outcomes:
 
   - Similar distances
   - Errand 1 is farther away
