@@ -38,5 +38,8 @@ System.out.println("The new list is displayed using the toString method...");
 //           Use toString to print the new list OR print "That is not in the list"
 
 // Step 7:
-// After the user has entered the sentinel value and exited the loop, use the clear method to remove all elements from the arraylist
+// After the user has entered the sentinel value and exited the loop, print the list using the toString method
+System.out.println("Displaying the list using the toString method...");
+
+//Finally, use the clear method to remove all elements from the arraylist
 ```
