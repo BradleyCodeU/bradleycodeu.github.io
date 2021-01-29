@@ -13,4 +13,6 @@ Check out these examples:
 
   - [ForEachLoopStringExample.java](/apcsa\ch72foreachloops\ForEachLoopStringExample.java)
 
+Complete the starter file below. NOTE: Use arrays (not ArrayLists) for this project.
+
 Download (or copy/paste) starter file: [ForEachLoopArrayPractice2.java](/apcsa\ch72foreachloops\ForEachLoopArrayPractice2.java)
