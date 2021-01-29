@@ -4,6 +4,7 @@ public class ForEachLoopArrayPractice
 {
 	public static void main(String[] args)
 	{
+		// Use arrays (not ArrayLists) for this project
 		// Declare and initialize array variable "intArray" to hold the values: 5,3,12,9,7
 
 
@@ -26,7 +27,7 @@ public class ForEachLoopArrayPractice
 
 
 
-		// Search intArrayList for the number 7 using a for-each loop. Display "7 was found" or "7 was not found"
+		// Search intArray for the number 7 using a for-each loop. Display "7 was found" or "7 was not found"
 		System.out.println("\n***********************************************************");
 		System.out.println("Search intArray for the number 7 using a for-each loop.\n");
 
