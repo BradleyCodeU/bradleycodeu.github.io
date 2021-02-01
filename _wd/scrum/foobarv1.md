@@ -41,7 +41,7 @@ You will be graded on the following requirements:
   * Must be able to change rooms and give a message like "You can't go there" when necessary.
 
 
-Define a function named doesRoomExist that requires one argument: roomNumber. If roomArray index roomNumber is false then say "You can't go there" and return false. Otherwise return true.
+Define a function named doesRoomExist that requires one argument: roomNumber. If roomArray index roomNumber is undefined then say "You can't go there" and return false. Otherwise return true.
 
 
 Define a function named move that requires one argument: direction.
