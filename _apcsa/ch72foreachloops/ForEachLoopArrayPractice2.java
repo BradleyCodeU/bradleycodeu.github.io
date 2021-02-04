@@ -39,13 +39,13 @@ public class ForEachLoopArrayPractice
 
 		// Display words using a for-each loop
 		System.out.println("\n*******************************************************");
-		System.out.println("words displayed using for each loop loop\n");
+		System.out.println("Words displayed using for each loop\n");
 
 
 
 		// Length of each element of words is displayed
 		System.out.println("\n*******************************************************");
-		System.out.println("Length of each element of words is: \n");
+		System.out.println("Length of each word in the array is: \n");
 
 
 
