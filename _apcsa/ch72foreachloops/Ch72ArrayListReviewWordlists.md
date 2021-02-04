@@ -5,7 +5,7 @@ title: Array List Review Wordlists
 ---
 These exercises will allow you to have some practice with the idea of ArrayLists, and more practice with programs structured using functions and procedures.
 
-Objectives: Practice with programming fundamentals, Variables, Declaration and Assignment, Primitive types Arithmetic Expressions Simple keyboard input and text display output Branching ­ if­elseif­else syntax Loops ­ simple while loops, nested while loops Methods ­ functions and procedures ArrayLists ­ collections of variables
+Objectives: Practice with programming fundamentals, Variables, Declaration and Assignment, Primitive types Arithmetic Expressions Simple keyboard input and text display output Branching ­ if­-else-if-­else syntax Loops ­ simple while loops, nested while loops Methods ­ functions and procedures ArrayLists ­ collections of variables
 
 Works towards the following Course Goals: Competency with using basic coding features of a high ­level imperative programming language Competency with writing computer programs to implement given simple algorithms Familiarity with designing simple text ­oriented user interfaces
 
@@ -15,7 +15,7 @@ You will be writing a simple Java program that implements a few basic ArrayList 
 
   - getList() should use the following method header: private static ArrayList<String> getList(Scanner inScanner)
   - displayList() should use the following method header: private static void displayList(ArrayList<String> myList)
-  - mergeList() should use the following method header: private static ArrayList mergeLists(ArrayList list1, ArrayList list2) It should take two lists of Strings as input.
+  - mergeList() should use the following method header: private static ArrayList<String> mergeLists(ArrayList<String> list1, ArrayList<String> list2) It should take two lists of Strings as input.
 
 Sample Output This is a sample transcript of what your program should do.
 ```
