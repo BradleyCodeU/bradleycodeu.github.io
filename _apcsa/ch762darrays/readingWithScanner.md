@@ -51,3 +51,9 @@ public class ReadingEntireFileWithoutLoop
 }
 ```
 Source: [https://www.geeksforgeeks.org/different-ways-reading-text-file-java/](https://www.geeksforgeeks.org/different-ways-reading-text-file-java/)
+
+
+Finally, here is an [example Repl.it project](https://repl.it/@JustinRiley1/Java-Reading-External-Text-File) in which I am reading lines from an external text file. Notice that you only need the filename on Repl.it, you do not need to provide a FULL path to the file.
+```
+File myFile = new File("textfile.txt");
+```
