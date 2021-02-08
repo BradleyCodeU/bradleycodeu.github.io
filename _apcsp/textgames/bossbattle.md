@@ -10,15 +10,15 @@ Read this article about the [random choice method](https://www.w3schools.com/pyt
 
 Read this article about the [Python string lower method](https://www.w3schools.com/python/ref_string_lower.asp)
 
-At the top of your project, add a comment with you name on line 1. Then import time on line 2.
+At the top of your project, you MUST have a comment with your name on line 1. Then import time on line 2.
 
-Define a function named randomHealth that returns a random number between 30 - 50
+Define a function named randomHealth that returns a random number between 30 - 50.
 
 Define a function named randomTrueFalse that returns true 50% of the time and returns false 50% of the time.
 
-Define a function named diceRoll that returns a random number between 1 - 6
+Define a function named diceRoll that returns a random number between 1 - 6.
 
-Define a function named hitBoss that requires three arguments: weapon, iceWeakness, magicWeakness.
+Define a function named hitBoss that requires three arguments: weapon, iceWeakness, magicWeakness. Returns a number amount of damage.
   - Create a variable called damage and set it to zero.
   - Weapon is a string. Convert the string to lowercase.
   - If weapon contains either "sword" or "spell" then add diceRoll() to damage.
@@ -29,7 +29,7 @@ Define a function named hitBoss that requires three arguments: weapon, iceWeakne
   - Print how much damage your attack does to the boss
   - Return the number of damage
 
-Define a function named hitPlayer that require one argument: playerHealth.
+Define a function named hitPlayer that require one argument: playerHealth. Returns a number amount of damage.
   - Create a list/array of 7 enemyAttacks. For example, "Sneak Attack", "Roundhouse Kick", "Punchy Punch"
   - Randomly pick one of the enemyAttacks
   - Print a message that says which random attack the dragon uses. For example, "Dragon Uses Hair Whip" or "Dragon Uses Jump Scare"
