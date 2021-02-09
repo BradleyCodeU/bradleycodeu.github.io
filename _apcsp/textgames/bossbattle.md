@@ -82,7 +82,7 @@ Run the following tests:
 |`hitBoss("s",False,True)` | always returns 0   |
 |`hitBoss("ice",False,True)` | always returns 0   |
 |`hitBoss("ice sword",False,True)` | returns 1-6   |
-|`hitBoss("fire spell",True,False` | returns 1-6   |
+|`hitBoss("fire spell",True,False)` | returns 1-6   |
 |`hitPlayer(50)`   |  returns 2-12 (make sure you sometimes get >6)|
 |`hitPlayer(5)`   |  returns 1-6 |
 |`whoWins(1,0)`   | says You Win  |
