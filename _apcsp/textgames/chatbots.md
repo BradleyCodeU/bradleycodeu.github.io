@@ -18,4 +18,4 @@ REQUIREMENTS:
     - Create two dictionary-based chatbots with 12 key/value pairs each
     - Create three dictionary-based chatbots with 8 key/value pairs each
 
-Copy/paste the starter code from the [starter template](https://repl.it/@JustinRiley1/Chatbot-starter-template)
+Copy/paste the starter code from the [starter template](https://repl.it/@JustinRiley1/Chatbot-starter-template). Type talkTo(dan) in the console to see the demo.
