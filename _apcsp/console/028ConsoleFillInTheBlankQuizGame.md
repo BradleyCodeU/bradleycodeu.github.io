@@ -30,18 +30,16 @@ Requirements:
 
 Create an empty array called correctAnswers and an empty array called wrongAnswers
 
-Define a function called askQuestion. It requires three arguments: questionText, answerText, score. It returns the new score. Inside this function will be:
+Define a function called askQuestion. It requires two arguments: questionText, answerText. Inside this function will be:
 - a while True loop
   - ask the questionText
   - collect user input
   - *convert the user input to lowercase letters*
   - if user input does NOT equal the answerText (NOTICE: THIS PLACES THE CONDITION AT THE END OF THE LOOP)
-    - subtract a small amount from the score
-    - say incorrect, your score is ___
+    - say incorrect try again
   - else:
-    - add a large amount to the score
-    - say correct, your score is ___
-    - return the score (return will break the loop)
+    - say correct
+    - break the loop
 
 
 
@@ -61,21 +59,21 @@ Console Fill In The Blank Quiz Game
 Answer the following six questions
 
 1) ___ ____ is a term for datasets so large/complex that traditional data processing is inadequate: **Big Data**
-correct, your score is 5
+correct
 2) a variable that can only be true or false is: **integer**
-incorrect, your score is 2
+incorrect, try again
 2) a variable that can only be true or false is: **string**
-incorrect, your score is -1
+incorrect, try again
 2) a variable that can only be true or false is: **Boolean**
-correct, your score is 3
+correct
 3) U.S. military department that created the Internet for scientific and military communications is: **ARPA**
-correct, your score is 8
+correct
 4) a variable that can only store whole number is: **integer**
-correct, your score is 13
+correct
 5) what 3-letter acronym means the intranet: **LAN**
-correct, your score is 18
+correct
 6) a variable that stores text is: **string**
-correct, your score is 23
+correct
 
 Your wrong answers were: integer,string
 Your correct answers were: big data,boolean,arpa,integer,lan,string
