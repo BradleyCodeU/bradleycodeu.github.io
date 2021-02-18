@@ -9,7 +9,7 @@ You will be graded on the following requirements:
 
 - Have 30 rooms. Each of these rooms must have a unique description. NOT just "you're in a room". Have 10 or more items that the player can pick up.
 - Have 1 final enemy that you must defeat. You can either base this battle on the Boss Battle project OR the JS Form Game project (the one that had 4 trivia questions to answer).
-- Must use [the Map class](https://gist.githubusercontent.com/ohiofi/fbcd79b5a2ec11f8bd4bfe3e4aa7693c/raw/71fd85a1d75ac358c9b89fdd2d53cc3101b7a1e5/map.js) to draw a map for your game (hide or show the items is up to you). The Map class requires that you import p5js by adding the following to the head section: ``` <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.js"></script> ```
+- Must use [the Map class](https://bradleycodeu.github.io/wd/scrum/map.js) to draw a map for your game (hide or show the items is up to you). The Map class requires that you import p5js by adding the following to the head section: ``` <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.js"></script> ```
 - Print the room description, any item in the room, any items in the player's inventory/backpack
 - Must be able to change rooms and give a message like "You can't go there" when necessary.
 - Must be able to collect an item (using "take" button), place the item in the player's inventory/backpack, and remove the item from the room.
