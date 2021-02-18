@@ -213,9 +213,11 @@ class Map {
     this.setStartingLocation(myLocation)
     for(let row=0;row<this.columnHeight;row++){
       for(let column=0;column<rowWidth;column++){
-        this.showRoom(row,column,rooms)
-        this.showLittleStar(row,column,roomItems)
-        this.showStart(row,column,this.startingLocation)
+        this.showRoom(row,column,rooms);
+        if(roomItems != false){
+          this.showLittleStar(row,column,roomItems);
+        }
+        this.showStart(row,column,this.startingLocation);
         //this.showBigStar(row,column,myLocation)
       }
     }
@@ -233,7 +235,9 @@ class Map {
       for(let column=0;column<rowWidth;column++){
         this.showRoom(row,column,this.mappedRooms)
         this.showRevealedWall(row,column,this.mappedRooms)
-        this.showLittleStar(row,column,this.mappedItems)
+        if(roomItems != false){
+          this.showLittleStar(row,column,this.mappedItems)
+        }
         this.showStart(row,column,this.startingLocation)
         //this.showBigStar(row,column,myLocation)
       }
