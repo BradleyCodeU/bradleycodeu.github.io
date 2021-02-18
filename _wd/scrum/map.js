@@ -18,8 +18,9 @@ function setup(){ // only when game loads
 
 function draw(){
   text(currentLocation, 10, 10);
-  mappy.reveal(room,item,currentLocation); // use reveal to slowly display map
-  // or use the show method to display the full map
+  mappy.reveal(room,item,currentLocation); // Use reveal to slowly reveal map
+  // or use the show method to display the full map.
+  // Replace the item argument with false to hide the items.
 }
 
 class Map {
