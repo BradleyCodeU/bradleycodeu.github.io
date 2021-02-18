@@ -13,7 +13,8 @@ You will be graded on the following requirements:
 - Print the room description, any item in the room, any items in the player's inventory/backpack
 - Must be able to change rooms and give a message like "You can't go there" when necessary.
 - Must be able to collect an item (using "take" button), place the item in the player's inventory/backpack, and remove the item from the room.
-- Use localStorage to save the game after each move
+- Define a function named saveGame() that saves all of the variables into localStorage
+- Define a function named loadGame() that loads all of the variables from localStorage. Don't forget that everything is saved as a string in localStorage! Use [parseInt()](https://www.w3schools.com/jsref/jsref_parseint.asp) or JSON.parse() to convert string to number. Use the [.split(",") method](https://www.w3schools.com/jsref/jsref_split.asp) to convert string to array.
 - The game ends if the user loses the game, or wins the game.
     * Create an alert
     * Change the background color to either red (lose) or green (win)
