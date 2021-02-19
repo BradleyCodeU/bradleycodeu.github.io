@@ -5,6 +5,8 @@ title: Text Games Castles And Creatures
 ---
 Concepts: dictionary
 
+Read this w3schools tutorial about [Python dictionaries](https://www.w3schools.com/python/python_dictionaries.asp). Notice that dictionary items are presented in key/value pairs.
+
 Demo video here: [https://drive.google.com/open?id=1JlEKlaDlWA8AcpCWbkH0wlF7noETYy8T](https://drive.google.com/open?id=1JlEKlaDlWA8AcpCWbkH0wlF7noETYy8T)
 
 Download this starter file: [castlesAndCreaturesTemplate.py](/apcsp/textgames/castlesAndCreaturesTemplate.py)
