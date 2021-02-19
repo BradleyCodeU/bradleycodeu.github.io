@@ -25,9 +25,34 @@ def printGameTitle():
     return
 
 
+# create a function makeEnemy that will return an enemy dictionary
+# there are 3 arguments: _name, _power, _health
+# I have completed the first half of the function for you.
+# You need to:
+# - Make an array with FIVE or more attacks that the enemy could use
+# - Set the enemyWeakness to a random integer number between 2 & 4
+# - return the enemy dictionary
+def makeEnemy(_name, _power, _health):
+    # Create an enemy "dictionary" object
+    enemy = {}
+    # Give the dictionary a "name" key/value using argument _name
+    enemy["name"] = _name
+    # Give the dictionary a "power" key/value using argument _power
+    enemy["power"] = _power
+    # Give the dictionary a "health" key/value using argument _health
+
+    # Make an array with FIVE or more attacks that the enemy could use
+    # Example: enemy["attacks"] = ["Sneak Attack", "Super Kick", ??? ]
+
+    # Set the enemyWeakness to a random integer number between 2 & 4
+    # Example: enemy["weakness"] = ???
+
+    return enemy
+
+
 # create a function called setupCastleOne()
 # prints a brief introduction
-# Returns an enemy dictionary which should NOT be named "Enemy 1 Name"
+# Return an enemy dictionary that must NOT be named "Enemy 1 Name"
 def setupCastleOne():
     # Sleep 1 sec
     time.sleep(1)
@@ -57,7 +82,7 @@ def setupCastleOne():
 
 # create a function called setupCastleThree()
 # prints a brief introduction to castle 2
-# Returns an enemy dictionary which should NOT be named "Enemy 2 Name"
+# Return an enemy dictionary that must NOT be named "Enemy 2 Name"
 def setupCastleTwo():
     # Sleep 1 sec
     time.sleep(1)
@@ -83,7 +108,7 @@ def setupCastleTwo():
 
 # create a function called setupCastleThree()
 # prints a brief introduction to castle 3
-# Returns an enemy dictionary which should NOT be named "Enemy 3 Name"
+# Returns an enemy dictionary that must NOT be named "Enemy 3 Name"
 def setupCastleThree():
     # Sleep 1 sec
     time.sleep(1)
@@ -104,31 +129,6 @@ def setupCastleThree():
     # Sleep 1 sec
 
     enemy = makeEnemy(name = "Enemy 3 Name", power = 40, health = 80)
-    return enemy
-
-
-# create a function makeEnemy that will return an enemy dictionary
-# there are 3 arguments: _name, _power, _health
-# I have completed the first half of the function for you.
-# You need to:
-# - Make an array with FIVE or more attacks that the enemy could use
-# - Set the enemyWeakness to a random integer number between 2 & 4
-# - return the enemy dictionary
-def makeEnemy(_name, _power, _health):
-    # Create an enemy "dictionary" object
-    enemy = {}
-    # Give the dictionary a "name" key/value using argument _name
-    enemy["name"] = _name
-    # Give the dictionary a "power" key/value using argument _power
-    enemy["power"] = _power
-    # Give the dictionary a "health" key/value using argument _health
-
-    # Make an array with FIVE or more attacks that the enemy could use
-    # Example: enemy["attacks"] = ["Sneak Attack", "Super Kick", ??? ]
-
-    # Set the enemyWeakness to a random integer number between 2 & 4
-    # Example: enemy["weakness"] = ???
-
     return enemy
 
 
@@ -295,15 +295,15 @@ def main():
     playerHealth = 100
     printGameTitle()
     playerHealth = gameLevel(setupCastleOne(), playerHealth)
-    if !isPlayerAlive(playerHealth):
+    if not isPlayerAlive(playerHealth):
         print("Oof.  You have DIED!  R.I.P.  Game Over")
         return
     playerHealth = gameLevel(setupCastleTwo(), playerHealth)
-    if !isPlayerAlive(playerHealth):
+    if not isPlayerAlive(playerHealth):
         print("Oof.  You have DIED!  R.I.P.  Game Over")
         return
     playerHealth = gameLevel(setupCastleThree(), playerHealth)
-    if !isPlayerAlive(playerHealth):
+    if not isPlayerAlive(playerHealth):
         print("Oof.  You have DIED!  R.I.P.  Game Over")
         return
     else:
