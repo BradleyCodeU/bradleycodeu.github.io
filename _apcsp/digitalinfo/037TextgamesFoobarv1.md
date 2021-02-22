@@ -23,10 +23,8 @@ You will be graded on the following requirements:
 
 Define a function named doesRoomExist that requires one argument: roomNumber. If roomArray index roomNumber is false then say "You can't go there" and return false. Otherwise return true. Use try except when you check the room because you could get an "index out of range error." If you get an error, then say "You can't go there" and return false.
 
-Define a function named doesItemExist that requires one argument: roomNumber. Use try except to avoid getting an "index out of range error." Returns True if there is an item in the room or False if not.
-
 Define a function named move that requires two arguments: userInput, location.
-  - If the userInput was "n" and doesRoomExist at the location - 1
+  - If the userInput was "n" and call doesRoomExist with the argument location - 1
     - location = location - 1
   - Otherwise if the userInput was "s" and doesRoomExist at the location + 1
     - location = location + 1
@@ -46,4 +44,4 @@ Define a function named main.
     - If doesItemExist equals true, then say "Item here: " and the item name
     - Say "Please type: n, s, e, w, or quit"
     - Save the input in a variable named userInput
-    - Call the move function and pass the arguments userInput, location and save what it returns in location
+    - Call the move function and pass two arguments userInput and location, then save what it returns in location
