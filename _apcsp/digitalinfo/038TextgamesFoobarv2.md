@@ -5,7 +5,8 @@ title: Text Games Foobar v2
 ---
 
 [Copy/Paste this map class](https://raw.githubusercontent.com/ohiofi/Python-map/master/map.py) into a new file, map.py
-This file must be in the same location (same folder) as your project.
+
+The map.py file must be in the same location (same folder) as your project.
 
 In this version you will add "special rooms" which can be locked/unlocked, have battles, or other mini-games.
 
@@ -18,12 +19,12 @@ Add 3 or 4 mini-games (1 per person in your group). A mini-game could be:
 
 I recommend creating a function called specialRooms that redirects the player if they are in one of these locations:
 ```
-def specialRooms():
-  global location, quizCompleted, bossDead, roomArray, inventory
-  if location == 6 and quizCompleted == False:
+def specialRooms(location, roomArray, inventory, isQuizCompleted, isBossDead):
+  if location == 6 and isQuizCompleted == False:
     susansQuizGame()
-  if location == 105 and bossDead == False:
+  if location == 105 and isBossDead == False:
     adamsBossBattle()
+  # NOTICE you unlock room 303 FROM room 304
   if location == 304:
     if "gold key" not in inventory:
       print("The room to the north is locked. You need a key.")
@@ -44,7 +45,7 @@ You will be graded on the following requirements:
 1. Must use the [Map class](https://raw.githubusercontent.com/ohiofi/Python-map/master/map.py) to draw a map for your game (hide or show the items is up to you).
 1. Print the room description, any item in the room, any items in the player's inventory/backpack, and the possible commands that the player can type such as "take" (if there is an item in this room) or "use key" (if the player has a key).
 1. Must be able to change locations and give a message like "You can't go there" when necessary.
-1. Must be able to collect an item (using "take"), place the item in the player's inventory/backpack, *and remove the item from the room*.
+1. Must be able to collect an item (using "take"), place the item in the player's inventory/backpack, ```AND remove the item from the room```.
 1. Must have a break in your while loop so that game ends if the user types "quit", loses the game, or wins the game.
 
 ``` Put your finished game on Trinket.io along with the map.py class. Turn in the URL for your finished game. ```
