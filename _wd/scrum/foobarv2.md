@@ -19,3 +19,32 @@ You will be graded on the following requirements:
     * Create an alert
     * Change the background color to either red (lose) or green (win)
     * Hide all of the buttons
+
+### How to unlock doors and start mini-games
+
+I recommend creating a function called checkIfSpecialRoom that redirects the player if they are in one of your special locations. FOR EXAMPLE...
+```
+function checkIfSpecialRoom(mylocation, roomArray, inventory, isQuizCompleted, isBossDead) {
+  if (location == 6 && isQuizCompleted == False) {
+    susansQuizGame();
+  }  
+  if (location == 105 && isBossDead == False) {
+    adamsBossBattle();
+  }
+  // NOTICE you unlock room 303 FROM room 304
+  if (location == 304){
+    if (inventory.includes("gold key") == true){
+      alert("You use the gold key to unlock the door.");
+      roomArray[303] = "The unlocked door leads into a small, dark hallway";
+    }
+    if (inventory.includes("gold key") == false){
+      alert("The room to the north is locked. You need a key.");
+      roomArray[303] = undefined;
+    }
+  }
+}
+
+
+
+```
+Call the checkIfSpecialRoom function in the main function right after move. This way, as soon as you step into a special room it puts you into a mini-game.
