@@ -28,10 +28,10 @@ Define a function named doesItemExist that requires one argument: roomNumber. Us
 Define a function named move that requires two arguments: userInput, location.
   - If the userInput was "n" and call doesRoomExist with the argument location - 1
     - location = location - 1
-  - Otherwise if the userInput was "s" and doesRoomExist at the location + 1
+  - Otherwise if the userInput was "s" and doesRoomExist at location + 1
     - location = location + 1
-  - Otherwise if the userInput was "e" and figure this part out yourself
-    - figure this part out yourself
+  - Otherwise if the userInput was "e" and doesRoomExist at location + 100
+    - location = location + 100
   - Otherwise if the userInput was "w" and figure this part out yourself
     - figure this part out yourself
   - return location
