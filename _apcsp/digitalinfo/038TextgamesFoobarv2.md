@@ -17,24 +17,26 @@ Add 3 or 4 mini-games (1 per person in your group). A mini-game could be:
   - a high-low number guessing game (to open a combination lock, for example)
   - a fill-in-the-blank quiz game (to figure out a computer password, for example)
 
-I recommend creating a function called specialRooms that redirects the player if they are in one of these locations:
+I recommend creating a function called checkIfSpecialRoom that redirects the player if they are in one of these locations:
 ```
-def specialRooms(location, roomArray, inventory, isQuizCompleted, isBossDead):
+def checkIfSpecialRoom(location, roomArray, inventory, isQuizCompleted, isBossDead):
   if location == 6 and isQuizCompleted == False:
     susansQuizGame()
   if location == 105 and isBossDead == False:
     adamsBossBattle()
   # NOTICE you unlock room 303 FROM room 304
   if location == 304:
+    if "gold key" in inventory:
+      print("You use the gold key to unlock the door.")
+      roomArray[303] = "The unlocked door leads into a small, dark hallway"
     if "gold key" not in inventory:
       print("The room to the north is locked. You need a key.")
       roomArray[303] = False
-    else:
-      print("You use to gold key to unlock the door.")
-      roomArray[303] = "The unlocked door leads into a small, dark hallway"
+
+
 
 ```
-Call the specialRooms function in the main function right after move. This way, as soon as you step into a special room it puts you into a mini-game.
+Call the checkIfSpecialRoom function in the main function right after move. This way, as soon as you step into a special room it puts you into a mini-game.
 
 You will be graded on the following requirements:
 
