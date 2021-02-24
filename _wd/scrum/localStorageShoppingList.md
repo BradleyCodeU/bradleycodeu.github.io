@@ -3,6 +3,17 @@ layout: project
 category: scrum
 title: localStorage Shopping List
 ---
+In this project, you will create an app that allows you to store a list of items for a long time. It's currently a Shopping List App, but I want you to change that and design it for your own purpose. For example...
+  - Video Game Collection App
+  - Favorite Pizza Places App
+  - Homework "To Do" List App
+  - Movies You Want To Watch App
+  - Favorite TV Shows App
+  - Chores List App
+  - Holiday Wishlist App
+
+Add an image and some CSS to style your app.
+
 Copy/paste the starter template below.
 ```
 <body onload="loadFromLocalStorage()">
