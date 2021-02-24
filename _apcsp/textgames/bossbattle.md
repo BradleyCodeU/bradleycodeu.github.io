@@ -89,3 +89,5 @@ Run the following tests:
 |`hitPlayer(5)`   |  returns 1-6 |
 |`whoWins(1,0)`   | says You Win  |
 |`whoWins(0,1)`   | says You Lose  |
+
+Finally, test the `main()` function and make sure that you can complete the game without any errors.
