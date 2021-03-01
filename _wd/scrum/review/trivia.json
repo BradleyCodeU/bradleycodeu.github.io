@@ -1,223 +1,65 @@
 [
-  {
-    "answer": "array",
-    "question": "an index-numbered list that can hold more than one value at a time"
-  },
-  {
-    "answer": "iteration",
-    "question": "the repetition of a sequence of instructions a specified number of times or until a condition is met"
-  },
-  {
-    "answer": "iterate through an array",
-    "question": "accessing each element of an array one by one"
-  },
-  {
-    "answer": "for each loop",
-    "question": "a control flow statement that allows you to access every item in an iterable collection (an array, a string, etc.) one at a time"
-  },
-  {
-    "answer": "input validation",
-    "question": "the testing of any data supplied to the app by a user, external file, or other external source."
-  },
-  {
-    "answer": "try/except",
-    "question": "defines a block of code to be tested for errors while it is being executed. Prevents the app from crashing due to errors in input or other unforeseeable things"
-  },
-  {
-    "answer": "conditional",
-    "question": "a control flow structure that performs different actions depending on whether a specific Boolean statement evaluates to true or false"
-  },
-  {
-    "answer": "function",
-    "question": "A set of instructions that performs a specific task separately from a main script and returns to the main script when it is complete. A block of named, reusable code that is used to perform a single, related action"
-  },
-  {
-    "answer": "pre-conditional loop",
-    "question": "a loop in which the condition is tested before the body is executed. The body of the while loop will NOT happen if this condition is false."
-  },
-  {
-    "answer": "post-conditional loop",
-    "question": "a loop in which the body is executed before the condition is ever tested. For example, in a 'do while' loop the body will ALWAYS run one or more times"
-  },
-  {
-    "answer": "pseudocode",
-    "question": "a human-readable description of what a computer program or algorithm will do. Usually written as comments."
-  },
-
-
-
-  {
-    "answer": "big data",
-    "question": "a broad term for datasets so large or complex that traditional data processing applications are inadequate"
-  },
-  {
-    "answer": "Moore's Law",
-    "question": "a prediction made by Gordon Moore in 1965 that computing power will double every 1.5-2 years, it has remained more or less true ever since"
-  },
-  {
-    "answer": "trend",
-    "question": "a line indicating the general course or tendency of some data, such as a set of points on a graph"
-  },
-  {
-    "answer": "data breach",
-    "question": "a security incident in which private information is accessed without authorization"
-  },
-  {
-    "answer": "Caesar cipher",
-    "question": "a technique for encryption that shifts the alphabet by some number of characters"
-  },
-  {
-    "answer": "cipher",
-    "question": "the generic term for a technique (or algorithm) that performs encryption"
-  },
-  {
-    "answer": "cracking encryption",
-    "question": "When you attempt to decode a secret message without knowing all the specifics of the cipher"
-  },
-  {
-    "answer": "decryption",
-    "question": "a process that reverses encryption, taking a secret message and reproducing the original plain text"
-  },
-  {
-    "answer": "encryption",
-    "question": "a process of encoding messages to keep them secret, so only 'authorized' parties can read it."
-  },
-  {
-    "answer": "random substitution cipher",
-    "question": "an encryption technique that maps each letter of the alphabet to a randomly chosen other letters of the alphabet."
-  },
-  {
-    "answer": "computationally hard",
-    "question": "a problem for a computer in which it cannot arrive at a solution in a reasonable amount of time"
-  },
-  {
-    "answer": "asymmetric encryption",
-    "question": "used in public key encryption, it is a scheme in which the key to encrypt data is different from the key to decrypt."
-  },
-  {
-    "answer": "modulo",
-    "question": "a mathematical operation that returns the remainder after integer division."
-  },
-  {
-    "answer": "private key",
-    "question": "In an asymmetric encryption scheme the decryption key is kept private and never shared, so only the intended recipient has the ability to decrypt a message that has been encrypted with a public key."
-  },
-  {
-    "answer": "public key encryption",
-    "question": "Used commonly on the web, it allows for secure messages to be sent between parties without having to agree on, or share, a secret key. It uses an asymmetric encryption scheme in which the encryption key is made public, but the decryption key is kept private."
-  },
-  {
-    "answer": "symmetric encryption",
-    "question": "an encryption scheme in which the key used to encrypt data is also used to decrypt"
-  },
-
-
-
-  {
-    "answer": "logical operators",
-    "question": "extra qualifications that can be added to a conditional. For example:  AND, OR, NOT"
-  },
-  {
-    "answer": "two-dimensional array",
-    "question": "an array of arrays"
-  },
-  {
-    "answer": "global variables",
-    "question": "variables created outside of a function that can be used inside of a function without being passed as arguments"
-  },
-  {
-    "answer": "runtime error",
-    "question": "an error that occurs when Python understands what you are saying, but runs into trouble while following your instructions. For example, division by zero or an error with user input"
-  },
-  {
-    "answer": "syntax error",
-    "question": "an error that occurs when Python can't understand what you are saying, because you've broken the rules of the language. For example, unexpected indent or cannot concatenate 'str' and 'int' objects"
-  },
-  {
-    "answer": "while loop",
-    "question": "a control flow structure that repeatedly executes its statements as long as the given pre-condition is true"
-  },
-  {
-    "answer": "nested conditionals",
-    "question": "an If Statement inside another If Statement"
-  },
-  {
-    "answer": "dictionary",
-    "question": "a collection of key and value pairs"
-  },
-  {
-    "answer": "object",
-    "question": "a collection of instance variables (data) and methods (getters/setters) that act on those instance variables"
-  },
-
-
-
-  {
-    "answer": "bit",
-    "question": "a column in the binary counting system with either a zero or a one. A Binary Digit."
-  },
-  {
-    "answer": "byte",
-    "question": "a unit of data that is made up of eight binary digits"
-  },
-  {
-    "answer": "kilobyte",
-    "question": "a unit of data that is made up of roughly one thousand (1,000) bytes"
-  },
-  {
-    "answer": "megabyte",
-    "question": "a unit of data that is made up of roughly one million (1,000,000) bytes"
-  },
-  {
-    "answer": "gigabyte",
-    "question": "a unit of data that is made up of roughly one billion (1,000,000,000) bytes"
-  },
-  {
-    "answer": "lossy compression",
-    "question": "an irreversible data reducing algorithm that uses inexact approximations, discarding some data to represent the content. Most commonly seen in image formats like jpg"
-  },
-  {
-    "answer": "lossless compression",
-    "question": "a data reducing algorithm that allows the original data to be perfectly reconstructed from the compressed data."
-  },
-  {
-    "answer": "heuristic",
-    "question": "a problem solving approach (algorithm) to find a satisfactory solution where finding an optimal or exact solution is impractical or impossible."
-  },
-  {
-    "answer": "Huffman coding",
-    "question": "a lossless compression algorithm that involves sorting characters from a set in order of their frequency."
-  },
-  {
-    "answer": "metadata",
-    "question": "data that describes other data. For example, a digital image may include data that describes the size of the image, number of colors, or resolution."
-  },
-  {
-    "answer": "raster",
-    "question": "an image made of a grid of pixels, also known as a bitmap image"
-  },
-  {
-    "answer": "bitmap",
-    "question": "an image made of a grid of pixels, also known as a raster image"
-  },
-  {
-    "answer": "pixel",
-    "question": "short for 'picture element', the fundamental unit of a digital image, typically a tiny square or dot that contains a single point of color of a larger image."
-  },
-  {
-    "answer": "hexadecimal",
-    "question": "A base-16 number system that uses sixteen distinct symbols 0-9 and A-F to represent numbers from 0 to 15"
-  },
-  {
-    "answer": "RGB",
-    "question": "a color model in which varying intensities of red, green, and blue light are added together in to reproduce a broad array of colors."
-  },
-  {
-    "answer": "image resolution",
-    "question": "the number of pixels in an image"
-  },
-  {
-    "answer": "bit depth",
-    "question": "the number of bits used to represent each pixel in an image. A measure of how many colors an image can store. For example, an 8-bit RGB image will actually have a total of 24-bits per pixel (8 for red, 8 for green, and 8 for blue)"
-  }
+{
+"answer": "Waterfall model","question": "__________ is a development method that is linear and sequential. It includes requirements, design, implementation, verification/testing, and maintenance."
+},
+{
+"answer": "Requirements","question": "__________ is the phase where the Project Manager tries to get a detailed understanding of the user's needs"
+},
+{
+"answer": "Design","question": "__________ is the phase where analysts use the information collected to plan the product in pseudocode, independent of any hardware or software system"
+},
+{
+"answer": "Implementation","question": "__________ is the phase where code is written using user's needs and the plan specifications"
+},
+{
+"answer": "Verification/Testing","question": "__________ is the phase where the product is checked for defects and usability and to see if it meets the users' needs. A closed beta, for example."
+},
+{
+"answer": "Maintenance","question": "__________ is the phase where the customer is using the developed application. Changes are made as problems are found or as users create additional needs"
+},
+{
+"answer": "Agile","question": "__________ is an approach to development where requirements and solutions evolve through iteration and collaboration"
+},
+{
+"answer": "The Agile Manifesto","question": "__________ is a formal proclamation of 4 key values and 12 principles to guide an iterative and people-centric approach to software development"
+},
+{
+"answer": "Individuals and interactions","question": "__________ over processes and tools"
+},
+{
+"answer": "Working software","question": "__________ over comprehensive documentation"
+},
+{
+"answer": "Customer collaboration","question": "__________ over contract negotiation"
+},
+{
+"answer": "Responding to change","question": "__________ over following a plan"
+},
+{
+"answer": "Scrum","question": "__________ is a project-management and organization system built on Agile"
+},
+{
+"answer": "Scrum Master","question": "__________ is the role within a team accountable for guiding, coaching, teaching and assisting a team with a proper understanding and use of the project-management system"
+},
+{
+"answer": "Scrum Board","question": "__________ is a grid used to visualize information such as tasks that are either to do, busy, or done"
+},
+{
+"answer": "Sprint","question": "__________ is a deadline of 30 days or less that serves as a short-term goal and is immediately followed by another deadline and short-term goal"
+},
+{
+"answer": "Daily Scrum","question": "__________ is a stand-up meeting of 15 minutes or less for the Development Team to re-plan the next day of development work. Updates are reflected in the Backlog"
+},
+{
+"answer": "Burn-down Chart","question": "__________ is a grid used to show project progress by graphing the work remaining versus time"
+},
+{
+"answer": "Product Backlog","question": "__________ is a list of features and tasks the team will work on for the entire project"
+},
+{
+"answer": "Sprint Backlog","question": "__________ is a list of features and tasks pulled from the product backlog for the current sprint"
+},
+{
+"answer": "Retrospective","question": "__________ is a meeting held at the end of a sprint in which the team discusses what succeeded and what could be improved"
+}
 ]
