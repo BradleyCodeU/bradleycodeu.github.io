@@ -41,12 +41,11 @@ Update the main() function in 3 places...
 
 In this version you will add "special rooms" which can be locked/unlocked, have battles, or other mini-games.
 
-One special room can be a locked room. They are unlocked if the player has the key. Locked rooms are set to false at first, but if you are standing next to them and have a key, then the room gets a description. Look at the example below.
-
-Add 3 or 4 mini-games (1 per person in your group). A mini-game could be:
+Add 3 or 4 special rooms (1 per person in your group). Could be:
   - a battle with an enemy
   - a high-low number guessing game (to open a combination lock, for example)
   - a fill-in-the-blank quiz game (to figure out a computer password, for example)
+  - a locked room that is unlocked if the player has the key. Locked rooms are set to false at first, but if you are standing next to them and have a key, then the room gets a description. Look at the example below.
 
 I recommend creating a function called checkIfSpecialRoom that redirects the player if they are in one of these locations:
 ```
