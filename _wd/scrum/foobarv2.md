@@ -74,7 +74,13 @@ Create a function named takeItem().
 
 Add a SAVE button. Define a function named saveGame() that saves all of the variables into localStorage
 
-Add a LOAD button. Define a function named loadGame() that loads all of the variables from localStorage. Don't forget that everything is saved as a string in localStorage! Use [parseInt()](https://www.w3schools.com/jsref/jsref_parseint.asp) or JSON.parse() to convert string to number. Use the [.split(",") method](https://www.w3schools.com/jsref/jsref_split.asp) to convert string to array.
+Add a LOAD button. Define a function named loadGame() that loads all of the variables from localStorage. Don't forget that everything is saved as a string in localStorage! Use [parseInt()](https://www.w3schools.com/jsref/jsref_parseint.asp) or JSON.parse() to convert string to number.
+
+You can use the [.split(",") method](https://www.w3schools.com/jsref/jsref_split.asp) to convert string to array. When your roomArray is retrieved from localStorage it will be messed up... Before: [null,null,null] After: ["","",""]
+
+We can fix it by looping through roomArray and if roomArray[i] is length 0, then set it to null. Do the same for the itemArray.
+
+
 
 ## Full List of Requirements
 
