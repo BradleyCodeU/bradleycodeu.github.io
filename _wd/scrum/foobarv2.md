@@ -72,8 +72,6 @@ Create a function named takeItem().
 
 ## Save and Load Buttons
 
-Add a SAVE button. Define a function named saveGame() that saves all of the variables into localStorage
-
 ! ! ! IMPORTANT ! ! ! In order to correctly save and retrieve an array to localStorage you MUST use JSON.stringify() when you save the array and then JSON.parse() when you load it. For example...
 
 ```
@@ -84,7 +82,21 @@ localStorage.savedCities = JSON.stringify(cities);
 cities = JSON.parse(localStorage.savedCities);
 ```
 
+Add a SAVE button. Define a function named saveGame() that saves all of the variables into localStorage.
+
+You can save mappy.mappedRooms in order to store the array of rooms the player has seen. Like this...
+```
+localStorage.mappedRooms = JSON.stringify(mappy.mappedRooms);
+```
+
+
+
 Add a LOAD button. Define a function named loadGame() that loads all of the variables from localStorage. Don't forget that everything is saved as a string in localStorage! Use [parseInt()](https://www.w3schools.com/jsref/jsref_parseint.asp) or JSON.parse() to convert from string back to number or array.
+
+You can load the array of rooms the player has seen like this...
+```
+mappy.mappedRooms = JSON.parse(localStorage.mappedRooms);
+```
 
 ## Full List of Requirements
 
