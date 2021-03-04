@@ -41,7 +41,7 @@ Update the main() function in 3 places...
 
 In this version you will add "special rooms" which can be locked/unlocked, have battles, or other mini-games.
 
-Add 3 or 4 special rooms (1 per person in your group). Could be:
+Add 2 special rooms. Could be:
   - a battle with an enemy
   - a high-low number guessing game (to open a combination lock, for example)
   - a fill-in-the-blank quiz game (to figure out a computer password, for example)
@@ -62,9 +62,11 @@ def checkIfSpecialRoom(location, roomArray, inventory, isQuizCompleted, isBossDe
 
   if location == 406 and isQuizCompleted == False:
     susansQuizGame()
+    isQuizCompleted = True
 
   if location == 505 and isBossDead == False:
     adamsBossBattle()
+    isBossDead = True
 
 
 
