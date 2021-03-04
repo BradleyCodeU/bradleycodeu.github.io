@@ -41,7 +41,7 @@ Update the main() function in 3 places...
 
 In this version you will add "special rooms" which can be locked/unlocked, have battles, or other mini-games.
 
-Add 2 special rooms. Could be:
+Add 1 or more special rooms. Could be:
   - a battle with an enemy
   - a high-low number guessing game (to open a combination lock, for example)
   - a fill-in-the-blank quiz game (to figure out a computer password, for example)
