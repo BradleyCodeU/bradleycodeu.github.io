@@ -4,7 +4,7 @@ category: objects
 title: Chatbots
 permalink: /apcsp/objects/chatbots/
 ---
-Read this w3schools tutorial about [Python dictionaries](https://www.w3schools.com/python/python_dictionaries.asp). Notice that dictionary items are presented in key/value pairs.
+Read this w3schools tutorial about [Python dictionaries](https://www.w3schools.com/python/python_dictionaries.asp). Notice that dictionary items are presented in key/value pairs. Here is also a [realpython.com tutorial](https://realpython.com/python-dicts/)
 
 For this assignment you will create two or more chatbots that respond to keywords. Each chatbot will be a separate dictionary. Each keyword is a key in the dictionary. Each value is the chatbot's response to the keyword.
 
