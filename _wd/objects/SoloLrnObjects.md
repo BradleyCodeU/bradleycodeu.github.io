@@ -3,7 +3,7 @@ layout: project
 category: objects
 title: SoloLrn JS Objects
 ---
-Go to [https://www.sololearn.com/Play/JavaScript/](https://www.sololearn.com/Play/JavaScript/)
+Go to [https://www.sololearn.com/learning/1024](https://www.sololearn.com/learning/1024)
 
 Complete BOTH Module 5: Objects and Module 6: Core Objects
 
