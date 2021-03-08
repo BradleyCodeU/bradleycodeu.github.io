@@ -26,20 +26,20 @@ def printGameTitle():
 
 
 # create a function makeEnemy that will return an enemy dictionary
-# there are 3 arguments: _name, _power, _health
+# there are 3 arguments: name, power, health
 # I have completed the first half of the function for you.
 # You need to:
 # - Make an array with FIVE or more attacks that the enemy could use
 # - Set the enemyWeakness to a randint between 2 & 4
 # - return the enemy dictionary
-def makeEnemy(_name, _power, _health):
+def makeEnemy(name, power, health):
     # Create an enemy "dictionary" object
     enemy = {}
-    # Give the dictionary a "name" key/value using argument _name
-    enemy["name"] = _name
-    # Give the dictionary a "power" key/value using argument _power
-    enemy["power"] = _power
-    # Give the dictionary a "health" key/value using argument _health
+    # Give the dictionary a "name" key/value using argument name
+    enemy["name"] = name
+    # Give the dictionary a "power" key/value using argument power
+    enemy["power"] = power
+    # Give the dictionary a "health" key/value using argument health
 
     # Make an array with FIVE or more attacks that the enemy could use
     # Example: enemy["attacks"] = ["Sneak Attack", "Super Kick", ??? ]
