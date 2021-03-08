@@ -20,6 +20,6 @@ REQUIREMENTS:
   - Create a main() function that will...
     - Ask the player who they want to chat with. For example, "Who would you like to chat with? 1 = amandaBot 2 = Thomas Edison 3 = Pac-Man"
     - Collect the player input
-    - Based on the player input, call the talkTo() function and pass the variable name of the chatbot as an argument. For example, talkTo(amandaBot)
+    - Based on the player input, call the talkTo() function and pass the variable name of the dictionary as an argument. For example, talkTo(amandaBot)
 
 Copy/paste the starter code from the [starter template](https://repl.it/@JustinRiley1/Chatbot-starter-template). Type talkTo(dan) in the console to see the demo.
