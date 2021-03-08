@@ -1,7 +1,7 @@
 ---
 layout: project
-category: textgames
-title: Text Games Castles And Creatures
+category: objects
+title: Castles And Creatures
 ---
 Concepts: dictionary
 
@@ -9,7 +9,7 @@ Read this w3schools tutorial about [Python dictionaries](https://www.w3schools.c
 
 Demo video here: [https://drive.google.com/open?id=1JlEKlaDlWA8AcpCWbkH0wlF7noETYy8T](https://drive.google.com/open?id=1JlEKlaDlWA8AcpCWbkH0wlF7noETYy8T)
 
-Download this starter file: [castlesAndCreaturesTemplate.py](/apcsp/textgames/castlesAndCreaturesTemplate.py)
+Download this starter file: [castlesAndCreaturesTemplate.py](/apcsp/objects/castlesAndCreaturesTemplate.py)
 
 Write a program to play a simple adventure-style interactive game. Come up with a unique name and story for your game. The game consists of 3 or more castles. Each castle has a treasure and a creature guarding the treasure. The object of the game is to survive all 3 castles and gain as many treasures as possible.
 

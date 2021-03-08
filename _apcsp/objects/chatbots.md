@@ -1,8 +1,8 @@
 ---
 layout: project
-category: textgames
+category: objects
 title: Chatbots
-permalink: /apcsp/textgames/chatbots/
+permalink: /apcsp/objects/chatbots/
 ---
 Read this w3schools tutorial about [Python dictionaries](https://www.w3schools.com/python/python_dictionaries.asp). Notice that dictionary items are presented in key/value pairs.
 
@@ -10,12 +10,16 @@ For this assignment you will create two or more chatbots that respond to keyword
 
 For example, you might add the keyword "game" by creating the follow key/value pair:
 ```
-'game':'My favorite game is Fetch.',
+'game':'My favorite game is Foobar The Bazbarian.',
 ```
 
 REQUIREMENTS:
   - Either...
     - Create two dictionary-based chatbots with 12 key/value pairs each
     - Create three dictionary-based chatbots with 8 key/value pairs each
+  - Create a main() function that will...
+    - Ask the player who they want to chat with. For example, "Who would you like to chat with? 1 = amandaBot 2 = bobBot 3 = cindyBot"
+    - Collect the player input
+    - Call the talkTo() function and pass the variable name of the chatbot as an argument. For eaxample, talkTo(amandaBot)
 
 Copy/paste the starter code from the [starter template](https://repl.it/@JustinRiley1/Chatbot-starter-template). Type talkTo(dan) in the console to see the demo.

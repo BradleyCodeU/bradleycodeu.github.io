@@ -350,13 +350,13 @@ Code.org Unit 1, Chapter 2: Inventing the Internet, [https://studio.code.org/s/c
 
 Projects:
 
-1. Team - [Sprint1](/apcsp/scrum/scrumsprint1/)
+1. Team- [Sprint1](/apcsp/scrum/scrumsprint1/)
 
-1. Team - [Sprint2](/apcsp/scrum/scrumsprint2/)
+1. Team- [Sprint2](/apcsp/scrum/scrumsprint2/)
 
-1. Team - [Sprint3](/apcsp/scrum/scrumsprint3/)
+1. Team- [Sprint3](/apcsp/scrum/scrumsprint3/)
 
-1. Team - [Sprint4](/apcsp/scrum/scrumsprint4/)
+1. Team- [Sprint4](/apcsp/scrum/scrumsprint4/)
 
 "
 - title: console
@@ -450,6 +450,8 @@ Code.org Unit 4: Big Data and Privacy, [https://studio.code.org/s/csp4-2018](htt
 
   1. [Digital Info](#digitalinfo) - *1 wk*
 
+  1. [Objects](#objects) - *2wks*
+
   1. [Turtle Games](#turtlegames) - *2wks*
 
   1. [Tk](#tk) - *2 wks*
@@ -492,11 +494,7 @@ Projects:
 
   1. Pair- [BossBattle](/apcsp/textgames/bossBattle/)
 
-  1. [Chatbots](/apcsp/textgames/chatbots/)
-
   1. [HighLowWord](/apcsp/textgames/highLowWord/)
-
-  1. Pair- [Castles](/apcsp/textgames/033TextGamesCastlesAndCreatures/)
 
   1. [CaesarCipher](/apcsp/textgames/caesarCipher/)
 
@@ -519,15 +517,28 @@ Projects:
 
 Projects:
 
-  1. Team - [Foobar v1](/apcsp/digitalinfo/037TextgamesFoobarv1/)
+  1. Team- [Foobar v1](/apcsp/digitalinfo/037TextgamesFoobarv1/)
 
-  1. Team - [Foobar v2](/apcsp/digitalinfo/038TextgamesFoobarv2/)
+  1. Team- [Foobar v2](/apcsp/digitalinfo/038TextgamesFoobarv2/)
 
-  1. Team - [Foobar v3](/apcsp/digitalinfo/foobarv3/)
+  1. Team- [Foobar v3](/apcsp/digitalinfo/foobarv3/)
 
   1. [RGB Pixels](/apcsp/digitalinfo/rgbPixels/)
 
 "
+
+- title: objects
+  heading: "# Objects"
+  content: "
+
+Projects:
+
+  1. [Chatbots](/apcsp/objects/chatbots/)
+
+  1. Pair- [Castles](/apcsp/objects/033TextGamesCastlesAndCreatures/)
+
+"
+
 - title: turtlegames
   heading: "# TurtleGames"
   content: "
