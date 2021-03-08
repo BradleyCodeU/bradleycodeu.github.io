@@ -18,7 +18,7 @@ REQUIREMENTS:
     - Create two dictionary-based chatbots with 12 key/value pairs each
     - Create three dictionary-based chatbots with 8 key/value pairs each
   - Create a main() function that will...
-    - Ask the player who they want to chat with. For example, "Who would you like to chat with? 1 = amandaBot 2 = Thomas Edison 3 = Pac-Man"
+    - Ask the player who they want to chat with. For example, "Who would you like to chat with? 1 = amandaBot 2 = Thomas Edison 3 = Pac-Man" 
     - Collect the player input
     - Based on the player input, call the talkTo() function and pass the variable name of the dictionary as an argument. For example, talkTo(amandaBot)
 
