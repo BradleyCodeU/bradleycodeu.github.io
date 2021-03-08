@@ -4,7 +4,7 @@ import time
 
 
 # create a function called printGameTitle that prints a fancy title
-# replace the example text with the fance title
+# replace the example text with the fancy title
 # print "created by Your Name"
 # Return nothing
 # Visit http://patorjk.com/software/taag/ to getfancy ASCII art title
@@ -30,7 +30,7 @@ def printGameTitle():
 # I have completed the first half of the function for you.
 # You need to:
 # - Make an array with FIVE or more attacks that the enemy could use
-# - Set the enemyWeakness to a random integer number between 2 & 4
+# - Set the enemyWeakness to a randint between 2 & 4
 # - return the enemy dictionary
 def makeEnemy(_name, _power, _health):
     # Create an enemy "dictionary" object
@@ -44,7 +44,7 @@ def makeEnemy(_name, _power, _health):
     # Make an array with FIVE or more attacks that the enemy could use
     # Example: enemy["attacks"] = ["Sneak Attack", "Super Kick", ??? ]
 
-    # Set the enemyWeakness to a random integer number between 2 & 4
+    # Set the enemyWeakness to a randint between 2 & 4
     # Example: enemy["weakness"] = ???
 
     return enemy
