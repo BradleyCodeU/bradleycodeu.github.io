@@ -30,8 +30,8 @@ Your new subclass must contain a minimum of the following:
 - 2 constructors
 - override the toString method
 - 2 new instance variables
-- 2 accesser methods
-- 2 mutator methods
+- 2 new accesser methods
+- 2 new mutator methods
 
 Your DogTester class MUST test EVERY constructor and EVERY method in both the superclass and the subclass. The DogTester must also use printf for all output. For example:
 
@@ -40,6 +40,10 @@ toString:           Bella, Beagle, service dog, trained by Justin Riley
 getBreed:           Beagle
 getName:            Bella
 getTrainerName:     Justin Riley
+newGetter2:         foo
+After newSetter1 and newSetter2...
+getTrainerName:     Bill Williams
+newGetter2:         bar
 ```
 
 Turn in your DogTester, Dog, and new subclass java files.
