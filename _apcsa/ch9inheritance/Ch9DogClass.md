@@ -40,10 +40,10 @@ toString:           Bella, Beagle, service dog, trained by Justin Riley
 getBreed:           Beagle
 getName:            Bella
 getTrainerName:     Justin Riley
-newGetter2:         foo
-After newSetter1 and newSetter2...
+getter2:            1
+After setter1 and setter2...
 getTrainerName:     Bill Williams
-newGetter2:         bar
+getter2:            2
 ```
 
 Turn in your DogTester, Dog, and new subclass java files.
