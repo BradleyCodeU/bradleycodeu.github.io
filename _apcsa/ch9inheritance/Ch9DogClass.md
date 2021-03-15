@@ -1,6 +1,6 @@
 ---
 layout: project
-category: ch8designingclasses
+category: ch9inheritance
 title: Dog Class
 ---
 
