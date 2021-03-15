@@ -4,6 +4,8 @@ category: objects
 title: JS Chatbot
 ---
 
+Read this tutorial about [Javascript objects](https://www.w3schools.com/js/js_objects.asp)
+
 Create a chatbot character that MUST HAVE 12 or more key/value pairs. For this project, the keys are all "keywords" and the values are the "response."
 
 ```
