@@ -5,8 +5,8 @@ import sys
 
 dan = {
   'name': 'Cowboy Dan',
-  'want': 'I want to find my missing hat',
-  'trade': 'I\'ll trade you a pair of boots',
+  'want': 'I wanna find my missin\' hat',
+  'trade': 'I\'ll trade ya this here pair of boots',
   'hello': 'Howdy there',
   'bye': 'See ya later',
   'default': 'Hot enough for ya?',
