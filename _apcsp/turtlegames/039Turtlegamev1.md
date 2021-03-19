@@ -8,10 +8,10 @@ title: Turtle Game v1
 Using [Trinket.io](https://trinket.io/) or [Repl.it](https://repl.it/) you will create a simple game using turtle objects.
 
 Read these first:
-- [Naming a Turtle object](https://justin_riley_hilliardschools_org.trinket.io/apcsp#/multiple-turtles/naming-a-turtle-object/)
-- [Tina and Tommy's colors](https://justin_riley_hilliardschools_org.trinket.io/apcsp#/multiple-turtles/tina-and-tommys-colors/) (Notice how you can name a turtle and give that specific turtle commands?)
-- [Name the Screen object](https://justin_riley_hilliardschools_org.trinket.io/apcsp#/multiple-turtles/name-the-screen-object/)
-- [Controlling Tina](https://justin_riley_hilliardschools_org.trinket.io/apcsp#/multiple-turtles/controlling-tina/)
+- [Naming a Turtle object](https://bradleycodeu.github.io/apcsp/turtlegames/multipleTurtles01-naming-a-turtle-object/)
+- [Tina and Tommy's colors](https://bradleycodeu.github.io/apcsp/turtlegames/multipleTurtles02-tina-and-tommys-colors/) (Notice how you can name a turtle and give that specific turtle commands?)
+- [Name the Screen object](https://bradleycodeu.github.io/apcsp/turtlegames/multipleTurtles03-name-the-screen-object/)
+- [Controlling Tina](https://bradleycodeu.github.io/apcsp/turtlegames/multipleTurtles04-controlling-tina/)
 - [How to make Python games with Trinket](https://blog.trinket.io/python-games/)
 
 **BEFORE THE GAME LOOP:**
