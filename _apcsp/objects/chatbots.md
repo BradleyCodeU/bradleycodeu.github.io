@@ -14,12 +14,10 @@ For example, you might add the keyword "game" by creating the follow key/value p
 ```
 
 REQUIREMENTS:
-  - Either...
-    - Create two dictionary-based chatbots with 12 key/value pairs each
-    - Create three dictionary-based chatbots with 8 key/value pairs each
+  - Create 2 dictionary-based chatbots with 8 key/value pairs each (if you are working with a partner then create 4 chatbots)
   - Create a main() function that will...
-    - Ask the player who they want to chat with. For example, "Who would you like to chat with? 1 = amandaBot 2 = Thomas Edison 3 = Pac-Man" 
-    - Collect the player input
-    - Based on the player input, call the talkTo() function and pass the variable name of the dictionary as an argument. For example, talkTo(amandaBot)
+    - Ask the player who they want to chat with. For example, "Who would you like to chat with? 0 = amandaBot 1 = Thomas Edison 2 = Pac-Man 3 = Pirate Ghost"
+    - Collect the player input and check if it is a valid integer. Use try-except so that it doesn't crash.
+    - Based on the player input, call the talkTo() function and pass the variable name of the dictionary as an argument. For example, talkTo(amandaBot) or maybe talkTo(myArray[userinput])
 
 Copy/paste the starter code from the [starter template](https://repl.it/@JustinRiley1/Chatbot-starter-template). Type talkTo(dan) in the console to see the demo.
