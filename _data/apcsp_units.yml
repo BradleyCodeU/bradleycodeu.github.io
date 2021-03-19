@@ -531,6 +531,19 @@ Projects:
   heading: "# Objects"
   content: "
 
+
+  - [Array Review](https://bradleycodeu.github.io/apcsp/tk/dictionaries01-array-review/)
+
+  - [Key Value Pairs](https://bradleycodeu.github.io/apcsp/tk/dictionaries02-key-value-pairs/)
+
+  - [Looping Thru A Dictionary](https://bradleycodeu.github.io/apcsp/tk/dictionaries03-looping-through-a-dictionary/)
+
+  - [Check If Key Exists](https://bradleycodeu.github.io/apcsp/tk/dictionaries04-check-if-key-exists/)
+
+  - [Dictionary Length](https://bradleycodeu.github.io/apcsp/tk/dictionaries05-dictionary-length/)
+
+
+
 Projects:
 
   1. [Chatbots](/apcsp/objects/chatbots/)
@@ -546,7 +559,15 @@ Projects:
 
 
 
+  - [Naming a Turtle object](https://bradleycodeu.github.io/apcsp/turtlegames/multipleTurtles01-naming-a-turtle-object/)
 
+  - [Tina and Tommy's colors](https://bradleycodeu.github.io/apcsp/turtlegames/multipleTurtles02-tina-and-tommys-colors/)
+
+  - [Name the Screen object](https://bradleycodeu.github.io/apcsp/turtlegames/multipleTurtles03-name-the-screen-object/)
+
+  - [Controlling Tina](https://bradleycodeu.github.io/apcsp/turtlegames/multipleTurtles04-controlling-tina/)
+
+  - [How to make Python games with Trinket](https://blog.trinket.io/python-games/)
 
   - [Screencast Instructions for OBS](/apcsp/scrum/screencastobs)
 
