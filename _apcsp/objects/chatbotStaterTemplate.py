@@ -10,6 +10,8 @@ dan = {
   'hello': 'Howdy there',
   'bye': 'See ya later',
   'default': 'Hot enough for ya?',
+  # Here are 6 example key/value pairs
+  # Your chatbots must each have 8 key/value pairs
 }
 
 def typewriter(text):
