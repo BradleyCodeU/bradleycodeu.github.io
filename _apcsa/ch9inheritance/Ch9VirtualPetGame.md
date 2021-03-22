@@ -34,7 +34,7 @@ while True
   print score
   if score is greater than 100 then print you win and break the loop
   if score is less than 0 then print game over and break the loop
-  prompt select a pet # 0,1, or 2
+  prompt select a pet # 0, 1, 2, or 3
   collect and validate input (repeat prompt if not an int)
   print a line like this . . . . . . . . . . . .
   print pets[user input pet #]
