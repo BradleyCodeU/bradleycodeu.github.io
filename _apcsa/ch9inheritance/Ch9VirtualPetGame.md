@@ -13,7 +13,7 @@ Create a Main class that will contain the game.
 Create a static method called updateScore. Returns int score. Requires two arguments: int score, Pet[ ] pets
 ```
 for each in pets
-if each is happy, then score plus 1, else score minus 1
+    - if each is happy, then score plus 1, else score minus 1
 if all pets are happy, then add 1 bonus point to the score
 return the score
 ```
