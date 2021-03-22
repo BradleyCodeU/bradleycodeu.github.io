@@ -10,7 +10,7 @@ Create an [abstract](https://www.w3schools.com/java/java_abstract.asp) Pet class
 
 Create a Main class that will contain the game.
 
-Create a static method called updateScore. Returns int score. Requires two arguments: int score, Pet[] pets
+Create a static method called updateScore. Returns int score. Requires two arguments: int score, Pet[ ] pets
 ```
 for each in pets
 if each is happy, then score plus 1, else score minus 1
@@ -40,6 +40,6 @@ while True
   print pets[user input pet #]
   print pets[user input pet #] get list of actions
   prompt type one of the listed actions (MUST not be numbered!)
-  collect input (accept all inputs this time. even gibberish like “lkjsdf”)
+  collect input (accept all inputs even gibberish like “lkjsdf”)
   pets[user input pet #] do action (user input action string)
 ```
