@@ -27,9 +27,10 @@ add 4 different types of pet to the array (Puppy + 3 others)
 print Your Name's Virtual Pet Game
 while True
   print a line like this = = = = = = = = = = = = = = = = = = = =
-  for each in pets
-      - each add one hour
-      - print each
+  for-i loop that repeats length of pets times
+      - add one hour to each pet
+      - print i + ": "
+      - print each pet
   call the static updateScore method
   print score
   if score is greater than 100 then print you win and break the loop
