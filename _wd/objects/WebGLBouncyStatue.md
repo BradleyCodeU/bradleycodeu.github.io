@@ -4,9 +4,6 @@ category: objects
 title: WebGL Bouncy Statue
 ---
 
-[18.1- Introduction to WebGL in p5.js - WebGL and p5.js Tutorial](https://drive.google.com/file/d/1WOh8psD1gwwdvk2ezslVElMtPy14pS9Q/view)
-You can skim through this video
-
 [Here is link](https://p5js.org/reference/#group-Shape) to the p5js reference. According to the reference there are currently seven built-in 3D shapes.
 
 3D Primitives
@@ -20,15 +17,23 @@ You can skim through this video
 
 
 [18.2- 3D Geometries - WebGL and p5.js Tutorial](https://drive.google.com/file/d/1cAs0quH319dZSLfusYtZy3M8CGJvFaMo/view)
-Watch this video more carefully.
+Watch this video.
 
-
+More p5 WebGL tutorials:
+- [Material](https://drive.google.com/file/d/16UKcmgDp5Ewjpj5K4vd_aUnDvu2iqzIZ/view?usp=sharing)
+- [Lights](https://drive.google.com/file/d/1HGu-eYqTfXFqa7zGCi-DYyIZ0iAW2dx7/view?usp=sharing)
+- [Texture](https://drive.google.com/file/d/1VG-7BdMElNZ4aEx8RReTRXwj7ZV77zga/view?usp=sharing)
+- [Camera and Perspective](https://drive.google.com/file/d/1vdc6z1GFIi0BxP0CVbkmt9V_pLaVNyht/view?usp=sharing)
 
 ## Project Directions
 
 [Click here](https://glitch.com/edit/#!/remix/gameobject) to remix the starter project.
 
-In the starter project, the player is at the origin (0,0,0) and the floor is drawn for the first quadrant. Each floor tile is 100px-by-100px. Don't forget that the y-axis is the vertical axis and it is inverted. It's annoying, but the y-axis is often inverted in computer science.
+In the starter project, the player is at the origin (0,0,0) and the floor is drawn for the first quadrant. If you want to hide the player for this project, then just delete the script.js line that says ```player.show()```
+
+Each floor tile is 100px-by-100px. Don't forget that the y-axis is the vertical axis <strike>and it is inverted. It's annoying, but the y-axis is often inverted in computer science.</strike>
+
+
 
 Your goal is to use the p5js 3D Geometries to create a statue (person, animal, car, etc) using:
 
