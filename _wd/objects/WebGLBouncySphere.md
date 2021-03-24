@@ -22,13 +22,17 @@ Watch this video
 [18.2- 3D Geometries - WebGL and p5.js Tutorial](https://drive.google.com/file/d/1cAs0quH319dZSLfusYtZy3M8CGJvFaMo/view)
 Watch this video.
 
-
+More p5 WebGL tutorials:
+- [Material](https://drive.google.com/file/d/16UKcmgDp5Ewjpj5K4vd_aUnDvu2iqzIZ/view?usp=sharing)
+- [Lights](https://drive.google.com/file/d/1HGu-eYqTfXFqa7zGCi-DYyIZ0iAW2dx7/view?usp=sharing)
+- [Texture](https://drive.google.com/file/d/1VG-7BdMElNZ4aEx8RReTRXwj7ZV77zga/view?usp=sharing)
+- [Camera and Perspective](https://drive.google.com/file/d/1vdc6z1GFIi0BxP0CVbkmt9V_pLaVNyht/view?usp=sharing)
 
 ## Project Directions
 
 [Click here](https://glitch.com/edit/#!/remix/gameobject) to remix the starter project.
 
-In the starter project, the "player" is at the origin (0,0,0) and the floor is drawn for the first quadrant. Each floor tile is 100px-by-100px. Don't forget that the y-axis is the vertical axis and it is inverted. It's annoying, but the y-axis is often inverted in computer science.
+In the starter project, the "player" is at the origin (0,0,0) and the floor is drawn for the first quadrant. Each floor tile is 100px-by-100px. Don't forget that the y-axis is the vertical axis <strike>and it is inverted. It's annoying, but the y-axis is often inverted in computer science.</strike>
 
 Your goal is to use the p5js 3D Geometries to create a sphere and make it bounce off the "walls." The lowest x-coordinate is 0 and the largest x-coordinate is 1000. The lowest z-coordinate is 0 and the largest z-coordinate is 1000.
 
