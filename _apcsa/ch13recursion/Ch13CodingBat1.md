@@ -24,8 +24,10 @@ Here is the recursion lesson for Ch13CodingBat1 project: [https://www.youtube.co
 Complete the following basic recursion (Java Recursion-1) problems:
 
 1. triangle (completed as a class)
-2. sumDigits
-3. count7
+2. sumDigits (on your own)
+3. count7 (on your own)
 
 
 Show Mr. Riley your CodingBat "Done Page" when complete
+
+![Cartoon about recursion](/apcsa\ch13recursion\recursionUnderMyBed.jpg)
