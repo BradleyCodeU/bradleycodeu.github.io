@@ -20,8 +20,8 @@ Complete the following basic recursion (Java Recursion-1) problems:
 
 1. count8 (completed as a class)
 2. powerN (completed as a class)
-3. countX
-4. countHi
+3. countX (on your own)
+4. countHi (on your own)
 
 
 Show Mr. Riley your CodingBat "Done Page" when complete
