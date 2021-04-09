@@ -22,7 +22,7 @@ Your goal is to create one of the following:
 
 MUST be made of 3 or more total shapes/geometries. I expect it to look very basic (N64-style), but don't just turn in a box.
 
-MUST use 1 or more textures.
+MUST use 2 or more textures.
 
 
 Tutorial videos are [here](https://drive.google.com/open?id=104JGFnCCfeQJa5dEkm0Tyrj25R7mVwEM)
