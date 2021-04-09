@@ -15,7 +15,7 @@ Tutorial videos:
 
 Turn your single Tree/Shrub/Fence/Boulder/etc into a class.
 
-Make a show() method that contains the directions for drawing a 3D tree.
+Make a show() method that contains the directions for drawing a 3D tree. At the beginning of the show() method, translate to the correct x, y, z location for "this" object.
 
 Once your Tree class is finished:
 
