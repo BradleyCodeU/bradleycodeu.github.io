@@ -25,12 +25,11 @@ Select 3 from...
 Each pet MUST have...
 - a String name
 - a String picture (in ASCII art).
-- a String[] actions (for example, "feed", "give water", etc)
+- a String[] actions (for example, "feed", "walk", etc)
 
 Next, select attributes from the following list. Pick ones that make sense for the pet. We will store these stats as double and set the initial values to be 50. Pick 4 for your Puppy class and pick 3 for you other classes.
 
 - hunger
-- thirstiness
 - needToGoOutside
 - petDirtiness
 - habitatDirtiness or litterboxDirtiness
@@ -45,16 +44,15 @@ Each pet MUST have...
 
 Also, select the actions that correspond with your selected attributes
 - feed (decreases hunger by random number 50-70)
-- giveWater (you get the idea)
-- walk
-- giveBath
-- brush
+- walk (decreases needToGoOutside by random number 50-70)
+- giveBath (you get the idea)
 - cleanHabitat or cleanLitterbox
 - play
 - nap
+
 
 ## Accessor methods
 
 - Required: boolean isHappy() look at all instance vars, return false if any above the limit of 66
 - Required: String toString() return string with only name, ascii pic, & NOT HAPPY in all caps (only if not happy)
-- Required: String[] getListOfActions() return list like ["feed", "give water"]
+- Required: String[] getListOfActions() return list like ["feed", "walk"]
