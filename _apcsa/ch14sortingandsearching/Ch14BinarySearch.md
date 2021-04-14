@@ -21,7 +21,7 @@ Using sorted str array ["apple","coconut","orange"]
 Running binarySearch(myArray, "orange"), expected 2
 2
 Running binarySearch(myArray, "apple"), expected 0
--
+0
 Running binarySearch(myArray, "banana"), expected -1
 -1
 ```
