@@ -536,13 +536,19 @@ Projects:
 - title: ch14sortingandsearching
   heading: "# Ch14SortingAndSearching"
   content: "
-1. [Ch14 Searching Data](/apcsa/ch14sortingandsearching/Ch14SearchingData/)
+1. [Ch14 Linear Search](/apcsa/ch14sortingandsearching/Ch14LinearSearch/)
 
-1. [Ch14 Array Sorting](/apcsa/ch14sortingandsearching/Ch14ArraySorting/)
+1. [Ch14 Binary Search](/apcsa/ch14sortingandsearching/Ch14BinarySearch/)
 
-1. [Ch14 Pseudocode Sort Search](/apcsa/ch14sortingandsearching/Ch14PseudocodeSortSearch/)
+1. [Ch14 SelectionSort](/apcsa/ch14sortingandsearching/Ch14SelectionSort/)
+
+1. [Ch14 InsertionSort](/apcsa/ch14sortingandsearching/Ch14InsertionSort/)
+
+1. [Ch14 MergeSort](/apcsa/ch14sortingandsearching/Ch14MergeSort/)
 
 1. [Ch14 Sorting Worksheet](/apcsa/ch14sortingandsearching/Ch14SortingWorksheet/)
+
+1. [Ch14 MergeSort Dogs](/apcsa/ch14sortingandsearching/Ch14MergeSortArrayList/)
 
 "
 
