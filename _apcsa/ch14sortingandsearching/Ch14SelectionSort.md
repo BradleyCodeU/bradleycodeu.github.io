@@ -13,7 +13,7 @@ Directions:
 1. Copy the templates below. The SelectionSort class is a utility class (aka a static class) that contains 2 methods:
         - selectionSort(int[] array)
         - selectionSort(String[] array)
-2. The selectionSort(int[] array) method is complete but contains 1 bug that you must fix. Read the pseudocode comments to help you find and fix the bug.
+2. The selectionSort(int[] array) method is complete but contains 1 bug that you MUST fix. Read the pseudocode comments to help you find and fix the bug.
 3. Copy the selectionSort(int[] array) code and paste it into the selectionSort(String[] array) method. Adjust the code for a String[] array.
 4. Finally, test both methods using the Main class.
 
@@ -41,6 +41,8 @@ public class Main
 
   // run tests of selectionSort(int[] array) and selectionSort(String[] array)
 
+  // use Java utility class Arrays to quickly/easily print contents of an array
+  System.out.println(Arrays.toString(myIntArray));
 }
 ```
 
