@@ -11,8 +11,9 @@ Insertion Sort: [https://drive.google.com/open?id=1jRg0mKpKaiB0Pc0v4wE90b3f3FiWd
 Directions:
 
 1. Copy the templates below. The InsertionSort class is a utility class (aka a static class) that contains 2 methods:
-        - insertionSort(String[] array)
-        - insertionSort(int[] array)
+   - insertionSort(String[] array)
+   - insertionSort(int[] array)
+
 2. The insertionSort(String[] array) method is complete but contains 1 bug that you MUST fix. Read the pseudocode comments to help you find and fix the bug.
 3. Copy the insertionSort(String[] array) code and paste it into the insertionSort(int[] array) method. Adjust the code for a int[] array.
 4. Finally, test both methods using the Main class.
