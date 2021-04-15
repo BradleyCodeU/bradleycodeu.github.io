@@ -11,8 +11,11 @@ Selection Sort: [https://drive.google.com/open?id=19ZCklKIltbEx3uHw0gUJHf8q1f0Nr
 Directions:
 
 1. Copy the templates below. The SelectionSort class is a utility class (aka a static class) that contains 2 methods:
+
         - selectionSort(int[] array)
+
         - selectionSort(String[] array)
+
 2. The selectionSort(int[] array) method is complete but contains 1 bug that you MUST fix. Read the pseudocode comments to help you find and fix the bug.
 3. Copy the selectionSort(int[] array) code and paste it into the selectionSort(String[] array) method. Adjust the code for a String[] array.
 4. Finally, test both methods using the Main class.
