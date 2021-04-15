@@ -37,3 +37,11 @@ NOTE:
 Comparing lowercase strings is IMPORTANT. If a user searches for "win" they should not get "win Not Found." Instead, they should get:
 - Gone with the Wind (1939)
 - Rear Window (1954)
+
+If a user searches for "RIV" they should get:
+- Taxi Driver (1976)
+- Driving Miss Daisy (1989)
+- Arrival (2016)
+- Saving Private Ryan (1998)
+- Mystic River (2003)
+
