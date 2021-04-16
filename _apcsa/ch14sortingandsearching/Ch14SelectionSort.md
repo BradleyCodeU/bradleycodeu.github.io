@@ -38,12 +38,12 @@ Main.java
 ```
 public class Main
 {
-  // public static void main
+    // public static void main
 
-  // run tests of selectionSort(int[] array) and selectionSort(String[] array)
+    // run tests of selectionSort(int[] array) and selectionSort(String[] array)
 
-  // use Java utility class Arrays to quickly/easily print contents of an array
-  System.out.println(Arrays.toString(myIntArray));
+    // use Java utility class Arrays to quickly/easily print contents of an array
+    System.out.println(Arrays.toString(myIntArray));
 }
 ```
 
@@ -52,25 +52,25 @@ Sort.java
 import java.util.*;
 public class Sort {
 
-  public static void selectionSort(int[] array){
-    // loop from j=0 to j=length-2 (inclusive) in order to complete length-1 passes
-    for(int j = 0; j < array.length - 1; j++){
-      int minIndex = j;
-      // find the minimum item in the rest of the array
-      for(int k = i + 1; k < array.length; k++){
-        if(array[k] < array[minIndex]){
-          minIndex = k;
+    public static void selectionSort(int[] array) {
+        // loop from j=0 to j=length-2 (inclusive) in order to complete length-1 passes
+        for (int j = 0; j < array.length - 1; j++) {
+            int minIndex = j;
+            // find the minimum item in the rest of the array
+            for (int k = i + 1; k < array.length; k++) {
+                if (array[k] < array[minIndex]) {
+                    minIndex = k;
+                }
+            }
+            // swap the item at index j with the minimum item in the rest of the array
+            int temp = array[j];
+            array[minIndex] = temp;
+            array[j] = array[minIndex];
         }
-      }
-      // swap the item at index j with the minimum item in the rest of the array
-      int temp = array[j];
-      array[minIndex] = temp;
-      array[j] = array[minIndex];
     }
-  }
 
-  public static void selectionSort(String[] array){
-    /* copy/paste the selectionSort(int[] array) code and adjust it for a String[] array */
-  }
+    public static void selectionSort(String[] array) {
+        /* copy/paste the selectionSort(int[] array) code and adjust it for a String[] array */
+    }
 }
 ```
