@@ -48,12 +48,12 @@ Main.java
 ```
 public class Main
 {
-  // public static void main
+    // public static void main
 
-  // run tests of binarySearch(int[] array) and binarySearch(String[] array)
+    // run tests of binarySearch(int[] array) and binarySearch(String[] array)
 
-  // use Java utility class Arrays to quickly/easily print contents of an array
-  System.out.println(Arrays.toString(myIntArray));
+    // use Java utility class Arrays to quickly/easily print contents of an array
+    System.out.println(Arrays.toString(myArray));
 }
 ```
 
@@ -62,33 +62,33 @@ Search.java
 import java.util.*;
 public class Search {
 
-  public static int binarySearch(int[] elements, int target){
-    // set left & right to min & max indexes, this is the search range
-    int left = 0;
-    int right = elements.length - 1;
-    // loop as long as there is a valid search range
-    while (left <= right){
-      // set middle to halfway between left & right
-      int middle = (left + right) / 2;
-      if(target < elements[middle]){
-        // target less than middle, set right edge of search range to middle-1
-        right = middle - 1;
-      }
-      else if(target >= elements[middle]){
-        // target greater than middle, set left edge of search range to middle+1
-        left = middle + 1;
-      }
-      else{
-        // match was found, return the index location
-        return middle;
-      }
+    public static int binarySearch(int[] elements, int target) {
+        // set left & right to min & max indexes, this is the search range
+        int left = 0;
+        int right = elements.length - 1;
+        // loop as long as there is a valid search range
+        while (left <= right) {
+            // set middle to halfway between left & right
+            int middle = (left + right) / 2;
+            if (target < elements[middle]) {
+                // target less than middle, set right edge of search range to middle-1
+                right = middle - 1;
+            }
+            else if (target >= elements[middle]) {
+                // target greater than middle, set left edge of search range to middle+1
+                left = middle + 1;
+            } 
+            else {
+                // match was found, return the index location
+                return middle;
+            }
+        }
+        // target is not contained in elements
+        return -1;
     }
-    // target is not contained in elements
-    return -1;
-  }
 
-  public static int binarySearch(String[] elements, String target){
-    /* copy/paste the binarySearch(int[] array) code and adjust it for a String[] array */
-  }
+    public static int binarySearch(String[] elements, String target) {
+        /* copy/paste the binarySearch(int[] array) code and adjust it for a String[] array */
+    }
 }
 ```
