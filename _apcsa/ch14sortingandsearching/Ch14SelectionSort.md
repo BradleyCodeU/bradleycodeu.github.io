@@ -10,7 +10,7 @@ Selection Sort: [https://drive.google.com/open?id=19ZCklKIltbEx3uHw0gUJHf8q1f0Nr
 
 Directions:
 
-1. Copy the templates below. The SelectionSort class is a utility class (aka a static class) that contains 2 methods:
+1. Copy the templates below. The Sort class is a utility class (aka a static class) that contains 2 methods:
    - selectionSort(int[] array)
    - selectionSort(String[] array)
 
@@ -47,10 +47,10 @@ public class Main
 }
 ```
 
-SelectionSort.java
+Sort.java
 ```
 import java.util.*;
-public class SelectionSort {
+public class Sort {
 
   public static void selectionSort(int[] array){
     // loop from j=0 to j=length-2 (inclusive) in order to complete length-1 passes
