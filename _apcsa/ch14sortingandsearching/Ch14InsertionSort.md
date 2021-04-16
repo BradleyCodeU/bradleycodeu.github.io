@@ -10,7 +10,7 @@ Insertion Sort: [https://drive.google.com/open?id=1jRg0mKpKaiB0Pc0v4wE90b3f3FiWd
 
 Directions:
 
-1. Copy the templates below. The InsertionSort class is a utility class (aka a static class) that contains 2 methods:
+1. Copy the templates below. The Sort2 class is a utility class (aka a static class) that contains 2 methods:
    - insertionSort(String[] array)
    - insertionSort(int[] array)
 
@@ -46,10 +46,10 @@ public class Main
 }
 ```
 
-InsertionSort.java:
+Sort2.java:
 ```
 import java.util.*;
-public class InsertionSort {
+public class Sort2 {
 
   public static void insertionSort(String[] array){
     // loop from j=1 to j=length-1 (inclusive) completing length-1 passes
