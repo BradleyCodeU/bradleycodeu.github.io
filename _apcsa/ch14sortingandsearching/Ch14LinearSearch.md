@@ -39,9 +39,8 @@ Comparing lowercase strings is IMPORTANT. If a user searches for "win" they shou
 - Rear Window (1954)
 
 If a user searches for "RIV" they should get:
+- Mystic River (2003)
 - Taxi Driver (1976)
 - Driving Miss Daisy (1989)
 - Arrival (2016)
 - Saving Private Ryan (1998)
-- Mystic River (2003)
-
