@@ -43,12 +43,12 @@ Main.java:
 ```
 public class Main
 {
-  // public static void main
+    // public static void main
 
-  // run tests of insertionSort(String[] array) and insertionSort(int[] array)
+    // run tests of mergeSort(int[] array) and mergeSort(String[] array)
 
-  // use Java utility class Arrays to quickly/easily print contents of an array
-  System.out.println(Arrays.toString(myStringArray));
+    // use Java utility class Arrays to quickly/easily print contents of an array
+    System.out.println(Arrays.toString(myArray));
 }
 ```
 
@@ -81,7 +81,8 @@ public class Sort3 {
             if (array[i] < array[j]) {
                 temp[k] = array[i];
                 i++;
-            } else {
+            }
+            else {
                 temp[k] = array[j];
                 j++;
             }
