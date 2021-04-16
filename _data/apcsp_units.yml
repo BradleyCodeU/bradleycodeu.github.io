@@ -450,13 +450,15 @@ Code.org Unit 4: Big Data and Privacy, [https://studio.code.org/s/csp4-2018](htt
 
   1. [Digital Info](#digitalinfo) - *1 wk*
 
-  1. [Objects](#objects) - *2wks*
-
-  1. [Turtle Games](#turtlegames) - *2wks*
-
-  1. [Tk](#tk) - *2 wks*
-
   1. [Practice](#practice) - *2 wks*
+
+  1. [Objects](#objects) - *2 wks*
+
+  1. [Turtle Games](#turtlegames) - *2 wks*
+
+
+
+
   "
 
 - title: textgames
@@ -607,6 +609,46 @@ Projects:
 1. [Create Practice 3](/apcsp/turtlegames/CreatePractice3/)
 
 "
+
+- title: 4thquarter
+  heading: "# 4th Quarter"
+  content: "
+“Always remember, however, that there’s usually a simpler and better way to do something than the first way that pops into your head.”
+
+
+*-Donald Knuth*
+
+
+“If you want to increase your success rate, double your failure rate.”
+
+
+*-Thomas J. Watson*
+
+
+-------
+
+
+"
+- title: menu4
+  content: "
+  [4th Quarter](#4th-quarter)
+
+  1. [Create](#create) - *3 wks*
+
+  1. WebXam - *1 wk*
+
+  1. [Tk](#tk) - *2 wks*
+
+  1. [Greenfoot](#greenfoot) - *2 wks*
+
+  1. [Java](#java) - *2 wks*
+
+  "
+- title: create
+  heading: "# Create"
+  content: "*3 wks* - Create - AP Performance Task Prep, Final Create
+"
+
 - title: tk
   heading: "# Tk"
   content: "
@@ -649,41 +691,7 @@ Projects:
 
 1. Pair-Pick- [TkPollAverage]() or [TkMultiQuestion]()
 "
-- title: 4thquarter
-  heading: "# 4th Quarter"
-  content: "
-“Always remember, however, that there’s usually a simpler and better way to do something than the first way that pops into your head.”
 
-
-*-Donald Knuth*
-
-
-“If you want to increase your success rate, double your failure rate.”
-
-
-*-Thomas J. Watson*
-
-
--------
-
-
-"
-- title: menu4
-  content: "
-  [4th Quarter](#4th-quarter)
-
-
-  1. [Create](#create) - *3 wks*
-
-  1. [Greenfoot](#greenfoot) - *3 wks*
-
-  1. [Java](#java) - *3 wks*
-
-  "
-- title: create
-  heading: "# Create"
-  content: "*3 wks* - Create - AP Performance Task Prep, Final Create
-"
 - title: greenfoot
   heading: "# Greenfoot"
   content: "*3 wks* - objects, classes
