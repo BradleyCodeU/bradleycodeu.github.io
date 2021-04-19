@@ -20,7 +20,7 @@ Your goal for today is to create an animal statue (must be a non-fictional, land
 - duck
 - squirrel
 - raccoon
-- turtle
+- tortoise
 - chipmunk
 - deer
 - frog
