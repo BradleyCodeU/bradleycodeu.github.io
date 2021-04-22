@@ -57,7 +57,7 @@ public class Sort {
         for (int j = 0; j < array.length - 1; j++) {
             int minIndex = j;
             // find the minimum item in the rest of the array
-            for (int k = i + 1; k < array.length; k++) {
+            for (int k = j + 1; k < array.length; k++) {
                 if (array[k] < array[minIndex]) {
                     minIndex = k;
                 }
