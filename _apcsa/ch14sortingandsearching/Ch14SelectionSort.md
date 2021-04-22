@@ -62,7 +62,7 @@ public class Sort {
                     minIndex = k;
                 }
             }
-            // swap the item at index j with the minimum item in the rest of the array
+            // SWAP the item at index j with the minimum item in the rest of the array
             int temp = array[j];
             array[minIndex] = temp;
             array[j] = array[minIndex];
