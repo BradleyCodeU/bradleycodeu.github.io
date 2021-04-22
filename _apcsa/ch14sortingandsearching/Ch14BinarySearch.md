@@ -70,14 +70,17 @@ public class Search {
         while (left <= right) {
             // set middle to halfway between left & right
             int middle = (left + right) / 2;
+            // if the target is less than middle
             if (target < elements[middle]) {
-                // target less than middle, set right edge of search range to middle-1
+                // set right edge of search range to middle-1
                 right = middle - 1;
             }
+            // if the target is GREATER THAN middle
             else if (target >= elements[middle]) {
-                // target greater than middle, set left edge of search range to middle+1
+                // set left edge of search range to middle+1
                 left = middle + 1;
-            } 
+            }
+            // the target equals the middle
             else {
                 // match was found, return the index location
                 return middle;
