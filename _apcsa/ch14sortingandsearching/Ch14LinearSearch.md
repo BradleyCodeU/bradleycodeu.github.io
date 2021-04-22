@@ -3,7 +3,7 @@ layout: project
 category: ch14sortingandsearching
 title: Linear Search
 ---
-A linear search or sequential search is a method for finding an element within a list. You may also hear it referred to as brute-force search or exhaustive search. It sequentially checks each element of the list until a match is found or the whole list has been searched.
+A linear search or sequential search is a method for finding an element within a list. It sequentially checks each element of the list until a match is found or the whole list has been searched.
 
 A linear search is very slow. It is not a smart approach. There are MUCH faster search algorithms that we will be learning, but we are starting with the most obvious/basic search... the linear search.
 
