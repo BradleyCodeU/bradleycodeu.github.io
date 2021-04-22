@@ -59,13 +59,13 @@ public class Sort2 {
             String temp = array[j];
             // use possibleIndex to store the best place to put index j
             int possibleIndex = j;
-            // loop from j-1 to ZERO and stop if temp comes before possibleIndex-1
+            // loop while possibleIndex is GREATER THAN ZERO & temp is less than possibleIndex-1 value
             while (possibleIndex > 1 && temp.compareTo(array[possibleIndex - 1]) < 0) {
                 // shift element at possibleIndex to right one position
                 array[possibleIndex] = array[possibleIndex - 1];
                 possibleIndex--;
             }
-            // we found the best place to insert temp
+            // found the best place to insert temp
             array[possibleIndex] = temp;
         }
     }
