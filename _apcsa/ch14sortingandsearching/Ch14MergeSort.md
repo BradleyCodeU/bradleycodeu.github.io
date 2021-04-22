@@ -20,7 +20,7 @@ Directions:
    - mergeSortHelper(String[] array, int from, int to, String[] temp)
    - merge(String[] array, int from, int mid, int to, String[] temp)
 
-2. The first three methods are complete. No bugs. These three methods work together to sort an int[]
+2. The first three methods are complete. THERE ARE NO BUGS. These three methods work together to sort an int[]
 3. Copy the mergeSort(int[] array) code and paste it into the mergeSort(String[] array) method. Adjust the code for a String[] array. Do the same for the other methods.
 4. Finally, test both methods using the Main class.
 
