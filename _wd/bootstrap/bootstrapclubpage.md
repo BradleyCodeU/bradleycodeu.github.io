@@ -21,7 +21,6 @@ This project uses the following content:
 
 
 
-Follow along with this Zoom mtg: [wd-20-04-03.mp4](%24IMS-CC-FILEBASE%24/eLearning%20videos/wd-20-04-03.mp4?canvas_download=1&canvas_qs_wrap=1 "wd-20-04-03.mp4")
 
 Use Bootstrap to create a page for a school club.
 
