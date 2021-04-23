@@ -54,12 +54,22 @@ title: Bootstrap Get Started
 <h2>Bootstrap 4 CDN</h2>
 <p><span >If you don't want to download the Bootstrap files and host them on your website, you can include it from a CDN (Content Delivery Network).</span></p>
 <p>MaxCDN provides CDN support for Bootstrap's CSS and JavaScript. You must also include jQuery:</p>
-<div class="w3-example">
+
 <h3>MaxCDN:</h3>
-<div class="w3-code notranslate htmlHigh">
-<span class="commentcolor">&lt;!-- Latest compiled and minified CSS --&gt;</span><br><span class="tagnamecolor"><span class="tagcolor">&lt;</span>link<span class="attributecolor"> rel<span class="attributevaluecolor">="stylesheet"</span> href<span class="attributevaluecolor">="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"</span></span><span class="tagcolor">&gt;</span></span><br><br><span class="commentcolor">&lt;!-- jQuery library --&gt;</span><br><span class="tagnamecolor"><span class="tagcolor">&lt;</span>script<span class="attributecolor"> src<span class="attributevaluecolor">="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"</span></span><span class="tagcolor">&gt;</span></span><span class="tagnamecolor"><span class="tagcolor">&lt;</span>/script<span class="tagcolor">&gt;</span></span><br><br><span class="commentcolor">&lt;!-- Popper JS --&gt;</span><br><span class="tagnamecolor"><span class="tagcolor">&lt;</span>script<span class="attributecolor"> src<span class="attributevaluecolor">="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"</span></span><span class="tagcolor">&gt;</span></span><span class="tagnamecolor"><span class="tagcolor">&lt;</span>/script<span class="tagcolor">&gt;</span></span><br><br><span class="commentcolor">&lt;!-- Latest compiled JavaScript --&gt;</span><br><span class="tagnamecolor"><span class="tagcolor">&lt;</span>script<span class="attributecolor"> src<span class="attributevaluecolor">="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"</span></span><span class="tagcolor">&gt;</span></span><span class="tagnamecolor"><span class="tagcolor">&lt;</span>/script<span class="tagcolor">&gt;</span></span>
-</div>
-</div>
+```
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+```
+
 <div class="w3-panel w3-note">
 <p><strong>One advantage of using the Bootstrap 4 CDN:</strong><br>Many users already have downloaded Bootstrap 4 from MaxCDN when visiting another site. As a result, it will be loaded from cache when they visit your site, which leads to faster loading time. Also, most CDN's will make sure that once a user requests a file from it, it will be served from the server closest to them, which also leads to faster loading time.<br><br><strong>jQuery and Popper?</strong><br>Bootstrap 4 use jQuery and Popper.js for JavaScript components (like modals, tooltips, popovers etc). However, if you just use the CSS part of Bootstrap, you don't need them.</p>
 </div>
