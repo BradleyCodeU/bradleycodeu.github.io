@@ -41,8 +41,3 @@ This project uses the following content:
 <li>look up Bootstrap's margin classes and give each column the same margin class</li>
 <li>look up Bootstrap's text alignment classes and center the text by adding the correct class</li>
 </ul>
-
-### Tutorial video
-
-[https://www.youtube.com/watch?v=cAbh6N_2gNY](https://www.youtube.com/watch?v=cAbh6N_2gNY)
-<iframe width="560" src="https://www.youtube.com/embed/cAbh6N_2gNY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
