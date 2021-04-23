@@ -6,12 +6,12 @@ title: WebGL Animal Class
 
 Turn your single animal statue into a class. Don't name it "AnimalClass". Name the class Pig or Rabbit or Mouse or whatever it is. In the head section of index.html, add a link to the new js file.
 
-In the setup function of script.js, add some instances of your animal class to your project.
+In the setup function of script.js, add MULTIPLE instances of your animal class to your project.
 
-In the draw function of script.js, move your instance and then show your instance. For example...
+In the draw function of script.js, move your instances and then show your instances. For example...
 ```
-myanimal.move();
-myanimal.show();
+myPig1.move();
+myPig1.show();
 ```
 
 ### Constructor
@@ -20,7 +20,7 @@ In the constructor create instance variable for x location, y location, z locati
 
 ### Show Method
 
-The code that draws the animal statue should go inside of the show() method. The statue should be centered on 0,0 and facing the X axis.
+The code that draws the animal statue (the mesh) should go inside of the show() method. The statue should be centered on 0,0 and facing the X axis.
 
 ### Move Method
 
