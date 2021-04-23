@@ -32,7 +32,7 @@ Select all of the code that you have inside the update() method and copy (or cut
 
 ### Sine Function
 
-Finally, go to the getMesh() function. Use the sin() function to add motion to the legs IF the state is walking.
+Finally, go to the getMesh() function. Use the sin() function to add motion to the legs ```ONLY IF``` the state is "walking".
 
 NOTE: In the video below he is using Processing NOT P5. There are a few small differences such as creating variables with keywords like float and int. The languages are 99.9% the same.
 
