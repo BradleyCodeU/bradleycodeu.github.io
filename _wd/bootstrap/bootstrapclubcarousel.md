@@ -24,7 +24,7 @@ You will be creating a new version of your club page. This time you MUST include
 - Google Fonts
 - Bootstrap 4 Modal
 
-Make your photos into small thumbnails. When you click a thumbnail, it will open up a modal that shows the full size image.
+Make your photos into small thumbnails (small preview-sized images). When you click a thumbnail, it will open up a modal that shows the full size image. If the full size image is 1000 px wide, then the thumbnail might be about 200 px wide.
 
 <table style="border-collapse: collapse; width: 100%; height: 29px;" border="1">
 <tbody>
