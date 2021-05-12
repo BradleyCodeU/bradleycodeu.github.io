@@ -17,7 +17,8 @@ This project uses the following content:
 
 
 
-<p>You will be creating a new version of your club page. This time you MUST include:
+You will be creating a new version of your club page. This time you MUST include:
+
 - a Bootstrap 4 Carousel
 - Google Material Icons
 - Google Fonts
@@ -33,7 +34,9 @@ Make your photos into small thumbnails. When you click a thumbnail, it will open
 </tr>
 </tbody>
 </table>
-<p>Use these images in the <a title="Bootstrap 4 Carousel" href="/wd/bootstrap/bootstrap-4-carousel">Bootstrap 4 Carousel</a>:</p>
+
+Use these images in the <a title="Bootstrap 4 Carousel" href="/wd/bootstrap/bootstrap-4-carousel">Bootstrap 4 Carousel</a>:
+
 <ul>
 <li><a title="banner1.jpg" href="/wd/bootstrap/images/bootstrapClubPage2/banner1.jpg">banner1.jpg</a></li>
 <li>
