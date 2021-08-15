@@ -66,7 +66,7 @@ Our “Textbooks”:
 
 "
 
-- title: html
+- title: htmlarchive
   heading: "# HTML"
   content: "*2 weeks*, Vocab: html, hypertext, tag, head, body, title, h1, p, br, bold, italics, img, alt, ordered list, unordered list
 
@@ -112,7 +112,7 @@ Projects:
 
 "
 
-- title: css
+- title: cssarchive
   heading: "# CSS"
   content: "*3 weeks* Vocab: css, inline css, internal css, external css, css rule, selector, css declaration, css property and value, rgb, hexcode, font stack, serif font, sans serif font, css box model, padding, border, margin, table, tr, th, td
 
@@ -147,7 +147,7 @@ Projects:
 
 "
 
-- title: js
+- title: jsarchive
   heading: "# JS"
   content: "*3 weeks* Vocab: JavaScript, id, script, variable, var, let, button, onclick, getElementById(), innerHTML, class, alert, prompt, function, function definition, function call, console, debugging, syntax, comment, operators, assignment operator, equality operator, string, camelCase, display, block, inline, conditional
 
@@ -235,7 +235,7 @@ Projects:
 1. [KhanAcademy Logo](/wd/photoshop/khanacademylogo/)
 "
 
-- title: forms
+- title: formsarchive
   heading: "# Forms"
   content: "*2 weeks* Vocab: form, label, input, radio button, select, onchange, checkbox, div, border-radius, transition, function, Math.random(), event listener,
 
@@ -252,7 +252,7 @@ Projects:
 1. [Sound Sample Piano](/wd/forms/SoundSamplePiano/)
 "
 
-- title: p5js
+- title: p5jsarchive
   heading: "# p5js"
   content: "*4 weeks*
 
@@ -304,7 +304,7 @@ Look out! Here comes the Spider-man”
 
 
 "
-- title: arrays
+- title: arraysarchive
   heading: "# Arrays"
   content: "*4 weeks*
 
