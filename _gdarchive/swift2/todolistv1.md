@@ -144,7 +144,7 @@ In the Attributes inspector, type 12 in the Spacing field. Press Return. You can
 Notice that the UI elements space out vertically, and the stack view grows along with them. You can play around with the settings and check results on the canvas.
 Let's also change the Alignment to Leading, so that the elements position left.
 
-![stack View](/gd/swift/img/stackView.jpg)
+![stack View](/gdarchive/swift/img/stackView.jpg)
 
 Run your app in the simulator. Click inside of the text field, and type some text, using the keyboard. You can toggle the software keyboard by pressing Command-K. If you rotate the device (Command-Left Arrow or Command-Right Arrow) or run the app on a different device, the text field adapts to fit the appropriate size, depending on the device's orientation and screen size.
 
@@ -155,7 +155,7 @@ Elements in a storyboard are linked to source code. It's important to understand
 In a storyboard, a scene represents one screen of content and, typically, one view controller. A view controller implements the app's behavior, managing a single content view with its hierarchy of subviews.
 Xcode has already created one, ViewController.swift, which was connected to the scene you're currently working on in your storyboard. In the future, as you add more scenes, you'll make this connection yourself in the Identity inspector. The Identity inspector lets you edit properties of an object in your storyboard, in relation to that object's identity, such as the object's class.
 
-![identity Inspector Icon](/gd/swift/img/identityInspectorIcon.jpg)
+![identity Inspector Icon](/gdarchive/swift/img/identityInspectorIcon.jpg)
 
 At runtime, your storyboard will create an instance of ViewController, your custom view controller subclass. The app screen will show the UI defined in this scene in your storyboard and any behavior defined in ViewController.swift.
 The scene is connected to ViewController.swift, but there are other connections to be made, as well. To define interaction in your app, your view controller source code needs to be able to communicate with your storyboard views. This is accomplished by defining additional connections - called outlets and actions - that go between the views in the storyboard and the view controller source code files.
@@ -170,25 +170,25 @@ To connect the text field to the ViewController.swift code, open your storyboard
 
 Select Main.storyboard in the Navigator, click the Editor drop-down menu and then select Assistant. Xcode automatically picks a file for you to edit on the right. IF IT OPENED THE WRONG FILE you can drag ViewController.swift from the Navigator area to the top of the new Editor window on the right.
 
-![Click Editor DropDown Then Assistant](/gd/swift/img/ClickEditorDropDownThenAssistant.gif)
+![Click Editor DropDown Then Assistant](/gdarchive/swift/img/ClickEditorDropDownThenAssistant.gif)
 
 Another way to get the same split-screen is to click the "Add Editor On Right" button. You should now have a split-screen. Next, click on the file that you want to open (ViewController.swift) from the Navigator area.
 
-![add Editor To Right](/gd/swift/img/addEditorToRight.gif)
+![add Editor To Right](/gdarchive/swift/img/addEditorToRight.gif)
 
 If necessary, you can drag a file from the Navigator area to the top of either Editor window.
 
-![drag a file from the Navigator area to the top of either Editor window](/gd/swift/img/splitscreen3.gif)
+![drag a file from the Navigator area to the top of either Editor window](/gdarchive/swift/img/splitscreen3.gif)
 
 #### Let's create an outlet
 
 In your storyboard, select the text field. While holding the Control button, drag from the text field on your canvas to the code display in the editor on the right, stopping the drag at the line below the class definition (```class ViewController: UIViewController```).
 
-![creating An Outlet](/gd/swift/img/creatingAnOutlet.jpg)
+![creating An Outlet](/gdarchive/swift/img/creatingAnOutlet.jpg)
 
 A dialog appears. For Name, type the desired name for your text field. In our example, we've named it nameTextField.
 
-![outlet Dialog Box](/gd/swift/img/outletDialogBox.jpg)
+![outlet Dialog Box](/gdarchive/swift/img/outletDialogBox.jpg)
 
 Click Connect.
 
@@ -215,7 +215,7 @@ For Name, type a name, for example: setLabelText.
 For Type, select UIButton.
 Your dialog should look like this:
 
-![action Dialog Box](/gd/swift/img/actionDialogBox.jpg)
+![action Dialog Box](/gdarchive/swift/img/actionDialogBox.jpg)
 
 Click Connect.
 The Type field value defaults to AnyObject, a type used in Swift to describe an object that can belong to any class.

@@ -1,7 +1,7 @@
 ---
   layout: default
   title: Web Design Curriculum Overview
-  permalink: /wd/
+  permalink: /wdarchive/
 ---
 {% for unit in site.data.wd_units[page.collection] %}
   {% if unit.title == 'menu1' %}{{ unit.content | markdownify }}{% endif %}

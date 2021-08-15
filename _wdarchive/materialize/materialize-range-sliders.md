@@ -5,7 +5,7 @@ title: Materialize Range Sliders
 ---
 
 <p><span>Add a range slider for values with a wide range. This one is set to be a number between 0 and 100.</span></p>
-<p><span><img src="/wd/materialize/images/materializeRangeSlider.png" alt="materializeRangeSlider.png" width="600" height="103" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/12260207" data-api-returntype="File"></span></p>
+<p><span><img src="/wdarchive/materialize/images/materializeRangeSlider.png" alt="materializeRangeSlider.png" width="600" height="103" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/12260207" data-api-returntype="File"></span></p>
 <pre class=" language-markup"><code class=" language-markup"><span class="token tag"><span class="token punctuation">  &lt;</span>p <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>range-field<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
     <span class="token tag"><span class="token punctuation">&lt;</span>input <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>range<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>test5<span class="token punctuation">"</span></span> <span class="token attr-name">min</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>0<span class="token punctuation">"</span></span> <span class="token attr-name">max</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>100<span class="token punctuation">"</span></span> <span class="token punctuation">/&gt;</span></span>
   <span class="token tag"><span class="token punctuation">&lt;/</span>p<span class="token punctuation">&gt;</span></span></code></pre>
@@ -15,7 +15,7 @@ title: Materialize Range Sliders
 <pre><span class="jskeywordcolor">var</span><span> sliderValue = </span><span>document.</span><span class="jspropertycolor">getElementById</span><span>(</span><span class="jsstringcolor">"slider1"</span><span>).value;</span><br>if(sliderValue &lt;= 14){<br>  alert("I'm sorry, but you are not old enough to join. Ask a parent to sign up.");<br>} else {<br>  alert("You are " + slideValue + " years old");<br>}</pre>
 <h3><span>Basic HTML5 Range Slider</span></h3>
 <p><span>You don't need Materialize to create a range slider, but the Materialize version looks </span><span>MUCH</span><span> better.</span></p>
-<p><span><img src="/wd/materialize/images/html5RangeSlider.png" alt="html5RangeSlider.png" width="152" height="71" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/12260376" data-api-returntype="File"></span></p>
+<p><span><img src="/wdarchive/materialize/images/html5RangeSlider.png" alt="html5RangeSlider.png" width="152" height="71" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/12260376" data-api-returntype="File"></span></p>
 <p>The &lt;input type="range"&gt; defines a control for entering a number whose exact value is not important (like a slider control).</p>
 <p>Default range is 0 to 100. However, you can set restrictions on what numbers are accepted with the attributes below.</p>
 <ul>

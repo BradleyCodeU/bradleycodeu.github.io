@@ -7,7 +7,7 @@ In this project, your team will finish your text-based game
 
 ## The Map Class
 
-Must use [the Map class](https://bradleycodeu.github.io/wd/scrum/map.js) to draw a map for your game (hide or show the items is up to you). The Map class requires that you import p5js by adding the following to the head section: ``` <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.js"></script> ```
+Must use [the Map class](https://bradleycodeu.github.io/wdarchive/scrum/map.js) to draw a map for your game (hide or show the items is up to you). The Map class requires that you import p5js by adding the following to the head section: ``` <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.js"></script> ```
 
 ## ASCII Art
 
@@ -101,7 +101,7 @@ mappy.mappedRooms = JSON.parse(localStorage.mappedRooms);
 ## Full List of Requirements
 
 You will be graded on the following requirements:
-- Must use [the Map class](https://bradleycodeu.github.io/wd/scrum/map.js) to draw a map for your game
+- Must use [the Map class](https://bradleycodeu.github.io/wdarchive/scrum/map.js) to draw a map for your game
 - Visit [this site](http://patorjk.com/software/taag/#p=display&f=ANSI%20Shadow&t=Game%20Title) to get an ASCII art version of your game title.
 - Have a total of 25 or more rooms. Have 10 or more items that the player can pick up.
 - Print the room description, any item in the room, any items in the player's inventory/backpack

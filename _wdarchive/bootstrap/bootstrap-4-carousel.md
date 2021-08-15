@@ -6,7 +6,7 @@ title: Bootstrap Carousel
 <p>Source: <a href="https://www.w3schools.com/bootstrap4/bootstrap_carousel.asp">https://www.w3schools.com/bootstrap4/bootstrap_carousel.asp</a></p>
 <hr>
 <p>The Carousel is a slideshow for cycling through elements (usually images). <a href="https://www.w3schools.com/bootstrap4/bootstrap_carousel.asp">CLICK HERE</a> to see an example.</p>
-<p><img src="/wd/bootstrap/images/bootstrap4Carousel.gif" alt="bootstrap4Carousel.gif" width="600" height="338"></p>
+<p><img src="/wdarchive/bootstrap/images/bootstrap4Carousel.gif" alt="bootstrap4Carousel.gif" width="600" height="338"></p>
 <h2>How To Create a Carousel</h2>
 <p>The following example shows how to create a basic carousel with indicators and controls:</p>
 <div class="w3-example">

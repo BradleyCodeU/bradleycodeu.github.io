@@ -134,7 +134,7 @@ title: Materialize Container and Grid
 <div class="browser-window">
 <div class="top-bar">
 <div class="circles">
-<span> </span><span> <img src="/wd/materialize/images/materializeSideMenu.png" alt="materializeSideMenu.png" width="600" height="355" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/11452025" data-api-returntype="File"></span>
+<span> </span><span> <img src="/wdarchive/materialize/images/materializeSideMenu.png" alt="materializeSideMenu.png" width="600" height="355" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/11452025" data-api-returntype="File"></span>
 </div>
 </div>
 </div>
@@ -210,7 +210,7 @@ title: Materialize Container and Grid
 <div class="col s12">
 <div class="browser-window">
 <div class="top-bar">
-<div class="circles"><span><img src="/wd/materialize/images/materializeSideMenu.png" alt="materializeSideMenu.png" width="600" height="355" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/11452025" data-api-returntype="File"></span></div>
+<div class="circles"><span><img src="/wdarchive/materialize/images/materializeSideMenu.png" alt="materializeSideMenu.png" width="600" height="355" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/11452025" data-api-returntype="File"></span></div>
 </div>
 </div>
 </div>

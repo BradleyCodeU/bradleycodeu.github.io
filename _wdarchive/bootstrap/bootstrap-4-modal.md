@@ -6,7 +6,7 @@ title: Bootstrap Modal
 <p>Source: <a href="https://www.w3schools.com/bootstrap4/bootstrap_modal.asp">https://www.w3schools.com/bootstrap4/bootstrap_modal.asp</a></p>
 <hr>
 <p>The Modal component is a dialog box/popup window that is displayed on top of the current page. <a href="https://www.w3schools.com/bootstrap4/bootstrap_modal.asp">CLICK HERE</a> then click the blue Open Modal button to see an example.</p>
-<p><img src="/wd/bootstrap/images/bootstrap4Modal.png" alt="bootstrap4Modal.png" width="600" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/11039997" data-api-returntype="File"></p>
+<p><img src="/wdarchive/bootstrap/images/bootstrap4Modal.png" alt="bootstrap4Modal.png" width="600" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/11039997" data-api-returntype="File"></p>
 <hr>
 <h2>How To Create a Modal</h2>
 <p>The following example shows how to create a basic modal:</p>

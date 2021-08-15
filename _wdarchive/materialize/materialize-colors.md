@@ -87,4 +87,4 @@ title: Materialize Colors
   <span class="tag">&lt;li</span> <span class="atn">class</span> <span class="pun">=</span> <span class="atv">"red accent-3"</span><span class="tag">&gt;</span><span class="pln">Using red accent-3</span><span class="tag">&lt;/li&gt;</span>
   <span class="tag">&lt;li</span> <span class="atn">class</span> <span class="pun">=</span> <span class="atv">"red accent-4"</span><span class="tag">&gt;</span><span class="pln">Using red accent-4</span><span class="tag">&lt;/li&gt;</span>
 <span class="tag">&lt;/ul&gt;</span></pre>
-<p><img src="/wd/materialize/images/materializeRedLightenDarken.png" alt="shades of red" width="600" height="465" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/11515414" data-api-returntype="File"></p>
+<p><img src="/wdarchive/materialize/images/materializeRedLightenDarken.png" alt="shades of red" width="600" height="465" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/11515414" data-api-returntype="File"></p>

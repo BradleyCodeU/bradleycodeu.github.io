@@ -5,7 +5,7 @@ title: Materialize Collapsibles
 ---
 <p>Source: <a href="https://materializecss.com/collapsible.html">https://materializecss.com/collapsible.html</a></p>
 <p><span>Collapsibles are accordion elements that expand when clicked on. They allow you to hide content that is not immediately relevant to the user.</span></p>
-<p><span><img src="/wd/materialize/images/materializeCollapse01.png" alt="materializeCollapse01.png" width="600" height="171" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/12153667" data-api-returntype="File"></span></p>
+<p><span><img src="/wdarchive/materialize/images/materializeCollapse01.png" alt="materializeCollapse01.png" width="600" height="171" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/12153667" data-api-returntype="File"></span></p>
 <pre class=" language-markup"><code class=" language-markup"><span class="token tag"><span class="token punctuation">  &lt;</span>ul <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>collapsible<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
     <span class="token tag"><span class="token punctuation">&lt;</span>li<span class="token punctuation">&gt;</span></span>
       <span class="token tag"><span class="token punctuation">&lt;</span>div <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>collapsible-header<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token punctuation">&lt;</span>i <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>material-icons<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>filter_drama<span class="token tag"><span class="token punctuation">&lt;/</span>i<span class="token punctuation">&gt;</span></span>First<span class="token tag"><span class="token punctuation">&lt;/</span>div<span class="token punctuation">&gt;</span></span>
@@ -29,10 +29,10 @@ title: Materialize Collapsibles
 <p><span>There are a few ways a collapsible can behave. It can only allow one section to stay open at a time, which is called an Accordion. It can allow multiple sections to stay open, which is called Expandable. Materialize also has a collapsible behavior called Popout that highlights the currently selected section. See below for a demo of each type.</span></p>
 <h3 class="light">Accordion</h3>
 <p>This is the default behavior. Only allows one section to stay open at a time.</p>
-<p><img src="/wd/materialize/images/materializeCollapse02.gif" alt="materializeCollapse02.gif" width="600" height="380" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/12154157" data-api-returntype="File"></p>
+<p><img src="/wdarchive/materialize/images/materializeCollapse02.gif" alt="materializeCollapse02.gif" width="600" height="380" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/12154157" data-api-returntype="File"></p>
 <h3>Expandable</h3>
 <p><span>Allows multiple sections to stay open. </span></p>
-<p><span><img src="/wd/materialize/images/materializeCollapse03.gif" alt="materializeCollapse03.gif" width="600" height="380" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/12154171" data-api-returntype="File"></span></p>
+<p><span><img src="/wdarchive/materialize/images/materializeCollapse03.gif" alt="materializeCollapse03.gif" width="600" height="380" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/12154171" data-api-returntype="File"></span></p>
 <pre class=" language-markup"><code class=" language-markup">  <span class="token tag"><span class="token punctuation">&lt;</span>ul <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>collapsible expandable<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
 </code></pre>
 <p>Requires this Javascript instead of the default JS</p>
@@ -42,5 +42,5 @@ title: Materialize Collapsibles
 <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
 <h3><span>Popout</span></h3>
 <p><span>Popout highlights the currently selected section.</span></p>
-<p><span><img src="/wd/materialize/images/materializeCollapse04.gif" alt="materializeCollapse04.gif" width="600" height="380" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/12154180" data-api-returntype="File"></span></p>
+<p><span><img src="/wdarchive/materialize/images/materializeCollapse04.gif" alt="materializeCollapse04.gif" width="600" height="380" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/12154180" data-api-returntype="File"></span></p>
 <pre class=" language-markup"><code class=" language-markup"><span class="token tag"><span class="token punctuation">&lt;</span>ul <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>collapsible popout<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span></code></pre>

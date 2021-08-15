@@ -6,17 +6,17 @@ title: Bootstrap Club Page
 
 This project uses the following content:
 
-- [Bootstrap 4 Get Started](/wd/bootstrap/bootstrap-4-get-started/)
+- [Bootstrap 4 Get Started](/wdarchive/bootstrap/bootstrap-4-get-started/)
 
-- [Bootstrap 4 Containers](/wd/bootstrap/bootstrap-4-containers/)
+- [Bootstrap 4 Containers](/wdarchive/bootstrap/bootstrap-4-containers/)
 
-- [Bootstrap 4 Colors](/wd/bootstrap/bootstrap-4-colors/)
+- [Bootstrap 4 Colors](/wdarchive/bootstrap/bootstrap-4-colors/)
 
-- [Bootstrap 4 Grid](/wd/bootstrap/bootstrap-4-grid/)
+- [Bootstrap 4 Grid](/wdarchive/bootstrap/bootstrap-4-grid/)
 
-- [Bootstrap 4 Jumbotron](/wd/bootstrap/bootstrap-4-jumbotron/)
+- [Bootstrap 4 Jumbotron](/wdarchive/bootstrap/bootstrap-4-jumbotron/)
 
-- [Bootstrap 4 Buttons](/wd/bootstrap/bootstrap-4-buttons/)
+- [Bootstrap 4 Buttons](/wdarchive/bootstrap/bootstrap-4-buttons/)
 
 
 
@@ -26,16 +26,16 @@ Use Bootstrap to create a page for a school club.
 
 You MUST have:
 
-1.  a main [container](/wd/bootstrap/bootstrap-4-containers "Bootstrap 4 Containers") with everything else inside of it
-2.  a [Jumbotron](/wd/bootstrap/bootstrap-4-jumbotron "Bootstrap 4 Jumbotron") that contains:
+1.  a main [container](/wdarchive/bootstrap/bootstrap-4-containers "Bootstrap 4 Containers") with everything else inside of it
+2.  a [Jumbotron](/wdarchive/bootstrap/bootstrap-4-jumbotron "Bootstrap 4 Jumbotron") that contains:
     *   logo (you can re-use the one from last fall, if you can find it)
-3.  a [Bootstrap row with 3 columns](/wd/bootstrap/bootstrap-4-grid "Bootstrap 4 Grid"). Each column contains a photo from the actual club (would be great if you could find Bradley photos... if not, then any photos from Google will do).
-4.  two sections (Info section and Sign Up section) on the same line. Hint: [make a row with two columns](/wd/bootstrap/bootstrap-4-grid "Bootstrap 4 Grid").
+3.  a [Bootstrap row with 3 columns](/wdarchive/bootstrap/bootstrap-4-grid "Bootstrap 4 Grid"). Each column contains a photo from the actual club (would be great if you could find Bradley photos... if not, then any photos from Google will do).
+4.  two sections (Info section and Sign Up section) on the same line. Hint: [make a row with two columns](/wdarchive/bootstrap/bootstrap-4-grid "Bootstrap 4 Grid").
     *   the Info section has an h2 that says Info
     *   the Sign Up section has an h2 that says Sign Up
     *   the info section takes up about 60% of the page width and the form takes up about 40% of the page width. Hint: what is 60% of 12? round to the nearest whole number
 5.  Give every Bootstrap column sizes for small, medium, and large screens
-6.  Use 2 or more [Bootstrap background color classes](/wd/bootstrap/bootstrap-4-colors "Bootstrap 4 Colors")
+6.  Use 2 or more [Bootstrap background color classes](/wdarchive/bootstrap/bootstrap-4-colors "Bootstrap 4 Colors")
 
 
 Here are some example clubs...

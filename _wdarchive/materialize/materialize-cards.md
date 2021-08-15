@@ -48,7 +48,7 @@ title: Materialize Cards
 <span class="token tag"><span class="token punctuation">&lt;/</span>div<span class="token punctuation">&gt;</span></span></code></pre>
 <h2>Image Card</h2>
 <p>Here is the standard card with an image thumbnail.</p>
-<p><img src="/wd/materialize/images/materializeImageCard.png" alt="image Card" width="400" height="523" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/11564683" data-api-returntype="File"></p>
+<p><img src="/wdarchive/materialize/images/materializeImageCard.png" alt="image Card" width="400" height="523" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/11564683" data-api-returntype="File"></p>
 <pre class=" language-markup"><code class=" language-markup"><span class="token tag"><span class="token punctuation">&lt;</span>div <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>card<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
   <span class="token tag"><span class="token punctuation">&lt;</span>div <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>card-image<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
     <span class="token tag"><span class="token punctuation">&lt;</span>img <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>images/sample-1.jpg<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>

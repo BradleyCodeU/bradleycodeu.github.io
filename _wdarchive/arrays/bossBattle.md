@@ -2,7 +2,7 @@
 layout: project
 category: arrays
 title: Boss Battle
-permalink: /wd/arrays/bossBattle/
+permalink: /wdarchive/arrays/bossBattle/
 ---
 In your HTML file...
 - create a div and give it the id "bossHealthBox"

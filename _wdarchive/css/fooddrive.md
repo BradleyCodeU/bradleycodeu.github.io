@@ -17,4 +17,4 @@ You'll need to add lots of tags to fix this page: tables, lists, headings (text 
 
 *This starter code will make ONE page. Do NOT split it into multiple pages.*
 
-[CLICK HERE and then copy/paste the text into your HTML editor](/wd/css/food_drive_starter_text.txt)
+[CLICK HERE and then copy/paste the text into your HTML editor](/wdarchive/css/food_drive_starter_text.txt)

@@ -9,13 +9,13 @@ Part 3 of the Materialize pizza webpage.
 
 This project uses the following content:
 
-- [Pickers](/wd/materialize/materialize-pickers/)
+- [Pickers](/wdarchive/materialize/materialize-pickers/)
 
-- [Range Sliders](/wd/materialize/materialize-range-sliders/)
+- [Range Sliders](/wdarchive/materialize/materialize-range-sliders/)
 
-- [Switches](/wd/materialize/materialize-switches/)
+- [Switches](/wdarchive/materialize/materialize-switches/)
 
-- [Sidenav](/wd/materialize/materialize-sidenav/)
+- [Sidenav](/wdarchive/materialize/materialize-sidenav/)
 
 
 ## Directions

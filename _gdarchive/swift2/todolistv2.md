@@ -30,7 +30,7 @@ Drag the storyboard entry point (an arrow ---> currently pointing to your origin
 With the table view controller set as the initial view controller in your storyboard, this will be the first scene that loads upon launching the app.
 
 Your storyboard should look like this:
-![entry Point](/gd/swift/img/entryPoint.jpg)
+![entry Point](/gdarchive/swift/img/entryPoint.jpg)
 
 If you test run your app now, you'll see an empty table view, which is a screen with a number of horizontal dividers separating it into rows that contain no content.
 
@@ -48,7 +48,7 @@ The individual rows in a table view are managed by table view cells. The single 
 In our list, a simple label for each table view cell will display the ToDo item's name.
 To do this find a Label object in the Object library and drag it onto the table cell. Place the Label object close to the left side of the table cell, aligned to the center of the cell. Also, stretch it to the end of the cell.
 
-![label In A Prototype Table Cell](/gd/swift/img/labelInAPrototypeTableCell.jpeg)
+![label In A Prototype Table Cell](/gdarchive/swift/img/labelInAPrototypeTableCell.jpeg)
 
 Choose File > New > File. A dialog appears. To its top, and under iOS, select Cocoa Touch Class under the Source section and click Next.
 
@@ -56,7 +56,7 @@ In the Class field, type the name of our items' cell, which is Item.
 Select UITableViewCell in the "Subclass of" field. The name of the class will automatically change to ItemTableViewCell.
 Make sure that the Language option is set to Swift.
 
-![Class Name ItemTableViewCell](/gd/swift/img/ClassNameItemTableViewCell.png)
+![Class Name ItemTableViewCell](/gdarchive/swift/img/ClassNameItemTableViewCell.png)
 
 Click Next.
 The save location defaults to your project directory. Leaving the defaults as they are, click Create.
@@ -67,16 +67,16 @@ This creates a class for our cells, inherited from the UITableViewCell class. We
 
 To connect the table view cell in the scene to our just-created custom cell subclass, select the Table View Cell in the storyboard's outline view.
 
-![TableViewCell In The Hierarchy](/gd/swift/img/TableViewCellInTheHierarchy.jpeg)
+![TableViewCell In The Hierarchy](/gdarchive/swift/img/TableViewCellInTheHierarchy.jpeg)
 
 With the table view cell selected, open the Attributes inspector in the Utility area.
 In the Attributes inspector, find the field labeled Identifier and type ItemTableViewCell.
 
-![TableViewCell Identifier](/gd/swift/img/TableViewCellIdentifier.jpeg)
+![TableViewCell Identifier](/gdarchive/swift/img/TableViewCellIdentifier.jpeg)
 
 Open the Identity inspector. In the field labeled Class, select ItemTableViewCell.
 
-![custom Class ItemTableViewCell](/gd/swift/img/customClassItemTableViewCell.jpeg)
+![custom Class ItemTableViewCell](/gdarchive/swift/img/customClassItemTableViewCell.jpeg)
 
 The class of our cell prototype is now set to the newly created ItemTableViewCell class.
 
@@ -87,7 +87,7 @@ In your storyboard, select the label in the table view cell.
 
 Open the assistant editor by clicking the Editor drop-down menu and then selecting Assistant. Xcode automatically picks a file for you to edit on the right. IF IT OPENED THE WRONG FILE you can drag ItemTableViewCell.swift from the Navigator area to the top of the new Editor window on the right.
 
-![Click Editor DropDown Then Assistant](/gd/swift/img/ClickEditorDropDownThenAssistant.gif)
+![Click Editor DropDown Then Assistant](/gdarchive/swift/img/ClickEditorDropDownThenAssistant.gif)
 
 From the label object on your canvas, control-drag to the code display in the editor on the right, to ItemTableViewCell.swift. In the dialog, give your label the Name of nameLabel. Click Connect.
 The property will be generated for the label:
@@ -131,7 +131,7 @@ Leave these defaults as they are, and click Create. Xcode creates ItemTableViewC
 
 Next, open your storyboard to point the table view controller scene to ItemTableViewController.swift. Select the table view controller by clicking on its scene dock until the entire scene is outlined in blue. Then select the ItemTableViewController class from the Identity inspector.
 
-![Custom Class ItemTableViewController](/gd/swift/img/CustomClassItemTableViewController.jpeg)
+![Custom Class ItemTableViewController](/gdarchive/swift/img/CustomClassItemTableViewController.jpeg)
 
 Select the ItemTableViewController class from the Identity inspector.
 
@@ -240,12 +240,12 @@ A navigation controller manages transitions backward and forward through a serie
 Open Main.storyboard.
 Select the table view controller by clicking on its scene dock.
 
-![Scene Dock](/gd/swift/img/SceneDock.jpeg)
+![Scene Dock](/gdarchive/swift/img/SceneDock.jpeg)
 
 With the table view controller selected, choose Editor > Embed In > Navigation Controller.
 Xcode now adds a new navigation controller to your storyboard, sets its storyboard entry point, and establishes a relationship between the new navigation controller and your existing table view controller.
 
-![Adding A Navigation Controller](/gd/swift/img/AddingANavigationController.jpeg)
+![Adding A Navigation Controller](/gdarchive/swift/img/AddingANavigationController.jpeg)
 
 On the canvas, the icon that connects the controllers indicates the root view controller relationship.
 You might notice that your table view now has a bar at the top. This is a navigation bar.
@@ -256,14 +256,14 @@ Every controller on the navigation stack has its navigation bar, which can conta
 
 To add a title, double-click the navigation bar in the items list scene or edit the Title property in Attributes inspector.
 
-![Add A Title To The Nav Bar](/gd/swift/img/AddATitleToTheNavBar.jpeg)
+![Add A Title To The Nav Bar](/gdarchive/swift/img/AddATitleToTheNavBar.jpeg)
 
 Enter a title such as "List" and press Return.
 In the Object library, find a Bar Button Item object.
 Drag a Bar Button Item object from the list to the far right of the navigation bar.
 A button called Item appears where you dragged the bar button item.
 
-![Drag A Bar Button Item](/gd/swift/img/DragABarButtonItem.jpeg)
+![Drag A Bar Button Item](/gdarchive/swift/img/DragABarButtonItem.jpeg)
 
 Select the bar button item and open the Attributes inspector, where you'll choose Add from the pop-up menu next to the System Item option.
 The button will change to an Add button (+).
@@ -275,11 +275,11 @@ The varying choices for the System Item property can be used to change the appea
 To have the Add button (+) bring up the item scene, we need to trigger a segue (or transition) to that scene.
 On the canvas, select the Add button (+) and Control-drag from the button to the item scene.
 
-![Control Drag From The Add Button](/gd/swift/img/ControlDragFromTheAddButton.jpeg)
+![Control Drag From The Add Button](/gdarchive/swift/img/ControlDragFromTheAddButton.jpeg)
 
 A shortcut menu with the title Action Segue appears in the location where the drag ended.
 
-![Action Segue Menu](/gd/swift/img/ActionSegueMenu.jpeg)
+![Action Segue Menu](/gdarchive/swift/img/ActionSegueMenu.jpeg)
 
 The Action Segue menu allows you to choose what type of segue to use when transitioning.
 Choose show from the Action Segue menu.
@@ -292,7 +292,7 @@ We have also removed the Save Item button from the scene; we'll add the Save and
 To add the "New Item" scene to the navigation, simply repeat the steps you used for the items list scene when embedding it in a Navigation Controller. Add the text "Editor" at the center of the nav bar and add two Bar Button Items. After adding them, select Cancel and Save as the System Item in Attribute inspector.
 Run the app. When you click the Add button from the items list, you should see this:
 
-![The Save And Cancel Buttons](/gd/swift/img/EditorWithCancelAndSaveButtons.png)
+![The Save And Cancel Buttons](/gdarchive/swift/img/EditorWithCancelAndSaveButtons.png)
 
 The buttons haven't been linked to any actions yet, so they need to be configured for actions.
 
@@ -319,7 +319,7 @@ The Save button requires an outlet in order to work.
 Open Assistant Editor, and control-drag from the Save button on your canvas to the code display in the editor on the right.
 In the dialog that appears, type saveButton in the Name field and click Connect:
 
-![saveButton Outlet](/gd/swift/img/saveButtonOutlet.jpeg)
+![saveButton Outlet](/gdarchive/swift/img/saveButtonOutlet.jpeg)
 
 Now, when a user presses the Save button, we need to display the items list with the new item added.
 
@@ -365,7 +365,7 @@ This adds the new item to the existing list of items in the data model. It also 
 
 To trigger this action method, you need to create the actual unwind segue. To do this, first open your storyboard. Control-drag from the Save button to the Exit item at the top of the scene.
 
-![control Drag From Save Button To Exit](/gd/swift/img/controlDragFromSaveButtonToExit.jpeg)
+![control Drag From Save Button To Exit](/gdarchive/swift/img/controlDragFromSaveButtonToExit.jpeg)
 
 Choose unwindToList: from the shortcut menu.
 Now, when users tap the Save button, they navigate back to the items list scene, during which process the unwindToList action method is called.
@@ -391,7 +391,7 @@ Go to ItemTableViewController.swift and add this action/function:
 
 We can now connect the Cancel button to the action segue "cancel". We do that by control-dragging from the button to the Exit placeholder at the top of the storyboard scene.
 
-![connect Cancel To Exit](/gd/swift/img/connectCancelToExit.png)
+![connect Cancel To Exit](/gdarchive/swift/img/connectCancelToExit.png)
 
 The Action Segue menu should show two options:
   - cancel
@@ -412,9 +412,9 @@ You now have two segues that lead from the Table View to the Item View. You need
 
 Select one of the segues, then the other. When the Cell is selected, type EditItem as the identifier in the Attributes inspector. When the (+) button is selected, type AddItem in the Attributes inspector.
 
-![Edit Item Identifier](/gd/swift/img/EditItemIdentifier.png)
+![Edit Item Identifier](/gdarchive/swift/img/EditItemIdentifier.png)
 
-![Add Item Identifier](/gd/swift/img/AddItemIdentifier.png)
+![Add Item Identifier](/gdarchive/swift/img/AddItemIdentifier.png)
 
 
 #### Loading An Item Editing

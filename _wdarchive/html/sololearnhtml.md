@@ -10,6 +10,6 @@ Go to [sololearn.com/Play/HTML](https://www.sololearn.com/Play/HTML) and complet
 
 Turn in a screenshot that shows you've completed the first two rows of HTML Basics.
 
-![screenshot of Sololearn HTML Basics](/wd/html/sololrnScreenshot.png)
+![screenshot of Sololearn HTML Basics](/wdarchive/html/sololrnScreenshot.png)
 
 12 pts

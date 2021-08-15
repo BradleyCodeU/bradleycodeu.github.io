@@ -6,7 +6,7 @@ title: P5 Whiteboard
 
 Create a P5js application that allows you to draw pictures.
 
-![whiteboard demo](/wd/arrays/whiteboardDemo.gif)
+![whiteboard demo](/wdarchive/arrays/whiteboardDemo.gif)
 
 In your HTML file...
 

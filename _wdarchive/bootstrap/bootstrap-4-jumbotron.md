@@ -8,7 +8,7 @@ title: Bootstrap Jumbotron
 <p>Source: <a href="https://www.w3schools.com/bootstrap4/bootstrap_jumbotron.asp">https://www.w3schools.com/bootstrap4/bootstrap_jumbotron.asp</a></p>
 <p>A jumbotron indicates a big grey box for calling extra attention to some special content or information.</p>
 <p><strong>Tip:</strong><span> </span>Inside a jumbotron you can put nearly any valid HTML, including other Bootstrap elements/classes.</p>
-<p><img src="/wd/bootstrap/images/bootstrapJumbotron01.png" alt="bootstrapJumbotron01.png" width="600" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/10747921" data-api-returntype="File"></p>
+<p><img src="/wdarchive/bootstrap/images/bootstrapJumbotron01.png" alt="bootstrapJumbotron01.png" width="600" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/10747921" data-api-returntype="File"></p>
 <div class="jumbotron">
 <p><span style="font-family: sans-serif; font-size: 1rem; color:#000;">Use a &lt;div&gt; element with class .jumbotron to create a jumbotron:</span></p>
 </div>
@@ -38,4 +38,4 @@ title: Bootstrap Jumbotron
 <div class="w3-strong notranslate htmlHigh">
 <span class="tagnamecolor"><span class="tagcolor">&lt;</span>div<span class="attributecolor"><span> </span>class<span class="attributevaluecolor">="jumbotron text-white bg-primary"</span></span><span class="tagcolor">&gt;</span></span><br>  <span class="tagnamecolor"><span class="tagcolor">&lt;</span>h1<span class="tagcolor">&gt;</span></span>Bootstrap Tutorial<span class="tagnamecolor"><span class="tagcolor">&lt;</span>/h1<span class="tagcolor">&gt;</span></span><br>  <span class="tagnamecolor"><span class="tagcolor">&lt;</span>p<span class="tagcolor">&gt;</span></span>Bootstrap is the most popular HTML, CSS...<span class="tagnamecolor"><span class="tagcolor">&lt;</span>/p<span class="tagcolor">&gt;</span></span><br><span class="tagnamecolor"><span class="tagcolor">&lt;</span>/div<span class="tagcolor">&gt;</span></span>
 </div>
-<div class="w3-strong notranslate htmlHigh"><span class="tagnamecolor"><span class="tagcolor"><img src="/wd/bootstrap/images/bootstrapJumbotron02.png" alt="bootstrapJumbotron02.png" width="600" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/10747925" data-api-returntype="File"></span></span></div>
+<div class="w3-strong notranslate htmlHigh"><span class="tagnamecolor"><span class="tagcolor"><img src="/wdarchive/bootstrap/images/bootstrapJumbotron02.png" alt="bootstrapJumbotron02.png" width="600" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/10747925" data-api-returntype="File"></span></span></div>

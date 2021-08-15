@@ -11,20 +11,20 @@ title: Bootstrap Colors
 <div class="w3-example">
 <h3>Example</h3>
 <div class="w3-white w3-padding notranslate fix">
-<p class="text-warning"><img src="/wd/bootstrap/images/bootstrapColors1.png" alt="bootstrapColors1.png" width="300" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/10552807" data-api-returntype="File"></p>
+<p class="text-warning"><img src="/wdarchive/bootstrap/images/bootstrapColors1.png" alt="bootstrapColors1.png" width="300" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/10552807" data-api-returntype="File"></p>
 </div>
 <a class="w3-btn w3-margin-bottom w3-margin-top" href="https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_txt_colors&amp;stacked=h" >Try it Yourself »</a>
 </div>
 <p>Contextual text classes can also be used on links, which will add a darker hover color:</p>
 <div class="w3-example">
 <h3>Example</h3>
-<div class="w3-white w3-padding notranslate fix"><img src="/wd/bootstrap/images/bootstrapColors2.png" alt="bootstrapColors2.png" width="511" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/10552818" data-api-returntype="File"></div>
+<div class="w3-white w3-padding notranslate fix"><img src="/wdarchive/bootstrap/images/bootstrapColors2.png" alt="bootstrapColors2.png" width="511" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/10552818" data-api-returntype="File"></div>
 <a class="w3-btn w3-margin-bottom w3-margin-top" href="https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_txt_colors_links&amp;stacked=h" >Try it Yourself »</a>
 </div>
 <p>You can also add 50% opacity for black or white text with the<span> </span>.text-black-50<span> </span>or<span> </span>.text-white-50<span> </span>classes:</p>
 <div class="w3-example">
 <h3>Example</h3>
-<p><img src="/wd/bootstrap/images/bootstrapColors3.png" alt="bootstrapColors3.png" width="535" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/10552821" data-api-returntype="File"></p>
+<p><img src="/wdarchive/bootstrap/images/bootstrapColors3.png" alt="bootstrapColors3.png" width="535" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/10552821" data-api-returntype="File"></p>
 <a class="w3-btn w3-margin-bottom w3-margin-top" href="https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_txt_colors_opacity&amp;stacked=h" >Try it Yourself »</a>
 </div>
 <hr>
@@ -33,7 +33,7 @@ title: Bootstrap Colors
 <p>Note that background colors do not set the text color, so in some cases you'll want to use them together with a<span> </span>.text-*<span> </span>class.</p>
 <div class="w3-example">
 <h3>Example</h3>
-<p><img src="/wd/bootstrap/images/bootstrapColors4.png" alt="bootstrapColors4.png" width="551" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/10552824" data-api-returntype="File"></p>
+<p><img src="/wdarchive/bootstrap/images/bootstrapColors4.png" alt="bootstrapColors4.png" width="551" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/10552824" data-api-returntype="File"></p>
 <a class="w3-btn w3-margin-bottom w3-margin-top" href="https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_txt_bgcolors&amp;stacked=h" >Try it Yourself »</a>
 </div>
 <hr>
@@ -46,5 +46,5 @@ title: Bootstrap Colors
 </div>
 <a class="w3-btn w3-margin-bottom" href="https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_container_color&amp;stacked=h" >Try it Yourself »</a>
 </div>
-<div class="w3-example"><img src="/wd/bootstrap/images/bootstrapColors5.png" alt="bootstrapColors5.png" width="500" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/10553073" data-api-returntype="File"></div>
+<div class="w3-example"><img src="/wdarchive/bootstrap/images/bootstrapColors5.png" alt="bootstrapColors5.png" width="500" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/10553073" data-api-returntype="File"></div>
 </div>

@@ -89,19 +89,19 @@ Projects:
 
   1. Class Codes
 
-  1. [KhanAcademy Drawing With Code](/gd/objects/khanacademydrawingwithcode/) - 10pts
+  1. [KhanAcademy Drawing With Code](/gdarchive/objects/khanacademydrawingwithcode/) - 10pts
 
-  1. [KhanAcademy Games & Visualizations](/gd/objects/khanacademygames/) - 10pts
+  1. [KhanAcademy Games & Visualizations](/gdarchive/objects/khanacademygames/) - 10pts
 
-  1. [Bubble Game v1](/gd/objects/bubblegamev1/) - 50pts
+  1. [Bubble Game v1](/gdarchive/objects/bubblegamev1/) - 50pts
 
-  1. [SoloLrn JS 1](/gd/objects/sololearnjs1/) - 13pts
+  1. [SoloLrn JS 1](/gdarchive/objects/sololearnjs1/) - 13pts
 
-  1. [Bubble Game v2](/gd/objects/bubblegamev2/) - 50pts
+  1. [Bubble Game v2](/gdarchive/objects/bubblegamev2/) - 50pts
 
-  1. [SoloLrn Js 2](/gd/objects/sololearnjs2/) - 15pts
+  1. [SoloLrn Js 2](/gdarchive/objects/sololearnjs2/) - 15pts
 
-  1. Optional Bonus Points [Markov Chain Generator](/gd/objects/markovchaingenerator/) - 50pts
+  1. Optional Bonus Points [Markov Chain Generator](/gdarchive/objects/markovchaingenerator/) - 50pts
 
 "
 
@@ -120,15 +120,15 @@ Projects:
 
 Projects:
 
-  1. [KhanAcademy Transformations](/gd/inheritance/khanacademytransformations/) - 10pts
+  1. [KhanAcademy Transformations](/gdarchive/inheritance/khanacademytransformations/) - 10pts
 
-  1. [UDLR v1](/gd/inheritance/udlrv1/) - 50pts
+  1. [UDLR v1](/gdarchive/inheritance/udlrv1/) - 50pts
 
-  1. [SoloLrn JS 3](/gd/inheritance/sololearnjs3/) - 12pts
+  1. [SoloLrn JS 3](/gdarchive/inheritance/sololearnjs3/) - 12pts
 
-  1. [UDLR v2](/gd/inheritance/udlr/) - 50pts
+  1. [UDLR v2](/gdarchive/inheritance/udlr/) - 50pts
 
-  1. [SoloLrn JS 4](/gd/inheritance/sololearnjs4/) - 15pts
+  1. [SoloLrn JS 4](/gdarchive/inheritance/sololearnjs4/) - 15pts
 
 "
 
@@ -168,11 +168,11 @@ Projects:
   content: "*3 weeks*, vocab: GitHub, commit, push, pull, pull request, clone, fork
 
 
-  1. [Platformer v1](/gd/platforms/platformerv1/) - 50pts
+  1. [Platformer v1](/gdarchive/platforms/platformerv1/) - 50pts
 
-  1. [Player 2](/gd/platforms/player2/) - 10pts
+  1. [Player 2](/gdarchive/platforms/player2/) - 10pts
 
-  1. [Level Up](/gd/platforms/levelup/) - 10pts
+  1. [Level Up](/gdarchive/platforms/levelup/) - 10pts
   "
 
 - title: csharp
@@ -189,13 +189,13 @@ Projects:
 
 Projects:
 
-1. [SoloLrn CSharp](/gd/csharp/sololearncsharp/) - 11pts
+1. [SoloLrn CSharp](/gdarchive/csharp/sololearncsharp/) - 11pts
 
-1. [Roll A Ball v1](/gd/csharp/rollaballv1/) - 20pts
+1. [Roll A Ball v1](/gdarchive/csharp/rollaballv1/) - 20pts
 
-1. [Roll A Ball v2](/gd/csharp/rollaballv2/) - 20pts
+1. [Roll A Ball v2](/gdarchive/csharp/rollaballv2/) - 20pts
 
-1. [Space Shooter v1](/gd/csharp/spaceshooterv1/) - 30pts
+1. [Space Shooter v1](/gdarchive/csharp/spaceshooterv1/) - 30pts
 
 "
 
@@ -241,17 +241,17 @@ Projects:
   content: "*3 weeks*
 
 
-1. [All About Me iOS App](/gd/swift/allaboutmeiosapp/)
+1. [All About Me iOS App](/gdarchive/swift/allaboutmeiosapp/)
 
-1. [SoloLrn Swift Basics](/gd/swift/sololearnswift/)
+1. [SoloLrn Swift Basics](/gdarchive/swift/sololearnswift/)
 
-1. [Chapters 1 To 6](/gd/swift/chapters1to6/)
+1. [Chapters 1 To 6](/gdarchive/swift/chapters1to6/)
 
-1. [Chapters 7 To 12](/gd/swift/chapters7to12/)
+1. [Chapters 7 To 12](/gdarchive/swift/chapters7to12/)
 
-1. [SoloLrn Swift Control Flow](/gd/swift/SoloLrnSwiftControlFlow/)
+1. [SoloLrn Swift Control Flow](/gdarchive/swift/SoloLrnSwiftControlFlow/)
 
-1. [Chapter 13 QuestionBot](/gd/swift/chapter13QuestionBot/)
+1. [Chapter 13 QuestionBot](/gdarchive/swift/chapter13QuestionBot/)
 
 
 
@@ -274,13 +274,13 @@ Projects:
 Projects:
 
 
-1. [Space Shooter v2](/gd/unity3d/spaceshooterv2/)
+1. [Space Shooter v2](/gdarchive/unity3d/spaceshooterv2/)
 
-1. [Terrain v1](/gd/unity3d/terrainv1/)
+1. [Terrain v1](/gdarchive/unity3d/terrainv1/)
 
-1. [Terrain v2](/gd/unity3d/terrainv2/)
+1. [Terrain v2](/gdarchive/unity3d/terrainv2/)
 
-1. [WebGL Export](/gd/unity3d/webglexport/)
+1. [WebGL Export](/gdarchive/unity3d/webglexport/)
 
 "
 
@@ -288,33 +288,33 @@ Projects:
   heading: "# Swift2"
   content: "*3 wks*
 
-  1. [ShouldBot App](/gd/swift2/shouldbotApp/)
+  1. [ShouldBot App](/gdarchive/swift2/shouldbotApp/)
 
-  1. [SoloLrn Swift Functions Closures](/gd/swift2/SoloLrnSwiftFunctionsClosures/)
+  1. [SoloLrn Swift Functions Closures](/gdarchive/swift2/SoloLrnSwiftFunctionsClosures/)
 
-  1. [Flashlight App](/gd/swift2/flashlightApp/)
+  1. [Flashlight App](/gdarchive/swift2/flashlightApp/)
 
-  1. [Todo List App v1](/gd/swift2/todolistv1/)
+  1. [Todo List App v1](/gdarchive/swift2/todolistv1/)
 
-  1. [SoloLrn Swift Object Oriented Prog](/gd/swift2/SoloLrnSwiftObjectOrientedProg/)
+  1. [SoloLrn Swift Object Oriented Prog](/gdarchive/swift2/SoloLrnSwiftObjectOrientedProg/)
 
-  1. [Todo List App v2](/gd/swift2/todolistv2/)
+  1. [Todo List App v2](/gdarchive/swift2/todolistv2/)
 
-  1. [Ch 14 Intro to App Dev Arrays and Loops](/gd/swift2/ch14introtoappdev/)
+  1. [Ch 14 Intro to App Dev Arrays and Loops](/gdarchive/swift2/ch14introtoappdev/)
 
-  1. [Ch 15 Intro to App Dev Defining Structures](/gd/swift2/ch15introtoappdev/)
+  1. [Ch 15 Intro to App Dev Defining Structures](/gdarchive/swift2/ch15introtoappdev/)
 
-  1. [Ch 16 Intro to App Dev QuestionBot2](/gd/swift2/ch16introtoappdev/)
+  1. [Ch 16 Intro to App Dev QuestionBot2](/gdarchive/swift2/ch16introtoappdev/)
 
-  1. [Actions and Outlets](/gd/swift2/ch16introtoappdev/)
+  1. [Actions and Outlets](/gdarchive/swift2/ch16introtoappdev/)
 
-  1. [Ch 18 Intro to App Dev Adaptive User Interfaces](/gd/swift2/ch18introtoappdev/)
+  1. [Ch 18 Intro to App Dev Adaptive User Interfaces](/gdarchive/swift2/ch18introtoappdev/)
 
-  1. [Ch 19 Intro to App Dev Enumerations and Switch](/gd/swift2/ch19introtoappdev/)
+  1. [Ch 19 Intro to App Dev Enumerations and Switch](/gdarchive/swift2/ch19introtoappdev/)
 
-  1. [Final Design](/gd/swift2/ch20introtoappdev/)
+  1. [Final Design](/gdarchive/swift2/ch20introtoappdev/)
 
-  1. [App Design](/gd/swift2/ch21introtoappdev/)
+  1. [App Design](/gdarchive/swift2/ch21introtoappdev/)
 
 
   "
@@ -359,13 +359,13 @@ Projects:
   heading: "# Unity2d"
   content: "*4 weeks*
 
-1. [Robo Bros](/gd/unity2d/robobros/)
+1. [Robo Bros](/gdarchive/unity2d/robobros/)
 
-1. [Super Soy Boy v1](/gd/unity2d/supersoyboyv1/)
+1. [Super Soy Boy v1](/gdarchive/unity2d/supersoyboyv1/)
 
-1. [Super Soy Boy v2](/gd/unity2d/supersoyboyv2/)
+1. [Super Soy Boy v2](/gdarchive/unity2d/supersoyboyv2/)
 
-1. [Super Soy Boy v3](/gd/unity2d/supersoyboyv3/)
+1. [Super Soy Boy v3](/gdarchive/unity2d/supersoyboyv3/)
 
 
   "
@@ -374,11 +374,11 @@ Projects:
   heading: "# Multiplayer"
   content: "*4 weeks*
 
-1. [Team Rollaball](/gd/multiplayer/teamrollaball/)
+1. [Team Rollaball](/gdarchive/multiplayer/teamrollaball/)
 
-1. [P5 Multiplayer v1](/gd/multiplayer/p5multiplayerv1/)
+1. [P5 Multiplayer v1](/gdarchive/multiplayer/p5multiplayerv1/)
 
-1. [P5 Multiplayer v2](/gd/multiplayer/p5multiplayerv2/)
+1. [P5 Multiplayer v2](/gdarchive/multiplayer/p5multiplayerv2/)
 
 
 "
@@ -387,8 +387,8 @@ Projects:
   heading: "# iOS Platformer"
   content: "*3 weeks*
 
-1. [iOS Platformer v1](/gd/iosplatformer/iosplatformerv1/)
+1. [iOS Platformer v1](/gdarchive/iosplatformer/iosplatformerv1/)
 
-1. [iOS Platformer v2](/gd/iosplatformer/iosplatformerv2/)
+1. [iOS Platformer v2](/gdarchive/iosplatformer/iosplatformerv2/)
 
 "

@@ -27,7 +27,7 @@ title: Bootstrap Containers
 <div class="w3-row-padding">
 <div class="w3-half">
 <div class="w3-padding-16">
-<div class="w3-center w3-display-container"><img src="/wd/bootstrap/images/bootstrap4ContainerVsContainerFluid.png" alt="bootstrap4ContainerVsContainerFluid.png" width="1968" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/10549841" data-api-returntype="File"></div>
+<div class="w3-center w3-display-container"><img src="/wdarchive/bootstrap/images/bootstrap4ContainerVsContainerFluid.png" alt="bootstrap4ContainerVsContainerFluid.png" width="1968" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/10549841" data-api-returntype="File"></div>
 </div>
 </div>
 </div>

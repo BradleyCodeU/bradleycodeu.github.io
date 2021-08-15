@@ -30,7 +30,7 @@ title: Bootstrap Forms and Inputs
 <p>Bootstrap supports all the HTML5 input types: text, password, datetime, datetime-local, date, month, time, week, number, email, url, search, tel, and color.</p>
 <p><strong>Note:</strong><span> </span><span style="text-decoration: underline;">Inputs will <strong>NOT</strong> be fully styled if their type (for example, type="text") is not properly declared!</span></p>
 <div>
-<div class="form-group"><img src="/wd/bootstrap/images/bootstrapInputs01.png" alt="bootstrapInputs01.png" width="600" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/10748134" data-api-returntype="File"></div>
+<div class="form-group"><img src="/wdarchive/bootstrap/images/bootstrapInputs01.png" alt="bootstrapInputs01.png" width="600" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/10748134" data-api-returntype="File"></div>
 </div>
 <p>The following example contains two input elements; one of<span> </span>type="text"<span> </span>and one of<span> </span>type="password". We use the<span> </span>.form-control<span> </span>class to style inputs with full-width and proper padding, etc:</p>
 <div class="w3-example">
@@ -43,7 +43,7 @@ title: Bootstrap Forms and Inputs
 <hr>
 <h2>Form Control Sizing</h2>
 <p>Change the size of the form control with<span> </span>.form-control-sm<span> </span>or<span> </span>.form-control-lg:</p>
-<p><img src="/wd/bootstrap/images/bootstrapInputs02.png" alt="bootstrapInputs02.png" width="600" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/10748131" data-api-returntype="File"></p>
+<p><img src="/wdarchive/bootstrap/images/bootstrapInputs02.png" alt="bootstrapInputs02.png" width="600" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/10748131" data-api-returntype="File"></p>
 <div class="w3-example">
 <h3>Example</h3>
 <div class="w3-code notranslate htmlHigh">

@@ -28,4 +28,4 @@ Read [Web Fundamentals 2.1.1](https://runestone.academy/runestone/books/publishe
       - switch from Text Documents to All Files
       - name your file helloWorld.html
 
-  ![screenshot of notepad with html tags](/wd/html/notepadhtml.jpg)
+  ![screenshot of notepad with html tags](/wdarchive/html/notepadhtml.jpg)

@@ -9,9 +9,9 @@ REMIX your previous Bootstrap club page.
 
 For v3.0, the club adviser would like you to make a few changes/additions to the club page. Here are some sketches:
 
-![large screen](/wd/bootstrap/images/IMG_0414.JPG)
+![large screen](/wdarchive/bootstrap/images/IMG_0414.JPG)
 
-![small screen](/wd/bootstrap/images/IMG_0414.JPG)
+![small screen](/wdarchive/bootstrap/images/IMG_0414.JPG)
 
 
 Must have:

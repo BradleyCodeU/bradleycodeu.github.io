@@ -1,7 +1,7 @@
 ---
   layout: default
   title: Game Design Curriculum Overview
-  permalink: /gd/
+  permalink: /gdarchive/
 ---
 {% for unit in site.data.gd_units[page.collection] %}
   {% if unit.title == 'menu1' %}{{ unit.content | markdownify }}{% endif %}

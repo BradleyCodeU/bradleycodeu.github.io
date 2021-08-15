@@ -26,4 +26,4 @@ Car or Truck<br>Flower<br>Tree<br>Peace sign<br>Dollar sign<br>Snowman<br>Block 
 
 Using a piece of graph paper, draw a vector version and a raster version of your first design. Draw a vector version and a raster version of your second design. Finally, label the vector versions and the raster versions.
 
-![vector raster drawings of a dog and a pig](/wd/photoshop/vectorRasterDrawings.jpg)
+![vector raster drawings of a dog and a pig](/wdarchive/photoshop/vectorRasterDrawings.jpg)

@@ -9,7 +9,7 @@ title: Materialize Sidenav
 <pre class=" language-markup"><code class=" language-markup"><span class="token tag"><span class="token punctuation">&lt;</span>ul <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>nav-mobile<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>right hide-on-med-and-down<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span></code></pre>
 <p>If all of the links in the navbar are hidden, how will users be able to get to those links?</p>
 <p>The Materialize Sidenav is great for allowing small screens to click the "hamburger menu icon" and access those links. The hamburger menu icon can be set to only show on screen sizes small and medium.</p>
-<p class="caption"><img src="/wd/materialize/images/materializeSidenav.gif" alt="materializeSidenav.gif" width="600" height="402" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/12392910" data-api-returntype="File"></p>
+<p class="caption"><img src="/wdarchive/materialize/images/materializeSidenav.gif" alt="materializeSidenav.gif" width="600" height="402" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/12392910" data-api-returntype="File"></p>
 <p class="caption">This is a slide out menu. You can add a dropdown to your sidebar by using our collapsible component. If you want to see a demo, our sidebar will use this on smaller screens. To use this in conjunction with a fullscreen navigation, you have to use two copies of the same UL.</p>
 <p>Please note that the sidenav HTML should <span style="text-decoration: underline;">NOT</span> be contained within the navbar HTML.</p>
 <p>HTML code</p>
@@ -85,5 +85,5 @@ title: Materialize Sidenav
 </tbody>
 </table>
 <h3>What is a Hamburger Menu Icon?</h3>
-<p><img src="/wd/materialize/images/mobileIcons.png" alt="mobileIcons.png" width="600" height="154" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/12393489" data-api-returntype="File"></p>
-<p><img src="/wd/materialize/images/moreMenuIcons.png" alt="moreMenuIcons.png" width="600" height="393" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/12393497" data-api-returntype="File"></p>
+<p><img src="/wdarchive/materialize/images/mobileIcons.png" alt="mobileIcons.png" width="600" height="154" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/12393489" data-api-returntype="File"></p>
+<p><img src="/wdarchive/materialize/images/moreMenuIcons.png" alt="moreMenuIcons.png" width="600" height="393" data-api-endpoint="https://hilliard.instructure.com/api/v1/courses/31582/files/12393497" data-api-returntype="File"></p>
