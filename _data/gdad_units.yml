@@ -70,7 +70,7 @@ Our “Textbooks”:
 
   - [GDAD HTML Unit Vocab](https://docs.google.com/document/d/1lFET0X74bM1jqZnVSS5yAaAOs6ms1UiarH5JckI54BY/edit?usp=sharing)
 
-  - [GDAD HTML vocab review game](https://bradleycodeu.github.io/wdarchive/html/review/)
+  - [GDAD HTML vocab review game](https://bradleycodeu.github.io/gdad/html/review/)
 
   - [KhanAcademy Intro to HTML](https://www.khanacademy.org/computing/hour-of-code/hour-of-html/pt/html-basics)
 
@@ -88,23 +88,23 @@ Projects:
 
 1. Class Codes
 
-1. [Hello World](/wdarchive/html/helloworld/)
+1. [Hello World](/gdad/html/helloworld/)
 
-1. [SoloLrn HTML](/wdarchive/html/sololearnhtml/)
+1. [SoloLrn HTML](/gdad/html/sololearnhtml/)
 
-1. [Simpler is Better](/wdarchive/html/simplerisbetter/)
+1. [Simpler is Better](/gdad/html/simplerisbetter/)
 
-1. [Poetry with Emphasis](/wdarchive/html/poetrywithemphasis/)
+1. [Poetry with Emphasis](/gdad/html/poetrywithemphasis/)
 
-1. [Club Goals Lists](/wdarchive/html/clubgoalslists/)
+1. [Club Goals Lists](/gdad/html/clubgoalslists/)
 
-1. [KhanAcademy Picture Perfect Trip](/wdarchive/html/khanacademypictureperfecttrip/)
+1. [KhanAcademy Picture Perfect Trip](/gdad/html/khanacademypictureperfecttrip/)
 
-1. [SoloLrn HTML 2](/wdarchive/html/sololearnhtml2/)
+1. [SoloLrn HTML 2](/gdad/html/sololearnhtml2/)
 
-1. Group - [Multi-page Pizza Site 1](/wdarchive/html/multipagepizzasite1/)
+1. Group - [Multi-page Pizza Site 1](/gdad/html/multipagepizzasite1/)
 
-1. [Twine Game v1](/wdarchive/html/twinegamev1/)
+1. [Twine Game v1](/gdad/html/twinegamev1/)
 
 "
 
@@ -116,7 +116,7 @@ Projects:
 
   - [GDAD CSS unit vocab](https://docs.google.com/document/d/1EnxzRSG4OwMD_QLqqwv2yH0XCKy65JzupGgukky7oYA/edit?usp=sharing)
 
-  - [GDAD CSS vocab review game](https://bradleycodeu.github.io/wdarchive/css/review/)
+  - [GDAD CSS vocab review game](https://bradleycodeu.github.io/gdad/css/review/)
 
   - [Images Pixels and RGB](https://drive.google.com/open?id=1WDeCPoWsnHy7-FUteaoZRspIw25sJWyb)
 
@@ -127,19 +127,19 @@ Projects:
 
 Projects:
 
-1. [SoloLrn CSS](/wdarchive/css/sololearncss/)
+1. [SoloLrn CSS](/gdad/css/sololearncss/)
 
-1. [KhanAcademy Drawing with Code](/wdarchive/css/khanacademydrawingwithcode/)
+1. [KhanAcademy Drawing with Code](/gdad/css/khanacademydrawingwithcode/)
 
-1. [Colorful Tables](/wdarchive/css/colorfultables/)
+1. [Colorful Tables](/gdad/css/colorfultables/)
 
-1. Group - [Multi-page Pizza Site 2](/wdarchive/css/multipagepizzasite2/)
+1. Group - [Multi-page Pizza Site 2](/gdad/css/multipagepizzasite2/)
 
-1. [Hexcode Pixels](/wdarchive/css/hexcodepixels/)
+1. [Hexcode Pixels](/gdad/css/hexcodepixels/)
 
-1. [Food Drive](/wdarchive/css/fooddrive/)
+1. [Food Drive](/gdad/css/fooddrive/)
 
-1. [Twine Game v2](/wdarchive/css/twinegamev2/)
+1. [Twine Game v2](/gdad/css/twinegamev2/)
 
 "
 
@@ -148,19 +148,19 @@ Projects:
   content: "*3 weeks* Vocab: JavaScript, id, script, variable, var, let, button, onclick, getElementById(), innerHTML, class, alert, prompt, function, function definition, function call, console, debugging, syntax, comment, operators, assignment operator, equality operator, string, camelCase, display, block, inline, conditional
 
 
-1. [SoloLrn JS Overview](/wdarchive/js/SoloLearnJS1/)
+1. [SoloLrn JS Overview](/gdad/js/SoloLearnJS1/)
 
-1. [Change Text with JS](/wdarchive/js/ChangeTextWithJS/)
+1. [Change Text with JS](/gdad/js/ChangeTextWithJS/)
 
-1. [Three Prompts](/wdarchive/js/JSThreePrompts/)
+1. [Three Prompts](/gdad/js/JSThreePrompts/)
 
-1. [Club Page v1](/wdarchive/js/JSClubPagev1/)
+1. [Club Page v1](/gdad/js/JSClubPagev1/)
 
-1. [SoloLrn JS Basics](/wdarchive/js/SoloLearnJS2/)
+1. [SoloLrn JS Basics](/gdad/js/SoloLearnJS2/)
 
-1. [12 Buttons Game](/wdarchive/js/12ButtonsGame/)
+1. [12 Buttons Game](/gdad/js/12ButtonsGame/)
 
-1. [JS Clicker Game](/wdarchive/js/JSClickerGame/)
+1. [JS Clicker Game](/gdad/js/JSClickerGame/)
 "
 - title: 2ndquarter
   heading: "# 2nd Quarter"
@@ -197,36 +197,36 @@ Projects:
 
 
 
-1. [Join Club](/wdarchive/forms/JoinClub/)
+1. [Join Club](/gdad/forms/JoinClub/)
 
-1. [Form Game 1](/wdarchive/forms/JSFormGame/)
+1. [Form Game 1](/gdad/forms/JSFormGame/)
 
-1. Pair-[Form Game 2](/wdarchive/forms/JSFormGame2/)
+1. Pair-[Form Game 2](/gdad/forms/JSFormGame2/)
 
-1. [Yes or No](/wdarchive/forms/YesOrNo/)
+1. [Yes or No](/gdad/forms/YesOrNo/)
 
-1. [Sound Sample Piano](/wdarchive/forms/SoundSamplePiano/)
+1. [Sound Sample Piano](/gdad/forms/SoundSamplePiano/)
 "
 
 - title: p5js
   heading: "# p5js"
   content: "*3 weeks*
 
-1. [KhanAcademy Drawing With Code](/wdarchive/p5js/KADrawingWithCode/)
+1. [KhanAcademy Drawing With Code](/gdad/p5js/KADrawingWithCode/)
 
-1. [P5 Mouse Mover](/wdarchive/p5js/P5MouseMover/)
+1. [P5 Mouse Mover](/gdad/p5js/P5MouseMover/)
 
-1. [SoloLrn JS 2](/wdarchive/p5js/SoloLearnJS2/)
+1. [SoloLrn JS 2](/gdad/p5js/SoloLearnJS2/)
 
-1. [P5 Bubble Game v1](/wdarchive/p5js/P5BubbleGamev1/)
+1. [P5 Bubble Game v1](/gdad/p5js/P5BubbleGamev1/)
 
-1. [SoloLrn JS 3](/wdarchive/p5js/SoloLearnJS3/)
+1. [SoloLrn JS 3](/gdad/p5js/SoloLearnJS3/)
 
-1. [P5 Bubble Game v2](/wdarchive/p5js/P5BubbleGamev2/)
+1. [P5 Bubble Game v2](/gdad/p5js/P5BubbleGamev2/)
 
-1. [P5 UDLR v1](/wdarchive/p5js/p5udlrv1/)
+1. [P5 UDLR v1](/gdad/p5js/p5udlrv1/)
 
-1. [P5 UDLR v2](/wdarchive/p5js/p5udlrv2/)
+1. [P5 UDLR v2](/gdad/p5js/p5udlrv2/)
 
 "
 
@@ -237,9 +237,9 @@ Projects:
 
 
 
-  - [JS Nested Conditionals Generator](/wdarchive/arrays/jsnestedconditionalsgenerator/)
+  - [JS Nested Conditionals Generator](/gdad/arrays/jsnestedconditionalsgenerator/)
 
-  - [JS Array Practice Generator](/wdarchive/arrays/jsarraypracticegenerator/)
+  - [JS Array Practice Generator](/gdad/arrays/jsarraypracticegenerator/)
 
 
 
@@ -247,17 +247,17 @@ Projects:
 
 Projects:
 
-1. [Random Name Generator](/wdarchive/arrays/randomNameGenerator/)
+1. [Random Name Generator](/gdad/arrays/randomNameGenerator/)
 
-1. Pair-[Boss Battle](/wdarchive/arrays/bossBattle/)
+1. Pair-[Boss Battle](/gdad/arrays/bossBattle/)
 
-1. [Array Search](/wdarchive/arrays/arraySearch/)
+1. [Array Search](/gdad/arrays/arraySearch/)
 
-1. [Guess One Letter](/wdarchive/arrays/guessOneLetter/)
+1. [Guess One Letter](/gdad/arrays/guessOneLetter/)
 
-1. [P5 Snowflakes](/wdarchive/arrays/p5snowflakes/)
+1. [P5 Snowflakes](/gdad/arrays/p5snowflakes/)
 
-1. [P5 Whiteboard](/wdarchive/arrays/p5whiteboard/)
+1. [P5 Whiteboard](/gdad/arrays/p5whiteboard/)
 
 "
 
@@ -298,13 +298,13 @@ Look out! Here comes the Spider-man”
   heading: "# Scrum"
   content: "*3 weeks*
 
-1. Team - [Foobar v1](/wdarchive/scrum/foobarv1/)
+1. Team - [Foobar v1](/gdad/scrum/foobarv1/)
 
-1. [localStorage Character Creator](/wdarchive/scrum/localStorage/)
+1. [localStorage Character Creator](/gdad/scrum/localStorage/)
 
-1. [localStorage Shopping List](/wdarchive/scrum/localStorageShoppingList/)
+1. [localStorage Shopping List](/gdad/scrum/localStorageShoppingList/)
 
-1. Team - [Foobar v2](/wdarchive/scrum/foobarv2/)
+1. Team - [Foobar v2](/gdad/scrum/foobarv2/)
 
   "
 - title: objects
@@ -312,23 +312,23 @@ Look out! Here comes the Spider-man”
   content: "*2 weeks*
 
 
-1. [SoloLrn Objects](/wdarchive/objects/SoloLrnObjects/)
+1. [SoloLrn Objects](/gdad/objects/SoloLrnObjects/)
 
-1. [JS Chatbot](/wdarchive/objects/JSChatbot/)
+1. [JS Chatbot](/gdad/objects/JSChatbot/)
 
-1. [P5 Bouncy Ball](/wdarchive/objects/P5BouncyBall/)
+1. [P5 Bouncy Ball](/gdad/objects/P5BouncyBall/)
 
-1. [WebGL Bouncy Sphere](/wdarchive/objects/WebGLBouncySphere/)
+1. [WebGL Bouncy Sphere](/gdad/objects/WebGLBouncySphere/)
 
-1. [WebGL Bouncy Statue](/wdarchive/objects/WebGLBouncyStatue/)
+1. [WebGL Bouncy Statue](/gdad/objects/WebGLBouncyStatue/)
 
-1. [WebGL Tree](/wdarchive/objects/WebGLTree/)
+1. [WebGL Tree](/gdad/objects/WebGLTree/)
 
-1. [WebGL Tree Class](/wdarchive/objects/WebGLTreeClass/)
+1. [WebGL Tree Class](/gdad/objects/WebGLTreeClass/)
 
-1. [WebGL Animal](/wdarchive/objects/WebGLAnimal/)
+1. [WebGL Animal](/gdad/objects/WebGLAnimal/)
 
-1. [WebGL Animal Class](/wdarchive/objects/WebGLAnimalClass/)
+1. [WebGL Animal Class](/gdad/objects/WebGLAnimalClass/)
 
 
 
@@ -366,31 +366,31 @@ Look out! Here comes the Spider-man”
   content: "*3 weeks*
 
 
-- [Get Started](/wdarchive/bootstrap/bootstrap-4-get-started/)
+- [Get Started](/gdad/bootstrap/bootstrap-4-get-started/)
 
-- [Containers](/wdarchive/bootstrap/bootstrap-4-containers/)
+- [Containers](/gdad/bootstrap/bootstrap-4-containers/)
 
-- [Colors](/wdarchive/bootstrap/bootstrap-4-colors/)
+- [Colors](/gdad/bootstrap/bootstrap-4-colors/)
 
-- [Grid](/wdarchive/bootstrap/bootstrap-4-grid/)
+- [Grid](/gdad/bootstrap/bootstrap-4-grid/)
 
-- [Jumbotron](/wdarchive/bootstrap/bootstrap-4-jumbotron/)
+- [Jumbotron](/gdad/bootstrap/bootstrap-4-jumbotron/)
 
-- [Buttons](/wdarchive/bootstrap/bootstrap-4-buttons/)
+- [Buttons](/gdad/bootstrap/bootstrap-4-buttons/)
 
-- [Forms & Inputs](/wdarchive/bootstrap/bootstrap-4-forms-and-inputs/)
+- [Forms & Inputs](/gdad/bootstrap/bootstrap-4-forms-and-inputs/)
 
-- [Collapse](/wdarchive/bootstrap/bootstrap-4-collapse/)
+- [Collapse](/gdad/bootstrap/bootstrap-4-collapse/)
 
-- [Display & Text Classes](/wdarchive/bootstrap/bootstrap-4-display-and-text-classes/)
+- [Display & Text Classes](/gdad/bootstrap/bootstrap-4-display-and-text-classes/)
 
-- [Carousel](/wdarchive/bootstrap/bootstrap-4-carousel/)
+- [Carousel](/gdad/bootstrap/bootstrap-4-carousel/)
 
-- [Modal](/wdarchive/bootstrap/bootstrap-4-modal/)
+- [Modal](/gdad/bootstrap/bootstrap-4-modal/)
 
-- [Google Fonts](/wdarchive/bootstrap/google-fonts/)
+- [Google Fonts](/gdad/bootstrap/google-fonts/)
 
-- [Google Material Icons](/wdarchive/bootstrap/google-material-icons/)
+- [Google Material Icons](/gdad/bootstrap/google-material-icons/)
 
 
 
@@ -398,13 +398,13 @@ Look out! Here comes the Spider-man”
 Projects:
 
 
-1. [Bootstrap Responsive Columns](/wdarchive/bootstrap/bootstrapresponsivecolumns/)
+1. [Bootstrap Responsive Columns](/gdad/bootstrap/bootstrapresponsivecolumns/)
 
-1. [Bootstrap Club Page](/wdarchive/bootstrap/bootstrapclubpage/)
+1. [Bootstrap Club Page](/gdad/bootstrap/bootstrapclubpage/)
 
-1. [Bootstrap Club Collapse](/wdarchive/bootstrap/bootstrapclubcollapse/)
+1. [Bootstrap Club Collapse](/gdad/bootstrap/bootstrapclubcollapse/)
 
-1. [Bootstrap Club Carousel](/wdarchive/bootstrap/bootstrapclubcarousel/)
+1. [Bootstrap Club Carousel](/gdad/bootstrap/bootstrapclubcarousel/)
 
 
   "
@@ -415,46 +415,46 @@ Projects:
   content: "*3 weeks*
 
 
-- [Get Started](/wdarchive/materialize/materialize-get-started/)
+- [Get Started](/gdad/materialize/materialize-get-started/)
 
-- [Container & Grid](/wdarchive/materialize/materialize-container-and-grid/)
+- [Container & Grid](/gdad/materialize/materialize-container-and-grid/)
 
-- [Colors](/wdarchive/materialize/materialize-colors/)
+- [Colors](/gdad/materialize/materialize-colors/)
 
-- [Cards](/wdarchive/materialize/materialize-cards/)
+- [Cards](/gdad/materialize/materialize-cards/)
 
-- [Navbar](/wdarchive/materialize/materialize-navbar/)
+- [Navbar](/gdad/materialize/materialize-navbar/)
 
-- [Buttons & Waves](/wdarchive/materialize/materialize-buttons-and-waves/)
+- [Buttons & Waves](/gdad/materialize/materialize-buttons-and-waves/)
 
-- [Text Inputs](/wdarchive/materialize/materialize-text-inputs/)
+- [Text Inputs](/gdad/materialize/materialize-text-inputs/)
 
-- [Select Dropdown](/wdarchive/materialize/materialize-select-dropdown/)
+- [Select Dropdown](/gdad/materialize/materialize-select-dropdown/)
 
-- [Radio Buttons & Checkboxes](/wdarchive/materialize/materialize-radio-buttons)
+- [Radio Buttons & Checkboxes](/gdad/materialize/materialize-radio-buttons)
 
-- [Collapsibles](/wdarchive/materialize/materialize-collapsibles/)
+- [Collapsibles](/gdad/materialize/materialize-collapsibles/)
 
-- [Pickers](/wdarchive/materialize/materialize-pickers/)
+- [Pickers](/gdad/materialize/materialize-pickers/)
 
-- [Range Sliders](/wdarchive/materialize/materialize-range-sliders/)
+- [Range Sliders](/gdad/materialize/materialize-range-sliders/)
 
-- [Switches](/wdarchive/materialize/materialize-switches/)
+- [Switches](/gdad/materialize/materialize-switches/)
 
-- [Sidenav](/wdarchive/materialize/materialize-sidenav/)
+- [Sidenav](/gdad/materialize/materialize-sidenav/)
 
 
 
 
 Projects:
 
-1. [Materialize Responsive Columns](/wdarchive/materialize/materializeresponsivecolumns/)
+1. [Materialize Responsive Columns](/gdad/materialize/materializeresponsivecolumns/)
 
-1. [Materialize Pizza Homepage](/wdarchive/materialize/pizzahomepage/)
+1. [Materialize Pizza Homepage](/gdad/materialize/pizzahomepage/)
 
-1. [Materialize Pizza Order Form](/wdarchive/materialize/pizzaorderform/)
+1. [Materialize Pizza Order Form](/gdad/materialize/pizzaorderform/)
 
-1. [Materialize Pizza Birthday Club](/wdarchive/materialize/pizzabirthdayclub/)
+1. [Materialize Pizza Birthday Club](/gdad/materialize/pizzabirthdayclub/)
 
 
 
