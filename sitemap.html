@@ -13,6 +13,7 @@ Sitemap
       {% endif %}
     </li>
   {% endfor %}
+
   {% for p in site.posts %}
     <li>
       {% if p.url == '/' %}
@@ -22,28 +23,40 @@ Sitemap
       {% endif %}
     </li>
   {% endfor %}
-  <li>WD</li>
-  {% for p in site.wd %}
+
+  <li>GDAD</li>
+  {% for p in site.gdad %}
     <li>
         <a href="{{site.baseurl}}{{p.url}}">{{p.url}}</a>
     </li>
   {% endfor %}
+
   <li>APCSP</li>
   {% for p in site.apcsp %}
     <li>
         <a href="{{site.baseurl}}{{p.url}}">{{p.url}}</a>
     </li>
   {% endfor %}
-  <li>GD</li>
-  {% for p in site.gd %}
-    <li>
-        <a href="{{site.baseurl}}{{p.url}}">{{p.url}}</a>
-    </li>
-  {% endfor %}
+
   <li>APCSA</li>
   {% for p in site.apcsa %}
     <li>
         <a href="{{site.baseurl}}{{p.url}}">{{p.url}}</a>
     </li>
   {% endfor %}
+
+  <li>WD</li>
+  {% for p in site.wdarchive %}
+    <li>
+        <a href="{{site.baseurl}}{{p.url}}">{{p.url}}</a>
+    </li>
+  {% endfor %}
+
+  <li>GD</li>
+  {% for p in site.gdarchive %}
+    <li>
+        <a href="{{site.baseurl}}{{p.url}}">{{p.url}}</a>
+    </li>
+  {% endfor %}
+
 </ul>
