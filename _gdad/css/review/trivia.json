@@ -1,0 +1,291 @@
+[
+
+{
+"answer": "Cascading style sheets",
+"question": "the language for describing the presentation of Web pages, including colors, layout, and fonts"
+},
+{
+"answer": "Inline CSS",
+"question": "used to define a style for a single HTML tag. For example, h1 style=\"color:blue;\""
+},
+{
+"answer": "Internal CSS",
+"question": "used to define a style for a single HTML page, this code is placed within style tags inside of the head section"
+},
+{
+"answer": "External CSS",
+"question": "used to define the style for one or more HTML pages. It allows you to change the look of an entire web site by changing one file"
+},
+{
+"answer": "CSS rule",
+"question": "a statement that tells browsers how to render a specific HTML tag. It consists of a selector, curly bracket, one or more declarations, and a closing curly bracket"
+},
+{
+"answer": "CSS selector",
+"question": "the name of the HTML tag that will be styled by the following declarations"
+},
+{
+"answer": "CSS declaration",
+"question": "a CSS property paired with a value. For example, color: blue;"
+},
+{
+"answer": "RGB",
+"question": "a set of 3 color values in which each value defines the intensity of the color (red, green, and blue) between 0 and 255"
+},
+{
+"answer": "Hexadecimal",
+"question": "a base-16 number system that uses the values 0-9, A, B, C, D, E and F"
+},
+{
+"answer": "CSS box model",
+"question": "a set of CSS properties that wrap around every HTML element. It consists of: margins, borders, padding, and the content"
+},
+{
+"answer": "Padding",
+"question": "a CSS property that generates space around an element’s content within the border"
+},
+{
+"answer": "Border",
+"question": "a CSS property that creates a line around the padding and the content"
+},
+{
+"answer": "Margin",
+"question": "a CSS property that creates space around an element, outside of the border"
+},
+{
+"answer": "Font Stack",
+"question": "CSS code that tells a browser what typeface to display and what backups to use if the first choice is not available"
+},
+{
+"answer": "Serif Font",
+"question": "a typeface that contains small extra lines at the ends of characters. For example, Times New Roman"
+},
+{
+"answer": "Sans Serif Font",
+"question": "a typeface that does not use small lines at the ends of characters. For example, Arial and Helvetica"
+},
+{
+"answer": "table",
+"question": "an HTML element for creating rows and columns on a web page"
+},
+{
+"answer": "tr",
+"question": "defines a row in an HTML table and contains one or more th or td elements"
+},
+{
+"answer": "th ",
+"question": "a header cell in an HTML table"
+},
+{
+"answer": "td",
+"question": "a normal data cell in an HTML table"
+},
+{
+"answer": "nav",
+"question": "an HTML element for a section that provides navigation links, either within the current document or to other documents"
+},
+{
+"answer": "Internal Link",
+"question": "a hyperlink that connects to an id within the current page"
+},
+{
+"answer": "Mailto Link",
+"question": "a hyperlink that allow users to send an email to a specific address directly from an HTML page"
+},
+{
+"answer": "255, 255, 255",
+"question": "RGB values for white"
+},
+{
+"answer": "255, 255, 0",
+"question": "RGB values for yellow"
+},
+{
+"answer": "0, 255, 255",
+"question": "RGB values for cyan/aqua"
+},
+{
+"answer": "255, 0, 255",
+"question": "RGB values for magenta/fuchsia"
+},
+{
+"answer": "0, 0, 0",
+"question": "RGB values for black"
+},
+{
+"answer": "#FFFFFF",
+"question": "Hexcode for white"
+},
+{
+"answer": "#FF0000",
+"question": "Hexcode for red"
+},
+{
+"answer": "#FFFF00",
+"question": "Hexcode for yellow"
+},
+{
+"answer": "#00FF00",
+"question": "Hexcode for green"
+},
+{
+"answer": "#00FFFF",
+"question": "Hexcode for cyan/aqua"
+},
+{
+"answer": "#0000FF",
+"question": "Hexcode for blue"
+},
+{
+"answer": "#FF00FF",
+"question": "Hexcode for magenta/fuchsia"
+},
+{
+"answer": "#000000",
+"question": "Hexcode for black"
+},
+{
+  "answer": "Cascading style sheets",
+  "question": "the language for describing the presentation of Web pages, including colors, layout, and fonts"
+  },
+  {
+  "answer": "Inline CSS",
+  "question": "used to define a style for a single HTML tag. For example, h1 style=\"color:blue;\""
+  },
+  {
+  "answer": "Internal CSS",
+  "question": "used to define a style for a single HTML page, this code is placed within style tags inside of the head section"
+  },
+  {
+  "answer": "External CSS",
+  "question": "used to define the style for one or more HTML pages. It allows you to change the look of an entire web site by changing one file"
+  },
+  {
+  "answer": "CSS rule",
+  "question": "a statement that tells browsers how to render a specific HTML tag. It consists of a selector, curly bracket, one or more declarations, and a closing curly bracket"
+  },
+  {
+  "answer": "CSS selector",
+  "question": "the name of the HTML tag that will be styled by the following declarations"
+  },
+  {
+  "answer": "CSS declaration",
+  "question": "a CSS property paired with a value. For example, color: blue;"
+  },
+  {
+  "answer": "RGB",
+  "question": "a set of 3 color values in which each value defines the intensity of the color (red, green, and blue) between 0 and 255"
+  },
+  {
+  "answer": "Hexadecimal",
+  "question": "a base-16 number system that uses the values 0-9, A, B, C, D, E and F"
+  },
+  {
+  "answer": "CSS box model",
+  "question": "a set of CSS properties that wrap around every HTML element. It consists of: margins, borders, padding, and the content"
+  },
+  {
+  "answer": "Padding",
+  "question": "a CSS property that generates space around an element’s content within the border"
+  },
+  {
+  "answer": "Border",
+  "question": "a CSS property that creates a line around the padding and the content"
+  },
+  {
+  "answer": "Margin",
+  "question": "a CSS property that creates space around an element, outside of the border"
+  },
+  {
+  "answer": "Font Stack",
+  "question": "CSS code that tells a browser what typeface to display and what backups to use if the first choice is not available"
+  },
+  {
+  "answer": "Serif Font",
+  "question": "a typeface that contains small extra lines at the ends of characters. For example, Times New Roman"
+  },
+  {
+  "answer": "Sans Serif Font",
+  "question": "a typeface that does not use small lines at the ends of characters. For example, Arial and Helvetica"
+  },
+  {
+  "answer": "table",
+  "question": "an HTML element for creating rows and columns on a web page"
+  },
+  {
+  "answer": "tr",
+  "question": "defines a row in an HTML table and contains one or more th or td elements"
+  },
+  {
+  "answer": "th ",
+  "question": "a header cell in an HTML table"
+  },
+  {
+  "answer": "td",
+  "question": "a normal data cell in an HTML table"
+  },
+  {
+  "answer": "nav",
+  "question": "an HTML element for a section that provides navigation links, either within the current document or to other documents"
+  },
+  {
+  "answer": "Internal Link",
+  "question": "a hyperlink that connects to an id within the current page"
+  },
+  {
+  "answer": "Mailto Link",
+  "question": "a hyperlink that allow users to send an email to a specific address directly from an HTML page"
+  },
+  {
+  "answer": "255, 255, 255",
+  "question": "RGB values for white"
+  },
+  {
+  "answer": "255, 255, 0",
+  "question": "RGB values for yellow"
+  },
+  {
+  "answer": "0, 255, 255",
+  "question": "RGB values for cyan/aqua"
+  },
+  {
+  "answer": "255, 0, 255",
+  "question": "RGB values for magenta/fuchsia"
+  },
+  {
+  "answer": "0, 0, 0",
+  "question": "RGB values for black"
+  },
+  {
+  "answer": "#FFFFFF",
+  "question": "Hexcode for white"
+  },
+  {
+  "answer": "#FF0000",
+  "question": "Hexcode for red"
+  },
+  {
+  "answer": "#FFFF00",
+  "question": "Hexcode for yellow"
+  },
+  {
+  "answer": "#00FF00",
+  "question": "Hexcode for green"
+  },
+  {
+  "answer": "#00FFFF",
+  "question": "Hexcode for cyan/aqua"
+  },
+  {
+  "answer": "#0000FF",
+  "question": "Hexcode for blue"
+  },
+  {
+  "answer": "#FF00FF",
+  "question": "Hexcode for magenta/fuchsia"
+  },
+  {
+  "answer": "#000000",
+  "question": "Hexcode for black"
+  }
+]
