@@ -3,7 +3,7 @@ layout: project
 category: forms
 title: Sound Sample Piano
 ---
-![Screenshot of Sample Sequencer](/wd\js\samplesequencer.jpg)
+![Screenshot of Sample Sequencer](/gdad\forms\samplesequencer.jpg)
 
 Download one of these:
   - [Alice Sound Library 1](https://www.alice.org/wp-content/uploads/2017/05/AliceSoundLibrary.zip)
