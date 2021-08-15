@@ -10,8 +10,6 @@
   {% if unit.title == 'menu4' %}{{ unit.content | markdownify }}{% endif %}
 {% endfor %}
 
-
-Testing 123
 {% for unit in site.data.gdad_units[page.collection] %}
   {{ unit.heading | markdownify }}
   {{ unit.content | markdownify }}
