@@ -17,7 +17,6 @@ This project uses the following content:
 - [Bootstrap 4 Display and Text Classes](/wd/bootstrap/bootstrap-4-display-and-text-classes/)
 
 
-Follow along with this Zoom mtg: [wd-20-04-03.mp4](%24IMS-CC-FILEBASE%24/eLearning%20videos/wd-20-04-03.mp4?canvas_download=1&canvas_qs_wrap=1 "wd-20-04-03.mp4")
 
 You will be creating a new version of your club page with a text input for email, a large Display class title, and a large paragraph of info about when/where the club meets. This paragraph will be hidden until the user presses the MORE INFO button.
 
