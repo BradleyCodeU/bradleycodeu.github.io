@@ -182,54 +182,14 @@ Projects:
 - title: menu2
   content: "[2nd Quarter](#2nd-quarter)
 
-1. **[Photoshop](#photoshop)** - *3 wks*
-
 1. **[Forms](#forms)** - *2 wks*
 
-1. **[p5js](#p5js)** - *4 wks*
+1. **[p5js](#p5js)** - *3 wks*
 
+1. **[Arrays](#arrays)** - *4 wks*
 
 "
-- title: photoshop
-  heading: "# Photoshop"
-  content: "*3 weeks* Vocab: vector, raster, pixel,
 
-
-
-
-
-  - [The Difference Between Vector and Raster (Bitmap) Graphics](https://drive.google.com/open?id=1ubrlBA4CZGFsjiZdWk2tHCV43epO-jKR)
-
-  - [What are Vector and Raster Graphics?](https://drive.google.com/open?id=1W5mGN0GtWFeeiSkojBsa46ozWsuEwce0)
-
-  - [Photoshop tutorial video folder](https://drive.google.com/drive/folders/1B-9cvnMOxKOdK18GOz3KfiZ-aM0vTZSr)
-
-  - [Photoshop - Adjust Image Size and Canvas Size](https://drive.google.com/file/d/1eElNgKiZGciT4YEHEBOy6uWDEoNsrKvn/view?usp=sharing)
-
-  - [How To Design A Modern Logo Start To Finish](https://drive.google.com/open?id=1v-CX3kED4hMuFp44lnGFVjX7eBGD9061)
-
-  - [Aaron Draplin Takes On a Logo Design Challenge](https://drive.google.com/file/d/1zXr_pJ5wg70eH6Uzgr-04DJqenmQURIn/view?usp=sharing)
-
-
-
-Projects:
-
-1. [Pizza Logo](/wd/photoshop/pizzalogo/)
-
-1. [Photoshop Pizza Flyer](/wd/photoshop/photoshoppizzaflyer/)
-
-1. [Dadaist Collage](/wd/photoshop/dadaistcollage/)
-
-1. [JPG GIF and PNG](/wd/photoshop/jpggifandpng/)
-
-1. [Vector Raster Drawings](/wd/photoshop/vectorrasterdrawings/)
-
-1. [Stylish Menu Text](/wd/photoshop/stylishmenutext/)
-
-1. [Vector Mask Crop Resize](/wd/photoshop/vectormaskcropresize/)
-
-1. [KhanAcademy Logo](/wd/photoshop/khanacademylogo/)
-"
 
 - title: forms
   heading: "# Forms"
@@ -250,7 +210,7 @@ Projects:
 
 - title: p5js
   heading: "# p5js"
-  content: "*4 weeks*
+  content: "*3 weeks*
 
 1. [KhanAcademy Drawing With Code](/wd/p5js/KADrawingWithCode/)
 
@@ -269,37 +229,7 @@ Projects:
 1. [P5 UDLR v2](/wd/p5js/p5udlrv2/)
 
 "
-- title: 3rdquarter
-  heading: "# 3rd Quarter"
-  content: "
 
-“The web's earliest architects and pioneers fought for their vision of freedom on the Internet at a time when it was still small forums for conversation and text-based gaming. They thought the web could be adequately governed by its users without their needing to empower anyone to police it.”
-
-*–Jenna Wortham*
-
-
-“...Spins a web, any size.
-Catches thieves- just like flies.
-Look out! Here comes the Spider-man”
-
-*-Spider-man*
-
-
--------
-
-
-    "
-- title: menu3
-  content: "[3rd Quarter](#3rd-quarter)
-
-1. **[Arrays](#arrays)** - *4 wks*
-
-1. **[Scrum](#scrum)** - *3 wks*
-
-1. **[Objects](#objects)** - *2 wks*
-
-
-"
 - title: arrays
   heading: "# Arrays"
   content: "*4 weeks*
@@ -330,6 +260,40 @@ Projects:
 1. [P5 Whiteboard](/wd/arrays/p5whiteboard/)
 
 "
+
+
+- title: 3rdquarter
+  heading: "# 3rd Quarter"
+  content: "
+
+“The web's earliest architects and pioneers fought for their vision of freedom on the Internet at a time when it was still small forums for conversation and text-based gaming. They thought the web could be adequately governed by its users without their needing to empower anyone to police it.”
+
+*–Jenna Wortham*
+
+
+“...Spins a web, any size.
+Catches thieves- just like flies.
+Look out! Here comes the Spider-man”
+
+*-Spider-man*
+
+
+-------
+
+
+    "
+- title: menu3
+  content: "[3rd Quarter](#3rd-quarter)
+
+
+
+1. **[Scrum](#scrum)** - *3 wks*
+
+1. **[Objects](#objects)** - *2 wks*
+
+
+"
+
 - title: scrum
   heading: "# Scrum"
   content: "*3 weeks*
