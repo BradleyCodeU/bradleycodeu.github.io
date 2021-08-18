@@ -3,7 +3,11 @@ layout: project
 category: turtleart
 title: Turtle Block Letters
 ---
-Draw one of the following options using block letters (or bubble letters). You MUST define `five or more functions`. You must use at least 3 different colors and fill in all of the letters. You will use basic Turtle commands like pendown(), forward(), left(), and right(). *You may NOT use write() or print().* 
+Create a new Python (with Turtle) project
+
+![create a new Python with Turtle project](/apcsp/turtleart/pythonWithTurtle.jpeg)
+
+Draw one of the following options using block letters (or bubble letters). You MUST define `five or more functions`. You must use at least 3 different colors and fill in all of the letters. You will use basic Turtle commands like pendown(), forward(), left(), and right(). *You may NOT use write() or print().*
 
 Your Options Are:
 ```
