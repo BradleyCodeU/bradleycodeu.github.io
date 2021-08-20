@@ -4,7 +4,7 @@ category: html
 title: SoloLrn HTML 3
 ---
 
-Go to [sololearn.com/Play/HTML](https://www.sololearn.com/Play/HTML) and complete Lessons 15.1 Tables through 24.1 Module 2 Quiz. This includes the several Code Repo activities.
+Go to [https://www.sololearn.com/learning/1014](https://www.sololearn.com/learning/1014) and complete Lessons 15.1 Tables through 24.1 Module 2 Quiz. You do NOT need to complete the PRO activities.
 
  *Topics include lists, tables, inline and block elements, forms, and hexadecimal colors.*
 

@@ -4,7 +4,7 @@ category: html
 title: SoloLrn HTML 2
 ---
 
-Go to [sololearn.com/Play/HTML](https://www.sololearn.com/Play/HTML) and complete Lessons 6.1 Headings through 14.1 Blog Project My Skills. This includes the several Code Repo activities.
+Go to [https://www.sololearn.com/learning/1014](https://www.sololearn.com/learning/1014) and complete Lessons 6.1 Headings through 14.1 Blog Project My Skills. You do NOT need to complete the PRO activities.
 
 *Topics include Headings, Lines, Comments, Paragraphs, Text Formatting,  Elements, Attributes, Images, Lists*
 
