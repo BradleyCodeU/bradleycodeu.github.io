@@ -1,15 +1,13 @@
 ---
 layout: project
 category: html
-title: SoloLrn HTML
+title: SoloLrn HTML Overview
 ---
 
-Go to [sololearn.com/Play/HTML](https://www.sololearn.com/Play/HTML) and complete Overview (13 questions) and the first *two rows* of HTML Basics (ending with Links means that you completed 22 more questions).
+Go to [sololearn.com/Play/HTML](https://www.sololearn.com/Play/HTML) and complete the Overview (Lessons 1.1 through 5.1). This includes the 3.2 Code Repo activity.
 
-*Topics include Paragraphs, Text Formatting, Headings, Lines, Comments, Elements, Attributes, Images, Links*
+Show Mr Riley your completed lessons OR turn in an UNCROPPED screenshot that shows you've completed the lessons.
 
-Turn in a screenshot that shows you've completed the first two rows of HTML Basics.
+![screenshot of Sololearn HTML Basics](/gdad/html/sololearnHtmlScreenshot.png)
 
-![screenshot of Sololearn HTML Basics](/gdad/html/sololrnScreenshot.png)
-
-12 pts
+5 pts
