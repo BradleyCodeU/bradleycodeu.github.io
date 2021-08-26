@@ -4,7 +4,6 @@ category: ch1introduction
 title: Ch1 Paint Calc Area Only
 ---
 
-Create a file named: PaintCalcAreaOnly.java
 
 You are painting a room and need to calculate the amount of paint that must be purchased. All length and area calculations will be in feet and will be entered and stored as integers.
 
