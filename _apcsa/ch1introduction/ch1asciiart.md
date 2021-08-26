@@ -27,11 +27,11 @@ Choose any 4 of these: E1.5, E1.6, E1.7, E1.8, E1.10, E1.11
 
   - E1.6: Write a program that prints your name in large letters.
   ```
-  *   *    **    ****    ****   *   *
-  *   *   *  *   *   *   *   *  *   *
-  *****  *    *  ****    ****    * *
-  *   *  ******  *   *   *   *    *
-  *   *  *    *  *    *  *    *   *
+*   *    **    ****    ****   *   *
+*   *   *  *   *   *   *   *  *   *
+*****  *    *  ****    ****    * *
+*   *  ******  *   *   *   *    *
+*   *  *    *  *    *  *    *   *
   ```
 
   - E1.7: Write a program that prints your name in Morse code, like this `.... .- .-. .-. -.--` Use a separate call to System.out.print for each letter.
@@ -47,7 +47,8 @@ Choose any 4 of these: E1.5, E1.6, E1.7, E1.8, E1.10, E1.11
   ```
 
   - E1.10: Write a program that prints a house that looks exactly like the following:
-  ```
+
+```
    +
   + +
  +   +
@@ -55,7 +56,7 @@ Choose any 4 of these: E1.5, E1.6, E1.7, E1.8, E1.10, E1.11
 | .-. |
 | | | |
 +-+-+-+
-  ```
+```
 
   - E1.11: Write a program that prints a house that looks exactly like the following:
   ```
