@@ -18,7 +18,7 @@ Choose 1 of either: E1.2 or E1.3
 ## Part 2
 Choose any 4 of these: E1.5, E1.6, E1.7, E1.8, E1.10, E1.11
 
-  - E1.5: Write a program that displays your name inside a box on the screen, like the following. Do your best to approximate lines with characters such as - + and |.
+  - E1.5: Write a program that displays your name inside a box on the screen, like the following. Do your best to approximate lines with characters such as `- +` and `|`.
 
 ```
 +----+
