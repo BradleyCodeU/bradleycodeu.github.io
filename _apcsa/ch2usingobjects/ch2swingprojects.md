@@ -7,15 +7,7 @@ title: Ch2 Swing Projects
 
 
 
-You will complete 6 exercises for this assignment:
-  - Ch 1 exercises from pg 26
-      - E1.16
-      - E1.17
-      - E1.18
-  - Ch 2 Programming Projects from pg 74
-      - P2.2
-      - P2.3
-      - P2.5
+You will complete 6 exercises for this assignment.
 
 ## E1.16
 Type in and run the following program. Then modify it to print “Hello, name!”, displaying the name that the user typed in.
