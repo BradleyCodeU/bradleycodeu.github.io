@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-// You are traveling to King's Island for the day.
-// Everyone in the group has agreed to split the cost evenly.
+// A group of people are traveling to King's Island for the day.
+// Everyone in the group is car-pooling and has agreed to split the cost evenly.
 // Write a program to determine the total cost of the trip and
 // the cost per person.
 // Assume that each ticket is $32.99
@@ -12,8 +12,7 @@ public class Main
 	{
 		Scanner input = new Scanner(System.in);
 		// Declare variables for number of people, parking cost,
-		// food cost, ticket cost, total cost, and cost per person
-
+		// cost of gas, ticket cost, total cost, and cost per person
 
 		// Prompt for and collect input for number of people in
 		// the group.
@@ -24,7 +23,7 @@ public class Main
 		// for example, $5.50
 
 
-		// Prompt for and collect amount spent on food
+		// Prompt for and collect amount spent on gas
 		// for example, $15.75
 
 
