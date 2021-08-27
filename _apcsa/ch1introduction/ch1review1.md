@@ -4,7 +4,7 @@ category: ch1introduction
 title: Ch1 Review 1
 ---
 
-Complete the following review exercises on pages 24-25.
+Complete the following review exercises. Write your answers in the Canvas assignment text box.
 
   -  1: Which parts of a computer can store program code? Which can store user data?
   -  2: Which parts of a computer serve to give information to the user? Which parts take user input?
