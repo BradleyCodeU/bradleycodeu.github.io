@@ -18,6 +18,7 @@ Complete the following review exercises. Write your answers in the Canvas assign
        {
          System.out.println("39 + 3");
          System.out.println(39 + 3);
+         System.out.println("39" + 3);
        }
      }
      ```
