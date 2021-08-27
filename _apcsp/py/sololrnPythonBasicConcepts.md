@@ -4,10 +4,8 @@ category: py
 title: SoloLrn Python Basics
 ---
 
-Go to [sololearn.com/play/python](https://www.sololearn.com/play/python) and complete Module 1 "Basic Concepts" (complete all 34 questions)
+Go to [https://www.sololearn.com/learning/1073](https://www.sololearn.com/learning/1073) and complete Module 1 "Basic Concepts" (from Lesson 1.1 Welcome to Python to Lesson 7 Code Project)
 
-When finished, take a screenshot showing your completed "Basic Concepts" module. Turn in your screenshot in Canvas.
+Show Mr Riley when finished.
 
-![Screenshot of SoloLearn Python Basic Concepts](/apcsp/py/pythonBasicsScreenshot.jpg)
-
-11pts
+10pts
