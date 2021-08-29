@@ -10,8 +10,8 @@ Create a new Replit project. In that one project, complete **six** of the follow
 ## Part 1
 Choose 1 of either: E1.2 or E1.3
 
-  - E1.2: Write a program that prints the sum of the first ten positive integers, 1 + 2 + … + 10.
-  - E1.3: Write a program that prints the product of the first ten positive integers, 1
+  - E1.2: Write a program that prints the sum of the first ten positive integers, `1 + 2 + … + 10`.
+  - E1.3: Write a program that prints the product of the first ten positive integers, `1 * 2 * … * 10`
 
 ## Part 2
 Choose any 4 of these: E1.5, E1.6, E1.7, E1.8, E1.10, E1.11
