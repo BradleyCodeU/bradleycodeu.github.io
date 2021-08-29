@@ -10,7 +10,7 @@ Create a new Replit project. In that one project, complete **six** of the follow
 ## Part 1
 Choose 1 of either: E1.2 or E1.3
 
-  - E1.2: Write a program that prints the sum of the first ten positive integers, `1 + 2 + … + 10`.
+  - E1.2: Write a program that prints the sum of the first ten positive integers, `1 + 2 + … + 10`
   - E1.3: Write a program that prints the product of the first ten positive integers, `1 * 2 * … * 10`
 
 ## Part 2
