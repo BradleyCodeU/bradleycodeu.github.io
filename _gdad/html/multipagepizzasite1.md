@@ -27,4 +27,5 @@ Your website must contain:
       - same navigation system (like a nav bar) as all pages with links to every page on the site
       - an h1
       - a paragraph with some text
+      - a link to a Wikipedia page (for example, if the "Our Story" page says the company was founded in Hilliard, Ohio then those words can link to the Wikipedia page for Hilliard)
       - one (or more) images
