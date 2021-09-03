@@ -12,7 +12,7 @@ Create a simple logo for your business, sports team, school club, rock band, etc
   - OR you can use [https://logomakr.com/](https://logomakr.com/) or any other graphic design app. With logomakr.com you can either take a screenshot or click SAVE, then it asks if you wanna pay for high quality or you can just choose NO THANKS, DOWNLOAD LOW RESOLUTION FILE.
 
 
-Go to repl.it classroom to begin coding
+Go to Replit to begin coding
 
 Create a simple webpage (for a business, sports team, school club, rock band, etc) with:
 1.  A Title
