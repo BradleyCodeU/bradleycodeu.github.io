@@ -18,7 +18,7 @@ Final steps...
 1.  Just below your "change score" block, add a blue "if true then" block from the Logic menu. From Game menu drag a purple "game over lose" block inside the "if true then" block. Switch LOSE to WIN. Replace "true" with a blue "0 < 0" block from the Logic menu. Drag in the pink "score" variable from the Info menu. Change 0 to some other number like 10.
 1.  At the bottom-center of the screen rename your project and click the Save button.
 
-Show Mr Riley your finished project, how you win the game, and how you lose.
+Show Mr Riley your finished project including how you win and how you lose.
 
 
 ## Additional Tutorials
