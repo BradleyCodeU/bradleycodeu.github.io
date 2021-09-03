@@ -51,5 +51,5 @@ public class Main
 	}
 }
 
-// When finished, submit to replit classroom AND ALSO SUBMIT "DONE" TO CANVAS
+
 </pre>

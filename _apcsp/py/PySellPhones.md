@@ -19,17 +19,20 @@ Input → Output
 
 Starter Code:
 ```python
+# Fill in ALL 3 blanks with the correct code.
+# Blanks look like this: ???
 # define a function called sellPhones that requires one argument: myPhones.
 
 def sellPhones(myPhones):
   # Convert myPhones to an int & save it back in myPhones
-
+  ???
   # Let's assume that 1 phone = 399 dollars
   # Create variable myMoney & set it to myPhones multiplied by 399
-
+  ???
   # Return the variable myMoney
-  return
+  return ???
 
+# do not edit the following code
 myMoney = sellPhones('1')
 print("Expected :'1'→ 399 \nYour code:'1'→ " + str(myMoney))
 myMoney = sellPhones(0)

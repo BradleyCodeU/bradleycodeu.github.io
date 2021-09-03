@@ -12,7 +12,7 @@ Create a Phone Repair Calculator that predicts the amount of profit you can earn
 Fill in ALL 10 blanks in the starter code with the correct code.
 Blanks look like this: ???
 
-When finished, type in both Test Runs to make sure your code works correctly. If no errors, submit to replit classroom and then go to the Canvas assignment and say "done"
+When finished, type in both Test Runs to make sure your code works correctly. If no errors, submit your Replit URL to Canvas
 
 Test Run 1:
 ```
