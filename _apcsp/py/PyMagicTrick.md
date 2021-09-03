@@ -48,5 +48,5 @@ def magicTrick():
     return stepFour
 
 result = magicTrick()
-print("The result is always " + result)
+print("\nExpected : 5 \nYour code: " + result)
 ```
