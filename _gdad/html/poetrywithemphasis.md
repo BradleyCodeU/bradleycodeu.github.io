@@ -21,8 +21,9 @@ Pick a poem that is appropriate for school. Suggested poets: Shel Silverstein, M
   - Bold text or Strong text *(they are the same thing)*
   - Italic text or Emphasized text *(they are the same thing)*
   - Marked text
-  - Small text
   - Deleted text or Strikethrough text *(they are the same thing)*
   - Underlined text or Inserted text *(they are almost the same thing)*
   - Subscript text
   - Superscript text
+  - Small text
+  - Big text
