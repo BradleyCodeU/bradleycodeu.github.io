@@ -21,7 +21,7 @@ Our Video Games:
 
 Finally, give either directions to the office or directions to purchase/download/install your games as an ORDERED list. For example...
 
-Directions to Our Office Building:
+Directions to Download our Games:
 
   1.  Find some pixie dust and sprinkle it on yourself
   1.  Think of a wonderful thought
