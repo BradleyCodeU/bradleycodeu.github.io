@@ -4,11 +4,10 @@ category: ch2usingobjects
 title: Ch2 Rectangles and Points
 ---
 
-Skim Sections 2.1-2.2 (pages 31-40)
+
 Check out the Rectangle class in the Java API:
   - [Java Rectangle class API](https://docs.oracle.com/javase/7/docs/api/index.html?java/awt/Rectangle.html)
 
-Practice Exercises Page 72: 2.1, 2.5, 2.14
 
 You will create ONE class with one public static void main() that contains code for the following 3 exercises.
 
