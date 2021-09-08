@@ -1,7 +1,7 @@
 ---
 layout: project
 category: html
-title: Food Chain Game
+title: MC Food Chain Game
 ---
 
 Design a game that simulates a food chain/food web with 3 different animals including predators and prey. The ideal animals would have a relationship in which predator eats hero and hero eats prey.
@@ -18,6 +18,7 @@ You must:
   - Replace the "bee" with a predator animal that is the predator of the hero.
   - Draw a background that represents the real habitat for animals in this food web
   - Add a conditional IF block so that Game Over Win happens if the user earns 5 points.
+  - At the bottom-center of the screen rename your project and click the Save button.
 
 
 | Rubric  | 0 pts | 0.5 pts | 1 pt  |
@@ -26,3 +27,6 @@ You must:
 | Hero, Clover, and Bee Sprite Design  | 2 or more sprites not designed by student OR not colorful OR not recognizable  | 1 sprite not designed by student OR not colorful OR not recognizable  | Student created a design that is colorful and recognizable.  |
 | Scientifically Accurate  | No animals form a predator-prey relationship.  | Only 2 animals form a predator-prey relationship.  | Student selected 3 animals that are part of a food web (predator eats hero and hero eats prey).  |
 | Game Over Win Block  | Did not add Game Over Win block  | Added Game Over Win, but the conditional is incorrect.  | Added a conditional IF block so that Game Over Win happens if the user earns 5 points.  |
+
+
+Show Mr Riley your finished project including how you win and how you lose.
