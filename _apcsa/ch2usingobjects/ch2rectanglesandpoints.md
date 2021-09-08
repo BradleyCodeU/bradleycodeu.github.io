@@ -13,10 +13,12 @@ You will create ONE class with one public static void main() that contains code 
 
 ## E2.1
 
-Write an AreaTester program that constructs a Rectangle object.
-Ask the user for a width and height.
-Use the setSize method to adjust the width and height of your Rectangle object.
-Finally, compute and print its area using the getWidth and getHeight methods.
+Write a program that:
+  1.  Constructs a Rectangle object.
+  1.  Prompt the user for a width and height.
+  1.  Use the setSize method to adjust the width and height of your Rectangle object.
+  1.  Use the grow method to increase the width by 10 and increase the height by 10.
+  1.  Finally, compute and print its new area using the getWidth and getHeight methods.
 
 ## E2.5
 
