@@ -6,14 +6,15 @@ title: Shark Attack
 
 Go to [arcade.makecode.com/](https://arcade.makecode.com/) and sign in with your Microsoft account.
 
-Scroll down to Multipart Tutorials and click Shark Attack.
+### ! ! ! IMPORTANT: Do NOT click the orange FINISH button until you have created enemies, projectile effects, and have moving enemies.
 
 You MUST:
-- draw your own sprites for this project. Do NOT use any of the built-in Gallery sprites
-- follow the tutorial to create enemies
-- follow the tutorial to move the enemies
+- Draw your own sprites for this project. Do NOT use any of the built-in Gallery sprites
+- Follow [this tutorial](https://arcade.makecode.com/#tutorial:/recipes/shark-splash/01-character)
+- Follow the tutorial to create enemies
+- Follow the tutorial to move the enemies
 
-### ! ! ! IMPORTANT: Do NOT click the orange FINISH button until you have created enemies, projectile effects, and have moving enemies.
+
 
 Final steps...
 
