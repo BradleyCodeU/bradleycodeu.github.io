@@ -17,11 +17,22 @@ Write a program that:
   1.  Constructs a Rectangle object.
   1.  Prompt the user for a width and height.
   1.  Use the setSize method to adjust the width and height of your Rectangle object.
-  1.  Use the grow method to increase the width by 10 and increase the height by 10. For example...
+  1.  Use the grow method to grow the width by 10 and grow the height by 10. For example...
       <pre> boxOne.grow(10,10); </pre>
   1.  Print the new width using the getWidth method.
   1.  Print the new height using the getHeight method.
   1.  Finally, compute and print its new area using the getWidth and getHeight methods.
+
+Sample Output
+```
+Please enter the width and height of the rectangle as whole numbers
+Width: 5
+Height: 6
+After growing the width by 10 and the height by 10...
+New width is 25.0
+New height is 26.0
+New area is 650.0
+```
 
 ## E2.5
 
@@ -50,6 +61,18 @@ Write a program that will...
   1.  Print the actual Y location (using the getY method) of the final box
   1.  Print the actual width (using getWidth method) of the final box
   1.  Print the actual height (using getHeight method) of the final box
+
+Sample Output
+```
+Estimated X location = 0
+Estimated Y location = 0
+Estimated width = 20
+Estimated height = 30
+Actual X location of the rectangle =       0.0
+Actual Y location of the rectangle =       0.0
+Actual width of the rectangle =           25.0
+Actual height of the rectangle =          40.0
+```
 
 ## E2.14
 
