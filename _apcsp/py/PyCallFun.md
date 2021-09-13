@@ -91,7 +91,10 @@ def test_3_playNameGame():
 # -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 # You are done!
 # Do not edit the code below this line!
+print("Test 1 getFirstVowel\nExpected 'Steve' -> 2\nExpected 'Hilliard' -> 1")
 test_1_getFirstVowel()
+print("Test 2 getVowelName\nExpected 'Name' -> 'ame'\nExpected 'Brynn' -> 'ynn'")
 test_2_getVowelName()
+print("Test 3 playNameGame")
 test_3_playNameGame()
 ```
