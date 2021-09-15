@@ -166,7 +166,6 @@ negativeTest1 = anyNegative(0, 5, 99, 10)
 print("\nExpected : anyNegative(0, 5, 99, 10) → \"undefined\" \nYour code: anyNegative(0, 5, 99, 10) → " + str(negativeTest1))
 negativeTest2 = anyNegative("-7", "-5", "7", "5")
 print("Expected : anyNegative(\"-7\", \"-5\", \"7\", \"5\") → 0.7142857142857143 \nYour code: anyNegative(\"-7\", \"-5\", \"7\", \"5\") → " + str(negativeTest2))
-
 maxTest1 = maximumValue(1, 3, -5)
 print("\nExpected : maximumValue(1, 3, -5) → 3 \nYour code: maximumValue(1, 3, -5) → " + str(maxTest1))
 maxTest2 = maximumValue("7", "2", "9")
