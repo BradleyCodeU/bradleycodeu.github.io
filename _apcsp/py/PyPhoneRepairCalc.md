@@ -33,11 +33,11 @@ Test Run 2:
 How much $ can you invest:
 -99
 Cracked-screen phone price:
--33
+1
 Repair kit price:
--11
+1
 Sale price for fixed phone:
-987654321
+1
 -----Re$ult-----
 You earned $0.0 in profit
 ```
