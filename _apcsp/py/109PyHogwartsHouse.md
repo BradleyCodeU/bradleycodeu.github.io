@@ -92,9 +92,6 @@ def getHouse(bravery, teamwork):
     return ???
 
 
-# ------------------------------------
-# YOU ARE DONE!
-# do NOT edit the following code!
 def main():
   print("Bravery Score (1-10): ")
   braveryStr = input()
