@@ -128,4 +128,4 @@ Create your own quiz with four (or more) possible outcomes. The result must NOT 
 - Which sandwich are you?
 - Which phone are you?
 - Which Pokemon are you?
-- What is your spirit animal?
+- Which dog breed are you?
