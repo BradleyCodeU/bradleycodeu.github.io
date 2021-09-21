@@ -4,7 +4,7 @@ category: css
 title: Colorful Tables
 ---
 
-Copy/paste the starter code from [here](https://gist.githubusercontent.com/ohiofi/98bf1ef2f2cf99d8e7d8fcfd7f90763b/raw/556e877d817a29e1caae4c8c9f18e4f4fc72d49d/colorfulTables.html)
+Copy/paste the starter code from [here](\gdad\css\colorfultables-template.txt)
 
 Add the following HTML:
   1.  add three or more animated GIFs
@@ -37,5 +37,5 @@ Add the following CSS code inside the head section:
   1. each table fills 100% of the width, has a different font (from the list above), and has a thick 4-6px border with some color
   1. each th has the text aligned to the left, has some dark background color, has an underline text decoration, and has some light text color
   1. every th and td has a 1-3px bottom border with some color
-  1. every even numbered tr has a light background color and every odd numbered tr has some other light background color
+  1. every odd numbered row tr is in the "odd" class. add CSS so that each row in the odd class has some different light background color
   1. each td has a cell padding of between 10-20px
