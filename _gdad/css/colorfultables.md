@@ -7,6 +7,7 @@ title: Colorful Tables
 Copy/paste the starter code from [here](\gdad\css\colorfultables-template.txt)
 
 Add the following HTML:
+  1.  change the names to the names of fictional characters (from movies/tv/games/books/etc)
   1.  add three or more animated GIFs
   1.  add an h2 that says Main Office
   1.  create a new table for the Main Office staff
