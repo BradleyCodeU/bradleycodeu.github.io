@@ -4,7 +4,7 @@ category: css
 title: Colorful Tables
 ---
 
-Copy/paste the starter code from [here](\gdad\css\colorfultables-template.txt)
+Copy/paste the starter code from [here](\gdad\css\colorfultables-template.txt) and paste it in a new Replit HTML project.
 
 Add the following HTML:
   1.  change the names to the names of fictional characters (from movies/tv/games/books/etc)
