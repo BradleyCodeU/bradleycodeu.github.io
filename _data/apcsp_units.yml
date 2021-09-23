@@ -84,6 +84,8 @@ References and Other Info:
 
   1. [Py](#py) - *3 wks*
 
+  1. [Practice1](#practice1) - *1 wk*
+
   1. [Binary](#binary) - *2 wks*"
 
 
@@ -193,6 +195,19 @@ Projects:
   1. Pair-Pick- [Py 2D Geometry](/apcsp/py/Py2DGeometry/) or [Py 3D Geometry](/apcsp/py/112Py3DGeometry/)
 
   1. Pair-Pick- [Py Three Args](/apcsp/py/106PyThreeArgs/) or [Py Collision Fun](/apcsp/py/110PyCollisionFun/)
+
+"
+- title: practice1
+  heading: "# Practice1"
+  content: "
+*1 wk*, Create Task
+
+  1.  Pair- [Practice 1 Code](/apcsp/practice1/Practice1Code/)
+
+  1.  [Practice 1 Video](/apcsp/practice1/Practice1Video/)
+
+  1.  Pair- [Practice 1 Questions](/apcsp/practice1/Practice1Questions/)
+
 
 "
 - title: binary
