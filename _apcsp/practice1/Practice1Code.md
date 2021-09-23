@@ -20,6 +20,7 @@ Code Specifications:
 When Finished:
 
   - Each person will turn in a copy of your finished Python code as a PDF file. Why a PDF? Because you will turn in a PDF of your code for the AP exam.
+  - One easy way to save your code as a PDF is to copy/paste it into a Google Doc. In Google Docs, select File > Download > PDF to save as a PDF.
 
 
 ## Below are the directions from The College Board
