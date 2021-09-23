@@ -3,6 +3,8 @@ layout: project
 category: practice1
 title: Practice1Questions
 ---
+NOTE: You MAY complete this project with a partner.
+
 
 Written Reflection:
 
