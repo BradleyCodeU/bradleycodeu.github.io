@@ -1,6 +1,6 @@
 ---
 layout: project
-category: practice
+category: practice2
 title: PracticeCreateCode
 ---
 

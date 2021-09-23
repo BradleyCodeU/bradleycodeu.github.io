@@ -1,6 +1,6 @@
 ---
 layout: project
-category: practice
+category: practice3
 title: PracticeCreate3A
 ---
 

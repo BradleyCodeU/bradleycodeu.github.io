@@ -1,9 +1,9 @@
 ---
 layout: project
-category: practice
-title: PracticeCreateVideo
+category: practice1
+title: Practice1Video
 ---
-PracticeCreateVideo
+Practice1CreateVideo
 
 VIDEO (CREATED INDEPENDENTLY)
 
