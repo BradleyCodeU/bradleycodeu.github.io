@@ -13,10 +13,11 @@ Computers are playing an increasing role in education. Write a program that will
 *This is a TWO PART project: create an Educational Quiz program and write a Written Reflection*
 
 Code Specifications:
+
 	-	Contains at least 5 or more MULTI-CHOICE quiz questions. For example, "Where is the Eiffel Tower? 1 = London, 2 = Paris, 3 = New York, 4 = Tokyo"
 	-	Must have a function called validNumber that requires one argument: userInput. It returns True or False if the userInput is between 1 and 4 (inclusive).
 	-	Must notify the user if their answer is "correct" or "incorrect"
-	- If the users types in an invalid number (999, for example) then you must notify the user "999 is NOT a valid answer"
+	-	If the users types in an invalid number (999, for example) then you must notify the user "999 is NOT a valid answer"
 
 
 ### You will turn in *TWO* PDF files:
