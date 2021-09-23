@@ -3,13 +3,13 @@ layout: project
 category: practice1
 title: Practice1Questions
 ---
-NOTE: You MAY complete this project with a partner.
 
+NOTE: Complete this part of the project ON YOUR OWN.
 
 Written Reflection:
 
-Create a [copy of this Google Doc](https://docs.google.com/document/u/1/d/1BB8P_41wooVqGAvJW9_JWM1394p5x0H8MDDH4vbAZ78/copy) and SHARE it with your partner.
+Create a [copy of this Google Doc](https://docs.google.com/document/u/1/d/1BB8P_41wooVqGAvJW9_JWM1394p5x0H8MDDH4vbAZ78/copy)
 
-Working with your partner, answer all of the questions about your Multi-Choice Educational Quiz.
+Answer all of the questions about your Multi-Choice Educational Quiz.
 
-Each person will turn in a copy of this Google Doc as a PDF. Select File > Download > PDF to save a Google Doc as a PDF.
+Turn in a copy of this Google Doc as a PDF. Select File > Download > PDF to save a Google Doc as a PDF.
