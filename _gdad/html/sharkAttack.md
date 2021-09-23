@@ -9,7 +9,7 @@ Go to [arcade.makecode.com/](https://arcade.makecode.com/) and sign in with your
 ### ! ! ! IMPORTANT: Do NOT click the orange FINISH button until you have created enemies, projectile effects, and have moving enemies.
 
 You MUST:
-- Draw your own sprites for this project. Do NOT use any of the built-in Gallery sprites
+- Draw your own sprites for this project. Do NOT use any of the built-in Gallery sprites. You can use built-in backgrounds.
 - Follow [this tutorial](https://arcade.makecode.com/#tutorial:/recipes/shark-splash/01-character)
 - Follow the tutorial to create enemies
 - Follow the tutorial to move the enemies
