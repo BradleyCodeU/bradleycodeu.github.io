@@ -3,7 +3,11 @@ layout: project
 category: practice1
 title: Practice1Video
 ---
-Practice1CreateVideo
+
+NOTE: Complete this part of the project ON YOUR OWN.
+
+
+Practice 1 Video
 
 VIDEO (CREATED INDEPENDENTLY)
 
