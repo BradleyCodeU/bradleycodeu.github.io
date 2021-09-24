@@ -1,7 +1,7 @@
 ---
 layout: project
 category: practice2
-title: PracticeCreate3D
+title: Practice2Create3D
 ---
 
 

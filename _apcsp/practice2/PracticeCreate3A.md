@@ -1,7 +1,7 @@
 ---
 layout: project
 category: practice2
-title: PracticeCreate3A
+title: Practice2Create3A
 ---
 
 WRITTEN RESPONSES (CREATED INDEPENDENTLY)

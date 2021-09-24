@@ -15,12 +15,15 @@ Your video MUST demonstrate your program running, including:
 *   At least one aspect of the functionality of your program
 *   Output produced by your program
 
+Use the iPad floating keyboard:
+
+![Using the iPad floating keyboard](/apcsp\practice2\ipadFloatingKeyboard.gif)
+
 Your video may NOT contain:
 
 *   Any distinguishing information about yourself
 *   Voice narration (though text captions are encouraged)
 
-![Using the iPad floating keyboard](/apcsp\practice\ipadFloatingKeyboard.gif)
 
 Your video MUST be:
 

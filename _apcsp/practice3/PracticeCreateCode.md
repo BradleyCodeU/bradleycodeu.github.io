@@ -1,7 +1,7 @@
 ---
 layout: project
 category: practice3
-title: PracticeCreateCode
+title: Practice3CreateCode
 ---
 
 _Note: You will use your Foobar v2 code for the Practice Create Task. This is just practice so your code doesn't need to be \*perfect.\* It just needs to run without giving you errors._
