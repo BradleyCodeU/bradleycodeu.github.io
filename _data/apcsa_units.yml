@@ -136,7 +136,7 @@ Projects:
 
 - title: ch2usingobjects
   heading: "# Ch2UsingObjects"
-  content: "Vocab: object, accessor, mutator, method, constructor, new, API, naming convention, camelCase, PascalCase, comment, immutable object
+  content: "Vocab: object, accessor, mutator, method, constructor, new, API, naming convention, camelCase, PascalCase, comment, argument, parameter, no argument constructor, void, overloaded, String, immutable object, public interface
 
 
 
