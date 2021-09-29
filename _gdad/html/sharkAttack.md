@@ -4,9 +4,12 @@ category: html
 title: Shark Attack
 ---
 
+NOTE: You may use built-in backgrounds/tiles, but you must DRAW YOUR OWN SPRITES.
+
 Go to [arcade.makecode.com/](https://arcade.makecode.com/) and sign in with your Microsoft account.
 
 ### ! ! ! IMPORTANT: Do NOT click the orange FINISH button until you have created enemies, projectile effects, and have moving enemies.
+
 
 You MUST:
 - Draw your own sprites for this project. Do NOT use any of the built-in Gallery sprites. You can use built-in backgrounds.

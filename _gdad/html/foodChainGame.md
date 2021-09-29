@@ -3,6 +3,7 @@ layout: project
 category: html
 title: MC Food Chain Game
 ---
+NOTE: You may use built-in backgrounds/tiles, but you must DRAW YOUR OWN SPRITES.
 
 Design a game that simulates a food chain/food web with 3 different animals including predators and prey. The ideal animals would have a relationship in which predator eats hero and hero eats prey.
 
@@ -16,7 +17,7 @@ You must:
   - Replace the "bunny" with a carnivore/omnivore that will be the hero.
   - Replace the "clover" with a prey animal that is the prey of the hero.
   - Replace the "bee" with a predator animal that is the predator of the hero.
-  - Draw a background that represents the real habitat for animals in this food web
+  - Find or draw a background that represents the real habitat for animals in this food web
   - At the bottom-center of the screen rename your project and click the Save button.
 
 

@@ -3,8 +3,10 @@ layout: project
 category: html
 title: MC Maze Game
 ---
+NOTE: You may use built-in backgrounds/tiles, but you must DRAW YOUR OWN SPRITES.
 
 First go to [https://arcade.makecode.com](https://arcade.makecode.com) and sign in with your Microsoft account.
+
 
 You must:
 

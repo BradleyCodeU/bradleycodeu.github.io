@@ -4,6 +4,8 @@ category: html
 title: MC Beginner Skillmap
 ---
 
+NOTE: You may use built-in backgrounds/tiles, but you must DRAW YOUR OWN SPRITES.
+
 Go to [https://arcade.makecode.com](https://arcade.makecode.com) and sign in with your Microsoft account.
 
 Choose "Beginner Skillmap"
