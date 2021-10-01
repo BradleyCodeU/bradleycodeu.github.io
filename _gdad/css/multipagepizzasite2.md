@@ -27,8 +27,8 @@ The FINAL number of pages in the project is determined by the number of people:
     - Frequently Asked Questions
     - Community Events
     - Hardware
-    - Privacy Policy
     - Terms of Service
+    - DLC
 
 
 ## Add CSS
