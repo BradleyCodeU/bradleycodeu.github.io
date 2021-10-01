@@ -23,8 +23,8 @@ Ideas for "other pages" include:
   - Frequently Asked Questions
   - Community Events
   - Hardware
-  - Privacy Policy
   - Terms of Service
+  - DLC
 
 Your website must contain:
   1.  an index.html homepage page with a logo and links to all of the other pages
