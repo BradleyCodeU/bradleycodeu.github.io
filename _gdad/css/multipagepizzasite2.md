@@ -1,7 +1,7 @@
 ---
 layout: project
 category: css
-title: Multi-page Pizza Site 2
+title: Multi-page Site 2
 ---
 
 For this project you will continue working on your multi-page website with the same group of 2-4 people.
