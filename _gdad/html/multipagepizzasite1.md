@@ -13,18 +13,18 @@ For this project you will work in a group of 2-4 people. The number of pages in 
 
 Ideas for "other pages" include:
 
-  - Contact Us
-  - Employment
-  - News
-  - Our Games
-  - Gift Cards
-  - Our History/Our Story/About Us
-  - Help/Support
-  - Frequently Asked Questions
-  - Community Events
-  - Hardware
-  - Terms of Service
-  - DLC
+- Contact Us
+- Employment
+- News
+- Our Games
+- Gift Cards
+- Our History/Our Story/About Us
+- Help/Support
+- Frequently Asked Questions
+- Community Events
+- Hardware
+- Terms of Service
+- DLC
 
 Your website must contain:
   1.  an index.html homepage page with a logo and links to all of the other pages
