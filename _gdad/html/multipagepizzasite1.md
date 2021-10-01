@@ -12,6 +12,7 @@ For this project you will work in a group of 2-4 people. The number of pages in 
   - 4 people = index.html homepage plus 4 other pages
 
 Ideas for "other pages" include:
+
   - Contact Us
   - Employment
   - News
@@ -20,6 +21,10 @@ Ideas for "other pages" include:
   - Our History/Our Story/About Us
   - Help/Support
   - Frequently Asked Questions
+  - Community Events
+  - Hardware
+  - Privacy Policy
+  - Terms of Service
 
 Your website must contain:
   1.  an index.html homepage page with a logo and links to all of the other pages
