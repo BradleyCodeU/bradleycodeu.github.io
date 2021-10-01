@@ -15,20 +15,20 @@ The FINAL number of pages in the project is determined by the number of people:
   - 3 people = index.html homepage plus 6 other pages (add 3 new pages)
   - 4 people = index.html homepage plus 8 other pages (add 4 new pages)
 
-  Ideas for "other pages" include:
+Ideas for "other pages" include:
 
-    - Contact Us
-    - Employment
-    - News
-    - Our Games
-    - Gift Cards
-    - Our History/Our Story/About Us
-    - Help/Support
-    - Frequently Asked Questions
-    - Community Events
-    - Hardware
-    - Terms of Service
-    - DLC
+  - Contact Us
+  - Employment
+  - News
+  - Our Games
+  - Gift Cards
+  - Our History/Our Story/About Us
+  - Help/Support
+  - Frequently Asked Questions
+  - Community Events
+  - Hardware
+  - Terms of Service
+  - DLC
 
 
 ## Add CSS
