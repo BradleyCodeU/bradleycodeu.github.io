@@ -29,6 +29,7 @@ Ideas for "other pages" include:
   - Hardware
   - Terms of Service
   - DLC
+  - Merch
 
 
 ## Add CSS
