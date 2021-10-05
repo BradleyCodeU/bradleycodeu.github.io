@@ -4,10 +4,10 @@ category: js
 title: SoloLrn JS Overview
 ---
 
-[https://www.sololearn.com/Play/JavaScript](https://www.sololearn.com/Play/JavaScript)
+[https://www.sololearn.com/learning/1024](https://www.sololearn.com/learning/1024)
 
-Complete the Overview section (complete all 15 questions)
+Complete the Overview section, lessons 1.1 to 6.1 (should be 15 questions)
 
-Turn in an *un*cropped screenshot
+Show Mr Riley when finished or turn in an *un*cropped screenshot
 
 5pts
