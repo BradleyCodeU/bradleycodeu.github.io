@@ -19,6 +19,14 @@ Create both the Balloon class and BalloonTester class. The tester class should t
 
 Print your expected results and then the actual results.
 
+## Sample Output
+```
+Expected volume for radius 5: 523.6
+Actual volume: 523.5987755982989
+Expected volume for radius 10: 4188.79
+Actual volume: 4188.790204786391
+```
+
 
 Show them to Mr. Riley when complete.
 
