@@ -25,8 +25,9 @@ Supply an EmployeeTester class that tests all methods. RUN TWO TESTS. Print your
 ## Sample Output
 ```
 Test ONE
-Harry has $50000 salary plus a 10% raise
-Expected result = 55000
+Name of employee = Beth Jones
+Salary of employee = 50000.0
+Expected result after 10% raise is 55000
 Actual result = 55000.0
 ```
 
