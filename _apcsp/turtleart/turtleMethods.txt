@@ -1,0 +1,17 @@
+Turtle methods
+
+forward() | fd()
+backward() | bk() | back()
+right() | rt()
+left() | lt()
+goto() | setpos() | setposition()
+setx()
+sety()
+setheading() | seth()
+
+pendown() | pd() | down()
+penup() | pu() | up()
+pensize() | width()
+
+color()
+shape()
