@@ -34,7 +34,7 @@ If you want to hide OR show something (a button, an image, a paragraph, a headin
 ### If you have already completed 1 or more Computer Science classes...
 
 Add the following:
-  - CSS that adds a [transition effect](https://www.w3schools.com/css/css3_transitions.asp) to all button
+  - CSS that adds a [transition effect](https://www.w3schools.com/css/css3_transitions.asp) to all 045TkShapesAndButtons
   - [CSS hover effect](https://www.w3schools.com/cssref/sel_hover.asp) that changes a button's color
   - CSS hover effect that changes a button's size
   - CSS hover effect that changes a button's [position, left, and/or top](https://www.w3schools.com/cssref/pr_class_position.asp)
