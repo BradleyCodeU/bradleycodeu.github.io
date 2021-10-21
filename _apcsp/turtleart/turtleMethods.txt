@@ -1,4 +1,6 @@
-Turtle methods
+from turtle import *
+bob = Turtle()
+bob.forward()
 
 forward() | fd()
 backward() | bk() | back()
