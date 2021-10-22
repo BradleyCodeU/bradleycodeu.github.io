@@ -13,12 +13,9 @@ Read this tutorial about the CSS [display](https://www.w3schools.com/css/css_dis
 
 Here is one way to change the background color:
 ```
-"document.body.style='background-color:???;' "
+"document.body.style.background='???';"
 ```
-Here is a different way to change the background color:
-```
-"document.body.style.backgroundColor='???';"
-```
+
 If you want to hide OR show something (a button, an image, a paragraph, a heading, etc), you will change ONE of the following CSS attributes:
 ```
 "document.getElementById('myHiddenButton').style.display='???';"
