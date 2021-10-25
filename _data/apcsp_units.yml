@@ -190,11 +190,18 @@ Projects:
 
   1. Pair- [Py Hogwarts House](/apcsp/py/109PyHogwartsHouse/)
 
-  1. Pair-Pick- [Py Dollar Convert](/apcsp/py/108PyDollarConvert/) or [Py Weight On Planets](/apcsp/py/114PyWeightOnPlanets/)
 
-  1. Pair-Pick- [Py 2D Geometry](/apcsp/py/Py2DGeometry/) or [Py 3D Geometry](/apcsp/py/112Py3DGeometry/)
 
-  1. Pair-Pick- [Py Three Args](/apcsp/py/106PyThreeArgs/) or [Py Collision Fun](/apcsp/py/110PyCollisionFun/)
+
+Additional Projects:
+
+    1. Pair-Pick- [Py Dollar Convert](/apcsp/py/108PyDollarConvert/) or [Py Weight On Planets](/apcsp/py/114PyWeightOnPlanets/)
+
+    1. Pair-Pick- [Py 2D Geometry](/apcsp/py/Py2DGeometry/) or [Py 3D Geometry](/apcsp/py/112Py3DGeometry/)
+
+    1. Pair-Pick- [Py Three Args](/apcsp/py/106PyThreeArgs/) or [Py Collision Fun](/apcsp/py/110PyCollisionFun/)
+
+
 
 "
 - title: practice1
@@ -332,23 +339,29 @@ Projects:
 
 1. [Trt Random Locations](/apcsp/turtleart/025TurtleDrawingsAtRandomLocations/)
 
-1. Pair-Pick- [Trt Block Letters](/apcsp/turtleart/026TurtleBlockLetters/) or [Trt Polygons](/apcsp/turtleart/013TurtlePolygons/)
-
 1. [Trt How Many Squares](/apcsp/turtleart/014TurtleHowManySquares/)
 
-1. Pick- [Trt Random Shapes](/apcsp/turtleart/015TurtleRandomShapes/) or [Trt Mandala Art](/apcsp/turtleart/018TurtleMandalaArt/)
+1. [Trt Arguments and Shapes](/apcsp/turtleart/turtleArgumentsAndShapes/)
 
 1. [Trt Drawing Algorithm](/apcsp/turtleart/019TurtleDrawingAlgorithm/)
 
 1. [Trt Bouncing Off Walls](/apcsp/turtleart/020TurtleBouncingOffWalls/)
 
+1. Pair- [Trt Mondrian](/apcsp/turtleart/TrtMondrian/)
+
+1. [Trt Op Art](/apcsp/turtleart/TrtOpArt/)
+
+
+Additional Projects:
+
+1. Pair-Pick- [Trt Block Letters](/apcsp/turtleart/026TurtleBlockLetters/) or [Trt Polygons](/apcsp/turtleart/013TurtlePolygons/)
+
+1. Pick- [Trt Random Shapes](/apcsp/turtleart/015TurtleRandomShapes/) or [Trt Mandala Art](/apcsp/turtleart/018TurtleMandalaArt/)
+
 1. Pair- [Trt Stars 1](/apcsp/turtleart/016TurtleStars1/)
 
 1. Pair- [Trt Stars 2](/apcsp/turtleart/017TurtleStars2/)
 
-1. Pair- [Trt Mondrian](/apcsp/turtleart/TrtMondrian/)
-
-1. [Trt Op Art](/apcsp/turtleart/TrtOpArt/)
 "
 
 - title: ip
