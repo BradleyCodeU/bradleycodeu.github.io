@@ -5,7 +5,14 @@ title: Ch3 Car
 ---
 Read section 3.8 (pages 110-113) and re-create the Car, CarComponent, and CarViewer classes.
 
-Car class. Complete the two constructors and the setPosition method.
+Directions:
+
+- copy/paste the starter code for Car, CarComponent, and CarViewer
+- Car class: Complete the two constructors and the setPosition method.
+- CarComponent class: ADD TWO MORE CARS near the middle of the window using the no-argument constructor and the setPosition method. Your final project will have 4 visible car objects.
+
+
+Car class:
 ```
 import java.awt.Graphics2D;
 import java.awt.Rectangle;
@@ -85,7 +92,7 @@ public class Car
 }
 ```
 
-Below is the CarComponent class. ADD TWO MORE CARS near the middle of the window using the no-argument constructor and the setPosition method. Your final project will have 4 visible car objects.
+CarComponent:
 ```
 import java.awt.Graphics;
 import java.awt.Graphics2D;
@@ -109,7 +116,7 @@ public class CarComponent extends JComponent
 }
 ```
 
-CarViewer
+CarViewer:
 ```
 import javax.swing.JFrame;
 public class CarViewer
