@@ -3,19 +3,20 @@ layout: project
 category: ch3implementingclasses
 title: Ch3 Car
 ---
-Read section 3.8 (pages 110-113) and re-create the Car, CarComponent, and CarViewer classes.
+
 
 Directions:
 
-- copy/paste the starter code for Car, CarComponent, and CarViewer
-- Car class: Complete the two constructors and the setPosition method.
-- CarComponent class: ADD TWO MORE CARS near the middle of the window using the no-argument constructor and the setPosition method. Your final project will have 4 visible car objects.
+- copy/paste the starter code for Car, CarTester, and CarViewer
+- Car class: Complete the two constructors and the setPosition method. In the constructors, you will also set carColor to one of the [java.awt.Color constants](https://docs.oracle.com/javase/7/docs/api/java/awt/Color.html). For example, Color.BLUE
+- CarTester class: ADD TWO MORE CARS near the middle of the window using the no-argument constructor and the setPosition method. Your final project will have 4 visible car objects.
 
 
 Car class:
 ```
 import java.awt.Graphics2D;
 import java.awt.Rectangle;
+import java.awt.Color;
 import java.awt.geom.Ellipse2D;
 import java.awt.geom.Line2D;
 import java.awt.geom.Point2D;
@@ -26,14 +27,16 @@ public class Car
 {
    private int xLeft;
    private int yTop;
+   private Color carColor;
 
    /**
       public Car()
-      Constructs a car with at location (0, 0).
+      Constructs a car at location (0, 0).
    */
    public Car()
    {
       // TO DO
+      
    }
 
    /**
@@ -45,6 +48,7 @@ public class Car
    public Car(int x, int y)
    {
       // TO DO
+
    }
 
    /**
@@ -56,6 +60,7 @@ public class Car
    public void setPosition(int x, int y)
    {
       // TO DO
+
    }
 
    /**
@@ -81,7 +86,7 @@ public class Car
       Line2D.Double frontWindshield = new Line2D.Double(r1, r2);
       Line2D.Double roofTop = new Line2D.Double(r2, r3);
       Line2D.Double rearWindshield = new Line2D.Double(r3, r4);
-
+      g2.setColor(carColor);
       g2.draw(body);
       g2.draw(frontTire);
       g2.draw(rearTire);
@@ -92,7 +97,7 @@ public class Car
 }
 ```
 
-CarComponent:
+CarTester:
 ```
 import java.awt.Graphics;
 import java.awt.Graphics2D;
@@ -100,18 +105,21 @@ import javax.swing.JComponent;
 /**
    This component draws two car shapes.
 */
-public class CarComponent extends JComponent
+public class CarTester extends JComponent
 {  
    public void paintComponent(Graphics g)
    {  
       Graphics2D g2 = (Graphics2D) g;
+
       Car car1 = new Car(0, 0);
+      car1.draw(g2);
 
       int x = getWidth() - 60;
       int y = getHeight() - 30;
       Car car2 = new Car(x, y);
-      car1.draw(g2);
-      car2.draw(g2);      
+      car2.draw(g2);
+
+      // add car3 and car4
    }
 }
 ```
