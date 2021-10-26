@@ -133,9 +133,9 @@ public class CarViewer
    {
       JFrame frame = new JFrame();
       frame.setSize(300, 400);
-      frame.setTitle("Two cars");
+      frame.setTitle("My Awesome Cars");
       frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-      CarComponent component = new CarComponent();
+      CarTester component = new CarTester();
       frame.add(component);
       frame.setVisible(true);
    }
