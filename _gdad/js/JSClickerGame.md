@@ -31,3 +31,5 @@ GOLD LEVEL CHALLENGE:
 Create a function called clickingRobot(). Inside that function, use setInterval() to automatically call the addClick function every 5 seconds.
 
 Create a button that says "Buy Click Robot for $50"  When clicked, check to make sure that the player has 50 or more. Subtract 50 from their score. Call the clickingRobot() function.
+
+Increase your reward levels to something like 50, 100, and 200.
