@@ -15,10 +15,6 @@ Here is one way to change the background color:
 ```
 "document.body.style.background='???';"
 ```
-How to hide something as soon as the page loads:
-```
-<p onload="this.style.display='none';"> Hidden Text </p>
-```
 
 If you want to hide OR show something (a button, an image, a paragraph, a heading, etc), you will change ONE of the following CSS attributes:
 ```
