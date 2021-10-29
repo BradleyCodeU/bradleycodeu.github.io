@@ -70,7 +70,7 @@
 "answer": "equality operator","question":"returns True if the value on the left is equal to the value on the right, otherwise it returns False. In JavaScript, it is the characters =="
 },
 {
-"answer": "string","question":"a data type that stores a sequence of characters which could include letters, numbers, spaces, symbols and punctuation. For example, "steve!", "can't", "$9.99""
+"answer": "string","question":"a data type that stores a sequence of characters which could include letters, numbers, spaces, symbols and punctuation. For example, \"steve!\", \"can't\", \"$9.99\""
 },
 {
 "answer": "camelCase","question":"process of naming multi-word variables without spaces and so that words in the middle of the phrase begins with a capital letter. For example, numberOfCars, iPhone, eBay"
@@ -175,7 +175,7 @@
 "answer": "equality operator","question":"returns True if the value on the left is equal to the value on the right, otherwise it returns False. In JavaScript, it is the characters =="
 },
 {
-"answer": "string","question":"a data type that stores a sequence of characters which could include letters, numbers, spaces, symbols and punctuation. For example, "steve!", "can't", "$9.99""
+"answer": "string","question":"a data type that stores a sequence of characters which could include letters, numbers, spaces, symbols and punctuation. For example, \"steve!\", \"can't\", \"$9.99\""
 },
 {
 "answer": "camelCase","question":"process of naming multi-word variables without spaces and so that words in the middle of the phrase begins with a capital letter. For example, numberOfCars, iPhone, eBay"
