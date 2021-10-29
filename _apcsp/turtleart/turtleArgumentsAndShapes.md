@@ -29,3 +29,15 @@ Pick 1 or 2 of these...
   - drawTrapezoid(sideLengthA, sideLengthB, sideLengthC, angleOne)
 
 Finally, create a function named main(). In this function, you will call your 3 functions and provide different arguments to demonstrate the custom shapes. The main function should contain at least 6 function calls.
+
+Here is an example with two pentagons, two houses, and two rectangles...
+
+![example 1 pentagons, houses, and rectangles](/apcsp/turtleart/trtArguments1.png)
+
+Another example with two circles, two triangles, and two rectangles...
+
+![example 2 circles, triangles, and rectangles](/apcsp/turtleart/trtArguments2.png)
+
+Another example with two rhombuses, two rectangles, and two triangles...
+
+![example 3 rhombuses, rectangles, and triangles](/apcsp/turtleart/trtArguments3.png)
