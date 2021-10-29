@@ -169,13 +169,7 @@ Projects:
   content: "
 
 
-
-
-  - [What is a Method Header?](https://www.leepoint.net/JavaBasics/methods/methods-20-define.html)
-
-  - [What is an Access Specifier?](https://www.geeksforgeeks.org/access-specifiers-for-classes-or-interfaces-in-java/)
-
-
+Vocab: instance variable, [local variable](https://www.dummies.com/programming/java/local-variables-in-java/), constructor, mutator method, accessor method, [method header](http://www.cs.cornell.edu/courses/cs1130/2012sp/1130selfpaced/module2/module2part1/methodHeaders.html), return type, void, [access specifier](https://www.geeksforgeeks.org/access-specifiers-for-classes-or-interfaces-in-java/), formal parameter, actual parameter, [implicit parameter](https://www.thoughtco.com/implicit-parameter-2034139), static method
 
 Projects:
 
@@ -187,17 +181,19 @@ Projects:
 
 1. [Ch3 Student](/apcsa/ch3implementingclasses/ch3student/)
 
-1. [Ch3 Cash Register](/apcsa/ch3implementingclasses/ch3cashregister/)
+1. [Java Adventure Game]()
+
+1. [Food Review]()
 
 1. [Ch3 Graphics Car](/apcsa/ch3implementingclasses/ch3car/)
 
 1. [Ch3 Potato Head](/apcsa/ch3implementingclasses/ch3potatohead/)
 
-1. [Food Review]
 
-1. [Restuarant]
 
-1. [User]
+Additional projects:
+
+1. [Ch3 Cash Register](/apcsa/ch3implementingclasses/ch3cashregister/)
 
 "
 
