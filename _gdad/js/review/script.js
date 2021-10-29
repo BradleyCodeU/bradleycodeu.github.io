@@ -18,7 +18,7 @@ $.getJSON("./trivia.json", function(json) {
   questions = shuffle(json, randomSeed);
   //console.log(json);
   loadQuestion();
-});
+}).fail(function() { console.log("getJSON error"); });
 
 function loadQuestion() {
   document.getElementById("questionText").innerHTML =
