@@ -40,23 +40,23 @@ function turkeyDay(){
   let h3Array = document.getElementsByTagName("h3");
   let h4Array = document.getElementsByTagName("h4");
   for(let i=0;i<h1Array.length;i++){
-    if(Math.random()+Math.random() > 12/today){
-      h1Array[i].innerHTML = h1Array[i].innerHTML + " " + choice(emojis);
+    if(Math.random()+Math.random() > 15/today){
+      h1Array[i].innerHTML = choice(emojis) + " " + h1Array[i].innerHTML + " " + choice(emojis);
     }
   }
   for(let i=0;i<h2Array.length;i++){
-    if(Math.random()+Math.random() > 9/today){
-      h2Array[i].innerHTML = h2Array[i].innerHTML + " " + choice(emojis);
+    if(Math.random()+Math.random() > 11/today){
+      h2Array[i].innerHTML = choice(emojis) + " " + h2Array[i].innerHTML + " " + choice(emojis);
     }
   }
   for(let i=0;i<h3Array.length;i++){
-    if(Math.random()+Math.random() > 6/today){
-      h3Array[i].innerHTML = h3Array[i].innerHTML + " " + choice(emojis);
+    if(Math.random()+Math.random() > 7/today){
+      h3Array[i].innerHTML = choice(emojis) + " " + h3Array[i].innerHTML + " " + choice(emojis);
     }
   }
   for(let i=0;i<h4Array.length;i++){
     if(Math.random()+Math.random() < 3/today){
-      h4Array[i].innerHTML = h4Array[i].innerHTML + " " + choice(emojis);
+      h4Array[i].innerHTML = choice(emojis) + " " + h4Array[i].innerHTML + " " + choice(emojis);
     }
   }
 }
