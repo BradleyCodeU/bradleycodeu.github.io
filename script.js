@@ -32,22 +32,32 @@ function choice(arr){
 }
 function turkeyDay(){
   //,"🍽️","🍽️","🍽️"
+  const d = new Date();
+  const today = d.getDate();
   let emojis = ["😋","🦃","🦃","🦃","🍗","🥧","🥧","🥧","🍂","🍂","🍂","🍃","🍃","🍃","🎑","🎑","🎑","🍁","🍁","🍁","🌽","🎩","🎈","🏈","🎉","👪","🍞","🤤","🥔","🥕","🏡","🧣","🍴","☕"];
   let h1Array = document.getElementsByTagName("h1");
   let h2Array = document.getElementsByTagName("h2");
   let h3Array = document.getElementsByTagName("h3");
   let h4Array = document.getElementsByTagName("h4");
   for(let i=0;i<h1Array.length;i++){
-    h1Array[i].innerHTML = h1Array[i].innerHTML + " " + choice(emojis);
+    if(Math.random()+Math.random() > today/10){
+      h1Array[i].innerHTML = h1Array[i].innerHTML + " " + choice(emojis);
+    }
   }
   for(let i=0;i<h2Array.length;i++){
-    h2Array[i].innerHTML = h2Array[i].innerHTML + " " + choice(emojis);
+    if(Math.random()+Math.random() > today/8){
+      h2Array[i].innerHTML = h2Array[i].innerHTML + " " + choice(emojis);
+    }
   }
   for(let i=0;i<h3Array.length;i++){
-    h3Array[i].innerHTML = h3Array[i].innerHTML + " " + choice(emojis);
+    if(Math.random()+Math.random() > today/6){
+      h3Array[i].innerHTML = h3Array[i].innerHTML + " " + choice(emojis);
+    }
   }
   for(let i=0;i<h4Array.length;i++){
-    h4Array[i].innerHTML = h4Array[i].innerHTML + " " + choice(emojis);
+    if(Math.random()+Math.random() < today/4){
+      h4Array[i].innerHTML = h4Array[i].innerHTML + " " + choice(emojis);
+    }
   }
 }
 turkeyDay();
