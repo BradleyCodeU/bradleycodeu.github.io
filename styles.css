@@ -38,7 +38,7 @@ body {
 	background: #102036 !important;
   font-family: robo, 'Roboto Condensed', sans-serif;
   /* <!-- Halloween stuff --> */
-	font-family: 'Jolly Lodger','Roboto Condensed', 'Verdana','Arial', sans-serif;
+	/* font-family: 'Jolly Lodger','Roboto Condensed', 'Verdana','Arial', sans-serif; */
   color:#ffffff!important;
 }
 h1, h2, h3, h4{
@@ -64,14 +64,14 @@ body{font-size: 1.1rem;}
 
 a{
   /* <!-- Halloween stuff --> */
-  font-family: 'Griffy', sans-serif;
+  /* font-family: 'Griffy', sans-serif; */
 	color:#A8D4FF;
   /* color: #FF9700; */
 }
 a:link{
   text-decoration: none;
   /* <!-- Halloween stuff --> */
-  font-family: 'Griffy', sans-serif;
+  /* font-family: 'Griffy', sans-serif; */
   font-weight: bold !important;
   font-weight: 700 !important;
   /* font-size: 15pt; */
@@ -200,7 +200,7 @@ header {
 }
 h1.project-title{
   /* <!-- Halloween stuff --> */
-  font-family: 'Creepster',sans-serif;
+  /* font-family: 'Creepster',sans-serif; */
   /* background: #007bff; */
   /* background: #1E90FF; */
   background: #0169CE;
@@ -216,24 +216,24 @@ h1[id]{
   margin-top:150px;
   padding-top:100px;
 }
-h1{
+/* h1{*/
   /* <!-- Halloween stuff --> */
-  font-family: 'Creepster',sans-serif;
+  /* font-family: 'Creepster',sans-serif; */
   /* <!-- Halloween stuff --> */
-  transition: 2s;
-}
+  /* transition: 2s; */
+/*} */
 h2 {
   /* <!-- Halloween stuff --> */
-  font-family: 'Nosifer',sans-serif;
+  /* font-family: 'Nosifer',sans-serif; */
   text-shadow: -1px 2px #6c757d;
 
 }
-h2,h3,h4{
+/* h2,h3,h4{ */
   /* <!-- Halloween stuff --> */
-  font-family: 'Nosifer',sans-serif;
+  /* font-family: 'Nosifer',sans-serif; */
   /* <!-- Halloween stuff --> */
-  transition: 2s;
-}
+  /* transition: 2s; */
+/* } */
 h2[id],h3[id],h4[id]{
   margin-top:75px;
   padding-top:75px;
