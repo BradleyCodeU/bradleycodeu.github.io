@@ -45,17 +45,17 @@ function turkeyDay(){
     }
   }
   for(let i=0;i<h2Array.length;i++){
-    if(Math.random()+Math.random() > 11/today){
+    if(Math.random()+Math.random() > 10/today){
       h2Array[i].innerHTML = choice(emojis) + " " + h2Array[i].innerHTML + " " + choice(emojis);
     }
   }
   for(let i=0;i<h3Array.length;i++){
-    if(Math.random()+Math.random() > 7/today){
+    if(Math.random()+Math.random() > 5/today){
       h3Array[i].innerHTML = choice(emojis) + " " + h3Array[i].innerHTML + " " + choice(emojis);
     }
   }
   for(let i=0;i<h4Array.length;i++){
-    if(Math.random()+Math.random() < 3/today){
+    if(Math.random()+Math.random() < 1/today){
       h4Array[i].innerHTML = choice(emojis) + " " + h4Array[i].innerHTML + " " + choice(emojis);
     }
   }
