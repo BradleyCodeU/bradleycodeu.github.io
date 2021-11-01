@@ -40,17 +40,17 @@ function turkeyDay(){
   let h3Array = document.getElementsByTagName("h3");
   let h4Array = document.getElementsByTagName("h4");
   for(let i=0;i<h1Array.length;i++){
-    if(Math.random()+Math.random() > 15/today){
+    if(Math.random()+Math.random() > 10/today){
       h1Array[i].innerHTML = choice(emojis) + " " + h1Array[i].innerHTML + " " + choice(emojis);
     }
   }
   for(let i=0;i<h2Array.length;i++){
-    if(Math.random()+Math.random() > 10/today){
+    if(Math.random()+Math.random() > 7/today){
       h2Array[i].innerHTML = choice(emojis) + " " + h2Array[i].innerHTML + " " + choice(emojis);
     }
   }
   for(let i=0;i<h3Array.length;i++){
-    if(Math.random()+Math.random() > 5/today){
+    if(Math.random()+Math.random() > 4/today){
       h3Array[i].innerHTML = choice(emojis) + " " + h3Array[i].innerHTML + " " + choice(emojis);
     }
   }
