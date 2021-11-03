@@ -12,6 +12,8 @@ Write a program that prompts the user for two integers and then prints
   1. The distance (absolute value of the difference)
   1. The maximum (the larger of the two)
   1. The minimum (the smaller of the two)
+  1. First % Second
+  1. Second % First
 
 <small>Hint: The abs, max, and min functions are declared in the Math class.</small>
 
@@ -32,4 +34,6 @@ Average:            19.50
 Distance:            1
 Maximum:            20
 Minimum:            19
+19 % 20:            19
+20 % 19:             1
 ```
