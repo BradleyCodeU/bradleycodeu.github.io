@@ -39,6 +39,12 @@ function turkeyDay(){
   let h2Array = document.getElementsByTagName("h2");
   let h3Array = document.getElementsByTagName("h3");
   let h4Array = document.getElementsByTagName("h4");
+  let anchorArray = document.getElementsByTagName("a");
+  for(let i=0;i<anchorArray.length;i++){
+    if(Math.random()+Math.random() > 12/today){
+      anchorArray[i].innerHTML = choice(emojis) + " " + anchorArray[i].innerHTML + " " + choice(emojis);
+    }
+  }
   for(let i=0;i<h1Array.length;i++){
     if(Math.random()+Math.random() > 10/today){
       h1Array[i].innerHTML = choice(emojis) + " " + h1Array[i].innerHTML + " " + choice(emojis);
