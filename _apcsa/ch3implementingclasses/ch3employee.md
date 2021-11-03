@@ -11,21 +11,27 @@ public Employee(String fullName, double salary)
 ```
 and methods
 ```
+public String getEmail()
 public String getName()
 public double getSalary()
 public void raiseSalary(double byPercent)
 ```
-These methods return the name and salary, and raise the employee's salary by a certain percentage. Sample usage:
+
+Email should be generated in the constructor using the lowercase first-three letters of the name plus a random number from 20-29 plus "@example.com". For example, the email for "Harry Hacker" might be "har27@example.com"
+
+The Employee methods return the email, return the name, return the salary, and raise the employee's salary by a certain percentage. Sample usage:
 ```
 Employee harry = new Employee("Harry Hacker", 50000);
 harry.raiseSalary(10); // Harry gets a 10 percent raise
 ```
+
 Supply an EmployeeTester class that tests all methods. RUN TWO TESTS with different salaries and different raises. Print your expected results and then the actual results.
 
 ## Sample Output
 ```
 Test ONE
 Name of employee = Beth Jones
+Email = bet24@example.com
 Salary of employee = 50000.0
 Expected result after 10% raise is 55000
 Actual result = 55000.0
