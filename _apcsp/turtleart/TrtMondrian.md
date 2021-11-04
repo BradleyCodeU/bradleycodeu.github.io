@@ -44,3 +44,11 @@ EXAMPLE PROJECTS:
 ![example 2](/apcsp\turtleart\mon2.jpg)
 ![example 3](/apcsp\turtleart\mon3.jpg)
 ![example 4](/apcsp\turtleart\mon4.jpg)
+
+### GOLD MEDAL CHALLENGE
+
+Add two more functions for shapes that could be drawn instead of rectangles/square. Ask the user which shape they would like. For example, my project might have rectangles, triangles, and circles. I would ask the user... "Which shape? 1 = rectangles, 2 = triangle, 3 = circles: "
+
+Use a while True loop instead of a for loop.
+
+Don't ask the user for color names. Instead, use RGB color values and SLOWLY change the fill color over time.
