@@ -43,7 +43,9 @@ function turkeyDay() {
   let anchorArray = document.getElementsByTagName("a");
   for (let i = 0; i < anchorArray.length; i++) {
     if (Math.random() + Math.random() > 12 / today) {
-      anchorArray[i].innerHTML = choice(emojis) + " " + anchorArray[i].innerHTML + " " + choice(emojis);
+      if (!(anchorArray[i]).classList.contains('nav-link')) {
+        anchorArray[i].innerHTML = choice(emojis) + " " + anchorArray[i].innerHTML + " " + choice(emojis);
+      }
     }
   }
   for (let i = 0; i < h1Array.length; i++) {
