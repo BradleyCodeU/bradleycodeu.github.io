@@ -19,6 +19,8 @@ You might also want to copy/paste some functions from previous projects, such as
 
 You MUST use the tracer to speed up the animation. You could set tracer(0) at the top of your code and update() at the bottom. Another option is to set the tracer to 100 or larger.
 
+If you are working with a partner, you MUST randomly select pencolor and fillcolor.
+
 Here is an example. Each time your app runs it might randomly draw TWO of these...
 
 ![16 different example faces](/apcsp\turtleart\tweeExample.jpg)
