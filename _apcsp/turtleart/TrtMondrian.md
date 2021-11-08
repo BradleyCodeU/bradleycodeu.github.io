@@ -13,11 +13,9 @@ In this project you will create a Mondrian-style Drawing Generator.
 
 ### DIRECTIONS
 
-Define a function that will draw ONE Rectangle. (You will use this in the main algorithm below)
-  - Create a variable called height set it to 50 multiplied by a small random integer (50 is the grid size)
-  - Create a variable called width set it to 50 multiplied by a small random integer
+Define a function that will draw ONE Rectangle. Requires two arguments: height and width (You will use this in the main algorithm below)
   - Begin fill
-  - Draw a rectangle using the height and width variable and 90-deg turns
+  - Draw a rectangle using the height and width arguments and 90-deg turns
   - End fill
 
 Main Algorithm:
@@ -29,10 +27,12 @@ Main Algorithm:
   - Save their answer in another variable
   - Create a for loop
     - Pick up the pen
-    - Create a variable called x set it to 50 multiplied by a small random integer
+    - Create a variable called x set it to 50 multiplied by a small random integer (50 is the grid size)
     - Create a variable called y set it to 50 multiplied by a small random integer
     - Go to x, y
     - Randomly set the fill color to either "white", color1, color2, or color3
+    - Create a variable called height set it to 50 multiplied by a small random integer (50 is the grid size)
+    - Create a variable called width set it to 50 multiplied by a small random integer
     - Call your draw one rectangle function
 
 
@@ -44,3 +44,13 @@ EXAMPLE PROJECTS:
 ![example 2](/apcsp\turtleart\mon2.jpg)
 ![example 3](/apcsp\turtleart\mon3.jpg)
 ![example 4](/apcsp\turtleart\mon4.jpg)
+
+### GOLD MEDAL CHALLENGE
+
+Add two more functions for shapes that could be drawn in addition to rectangles/squares. For example, my project might have rectangles, triangles, and circles.
+
+Ask the user which shape they would like. For example, I would ask the user... "Which shape? 1 = rectangles, 2 = triangle, 3 = circles: "
+
+Use a while True loop instead of a for loop.
+
+Don't ask the user for color names. Instead, use RGB color values and SLOWLY change the fill color over time.

@@ -1,37 +1,38 @@
 // <!-- Halloween stuff begins -->
-function spookyHalloween(){
+function spookyHalloween() {
   let h1Array = document.getElementsByTagName("h1");
   let h2Array = document.getElementsByTagName("h2");
   let h3Array = document.getElementsByTagName("h3");
   let h4Array = document.getElementsByTagName("h4");
   let letters = "ABCDEF";
-  setInterval(()=>{
-    for(let i=0;i<h1Array.length;i++){
-      h1Array[i].style.marginLeft=Math.floor(Math.random()*50)+"px";
-      h1Array[i].style.color="#"+letters[Math.floor(Math.random() * 6)]+letters[Math.floor(Math.random() * 6)]+letters[Math.floor(Math.random() * 6)];
+  setInterval(() => {
+    for (let i = 0; i < h1Array.length; i++) {
+      h1Array[i].style.marginLeft = Math.floor(Math.random() * 50) + "px";
+      h1Array[i].style.color = "#" + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)];
     }
-    for(let i=0;i<h2Array.length;i++){
-      h2Array[i].style.marginLeft=Math.floor(Math.random()*50)+"px";
-      h2Array[i].style.color="#"+letters[Math.floor(Math.random() * 6)]+letters[Math.floor(Math.random() * 6)]+letters[Math.floor(Math.random() * 6)];
+    for (let i = 0; i < h2Array.length; i++) {
+      h2Array[i].style.marginLeft = Math.floor(Math.random() * 50) + "px";
+      h2Array[i].style.color = "#" + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)];
     }
-    for(let i=0;i<h3Array.length;i++){
-      h3Array[i].style.marginLeft=Math.floor(Math.random()*50)+"px";
-      h3Array[i].style.color="#"+letters[Math.floor(Math.random() * 6)]+letters[Math.floor(Math.random() * 6)]+letters[Math.floor(Math.random() * 6)];
+    for (let i = 0; i < h3Array.length; i++) {
+      h3Array[i].style.marginLeft = Math.floor(Math.random() * 50) + "px";
+      h3Array[i].style.color = "#" + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)];
     }
-    for(let i=0;i<h4Array.length;i++){
-      h4Array[i].style.marginLeft=Math.floor(Math.random()*50)+"px";
-      h4Array[i].style.color="#"+letters[Math.floor(Math.random() * 6)]+letters[Math.floor(Math.random() * 6)]+letters[Math.floor(Math.random() * 6)];
+    for (let i = 0; i < h4Array.length; i++) {
+      h4Array[i].style.marginLeft = Math.floor(Math.random() * 50) + "px";
+      h4Array[i].style.color = "#" + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)];
     }
 
-  },5000);
+  }, 5000);
 }
 // <!-- Halloween stuff ends -->
 // <!-- Turkey day stuff begins -->
-function choice(arr){
-  return arr[Math.floor(Math.random()*arr.length)];
+function choice(arr) {
+  return arr[Math.floor(Math.random() * arr.length)];
 }
-function turkeyDay(){
-  let emojis = ["😋","🦃","🦃","🦃","🍗","🥧","🥧","🥧","🍂","🍂","🍂","🍃","🍃","🍃","🎑","🎑","🎑","🍁","🍁","🍁","🌽","🎩","🎈","🏈","🎉","👪","🍞","🤤","🥔","🥕","🏡","🧣","🍴","☕"];
+
+function turkeyDay() {
+  let emojis = ["😋", "😋", "😋", "🦃", "🦃", "🦃", "🦃", "🍗", "🥧", "🥧", "🥧", "🥧", "🍂", "🍂", "🍂", "🍂", "🍃", "🍃", "🍃", "🎑", "🎑", "🎑", "🌇", "🌇", "🌇", "🍁", "🍁", "🍁", "🍁", "🌽", "🌽", "🌽", "🎩", "🎩", "🎩", "🎈", "🎈", "🎈", "🏈", "🏈", "🏈", "🎉", "🎉", "🎉", "👪", "🍞", "🤤", "🤤", "🤤", "🥔", "🥔", "🥔", "🥕", "🥕", "🥕", "🏡", "🏡", "🏡", "🧣", "🧣", "🧣", "🍴", "🍴", "🍴", "☕", "☕", "☕", "🧤", "🧤", "🧤", "🍽️", "🍽️", "🍽️"];
   // These don't work?! "🍽️","🍽️","🍽️"
   const d = new Date();
   const today = d.getDate();
@@ -60,8 +61,8 @@ function turkeyDay(){
       h3Array[i].innerHTML = choice(emojis) + " " + h3Array[i].innerHTML + " " + choice(emojis);
     }
   }
-  for(let i=0;i<h4Array.length;i++){
-    if(Math.random()+Math.random() < 4/today){
+  for (let i = 0; i < h4Array.length; i++) {
+    if (Math.random() + Math.random() < 4 / today) {
       h4Array[i].innerHTML = choice(emojis) + " " + h4Array[i].innerHTML + " " + choice(emojis);
     }
   }
@@ -69,7 +70,7 @@ function turkeyDay(){
 turkeyDay();
 // <!-- Turkey day stuff ends -->
 // <!-- Snow stuff begins -->
-  // snow stuff
+// snow stuff
 // var isSnowEnabled;
 // if (localStorage.getItem("isSnowEnabled") === null) {
 //   isSnowEnabled = true;
