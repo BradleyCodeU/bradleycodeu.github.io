@@ -42,7 +42,7 @@ function turkeyDay() {
   let h4Array = document.getElementsByTagName("h4");
   let anchorArray = document.getElementsByTagName("a");
   for (let i = 0; i < anchorArray.length; i++) {
-    if (!anchorArray[i].classList.contains("nav-link") && Math.random() + Math.random() > 15 / today) {
+    if (!anchorArray[i].classList.contains("nav-link") && !anchorArray[i].classList.contains("navbar-brand") && Math.random() + Math.random() > 15 / today) {
       anchorArray[i].innerHTML = choice(emojis) + " " + anchorArray[i].innerHTML + " " + choice(emojis);
     }
   }
