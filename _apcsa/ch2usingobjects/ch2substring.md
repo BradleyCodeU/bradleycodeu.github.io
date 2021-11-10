@@ -25,7 +25,7 @@ public class Main {
     public static int findFirstVowel(String word)
     {
         for (int i = 0; i < word.length(); i++) {
-            String letter = Character.toString(word.charAt(i)
+            String letter = Character.toString(word.charAt(i));
             if (letter.equalsIgnoreCase("a") || letter.equalsIgnoreCase("e") || letter.equalsIgnoreCase("o")
                 || letter.equalsIgnoreCase("i") || letter.equalsIgnoreCase("u")) {
                 return i;

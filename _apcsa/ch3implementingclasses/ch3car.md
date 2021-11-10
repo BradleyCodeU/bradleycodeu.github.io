@@ -7,7 +7,7 @@ title: Ch3 Car
 
 Directions:
 
-- copy/paste the starter code for Car, CarTester, and CarViewer
+- copy/paste the starter code for Car, CarTester, and Main
 - Car class: Complete the two constructors and the setPosition method. In the constructors, you will also set carColor to one of the [java.awt.Color constants](https://docs.oracle.com/javase/7/docs/api/java/awt/Color.html). For example, Color.BLUE
 - CarTester class: ADD TWO MORE CARS near the middle of the window using the no-argument constructor and the setPosition method. Your final project will have 4 visible car objects.
 
@@ -124,10 +124,10 @@ public class CarTester extends JComponent
 }
 ```
 
-CarViewer:
+Main:
 ```
 import javax.swing.JFrame;
-public class CarViewer
+public class Main
 {
    public static void main(String[] args)
    {
