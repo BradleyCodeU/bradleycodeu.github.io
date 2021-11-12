@@ -42,4 +42,6 @@ Write code so that your turtle will forever:
 
 Use three, comma-separated RGB color values to SLOWLY change the pen color over time.
 
+![Example](/apcsp/turtleart/bounceChallenge.jpg)
+
 <!--If you are using Mu, the "walls" are -450 and 450 horizontally and then -400 and 400 vertically.-->
