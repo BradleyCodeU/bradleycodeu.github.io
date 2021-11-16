@@ -1,7 +1,7 @@
 ---
 layout: project
 category: ch45strings
-title: Substring Replace
+title: Replace
 ---
 Use these String methods to recreate the sample output:
 
