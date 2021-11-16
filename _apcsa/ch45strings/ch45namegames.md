@@ -10,7 +10,7 @@ Write a Java program to prompt the user to enter their name. Your program will r
 Next, cite wrode… Oops I mean, write code… that will prompt for the user’s nast lame… Oops I mean, last name… then generate a [Spoonerism](https://en.wikipedia.org/wiki/Spoonerism) using their first and last name. For example, Brilliard Hadley, Jeve Stobs, Fran Sancisco. Create a method called findFirstVowel that takes a string as argument and returns the index of the first vowel or returns 0 if no vowels. Create a method called vowelName that takes a string like “Bradley” as argument, calls findFirstVowel, and returns “adley”. In your main method, use getVowelName to help you.
 
 
-define a static function named findFirstVowel() that requires parameter inputWord and returns an int
+Define a static function named findFirstVowel() that requires parameter inputWord and returns an int
 
 - create a string named vowels that is "aeiouy"
   - create a counter starts at 0
@@ -55,7 +55,7 @@ Oops I mean Elon Musk!
 
 Try running your code with a different variety of inputs. What happens if you just hit the ENTER key instead of entering a name?
 
-You MUST also complete one of the challenges:
+You MUST also complete ONE of the challenges:
 
   - CHALLENGE 1: Prompt for the user's last name, then randomly generate 10 suggested usernames for that person. For example... jusriley3, rilj6, juriley7, rileyju29, justiri4, rijustin2, jr87, etc
 
