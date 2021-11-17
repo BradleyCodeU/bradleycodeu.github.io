@@ -85,6 +85,7 @@ var wind = Math.random() - .5;
 var mouseX;
 var mouseY;
 var clickcount = 0;
+var isSnowEnabled = false;
 
 function snowDay() {
   // create the snowflake toggle checkbox
@@ -92,7 +93,7 @@ function snowDay() {
   divSnow.id = "snow";
   divSnow.style.cssText = 'position:fixed;top:0;left:0;padding:3px;width:100%;height:1px;z-index:11111;';
   var labelSwitch = document.createElement('label');
-  labelSwitch.style.cssText = 'font-size:4px;position:relative;display:inline-block;width:32px;height:16px;margin:0px!important;';
+  labelSwitch.style.cssText = 'font-size:8px;position:relative;display:inline-block;width:32px;height:16px;margin:0px!important;';
   var inputSnowCheckbox = document.createElement('input');
   inputSnowCheckbox.id = "snowCheckbox";
   inputSnowCheckbox.type = "checkbox";
@@ -108,7 +109,7 @@ function snowDay() {
   document.body.appendChild(divSnow);
 
 
-  var isSnowEnabled;
+
   if (localStorage.getItem("isSnowEnabled") === null) {
     isSnowEnabled = true;
   } else {
