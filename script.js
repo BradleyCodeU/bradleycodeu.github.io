@@ -106,9 +106,11 @@ function snowDay() {
   };
   divSnow.style.cssText = 'position:fixed;top:0;left:0;padding:3px;width:100%;height:1px;z-index:11111;';
   var textNode = document.createTextNode("snow");
-  labelSwitch.appendChild(inputSnowCheckbox);
-  labelSwitch.appendChild(brSnow);
   labelSwitch.appendChild(textNode);
+  labelSwitch.appendChild(brSnow);
+  labelSwitch.appendChild(inputSnowCheckbox);
+
+
   divSnow.appendChild(labelSwitch);
   document.body.appendChild(divSnow);
 
