@@ -79,8 +79,9 @@ turkeyDay();
 //     <span class="slider round"></span>
 //   </label>
 // </div> -->
-var flakes = []
+var flakes = [];
 var flakesTotal = Math.floor(100 * (Date.now() - 1575774414164) / 1210000000 * Math.random() + 100 * (Date.now() - 1575774414164) / 1210000000 * Math.random());
+flakesTotal = 15;
 var wind = Math.random() - .5;
 var mouseX;
 var mouseY;
@@ -127,6 +128,7 @@ function snowDay() {
 
 function toggleFlakes() {
   isSnowEnabled = !isSnowEnabled;
+  document.getElementById("snowCheckbox").checked = isSnowEnabled;
   localStorage.setItem("isSnowEnabled", isSnowEnabled);
   setBrandName()
 }
