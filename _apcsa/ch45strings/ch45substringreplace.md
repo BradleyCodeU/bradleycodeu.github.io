@@ -9,7 +9,6 @@ Use these String methods to recreate the sample output:
   - .charAt()
   - .substring()
   - .indexOf()
-  - .replace()
 
 Sample Output: This is a sample transcript of what your program should do. Some items are user input and should not be put on the screen by your program. You will create two columns using printf. The field width of the first column is 30 and the second column is 30.
 ```
