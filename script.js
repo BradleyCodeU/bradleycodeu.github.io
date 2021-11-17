@@ -92,9 +92,9 @@ inputSnowCheckbox.onclick = function() {
   toggleFlakes()
 };
 divSnow.style.cssText = 'position:fixed;top:0;left:0;padding:3px;width:100%;height:1px;z-index:11111;';
-var textNode = document.createTextNode("Toggle Snow:");
-labelSwitch.appendChild(textNode);
+var textNode = document.createTextNode("Toggle Snow");
 labelSwitch.appendChild(inputSnowCheckbox);
+labelSwitch.appendChild(textNode);
 divSnow.appendChild(labelSwitch);
 document.body.appendChild(divSnow);
 
