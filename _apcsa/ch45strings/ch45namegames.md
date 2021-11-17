@@ -3,7 +3,7 @@ layout: project
 category: ch45strings
 title: Name Games
 ---
-
+Starter Template: [https://replit.com/@JustinRiley1/226NameGames-Template#Main.java](https://replit.com/@JustinRiley1/226NameGames-Template#Main.java)
 
 Write a Java program to prompt the user to enter their name. Your program will respond with a welcome message for the user and then some information about the user’s first name.
 
@@ -31,10 +31,10 @@ Sample Output:
 ```
 Enter your first name: Steve
 Hello Steve!
-Your name is 5 letters long.
-Your name starts with a S.
-The letter e is at the center of your name.
-Your name ends with a e.
+1. Your name is 5 letters long.
+2. Your name starts with a S.
+3. The letter e is at the center of your name.
+4. Your name ends with a e.
 Enter your last name: Jobs
 Goodbye Jeve Stobs!
 Oops I mean Steve Jobs!
@@ -44,10 +44,10 @@ Sample Output 2:
 ```
 Enter your first name: Elon
 Hello Elon!
-Your name is 4 letters long.
-Your name starts with a E.
-The letter o is at the center of your name.
-Your name ends with a n.
+1. Your name is 4 letters long.
+2. Your name starts with a E.
+3. The letter o is at the center of your name.
+4. Your name ends with a n.
 Enter your last name: Musk
 Goodbye MElon usk!
 Oops I mean Elon Musk!
