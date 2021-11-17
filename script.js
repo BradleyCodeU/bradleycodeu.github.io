@@ -1,5 +1,5 @@
-// <!-- Halloween stuff begins -->
-function spookyHalloween() {
+// <!-- Spooky stuff begins -->
+function spookySeason() {
   let h1Array = document.getElementsByTagName("h1");
   let h2Array = document.getElementsByTagName("h2");
   let h3Array = document.getElementsByTagName("h3");
@@ -25,13 +25,16 @@ function spookyHalloween() {
 
   }, 5000);
 }
-// <!-- Halloween stuff ends -->
-// <!-- Turkey day stuff begins -->
+// <!-- Spooky stuff ends -->
+
+// spookySeason();
+
+// <!-- Turkey stuff begins -->
 function choice(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
 }
 
-function turkeyDay() {
+function turkeySeason() {
   let emojis = ["😋", "😋", "😋", "🦃", "🦃", "🦃", "🦃", "🍗", "🥧", "🥧", "🥧", "🥧", "🍂", "🍂", "🍂", "🍂", "🍃", "🍃", "🍃", "🎑", "🎑", "🎑", "🌇", "🌇", "🌇", "🍁", "🍁", "🍁", "🍁", "🌽", "🌽", "🌽", "🎩", "🎩", "🎩", "🎈", "🎈", "🎈", "🏈", "🏈", "🏈", "🎉", "🎉", "🎉", "🍞", "🤤", "🤤", "🤤", "🥔", "🥔", "🥔", "🥕", "🥕", "🥕", "🏡", "🏡", "🏡", "🧣", "🧣", "🧣", "🍴", "🍴", "🍴", "☕", "☕", "☕", "🧤", "🧤", "🧤", "🍽️", "🍽️", "🍽️", "🏫", "💯", "👨‍🏫"];
   // These don't work?! "🍽️","🍽️","🍽️"
   const d = new Date();
@@ -67,7 +70,9 @@ function turkeyDay() {
     }
   }
 }
-turkeyDay();
+
+turkeySeason();
+
 // <!-- Turkey day stuff ends -->
 // <!-- Snow stuff begins -->
 // snow stuff
@@ -80,16 +85,15 @@ turkeyDay();
 //   </label>
 // </div> -->
 var flakes = [];
-//var flakesTotal = Math.floor(100 * (Date.now() - 1575774414164) / 1210000000 * Math.random() + 100 * (Date.now() - 1575774414164) / 1210000000 * Math.random());
 var d = new Date();
-var flakesTotal = d.getDate() + d.getDate();
+var flakesTotal = 5 + d.getDate() * 3;
 var wind = Math.random() - .5;
 var mouseX;
 var mouseY;
 var clickcount = 0;
 var isSnowEnabled = false;
 
-function snowDay() {
+function snowSeason() {
   // create the snowflake toggle checkbox
   var divSnow = document.createElement('div');
   var brSnow = document.createElement('br');
@@ -109,13 +113,8 @@ function snowDay() {
   labelSwitch.appendChild(textNode);
   labelSwitch.appendChild(brSnow);
   labelSwitch.appendChild(inputSnowCheckbox);
-
-
   divSnow.appendChild(labelSwitch);
   document.body.appendChild(divSnow);
-
-
-
   if (localStorage.getItem("isSnowEnabled") === null) {
     isSnowEnabled = true;
   } else {
@@ -123,13 +122,12 @@ function snowDay() {
     setBrandName()
   }
   document.getElementById("snowCheckbox").checked = isSnowEnabled;
-
   setTimeout(function() {
     Snowflake.init(document.getElementById("snow"));
   }, 100);
 }
 
-snowDay();
+//snowSeason();
 
 
 function toggleFlakes() {
@@ -161,7 +159,6 @@ class Snowflake {
     this.div.style.width = this.size + 'px';
     this.div.style.height = this.size + 'px';
   }
-
   move() {
     if (this.hit) {
       if (Math.random() > 0.995) this.melt = true;
@@ -187,14 +184,12 @@ class Snowflake {
     // var dy = mouseY - this.y;
     // this.hit = !this.melt && dx * dx + dy * dy < 2400;
   };
-
   draw() {
     this.div.style.transform =
       this.div.style.MozTransform =
       this.div.style.webkitTransform =
       'translate3d(' + this.x + 'px' + ',' + this.y + 'px,0)';
   };
-
   static update() {
     for (var i = flakes.length; i--;) {
       var flake = flakes[i];
@@ -209,7 +204,6 @@ class Snowflake {
     }
     requestAnimationFrame(Snowflake.update);
   }
-
   static init(container) {
     flakes = [];
     for (var i = flakesTotal; i--;) {
@@ -227,10 +221,5 @@ class Snowflake {
     Snowflake.update();
   }
 }
-//
-// window.onload = function() {
-//   setTimeout(function() {
-//     Snowflake.init(document.getElementById("snow"));
-//   }, 100);
-// }
+
 // <!-- Snow stuff ends -->
