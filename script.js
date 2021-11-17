@@ -122,7 +122,7 @@ function snowDay() {
 
   setTimeout(function() {
     Snowflake.init(document.getElementById("snow"));
-  }, 100));
+  }, 100);
 }
 
 
