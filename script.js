@@ -47,17 +47,17 @@ function turkeyDay() {
     }
   }
   for (let i = 0; i < h1Array.length; i++) {
-    if (Math.random() + Math.random() > 13 / today) {
+    if (Math.random() + Math.random() > 16 / today) {
       h1Array[i].innerHTML = choice(emojis) + " " + h1Array[i].innerHTML + " " + choice(emojis);
     }
   }
   for (let i = 0; i < h2Array.length; i++) {
-    if (Math.random() + Math.random() > 11 / today) {
+    if (Math.random() + Math.random() > 13 / today) {
       h2Array[i].innerHTML = choice(emojis) + " " + h2Array[i].innerHTML + " " + choice(emojis);
     }
   }
   for (let i = 0; i < h3Array.length; i++) {
-    if (Math.random() + Math.random() > 9 / today) {
+    if (Math.random() + Math.random() > 10 / today) {
       h3Array[i].innerHTML = choice(emojis) + " " + h3Array[i].innerHTML + " " + choice(emojis);
     }
   }
@@ -71,6 +71,31 @@ turkeyDay();
 // <!-- Turkey day stuff ends -->
 // <!-- Snow stuff begins -->
 // snow stuff
+// add div to body
+
+// <!-- <div id="snow">
+//   <label class="switch">
+//     <input id="snowCheckbox" type="checkbox" onclick="toggleFlakes()">
+//     <span class="slider round"></span>
+//   </label>
+// </div> -->
+
+var divSnow = document.createElement('div');
+divSnow.style.cssText = 'position:fixed;top:0;left:0;padding:3px;width:100%;height:1px;z-index:11111;';
+var labelSwitch = document.createElement('label');
+labelSwitch.style.cssText = 'position:relative;display:inline-block;width:32px;height:16px;margin:0px!important;';
+var inputSnowCheckbox = document.createElement('input');
+inputSnowCheckbox.id = "snowCheckbox";
+inputSnowCheckbox.type = "checkbox";
+inputSnowCheckbox.checked = true;
+inputSnowCheckbox.onclick = function() {
+  toggleFlakes()
+};
+divSnow.style.cssText = 'position:fixed;top:0;left:0;padding:3px;width:100%;height:1px;z-index:11111;';
+divSnow.appendChild(labelSwitch);
+document.body.appendChild(divSnow);
+
+
 // var isSnowEnabled;
 // if (localStorage.getItem("isSnowEnabled") === null) {
 //   isSnowEnabled = true;
