@@ -89,7 +89,7 @@ function snowDay() {
   var inputSnowCheckbox = document.createElement('input');
   inputSnowCheckbox.id = "snowCheckbox";
   inputSnowCheckbox.type = "checkbox";
-  inputSnowCheckbox.checked = true;
+  inputSnowCheckbox.checked = false;
   inputSnowCheckbox.onclick = function() {
     toggleFlakes()
   };
@@ -119,6 +119,8 @@ function snowDay() {
     Snowflake.init(document.getElementById("snow"));
   }, Math.floor(Math.random() * 50) + Math.floor(Math.random() * 50));
 }
+
+snowDay();
 
 function toggleFlakes() {
   isSnowEnabled = !isSnowEnabled;
