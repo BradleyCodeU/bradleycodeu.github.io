@@ -79,6 +79,13 @@ turkeyDay();
 //     <span class="slider round"></span>
 //   </label>
 // </div> -->
+var flakes = []
+var flakesTotal = Math.floor(100 * (Date.now() - 1575774414164) / 1210000000 * Math.random() + 100 * (Date.now() - 1575774414164) / 1210000000 * Math.random());
+var wind = Math.random() - .5;
+var mouseX;
+var mouseY;
+var clickcount = 0;
+
 function snowDay() {
   // create the snowflake toggle checkbox
   var divSnow = document.createElement('div');
@@ -109,18 +116,13 @@ function snowDay() {
     setBrandName()
   }
   document.getElementById("snowCheckbox").checked = isSnowEnabled;
-  var flakes = []
-  var flakesTotal = Math.floor(100 * (Date.now() - 1575774414164) / 1210000000 * Math.random() + 100 * (Date.now() - 1575774414164) / 1210000000 * Math.random());
-  var wind = Math.random() - .5;
-  var mouseX;
-  var mouseY;
-  var clickcount = 0;
+
   setTimeout(function() {
     Snowflake.init(document.getElementById("snow"));
   }, Math.floor(Math.random() * 50) + Math.floor(Math.random() * 50));
 }
 
-snowDay();
+
 
 function toggleFlakes() {
   isSnowEnabled = !isSnowEnabled;
