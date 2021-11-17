@@ -81,7 +81,8 @@ turkeyDay();
 // </div> -->
 var flakes = [];
 //var flakesTotal = Math.floor(100 * (Date.now() - 1575774414164) / 1210000000 * Math.random() + 100 * (Date.now() - 1575774414164) / 1210000000 * Math.random());
-var flakesTotal = 15;
+var d = new Date();
+var flakesTotal = d.getDate();
 var wind = Math.random() - .5;
 var mouseX;
 var mouseY;
