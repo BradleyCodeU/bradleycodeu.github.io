@@ -21,7 +21,7 @@ You MUST use the tracer to speed up the animation. You could set tracer(0) at th
 
 If you are working with a partner, you MUST randomly select pencolor and fillcolor.
 
-Here is an example. Each time your app runs it might randomly draw TWO of these...
+Here are a few examples. Each time your app runs it might randomly draw TWO of these...
 
 ![Example faces](/apcsp\turtleart\randomFacesAnimation.gif)
 
@@ -33,8 +33,8 @@ Here is an example. Each time your app runs it might randomly draw TWO of these.
 
 ![More example faces](/apcsp\turtleart\randomFaces03.png)
 
-![More example faces](/apcsp\turtleart\randomFaces02.png)
+![More example faces](/apcsp\turtleart\randomFaces02.PNG)
 
-![More example faces](/apcsp\turtleart\randomFaces01.png)
+![More example faces](/apcsp\turtleart\randomFaces01.PNG)
 
 ![16 different example faces](/apcsp\turtleart\tweeExample.jpg)
