@@ -23,8 +23,18 @@ If you are working with a partner, you MUST randomly select pencolor and fillcol
 
 Here is an example. Each time your app runs it might randomly draw TWO of these...
 
+![Example faces](/apcsp\turtleart\randomFacesAnimation.gif)
+
+![More example faces](/apcsp\turtleart\randomFaces06.png)
+
+![More example faces](/apcsp\turtleart\randomFaces05.png)
+
+![More example faces](/apcsp\turtleart\randomFaces04.png)
+
+![More example faces](/apcsp\turtleart\randomFaces03.png)
+
+![More example faces](/apcsp\turtleart\randomFaces02.png)
+
+![More example faces](/apcsp\turtleart\randomFaces01.png)
+
 ![16 different example faces](/apcsp\turtleart\tweeExample.jpg)
-
-![More example faces](/apcsp\turtleart\randomFaces02.PNG)
-
-![More example faces](/apcsp\turtleart\randomFaces01.PNG)
