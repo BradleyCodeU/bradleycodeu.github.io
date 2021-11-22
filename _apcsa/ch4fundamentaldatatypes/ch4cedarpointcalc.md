@@ -5,13 +5,13 @@ title: Ch4 Cedar Point Calc
 ---
 Mr. Cook has decided to send all student class officers from grades 7 - 12 to Cedar Point to thank them for their work. He doesn't know *exactly* how many students will be attending, but has asked you to write a program that can  calculate and display the total expenses of the trip. He will need to send 1 teacher chaperone for every 4 students (rounded down).
 
-The trip could EITHER be held in the fall (“summer admission price”) or held in the spring. Calculate and display the costs for both options.
+The trip could EITHER be held in the fall or held in the spring. Calculate and display the costs for both options.
 
 They could EITHER take school buses ($1300.42 per 44 person bus) or take charter buses ($1738.92 per 55 person bus). Calculate and display the costs for both options.
 
 Finally, Mr. Cook needs to budget a $25 food allowance for every chaperone and student.
 
-1. Summer admission price is $43 per ticket for everyone. Spring admission is $36.99 for students and $45.99 for chaperones. Be sure to include free tickets in your calculation... every 16th ticket is free.
+1. Fall admission price is $43 per ticket for everyone. Spring admission is $36.99 for students and $45.99 for chaperones. Be sure to include free tickets in your calculation... every 16th STUDENT ticket is free. 
 1. YOU MUST WRITE YOUR PSEUDOCODE AS COMMENTS
 1. Prompt user for number of students
 1. Calculate and printf how many teacher chaperones will be needed
