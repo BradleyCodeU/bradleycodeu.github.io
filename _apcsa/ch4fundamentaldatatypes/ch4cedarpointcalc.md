@@ -3,23 +3,29 @@ layout: project
 category: ch4fundamentaldatatypes
 title: Ch4 Cedar Point Calc
 ---
-Mr. Cook has decided to send all student class officers from grades 7 - 12 to Cedar Point to thank them for their work. He doesn't know *exactly* how many students will be attending, but has asked you to write a program that can  calculate and display the total expenses of the trip. He will need to send 1 teacher chaperone for every 4 students (rounded down).
+NOTE: You do NOT need to use any "if" statements for this project
+
+Mr. Cook has decided to send all student class officers from grades 7 - 12 to Cedar Point to thank them for their work. He doesn't know *exactly* how many students will be attending right now, but he has asked you to write a program that can  calculate and display the total expenses of the trip.
+
+He will need to send 1 teacher chaperone for every 4 students (rounded down).
 
 The trip could EITHER be held in the fall or held in the spring. Calculate and display the costs for both options.
+- Fall admission price is $43 per ticket for students and $43 per chaperone. Spring admission is $36.99 per student and $45.99 per chaperones.
+- Every 16th STUDENT ticket sold earns a coupon for either -$43 (in fall) or -$36.99 (in spring). If 33 students go, then you'd earn 2 free coupons.
 
 They could EITHER take school buses ($1300.42 per 44 person bus) or take charter buses ($1738.92 per 55 person bus). Calculate and display the costs for both options.
 
 Finally, Mr. Cook needs to budget a $25 food allowance for every chaperone and student.
 
-1. Fall admission price is $43 per ticket for everyone. Spring admission is $36.99 for students and $45.99 for chaperones. Be sure to include free tickets in your calculation... every 16th STUDENT ticket is free. 
+
 1. YOU MUST WRITE YOUR PSEUDOCODE AS COMMENTS
 1. Prompt user for number of students
 1. Calculate and printf how many teacher chaperones will be needed
-1. Calculate and printf the cost of admission for fall
-1. Calculate and printf the cost of admission for spring
-1. Calculate and printf the number of school buses needed
-1. Calculate and printf the school bus cost
-1. Calculate and printf the number of charter buses needed
+1. Calculate and printf the cost of admission for fall. Don't forget to subtract coupons.
+1. Calculate and printf the cost of admission for spring. Don't forget to subtract coupons.
+1. Calculate and printf the number of school buses needed.
+1. Calculate and printf the school bus cost.
+1. Calculate and printf the number of charter buses needed.
 1. Calculate and printf the charter bus cost
 1. Calculate and printf the cost for the food allowance
 1. Calculate and printf the FINAL cost of ALL FOUR OPTIONS:
@@ -30,4 +36,30 @@ Finally, Mr. Cook needs to budget a $25 food allowance for every chaperone and s
 
 Aesthetics are important! Keep your pseudocode as comments in order to explain your thinking. Make sure your input and output looks neat and is spaced nicely (USE PRINTF). Make sure you have used appropriate/readable variable names.
 
-### NOTE: You do NOT need to use any "if" statements for this project
+Example Output 1
+```
+Students attending: 33
+             Chaperones =         8
+   Free student coupons =         2
+         Fall admission =   1677.00
+       Spring admission =   1514.61
+              Food cost =   1025.00
+Total Costs
+                     Fall Cost    Spring Cost
+     School Bus       $4002.42       $3840.03
+    Charter Bus       $4440.92       $4278.53
+```
+
+Example Output 2
+```
+Students attending: 80
+             Chaperones =        20
+   Free student coupons =         5
+         Fall admission =   4085.00
+       Spring admission =   3694.05
+              Food cost =   2500.00
+Total Costs
+                     Fall Cost    Spring Cost
+     School Bus      $10486.26      $10095.31
+    Charter Bus      $10062.84       $9671.89
+```
