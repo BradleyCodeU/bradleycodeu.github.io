@@ -35,7 +35,24 @@ Main Algorithm:
 
 
 EXAMPLE PROJECTS:
-
+![example op-art](/apcsp/turtleart/opart/opart17.PNG)
+![example op-art](/apcsp/turtleart/opart/opart16.PNG)
+![example op-art](/apcsp/turtleart/opart/opart15.PNG)
+![example op-art](/apcsp/turtleart/opart/opart14.PNG)
+![example op-art](/apcsp/turtleart/opart/opart13.PNG)
+![example op-art](/apcsp/turtleart/opart/opart12.PNG)
+![example op-art](/apcsp/turtleart/opart/opart11.PNG)
+![example op-art](/apcsp/turtleart/opart/opart10.PNG)
+![example op-art](/apcsp/turtleart/opart/opart09.PNG)
+![example op-art](/apcsp/turtleart/opart/opart08.PNG)
+![example op-art](/apcsp/turtleart/opart/opart07.PNG)
+![example op-art](/apcsp/turtleart/opart/opart06.PNG)
+![example op-art](/apcsp/turtleart/opart/opart05.PNG)
+![example op-art](/apcsp/turtleart/opart/opart04.PNG)
+![example op-art](/apcsp/turtleart/opart/opart03.PNG)
+![example op-art](/apcsp/turtleart/opart/opart02.PNG)
+![example op-art](/apcsp/turtleart/opart/opart01.PNG)
+![example op-art](/apcsp/turtleart/opart/opart00.PNG)
 ![example 1](/apcsp\turtleart\opart1.jpg)
 ![example 2](/apcsp\turtleart\opart2.jpg)
 ![example 3](/apcsp\turtleart\opart3.jpg)
