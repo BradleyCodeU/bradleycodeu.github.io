@@ -1,3 +1,23 @@
+let today = new Date();
+let turkeyDay = new Date(today.getFullYear(), 10, 1);
+turkeyDay.setDate(turkeyDay.getDate() + (4 - turkeyDay.getDay()) % 7 + 21); // find 4th Thursday
+let flakes = [];
+let flakesTotal = 2 + today.getDate() * 4;
+let wind = Math.random() - .5;
+let isSnowEnabled = false;
+// let mouseX;
+// let mouseY;
+//let clickcount = 0;
+
+
+if (today.getMonth() + 1 == 10 && today.getDate() >= 24) {
+  spookySeason();
+} else if (today.getMonth() + 1 == 11 && today <= turkeyDay) {
+  turkeySeason();
+} else if (today.getMonth() + 1 == 12) {
+  snowSeason();
+}
+
 // <!-- Spooky stuff begins -->
 function spookySeason() {
   let h1Array = document.getElementsByTagName("h1");
@@ -7,27 +27,35 @@ function spookySeason() {
   let letters = "ABCDEF";
   setInterval(() => {
     for (let i = 0; i < h1Array.length; i++) {
-      h1Array[i].style.marginLeft = Math.floor(Math.random() * 50) + "px";
-      h1Array[i].style.color = "#" + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)];
+      if (Math.random() + Math.random() > 28 / today.getDate()) {
+        h1Array[i].style.marginLeft = Math.floor(Math.random() * 50) + "px";
+        h1Array[i].style.color = "#" + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)];
+      }
     }
     for (let i = 0; i < h2Array.length; i++) {
-      h2Array[i].style.marginLeft = Math.floor(Math.random() * 50) + "px";
-      h2Array[i].style.color = "#" + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)];
+      if (Math.random() + Math.random() > 27 / today.getDate()) {
+        h2Array[i].style.marginLeft = Math.floor(Math.random() * 50) + "px";
+        h2Array[i].style.color = "#" + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)];
+      }
     }
     for (let i = 0; i < h3Array.length; i++) {
-      h3Array[i].style.marginLeft = Math.floor(Math.random() * 50) + "px";
-      h3Array[i].style.color = "#" + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)];
+      if (Math.random() + Math.random() > 26 / today.getDate()) {
+        h3Array[i].style.marginLeft = Math.floor(Math.random() * 50) + "px";
+        h3Array[i].style.color = "#" + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)];
+      }
     }
     for (let i = 0; i < h4Array.length; i++) {
-      h4Array[i].style.marginLeft = Math.floor(Math.random() * 50) + "px";
-      h4Array[i].style.color = "#" + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)];
+      if (Math.random() + Math.random() > 25 / today.getDate()) {
+        h4Array[i].style.marginLeft = Math.floor(Math.random() * 50) + "px";
+        h4Array[i].style.color = "#" + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)];
+      }
     }
 
   }, 5000);
 }
 // <!-- Spooky stuff ends -->
 
-// spookySeason();
+
 
 // <!-- Turkey stuff begins -->
 function choice(arr) {
@@ -37,41 +65,40 @@ function choice(arr) {
 function turkeySeason() {
   let emojis = ["😋", "😋", "😋", "🦃", "🦃", "🦃", "🦃", "🍗", "🥧", "🥧", "🥧", "🥧", "🍂", "🍂", "🍂", "🍂", "🍃", "🍃", "🍃", "🎑", "🎑", "🎑", "🌇", "🌇", "🌇", "🍁", "🍁", "🍁", "🍁", "🌽", "🌽", "🌽", "🎩", "🎩", "🎩", "🎈", "🎈", "🎈", "🏈", "🏈", "🏈", "🎉", "🎉", "🎉", "🍞", "🤤", "🤤", "🤤", "🥔", "🥔", "🥔", "🥕", "🥕", "🥕", "🏡", "🏡", "🏡", "🧣", "🧣", "🧣", "🍴", "🍴", "🍴", "☕", "☕", "☕", "🧤", "🧤", "🧤", "🍽️", "🍽️", "🍽️", "🏫", "💯", "👨‍🏫"];
   // These don't work?! "🍽️","🍽️","🍽️"
-  const d = new Date();
-  const today = d.getDate();
+
   let h1Array = document.getElementsByTagName("h1");
   let h2Array = document.getElementsByTagName("h2");
   let h3Array = document.getElementsByTagName("h3");
   let h4Array = document.getElementsByTagName("h4");
   let anchorArray = document.getElementsByTagName("a");
   for (let i = 0; i < anchorArray.length; i++) {
-    if (!anchorArray[i].classList.contains("nav-link") && !anchorArray[i].classList.contains("navbar-brand") && Math.random() + Math.random() > 15 / today) {
+    if (!anchorArray[i].classList.contains("nav-link") && !anchorArray[i].classList.contains("navbar-brand") && Math.random() + Math.random() > 15 / today.getDate()) {
       anchorArray[i].innerHTML = choice(emojis) + " " + anchorArray[i].innerHTML + " " + choice(emojis);
     }
   }
   for (let i = 0; i < h1Array.length; i++) {
-    if (Math.random() + Math.random() > 16 / today) {
+    if (Math.random() + Math.random() > 18 / today.getDate()) {
       h1Array[i].innerHTML = choice(emojis) + " " + h1Array[i].innerHTML + " " + choice(emojis);
     }
   }
   for (let i = 0; i < h2Array.length; i++) {
-    if (Math.random() + Math.random() > 13 / today) {
+    if (Math.random() + Math.random() > 15 / today.getDate()) {
       h2Array[i].innerHTML = choice(emojis) + " " + h2Array[i].innerHTML + " " + choice(emojis);
     }
   }
   for (let i = 0; i < h3Array.length; i++) {
-    if (Math.random() + Math.random() > 10 / today) {
+    if (Math.random() + Math.random() > 12 / today.getDate()) {
       h3Array[i].innerHTML = choice(emojis) + " " + h3Array[i].innerHTML + " " + choice(emojis);
     }
   }
   for (let i = 0; i < h4Array.length; i++) {
-    if (Math.random() + Math.random() < 7 / today) {
+    if (Math.random() + Math.random() > 9 / today.getDate()) {
       h4Array[i].innerHTML = choice(emojis) + " " + h4Array[i].innerHTML + " " + choice(emojis);
     }
   }
 }
 
-turkeySeason();
+
 
 // <!-- Turkey day stuff ends -->
 // <!-- Snow stuff begins -->
@@ -84,14 +111,7 @@ turkeySeason();
 //     <span class="slider round"></span>
 //   </label>
 // </div> -->
-var flakes = [];
-var d = new Date();
-var flakesTotal = 5 + d.getDate() * 3;
-var wind = Math.random() - .5;
-var mouseX;
-var mouseY;
-var clickcount = 0;
-var isSnowEnabled = false;
+
 
 function snowSeason() {
   // create the snowflake toggle checkbox
