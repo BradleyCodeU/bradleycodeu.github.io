@@ -11,7 +11,7 @@ He will need to send 1 teacher chaperone for every 4 students (rounded down).
 
 The trip could EITHER be held in the fall or held in the spring. Calculate and display the costs for both options.
 - Fall admission price is $43 per ticket for students and $43 per chaperone. Spring admission is $36.99 per student and $45.99 per chaperones.
-- Every 16th STUDENT ticket sold earns a coupon for either -$43 (in fall) or -$36.99 (in spring). If 33 students go, then you'd earn 2 free coupons.
+- Every 16th STUDENT ticket earns a coupon for 1 free student admission (either -$43 in fall or -$36.99 in spring). If 33 students go, then you'd earn 2 free student admission coupons.
 
 They could EITHER take school buses ($1300.42 per 44 person bus) or take charter buses ($1738.92 per 55 person bus). Calculate and display the costs for both options.
 
