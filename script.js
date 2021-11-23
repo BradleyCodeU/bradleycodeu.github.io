@@ -147,23 +147,19 @@ function snowSeason() {
   }, 100);
 }
 
-//snowSeason();
 
 
 function toggleFlakes() {
   isSnowEnabled = !isSnowEnabled;
   document.getElementById("snowCheckbox").checked = isSnowEnabled;
   localStorage.setItem("isSnowEnabled", isSnowEnabled);
-  setBrandName()
-}
-
-function setBrandName() {
   if (isSnowEnabled) {
     document.getElementById("brandName").innerHTML = "❄️Bradley❄️Code❄️U❄️"
   } else {
     document.getElementById("brandName").innerHTML = "BradleyCodeU"
   }
 }
+
 class Snowflake {
   constructor(size, x, y, vx, vy) {
     this.size = size;
