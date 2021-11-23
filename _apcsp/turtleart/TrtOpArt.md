@@ -35,6 +35,8 @@ Main Algorithm:
 
 
 EXAMPLE PROJECTS:
+
+
 ![example op-art](/apcsp/turtleart/opart/opart17.PNG)
 ![example op-art](/apcsp/turtleart/opart/opart16.PNG)
 ![example op-art](/apcsp/turtleart/opart/opart15.PNG)
@@ -53,9 +55,3 @@ EXAMPLE PROJECTS:
 ![example op-art](/apcsp/turtleart/opart/opart02.PNG)
 ![example op-art](/apcsp/turtleart/opart/opart01.PNG)
 ![example op-art](/apcsp/turtleart/opart/opart00.PNG)
-![example 1](/apcsp\turtleart\opart1.jpg)
-![example 2](/apcsp\turtleart\opart2.jpg)
-![example 3](/apcsp\turtleart\opart3.jpg)
-![example 4](/apcsp\turtleart\opart4.jpg)
-![example 5](/apcsp\turtleart\opart5.jpg)
-![example 6](/apcsp\turtleart\opart6.jpg)
