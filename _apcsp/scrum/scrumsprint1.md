@@ -23,6 +23,8 @@ For Sprint 1, your team must simply complete a set number of points.
   - 3 team members = 90 pts or more
   - 4 team members = 120 pts or more
 
+![Scenes](/apcsp/turtleart/sprint1/scrum1.png)
+
 ## Product Backlog
 
   - *Required* Create a Tester function that requires no arguments. The function will test ALL of the functions that your team has created (or will create) this sprint. Example Tester below. = *5pts (You probably want to save this one for last)*
