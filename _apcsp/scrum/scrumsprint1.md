@@ -23,7 +23,7 @@ For Sprint 1, your team must simply complete a set number of points.
   - 3 team members = 90 pts or more
   - 4 team members = 120 pts or more
 
-![Scenes](/apcsp/turtleart/sprint1/scrum1.png)
+![Scenes](/apcsp/scrum/sprint1/scrum1.png)
 
 ## Product Backlog
 
