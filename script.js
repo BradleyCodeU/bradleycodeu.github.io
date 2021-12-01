@@ -111,7 +111,9 @@ function turkeySeason() {
 //     <span class="slider round"></span>
 //   </label>
 // </div> -->
-
+function setBrandName(emoji){
+    document.getElementById("brandName").innerHTML = emoji+"Bradley"+emoji+"Code"+emoji+"U"+emoji;
+}
 
 function snowSeason() {
   // create the snowflake toggle checkbox
@@ -139,7 +141,11 @@ function snowSeason() {
     isSnowEnabled = true;
   } else {
     isSnowEnabled = localStorage.getItem("isSnowEnabled") === "true";
-    setBrandName()
+  }
+  if(isSnowEnabled){
+    setBrandName("❄️");
+  }else{
+    setBrandName("");
   }
   document.getElementById("snowCheckbox").checked = isSnowEnabled;
   setTimeout(function() {
