@@ -14,9 +14,9 @@ You should have:
 - a sound to play when a bubble is popped (or added or whatever makes you win) AND a bad sound to play when a bubble hits the floor (or whatever makes you lose)
 - the background turns red if you lose AND turns green if you win
 
-Click here to remix the Glitch starter project: [https://glitch.com/edit/#!/remix/p5project](https://glitch.com/edit/#!/remix/p5project)
 
-Watch these tutorials: [https://drive.google.com/drive/u/2/folders/1Vcw2irGn_h8FYIDzU94ShGSLsUdGyCLX](https://drive.google.com/drive/u/2/folders/1Vcw2irGn_h8FYIDzU94ShGSLsUdGyCLX)
+
+Watch these tutorials: [https://drive.google.com/drive/folders/1DtbX9YIUTBWfRXEQFbkiC4MRZu8hGgex?usp=sharing](https://drive.google.com/drive/folders/1DtbX9YIUTBWfRXEQFbkiC4MRZu8hGgex?usp=sharing)
 
 For Javascript audio, you will do something like this:
 ```
