@@ -6,7 +6,7 @@ title: Bubble Game v2
 
 In this project you will extend your simple Javascript / P5.JS clicker game.
 
-**Remix your previous Glitch project!**
+**Remix your previous Bubble Game project!**
 
 You will extend your bubble game so that you have collectibles and enemies. Collectibles are good and enemies are bad. There are lots of possible games that could be created. Here are some examples...
 
