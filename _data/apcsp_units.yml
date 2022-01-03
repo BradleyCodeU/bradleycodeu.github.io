@@ -285,15 +285,12 @@ Projects:
   content: "
   [2nd Quarter](#2nd-quarter)
 
-  1. [Turtle Art](#turtleart) - *2 wks*
+  1. [Turtle Art](#turtleart) - *3 wks*
 
-  1. [IP](#ip) - *1 wks*
+  1. [IP](#ip) - *2 wks*
 
   1. [Scrum](#scrum) - *2 wk*
 
-  1. [Console](#console) - *2 wks*
-
-  1. [Big Data](#bigdata) - *1 wks*
 
   "
 
@@ -393,6 +390,48 @@ Projects:
 1. Team- [Sprint4](/apcsp/scrum/scrumsprint4/)
 
 "
+
+- title: 3rdquarter
+  heading: "# 3rd Quarter"
+  content: "
+“Any sufficiently advanced technology is indistinguishable from magic.”
+
+
+*-Arthur C. Clarke*
+
+
+ “If you're not failing every now and again, it's a sign you're not doing anything very innovative.”
+
+
+ *-Woody Allen*
+
+
+ -------
+
+
+"
+- title: menu3
+  content: "
+  [3rd Quarter](#3rd-quarter)
+
+  1. [Console](#console) - *2 wks*
+
+  1. [Big Data](#bigdata) - *1 wks*
+
+  1. [Text Games](#textgames) - *2 wks*
+
+  1. [Digital Info](#digitalinfo) - *1 wk*
+
+  1. [Practice](#practice) - *2 wks*
+
+  1. [Objects](#objects) - *2 wks*
+
+  1. [Turtle Games](#turtlegames) - *2 wks*
+
+
+
+
+  "
 - title: console
   heading: "# Console"
   content: "
@@ -459,43 +498,6 @@ Projects:
 Code.org Unit 4: Big Data and Privacy, [https://studio.code.org/s/csp4-2018](https://studio.code.org/s/csp4-2018)
 
 "
-- title: 3rdquarter
-  heading: "# 3rd Quarter"
-  content: "
-“Any sufficiently advanced technology is indistinguishable from magic.”
-
-
-*-Arthur C. Clarke*
-
-
- “If you're not failing every now and again, it's a sign you're not doing anything very innovative.”
-
-
- *-Woody Allen*
-
-
- -------
-
-
-"
-- title: menu3
-  content: "
-  [3rd Quarter](#3rd-quarter)
-
-  1. [Text Games](#textgames) - *2 wks*
-
-  1. [Digital Info](#digitalinfo) - *1 wk*
-
-  1. [Practice](#practice) - *2 wks*
-
-  1. [Objects](#objects) - *2 wks*
-
-  1. [Turtle Games](#turtlegames) - *2 wks*
-
-
-
-
-  "
 
 - title: textgames
   heading: "# TextGames"
