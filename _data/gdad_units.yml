@@ -302,30 +302,18 @@ Look out! Here comes the Spider-man”
 
 
 
-1. **[Scrum](#scrum)** - *3 wks*
 
-1. **[Objects](#objects)** - *2 wks*
+
+1. **[Objects](#objects)** - *3 wks*
 
 
 "
 
-- title: scrum
-  heading: "# Scrum"
-  content: "*3 weeks*
-
-1. Team - [Foobar v1](/gdad/scrum/foobarv1/)
-
-1. [localStorage Character Creator](/gdad/scrum/localStorage/)
-
-1. [localStorage Shopping List](/gdad/scrum/localStorageShoppingList/)
-
-1. Team - [Foobar v2](/gdad/scrum/foobarv2/)
-
-  "
 - title: objects
   heading: "# Objects"
   content: "*2 weeks*
 
+1. [FoobarGame](/gdad/objects/FoobarGame/)
 
 1. [SoloLrn Objects](/gdad/objects/SoloLrnObjects/)
 
