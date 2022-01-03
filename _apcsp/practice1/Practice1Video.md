@@ -11,7 +11,7 @@ Practice 1 Video
 
 VIDEO (CREATED INDEPENDENTLY)
 
-Submit one video file that demonstrates the running of your program as described below. Collaboration is not allowed during the development of your video.
+Submit one video file that demonstrates the running of your program as described below. Collaboration is not allowed during the development of your video. No more than 1 minute in length.
 
 Your video MUST demonstrate your program running, including:
 
