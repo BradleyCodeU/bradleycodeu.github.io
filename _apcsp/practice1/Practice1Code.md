@@ -12,8 +12,8 @@ Computers are playing an increasing role in education. Write a program that will
 Code Specifications:
 
 	-	Contains at least 5 or more MULTI-CHOICE quiz questions. For example, "Where is the Eiffel Tower? 1 = London, 2 = Paris, 3 = New York, 4 = Tokyo"
-	-	Must have a function called validNumber that requires one argument: userInput. It returns True or False if the userInput is between 1 and 4 (inclusive).
-	-	Must notify the user if their answer is "correct" or "incorrect"
+	-	MUST have a function called validNumber that requires one argument: userInput. It returns True or False if the userInput is between 1 and 4 (inclusive).
+	-	MUST notify the user if their answer is "correct" or "incorrect"
 	- If the users types in an invalid number (999, for example) then you must notify the user "999 is NOT a valid answer"
 
 
