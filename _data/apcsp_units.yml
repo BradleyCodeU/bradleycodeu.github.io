@@ -240,7 +240,7 @@ Additional Projects:
 
 Projects:
 
-1. [Coins Worksheet](/apcsp/binary/BinaryCoinsWorksheet/)
+1. [Counting Coins](/apcsp/binary/BinaryCoinsWorksheet/)
 
 1. [Binary Bday](/apcsp/binary/BinaryBday/)
 
@@ -250,7 +250,9 @@ Projects:
 
 1. [Hex Worksheet](/apcsp/binary/BinaryHexWorksheet/)
 
-1. Practice Quiz
+1. 4bit Binary Quizizz
+
+1. 8bit Binary Quizizz
 
 "
 
@@ -362,6 +364,24 @@ Additional Projects:
 *1 wk*, Vocab: protocol, tcp, ip, http, ssl
 
 Code.org Unit 1, Chapter 2: Inventing the Internet, [https://studio.code.org/s/csp1-2018](https://studio.code.org/s/csp1-2018)
+
+
+Projects:
+
+1. KAProgramming1
+
+1. WhatIsTheInternet
+
+1. IPAddressesAndDNS
+
+1. KAProgramming2
+
+1. PacketsRoutingAndReliability
+
+1. HttpAndHtml
+
+1. KAProgramming3
+
 "
 - title: scrum
   heading: "# Scrum"
@@ -388,6 +408,8 @@ Projects:
 1. Team- [Sprint3](/apcsp/scrum/scrumsprint3/)
 
 1. Team- [Sprint4](/apcsp/scrum/scrumsprint4/)
+
+1. [Create Practice 2 Artifact, Video, and Written Responses](/apcsp/scrum/CreatePractice2)
 
 "
 
@@ -464,7 +486,7 @@ Projects:
 
 Projects:
 
-1. [Create Practice 2 Artifact, Video, and Written Responses](/apcsp/console/CreatePractice2)
+
 
 1. [StringsAndScreams](/apcsp/console/ConsoleStringsAndScreams/)
 
