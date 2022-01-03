@@ -14,7 +14,7 @@ if (today.getMonth() + 1 == 10 && today.getDate() >= 24) {
   spookySeason();
 } else if (today.getMonth() + 1 == 11 && today <= turkeyDay) {
   turkeySeason();
-} else if (today.getMonth() + 1 == 12) {
+} else if (today.getMonth() + 1 == 12 && today.getDate() <= 24) {
   snowSeason();
 }
 
@@ -111,8 +111,8 @@ function turkeySeason() {
 //     <span class="slider round"></span>
 //   </label>
 // </div> -->
-function setBrandName(emoji){
-    document.getElementById("brandName").innerHTML = emoji+"Bradley"+emoji+"Code"+emoji+"U"+emoji;
+function setBrandName(emoji) {
+  document.getElementById("brandName").innerHTML = emoji + "Bradley" + emoji + "Code" + emoji + "U" + emoji;
 }
 
 function snowSeason() {
@@ -142,9 +142,9 @@ function snowSeason() {
   } else {
     isSnowEnabled = localStorage.getItem("isSnowEnabled") === "true";
   }
-  if(isSnowEnabled){
+  if (isSnowEnabled) {
     setBrandName("❄️");
-  }else{
+  } else {
     setBrandName("");
   }
   document.getElementById("snowCheckbox").checked = isSnowEnabled;
