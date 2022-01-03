@@ -23,7 +23,7 @@ REQUIREMENTS:
     - an item (but the item might be set to ```undefined``` if there is no item in this room)
     - 3 or 4 other attributes (based on how many members in your group)
   * Create an array named roomArray that stores the room objects
-  * Add descriptions for your 15 rooms to your roomArray
+  * Add descriptions for your 8-16 rooms to your roomArray
   * In v1, the player does NOT need to be able to pick up any items, but when visiting a room the game MUST tell you that an item is there IF the room contains an item.
   * Create a variable named mylocation that stores the current room number. NOTE that "location" is NOT a good variable name because [it will re-direct the page](https://www.w3schools.com/jsref/obj_location.asp)
   * Must be able to change rooms and give a message like "You can't go there" when necessary.
@@ -34,15 +34,15 @@ Define a function named doesRoomExist that requires one argument: roomNumber. If
 
 Define a function named move that requires one argument: direction.
 
-    - If the direction was "n" and doesRoomExist at the mylocation - 1
+    - If the direction was "n" and doesRoomExist at mylocation - 1
         - mylocation = mylocation - 1
-    - Otherwise if the direction was "s" and doesRoomExist at the mylocation + 1
-        - mylocation = mylocation + 1
-    - Otherwise if the direction was "e" and figure this part out yourself
+    - Otherwise if the direction was "s" and doesRoomExist at  mylocation + 1
+        - mylocation = mylocation + figure this part out yourself
+    - Otherwise if the direction was "e" and doesRoomExist at  mylocation + 100
         - figure this part out yourself
     - Otherwise if the direction was "w" and figure this part out yourself
         - figure this part out yourself
-    - return mylocation
+    - use Document.getElementById() to display the description for mylocation
 
 
 Create 4 buttons that say North, South, East, and West. When clicked, these buttons call the move function.
