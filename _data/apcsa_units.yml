@@ -233,9 +233,7 @@ Additional projects:
 
 1. **[Ch5.7 Short-Circuit Evaluation and De Morgan's Law](#ch57shortcircuitevaluation)**
 
-1. **[Ch6 Loops](#ch6loops)**
 
-1. **[Ch7 Arrays and Array Lists](#ch7arraysandarraylists)**
 
 "
 
@@ -326,6 +324,50 @@ Projects:
 
 "
 
+
+
+
+
+
+
+- title: 3rdquarter
+  heading: "# 3rd Quarter"
+  content: "
+“A class, in Java, is where we teach objects how to behave.”
+
+
+*-Richard E. Pattis*
+
+
+“Should array indices start at 0 or 1? My compromise of 0.5 was rejected without, I thought, proper consideration.”
+
+
+*—Stan Kelly-Bootle*
+
+
+-------
+
+
+"
+
+- title: menu3
+  content: "
+[3rd Quarter](#3rd-quarter)
+
+1. **[Ch6 Loops](#ch6loops)**
+
+1. **[Ch7 Arrays and Array Lists](#ch7arraysandarraylists)**
+
+1. **[Ch7.2 For Each Loops](#ch72foreachloops)**
+
+1. **[Ch7.6 2D Arrays](#ch762darrays)**
+
+1. **[Ch8 Designing Classes](#ch8designingclasses)**
+
+1. **[Ch9 Inheritance](#ch9inheritance)**
+
+"
+
 - title: ch6loops
   heading: "# Ch6Loops"
   content: "
@@ -365,45 +407,6 @@ Projects:
 1. [Ch7 Pizza Toppings](/apcsa/ch7arraysandarraylists/ch7pizzatoppings/)
 
 1. [Ch7 Pet Shop Register](/apcsa/ch7arraysandarraylists/ch7petshopregister/)
-
-"
-
-
-
-
-
-- title: 3rdquarter
-  heading: "# 3rd Quarter"
-  content: "
-“A class, in Java, is where we teach objects how to behave.”
-
-
-*-Richard E. Pattis*
-
-
-“Should array indices start at 0 or 1? My compromise of 0.5 was rejected without, I thought, proper consideration.”
-
-
-*—Stan Kelly-Bootle*
-
-
--------
-
-
-"
-
-- title: menu3
-  content: "
-[3rd Quarter](#3rd-quarter)
-
-
-1. **[Ch7.2 For Each Loops](#ch72foreachloops)**
-
-1. **[Ch7.6 2D Arrays](#ch762darrays)**
-
-1. **[Ch8 Designing Classes](#ch8designingclasses)**
-
-1. **[Ch9 Inheritance](#ch9inheritance)**
 
 "
 
