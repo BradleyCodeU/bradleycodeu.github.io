@@ -30,7 +30,7 @@ Sample output 2
 Gimme a positive integer: 123
 The sum of all even numbers between 2 and 123 = 3782
 The sum of all squares between 1 and 123 = 506
-Gimme a pos integer larger than 123: 124
+Gimme a positive integer larger than 123: 124
 The sum of all odd numbers between 123 and 124 = 123
 The sum of all odd digits of 123 = 4
 ```
