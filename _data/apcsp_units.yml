@@ -436,9 +436,11 @@ Projects:
   content: "
   [3rd Quarter](#3rd-quarter)
 
-  1. [Console](#console) - *2 wks*
+  1. [Console](#console) - *1 wk*
 
-  1. [Big Data](#bigdata) - *1 wks*
+  1. [Algorithms](#algorithms) - *1 wk*
+
+  1. [Big Data](#bigdata) - *1 wk*
 
   1. [Text Games](#textgames) - *2 wks*
 
@@ -448,7 +450,7 @@ Projects:
 
   1. [Objects](#objects) - *2 wks*
 
-  1. [Turtle Games](#turtlegames) - *2 wks*
+
 
 
 
@@ -459,7 +461,7 @@ Projects:
   content: "
 
 
-*2 wks*, Vocab: array, iteration, iterate through an array, input, for each loops, input validation, try/except, conditionals, functions, pre-conditional loop, post-conditional loop, pseudocode,
+*1 wk*, Vocab: array, iteration, iterate through an array, input, for each loops, input validation, try/except, conditionals, functions, pre-conditional loop, post-conditional loop, pseudocode,
 
 
 
@@ -512,10 +514,16 @@ Projects:
 
 
 "
+- title: algorithms
+  heading: "# Algorithms"
+  content: "
+*1 wk*, Vocab: 
+"
+
 - title: bigdata
   heading: "# BigData"
   content: "
-*2 wks*, Vocab: datatype, database, data structure, API, data mining, SQL, callback, Internet of Things, JSON, metadata, AJAX, server, analytics, server farm, query, XML
+*1 wk*, Vocab: datatype, database, data structure, API, data mining, SQL, callback, Internet of Things, JSON, metadata, AJAX, server, analytics, server farm, query, XML
 
 Code.org Unit 4: Big Data and Privacy, [https://studio.code.org/s/csp4-2018](https://studio.code.org/s/csp4-2018)
 
@@ -637,38 +645,7 @@ Projects:
 
 "
 
-- title: turtlegames
-  heading: "# TurtleGames"
-  content: "
-*2wks*, Vocab: instance, instanciate, object, class, method, logical operators, while loop, event listener, boolean flag, scope, local variable, global variable
 
-
-
-  - [Naming a Turtle object](https://bradleycodeu.github.io/apcsp/turtlegames/multipleTurtles01-naming-a-turtle-object/)
-
-  - [Tina and Tommy's colors](https://bradleycodeu.github.io/apcsp/turtlegames/multipleTurtles02-tina-and-tommys-colors/)
-
-  - [Name the Screen object](https://bradleycodeu.github.io/apcsp/turtlegames/multipleTurtles03-name-the-screen-object/)
-
-  - [Controlling Tina](https://bradleycodeu.github.io/apcsp/turtlegames/multipleTurtles04-controlling-tina/)
-
-  - [How to make Python games with Trinket](https://blog.trinket.io/python-games/)
-
-  - [Screencast Instructions for OBS](/apcsp/scrum/screencastobs)
-
-
-
-Projects:
-
-1. [Turtlegame v1](/apcsp/turtlegames/039Turtlegamev1/)
-
-1. [Turtlegame v2](/apcsp/turtlegames/040Turtlegamev2/)
-
-1. [Turtlegame v3](/apcsp/turtlegames/041Turtlegamev3/)
-
-1. [Create Practice 3](/apcsp/turtlegames/CreatePractice3/)
-
-"
 
 - title: 4thquarter
   heading: "# 4th Quarter"
@@ -693,15 +670,17 @@ Projects:
   content: "
   [4th Quarter](#4th-quarter)
 
-  1. [Create](#create) - *3 wks*
-
   1. WebXam - *1 wk*
+
+  1. [Create](#create) - *3 wks*
 
   1. [Tk](#tk) - *2 wks*
 
   1. [Greenfoot](#greenfoot) - *2 wks*
 
   1. [Java](#java) - *2 wks*
+
+  1. [Turtle Games](#turtlegames) - *2 wks*
 
   "
 - title: create
@@ -759,4 +738,37 @@ Projects:
 - title: java
   heading: "# Java"
   content: "*3 wks* - input, output, objects, classes
+"
+
+- title: turtlegames
+  heading: "# TurtleGames"
+  content: "
+*2wks*, Vocab: instance, instanciate, object, class, method, logical operators, while loop, event listener, boolean flag, scope, local variable, global variable
+
+
+
+  - [Naming a Turtle object](https://bradleycodeu.github.io/apcsp/turtlegames/multipleTurtles01-naming-a-turtle-object/)
+
+  - [Tina and Tommy's colors](https://bradleycodeu.github.io/apcsp/turtlegames/multipleTurtles02-tina-and-tommys-colors/)
+
+  - [Name the Screen object](https://bradleycodeu.github.io/apcsp/turtlegames/multipleTurtles03-name-the-screen-object/)
+
+  - [Controlling Tina](https://bradleycodeu.github.io/apcsp/turtlegames/multipleTurtles04-controlling-tina/)
+
+  - [How to make Python games with Trinket](https://blog.trinket.io/python-games/)
+
+  - [Screencast Instructions for OBS](/apcsp/scrum/screencastobs)
+
+
+
+Projects:
+
+1. [Turtlegame v1](/apcsp/turtlegames/039Turtlegamev1/)
+
+1. [Turtlegame v2](/apcsp/turtlegames/040Turtlegamev2/)
+
+1. [Turtlegame v3](/apcsp/turtlegames/041Turtlegamev3/)
+
+1. [Create Practice 3](/apcsp/turtlegames/CreatePractice3/)
+
 "
