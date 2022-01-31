@@ -1,0 +1,105 @@
+[
+
+{
+"answer": "object","question":"a data structure that contains attributes and behaviors. A software simulation/model representing an entity either physical (a box, a car, etc) or conceptual (a chemical process, a sale, driving directions, etc)"
+},
+{
+"answer": "class","question":"a blueprint from which an object is instantiated. Defines the abstract characteristics of a thing, its attributes and its behaviors"
+},
+{
+"answer": "instance variables","question":"data that belongs to a specific instance of a class, also known as attributes"
+},
+{
+"answer": "attributes","question":"pieces of information stored within an object, also known as instance variables"
+},
+{
+"answer": "constructor","question":"a special method that is called to instantiate an object of a class"
+},
+{
+"answer": "method","question":"a function that belongs to a class. an object's behaviors and abilities."
+},
+{
+"answer": "new","question":"keyword that allocates memory for an instance of a class"
+},
+{
+"answer": "this","question":"keyword used within a class that refer to the instance variables and methods that belong to this object"
+},
+{
+"answer": "abstraction","question":"representing complexity in a simplified way."
+},
+{
+"answer": "instance","question":"a specific object constructed from a class"
+},
+{
+"answer": "instantiate","question":"the act of constructing an object of a class"
+},
+{
+"answer": "getter method","question":"also known as an accessor, a method that returns a value from within an object"
+},
+{
+"answer": "setter method","question":"also known as a Mutator, a method that changes a value within an object"
+},
+{
+"answer": "argument","question":"data provided when calling/invoking a method "
+},
+{
+"answer": "encapsulation","question":"creating a class to combine data and behaviors. the internal state (data) of an object is protected from unwanted changes."
+},
+{
+"answer": "state","question":"the current game mode, the current sprite mode, or the settings of an object's instance variables"
+},
+{
+"answer": "finite state machine","question":"hardware or software that moves through a series of modes and can only be in one mode at a time."
+},
+{
+"answer": "object","question":"a data structure that contains attributes and behaviors. A software simulation/model representing an entity either physical (a box, a car, etc) or conceptual (a chemical process, a sale, driving directions, etc)"
+},
+{
+"answer": "class","question":"a blueprint from which an object is instantiated. Defines the abstract characteristics of a thing, its attributes and its behaviors"
+},
+{
+"answer": "instance variables","question":"data that belongs to a specific instance of a class, also known as attributes"
+},
+{
+"answer": "attributes","question":"pieces of information stored within an object, also known as instance variables"
+},
+{
+"answer": "constructor","question":"a special method that is called to instantiate an object of a class"
+},
+{
+"answer": "method","question":"a function that belongs to a class. an object's behaviors and abilities."
+},
+{
+"answer": "new","question":"keyword that allocates memory for an instance of a class"
+},
+{
+"answer": "this","question":"keyword used within a class that refer to the instance variables and methods that belong to this object"
+},
+{
+"answer": "abstraction","question":"representing complexity in a simplified way."
+},
+{
+"answer": "instance","question":"a specific object constructed from a class"
+},
+{
+"answer": "instantiate","question":"the act of constructing an object of a class"
+},
+{
+"answer": "getter method","question":"also known as an accessor, a method that returns a value from within an object"
+},
+{
+"answer": "setter method","question":"also known as a Mutator, a method that changes a value within an object"
+},
+{
+"answer": "argument","question":"data provided when calling/invoking a method "
+},
+{
+"answer": "encapsulation","question":"creating a class to combine data and behaviors. the internal state (data) of an object is protected from unwanted changes."
+},
+{
+"answer": "state","question":"the current game mode, the current sprite mode, or the settings of an object's instance variables"
+},
+{
+"answer": "finite state machine","question":"hardware or software that moves through a series of modes and can only be in one mode at a time."
+}
+]
