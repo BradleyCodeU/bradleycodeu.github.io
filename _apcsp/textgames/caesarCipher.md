@@ -11,16 +11,18 @@ Caesar Cipher (or Caesar Shift) is one of the simplest encryption techniques. It
 
 Here is the encryption algorithm you will use:
 ```
-def caesarEncrypt(myString,myNumber):
+def caesarEncrypt(myString,shiftNum):
   result = ""
-  # loop thru the string saving each letter in the varable each
+  # loop thru the string saving each letter in the var each
   for each in myString:
-    # convert each letter to a number
-    letterNumber = ord(each)
-    # shift the letter number by adding mynumber
-    shiftedNumber = letterNumber + myNumber
-    # convert the number back to character and string
-    result += str(chr(shiftedNumber))
+  # # use ord(each) convert each letter to number, save in var
+
+  # # shift the letter number by adding shiftNum, save in var
+
+  # # use chr() to convert the number back to character, save in var
+
+  # # use str() to convert the character to string, add to result
+      result = result + str(  )
   return result
 ```
 
@@ -39,6 +41,8 @@ Define a function named validInt that requires one argument: userInput. Try to c
 
 Here is the pseudocode for the main function:
 ```
+highScores = []
+
 def main():
   # call randomSecretCodeWords() and save what is returned in secretString
   # generate a random int between 1 and 20 and save it in secretNumber
@@ -50,7 +54,7 @@ def main():
     # collect the user input
     # if the user input is valid
       # convert the user input to an int
-      # call caesarDecrypt with agruments gibberish and user input
+      # call caesarDecrypt with arguments gibberish and user input
       # then save what it returns in a variable named newText
       # output the new decrypted text
       # if the userInput is the secretNumber
