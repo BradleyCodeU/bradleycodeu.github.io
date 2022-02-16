@@ -25,17 +25,17 @@ Add more rooms! If you are a group of 3 complete 21 total rooms. If you are a gr
 
 ## Take Item
 
-Create an array to store the player's inventory.
+Create an array named backpack to store the player's inventory.
 
-Create a function named takeItem() that requires one argument: roomNumber. This function appends the itemArray[roomNumber] to the player's inventory. Next, it sets the itemArray[roomNumber] equal to False.
+Create a function named takeItem() that requires 3 arguments: roomArray, roomNumber, backpackArray. If the roomArray[roomNumber][item] is equal to None, then just return the backpackArray. Otherwise, append the roomArray[roomNumber][item] to the player's backpackArray. Next, set the roomArray[roomNumber][item] equal to None. Returns the backpackArray.
 
 Update the main() function in 3 places...
 
   - After printing the room description, print the player's inventory.
 
-  - Add to the line that says "Type n,s,e,w or quit" so that it includes "take"
+  - Update the line that says "Type n,s,e,w or quit" so that it includes "take"
 
-  - If the userInput equals take, then call the takeItem() function with location as an argument.
+  - If the userInput equals "take", then call the takeItem() function with all the required arguments.
 
 ## Special Rooms
 
@@ -45,20 +45,21 @@ Add 1 or more special rooms. Could be:
   - a battle with an enemy
   - a high-low number guessing game (to open a combination lock, for example)
   - a fill-in-the-blank quiz game (to figure out a computer password, for example)
-  - a locked room that is unlocked if the player has the key. Locked rooms are set to false at first, but if you are standing next to them and have a key, then the room gets a description. Look at the example below.
+  - a locked room that is unlocked if the player has the key. Locked rooms are set to None at first, but if you are standing next to them and have a key, then the room gets a description. Look at the example below.
 
 I recommend creating a function called checkIfSpecialRoom that redirects the player if they are in one of these locations:
 ```
-def checkIfSpecialRoom(location, roomArray, inventory, isQuizCompleted, isBossDead):
+def checkIfSpecialRoom(location, roomArray, backpackArray, isQuizCompleted, isBossDead):
 
   # NOTICE you unlock room 403 FROM room 303
   if location == 303:
-    if "gold key" in inventory:
+    if "gold key" in backpackArray:
       print("You use a gold key to unlock a door") # NOTICE it works automatically
-      roomArray[403] = "The unlocked door leads into a small, dark hallway"
-    if "gold key" not in inventory:
+      roomArray[403] = makeRoom("Secret Hallway")
+      roomArray[403]['description'] = "The unlocked door leads into a small, dark hallway"
+    if "gold key" not in backpackArray:
       print("The room to the east is locked. You need a key.")
-      roomArray[403] = False
+      roomArray[403] = None
 
   if location == 406 and isQuizCompleted == False:
     susansQuizGame()
