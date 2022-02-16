@@ -456,19 +456,19 @@ Projects:
   content: "
   [3rd Quarter](#3rd-quarter)
 
-  1. [Console](#console) - *1 wk*
+  1. [Console](#console) - *2 wk*
 
-  1. [Algorithms](#algorithms) - *1 wk*
+  1. [Text Games](#textgames) - *2 wks*
 
   1. [Big Data](#bigdata) - *1 wk*
 
-  1. [Text Games](#textgames) - *2 wks*
+  1. [Objects](#objects) - *2 wks*
 
   1. [Digital Info](#digitalinfo) - *1 wk*
 
   1. [Practice3](#practice3) - *2 wks*
 
-  1. [Objects](#objects) - *2 wks*
+
 
 
 
@@ -598,8 +598,6 @@ Projects:
 
 Additional:
 
-  1. [CaesarCipher](/apcsp/textgames/caesarCipher/)
-
   1. [ArraySearch](/apcsp/textgames/arraySearch/)
 
 "
@@ -619,7 +617,7 @@ Code.org Unit 4: Big Data and Privacy, [https://studio.code.org/s/csp4-2018](htt
 - title: objects
   heading: "# Objects"
   content: "
-*2 wk*, Vocab: dictionary, object, key, value
+*2 wk*, Vocab: dictionary, object, key, value, class, attribute, instance variable
 
   - [Array Review](https://bradleycodeu.github.io/apcsp/tk/dictionaries01-array-review/)
 
@@ -640,7 +638,19 @@ Projects:
 
   1. Pair- [Castles](/apcsp/objects/033TextGamesCastlesAndCreatures/)
 
-  1.  ChiliGame
+  1. Pair- [Chili Game](/apcsp/objects/chiliGame/)
+
+
+
+Additional:
+
+  1. OOP Caesar Cipher Game
+
+  1. OOP Mythopoly Game
+
+  1. OOP Home Run Derby Game
+
+
 
 "
 
