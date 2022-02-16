@@ -4,46 +4,116 @@ category: digitalinfo
 title: Text Games Foobar v1
 ---
 
-Create your own text game based on Foobar The Bazbarian
+# Foobar Game
 
-Working as a group, figure out a story/theme/setting and title for your game
+Working as team, create your own text game based on Foobar The Bazbarian [https://foobargame.glitch.me/](https://foobargame.glitch.me/)
 
-You will be graded on the following requirements:
-* Group of 3 = 12 rooms, 6 items
-* Group of 4 = 16 rooms, 8 items
-* Each of these rooms must have a unique description. NOT just "you're in a room"
-* An item is something that the player can pick up like a new weapon, a health pack, coins, a potion, some food, a fidget-spinner, etc.
-* Create an array named roomArray that will store room descriptions
-* Create another array named itemArray that will store items that you can pick up
-* Create a for loop that repeats 999 times and appends false to both arrays 999 times
-* Add descriptions for your 12 or 16 rooms to your roomArray. For example, if room 107 is the kitchen the you would write ``` roomArray[107] = "You are in the kitchen. There are a bunch of dirty dishes in the sink." ```
-* Add 6 or 8 items to your itemArray. For example, if there is a knife in the kitchen the you would write ``` itemArray[107] = "Knife" ``` Notice that you should NOT mention the item in the room description, because later the knife might not be in the room.
-* In v1, the player does NOT need to be able to pick up any items, but when visiting a room the game MUST tell you that an item is there IF the room contains an item.
-* In v1, you must be able to change locations and give a message like "You can't go there" when necessary.
+Start by figuring out a story/theme/setting and title for your game
 
-Define a function named doesRoomExist that requires one argument: roomNumber. If roomArray index roomNumber is false then say "You can't go there" and return false. Otherwise return true. Use try except when you check the room because you could get an "index out of range error." If you get an error, then say "You can't go there" and return false.
+Plan a map on a grid. It might be a maze-like dungeon or a large open island or a house with rooms and hallways. You will plan a dozen blocks of the grid. We will call these blocks "rooms." Each of these rooms must have a unique description, NOT just "you're in a room"
 
-Define a function named doesItemExist that requires one argument: roomNumber. Use try except to avoid getting an "index out of range error." Returns True if there is an item in the room or False if not.
 
-Define a function named move that requires two arguments: userInput, location.
-  - If the userInput was "n" and call doesRoomExist with the argument location - 1
-    - location = location - 1
-  - Otherwise if the userInput was "s" and doesRoomExist at location + 1
-    - location = location + 1
-  - Otherwise if the userInput was "e" and doesRoomExist at location + 100
-    - location = location + 100
-  - Otherwise if the userInput was "w" and figure this part out yourself
-    - figure this part out yourself
-  - return location
+| 0 |100|200|
+|--|--|
+| 1 |101|201|
+| 2 |102|202|
+
+REQUIREMENTS:
+
+  * Group of 3 = 12 rooms, at least 6 items
+  * Group of 4 = 16 rooms, at least 8 items
+  * An item is something that the player can pick up like a new weapon, a health pack, coins, a potion, some food, a fidget-spinner, etc.
+  * Define a function called __makeRoom__ that returns a dictionary. Each room dictionary has:
+    - a name
+    - a description
+    - an item (but the item might be set to ```None``` if there is no item in this room)
+    - 3 or 4 other attributes (based on how many members in your group)
+  * Create an array named roomArray that stores your room objects
+  * Use a for loop to add False to the array 1000 times
+  * Add descriptions for your 15 rooms to your roomArray
+  * In version 1, the player does NOT need to be able to pick up any items, but when visiting a room the game MUST tell you that an item is there IF the room contains an item.
+  * Create a variable named mylocation that stores the current room number.
+  * Must be able to change rooms and give a message like "You can't go there" when necessary.
+
+
+Define a function named __doesRoomExist__ that requires 2 arguments: roomArray, roomNumber. If roomArray index roomNumber is None then say "You can't go there" and return False. Otherwise return True.
+
+Define a function named __doesItemExist__ that requires 2 arguments: roomArray, roomNumber. If doesRoomExist(roomArray,roomNumber) is False then return False. Otherwise if roomArray[roomNumber]['item'] does not equal None then return True. Otherwise return False.
+
+
+Define a function named __move__ that requires 3 argument: roomArray, mylocation, direction. Returns an int, mylocation.
+
+    - If the direction was "n" and doesRoomExist at the mylocation - 1
+        - mylocation = mylocation - 1
+    - Otherwise if the direction was "s" and doesRoomExist at the mylocation + 1
+        - mylocation = mylocation + 1
+    - Otherwise if the direction was "e" and doesRoomExist at the mylocation + 100
+        - figure this part out yourself
+    - Otherwise if the direction was "w" and figure this part out yourself
+        - figure this part out yourself
+    - return mylocation
+
 
 Define a function named main.
-  - Create a variable named location and set it to the starting room number
-  - Say the title of your game
-  - Say "Created By: " and then your names
-  - Sleep for 1 sec
-  - Create a forever loop
-    - Say the room description for the location
-    - If doesItemExist equals true, then say "Item here: " and the item name
-    - Say "Please type: n, s, e, w, or quit"
-    - Save the input in a variable named userInput
-    - Call the move function and pass two arguments userInput and location, then save what it returns in location
+
+- Create a variable named mylocation and set it to the starting room number
+- Say the title of your game
+- Say “Created By: “ and then your names
+- Sleep for 1 sec
+- Create a forever loop
+  - Say the room description for mylocation
+  - If doesItemExist equals true, then say “Item here: “ and the item name
+  - Say “Please type: n, s, e, w, or quit”
+  - Save the input in a variable named userInput
+  - Call the move function and pass two arguments userInput and location, then save what it returns in location
+
+
+## Tests
+
+||Expected Output|
+|---|---|
+|x = makeRoom()<br>type(x) is dict|True|
+|roomArray1 = [{'name':'Kitchen'}, None, None]<br>doesRoomExist(roomArray1, 0)|True|
+|roomArray1 = [{'name':'Kitchen'}, None, None]<br>doesRoomExist(roomArray1, 2)|False|
+|roomArray1 = [{'name':'Kitchen'}, None, None]<br>doesRoomExist(roomArray1, 9999)|False|
+|roomArray1 = [{'name':'Basement', 'item':'Key'}, None]<br>doesItemExist(roomArray1, 0)|True|
+|roomArray2 = [{'name':'Basement', 'item':None}, None]<br>doesItemExist(roomArray2, 0)|False|
+|roomArray2 = [{'name':'Kitchen'}, {'name':'Hallway'}, None]<br>move(roomArray2, 1, "n")|0|
+|roomArray2 = [{'name':'Kitchen'}, {'name':'Hallway'}, None]<br>move(roomArray2, 0, "s")|1|
+|roomArray2 = [{'name':'Kitchen'}, {'name':'Hallway'}, None]<br>move(roomArray2, 0, "e")|0|
+|roomArray2 = [{'name':'Kitchen'}, {'name':'Hallway'}, None]<br>move(roomArray2, 1, "w")|1|
+
+
+## Starter Template
+
+```
+
+# Define a function called makeRoom that returns a dictionary. Each room dictionary has:
+# a name
+# a description
+# an item (but the item might be set to None if there is no item in this room)
+# 3 or 4 other attributes (based on how many members in your group)
+
+
+# Define a function named doesRoomExist that requires 2 arguments: roomArray, roomNumber. If roomArray index roomNumber is None then say "You can't go there" and return False. Otherwise return True.
+
+
+# Define a function named doesItemExist that requires 2 arguments: roomArray, roomNumber. If doesRoomExist(roomArray,roomNumber) is False then return False. Otherwise if roomArray[roomNumber] does not equal None then return True. Otherwise return False.
+
+
+# Define a function named move that requires 3 argument: roomArray, mylocation, direction. Returns an int, mylocation.
+
+
+# Define a function named main.
+# Create a variable named mylocation and set it to the starting room number
+# Say the title of your game
+# Say “Created By: “ and then your names
+# Sleep for 1 sec
+# Create a forever loop
+# # Say the room description for mylocation
+# # If doesItemExist equals true, then say “Item here: “ and the item name
+# # Say “Please type: n, s, e, w, or quit”
+# # Save the input in a variable named userInput
+# # Call the move function and pass two arguments userInput and location, then save what it returns in location
+```
+  
