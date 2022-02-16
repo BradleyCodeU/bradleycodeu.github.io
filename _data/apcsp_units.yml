@@ -118,15 +118,14 @@ Projects:
 
 1. [Walking And Jumping](/apcsp/scratch/004WalkingAndJumping/)
 
+1. [Star Hunter](/apcsp/scratch/003StarHunter/)
+
+1. [Shapes And Initials](/apcsp/scratch/007ShapesAndInitials/)
 
 
 Additional Projects:
 
-1. [Star Hunter](/apcsp/scratch/003StarHunter/)
-
 1. [Cheese Chase](/apcsp/scratch/005CheeseChase/)
-
-1. [Shapes And Initials](/apcsp/scratch/007ShapesAndInitials/)
 
 1. Pick- [Launcher Game](/apcsp/scratch/006LauncherGame/) or [Hungry Bug](/apcsp/scratch/008HungryBug/) or [Racing Game](/apcsp/scratch/009RacingGame/)
 
@@ -183,9 +182,11 @@ Projects:
 
   1. [Py Math Fun](/apcsp/py/PyMathFun/)
 
+  1. Pair- [Py Hogwarts House](/apcsp/py/109PyHogwartsHouse/)
+
   1. Pair- [Py Valid Number](/apcsp/py/111PyValidNumber/)
 
-  1. Pair- [Py Hogwarts House](/apcsp/py/109PyHogwartsHouse/)
+
 
 
 
@@ -325,15 +326,25 @@ Projects:
 
 Projects:
 
+1. Join Khan Academy
+
+1. KAProgramming1
+
 1. [Trt Initials](/apcsp/turtleart/TurtleInitials/)
 
 1. Pair- [Trt Simple Drawing](/apcsp/turtleart/012TurtleSimpleDrawing/)
+
+1. KAProg2
 
 1. [Trt Random Locations](/apcsp/turtleart/025TurtleDrawingsAtRandomLocations/)
 
 1. [Trt How Many Squares](/apcsp/turtleart/014TurtleHowManySquares/)
 
+1. KAProg3
+
 1. [Trt Arguments and Shapes](/apcsp/turtleart/turtleArgumentsAndShapes/)
+
+1. Algorithm Plan
 
 1. [Trt Drawing Algorithm](/apcsp/turtleart/019TurtleDrawingAlgorithm/)
 
@@ -368,19 +379,16 @@ Code.org Unit 1, Chapter 2: Inventing the Internet, [https://studio.code.org/s/c
 
 Projects:
 
-1. KAProgramming1
 
-1. WhatIsTheInternet
 
-1. IPAddressesAndDNS
+1. WhatIsTheInternet Quiz
 
-1. KAProgramming2
+1. IPAddressesAndDNS Quiz
 
-1. PacketsRoutingAndReliability
+1. PacketsRoutingAndReliability Quiz
 
-1. HttpAndHtml
+1. HttpAndHtml Quiz
 
-1. KAProgramming3
 
 "
 - title: scrum
@@ -401,7 +409,15 @@ Projects:
 
 Projects:
 
+1. ScrumInSchool Quiz
+
+1. ScrumInUnder5Minutes Quiz
+
 1. Team- [Sprint1](/apcsp/scrum/scrumsprint1/)
+
+1. WaterfallDevelopment Quiz
+
+1. TheAgileManifesto Quiz
 
 1. Team- [Sprint2](/apcsp/scrum/scrumsprint2/)
 
@@ -409,7 +425,11 @@ Projects:
 
 1. Team- [Sprint4](/apcsp/scrum/scrumsprint4/)
 
-1. [Create Practice 2 Artifact, Video, and Written Responses](/apcsp/scrum/CreatePractice2)
+1. [Create2 Code PDF](/apcsp/scrum/Create2CodePDF/)
+
+1. [Create2 Video](/apcsp/scrum/Create2Questions/)
+
+1. [Create2 Questions](/apcsp/scrum/Create2Video/)
 
 "
 
@@ -461,7 +481,7 @@ Projects:
   content: "
 
 
-*1 wk*, Vocab: array, iteration, iterate through an array, input, for each loops, input validation, try/except, conditionals, functions, pre-conditional loop, post-conditional loop, pseudocode,
+*2 wk*, Vocab: array, iteration, iterate through an array, input, for each loops, input validation, try/except, conditionals, functions, pre-conditional loop, post-conditional loop, pseudocode,
 
 
 
@@ -488,9 +508,26 @@ Projects:
 
 Projects:
 
+1. KAAlgorithms1
 
+1. CBWarmup1
 
 1. [StringsAndScreams](/apcsp/console/ConsoleStringsAndScreams/)
+
+1. [RandNameGenerator](/apcsp/console/randomNameGenerator)
+
+1. KAAlgo2
+
+1. Pair- [FillTheBlankGame](/apcsp/console/028ConsoleFillInTheBlankQuizGame/)
+
+1. Pair- [TipCalculator](/apcsp/console/029ConsoleTipCalculator/)
+
+
+
+
+
+
+Additional Projects:
 
 1. [Pseudocode3PPong](/apcsp/console/023ConsolePseudocode3PPong/)
 
@@ -504,28 +541,11 @@ Projects:
 
 1. [RunErrands](/apcsp/console/ConsoleRunErrands/)
 
-1. Pair- [FillTheBlankGame](/apcsp/console/028ConsoleFillInTheBlankQuizGame/)
-
-1. Pair- [TipCalculator](/apcsp/console/029ConsoleTipCalculator/)
-
 1. Pair- [2DGeometryCalculations](/apcsp/console/030Console2DGeometryCalculations/)
 
 1. Pair-Pick- [HourlyAndYearlyWages](/apcsp/console/031ConsoleHourlyAndYearlyWages/) or [TriviaHighLow](/apcsp/console/032ConsoleTriviaHighLow/)
 
 
-"
-- title: algorithms
-  heading: "# Algorithms"
-  content: "
-*1 wk*, Vocab: 
-"
-
-- title: bigdata
-  heading: "# BigData"
-  content: "
-*1 wk*, Vocab: datatype, database, data structure, API, data mining, SQL, callback, Internet of Things, JSON, metadata, AJAX, server, analytics, server farm, query, XML
-
-Code.org Unit 4: Big Data and Privacy, [https://studio.code.org/s/csp4-2018](https://studio.code.org/s/csp4-2018)
 
 "
 
@@ -562,17 +582,71 @@ Code.org Unit 4: Big Data and Privacy, [https://studio.code.org/s/csp4-2018](htt
 
 Projects:
 
-  1. [Random Name Generator](/apcsp/textgames/randomNameGenerator/)
+  1. KASecurity1&2
+
+  1. CBString1
 
   1. Pair- [BossBattle](/apcsp/textgames/bossBattle/)
 
+  1.  KASecurity3
+
+  1. CBList1
+
   1. [HighLowWord](/apcsp/textgames/highLowWord/)
+
+
+
+Additional:
 
   1. [CaesarCipher](/apcsp/textgames/caesarCipher/)
 
   1. [ArraySearch](/apcsp/textgames/arraySearch/)
 
 "
+
+- title: bigdata
+  heading: "# BigData"
+  content: "
+*1 wk*, Vocab: datatype, database, data structure, API, data mining, SQL, callback, Internet of Things, JSON, metadata, AJAX, server, analytics, server farm, query, XML
+
+Code.org Unit 4: Big Data and Privacy, [https://studio.code.org/s/csp4-2018](https://studio.code.org/s/csp4-2018)
+
+
+1.  KADataAnalysis
+
+"
+
+- title: objects
+  heading: "# Objects"
+  content: "
+*2 wk*, Vocab: dictionary, object, key, value
+
+  - [Array Review](https://bradleycodeu.github.io/apcsp/tk/dictionaries01-array-review/)
+
+  - [Key Value Pairs](https://bradleycodeu.github.io/apcsp/tk/dictionaries02-key-value-pairs/)
+
+  - [Looping Thru A Dictionary](https://bradleycodeu.github.io/apcsp/tk/dictionaries03-looping-through-a-dictionary/)
+
+  - [Check If Key Exists](https://bradleycodeu.github.io/apcsp/tk/dictionaries04-check-if-key-exists/)
+
+  - [Dictionary Length](https://bradleycodeu.github.io/apcsp/tk/dictionaries05-dictionary-length/)
+
+
+
+Projects:
+
+
+  1. [Chatbots](/apcsp/objects/chatbots/)
+
+  1. Pair- [Castles](/apcsp/objects/033TextGamesCastlesAndCreatures/)
+
+  1.  ChiliGame
+
+"
+
+
+
+
 - title: digitalinfo
   heading: "# DigitalInfo"
   content: "
@@ -589,13 +663,15 @@ Projects:
 
 Projects:
 
+  1. [RGB Pixels](/apcsp/digitalinfo/rgbPixels/)
+
   1. Team- [Foobar v1](/apcsp/digitalinfo/037TextgamesFoobarv1/)
 
   1. Team- [Foobar v2](/apcsp/digitalinfo/038TextgamesFoobarv2/)
 
   1. Team- [Foobar v3](/apcsp/digitalinfo/foobarv3/)
 
-  1. [RGB Pixels](/apcsp/digitalinfo/rgbPixels/)
+
 
 "
 
@@ -620,30 +696,7 @@ Projects:
 
 "
 
-- title: objects
-  heading: "# Objects"
-  content: "
 
-
-  - [Array Review](https://bradleycodeu.github.io/apcsp/tk/dictionaries01-array-review/)
-
-  - [Key Value Pairs](https://bradleycodeu.github.io/apcsp/tk/dictionaries02-key-value-pairs/)
-
-  - [Looping Thru A Dictionary](https://bradleycodeu.github.io/apcsp/tk/dictionaries03-looping-through-a-dictionary/)
-
-  - [Check If Key Exists](https://bradleycodeu.github.io/apcsp/tk/dictionaries04-check-if-key-exists/)
-
-  - [Dictionary Length](https://bradleycodeu.github.io/apcsp/tk/dictionaries05-dictionary-length/)
-
-
-
-Projects:
-
-  1. [Chatbots](/apcsp/objects/chatbots/)
-
-  1. Pair- [Castles](/apcsp/objects/033TextGamesCastlesAndCreatures/)
-
-"
 
 
 
