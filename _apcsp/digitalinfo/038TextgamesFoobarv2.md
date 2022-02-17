@@ -3,17 +3,17 @@ layout: project
 category: digitalinfo
 title: Text Games Foobar v2
 ---
-SETUP FOR V2 - ONE PERSON IN EACH GROUP SHOULD:
-1. Create a NEW Tkinter project on Repl.it [https://repl.it/new/tkinter](https://repl.it/new/tkinter)
-1. COPY/PASTE your Foobar V1 code into the NEW project
-1. SHARE the JOIN CODE for the Repl project with your group AND MR. RILEY
-1. Update the "To Do" section of your group Scrum board
+
+Copy/paste your code from Foobar v1.
+
 
 ## The Map Class
 
 [Copy/Paste this map class](https://raw.githubusercontent.com/ohiofi/Python-map/master/map.py) into a new file, map.py
 
 The map.py file must be in the same location (same folder) as your project.
+
+Follow the directions at the top of the map.py file in order to add a map to your game.
 
 ## ASCII Art
 
@@ -39,22 +39,25 @@ Update the main() function in 3 places...
 
 ## Special Rooms
 
+Create a function called checkIfSpecialRoom. Requires no arguments. Returns nothing.
+
 In this version you will add "special rooms" which can be locked/unlocked, have battles, or other mini-games.
 
-Add 1 or more special rooms. Could be:
+Add 3 or more special rooms. Could be:
   - a battle with an enemy
   - a high-low number guessing game (to open a combination lock, for example)
   - a fill-in-the-blank quiz game (to figure out a computer password, for example)
   - a locked room that is unlocked if the player has the key. Locked rooms are set to None at first, but if you are standing next to them and have a key, then the room gets a description. Look at the example below.
 
-I recommend creating a function called checkIfSpecialRoom that redirects the player if they are in one of these locations:
+Create a function called checkIfSpecialRoom that redirects the player if they are in one of these locations:
 ```
 def checkIfSpecialRoom(location, roomArray, backpackArray, isQuizCompleted, isBossDead):
 
   # NOTICE you unlock room 403 FROM room 303
   if location == 303:
     if "gold key" in backpackArray:
-      print("You use a gold key to unlock a door") # NOTICE it works automatically
+      print("You use a gold key to unlock a door")
+      # NOTICE key works automatically
       roomArray[403] = makeRoom("Secret Hallway")
       roomArray[403]['description'] = "The unlocked door leads into a small, dark hallway"
     if "gold key" not in backpackArray:
