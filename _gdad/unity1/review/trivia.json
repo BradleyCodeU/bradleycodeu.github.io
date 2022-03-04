@@ -1,0 +1,92 @@
+[
+{
+"answer":"albedo","question":"a parameter that controls the color and texture of a material."
+},
+{
+"answer":"transform","question":"a component that determines the Position, Rotation, and Scale of each object in the scene. Every GameObject has this component."
+},
+{
+"answer":"position","question":"the part of the transform component that controls the location of objects in 3D"
+},
+{
+"answer":"rotation","question":"the part of the transform component that controls the direction an object is facing in 3D"
+},
+{
+"answer":"scale","question":"the part of the transform component that controls the size of objects in 3D"
+},
+{
+"answer":"void","question":"a C# function return type that indicates that the function does not return a value"
+},
+{
+"answer":"float","question":"a data type that stores a floating-point decimal number. For example, 42.5, 0.001, or -3.729."
+},
+{
+"answer":"int","question":"a data type that stores a whole number. For example, 42, 0, or -3729."
+},
+{
+"answer":"bool","question":"a data type that only has two possible values: true or false"
+},
+{
+"answer":"string","question":"a data type that stores a series of characters and is used to represent text"
+},
+{
+"answer":"Vector3","question":"a data type used for positions and directions that contains variables for x, y, and z. "
+},
+{
+"answer":"GameObject","question":"the fundamental object in Unity scenes, which can represent characters, props, scenery, cameras, waypoints, and more"
+},
+{
+"answer":"inspector","question":"a window that displays information about the currently selected GameObject that allows you to view and edit its settings."
+},
+{
+"answer":"public","question":"a C# keyword that allows a variable to be changed from the Unity inspector"
+},
+{
+"answer":"private","question":"a C# keyword that only allows a variable to be accessed inside of the script"
+},
+{
+"answer":"hierarchy","question":"window contains a list of every GameObject that has been added to the current Scene"
+},
+{
+"answer":"console","question":"a window that shows messages, warnings, errors, or debug output from your game"
+},
+{
+"answer":"play mode","question":"allows you to run your project directly inside the Editor. Any changes made during this mode are not saved."
+},
+{
+"answer":"Game view","question":"a view that is rendered from the camera in your project and allows you to preview your final project"
+},
+{
+"answer":"Scene view","question":"an interactive view into the world you are creating that can be used to select and position scenery, characters, cameras, lights, and all other types of GameObject."
+},
+{
+"answer":"orthographic","question":"a camera projection that renders all objects in flat 2D rather than distorting them based on 3D distance and angle"
+},
+{
+"answer":"perspective","question":"a camera projection in which objects that are close to the camera look larger and objects that are farther away look smaller."
+},
+{
+"answer":"prefab","question":"a preset GameObject with prepared components and properties that acts as a template from which you can create new object instances in the scene."
+},
+{
+"answer":"rigidbody","question":"a component that allows a GameObject to be affected by simulated gravity and other forces"
+},
+{
+"answer":"Time.deltaTime","question":"the interval in seconds from the last frame to the current one"
+},
+{
+"answer":"Input.GetAxis()","question":"a Unity function that returns a value from a keyboard or joystick input device. The value will be in the range -1 to 1"
+},
+{
+"answer":"Random.Range()","question":"a Unity function that returns a random float from a minimum value to maximum value, including both minimum and maximum."
+},
+{
+"answer":"Update()","question":"a Unity function that is automatically called once per frame."
+},
+{
+"answer":"FixedUpdate()","question":"a Unity function that should be used when applying forces, collisions, or other physics-related functions because you know it will be executed exactly in sync with the physics engine."
+},
+{
+"answer":"LateUpdate()","question":"a Unity function that is automatically called once per frame after all of the Update methods are processed. If the camera is following the player it can be used to only move the camera after the player has moved."
+}
+]
