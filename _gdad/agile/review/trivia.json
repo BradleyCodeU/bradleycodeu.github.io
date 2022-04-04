@@ -1,0 +1,65 @@
+[
+{
+"answer": "Waterfall model","question": "__________ is a development method that is linear and sequential. It includes requirements, design, implementation, verification/testing, and maintenance."
+},
+{
+"answer": "Requirements","question": "__________ is the phase where the Project Manager tries to get a detailed understanding of the user's needs"
+},
+{
+"answer": "Design","question": "__________ is the phase where analysts use the information collected to plan the product in pseudocode, independent of any hardware or software system"
+},
+{
+"answer": "Implementation","question": "__________ is the phase where code is written using user's needs and the plan specifications"
+},
+{
+"answer": "Verification/Testing","question": "__________ is the phase where the product is checked for defects and usability and to see if it meets the users' needs. A closed beta, for example."
+},
+{
+"answer": "Maintenance","question": "__________ is the phase where the customer is using the developed application. Changes are made as problems are found or as users create additional needs"
+},
+{
+"answer": "Agile","question": "__________ is an approach to development where requirements and solutions evolve through iteration and collaboration"
+},
+{
+"answer": "The Agile Manifesto","question": "__________ is a formal proclamation of 4 key values and 12 principles to guide an iterative and people-centric approach to software development"
+},
+{
+"answer": "Individuals and interactions","question": "__________ over processes and tools"
+},
+{
+"answer": "Working software","question": "__________ over comprehensive documentation"
+},
+{
+"answer": "Customer collaboration","question": "__________ over contract negotiation"
+},
+{
+"answer": "Responding to change","question": "__________ over following a plan"
+},
+{
+"answer": "Scrum","question": "__________ is a project-management and organization system built on Agile"
+},
+{
+"answer": "Scrum Master","question": "__________ is the role within a team accountable for guiding, coaching, teaching and assisting a team with a proper understanding and use of the project-management system"
+},
+{
+"answer": "Scrum Board","question": "__________ is a grid used to visualize information such as tasks that are either to do, busy, or done"
+},
+{
+"answer": "Sprint","question": "__________ is a deadline of 30 days or less that serves as a short-term goal and is immediately followed by another deadline and short-term goal"
+},
+{
+"answer": "Daily Scrum","question": "__________ is a stand-up meeting of 15 minutes or less for the Development Team to re-plan the next day of development work. Updates are reflected in the Backlog"
+},
+{
+"answer": "Burn-down Chart","question": "__________ is a grid used to show project progress by graphing the work remaining versus time"
+},
+{
+"answer": "Product Backlog","question": "__________ is a list of features and tasks the team will work on for the entire project"
+},
+{
+"answer": "Sprint Backlog","question": "__________ is a list of features and tasks pulled from the product backlog for the current sprint"
+},
+{
+"answer": "Retrospective","question": "__________ is a meeting held at the end of a sprint in which the team discusses what succeeded and what could be improved"
+}
+]
