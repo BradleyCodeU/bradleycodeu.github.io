@@ -18,17 +18,17 @@ from tkinter import messagebox # this is required!!!!
 
 ## Project Details:
 
-Using Mu or repl.it...
+1. Create a validInput function that takes one argument userInput. Returns True or False. Use try-except so that the app doesn't crash. Try converting the input to an int.
 
-1. Create an Entry widget (you may NOT use Spinboxes for this project) for number 1 and another Entry widget for number 2
-2. Create a Button widget
-3. When the Button is pressed:
-   1. if NOT Validate input, create a messagebox that will show an error. Check that user has input numbers and that number 2 is not zero.
+2. Create an Entry widget (you may NOT use Spinboxes for this project) for number 1 and another Entry widget for number 2
+3. Create a Button widget
+4. When the Button is pressed:
+   1. if NOT valid input, create a messagebox that will show an error.
    1. Otherwise, if input is valid create messageboxes that will show info:
       - Give the sum of the two numbers
       - Give the difference between the two numbers
       - Give the product of the two numbers (the result of multiplication)
-      - Give the quotient (the result of division)
+      - If the second number is not zero, give the quotient (the result of division).
 
 
 ### Remember:
