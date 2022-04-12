@@ -4,7 +4,7 @@ category: ch14sortingandsearching
 title: SelectionSort
 ---
 
-For the AP Exam, you are required to know how 3 popular sort routines work. Watch the following video about the Selection sort routine.
+For the AP Exam, you're required to know how 3 popular sort routines work. Watch the following video about the Selection sort routine.
 
 Selection Sort: [https://drive.google.com/open?id=19ZCklKIltbEx3uHw0gUJHf8q1f0NrohH](https://drive.google.com/open?id=19ZCklKIltbEx3uHw0gUJHf8q1f0NrohH)
 
