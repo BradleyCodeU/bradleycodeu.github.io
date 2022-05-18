@@ -14,10 +14,10 @@ Collect the userInput and convert it to lowercase.
 
 If the text "should i" appears in the userInput, replace it with "you should" with Swift's [replacingOccurrences(of:with:) string method](https://developer.apple.com/documentation/foundation/nsstring/1412937-replacingoccurrences). You may also need to replace additional text before you split the string into an array.
 
-Separate the two (OR MORE) options in the userInput with Swift's [split() string method](https://developer.apple.com/documentation/swift/string/2894564-split) which returns an array:
+Separate the two (OR MORE) options in the userInput with Swift's [components(separatedBy:) string method](https://developer.apple.com/documentation/foundation/nsstring/1413214-components) which returns an array:
 ```
 let line = "BLANCHE:   I don't want realism. I want magic!"
-print(line.split(separator: " "))
+print(line.components(separatedBy: " "))
 // Prints ["BLANCHE:", "I", "don\'t", "want", "realism.", "I", "want", "magic!"]
 ```
 
