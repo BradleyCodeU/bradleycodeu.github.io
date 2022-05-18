@@ -21,7 +21,12 @@ print(line.components(separatedBy: " "))
 // Prints ["BLANCHE:", "I", "don\'t", "want", "realism.", "I", "want", "magic!"]
 ```
 
-Randomly select an option. Use Swift's [randomElement() array method](https://developer.apple.com/documentation/swift/array/2994747-randomelement)
+Randomly select an option. Use Swift's [randomElement() array method](https://developer.apple.com/documentation/swift/array/2994747-randomelement).
+```
+let names = ["Zoey", "Chloe", "Amani", "Amaia"]
+let randomName = names.randomElement()!
+// Note that the ! at the end of the line IS needed
+```
 
 For example...
 
