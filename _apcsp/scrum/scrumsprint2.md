@@ -5,7 +5,28 @@ title: Scrum Sprint 2
 ---
 This project is to be completed with your assigned group of 3 or more.
 
+Do NOT delete the old tasks from the Done section of your Scrum Board.
+
+
 ![Scenes](/apcsp/scrum/ArtScene.PNG)
+
+TLDR: There are 5 new tasks that your group must add to your To Do list. These 5 tasks are required for the group to complete during this sprint. Details for these tasks are in the directions.
+
+- isValidNumber 2pts
+- cityScene 8pts
+- countryScene 8pts
+- underwaterScene 8pts
+- Main 5pts
+
+
+With last week's points and this week's points combined, each person should have completed a total of 60 story points or more (30 from last sprint plus 30 from THIS sprint) by the end of this sprint.
+
+Once you have complete your additional 30 story points for this sprint...
+
+Turn in a SCREENSHOT after your Main function has run (I already know the URL of your group project).
+Leave a comment with your group name.
+
+## Directions
 
 Hold a Sprint Planning Meeting with your group. Start by creating post-its the following 5 Required Tasks, then pick a dozen other drawing tasks from the [Product Backlog below](#product-backlog).
 
