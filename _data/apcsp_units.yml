@@ -475,7 +475,7 @@ Projects:
 
   1. [Practice3](#practice3) - *2 wks*
 
-
+  1. [OOP](#oop) - *1 wk*
 
 
 
@@ -649,17 +649,7 @@ Projects:
 
   1. Pair- [Castles](/apcsp/objects/033TextGamesCastlesAndCreatures/)
 
-  1. Pair- [Chili Game](/apcsp/objects/chiliGame/)
 
-
-
-Additional:
-
-  1. OOP Caesar Cipher Game
-
-  1. OOP Mythopoly Game
-
-  1. OOP Home Run Derby Game
 
 
 
@@ -716,7 +706,28 @@ Projects:
   1. [PracticeCreate3D](/apcsp/practice3/PracticeCreate3D/)
 
 "
+- title: oop
+  heading: "# Oop"
+  content: "
 
+*1 wk*
+
+Projects:
+
+  1. Pair- [Chili Game](/apcsp/oop/chiliGame/)
+
+  1. [Caesar Cipher Game](/apcsp/oop/CaesarCipherGame/)
+
+  1. [Mythopoly Game](/apcsp/oop/MythopolyGame/)
+
+  1. KASimulations
+
+  1. Home Run Game
+
+  1. Virtual Pet Game
+
+
+  "
 
 
 
@@ -760,6 +771,33 @@ Projects:
 - title: create
   heading: "# Create"
   content: "*3 wks* - Create - AP Performance Task Prep, Final Create
+
+  1. KATheInternet1&2
+
+  1. KADigInfo1
+
+  1. KADigInfo2
+
+  1. KADigInfo3
+
+  1. CTVideo
+
+  1. CTPrompt3a
+
+  1. CTPrompt3b
+
+  1. CTPrompt3c
+
+  1. CTPrompt3d
+
+  1. CTCodePDF
+
+  1. KAExamPrep
+
+  1. 2017 APCSP Review Test
+
+  1. 2020 APCSP Review Test
+
 "
 
 - title: tk
@@ -786,23 +824,31 @@ Projects:
 
 Projects:
 
-1. [SoloLrn Control Structures](/apcsp/tk/SoloLrnControlStructures/)
 
 1. [Tk Shapes And Buttons](/apcsp/tk/045TkShapesAndButtons/)
 
 1. [Tk Weird Calc](/apcsp/tk/044TkWeirdCalcInputValidationReview/)
 
-1. [Tk Menu Calculator1](/apcsp/tk/113TkMenuCalculator1/)
+1. [Tk Poll v1](/apcsp/tk/047TkPollv1/)
 
-1. [Tk App With Input Validation](/apcsp/tk/046TkAppWithInputValidation/)
+1. [Tk Poll v2](/apcsp/tk/048TkPollv2/)
 
-1. Pair- [Tk Try Load File](/apcsp/tk/107TkTryLoadFile/)
 
-1. Pair- [Tk Poll v1.0](/apcsp/tk/047TkPollv1/)
 
-1. Pair-Pick- [TkAddressBook]() or [TkMenuOrder]()
+Additional:
 
-1. Pair-Pick- [TkPollAverage]() or [TkMultiQuestion]()
+  1. [SoloLrn Control Structures](/apcsp/tk/SoloLrnControlStructures/)
+
+  1. [Tk Menu Calculator1](/apcsp/tk/113TkMenuCalculator1/)
+
+  1. [Tk App With Input Validation](/apcsp/tk/046TkAppWithInputValidation/)
+
+  1. Pair- [Tk Try Load File](/apcsp/tk/107TkTryLoadFile/)
+
+  1. Pair-Pick- [TkAddressBook]() or [TkMenuOrder]()
+
+  1. Pair-Pick- [TkPollAverage]() or [TkMultiQuestion]()
+
 "
 
 - title: greenfoot
@@ -812,6 +858,9 @@ Projects:
 - title: java
   heading: "# Java"
   content: "*3 wks* - input, output, objects, classes
+
+  1. SoloLrnJavaBasics
+
 "
 
 - title: turtlegames
