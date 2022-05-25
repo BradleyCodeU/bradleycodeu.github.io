@@ -434,9 +434,9 @@ Projects:
 
 1. [Create2 Code PDF](/apcsp/scrum/Create2CodePDF/)
 
-1. [Create2 Video](/apcsp/scrum/Create2Questions/)
+1. [Create2 Video](/apcsp/scrum/Create2Video/)
 
-1. [Create2 Questions](/apcsp/scrum/Create2Video/)
+1. [Create2 Questions](/apcsp/scrum/Create2Questions/)
 
 "
 
@@ -523,6 +523,8 @@ Projects:
 
 1. [RandNameGenerator](/apcsp/console/randomNameGenerator)
 
+1. [RandIntArray](/apcsp/console/103ConsoleRandomIntArray/)
+
 1. KAAlgo2
 
 1. Pair- [FillTheBlankGame](/apcsp/console/028ConsoleFillInTheBlankQuizGame/)
@@ -538,7 +540,7 @@ Additional Projects:
 
 1. [Pseudocode3PPong](/apcsp/console/023ConsolePseudocode3PPong/)
 
-1. [RandIntArray](/apcsp/console/103ConsoleRandomIntArray/)
+
 
 1. Pair-Pick- [Temps](/apcsp/console/022ConsoleTemps/) or [MultiChoiceGame](/apcsp/console/024ConsoleMultiChoiceQuizGame/)
 
