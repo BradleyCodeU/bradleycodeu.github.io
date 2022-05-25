@@ -517,8 +517,6 @@ Projects:
 
 1. KAAlgorithms1
 
-1. CBWarmup1
-
 1. [StringsAndScreams](/apcsp/console/ConsoleStringsAndScreams/)
 
 1. [RandNameGenerator](/apcsp/console/randomNameGenerator)
@@ -526,6 +524,8 @@ Projects:
 1. [RandIntArray](/apcsp/console/103ConsoleRandomIntArray/)
 
 1. KAAlgo2
+
+1. [CBWarmup1](/apcsp/console/CodingBatWarmup1/)
 
 1. Pair- [FillTheBlankGame](/apcsp/console/028ConsoleFillInTheBlankQuizGame/)
 
