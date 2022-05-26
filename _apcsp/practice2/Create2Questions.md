@@ -1,6 +1,6 @@
 ---
 layout: project
-category: scrum
+category: practice2
 title: Create 2 Questions
 ---
 Written Reflection:
