@@ -92,11 +92,7 @@ References and Other Info:
 
 - title: scratch
   heading: "# Scratch"
-  content: "
-  *2 wks*, Vocab: growth mindset, fixed mindset, Scratch, MIT, high-level language, low-level language, script, front end, back end, input, prompt, output, variable, assignment, string, int, boolean, sprite, control structure, iteration, loop, selection, conditional, sequencing, event listener, comparison operator, equality operator, bug, debugging
-
-
-Resources: [Scratch tutorial folder](https://drive.google.com/open?id=128oYSzZetK25nTV-0YInwofJ_TrGKf3W), [Scratch unit vocab list](https://docs.google.com/document/d/11kO-_JeG52VHzmv8KBKJtYBh4YvldSXDkjMGVQ-S-bo/), [Scratch unit review game](/apcsp/scratch/review/)
+  content: "*2 wks*
 
 
 
@@ -126,25 +122,21 @@ Additional Projects:
 1. Pick- [Quest Health Game](/apcsp/scratch/010QuestHealthGame/) or [Scratch Platformer](/apcsp/scratch/102ScratchPlatformer/)
 
 1. [Scratch Freedom Of Choice](/apcsp/scratch/011ScratchFreedomOfChoice/)
+
+
+Vocab: growth mindset, fixed mindset, Scratch, MIT, high-level language, low-level language, script, front end, back end, input, prompt, output, variable, assignment, string, int, boolean, sprite, control structure, iteration, loop, selection, conditional, sequencing, event listener, comparison operator, equality operator, bug, debugging
+
+
+Resources: [Scratch tutorial folder](https://drive.google.com/open?id=128oYSzZetK25nTV-0YInwofJ_TrGKf3W), [Scratch unit vocab list](https://docs.google.com/document/d/11kO-_JeG52VHzmv8KBKJtYBh4YvldSXDkjMGVQ-S-bo/), [Scratch unit review game](/apcsp/scratch/review/)
+
+
+
+
 "
 
 - title: py
   heading: "# Py"
-  content: "
-*3 wks*, Vocab: syntax, syntax error, variable, assignment, mathematical operator, float, casting, function definition, function call, black box, return, argument, comment, camelCase, concatenate, scope, local variable, logical operator 'and'
-
-Resources:
- [Python Functions Tutorial](/apcsp/py/pythonfunctions/)
-, [w3school Python define your own function](https://www.w3schools.com/python/python_functions.asp)
-, [Functions are Recipes](https://hourofpython.trinket.io/a-visual-introduction-to-python#/functions/functions-are-recipes)
-, [w3schools Python variables](https://www.w3schools.com/python/python_variables.asp)
-, [learnpython.org/en/Variables_and_Types](https://www.learnpython.org/en/Variables_and_Types)
-, [w3schools Python input function](https://www.w3schools.com/python/ref_func_input.asp)
-, [w3schools Convert string to int](https://www.w3schools.com/python/python_casting.asp)
-, [learnpython.org/en/Basic_Operators](https://www.learnpython.org/en/Basic_Operators)
-, [learnpython.org/Conditions](https://www.learnpython.org/en/Conditions)
-, [Py Basics Vocab List](https://docs.google.com/document/d/1WJdtMRRfrOlzFjXvoKIH4t_Pm-9T6tPkhdERQmr1c1Y/)
-, [Py Basics Review Game](https://bradleycodeu.github.io/apcsp/py/review/)
+  content: "*3 wks*
 
 
 Projects:
@@ -184,6 +176,26 @@ Additional Projects:
 
 
 
+Vocab: syntax, syntax error, variable, assignment, mathematical operator, float, casting, function definition, function call, black box, return, argument, comment, camelCase, concatenate, scope, local variable, logical operator 'and'
+
+
+
+Resources:
+ [Python Functions Tutorial](/apcsp/py/pythonfunctions/)
+, [w3school Python define your own function](https://www.w3schools.com/python/python_functions.asp)
+, [Functions are Recipes](https://hourofpython.trinket.io/a-visual-introduction-to-python#/functions/functions-are-recipes)
+, [w3schools Python variables](https://www.w3schools.com/python/python_variables.asp)
+, [learnpython.org/en/Variables_and_Types](https://www.learnpython.org/en/Variables_and_Types)
+, [w3schools Python input function](https://www.w3schools.com/python/ref_func_input.asp)
+, [w3schools Convert string to int](https://www.w3schools.com/python/python_casting.asp)
+, [learnpython.org/en/Basic_Operators](https://www.learnpython.org/en/Basic_Operators)
+, [learnpython.org/Conditions](https://www.learnpython.org/en/Conditions)
+, [Py Basics Vocab List](https://docs.google.com/document/d/1WJdtMRRfrOlzFjXvoKIH4t_Pm-9T6tPkhdERQmr1c1Y/)
+, [Py Basics Review Game](https://bradleycodeu.github.io/apcsp/py/review/)
+
+
+
+
 "
 - title: practice1
   heading: "# Practice1"
@@ -200,25 +212,7 @@ Additional Projects:
 "
 - title: binary
   heading: "# Binary"
-  content: "
-*2 wks*, Vocab: binary, base-2, decimal, base-10, digit, bit, byte, hexadecimal, base-16, octal, base-8, ASCII, base-64 Big Data
-
-
-- [Binary Vocab List](https://docs.google.com/document/d/1DKv02CtCsJLUpmbXnayVNLWx5YPYhMTi8tumN7ZRpF0/edit?usp=sharing)
-
-- [Binary Review Game](https://bradleycodeu.github.io/apcsp/binary/review/)
-
-- Code.org Unit 1, Chapter 1: Representing and Transmitting Information, [https://studio.code.org/s/csp1-2020](https://studio.code.org/s/csp1-2020)
-
-- [How To Convert Binary To Decimal Tutorial (The Easy Way)](https://drive.google.com/file/d/1-HykewRcCWrClHgX6BOKxTPDoqVlH-rI/view?usp=sharing)
-
-- [Decimal To Hexadecimal Made Easy](https://drive.google.com/file/d/1iXrkKJEAZGkcMxlli6zpC59VD53P5GM4/view?usp=sharing)
-
-- [How To Easily Convert Hexadecimal To Binary And To Decimal Tutorial](https://drive.google.com/file/d/1htXqdfLbYPOOIWrmYlp5LZAXxWho84lV/view?usp=sharing)
-
-- [Will YouTube Ever Run Out Of Video IDs? (Base 64)](https://drive.google.com/file/d/1Rkck--o5olYdpS0vZucasha8hy4XD0oH/view?usp=sharing)
-
-- [Squirrel Girl Teaches Binary Finger Counting](https://drive.google.com/file/d/1EiGx0pPU4E57w4D9wzfExLm5zm_eVWEx/view?usp=sharing)
+  content: "*2 wks*
 
 
 
@@ -237,6 +231,27 @@ Projects:
 1. 4bit Binary Quizizz
 
 1. 8bit Binary Quizizz
+
+
+
+
+Vocab: binary, base-2, decimal, base-10, digit, bit, byte, hexadecimal, base-16, octal, base-8, ASCII, base-64 Big Data
+
+
+Resources:
+[Binary Vocab List](https://docs.google.com/document/d/1DKv02CtCsJLUpmbXnayVNLWx5YPYhMTi8tumN7ZRpF0/edit?usp=sharing)
+, [Binary Review Game](https://bradleycodeu.github.io/apcsp/binary/review/)
+, Code.org Unit 1, Chapter 1: Representing and Transmitting Information, [https://studio.code.org/s/csp1-2020](https://studio.code.org/s/csp1-2020)
+, [How To Convert Binary To Decimal Tutorial (The Easy Way)](https://drive.google.com/file/d/1-HykewRcCWrClHgX6BOKxTPDoqVlH-rI/view?usp=sharing)
+, [Decimal To Hexadecimal Made Easy](https://drive.google.com/file/d/1iXrkKJEAZGkcMxlli6zpC59VD53P5GM4/view?usp=sharing)
+, [How To Easily Convert Hexadecimal To Binary And To Decimal Tutorial](https://drive.google.com/file/d/1htXqdfLbYPOOIWrmYlp5LZAXxWho84lV/view?usp=sharing)
+, [Will YouTube Ever Run Out Of Video IDs? (Base 64)](https://drive.google.com/file/d/1Rkck--o5olYdpS0vZucasha8hy4XD0oH/view?usp=sharing)
+, [Squirrel Girl Teaches Binary Finger Counting](https://drive.google.com/file/d/1EiGx0pPU4E57w4D9wzfExLm5zm_eVWEx/view?usp=sharing)
+
+
+
+
+
 
 "
 
@@ -288,27 +303,10 @@ Projects:
   heading: "# TurtleArt"
   content: "
 
-*2 wks*, Vocab: IDE, turtle, import, object, instance, instantiate, method, abstraction, constructor, class, random, randint, algorithm, rgb color, hex color, for loop, while loop, input, function definition, function call, getter, setter
+*2 wks*
 
 
 
-
-  - [Trinket Turtle art tutorial](https://hourofpython.trinket.io/a-visual-introduction-to-python#/welcome/an-hour-of-code)
-
-  - [Functions are Recipes](https://hourofpython.trinket.io/a-visual-introduction-to-python#/functions/functions-are-recipes)
-
-
-  - [learnpython.org/Basic_Operators](https://www.learnpython.org/en/Basic_Operators)
-
-  - [learnpython.org/Conditions](https://www.learnpython.org/en/Conditions)
-
-  - [learnpython.org/Loops](https://www.learnpython.org/en/Loops)
-
-  - [w3schools Python While loops](https://www.w3schools.com/python/python_while_loops.asp)
-
-  - [Trt Art unit vocab](https://docs.google.com/document/d/1N__wvP1nQs7LAIH7ziRUlWPVKZxDMlzaLtgamtPvlSo/edit?usp=sharing)
-
-  - [Trt Art review game](https://bradleycodeu.github.io/apcsp/turtleart/review/)
 
 
 Projects:
@@ -354,17 +352,28 @@ Additional Projects:
 
 1. Pair- [Trt Stars 2](/apcsp/turtleart/017TurtleStars2/)
 
+
+
+Vocab: IDE, turtle, import, object, instance, instantiate, method, abstraction, constructor, class, random, randint, algorithm, rgb color, hex color, for loop, while loop, input, function definition, function call, getter, setter
+
+
+Resources:
+[Trinket Turtle art tutorial](https://hourofpython.trinket.io/a-visual-introduction-to-python#/welcome/an-hour-of-code)
+, [Functions are Recipes](https://hourofpython.trinket.io/a-visual-introduction-to-python#/functions/functions-are-recipes)
+, [learnpython.org/Basic_Operators](https://www.learnpython.org/en/Basic_Operators)
+, [learnpython.org/Conditions](https://www.learnpython.org/en/Conditions)
+, [learnpython.org/Loops](https://www.learnpython.org/en/Loops)
+, [w3schools Python While loops](https://www.w3schools.com/python/python_while_loops.asp)
+, [Trt Art unit vocab](https://docs.google.com/document/d/1N__wvP1nQs7LAIH7ziRUlWPVKZxDMlzaLtgamtPvlSo/edit?usp=sharing)
+, [Trt Art review game](https://bradleycodeu.github.io/apcsp/turtleart/review/)
+
 "
 
 - title: ip
   heading: "# IP"
   content: "
-*1 wk*, Vocab: protocol, tcp, ip, http, ssl
+*1 wk*
 
-Code.org Unit 1, Chapter 2: Inventing the Internet, [https://studio.code.org/s/csp1-2018](https://studio.code.org/s/csp1-2018)
-
-
-  - [IP unit vocab](https://docs.google.com/document/d/1IwvC3UcJPdZyh8Jtoax9wBLgOCkkW7eDjmuJmFJhnws/edit?usp=sharing)
 
 
 
@@ -381,20 +390,21 @@ Projects:
 1. HttpAndHtml Quiz
 
 
+
+Vocab: protocol, tcp, ip, http, ssl
+
+Resources:
+Code.org Unit 1, Chapter 2: Inventing the Internet, [https://studio.code.org/s/csp1-2018](https://studio.code.org/s/csp1-2018)
+, [IP unit vocab](https://docs.google.com/document/d/1IwvC3UcJPdZyh8Jtoax9wBLgOCkkW7eDjmuJmFJhnws/edit?usp=sharing)
+
+
 "
 - title: scrum
   heading: "# Scrum"
   content: "
-*2 wk*, Vocab: iteration, waterfall, scrum, collaboration, iterative versions, def new functions, loops, random, colors, Create 2
+*2 wk*
 
 
-
-
-  - [Explaining Scrum in 120 secs](https://drive.google.com/file/d/1AyLbb9-cgABmFQHp7og0LrZiLGQw06lr/view?usp=sharing)
-
-  - [Agile Scrum and Waterfall videos](https://drive.google.com/open?id=1Jf34A8IUSO4A1HP2tpYiivurYnhE0TOa)
-
-  - [Screencast Instructions for OBS](/apcsp/scrum/screencastobs)
 
 
 
@@ -417,6 +427,15 @@ Projects:
 1. Team- [Sprint4](/apcsp/scrum/scrumsprint4/)
 
 
+
+
+Vocab: iteration, waterfall, scrum, collaboration, iterative versions, def new functions, loops, random, colors, Create 2
+
+
+Resources:
+[Explaining Scrum in 120 secs](https://drive.google.com/file/d/1AyLbb9-cgABmFQHp7og0LrZiLGQw06lr/view?usp=sharing)
+, [Agile Scrum and Waterfall videos](https://drive.google.com/open?id=1Jf34A8IUSO4A1HP2tpYiivurYnhE0TOa)
+, [Screencast Instructions for OBS](/apcsp/scrum/screencastobs)
 "
 - title: practice2
   heading: "# Practice2"
@@ -439,10 +458,10 @@ Projects:
 *-Arthur C. Clarke*
 
 
- “If you're not failing every now and again, it's a sign you're not doing anything very innovative.”
+ “Birds don't just fly, They fall down and get up, Nobody learns without getting it wrong.”
 
 
- *-Woody Allen*
+ *-Shakira*
 
 
  -------
@@ -478,28 +497,9 @@ Projects:
   content: "
 
 
-*2 wk*, Vocab: array, iteration, iterate through an array, input, for each loops, input validation, try/except, conditionals, functions, pre-conditional loop, post-conditional loop, pseudocode,
+*2 wk*
 
 
-
-
-  - [learnpython.org/Basic_Operators](https://www.learnpython.org/en/Basic_Operators)
-
-  - [learnpython.org/Conditions](https://www.learnpython.org/en/Conditions)
-
-  - [learnpython.org/Loops](https://www.learnpython.org/en/Loops)
-
-  - [w3schools Python While loops](https://www.w3schools.com/python/python_while_loops.asp)
-
-  - [If not equal to](/apcsp/console/ifnotequalto.md)
-
-  - [w3schools arrays](https://www.w3schools.com/python/python_arrays.asp)
-
-  - [w3schools try except](https://www.w3schools.com/python/python_try_except.asp)
-
-  - [101computing.net/number-only/](https://www.101computing.net/number-only/)
-
-  - [Global variables](/apcsp/console/globalvariables.md)
 
 
 
@@ -548,36 +548,31 @@ Additional Projects:
 
 
 
+
+
+Vocab: array, iteration, iterate through an array, input, for each loops, input validation, try/except, conditionals, functions, pre-conditional loop, post-conditional loop, pseudocode,
+
+
+Resources:
+[learnpython.org/Basic_Operators](https://www.learnpython.org/en/Basic_Operators)
+, [learnpython.org/Conditions](https://www.learnpython.org/en/Conditions)
+, [learnpython.org/Loops](https://www.learnpython.org/en/Loops)
+, [w3schools Python While loops](https://www.w3schools.com/python/python_while_loops.asp)
+, [If not equal to](/apcsp/console/ifnotequalto.md)
+, [w3schools arrays](https://www.w3schools.com/python/python_arrays.asp)
+, [w3schools try except](https://www.w3schools.com/python/python_try_except.asp)
+, [101computing.net/number-only/](https://www.101computing.net/number-only/)
+, [Global variables](/apcsp/console/globalvariables.md)
 "
 
 - title: textgames
   heading: "# TextGames"
   content: "
-*2 wks*, Vocab: text game, arrays, logical operators, two-dimensional array, global variables, runtime error, syntax error, while loop, logical operators, nested conditionals, dictionary, object
+*2 wks*
 
 
 
 
-
-  - [learnpython.org/Loops](https://www.learnpython.org/en/Loops)
-
-  - [w3schools Python While loops](https://www.w3schools.com/python/python_while_loops.asp)
-
-  - [If not equal to](/apcsp/console/ifnotequalto/)
-
-  - [w3schools arrays](https://www.w3schools.com/python/python_arrays.asp)
-
-  - [w3schools try except](https://www.w3schools.com/python/python_try_except.asp)
-
-  - [101computing.net/number-only/](https://www.101computing.net/number-only/)
-
-  - [Global variables](/apcsp/console/globalvariables/)
-
-  - [logicalOperatorGenerator](/apcsp/textgames/logicalOperatorGenerator/)
-
-  - [nestedConditionalsGenerator](/apcsp/textgames/nestedConditionalsGenerator/)
-
-  - [arrayPracticeGenerator](/apcsp/textgames/arrayPracticeGenerator/)
 
 
 
@@ -601,34 +596,47 @@ Additional:
 
   1. [ArraySearch](/apcsp/textgames/arraySearch/)
 
+
+
+
+
+
+Vocab: text game, arrays, logical operators, two-dimensional array, global variables, runtime error, syntax error, while loop, logical operators, nested conditionals, dictionary, object
+
+
+
+Resources:
+[learnpython.org/Loops](https://www.learnpython.org/en/Loops)
+, [w3schools Python While loops](https://www.w3schools.com/python/python_while_loops.asp)
+, [If not equal to](/apcsp/console/ifnotequalto/)
+, [w3schools arrays](https://www.w3schools.com/python/python_arrays.asp)
+, [w3schools try except](https://www.w3schools.com/python/python_try_except.asp)
+, [101computing.net/number-only/](https://www.101computing.net/number-only/)
+, [Global variables](/apcsp/console/globalvariables/)
+, [logicalOperatorGenerator](/apcsp/textgames/logicalOperatorGenerator/)
+, [nestedConditionalsGenerator](/apcsp/textgames/nestedConditionalsGenerator/)
+, [arrayPracticeGenerator](/apcsp/textgames/arrayPracticeGenerator/)
 "
 
 - title: bigdata
   heading: "# BigData"
   content: "
-*1 wk*, Vocab: datatype, database, data structure, API, data mining, SQL, callback, Internet of Things, JSON, metadata, AJAX, server, analytics, server farm, query, XML
-
-Code.org Unit 4: Big Data and Privacy, [https://studio.code.org/s/csp4-2018](https://studio.code.org/s/csp4-2018)
+*1 wk*,
 
 
 1.  KADataAnalysis
+
+
+Vocab: datatype, database, data structure, API, data mining, SQL, callback, Internet of Things, JSON, metadata, AJAX, server, analytics, server farm, query, XML
+
+Code.org Unit 4: Big Data and Privacy, [https://studio.code.org/s/csp4-2018](https://studio.code.org/s/csp4-2018)
 
 "
 
 - title: objects
   heading: "# Objects"
   content: "
-*2 wk*, Vocab: dictionary, object, key, value, class, attribute, instance variable
-
-  - [Array Review](https://bradleycodeu.github.io/apcsp/tk/dictionaries01-array-review/)
-
-  - [Key Value Pairs](https://bradleycodeu.github.io/apcsp/tk/dictionaries02-key-value-pairs/)
-
-  - [Looping Thru A Dictionary](https://bradleycodeu.github.io/apcsp/tk/dictionaries03-looping-through-a-dictionary/)
-
-  - [Check If Key Exists](https://bradleycodeu.github.io/apcsp/tk/dictionaries04-check-if-key-exists/)
-
-  - [Dictionary Length](https://bradleycodeu.github.io/apcsp/tk/dictionaries05-dictionary-length/)
+*2 wk*
 
 
 
@@ -642,7 +650,14 @@ Projects:
 
 
 
+Vocab: dictionary, object, key, value, class, attribute, instance variable
 
+Resources:
+[Array Review](https://bradleycodeu.github.io/apcsp/tk/dictionaries01-array-review/)
+, [Key Value Pairs](https://bradleycodeu.github.io/apcsp/tk/dictionaries02-key-value-pairs/)
+, [Looping Thru A Dictionary](https://bradleycodeu.github.io/apcsp/tk/dictionaries03-looping-through-a-dictionary/)
+, [Check If Key Exists](https://bradleycodeu.github.io/apcsp/tk/dictionaries04-check-if-key-exists/)
+, [Dictionary Length](https://bradleycodeu.github.io/apcsp/tk/dictionaries05-dictionary-length/)
 "
 
 
@@ -651,15 +666,7 @@ Projects:
 - title: digitalinfo
   heading: "# DigitalInfo"
   content: "
-*1 wk*, Vocab: bits, bytes, kilobytes, megabytes, gigabytes, lossy compression, lossless compression, heuristic, Huffman coding, metadata, raster, bitmap, pixel, hexadecimal, RGB, image resolution, bit depth, dictionary, object
-
-
-
-
-  - Code.org Unit 2: Digital Information, [https://studio.code.org/s/csp2-2018](https://studio.code.org/s/csp2-2018)
-
-  - [Foobar the Bazbarian](https://foobar-the-bazbarian.glitch.me/)
-
+*1 wk*
 
 
 Projects:
@@ -673,6 +680,16 @@ Projects:
   1. Team- [Foobar v3](/apcsp/digitalinfo/foobarv3/)
 
 
+
+
+Vocab: bits, bytes, kilobytes, megabytes, gigabytes, lossy compression, lossless compression, heuristic, Huffman coding, metadata, raster, bitmap, pixel, hexadecimal, RGB, image resolution, bit depth, dictionary, object
+
+
+Resources:
+
+  - Code.org Unit 2: Digital Information, [https://studio.code.org/s/csp2-2018](https://studio.code.org/s/csp2-2018)
+
+  - [Foobar the Bazbarian](https://foobar-the-bazbarian.glitch.me/)
 
 "
 
@@ -793,21 +810,7 @@ Projects:
 - title: tk
   heading: "# Tk"
   content: "
-*2 wks*, Vocab: IDLE, reading files, canvas, dictionary, objects, classes, writing files, logical operators
-
-
-
-
-
-- [effbot.org/tkinterbook](https://effbot.org/tkinterbook/)
-
-- [Tkinter Widget Classes](https://effbot.org/tkinterbook/tkinter-classes.htm)
-
-- [Introduction to GUI With Tkinter in Python](https://www.datacamp.com/community/tutorials/gui-tkinter-python)
-
-- [Python Tkinter Introduction](https://www.python-course.eu/python_tkinter.php)
-
-- [Tkinter messagebox](https://www.javatpoint.com/python-tkinter-messagebox)
+*2 wks*
 
 
 
@@ -839,6 +842,24 @@ Additional:
 
   1. Pair-Pick- [TkPollAverage]() or [TkMultiQuestion]()
 
+
+
+
+Vocab: IDLE, reading files, canvas, dictionary, objects, classes, writing files, logical operators
+
+
+
+Resources:
+
+- [effbot.org/tkinterbook](https://effbot.org/tkinterbook/)
+
+- [Tkinter Widget Classes](https://effbot.org/tkinterbook/tkinter-classes.htm)
+
+- [Introduction to GUI With Tkinter in Python](https://www.datacamp.com/community/tutorials/gui-tkinter-python)
+
+- [Python Tkinter Introduction](https://www.python-course.eu/python_tkinter.php)
+
+- [Tkinter messagebox](https://www.javatpoint.com/python-tkinter-messagebox)
 "
 
 - title: greenfoot
@@ -856,21 +877,7 @@ Additional:
 - title: turtlegames
   heading: "# TurtleGames"
   content: "
-*2wks*, Vocab: instance, instanciate, object, class, method, logical operators, while loop, event listener, boolean flag, scope, local variable, global variable
-
-
-
-  - [Naming a Turtle object](https://bradleycodeu.github.io/apcsp/turtlegames/multipleTurtles01-naming-a-turtle-object/)
-
-  - [Tina and Tommy's colors](https://bradleycodeu.github.io/apcsp/turtlegames/multipleTurtles02-tina-and-tommys-colors/)
-
-  - [Name the Screen object](https://bradleycodeu.github.io/apcsp/turtlegames/multipleTurtles03-name-the-screen-object/)
-
-  - [Controlling Tina](https://bradleycodeu.github.io/apcsp/turtlegames/multipleTurtles04-controlling-tina/)
-
-  - [How to make Python games with Trinket](https://blog.trinket.io/python-games/)
-
-  - [Screencast Instructions for OBS](/apcsp/scrum/screencastobs)
+*2wks*
 
 
 
@@ -884,4 +891,21 @@ Projects:
 
 1. [Create Practice 3](/apcsp/turtlegames/CreatePractice3/)
 
+
+
+Vocab: instance, instanciate, object, class, method, logical operators, while loop, event listener, boolean flag, scope, local variable, global variable
+
+Resources:
+
+  - [Naming a Turtle object](https://bradleycodeu.github.io/apcsp/turtlegames/multipleTurtles01-naming-a-turtle-object/)
+
+  - [Tina and Tommy's colors](https://bradleycodeu.github.io/apcsp/turtlegames/multipleTurtles02-tina-and-tommys-colors/)
+
+  - [Name the Screen object](https://bradleycodeu.github.io/apcsp/turtlegames/multipleTurtles03-name-the-screen-object/)
+
+  - [Controlling Tina](https://bradleycodeu.github.io/apcsp/turtlegames/multipleTurtles04-controlling-tina/)
+
+  - [How to make Python games with Trinket](https://blog.trinket.io/python-games/)
+
+  - [Screencast Instructions for OBS](/apcsp/scrum/screencastobs)
 "
