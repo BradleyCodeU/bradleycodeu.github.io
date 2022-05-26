@@ -4,7 +4,7 @@ category: oop
 title: Chili Cook-off Game
 ---
 
-Chili Cook-off Game
+
 
 Scoville heat units, also known as SHU, are a measure of the spiciness or heat of peppers. In this game, players try to cook a bowl of chili that is closest to their goal (mild chili 7000 SHU, medium 14000 SHU, or spicy 28000 SHU) without going over. After each chili bowl is cooked, the chef will get a grade from 0% to 100%. Highest grade wins the round. If you win a round, you move on to a harder goal, otherwise you keep your current goal.
 
