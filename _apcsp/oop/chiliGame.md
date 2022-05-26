@@ -27,33 +27,62 @@ poblanoPepper() returns a Scoville Heat Scale number 1000 to 2000. Get a random 
 
 jalapenoPepper() returns a Scoville Heat Scale number 2500 to 8000. Get a random number from 1250 to 4000, then add another random number from 1250 to 4000, and return the result.
 
-calculateChiliScore( playerDictionary ) returns an int. uses the numBanana, numPoblano, numJalapeno keys with the random Scoville functions and returns a total chili score.
+calculateChiliScore( playerDictionary ) returns an int. uses the numBanana, numPoblano, numJalapeno keys along with the random Scoville functions above to calculate a chili score. Set the playerDictionary's chiliScore and then return the chili score.
 
-getChefGrade( heatGoal, chiliScore ) returns a decimal number from 0.0 to 100.0.
-if the chiliScore is less than the heatGoal, return chiliScore x 99 / heatGoal + random().
-if the chiliScore is greater than the heatGoal, return heatGoal x 50 / chiliScore - random().
-if the chiliScore equals the heatGoal, return 99 + random()
+setChefGrade( playerDictionary, heatGoal, chiliScore ) returns a decimal number from 0.0 to 100.0.
+if the chiliScore is less than the heatGoal, set the playerDictionary's chefGrade to be chiliScore x 99 / heatGoal + random(), then return the chefGrade.
+if the chiliScore is greater than the heatGoal, set the playerDictionary's chefGrade to be heatGoal x 50 / chiliScore - random(), then return the chefGrade.
+if the chiliScore equals the heatGoal, set the playerDictionary's chefGrade to be 99 + random(), then return the chefGrade.
 
 getRoundResults( p1Dictionary , p2Dictionary ) returns a string. The players' chef grades are compared. the winning player's Heat Goal gets doubled, then the function returns "[insert player's name here] Wins This Round!"
 
 ```
 def main():
-# use newPlayer to create player 1's dictionary
-# use newPlayer to create player 2's dictionary
-while True:
-  # print the current round number
-  # print player 1's name and then player 1's heat goal
-  # prompt player 1 for peppers
-  # print player 2's name and then player 2's heat goal
-  # prompt player 2 for peppers
-  # calculate then print the chili score for player 1
-  # calculate then print the chef grade for player 1
-  # calculate then print the chili score for player 2
-  # calculate then print the chef grade for player 2
-  # print this round's results
-  # if either players' heat goal is greater than 50000, then they win
-  # # print name of the winning player Wins The Game!
-  # # break
+  roundNumber = 1
+  print("Player 1:")
+  p1Dictionary = newPlayer()
+  print("Player 2:")
+  p2Dictionary = newPlayer()
+  while True:
+    print("Current Round Number = " + str(roundNumber))
+    # print in red player 1's name and then player 1's heat goal
+    print(p1Dictionary["name"])
+    time.sleep(1)
+    # print in red
+    print("Your goal = " + str(p1Dictionary["heatGoal"]))
+    time.sleep(1)
+    promptUser(p1Dictionary)
+    # print in green player 2's name and then player 2's heat goal
+    print(p2Dictionary["name"])
+    time.sleep(1)
+    # print in green
+    print("Your goal = " + str(p2Dictionary["heatGoal"]))
+    time.sleep(1)
+    promptUser(p2Dictionary)
+    # print in red the chili score for player 1
+    print("Chili Score: " + str(p1Dictionary['chiliScore']))
+    time.sleep(1)
+    # print in red the chef grade for player 1
+    print("Chef Grade: " + str(p1Dictionary["chefGrade"]))
+    time.sleep(1)
+    # print in green the chili score for player 2
+    print("Chili Score: " + str(p2Dictionary['chiliScore']))
+    time.sleep(1)
+    # print in green the chef grade for player 2
+    print("Chef Grade: " + str(p2Dictionary["chefGrade"]))
+    time.sleep(1)
+    # print this round's results in white
+    print(getRoundResults(p1Dictionary, p2Dictionary))
+    time.sleep(1)
+    roundNumber += 1
+    if p1Dictionary["heatGoal"] > 50000:
+        # print in red
+        print(p1Dictionary["name"] + " wins the game!")
+        break
+    elif p2Dictionary["heatGoal"] > 50000:
+        # print in green
+        print(p2Dictionary["name"] + " wins the game!")
+        break
 ```
 
 ## Tests
