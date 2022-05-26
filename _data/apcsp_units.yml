@@ -96,13 +96,7 @@ References and Other Info:
   *2 wks*, Vocab: growth mindset, fixed mindset, Scratch, MIT, high-level language, low-level language, script, front end, back end, input, prompt, output, variable, assignment, string, int, boolean, sprite, control structure, iteration, loop, selection, conditional, sequencing, event listener, comparison operator, equality operator, bug, debugging
 
 
-
-
-- [Scratch tutorial folder](https://drive.google.com/open?id=128oYSzZetK25nTV-0YInwofJ_TrGKf3W)
-
-- [Scratch unit vocab list](https://docs.google.com/document/d/11kO-_JeG52VHzmv8KBKJtYBh4YvldSXDkjMGVQ-S-bo/)
-
-- [Scratch unit review game](/apcsp/scratch/review/)
+Resources: [Scratch tutorial folder](https://drive.google.com/open?id=128oYSzZetK25nTV-0YInwofJ_TrGKf3W), [Scratch unit vocab list](https://docs.google.com/document/d/11kO-_JeG52VHzmv8KBKJtYBh4YvldSXDkjMGVQ-S-bo/), [Scratch unit review game](/apcsp/scratch/review/)
 
 
 
@@ -139,29 +133,18 @@ Additional Projects:
   content: "
 *3 wks*, Vocab: syntax, syntax error, variable, assignment, mathematical operator, float, casting, function definition, function call, black box, return, argument, comment, camelCase, concatenate, scope, local variable, logical operator 'and'
 
-
-
-  - [Python Functions Tutorial](/apcsp/py/pythonfunctions/)
-
-  - [w3school Python define your own function](https://www.w3schools.com/python/python_functions.asp)
-
-  - [Functions are Recipes](https://hourofpython.trinket.io/a-visual-introduction-to-python#/functions/functions-are-recipes)
-
-  - [w3schools Python variables](https://www.w3schools.com/python/python_variables.asp)
-
-  - [learnpython.org/en/Variables_and_Types](https://www.learnpython.org/en/Variables_and_Types)
-
-  - [w3schools Python input function](https://www.w3schools.com/python/ref_func_input.asp)
-
-  - [w3schools Convert string to int](https://www.w3schools.com/python/python_casting.asp)
-
-  - [learnpython.org/en/Basic_Operators](https://www.learnpython.org/en/Basic_Operators)
-
-  - [learnpython.org/Conditions](https://www.learnpython.org/en/Conditions)
-
-  - [Py Basics Vocab List](https://docs.google.com/document/d/1WJdtMRRfrOlzFjXvoKIH4t_Pm-9T6tPkhdERQmr1c1Y/)
-
-  - [Py Basics Review Game](https://bradleycodeu.github.io/apcsp/py/review/)
+Resources:
+ [Python Functions Tutorial](/apcsp/py/pythonfunctions/)
+, [w3school Python define your own function](https://www.w3schools.com/python/python_functions.asp)
+, [Functions are Recipes](https://hourofpython.trinket.io/a-visual-introduction-to-python#/functions/functions-are-recipes)
+, [w3schools Python variables](https://www.w3schools.com/python/python_variables.asp)
+, [learnpython.org/en/Variables_and_Types](https://www.learnpython.org/en/Variables_and_Types)
+, [w3schools Python input function](https://www.w3schools.com/python/ref_func_input.asp)
+, [w3schools Convert string to int](https://www.w3schools.com/python/python_casting.asp)
+, [learnpython.org/en/Basic_Operators](https://www.learnpython.org/en/Basic_Operators)
+, [learnpython.org/Conditions](https://www.learnpython.org/en/Conditions)
+, [Py Basics Vocab List](https://docs.google.com/document/d/1WJdtMRRfrOlzFjXvoKIH4t_Pm-9T6tPkhdERQmr1c1Y/)
+, [Py Basics Review Game](https://bradleycodeu.github.io/apcsp/py/review/)
 
 
 Projects:
