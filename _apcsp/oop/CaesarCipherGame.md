@@ -9,7 +9,7 @@ title: Caesar Cipher Game
 
 Caesar Cipher (or Caesar Shift) is one of the simplest encryption techniques. It is a type of substitution in which each letter is replaced by a letter a set number away. For example, with a left shift of 3, D -> A, E -> B, and so on. Decrypt by shifting the same number in the opposite direction. The method is named after Julius Caesar.
 
-![Caesar shift example](assets/Caesar_cipher_left_shift_of_3.png)
+![Caesar shift example](/apcsp\oop\Caesar_cipher_left_shift_of_3.png)
 
 Here is the encryption algorithm you will use:
 ```
