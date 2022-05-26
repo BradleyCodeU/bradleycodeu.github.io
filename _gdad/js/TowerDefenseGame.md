@@ -4,7 +4,7 @@ category: js
 title: Tower Defense Game
 ---
 
-On https://arcade.makecode.com/ create a Tower Defense game.
+On [https://arcade.makecode.com/](https://arcade.makecode.com/) create a Tower Defense game.
 
 1.  The player sprite is at the bottom of the screen and can only move left-right.
 1.  In the center of the screen, there is a "tower" (maybe some treasure, a princess, or something the player is trying to protect).
