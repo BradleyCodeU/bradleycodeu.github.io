@@ -4,7 +4,7 @@ category: tk
 title: Tk Poll v2
 ---
 
-# Tk Poll v2
+
 
 Duplicate your last project (Tkinter Poll v1.0)
 
