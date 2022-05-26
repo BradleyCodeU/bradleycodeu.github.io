@@ -4,6 +4,7 @@ category: objects
 title: WebGL Bouncy Sphere
 ---
 
+
 [18.1- Introduction to WebGL in p5.js - WebGL and p5.js Tutorial](https://drive.google.com/file/d/1WOh8psD1gwwdvk2ezslVElMtPy14pS9Q/view)
 Watch this video
 
@@ -29,8 +30,6 @@ More p5 WebGL tutorials:
 - [Camera and Perspective](https://drive.google.com/file/d/1vdc6z1GFIi0BxP0CVbkmt9V_pLaVNyht/view?usp=sharing)
 
 ## Project Directions
-
-[Click here](https://glitch.com/edit/#!/remix/gameobject) to remix the starter project.
 
 In the starter project, the "player" is at the origin (0,0,0) and the floor is drawn for the first quadrant. Each floor tile is 100px-by-100px. Don't forget that the y-axis is the vertical axis <strike>and it is inverted. It's annoying, but the y-axis is often inverted in computer science.</strike>
 
