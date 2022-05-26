@@ -17,7 +17,7 @@ newPlayer() function prompts user for name, then returns a dictionary with the f
 - chiliScore
 - chefGrade
 
-validInteger( userinput ) function. Requires userinput argument. Returns true if a number 0 to 5
+validInteger( userinput ) function returns True or False. Requires userinput argument. Returns true if a number 0 to 5
 
 promptUser( playerDictionary ) returns nothing. Updates the player dictionary with new amounts of each pepper. Use the validInteger function to determine if the input is valid. Ask how many banana peppers (0-5), then how many poblano peppers (0-5), then how many jalapeno peppers (0-5).
 
@@ -27,38 +27,51 @@ poblanoPepper() returns a Scoville Heat Scale number 1000 to 2000. Get a random 
 
 jalapenoPepper() returns a Scoville Heat Scale number 2500 to 8000. Get a random number from 1250 to 4000, then add another random number from 1250 to 4000, and return the result.
 
-calculateChiliScore( playerDictionary ) returns an int. uses the numBanana, numPoblano, numJalapeno keys along with the random Scoville functions above to calculate a chili score. Set the playerDictionary's chiliScore and then return the chili score.
+calculateChiliScore( playerDictionary ) returns an int. uses the numBanana, numPoblano, numJalapeno keys with the random Scoville functions and returns a total chili score.
 
-setChefGrade( playerDictionary, heatGoal, chiliScore ) returns a decimal number from 0.0 to 100.0.
-if the chiliScore is less than the heatGoal, set the playerDictionary's chefGrade to be chiliScore x 99 / heatGoal + random(), then return the chefGrade.
-if the chiliScore is greater than the heatGoal, set the playerDictionary's chefGrade to be heatGoal x 50 / chiliScore - random(), then return the chefGrade.
-if the chiliScore equals the heatGoal, set the playerDictionary's chefGrade to be 99 + random(), then return the chefGrade.
+getChefGrade( heatGoal, chiliScore ) returns a decimal number from 0.0 to 100.0.
+if the chiliScore is less than the heatGoal, return chiliScore x 99 / heatGoal + random().
+if the chiliScore is greater than the heatGoal, return heatGoal x 50 / chiliScore - random().
+if the chiliScore equals the heatGoal, return 99 + random()
 
 getRoundResults( p1Dictionary , p2Dictionary ) returns a string. The players' chef grades are compared. the winning player's Heat Goal gets doubled, then the function returns "[insert player's name here] Wins This Round!"
 
 ```
+def takeYourTurn(playerDictionary):
+  promptUser(playerDictionary)
+  playerDictionary["chiliScore"] = calculateChiliScore(playerDictionary)
+  playerDictionary["chefGrade"] = getChefGrade(playerDictionary, playerDictionary["heatGoal"], playerDictionary["chiliScore"]
+
+# You will need to use the colorama module to make the
+# text print in red, green, or white
+# Colorama documentation: https://pypi.org/project/colorama/
 def main():
   roundNumber = 1
+  # print in red
   print("Player 1:")
   p1Dictionary = newPlayer()
+  # print in green
   print("Player 2:")
   p2Dictionary = newPlayer()
   while True:
-    print("Current Round Number = " + str(roundNumber))
+    # print in white
+    print("----- Round " + str(roundNumber) + " -----")
     # print in red player 1's name and then player 1's heat goal
     print(p1Dictionary["name"])
     time.sleep(1)
     # print in red
     print("Your goal = " + str(p1Dictionary["heatGoal"]))
     time.sleep(1)
-    promptUser(p1Dictionary)
+    takeYourTurn(p1Dictionary)
     # print in green player 2's name and then player 2's heat goal
     print(p2Dictionary["name"])
     time.sleep(1)
     # print in green
     print("Your goal = " + str(p2Dictionary["heatGoal"]))
     time.sleep(1)
-    promptUser(p2Dictionary)
+    takeYourTurn(p2Dictionary)
+    # print in white
+    print("----- Results -----")
     # print in red the chili score for player 1
     print("Chili Score: " + str(p1Dictionary['chiliScore']))
     time.sleep(1)
@@ -106,3 +119,38 @@ def main():
 |getChefGrade( 14000, 14001 )| Only returns 48.996 - 49.996 |
 |getRoundResults( {'name':'Alex', 'chefGrade':99.9}, {'name':'Steve', 'chefGrade':88.8} )| "Alex Wins This Round!" |
 |getRoundResults( {'name':'Alex', 'chefGrade':0.111}, {'name':'Steve', 'chefGrade':0.999} )| "Steve Wins This Round!" |
+
+
+
+
+tests:
+```
+for i in range(100):
+    self.assertEquals(70.704<=getChefGrade( 7000, 5000 )<=71.725, True)
+    self.assertEquals(42.74<=getChefGrade( 7000, 8000 )<=43.76, True)
+    self.assertEquals(99.0<=getChefGrade( 14000, 14000 )<=100.0, True)
+    self.assertEquals(48.986<=getChefGrade( 14000, 14001 )<=50.999, True)
+
+self.assertEquals(calculateChiliScore( {'numBanana':0, 'numPoblano':0, 'numJalapeno':0} ), 0)
+ for i in range(100):
+   self.assertEquals(3500<=calculateChiliScore( {'numBanana':1, 'numPoblano':1, 'numJalapeno':1} )<=10500, True)
+   self.assertEquals(35000<=calculateChiliScore( {'numBanana':10, 'numPoblano':10, 'numJalapeno':10} )<=105000, True)
+
+for i in range(100):
+  self.assertEquals(2500<=jalapenoPepper()<=8000, True)
+
+for i in range(100):
+    self.assertEquals(1000<=poblanoPepper()<=2000, True)
+
+for i in range(100):
+  self.assertEquals(0<=bananaPepper()<=500, True)
+
+self.assertEquals(validInteger(0), True)
+self.assertEquals(validInteger("5"), True)
+self.assertEquals(validInteger("two"), False)
+self.assertEquals(validInteger(-1), False)
+self.assertEquals(validInteger(6), False)
+self.assertEquals(validInteger(99), False)
+
+
+```
