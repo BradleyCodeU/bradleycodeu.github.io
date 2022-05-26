@@ -27,7 +27,6 @@ More p5 WebGL tutorials:
 
 ## Project Directions
 
-[Click here](https://glitch.com/edit/#!/remix/gameobject) to remix the starter project.
 
 In the starter project, the player is at the origin (0,0,0) and the floor is drawn for the first quadrant. If you want to hide the player for this project, then just delete the script.js line that says ```player.show()```
 
@@ -42,7 +41,7 @@ Your goal is to use the p5js 3D Geometries to create a statue (person, animal, c
 
 The example below is a good statue because the student used a total of 8 shapes and 4 colors. The student only used 3 different "types" of shapes, but that is fine because they used a total of 8 shapes.
 
-![p5js 3d Statue.gif](/wdarchive/objects/p5js3dStatue.gif)
+![p5js 3d Statue.gif](/gdad\objects\p5js3dStatue.gif)
 
 Note: You will need to use [push and pop](https://p5js.org/reference/#/p5/push). Use push when you want to begin a new shape, translate to the correct position, rotate the shape as needed, set the fill color, draw the shape, then pop. Repeat those steps for the next shape.
 
