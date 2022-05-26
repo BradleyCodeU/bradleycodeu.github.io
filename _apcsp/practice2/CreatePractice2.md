@@ -1,6 +1,6 @@
 ---
 layout: project
-category: scrum
+category: practice2
 title: Create Practice 2
 ---
 Your Scrum team worked together to create two iterations of an app that draws art scenes: a city scene, a country scene, and an underwater scene. There should be a few functions that you "developed individually on your own"
