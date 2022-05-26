@@ -5,7 +5,7 @@ title: Tk Shapes and Buttons
 ---
 Watch these [Tkinter tutorial videos](https://drive.google.com/open?id=1gb9k1pepJA0bC8QmTcXv03PY7UyIBypb)
 
-Using Mu or repl.it...
+Directions:
 
 - Pick one color and give all shapes that fill color.
 - Pick a different color and give all shapes that outline color.
