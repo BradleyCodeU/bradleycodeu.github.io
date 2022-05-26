@@ -4,6 +4,10 @@ category: oop
 title: Mythopoly Game
 ---
 
+In this project we are simulating a board game with a Player class and a Property class.
+
+
+
 main.py
 ```
 from Player import *
