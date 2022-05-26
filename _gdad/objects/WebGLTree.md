@@ -6,7 +6,7 @@ title: WebGL Tree
 
 This project is VERY similar to the previous WebGLStatue project. In this project, you are adding [texture](https://p5js.org/reference/#/p5/texture)
 
-You can EITHER continue adding to that project OR [click here](https://glitch.com/edit/#!/remix/gameobject) to remix the starter project.
+
 
 Your goal is to create one of the following:
 
