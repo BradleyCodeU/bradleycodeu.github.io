@@ -78,8 +78,9 @@ def main():
 ```
 
 ## TESTS
+
 |Test|Expected Output|
-|--|--|
+|---|---|
 |caesarEncrypt("apple",1)|bqqmf|
 |caesarEncrypt("Banana",2)|Dcpcpc|
 |caesarDecrypt("hthtszy",5)|coconut|
