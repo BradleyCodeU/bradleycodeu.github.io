@@ -100,25 +100,11 @@ References and Other Info:
   heading: "# Ch1Introduction"
   content: "
 
-  *3 wks* Vocab: platform, assembly, binary, bit, byte, declare, assignment, initialize, JVM, IDE, RAM, source code, compiler, bytecode, .java file, .class file, class, method, main, println, Scanner, int, double, boolean, char, String, overflow, comment, magic number, final, literal
+  *3 wks*
 
 
 
-
-
-  - [The History of the Java Programming Language](https://drive.google.com/file/d/1KbxMKqNgw6T_7EaS8t1hfjnwyJsFhaSd/view?usp=sharing)
-
-  - [What is Java - Java Programming Tutorial](https://drive.google.com/file/d/1fHDyzlE35710X9sQUoS-Ule6VbqfijLh/view?usp=sharing)
-
-  - [The Fetch-Execute Cycle Whats Your Computer Actually Doing](https://drive.google.com/file/d/1f94tL6PrfS1gtTMUn_8ZJawEZS6HYQLT/view?usp=sharing)
-
-  - [Unit 1 Test Review](/apcsa/ch1introduction/unit1testreview/)
-
-
-Projects:
-
-
-1. Class Codes
+1. Class Codes - SoloLrn, Replit, Runestone, Code.org
 
 1. [Ch1 SoloLrn Java Basic Concepts](/apcsa/ch1introduction/ch1sololearnjava/)
 
@@ -128,25 +114,33 @@ Projects:
 
 1. [Ch1 Review 1](/apcsa/ch1introduction/ch1review1/)
 
+1. [Ch1 ASCII Art](/apcsa/ch1introduction/ch1asciiart/)
+
 1. [Ch1 Integer Overflow](/apcsa/ch1introduction/ch1integeroverflow/)
 
-1. [Ch1 ASCII Art](/apcsa/ch1introduction/ch1asciiart/)
+
+
+Vocab: platform, assembly, binary, bit, byte, declare, assignment, initialize, JVM, IDE, RAM, source code, compiler, bytecode, .java file, .class file, class, method, main, println, Scanner, int, double, boolean, char, String, overflow, comment, magic number, final, literal
+
+
+
+
+
+- [The History of the Java Programming Language](https://drive.google.com/file/d/1KbxMKqNgw6T_7EaS8t1hfjnwyJsFhaSd/view?usp=sharing)
+
+- [What is Java - Java Programming Tutorial](https://drive.google.com/file/d/1fHDyzlE35710X9sQUoS-Ule6VbqfijLh/view?usp=sharing)
+
+- [The Fetch-Execute Cycle Whats Your Computer Actually Doing](https://drive.google.com/file/d/1f94tL6PrfS1gtTMUn_8ZJawEZS6HYQLT/view?usp=sharing)
+
+- [Unit 1 Test Review](/apcsa/ch1introduction/unit1testreview/)
 
 "
 
 - title: ch2usingobjects
   heading: "# Ch2UsingObjects"
-  content: "Vocab: object, accessor, mutator, method, constructor, new, API, naming convention, camelCase, PascalCase, comment, argument, parameter, no argument constructor, void, overloaded, String, immutable object, public interface
+  content: "
 
 
-
-
-  - [Java Rectangle class API](https://docs.oracle.com/javase/7/docs/api/index.html?java/awt/Rectangle.html)
-
-
-
-
-Projects:
 
 1. [Ch2 Rectangles and Points](/apcsa/ch2usingobjects/ch2rectanglesandpoints/)
 
@@ -154,15 +148,30 @@ Projects:
 
 1. [Ch2 Club Meeting](/apcsa/ch2usingobjects/ch2clubmeeting/)
 
-1. [Ch2 LocalDate](/apcsa/ch2usingobjects/ch2localdate/)
-
 1. [Ch2 String Exercises](/apcsa/ch2usingobjects/ch2stringexercises/)
 
-1. [Ch2 Substring](/apcsa/ch2usingobjects/ch2substring/)
+1. [Ch2 LocalDate](/apcsa/ch2usingobjects/ch2localdate/)
 
 1. [Ch2 Method Madness](/apcsa/ch2usingobjects/ch2methodmadness/)
 
+
+
+
+Additional:
+
+1. [Ch2 Substring](/apcsa/ch2usingobjects/ch2substring/)
+
 1. [Ch2 Summary](/apcsa/ch2usingobjects/ch2summary/)
+
+
+
+Vocab: object, accessor, mutator, method, constructor, new, API, naming convention, camelCase, PascalCase, comment, argument, parameter, no argument constructor, void, overloaded, String, immutable object, public interface
+
+
+
+
+- [Java Rectangle class API](https://docs.oracle.com/javase/7/docs/api/index.html?java/awt/Rectangle.html)
+
 
 "
 
@@ -171,9 +180,6 @@ Projects:
   content: "
 
 
-Vocab: instance variable, [local variable](https://www.dummies.com/programming/java/local-variables-in-java/), constructor, mutator method, accessor method, [method header](http://www.cs.cornell.edu/courses/cs1130/2012sp/1130selfpaced/module2/module2part1/methodHeaders.html), return type, void, [access specifier](https://www.geeksforgeeks.org/access-specifiers-for-classes-or-interfaces-in-java/), formal parameter, actual parameter, [implicit parameter](https://www.thoughtco.com/implicit-parameter-2034139), static method
-
-Projects:
 
 1. [Ch3 Shoes](/apcsa/ch3implementingclasses/ch3shoes/)
 
@@ -183,9 +189,13 @@ Projects:
 
 1. [Ch3 Student](/apcsa/ch3implementingclasses/ch3student/)
 
-1. [Java Adventure Game]()
+1. Integer Division Quizizz
 
-1. [Food Review]()
+1. Modulo Operator Quizizz
+
+1. [Java Adventure Game](/apcsa/ch3implementingclasses/JavaAdventureGame/)
+
+1. [Food Review](/apcsa/ch3implementingclasses/FoodReview/)
 
 1. [Ch3 Graphics Car](/apcsa/ch3implementingclasses/ch3car/)
 
@@ -193,10 +203,18 @@ Projects:
 
 
 
+
 Additional projects:
 
 1. [Ch3 Cash Register](/apcsa/ch3implementingclasses/ch3cashregister/)
 
+
+
+- [https://hacktoberfest.digitalocean.com/](https://hacktoberfest.digitalocean.com/)
+
+
+
+Vocab: instance variable, [local variable](https://www.dummies.com/programming/java/local-variables-in-java/), constructor, mutator method, accessor method, [method header](http://www.cs.cornell.edu/courses/cs1130/2012sp/1130selfpaced/module2/module2part1/methodHeaders.html), return type, void, [access specifier](https://www.geeksforgeeks.org/access-specifiers-for-classes-or-interfaces-in-java/), formal parameter, actual parameter, [implicit parameter](https://www.thoughtco.com/implicit-parameter-2034139), static method
 "
 
 
@@ -243,18 +261,9 @@ Additional projects:
 
 
 
-  - [Floating Point Numbers - Computerphile](https://drive.google.com/file/d/15GKsGtSMyjbnm9rMIx3br9ypYq3p33LO/view)
-
-  - [Characters, Symbols and the Unicode Miracle - Computerphile](https://drive.google.com/file/d/1VwA4wt4wxBLPrGuVPTmCVUdTl1JMiIax/view)
-
-  - Integer division & floating-point division Quizizz https://join.quizizz.com use game code: ?????? tba
-
-  - Modulo Operation Quizizz https://join.quizizz.com use game code: ?????? tba
 
 
 
-
-Projects:
 
   1. [Ch4 Arithmetic Casting](/apcsa/ch4fundamentaldatatypes/ch4arithmeticcasting/)
 
@@ -264,9 +273,23 @@ Projects:
 
   1. [Ch4 Weird Calc](/apcsa/ch4fundamentaldatatypes/ch4weirdcalc/)
 
-  1. [Ch4 Cedar Point Calc](/apcsa/ch4fundamentaldatatypes/ch4cedarpointcalc/)
-
   1. [Ch4 Review Sheet](/apcsa/ch4fundamentaldatatypes/ch4reviewsheet/)
+
+
+Additional:
+
+    1. [Ch4 Cedar Point Calc](/apcsa/ch4fundamentaldatatypes/ch4cedarpointcalc/)
+
+
+
+
+  - [Floating Point Numbers - Computerphile](https://drive.google.com/file/d/15GKsGtSMyjbnm9rMIx3br9ypYq3p33LO/view)
+
+  - [Characters, Symbols and the Unicode Miracle - Computerphile](https://drive.google.com/file/d/1VwA4wt4wxBLPrGuVPTmCVUdTl1JMiIax/view)
+
+  - Integer division & floating-point division Quizizz https://join.quizizz.com use game code: ?????? tba
+
+  - Modulo Operation Quizizz https://join.quizizz.com use game code: ?????? tba
 
 "
 
@@ -274,18 +297,25 @@ Projects:
   heading: "# Ch4.5Strings"
   content: "
 
-      - [String Methods tutorial](https://drive.google.com/open?id=1XZih87y10vIHvB68vk0CR5rVkYSgbCyi)
 
-
-Projects:
-
-1. [Ch4.5 Phone Number](/apcsa/ch45strings/ch45phonenumber/)
+1. [Ch4.5 Substring](/apcsa/ch45strings/Substring/)
 
 1. [Ch4.5 Name Games](/apcsa/ch45strings/ch45namegames/)
 
 1. [Ch4.5 Replace](/apcsa/ch45strings/ch45substringreplace/)
 
+
+
+Additional:
+
+1. [Ch4.5 Phone Number](/apcsa/ch45strings/ch45phonenumber/)
+
 1. [Ch4.5 String Review Worksheet](/apcsa/ch45strings/ch45stringreviewworksheet/)
+
+
+
+
+  - [String Methods tutorial](https://drive.google.com/open?id=1XZih87y10vIHvB68vk0CR5rVkYSgbCyi)
 
 "
 
@@ -294,11 +324,16 @@ Projects:
   content: "
 1. [Ch5 Paint Calc 2](/apcsa/ch5decisions/ch5paintcalc2/)
 
-1. [Ch5 Find Distance](/apcsa/ch5decisions/ch5finddistance/)
-
 1. [Ch5 Single Digit Roman Numerals](/apcsa/ch5decisions/ch5singledigitromannumerals/)
 
 1. [Ch5 Error Traps](/apcsa/ch5decisions/ch5errortraps/)
+
+
+
+
+
+Additional:
+1. [Ch5 Find Distance](/apcsa/ch5decisions/ch5finddistance/)
 
 1. [Ch5 Four Digit Roman Numerals](/apcsa/ch5decisions/ch5fourdigitromannumerals/)
 
@@ -321,6 +356,9 @@ Projects:
 
 1. [Ch5.7 Boolean Review](/apcsa/ch57shortcircuitevaluation/ch57booleanreview/)
 
+1. Practice FRQ Dishes
+
+1. Practice FRQ StepTracker
 
 "
 
@@ -378,16 +416,22 @@ Projects:
 
 1. [Ch6 For Loops](/apcsa/ch6loops/ch6forloops/)
 
+1. [Ch6 Squares](/apcsa/ch6loops/ch6squares/)
+
+1. CodingBatWarmup1
+
+1. [Loop Practice](/apcsa/ch6loops/LoopPractice/)
+
+
+
+Additional:
 1. [Ch6 Loop Info](/apcsa/ch6loops/ch6loopinfo/)
 
 1. [Ch6 Multiplication Table](/apcsa/ch6loops/ch6multitable/)
 
-1. [Ch6 Squares](/apcsa/ch6loops/ch6squares/)
-
 1. [Ch6 Palindrome Checker](/apcsa/ch6loops/ch6palindrome/)
 
 1. [Ch6 Prime Generator](/apcsa/ch6loops/ch6primegenerator/)
-
 "
 
 - title: ch7arraysandarraylists
