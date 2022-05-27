@@ -414,13 +414,17 @@ Additional:
 
 1. [Ch6 While Loops](/apcsa/ch6loops/ch6whileloops/)
 
+1. [CBWarmup1](/apcsa/ch6loops/CodingBatWarmup1/)
+
 1. [Ch6 For Loops](/apcsa/ch6loops/ch6forloops/)
 
 1. [Ch6 Squares](/apcsa/ch6loops/ch6squares/)
 
-1. CodingBatWarmup1
+1. [CBString2](/apcsa/ch6loops/CBString2/)
 
 1. [Loop Practice](/apcsa/ch6loops/LoopPractice/)
+
+
 
 
 
@@ -442,15 +446,23 @@ Additional:
 
 1. [Ch7 Array Manipulation](/apcsa/ch7arraysandarraylists/ch7arraymanipulation/)
 
-1. [Ch7 Seating Arrangements](/apcsa/ch7arraysandarraylists/ch7seatingchart/)
+1. [CBArray1](/apcsa/ch7arraysandarraylists/CBArray1/)
 
 1. [Ch7 Poker Dice](/apcsa/ch7arraysandarraylists/ch7pokerdice/)
 
-1. [Ch7 ArrayList Action](/apcsa/ch7arraysandarraylists/ch7arraylistaction/)
-
 1. [Ch7 Pizza Toppings](/apcsa/ch7arraysandarraylists/ch7pizzatoppings/)
 
-1. [Ch7 Pet Shop Register](/apcsa/ch7arraysandarraylists/ch7petshopregister/)
+1. [Wordle Game](/apcsa/ch7arraysandarraylists/WordleGame/)
+
+
+Additional:
+
+  1. [Ch7 Seating Arrangements](/apcsa/ch7arraysandarraylists/ch7seatingchart/)
+
+  1. [Ch7 ArrayList Action](/apcsa/ch7arraysandarraylists/ch7arraylistaction/)
+
+  1. [Ch7 Pet Shop Register](/apcsa/ch7arraysandarraylists/ch7petshopregister/)
+
 
 "
 
@@ -473,29 +485,38 @@ Additional:
 
 
 
-  - [Reading With Scanner](/apcsa/ch762darrays/Ch76ReadingExternalFile/)
-
-  - [Writing With FileWriter](/apcsa/ch762darrays/writingWithFileWriter/)
 
 
+  1. [Ch7.6 Checkerboard](/apcsa/ch762darrays/Ch76Checkerboard/)
 
-Projects:
+  1. [Ch7.6 Theater Ticket Prices](/apcsa/ch762darrays/Ch76TheaterTicketPrices/)
 
-1. [Ch7.6 Checkerboard](/apcsa/ch762darrays/Ch76Checkerboard/)
 
-1. [Ch7.6 Magic Squares](/apcsa/ch762darrays/Ch76MagicSquares/)
 
-1. [Ch7.6 Theater Ticket Prices](/apcsa/ch762darrays/Ch76TheaterTicketPrices/)
+Additional:
 
-1. [Ch7.6 Reading External File](/apcsa/ch762darrays/Ch76ReadingExternalFile/)
+  1. [Ch7.6 Checkerboard](/apcsa/ch762darrays/Ch76Checkerboard/)
 
-1. [Ch7.6 Writing External File](/apcsa/ch762darrays/Ch76WritingExternalFile/)
+  1. [Ch7.6 Magic Squares](/apcsa/ch762darrays/Ch76MagicSquares/)
 
-1. [Ch7.6 Student Two Dim Array](/apcsa/ch762darrays/Ch76StudentTwoDimArray/)
+  1. [Ch7.6 Reading External File](/apcsa/ch762darrays/Ch76ReadingExternalFile/)
 
-1. [Ch7.6 Guess With File Input](/apcsa/ch762darrays/Ch76GuessWithFileInput/)
+  1. [Ch7.6 Writing External File](/apcsa/ch762darrays/Ch76WritingExternalFile/)
 
-1. [Ch7.6 Guess With Web Scraping](/apcsa/ch762darrays/Ch76GuessWithWebScraping/)
+  1. [Ch7.6 Student Two Dim Array](/apcsa/ch762darrays/Ch76StudentTwoDimArray/)
+
+  1. [Ch7.6 Guess With File Input](/apcsa/ch762darrays/Ch76GuessWithFileInput/)
+
+  1. [Ch7.6 Guess With Web Scraping](/apcsa/ch762darrays/Ch76GuessWithWebScraping/)
+
+
+
+
+
+    - [Reading With Scanner](/apcsa/ch762darrays/Ch76ReadingExternalFile/)
+
+    - [Writing With FileWriter](/apcsa/ch762darrays/writingWithFileWriter/)
+
 
 
 "
@@ -507,18 +528,27 @@ Projects:
 
 1. [Ch8 Geometry Class](/apcsa/ch8designingclasses/Ch8GeometryClass/)
 
-1. [Ch8 Coin Flipper](/apcsa/ch8designingclasses/Ch8CoinFlipper/)
+  1. [Ch8 Robot Class](/apcsa/ch8designingclasses/Ch8RobotClass/)
 
-1. [Ch8 Store Class](/apcsa/ch8designingclasses/Ch8StoreClass/)
 
-1. [Ch8 Robot Class](/apcsa/ch8designingclasses/Ch8RobotClass/)
 
-1. [Ch8 Worksheet](/apcsa/ch8designingclasses/Ch8Worksheet/)
+Additional:
+
+  1. [Ch8 Coin Flipper](/apcsa/ch8designingclasses/Ch8CoinFlipper/)
+
+  1. [Ch8 Store Class](/apcsa/ch8designingclasses/Ch8StoreClass/)
+
+
+
+  1. [Ch8 Worksheet](/apcsa/ch8designingclasses/Ch8Worksheet/)
 
 "
 - title: ch9inheritance
   heading: "# Ch9Inheritance"
   content: "
+
+
+1. Picture Lab activities 1 to 5
 
 1. [Ch9 Dog Class](/apcsa/ch9inheritance/Ch9DogClass/)
 
@@ -528,11 +558,18 @@ Projects:
 
 1. [Ch9 Virtual Pet Game](/apcsa/ch9inheritance/Ch9VirtualPetGame/)
 
-1. [Ch9 Pet Startup Project](/apcsa/ch9inheritance/Ch9PetStartupProject/)
 
-1. [Ch9 Question Class](/apcsa/ch9inheritance/Ch9QuestionClass/)
 
-1. [Ch9 Clock Class](/apcsa/ch9inheritance/Ch9ClockClass/)
+
+Additional:
+
+
+
+  1. [Ch9 Pet Startup Project](/apcsa/ch9inheritance/Ch9PetStartupProject/)
+
+  1. [Ch9 Question Class](/apcsa/ch9inheritance/Ch9QuestionClass/)
+
+  1. [Ch9 Clock Class](/apcsa/ch9inheritance/Ch9ClockClass/)
 
 "
 
@@ -562,7 +599,6 @@ Projects:
 [4th Quarter](#4th-quarter)
 
 
-1. **[Ch10 Interfaces](#ch10interfaces)**
 
 1. **[Ch14 Sorting and Searching](#ch14sortingandsearching)**
 
@@ -570,19 +606,12 @@ Projects:
 
 1. **[Test Prep And Labs](#testprepandlabs)**
 
-"
+1. **[Ch10 Interfaces](#ch10interfaces)**
 
-- title: ch10interfaces
-  heading: "# Ch10Interfaces"
-  content: "
-
-1. [Ch10 Flyable](/apcsa/ch10interfaces/Ch10Flyable/)
-
-1. [Ch10 Measurable](/apcsa/ch10interfaces/Ch10Measurable/)
-
-1. [Ch10 Comparable](/apcsa/ch10interfaces/Ch10Comparable/)
 
 "
+
+
 
 - title: ch14sortingandsearching
   heading: "# Ch14SortingAndSearching"
@@ -601,6 +630,10 @@ Projects:
 
 1. [Ch14 MergeSort Dogs](/apcsa/ch14sortingandsearching/Ch14MergeSortArrayList/)
 
+
+
+
+- [Big O notation emoji chart](https://docs.google.com/document/d/1zYLDdrIBKAodwEPLlmFzjgHIoUTmJRzcE1uSd4HpFl4/edit?usp=sharing)
 "
 
 - title: ch13recursion
@@ -619,6 +652,34 @@ Projects:
   heading: "# TestPrepAndLabs"
   content: "
 
-See Canvas for all details
+See Canvas for details
+
+WordScramble FRQ 2014 Q1
+
+CombinedTable FRQ 2021 Q2
+
+ClubMembers FRQ 2021 Q3
+
+MenuItemTrio FRQ 2014 Q4
+
+WordMatch FRQ 2021 Q1
+
+ScoreStats FRQ 2014 Q4
+
+TwoDArrayResizer FRQ 2021 Q4
+
+SelfDivisor FRQ 2007 Q1
+
+"
+
+- title: ch10interfaces
+  heading: "# Ch10Interfaces"
+  content: "
+
+1. [Ch10 Flyable](/apcsa/ch10interfaces/Ch10Flyable/)
+
+1. [Ch10 Measurable](/apcsa/ch10interfaces/Ch10Measurable/)
+
+1. [Ch10 Comparable](/apcsa/ch10interfaces/Ch10Comparable/)
 
 "
