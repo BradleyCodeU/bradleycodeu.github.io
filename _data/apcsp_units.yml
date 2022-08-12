@@ -112,6 +112,8 @@ Projects:
 
 1. [Shapes And Initials](/apcsp/scratch/007ShapesAndInitials/)
 
+1. Scratch Quiz (Scratch vocab, debugging, control structure flowcharts)
+
 
 Additional Projects:
 
@@ -161,6 +163,8 @@ Projects:
 
   1. Pair- [Py Valid Number](/apcsp/py/111PyValidNumber/)
 
+  1. Py Basics Quiz (Py Vocab, Py basics practice, debugging)
+
 
 
 
@@ -200,7 +204,7 @@ Resources:
 - title: practice1
   heading: "# Practice1"
   content: "
-*1 wk*, Create Task
+*1 wk*, Create Task Practice 1
 
   1.  Pair- [Practice 1 Code](/apcsp/practice1/Practice1Code/)
 
@@ -232,7 +236,7 @@ Projects:
 
 1. 8bit Binary Quizizz
 
-
+1. Binary Quiz (binary vocab, 4bit binary, 6bit binary, 2bit hex, 3bit octal, other bases)
 
 
 Vocab: binary, base-2, decimal, base-10, digit, bit, byte, hexadecimal, base-16, octal, base-8, ASCII, base-64 Big Data
@@ -303,7 +307,7 @@ Resources:
   heading: "# TurtleArt"
   content: "
 
-*2 wks*
+*4 wks*
 
 
 
@@ -340,6 +344,8 @@ Projects:
 1. Pair- [Trt Random Faces](/apcsp/turtleart/turtleRandomFaces/)
 
 1. [Trt Op Art](/apcsp/turtleart/TrtOpArt/)
+
+1. Turtle Quiz (vocab, debugging, python basics)
 
 
 Additional Projects:
@@ -447,6 +453,8 @@ Resources:
 
 1. [Create2 Questions](/apcsp/practice2/Create2Questions/)
 
+1. Midterm Exam
+
 "
 
 - title: 3rdquarter
@@ -523,7 +531,7 @@ Projects:
 
 1. Pair- [TipCalculator](/apcsp/console/029ConsoleTipCalculator/)
 
-
+1. Console Quiz (arrays, nested conditionals, logical operators)
 
 
 
@@ -645,7 +653,7 @@ Projects:
 
   1. [Chatbots](/apcsp/objects/chatbots/)
 
-  1. Pair- [Castles](/apcsp/objects/033TextGamesCastlesAndCreatures/)
+  1. Pair- [Castles And Creatures](/apcsp/objects/033TextGamesCastlesAndCreatures/)
 
 
 
@@ -779,7 +787,9 @@ Projects:
   heading: "# Create"
   content: "*3 wks* - Create - AP Performance Task Prep, Final Create
 
-  1. KATheInternet1&2
+  1. KAInternet1&2
+
+  1. KAInternet3
 
   1. KADigInfo1
 
