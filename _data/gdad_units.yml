@@ -463,16 +463,27 @@ Resources:
   heading: "# Agile"
   content: "*4 wks*
 
+
   1. [Unity Basic Gameplay](/gdad/agile/UnityBasicGameplay/)
+  
   1. ScrumInSchool Quiz
+  
   1. [Unity Play Fetch](/gdad/agile/UnityPlayFetch/)
+  
   1. ScrumInUnder5Minutes Quiz
+  
   1. [Unity Unit2 Quiz](/gdad/agile/UnityUnit2Quiz/)
+  
   1. WaterfallDevelopment Quiz
+  
   1. [RollABallV1](/gdad/agile/UnityRollABallV1/)
+  
   1. TheAgileManifesto Quiz
+  
   1. [RollABallV2Multiplayer](/gdad/agile/UnityRollABallV2Multiplayer/)
+  
   1. [RollABallV3YouWin](/gdad/agile/UnityRollABallV3YouWin/)
+
 
 
 Additional:
@@ -496,14 +507,23 @@ Resources:
   heading: "# Swift"
   content: "*4 wks*
 
+
 1. AllAboutMeApp
+
 1. StackViewApp
+
 1. Ch1-6
+
 1. Ch7-12
+
 1. UsingButtons
+
 1. Flashlight
+
 1. SoloLrnSwiftBasics
+
 1. Ch13QuestionBot
+
 1. ShouldBot
 
 "
