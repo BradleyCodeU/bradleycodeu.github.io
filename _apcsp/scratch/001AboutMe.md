@@ -37,4 +37,4 @@ Include the following information in your dialogue.
 * Say "Goodbye _____" using the user's answer
 
 
-When you are finished, you MUST press the SHARE button. Copy the URL from the search bar and turn in the URL in Canvas.
+Show Mr Riley when finished
