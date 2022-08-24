@@ -18,4 +18,4 @@ Follow the directions in the PDF, then also...
 ![A different example of Star Hunter game](/apcsp/scratch/starHunterExample2.gif)
 
 
-Raise your hand when finished
+Show Mr Riley when finished
