@@ -22,4 +22,4 @@ Add a non-player character (NPC) that:
 ![Another example of this project](/apcsp/scratch/walkJumpExample2.gif)
 
 
-Raise your hand when finished
+Show Mr Riley when finished
