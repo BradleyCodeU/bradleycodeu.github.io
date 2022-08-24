@@ -12,4 +12,4 @@ Open a new Scratch project, then click the "File" menu and "Load From Your Compu
 
 Follow the Directions here: [Cheese Chase Directions](https://drive.google.com/file/d/1Q6Zcsz9YX6lgPVxKpLUULnfYspBA4GX4/view?usp=sharing)
 
-Raise your hand when your finished
+Show Mr Riley when finished
