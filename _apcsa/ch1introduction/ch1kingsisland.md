@@ -13,8 +13,8 @@ Enter the cost of parking: 15.75
 Enter the amount spent on gas: 18.54
 
 King's Island Cost Report
-Total Cost: $133.26
-Cost Per Person: $44.419999999999995
+Total Cost = $133.26
+Cost Per Person = $44.419999999999995
 ```
 
 SAMPLE OUTPUT 2
@@ -24,6 +24,6 @@ Enter the cost of parking: 16.50
 Enter the amount spent on gas: 18.38
 
 King's Island Cost Report
-Total Cost: $166.84
-Cost Per Person: $41.71
+Total Cost = $166.84
+Cost Per Person = $41.71
 ```
