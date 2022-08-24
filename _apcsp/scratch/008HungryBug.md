@@ -13,3 +13,6 @@ The player is a hungry bug. They start in the center. When the player presses le
 If the player gets 4 points, then the beetle says "You Win."
 
 *NOTE:* Your game will probably be *too easy* and the player wins 100% of the time. *Without changing the timer*, what can you add/change to increase the difficultly and make it so that the player only wins 25-50% of the time?
+
+
+Show Mr Riley when finished
