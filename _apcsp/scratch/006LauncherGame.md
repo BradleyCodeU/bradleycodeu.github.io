@@ -12,3 +12,6 @@ You will create a launcher game like the one in the video. You will also...
 - count points
 - have a countdown timer
 - when the countdown timer hits zero, stop everything
+
+
+Show Mr Riley when finished
