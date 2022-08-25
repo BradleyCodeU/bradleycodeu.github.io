@@ -53,7 +53,7 @@ Here are some *simpler* examples:
 |11111111|−1|255|
 
 
-## What is Overflow
+## What is Overflow/Underflow
 
 In Java, an int can be negative or positive and we can assign values between -2,147,483,648 (-2^31^) and 2,147,483,647 (2^31^-1).
 
@@ -75,7 +75,7 @@ This code would create the following output. Notice that if we go OVER the maxim
 -2147483647
 ```
 
-What happens if we subtract one from the minimum value?
+What if we subtract one from the minimum value?
 ```
 int value = Integer.MIN_VALUE;
 System.out.println(value);
