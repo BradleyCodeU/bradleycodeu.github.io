@@ -98,6 +98,6 @@ This code would create the following output. Notice that if we go OVER the maxim
 
   Solve the problems in your text document.
 
-  Turn in your text document.
+  Turn in your text document as a PDF.
 
 <iframe height="600px" width="100%" src="https://repl.it/@JustinRiley1/IntOverflowGenerator?lite=true&outputonly=1" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
