@@ -53,6 +53,45 @@ Here are some *simpler* examples:
 |11111111|−1|255|
 
 
+## What is Overflow
+
+In Java, an int can be negative or positive and we can assign values between -2,147,483,648 (-2^31^) and 2,147,483,647 (2^31^-1).
+
+The wrapper class Integer defines two constants that hold these values: Integer.MIN_VALUE and Integer.MAX_VALUE.
+
+What happens if we add one to the max value?
+```
+int value = Integer.MAX_VALUE;
+System.out.println(value);
+value = value + 1;
+System.out.println(value);
+value = value + 1;
+System.out.println(value);
+```
+This code would create the following output. Notice that if we go OVER the maximum value, we get overflow.
+```
+2147483647
+-2147483648
+-2147483647
+```
+
+What happens if we subtract one from the minimum value?
+```
+int value = Integer.MIN_VALUE;
+System.out.println(value);
+value = value - 1;
+System.out.println(value);
+value = value - 1;
+System.out.println(value);
+```
+This code would create the following output. Notice that if we go OVER the maximum value, we get overflow.
+```
+-2147483648
+2147483647
+2147483646
+```
+
+
 ## Directions
 
   Run the [IntOverflowGenerator app](https://repl.it/@JustinRiley1/IntOverflowGenerator#Main.java), then copy and paste the Console Output into a text document. 
