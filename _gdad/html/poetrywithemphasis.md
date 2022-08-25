@@ -8,7 +8,7 @@ Watch this [KhanAcademy tutorial about text emphasis](https://www.khanacademy.or
 
 Pick a poem that is appropriate for school. Suggested poets: Shel Silverstein, Maya Angelou, Dr. Seuss, Emily Dickenson, Edgar Allan Poe, Langston Hughes, Jack Prelutsky, Robert Frost, James Wright
 
-1) Your name MUST be in the HTML title
+1) Your name MUST be in the HTML title. The title must be in the head section.
 
 2) The name of the poem MUST be heading 1
 
