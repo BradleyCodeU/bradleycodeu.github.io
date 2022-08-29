@@ -14,7 +14,9 @@ Write multiple scripts so that...
   -  When the left arrow is pressed, it draws a square.
   -  When the down arrow is pressed, it draws a pentagon.
   -  When the right arrow is pressed, it draws a rectangle.
-  -  When the a letter from your initials is pressed, it draws that letter. For example... my initials are J.R. If I press the J key, it draws J. If I press the R key, it draws R.
+  -  When the a letter from your initials is pressed, it draws that letter. For example... my initials are J.R. If I press the J key, it draws J. If I press the R key, it draws R. 
+
+NOTE: If your initials are the same (like Amy Adams or Ryan Reynolds), then write code to your initial letter and then write the code to draw any other random letter.
 
 
 
