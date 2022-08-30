@@ -33,4 +33,6 @@ Show Mr Riley your finished project including how you win and how you lose.
 
 ### If you have already completed 1 or more Computer Science classes...
 
-- Add a conditional IF block so that Game Over Win happens if the user earns 5 points.
+1. Add title screens. From the SCENE menu, add a Set Background Image To ___ block. From the LOOP menu, add a Pause ___ ms block. Draw background images for the name of your game and the name of your fake game development business.
+
+1. Add a conditional IF block so that Game Over Win happens if the user earns 5 points.
