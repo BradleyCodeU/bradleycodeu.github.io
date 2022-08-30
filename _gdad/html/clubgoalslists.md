@@ -6,7 +6,7 @@ title: Club Goals Lists
 
 Watch this [KhanAcademy tutorial about HTML lists](https://www.khanacademy.org/computing/hour-of-code/hour-of-html/pt/html-lists)
 
-In this project you will create an unordered list of fake video games and an ordered list of Directions.
+In this project you will create THREE lists: an unordered list of fake video games, an ordered list of Directions, and a list of employees.
 
 Continue working on your webpage from the Simpler Is Better project (copy/paste your code from that project into this project). At the top of the page you should already have the name for your fake game development company (for example, Low-key Flex Studios). The name should be a heading (H1), that is *centered* and at the top of the page. Below the heading, you should already have a logo.
 
