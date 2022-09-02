@@ -38,7 +38,7 @@ def magicTrick():
     ???
     # Create variable named stepFour & set it to stepThree minus magicNumber
     ???
-    # Print "The next number should be 5"
+    # Print "The next number should be 5.0"
     ???
     # Print stepFour
     ???
@@ -48,5 +48,5 @@ def magicTrick():
     return stepFour
 
 result = magicTrick()
-print("\nExpected : 5 \nYour code: " + result)
+print("\nExpected : 5.0 \nYour code: " + result)
 ```
