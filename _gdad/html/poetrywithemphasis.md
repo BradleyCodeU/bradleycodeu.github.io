@@ -6,7 +6,7 @@ title: Poetry with Emphasis
 
 Watch this [KhanAcademy tutorial about text emphasis](https://www.khanacademy.org/computing/hour-of-code/hour-of-html/pt/html-text-emphasis)
 
-Pick a poem that is appropriate for school. Suggested poets: Shel Silverstein, Maya Angelou, Dr. Seuss, Emily Dickenson, Edgar Allan Poe, Langston Hughes, Jack Prelutsky, Robert Frost, James Wright
+Pick a poem that is appropriate for school. Suggested poets: Shel Silverstein, Maya Angelou, Dr. Seuss, Emily Dickenson, Edgar Allan Poe, Langston Hughes, Jack Prelutsky, Robert Frost, James Wright. You could also just Google: short poems
 
 1) Your name MUST be in the HTML title. The title must be in the head section.
 
