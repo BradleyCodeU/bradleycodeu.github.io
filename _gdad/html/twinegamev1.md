@@ -10,7 +10,7 @@ Twine is already installed on your lab PC. To find it, search for File Explorer.
 
 [Twine tutorial blog posts](http://www.ohiofi.com/twine)
 
-  - Create a simple text-based game using Twine. Upload your HTML file here when you are finished.
+  - Create a simple text-based game using Twine. Upload your HTML file to Canvas when you are finished.
 
 Must have:
   - Title screen with a centered h1 title and some kind of [[Start Game]] link
