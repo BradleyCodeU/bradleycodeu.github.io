@@ -1,7 +1,7 @@
 ---
 layout: project
 category: ch1introduction
-title: Ch1 Review 1
+title: Ch1 Computer Parts
 ---
 
 Complete the following review exercises. Write your answers in the Canvas assignment text box.
