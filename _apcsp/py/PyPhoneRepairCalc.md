@@ -11,11 +11,16 @@ Create a Phone Repair Calculator that predicts the amount of profit you can earn
 
 Fill in ALL 10 blanks in the starter code with the correct code.
 Blanks look like this: ???
+You will also WRITE TESTS starting on line 62
 
 When finished, type in both Test Runs to make sure your code works correctly. If no errors, submit your Replit URL to Canvas
 
 Test Run 1:
 ```
+$-$-$-$-$-$-$-$-$-$-$-$
+Phone Repair Calculator
+$-$-$-$-$-$-$-$-$-$-$-$
+
 How much $ can you invest in cracked-screen phones:
 999.99
 Cracked-screen phone price:
@@ -30,6 +35,10 @@ You earned $173.11 in profit
 
 Test Run 2:
 ```
+$-$-$-$-$-$-$-$-$-$-$-$
+Phone Repair Calculator
+$-$-$-$-$-$-$-$-$-$-$-$
+
 How much $ can you invest:
 -99
 Cracked-screen phone price:
@@ -46,6 +55,7 @@ STARTER CODE:
 ```python
 # Fill in ALL 10 blanks with the correct code.
 # Blanks look like this: ???
+# You will also WRITE TESTS starting on line 62
 
 # the sellPhones function tells you how much money you can earn
 # requires two arguments: myPhones, salePrice
@@ -104,10 +114,40 @@ def calculateProfit(investMoney, usedPrice, repairPrice, salePrice):
   return profit
 
 
+# Write test #2 for each function
+print("Tests for sellPhones")
+print("Test 1")
+print("Selling 2 phones, price 5 -> expected 10")
+print("Actual")
+actual = sellPhones(2,5)
+print(actual)
+print("Test 2")
+# you write test #2 here
+
+print("Tests for buyPhones")
+print("Test 1")
+print("Buying with 101 dollars, price 50 -> expected 2")
+print("Actual")
+actual = buyPhones(101,50)
+print(actual)
+print("Test 2")
+# you write test #2 here
+
+print("Tests for calculateProfit")
+print("Test 1")
+print("Invest 101 dollars, used price 40, repair price 10, sale price 250 -> expected 500")
+print("Actual")
+actual = calculateProfit(101,40,10,250)
+print(actual)
+print("Test 2")
+# you write test #2 here
+
+
 # ------------------------------------
 # YOU ARE DONE!
 # do NOT edit the following code!
 def main():
+  print("\n$-$-$-$-$-$-$-$-$-$-$-$\nPhone Repair Calculator\n$-$-$-$-$-$-$-$-$-$-$-$\n")
   print("How much $ can you invest: ")
   investMoney = float(input())
   print("Cracked-screen phone price: ")
@@ -119,5 +159,4 @@ def main():
   profit = calculateProfit(investMoney, usedPrice, repairPrice, salePrice)
   print("-----Re$ult-----\nYou earned $"+str(round(profit,2))+" in profit")
 main()
-
 ```
