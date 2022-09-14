@@ -40,7 +40,7 @@ slope("-7", "-5", "7", "5") → 0.7142857142857143
 
 
 ## smallest
-Given three numbers as arguments, return the smallest number
+Given two numbers as arguments, return the smallest number
 
 Input → Output
 ```
