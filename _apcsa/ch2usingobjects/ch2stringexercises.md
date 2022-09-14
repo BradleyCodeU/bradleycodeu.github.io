@@ -12,3 +12,5 @@ R2.10 Write Java statements that initialize a string message with "Hello" and th
 E2.3 Write code that initializes a string with "Mississippi". Then replace all "i" with "ii" and <ins>print the length</ins> of the resulting string. In that string, replace all "ss" with "s" and <ins>print the length</ins> of the resulting string.
 
 E2.8 The StringBuilder class has a method for reversing a string. [https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html) Write code to construct a StringBuilder object from a given string (`"desserts"`), call the reverse method followed by the toString method, and <ins>print the result</ins>.
+
+Part 5: Create a StringBuilder object (with the variable name foxDogSentence) using the string "the quick brown fox jumps over the lazy dog". Then prompt the user to type a single, lowercase letter. Use StringBuilder's indexOf method to find the index number of the user's letter. Next, use StringBuilder's deleteCharAt method to remove that letter from foxDogSentence. Finally, <ins>print foxDogSentence</ins>.
