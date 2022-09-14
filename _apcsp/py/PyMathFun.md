@@ -12,8 +12,8 @@ In this project you will define two functions.
 Pick 2:
 - [absoluteValue](#absolutevalue)
 - [slope](#slope)
-- [anyNegative](#anyNegative)
 - [smallest](#smallest)
+- [anyNegative](#anyNegative)
 - [maximumValue](#maximumvalue)
 
 
