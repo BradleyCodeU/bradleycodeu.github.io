@@ -13,10 +13,9 @@ Pick 2:
 - [absoluteValue](#absolutevalue)
 - [slope](#slope)
 - [anyNegative](#anyNegative)
-- [minimumValue](#minimumvalue)
+- [smallest](#smallest)
 - [maximumValue](#maximumvalue)
-- [distance](#distance)
-- [normalize](#normalize)
+
 
 
 
