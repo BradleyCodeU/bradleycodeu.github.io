@@ -1,8 +1,8 @@
 ---
 layout: project
 category: py
-title: Phone Repair Calc
----
+title: # Phone Repair Calc
+
 Read these tutorials:
 - [Python Functions](/apcsp\py\pythonfunctions)
 - [Python Conditionals](https://www.w3schools.com/python/python_conditions.asp)
@@ -136,7 +136,7 @@ print("Test 2")
 
 print("Tests for calculateProfit")
 print("Test 1")
-print("Invest 101 dollars, used price 40, repair price 10, sale price 250 -> expected 500")
+print("Invest 101 dollars, used price 40, repair price 10, sale price 250 -> expected 400 (500 - 80 spent on used phones & - 20 spent on repair kits)")
 print("Actual")
 actual = calculateProfit(101,40,10,250)
 print(actual)
@@ -161,3 +161,4 @@ def main():
   print("-----Re$ult-----\nYou earned $"+str(round(profit,2))+" in profit")
 main()
 ```
+  
