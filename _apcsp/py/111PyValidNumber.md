@@ -1,7 +1,8 @@
 ---
 layout: project
 category: py
-title: # Valid Number 
+title: Valid Number 
+---
 
 [Read this tutorial on how to define a function](/apcsp/py/pythonfunctions/).
 
