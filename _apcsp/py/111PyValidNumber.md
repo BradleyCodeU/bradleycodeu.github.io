@@ -26,16 +26,16 @@ Pick ONE of these:
 Directions:
 
 1. You MUST define a function called validNumber that requires one argument: myNumber. For this example, I will only accept numbers 1900-2019.
-  - Convert myNumber to an int
-  - return True if myNumber is a number between 1900 and 2019, inclusive [1900, 2019].
-  - Otherwise, return False.
+    - Convert myNumber to an int
+    - return True if myNumber is a number between 1900 and 2019, inclusive [1900, 2019].
+    - Otherwise, return False.
 
 
 2. Inside of the launchPopup function, you MUST fill in the code for the two conditional statements:
-  - if validNumber(answer) is True, then
-    - Set output to be answer "is a valid number. Thanks!"
-  - if validNumber(answer) is False, then
-    - Set output to be answer "is NOT valid number. OOPS!"
+    - if validNumber(answer) is True, then
+      - Set output to be answer "is a valid number. Thanks!"
+    - if validNumber(answer) is False, then
+      - Set output to be answer "is NOT valid number. OOPS!"
 
 
 3. You MUST write TWO tests of validNumber function. Print your arguments, expected, and actual
