@@ -9,19 +9,21 @@ title: Valid Number
 ## In this project, you will define a function that requires one argument (myNumber) and returns True or False if the number is valid.
 
 Pick ONE of these:
-- "What year were you born?" will only accept numbers 1900-2019
-- "What is your ZIP code?" will only accept numbers [00501](https://www.google.com/search?q=lowest+zip+code+number)-[99950](https://www.google.com/search?q=highest+zip+code+number)
-- "On a scale of 1-10, how much swag do you have?" will only accept numbers 1-10
-- "How many weeks until summer break?" will only accept numbers 0-52
-- "What year was your fav movie released?" will only accept numbers [1894](https://www.google.com/search?q=first+edison+film+released)-2019
-- "How many days until summer break?" will only accept numbers 0-366
-- "What is your graduation year?" will only accept numbers 1900-2023
-- "How many pets do you have?" will only accept numbers 0-100
-- "What month were you born?" will only accept numbers 1-12
-- "On a scale of 1-5, how would you rate your day so far?" will only accept numbers 1-5
-- "What is your resting heart rate?" will only accept numbers 35-200
-- "How many Infinity Stones do you have?" will only accept numbers 0-6
+  - "What year were you born?" will only accept numbers 1900-2019
+  - "What is your ZIP code?" will only accept numbers [00501](https://www.google.com/search?q=lowest+zip+code+number)-[99950](https://www.google.com/search?q=highest+zip+code+number)
+  - "On a scale of 1-10, how much swag do you have?" will only accept numbers 1-10
+  - "How many weeks until summer break?" will only accept numbers 0-52
+  - "What year was your fav movie released?" will only accept numbers [1894](https://www.google.com/search?q=first+edison+film+released)-2019
+  - "How many days until summer break?" will only accept numbers 0-366
+  - "What is your graduation year?" will only accept numbers 1900-2023
+  - "How many pets do you have?" will only accept numbers 0-100
+  - "What month were you born?" will only accept numbers 1-12
+  - "On a scale of 1-5, how would you rate your day so far?" will only accept numbers 1-5
+  - "What is your resting heart rate?" will only accept numbers 35-200
+  - "How many Infinity Stones do you have?" will only accept numbers 0-6
 
+
+Directions:
 
 1. You MUST define a function called validNumber that requires one argument: myNumber. For this example, I will only accept numbers 1900-2019.
   - Convert myNumber to an int
