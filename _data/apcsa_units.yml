@@ -167,7 +167,7 @@ Additional:
 
 
 
-Vocab: object, accessor, mutator, method, constructor, new, API, naming convention, camelCase, PascalCase, comment, argument, parameter, no argument constructor, return type, void, overloaded, String, immutable object, public interface, PrintStream
+Vocab: object, accessor, mutator, method, constructor, new, API, naming convention, camelCase, PascalCase, comment, argument, parameter, no argument constructor, return type, void, overloaded, String, immutable object, invoke, public interface, PrintStream
 
 
 
