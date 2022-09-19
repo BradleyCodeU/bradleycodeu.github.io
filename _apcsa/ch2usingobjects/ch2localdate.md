@@ -16,7 +16,7 @@ The plusDays method can be used to add a number of days to a LocalDate object:
 LocalDate later = today.plusDays(10); // Ten days from today
 ```
 
-This method does not mutate the today object, but it returns a new object that is a given number of days away from today. To get the year of a day, call
+This method does NOT mutate the today object, but it returns a new object that is a given number of days away from today. To get the year of a day, call
 ```
 int year = today.getYear();
 ```
