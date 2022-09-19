@@ -8,29 +8,26 @@ NOTE: You may use built-in backgrounds/tiles, but you must DRAW YOUR OWN SPRITES
 
 Go to [https://arcade.makecode.com/--skillmap#shark](https://arcade.makecode.com/--skillmap#shark) and sign in with your Microsoft account.
 
-### ! ! ! IMPORTANT: Do NOT click the orange FINISH button until you have created enemies, projectile effects, and have moving enemies.
+You MUST draw your own sprites for this project. Do NOT use any of the built-in Gallery sprites. You can use built-in backgrounds.
 
+When you finish the tutorial, click the "SAVE TO MY PROJECTS" button.
 
-You MUST:
-- Draw your own sprites for this project. Do NOT use any of the built-in Gallery sprites. You can use built-in backgrounds.
-- Follow [this tutorial](https://arcade.makecode.com/#tutorial:/recipes/shark-splash/01-character)
-- Follow the tutorial to create enemies
-- Follow the tutorial to move the enemies
+FINAL STEPS...
 
-
-
-Final steps...
-
-1.  From Game menu add a purple "game over lose" block in the correct location.
-1.  Just below your "change score" block, add a blue "if true then" block from the Logic menu. From Game menu drag a purple "game over lose" block inside the "if true then" block. Switch LOSE to WIN. Replace "true" with a blue "0 < 0" block from the Logic menu. Drag in the pink "score" variable from the Info menu. Change 0 to some other number like 10.
-1.  At the bottom-center of the screen rename your project and click the Save button.
+1.  YOU CAN ONLY WIN IF YOU SCORE 20 POINTS. Just below your "change score" block, add a blue "if true then" block from the Logic menu. From Game menu drag a purple "game over lose" block inside the "if true then" block. Switch LOSE to WIN. Replace "true" with a blue "0 < 0" block from the Logic menu. Drag in the pink "score" variable from the Info menu. Change 0 to 20.
+2.  Switch the On Countdown End, Game Over Win to be Game Over LOSE. 
+3.  Speed up the food. Generate food more frequently because every 2100 ms is TOO SLOW!
+4.  Set the food's vy to a random number.
+5.  Add Lazers! First, switch the "on sprite of kind Player overlaps Food" to say "on sprite of kind Projectile overlaps Food". Next add the following blocks...
+    - On B button pressed
+      - set projectile from mySprite with vx vy
+     
 
 Show Mr Riley your finished project including how you win and how you lose.
 
+<hr>
 
-## Additional Tutorials
-
-Below are the additional tutorials (just in case you clicked FINISH too early).
+Below are the transcribed tutorials (just in case you need them)
 
 ## Create Enemies
 
