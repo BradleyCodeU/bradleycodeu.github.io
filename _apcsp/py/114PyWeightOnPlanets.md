@@ -25,7 +25,7 @@ Calculate and output the weight of the end-user on any *THREE* of the following:
 | Uranus | 	8.69 |
 | Neptune | 	11.15 |
 
-Create a function called poundsToKilograms(pounds) and a function called kilogramsToPounds(kilograms)
+Create a validNumber function, a function called poundsToKilograms(pounds), and a function called kilogramsToPounds(kilograms)
 
 When the button is pressed:
 - Collect the user's weight in pounds
