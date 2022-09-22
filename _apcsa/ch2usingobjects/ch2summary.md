@@ -11,7 +11,7 @@ Summary of Chapters 1 & 2
 
 // 1) Write the import statements for the Rectangle class, the Scanner class, the Random class and the Math class
 
-// 2) Write the import statement needed for question 8 (below)
+// 2) Write the import statement needed for question 9 (below)
 
 
 public class Main
@@ -32,13 +32,13 @@ public class Main
 		// 5) Simulate a dice roll. Using an object of the Random class, generate and print a random integer between 1 and 6, inclusive. 
 
     
-    // 6) Same as question 5, but use Math.random() instead of the Random object.
+		// 6) Same as question 5, but use Math.random() instead of the Random object.
 
 
 		// 7) Using your Random object, pick a random room. Generate and print a random integer between 100 and 134, inclusive.
 
     
-    // 8) Same as question 7, but use Math.random() instead of the Random object.
+		// 8) Same as question 7, but use Math.random() instead of the Random object.
 
 
 		// 9) Display the day of the week that Mr. Riley's birthday (June 15th) was on this year.
