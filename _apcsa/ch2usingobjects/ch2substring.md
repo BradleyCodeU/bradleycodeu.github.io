@@ -2,7 +2,7 @@
 layout: project
 category: ch2usingobjects
 title: Ch2 Substring
-
+---
 
 In this project you will demonstrate the use of several String methods including substring, indexOf, toUpperCase, toLowerCase, and length
 
@@ -61,6 +61,15 @@ public class Main
     */
 
     // Define a static function named findFirstVowel() that requires String parameter inputWord and returns an int
+    // - create a string named vowels that is "aeiouy"
+    // - create a counter starts at 0
+    // - while the counter is less than the length of inputWord
+    //     - get a single letter using inputWord substring from counter to counter+1
+    //     - if vowels index of single letter equals -1
+    //         - add one to counter so we check the next letter in the string
+    //     - else
+    //         - return counter // done! here is the index of the first vowel
+    // - return 0 // didn't find a vowel
 
 }
 ```
