@@ -70,7 +70,7 @@ Our “Textbooks”:
 
 1. Class Codes for MakeCode, SoloLearn, Replit, KhanAcademy
 
-1. [Hello World](/gdad/html/helloworld/)
+1. Business Logo
 
 1. [SoloLrn HTML](/gdad/html/sololearnhtml/)
 
@@ -92,12 +92,18 @@ Our “Textbooks”:
 
 1. [Twine Game v1](/gdad/html/twinegamev1/)
 
-1. [MC Shark Attack](/gdad/html/sharkAttack/)
 
 
 
+Additional:
 
+1. [Hello World](/gdad/html/helloworld/)
 
+1. Puzzle1
+
+1. Puzzle2
+
+1. Puzzle3
 
 
 
@@ -132,9 +138,13 @@ Vocab: html, hypertext, tag, element, head, body, title, h1, p, br, bold, italic
 
 1. [SoloLrn CSS](/gdad/css/sololearncss/)
 
-1. [KhanAcademy Drawing with Code](/gdad/css/khanacademydrawingwithcode/)
-
 1. [Colorful Tables](/gdad/css/colorfultables/)
+
+1. [MC Shark Attack](/gdad/html/sharkAttack/)
+
+1. Chippos
+
+1. [Hexcode Pixels](/gdad/css/hexcodepixels/)
 
 1. [MC Maze Game](/gdad/css/mazeGame/)
 
@@ -142,9 +152,10 @@ Vocab: html, hypertext, tag, element, head, body, title, h1, p, br, bold, italic
 
 
 
+
 Additional:
 
-1. [Hexcode Pixels](/gdad/css/hexcodepixels/)
+1. [KhanAcademy Drawing with Code](/gdad/css/khanacademydrawingwithcode/)
 
 1. [Food Drive](/gdad/css/fooddrive/)
 
