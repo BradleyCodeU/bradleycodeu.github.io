@@ -5,21 +5,24 @@ title: MC Maze Game
 ---
 NOTE: You may use built-in backgrounds/tiles, but you must DRAW YOUR OWN SPRITES.
 
-First go to [https://arcade.makecode.com](https://arcade.makecode.com) and sign in with your Microsoft account.
+First go to arcade.makecode.com and sign in with your Microsoft account.
 
 
 You must:
 
-  - Follow [this tutorial](https://arcade.makecode.com/#tutorial:/tutorials/maze)
-  - After you press the Finish button, add enemies. Player loses health if they overlap with an enemy. (See the tutorial below if you need help)
-  - Add projectiles. Your choice: projectiles could either kill enemies (See the tutorial below if you need help) OR the player loses health if they overlap with a projectile (in that case projectile is just another type of enemy)
+  - Follow this tutorial: [https://arcade.makecode.com/#tutorial:/tutorials/maze](https://arcade.makecode.com/#tutorial:/tutorials/maze)
+  - After you press the Finish button, make the following additions...
+    - Add enemies. Player loses health if they overlap with an enemy. See the tutorial below if you need help
+    - Add some kind of projectiles (like fireballs or arrows) that the player can shoot. See the tutorial below if you need help
+    - Add projectiles effects when the fireball/arrow overlaps an enemy. See the tutorial below if you need help
+    - It MUST be possible to win and possible to lose. You can change the countdown timer in order to balance the game.
 
 
 Show Mr Riley your finished project including how you win and how you lose.
 
 ## Additional Tutorials
 
-Below are the additional tutorials (just in case you clicked FINISH too early).
+Below are the additional tutorials
 
 ## Create Enemies
 
@@ -30,6 +33,11 @@ Below are the additional tutorials (just in case you clicked FINISH too early).
 - Get a purple "pick random 0 to 10" block and put it inside the y value of "set position to". This time change the second number to 120 (the height of the screen)
 - Drag a blue "on overlaps" block into the workspace. Change the second sprite kind to Enemy.
 - Inside the "on overlaps" block, place a blue "destroy sprite" block. Drage the otherSprite variable from the "on overlaps" block and place it inside the "destroy sprite"
+
+## Adding Projectiles (like fireballs or arrows)
+
+- From the Controller menu, get "on A button pressed"
+- Inside the "on A button pressed" block, place a red "set projectile from mySprite with vx vy" from the blue Sprite menu.
 
 ## Projectile Effects
 
