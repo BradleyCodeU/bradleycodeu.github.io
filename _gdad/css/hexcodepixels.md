@@ -32,3 +32,4 @@ Using hexcodes, create a 8px by 8px bitmap. Must use two or more colors (not bla
 
 Turn in a screenshot. Do NOT crop the screenshot:
 ![Pixelated letter J](/wd\css\hexcodepixels.png)
+![Pixelated letter J](/gdad\css\hexcodepixels.png)
