@@ -3,7 +3,8 @@ layout: project
 category: py
 title: Calling Functions
 ---
-[Read this tutorial first](/apcsp\py\pythonfunctions)
+
+[Read this Python Functions tutorial first](/apcsp\py\pythonfunctions)
 
 In this project you are given 3 completed function definitions:
   1.  getFirstVowel
@@ -16,7 +17,7 @@ Your job is to "call" the functions and pass in arguments. Your exact directions
 areaCode = 614
 ```
 
-<u>Fill in all 14 blanks below with the correct code. Blanks look like this: ???</u>
+<u>Fill in all 16 blanks below with the correct code. Blanks look like this: ???</u>
 
 STARTER CODE:
 ```python
@@ -42,7 +43,7 @@ def playNameGame(fullName):
     return output + vowelName + ". " + fullName + "!"
 
 # -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-# Fill in all 14 blanks below with the correct code.
+# Fill in all 16 blanks below with the correct code.
 # Blanks look like this: ???
 
 def test_1_getFirstVowel():
@@ -60,6 +61,11 @@ def test_1_getFirstVowel():
     return ???
 
 def test_2_getVowelName():
+    # call getVowelName function, pass argument "Christine" &
+    # save what it returns in christineText
+    christineText = ???
+    # print the variable christineText
+    print( ??? )
     # call getVowelName function, pass in YOUR LAST NAME as
     # an argument & save what it returns in a variable
     ??? = ???
@@ -93,7 +99,7 @@ def test_3_playNameGame():
 # Do not edit the code below this line!
 print("Test 1 getFirstVowel\nExpected 'Steve' -> 2\nExpected 'Hilliard' -> 1")
 test_1_getFirstVowel()
-print("Test 2 getVowelName\nExpected 'Name' -> 'ame'\nExpected 'Brynn' -> 'ynn'")
+print("Test 2 getVowelName\nExpected 'Christine' -> 'istine'\nExpected 'Name' -> 'ame'\nExpected 'Brynn' -> 'ynn'")
 test_2_getVowelName()
 print("Test 3 playNameGame")
 test_3_playNameGame()

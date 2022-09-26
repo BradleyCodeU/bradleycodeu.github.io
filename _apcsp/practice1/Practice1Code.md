@@ -11,7 +11,7 @@ Computers are playing an increasing role in education. Write a program that will
 
 Code Specifications:
 
-	-	Contains at least 5 or more MULTI-CHOICE quiz questions. For example, "Where is the Eiffel Tower? 1 = London, 2 = Paris, 3 = New York, 4 = Tokyo"
+	-	Contains at least 5 or more MULTI-CHOICE quiz questions. For example, "Where is the Eiffel Tower? 1 = London, 2 = Paris, 3 = New York, 4 = Tokyo" and the user might type in 2 as their answer.
 	-	MUST have a function called validNumber that requires one argument: userInput. It returns True or False if the userInput is between 1 and 4 (inclusive).
 	-	MUST notify the user if their answer is "correct" or "incorrect"
 	- If the users types in an invalid number (999, for example) then you must notify the user "999 is NOT a valid answer"
@@ -35,7 +35,7 @@ In your program, you must include student-developed program code that contains t
     *   the user (including user actions that trigger events)
     *   a device
     *   an online data stream
-    *   a file 
+    *   a file 
 *   Use of at least one list (or other collection type) to represent a collection of data that is stored and used to manage program complexity and help fulfill the program’s purpose IMPORTANT: The data abstraction must make the program easier to develop (alternatives would be more complex) or easier to maintain (future changes to the size of the list would otherwise require significant modifications to the program code).
 *   At least one procedure that contributes to the program’s intended purpose, where you have defined:
     *   the procedure’s name
@@ -43,4 +43,4 @@ In your program, you must include student-developed program code that contains t
     *   one or more parameters IMPORTANT: Implementation of built-in or existing procedures or language structures, such as event handlers or main methods, are not considered student-developed.
 *   An algorithm that includes sequencing, selection, and iteration that is in the body of the selected procedure
 *   Calls to your student-developed procedure
-*   Instructions for output (tactile, audible, visual, or textual) based on input and program functionality
+*   Instructions for output (tactile, audible, visual, or textual) based on input and program functionality)
