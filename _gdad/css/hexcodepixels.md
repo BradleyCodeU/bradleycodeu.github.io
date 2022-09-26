@@ -31,5 +31,4 @@ FFFFFF FFFFFF FFFFFF FFFFFF FFFFFF FFFFFF FFFFFF FFFFFF
 Using hexcodes, create a 8px by 8px bitmap. Must use two or more colors (not black and white). Draw one letter from your initials. For example, Justin Riley would either draw a pixelated J or a pixelated R. If you want, you can use a piece of graph paper to plan your pixel art.
 
 Turn in a screenshot. Do NOT crop the screenshot:
-![Pixelated letter J](/wd\css\hexcodepixels.png)
 ![Pixelated letter J](/gdad\css\hexcodepixels.png)
