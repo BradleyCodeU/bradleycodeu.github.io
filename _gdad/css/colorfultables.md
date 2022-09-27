@@ -34,7 +34,6 @@ Add the following CSS code inside the head section:
   1. center the h1 and h2s, give them a margin of between 20-30px, and pick a new font (from the list above)
   1. each table fills 100% of the width, has a different font (from the list above), and has a thick 4-6px border with some color
   1. each th has the text aligned to the left, has some dark background color, has an underline text decoration, and has some light text color
-  1. every th and td has a 1-3px bottom border with some color
   1. every odd numbered row tr is in the "odd" class. add CSS so that each row in the odd class has some different light background color
   1. each td has a cell padding of between 10-20px
 
