@@ -41,22 +41,35 @@ Which type of CSS should you use for a multi-page site?
 
 ### Just like you split up the HTML coding work, you should split up the CSS coding work so that each person in the group writes some CSS code.
 
-You MUST add a [CSS comment](https://css-tricks.com/snippets/css/comments-in-css/) to note the name of the programmer that wrote each CSS rule. For example, `/* CSS for h1 and img coded by Mr. Riley */` and `/* CSS for nav and p by Megan W. */`
+You MUST add a [CSS comment](https://css-tricks.com/snippets/css/comments-in-css/) to note the name of the programmer that wrote each CSS rule. For example, `/* CSS for h1, h2, and img coded by Mr. Riley */` and `/* CSS for nav and links by Megan W. */`
 
 Your website MUST have a consistent style across all pages:
 
   - same navigation system (like a nav bar) on all pages
-  - your navigation uses a small (no larger than 100px wide) logo instead of saying "home." The logo is an anchor that links to index.html
-  - use a different font in your navigation (not the same as your normal text)
-  - use a different text color in your navigation (not the same as your normal text, not black or white)
-  - use a different text size in your navigation (not the same as your normal text)
-  - use a different background color in your navigation (not the same as the page background, not black or white)
-  - use a solid 2 pixel light color border (not black or white) around the navigation on all pages
-  - same colorful background (not black or white) on all pages
-  - same colorful text (not black or white) on all pages
-  - same link color (not the default blue) on all pages
-  - same [visited link](https://www.w3schools.com/css/css_link.asp) color (not the default purple) on all pages
-  - same solid 2 pixel dark color border (not black or white) around all images on all pages
+  - your navigation uses a small (no larger than 100px wide) logo instead of saying "home." The logo is an anchor/link that links back to index.html
+
+CSS code that needs added by your group:
+  1. navigation
+      1. use a different font in your navigation (not the same as your normal text)
+      1. use a different text size in your navigation (not the same as your normal text)
+      1. use a different background color in your navigation (not the same as the page background, not black or white)
+      1. use a solid 2 pixel light color border (not black or white) around the navigation on all pages
+  1. body
+      1. same colorful background (not black or white) on all pages
+      1. same colorful text (not black or white) on all pages
+      1. use a slightly different text size (not the default 16px)
+  1. h1 and h2
+      1. use a different font
+      1. use a different text color
+  1. links
+      1. same link color (not the default blue) on all pages
+      1. same [visited link](https://www.w3schools.com/css/css_link.asp) color (not the default purple) on all pages
+  1. images
+      1. same solid 2 pixel dark color border (not black or white) around all images on all pages
+      1. set the [max width](https://www.w3schools.com/cssref/pr_dim_max-width.asp) so all images must be this specific size or smaller
+  1. paragraphs
+      1. add a 10 pixel margin and 10 pixel padding
+      1. add a colorful background (not black or white)
 
 
-DON'T FORGET: You MUST add a [CSS comment](https://css-tricks.com/snippets/css/comments-in-css/) to note the name of the programmer that wrote each CSS rule. For example, `/* CSS for h1 and img coded by Mr. Riley */` and `/* CSS for nav and p by Megan W. */`
+DON'T FORGET: You MUST add a [CSS comment](https://css-tricks.com/snippets/css/comments-in-css/) to note the name of the programmer that wrote each CSS rule. For example, `/* CSS for h1, h2, and img coded by Mr. Riley */` and `/* CSS for nav and links by Megan W. */`
