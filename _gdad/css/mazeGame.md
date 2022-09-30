@@ -11,7 +11,7 @@ First go to arcade.makecode.com and sign in with your Microsoft account.
 You must:
 
   - Follow this tutorial: [https://arcade.makecode.com/#tutorial:/tutorials/maze](https://arcade.makecode.com/#tutorial:/tutorials/maze)
-  - After you press the Finish button, make the following additions...
+  - After you press the Finish button, complete the following FINAL STEPS...
     - Add enemies. Player loses health if they overlap with an enemy. See the tutorial below if you need help
     - Add some kind of projectiles (like fireballs or arrows) that the player can shoot. See the tutorial below if you need help
     - Add projectiles effects when the fireball/arrow overlaps an enemy. See the tutorial below if you need help
