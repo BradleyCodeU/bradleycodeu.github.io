@@ -17,7 +17,7 @@ You must:
     - Add projectiles effects when the fireball/arrow overlaps an enemy. See the tutorial below if you need help
     - It MUST be possible to win and possible to lose. You can change the countdown timer in order to balance the game.
 
-Make sure that your player cannot walk through walls!
+Make sure that your player cannot walk through walls! Check out [this tutorial](https://medium.com/kikis-corner/tilemaps-857f47b539be) if you need help with how to add walls to the tilemap.
 
 ![How to add walls to MakeCode Arcade tilemap](makeCodeWalls.gif)
 
