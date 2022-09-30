@@ -19,7 +19,7 @@ You must:
 
 Make sure that your player cannot walk through walls! Check out [this tutorial](https://medium.com/kikis-corner/tilemaps-857f47b539be) if you need help with how to add walls to the tilemap.
 
-![How to add walls to MakeCode Arcade tilemap](makeCodeWalls.gif)
+![How to add walls to MakeCode Arcade tilemap](/gdad\css\makeCodeWalls.gif)
 
 Show Mr Riley your finished project including how you win and how you lose.
 
