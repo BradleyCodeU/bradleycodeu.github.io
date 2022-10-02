@@ -37,3 +37,35 @@ class ShoesTester {
   }
 }
 ```
+
+<!--
+
+
+@Test
+public void setters_and_toString() {
+    Shoes fav = new Shoes();
+    fav.setColor("Blue");
+    fav.setBrand("Nike");
+    fav.setType("Golf");
+    fav.setSize(9.5);
+    assertTrue(fav.toString().contains("Blue"));
+    assertTrue(fav.toString().contains("Nike"));
+    assertTrue(fav.toString().contains("Golf"));
+    assertTrue(fav.toString().contains("9.5"));
+    fav = fav.substring(0,fav.indexOf("9.5"))+fav.substring(fav.indexOf("9.5")+3);
+    assertTrue(fav.toString().contains("ngblue9.5"));
+    fav = new Shoes();
+    fav.setColor("W");
+    fav.setBrand("X");
+    fav.setType("Y");
+    fav.setSize(1.23);
+    assertTrue(fav.toString().contains("W"));
+    assertTrue(fav.toString().contains("X"));
+    assertTrue(fav.toString().contains("Y"));
+    assertTrue(fav.toString().contains("1.23"));
+    fav = fav.substring(0,fav.indexOf("1.23"))+fav.substring(fav.indexOf("1.23")+3);
+    assertTrue(fav.toString().contains("xyw1.23"));
+}
+
+
+-->
