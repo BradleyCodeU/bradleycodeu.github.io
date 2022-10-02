@@ -15,9 +15,7 @@ public double getVolume()
 ```
 that returns the current volume of the balloon. Use the volume formula for sphere AND use Math.PI for the value of 𝛑.
 
-Create the Balloon class and complete the missing code in the BalloonTester class. The tester class should test all methods with at least two balloon objects.
-
-Print your expected results and then the actual results.
+Create the Balloon class and complete the missing code in the BalloonTester class. The tester class should test all methods with at least two balloon objects. Print your expected results and then the actual results.
 
 ## Sample Output
 ```
