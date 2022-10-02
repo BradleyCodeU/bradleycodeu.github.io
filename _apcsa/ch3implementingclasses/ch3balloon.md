@@ -25,6 +25,25 @@ Expected volume for radius 10: 4188.79
 Actual volume: 4188.790204786391
 ```
 
+STARTER CODE:
+```
+class BalloonTester {
+  public static void main(String[] args) {
+    System.out.println("Expected volume for radius 5 is 523.6");
+    /* Construct Balloon */
+    /* Inflate Balloon */
+    /* getVolume of Balloon */
+    System.out.println("Actual volume: " + balloon1.getVolume());
+    /* print the volume that you got */
+    System.out.println("Expected volume for radius 10 is 4188.79");
+    /* Construct Balloon */
+    /* Inflate Balloon */
+    /* getVolume of Balloon */
+    System.out.println("Actual volume: " + balloon2.getVolume());
+    /* print the volume that you got */
+  }
+}
+```
 
 
 <!--
