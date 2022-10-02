@@ -55,6 +55,7 @@ class EmployeeTester {
     // Expected result after 10% raise is 55000
     // Actual result = 55000.0
     
+    Employee person1;
   }
 }
 ```
