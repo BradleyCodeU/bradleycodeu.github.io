@@ -21,7 +21,7 @@ A 2nd test of the Shoes class *could* result in the following output...
 Color: Red, Brand: Puma, Type: Sneakers, Size: 8, Model Number: psred8
 ```
 
-STARTER CODE:
+Starter Code for ShoesTester.jave:
 ```
 class ShoesTester {
   public static void main(String[] args) {
@@ -35,6 +35,24 @@ class ShoesTester {
     /* Create a 2nd unique test of Shoes here */
 
   }
+}
+```
+
+Starter Code for Shoes.jave:
+```
+public class Shoes {
+  // instance variables
+  private String color;
+
+  // methods
+  public void setColor(String _color){
+    color = _color;
+  }
+  
+  public String toString(){
+    return "Shoes that are color=" + color;
+  }
+
 }
 ```
 
