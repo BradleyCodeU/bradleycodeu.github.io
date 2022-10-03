@@ -48,23 +48,25 @@ public void setters_and_toString() {
     fav.setBrand("Nike");
     fav.setType("Golf");
     fav.setSize(9.5);
-    assertTrue(fav.toString().contains("Blue"));
-    assertTrue(fav.toString().contains("Nike"));
-    assertTrue(fav.toString().contains("Golf"));
-    assertTrue(fav.toString().contains("9.5"));
-    fav = fav.substring(0,fav.indexOf("9.5"))+fav.substring(fav.indexOf("9.5")+3);
-    assertTrue(fav.toString().contains("ngblue9.5"));
+    String favString = fav.toString();
+    assertTrue(favString.contains("Blue"));
+    assertTrue(favString.contains("Nike"));
+    assertTrue(favString.contains("Golf"));
+    assertTrue(favString.contains("9.5"));
+    favString = favString.substring(0, favString.indexOf("9.5"))+favString.substring(favString.indexOf("9.5")+3);
+    assertTrue(favString.contains("ngblue9.5"));
     fav = new Shoes();
     fav.setColor("W");
     fav.setBrand("X");
     fav.setType("Y");
     fav.setSize(1.23);
-    assertTrue(fav.toString().contains("W"));
-    assertTrue(fav.toString().contains("X"));
-    assertTrue(fav.toString().contains("Y"));
-    assertTrue(fav.toString().contains("1.23"));
-    fav = fav.substring(0,fav.indexOf("1.23"))+fav.substring(fav.indexOf("1.23")+3);
-    assertTrue(fav.toString().contains("xyw1.23"));
+    favString = fav.toString();
+    assertTrue(favString.contains("X"));
+    assertTrue(favString.contains("W"));
+    assertTrue(favString.contains("Y"));
+    assertTrue(favString.contains("1.23"));
+    favString = favString.substring(0, favString.indexOf("1.23"))+favString.substring(favString.indexOf("1.23")+3);
+    assertTrue(favString.contains("xyw1.23"));
 }
 
 
