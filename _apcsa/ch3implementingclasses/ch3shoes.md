@@ -53,8 +53,6 @@ public void setters_and_toString() {
     assertTrue(favString.contains("Nike"));
     assertTrue(favString.contains("Golf"));
     assertTrue(favString.contains("9.5"));
-    favString = favString.substring(0, favString.indexOf("9.5"))+favString.substring(favString.indexOf("9.5")+3);
-    assertTrue(favString.contains("ngblue9.5"));
     fav = new Shoes();
     fav.setColor("W");
     fav.setBrand("X");
@@ -65,6 +63,24 @@ public void setters_and_toString() {
     assertTrue(favString.contains("W"));
     assertTrue(favString.contains("Y"));
     assertTrue(favString.contains("1.23"));
+}
+@Test
+public void modelNumber() {
+  // Enter code here
+  Shoes fav = new Shoes();
+    fav.setColor("Blue");
+    fav.setBrand("Nike");
+    fav.setType("Golf");
+    fav.setSize(9.5);
+    String favString = fav.toString();
+    favString = favString.substring(0, favString.indexOf("9.5"))+favString.substring(favString.indexOf("9.5")+3);
+    assertTrue(favString.contains("ngblue9.5"));
+    fav = new Shoes();
+    fav.setColor("W");
+    fav.setBrand("X");
+    fav.setType("Y");
+    fav.setSize(1.23);
+    favString = fav.toString();
     favString = favString.substring(0, favString.indexOf("1.23"))+favString.substring(favString.indexOf("1.23")+3);
     assertTrue(favString.contains("xyw1.23"));
 }
