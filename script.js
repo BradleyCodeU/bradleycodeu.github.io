@@ -10,11 +10,18 @@ let isSnowEnabled = false;
 //let clickcount = 0;
 
 
-if (today.getMonth() + 1 == 10 && today.getDate() >= 24) {
+// if (today.getMonth() + 1 == 10 && today.getDate() >= 15) {
+//   spookySeason();
+// } else if (today.getMonth() + 1 == 11 && today <= turkeyDay) {
+//   turkeySeason();
+// } else if (today.getMonth() + 1 == 12 && today.getDate() <= 24) {
+//   snowSeason();
+// }
+if (today.getMonth() + 1 == 10) {
   spookySeason();
-} else if (today.getMonth() + 1 == 11 && today <= turkeyDay) {
+} else if (today.getMonth() + 1 == 11) {
   turkeySeason();
-} else if (today.getMonth() + 1 == 12 && today.getDate() <= 24) {
+} else if (today.getMonth() + 1 == 12) {
   snowSeason();
 }
 
@@ -28,30 +35,30 @@ function spookySeason() {
   setInterval(() => {
     for (let i = 0; i < h1Array.length; i++) {
       if (Math.random() + Math.random() > 28 / today.getDate()) {
-        h1Array[i].style.marginLeft = Math.floor(Math.random() * 50) + "px";
+        h1Array[i].style.marginLeft = Math.floor(Math.random() * today.getDate()*2) + "px";
         h1Array[i].style.color = "#" + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)];
       }
     }
     for (let i = 0; i < h2Array.length; i++) {
       if (Math.random() + Math.random() > 27 / today.getDate()) {
-        h2Array[i].style.marginLeft = Math.floor(Math.random() * 50) + "px";
+        h2Array[i].style.marginLeft = Math.floor(Math.random() * today.getDate()*2) + "px";
         h2Array[i].style.color = "#" + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)];
       }
     }
     for (let i = 0; i < h3Array.length; i++) {
       if (Math.random() + Math.random() > 26 / today.getDate()) {
-        h3Array[i].style.marginLeft = Math.floor(Math.random() * 50) + "px";
+        h3Array[i].style.marginLeft = Math.floor(Math.random() * today.getDate()*2) + "px";
         h3Array[i].style.color = "#" + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)];
       }
     }
     for (let i = 0; i < h4Array.length; i++) {
       if (Math.random() + Math.random() > 25 / today.getDate()) {
-        h4Array[i].style.marginLeft = Math.floor(Math.random() * 50) + "px";
+        h4Array[i].style.marginLeft = Math.floor(Math.random() * today.getDate()*2) + "px";
         h4Array[i].style.color = "#" + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)];
       }
     }
 
-  }, 5000);
+  }, parseInt(150000/today.getDate()));
 }
 // <!-- Spooky stuff ends -->
 
