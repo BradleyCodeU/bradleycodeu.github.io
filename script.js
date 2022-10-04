@@ -27,6 +27,7 @@ if (today.getMonth() + 1 == 10) {
 
 // <!-- Spooky stuff begins -->
 function spookySeason() {
+  console.log("🎃");
   let h1Array = document.getElementsByTagName("h1");
   let h2Array = document.getElementsByTagName("h2");
   let h3Array = document.getElementsByTagName("h3");
@@ -70,6 +71,7 @@ function choice(arr) {
 }
 
 function turkeySeason() {
+  console.log("🦃");
   let emojis = ["😋", "😋", "😋", "🦃", "🦃", "🦃", "🦃", "🍗", "🥧", "🥧", "🥧", "🥧", "🍂", "🍂", "🍂", "🍂", "🍃", "🍃", "🍃", "🎑", "🎑", "🎑", "🌇", "🌇", "🌇", "🍁", "🍁", "🍁", "🍁", "🌽", "🌽", "🌽", "🎩", "🎩", "🎩", "🎈", "🎈", "🎈", "🏈", "🏈", "🏈", "🎉", "🎉", "🎉", "🍞", "🤤", "🤤", "🤤", "🥔", "🥔", "🥔", "🥕", "🥕", "🥕", "🏡", "🏡", "🏡", "🧣", "🧣", "🧣", "🍴", "🍴", "🍴", "☕", "☕", "☕", "🧤", "🧤", "🧤", "🍽️", "🍽️", "🍽️", "🏫", "💯", "👨‍🏫"];
   // These don't work?! "🍽️","🍽️","🍽️"
 
@@ -123,6 +125,7 @@ function setBrandName(emoji) {
 }
 
 function snowSeason() {
+  console.log("❄️");
   // create the snowflake toggle checkbox
   var divSnow = document.createElement('div');
   var brSnow = document.createElement('br');
