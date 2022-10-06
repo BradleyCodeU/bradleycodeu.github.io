@@ -15,27 +15,27 @@ Supply one constructor in which the name can be supplied as an argument.
 
 Implement the following methods...
 
-  - addQuiz(int score) NOTE: Adds score to the total quiz score AND adds 1 to the counter
-  - getName()
-  - getIdNumber()
-  - getEmail()
-  - getTotalScore()
-  - getAverageScore()
+    - addQuiz(int score) NOTE: Adds score to the total quiz score AND adds 1 to the counter
+    - getName()
+    - getIdNumber()
+    - getEmail()
+    - getTotalScore()
+    - getAverageScore()
 
-To compute the average, you MUST count the number of quizzes that the student has taken. You are NOT storing the individual quiz scores in a list, instead you are keeping a running total. *Don't forget to check if the number of quizzes equals 0 before calculating the average score. Otherwise, division by zero could occur. If the number of quizzes equals 0, then return an average score of 0.*
+To compute the average score, you MUST count the number of quizzes that the student has taken. You are NOT storing the individual quiz scores in a list, instead you are keeping a running total. *Don't forget to check if the number of quizzes equals 0 before calculating the average score. Otherwise, division by zero could occur. If the number of quizzes equals 0, then return an average score of 0.*
 
 Complete the StudentTester class so that it tests ALL methods. Print your expected results and then the actual results.
 
 SAMPLE OUTPUT
 ```
-Added the following quiz scores for Beth: 95, 45, 65, 85, 25
-Expected results are Total = 315, Average = 63
+Added the following quiz scores for Beth: 96, 45, 65, 85, 25
+Expected results are Total = 316, Average = 63.2
 Actual results
 Name = Beth
 Id Number = 1342
 Email = be1342@example.com
-Total Score = 315
-Average Score = 63.0
+Total Score = 316
+Average Score = 63.2
 ```
 
 
