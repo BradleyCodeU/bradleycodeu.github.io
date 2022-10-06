@@ -38,6 +38,28 @@ Total Score = 315
 Average Score = 63.0
 ```
 
+
+Starter Code for StudentTester.java
+```
+class StudentTester {
+  public static void main(String[] args) {
+    Student demoStudent;
+    demoStudent.addQuiz();
+    demoStudent.addQuiz();
+    demoStudent.addQuiz();
+    System.out.println("Added the following quiz scores: 95, 65, 85");
+    System.out.println("Expected results are Total = ?, Average = ?");
+    System.out.println("Actual results");
+    System.out.println("Name = ");
+    System.out.println("Id Number = ");
+    System.out.println("Email = ");
+    System.out.println("Total Score = ");
+    System.out.println("Average Score = ");
+  }
+}
+```
+
+
 <!--
 
 @Test
