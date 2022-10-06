@@ -19,8 +19,10 @@ Create the Balloon class and complete the missing code in the BalloonTester clas
 
 ## Sample Output
 ```
+Inflated by 5
 Expected volume for radius 5: 523.6
 Actual volume: 523.5987755982989
+Inflated by 5 MORE
 Expected volume for radius 10: 4188.79
 Actual volume: 4188.790204786391
 ```
@@ -36,10 +38,9 @@ class BalloonTester {
     System.out.println("Actual volume: " + balloon1.getVolume());
     /* print the volume that you got */
     System.out.println("Expected volume for radius 10 is 4188.79");
-    /* Construct Balloon */
-    /* Inflate Balloon */
+    /* Inflate Balloon MORE */
     /* getVolume of Balloon */
-    System.out.println("Actual volume: " + balloon2.getVolume());
+    System.out.println("Actual volume: " + balloon1.getVolume());
     /* print the volume that you got */
   }
 }
