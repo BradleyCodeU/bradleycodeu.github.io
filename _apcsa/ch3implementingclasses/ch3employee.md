@@ -63,11 +63,12 @@ class EmployeeTester {
 <!--
 
 @Test
-public void getName() {
+public void getFullName() {
   Employee temp = new Employee("Bill", "Gates", 100.00);
-  assertEquals("Bill Gates",temp.getName());
+  assertEquals("Bill Gates",temp.getFullName());
   Employee temp2 = new Employee("Steve", "Jobs", 100.00);
-  assertEquals("Steve Jobs",temp2.getName());
+  assertEquals("Steve Jobs",temp2.getFullName());
+
 }
 
 @Test
@@ -80,10 +81,10 @@ public void getEmail() {
 
 @Test
 public void raiseSalary() {
-  Employee temp = new Employee("Bill Gates", 100.00);
+  Employee temp = new Employee("Bill", "Gates", 100.00);
   temp.raiseSalary(15.0);
   assertEquals(115.0, temp.getSalary(), 0.0000000001);
-  temp = new Employee("Steve Jobs", 50000.00);
+  temp = new Employee("Steve", "Jobs", 50000.00);
   temp.raiseSalary(19.9);
   assertEquals(59950.0, temp.getSalary(), 0.0000000001);
 }
