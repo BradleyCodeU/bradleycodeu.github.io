@@ -42,6 +42,9 @@
 "answer": "ASCII code","question": "a code for representing English characters as numbers, assigned from 0 to 127"
 },
 {
+"answer": "Unicode","question": "an information technology standard for text expressed in most of the world's writing systems"
+},
+{
 "answer": "binary","question": "also known as base-2, a counting system that uses only two characters, 0 and 1"
 },
 {
@@ -82,5 +85,8 @@
 },
 {
 "answer": "ASCII code","question": "a code for representing English characters as numbers, assigned from 0 to 127"
+},
+  {
+"answer": "Unicode","question": "an information technology standard for text expressed in most of the world's writing systems"
 }
 ]
