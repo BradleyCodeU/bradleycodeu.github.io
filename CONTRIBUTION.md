@@ -84,10 +84,10 @@ Replace `<your-branch-name>` with the name of the branch you created earlier.
 
 ## Submit the pull request
 
-Now open [Github](https://github.com) your browser, here you will see a notification. Juslt click on **Compare & Pull Request**.
+Now open [Github](https://github.com) in your browser, here you will see a notification. Click on **Compare & Pull Request**.
 
 Now submit the pull request.
 
 Soon your pull request will be reviewed and merged by the maintainers if there is no conflict. You will be notified via email once your pull request has been merged.
 
-**Happy Contributing!!**
+**Happy Contributing!**
