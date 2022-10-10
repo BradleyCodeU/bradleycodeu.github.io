@@ -4,7 +4,7 @@
 
 1. [About the project](#about-the-project)
 2. [Contributing](#contributing)
-3. [List of current projects](#list-of-current-projects)
+3. [List of example projects](#list-of-example-projects)
     - [Game Design Projects](#game-design-projects)
     - [AP CS Principles Projects](#ap-cs-principles-projects)
     - [AP CS A Projects](#ap-cs-a-projects)
@@ -14,13 +14,14 @@
 
 ## About the project
 
-This is the repository of the website containing intro course curriculum for Web Design, AP Computer Science Principles, Game Design, and AP Computer Science A for Hilliard Bradley High School’s coding classes. Any student in Hilliard City Schools can enrol in this career-technical satellite program offered at both Bradley and Davidson High Schools.
+This is the repository of the website containing course curriculum for Game Design and App Development, AP Computer Science Principles, and AP Computer Science A for Hilliard Bradley High School’s coding classes. Any student in Hilliard City Schools can enroll in these coding classes offered at Bradley, Darby, and Davidson High Schools.
 
-The website is hosted at [Bradley Code U · BradleyCodeU](https://bradleycodeu.github.io/).
+The website is hosted at [bradleycodeu.github.io](https://bradleycodeu.github.io/).
 
 ## Contributing
 
 ---
+
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 1. Fork this repository.
@@ -35,7 +36,7 @@ Example projects are selected and posted in the website by the instructor [@ohio
 
 More details can be found in [CONTRUBUTING.md](https://github.com/BradleyCodeU/bradleycodeu.github.io/blob/master/CONTRIBUTION.md). We appreciate valuable contributions.
 
-## List of current projects
+## List of example projects
 
 ---
 
