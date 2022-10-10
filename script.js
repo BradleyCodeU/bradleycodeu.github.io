@@ -28,11 +28,18 @@ if (today.getMonth() + 1 == 10) {
 // <!-- Spooky stuff begins -->
 function spookySeason() {
   console.log("🎃");
+  let emojis = ["","","","","👻","🎃"]
   let h1Array = document.getElementsByTagName("h1");
   let h2Array = document.getElementsByTagName("h2");
   let h3Array = document.getElementsByTagName("h3");
   let h4Array = document.getElementsByTagName("h4");
   let letters = "ABCDEF";
+  let anchorArray = document.getElementsByTagName("a");
+  for (let i = 0; i < anchorArray.length; i++) {
+    if (!anchorArray[i].classList.contains("nav-link") && !anchorArray[i].classList.contains("navbar-brand") && Math.random() + Math.random() > 15 / today.getDate()) {
+      anchorArray[i].innerHTML = choice(emojis) + " " + anchorArray[i].innerHTML + " " + choice(emojis);
+    }
+  }
   setInterval(() => {
     for (let i = 0; i < h1Array.length; i++) {
       if (Math.random() + Math.random() > 28 / today.getDate()) {
@@ -41,19 +48,19 @@ function spookySeason() {
       }
     }
     for (let i = 0; i < h2Array.length; i++) {
-      if (Math.random() + Math.random() > 27 / today.getDate()) {
+      if (Math.random() + Math.random() > 25 / today.getDate()) {
         h2Array[i].style.marginLeft = Math.floor(Math.random() * today.getDate()*2) + "px";
         h2Array[i].style.color = "#" + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)];
       }
     }
     for (let i = 0; i < h3Array.length; i++) {
-      if (Math.random() + Math.random() > 26 / today.getDate()) {
+      if (Math.random() + Math.random() > 22 / today.getDate()) {
         h3Array[i].style.marginLeft = Math.floor(Math.random() * today.getDate()*2) + "px";
         h3Array[i].style.color = "#" + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)];
       }
     }
     for (let i = 0; i < h4Array.length; i++) {
-      if (Math.random() + Math.random() > 25 / today.getDate()) {
+      if (Math.random() + Math.random() > 19 / today.getDate()) {
         h4Array[i].style.marginLeft = Math.floor(Math.random() * today.getDate()*2) + "px";
         h4Array[i].style.color = "#" + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)];
       }
