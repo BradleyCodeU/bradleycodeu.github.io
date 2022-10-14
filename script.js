@@ -43,24 +43,28 @@ function spookySeason() {
   setInterval(() => {
     for (let i = 0; i < h1Array.length; i++) {
       if (Math.random() + Math.random() > 28 / today.getDate()) {
+        h1Array[i].style.transition = "all 2s";
         h1Array[i].style.marginLeft = Math.floor(Math.random() * today.getDate()*2) + "px";
         h1Array[i].style.color = "#" + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)];
       }
     }
     for (let i = 0; i < h2Array.length; i++) {
       if (Math.random() + Math.random() > 25 / today.getDate()) {
+        h2Array[i].style.transition = "all 2s";
         h2Array[i].style.marginLeft = Math.floor(Math.random() * today.getDate()*2) + "px";
         h2Array[i].style.color = "#" + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)];
       }
     }
     for (let i = 0; i < h3Array.length; i++) {
       if (Math.random() + Math.random() > 22 / today.getDate()) {
+        h3Array[i].style.transition = "all 2s";
         h3Array[i].style.marginLeft = Math.floor(Math.random() * today.getDate()*2) + "px";
         h3Array[i].style.color = "#" + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)];
       }
     }
     for (let i = 0; i < h4Array.length; i++) {
       if (Math.random() + Math.random() > 19 / today.getDate()) {
+        h4Array[i].style.transition = "all 2s";
         h4Array[i].style.marginLeft = Math.floor(Math.random() * today.getDate()*2) + "px";
         h4Array[i].style.color = "#" + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)];
       }
