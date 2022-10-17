@@ -42,6 +42,13 @@ function spookySeason() {
   }
   setInterval(() => {
     for (let i = 0; i < h1Array.length; i++) {
+      if (Math.random() + Math.random() > 31 / today.getDate()) {
+        anchorArray[i].style.transition = "all 2s";
+        anchorArray[i].style.marginLeft = Math.floor(Math.random() * today.getDate()*2) + "px";
+        anchorArray[i].style.color = "#" + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)];
+      }
+    }
+    for (let i = 0; i < h1Array.length; i++) {
       if (Math.random() + Math.random() > 28 / today.getDate()) {
         h1Array[i].style.transition = "all 2s";
         h1Array[i].style.marginLeft = Math.floor(Math.random() * today.getDate()*2) + "px";
