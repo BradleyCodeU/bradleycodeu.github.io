@@ -23,4 +23,4 @@ Finally, create an alert that summarizes the user's info. For example... "Hello 
 
 ### If you have already completed 1 or more Computer Science classes...
 
-Create three trivia questions. If the answer to the first trivia question (for example, "What is the capital of Ohio?") is equal to the correct answer ("Columbus"), then create an alert that says "Correct!" Do the same for the next two trivia questions.
+Add three MORE prompts that are trivia questions. If the answer to the first trivia question (for example, "What is the capital of Ohio?") is equal to the correct answer ("Columbus"), then create an alert that says "Correct!" Do the same for the next two trivia questions.
