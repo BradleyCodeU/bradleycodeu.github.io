@@ -142,7 +142,8 @@ Vocab: platform, assembly, binary, bit, byte, declare, assignment, initialize, J
   heading: "# Ch2UsingObjects"
   content: "
 
-
+*3 wks*
+  
 
 1. [Ch2 Rectangles and Points](/apcsa/ch2usingobjects/ch2rectanglesandpoints/)
 
@@ -181,6 +182,7 @@ Vocab: object, accessor, mutator, method, constructor, new, API, naming conventi
   heading: "# Ch3ImplementingClasses"
   content: "
 
+*3 wks*
 
 
 1. [Ch3 Shoes](/apcsa/ch3implementingclasses/ch3shoes/)
