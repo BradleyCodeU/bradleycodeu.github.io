@@ -16,13 +16,13 @@
       /* grid-template-rows: repeat(5, 1fr); */
       grid-column-gap: 50px;
       grid-row-gap: 80px;
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
       grid-auto-rows: minmax(150px, auto);
     }
     li {
       border-radius: 10px;
       padding: 10px;
-      text-align: justify;
+      text-align: left;
     }
     li:nth-child(even) {
       background: rgba(0,0,255,0.1);
@@ -31,14 +31,18 @@
       background: rgba(255,255,255,0.1);
     }
     li img {
-	    float: right;
-      max-width:200px;
-      max-height:200px;
+	    max-width:150px;
+		max-height:150px;
 	    margin: 5px;
 	    border:solid #8c95bd 4px;
-      	    border-radius: 3px;
-	    
+      	border-radius: 3px;
     }
+	li:nth-child(even) img{
+		float: right;
+	}
+	li:nth-child(odd) img{
+		float: left;
+	}
   </style>
 </head>
 
@@ -50,30 +54,32 @@
   <h2>BradleyCodeU Recommendations</h2>
 
   <ul>
-    <li class="game">
-		Zach and Kye recommend Pokemon Sword for Switch
-		<img title="pokemon sword picture" src="https://assets1.ignimgs.com/2019/08/27/pokemon-sword---eshop---button-1566932968514.jpg">
-	</li>
 
     <li class="game">
-		<img title="enter the gungeon picture" src="https://image.api.playstation.com/vulcan/ap/rnd/202010/1205/7iRqnxpwQtVuEFuOjBAW1hFz.png">
-		Steven recommends the Switch game Enter The Gungeon.
-	</li>
+	      <img alt="pokemon sword picture" src="https://assets1.ignimgs.com/2019/08/27/pokemon-sword---eshop---button-1566932968514.jpg">	
+	      Zach and Kye recommend Pokemon Sword for Switch
+    </li>
 
     <li class="game">
-	    Tre recommends Coffee Talk for Switch.
-		<img title="coffee talk picture" src="https://cdn-products.eneba.com/resized-products/kUe_DT6EZ5f0wNcItsF9girVEWfNJuez5ieu06oiXpo_350x200_2x-0.jpg">
-	</li>
+	      <img alt="enter the gungeon picture" src="https://image.api.playstation.com/vulcan/ap/rnd/202010/1205/7iRqnxpwQtVuEFuOjBAW1hFz.png">
+	      Steven recommends the Switch game Enter The Gungeon.
+    </li>
 
-    <li class="game"
-        <img title="Just Shapes and Beats picture" src="https://store-images.s-microsoft.com/image/apps.48490.13730886355493425.5206edad-e4bc-42ca-93c1-abaf47b8bd59.057c4743-07ec-4ead-ba42-8c28865c379a?w=400&h=600">
+    <li class="game">
+        Tre recommends Coffee Talk for Switch.
+        <img alt="coffee talk picture" src="https://cdn-products.eneba.com/resized-products/kUe_DT6EZ5f0wNcItsF9girVEWfNJuez5ieu06oiXpo_350x200_2x-0.jpg">
+    </li>
+
+    <li class="game">
+        <img alt="Just Shapes and Beats picture" src="https://store-images.s-microsoft.com/image/apps.48490.13730886355493425.5206edad-e4bc-42ca-93c1-abaf47b8bd59.057c4743-07ec-4ead-ba42-8c28865c379a?w=400&h=600">
         Conlan recommends Just Shapes and Beats for Switch.
     </li>
 
-    <li class="movie">
-		Will recommended the new Suicide Squad (2021) movie.
-		<img title="Suicide Squad Picture" src="https://play-lh.googleusercontent.com/2DQIMwhOYvAgUrupYL4kOkxVNvKrKb1XpT-xWqKRgtXsy45RP0srT-gRSNAlyscDz1NI5k6leeNEhev0-AiU">
-	</li>
+    <li class="game">
+	      <img alt="Suicide Squad Picture" src="https://play-lh.googleusercontent.com/2DQIMwhOYvAgUrupYL4kOkxVNvKrKb1XpT-xWqKRgtXsy45RP0srT-gRSNAlyscDz1NI5k6leeNEhev0-AiU">
+        Will recommended the new Suicide Squad (2021) movie.
+    </li>
+
 
     <li class="movie">Logan recommends the movie Free Guy (2021) because "it was very funny and I felt I got my money's worth out of it."</li>
 
@@ -99,13 +105,13 @@
 
     <li class="game">Trevor recommends Dead By Daylight.</li>
 
-   <li class="game">Owen recommends Tron Legacy for Wii.</li>
+    <li class="game">Owen recommends Tron Legacy for Wii.</li>
 
     <li class="game">Christopher recommends Wii Sports Resort for Wii U.</li>
 
     <li class="tv">Brody recommends Breaking Bad.</li>
 
-   <li class="book">Will recommends The Creeping by Alexandra Sirowy.</li>
+    <li class="book">Will recommends The Creeping by Alexandra Sirowy.</li>
 
     <li class="game">Leo recommends Warframe for Playstation 4.</li>
 
@@ -115,7 +121,11 @@
 
     <li class="food">Kaden recommends the restaurant Beef 'O' Brady's. Especially the wings.</li>
 
-    <li class="game">AJ recommends the Piano Tiles 2 game for iOS and Android.</li>
+    <li class="game">
+	      <img alt="Piano Tiles 2 game" src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Piano_Tiles_2_logo.png">
+	      AJ recommends the Piano Tiles 2 game for iOS and Android.
+    </li>
+
 
     <li class="book">Elena recommends the book Many Lives, Many Masters by Brian Weiss.</li>
 
@@ -159,12 +169,17 @@
 	  
 	  <li class="food">Moufid recommends the restaurant Wingstop especially the lemon-pepper chicken wings</li>
 	  
-	  <li class="game">Vincent recommends the game Valorant</li>
+	  <li class="game">
+		    <img alt="Valorant" src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt3f072336e3f3ade4/63096d7be4a8c30e088e7720/Valorant_2022_E5A2_PlayVALORANT_ContentStackThumbnail_1200x625_MB01.png"> 
+		    Vincent recommends the game Valorant
+	  </li>
 	  
 	  <li class="music">Grant recommends the album Goo by Sonic Youth</li>
-	
-	  <li class="game"> Abrahm recommends the game Little Nightmares on the Ps4</li>
-	
+	  
+	  <li class="game"> Noah recommends the game Hearts Of Iron 4 </li>
+	  
+	  <li class="game"> Ibrahim recommends the PS4 game Little Nightmares </li>
+
   </ul>
   </p>
 </body>

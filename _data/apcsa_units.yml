@@ -2,7 +2,7 @@ apcsa:
 
 - title: 1stquarter
   heading: "# 1st Quarter"
-  content: "*Whenever possible, select 'Sign up with Google' & use your hilliardschools.org account.*
+  content: "*Whenever possible, select 'Sign up with Google' & use your hilliardschools.org account.* &nbsp; &nbsp; <a href='https://github.com/BradleyCodeU/bradleycodeu.github.io/blob/master/_data/apcsa_units.yml'>.</a>
 
 
 Sign up for:
@@ -142,7 +142,8 @@ Vocab: platform, assembly, binary, bit, byte, declare, assignment, initialize, J
   heading: "# Ch2UsingObjects"
   content: "
 
-
+*3 wks*
+  
 
 1. [Ch2 Rectangles and Points](/apcsa/ch2usingobjects/ch2rectanglesandpoints/)
 
@@ -181,6 +182,7 @@ Vocab: object, accessor, mutator, method, constructor, new, API, naming conventi
   heading: "# Ch3ImplementingClasses"
   content: "
 
+*3 wks*
 
 
 1. [Ch3 Shoes](/apcsa/ch3implementingclasses/ch3shoes/)
@@ -190,10 +192,6 @@ Vocab: object, accessor, mutator, method, constructor, new, API, naming conventi
 1. [Ch3 Employee](/apcsa/ch3implementingclasses/ch3employee/)
 
 1. [Ch3 Student](/apcsa/ch3implementingclasses/ch3student/)
-
-1. Integer Division Quizizz
-
-1. Modulo Operator Quizizz
 
 1. [Java Adventure Game](/apcsa/ch3implementingclasses/JavaAdventureGame/)
 
@@ -265,7 +263,9 @@ Vocab: instance variable, [local variable](https://www.dummies.com/programming/j
 
 
 
+  1. Integer Division Quizizz
 
+  1. Modulo Operator Quizizz
 
   1. [Ch4 Arithmetic Casting](/apcsa/ch4fundamentaldatatypes/ch4arithmeticcasting/)
 
