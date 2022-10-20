@@ -193,10 +193,6 @@ Vocab: object, accessor, mutator, method, constructor, new, API, naming conventi
 
 1. [Ch3 Student](/apcsa/ch3implementingclasses/ch3student/)
 
-1. Integer Division Quizizz
-
-1. Modulo Operator Quizizz
-
 1. [Java Adventure Game](/apcsa/ch3implementingclasses/JavaAdventureGame/)
 
 1. [Food Review](/apcsa/ch3implementingclasses/FoodReview/)
@@ -267,7 +263,9 @@ Vocab: instance variable, [local variable](https://www.dummies.com/programming/j
 
 
 
+  1. Integer Division Quizizz
 
+  1. Modulo Operator Quizizz
 
   1. [Ch4 Arithmetic Casting](/apcsa/ch4fundamentaldatatypes/ch4arithmeticcasting/)
 
