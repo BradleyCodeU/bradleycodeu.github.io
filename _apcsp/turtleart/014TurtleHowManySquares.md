@@ -15,8 +15,24 @@ Define a main function named main(). Inside of that function...
 
   - If isValidNumber(userAnswer) is True, then draw that many squares. Otherwise, print "Not a valid number"
 
-Squares should be drawn one after another in a straight line. All squares must be visible! If I ask for 5, I must be able to see 5.
+Squares must be drawn one after another in a straight line. All squares must be visible! If I ask for 5, I must be able to see 5.
 
 NOTE: You MUST use a "for i in range()" loop so that the project is less than 30 lines of code.
 
-![squares](/apcsp/turtleart/squares.jpg)
+---
+
+## EXAMPLE OUTPUT
+
+Example Run #1
+```
+How many squares would you like to draw?
+11
+Not a valid number
+```
+
+Example Run #2
+```
+How many squares would you like to draw?
+4
+```
+![squares](/apcsp/turtleart/squares.jpeg)
