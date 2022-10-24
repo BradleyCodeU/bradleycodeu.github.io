@@ -122,7 +122,7 @@ References and Other Info:
 
 
 
-Vocab: platform, assembly, binary, bit, byte, declare, assignment, initialize, JVM, IDE, RAM, cpu, primary storage, secondary storage, peripheral, source code, compiler, bytecode, .java file, .class file, class, method, main, println, Scanner, int, double, boolean, char, String, overflow, comment, magic number, final, literal, syntax error, compiler error, logic error, runtime error, method call, argument, portable, high-level language, low-level language
+Vocab: platform, assembly, binary, bit, byte, declare, assignment, initialize, JVM, IDE, RAM, CPU, primary storage, secondary storage, peripheral, source code, compiler, bytecode, .java file, .class file, class, method, main, println, Scanner, int, double, boolean, char, String, overflow, comment, magic number, final, literal, syntax error, compiler error, logic error, runtime error, method call, argument, portable, high-level language, low-level language, casting, implicit conversion, explicit conversion, lossy conversion
 
 
 
