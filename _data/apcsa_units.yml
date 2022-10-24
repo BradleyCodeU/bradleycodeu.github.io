@@ -168,7 +168,7 @@ Additional:
 
 
 
-Vocab: object, accessor, mutator, method, constructor, new, API, naming convention, camelCase, PascalCase, comment, argument, parameter, no argument constructor, return type, void, overloaded, String, immutable object, invoke, public interface, PrintStream
+Vocab: object, accessor, mutator, method, constructor, new, API, naming convention, camelCase, PascalCase, comment, argument, parameter, no argument constructor, return type, void, overloaded, String, immutable object, invoke, public interface, PrintStream, peripheral, Math.min(), Math.max(), syntax error, runtime error, logic error, concatenation, API, public interface, private implementation, immutable
 
 
 
