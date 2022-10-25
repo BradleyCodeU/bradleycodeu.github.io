@@ -9,7 +9,7 @@ Define a function named isValidNumber that requires one argument (myNumber) and 
 
 Define a function named drawSquare() that draws a single square.
 
-Define a main function named main(). Inside of that function...
+Define a main function named main(). Inside of the main function do the following...
 
   - Ask the user "How many squares? Type 1-10" and save their answer in a variable named userAnswer
 
