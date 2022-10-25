@@ -45,5 +45,5 @@ Write a program that produces the following output. All display lines MUST use p
 
   - Assign values to variables for number of items purchased, subtotal, and tax. DO NOT use Scanner. DO NOT collect user input.
   - Calculate the total including tax.
-  - Calculate the fuel points earned. Customers earn 1 fuel point for every $3 dollars spent (use the subtotal). Fuel points are in whole numbers only.
+  - Calculate the fuel points earned. Customers earn 1 fuel point for every $3 dollars spent (use the total). Fuel points are in whole numbers only.
   - Display values of all variables as seen in the image above.
