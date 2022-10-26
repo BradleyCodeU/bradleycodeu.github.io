@@ -29,7 +29,7 @@ You will create a program that uses integer division and modulus to calculate th
 
   - DO NOT worry about am or pm because this is a 24-hour clock, [Military Time](https://en.wikipedia.org/wiki/24-hour_clock), in which the first minute of the day is 0:00 and the last minute of the day is 23:59
 
-  - DO NOT use any [magic numbers]
+  - DO NOT use any [magic numbers](https://en.wikipedia.org/wiki/Magic_number_(programming)#Unnamed_numerical_constants). Use CONSTANTS
 
   - DO NOT use any conditionals (if statements). You will use integer division and modulus instead.
 
@@ -59,4 +59,4 @@ Current time =    23:59
 Future time =      0:00
 ```
 
-[magic numbers]: https://en.wikipedia.org/wiki/Magic_number_(programming)#Unnamed_numerical_constants
+
