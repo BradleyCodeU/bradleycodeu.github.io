@@ -5,32 +5,32 @@ title: Name Games
 ---
 Starter Template: [https://replit.com/@JustinRiley1/226NameGames-Template#Main.java](https://replit.com/@JustinRiley1/226NameGames-Template#Main.java)
 
-1. Create a method called isVowel that takes a string as argument and returns true or false.
+1. Create a static method called isVowel that takes a string as argument and returns true or false.
 
-    Define a static function named isVowel that requires parameter singleLetter and returns a boolean
+    Define a static method named isVowel that requires parameter singleLetter and returns a boolean
     
       - create a string named vowels that is "aeiouy"
       - convert singleLetter to lower case
-      - if vowels index of singleLetter equals -1
+      - if vowels.indexOf(singleLetter) equals -1
           - return false
       - else
           - return true 
 
-1. Create a method called findFirstVowel that takes a string as argument and returns the index of the first vowel or returns 0 if no vowels. 
+1. Create a static method called findFirstVowel that takes a string as argument and returns the index of the first vowel or returns 0 if no vowels. 
 
-    Define a static function named findFirstVowel() that requires parameter inputWord and returns an int
+    Define a static method named findFirstVowel() that requires parameter inputWord and returns an int
     
       - create a counter starts at 0
       - while the counter is less than the length of inputWord
-        - get a single letter using inputWord substring from counter to counter+1
-        - if isVowel with the argument single letter == false
+        - get a singleLetter using inputWord substring from counter to counter+1
+        - if isVowel(singleLetter) equals false
           - add one to counter so we check the next letter in the string
         - else
           - return counter // done! here is the index of the first vowel
 
       - return 0 // didn't find a vowel
 
-1. Create a method called vowelName that takes a string like “Bradley” as argument, calls findFirstVowel, and returns “adley”.
+1. Create a static method called vowelName that takes a string like “Bradley” as argument, calls findFirstVowel, and returns “adley”.
 
 1. In the main method...
  
