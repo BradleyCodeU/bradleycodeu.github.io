@@ -5,15 +5,23 @@ title: Name Games
 ---
 Starter Template: [https://replit.com/@JustinRiley1/226NameGames-Template#Main.java](https://replit.com/@JustinRiley1/226NameGames-Template#Main.java)
 
+1. Create a method called isVowel that takes a string as argument and returns true or false.
+
+    Define a static function named isVowel that require parameter singleLetter and return a boolean
+        - create a string named vowels that is "aeiouy"
+        - if vowels index of singleLetter equals -1
+            - return false
+        - else
+            - return true 
+
 1. Create a method called findFirstVowel that takes a string as argument and returns the index of the first vowel or returns 0 if no vowels. 
 
     Define a static function named findFirstVowel() that requires parameter inputWord and returns an int
-
-    - create a string named vowels that is "aeiouy"
+    
       - create a counter starts at 0
       - while the counter is less than the length of inputWord
         - get a single letter using inputWord substring from counter to counter+1
-        - if vowels index of single letter equals -1
+        - if isVowel with the argument single letter
           - add one to counter so we check the next letter in the string
         - else
           - return counter // done! here is the index of the first vowel
