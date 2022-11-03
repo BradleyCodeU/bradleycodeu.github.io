@@ -61,12 +61,12 @@ Part 1 (do not use printf)
 4. Your name ends with a e.
 Enter your last name: Jobs
 Part 2 (use printf)
-    Spoonerism=     Jeve Stobs
-    Scooby-doo=      Reve Robs
-    Jeringonza= Stepeve Jopobs
-    Ubbi Dubbi= Stubeve Jubobs
-└┄┄┄┄┄┄┄┄┄┄┄┄┬┘└┄┄┄┄┄┄┄┄┄┄┄┄┬┘
- field width 15 field width 15
+    Spoonerism=          Jeve Stobs
+    Scooby-doo=           Reve Robs
+    Jeringonza=      Stepeve Jopobs
+    Ubbi Dubbi=      Stubeve Jubobs
+└┄┄┄┄┄┄┄┄┄┄┄┄┬┘└┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┬┘
+ field width 15      field width 20
 ```
 
 Sample Output 2:
@@ -80,12 +80,12 @@ Part 1 (do not use printf)
 4. Your name ends with a n.
 Enter your last name: Musk
 Part 2 (use printf)
-    Spoonerism=      Melon Usk
-    Scooby-doo=     Relon Rusk
-    Jeringonza=  Epelon Mupusk
-    Ubbi Dubbi=  Ubelon Mubusk
-└┄┄┄┄┄┄┄┄┄┄┄┄┬┘└┄┄┄┄┄┄┄┄┄┄┄┄┬┘
- field width 15 field width 15
+    Spoonerism=           Melon Usk
+    Scooby-doo=          Relon Rusk
+    Jeringonza=       Epelon Mupusk
+    Ubbi Dubbi=       Ubelon Mubusk
+└┄┄┄┄┄┄┄┄┄┄┄┄┬┘└┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┬┘
+ field width 15      field width 20
 ```
 
 Try running your code with a different variety of inputs. What happens if you just hit the ENTER key instead of entering a name?
