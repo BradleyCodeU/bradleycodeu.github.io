@@ -7,7 +7,9 @@ Starter Template: [https://replit.com/@JustinRiley1/226NameGames-Template#Main.j
 
 Write a Java program to prompt the user to enter their name. Your program will respond with a welcome message for the user and then some information about the user’s first name.
 
-Next, cite wrode… Oops I mean, write code… that will prompt for the user’s nast lame… Oops I mean, last name… then generate a [Spoonerism](https://en.wikipedia.org/wiki/Spoonerism) using their first and last name. For example, Brilliard Hadley, Jeve Stobs, Fran Sancisco. Create a method called findFirstVowel that takes a string as argument and returns the index of the first vowel or returns 0 if no vowels. Create a method called vowelName that takes a string like “Bradley” as argument, calls findFirstVowel, and returns “adley”. In your main method, use getVowelName to help you.
+Next, cite wrode… Oops I mean, write code… that will prompt for the user’s nast lame… Oops I mean, last name… then generate a [Spoonerism](https://en.wikipedia.org/wiki/Spoonerism) using their first and last name. For example, Brilliard Hadley, Jeve Stobs, Fran Sancisco, Melon Usk. Create a method called findFirstVowel that takes a string as argument and returns the index of the first vowel or returns 0 if no vowels. Create a method called vowelName that takes a string like “Bradley” as argument, calls findFirstVowel, and returns “adley”. In your main method, use getVowelName to help you.
+
+Rinally, rite road... Oops I mean... Finally write code... that will convert the user's full name to [Scooby-Doo speak](https://www.neatorama.com/2014/03/11/We-Finally-Have-a-Name-for-Scooby-Doos-Speech-Disorder/). For example, Rilliard Radley, Reve Robs, Ran Rancisco, Relon Rusk.
 
 
 Define a static function named findFirstVowel() that requires parameter inputWord and returns an int
@@ -38,6 +40,7 @@ Hello Steve!
 Enter your last name: Jobs
 Goodbye Jeve Stobs!
 Oops I mean Steve Jobs!
+Scooby-doo says: Roodbye Reve Robs!
 ```
 
 Sample Output 2:
@@ -49,8 +52,9 @@ Hello Elon!
 3. The letter o is at the center of your name.
 4. Your name ends with a n.
 Enter your last name: Musk
-Goodbye MElon usk!
+Goodbye Melon Usk!
 Oops I mean Elon Musk!
+Scooby-doo says: Roodbye Relon Rusk!
 ```
 
 Try running your code with a different variety of inputs. What happens if you just hit the ENTER key instead of entering a name?
