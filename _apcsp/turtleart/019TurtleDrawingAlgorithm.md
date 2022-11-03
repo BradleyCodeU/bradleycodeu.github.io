@@ -20,9 +20,11 @@ Next, demonstrate your algorithmic thinking by writing code to draw your design.
   - You MUST define a function that will draw your little shape using forward(), backward(), left(), right()
   - You MUST use 20 or more little shapes to draw your big shape.
 
-Here are a few examples of what your finished drawing might look like:
-![Turtle algorithm examples](/apcsp/turtleart/drawingAlgorithm.PNG)
-
 Your finished drawing should ```NOT``` look like a spiral/swirl. Here are a few examples of what your finished drawing should ```NOT``` look like:
 
 ![Don't do this](/apcsp/turtleart/IDEK.PNG)
+
+Here are a few examples of what your finished drawing SHOULD look like:
+![Turtle algorithm examples](/apcsp/turtleart/drawingAlgorithm.PNG)
+
+![Big house made of little houses](/apcsp/turtleart/houseHouse.PNG)
