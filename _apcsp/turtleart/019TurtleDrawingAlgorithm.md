@@ -27,4 +27,4 @@ Your finished drawing should ```NOT``` look like a spiral/swirl. Here are a few 
 Here are a few examples of what your finished drawing SHOULD look like:
 ![Turtle algorithm examples](/apcsp/turtleart/drawingAlgorithm.PNG)
 
-![Big house made of little houses](/apcsp/turtleart/houseHouse.PNG)
+![Big house made of little houses](/apcsp/turtleart/houseHouse.png)
