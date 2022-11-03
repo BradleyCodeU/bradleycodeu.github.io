@@ -7,7 +7,7 @@ Starter Template: [https://replit.com/@JustinRiley1/226NameGames-Template#Main.j
 
 1. Create a method called isVowel that takes a string as argument and returns true or false.
 
-    Define a static function named isVowel that require parameter singleLetter and return a boolean
+    Define a static function named isVowel that requires parameter singleLetter and returns a boolean
     
       - create a string named vowels that is "aeiouy"
       - convert singleLetter to lower case
