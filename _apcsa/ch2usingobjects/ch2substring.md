@@ -2,7 +2,7 @@
 layout: project
 category: ch2usingobjects
 title: Ch2 Substring
-
+---
 
 In this project you will demonstrate the use of several String methods including substring, indexOf, toUpperCase, toLowerCase, and length
 
