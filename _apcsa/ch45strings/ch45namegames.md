@@ -3,11 +3,9 @@ layout: project
 category: ch45strings
 title: Name Games
 ---
-Starter Template: [https://replit.com/@JustinRiley1/226NameGames-Template#Main.java](https://replit.com/@JustinRiley1/226NameGames-Template#Main.java)
 
-1. Create a static method called isVowel that takes a string as argument and returns true or false.
 
-    Define a static method named isVowel that requires parameter singleLetter and returns a boolean
+1. Define a static method named isVowel that requires String parameter singleLetter and returns a boolean
     
       - create a string named vowels that is "aeiouy"
       - convert singleLetter to lower case
@@ -16,9 +14,7 @@ Starter Template: [https://replit.com/@JustinRiley1/226NameGames-Template#Main.j
       - else
           - return true 
 
-1. Create a static method called findFirstVowel that takes a string as argument and returns the index of the first vowel or returns 0 if no vowels. 
-
-    Define a static method named findFirstVowel() that requires parameter inputWord and returns an int
+1. Define a static method named findFirstVowel that requires a String parameter inputWord and returns an int (the index of the first vowel or returns 0 if no vowels)
     
       - create a counter starts at 0
       - while the counter is less than the length of inputWord
@@ -30,7 +26,7 @@ Starter Template: [https://replit.com/@JustinRiley1/226NameGames-Template#Main.j
 
       - return 0 // didn't find a vowel
 
-1. Create a static method called vowelName that takes a string like “Bradley” as argument, calls findFirstVowel, and returns “adley”.
+1. Define a static method called vowelName that takes a string like “Bradley” as argument, calls findFirstVowel, and returns “adley”.
 
 1. In the main method...
  
@@ -96,3 +92,78 @@ You MUST also complete ONE of the challenges:
   - CHALLENGE 1: Prompt for the user's last name, then randomly generate 10 suggested usernames for that person. For example... jusriley3, rilj6, juriley7, rileyju29, justiri4, rijustin2, jr87, etc
 
   - CHALLENGE 2: With the user's first name, generate a verse for [the 1964 Shirley Ellis song](https://drive.google.com/open?id=1NehR20x0yzheTYAEYxJ5W9-D6hbEbuqT) "The Name Game" [https://en.wikipedia.org/wiki/The_Name_Game](https://en.wikipedia.org/wiki/The_Name_Game). Create a method called findFirstVowel that takes a string as argument and returns the index of the first vowel or returns 0 if no vowels. Create a method called vowelName that takes a string as argument, calls findFirstVowel, and returns  In your main method, use getVowelName to help you. If the name starts with a b, f, or m, that sound simply is not repeated. For example: Billy becomes "Billy Billy bo-illy"; Fred becomes "bonana fanna fo-red"; Marsha becomes "fee fi mo-arsha"
+
+
+## Starter Code
+```
+class Main {
+  
+
+  // Define a static method named isVowel that requires String parameter singleLetter and returns a boolean
+  {
+    // create a string named vowels that is "aeiouy"
+    // convert singleLetter to lower case
+    // if vowels.indexOf(singleLetter) equals -1
+    if(???)
+    {
+      // return false
+    }
+    else
+    {
+      // return true
+    }
+  }
+  
+  
+  // Define a static method named findFirstVowel that requires a String parameter inputWord and returns an int (the index of the first vowel or returns 0 if no vowels)
+  {
+    //create a counter starts at 0
+    
+    //while the counter is less than the length of inputWord
+    while(???)
+    {
+      //get a singleLetter using inputWord substring from counter to counter+1
+
+      //if isVowel(singleLetter) equals false
+      if(???)
+      {
+        //add one to counter so that we check the next letter in the string
+      }
+      else
+      {
+        
+        //return counter we are done! here is the index of the first vowel
+      }
+    }
+    //return 0 we didn’t find a vowel
+  }
+
+
+  //  Define a static method called vowelName that takes a string like “Bradley” as argument, calls findFirstVowel, and returns “adley”.
+  {
+    
+  }
+
+
+  public static void main(String[] args)
+  {
+    System.out.print("Enter your first name: ");
+    System.out.println("Hello ");
+    System.out.println("Part 1 (do not use printf)");
+    System.out.println("1. Your name is ");
+    System.out.println("2. Your name starts with a ");
+    System.out.println("3. The letter ");
+    System.out.println("4. Your name ends with a ");
+    System.out.print("Enter your last name: ");
+    System.out.println("Part 2 (use printf)");
+    System.out.printf("");
+    System.out.printf("");
+    System.out.printf("");
+    System.out.printf("");
+    System.out.println("└┄┄┄┄┄┄┄┄┄┄┄┄┬┘└┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┬┘");
+    System.out.println(" field width 15      field width 20");
+    
+  }
+  
+}
+```
