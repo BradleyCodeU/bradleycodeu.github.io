@@ -2,7 +2,7 @@
 layout: project
 category: ch2usingobjects
 title: Ch2 Substring
----
+
 
 In this project you will demonstrate the use of several String methods including substring, indexOf, toUpperCase, toLowerCase, and length
 
@@ -10,16 +10,30 @@ In this project you will demonstrate the use of several String methods including
 
 Define a static function named findFirstVowel() that requires String parameter inputWord and returns an int
 
-- create a string named vowels that is "aeiouy"
-  - create a counter starts at 0
-  - while the counter is less than the length of inputWord
-    - get a single letter using inputWord substring from counter to counter+1
-    - if vowels index of single letter equals -1
-      - add one to counter so we check the next letter in the string
-    - else
-      - return counter // done! here is the index of the first vowel
-
-  - return 0 // didn't find a vowel
+```
+public static int findFirstVowel(String inputWord){
+        // create a string named vowels that is "aeiouy"
+        ???
+        // create a counter starts at 0
+        ???
+        // while the counter is less than the length of inputWord
+        while(counter < ???) {
+            // get a singleLetter using inputWord substring from counter to counter+1
+            String singleLetter = ???
+            // if vowels index of singleLetter equals -1
+            if (??? == -1) {
+                // add one to counter so we check the next letter in the string
+                ???
+            }
+            else{
+                // done! here is the index of the first vowel
+                return counter;
+            }
+        }
+        // didn't find a vowel
+        return 0;
+    }
+```
 
 
 Create *ONE* Java program that does *ALL* of the following:
@@ -44,13 +58,9 @@ Create *ONE* Java program that does *ALL* of the following:
 
 ## Starter Template:
 ```
-
 public class Main
 {
-    public static void main(String[] args)
-    {
-        System.out.println("SUBSTRING PROJECT");
-    }
+    
 
     /**
     * findFirstVowel(String inputWord)
@@ -59,17 +69,33 @@ public class Main
     * @param String inputWord
     * @return int index of the first vowel
     */
+    public static int findFirstVowel(String inputWord){
+        // create a string named vowels that is "aeiouy"
+        ???
+        // create a counter starts at 0
+        ???
+        // while the counter is less than the length of inputWord
+        while(counter < ???) {
+            // get a singleLetter using inputWord substring from counter to counter+1
+            String singleLetter = ???
+            // if vowels index of singleLetter equals -1
+            if (??? == -1) {
+                // add one to counter so we check the next letter in the string
+                ???
+            }
+            else{
+                // done! here is the index of the first vowel
+                return counter;
+            }
+        }
+        // didn't find a vowel
+        return 0;
+    }
 
-    // Define a static function named findFirstVowel() that requires String parameter inputWord and returns an int
-    // - create a string named vowels that is "aeiouy"
-    // - create a counter starts at 0
-    // - while the counter is less than the length of inputWord
-    //     - get a single letter using inputWord substring from counter to counter+1
-    //     - if vowels index of single letter equals -1
-    //         - add one to counter so we check the next letter in the string
-    //     - else
-    //         - return counter // done! here is the index of the first vowel
-    // - return 0 // didn't find a vowel
 
+    public static void main(String[] args)
+    {
+        System.out.println("SUBSTRING PROJECT");
+    }
 }
 ```
