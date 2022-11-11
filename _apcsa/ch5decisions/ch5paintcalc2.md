@@ -49,7 +49,7 @@ If gallons and quarts are available, you would need 1 gallon 1 quart
   - If there are no quarts needed, do NOT display “0 quarts”.
 
 
-## Example calculations: [Paint Calculator Calculation Example.docx](/apcsa/ch5decisions/PaintCalculatorCalculationExample.docx)
+## Example calculations: [Paint Calculator Calculation Example.docx](/apcsa/ch5decisions/PaintCalculatorCalculationExample.pdf)
 
 
 ### Sample run 1:
