@@ -99,27 +99,27 @@ function turkeySeason() {
   let h4Array = document.getElementsByTagName("h4");
   let anchorArray = document.getElementsByTagName("a");
   for (let i = 0; i < anchorArray.length; i++) {
-    if (!anchorArray[i].classList.contains("nav-link") && !anchorArray[i].classList.contains("navbar-brand") && Math.random() + Math.random() > 15 / today.getDate()) {
+    if (!anchorArray[i].classList.contains("nav-link") && !anchorArray[i].classList.contains("navbar-brand") && Math.random() + Math.random() > 16 / today.getDate()) {
       anchorArray[i].innerHTML = choice(emojis) + " " + anchorArray[i].innerHTML + " " + choice(emojis);
     }
   }
   for (let i = 0; i < h1Array.length; i++) {
-    if (Math.random() + Math.random() > 18 / today.getDate()) {
+    if (Math.random() + Math.random() > 20 / today.getDate()) {
       h1Array[i].innerHTML = choice(emojis) + " " + h1Array[i].innerHTML + " " + choice(emojis);
     }
   }
   for (let i = 0; i < h2Array.length; i++) {
-    if (Math.random() + Math.random() > 15 / today.getDate()) {
+    if (Math.random() + Math.random() > 18 / today.getDate()) {
       h2Array[i].innerHTML = choice(emojis) + " " + h2Array[i].innerHTML + " " + choice(emojis);
     }
   }
   for (let i = 0; i < h3Array.length; i++) {
-    if (Math.random() + Math.random() > 12 / today.getDate()) {
+    if (Math.random() + Math.random() > 16 / today.getDate()) {
       h3Array[i].innerHTML = choice(emojis) + " " + h3Array[i].innerHTML + " " + choice(emojis);
     }
   }
   for (let i = 0; i < h4Array.length; i++) {
-    if (Math.random() + Math.random() > 9 / today.getDate()) {
+    if (Math.random() + Math.random() > 14 / today.getDate()) {
       h4Array[i].innerHTML = choice(emojis) + " " + h4Array[i].innerHTML + " " + choice(emojis);
     }
   }
