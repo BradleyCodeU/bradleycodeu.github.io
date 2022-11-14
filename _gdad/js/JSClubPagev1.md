@@ -84,4 +84,3 @@ Here is a list of some REAL Bradley clubs:
   - Girls Track
   - Girls Volleyball
 
- Pictures and information on each of our jaguar cut outs on the website: https://www.hilliardschools.org/hbr/19745-2/
