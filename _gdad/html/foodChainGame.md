@@ -39,8 +39,8 @@ Show Mr Riley your finished project including how you win and how you lose.
 
 1. Add a conditional IF block so that Game Over Win happens if the user earns 5 points.
   - Inside of the IF block...
-  - Set score to score x 3000
-  - Set score to score - times since start (ms)
-  - game over WIN
+    - Set score to score x 3000
+    - Set score to score - times since start (ms)
+    - game over WIN
 
 
