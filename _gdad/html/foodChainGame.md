@@ -35,4 +35,12 @@ Show Mr Riley your finished project including how you win and how you lose.
 
 1. Add title screens. From the SCENE menu, add a Set Background Image To ___ block. From the LOOP menu, add a Pause ___ ms block. Draw background images for the name of your game and the name of your fake game development business.
 
+1. Change the "On game update " to every 2000 ms
+
 1. Add a conditional IF block so that Game Over Win happens if the user earns 5 points.
+  - Inside of the IF block...
+  - Set score to score x 3000
+  - Set score to score - times since start (ms)
+  - game over WIN
+
+
