@@ -28,7 +28,8 @@ bubblePopSound.play();
 ### If you have already completed 1 or more Computer Science classes...
 
 1. Under the two big Yes and No buttons, create a Change Button Text section.
-  - Add an input type text that is labelled Yes Button Text. Give the input an oninput= attribute that will change the innerHTML of the Yes button.
-  - Add an input type text that is labelled No Button Text. Give the input an oninput= attribute that will change the innerHTML of the No button.
+
+    - Add an input type text that is labelled Yes Button Text. Give the input an oninput= attribute that will change the innerHTML of the Yes button.
+    - Add an input type text that is labelled No Button Text. Give the input an oninput= attribute that will change the innerHTML of the No button.
 
 1. Make it randomly select one of a few sounds OR make it cycle through several sounds so that they are played in order.
