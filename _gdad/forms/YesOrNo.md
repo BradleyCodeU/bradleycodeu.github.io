@@ -20,18 +20,23 @@ When you click Yes it plays a happy sound and when you click No it play a sad so
 
 For Javascript audio, you will do something similar to this:
 ```
-var bubblePopSound = new Audio("pop.mp3");
-bubblePopSound.play();
+let bubblePopSound = new Audio("pop.mp3"); // only when page loads
+
+bubblePopSound.play(); // should happen when button is clicked
 ```
 
 
 
 ### If you have already completed 1 or more Computer Science classes...
 
-1. Under the two big Yes and No buttons, create a Change Button Text section.
+1. Under the two big Yes and No buttons, create a Customize section.
 
     - Add an input type text that is labelled Yes Button Text. Give the input an oninput= attribute that will change the innerHTML of the Yes button to be this.value
-    - Add an input type text that is labelled No Button Text. Give the input an oninput= attribute that will change the innerHTML of the No button to be this.value
+    - Add an input type color that will change the Yes Button's background color. Give the input an oninput= attribute that will change the style.background of the Yes button to be this.value
+    - Add an input type text that is labelled No Button Text and changes the text on the button. 
+    - Add an input type color that changes the No Button's background color.
+    - Add an input type range slider that changes the width of BOTH buttons.
 
 1. Make it randomly select one of a few sounds OR make it cycle through several sounds so that they are played in order.
+  
   
