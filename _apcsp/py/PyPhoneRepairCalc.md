@@ -1,7 +1,8 @@
 ---
 layout: project
 category: py
-title: # Phone Repair Calc
+title: Phone Repair Calc
+---
 
 Read these tutorials:
 - [Python Functions](/apcsp\py\pythonfunctions)
