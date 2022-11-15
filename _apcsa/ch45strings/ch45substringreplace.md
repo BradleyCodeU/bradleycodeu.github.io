@@ -44,3 +44,25 @@ After substring was =       men, lend me your ears
 Character at index 21 =                          t
 Your new string =        Friends, Romans, countrywomen, lend me your ears
 ```
+
+Starter template:
+```
+class Main {
+  public static void main(String[] args) {
+    //Enter a long string:
+    //Enter a substring:
+    //Enter index between 0 and 43:
+    //Notice the previous prompt matches long string length - 1.
+    //Enter a replacement string:
+    System.out.println("---------+---------+----|---------+---------+----|");
+    System.out.printf("%-25s%25s","Length of long string =","???");
+    System.out.printf("%-25s%25s","Length of substring =","???");
+    System.out.printf("%-25s%25s","Substring start index =","???");
+    System.out.printf("%-25s%25s","Before substring was =","???");
+    System.out.printf("%-25s%25s","After substring was =","???");
+    System.out.printf("%-25s%25s","Character at index ?? =","???");
+    System.out.printf("%-25s%25s","Your new string =","???");
+    
+  }
+}
+```
