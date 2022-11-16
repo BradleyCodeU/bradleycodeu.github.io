@@ -197,6 +197,9 @@ header {
   left: 50%;
   transform: translate(-50%, -50%);
   text-shadow: 2px 2px black;
+  backdrop-filter: saturate(180%) blur(10px);
+    width: 100%;
+    padding: 20px;
 }
 h1.project-title{
   /* <!-- Halloween stuff --> */
