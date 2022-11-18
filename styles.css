@@ -198,8 +198,8 @@ header {
     transform: translate(-50%, -50%);
     text-shadow: 2px 2px black;
     backdrop-filter: saturate(140%) blur(9px);
-    width: 80%;
-    border-radius: 20px;
+    width: 100%;
+/*     border-radius: 20px; */
     padding: 20px;
     box-shadow: 1px 1px 90px rgba(0,0,0,40%);
 }
