@@ -104,22 +104,22 @@ function turkeySeason() {
     }
   }
   for (let i = 0; i < h1Array.length; i++) {
-    if (Math.random() + Math.random() > 20 / today.getDate()) {
+    if (Math.random() + Math.random() > 24 / today.getDate()) {
       h1Array[i].innerHTML = choice(emojis) + " " + h1Array[i].innerHTML + " " + choice(emojis);
     }
   }
   for (let i = 0; i < h2Array.length; i++) {
-    if (Math.random() + Math.random() > 18 / today.getDate()) {
+    if (Math.random() + Math.random() > 22 / today.getDate()) {
       h2Array[i].innerHTML = choice(emojis) + " " + h2Array[i].innerHTML + " " + choice(emojis);
     }
   }
   for (let i = 0; i < h3Array.length; i++) {
-    if (Math.random() + Math.random() > 16 / today.getDate()) {
+    if (Math.random() + Math.random() > 20 / today.getDate()) {
       h3Array[i].innerHTML = choice(emojis) + " " + h3Array[i].innerHTML + " " + choice(emojis);
     }
   }
   for (let i = 0; i < h4Array.length; i++) {
-    if (Math.random() + Math.random() > 14 / today.getDate()) {
+    if (Math.random() + Math.random() > 18 / today.getDate()) {
       h4Array[i].innerHTML = choice(emojis) + " " + h4Array[i].innerHTML + " " + choice(emojis);
     }
   }
