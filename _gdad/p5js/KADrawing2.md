@@ -8,7 +8,7 @@ Login to KhanAcademy here: https://www.khanacademy.org/login
 
 Next go to https://www.khanacademy.org/computing/computer-programming/programming#drawing-basics
 
-Watch these two KhanAcademy tutorials:
+Watch these three KhanAcademy tutorials:
 
 - [Intro to Variables](https://www.khanacademy.org/computing/computer-programming/programming/variables/pt/intro-to-variables)
 
