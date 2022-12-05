@@ -1,6 +1,6 @@
 ---
 layout: project
-category: ch57shortcircuitworksheet
+category: ch57shortcircuitevaluation
 title: Short-Circuit Worksheet
 ---
 
