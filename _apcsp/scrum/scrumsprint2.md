@@ -13,10 +13,10 @@ Do NOT delete the old tasks from the Done section of your Scrum Board.
 TLDR: There are 5 new tasks that your group must add to your To Do list. These 5 tasks are required for the group to complete during this sprint. Details for these tasks are in the directions.
 
 - isValidNumber 2pts
-- cityScene 8pts
-- countryScene 8pts
-- underwaterScene 8pts
-- Main 5pts
+- cityScene 5pts
+- countryScene 5pts
+- underwaterScene 5pts
+- Main 3pts
 
 
 With last week's points and this week's points combined, each person should have completed a total of 60 story points or more (30 from last sprint plus 30 from THIS sprint) by the end of this sprint.
@@ -32,10 +32,10 @@ Hold a Sprint Planning Meeting with your group. Start by creating post-its the f
 
 5 REQUIRED TASKS:
   1. Create an isValidNumber function that returns true if the number is 1, 2, or 3 and otherwise returns false = *2pts*
-  1. Create a cityScene function that calls every function that you want drawn in the city. For example, groundWithOcean, several MountainsInTheDistance, several skyscrapers, several cars, bridge, several clouds, boat, helicopter, etc. = *8pts*
-  1. Create a countryScene function that calls every function that you want drawn in the country. For example, groundWithRiver, boat, MountainsInTheDistance, several trees, barn, car, bridge, several clouds, several birds, helicopter, etc. = *8pts*
-  1. Create a underwaterScene function that calls every function that you want drawn underwater. For example, waves, boat, several clouds, several seaweed, helicopter, several fish, several starfish, etc. = *8pts*
-  1. Create a Main function that asks the user "Which scene would you like? Type either 1 for city, 2 for country, or 3 for underwater: " then collects the user input. If the user input is invalid, print "Not a valid number 1-3". If it is valid then call either cityScene, countryScene, or underwaterScene. = *5pts*
+  1. Create a cityScene function that calls every function that you want drawn in the city. For example, groundWithOcean, several MountainsInTheDistance, several skyscrapers, several cars, bridge, several clouds, boat, helicopter, etc. = *5pts*
+  1. Create a countryScene function that calls every function that you want drawn in the country. For example, groundWithRiver, boat, MountainsInTheDistance, several trees, barn, car, bridge, several clouds, several birds, helicopter, etc. = *5pts*
+  1. Create a underwaterScene function that calls every function that you want drawn underwater. For example, waves, boat, several clouds, several seaweed, helicopter, several fish, several starfish, etc. = *5pts*
+  1. Create a Main function that asks the user "Which scene would you like? Type either 1 for city, 2 for country, or 3 for underwater: " then collects the user input. If the user input is invalid, print "Not a valid number 1-3". If it is valid then call either cityScene, countryScene, or underwaterScene. = *3pts*
 
 
 Each day will begin with [The Daily Standup (aka The Daily Scrum)](https://www.mountaingoatsoftware.com/agile/scrum/meetings/daily-scrum) a standing (not sitting) meeting of 15 minutes or less. Taking turns, each member says:
