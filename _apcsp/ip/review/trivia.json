@@ -1,0 +1,208 @@
+[
+    
+
+{
+"answer": "Advanced Research Projects Agency (ARPA)","question": "U.S. military department that created the Internet for scientific and military communications"
+},
+{
+"answer": "ARPANET","question": "an experimental computer network that became the Internet. It first connected colleges, scientific research institutes, and government agencies."
+},
+{
+"answer": "Colleges","question": "including MIT, UCLA, Stanford, and Utah were first connected to ARPANET."
+},
+{
+"answer": "com","question": "A domain name ending for business websites"
+},
+{
+"answer": "DNS (Domain Name System)","question": "The service that translates URLs to IP addresses."
+},
+{
+"answer": "Domain name","question": "The .com, .org, etc. that tells you the person, company, or institution that owns a website"
+},
+{
+"answer": "edu","question": "A domain name ending for college/university websites"
+},
+{
+"answer": "Fiber optic cable","question": "similar to an electrical cable, a thread of glass engineered to reflect and transmit light"
+},
+{
+"answer": "File Transfer Protocol (FTP)","question": "is the Internet protocol used to copy files from one computer to another."
+},
+{
+"answer": "gov","question": "A domain name ending for U.S. government websites"
+},
+{
+"answer": "HTML (hypertext markup language)","question": "the most common code language used to create web pages"
+},
+{
+"answer": "HTTP (HyperText Transfer Protocol)","question": "the protocol used for transmitting web pages over the Internet"
+},
+{
+"answer": "Hypertext","question": "clickable text that typically connects one web page to another web page, but could also connect to email, FTP servers, IP addresses, and files."
+},
+{
+"answer": "Internet","question": "A network of connected networks. Even if part were destroyed, the other networks would still work."
+},
+{
+"answer": "Internet Service Provider (ISP)","question": "your home's connection to everything on the Internet"
+},
+{
+"answer": "IP Address","question": "A number assigned to any device that is connected to the Internet."
+},
+{
+"answer": "IPv4","question": "the first version device identification system used on the ARPANET which still routes most Internet traffic today. Allows for roughly 4 billion unique addresses."
+},
+{
+"answer": "IPv6","question": "the most recent device identification system developed by the IETF. Allows for roughly 340 undecillion unique addresses."
+},
+{
+"answer": "Local Area Network (LAN)","question": "All of the computers (or other devices) connected in a home, office, or school."
+},
+{
+"answer": "Mail Server","question": "a computer that offers the service of email over the Internet"
+},
+{
+"answer": "mil","question": "A domain name ending for U.S. military websites"
+},
+{
+"answer": "Network Redundancy","question": "having multiple backups to ensure reliability during cases of high usage or failure"
+},
+{
+"answer": "org","question": "A domain name ending for non-profit or charity group websites"
+},
+{
+"answer": "Packets","question": "Small chunks of information that have been carefully formed from larger files."
+},
+{
+"answer": "Protocol","question": "A standard set of rules governing the exchange or transmission of data between devices."
+},
+{
+"answer": "Router","question": "A type of computer that determines the route that data travels across a network"
+},
+{
+"answer": "Server Farm (or Data Center)","question": "a building with lots of Internet-connected computers typically used for cloud storage, web app processing, or distributing large amounts of information."
+},
+{
+"answer": "TCP (Transmission Control Protocol)","question": "provides reliable, ordered, and error-checked delivery of a stream of packets on the Internet. It is tightly linked with IP."
+},
+{
+"answer": "Tim Berners-Lee","question": "known as the inventor of the World Wide Web, created the first web browser, and is the director of the W3C."
+},
+{
+"answer": "Undersea cables","question": "connect your computer to web servers around the world."
+},
+{
+"answer": "URL (Uniform Resource Locator or Web Address)","question": "An address for visiting a specific file on a domain (like www.twitter.com/BradleyHS). Pages, images, and videos might appear together but are all separate files with their own unique addresses."
+},
+{
+"answer": "Vint Cerf","question": "manager of ARPA that developed TCP/IP with Bob Kahn"
+},
+{
+"answer": "Web Server","question": "a computer that offers a service over a network"
+},
+{
+"answer": "WiFi","question": "uses a radio signal to send bits from one place to another"
+},
+{
+    "answer": "Advanced Research Projects Agency (ARPA)","question": "U.S. military department that created the Internet for scientific and military communications"
+    },
+    {
+    "answer": "ARPANET","question": "an experimental computer network that became the Internet. It first connected colleges, scientific research institutes, and government agencies."
+    },
+    {
+    "answer": "Colleges","question": "including MIT, UCLA, Stanford, and Utah were first connected to ARPANET."
+    },
+    {
+    "answer": "com","question": "A domain name ending for business websites"
+    },
+    {
+    "answer": "DNS (Domain Name System)","question": "The service that translates URLs to IP addresses."
+    },
+    {
+    "answer": "Domain name","question": "The .com, .org, etc. that tells you the person, company, or institution that owns a website"
+    },
+    {
+    "answer": "edu","question": "A domain name ending for college/university websites"
+    },
+    {
+    "answer": "Fiber optic cable","question": "similar to an electrical cable, a thread of glass engineered to reflect and transmit light"
+    },
+    {
+    "answer": "File Transfer Protocol (FTP)","question": "is the Internet protocol used to copy files from one computer to another."
+    },
+    {
+    "answer": "gov","question": "A domain name ending for U.S. government websites"
+    },
+    {
+    "answer": "HTML (hypertext markup language)","question": "the most common code language used to create web pages"
+    },
+    {
+    "answer": "HTTP (HyperText Transfer Protocol)","question": "the protocol used for transmitting web pages over the Internet"
+    },
+    {
+    "answer": "Hypertext","question": "clickable text that typically connects one web page to another web page, but could also connect to email, FTP servers, IP addresses, and files."
+    },
+    {
+    "answer": "Internet","question": "A network of connected networks. Even if part were destroyed, the other networks would still work."
+    },
+    {
+    "answer": "Internet Service Provider (ISP)","question": "your home's connection to everything on the Internet"
+    },
+    {
+    "answer": "IP Address","question": "A number assigned to any device that is connected to the Internet."
+    },
+    {
+    "answer": "IPv4","question": "the first version device identification system used on the ARPANET which still routes most Internet traffic today. Allows for roughly 4 billion unique addresses."
+    },
+    {
+    "answer": "IPv6","question": "the most recent device identification system developed by the IETF. Allows for roughly 340 undecillion unique addresses."
+    },
+    {
+    "answer": "Local Area Network (LAN)","question": "All of the computers (or other devices) connected in a home, office, or school."
+    },
+    {
+    "answer": "Mail Server","question": "a computer that offers the service of email over the Internet"
+    },
+    {
+    "answer": "mil","question": "A domain name ending for U.S. military websites"
+    },
+    {
+    "answer": "Network Redundancy","question": "having multiple backups to ensure reliability during cases of high usage or failure"
+    },
+    {
+    "answer": "org","question": "A domain name ending for non-profit or charity group websites"
+    },
+    {
+    "answer": "Packets","question": "Small chunks of information that have been carefully formed from larger files."
+    },
+    {
+    "answer": "Protocol","question": "A standard set of rules governing the exchange or transmission of data between devices."
+    },
+    {
+    "answer": "Router","question": "A type of computer that determines the route that data travels across a network"
+    },
+    {
+    "answer": "Server Farm (or Data Center)","question": "a building with lots of Internet-connected computers typically used for cloud storage, web app processing, or distributing large amounts of information."
+    },
+    {
+    "answer": "TCP (Transmission Control Protocol)","question": "provides reliable, ordered, and error-checked delivery of a stream of packets on the Internet. It is tightly linked with IP."
+    },
+    {
+    "answer": "Tim Berners-Lee","question": "known as the inventor of the World Wide Web, created the first web browser, and is the director of the W3C."
+    },
+    {
+    "answer": "Undersea cables","question": "connect your computer to web servers around the world."
+    },
+    {
+    "answer": "URL (Uniform Resource Locator or Web Address)","question": "An address for visiting a specific file on a domain (like www.twitter.com/BradleyHS). Pages, images, and videos might appear together but are all separate files with their own unique addresses."
+    },
+    {
+    "answer": "Vint Cerf","question": "manager of ARPA that developed TCP/IP with Bob Kahn"
+    },
+    {
+    "answer": "Web Server","question": "a computer that offers a service over a network"
+    },
+    {
+    "answer": "WiFi","question": "uses a radio signal to send bits from one place to another"
+    }
+]
