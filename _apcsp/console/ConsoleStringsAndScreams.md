@@ -3,6 +3,7 @@ layout: project
 category: console
 title: Console Strings and Screams
 ---
+
 Concepts: concatenation, len(), string indexing, string slice
 
 Read this article about [how to slice a string in Python](https://www.w3schools.com/python/python_strings_slicing.asp)
@@ -17,7 +18,7 @@ Print your nick name is then the first 2 letters of your last name plus the firs
 
 Finally, scream! Create a variable named myScream that contains empty string. Make a loop that repeats for the length of the first name + the length of the second name, concatenating an "A" to myScream each repetition. After the loop, concatenate an "!" and print it.
 
-Sample Output:
+Sample Output 1 (notice the length of the scream at the end):
 ```
 Enter your first name: Steve
 Hello Steve!
@@ -35,10 +36,10 @@ J
 Ends with
 s
 Your full name is Steve Jobs
-Your nick name is JoJo
+Your nickname is JoJo
 AAAAAAAAA!
 ```
-Sample Output 2:
+Sample Output 2  (notice the length of the scream at the end):
 ```
 Enter your first name: Bradley
 Hello Bradley!
@@ -56,6 +57,6 @@ H
 Ends with
 l
 Your full name is Bradley Highschool
-Your nick name is HiHi
+Your nickname is HiHi
 AAAAAAAAAAAAAAAAA!
 ```
