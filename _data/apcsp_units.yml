@@ -575,6 +575,9 @@ Resources:
 , [w3schools try except](https://www.w3schools.com/python/python_try_except.asp)
 , [101computing.net/number-only/](https://www.101computing.net/number-only/)
 , [Global variables](/apcsp/console/globalvariables.md)
+
+- [arrayPracticeGenerator](/apcsp/textgames/arrayPracticeGenerator/)
+
 "
 
 - title: textgames
@@ -625,9 +628,14 @@ Resources:
 , [w3schools try except](https://www.w3schools.com/python/python_try_except.asp)
 , [101computing.net/number-only/](https://www.101computing.net/number-only/)
 , [Global variables](/apcsp/console/globalvariables/)
-, [logicalOperatorGenerator](/apcsp/textgames/logicalOperatorGenerator/)
-, [nestedConditionalsGenerator](/apcsp/textgames/nestedConditionalsGenerator/)
-, [arrayPracticeGenerator](/apcsp/textgames/arrayPracticeGenerator/)
+
+
+- [logicalOperatorGenerator](/apcsp/textgames/logicalOperatorGenerator/)
+
+- [nestedConditionalsGenerator](/apcsp/textgames/nestedConditionalsGenerator/)
+
+- [arrayPracticeGenerator](/apcsp/textgames/arrayPracticeGenerator/)
+
 "
 
 - title: bigdata
