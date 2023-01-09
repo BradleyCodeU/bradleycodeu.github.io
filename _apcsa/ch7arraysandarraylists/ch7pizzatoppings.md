@@ -3,7 +3,6 @@ layout: project
 category: ch7arraysandarraylists
 title: Pizza Toppings
 ---
-Read this [w3schools ArrayList tutorial](https://www.w3schools.com/java/java_arraylist.asp)
 
 Read this [w3schools ArrayList tutorial](https://www.w3schools.com/java/java_arraylist.asp)
 
