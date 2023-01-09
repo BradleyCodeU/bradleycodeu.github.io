@@ -11,6 +11,7 @@ Detailed directions are given as comments in the starter code.
 
 ### Sample Run
 ```
+Displaying the list using the toString method...
 [Pepperoni, Mushroom, Sausage, Onion, Black Olives]
 
 Gimme a new pizza topping to add to the list: Pineapple
