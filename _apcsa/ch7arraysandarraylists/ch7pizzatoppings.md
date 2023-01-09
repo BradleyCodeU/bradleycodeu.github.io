@@ -7,6 +7,8 @@ Read this [w3schools ArrayList tutorial](https://www.w3schools.com/java/java_arr
 
 Use an ArrayList to store your favorite toppings for pizza.
 
+Detailed directions are given as comments in the starter code.
+
 ### Sample Run
 ```
 [Pepperoni, Mushroom, Sausage, Onion, Black Olives]
