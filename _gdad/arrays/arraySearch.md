@@ -46,7 +46,7 @@ Create a function called search()
   - for each item of the array
     - if the item contains the searchText
       - increase counter by 1
-      - call the addToList function and give it searchText as an argument
+      - call the addToList function and give it the item as an argument
   - if the counter equals 0
     - call the addToList function and give an argument that is a message that says searchText Not Found (For example, if you searched for "xyz" it might say "xyz Not Found")
 
