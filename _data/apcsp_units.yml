@@ -399,6 +399,7 @@ Projects:
 
 1. HttpAndHtml Quiz
 
+1. CablesWiresWifi Quiz
 
 
 Vocab: protocol, tcp, ip, http, ssl
@@ -517,17 +518,19 @@ Resources:
 
 Projects:
 
-1. KAAlgorithms1
+
 
 1. [StringsAndScreams](/apcsp/console/ConsoleStringsAndScreams/)
 
 1. [RandNameGenerator](/apcsp/console/randomNameGenerator)
 
+1. KAAlgorithms1
+
 1. [RandIntArray](/apcsp/console/103ConsoleRandomIntArray/)
 
-1. KAAlgo2
-
 1. [CBWarmup1](/apcsp/console/CodingBatWarmup1/)
+
+1. KAAlgo2
 
 1. [FunctionPractice](/apcsp/console/FunctionPractice/)
 
