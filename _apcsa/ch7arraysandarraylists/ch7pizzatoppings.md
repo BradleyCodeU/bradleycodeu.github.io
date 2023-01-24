@@ -66,7 +66,7 @@ class Main {
     
     //      Search the array using a TRADITIONAL FOR LOOP to determine if the string is in the arraylist
     
-    //           Use the indexOf method and remove method to find and remove that pizza topping
+    //           Find and remove that pizza topping
     
     //           Use toString to print the new list OR print "That is not in the list"
     
