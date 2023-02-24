@@ -463,7 +463,9 @@ Resources:
 - title: menu4
   content: "[4th Quarter](#4th-quarter)
 
-1. **[Agile](#agile)** - *4 wks*
+  1. **[Unity2](#unity2)** - *3 wk*
+
+1. **[Agile](#agile)** - *1 wk*
 
 1. **[Swift](#swift)** - *4 wks*
 
@@ -476,30 +478,16 @@ Resources:
 
 
 "
-- title: agile
-  heading: "# Agile"
-  content: "*4 wks*
+- title: unity2
+  heading: "# Unity2"
+  content: "*3 wks*
 
-
-  1. [Unity Basic Gameplay](/gdad/agile/UnityBasicGameplay/)
-  
-  1. ScrumInSchool Quiz
-  
-  1. [Unity Play Fetch](/gdad/agile/UnityPlayFetch/)
-  
-  1. ScrumInUnder5Minutes Quiz
-  
-  1. [Unity Unit2 Quiz](/gdad/agile/UnityUnit2Quiz/)
-  
-  1. WaterfallDevelopment Quiz
-  
-  1. [RollABallV1](/gdad/agile/UnityRollABallV1/)
-  
-  1. TheAgileManifesto Quiz
-  
-  1. [RollABallV2Multiplayer](/gdad/agile/UnityRollABallV2Multiplayer/)
-  
-  1. [RollABallV3YouWin](/gdad/agile/UnityRollABallV3YouWin/)
+1. [Unity Basic Gameplay](/gdad/agile/UnityBasicGameplay/)
+1. [Unity Play Fetch](/gdad/agile/UnityPlayFetch/)
+1. [Unity Unit2 Quiz](/gdad/agile/UnityUnit2Quiz/)
+1. [RollABallV1](/gdad/agile/UnityRollABallV1/)
+1. [RollABallV2Multiplayer](/gdad/agile/UnityRollABallV2Multiplayer/)
+1. [RollABallV3YouWin](/gdad/agile/UnityRollABallV3YouWin/)
 
 
 
@@ -507,9 +495,37 @@ Additional:
 
   1. [SpaceShooterV1](/gdad/agile/UnitySpaceShooterV1/)
 
+Resources:
+
+  - [Post Processing in Unity](/gdad\agile\PostProcessingInUnity/)
+
+  "
+- title: agile
+  heading: "# Agile"
+  content: "*1 wk*
+
+
+  
+  
+  1. ScrumInSchool Quiz
+  
+ 
+  
+  1. ScrumInUnder5Minutes Quiz
+  
+
+  
+  1. WaterfallDevelopment Quiz
+  
+ 
+  
+  1. TheAgileManifesto Quiz
+  
+
+
 
 Resources:
-  - [Post Processing in Unity](/gdad\agile\PostProcessingInUnity/)
+
   - [Agile vocab list](https://docs.google.com/document/d/1W2XWOGrPkRcey1bz16oligZgUBBjUUI4V6-e056omaw/edit?usp=sharing)
   - [Agile vocab review game](https://bradleycodeu.github.io/gdad/agile/review/)
 
@@ -525,23 +541,27 @@ Resources:
   content: "*4 wks*
 
 
-1. AllAboutMeApp
+1. [AllAboutMeApp](/gdad/swift/allaboutmeiosapp/)
 
-1. StackViewApp
+1. [StackViewApp](/gdad/swift/SwiftStackViewApp/)
 
-1. Ch1-6
+1. [UsingButtons](/gdad/swift/SwiftUsingButtons/)
 
-1. Ch7-12
+1. [Ch1to6Playground](/gdad/swift/chapters1to6/)
 
-1. UsingButtons
+1. [Flashlight](/gdad/swift/flashlightApp/)
 
-1. Flashlight
+1. [CardGame](/gdad/swift/SwiftCardGame/)
 
-1. SoloLrnSwiftBasics
+1. [Ch7to12Playground](/gdad/swift/chapters7to12/)
 
-1. Ch13QuestionBot
+1. [SoloLrnSwiftBasics](/gdad/swift/sololearnswift/)
 
-1. ShouldBot
+1. [Ch13QuestionBot](/gdad/swift/chapter13QuestionBot/)
+
+1. [ShouldBot](/gdad/swift/shouldbotApp/)
+
+1. [SoloLrnSwiftControlFlow](/gdad/swift/SoloLrnSwiftControlFlow/)
 
 "
 

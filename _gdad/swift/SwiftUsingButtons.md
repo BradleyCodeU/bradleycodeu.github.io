@@ -19,5 +19,5 @@ EASY MODE:
 DIFFICULT MODE:
 
 - Make a High/Low number-guessing game. Above the viewDidLoad() function, create a var named secret number and set it to 0. Inside the viewDidLoad() function, set secret number to be a random integer number. 
-- When the button is pressed, tell the user if their guess is too high ("Oof ___ is too high"), too low ("Oops ___ is too low"), or correct.
+- When the button is pressed, tell the user if their guess is too high ("Oof _ _ _ is too high"), too low ("Oops _ _ _ is too low"), or correct.
 - Submit a video of your simulator running and play a full game.
