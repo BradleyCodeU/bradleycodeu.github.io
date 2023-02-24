@@ -5,8 +5,15 @@ title: Unity Player Control
 ---
 
 
+Create a new 3D Unity project and name it PlayerControl. Once you have a new empty project, import the starter files below.
 
-Complete Create with Code > Unit 1 - Player Control > Lessons 1.1 through 1.4
+Complete Create with Code > Unit 1 - Player Control > Lessons 1.1 through 1.4 Step into the Driver's Seat.
+
+NOTE: "Select your Unity version" should be set to 2020.3
+
+Stop when you get to Challenge 1 - Plane Programming, because that will be the next assignment.
+
+Turn in a demo video of your finished PlayerControl project.
 
 Course link:
 
