@@ -1,4 +1,8 @@
-SwiftUsingButtons
+---
+layout: project
+category: swift
+title: Swift Using Buttons
+---
 
 Tutorial: 
 [https://drive.google.com/file/d/17oyHocb5ZHggnJ68Y89X0Wj4YI1_HHHP/view?usp=sharing](https://drive.google.com/file/d/17oyHocb5ZHggnJ68Y89X0Wj4YI1_HHHP/view?usp=sharing)
