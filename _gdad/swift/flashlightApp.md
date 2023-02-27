@@ -48,7 +48,7 @@ Let's create an action for our button.
 
 #### Create a buttonPressed action
 
-While holding the Control button, drag from the button on your canvas to the code display in the editor, stopping the drag at the line below the class definition (```class ViewController: UIViewController```).
+While holding the Control key, drag from the button on your canvas to the code display in the editor, stopping the drag at the line below the class definition (```class ViewController: UIViewController```).
 
 Change the connection from Outlet to Action. Name it buttonPressed. Click Connect.
 
@@ -110,7 +110,7 @@ Outlets offer a way to reference interface objects (on your storyboard) in your 
 
 If you need to re-open the Assistant Editor... click on Main.storyboard in the Navigator, click the Editor drop-down menu and then select Assistant. Xcode should automatically open the ViewController.swift file for you to edit on the right. If it opened the wrong file, you can drag ViewController.swift from the Navigator area to the top of the new Editor window on the right.
 
-While holding the Control button, drag from the button on your canvas to the code display in the editor on the right, stopping the drag at the line below the class definition (```class ViewController: UIViewController```).
+While holding the Control key, drag from the button on your canvas to the code display in the editor on the right, stopping the drag at the line below the class definition (```class ViewController: UIViewController```).
 
 ![control Drag From Button To Create An Outlet](/gdad/swift/img/controlDragFromButtonToCreateAnOutlet.png)
 
