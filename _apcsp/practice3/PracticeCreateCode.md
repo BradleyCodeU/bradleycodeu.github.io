@@ -4,9 +4,9 @@ category: practice3
 title: Practice3CreateCode
 ---
 
-_Note: You will use your Foobar v2 code for the Practice Create Task. This is just practice so your code doesn't need to be \*perfect.\* It just needs to run without giving you errors._
+Submit a PDF of your code. You can use Google Docs to export as a PDF file.
 
-_You can use [this website](https://bakerfranke.github.io/codePrint/) to create a PDF of your code._
+<hr>
 
 PROGRAM CODE (CREATED INDEPENDENTLY OR COLLABORATIVELY)
 
