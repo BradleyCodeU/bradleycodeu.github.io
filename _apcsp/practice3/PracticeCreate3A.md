@@ -6,7 +6,7 @@ title: Practice3Create3A
 
 NOTE: Don't forget that questions 3a-ii and 3a-iii are asking about what happened IN THE VIDEO.
 
-
+![Youtube thumbnail that says "idk what happened in this video lol"](/apcsp\practice3\whathappened.jpg)
 
 WRITTEN RESPONSES (CREATED INDEPENDENTLY)
 
