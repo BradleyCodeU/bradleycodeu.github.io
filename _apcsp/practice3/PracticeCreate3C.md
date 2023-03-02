@@ -3,7 +3,9 @@ layout: project
 category: practice3
 title: Practice3Create3C
 ---
+REMEMBER: Your selected function MUST have an argument (aka a parameter), MUST have a loop (iteration), and MUST have an if-then (selection)
 
+<hr>
 
 3c. Capture and paste two program code segments you developed during the administration of this task that contain a student-developed procedure that implements an algorithm used in your program and a call to that procedure. Approx. 200 words (for all subparts of 3c combined, exclusive of program code)
 
