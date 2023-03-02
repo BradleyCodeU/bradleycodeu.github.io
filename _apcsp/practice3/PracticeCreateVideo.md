@@ -3,7 +3,11 @@ layout: project
 category: practice3
 title: Practice3CreateVideo
 ---
-PracticeCreateVideo
+Submit a demo video less than 1 minute in length that shows input, shows output, and demonstrates 1 or more features. Use the iPad floating keyboard because it looks better.
+
+![Using the iPad floating keyboard](/apcsp\practice3\ipadFloatingKeyboard.gif)
+
+<hr>
 
 VIDEO (CREATED INDEPENDENTLY)
 
@@ -15,9 +19,6 @@ Your video MUST demonstrate your program running, including:
 *   At least one aspect of the functionality of your program
 *   Output produced by your program
 
-Use the iPad floating keyboard:
-
-![Using the iPad floating keyboard](/apcsp\practice3\ipadFloatingKeyboard.gif)
 
 Your video may NOT contain:
 
