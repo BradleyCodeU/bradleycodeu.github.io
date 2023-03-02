@@ -4,6 +4,10 @@ category: practice3
 title: Practice3Create3D
 ---
 
+REMEMBER: Your two tests MUST be tests of the same function (the one you picked for question 3c). The two tests MUST have different arguments and different results.
+
+<hr>
+
 
 3d. Provide a written response that does all three of the following: Approx. 200 words (for all subparts of 3d combined)
 
