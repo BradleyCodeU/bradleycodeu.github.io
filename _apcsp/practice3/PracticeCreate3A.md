@@ -4,6 +4,10 @@ category: practice3
 title: Practice3Create3A
 ---
 
+NOTE: Don't forget that questions 3a-ii and 3a-iii are asking about what happened IN THE VIDEO.
+
+
+
 WRITTEN RESPONSES (CREATED INDEPENDENTLY)
 
 Submit your responses to prompts 3a – 3d, <strike>which are described below</strike>. Your response to all prompts combined must not exceed 750 words (program code is not included in the word count). Collaboration is not allowed on the written responses. Instructions for submitting your written responses are available on the AP Computer Science Principles Exam Page on AP Central.
