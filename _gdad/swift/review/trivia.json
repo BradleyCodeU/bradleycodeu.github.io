@@ -1,0 +1,81 @@
+[
+    
+{
+"answer": "comment","question": "a human-readable note in the code of a program that is not executed like normal code and is not seen by the user running the program. In Swift, it starts with // two forward slashes."
+},
+{
+"answer": "multiline comment","question": "a long section of human-readable notes in the code that begins with a single forward-slash, followed by an asterisk (/*). It concludes with an asterisk, then a forward-slash (*/)."
+},
+{
+"answer": "error","question": "a problem in code that stops it from running."
+},
+{
+"answer": "let","question": "the Swift keyword used to define a constant."
+},
+{
+"answer": "var","question": "the Swift keyword used to define a variable."
+},
+{
+"answer": "constant","question": "a named piece of computer memory where the value can NOT be changed while the program runs. A value must be assigned when it is first created."
+},
+{
+"answer": "variable","question": "a named piece of computer memory where a changeable value can be stored."
+},
+{
+"answer": "assignment operator","question": "a single equals sign used to set the value of a constant or variable. For example, a = 10 would update the value stored in a to be 10."
+},
+{
+"answer": "equality operator","question": "returns true if the value on the left is equal to the value on the right, otherwise it returns false. In Swift, it is the characters ==."
+},
+{
+"answer": "int","question": "a data type that stores a whole number. For example, 42, 0, or -3729."
+},
+{
+"answer": "float","question": "a data type that stores a floating-point decimal number. For example, 42.5, 0.001, or -3.729."
+},
+{
+"answer": "boolean","question": "a data type that stores one of two possible values: true or false."
+},
+{
+"answer": "string","question": "a data type that stores a collection of letters, such as \"Hello\"."
+},
+{
+"answer": "escape sequence","question": "character combinations consisting of a backslash followed by a letter or combination of symbols. This must be used in order to represent a newline character \\n, quotation mark \\\", or certain other characters in text."
+},
+{
+"answer": "Unicode","question": "the international standard that can represent almost any character from any language in a standard way."
+},
+{
+"answer": "string interpolation","question": "the ability for Swift to insert the values of variables and constants into text, such as \"Hello, \\(name).\""
+},
+{
+"answer": "console","question": "an Xcode window where a user may input commands and view output such as error messages, the results commands, or status messages from the computer."
+},
+{
+"answer": "print()","question": "a Swift function that sends a message to the console."
+},
+{
+"answer": "compound operator","question": "a shortcut that modifies a value and assigns it back into the original variable at the same time. For example, score += 10 is a shortcut for writing score = score + 10. The += adds 10 to the current value of score and saves it back in score."
+},
+{
+"answer": "nil","question": "Swift's term for missing data. An optional that has no value will be set to this."
+},
+{
+"answer": "nil coalescing","question": "an operator in Swift, written as ??, that uses the value from an optional if it has a value, or uses a default value if it has no value."
+},
+{
+"answer": "ViewController","question": "a Swift class that is responsible for displaying the data of our iOS application on the screen."
+},
+{
+"answer": "outlet","question": "a connection to a storyboard user interface element inside of the view controller code."
+},
+{
+"answer": "UILabel","question": "a user interface element that displays one or more lines of text on the storyboard."
+},
+{
+"answer": "IBAction","question": "a function inside of the view controller code that is connected to a user input element in the storyboard."
+},
+{
+"answer": "viewDidLoad()","question": "a function that gets called automatically when the view (aka the user interface) loads on the screen."
+}
+]
