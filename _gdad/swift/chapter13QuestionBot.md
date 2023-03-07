@@ -4,9 +4,9 @@ category: swift
 title: Chapter 13 Question Bot
 ---
 
-Follow the directions in the Apple eBook "Intro to App Development with Swift" chapter 13. You WILL need to [download the free eBook](https://books.apple.com/us/book/intro-to-app-development-with-swift/id1118575552) for this project.
+Follow the directions in the PDF file (BuildQuestionBot.pdf) posted in Canvas
 
-Starter files for this project are posted to Canvas
+Starter files for this project are posted in Canvas
 
 Your finished QuestionBot MUST:
   - convert the user input to lowercase
