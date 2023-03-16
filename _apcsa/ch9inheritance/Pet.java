@@ -4,22 +4,25 @@ public abstract class Pet {
     private ArrayList<String> actions = new ArrayList<String>();
     private int hunger;
 
-    public abstract void addOneHour(); // each child class MUST override this 
+    public abstract void addOneHour(); // each child class MUST override this
 
-    public abstract boolean isHappy(); // each child class MUST override this 
+    public abstract boolean isHappy(); // each child class MUST override this
 
     public void addAction(String _action) {
         this.actions.add(_action);
     }
 
+    // NOTE: assume that action argument will be lowercase
     public void doAction(String _action) {
+        _action = _action.toLowerCase();
         if (action.equals("feed")) {
-            // fill in this code yourself. the rest of this class is complete.
             // what should happen when player feeds their pet?
+            ???
+            // fill in this code yourself. the rest of this class is complete.
         }
     }
 
-    public ArrayList<String> getActions() {
+    public ArrayList<String> getActionList() {
         return this.actions;
     }
 
