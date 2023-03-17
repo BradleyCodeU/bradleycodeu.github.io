@@ -63,7 +63,7 @@ class Main {
       System.out.println(". . . . . . . . . . . .\n");
       System.out.println(pets[petNumber].toString() + "\n");
       System.out.println("Please type one of the following actions:");
-      for (String each: pets[petNumber].getActionsList())
+      for (String each: pets[petNumber].getListOfActions())
       {
         if (each.length() > 0)
         {
@@ -78,7 +78,7 @@ class Main {
       action = input.nextLine().toLowerCase();
       if (action.length() > 0)
       {
-        for (String each: pets[petNumber].getActionsList())
+        for (String each: pets[petNumber].getListOfActions())
         {
           if (action.toLowerCase().equals(each.toLowerCase()))
           {
