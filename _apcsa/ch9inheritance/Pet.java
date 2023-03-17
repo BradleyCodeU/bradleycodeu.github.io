@@ -12,17 +12,16 @@ public abstract class Pet {
         this.actions.add(_action);
     }
 
-    // NOTE: assume that action argument will be lowercase
+    // NOTE: assume that the argument will always be lowercase
     public void doAction(String _action) {
-        _action = _action.toLowerCase();
+        _action = _action.toLowerCase(); 
         if (action.equals("feed")) {
             // what should happen when player feeds their pet?
-            ???
-            // fill in this code yourself. the rest of this class is complete.
+            ???  // fill in this code yourself. the rest of this class is complete.
         }
     }
 
-    public ArrayList<String> getListOfActions() {
+    public ArrayList<String> getActionsList() {
         return this.actions;
     }
 
