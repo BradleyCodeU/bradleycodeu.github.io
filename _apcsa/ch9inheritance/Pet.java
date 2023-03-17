@@ -21,7 +21,7 @@ public abstract class Pet {
         }
     }
 
-    public ArrayList<String> getActionsList() {
+    public ArrayList<String> getListOfActions() {
         return this.actions;
     }
 
