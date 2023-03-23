@@ -13,6 +13,13 @@ NOTE: "Select your Unity version" should be set to 2020.3
 
 Stop when you get to Challenge 1 - Plane Programming, because that will be the next assignment.
 
+ADDITIONAL REQUIREMENTS:
+
+    - Main Camera MUST NOT be a child of the player vehicle
+    - MUST have 5 or more obstacles with RigidBodies
+    - MUST import an OBJ file... either the school logo OR some other OBJ file you found online
+    - Your demo video MUST demonstrate driving forward, driving backwards, turning left, turning right, and crashing into obstacles.
+
 Turn in a demo video of your finished PlayerControl project.
 
 Course link:
