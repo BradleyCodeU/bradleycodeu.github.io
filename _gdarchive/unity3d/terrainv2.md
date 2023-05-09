@@ -25,9 +25,9 @@ In addition to the mountains, grass, hills, shrubs, and first/third person camer
 
 - enable fog by going to Window > Lighting > Settings and checking the Fog checkbox
 
-- SketchUp house (with brick, wood, glass, etc textures and with cut-out doors the player can walk through). Once your SketchUp house is built, click File > Export > 3D Model. Select *OBJ* format (not DAE). Select your Unity project assets folder, then click Options. Check the Export Two-sided Faces checkbox. Then click OK and Export. In Unity, add a mesh collider to the walls so the player can't walk through them
+- [SketchUp](https://app.sketchup.com/app) house (with brick, wood, glass, etc textures and with cut-out doors the player can walk through). Once your SketchUp house is built, click File > Export > 3D Model. Select *OBJ* format (not DAE). Select your Unity project assets folder, then click Options. Check the Export Two-sided Faces checkbox. Then click OK and Export. In Unity, add a mesh collider to the walls so the player can't walk through them
 
-- 3 or more collectibles (review the Roll A Ball videos if you don't remember how)
+- 3 or more collectibles (review the [Roll A Ball project's Counting Points video](https://drive.google.com/drive/u/0/folders/1Ty6SYENccamq1nSBsfRZE4daQkKmZIZr) if you don't remember how)
 - Make your collectibles glow by adding a child Point Light or Area Light
 - UI Text that tells the player how many collectables they've collected (for example, "0 of 5 collected" OR "0/5 collected")
 - UI Text that tells the player "You Win" if all collectibles are collected
