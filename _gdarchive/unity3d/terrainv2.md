@@ -33,6 +33,7 @@ In addition to the mountains, grass, hills, shrubs, and first/third person camer
 - UI Text that tells the player "You Win" if all collectibles are collected
 
 - A reset script, just in case the player falls off of the world. Reset script reminder... you only need these 3 lines of code. You should know where to put these by now.
+
 ```
 private Vector3 startpos;
 
