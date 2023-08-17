@@ -528,11 +528,13 @@ Additional:
   content: "
 
 
-  1. [Ch7.6 Checkerboard](/apcsa/ch762darrays/Ch76Checkerboard/)
+  1. [Ch7.6 2D Checkerboard](/apcsa/ch762darrays/Ch76Checkerboard/)
 
   1. Ch7 Review Quiz Array, ArrayList, For Each Loop
 
   1. Ch7 Array Loops FRQ
+
+  1. Ch7 MC Pet Random Names
 
   1. Ch7 Test
 
@@ -570,17 +572,28 @@ Additional:
   heading: "# Ch8DesigningClasses"
   content: "
 
+
+1. [Ch8 Geometry](/apcsa/ch8designingclasses/Ch8GeometryClass/)
+
+1. [Ch8 Robot](/apcsa/ch8designingclasses/Ch8RobotClass/)
+
+1. Picture Lab activities 1 to 5
+
+1. [Ch8 Coin Flipper](/apcsa/ch8designingclasses/Ch8CoinFlipper/)
+
 1. [Ch8 SoloLrn Classes And Objects](/apcsa/ch8designingclasses/Ch8SoloLrnClassesAndObjects/)
 
-1. [Ch8 Geometry Class](/apcsa/ch8designingclasses/Ch8GeometryClass/)
+1. Ch8 Practice FRQ StepTracker
 
-  1. [Ch8 Robot Class](/apcsa/ch8designingclasses/Ch8RobotClass/)
+1. Ch8 Review Quiz
+
+1. Ch8 Test
 
 
 
 Additional:
 
-  1. [Ch8 Coin Flipper](/apcsa/ch8designingclasses/Ch8CoinFlipper/)
+
 
   1. [Ch8 Store Class](/apcsa/ch8designingclasses/Ch8StoreClass/)
 
@@ -594,15 +607,19 @@ Additional:
   content: "
 
 
-1. Picture Lab activities 1 to 5
 
-1. [Ch9 Dog Class](/apcsa/ch9inheritance/Ch9DogClass/)
 
-1. [Ch9 UML Diagram](/apcsa/ch9inheritance/Ch9UMLDiagram/)
+1. [Ch9 Dog](/apcsa/ch9inheritance/Ch9DogClass/)
+
+1. [Ch9 Pet Store UML](/apcsa/ch9inheritance/Ch9UMLDiagram/)
 
 1. [Ch9 Virtual Pet UML](/apcsa/ch9inheritance/Ch9VirtualPetUML/)
 
 1. [Ch9 Virtual Pet Game](/apcsa/ch9inheritance/Ch9VirtualPetGame/)
+
+1. Ch9 Review Quiz
+
+1. Ch9 Inheritance Test
 
 
 
@@ -671,6 +688,10 @@ Additional:
 1. [Ch14 InsertionSort](/apcsa/ch14sortingandsearching/Ch14InsertionSort/)
 
 1. [Ch14 MergeSort](/apcsa/ch14sortingandsearching/Ch14MergeSort/)
+
+
+
+Additional:
 
 1. [Ch14 Sorting Worksheet](/apcsa/ch14sortingandsearching/Ch14SortingWorksheet/)
 
