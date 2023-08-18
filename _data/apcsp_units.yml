@@ -102,7 +102,7 @@ Projects:
 
 1. [Class Codes](/apcsp/scratch/ClassCodes/)
 
-1. [About Me](/apcsp/scratch/001AboutMe/)
+1. [All About Me](/apcsp/scratch/001AboutMe/)
 
 1. [Random Walk](/apcsp/scratch/randomWalk/)
 
@@ -112,12 +112,14 @@ Projects:
 
 1. [Star Hunter](/apcsp/scratch/003StarHunter/)
 
-1. Scratch Quiz (Scratch vocab, debugging, control structure flowcharts)
+1. [Cheese Chase](/apcsp/scratch/005CheeseChase/)
+
+1. Scratch Test (Scratch vocab, debugging, control structure flowcharts)
 
 
 Additional Projects:
 
-1. [Cheese Chase](/apcsp/scratch/005CheeseChase/)
+
 
 1. Pick- [Launcher Game](/apcsp/scratch/006LauncherGame/) or [Hungry Bug](/apcsp/scratch/008HungryBug/) or [Racing Game](/apcsp/scratch/009RacingGame/)
 
@@ -163,7 +165,11 @@ Projects:
 
   1. Pair- [Py Valid Number](/apcsp/py/111PyValidNumber/)
 
-  1. Py Basics Quiz (Py Vocab, Py basics practice, debugging)
+  1. Pair- [Py Weight On Planets](/apcsp/py/114PyWeightOnPlanets/)
+
+  1. Py Basics Review Quiz
+
+  1. Py Basics Test (Py Vocab, Py basics practice, debugging)
 
 
 
@@ -208,11 +214,11 @@ Resources:
   content: "
 *1 wk*, Create Task Practice 1
 
-  1.  Pair- [Practice 1 Code](/apcsp/practice1/Practice1Code/)
+  1.  Pair- [Create Practice 1 Educational Game Code](/apcsp/practice1/Practice1Code/)
 
-  1.  [Practice 1 Video](/apcsp/practice1/Practice1Video/)
+  1.  [Create Practice 1 Video](/apcsp/practice1/Practice1Video/)
 
-  1.  [Practice 1 Questions](/apcsp/practice1/Practice1Questions/)
+  1.  [Create Practice 1 Questions](/apcsp/practice1/Practice1Questions/)
 
 
 "
@@ -234,11 +240,13 @@ Projects:
 
 1. [Hex Worksheet](/apcsp/binary/BinaryHexWorksheet/)
 
-1. 4bit Binary Quizizz
+1. Quizizz 4bit Binary
 
-1. 8bit Binary Quizizz
+1. Quizizz 8bit Binary
 
-1. Binary Quiz (binary vocab, 4bit binary, 6bit binary, 2bit hex, 3bit octal, other bases)
+1. Quizizz 2 digit Hex
+
+1. Binary Test (binary vocab, 4bit binary, 6bit binary, 2bit hex, 3bit octal, other bases)
 
 
 Vocab: binary, base-2, decimal, base-10, digit, bit, byte, hexadecimal, base-16, octal, base-8, ASCII, base-64 Big Data
@@ -347,12 +355,12 @@ Projects:
 
 1. Pair- [Trt Random Faces](/apcsp/turtleart/turtleRandomFaces/)
 
-1. [Trt Op Art](/apcsp/turtleart/TrtOpArt/)
-
-1. Turtle Quiz (vocab, debugging, python basics)
+1. Turtle Test (vocab, debugging, python basics)
 
 
 Additional Projects:
+
+1. [Trt Op Art](/apcsp/turtleart/TrtOpArt/)
 
 1. Pair-Pick- [Trt Block Letters](/apcsp/turtleart/026TurtleBlockLetters/) or [Trt Polygons](/apcsp/turtleart/013TurtlePolygons/)
 
@@ -437,6 +445,8 @@ Projects:
 
 1. Team- [Sprint4](/apcsp/scrum/scrumsprint4/)
 
+1. Scrum and IP vocab test
+
 
 
 
@@ -452,13 +462,11 @@ Resources:
   heading: "# Practice2"
   content: "
 
-1. [Create2 Code PDF](/apcsp/practice2/Create2CodePDF/)
+1. [Create Practice 2 Code PDF](/apcsp/practice2/Create2CodePDF/)
 
-1. [Create2 Video](/apcsp/practice2/Create2Video/)
+1. [Create Practice 2 Video](/apcsp/practice2/Create2Video/)
 
-1. [Create2 Questions](/apcsp/practice2/Create2Questions/)
-
-1. Midterm Exam
+1. [Create Practice 2 Questions](/apcsp/practice2/Create2Questions/)
 
 "
 
@@ -489,15 +497,15 @@ Resources:
 
   1. [Text Games](#textgames) - *2 wks*
 
-  1. [Big Data](#bigdata) - *1 wk*
-
   1. [Objects](#objects) - *2 wks*
 
-  1. [Digital Info](#digitalinfo) - *1 wk*
+  1. [Big Data](#bigdata) - *1 wk*
 
   1. [Practice3](#practice3) - *2 wks*
 
   1. [OOP](#oop) - *1 wk*
+
+  1. [Digital Info](#digitalinfo) - *1 wk*
 
 
 
@@ -530,15 +538,15 @@ Projects:
 
 1. [CBWarmup1](/apcsp/console/CodingBatWarmup1/)
 
+1. Pair- [FillTheBlankGame](/apcsp/console/028ConsoleFillInTheBlankQuizGame/)
+
 1. KAAlgo2
 
 1. [FunctionPractice](/apcsp/console/FunctionPractice/)
 
-1. Pair- [FillTheBlankGame](/apcsp/console/028ConsoleFillInTheBlankQuizGame/)
-
 1. Pair- [TipCalculator](/apcsp/console/029ConsoleTipCalculator/)
 
-1. Console Quiz (arrays, nested conditionals, logical operators)
+1. Console Test (arrays, nested conditionals, logical operators)
 
 
 
@@ -546,8 +554,6 @@ Projects:
 Additional Projects:
 
 1. [Pseudocode3PPong](/apcsp/console/023ConsolePseudocode3PPong/)
-
-
 
 1. Pair-Pick- [Temps](/apcsp/console/022ConsoleTemps/) or [MultiChoiceGame](/apcsp/console/024ConsoleMultiChoiceQuizGame/)
 
@@ -598,19 +604,21 @@ Projects:
 
   1. KASecurity1&2
 
-  1. [CBString1](/apcsp/textgames/CodingBatString1/)
-
   1. Pair- [BossBattle](/apcsp/textgames/bossBattle/)
-
-  1.  KASecurity3
 
   1. [CBList1](/apcsp/textgames/CodingBatList1/)
 
   1. [HighLowWord](/apcsp/textgames/highLowWord/)
 
+  1.  KASecurity3
+
+
+
 
 
 Additional:
+
+  1. [CBString1](/apcsp/textgames/CodingBatString1/)
 
   1. [ArraySearch](/apcsp/textgames/arraySearch/)
 
@@ -641,20 +649,7 @@ Resources:
 
 "
 
-- title: bigdata
-  heading: "# BigData"
-  content: "
-*1 wk*,
 
-
-1.  KADataAnalysis
-
-
-Vocab: datatype, database, data structure, API, data mining, SQL, callback, Internet of Things, JSON, metadata, AJAX, server, analytics, server farm, query, XML
-
-Code.org Unit 4: Big Data and Privacy, [https://studio.code.org/s/csp4-2018](https://studio.code.org/s/csp4-2018)
-
-"
 
 - title: objects
   heading: "# Objects"
@@ -666,7 +661,7 @@ Code.org Unit 4: Big Data and Privacy, [https://studio.code.org/s/csp4-2018](htt
 Projects:
 
 
-  1. [Chatbots](/apcsp/objects/chatbots/)
+  1. Pair- [Chatbots](/apcsp/objects/chatbots/)
 
   1. Pair- [Castles And Creatures](/apcsp/objects/033TextGamesCastlesAndCreatures/)
 
@@ -683,10 +678,68 @@ Resources:
 , [Dictionary Length](https://bradleycodeu.github.io/apcsp/tk/dictionaries05-dictionary-length/)
 "
 
+- title: bigdata
+  heading: "# BigData"
+  content: "
+*1 wk*,
+
+
+1.  KADataAnalysis
+
+
+Vocab: datatype, database, data structure, API, data mining, SQL, callback, Internet of Things, JSON, metadata, AJAX, server, analytics, server farm, query, XML
+
+Code.org Unit 4: Big Data and Privacy, [https://studio.code.org/s/csp4-2018](https://studio.code.org/s/csp4-2018)
+
+"
 
 
 
-- title: digitalinfo
+
+
+- title: practice3
+  heading: "# Practice3"
+  content: "
+*2 wks* - Review student sample responses
+
+Projects:
+
+  1. [Create Practice 3 Code](/apcsp/practice3/PracticeCreateCode/)
+
+  1. [Create Practice 3 Video](/apcsp/practice3/PracticeCreateVideo/)
+
+  1. [Create Practice 3A](/apcsp/practice3/PracticeCreate3A/)
+
+  1. [Create Practice 3B](/apcsp/practice3/PracticeCreate3B/)
+
+  1. [Create Practice 3C](/apcsp/practice3/PracticeCreate3C/)
+
+  1. [Create Practice 3D](/apcsp/practice3/PracticeCreate3D/)
+
+"
+- title: oop
+  heading: "# Oop"
+  content: "
+
+*1 wk*
+
+Projects:
+
+  1. Pair- [Chili Game](/apcsp/oop/chiliGame/)
+
+  1. [Caesar Cipher Game](/apcsp/oop/CaesarCipherGame/)
+
+  1. [Mythopoly Game](/apcsp/oop/MythopolyGame/)
+
+  1. KASimulations
+
+  1. [Home Run Game](/apcsp/oop/HomeRunGame/)
+
+  1. [Virtual Pet Game](/apcsp/oop/VirtualPetGame/)
+
+
+  "
+  - title: digitalinfo
   heading: "# DigitalInfo"
   content: "
 *1 wk*
@@ -715,49 +768,6 @@ Resources:
   - [Foobar the Bazbarian](https://foobar-the-bazbarian.glitch.me/)
 
 "
-
-- title: practice3
-  heading: "# Practice3"
-  content: "
-*2 wks* - Review student sample responses
-
-Projects:
-
-  1. [PracticeCreateCode](/apcsp/practice3/PracticeCreateCode/)
-
-  1. [PracticeCreateVideo](/apcsp/practice3/PracticeCreateVideo/)
-
-  1. [PracticeCreate3A](/apcsp/practice3/PracticeCreate3A/)
-
-  1. [PracticeCreate3B](/apcsp/practice3/PracticeCreate3B/)
-
-  1. [PracticeCreate3C](/apcsp/practice3/PracticeCreate3C/)
-
-  1. [PracticeCreate3D](/apcsp/practice3/PracticeCreate3D/)
-
-"
-- title: oop
-  heading: "# Oop"
-  content: "
-
-*1 wk*
-
-Projects:
-
-  1. Pair- [Chili Game](/apcsp/oop/chiliGame/)
-
-  1. [Caesar Cipher Game](/apcsp/oop/CaesarCipherGame/)
-
-  1. [Mythopoly Game](/apcsp/oop/MythopolyGame/)
-
-  1. KASimulations
-
-  1. [Home Run Game](/apcsp/oop/HomeRunGame/)
-
-  1. [Virtual Pet Game](/apcsp/oop/VirtualPetGame/)
-
-
-  "
 
 
 
