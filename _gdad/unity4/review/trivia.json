@@ -1,0 +1,93 @@
+[
+
+{
+"answer":"GitHub","question":"a website that allows you to backup code, collaborate on coding projects, and/or host a webpage"
+},
+{
+"answer":"repository","question":"a cloud storage folder that contains all of a project's files and tracks each file's revision history"
+},
+{
+"answer":"clone","question":"to download a new project from the cloud to your computer for the first time"
+},
+{
+"answer":"commit","question":"a change or revision to project files. It saves each project draft with a unique ID that allows you to track changes"
+},
+{
+"answer":"push","question":"sends your project changes to the cloud"
+},
+{
+"answer":"pull","question":"retrieve changes from the cloud so that your computer’s copy is up to date"
+},
+{
+"answer":"merge conflict","question":"a problem that occurs when competing changes are made to the same file. Usually problems are resolved automatically, but other times Git needs your help to decide which changes to incorporate in the file"
+},
+{
+"answer":"pull request","question":"a proposed change to a project that can be accepted or rejected by someone that controls the project"
+},
+{
+"answer":"fork","question":"a remix of another person's project. It allows you to make changes to the project without affecting the original"
+},
+{
+"answer":"interactive story","question":"a narrative with some small interactive element added"
+},
+{
+"answer":"toy","question":"a plaything without defined goals"
+},
+{
+"answer":"puzzle","question":"a challenge without purposeful opponents"
+},
+{
+"answer":"competition","question":"a form of play without direct interaction between the players"
+},
+{
+"answer":"game","question":"a form of play in which players directly interact and are allowed to hurt each other's performance"
+},
+{
+"answer":"game of chance","question":"a game in which the outcome is mostly determined by a random device"
+},
+{
+"answer":"game of skill","question":"a game in which the outcome is mostly determined by mental or physical ability"
+},
+{
+"answer":"solved game","question":"a game in which the outcome can be correctly predicted if both players play logically"
+},
+{
+"answer":"game balancing","question":"making sure that a game is fair and that no strategy is overpowered"
+},
+{
+"answer":"handicapping","question":"giving different advantages or disadvantages to players at the start of a game in order to equalize the chances of winning"
+},
+{
+"answer":"perfect information","question":"a game feature in which players can see all the events that have previously occurred when making a decision"
+},
+{
+"answer":"private information","question":"a game feature in which players do not have the same common knowledge about the state of the game"
+},
+{
+"answer":"runaway leader","question":"a situation in which one player has an advantage and the other players feel they have no chance of winning and that playing out the rest of the game is pointless"
+},
+{
+"answer":"positive feedback loop","question":"a game mechanic in which the game rewards players for performing well with advantages that increase their performance"
+},
+{
+"answer":"negative feedback loop","question":"a game mechanic in which the game tries to avoid a runaway leader by either giving the lead player a disadvantage or giving others advantages"
+},
+{
+"answer":"dynamic game difficulty balancing","question":"adjusting advantages or disadvantages in the middle of a game in order to provide an appropriate challenge"
+},
+{
+"answer":"procedural generation","question":"automatically creating content based on pre-written instructions"
+},
+{
+"answer":"roguelike","question":"a genre of role-playing games that features level randomization and permanent death"
+},
+{
+"answer":"input randomness","question":"an unpredictable element brought into the game before players make a decision and allows the players to form a strategy"
+},
+{
+"answer":"output randomness","question":"an unpredictable element brought into the game after players make a decision and gives the players no control over the outcome"
+},
+{
+"answer":"deterministic","question":"a predictable system that has no randomness or variation in which one input will always produce the same results"
+}
+]
