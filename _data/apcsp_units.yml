@@ -4,74 +4,72 @@ apcsp:
   content: "*Whenever possible, select 'Sign up with Google' & use your hilliardschools.org account.* &nbsp; &nbsp; <a href='https://github.com/BradleyCodeU/bradleycodeu.github.io/blob/master/_data/apcsp_units.yml'>.</a>
 
 
-Sign up for:
+  Sign up for:
 
-- [scratch.mit.edu](https://scratch.mit.edu)
+  - [scratch.mit.edu](https://scratch.mit.edu)
 
-- [Runestone Academy](https://runestone.academy/runestone/default/user/register) AND use the *class code* posted on Canvas
+  - [digitalportfolio.collegeboard.org](https://digitalportfolio.collegeboard.org) Sign up with the email you check most frequently (probably your non-school email)
 
-- [digitalportfolio.collegeboard.org](https://digitalportfolio.collegeboard.org) Sign up with the email you check most frequently (probably your non-school email)
+  - 'Sign up with Google' [code.org](https://code.org/) AND use the *class code* posted on Canvas
 
-- 'Sign up with Google' [code.org](https://code.org/) AND use the *class code* posted on Canvas
+  - 'Sign up with Google' [repl.it](https://repl.it) AND use the *class code* posted on Canvas
 
-- 'Sign up with Google' [repl.it](https://repl.it) AND use the *class code* posted on Canvas
+  - 'Sign up with Google' [khanacademy.org](https://khanacademy.org) AND use the *class code* posted on Canvas
 
-- 'Sign up with Google' [khanacademy.org](https://khanacademy.org) AND use the *class code* posted on Canvas
-
-- 'Sign up with Google' [sololearn.com](https://www.sololearn.com/)
+  - 'Sign up with Google' [sololearn.com](https://www.sololearn.com/)
 
 
-Texts:
+  Texts:
 
-- [Python for Everybody by Charles Severance](https://books.trinket.io/pfe/index.html)
+  - [Python for Everybody by Charles Severance](https://books.trinket.io/pfe/index.html)
 
-- [An Introduction to Tkinter](https://effbot.org/tkinterbook/)
+  - [An Introduction to Tkinter](https://effbot.org/tkinterbook/)
 
 
-AP Details:
+  AP Details:
 
-- Create a College Board account by Sept 1, 2022 and join our AP class section via collegeboard.org/joinapclass
+  - Create a College Board account by Sept 1, 2022 and join our AP class section via collegeboard.org/joinapclass
 
-- Commit to take the AP test by Nov 1, 2022. Late fee is $40.
+  - Commit to take the AP test by Nov 1, 2022. Late fee is $40.
 
-- The written portion of the AP CSP exam will be held on Monday, May 8, 2023
+  - The written portion of the AP CSP exam will be held on Monday, May 8, 2023
 
-- [AP Computer Science Principles / The Exam](https://apcentral.collegeboard.org/courses/ap-computer-science-principles/exam)
+  - [AP Computer Science Principles / The Exam](https://apcentral.collegeboard.org/courses/ap-computer-science-principles/exam)
 
 
 
-References and Other Info:
+  References and Other Info:
 
-- [What is AP Computer Science Principles?](https://drive.google.com/file/d/1NNAFOaY4L8Y8BOdeQ_5uPmwjJEns8gii/view?usp=sharing)
+  - [What is AP Computer Science Principles?](https://drive.google.com/file/d/1NNAFOaY4L8Y8BOdeQ_5uPmwjJEns8gii/view?usp=sharing)
 
-- [College Board AP Computer Science Principles](https://drive.google.com/file/d/1TCRLWWJbCIa9TLMEevLJlTWyKGGd1CKa/view?usp=sharing)
+  - [College Board AP Computer Science Principles](https://drive.google.com/file/d/1TCRLWWJbCIa9TLMEevLJlTWyKGGd1CKa/view?usp=sharing)
 
-- [How to Get a Five: AP Computer Science Principles (AP CSP)](https://drive.google.com/file/d/1EYtMYgcG_SxX5tSnTpzWeceLvKVM3BEC/view?usp=sharing)
+  - [How to Get a Five: AP Computer Science Principles (AP CSP)](https://drive.google.com/file/d/1EYtMYgcG_SxX5tSnTpzWeceLvKVM3BEC/view?usp=sharing)
 
-- [How to Help Someone Use a Computer](https://pages.gseis.ucla.edu/faculty/agre/how-to-help.html)
+  - [How to Help Someone Use a Computer](https://pages.gseis.ucla.edu/faculty/agre/how-to-help.html)
 
 
 
 
 
--------
+  -------
 
 
-“...the essence and philosophy of programming. Resilience - Nothing is working but I’ll find a way! Perseverance - Just gotta keep trying. Empowerment - Anything I can think of I can make it a reality”
+  “...the essence and philosophy of programming. Resilience - Nothing is working but I’ll find a way! Perseverance - Just gotta keep trying. Empowerment - Anything I can think of I can make it a reality”
 
 
-*-Jessica Lam*
+  *-Jessica Lam*
 
 
-“People think that computer science is the art of geniuses but the actual reality is the opposite, just many people doing things that build on each other, like a wall of mini stones.”
+  “People think that computer science is the art of geniuses but the actual reality is the opposite, just many people doing things that build on each other, like a wall of mini stones.”
 
 
-*-Donald Knuth*
+  *-Donald Knuth*
 
 
 
 
--------
+  -------
 
 
 "
@@ -739,7 +737,7 @@ Projects:
 
 
   "
-  - title: digitalinfo
+- title: digitalinfo
   heading: "# DigitalInfo"
   content: "
 *1 wk*
@@ -810,7 +808,8 @@ Resources:
   "
 - title: create
   heading: "# Create"
-  content: "*3 wks* - Create - AP Performance Task Prep, Final Create
+  content: "
+  *3 wks* - Create - AP Performance Task Prep, Final Create
 
   1. KAInternet1&2
 
@@ -899,11 +898,13 @@ Resources:
 
 - title: greenfoot
   heading: "# Greenfoot"
-  content: "*3 wks* - objects, classes
+  content: "
+  *3 wks* - objects, classes
 "
 - title: java
   heading: "# Java"
-  content: "*3 wks* - input, output, objects, classes
+  content: "
+  *3 wks* - input, output, objects, classes
 
   1. SoloLrnJavaBasics
 
