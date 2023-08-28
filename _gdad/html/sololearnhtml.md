@@ -4,10 +4,12 @@ category: html
 title: SoloLrn HTML Overview
 ---
 
-Go to [https://www.sololearn.com/learning/1014](https://www.sololearn.com/learning/1014) and complete the Overview (Lessons 1.1 through 5.1). This includes the 3.2 Code Repo activity.
+First, go to [https://www.sololearn.com](https://www.sololearn.com) and choose "Sign In With Google" using your @hilliardschools.org account.
 
-Show Mr Riley your completed lessons OR turn in an UNCROPPED screenshot that shows you've completed the lessons.
+[https://www.sololearn.com/learn/courses/html-introduction](https://www.sololearn.com/learn/courses/html-introduction) OR go to Catalog > Courses then select Introduction To HTML
 
-![screenshot of Sololearn HTML Basics](/gdad/html/sololearnHtmlScreenshot.png)
+Complete the first section Getting Started With HTML (Core Web Technology through Module 1 Quiz). 
+
+When finished, show Mr Riley your completed lessons
 
 5 pts
