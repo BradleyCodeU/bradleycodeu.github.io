@@ -24,7 +24,25 @@ Java primitive data types (with ones we will use in APCSA <mark>highlighted</mar
 
 What is a 32-bit signed two's complement integer? The value of the left-most binary column (aka the most significant bit or MSB) is flipped to negative.
 
-Here are some *simpler* examples:
+## How does Unsigned compare to Two's Complement?
+
+Imagine a 3-bit data type. You're probably thinking about 3 columns of binary code. For example, 101. If the data type is Unsigned then 101 will have a different value (value 5) than if 101 is a Two's Complement data type (value -3).
+
+```
+3-bit unsigned columns = 4 2 1 (min value 0 to max value 7)
+
+3-bit signed two's complement columns = -4 2 1 (min -4 to max 3)
+
+NOTICE: Java uses signed two's complement so that it can store NEGATIVE NUMBERS.
+
+```
+| | | |
+|--- |--- |--- |
+|Binary value|Two's complement|Unsigned|
+| 101 | -3 | 5 |
+| 111 | -1 | 7 |
+
+Here are some more examples:
 
 ```
 3-bit signed two's complement columns = -4 2 1 (min -4 to max 3)
@@ -38,17 +56,16 @@ Here are some *simpler* examples:
 
 8-bit signed two's complement columns:
 
-|Binary value|Two's complement|Unsigned|
+| | | |
 |--- |--- |--- |
+|Binary value|Two's complement|Unsigned|
 |00000000|0|0|
 |00000001|1|1|
-|⋮|⋮|⋮|
 |01111110|126|126|
 |01111111|127|127|
 |10000000|−128|128|
 |10000001|−127|129|
 |10000010|−126|130|
-|⋮|⋮|⋮|
 |11111110|−2|254|
 |11111111|−1|255|
 
