@@ -29,11 +29,11 @@ What is a 32-bit signed two's complement integer? The value of the left-most bin
 Imagine a 3-bit data type. You're probably thinking about 3 columns of binary code. For example, 101. If the data type is Unsigned then 101 will have a different value (value 5) than if 101 is a Two's Complement data type (value -3).
 
 ```
-3-bit unsigned columns = 4 2 1 (min value 0 to max value 7)
+3-bit unsigned columns = 4 2 1 (min value 0 to max value 7) NO NEGATIVE NUMBERS?!
 
 3-bit signed two's complement columns = -4 2 1 (min -4 to max 3)
 
-NOTICE: Java uses signed two's complement so that it can store NEGATIVE NUMBERS.
+NOTICE: Java uses signed two's complement so it can store NEGATIVE NUMBERS.
 
 ```
 
@@ -41,9 +41,10 @@ NOTICE: Java uses signed two's complement so that it can store NEGATIVE NUMBERS.
 |Binary value|Two's complement|Unsigned|
 |--- |--- |--- |
 | 101 | -3 | 5 |
+| 110 | -2 | 6 |
 | 111 | -1 | 7 |
 
-Here are some more examples:
+Here are some more examples of two's complement columns:
 
 ```
 3-bit signed two's complement columns = -4 2 1 (min -4 to max 3)
@@ -55,7 +56,7 @@ Here are some more examples:
 8-bit signed two's complement = -128 64 32 16 8 4 2 1 (min -128 to max 127)
 ```
 
-8-bit signed two's complement columns:
+8-bit values in two's complement versus unsigned:
 
 |Binary value|Two's complement|Unsigned|
 |--- |--- |--- |
