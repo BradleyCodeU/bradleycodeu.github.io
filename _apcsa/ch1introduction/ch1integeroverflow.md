@@ -36,9 +36,10 @@ Imagine a 3-bit data type. You're probably thinking about 3 columns of binary co
 NOTICE: Java uses signed two's complement so that it can store NEGATIVE NUMBERS.
 
 ```
-| | | |
-|--- |--- |--- |
+
+
 |Binary value|Two's complement|Unsigned|
+|--- |--- |--- |
 | 101 | -3 | 5 |
 | 111 | -1 | 7 |
 
@@ -56,9 +57,8 @@ Here are some more examples:
 
 8-bit signed two's complement columns:
 
-| | | |
-|--- |--- |--- |
 |Binary value|Two's complement|Unsigned|
+|--- |--- |--- |
 |00000000|0|0|
 |00000001|1|1|
 |01111110|126|126|

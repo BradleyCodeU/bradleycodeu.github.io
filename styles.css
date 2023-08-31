@@ -336,10 +336,13 @@ table{
   margin-bottom: 15px;
   color: #ffffff
 }
+.table thead > tr > th, .table tbody > tr > th, .table tfoot > tr > th, .table thead > tr > td, .table tbody > tr > td, .table tfoot > tr > td { border: 1px solid #2980B9; }
+
 td{
   border:solid #888888 1px;
   padding:15px;
 }
+
 .text-large {
   font-size: 150%;
   font-weight: 300 !important;
