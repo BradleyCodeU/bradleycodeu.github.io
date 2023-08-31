@@ -104,27 +104,29 @@ References and Other Info:
 
 
 
-1. Class Codes - SoloLrn, Replit, Runestone, Code.org
+  1. Class Codes - SoloLrn, Replit, Runestone, Code.org
 
-1. [Ch1 SoloLrn Java Basic Concepts](/apcsa/ch1introduction/ch1sololearnjava/)
+  1. [Ch1 SoloLrn Java Basic Concepts](/apcsa/ch1introduction/ch1sololearnjava/)
 
-1. [Ch1 Kings Island](/apcsa/ch1introduction/ch1kingsisland/)
+  1. [Ch1 Kings Island](/apcsa/ch1introduction/ch1kingsisland/)
 
-1. [Ch1 Paint Calc Area Only](/apcsa/ch1introduction/ch1paintcalcareaonly/)
+  1. [Ch1 Paint Calc Area Only](/apcsa/ch1introduction/ch1paintcalcareaonly/)
 
-1. [Ch1 ASCII Art](/apcsa/ch1introduction/ch1asciiart/)
+  1. [Ch1 ASCII Art](/apcsa/ch1introduction/ch1asciiart/)
 
-1. [Ch1 Computer Parts](/apcsa/ch1introduction/ch1review1/)
+  1. [Ch1 Computer Parts](/apcsa/ch1introduction/ch1review1/)
 
-1. [Ch1 Passer Rating](/apcsa/ch1introduction/ch1passerrating/)
+  1. [Ch1 Passer Rating](/apcsa/ch1introduction/ch1passerrating/)
 
-1. [Ch1 Integer Overflow](/apcsa/ch1introduction/ch1integeroverflow/)
+  1. [Ch1 Integer Overflow](/apcsa/ch1introduction/ch1integeroverflow/)
 
-1. Ch1 Review Quiz
+  1. Ch1 Review Quiz
 
-1. Ch1 FRQ Primitive Types
+  1. Ch1 FRQ Primitive Types
 
-1. Ch1 Test Primitive Types
+  1. Ch1 Test Primitive Types
+
+
 
 Vocab: platform, assembly, binary, bit, byte, declare, assignment, initialize, JVM, IDE, RAM, CPU, primary storage, secondary storage, peripheral, source code, compiler, bytecode, .java file, .class file, class, method, main, println, Scanner, int, double, boolean, char, String, overflow, comment, magic number, final, literal, syntax error, compiler error, logic error, runtime error, method call, argument, portable, high-level language, low-level language, casting, implicit conversion, explicit conversion, lossy conversion
 
