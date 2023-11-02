@@ -15,7 +15,7 @@ On [https://arcade.makecode.com/](https://arcade.makecode.com/) create a Tower D
 
 You must have a way to win AND a way to lose.
 
-
+![Demo Tower Defense Projects](/gdad\js\towerDefencseDemo.gif)
 
 
 When finished, show Mr. Riley how to win the game and how to lose.
