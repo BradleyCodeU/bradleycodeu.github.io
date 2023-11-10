@@ -131,6 +131,18 @@
 },
 {
 "answer": "while loop","question": "loops without a predetermined end that either repeat until a condition is met or repeat forever"
+},
+{
+    "answer": "setheading(angle)","question": "a Python turtle method that sets the turtle to face an angle: 0=East, 45=NE, 90=N, 180=W, 270=S. For example, this command with the argument (135) will point the turtle northwest."
+},
+{
+    "answer": "towards(x, y)","question": "a Python turtle method that gets the angle from turtle's position to another position (x,y) or another turtle. For example, if the turtle is located at (0,0) then this command with arguments (0,10) would return 90."
+},
+{
+    "answer": "setheading(angle)","question": "a Python turtle method that sets the turtle to face an angle: 0=East, 45=NE, 90=N, 180=W, 270=S. For example, this command with the argument (135) will point the turtle northwest."
+},
+{
+    "answer": "towards(x, y)","question": "a Python turtle method that gets the angle from turtle's position to another position (x,y) or another turtle. For example, if the turtle is located at (0,0) then this command with arguments (0,10) would return 90."
 }
 
 ]
