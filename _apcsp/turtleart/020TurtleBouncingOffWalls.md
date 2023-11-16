@@ -42,7 +42,8 @@ Write code so that your turtle will forever:
 
 Use three, comma-separated RGB color values to SLOWLY change the pen color over time.
 
-![Example](/apcsp/turtleart/bounceChallenge2.jpg)
-![Example](/apcsp/turtleart/bounceChallenge.jpg)
+Instead of turning a completely random angle, turn a random angle rounded to the nearest 10th or 45th or 90th. You should get random diamonds/polygons instead of squiggles.
+![Example](/bounceChallenge2.jpg)
+![Example](/bounceChallenge.jpg)
 
 <!--If you are using Mu, the "walls" are -450 and 450 horizontally and then -400 and 400 vertically.-->
