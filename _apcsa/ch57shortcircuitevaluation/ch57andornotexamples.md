@@ -4,7 +4,6 @@ category: ch57shortcircuitevaluation
 title: And Or Not Examples
 ---
 
-# And Or Not Examples
 
 ## AND
 
@@ -41,34 +40,31 @@ title: And Or Not Examples
 
 ## OR
 
-1. **Meeting Scheduling:**
-   - If the conference room is booked for a meeting at the requested time *OR* there is an available alternative room, confirm the reservation.
-
-2. **Discount Coupons:**
+1. **Discount Coupons:**
    - If the customer enters either a valid discount code *OR* is part of a loyalty program, apply the discount to the purchase.
 
-3. **Airport Security Check:**
-   - If the passenger presents a valid passport *OR* a government-issued identification card, allow them to proceed through security.
+1. **Airport Security Check:**
+   - If the passenger presents a valid passport *OR* has a government-issued identification card *OR* has an airport employee id card, allow them to proceed through security.
 
-4. **Login Authentication:**
+1. **Login Authentication:**
    - If the user provides either a correct username *OR* a valid email address along with the correct password, grant access to the account.
 
-5. **Delivery Options:**
+1. **Delivery Options:**
    - If the customer's address is within the local delivery zone *OR* they choose express shipping, offer same-day delivery as an option.
 
-6. **Subscription Renewal:**
+1. **Subscription Renewal:**
    - If the subscription payment is received on time *OR* an automatic renewal is enabled, extend the subscription for another period.
 
-7. **Restaurant Reservations:**
+1. **Restaurant Reservations:**
    - If a table is available for the requested time *OR* there is availability within a specified time range, confirm the reservation.
 
-8. **Temperature Control System:**
+1. **Temperature Control System:**
    - If the room temperature is above a certain threshold *OR* the humidity level is too low, activate the air conditioning system.
 
-9. **Credit Card Approval:**
+1. **Credit Card Approval:**
    - If the applicant has a high credit score *OR* a stable income, approve the credit card application.
 
-10. **Online Survey Completion:**
+1. **Online Survey Completion:**
     - If the participant answers either all required questions *OR* reaches a minimum completion threshold, consider the survey complete.
 
 ## NOT
@@ -104,6 +100,9 @@ title: And Or Not Examples
     - If the necessary documents are *NOT* uploaded within the specified timeframe, reject the application.
 
 ## Combining AND OR NOT
+
+1. **Meeting Scheduling:**
+   - If the conference room is available at the requested time *OR* there is some other room that can fix the number of people that are meeting *AND* the other room is available at the requested time, confirm the reservation.
 
 1. **Shopping Cart Discount:**
    - If the customer is a premium member *AND* the total purchase amount exceeds a certain threshold *OR* they have a valid discount code, apply a discount.
