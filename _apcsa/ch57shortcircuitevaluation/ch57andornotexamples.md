@@ -102,7 +102,7 @@ title: And Or Not Examples
 ## Combining AND OR NOT
 
 1. **Meeting Scheduling:**
-   - If the conference room is available at the requested time *OR* there is some other room that can fix the number of people that are meeting *AND* the other room is available at the requested time, confirm the reservation.
+   - If the conference room is available at the requested time *OR* there is some other room that can fit the number of people that are meeting *AND* the other room is available at the requested time, confirm the reservation.
 
 1. **Shopping Cart Discount:**
    - If the customer is a premium member *AND* the total purchase amount exceeds a certain threshold *OR* they have a valid discount code, apply a discount.
