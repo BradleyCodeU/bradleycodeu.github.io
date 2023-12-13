@@ -10,12 +10,13 @@ Do NOT delete the old tasks from the Done section of your Scrum Board.
 
 ![Scenes](/apcsp/scrum/ArtScene.PNG)
 
-TLDR: There are 5 new tasks that your group must add to your To Do list. These 5 tasks are required for the group to complete during this sprint. Details for these tasks are in the directions.
+TLDR: There are 5 new tasks that your group must add to your "To Do" list. Your team will complete ONE of the scenes during this sprint... either cityScene, countryScene, or underwaterScene. Details for these tasks are in the directions.
 
-- isValidNumber 2pts
+
 - cityScene 5pts
 - countryScene 5pts
 - underwaterScene 5pts
+- isValidNumber 2pts
 - Main 2pts
 
 
