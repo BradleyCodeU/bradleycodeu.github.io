@@ -23,7 +23,7 @@ Rock Paper Scissors demo:
 
 ### Add Assets
 
-- Download 10 different number cards or use these UNO-style cards: redNumberCards.zip Download redNumberCards.zip 
+- Download 10 different number cards or use these UNO-style cards: [redNumberCards.zip](/gdad/swift/redNumberCards.zip)
 - <i>(If you are making a Rock Paper Scissors game)</i> Download images for rock, paper, and scissors
 - One at a time, add the images to your Assets
 
