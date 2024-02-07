@@ -66,9 +66,9 @@ class Main {
     
     //      Search the array using a TRADITIONAL FOR LOOP to determine if the string is in the arraylist
     
-    //           Find and remove that pizza topping
+    //           If you find it, use the remove method to remove that pizza topping from the arraylist
     
-    //           Use toString to print the new list OR print "That is not in the list"
+    //      Either print the new, smaller list OR print "That is not in the list"
     
     // Step 7:
     // After the user has entered the sentinel value and exited the loop, print the list using a FOR EACH loop (enhanced for loop)
