@@ -3,7 +3,7 @@ import unittest
 from main import *
 
 
-class HighLowWordGame_Tests(unittest.TestCase):
+class TextGamesHighLowWord_Tests(unittest.TestCase):
 
     def test_checkGuess_secretTests(self):
         self.assertEqual( "You got it".lower() in checkGuess("5","5").lower(),True)
