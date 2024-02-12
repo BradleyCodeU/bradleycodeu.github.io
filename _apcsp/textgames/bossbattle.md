@@ -4,6 +4,9 @@ category: textgames
 title: Boss Battle
 permalink: /apcsp/textgames/bossBattle/
 ---
+
+
+
 This project uses [nested conditionals](https://geek-university.com/python/nested-if-statements/) and [logical operators](https://www.tutorialspoint.com/python/logical_operators_example.htm).
 
 Read this article about the [random choice method](https://www.w3schools.com/python/ref_random_choice.asp)
@@ -41,7 +44,7 @@ Define a function named hitPlayer that require one argument: playerHealth. Retur
   - Print how much damage the dragon does to you
   - Return the number of damage
 
-Define a function named whoWins that requires two arguments: playerHealth, bossHealth. Print a message that says who won the game.
+Define a function named whoWins that requires two arguments: playerHealth, bossHealth. RETURN A STRING THAT SAYS "You win" or "You lose" or if both are still alive, then return None
 
 
 Here is the code for the main function:
@@ -68,7 +71,7 @@ def main():
       time.sleep(1)
       print("You have " + playerHealth + " remaining")
       time.sleep(1)
-  whoWins(playerHealth, bossHealth)
+  print(whoWins(playerHealth, bossHealth))
 ```
 
 
@@ -87,7 +90,59 @@ Run the following tests:
 |`hitBoss("fire spell",True,False)` | returns 1-6   |
 |`hitPlayer(50)`   |  returns 2-12 (make sure you sometimes get >6)|
 |`hitPlayer(5)`   |  returns 1-6 |
-|`whoWins(1,0)`   | says You Win  |
-|`whoWins(0,1)`   | says You Lose  |
+|`whoWins(1,0)`   | returns "You Win"  |
+|`whoWins(0,1)`   | returns "You Lose"  |
+|`whoWins(1,1)`   | returns None  |
 
 Finally, test the `main()` function and make sure that you can complete the game without any errors.
+
+## Starter Code
+```
+# your name here
+import time
+
+def randomHealth():
+  True
+
+def randomTrueFalse():
+  True
+
+def diceRoll():
+  True
+
+def hitBoss():
+  True
+
+def hitPlayer():
+  True
+
+def whoWins():
+  True
+
+
+def main():
+  playerHealth = 50
+  bossHealth = randomHealth()
+  iceWeakness = randomTrueFalse()
+  magicWeakness = randomTrueFalse()
+  while playerHealth > 0 and bossHealth > 0:
+    print("The dragon has " + bossHealth + " health")
+    time.sleep(1)
+    print("What do you want to use?")
+    print("Ice Spell")
+    print("Fire Spell")
+    print("Ice Sword")
+    print("Fire Sword")
+    weapon = input()
+    time.sleep(1)
+    damage = hitBoss(weapon, iceWeakness, magicWeakness)
+    bossHealth = bossHealth - damage
+    if bossHealth > 0:
+      damage = hitPlayer(playerHealth)
+      # subtract the damage from the playerHealth
+      
+      time.sleep(1)
+      print("You have " + playerHealth + " remaining")
+      time.sleep(1)
+  print(whoWins(playerHealth, bossHealth))
+```
