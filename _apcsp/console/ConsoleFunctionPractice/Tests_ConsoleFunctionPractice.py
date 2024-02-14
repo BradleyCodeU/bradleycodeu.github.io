@@ -4,34 +4,34 @@ import unittest
 
 class AutomaticTester(unittest.TestCase):
 
-def test_firstAndLast(self):
-  # Enter code here
-  self.assertEquals(firstAndLast("Apple"), "Ae")
-  self.assertEquals(firstAndLast("alaska"), "aa")
-  self.assertEquals(firstAndLast("Ohio"), "Oo")
-  self.assertEquals(firstAndLast("lkjasdf"), "lf")
-  self.assertEquals(firstAndLast("lf"), "lf")
-  self.assertEquals(firstAndLast("qkjsdfkjsdq"), "qq")
+    def test_firstAndLast(self):
+        # Enter code here
+        self.assertEquals(firstAndLast("Apple"), "Ae")
+        self.assertEquals(firstAndLast("alaska"), "aa")
+        self.assertEquals(firstAndLast("Ohio"), "Oo")
+        self.assertEquals(firstAndLast("lkjasdf"), "lf")
+        self.assertEquals(firstAndLast("lf"), "lf")
+        self.assertEquals(firstAndLast("qkjsdfkjsdq"), "qq")
 
 
-def test_middleLetter(self):
-  # Enter code here
-  self.assertEquals(middleLetter("Apple"), "p")
-  self.assertEquals(middleLetter("alaska"), "s")
-  self.assertEquals(middleLetter("Ohio"), "i")
-  self.assertEquals(middleLetter("qwerty"), "r")
-  self.assertEquals(middleLetter("qwert"), "e")
-  self.assertEquals(middleLetter("qw"), "w")
-  self.assertEquals(middleLetter("123456789"), "5")
+    def test_middleLetter(self):
+        # Enter code here
+        self.assertEquals(middleLetter("Apple"), "p")
+        self.assertEquals(middleLetter("alaska"), "s")
+        self.assertEquals(middleLetter("Ohio"), "i")
+        self.assertEquals(middleLetter("qwerty"), "r")
+        self.assertEquals(middleLetter("qwert"), "e")
+        self.assertEquals(middleLetter("qw"), "w")
+        self.assertEquals(middleLetter("123456789"), "5")
 
-  def test_startsWithA(self):
-  # Enter code here
-  self.assertEquals(True, startsWithA("Apple"))
-  self.assertEquals(True, startsWithA("alaska"))
-  self.assertEquals(False, startsWithA("Ohio"))
-  self.assertEquals(True, startsWithA("aaa"))
-  self.assertEquals(True, startsWithA("AAA"))
-  self.assertEquals(False, startsWithA("lkjasdf"))
+    def test_startsWithA(self):
+        # Enter code here
+        self.assertEquals(True, startsWithA("Apple"))
+        self.assertEquals(True, startsWithA("alaska"))
+        self.assertEquals(False, startsWithA("Ohio"))
+        self.assertEquals(True, startsWithA("aaa"))
+        self.assertEquals(True, startsWithA("AAA"))
+        self.assertEquals(False, startsWithA("lkjasdf"))
 
 class MyTestResult(unittest.TextTestResult):
     def __init__(self, stream, descriptions, verbosity):
