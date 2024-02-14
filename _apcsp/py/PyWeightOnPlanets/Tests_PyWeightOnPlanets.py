@@ -1,8 +1,7 @@
-import unittest
 from PyWeightOnPlanets import *
+import unittest
 
-
-class Tests_PyWeightOnPlanets(unittest.TestCase):
+class AutomaticTester(unittest.TestCase):
     def test_kilogramsToPounds(self):
         self.assertAlmostEqual(kilogramsToPounds(101), 222.6668848018, places=0)
         self.assertAlmostEqual(kilogramsToPounds(321), 707.6838615978, places=0)
@@ -58,11 +57,13 @@ class MyTestResult(unittest.TextTestResult):
 
 if __name__ == "__main__":
     result = unittest.TextTestRunner(resultclass=MyTestResult, verbosity=1).run(
-        unittest.TestLoader().loadTestsFromTestCase(Tests_PyWeightOnPlanets)
+        unittest.TestLoader().loadTestsFromTestCase(AutomaticTester)
     )
     if result.failures:
         failed_test_names = [test._testMethodName for test, _ in result.failures]
         failed_test_names = [name for name in failed_test_names]
-        print(f"❌  {' '.join(failed_test_names)}\n")
+        for each in failed_test_names:
+            print(f"❌  {each}")
+        print()
     else:
         print("✅  All tests passed!\n")
