@@ -38,7 +38,9 @@ Your goal is to use the p5js 3D Geometries to create a sphere and make it bounce
 You MUST:
   - create an object to keep track of the sphere's x, z, xSpeed, and zSpeed.
 
-Note: You will need to use [push and pop](https://p5js.org/reference/#/p5/push). Use push when you want to begin a new shape, translate to the correct position, rotate the shape as needed, set the fill color, draw the shape, then pop. Repeat those steps for the next shape.
+NOTE: You will need to use [push and pop](https://p5js.org/reference/#/p5/push). Use push when you want to begin a new shape, translate to the correct position, rotate the shape as needed, set the fill color, draw the shape, then pop. Repeat those steps for the next shape.
+
+Read this tutorial for more info: [https://p5js.org/learn/getting-started-in-webgl-coords-and-transform.html](https://p5js.org/learn/getting-started-in-webgl-coords-and-transform.html)
 
 ### If you have already completed 1 or more Computer Science classes...
 
