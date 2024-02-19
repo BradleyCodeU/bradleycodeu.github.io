@@ -59,12 +59,13 @@ def main():
     time.sleep(1)
     damage = hitBoss(weapon, iceWeakness, magicWeakness)
     bossHealth = bossHealth - damage
+    print(whoWins(playerHealth, bossHealth))
     if bossHealth > 0:
       damage = hitPlayer(playerHealth)
       time.sleep(1)
       print("You have " + playerHealth + " remaining")
       time.sleep(1)
-  print(whoWins(playerHealth, bossHealth))
+      print(whoWins(playerHealth, bossHealth))
 ```
 
 
