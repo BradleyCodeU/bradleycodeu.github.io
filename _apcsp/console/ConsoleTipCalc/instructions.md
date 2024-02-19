@@ -1,7 +1,4 @@
----
-layout: project
-category: console
-title: Console Tip Calculator
+# Console Tip Calculator
 ---
 
 You ```MUST validate the input using Try/Except``` or the program will crash.
@@ -43,9 +40,6 @@ Sample Output (user input is in ** asterisk ** and should not be coded into your
 ```
 How much is your bill? $_____
 **lkjsdf**
-Please type a number
-How much is your bill? $_____
-**kjsdfl**
 Please type a number
 How much is your bill? $_____
 **5.00**
