@@ -22,7 +22,7 @@ class AutomaticTester(unittest.TestCase):
             for key, val in eachChatbot.items():
                 if val not in uniquePhrases:
                     uniquePhrases.append(val)
-            self.assertTrue(len(uniquePhrases) >= 8,"Each chatbot must have 8 *unique* responses")
+            self.assertTrue(len(uniquePhrases) >= 8,"Each chatbot must have 8 *unique* responses.")
 
 
 
