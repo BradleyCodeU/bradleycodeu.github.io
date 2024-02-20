@@ -59,12 +59,12 @@ Define a function named main.
 
 - Create a variable named mylocation and set it to the starting room number
 - Say the title of your game
-- Say “Created By: “ and then your names
+- Say "Created By: " and then your names
 - Sleep for 1 sec
 - Create a forever loop
   - Say the room description for mylocation
-  - If doesItemExist equals true, then say “Item here: “ and the item name
-  - Say “Please type: n, s, e, w, or quit”
+  - If doesItemExist equals true, then say "Item here: " and the item name
+  - Say "Please type: n, s, e, w, or quit"
   - Save the input in a variable named userInput
   - Call the move function and pass two arguments userInput and location, then save what it returns in location
 
@@ -108,12 +108,12 @@ Define a function named main.
 # Define a function named main.
 # Create a variable named mylocation and set it to the starting room number
 # Say the title of your game
-# Say “Created By: “ and then your names
+# Say "Created By: " and then your names
 # Sleep for 1 sec
 # Create a forever loop
 # # Say the room description for mylocation
-# # If doesItemExist equals true, then say “Item here: “ and the item name
-# # Say “Please type: n, s, e, w, or quit”
+# # If doesItemExist equals true, then say "Item here: " and the item name
+# # Say "Please type: n, s, e, w, or quit"
 # # Save the input in a variable named userInput
 # # Call the move function and pass two arguments userInput and location, then save what it returns in location
 ```
