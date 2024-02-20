@@ -13,10 +13,10 @@ Start by figuring out a story/theme/setting and title for your game
 Plan a map on a grid. It might be a maze-like dungeon or a large open island or a house with rooms and hallways. You will plan a dozen blocks of the grid. We will call these blocks "rooms." Each of these rooms must have a unique description, NOT just "you're in a room"
 
 
-| 0 |100|200|
+| 0 |1|2|
 |--|--|
-| 1 |101|201|
-| 2 |102|202|
+| 100 |101|102|
+| 200 |201|202|
 
 REQUIREMENTS:
 
@@ -43,11 +43,11 @@ Define a function named __doesItemExist__ that requires 2 arguments: roomArray, 
 
 Define a function named __move__ that requires 3 argument: roomArray, mylocation, direction. Returns an int, mylocation.
 
-    - If the direction was "n" and doesRoomExist at the mylocation - 1
-        - mylocation = mylocation - 1
-    - Otherwise if the direction was "s" and doesRoomExist at the mylocation + 1
-        - mylocation = mylocation + 1
-    - Otherwise if the direction was "e" and doesRoomExist at the mylocation + 100
+    - If the direction was "n" and doesRoomExist at the mylocation - 100
+        - mylocation = mylocation - 100
+    - Otherwise if the direction was "s" and doesRoomExist at the mylocation + 100
+        - mylocation = mylocation + figure this part out yourself
+    - Otherwise if the direction was "e" and doesRoomExist at the mylocation + 1
         - figure this part out yourself
     - Otherwise if the direction was "w" and figure this part out yourself
         - figure this part out yourself
