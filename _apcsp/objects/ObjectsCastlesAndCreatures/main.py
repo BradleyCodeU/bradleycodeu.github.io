@@ -176,10 +176,11 @@ def printGameTitle():
 #     #   # Ask player if they want to try to steal or use a weapon
 #     #   # for example...
 #     #   #
-#     #   # 1=Steal
-#     #   # 2=Use fire sword
-#     #   # 3=Use ice dagger
-#     #   # 4=Use lightning staff
+#     #   #
+#     #   # 1=Use fire sword
+#     #   # 2=Use ice dagger
+#     #   # 3=Use lightning staff
+#     #   # 9=Steal
 #     #   # TYPE A NUMBER:
 
 #     #   # Get user input and save in variable userInput
