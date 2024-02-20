@@ -74,7 +74,7 @@ GOLD MEDAL: Add 2 or more of the following details...
   - You have a one-time-use healing potion that restores the player to full health.
   - Each treasure is a new weapon that you can use in later castles.
   - You have a one-time-use magic spell that reduces one creature's health by half.
-  - Each creature has a weakness, a specific weapon that inflicts double-damage. Don't make it obvious: ice dragon's weakness is fire sword. Less obvious would be: the minotaur's weakness is lightning staff, the manticore's weakness is ice dagger, and Medusa's weakness is also lightning staff.
+  - Add more weapons and each creature has a weakness to a specific weapon that inflicts double-damage. Don't make it obvious: ice dragon's weakness is fire sword. Less obvious and better would be: the minotaur's weakness is lightning spear, the manticore's weakness is ice dagger, and Medusa's weakness is the earth staff.
 
 
 -------
@@ -120,7 +120,7 @@ self.assertEquals(x2['health'], 60)
 x3 = makeEnemy("Fiona",70,77)
 self.assertEquals(x3['name'], "Fiona")
 for i in range(10):
-  self.assertEquals(2<=x3['weakness']<=4, True)
+  self.assertEquals(1<=x3['weakness']<=3, True)
 
 for i in range(100):
     self.assertEquals(rollDice(0), 0)
