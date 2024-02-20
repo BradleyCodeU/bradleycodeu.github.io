@@ -12,11 +12,12 @@ Start by figuring out a story/theme/setting and title for your game
 
 Plan a map on a grid. It might be a maze-like dungeon or a large open island or a house with rooms and hallways. You will plan a dozen blocks of the grid. We will call these blocks "rooms." Each of these rooms must have a unique description, NOT just "you're in a room"
 
-
-| 0 |1|2|
-|--|--|
-| 100 |101|102|
-| 200 |201|202|
+|     |   |   |   |
+|---  |---|---|---|
+| 0   | 1 | 2 | 3 |
+| 100 |101|102|103|
+| 200 |201|202|203|
+| 300 |301|302|303|
 
 REQUIREMENTS:
 
@@ -29,7 +30,7 @@ REQUIREMENTS:
     - an item (but the item might be set to ```None``` if there is no item in this room)
     - 3 or 4 other attributes (based on how many members in your group)
   * Create an array named roomArray that stores your room objects
-  * Use a for loop to add False to the array 1000 times
+  * Use a for loop to add `None` to the array 1000 times
   * Add descriptions for your 15 rooms to your roomArray
   * In version 1, the player does NOT need to be able to pick up any items, but when visiting a room the game MUST tell you that an item is there IF the room contains an item.
   * Create a variable named mylocation that stores the current room number.
@@ -78,10 +79,10 @@ Define a function named main.
 |roomArray1 = [{'name':'Kitchen'}, None, None]<br>doesRoomExist(roomArray1, 9999)|False|
 |roomArray1 = [{'name':'Basement', 'item':'Key'}, None]<br>doesItemExist(roomArray1, 0)|True|
 |roomArray2 = [{'name':'Basement', 'item':None}, None]<br>doesItemExist(roomArray2, 0)|False|
-|roomArray2 = [{'name':'Kitchen'}, {'name':'Hallway'}, None]<br>move(roomArray2, 1, "n")|0|
-|roomArray2 = [{'name':'Kitchen'}, {'name':'Hallway'}, None]<br>move(roomArray2, 0, "s")|1|
-|roomArray2 = [{'name':'Kitchen'}, {'name':'Hallway'}, None]<br>move(roomArray2, 0, "e")|0|
-|roomArray2 = [{'name':'Kitchen'}, {'name':'Hallway'}, None]<br>move(roomArray2, 1, "w")|1|
+|roomArray2 = [{'name':'Kitchen'}, {'name':'Hallway'}, None]<br>move(roomArray2, mylocation=1, direction="n")|1|
+|roomArray2 = [{'name':'Kitchen'}, {'name':'Hallway'}, None]<br>move(roomArray2, mylocation=0, direction="s")|0|
+|roomArray2 = [{'name':'Kitchen'}, {'name':'Hallway'}, None]<br>move(roomArray2, mylocation=0, direction="e")|1|
+|roomArray2 = [{'name':'Kitchen'}, {'name':'Hallway'}, None]<br>move(roomArray2, mylocation=1, direction="w")|0|
 
 
 ## Starter Template
