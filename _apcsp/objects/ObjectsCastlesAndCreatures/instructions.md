@@ -13,7 +13,7 @@ Create a function called setupCastleTwo() that prints a brief introduction. Retu
 
 Create a function called setupCastleThree() that prints a brief introduction. Return an enemy dictionary that must NOT be named "Enemy 3 Name"
 
-Create a function called validInput that returns true or false. There is one argument: userInput. Returns True if the userInput is an integer 1 to 4. Use try/except to convert string to integer without crashing.
+Create a function called validInput that returns true or false. There is one argument: userInput. Returns True if the userInput is an integer 1 to 3 or 9. Use try/except to convert string to integer without crashing.
 
 Create a function getInput that will prompt and collect input. Return the number that the player selects.
 No arguments needed.
@@ -49,7 +49,8 @@ The main function is already completed for you.
 |x = makeEnemy("Fiona",70,77)<br>x['weakness']|Only returns 2 - 4|
 |validInput(0)| False |
 |validInput(1)| True |
-|validInput("4")| True |
+|validInput(9)| True |
+|validInput("3")| True |
 |validInput(5)| False |
 |validInput("one")| False |
 |tryToSteal()| 30% True, 70% False |
