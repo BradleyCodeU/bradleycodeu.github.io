@@ -14,15 +14,31 @@ class AutomaticTester(unittest.TestCase):
         self.assertFalse(validNumber("abc"))
         self.assertFalse(validNumber("3.14"))
 
-    def test_getChatbotList(self):
-        self.assertTrue(len(getChatbotList()) >= 2)
-        for eachChatbot of getChatbotList():
-            self.assertTrue(len(eachChatbot) >= 8,"Each chatbot must have 8 key/value pairs.")
+    def test_getChatbotList_count_bots(self):
+        chatbots = getChatbotList()
+        self.assertTrue(len(chatbots) >= 2, "There should be at least 2 chatbots in the list.")
+        countNonDanBots = 0
+        countOfDanBots = 0
+        for eachChatbot in chatbots:
+            if eachChatbot['name'] != "Cowboy Dan":
+                countNonDanBots += 1
+            else:
+                countOfDanBots += 1
+        self.assertTrue(countOfDanBots > 0, "Do not include the demo chatbot dan in the list.")
+        self.assertTrue(countNonDanBots >= 2, "There should be at least 2 non-Dan chatbots in the list.")
+
+    def test_getChatbotList_count_phrases(self):
+        chatbots = getChatbotList()
+        self.assertTrue(len(chatbots) >= 2, "There should be at least 2 chatbots in the list.")
+        for eachChatbot in chatbots:
+            self.assertTrue('name' in eachChatbot.keys(), "Each chatbot must have a \"name\" key with their name as the value")
+            self.assertTrue(len(eachChatbot) >= 8, "Each chatbot must have at least 8 key/value pairs.")
             uniquePhrases = []
             for key, val in eachChatbot.items():
                 if val not in uniquePhrases:
                     uniquePhrases.append(val)
-            self.assertTrue(len(uniquePhrases) >= 8,"Each chatbot must have 8 *unique* responses.")
+            self.assertTrue(len(uniquePhrases) >= 8, "Each chatbot must have at least 8 *unique* responses.")
+
 
 
 

@@ -19,7 +19,10 @@ The starter template has been provided. Type `talkTo(dan)` in the console to see
 
 
 REQUIREMENTS:
-  - Create 2 dictionary-based chatbots (if you are working with a partner then create 4 chatbots). Each chatbot must have 8 key/value pairs. Each chatbot must have 8 *unique* responses. 
+  - Create 2 dictionary-based chatbots (if you are working with a partner then create 4 chatbots). 
+      - Each chatbot must have 8 key/value pairs. 
+      - Each chatbot must have 8 *unique* responses. 
+      - Each chatbot must have a "name" key with their name as the value.
   - Create a validNumber() function that take one argument: userString. It will return true if the userString is an integer number that is greater than zero. Otherwise false. Use try-except so that it doesn't crash.
   - Create a getChatbotList() function that takes no arguments. It just returns a list that contains all of your chatbots. Do not include the demo chatbot `dan` in the list.
   - Create a main() function that will...
