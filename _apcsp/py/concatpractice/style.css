@@ -1,0 +1,98 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+body {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  /* min-height: 100vh; */
+  background: #2c2c2c;
+  padding-top: 10px;
+  color:#fff;
+}
+p{
+  padding-top: 10px;
+}
+.alignright {
+  float:right;
+}
+.indent1{
+  margin-left:1.2em;
+}
+.indent2{
+  margin-left:2.0em;
+}
+.sortable-list {
+  /* max-width: 900px; */
+  padding: 0px 25px;
+  /* background: #fff; */
+  border-radius: 7px;
+  /* padding: 30px 25px 20px; */
+  padding-top: 10px;
+  /* box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1); */
+}
+.sortable-list .item {
+  list-style: none;
+  display: flex;
+  cursor: move;
+  /* background: #fff; */
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px 13px;
+  margin-bottom: 11px;
+  /* box-shadow: 0 2px 4px rgba(0,0,0,0.06); */
+  border: 1px solid #222222;
+  justify-content: space-between;
+  transition: 1s;
+}
+.sortable-list .item:hover {
+  background: #535353;
+  border: 1px solid #bbb;
+}
+.item .details {
+  display: flex;
+  align-items: center;
+}
+.item .details span {
+  font-size: 1.5rem;
+}
+.item i {
+  color: #161616;
+  font-size: 1.5rem;
+}
+.item.dragging {
+  opacity: 0.5;
+  background: #999;
+}
+.item.dragging :where(.details, i) {
+  opacity: 0;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border-radius: 10px;
+  /* border: 0px 5px 5px 0px;
+  border-color: #aaa; */
+  color: white;
+  /* padding: 10px; */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  /* transition-duration: 0.4s; */
+}
+.dragicon{
+  color:#161616;
+}
+
+.button:hover {
+  background-color: #459f4a; /* Green */
+  color: white;
+  /* border: 5px 0px 0px 5px; */
+}
+.hide {
+  display:none !important;
+}
