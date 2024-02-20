@@ -42,7 +42,7 @@ def printGameTitle():
 # I have completed the first half of the function for you.
 # You need to:
 # - Make an array with FIVE or more attacks that the enemy could use
-# - Set the enemyWeakness to a randint between 2 & 4
+# - Set the enemyWeakness to a randint between 1 & 3
 # - return the enemy dictionary
 # def makeEnemy(name, power, health):
 #     # Create an enemy "dictionary" object
@@ -56,7 +56,7 @@ def printGameTitle():
 #     # Make an array with FIVE or more attacks that the enemy could use
 #     # Example: enemy["attacks"] = ["Sneak Attack", "Super Kick", ??? ]
 
-#     # Set the enemyWeakness to a randint between 2 & 4
+#     # Set the enemyWeakness to a randint between 1 & 3
 #     # Example: enemy["weakness"] = ???
 
 #     return enemy
@@ -151,12 +151,12 @@ def printGameTitle():
 # Create a function called validInput that 
 # returns true or false. There is one argument: 
 # userInput. Returns True if the userInput is 
-# an integer 1 to 4. Use try/except to convert
+# an integer 1 to 3 or 9. Use try/except to convert
 # string to integer without crashing.
 # def validInput(userInput):
 #     # try
 #     #   # Convert userInput to an integer
-#     #   # if userInput is between 1 and 4
+#     #   # if userInput is between 1 and 3 or 9
 #     #   #   # return True
 #     #   # otherwise
 #     #   #   # return False
@@ -281,7 +281,7 @@ def gameLevel(enemy, playerHealth):
        time.sleep(0.5)
        # print a small dividing line like this ~ ~ ~
        # create variable called playerChoice & set it to getInput()
-       # If playerChoice is 1
+       # If the player said nine
        #   # set stealSuccess to tryToSteal()
        # otherwise
        #   # enemy["health"] = enemyLoseHealth(playerChoice, enemy)
