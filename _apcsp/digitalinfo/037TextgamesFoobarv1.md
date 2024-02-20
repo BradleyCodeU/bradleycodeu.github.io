@@ -71,7 +71,7 @@ Define a function named main.
 
 ## Tests
 
-||Expected Output|
+|Input|Expected Output|
 |---|---|
 |x = makeRoom()<br>type(x) is dict|True|
 |roomArray1 = [{'name':'Kitchen'}, None, None]<br>doesRoomExist(roomArray1, 0)|True|

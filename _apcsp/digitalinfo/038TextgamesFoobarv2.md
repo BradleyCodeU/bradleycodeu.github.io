@@ -37,6 +37,17 @@ Update the main() function in 3 places...
 
   - If the userInput equals "take", then call the takeItem() function with all the required arguments.
 
+
+| Input | Expected Output |
+|-------|-----------------|
+| # test picking up item<br>roomArray = [{'item': 'staff'}, {'item': 'sword'}, {'item': 'arrows'}]<br>roomNumber = 1<br>backpackArray = [ ]<br>takeItem(roomArray,roomNumber,backpackArray) | ['sword'] |
+| # test that item is removed from room<br>roomArray = [{'item': 'staff'}, {'item': 'sword'}, {'item': 'arrows'}]<br>roomNumber = 1<br>backpackArray = [ ]<br>takeItem(roomArray,roomNumber,backpackArray) | roomArray[1]['item'] is None |
+| # test nothing to pick up<br>roomArray = [{'item': None}, {'item': None}, {'item': None}]<br>roomNumber = 2<br>backpackArray = ['map', 'compass']<br>takeItem(roomArray,roomNumber,backpackArray) | ['map', 'compass'] |
+| # test nothing to pick up<br>roomArray = [{'item': None}, {'item': None}, {'item': None}]<br>roomNumber = 2<br>backpackArray = [ ]<br>takeItem(roomArray,roomNumber,backpackArray) | [ ] |
+
+
+
+
 ## Special Rooms
 
 Create a function called checkIfSpecialRoom. Requires no arguments. Returns nothing.
