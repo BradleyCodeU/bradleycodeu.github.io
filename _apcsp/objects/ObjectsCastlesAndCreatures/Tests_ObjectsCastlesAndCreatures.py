@@ -54,7 +54,7 @@ class AutomaticTester(unittest.TestCase):
         # |x = makeEnemy("Shrek",10,20)<br>x['power']|10|
         # |x = makeEnemy("Donkey",50,60)<br>x['health']|60|
         # |x = makeEnemy("Fiona",70,77)<br>x['name']|"Fiona"|
-        # |x = makeEnemy("Fiona",70,77)<br>x['weakness']|Only returns 2 - 4|
+        # |x = makeEnemy("Fiona",70,77)<br>x['weakness']|Only returns 1 - 3|
         x1 = makeEnemy("Shrek",10,20)
         self.assertEquals(x1['power'], 10)
         x2 = makeEnemy("Donkey",50,60)
@@ -62,7 +62,8 @@ class AutomaticTester(unittest.TestCase):
         x3 = makeEnemy("Fiona",70,77)
         self.assertEquals(x3['name'], "Fiona")
         for i in range(10):
-            self.assertEquals(2<=x3['weakness']<=4, True)
+            x3 = makeEnemy("Fiona",70,77)
+            self.assertEquals(1<=x3['weakness']<=3, True)
 
 class MyTestResult(unittest.TextTestResult):
     def __init__(self, stream, descriptions, verbosity):
