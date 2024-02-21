@@ -66,7 +66,7 @@ Define a function named main.
   - If doesItemExist equals true, then say "Item here: " and the item name
   - Say "Please type: n, s, e, w, or quit"
   - Save the input in a variable named userInput
-  - Call the move function and pass two arguments userInput and location, then save what it returns in location
+  - Call the move function and pass 3 arguments: roomArray, userInput, and mylocation. Save what it returns in mylocation
 
 
 ## Tests
@@ -115,6 +115,6 @@ Define a function named main.
 # # If doesItemExist equals true, then say "Item here: " and the item name
 # # Say "Please type: n, s, e, w, or quit"
 # # Save the input in a variable named userInput
-# # Call the move function and pass two arguments userInput and location, then save what it returns in location
+# # Call the move function and pass 3 arguments: roomArray, userInput, and mylocation. Save what it returns in mylocation
 ```
   
