@@ -56,9 +56,9 @@ function generateConditionals() {
         ["armadillo", "beaver", "cougar", "donkey"],
         ["asparagus", "broccoli", "cauliflower", "dumplings"],
         ["almond", "bread","cashew", "donuts"],
-        ["animal crackers", "barley", "corn", "deep dish pizza"],
+        ["animal crackers", "baklava", "corn", "deep dish pizza"],
         ["avocado", "blackberry", "cranberry", "double cheeseburger"],
-        ["alphabet soup", "butternut", "chestnut", "dim sum"],
+        ["alphabet soup", "butternut squash", "chestnut", "dim sum"],
         ["American cheese", "basil", "cinnamon", "dark chocolate"],
         ["artichoke", "beet", "cabbage", "deviled eggs"],
         ["avocado", "bell pepper", "carrot", "Doritos"]
