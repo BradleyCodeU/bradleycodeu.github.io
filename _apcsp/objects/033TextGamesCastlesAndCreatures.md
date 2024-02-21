@@ -53,7 +53,7 @@ The main function is already completed for you.
 |x = makeEnemy("Shrek",10,20)<br>x['power']|10|
 |x = makeEnemy("Donkey",50,60)<br>x['health']|60|
 |x = makeEnemy("Fiona",70,77)<br>x['name']|"Fiona"|
-|x = makeEnemy("Fiona",70,77)<br>x['weakness']|Only returns 2 - 4|
+|x = makeEnemy("Fiona",70,77)<br>x['weakness']|Only returns 1 - 3|
 |validInput(0)| False |
 |validInput(1)| True |
 |validInput(9)| True |
