@@ -40,10 +40,12 @@ Update the main() function in 3 places...
 
 | Input | Expected Output |
 |-------|-----------------|
-| # test picking up item<br>roomArray = [{'item': 'staff'}, {'item': 'sword'}, {'item': 'arrows'}]<br>roomNumber = 1<br>backpackArray = [ ]<br>takeItem(roomArray,roomNumber,backpackArray) | ['sword'] |
+| # test picking up item with empty backpack<br>roomArray = [{'item': 'staff'}, {'item': 'sword'}, {'item': 'arrows'}]<br>roomNumber = 1<br>backpackArray = [ ]<br>takeItem(roomArray,roomNumber,backpackArray) | ['sword'] |
+| # test picking up item with non-empty pack<br>roomArray = [{'item': 'staff'}, {'item': 'dagger'}, {'item': 'arrows'}]<br>roomNumber = 0<br>backpackArray = ['sword']<br>takeItem(roomArray,roomNumber,backpackArray) | ['sword','staff'] |
 | # test that item is removed from room<br>roomArray = [{'item': 'staff'}, {'item': 'sword'}, {'item': 'arrows'}]<br>roomNumber = 1<br>backpackArray = [ ]<br>takeItem(roomArray,roomNumber,backpackArray) | roomArray[1]['item'] is None |
-| # test nothing to pick up<br>roomArray = [{'item': None}, {'item': None}, {'item': None}]<br>roomNumber = 2<br>backpackArray = ['map', 'compass']<br>takeItem(roomArray,roomNumber,backpackArray) | ['map', 'compass'] |
-| # test nothing to pick up<br>roomArray = [{'item': None}, {'item': None}, {'item': None}]<br>roomNumber = 2<br>backpackArray = [ ]<br>takeItem(roomArray,roomNumber,backpackArray) | [ ] |
+| # test pick up nothing with empty backpack<br>roomArray = [{'item': None}, {'item': None}, {'item': None}]<br>roomNumber = 2<br>backpackArray = [ ]<br>takeItem(roomArray,roomNumber,backpackArray) | [ ] |
+| # test pick up nothing with non-empty pack<br>roomArray = [{'item': None}, {'item': None}, {'item': None}]<br>roomNumber = 2<br>backpackArray = ['map', 'compass']<br>takeItem(roomArray,roomNumber,backpackArray) | ['map', 'compass'] |
+
 
 
 
