@@ -6,8 +6,14 @@ title: JS Nested Conditionals Generator
 
 
 <pre id="output"></pre>
-<button onclick="revealAnswer()">Reveal Answer</button>
-<span id="answer" style="display:none;"></span>
+<table>
+ <tr>
+ <td><button onclick="revealAnswer()">Reveal Answer</button></td><td><span id="answer" style="display:none;"></span></td>
+ </tr>
+</table>
+
+
+<br>
 <button onclick="generateConditionals()">Generate Nested Conditionals</button>
 
 <script>
@@ -116,6 +122,6 @@ function revealAnswer() {
 
 [https://replit.com/@JustinRiley1/JS-Nested-Conditionals-Practice-Generator](https://replit.com/@JustinRiley1/JS-Nested-Conditionals-Practice-Generator)
 
-<iframe frameborder="0" width="100%" height="600px" src="https://replit.com/@JustinRiley1/JS-Nested-Conditionals-Practice-Generator?embed=true" ></iframe>
+<br>
 
-<iframe src="https://trinket.io/embed/python3/e8b6033319?outputOnly=true&runOption=run&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+[https://trinket.io/embed/python3/e8b6033319?outputOnly=true&runOption=run&start=result](https://trinket.io/embed/python3/e8b6033319?outputOnly=true&runOption=run&start=result)
