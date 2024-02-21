@@ -11,9 +11,6 @@ title: JS Nested Conditionals Generator
  <td><button onclick="revealAnswer()">Reveal Answer</button></td><td><span id="answer" style="display:none;"></span></td>
  </tr>
 </table>
-
-
-<br>
 <button onclick="generateConditionals()">Generate Nested Conditionals</button>
 
 <script>
@@ -26,6 +23,7 @@ let logicOp2;
 let value2;
 let logicOp3;
 let value3;
+let wordArray;
 generateConditionals();
 
 function logicalOperator() {
@@ -48,6 +46,24 @@ function logicalOperator() {
 function generateConditionals() {
     let outputString = "";
     let variableString = "var value = ";
+    const words2DArray = [
+        ["apple", "banana", "coconut", "dragonfruit"],
+        ["Atlanta", "Baltimore", "Columbus", "Detroit"],
+        ["ant", "bear", "cat", "dog"],
+        ["alpaca", "buffalo", "cheetah", "dolphin"],
+        ["antelope", "bison", "crocodile", "duck"],
+        ["apricot", "blueberry", "cherry", "dill pickle"],
+        ["armadillo", "beaver", "cougar", "donkey"],
+        ["asparagus", "broccoli", "cauliflower", "dumplings"],
+        ["almond", "bread","cashew", "donuts"],
+        ["animal crackers", "barley", "corn", "deep dish pizza"],
+        ["avocado", "blackberry", "cranberry", "double cheeseburger"],
+        ["alphabet soup", "butternut", "chestnut", "dim sum"],
+        ["American cheese", "basil", "cinnamon", "dark chocolate"],
+        ["artichoke", "beet", "cabbage", "deviled eggs"],
+        ["avocado", "bell pepper", "carrot", "Doritos"]
+    ];
+    wordArray = words2DArray[ Math.floor(Math.random() * words2DArray.length)];
     myvar = Math.floor(Math.random() * 21);
     variableString += myvar;
     variableString += ";\n";
@@ -64,9 +80,9 @@ function generateConditionals() {
     outputString += logicOp2;
     value2 = Math.floor(Math.random() * 11) + 5;
     outputString += value2 + ") {\n";
-    outputString += "    alert('apple');\n";
+    outputString += "    alert('"+wordArray[0]+"');\n";
     outputString += "  } else {\n";
-    outputString += "    alert('banana');\n";
+    outputString += "    alert('"+wordArray[1]+"');\n";
     outputString += "  }\n";
     outputString += "} else {\n";
 
@@ -75,9 +91,9 @@ function generateConditionals() {
     outputString += logicOp3;
     value3 = Math.floor(Math.random() * 11) + 5;
     outputString += value3 + ") {\n";
-    outputString += "    alert('coconut');\n";
+    outputString += "    alert('"+wordArray[2]+"');\n";
     outputString += "  } else {\n";
-    outputString += "    alert('dragonfruit');\n";
+    outputString += "    alert('"+wordArray[3]+"');\n";
     outputString += "  }\n";
     outputString += "}\n";
 
@@ -99,15 +115,15 @@ function revealAnswer() {
 
     if (eval(value + logicOp1 + value1)) {
         if (eval(value + logicOp2 + value2)) {
-            result = 'apple';
+            result = wordArray[0];
         } else {
-            result = 'banana';
+            result = wordArray[1];
         }
     } else {
         if (eval(value + logicOp3 + value3)) {
-            result = 'coconut';
+            result = wordArray[2];
         } else {
-            result = 'dragonfruit';
+            result = wordArray[3];
         }
     }
 
