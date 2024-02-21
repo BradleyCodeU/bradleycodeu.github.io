@@ -1,4 +1,4 @@
-from ConsoleTipCalc import *
+from TextGamesBossBattle import *
 import unittest
 
 
@@ -11,16 +11,16 @@ class AutomaticTester(unittest.TestCase):
         counter = 0
         for i in range(reps):
             nums.append(hitPlayer(5))
-            self.assertEquals(1 <= nums[i] <= 6, True)
+            self.assertEqual(1 <= nums[i] <= 6, True)
         nums = []
         reps = 100
         counter = 0
         for i in range(reps):
             nums.append(hitPlayer(50))
-            self.assertEquals(2 <= nums[i] <= 12, True)
+            self.assertEqual(2 <= nums[i] <= 12, True)
             if nums[i] > 6:
-            counter += 1
-        self.assertEquals(counter > 0, True)
+                counter += 1
+        self.assertEqual(counter > 0, True)
 
     def test_hitBoss_fire_spell_true_false(self):
         # Enter code here
@@ -31,9 +31,9 @@ class AutomaticTester(unittest.TestCase):
         for i in range(reps):
             nums.append(hitBoss("fire spell",True,False))
             # check range
-            self.assertEquals(1 <= nums[i] <= 6, True,"Failed hitBoss(\"fire spell\",True,False) should return numbers in the range 1 <= nums <= 6")
+            self.assertEqual(1 <= nums[i] <= 6, True,"Failed hitBoss(\"fire spell\",True,False) should return numbers in the range 1 <= nums <= 6")
         for i in range(6):
-            self.assertEquals(nums.count(i+1) > 0, True,"Failed hitBoss(\"fire spell\",True,False) should return numbers in the range 1 <= nums <= 6")
+            self.assertEqual(nums.count(i+1) > 0, True,"Failed hitBoss(\"fire spell\",True,False) should return numbers in the range 1 <= nums <= 6")
         
     def test_diceRoll(self):
         # Enter code here
@@ -41,9 +41,9 @@ class AutomaticTester(unittest.TestCase):
         reps = 900
         for i in range(reps):
             nums.append(diceRoll())
-            self.assertEquals(1 <= nums[i] <= 6, True)
+            self.assertEqual(1 <= nums[i] <= 6, True)
         for i in range(6):
-            self.assertEquals(nums.count(i+1)/reps > .08, True)
+            self.assertEqual(nums.count(i+1)/reps > .08, True)
 
     def test_randomTrueFalse(self):
         # Enter code here
@@ -51,25 +51,25 @@ class AutomaticTester(unittest.TestCase):
         reps = 100
         for i in range(reps):
             bools.append(randomTrueFalse())
-        self.assertEquals(bools.count(True)/reps > .25, True)
-        self.assertEquals(bools.count(False)/reps > .25, True)
+        self.assertEqual(bools.count(True)/reps > .25, True)
+        self.assertEqual(bools.count(False)/reps > .25, True)
 
     def test_randomHealth(self):
         # Enter code here
         reps = 100
         for i in range(reps):
-            self.assertEquals(30<=randomHealth()<=50, True)
+            self.assertEqual(30<=randomHealth()<=50, True)
 
     def test_whoWins(self):
         # Enter code here
         #   whoWins(1,0)`   | returns "You Win"  |
         # |`whoWins(0,1)`   | returns "You Lose"  |
         # |`whoWins(1,1)`   | returns None 
-        self.assertEquals(whoWins(1,1), None)
-        self.assertEquals(whoWins(51,91), None)
-        self.assertEquals(whoWins(91,51), None)
-        self.assertEquals(whoWins(11,91), None)
-        self.assertEquals(whoWins(91,11), None)
+        self.assertEqual(whoWins(1,1), None)
+        self.assertEqual(whoWins(51,91), None)
+        self.assertEqual(whoWins(91,51), None)
+        self.assertEqual(whoWins(11,91), None)
+        self.assertEqual(whoWins(91,11), None)
         self.assertIsNone(whoWins(1, 1))
         self.assertIsNone(whoWins(51, 51))
         self.assertIsNone(whoWins(91, 91))
@@ -95,9 +95,9 @@ class AutomaticTester(unittest.TestCase):
         for i in range(reps):
             nums.append(hitBoss("ice sword",False,True))
             # check range
-            self.assertEquals(1 <= nums[i] <= 6, True,'Failed hitBoss("ice sword",False,True) should return numbers in the range 1 <= nums <= 6')
+            self.assertEqual(1 <= nums[i] <= 6, True,'Failed hitBoss("ice sword",False,True) should return numbers in the range 1 <= nums <= 6')
         for i in range(6):
-            self.assertEquals(nums.count(i+1) > 0, True,'Failed hitBoss("ice sword",False,True) should return numbers in the range 1 <= nums <= 6')
+            self.assertEqual(nums.count(i+1) > 0, True,'Failed hitBoss("ice sword",False,True) should return numbers in the range 1 <= nums <= 6')
 
     def test_hitBoss_fire_sword_false_false(self):
         # Enter code here
@@ -107,10 +107,10 @@ class AutomaticTester(unittest.TestCase):
         counter = 0
         for i in range(reps):
             nums.append(hitBoss("fire sword",False,False))
-            self.assertEquals(3 <= nums[i] <= 18, True,'Failed hitBoss("fire sword",False,False) should return numbers in the range 3 <= nums <= 18')
+            self.assertEqual(3 <= nums[i] <= 18, True,'Failed hitBoss("fire sword",False,False) should return numbers in the range 3 <= nums <= 18')
             if nums[i] > 12:
-            counter += 1
-        self.assertEquals(counter > 0, True,'Failed hitBoss("fire sword",False,False) should return numbers in the range 3 <= nums <= 18')
+                counter += 1
+        self.assertEqual(counter > 0, True,'Failed hitBoss("fire sword",False,False) should return numbers in the range 3 <= nums <= 18')
 
     def test_hitBoss_ice_spell_true_true(self):
         # Enter code here
@@ -120,16 +120,16 @@ class AutomaticTester(unittest.TestCase):
         counter = 0
         for i in range(reps):
             nums.append(hitBoss("ice spell",True,True))
-            self.assertEquals(3 <= nums[i] <= 18, True,'Failed hitBoss("ice spell",True,True) should return numbers in the range 3 <= nums <= 18')
+            self.assertEqual(3 <= nums[i] <= 18, True,'Failed hitBoss("ice spell",True,True) should return numbers in the range 3 <= nums <= 18')
             if nums[i] > 12:
-            counter += 1
-        self.assertEquals(counter > 0, True,'Failed hitBoss("ice spell",True,True) should return numbers in the range 3 <= nums <= 18')
+                counter += 1
+        self.assertEqual(counter > 0, True,'Failed hitBoss("ice spell",True,True) should return numbers in the range 3 <= nums <= 18')
 
     def test_hitBoss_other_tests(self):
         # hitBoss other tests
-        self.assertEquals(hitBoss("ice",False,True), 0)
-        self.assertEquals(hitBoss("s",False,True), 0)
-        self.assertEquals(hitBoss("",False,True), 0)
+        self.assertEqual(hitBoss("ice",False,True), 0)
+        self.assertEqual(hitBoss("s",False,True), 0)
+        self.assertEqual(hitBoss("",False,True), 0)
 
 
 
