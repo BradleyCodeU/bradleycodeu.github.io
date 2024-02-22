@@ -4,14 +4,14 @@ category: arrays
 title: JS Nested Conditionals Generator
 ---
 
-
+<button onclick="generateConditionals()">Generate Nested Conditionals</button>
 <pre id="output"></pre>
 <table>
  <tr>
  <td><button onclick="revealAnswer()">Reveal Answer</button></td><td><span id="answer" style="display:none;"></span></td>
  </tr>
 </table>
-<button onclick="generateConditionals()">Generate Nested Conditionals</button>
+
 
 <script>
 
