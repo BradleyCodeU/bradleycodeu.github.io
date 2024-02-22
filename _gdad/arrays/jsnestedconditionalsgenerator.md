@@ -47,23 +47,20 @@ function generateConditionals() {
     let outputString = "";
     let variableString = "var value = ";
     const words2DArray = [
-        ["apple", "banana", "coconut", "dragonfruit"],
-        ["Atlanta", "Baltimore", "Columbus", "Detroit"],
-        ["ant", "bear", "cat", "dog"],
-        ["alpaca", "buffalo", "cheetah", "dolphin"],
-        ["antelope", "bison", "crocodile", "duck"],
-        ["apricot", "blueberry", "cherry", "dill pickle"],
-        ["armadillo", "beaver", "cougar", "donkey"],
-        ["asparagus", "broccoli", "cauliflower", "dumplings"],
-        ["almond", "bread","cashew", "donuts"],
-        ["animal crackers", "baklava", "corn", "deep dish pizza"],
-        ["avocado", "blackberry", "cranberry", "double cheeseburger"],
-        ["alphabet soup", "butternut squash", "chestnut", "dim sum"],
-        ["American cheese", "basil", "cinnamon", "dark chocolate"],
-        ["artichoke", "beet", "cabbage", "deviled eggs"],
-        ["avocado", "bell pepper", "carrot", "Doritos"]
+    ["apple", "Atlanta", "ant", "alpaca", "antelope", "apricot", "armadillo", "asparagus", "almond", "animal crackers", "avocado", "alphabet soup", "American cheese", "artichoke", "avocado", "apartment", "acorn", "ambulance", "accordion", "anchor"],
+    ["banana", "Baltimore", "bear", "buffalo", "bison", "blueberry", "beaver", "broccoli", "bread", "baklava", "blackberry", "butternut squash", "basil", "beet", "bell pepper", "basketball", "bicycle", "butterfly", "bowtie", "bookcase"],
+    ["coconut", "Columbus", "cat", "cheetah", "crocodile", "cherry", "cougar", "cauliflower", "cashew", "corn", "cranberry", "chestnut", "cinnamon", "cabbage", "carrot", "coffee", "crayon", "compass", "coaster", "computer"],
+    ["dragonfruit", "Detroit", "dog", "dolphin", "duck", "dill pickle", "donkey", "dumplings", "donuts", "deep dish pizza", "double cheeseburger", "dim sum", "dark chocolate", "deviled eggs", "Doritos", "daisy", "dragonfly", "drumstick", "dictionary", "desk"]
+];
+
+
+
+    wordArray = [
+        words2DArray[0][ Math.floor(Math.random() * words2DArray[0].length)],
+        words2DArray[1][ Math.floor(Math.random() * words2DArray[1].length)],
+        words2DArray[2][ Math.floor(Math.random() * words2DArray[2].length)],
+        words2DArray[3][ Math.floor(Math.random() * words2DArray[3].length)]
     ];
-    wordArray = words2DArray[ Math.floor(Math.random() * words2DArray.length)];
     myvar = Math.floor(Math.random() * 21);
     variableString += myvar;
     variableString += ";\n";
