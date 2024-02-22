@@ -23,19 +23,19 @@ class AutomaticTester(unittest.TestCase):
 
     def test_move_n(self):
         roomArray2 = [{'name':'Kitchen'}, {'name':'Hallway'}, None]
-        self.assertEqual(move(roomArray2, mylocation=1, direction="n"), 1)
+        self.assertEqual(move(roomArray=roomArray2, mylocation=1, direction="n"), 1)
 
     def test_move_s(self):
         roomArray2 = [{'name':'Kitchen'}, {'name':'Hallway'}, None]
-        self.assertEqual(move(roomArray2, mylocation=0, direction="s"), 0)
+        self.assertEqual(move(roomArray=roomArray2, mylocation=0, direction="s"), 0)
 
     def test_move_e(self):
         roomArray2 = [{'name':'Kitchen'}, {'name':'Hallway'}, None]
-        self.assertEqual(move(roomArray2, mylocation=0, direction="e"), 1)
+        self.assertEqual(move(roomArray=roomArray2, mylocation=0, direction="e"), 1)
 
     def test_move_w(self):
         roomArray2 = [{'name':'Kitchen'}, {'name':'Hallway'}, None]
-        self.assertEqual(move(roomArray2, mylocation=1, direction="w"), 0)
+        self.assertEqual(move(roomArray=roomArray2, mylocation=1, direction="w"), 0)
 
 
 
