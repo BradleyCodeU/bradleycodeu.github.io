@@ -3,91 +3,91 @@ layout: project
 category: py
 title: Concat Practice
 ---
-  <style>
-    .hide {
-        display:none !important;
-    }
-    .show {
-        display:block !important;
-    }
-    pre{
-        font-size: 1.5rem;
-    }
-    ul{
-        padding:0px;
-    }
-  </style>
+<style>
+  .hide {
+      display:none !important;
+  }
+  .show {
+      display:block !important;
+  }
+  pre{
+      font-size: 1.5rem;
+  }
+  ul{
+      padding:0px;
+  }
+</style>
 
-      <button onclick="shuffle()">Generate Concat Practice</button>
-        <p>What will print when this code runs?</p>
-        <p></p>
-        <pre class="indent2" id="declare1">x = "1"</pre>
-        <pre class="indent2" id="declare2">y = "2"</pre>
-        <ul class="sortable-list">
-      
-          <li class="item" draggable="true">
-            <div class="details">
-              <pre>x = x + x</pre>
-            </div>
-            
-          </li>
-          <li class="item" draggable="true">
-            <div class="details">
-              <pre>y = y + y</pre>
-            </div>
-          
-          </li>
-          <li class="item" draggable="true">
-            <div class="details">
-              <pre>x = x + y</pre>
-            </div>
-           
-          </li>
-          <li class="item" draggable="true">
-            <div class="details">
-              <pre id="declare3">y = "3"</pre>
-            </div>
-          
-          </li>
-          <li class="item" draggable="true">
-            <div class="details">
-              <pre>x = x + "4"</pre>
-            </div>
-          
-          </li>
-          <li class="item" draggable="true">
-            <div class="details">
-              <pre>x = x + "5"</pre>
-            </div>
-            
-          </li>
-      
-          <li class="item" draggable="true">
-            <div class="details">
-              <pre>y = x + y</pre>
-            </div>
-           
-          </li>
-          <li class="item" draggable="true">
-            <div class="details">
-              <pre>x = y</pre>
-            </div>
-          
-          </li>
-      
-      
-        </ul>
-        <pre class="indent2" style="font-size: 1.5rem;">print(x)</pre>
-        <table>
-            <tr>
-                <td><button onclick="revealAnswer()">Reveal Answer</button></td>
-                <td><span id="answer" style="display:none;"></span></td>
-            </tr>
-        </table>
+<button onclick="shuffle()">Generate Concat Practice</button>
+<p>What will print when this code runs?</p>
+<p></p>
+<pre class="indent2" id="declare1">x = "1"</pre>
+<pre class="indent2" id="declare2">y = "2"</pre>
+<ul class="sortable-list">
+
+  <li class="item" draggable="true">
+    <div class="details">
+      <pre>x = x + x</pre>
+    </div>
+    
+  </li>
+  <li class="item" draggable="true">
+    <div class="details">
+      <pre>y = y + y</pre>
+    </div>
+  
+  </li>
+  <li class="item" draggable="true">
+    <div class="details">
+      <pre>x = x + y</pre>
+    </div>
+    
+  </li>
+  <li class="item" draggable="true">
+    <div class="details">
+      <pre id="declare3">y = "3"</pre>
+    </div>
+  
+  </li>
+  <li class="item" draggable="true">
+    <div class="details">
+      <pre>x = x + "4"</pre>
+    </div>
+  
+  </li>
+  <li class="item" draggable="true">
+    <div class="details">
+      <pre>x = x + "5"</pre>
+    </div>
+    
+  </li>
+
+  <li class="item" draggable="true">
+    <div class="details">
+      <pre>y = x + y</pre>
+    </div>
+    
+  </li>
+  <li class="item" draggable="true">
+    <div class="details">
+      <pre>x = y</pre>
+    </div>
+  
+  </li>
+
+
+</ul>
+<pre class="indent2" style="font-size: 1.5rem;">print(x)</pre>
+<table>
+    <tr>
+        <td><button onclick="revealAnswer()">Reveal Answer</button></td>
+        <td><span id="answer" style="display:none;"></span></td>
+    </tr>
+</table>
         
 
 
-  <script>
+<script>
   const sortableList = document.querySelector(".sortable-list");
 const items = sortableList.querySelectorAll(".item");
 items.forEach(item => {
@@ -171,4 +171,4 @@ function shuffleArray(array) {
 }
 
 shuffle();
-  </script>
+</script>
