@@ -3,7 +3,7 @@ layout: project
 category: arrays
 title: JS Array Practice Generator
 ---
-
+<button onclick="generatePractice()">Generate Array Practice</button>
 <pre id="output"></pre>
 <table>
     <tr>
@@ -11,7 +11,7 @@ title: JS Array Practice Generator
         <td><span id="answer" style="display:none;"></span></td>
     </tr>
 </table>
-<button onclick="generatePractice()">Generate Array Practice</button>
+
 
 <script>
 let indexOne;
