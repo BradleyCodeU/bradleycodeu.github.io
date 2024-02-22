@@ -44,6 +44,7 @@
 
 
 function generate() {
+  document.getElementById("output").innerHTML = "";
     document.getElementById("answer").style.display = "none";
   
   let nums = shuffleArray([1,2,3,4,5,6,7,8,9]);
@@ -58,26 +59,27 @@ function generate() {
     } 
     
   });
+  for(let each of displayedCodeLines){
+    document.getElementById("output").innerHTML += each + "<br>"
+  }
+  document.getElementById("output").innerHTML += "print(x)"
   return displayedCodeLines;
 
 }
 
 function revealAnswer() {
-      const showItems = document.getElementsByClassName('show');
-      //let expression = 'let x="1",y="2";';
-      let expression = "let "+document.getElementById("declare1").textContent.trim() + ";";
-      expression += "let "+document.getElementById("declare2").textContent.trim() + ";";
-      for (let item of showItems) {
-    const preElement = item.querySelector('pre');
-    if (preElement) {
-      expression += preElement.textContent.trim() + ";";
-    }
-  }
+     displayedCodeLines[0] = "let " +  displayedCodeLines[0];
+     displayedCodeLines[1] = "let " +  displayedCodeLines[1];
+     let expression = "";
+     for(let each of displayedCodeLines){
+       expression += each + ";"
+     }
+
       expression += "x;"
       //console.log(expression);
       const answer = eval(expression);
       //return result;
-      document.getElementById("answer").innerText = "Answer: " + answer;
+      document.getElementById("answer").innerText = "Answer: \"" + answer + "\"";
     document.getElementById("answer").style.display = "block";
 }
 
