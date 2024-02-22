@@ -39,7 +39,7 @@ function generatePractice() {
     }
     ml.sort(() => Math.random() - 0.5); // shuffle array
     
-    result += "var " + varA + " = " + JSON.stringify(ml) + ";\n";
+    result += "let " + varA + " = " + JSON.stringify(ml) + ";\n";
     
     indexOne = getRandomNumber(ml.length);
     indexTwo = getRandomNumber(ml.length);
@@ -50,18 +50,18 @@ function generatePractice() {
                 indexOne = getRandomNumber(ml.length);
                 indexTwo = getRandomNumber(ml.length);
             }
-            result += varB + " = " + varA + "[" + indexOne + "] + " + varA + "[" + indexTwo + "];";
+            result += "let " + varB + " = " + varA + "[" + indexOne + "] + " + varA + "[" + indexTwo + "];";
             indexThree = ml[indexOne] + ml[indexTwo];
         } else {
             while (indexOne === indexTwo) {
                 indexOne = getRandomNumber(ml.length);
                 indexTwo = getRandomNumber(ml.length);
             }
-            result += varB + " = " + varA + "[" + indexOne + "] - " + varA + "[" + indexTwo + "];";
+            result += "let " + varB + " = " + varA + "[" + indexOne + "] - " + varA + "[" + indexTwo + "];";
             indexThree = ml[indexOne] - ml[indexTwo];
         }
     } else {
-        result += varB + " = " + varA + ".length - " + varA + "[" + indexTwo + "];";
+        result += "let " + varB + " = " + varA + ".length - " + varA + "[" + indexTwo + "];";
         indexThree = ml.length - ml[indexTwo];
     }
     
