@@ -19,7 +19,7 @@ USING TWO NESTED LOOPS, initialize the board so that zeros and ones alternate, a
 
 Sample Run 1:
 ```
-Gimme a integer >1: ***3***
+Gimme an integer >1: ***3***
 0  1  0
 1  0  1
 0  1  0
@@ -30,7 +30,7 @@ Replacing middle square with size
 ```
 Sample Run 2 (NOTICE that size/2 will result in row 2 column 2 being set to size):
 ```
-Gimme a integer >1: ***4***
+Gimme an integer >1: ***4***
 0  1  0  1  
 1  0  1  0
 0  1  0  1
