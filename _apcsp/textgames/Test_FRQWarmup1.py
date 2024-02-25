@@ -1,10 +1,9 @@
 import unittest
 
-def addYesOrNo(string1):
+
+
+def addYesOrNo (string1):
     True
-
-
-
 
 
 
@@ -40,6 +39,7 @@ class AutomaticTester(unittest.TestCase):
         self.assertEqual('no' in addYesOrNo('stamps'), True)
         self.assertEqual('no' in addYesOrNo('candy'), True)
 
+# MyTestResult version 24.02.25
 class MyTestResult(unittest.TextTestResult):
     def __init__(self, stream, descriptions, verbosity):
         super().__init__(stream, descriptions, verbosity)
@@ -66,7 +66,7 @@ class MyTestResult(unittest.TextTestResult):
     def addError(self, test, err):  # Define addError method
         super().addError(test, err)
         self.error_count += 1
-        self.stream.write("❌ ")
+        self.stream.write("🐝 ")
         self.stream.writeln(f"{test._testMethodName}")
 
     def startTestRun(self):
@@ -93,9 +93,11 @@ if __name__ == "__main__":
     )
     if result.failures or result.errors:
         failed_test_names = [test._testMethodName for test, _ in result.failures]
-        failed_test_names += [test._testMethodName for test, _ in result.errors]
+        error_test_names = [test._testMethodName for test, _ in result.errors]
         for each in failed_test_names:
             print(f"❌  {each}")
+        for each in error_test_names:
+            print(f"🐝  {each}")
         print()
     else:
         print("✅"*result.success_count + "  All tests passed!\n")
