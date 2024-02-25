@@ -1,8 +1,7 @@
----
-layout: project
-category: ch1introduction
-title: Ch1 Passer Rating
----
+
+# Passer Rating
+
+
 
 Passer rating (also known as passing efficiency in college football) is a measure of the performance of passers, primarily quarterbacks, in gridiron football. Passer rating is calculated using a player's pass attempts, completions, yards, touchdowns, and interceptions. Passer rating in the NFL is on a scale from 0 to 158.3.
 
