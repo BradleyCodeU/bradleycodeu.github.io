@@ -31,7 +31,7 @@ class AutomaticTester(unittest.TestCase):
         self.assertEqual(addYesOrNo('uno'), 'yes uno')
         self.assertEqual(addYesOrNo('noodle soup'), 'yes noodle soup')
         self.assertEqual(addYesOrNo('yesterday'), 'yes yesterday')
-        self.assertEqual(addYesOrNo('lyes'), 'no lyes')
+        self.assertEqual(addYesOrNo('eyes'), 'no eyes')
         self.assertEqual(addYesOrNo('grayest'), 'no grayest')
 
     def test_add_no(self):
