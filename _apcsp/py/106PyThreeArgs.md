@@ -16,11 +16,14 @@ Pick 2:
 ## triangleType
 Write a Python function triangleType(side1, side2, side3) that takes in three arguments: side1, side2, and side3 (the lengths of the sides of a triangle). The function should determine and return the type of the triangle based on its sides: If all three sides are equal, return "equilateral". If only two sides are equal, return "isosceles". If no sides are equal, return "scalene". If any of the sides are zero or less then return "error"
 
-### Input &rarr; Output
+#### Input &rarr; Output
 
 triangleType(5, 5, 5) &rarr; "equilateral"
+
 triangleType(5, 5, 6) &rarr; "isosceles"
+
 triangleType(3, 4, 5) &rarr; "scalene"
+
 triangleType(7, 8, -9) &rarr; "error"
 
 
@@ -33,11 +36,14 @@ Write a Python function convert_time(hours, minutes, return_unit) that takes in 
 
 First calculate the total number of minutes by multiplying the number of hours by 60 and adding the number of minutes. If return_unit is "hours", then divide total_minutes by 60 to convert it to hours. If return_unit is "seconds", then multiply total_minutes by 60 to convert it to seconds. If the return_unit is not "hours", "minutes", or "seconds" then alway return 0.
 
-### Input &rarr; Output
+#### Input &rarr; Output
 
 convertTime(2, 30, "hours") &rarr; 2.5
+
 convertTime(2, 30, "minutes") &rarr; 150
+
 convertTime(2, 30, "seconds") &rarr; 9000
+
 convertTime(1, 2, "banana") &rarr; 0
 
 ## isValidDate
@@ -49,12 +55,17 @@ Write a Python function isValidDate(month, day, is_leap_year) that takes in thre
 
 The function should determine and return True if the given date is valid for the specified month and year (taking into account leap years if is_leap_year is True), otherwise return False.
 
-### Input &rarr; Output
+#### Input &rarr; Output
 isValidDate(12, 31, False) &rarr; True
+
 isValidDate(13, 31, False) &rarr; False
+
 isValidDate(12, 32, False) &rarr; False
+
 <small><em># Feb 29th only exists if it's a leap year </em></small>
+
 isValidDate(2, 29, True) &rarr; True
+
 isValidDate(2, 29, False) &rarr; False
 
 ## giveTicket
@@ -62,7 +73,7 @@ Create a function called giveTicket that requires three arguments: currentSpeed,
 The function returns either True or False. It returns True if isSchoolZone is true and the currentSpeed is above the speedLimit.
 It also returns True if isSchoolZone is false and the currentSpeed is more than 10% above the speedLimit. Otherwise it returns False.
 
-### Input &rarr; Output
+#### Input &rarr; Output
 
 <small><em># in school zone</em></small>
 
@@ -100,7 +111,7 @@ mainloop()
 Create a function called netPay that requires three arguments: hourlyPay, totalHours, incomeTax.
 The function returns the employee's take-home pay (aka net pay). According to FLSA regulation, an employee "must receive overtime pay for hours worked over 40 in a workweek at a rate not less than time and one-half their regular rates of pay." If the totalHours is over 40, then calculate both the amount earned at regular pay (the first 40 hours) and the amount earned at time and one-half (overtime hours), then subtract the incomeTax (a percentage of their entire paycheck).
 
-### Input &rarr; Output
+#### Input &rarr; Output
 
 netPay(10, 10, 0.05) &rarr; 95
 
@@ -132,7 +143,7 @@ mainloop()
 Create a function called salesBonus that requires three arguments: hourlyPay, totalHours, totalSales.
 The function returns the employee's gross pay (aka pay before taxes). At this business, employees earn their hourlyPay x totalHours PLUS 10% of their totalSales. According to FLSA regulation, an employee "must receive overtime pay for hours worked over 40 in a workweek at a rate not less than time and one-half their regular rates of pay." If the the totalHours is over 40, then calculate both the amount earned at regular pay (the first 40 hours) and the amount earned at time and one-half (overtime hours), then add 10% of their totalSales.
 
-### Input &rarr; Output
+#### Input &rarr; Output
 
 salesBonus(10, 30, 500) &rarr; 350
 
@@ -178,7 +189,7 @@ Create a function called parrotNoise that requires three arguments: volume, mili
 - otherwise return "Good bird. Polly want a cracker?"
 
 
-### Input &rarr; Output
+#### Input &rarr; Output
 
 parrotNoise("55","200",False) &rarr; "Good bird. Polly want a cracker?"
 
