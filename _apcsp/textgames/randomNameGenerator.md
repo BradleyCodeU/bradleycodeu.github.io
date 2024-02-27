@@ -36,8 +36,18 @@ Royal Plants vs Tyrannosaurus Kong
 Shadow Luigi's Witchy World
 Super Wars the Return of Ghost Burger
 ```
+An example of a sports team generator...
+```
+Here's 5 new sports teams
+London Red Ninjas
+Cleveland Mighty Snakes
+Paris Fighting Mountains
+Tokyo Red Sharks
+Dayton Super Cats
+```
 An example of a Clickbait Article generator...
 ```
+5 random news articles
 Is My Little Pony Destroying Hilliard?
 9 Reasons You Can Blame the Fuzzy Stock Market on Hot Dogs
 You Will Be Shocked To See These 3 Photos Of Minecraft
