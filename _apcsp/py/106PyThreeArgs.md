@@ -49,18 +49,27 @@ convertTime(1, 2, "banana") &rarr; 0
 ## isValidDate
 Write a Python function isValidDate(month, day, is_leap_year) that takes in three arguments: month, day, and is_leap_year.
 
-- month (an integer representing the month of the year).
+- month (an integer representing the month of the year with January as 1).
 - day (an integer representing the day of the month).
 - is_leap_year (a boolean indicating whether the year is a leap year).
 
-The function should determine and return True if the given date is valid for the specified month and year (taking into account leap years if is_leap_year is True), otherwise return False.
+The function should determine and return True if the given date is valid for the specified month and year (taking into account leap years if is_leap_year is True), otherwise return False. Remember: 30 days has September, April, June, and November, All the rest have 31, Save February at 28, But leap year coming once in four, February then has one day more.
 
 #### Input &rarr; Output
+
 isValidDate(12, 31, False) &rarr; True
+
+isValidDate(4, 30, False) &rarr; True
+
+<small><em># April only has 30 days </em></small>
+
+isValidDate(4, 31, False) &rarr; False
+
+isValidDate(12, 32, False) &rarr; False
 
 isValidDate(13, 31, False) &rarr; False
 
-isValidDate(12, 32, False) &rarr; False
+isValidDate(0, -1, False) &rarr; False
 
 <small><em># Feb 29th only exists if it's a leap year </em></small>
 
