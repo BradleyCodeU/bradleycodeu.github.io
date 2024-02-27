@@ -14,13 +14,14 @@ Pick 2:
 - [parrotNoise](#parrotnoise)
 
 ## triangleType
-Write a Python function triangleType(side1, side2, side3) that takes in three arguments: side1, side2, and side3 (the lengths of the sides of a triangle). The function should determine and return the type of the triangle based on its sides: If all three sides are equal, return "equilateral". If only two sides are equal, return "isosceles". If no sides are equal, return "scalene".
+Write a Python function triangleType(side1, side2, side3) that takes in three arguments: side1, side2, and side3 (the lengths of the sides of a triangle). The function should determine and return the type of the triangle based on its sides: If all three sides are equal, return "equilateral". If only two sides are equal, return "isosceles". If no sides are equal, return "scalene". If any of the sides are zero or less then return "error"
 
 ### Input &rarr; Output
 
 triangleType(5, 5, 5) &rarr; "equilateral"
 triangleType(5, 5, 6) &rarr; "isosceles"
 triangleType(3, 4, 5) &rarr; "scalene"
+triangleType(7, 8, -9) &rarr; "error"
 
 
 ## convertTime
@@ -30,13 +31,14 @@ Write a Python function convert_time(hours, minutes, return_unit) that takes in 
 - minutes (an integer representing the number of minutes).
 - return_unit (a string representing the unit of time to which the duration should be converted, either "hours", "minutes", or "seconds").
 
-First calculate the total number of minutes by multiplying the number of hours by 60 and adding the number of minutes. If return_unit is "hours", then divide total_minutes by 60 to convert it to hours. If return_unit is "seconds", then multiply total_minutes by 60 to convert it to seconds.
+First calculate the total number of minutes by multiplying the number of hours by 60 and adding the number of minutes. If return_unit is "hours", then divide total_minutes by 60 to convert it to hours. If return_unit is "seconds", then multiply total_minutes by 60 to convert it to seconds. If the return_unit is not "hours", "minutes", or "seconds" then alway return 0.
 
 ### Input &rarr; Output
 
 convertTime(2, 30, "hours") &rarr; 2.5
 convertTime(2, 30, "minutes") &rarr; 150
 convertTime(2, 30, "seconds") &rarr; 9000
+convertTime(1, 2, "banana") &rarr; 0
 
 ## isValidDate
 Write a Python function isValidDate(month, day, is_leap_year) that takes in three arguments: month, day, and is_leap_year.
