@@ -5,11 +5,55 @@ title: Three Args
 ---
 
 Pick 2:
+- [triangleType](#triangleType)
+- [convertTime](#convertTime)
+- [isValidDate](#isValidDate)
 - [giveTicket](#giveticket)
 - [netPay](#netpay)
 - [salesBonus](#salesbonus)
 - [parrotNoise](#parrotnoise)
 
+## triangleType
+Write a Python function triangleType(side1, side2, side3) that takes in three arguments: side1, side2, and side3 (the lengths of the sides of a triangle). The function should determine and return the type of the triangle based on its sides: If all three sides are equal, return "equilateral". If only two sides are equal, return "isosceles". If no sides are equal, return "scalene".
+
+### Input &rarr; Output
+
+triangleType(5, 5, 5) &rarr; "equilateral"
+triangleType(5, 5, 6) &rarr; "isosceles"
+triangleType(3, 4, 5) &rarr; "scalene"
+
+
+## convertTime
+Write a Python function convert_time(hours, minutes, return_unit) that takes in three arguments: hours, minutes, and return_unit.
+
+- hours (an integer representing the number of hours).
+- minutes (an integer representing the number of minutes).
+- return_unit (a string representing the unit of time to which the duration should be converted, either "hours", "minutes", or "seconds").
+
+First calculate the total number of minutes by multiplying the number of hours by 60 and adding the number of minutes. If return_unit is "hours", then divide total_minutes by 60 to convert it to hours. If return_unit is "seconds", then multiply total_minutes by 60 to convert it to seconds.
+
+### Input &rarr; Output
+
+convertTime(2, 30, "hours") &rarr; 2.5
+convertTime(2, 30, "minutes") &rarr; 150
+convertTime(2, 30, "seconds") &rarr; 9000
+
+## isValidDate
+Write a Python function isValidDate(month, day, is_leap_year) that takes in three arguments: month, day, and is_leap_year.
+
+- month (an integer representing the month of the year).
+- day (an integer representing the day of the month).
+- is_leap_year (a boolean indicating whether the year is a leap year).
+
+The function should determine and return True if the given date is valid for the specified month and year (taking into account leap years if is_leap_year is True), otherwise return False.
+
+### Input &rarr; Output
+isValidDate(12, 31, False) &rarr; True
+isValidDate(13, 31, False) &rarr; False
+isValidDate(12, 32, False) &rarr; False
+<small><em># Feb 29th only exists if it's a leap year </em></small>
+isValidDate(2, 29, True) &rarr; True
+isValidDate(2, 29, False) &rarr; False
 
 ## giveTicket
 Create a function called giveTicket that requires three arguments: currentSpeed, speedLimit, isSchoolZone.
@@ -18,13 +62,19 @@ It also returns True if isSchoolZone is false and the currentSpeed is more than 
 
 ### Input &rarr; Output
 
+<small><em># in school zone</em></small>
+
 giveTicket(21, 20, True) &rarr; True
 
 giveTicket(19, 20, True) &rarr; False
 
+<small><em># not in school zone</em></small>
+
 giveTicket(999, 55, False) &rarr; True
 
-giveTicket(59, 55, False) <small><em>#above the speed limit but not 10% above</em></small> &rarr; False
+<small><em># above the speed limit but not 10% above</em></small>
+
+giveTicket(59, 55, False) &rarr; False  
 
 Starter code:
 ```python
@@ -52,9 +102,13 @@ The function returns the employee's take-home pay (aka net pay). According to FL
 
 netPay(10, 10, 0.05) &rarr; 95
 
-netPay(10, 50, 0.05) <small><em>#($400 reg pay + $150 time-and-a-half pay) - 5%</em></small> &rarr; 522.5
+<small><em># ($400 reg pay + $150 time-and-a-half pay) - 5%</em></small>
 
-netPay(10, 60, 0.05) <small><em>#($400 reg pay + $300 time-and-a-half pay) - 5%</em></small> &rarr; 665
+netPay(10, 50, 0.05)  &rarr; 522.5
+
+<small><em># ($400 reg pay + $300 time-and-a-half pay) - 5%</em></small>
+
+netPay(10, 60, 0.05)  &rarr; 665
 
 Starter code:
 ```python
@@ -80,9 +134,13 @@ The function returns the employee's gross pay (aka pay before taxes). At this bu
 
 salesBonus(10, 30, 500) &rarr; 350
 
-salesBonus(10, 50, 500) <small><em>#($400 reg pay + $150 time-and-a-half pay) + $50</em></small> &rarr; 600
+<small><em>#($400 reg pay + $150 time-and-a-half pay) + $50</em></small>
 
-salesBonus(10, 60, 500) <small><em>#($400 reg pay + $300 time-and-a-half pay) + $50</em></small> &rarr; 750
+salesBonus(10, 50, 500) &rarr; 600
+
+<small><em>#($400 reg pay + $300 time-and-a-half pay) + $50</em></small>
+
+salesBonus(10, 60, 500) &rarr; 750
 
 Starter code:
 ```python
