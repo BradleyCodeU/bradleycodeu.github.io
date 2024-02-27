@@ -54,6 +54,16 @@ You Will Be Shocked To See These 3 Photos Of Minecraft
 8 Things Your Dad Hasn't Told You About Shrek
 How To Talk To Your Cat About Bitcoin
 ```
+
+```
+Here are 5 new video game titles:
+Party Bowser Seige 
+Mad Zombie Duty 
+Mad Luigi World 
+Disco Bowser Deluxe 
+Super Dummies Planet 
+```
+
 Check out @BookTitleBot for another example: [https://twitter.com/booktitlebot](https://twitter.com/booktitlebot)  All of these tweets are being randomly generated based on lists of nouns, verbs, names, places, etc.
 
 ```
