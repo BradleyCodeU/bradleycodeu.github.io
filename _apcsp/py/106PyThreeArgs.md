@@ -16,15 +16,15 @@ Pick 2:
 ## triangleType
 Write a Python function triangleType(side1, side2, side3) that takes in three arguments: side1, side2, and side3 (the lengths of the sides of a triangle). The function should determine and return the type of the triangle based on its sides: If all three sides are equal, return "equilateral". If only two sides are equal, return "isosceles". If no sides are equal, return "scalene". If any of the sides are zero or less then return "error"
 
-#### Input &rarr; Output
+#### Input -> Output
 ```
-triangleType(5, 5, 5) &rarr; "equilateral"
+triangleType(5, 5, 5) -> "equilateral"
 
-triangleType(5, 5, 6) &rarr; "isosceles"
+triangleType(5, 5, 6) -> "isosceles"
 
-triangleType(3, 4, 5) &rarr; "scalene"
+triangleType(3, 4, 5) -> "scalene"
 
-triangleType(7, 8, -9) &rarr; "error"
+triangleType(7, 8, -9) -> "error"
 ```
 
 ## convertTime
@@ -36,15 +36,15 @@ Write a Python function convert_time(hours, minutes, return_unit) that takes in 
 
 First calculate the total number of minutes by multiplying the number of hours by 60 and adding the number of minutes. If return_unit is "hours", then divide total_minutes by 60 to convert it to hours. If return_unit is "seconds", then multiply total_minutes by 60 to convert it to seconds. If the return_unit is not "hours", "minutes", or "seconds" then always return 0.
 
-#### Input &rarr; Output
+#### Input -> Output
 ```
-convertTime(2, 30, "hours") &rarr; 2.5
+convertTime(2, 30, "hours") -> 2.5
 
-convertTime(2, 30, "minutes") &rarr; 150
+convertTime(2, 30, "minutes") -> 150
 
-convertTime(2, 30, "seconds") &rarr; 9000
+convertTime(2, 30, "seconds") -> 9000
 
-convertTime(1, 2, "banana") &rarr; 0
+convertTime(1, 2, "banana") -> 0
 ```
 ## isValidDate
 Write a Python function isValidDate(month, day, is_leap_year) that takes in three arguments: month, day, and is_leap_year.
@@ -55,48 +55,48 @@ Write a Python function isValidDate(month, day, is_leap_year) that takes in thre
 
 The function should determine and return True if the given date is valid for the specified month and year (taking into account leap years if is_leap_year is True), otherwise return False. Remember: 30 days has September, April, June, and November, All the rest have 31, Save February at 28, But leap year coming once in four, February then has one day more.
 
-#### Input &rarr; Output
+#### Input -> Output
 ```
-isValidDate(12, 31, False) &rarr; True
+isValidDate(12, 31, False) -> True
 
-isValidDate(4, 30, False) &rarr; True
+isValidDate(4, 30, False) -> True
 
 April only has 30 days
 
-isValidDate(4, 31, False) &rarr; False
+isValidDate(4, 31, False) -> False
 
-isValidDate(12, 32, False) &rarr; False
+isValidDate(12, 32, False) -> False
 
-isValidDate(13, 31, False) &rarr; False
+isValidDate(13, 31, False) -> False
 
-isValidDate(0, -1, False) &rarr; False
+isValidDate(0, -1, False) -> False
 
 Feb 29th only exists if it's a leap year
 
-isValidDate(2, 29, True) &rarr; True
+isValidDate(2, 29, True) -> True
 
-isValidDate(2, 29, False) &rarr; False
+isValidDate(2, 29, False) -> False
 ```
 ## giveTicket
 Create a function called giveTicket that requires three arguments: currentSpeed, speedLimit, isSchoolZone.
 The function returns either True or False. It returns True if isSchoolZone is true and the currentSpeed is above the speedLimit.
 It also returns True if isSchoolZone is false and the currentSpeed is more than 10% above the speedLimit. Otherwise it returns False.
 
-#### Input &rarr; Output
+#### Input -> Output
 ```
 in school zone
 
-giveTicket(21, 20, True) &rarr; True
+giveTicket(21, 20, True) -> True
 
-giveTicket(19, 20, True) &rarr; False
+giveTicket(19, 20, True) -> False
 
 not in school zone
 
-giveTicket(999, 55, False) &rarr; True
+giveTicket(999, 55, False) -> True
 
 above the speed limit but not 10% above
 
-giveTicket(59, 55, False) &rarr; False  
+giveTicket(59, 55, False) -> False  
 ```
 Starter code:
 ```python
@@ -120,17 +120,17 @@ mainloop()
 Create a function called netPay that requires three arguments: hourlyPay, totalHours, incomeTax.
 The function returns the employee's take-home pay (aka net pay). According to FLSA regulation, an employee "must receive overtime pay for hours worked over 40 in a workweek at a rate not less than time and one-half their regular rates of pay." If the totalHours is over 40, then calculate both the amount earned at regular pay (the first 40 hours) and the amount earned at time and one-half (overtime hours), then subtract the incomeTax (a percentage of their entire paycheck).
 
-#### Input &rarr; Output
+#### Input -> Output
 ```
-netPay(10, 10, 0.05) &rarr; 95
+netPay(10, 10, 0.05) -> 95
 
 ($400 reg pay + $150 time-and-a-half pay) - 5%
 
-netPay(10, 50, 0.05)  &rarr; 522.5
+netPay(10, 50, 0.05)  -> 522.5
 
 ($400 reg pay + $300 time-and-a-half pay) - 5%
 
-netPay(10, 60, 0.05)  &rarr; 665
+netPay(10, 60, 0.05)  -> 665
 ```
 Starter code:
 ```python
@@ -152,17 +152,17 @@ mainloop()
 Create a function called salesBonus that requires three arguments: hourlyPay, totalHours, totalSales.
 The function returns the employee's gross pay (aka pay before taxes). At this business, employees earn their hourlyPay x totalHours PLUS 10% of their totalSales. According to FLSA regulation, an employee "must receive overtime pay for hours worked over 40 in a workweek at a rate not less than time and one-half their regular rates of pay." If the the totalHours is over 40, then calculate both the amount earned at regular pay (the first 40 hours) and the amount earned at time and one-half (overtime hours), then add 10% of their totalSales.
 
-#### Input &rarr; Output
+#### Input -> Output
 ```
-salesBonus(10, 30, 500) &rarr; 350
+salesBonus(10, 30, 500) -> 350
 
 ($400 reg pay + $150 time-and-a-half pay) + $50
 
-salesBonus(10, 50, 500) &rarr; 600
+salesBonus(10, 50, 500) -> 600
 
 ($400 reg pay + $300 time-and-a-half pay) + $50
 
-salesBonus(10, 60, 500) &rarr; 750
+salesBonus(10, 60, 500) -> 750
 ```
 Starter code:
 ```python
@@ -198,19 +198,19 @@ Create a function called parrotNoise that requires three arguments: volume, mili
 - otherwise return "Good bird. Polly want a cracker?"
 
 
-#### Input &rarr; Output
+#### Input -> Output
 ```
-parrotNoise("55","200",False) &rarr; "Good bird. Polly want a cracker?"
+parrotNoise("55","200",False) -> "Good bird. Polly want a cracker?"
 
-parrotNoise("99","1200","False") &rarr; "Quiet down! You are much too loud!"
+parrotNoise("99","1200","False") -> "Quiet down! You are much too loud!"
 
-parrotNoise("45","2300",True) &rarr; "Good bird. Polly want a cracker?"
+parrotNoise("45","2300",True) -> "Good bird. Polly want a cracker?"
 
-parrotNoise("60","2300","False") &rarr; "Good bird. Polly want a cracker?"
+parrotNoise("60","2300","False") -> "Good bird. Polly want a cracker?"
 
-parrotNoise("61","2300",True) &rarr; "Shhhhh! Children have school in the morning!"
+parrotNoise("61","2300",True) -> "Shhhhh! Children have school in the morning!"
 
-parrotNoise("61","2300","False") &rarr; "Shhhhh! I'm trying to sleep!"
+parrotNoise("61","2300","False") -> "Shhhhh! I'm trying to sleep!"
 ```
 Starter code:
 ```python
