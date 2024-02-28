@@ -39,8 +39,8 @@ class AutomaticTester(unittest.TestCase):
         self.assertEqual('no' in addYesOrNo('stamps'), True)
         self.assertEqual('no' in addYesOrNo('candy'), True)
 
-# MyTestResult version 24.02.25
-class MyTestResult(unittest.TextTestResult):
+# CustomTestResult version 240225
+class CustomTestResultV240225(unittest.TextTestResult):
     def __init__(self, stream, descriptions, verbosity):
         super().__init__(stream, descriptions, verbosity)
         self.stream = stream
@@ -88,7 +88,7 @@ class MyTestResult(unittest.TextTestResult):
             )
 
 if __name__ == "__main__":
-    result = unittest.TextTestRunner(resultclass=MyTestResult, verbosity=1).run(
+    result = unittest.TextTestRunner(resultclass=CustomTestResultV240225, verbosity=1).run(
         unittest.TestLoader().loadTestsFromTestCase(AutomaticTester)
     )
     if result.failures or result.errors:
