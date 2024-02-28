@@ -1,8 +1,8 @@
 ---
 layout: project
 category: ch762darrays
-title: MC Roads
-permalink: /apcsa/ch762darrays/ch7mcpetrandomnames/
+title: MC Road Builder
+permalink: /apcsa/ch762darrays/ch7mcroadbuilder/
 ---
 
 
@@ -27,14 +27,14 @@ import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.util.Vector;
  
 @SuppressWarnings("deprecation")
-public class House extends JavaPlugin {
+public class RoadBuilder extends JavaPlugin {
     public static final Logger LOG = Logger.getLogger("Minecraft");
 
 }
 ```
 
 
-Let's learn about how arguments work with Minecraft commands. Notice that agruments is a String array so that users can supply many or none. In this case, the user must supply 2 or more. For example, "road 6 1"
+Let's learn about how arguments work with Minecraft commands. Notice in the code below that the parameter arguments is a String array so that users can supply many or none. In this case, the user must supply 2 or more. For example, "road 6 1"
 
 Below is the basic onCommand method that will read "road" as the label and will read "6" and "1" as a String array of arguments: ["6", "1"]
 
@@ -66,9 +66,10 @@ See the Spigot API reference for the Material class here: [https://hub.spigotmc.
 
 
 ### How to place a Minecart
+A Minecart is not a Material. It's an entity like a wolf, horse, or llama. In this project you will change the Material at a specific point and then ALSO put a Minecart at that same point. Here is the Spigot API reference: [https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/Minecart.html](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/Minecart.html)
 ```Java
 Minecart cart = world.spawn(block.getLocation(), Minecart.class);
-cart.setVelocity(new Vector(0.0,0.0,0.0));
+cart.setVelocity(new Vector(0.0,0.0,0.0)); // sets the speed of the Minecart
 ```
 
 ### Add a method named executeRoadCommand
@@ -77,7 +78,7 @@ cart.setVelocity(new Vector(0.0,0.0,0.0));
 Parameters: sender (who issued the command), arguments (additional details for the command)
 Purpose: Creates a road with rails and a minecart in a Minecraft world.
 *\
-public void executeRoadCommand(CommandSender sender,String[] arguments) 
+public void executeRoadCommand(CommandSender sender, String[] arguments) 
 ```
 
 ### Retrieve Player/World Information
@@ -87,7 +88,7 @@ Get the player who sent the command and their current location in the world. The
 Get the width and depth of the road from the command arguments.
 ```Java
 int xWidth = Integer.parseInt(arguments[0]);
-int yHeight = 4;
+int yHeight = 4; // this makes sure that we allow enough vertical space for tunnels
 int zDepth = Integer.parseInt(arguments[1]);
 ```
 
@@ -108,4 +109,15 @@ Either the xWidth or the zDepth *should* be set to 1. Decide how you want to fix
 //    #    #    #    #    If yLoc is 1 (rail level):
 //    #    #    #    #    #    Place powered rails.
 //    #    #    #    #    #    Place a minecart at start of the road. Can be placed with rail.
+```
+
+### PART 2: Create your own custom 'road' and vehicle
+
+Use the Spigot API for Vehicle: [https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/Vehicle.html](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/Vehicle.html)
+Use the Spigot API for Material: [https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html)
+
+Create another method that will build a different kind of road and a different vehicle. Your choice! Maybe make a "road" of water and place a ChestBoat? Maybe make a dirt path road and a Horse? Maybe make a lava road and a Strider?
+
+```Java
+public void executeCustomRoadCommand(CommandSender sender, String[] arguments) 
 ```
