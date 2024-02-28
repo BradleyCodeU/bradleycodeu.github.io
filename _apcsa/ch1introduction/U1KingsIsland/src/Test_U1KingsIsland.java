@@ -13,7 +13,9 @@ public class Test_U1KingsIsland {
         double expectedTotalCost1 = 133.26;
         double actualTotalCost1 = U1KingsIsland.calculateTotalCost(num_people1, ticket_cost1, parking_cost1, gas_cost1);
         assertEquals(expectedTotalCost1, actualTotalCost1, 0.01);
-
+    }
+    @Test
+    public void testCalculateTotalCost2() {
         // Test case 2
         int num_people2 = 4;
         double ticket_cost2 = 32.99;
@@ -32,7 +34,9 @@ public class Test_U1KingsIsland {
         double expectedCostPerPerson1 = 44.419999999999995;
         double actualCostPerPerson1 = U1KingsIsland.calculateCostPerPerson(total_cost1, num_people1);
         assertEquals(expectedCostPerPerson1, actualCostPerPerson1, 0.01);
-
+    }
+    @Test
+    public void testCalculateCostPerPerson2() {
         // Test case 2
         double total_cost2 = 166.84;
         int num_people2 = 4;
