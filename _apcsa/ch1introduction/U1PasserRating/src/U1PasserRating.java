@@ -1,3 +1,4 @@
+
 class U1PasserRating {
   public static double calculateNFLRating(int attempts, int completions, int yards, int touchdowns, int interceptions) {
     return 0.0;
@@ -7,7 +8,7 @@ class U1PasserRating {
     return 0.0;
   }
   
-  public static void U1PasserRating(String[] args) {
+  public static void main(String[] args) {
     System.out.println("*** Passer Rating Calculator ***");
 
     System.out.print("Enter the QB name: ");
