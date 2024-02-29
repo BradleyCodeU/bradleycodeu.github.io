@@ -14,7 +14,7 @@ class U1ModClock {
   }
 
   public static String calculateFutureTime(int currentHour, int currentMinute, int hoursLater, int minutesLater) {
-    // Hint: convert everything to minutes, add all the minutes together, then convert back to hours and minutes using int division and modulus
+    // HINT: convert everything to minutes, add all the minutes together, then convert back to hours and minutes using int division and modulus
     return "";
   }
 
