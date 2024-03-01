@@ -6,6 +6,7 @@ title: Three Args
 
 Pick 2:
 - [triangleType](#triangleType)
+- [countTeens](#countTeens)
 - [convertTime](#convertTime)
 - [isValidDate](#isValidDate)
 - [giveTicket](#giveticket)
@@ -25,6 +26,18 @@ triangleType(5, 5, 6) -> "isosceles"
 triangleType(3, 4, 5) -> "scalene"
 
 triangleType(7, 8, -9) -> "error"
+```
+
+## countTeens
+Given 3 int values as arguments, return the count of them that are teen. We'll say that a number is "teen" if it is in the range 13..19 inclusive.
+
+#### Input -> Output
+```
+countTeens(13, 20, 10) -> 1
+countTeens(20, 19, 10) -> 1
+countTeens(15, 10, 13) -> 2
+countTeens(17, 18, 19) -> 3
+countTeens(12, 20, 11) -> 0
 ```
 
 ## convertTime
