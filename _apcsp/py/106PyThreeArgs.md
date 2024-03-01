@@ -20,11 +20,8 @@ Write a Python function triangleType(side1, side2, side3) that takes in three ar
 #### Input -> Output
 ```
 triangleType(5, 5, 5) -> "equilateral"
-
 triangleType(5, 5, 6) -> "isosceles"
-
 triangleType(3, 4, 5) -> "scalene"
-
 triangleType(7, 8, -9) -> "error"
 ```
 
@@ -52,11 +49,8 @@ First calculate the total number of minutes by multiplying the number of hours b
 #### Input -> Output
 ```
 convertTime(2, 30, "hours") -> 2.5
-
 convertTime(2, 30, "minutes") -> 150
-
 convertTime(2, 30, "seconds") -> 9000
-
 convertTime(1, 2, "banana") -> 0
 ```
 ## isValidDate
@@ -71,23 +65,16 @@ The function should determine and return True if the given date is valid for the
 #### Input -> Output
 ```
 isValidDate(12, 31, False) -> True
-
 isValidDate(4, 30, False) -> True
 
 April only has 30 days
-
 isValidDate(4, 31, False) -> False
-
 isValidDate(12, 32, False) -> False
-
 isValidDate(13, 31, False) -> False
-
 isValidDate(0, -1, False) -> False
 
 Feb 29th only exists if it's a leap year
-
 isValidDate(2, 29, True) -> True
-
 isValidDate(2, 29, False) -> False
 ```
 ## giveTicket
@@ -98,17 +85,13 @@ It also returns True if isSchoolZone is false and the currentSpeed is more than 
 #### Input -> Output
 ```
 in school zone
-
 giveTicket(21, 20, True) -> True
-
 giveTicket(19, 20, True) -> False
 
 not in school zone
-
 giveTicket(999, 55, False) -> True
 
 above the speed limit but not 10% above
-
 giveTicket(59, 55, False) -> False  
 ```
 Starter code:
@@ -138,11 +121,9 @@ The function returns the employee's take-home pay (aka net pay). According to FL
 netPay(10, 10, 0.05) -> 95
 
 ($400 reg pay + $150 time-and-a-half pay) - 5%
-
 netPay(10, 50, 0.05)  -> 522.5
 
 ($400 reg pay + $300 time-and-a-half pay) - 5%
-
 netPay(10, 60, 0.05)  -> 665
 ```
 Starter code:
@@ -170,11 +151,9 @@ The function returns the employee's gross pay (aka pay before taxes). At this bu
 salesBonus(10, 30, 500) -> 350
 
 ($400 reg pay + $150 time-and-a-half pay) + $50
-
 salesBonus(10, 50, 500) -> 600
 
 ($400 reg pay + $300 time-and-a-half pay) + $50
-
 salesBonus(10, 60, 500) -> 750
 ```
 Starter code:
@@ -214,15 +193,10 @@ Create a function called parrotNoise that requires three arguments: volume, mili
 #### Input -> Output
 ```
 parrotNoise("55","200",False) -> "Good bird. Polly want a cracker?"
-
 parrotNoise("99","1200","False") -> "Quiet down! You are much too loud!"
-
 parrotNoise("45","2300",True) -> "Good bird. Polly want a cracker?"
-
 parrotNoise("60","2300","False") -> "Good bird. Polly want a cracker?"
-
 parrotNoise("61","2300",True) -> "Shhhhh! Children have school in the morning!"
-
 parrotNoise("61","2300","False") -> "Shhhhh! I'm trying to sleep!"
 ```
 Starter code:
