@@ -1,4 +1,8 @@
-
+---
+layout: project
+category: u1a_pt
+title: U1a Passer Rating
+---
 # Passer Rating
 
 
@@ -9,8 +13,8 @@ Since 1973, passer rating has been the official formula used by the NFL to deter
 
 Passer rating is sometimes colloquially referred to as “quarterback rating” or “QB rating”, however the statistic applies only to passing (not to other contributions by a quarterback) and applies to any player at any position who throws a forward pass, not just to quarterbacks.
 
-- Fill in the body of the method calculateNFLRating(int attempts, int completions, int yards, int touchdowns, int interceptions) and return a double. Use the NFL formula found here [https://en.wikipedia.org/wiki/Passer_rating#NFL_and_CFL_formula](https://en.wikipedia.org/wiki/Passer_rating#NFL_and_CFL_formula) 
-- Fill in the body of the method calculateCollegeRating(int attempts, int completions, int yards, int touchdowns, int interceptions) and return a double. Use the NCAA formula found here [https://en.wikipedia.org/wiki/Passer_rating#NCAA_formula](https://en.wikipedia.org/wiki/Passer_rating#NCAA_formula) 
+- Fill in the body of the method calculateNFLRating(int attempts, int completions, int yards, int touchdowns, int interceptions) and return a double. Use the NFL formula found here [https://en.wikipedia.org/wiki/Passer_rating#NFL_and_CFL_formula](https://en.wikipedia.org/wiki/Passer_rating#NFL_and_CFL_formula)
+- Fill in the body of the method calculateCollegeRating(int attempts, int completions, int yards, int touchdowns, int interceptions) and return a double. Use the NCAA formula found here [https://en.wikipedia.org/wiki/Passer_rating#NCAA_formula](https://en.wikipedia.org/wiki/Passer_rating#NCAA_formula)
 
 
 ### Sample run #1:
@@ -47,4 +51,3 @@ College passer rating would be 173.20956175298807
 
 
 IMPORTANT NOTE: Although QB stats such as attempts would LOGICALLY be stored as an integer, you will need to convert the attempts to double (aka convert from int to decimal numbers) in order to avoid an incorrect result caused by [integer division](https://www.educative.io/answers/wrong-results-for-division-in-java).  When dividing two integers, Java uses integer division and the result is also an integer. The result is truncated (the fractional part is thrown away) and NOT rounded to the closest integer. `7 / 4` in Java will equal 1. However `7.0 / 4` (or `7 / 4.0` or `7.0 / 4.0`) would equal 1.75.
-  

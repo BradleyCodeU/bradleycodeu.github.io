@@ -1,5 +1,9 @@
-# Modulus Clock
 ---
+layout: project
+category: u1a_pt
+title: U1a Mod Clock
+---
+
 
 *You should already have completed the U1CoinConverter assignment. If not, Mr Riley gave these assignments in the wrong order.*
 
@@ -33,7 +37,7 @@ You will create a program that uses integer division and modulus to calculate th
 
 2. DO NOT use any [magic numbers](https://en.wikipedia.org/wiki/Magic_number_(programming)#Unnamed_numerical_constants). Use CONSTANTS
 
-3. ! ! ! DO NOT USE ANY IF STATEMENTS ! ! ! 
+3. ! ! ! DO NOT USE ANY IF STATEMENTS ! ! !
 
 
 DIRECTIONS:
@@ -44,7 +48,7 @@ DIRECTIONS:
   1.  Prompt for the minutes of the start time.
   1.  Prompt for the number of hours later
   1.  Prompt for the number of minutes later.
-  1.  Calculate the future time. 
+  1.  Calculate the future time.
   1.  Display the current time and the future time will be after that many hours and minutes.
 
 
@@ -66,6 +70,3 @@ Please input number of minutes later: 1
 Current time = 23:59
 Future time = 0:00
 ```
-
-
-  

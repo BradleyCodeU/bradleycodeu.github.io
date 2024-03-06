@@ -1,3 +1,9 @@
+---
+layout: project
+category: u1a_pt
+title: U1b Coin Converter
+---
+
 # Coin Converter
 
 Integer division returns the result of division rounded down. It is useful for conversions.
@@ -19,7 +25,7 @@ int remainingSqFt = totalSqFt % 43560; // modulus gives the remaining sq ft
 
 Given an amount of dollars and cents (entered as a decimal number such as 2.44), convert that amount of money into denominations of dollars, quarters, dimes, nickels, and pennies.
 
-I recommend first converting the decimal amount into a integer amount of cents. Then use integer division and modulus for the unit conversions. 
+I recommend first converting the decimal amount into a integer amount of cents. Then use integer division and modulus for the unit conversions.
 
 - Write your code in the method convertCoins(double amount) and return a String. Your return statement should be `return dollars + "dollars, " + quarters + " quarters, " + dimes + " dimes, " + nickels + " nickels, " + pennies + " pennies";`
 - Complete the main method using Scanner to collect keyboard input
@@ -41,7 +47,3 @@ Enter the amount to convert to coins in dollars and cents (for example, 3.41): 5
 Enter the amount to convert to coins in dollars and cents (for example, 3.41): 9.99
 9 dollars, 3 quarters, 2 dimes, 0 nickels, 4 pennies
 ```
-
-  
-
-  

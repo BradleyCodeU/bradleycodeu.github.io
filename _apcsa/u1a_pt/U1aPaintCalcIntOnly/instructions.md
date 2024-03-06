@@ -1,7 +1,12 @@
-# Ch1 Paint Calc Int Only
+---
+layout: project
+category: u1a_pt
+title: U1a Paint Calc Int Only
+---
+
 You are painting a room and need to calculate the amount of paint that must be purchased. All length and area calculations will be in feet and will be entered and stored as integers. Even the final cost will be an integer.
 
-- Fill in the body of the static method calculateWallArea(intlength, width, height, num_doors, num_windows) 
+- Fill in the body of the static method calculateWallArea(intlength, width, height, num_doors, num_windows)
 Assume that doors are 21 square feet and windows are 12 square feet.
 
 - In the main method...

@@ -1,4 +1,8 @@
-# ASCII art
+---
+layout: project
+category: u1a_pt
+title: U1a ASCII Art
+---
 
 First, read this tutorial about Java escape characters (a.k.a. escape sequences): [https://www.javatpoint.com/java-escape-characters](https://www.javatpoint.com/java-escape-characters)
 

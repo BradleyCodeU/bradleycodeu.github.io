@@ -1,4 +1,9 @@
-# Ch1 Kings Island
+---
+layout: project
+category: u1a_pt
+title: U1a Kings Island
+---
+
 
 A group of people are traveling to King's Island for the day.
 Everyone in the group is car-pooling and has agreed to split the cost evenly.
@@ -14,7 +19,7 @@ You MUST:
   - Declare variables for number of people, parking cost, cost of gas, ticket cost, total cost, and cost per person
   - Use Scanner to collect user input
   - Print the total cost and the cost per person
-  
+
 
 ### SAMPLE OUTPUT 1
 ```
@@ -36,4 +41,3 @@ King's Island Cost Report
 Total Cost = $166.84
 Cost Per Person = $41.71
 ```
-
