@@ -3,38 +3,28 @@
 Combine these 3 parts to create one big Method Madness program.
 
 ## Part 1:
-
-Use Math.min() and Math.max() to create the following. This is a sample transcript of what your program should do. The numbers 15 and 25 are user input and should not be put on the screen by your program.
+Create a public static method named whichIsLarger that takes two int arguments and returns a String. Use Math.min() and Math.max() to create the following. This is a sample transcript of what your program should do. The numbers 15 and 25 are user input and should not be put on the screen by your program.
 ```
-Enter your first number: 15
-Enter your second number: 25
-25 is larger than 15
-```
-A second run of the code might give this output:
-```
-Enter your first number: 6
-Enter your second number: 4
-6 is larger than 4
+whichIsLarger(15, 25) --> "25 is larger than 15"
+whichIsLarger(6, 4) --> "6 is larger than 4"
 ```
 
 ## Part 2:
+Create a public static method named textOrder that takes two String arguments and returns a String. This method will determine the correct [lexicographic ordering](https://en.wikipedia.org/wiki/Lexicographic_order) of those strings. For this exercise you will need to use the compareTo() String method. Look up the compareTo method in the API docs. This is a sample transcript of what your program should do. The words "apple" and "bananas" are user input and should not be put on the screen by your program.
+```
+textOrder("apple", "banana") --> "apple comes before banana lexicographically"
+textOrder("dragonfruit", "coconut") --> "coconut comes before dragonfruit lexicographically"
 
-Your program will determine the correct [lexicographic ordering](https://en.wikipedia.org/wiki/Lexicographic_order) of those strings. For this exercise you will need to use the compareTo() String method. Look up the compareTo method in the API docs. This is a sample transcript of what your program should do. The words "apple" and "bananas" are user input and should not be put on the screen by your program.
-```
-Enter the first string: apple
-Enter the second string: bananas
-apple comes before bananas lexicographically
-```
-A second run of this code might produce the following output:
-```
-Enter the first string: bananas
-Enter the second string: apple
-apple comes before bananas lexicographically
 ```
 
 ## Part 3:
+In the public static void main method...
 
-Your program will use the two numbers from Part 1 and then ask a series of math questions. Each question will be evaluated as to whether it is the right or wrong answer. In the end a final score should be reported for the user. This is a sample transcript of what your program should do. User input always comes after a colon : and should not be put on the screen by your program.
+Prompt "Enter your first number: " and collect user input. Prompt "Enter your second number: " and collect user input. Use the whichIsLarger method to print which is larger.
+
+Prompt "Enter your first string: " and collect user input. Prompt "Enter your second string: " and collect user input. Use the textOrder method to print which comes first.
+
+Next, your program will use the two numbers from Part 1 and then ask a series of math questions. Each question will be evaluated as to whether it is the right or wrong answer. In the end a final score should be reported for the user. This is a sample transcript of what your program should do. User input always comes after a colon : and should not be put on the screen by your program.
 ```
 Enter your name: Jeremy
 Welcome Jeremy! Please answer the following questions...
