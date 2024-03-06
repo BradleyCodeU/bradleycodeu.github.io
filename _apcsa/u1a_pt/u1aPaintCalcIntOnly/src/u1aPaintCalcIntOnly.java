@@ -1,4 +1,4 @@
-class U1PaintCalcIntOnly {
+class U1aPaintCalcIntOnly {
   public static int calculateWallArea(int length, int width, int height, int num_doors, int num_windows)
   {
     // Calculate the total surface area of the walls

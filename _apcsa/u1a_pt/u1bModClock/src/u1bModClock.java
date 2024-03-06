@@ -1,4 +1,4 @@
-class U1ModClock {
+class U1bModClock {
     
   public static String formatMinutes(int minutes) {
     // Adds a leading zero only when necessary. formatMinutes(9) -> "09" and formatMinutes(10) -> "10"

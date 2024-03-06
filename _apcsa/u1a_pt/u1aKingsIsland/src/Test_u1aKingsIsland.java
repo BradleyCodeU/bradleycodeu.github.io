@@ -1,7 +1,7 @@
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
-public class Test_U1KingsIsland {
+public class Test_U1aKingsIsland {
 
     @Test
     public void testCalculateTotalCost() {
@@ -11,7 +11,7 @@ public class Test_U1KingsIsland {
         double parking_cost1 = 15.75;
         double gas_cost1 = 18.54;
         double expectedTotalCost1 = 133.26;
-        double actualTotalCost1 = U1KingsIsland.calculateTotalCost(num_people1, ticket_cost1, parking_cost1, gas_cost1);
+        double actualTotalCost1 = U1aKingsIsland.calculateTotalCost(num_people1, ticket_cost1, parking_cost1, gas_cost1);
         assertEquals(expectedTotalCost1, actualTotalCost1, 0.01);
     }
     @Test
@@ -22,7 +22,7 @@ public class Test_U1KingsIsland {
         double parking_cost2 = 16.50;
         double gas_cost2 = 18.38;
         double expectedTotalCost2 = 166.84;
-        double actualTotalCost2 = U1KingsIsland.calculateTotalCost(num_people2, ticket_cost2, parking_cost2, gas_cost2);
+        double actualTotalCost2 = U1aKingsIsland.calculateTotalCost(num_people2, ticket_cost2, parking_cost2, gas_cost2);
         assertEquals(expectedTotalCost2, actualTotalCost2, 0.01);
     }
 
@@ -32,7 +32,7 @@ public class Test_U1KingsIsland {
         double total_cost1 = 133.26;
         int num_people1 = 3;
         double expectedCostPerPerson1 = 44.419999999999995;
-        double actualCostPerPerson1 = U1KingsIsland.calculateCostPerPerson(total_cost1, num_people1);
+        double actualCostPerPerson1 = U1aKingsIsland.calculateCostPerPerson(total_cost1, num_people1);
         assertEquals(expectedCostPerPerson1, actualCostPerPerson1, 0.01);
     }
     @Test
@@ -41,7 +41,7 @@ public class Test_U1KingsIsland {
         double total_cost2 = 166.84;
         int num_people2 = 4;
         double expectedCostPerPerson2 = 41.71;
-        double actualCostPerPerson2 = U1KingsIsland.calculateCostPerPerson(total_cost2, num_people2);
+        double actualCostPerPerson2 = U1aKingsIsland.calculateCostPerPerson(total_cost2, num_people2);
         assertEquals(expectedCostPerPerson2, actualCostPerPerson2, 0.01);
     }
 }

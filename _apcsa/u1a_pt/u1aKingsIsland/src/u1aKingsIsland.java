@@ -6,7 +6,7 @@ import java.util.Scanner;
 // the cost per person.
 // Assume that each ticket is $32.99
 
-public class U1KingsIsland {
+public class U1aKingsIsland {
 
   public static double calculateTotalCost(int num_people, double ticket_cost, double parking_cost, double gas_cost) {
     return 0.00;

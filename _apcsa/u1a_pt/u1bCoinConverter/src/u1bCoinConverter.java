@@ -1,4 +1,4 @@
-class U1CoinConverter {
+class U1bCoinConverter {
   public static String convertCoins(double amount) {
     return "";
   }

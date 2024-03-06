@@ -2,7 +2,7 @@
 import static org.junit.Assert.*;
 import org.junit.Test;
 
-public class Test_U1PasserRating {
+public class Test_U1aPasserRating {
 
     @Test
     public void testCalculateNFLRating_TomBrady() {
@@ -13,7 +13,7 @@ public class Test_U1PasserRating {
         int interceptions = 2;
 
         double expectedNFLRating = 112.17206790123457; // Calculated externally
-        double actualNFLRating = U1PasserRating.calculateNFLRating(attempts, completions, yards, touchdowns, interceptions);
+        double actualNFLRating = U1aPasserRating.calculateNFLRating(attempts, completions, yards, touchdowns, interceptions);
 
         assertEquals(expectedNFLRating, actualNFLRating, 0.0001); // Using delta for double comparison
     }
@@ -27,7 +27,7 @@ public class Test_U1PasserRating {
         int interceptions = 2;
 
         double expectedCollegeRating = 156.92962962962963; // Calculated externally
-        double actualCollegeRating = U1PasserRating.calculateCollegeRating(attempts, completions, yards, touchdowns, interceptions);
+        double actualCollegeRating = U1aPasserRating.calculateCollegeRating(attempts, completions, yards, touchdowns, interceptions);
 
         assertEquals(expectedCollegeRating, actualCollegeRating, 0.0001); // Using delta for double comparison
     }
@@ -41,7 +41,7 @@ public class Test_U1PasserRating {
         int interceptions = 6;
 
         double expectedNFLRating = 122.46015936254979; // Calculated externally
-        double actualNFLRating = U1PasserRating.calculateNFLRating(attempts, completions, yards, touchdowns, interceptions);
+        double actualNFLRating = U1aPasserRating.calculateNFLRating(attempts, completions, yards, touchdowns, interceptions);
 
         assertEquals(expectedNFLRating, actualNFLRating, 0.0001); // Using delta for double comparison
     }
@@ -55,7 +55,7 @@ public class Test_U1PasserRating {
         int interceptions = 6;
 
         double expectedCollegeRating = 173.20956175298807; // Calculated externally
-        double actualCollegeRating = U1PasserRating.calculateCollegeRating(attempts, completions, yards, touchdowns, interceptions);
+        double actualCollegeRating = U1aPasserRating.calculateCollegeRating(attempts, completions, yards, touchdowns, interceptions);
 
         assertEquals(expectedCollegeRating, actualCollegeRating, 0.0001); // Using delta for double comparison
     }

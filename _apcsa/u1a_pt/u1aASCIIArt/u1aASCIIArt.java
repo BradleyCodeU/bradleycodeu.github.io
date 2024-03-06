@@ -1,3 +1,3 @@
-public class U1ASCIIArt {
+public class U1aASCIIArt {
     
 }

@@ -1,5 +1,5 @@
 
-class U1PasserRating {
+class U1aPasserRating {
   public static double calculateNFLRating(int attempts, int completions, int yards, int touchdowns, int interceptions) {
     return 0.0;
   }
