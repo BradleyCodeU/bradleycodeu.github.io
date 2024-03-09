@@ -1,7 +1,7 @@
 ---
 layout: project
-category: u6a_ar
-title: U6a Farmers Market
+category: u6b_fe
+title: U6b Farmers Market
 ---
 
 
