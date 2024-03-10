@@ -11,4 +11,9 @@ Implement a class Robot (in the Robot.java file) that simulates a robot wanderin
 
 The turnLeft and turnRight methods change the direction but not the location. The move method moves the robot by one unit in the direction it is facing. The getDirection method returns a string "N", "E", "S", or "W".
   
-Finally, create a static variable to track the amount of robots that have been constructed. Create a static method named getRobotCount() that will return the amount of robots that have been constructed
+Finally, create the following static variable/methods:
+- a static variable to track the amount of robots that have been constructed
+- a static list of used license plate numbers that have already been generated
+- a static method named getRobotCount() that will return the amount of robots that have been constructed
+- a static method String getLicensePlates() that returns the toString version of the license plate numbers list
+- a static method String generateLicensePlateNumber() that will generate a String length 7 of random uppercase-letters and numbers, add it to the list of used license plate numbers, and return the String

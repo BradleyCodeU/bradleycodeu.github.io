@@ -1,4 +1,7 @@
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
 
+public class Test_U7bWordGame {
 @Test
 public void randomSecret_test() {
   String[] arr1 = {"codeR","Coder","cOdEr"};
@@ -26,4 +29,5 @@ public void checkLetter_test() {
   assertEquals("🔀", U7bWordGame.checkLetter("coder", "r",2));
   assertEquals("🔳", U7bWordGame.checkLetter("coder", "x", 4));
 
+}
 }

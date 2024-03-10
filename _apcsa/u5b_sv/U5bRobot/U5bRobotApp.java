@@ -3,7 +3,7 @@ import java.awt.Point;
 /**
    A class to test the Robot class.
 */
-public class Main
+public class U5bRobotApp
 {
    /**
       Tests the methods of the Robot class.

@@ -1,4 +1,4 @@
-class ShoesTester {
+class U5aShoesApp {
   public static void main(String[] args) {
     Shoes fav = new Shoes();
     fav.setColor("Blue");

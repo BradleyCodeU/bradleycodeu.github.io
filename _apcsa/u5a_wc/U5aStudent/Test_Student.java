@@ -1,7 +1,7 @@
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
-public class Test_U5Student {
+public class Test_Student {
 
 @Test
 public void test_getAverageScore() {

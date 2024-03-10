@@ -1,100 +1,104 @@
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+
+public class Test_U6aPokerDice {
 
 
 
 
 
-getResult_Highest_Card_X
 
 @Test
-public void () {
+public void getResult_Highest_Card_X() {
 
   int[] mydice = {2,6,3,1,4};
-  assertEquals( "Highest Card 6".toLowerCase(),Main.getResult(mydice).toLowerCase());
+  assertEquals( "Highest Card 6".toLowerCase(),U6aPokerDice.getResult(mydice).toLowerCase());
   int[] mydice2 = {1,2,6,4,5};
-  assertEquals( "Highest Card 6".toLowerCase(),Main.getResult(mydice2).toLowerCase());
+  assertEquals( "Highest Card 6".toLowerCase(),U6aPokerDice.getResult(mydice2).toLowerCase());
   
 
 }
 
-getResult_Two_pair
+
 @Test
-public void () {
+public void getResult_Two_pair() {
   int[] mydice = {1, 2, 2, 1, 3};
-  assertEquals("Two pair".toLowerCase(),Main.getResult(mydice).toLowerCase());
+  assertEquals("Two pair".toLowerCase(),U6aPokerDice.getResult(mydice).toLowerCase());
 }
-getResult_One_pair
+
 @Test
-public void () {
+public void getResult_One_pair() {
   int[] mydice = {1, 2, 2, 3, 4};
-  assertEquals( "One pair".toLowerCase(),Main.getResult(mydice).toLowerCase());
+  assertEquals( "One pair".toLowerCase(),U6aPokerDice.getResult(mydice).toLowerCase());
 
 
 }
-diceToString_0_3_7_5_2
+
 @Test
-public void () {
-  int[] mydice = {0, 3, 7, 5, 2};
-  assertEquals("0 3 7 5 2",Main.diceToString(mydice));
+public void diceToString_0_3_6_5_2() {
+  int[] mydice = {0, 3, 6, 5, 2};
+  assertEquals("0 3 6 5 2",U6aPokerDice.diceToString(mydice));
 
 }
-resetDice_1
+
 @Test
-public void () {
-  int[] mydice = {1, 3, 7, 5, 2};
-  Main.resetDice(mydice);
+public void resetDice_1() {
+  int[] mydice = {1, 3, 6, 5, 2};
+  U6aPokerDice.resetDice(mydice);
   for(int each : mydice){
     assertEquals(0,each);
   }
 
 
 }
-getResult_Five_of_a_kind
+
 @Test
-public void () {
+public void getResult_Five_of_a_kind() {
   // Enter code here
   int[] mydice = {1, 1, 1, 1, 1};
   
-  assertEquals( "Five of a kind".toLowerCase(),Main.getResult(mydice).toLowerCase());
+  assertEquals( "Five of a kind".toLowerCase(),U6aPokerDice.getResult(mydice).toLowerCase());
   
 }
 
 
 
-getCounts_1_2_3_3_7
+
 @Test
-public void () {
-  int[] mydice = {1,2,3,3,7};
-  int [] result = Main.getCounts(mydice);
+public void getCounts_1_2_3_3_6() {
+  int[] mydice = {1,2,3,3,6};
+  int [] result = U6aPokerDice.getCounts(mydice);
   assertEquals(result.length, 10);
-  int[] solution = {1, 1, 2, 0, 0, 0, 1, 0, 0, 0};
+  int[] solution = {1, 1, 2, 0, 0, 1, 0, 0, 0, 0};
   for(int i=0;i<10;i++){
     assertEquals(solution[i],result[i]);
   }
   
 }
 
-getResult_Four_of_a_kind
+
 @Test
-public void () {
+public void getResult_Four_of_a_kind() {
 
   int[] mydice = {1, 2, 1, 1, 1};
   
-  assertEquals( "Four of a kind".toLowerCase(),Main.getResult(mydice).toLowerCase());
+  assertEquals( "Four of a kind".toLowerCase(),U6aPokerDice.getResult(mydice).toLowerCase());
   
 }
 
 
-getResult_Full_house
+
 
 @Test
-public void () {
+public void getResult_Full_house() {
   int[] mydice = {1, 2, 2, 1, 1};
-  assertEquals( "Full house".toLowerCase(),Main.getResult(mydice).toLowerCase());
+  assertEquals( "Full house".toLowerCase(),U6aPokerDice.getResult(mydice).toLowerCase());
 }
 
-getResult_Three_of_a_kind
+
 @Test
-public void () {
+public void getResult_Three_of_a_kind() {
   int[] mydice = {1, 2, 3, 1, 1};
-  assertEquals( "Three of a kind".toLowerCase(),Main.getResult(mydice).toLowerCase());
+  assertEquals( "Three of a kind".toLowerCase(),U6aPokerDice.getResult(mydice).toLowerCase());
+}
 }

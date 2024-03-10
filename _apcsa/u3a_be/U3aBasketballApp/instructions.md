@@ -11,3 +11,4 @@
 5. Create a public static method longestName that take two BasketballPlayer objects as arguments. This method takes two BasketballPlayer objects as arguments and returns the name of the player with the longest name. If both players have names of equal length, it returns the message "Equal length"
 
 6. Create public static method tradePlayer that takes two arguments: BasketballPlayer tradedPlayer and String newTeam. This method updates the teamName of the specified BasketballPlayer object to the new team name provided as an argument. If the player is ALREADY on the newTeam, then return false. Otherwise, update the player's team name, generates a random jersey number between 0 and 55 (inclusive) and assign it to the player, then return true.
+

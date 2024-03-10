@@ -1,4 +1,4 @@
-class EmployeeTester {
+class U5aEmployeeApp {
   public static void main(String[] args) {
     
     // Supply an EmployeeTester class that tests all methods. RUN TWO TESTS with different salaries and different raises. Print your expected results and then the actual results.

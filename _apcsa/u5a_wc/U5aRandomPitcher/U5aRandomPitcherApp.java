@@ -1,4 +1,4 @@
-class Main {
+class U5aRandomPitcherApp {
   public static void main(String[] args) {
 
     // Your Main class MUST:

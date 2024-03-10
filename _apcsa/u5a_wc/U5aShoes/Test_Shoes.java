@@ -1,7 +1,7 @@
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
-public class Test_U5Shoes {
+public class Test_Shoes {
 
 
   

@@ -69,4 +69,22 @@ assertEquals("N", robot.getDirection().toUpperCase());
   robot.turnLeft(); // 4, 7, 3
 assertEquals("W", robot.getDirection().toUpperCase());
 }
+
+@Test
+    public void test_getLicensePlates() {
+        String licensePlates = Robot.getLicensePlates();
+        assertTrue(licensePlates.startsWith("[") && licensePlates.endsWith("]"));
+        assertTrue(licensePlates.contains("[]"));
+    }
+
+    @Test
+    public void test_generateLicensePlateNumber() {
+        String licensePlate = Robot.generateLicensePlateNumber();
+        assertTrue(licensePlate.matches("[A-Z0-9]{7}"));
+
+        // Test if the generated license plate is added to the list
+        String licensePlates = Robot.getLicensePlates();
+        assertTrue(licensePlates.contains(licensePlate));
+    }
+
 }

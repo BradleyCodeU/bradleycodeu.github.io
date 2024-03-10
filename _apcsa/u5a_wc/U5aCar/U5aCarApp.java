@@ -1,5 +1,5 @@
 import javax.swing.JFrame;
-public class App_U5Car
+public class U5aCarApp
 {
    public static void main(String[] args)
    {

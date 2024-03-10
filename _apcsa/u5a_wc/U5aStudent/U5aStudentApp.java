@@ -1,4 +1,4 @@
-class StudentTester {
+class U5aStudentApp {
   public static void main(String[] args) {
     Student demoStudent;
     demoStudent.addQuiz();
