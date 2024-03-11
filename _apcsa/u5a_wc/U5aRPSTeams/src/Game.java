@@ -1,4 +1,4 @@
-package io.github.bradleycodeu;
+
 // Create a public class called Game
 public class Game{
 // Create public static Player playSingleRound(Player player1, Player player2)

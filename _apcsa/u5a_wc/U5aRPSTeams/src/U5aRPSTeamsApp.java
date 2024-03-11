@@ -1,4 +1,4 @@
-package io.github.bradleycodeu;
+
 // Name class (helper class)
 // - array of player names
 // - array of city names

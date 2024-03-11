@@ -1,7 +1,7 @@
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
-import io.github.bradleycodeu.Stats;
+
 
 public class Test_Stats {
 

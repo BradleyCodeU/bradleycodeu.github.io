@@ -1,8 +1,7 @@
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
-import io.github.bradleycodeu.Player;
-import io.github.bradleycodeu.Team;
+
 
 public class Test_Game {
 
