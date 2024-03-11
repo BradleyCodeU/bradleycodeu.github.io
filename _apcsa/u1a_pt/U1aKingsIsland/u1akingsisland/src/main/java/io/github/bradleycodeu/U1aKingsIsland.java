@@ -1,3 +1,4 @@
+package io.github.bradleycodeu;
 import java.util.Scanner;
 
 // A group of people are traveling to King's Island for the day.

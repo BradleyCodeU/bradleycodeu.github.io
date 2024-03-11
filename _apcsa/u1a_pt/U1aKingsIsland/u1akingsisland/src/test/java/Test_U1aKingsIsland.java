@@ -1,6 +1,8 @@
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
+import io.github.bradleycodeu.U1aKingsIsland;
+
 public class Test_U1aKingsIsland {
 
     @Test
