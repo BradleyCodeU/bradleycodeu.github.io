@@ -1,5 +1,6 @@
+package io.github.bradleycodeu;
 // Create a public class called Game
-
+public class Game{
 // Create public static Player playSingleRound(Player player1, Player player2)
 // that returns the winner of a single round of rock, paper, scissors. The
 // winner of the round gets 1 point (if both players play the same thing then
@@ -36,3 +37,4 @@
 // toString() if the game is NOT over, Return a String that looks like this...
 // "Atlanta Red Shoes: 0, Boston Blue Fish: 0". if the game is over, Return a
 // String that looks like this... "Atlanta Red Shoes: 2, Boston Blue Fish: 3"
+}

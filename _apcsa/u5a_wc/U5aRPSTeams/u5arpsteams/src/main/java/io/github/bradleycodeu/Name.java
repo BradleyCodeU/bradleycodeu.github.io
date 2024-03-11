@@ -1,3 +1,4 @@
+package io.github.bradleycodeu;
 class Name {
   private static int currentMascotNumber = 0;
 

@@ -1,3 +1,4 @@
+package io.github.bradleycodeu;
 // Name class (helper class)
 // - array of player names
 // - array of city names
@@ -51,10 +52,10 @@
 
 // Game class
 // - isGameOver
-// - player1
-// - player2
-// - p1score
-// - p2score
+// - team1
+// - team2
+// - t1score
+// - t2score
 // - winner
 // + playSingleRound(Player player1, Player player2) <--- TO DO!!!
 // + Constructor  <--- TO DO!!!

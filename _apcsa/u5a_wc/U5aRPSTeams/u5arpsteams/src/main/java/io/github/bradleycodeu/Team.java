@@ -1,5 +1,6 @@
+package io.github.bradleycodeu;
 
-class Team {
+public class Team {
 
   // - array of players
   private Player[] players;

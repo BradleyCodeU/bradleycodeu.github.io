@@ -1,5 +1,6 @@
+package io.github.bradleycodeu;
 
-class Player {
+public class Player {
 
   static final String[] PLAYS = { "r", "p", "s" };
   static private int idCounter = 0;

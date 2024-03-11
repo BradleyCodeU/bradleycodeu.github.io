@@ -1,7 +1,10 @@
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
-public class GameTest {
+import io.github.bradleycodeu.Player;
+import io.github.bradleycodeu.Team;
+
+public class Test_Game {
 
     @Test
     public void testPlaySingleRound() {

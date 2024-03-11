@@ -1,4 +1,5 @@
-class Stats {
+package io.github.bradleycodeu;
+public class Stats {
 
   private int wins;
   private int losses;
