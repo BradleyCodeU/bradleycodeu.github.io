@@ -19,7 +19,7 @@ checkGuess("cat","cat") → "You got it!"
 Here is the pseudocode for the main function. NOTICE that the number of hashtags show you how far each line should be indented.
 ```
 def main():
-  # create 3 arrays with 10 words in each array. You might create an array of 10 fruits, another array of 10 colors, and an array of 10 cities. 
+  # create 3 arrays with 10 words in each array. Make each array your 10 favorite whatever. You might create an array of 10 favorite foods, another array of 10 favorite animals, and an array of 10 movies. 
   # call randomSecret function with 3 arrays as arguments then save what it returns in a variable
   # output "I am thinking of a secret word. Take a guess and I'll tell you if the secret word is before your word or after your word."
   # start a forever loop
