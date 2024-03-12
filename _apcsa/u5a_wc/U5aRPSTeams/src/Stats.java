@@ -17,6 +17,8 @@ public class Stats {
 
   // addWin() increments wins by 1
 
+  // getPointsScored()
+
   // getWins()
 
   // getLosses()

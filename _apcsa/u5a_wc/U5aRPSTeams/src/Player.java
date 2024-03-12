@@ -46,6 +46,8 @@ public class Player {
   // addWin() increments the number of wins for the player's current season
   // statistics AND their lifetime stats
 
+  // getFavPlay()
+
   // getLifetimeStats() returns the player's lifetime statistics
 
   // getName() returns the team's emoji + " " + the player's name
@@ -56,6 +58,8 @@ public class Player {
   // getSeasonStats() returns the player's current season statistics
 
   // getSkillLevel() returns the player's skill level
+
+  // getTeamEmoji()
 
   // getWins() returns the number of wins for the player
 
