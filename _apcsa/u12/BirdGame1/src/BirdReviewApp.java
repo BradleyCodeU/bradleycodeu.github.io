@@ -10,6 +10,8 @@ import java.util.ArrayList;
 import java.util.Random;
 import java.io.IOException;
 import javax.imageio.ImageIO;
+
+import java.net.MalformedURLException;
 import java.net.URL;
 
 public class BirdReviewApp extends JFrame {
@@ -105,6 +107,11 @@ public class BirdReviewApp extends JFrame {
 
         questions = JsonLoader.loadBirdsFromJson(file);
 
+        // for(Bird each : questions){
+        //     System.out.println(each.getCommonName());
+        // }
+        // System.out.println(questions.size());
+
         // Generate or load random seed
         if (randomSeed.isEmpty()) {
             randomSeed = getRandomSeed();
@@ -117,8 +124,19 @@ public class BirdReviewApp extends JFrame {
     private void loadImageFromURL(String imageURL) {
         try {
             URL url = new URL(imageURL);
-            BufferedImage image = ImageIO.read(url);
-            ImageIcon icon = new ImageIcon(image);
+            BufferedImage originalImage = ImageIO.read(url);
+
+            // Get the size of the window
+            int windowWidth = getWidth();
+            int windowHeight = getHeight();
+
+            // Scale the image to fit within the window size
+            Image scaledImage = originalImage.getScaledInstance(windowWidth, windowHeight, Image.SCALE_SMOOTH);
+
+            // Create an ImageIcon from the scaled image
+            ImageIcon icon = new ImageIcon(scaledImage);
+
+            // Set the ImageIcon to the imageLabel
             imageLabel.setIcon(icon);
         } catch (IOException e) {
             e.printStackTrace();
@@ -130,7 +148,8 @@ public class BirdReviewApp extends JFrame {
     private void loadQuestion(String mySeed) {
         // Display question using Swing components
         // Assuming you have methods to set images and options on your Swing components
-
+        ArrayList<String> pics = questions.get(currentQuestion % questions.size()).getImages();
+        loadImageFromURL(pics.get(currentQuestion % pics.size()));
         // Load answers
         loadAnswers();
     }
@@ -167,32 +186,30 @@ public class BirdReviewApp extends JFrame {
         // Assuming you have a shuffle method for shuffling the answers
         shuffle(answers2, String.valueOf(new Date().getTime()));
 
-        // Update options in Swing components
-        // Assuming you have methods to update options in your Swing components
+        // Clear existing options in the dropdown
+    dropdown.removeAllItems();
+
+    // Add answers to the dropdown
+    for (String answer : answers2) {
+        dropdown.addItem(answer);
+    }
     }
 
-    private void loadImage(String imagePath) {
-        try {
-            BufferedImage image = ImageIO.read(new File(imagePath));
-            ImageIcon icon = new ImageIcon(image);
-            imageLabel.setIcon(icon);
-        } catch (IOException e) {
-            e.printStackTrace();
-            // Handle image loading error
-        }
-    }
+
 
     private void checkAnswer(String value) {
         String correctAnswer = questions.get(currentQuestion % questions.size()).getCommonName().toLowerCase();
-
-        if (value.equalsIgnoreCase(correctAnswer)) {
+    
+        if (value != null && value.equalsIgnoreCase(correctAnswer)) {
             // Correct answer behavior
             currentQuestion++;
+            //localStorage.setItem("currentquestion", Integer.toString(currentQuestion));
             loadQuestion(randomSeed + currentQuestion);
         } else {
             // Incorrect answer behavior
         }
     }
+    
 
     private String getRandomSeed() {
         String r = String.valueOf(new Date().getTime());
