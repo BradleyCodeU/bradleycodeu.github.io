@@ -1,0 +1,11 @@
+name: MobRidingMob
+
+author: Your Name
+
+main: MobRidingMob
+
+commands:
+    mobridingmob:
+        description: "Spawn something riding something else."
+
+version: 1.0
