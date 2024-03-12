@@ -14,9 +14,13 @@ public class Bird {
     private ArrayList<String> Images;
     private ArrayList<String> Tags;
     
+    
+
+    // Getters and setters (you can generate them using your IDE or write them manually)
     public String getCommonName() {
         return this.CommonName;
     }
-
-    // Getters and setters (you can generate them using your IDE or write them manually)
+    public ArrayList<String> getImages(){
+        return this.Images;
+    }
 }
