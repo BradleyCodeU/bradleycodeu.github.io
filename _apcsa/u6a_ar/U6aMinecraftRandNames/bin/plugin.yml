@@ -1,0 +1,13 @@
+name: PetWolf
+
+author: Your Name
+
+main: PetWolf
+
+commands:
+    petwolf:
+        description: "Spawn a wolf as the player's pet."
+    petllama:
+        description: "Spawn a pet llama"
+
+version: 1.0
