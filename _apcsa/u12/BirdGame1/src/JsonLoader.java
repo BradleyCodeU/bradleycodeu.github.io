@@ -9,8 +9,8 @@ import java.lang.reflect.Type;
 import java.util.List;
 
 public class JsonLoader {
-    public static List<Bird> loadBirdsFromJson(File file) {
-        List<Bird> birds = null;
+    public static List<Object> loadBirdsFromJson(File file) {
+        List<Object> birds = null;
         try (Reader reader = new FileReader(file)) {
             // Define the type of the list of birds
             Type listType = new TypeToken<List<Bird>>() {}.getType();
