@@ -11,54 +11,51 @@ import java.util.Random;
 import java.io.IOException;
 import javax.imageio.ImageIO;
 
-import java.net.MalformedURLException;
 import java.net.URL;
 
 public class BirdReviewApp extends JFrame {
     private JLabel questionTextLabel;
     private JComboBox<String> dropdown;
 
-    private List<Bird> questions; // Assuming Bird class is defined
+    private List<Object> questions; // Assuming Bird class is defined
 
-    private int currentQuestion = 0;
-    private String randomSeed = "";
+    private int currentQuestion = 173;
+    private String randomSeed = String.valueOf(new Date().getTime());
     private int numberOfOptions = 6;
     private JLabel imageLabel;
+    private double imageScale = 0.8;
 
     public BirdReviewApp() {
         // Initialize Swing components
         setTitle("Bird Review");
-        setSize(600, 400);
+        setSize(800, 600);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         JPanel mainPanel = new JPanel();
         mainPanel.setLayout(new BoxLayout(mainPanel, BoxLayout.Y_AXIS));
         add(mainPanel);
 
-        JLabel windowLocationLabel = new JLabel("Study Game");
-        windowLocationLabel.setAlignmentX(JLabel.CENTER_ALIGNMENT);
-        mainPanel.add(windowLocationLabel);
+        // JLabel windowLocationLabel = new JLabel("Study Game");
+        // windowLocationLabel.setAlignmentX(JLabel.CENTER_ALIGNMENT);
+        // mainPanel.add(windowLocationLabel);
 
-        JButton nextButton = new JButton("Menu");
-        nextButton.setAlignmentX(JButton.CENTER_ALIGNMENT);
-        nextButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                // Handle nextButton click event
-                // Example: document.location='index.html'
-                System.out.println("Menu button clicked.");
-            }
-        });
-        mainPanel.add(nextButton);
+        // JButton nextButton = new JButton("Menu");
+        // nextButton.setAlignmentX(JButton.CENTER_ALIGNMENT);
+        // nextButton.addActionListener(new ActionListener() {
+        //     @Override
+        //     public void actionPerformed(ActionEvent e) {
+        //         // Handle nextButton click event
+        //         // Example: document.location='index.html'
+        //         System.out.println("Menu button clicked.");
+        //     }
+        // });
+        // mainPanel.add(nextButton);
 
-        JPanel questionPanel = new JPanel();
-        questionPanel.setAlignmentX(JPanel.CENTER_ALIGNMENT);
-        questionPanel.setLayout(new BoxLayout(questionPanel, BoxLayout.Y_AXIS));
-        mainPanel.add(questionPanel);
+        
 
-        questionTextLabel = new JLabel("Question Text");
-        questionTextLabel.setAlignmentX(JLabel.CENTER_ALIGNMENT);
-        questionPanel.add(questionTextLabel);
+        // questionTextLabel = new JLabel("Question Text");
+        // questionTextLabel.setAlignmentX(JLabel.CENTER_ALIGNMENT);
+        // questionPanel.add(questionTextLabel);
 
         imageLabel = new JLabel();
         imageLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
@@ -67,6 +64,10 @@ public class BirdReviewApp extends JFrame {
         // Load and display the image
         loadImageFromURL("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Cardinalis_cardinalis_%28Northern_Cardinal%29_63.jpg/640px-Cardinalis_cardinalis_%28Northern_Cardinal%29_63.jpg");
 
+        JPanel questionPanel = new JPanel();
+        questionPanel.setAlignmentX(JPanel.CENTER_ALIGNMENT);
+        questionPanel.setLayout(new BoxLayout(questionPanel, BoxLayout.Y_AXIS));
+        mainPanel.add(questionPanel);
 
         dropdown = new JComboBox<>();
         dropdown.setAlignmentX(JComboBox.CENTER_ALIGNMENT);
@@ -106,7 +107,7 @@ public class BirdReviewApp extends JFrame {
         File file = new File("bin/gbif.json");
 
         questions = JsonLoader.loadBirdsFromJson(file);
-
+        shuffle(questions, randomSeed);
         // for(Bird each : questions){
         //     System.out.println(each.getCommonName());
         // }
@@ -125,17 +126,32 @@ public class BirdReviewApp extends JFrame {
         try {
             URL url = new URL(imageURL);
             BufferedImage originalImage = ImageIO.read(url);
-
+    
             // Get the size of the window
             int windowWidth = getWidth();
             int windowHeight = getHeight();
-
-            // Scale the image to fit within the window size
-            Image scaledImage = originalImage.getScaledInstance(windowWidth, windowHeight, Image.SCALE_SMOOTH);
-
+    
+            // Get the dimensions of the original image
+            int imageWidth = originalImage.getWidth();
+            int imageHeight = originalImage.getHeight();
+    
+            // Calculate the scaling factors for width and height
+            double widthScale = (double) windowWidth * this.imageScale / imageWidth;
+            double heightScale = (double) windowHeight* this.imageScale / imageHeight;
+    
+            // Use the smaller scale factor to maintain aspect ratio
+            double scaleFactor = Math.min(widthScale, heightScale);
+    
+            // Calculate the scaled dimensions
+            int scaledWidth = (int) (imageWidth * scaleFactor);
+            int scaledHeight = (int) (imageHeight * scaleFactor);
+    
+            // Scale the original image to the new dimensions
+            Image scaledImage = originalImage.getScaledInstance(scaledWidth, scaledHeight, Image.SCALE_SMOOTH);
+    
             // Create an ImageIcon from the scaled image
             ImageIcon icon = new ImageIcon(scaledImage);
-
+    
             // Set the ImageIcon to the imageLabel
             imageLabel.setIcon(icon);
         } catch (IOException e) {
@@ -144,21 +160,29 @@ public class BirdReviewApp extends JFrame {
             JOptionPane.showMessageDialog(this, "Error loading image: " + e.getMessage(), "Image Loading Error", JOptionPane.ERROR_MESSAGE);
         }
     }
+    
 
     private void loadQuestion(String mySeed) {
         // Display question using Swing components
         // Assuming you have methods to set images and options on your Swing components
-        ArrayList<String> pics = questions.get(currentQuestion % questions.size()).getImages();
-        loadImageFromURL(pics.get(currentQuestion % pics.size()));
-        // Load answers
-        loadAnswers();
+        Bird tempBird = (Bird) questions.get(currentQuestion % questions.size());
+        ArrayList<String> pics = tempBird.getImages();
+        if(pics.size() > 0){
+            loadImageFromURL(pics.get(currentQuestion % pics.size()));
+            // Load answers
+            loadAnswers();
+        } else {
+            currentQuestion++;
+            loadQuestion(randomSeed);
+        }
     }
 
     // Other methods for handling actions, loading questions, etc.
     private void loadAnswers() {
         Random random = new Random(Long.parseLong(randomSeed));
         List<String> answers = new ArrayList<>();
-        answers.add(questions.get(currentQuestion % questions.size()).getCommonName());
+        Bird tempBird1 = (Bird) questions.get(currentQuestion % questions.size());
+        answers.add(tempBird1.getCommonName());
 
         // Check in case we filtered
         if (questions.size() < numberOfOptions) {
@@ -167,8 +191,9 @@ public class BirdReviewApp extends JFrame {
 
         while (answers.size() < numberOfOptions) {
             boolean flag = false;
-            Random randomMillis = new Random(new Date().getTime());
-            String newAnswer = questions.get(random.nextInt(questions.size())).getCommonName().toLowerCase();
+            //Random randomMillis = new Random(new Date().getTime());
+            Bird tempBird = (Bird) questions.get(random.nextInt(questions.size()));
+            String newAnswer = tempBird.getCommonName();
 
             for (String answer : answers) {
                 if (answer.equalsIgnoreCase(newAnswer)) {
@@ -182,23 +207,24 @@ public class BirdReviewApp extends JFrame {
             }
         }
 
-        List<String> answers2 = new ArrayList<>(answers);
+        List<Object> answers2 = new ArrayList<>(answers);
         // Assuming you have a shuffle method for shuffling the answers
         shuffle(answers2, String.valueOf(new Date().getTime()));
 
         // Clear existing options in the dropdown
-    dropdown.removeAllItems();
-
-    // Add answers to the dropdown
-    for (String answer : answers2) {
-        dropdown.addItem(answer);
-    }
+        dropdown.removeAllItems();
+        dropdown.addItem("pick one:");
+        // Add answers to the dropdown
+        for (Object answer : answers2) {
+            dropdown.addItem((String) answer);
+        }
     }
 
 
 
     private void checkAnswer(String value) {
-        String correctAnswer = questions.get(currentQuestion % questions.size()).getCommonName().toLowerCase();
+        Bird tempBird = (Bird) questions.get(currentQuestion % questions.size());
+        String correctAnswer = tempBird.getCommonName().toLowerCase();
     
         if (value != null && value.equalsIgnoreCase(correctAnswer)) {
             // Correct answer behavior
@@ -213,19 +239,20 @@ public class BirdReviewApp extends JFrame {
 
     private String getRandomSeed() {
         String r = String.valueOf(new Date().getTime());
-        Random random = new Random(Long.parseLong(r));
+        //Random random = new Random(Long.parseLong(r));
         return r;
     }
 
-    private void shuffle(List<String> list, String seed) {
+    private void shuffle(List<Object> list, String seed) {
         Random random = new Random(seed.hashCode());
         for (int i = list.size() - 1; i > 0; i--) {
             int index = random.nextInt(i + 1);
-            String temp = list.get(index);
+            Object temp = list.get(index);
             list.set(index, list.get(i));
             list.set(i, temp);
         }
     }
+
     
 
     public static void main(String[] args) {
