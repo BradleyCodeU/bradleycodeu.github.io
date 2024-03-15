@@ -33,7 +33,7 @@ public class Player {
 
     // Create a new Stats object to store the player's lifetime statistics
 
-    // Generate a random skill level for the player
+    // Generate a random skill level for the player. a decimal from 0.0 to 1.0
 
   }
 
@@ -57,7 +57,7 @@ public class Player {
 
   // getSeasonStats() returns the player's current season statistics
 
-  // getSkillLevel() returns the player's skill level
+  // getSkillLevel() returns the player's skill level which is a decimal from 0.0 to 1.0
 
   // getTeamEmoji()
 
