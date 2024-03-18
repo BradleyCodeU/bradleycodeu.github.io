@@ -1,8 +1,5 @@
----
-layout: project
-category: u09a_in
-title: U09a Dog With A Job
----
+# Dog Class
+
 
 Use the super class Dog to create a new subclass and test all subclass methods in the DogTester class.
 
@@ -33,24 +30,17 @@ Your DogTester class MUST test EVERY constructor and EVERY method in both the su
 
 ```
 No args constructor
-toString=           un-named, no breed, service dog, trained by un-named
-
+toString:           un-named, no breed, service dog, trained by un-named
 All args constructor
-toString=           Bella, Beagle, service dog, trained by Justin Riley
-
-getBreed=           Beagle
-
-getName=            Bella
-
-getTrainerName=     Justin Riley
-
-getTestScore=       71
-
+toString:           Bella, Beagle, service dog, trained by Justin Riley
+getBreed:           Beagle
+getName:            Bella
+getTrainerName:     Justin Riley
+getTestScore:       71
 After setter1...
-getTrainerName=     Bill Williams
-
+getTrainerName:     Bill Williams
 After setter2...
-getTestScore=       89
+getTestScore:       89
 ```
 
 Turn in your DogTester, Dog, and new subclass java files.
