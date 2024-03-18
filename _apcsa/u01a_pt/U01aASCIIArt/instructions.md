@@ -1,6 +1,6 @@
 ---
 layout: project
-category: u1a_primitive_types
+category: u1a_pt
 title: U01a ASCII Art
 ---
 
