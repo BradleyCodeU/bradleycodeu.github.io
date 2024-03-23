@@ -3,20 +3,28 @@ import java.awt.*;
 
 
 public class MultipleChoiceQuestion extends Question {
+    // Declare instance variable to store options for the multiple-choice question.
     private String[] options;
-    private JRadioButton[] radioButtons;
 
+    // Constructor for the MultipleChoiceQuestion class. Takes question text, correct answer, options, and points as parameters.
     public MultipleChoiceQuestion(String questionText, String correctAnswer, String[] options, int points) {
+        // Call the superclass constructor (Question) with modified parameters.
         super(questionText, correctAnswer, points);
+        // Assign the provided options to the instance variable.
         this.options = options;
-        this.radioButtons = new JRadioButton[options.length];
     }
+
+    // Getter method to retrieve the options for the multiple-choice question.
+    public String[] getOptions() {
+        // Return the stored options.
+        return options;
+    }
+
 
     @Override
     public void display(JPanel myJPanel) {
         myJPanel.removeAll();
         myJPanel.setLayout(new BorderLayout());
-
         JLabel questionLabel = new JLabel(getQuestionText());
         myJPanel.add(questionLabel, BorderLayout.NORTH);
 
@@ -28,22 +36,35 @@ public class MultipleChoiceQuestion extends Question {
             JRadioButton radioButton = new JRadioButton(options[i]);
             buttonGroup.add(radioButton);
             optionsPanel.add(radioButton);
-            radioButtons[i] = radioButton; // Store the radio button
+            //radioButtons[i] = radioButton; // Store the radio button
         }
-
         myJPanel.add(optionsPanel, BorderLayout.CENTER);
-
         myJPanel.revalidate();
         myJPanel.repaint();
     }
 
     @Override
     public String getUserAnswer(JPanel myJPanel) {
-        for (JRadioButton radioButton : radioButtons) {
-            if (radioButton.isSelected()) {
-                return radioButton.getText();
+        JPanel optionsPanel = null;
+        for (Component component : myJPanel.getComponents()) {
+            if (component instanceof JPanel) {
+                optionsPanel = (JPanel) component;
+                break;
+            }
+        }
+        if (optionsPanel != null) {
+            // Iterate over the components of the options panel to find the radioButtons
+            for (Component component : optionsPanel.getComponents()) {
+                if (component instanceof JRadioButton) {
+                    JRadioButton radioButton = (JRadioButton) component;
+                    if (radioButton.isSelected()) {
+                        return radioButton.getText();
+                    }
+                }
             }
         }
         return ""; // If no option selected, return an empty string
     }
+    
+    
 }
