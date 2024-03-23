@@ -39,6 +39,10 @@ class TicTacToeMarkovChain {
         }
     }
 
+    public int getMarkovChainSize(){
+        return this.transitions.size();
+    }
+
     public boolean getIsOnOffense(){
         return this.isOnOffense;
     }
