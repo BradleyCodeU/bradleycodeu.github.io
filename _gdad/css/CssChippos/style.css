@@ -1,0 +1,90 @@
+#banner {
+  position: relative;
+  height: auto;
+  background-image: url("/images/chipsbanner2.jpg");
+}
+
+#bannerOverlay {
+  /* NOTE: You MUST use rgba() for bannerOverlay so it's translucent */
+  background-color: rgba(0, 0, 0, 0.75); /* this RGBA color needs adjusted */
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+#bannerText {
+  position: relative;
+  font-size: 150px;
+  z-index: 2;
+  margin: 0px;
+  /* set the font family to a FANCY font */
+  /* set the font color */
+}
+
+#bannerDescription {
+  position: relative;
+  font-size: 13px;
+  z-index: 3;
+  /* set the font color */
+}
+
+nav {
+  overflow: hidden;
+  /* add a background color*/
+  /* add 20px of padding */
+}
+
+/* this styles the nav links */
+nav a {
+  text-decoration: none;
+  /* set the font family to a readable font */
+  /* set the font color */
+  /* add 40px of padding */
+}
+
+/* this indicates the active page on nav */
+#activepage {
+  /* add a background color that is DIFFERENT than the nav's background color */
+}
+
+/* this changes color on hover */
+nav a:hover:not(.active) {
+  /* add a background color DIFFERENT than nav's background and #activepage's background */
+  /* set the font color */
+}
+
+body {
+  /* add a background color*/
+  /* set the font family to a readable font */
+}
+
+h1 {
+  /* set the font family to a FANCY font */
+  /* add 40px of padding */
+}
+
+h2 {
+  /* set the font family to a FANCY font */
+  /* add 40px of padding: ; */
+}
+
+p {
+  /* add 40px of padding */
+  /* set the font size to something between 20px and 30px */
+}
+
+img {
+  /* set the width for all images, should NOT set the width to 100% */
+  /* add a 40px margin */
+}
+
+#footer {
+  /* add a background color*/
+  /* add 160px padding*/
+}
+
+table {
+  /* set the width to one hundred percent */
+  /* align the text to the right */
+}
