@@ -29,28 +29,28 @@ Your new subclass must contain a minimum of the following:
 - 2 new accesser methods
 - 2 new mutator methods
 
-Your DogTester class MUST test EVERY constructor and EVERY method in both the superclass and the subclass. The DogTester must also use printf for all output. For example:
+Your DogTester class MUST test EVERY constructor and EVERY method in both the superclass and the subclass. For example:
 
 ```
 No args constructor
-toString=           un-named, no breed, service dog, trained by un-named
+toString= un-named, no breed, service dog, trained by un-named
 
 All args constructor
-toString=           Bella, Beagle, service dog, trained by Justin Riley
+toString= Bella, Beagle, service dog, trained by Justin Riley
 
-getBreed=           Beagle
+getBreed= Beagle
 
-getName=            Bella
+getName= Bella
 
-getTrainerName=     Justin Riley
+getTrainerName= Justin Riley
 
-getTestScore=       71
+getTestScore= 71
 
 After setter1...
-getTrainerName=     Bill Williams
+getTrainerName= Bill Williams
 
 After setter2...
-getTestScore=       89
+getTestScore= 89
 ```
 
 Turn in your DogTester, Dog, and new subclass java files.
