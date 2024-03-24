@@ -37,7 +37,8 @@ def main():
     weapon = input()
     time.sleep(1)
     damage = hitBoss(weapon, iceWeakness, magicWeakness)
-    bossHealth = bossHealth - damage
+    # bossHealth equals bossHealth minus damage
+    
     print(whoWins(playerHealth, bossHealth)) 
     if bossHealth > 0:
       damage = hitPlayer(playerHealth)
