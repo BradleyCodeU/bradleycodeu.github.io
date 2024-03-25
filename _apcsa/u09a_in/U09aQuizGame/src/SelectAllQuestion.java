@@ -26,7 +26,7 @@ public class SelectAllQuestion extends MultipleChoiceQuestion {
     public void display(JPanel myJPanel) {
         myJPanel.removeAll();
         myJPanel.setLayout(new BorderLayout());
-        JLabel questionLabel = new JLabel(getQuestionText());
+        JLabel questionLabel = new JLabel( super.getQuestionText() );
         myJPanel.add(questionLabel, BorderLayout.NORTH);
         JPanel optionsPanel = new JPanel();
         optionsPanel.setLayout(new GridLayout(0, 1)); // One column for checkboxes
