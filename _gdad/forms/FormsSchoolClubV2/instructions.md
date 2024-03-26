@@ -1,4 +1,7 @@
-# School Club 2
+---
+layout: project
+category: forms
+title: Forms School Club V2
 ---
 This project is Part 2 of the School Club project. Copy/paste your code from that project into this one.
 
@@ -52,6 +55,3 @@ Add to the **SIGN UP** section. Use this w3schools page as a reference for the F
   - br
 ## Submit
   - You should already have a Submit button (it doesn't need to do anything when pressed)
-
-  
-  

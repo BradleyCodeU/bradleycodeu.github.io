@@ -1,4 +1,9 @@
-# School Club
+---
+layout: project
+category: forms
+title: Forms School Club
+---
+
 Create a page for a school club.
 
 Either choose from real school clubs or make up a new school-appropriate club.

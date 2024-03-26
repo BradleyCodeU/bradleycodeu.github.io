@@ -1,5 +1,9 @@
-# Three Prompts
 ---
+layout: project
+category: js
+title: Js Three Prompts
+---
+
 Read these pages first:
 - [https://www.w3schools.com/jsref/met_win_prompt.asp](https://www.w3schools.com/jsref/met_win_prompt.asp)
 - [https://www.w3schools.com/jsref/met_win_alert.asp](https://www.w3schools.com/jsref/met_win_alert.asp)
@@ -24,5 +28,4 @@ Finally, create an alert that summarizes the user's info. For example... "Hello 
 
 ### If you have already completed 1 or more Computer Science classes...
 
-Add three MORE prompts that are trivia questions. If the answer to the first trivia question (for example, "What is the capital of Ohio?") is equal to the correct answer ("Columbus"), then create an alert that says "Correct!" Do the same for the next two trivia questions.
-  
+Add three MORE prompts that are trivia questions. You should have a total of 6 prompts. If the answer to the first trivia question (for example, "What is the capital of Ohio?") is equal to the correct answer ("Columbus"), then create an alert that says "Correct!" Do the same for the following trivia questions.

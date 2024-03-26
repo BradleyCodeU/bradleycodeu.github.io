@@ -6,7 +6,11 @@ title: Unity1 Bouncy Logo
 
 Open your previous project, click File > New Scene > Basic (Built-in) > Create
 
-Create a bouncy chain reaction that features the school logo. I've posted a 3D model of the school logo on Canvas. Download the model and import it into your Unity project.
+Create a bouncy chain reaction that features your school logo:
+
+- [bclawLogo.unitypackage](https://drive.google.com/file/d/1OqMAKZOTRoP17rIBcFwJJVjD01CSUY-C/view?usp=sharing)
+- [DarbyLogo1.unitypackage](https://drive.google.com/file/d/1xyx-ek2vykZpEtaO99-QC9Qfqzqy5PXW/view?usp=sharing)
+
 
 
 1. MUST have walls on 3 or 4 sides, around the edge of the ground. Use a scaled-up cube to make a wall. Create a new material and make it a different color to apply to the walls.
