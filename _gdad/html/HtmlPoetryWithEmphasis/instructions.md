@@ -1,4 +1,9 @@
-# Poetry with Emphasis
+---
+layout: project
+category: html
+title: Html Poetry with Emphasis
+---
+
 
 Watch this [KhanAcademy tutorial about text emphasis](https://www.khanacademy.org/computing/hour-of-code/hour-of-html/pt/html-text-emphasis)
 
@@ -24,5 +29,3 @@ Pick a poem that is appropriate for school. Suggested poets: Shel Silverstein, M
     - Superscript text
     - Small text
     - Big text
-  
-  

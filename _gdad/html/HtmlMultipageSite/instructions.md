@@ -1,4 +1,10 @@
-# 1.1.10 Multi-page Website
+---
+layout: project
+category: html
+title: Html Multipage Site
+---
+
+
 
 Read this tutorial about the [HTML5 \<nav\> tag](https://www.w3schools.com/tags/tag_nav.asp)
 
@@ -33,5 +39,3 @@ Ideas for "other pages" include:
   1. a paragraph with some text
   1. a link to a Wikipedia page (for example, if the "Our Story" page says the company was founded in Hilliard, Ohio then those words can link to the Wikipedia page for Hilliard)
   1. one (or more) images
-
-  

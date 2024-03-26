@@ -1,4 +1,9 @@
-# Simpler is Better
+---
+layout: project
+category: html
+title: Html Simpler is Better
+---
+
 
 Watch this video about how [Simpler is Better](https://drive.google.com/open?id=1hpUxydU5K0Lv9N_UkXRrQDSfIBxV8RAp) in web design.
 
@@ -15,5 +20,3 @@ Create a simple webpage for your game development company with:
 ![how upload an image to repl.it](https://bradleycodeu.github.io/wdarchive/html/replitUploadImage.png)
 
 When finished, turn in the URL of your repl.it project.
-  
-  

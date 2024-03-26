@@ -1,4 +1,7 @@
-# Colorful Tables
+---
+layout: project
+category: css
+title: Css Colorful Tables
 ---
 
 Add the following HTML:
@@ -13,12 +16,12 @@ Add the following HTML:
 
 Next, add "some color" and "style" to these boring tables. "Some color" means not black and not white. Each "some color" should be a different color. These tables should be very colorful and very full of "style". Pick fonts from this list of some of the worst fonts of all time:
 
-  - Comic Sans MS 
-  - Trebuchet MS 
-  - Impact 
-  - Tahoma 
-  - Courier New 
-  - Verdana 
+  - Comic Sans MS
+  - Trebuchet MS
+  - Impact
+  - Tahoma
+  - Courier New
+  - Verdana
 
 ## CSS Directions
 
@@ -30,6 +33,3 @@ Add the following CSS code inside the head section:
   1. each th has the text aligned to the left, has some dark background color, has an underline text decoration, and has some light text color
   1. every odd numbered row tr is in the "odd" class. add CSS so that each row in the odd class has some different light background color
   1. each td has a cell padding of between 10-20px
-
-
-

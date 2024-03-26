@@ -1,5 +1,9 @@
-# Club Goals Lists
 ---
+layout: project
+category: html
+title: Html Club Goals
+---
+Concepts: ordered lists, unordered lists
 
 Watch this [KhanAcademy tutorial about HTML lists](https://www.khanacademy.org/computing/hour-of-code/hour-of-html/pt/html-lists)
 
@@ -33,4 +37,3 @@ THIRD, a list of your fake employees and their titles. For example, Amy - CEO, B
   - You should have BOTH an unordered list with Video Games AND an ordered list with Directions
 
 Turn in your repl.it URL when finished
-  
