@@ -1,4 +1,7 @@
-# P5 Bouncing DVD Logo
+---
+layout: project
+category: p5js
+title: P5 DVD Logo
 ---
 
 Concepts covered in this project:

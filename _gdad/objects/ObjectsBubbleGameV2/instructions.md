@@ -1,4 +1,7 @@
-# Bubble Game v2
+---
+layout: project
+category: objects
+title: Objects Bubble Game V2
 ---
 
 Copy/paste your previous code into this new p5js project.

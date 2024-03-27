@@ -1,4 +1,7 @@
-# P5 Bubble Game v1
+---
+layout: project
+category: objects
+title: Objects Bubble Game
 ---
 Create a simple Javascript / P5.JS clicker game in which you pop bubbles. For example... bubbles start on the ceiling and you must pop them before they hit the floor.
 

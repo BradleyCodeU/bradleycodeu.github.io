@@ -1,6 +1,9 @@
-# Foobar Game
 ---
-## Project Details
+layout: project
+category: objects
+title: Objects Foobar Game
+---
+
 
 Working as team, create your own text game based on Foobar The Bazbarian [https://foobargame.glitch.me/](https://foobargame.glitch.me/)
 

@@ -1,4 +1,7 @@
-# Bubble Game v3
+---
+layout: project
+category: objects
+title: Objects Bubble Game V3
 ---
 
 Add an enemy class

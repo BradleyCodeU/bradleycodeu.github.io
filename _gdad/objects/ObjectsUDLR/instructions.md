@@ -1,7 +1,7 @@
 ---
 layout: project
-category: p5js
-title: UDLR v1
+category: objects
+title: Objects UDLR
 ---
 
 Watch this tutorial [Coding Train 16.17: Inheritance in JavaScript](https://drive.google.com/file/d/1f31Hv4RS_QHj-aPZUUjJyY07w8wgRcUg/view?usp=sharing)

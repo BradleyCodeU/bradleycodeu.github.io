@@ -1,11 +1,18 @@
-# P5 Click Draw
+---
+layout: project
+category: p5js
+title: P5 Click Draw
 ---
 
 Combine your code from your drawing and Khan Academy's Constellation Maker
+
+You should have an array of xLocations and an array of yLocations.
 
 When the player clicks the screen, save the mouseX to the xLocations list and the mouseY to the yLocations list.
 
 Loop through the lists and draw your drawing (snowman, emoji, robot, etc) at all of the locations.
 
-Your drawings MUST slowly move down the screen. When they hit the bottom of the screen set the yLocation back to 0.
+Your drawings MUST slowly move down the screen. 
+
+When they hit the bottom of the screen set the yLocation back to 0.
 

@@ -1,4 +1,7 @@
-# P5 Mouse Mover
+---
+layout: project
+category: p5js
+title: P5 Mouse Mover
 ---
 
 In this project you will use what you learned in [Khan Academy Drawing with Code](https://www.khanacademy.org/computing/computer-programming/programming#drawing-basics) (how to draw with ellipse(), rect(), fill(), line(), etc).
