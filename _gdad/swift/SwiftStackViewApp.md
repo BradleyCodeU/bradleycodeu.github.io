@@ -4,18 +4,22 @@ category: swift
 title: Swift Stack View App
 ---
 
-[Xcode Layout Guide](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/AutoLayoutWithoutConstraints.html#//apple_ref/doc/uid/TP40010853-CH8-SW1)
+What are your favorite foods?
 
-![Stack View Sketch](/gdad/swift/img/stackViewSketch.png)
+| Photo 1 |
+|---------|
+| Name 1  |
+| Photo 2 |
+| Name 2  |
+| Photo 3 |
+| Name 3  |
+| Photo 4 |
+| Name 4  |
 
 
-What's Food Got to Do with It?
-
-Create a page on the Main.storyboad that displays 4 images of your favorite foods and their names using vertical and horizontal stack views.
+Create a page on the Main.storyboad that displays 4 images of your favorite foods and their names using a vertical stack view.
 
 The Vertical Stack View will need constraints to lock it to the edges. I also recommend that you switch the Distribution for the Vertical Stack View so that it is NOT set to "Fill"
-
-For each Horizontal Stack View (aka each row), I recommend that you switch the Distribution so that it is NOT set to "Fill"
 
 MUST have 4 food images:
 
@@ -29,4 +33,23 @@ MUST name the 4 foods:
 - Choose a custom font and size that looks nice.
 - Center the label vertically and horizontally in the horizontal stack view.
 
-Submit a screencast video of the simulator displaying your app in both portrait and landscape.
+MUST look good in both portrait and landscape mode.
+
+Submit a screencast demo video of the simulator displaying your app in BOTH portrait and landscape.
+
+
+<hr>
+
+## If you have already completed 1 or more Computer Science classes...
+
+| Photo 1 | Name 1  |
+|---------|---------|
+| Photo 2 | Name 2  |
+| Photo 3 | Name 3  |
+| Photo 4 | Name 4  |
+
+- use vertical AND horizontal stack views. Each slot in the vertical stack contains one horizontal stack.
+- The Vertical Stack View will need constraints to lock it to the edges. I also recommend that you switch the Distribution for the Vertical Stack View so that it is NOT set to "Fill"
+- For each Horizontal Stack View (aka each row), I recommend that you switch the Distribution so that it is NOT set to "Fill"
+
+![Stack View Sketch](https://bradleycodeu.github.io/gdad/swift/img/stackViewSketch.png)
