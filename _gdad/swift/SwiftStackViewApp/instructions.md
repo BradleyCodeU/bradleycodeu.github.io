@@ -55,6 +55,6 @@ Put stacks inside of a stack
 - The Vertical Stack View will need constraints to lock it to the edges. I also recommend that you switch the Distribution for the Vertical Stack View so that it is NOT set to "Fill"
 - For each Horizontal Stack View (aka each row), I recommend that you switch the Distribution so that it is NOT set to "Fill"
 
-![Double Stacked Examples](https://bradleycodeu.github.io/gdad/swift\SwiftStackViewApp\DoubleStackedExamples.png)
+![Double Stacked Examples](https://bradleycodeu.github.io/gdad/swift/SwiftStackViewApp/DoubleStackedExamples.png)
 
 ![Stack View Sketch](https://bradleycodeu.github.io/gdad/swift/img/stackViewSketch.png)
