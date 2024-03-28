@@ -23,12 +23,10 @@ Note:
 - The Vertical Stack View will need constraints to lock it to the edges. 
 - I also recommend that you switch the Distribution for the Vertical Stack View so that it is NOT set to "Fill"
 - Add an Image View. Set the constraints to lock it to the edges and then select the photo.
-
-MUST have 4 food images:
-
-- Find 4 appropriate images online
-- Use [https://www.photopea.com/](https://www.photopea.com/), Photoshop or Canva.com to create 200x200 pixel (save as png files)
-- Use [https://www.remove.bg/](https://www.remove.bg/) if necessary to remove the background
+- MUST have 4 food images
+    - Find 4 appropriate images online
+    - You might want to use [https://www.photopea.com/](https://www.photopea.com/), Photoshop or Canva.com to create 200x200 pixel (save as png files)
+    - You might want to use [https://www.remove.bg/](https://www.remove.bg/) if necessary to remove the background
 
 
 MUST name the 4 foods:
