@@ -22,6 +22,11 @@ let bubblePopSound = new Audio("pop.mp3");
 bubblePopSound.play();
 ```
 
+Download one of these and pick 10 sounds to use:
+  - [Alice Sound Library 1](https://www.alice.org/wp-content/uploads/2017/05/AliceSoundLibrary.zip)
+  - [Alice Sound Library 2](https://www.alice.org/wp-content/uploads/2017/08/AliceSoundLibraryExpansionPackOne.zip)
+  - [Essential Retro Video Game Sound Effects Collection](https://opengameart.org/sites/default/files/The%20Essential%20Retro%20Video%20Game%20Sound%20Effects%20Collection%20%5B512%20sounds%5D.zip)
+
 ### What are game states???
 
 Game States are *ways to organize the different phases of your game*. In an FPS, you can have a "Start Menu" state, then a "Lobby" state where people pick their weapons. Next, the round begins. The game is in the "Play" state and you play for 4 minutes and at the end, you enter a "Round End" state where you can show everyone's score. If the player clicks the Continue button it sends them back to the "Lobby" state, but if they press the Menu button then it sends them back to the "Start Menu" state.
