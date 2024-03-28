@@ -1,7 +1,7 @@
 ---
 layout: project
-category: p5js
-title: P5 Art Sqool Game
+category: swift
+title: Swift Using Buttons
 ---
 
 Copy/paste your code from the P5Whiteboard project.
