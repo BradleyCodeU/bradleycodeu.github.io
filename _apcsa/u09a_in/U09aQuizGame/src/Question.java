@@ -7,6 +7,14 @@ public class Question {
     private String correctAnswer;
     private int points;
 
+    public Question(String questionText, String correctAnswer){
+        // Assign the provided question text to the instance variable.
+        this.questionText = questionText;
+        // Assign the provided correct answer to the instance variable.
+        this.correctAnswer = correctAnswer;
+        // Assume that points should be set to 1
+        this.points = 1;
+    }
     // Constructor for the Question class. Initializes instance variables with provided values.
     public Question(String questionText, String correctAnswer, int points) {
         // Assign the provided question text to the instance variable.
