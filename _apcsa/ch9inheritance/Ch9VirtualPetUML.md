@@ -6,6 +6,12 @@ title: Virtual Pet UML
 
 Plan an inheritance hierarchy for a virtual pet game. At the top of the hierarchy will be an [abstract](https://www.w3schools.com/java/java_abstract.asp) Pet class that contains all of the shared attributes and shared methods. Starter code for the Pet class is [here](/apcsa\ch9inheritance\Pet.java). Each child class only needs to add new attributes, new methods, and override basic methods with more specific implementation.
 
+You can use Notability or Google Drawings or some UML chart making website or take a photo of paper and pencil
+
+Turn in a PDF file
+
+![UML Diagram example](https://bradleycodeu.github.io/apcsa/ch9inheritance/Question%20class%20UML.png)
+
 Your child classes will include Puppy and 3 others.
 
 Select 3 from...
@@ -56,3 +62,8 @@ Also, select the actions that correspond with your selected attributes
 - Required: boolean isHappy() look at all instance vars, return false if any above the limit of 66
 - Required: String toString() return string with only name, ascii pic, & NOT HAPPY in all caps (only if not happy)
 - Required: String ArrayList getListOfActions() returns an ArrayList like "feed", "walk", etc.
+
+
+You can use Notability or Google Drawings or some UML chart making website or take a photo of paper and pencil
+
+Turn in a PDF file
