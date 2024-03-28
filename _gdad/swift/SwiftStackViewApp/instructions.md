@@ -19,6 +19,8 @@ What are your favorite foods?
 
 Create a page on the Main.storyboad that displays 4 images of your favorite foods and their names using a vertical stack view.
 
+![Simple Stacked Examples](https://bradleycodeu.github.io/gdad/swift/SwiftStackViewApp/SimpleStack.png)
+
 Note: 
 - The Vertical Stack View will need constraints to lock it to the edges. 
 - I also recommend that you switch the Distribution for the Vertical Stack View so that it is NOT set to "Fill"
