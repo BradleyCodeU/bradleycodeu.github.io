@@ -4,6 +4,9 @@ public class TicTacToeGame {
     private char[][] board;
     private TicTacToeMarkovChain markovChain;
     private int size;
+    private int wins;
+    private int loses;
+    private int draws;
 
     public TicTacToeGame(TicTacToeMarkovChain markovChain) {
         this.markovChain = markovChain;
@@ -13,11 +16,10 @@ public class TicTacToeGame {
             Arrays.fill(row, ' ');
         }
         System.out.println("Welcome to Tic Tac Toe against Markov Chain!");
-        System.out.println("Markov Chain size = "+markovChain.getMarkovChainSize());
+        System.out.println("Markov Chain size = " + markovChain.getMarkovChainSize());
     }
 
     public void printBoard() {
-        
         System.out.println("  a b c");
         for (int r = 0; r < size; r++) {
             System.out.print((r + 1) + " ");
@@ -32,6 +34,61 @@ public class TicTacToeGame {
                 System.out.println("  " + "-".repeat(size * 2 - 1));
             }
         }
+    }
+
+    public void makeMove(int row, int col) {
+        board[row][col] = 'X'; // Assuming the player is always 'X'
+    }
+
+    public boolean isCellEmpty(int row, int col) {
+        return board[row][col] == ' ';
+    }
+
+    public boolean isGameOver() {
+        return checkWinner() != null;
+    }
+
+    public void reset() {
+        for (char[] row : board) {
+            Arrays.fill(row, ' ');
+        }
+        // Randomly decide whether Markov goes first
+        if (Math.random() > 0.5) {
+            this.markovChainMove(); // Markov goes first
+        }
+    }
+
+    public char[][] getBoard() {
+        return board;
+    }
+
+    public int getWins() {
+        return wins;
+    }
+
+    public int getLoses() {
+        return loses;
+    }
+
+    public int getDraws() {
+        return draws;
+    }
+
+    // Methods to update win, lose, and draw counts
+    public void incrementWins() {
+        wins++;
+    }
+
+    public void incrementLoses() {
+        loses++;
+    }
+
+    public void incrementDraws() {
+        draws++;
+    }
+
+    public TicTacToeMarkovChain getMarkovChain() {
+        return markovChain;
     }
 
     public String checkWinner() {
