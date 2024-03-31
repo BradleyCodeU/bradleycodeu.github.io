@@ -92,6 +92,7 @@ class TicTacToeMarkovChain {
     
 
     public char[][] getNextMove(char[][] twoDArray) {
+        System.out.println("Markov Chain size = "+transitions.size());
         String newKey;
         String key = gameStateToKey(twoDArray);
         history.add(key);
@@ -108,7 +109,7 @@ class TicTacToeMarkovChain {
         if (updatedArray != null) {
             System.out.println("Markov says 'obvious'");
             newKey = gameStateToKey(updatedArray);
-            System.out.println(newKey);
+            //System.out.println(newKey);
         } else {
             // No obvious move
             System.out.println("Markov says 'no obvious move'");
