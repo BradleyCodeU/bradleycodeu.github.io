@@ -22,7 +22,7 @@ Each pet MUST have...
 - an String ArrayList actions (for example, "feed", "walk", etc)
 - hunger
 
-Next, select attributes from the following list. Pick ones that make sense for the pet. We will store these stats as double and set the initial values to a random value 60-70. Pick 4 for your Puppy class and pick 3 for you other classes.
+Next, select attributes from the following list. Pick ones that make sense for the pet. We will store these stats as double and set the initial values to a random value 60-70. Pick 3 "needs" for your Puppy class and pick 2 "needs" for your other classes.
 
 - needToGoOutside
 - petDirtiness
