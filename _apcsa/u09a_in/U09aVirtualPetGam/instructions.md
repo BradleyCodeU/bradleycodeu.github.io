@@ -1,7 +1,4 @@
----
-layout: project
-category: u9a_in
-title: U09a Virtual Pet Game
+# Virtual Pet Game
 ---
 
 Here is a [demo video](https://drive.google.com/file/d/12lmCfq5ru7Vth4apWrTKk2eomeqEvJ-J/view?usp=sharing) of a finished Virtual Pet Game
