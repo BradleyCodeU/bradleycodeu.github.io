@@ -1,0 +1,26 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+canvas {
+  /* remove scrollbars */
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+canvas:focus {
+  /* remove blue outline around canvas */
+  outline: 0;
+}
+#hud {
+  color: white;
+  background-color: transparent;
+  z-index: 99;
+  padding:10px; 
+}
