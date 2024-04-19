@@ -1,7 +1,7 @@
 ---
 layout: project
 category: webgl
-title: WebGL Bouncy Sphere
+title: WebGL Bouncy Statue
 ---
 
 Remix this p5js starter project by clicking File > Duplicate: https://editor.p5js.org/rileyju/sketches/jXvXxb9va
