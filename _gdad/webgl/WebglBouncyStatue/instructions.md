@@ -1,5 +1,12 @@
-# WebGL Bouncy Statue
+---
+layout: project
+category: webgl
+title: WebGL Bouncy Statue
+---
 
+Remix this p5js starter project by clicking File > Duplicate: https://editor.p5js.org/rileyju/sketches/jXvXxb9va
+OR
+Use VSCode
 
 [Here is link](https://p5js.org/reference/#group-Shape) to the p5js reference. According to the reference there are currently seven built-in 3D shapes.
 
@@ -28,7 +35,7 @@ More p5 WebGL tutorials:
 
 In the starter project, the player is at the origin (0,0,0) and the floor is drawn for the first quadrant. If you want to hide the player for this project, then just delete the script.js line that says ```player.show()```
 
-Each floor tile is 100px-by-100px. Don't forget that the y-axis is the vertical axis <strike>and it is inverted. It's annoying, but the y-axis is often inverted in computer science.</strike>
+Each floor tile is 100px-by-100px. Don't forget that the y-axis is the vertical axis and it is inverted. It's annoying, but the y-axis is often inverted in computer science.
 
 
 

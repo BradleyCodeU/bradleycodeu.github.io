@@ -3,7 +3,9 @@ layout: project
 category: webgl
 title: WebGL Bouncy Sphere
 ---
-Remix this p5js project by clicking File > Duplicate: https://editor.p5js.org/rileyju/sketches/jXvXxb9va
+Remix this p5js starter project by clicking File > Duplicate: https://editor.p5js.org/rileyju/sketches/jXvXxb9va
+OR
+Use VSCode
 
 NOTE: You will need to use push and pop https://p5js.org/reference/#/p5/push
 
