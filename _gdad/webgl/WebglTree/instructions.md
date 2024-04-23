@@ -1,5 +1,8 @@
-# WebGL Tree
-
+---
+layout: project
+category: webgl
+title: WebGL Tree
+---
 
 This project is VERY similar to the previous WebGLStatue project. In this project, you are adding [texture](https://p5js.org/reference/#/p5/texture)
 
