@@ -3,6 +3,8 @@ let scoreDisplay = document.getElementById("scoreDiv");
 let score = 0;
 let myFont;
 let player = new GameObject();
+player.transform.position.x = -200;
+player.transform.position.z = -200;
 player.transform.rotation.y = 45;
 let cam = new Camera();
 
