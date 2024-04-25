@@ -10,7 +10,7 @@ let cam = new Camera();
 
 function preload() {
   myFont = loadFont(
-    "PressStart2P-Regular.ttf"
+    "PressStart2P.ttf"
   );
 }
 
