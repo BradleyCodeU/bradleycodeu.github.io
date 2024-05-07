@@ -7,9 +7,11 @@ while True:
     result+=random.choice(["this code","the following","the following code","the following program","this","this program","this algorithm"])+" "
     result+=random.choice(["print","display","output","produce","end up showing"])
     result+="?\n\n"
-    varUpStr = random.choice(['ant', 'bat', 'cat', 'dog', 'act', 'bed', 'cab', 'dad', 'add', 'bad', 'bag', 'cap', 'car', 'cut', 'day',
+    varUpStr  = random.choice(['ant', 'bat', 'cat', 'dog', 'act', 'bed', 'cab', 'dad', 'add', 'bad', 'bag', 
+    'cap', 'car', 'cut', 'day',
          'aid', 'bid', 'big', 'cad', 'cod', 'dab', 'boo' ])
-    varDownStr = random.choice(['fan', 'gap', 'hot', 'jam', 'fit', 'goo', 'hat', 'jaw', 'fig', 'hog', 'jog', 'fun', 'gym', 'hay', 'job', 'foo', 'mom', 'nom'])
+    varDownStr = random.choice(['fan', 'gap', 'hot', 'jam', 'fit', 'goo', 'hat', 'jaw', 'fig', 'hog', 'jog', 
+    'fun', 'gym', 'hay', 'job', 'foo', 'mom', 'nom'])
 
     #print line 01 assignment
     varUpValue = random.randint(-2,5)
