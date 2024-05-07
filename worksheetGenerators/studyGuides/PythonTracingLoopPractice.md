@@ -23,7 +23,7 @@ generatePractice();
 function generatePractice() {
    console.log("JavaScript Tracing Loop Practice Generator");
 
-while (true) {
+
     let question = "\nWhat ";
     question += randomChoice([
         "will", "does", "would", "might", "number will", "number does"
@@ -112,7 +112,7 @@ while (true) {
     document.getElementById("output").innerText = result;
     document.getElementById("answer").innerText = "";
     document.getElementById("answer").style.display = "none";
-}
+
 }
 
 // Helper functions
