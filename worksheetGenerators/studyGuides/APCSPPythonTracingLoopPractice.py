@@ -16,7 +16,7 @@ while True:
     varUpStr = random.choice([
         'ant', 'bat', 'cat', 'dog', 'act', 'bed', 'cab', 'dad', 'add', 'bad',
         'bag', 'cap', 'car', 'cut', 'day', 'aid', 'bid', 'big', 'cad', 'cod',
-        'dab', 'boo'
+        'dab', 'boo', 'bird'
     ])
     varDownStr = random.choice([
         'fan', 'gap', 'hot', 'jam', 'fit', 'goo', 'hat', 'jaw', 'fig', 'hog',

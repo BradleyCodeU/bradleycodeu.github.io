@@ -113,6 +113,7 @@ while (true) {
     document.getElementById("answer").innerText = "";
     document.getElementById("answer").style.display = "none";
 }
+}
 
 // Helper functions
 function randomChoice(choices) {
