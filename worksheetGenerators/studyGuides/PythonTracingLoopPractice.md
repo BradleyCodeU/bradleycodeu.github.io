@@ -65,22 +65,22 @@ function generatePractice() {
             varUpValue += varUpModifier;
             varDownValue -= varDownModifier;
         }
-        result += "for (let i = 0; i < 5; i++) {\n";
+        result += "for i in range(5):\n";
     } else if (loopType === 2) {
         while (varUpValue < 5) {
             varUpValue += varUpModifier;
             varDownValue -= varDownModifier;
         }
-        result += "while (" + varUpStr + " < 5) {\n";
+        result += "while " + varUpStr + " < 5:\n";
     } else if (loopType === 3) {
         while (varDownValue > 5) {
             varUpValue += varUpModifier;
             varDownValue -= varDownModifier;
         }
-        result += "while (" + varDownStr + " > 5) {\n";
+        result += "while " + varDownStr + " > 5:\n";
     }
-    result += "    " + varUpStr + " += " + varUpModifier + ";\n";
-    result += "    " + varDownStr + " -= " + varDownModifier + ";\n";
+    result += "    " + varUpStr + " += " + varUpModifier + "\n";
+    result += "    " + varDownStr + " -= " + varDownModifier + "\n";
 
     //pick the final result modifier
     let resultModifier = getRandomInt(1, 4);
@@ -89,20 +89,20 @@ function generatePractice() {
     //do the result modifier
     if (resultModifier === 1) {
         resultValue = String(varUpValue) + String(varDownValue);
-        result += "result = str(" + varUpStr + ") + str(" + varDownStr + ");\n";
+        result += "result = str(" + varUpStr + ") + str(" + varDownStr + ")\n";
     } else if (resultModifier === 2) {
         resultValue = varUpValue + varDownValue * 2;
-        result += "result = " + varUpStr + " + " + varDownStr + " * 2;\n";
+        result += "result = " + varUpStr + " + " + varDownStr + " * 2\n";
     } else if (resultModifier === 3) {
         resultValue = varDownValue + varUpValue * 2;
-        result += "result = " + varDownStr + " + " + varUpStr + " * 2;\n";
+        result += "result = " + varDownStr + " + " + varUpStr + " * 2\n";
     } else if (resultModifier === 4) {
         resultValue = 2 + varUpValue * varDownValue;
-        result += "result = 2 + " + varUpStr + " * " + varDownStr + ";\n";
+        result += "result = 2 + " + varUpStr + " * " + varDownStr + "\n";
     }
 
     //print the print statement
-    result += "alert(result);";
+    result += "print(result)";
     answer = resultValue;
 
 
