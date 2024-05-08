@@ -4,7 +4,7 @@ category: arrays
 title: Python Tracing Loop Practice
 ---
 
-<button onclick="generatePractice()">Generate Tracing Loop Practice</button>
+<button onclick="generatePractice()">Generate Loop Tracing Practice</button>
 <p id="question"></p>
 <pre id="output"></pre>
 <table>
@@ -78,7 +78,6 @@ function generatePractice() {
             varDownValue -= varDownModifier;
         }
         result += "while " + varDownStr + " > 5:\n";
-    }
     } else if (loopType === 4) {
         varUpModifier = varDownStr;
         for (let i = 0; i < 5; i++) {
@@ -86,6 +85,7 @@ function generatePractice() {
             varDownValue -= varDownModifier;
         }
         result += "for i in range(5):\n";
+    }
     result += "    " + varUpStr + " += " + varUpModifier + "\n";
     result += "    " + varDownStr + " -= " + varDownModifier + "\n";
 
