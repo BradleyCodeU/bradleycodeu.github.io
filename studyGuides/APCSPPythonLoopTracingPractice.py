@@ -35,7 +35,7 @@ while True:
     varDownModifier = random.randint(1, 3)
 
     #pick a loop type
-    loopType = random.randint(1, 3)
+    loopType = random.randint(1, 4)
     if loopType == 1:
         for i in range(5):
             varUpValue += varUpModifier
@@ -51,6 +51,12 @@ while True:
             varUpValue += varUpModifier
             varDownValue -= varDownModifier
         result += "while " + varDownStr + " > 5:\n"
+    elif loopType == 4:
+        varUpModifier = varDownStr
+        for i in range(5):
+            varUpValue += varDownValue
+            varDownValue -= varDownModifier
+        result += "for i in range(5):\n"
     result += "    " + varUpStr + " += " + str(varUpModifier) + "\n"
     result += "    " + varDownStr + " -= " + str(varDownModifier) + "\n"
 

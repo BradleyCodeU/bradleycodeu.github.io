@@ -59,7 +59,7 @@ function generatePractice() {
     let varDownModifier = getRandomInt(1, 3);
 
     //pick a loop type
-    let loopType = getRandomInt(1, 3);
+    let loopType = getRandomInt(1, 4);
     if (loopType === 1) {
         for (let i = 0; i < 5; i++) {
             varUpValue += varUpModifier;
@@ -79,6 +79,13 @@ function generatePractice() {
         }
         result += "while " + varDownStr + " > 5:\n";
     }
+    } else if (loopType === 4) {
+        varUpModifier = varDownStr;
+        for (let i = 0; i < 5; i++) {
+            varUpValue += varDownValue;
+            varDownValue -= varDownModifier;
+        }
+        result += "for i in range(5):\n";
     result += "    " + varUpStr + " += " + varUpModifier + "\n";
     result += "    " + varDownStr + " -= " + varDownModifier + "\n";
 
