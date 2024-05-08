@@ -1,7 +1,7 @@
 ---
 layout: project
 category: arrays
-title: Python Tracing Loop Practice
+title: Python Loop Tracing Practice
 ---
 
 <button onclick="generatePractice()">Generate Loop Tracing Practice</button>
@@ -38,13 +38,18 @@ function generatePractice() {
     question += "?";
     let result = "";
     let varUpStr = randomChoice([
-        'ant', 'bat', 'cat', 'dog', 'act', 'bed', 'cab', 'dad', 'add', 'bad',
-        'bag', 'cap', 'car', 'cut', 'day', 'aid', 'bid', 'big', 'cad', 'cod',
-        'dab', 'boo'
+        'ant', 'bat', 'cat', 'dog', 'act', 'bee', 'cab', 'dad', 'add', 'bad', 'bird', 'bet',
+        'bag', 'cap', 'car', 'cut', 'day', 'aid', 'bid', 'big', 'cad', 'cod', 'card',
+        'dab', 'boo', 'arch', 'bear', 'cake', 'deer', 'acid', 'barn', 'coin', 'cool',
+        'desk', 'dove', 'bell', 'chip', 'duck', 'deck', 'cola', 'data', 'dusk', 'drip', 'bop'
+
     ]);
     let varDownStr = randomChoice([
-        'fan', 'gap', 'hot', 'jam', 'fit', 'goo', 'hat', 'jaw', 'fig', 'hog',
-        'jog', 'fun', 'gym', 'hay', 'job', 'foo', 'mom', 'nom'
+        'fan', 'gap', 'hip', 'jam', 'fit', 'hat', 'jaw', 'fig', 'hog', 'frog', 'lion',
+        'jog', 'fun', 'gym', 'hay', 'job', 'foo', 'mom', 'nom', 'echo', 'fern', 'egg',
+        'goat', 'hall', 'iron', 'jump', 'kite', 'lamp', 'moon', 'nest', 'edge',  'hen',
+        'fowl', 'girl', 'harp', 'isle', 'jeep', 'kiss', 'lily', 'mice', 'nail', 'flex', 'yeet', 'mid', 'pog', 'vibe'
+
     ]);
 
     //print line 01 assignment
