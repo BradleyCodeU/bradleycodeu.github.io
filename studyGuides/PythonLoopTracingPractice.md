@@ -96,7 +96,7 @@ function generatePractice() {
         varDownModifier = varUpStr;
         while (varUpValue < 5) {
             varUpValue += varUpModifier;
-            varDownValue -= varDownValue;
+            varDownValue -= varUpValue;
         }
         result += "while " + varUpStr + " < 5:\n";
     }
