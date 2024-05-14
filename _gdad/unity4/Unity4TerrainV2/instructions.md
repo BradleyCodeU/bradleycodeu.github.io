@@ -21,7 +21,7 @@ In addition to the mountains, grass, hills, shrubs, and first/third person camer
     - UI Text that tells the player "You Win" if all collectibles are collected
 
 
-1. A reset script, just in case the player falls off of the world. Reset script reminder... you only need these 3 lines of code. You should know where to put these by now.
+1. A reset script, just in case the player falls off of the world. Reset script reminder... you only need these few lines of code. You should know where to put these by now.
 
 
 ```
@@ -29,7 +29,12 @@ private Vector3 startpos;
 
 startpos = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, gameObject.transform.position.z);
 
-if (transform.position.y < -10) transform.position = startpos;
+if (transform.position.y < -10){
+    CharacterController cc = GetComponent<CharacterController>();
+    cc.enabled = false;
+    transform.position = startpos;
+    cc.enabled = true;
+} 
 ```
 
 1. Add a second player, second camera, and a split screen
