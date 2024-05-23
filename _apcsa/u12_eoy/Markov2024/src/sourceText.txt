@@ -1,24 +1,24 @@
 Amazon
- is upgrading its decade-old Alexa voice assistant with generative artificial intelligence and plans to charge a monthly subscription fee to offset the cost of the technology, according to people with knowledge of Amazon’s plans. 
+ is upgrading its decade-old Alexa voice assistant with generative artificial intelligence and plans to charge a monthly subscription fee to offset the cost of the technology, according to people with knowledge of Amazon's plans. 
 
-The Seattle-based tech and retail giant will launch a more conversational version of Alexa later this year, potentially positioning it to better compete with new generative AI-powered chatbots from companies including Google and OpenAI, according to two sources familiar with the matter, who asked not to be named because the discussions were private. Amazon’s subscription for Alexa will not be included in the $139-per-year Prime offering, and Amazon has not yet nailed down the price point, one source said.
+The Seattle-based tech and retail giant will launch a more conversational version of Alexa later this year, potentially positioning it to better compete with new generative AI-powered chatbots from companies including Google and OpenAI, according to two sources familiar with the matter, who asked not to be named because the discussions were private. Amazon's subscription for Alexa will not be included in the $139-per-year Prime offering, and Amazon has not yet nailed down the price point, one source said.
 
 Amazon declined to comment on its plans for Alexa. 
 
-While Amazon wowed consumers with Alexa’s voice-driven tasks in 2014, its capabilities could seem old-fashioned amid recent leaps in artificial intelligence. Last week, OpenAI announced GPT-4o, with the capability for two-way conversations that can go significantly deeper than Alexa. For example, it can translate conversations into different languages in real time. Google launched a similar generative-AI-powered voice feature for Gemini. 
+While Amazon wowed consumers with Alexa's voice-driven tasks in 2014, its capabilities could seem old-fashioned amid recent leaps in artificial intelligence. Last week, OpenAI announced GPT-4o, with the capability for two-way conversations that can go significantly deeper than Alexa. For example, it can translate conversations into different languages in real time. Google launched a similar generative-AI-powered voice feature for Gemini. 
 
-Some interpreted last week’s announcements as a threat to Alexa and Siri, Apple
-’s voice assistant feature for iPhones. NYU professor Scott Galloway called the updates the “Alexa and Siri killers” on his recent podcast. Many people use Alexa and Siri for basic tasks, such as setting timers or alarms and announcing the weather.
+Some interpreted last week's announcements as a threat to Alexa and Siri, Apple
+'s voice assistant feature for iPhones. NYU professor Scott Galloway called the updates the "Alexa and Siri killers" on his recent podcast. Many people use Alexa and Siri for basic tasks, such as setting timers or alarms and announcing the weather.
 
 The development of new AI chatbots in recent months has increased the pressure internally on a division that was once seen as a darling of Amazon founder Jeff Bezos, according to the sources — but has been subject to strict profit imperatives since his departure. 
 
-Three former employees pointed to Bezos’ early obsession with Alexa, describing it as his passion project. Attention from Bezos resulted in more dollars and less pressure to make a return on those funds immediately. 
+Three former employees pointed to Bezos' early obsession with Alexa, describing it as his passion project. Attention from Bezos resulted in more dollars and less pressure to make a return on those funds immediately. 
 
-That changed when Andy Jassy took over as CEO in 2021, according to three sources. Jassy was charged with rightsizing Amazon’s business during the pandemic, and Alexa became less of a priority internally, they said. Jassy has been privately underwhelmed with what modern-day Alexa is capable of, according to one person. The Alexa team worried they had invented an expensive alarm clock, weather machine and way to play Spotify music, one source said.  
+That changed when Andy Jassy took over as CEO in 2021, according to three sources. Jassy was charged with rightsizing Amazon's business during the pandemic, and Alexa became less of a priority internally, they said. Jassy has been privately underwhelmed with what modern-day Alexa is capable of, according to one person. The Alexa team worried they had invented an expensive alarm clock, weather machine and way to play Spotify music, one source said.  
 
-For instance, Jassy, an avid sports fan, asked the voice assistant the live score of a recent game, according to a person in the room, and was openly frustrated that Alexa didn’t know an answer that was so easy to find online. 
+For instance, Jassy, an avid sports fan, asked the voice assistant the live score of a recent game, according to a person in the room, and was openly frustrated that Alexa didn't know an answer that was so easy to find online. 
 
-When reached for comment, Amazon pointed to the company’s annual shareholder letter released last month. In it, Jassy mentioned that the company was building a “substantial number of GenAI applications across every Amazon consumer business,” adding that that included “an even more intelligent and capable Alexa.”
+When reached for comment, Amazon pointed to the company's annual shareholder letter released last month. In it, Jassy mentioned that the company was building a "substantial number of GenAI applications across every Amazon consumer business," adding that that included "an even more intelligent and capable Alexa."
 
 The team is now tasked with turning Alexa into a relevant device that holds up amid the new AI competition, and one that justifies the resources and headcount Amazon has dedicated to it. It has undergone a massive reorganization, with much of the team shifting to the artificial general intelligence, or AGI, team, according to three sources. Others pointed to bloat within Alexa, a team of thousands of employees.
 
@@ -28,16 +28,1930 @@ Alexa, were you too early?
 Apple, Amazon and Google
  were early movers with their voice assistants, which did employ AI. But the current wave of advanced generative AI enables much more creative, human-sounding interactions. Apple is expected to unveil a more conversational Siri at its annual developers conference in June, according to The New York Times. 
 
-Those who worked on the Alexa team describe it as a great idea that may have been too early, and that it’s going to be hard to turn the ship around. 
+Those who worked on the Alexa team describe it as a great idea that may have been too early, and that it's going to be hard to turn the ship around. 
 
-There’s also the challenge of finding AI engineering talent, as OpenAI, Microsoft
- and Google recruit from the same pool of academics and tech talent. Plus, generative AI workloads are expensive thanks to the hardware and computing power required. One source estimated the cost of using generative AI in Alexa at 2 cents per query, and said a $20 price point was floated internally. Another suggested it would need to be in a single-digit dollar amount, which would undercut other subscription offerings. OpenAI’s ChatGPT charges $20 per month for its advanced models. 
+There's also the challenge of finding AI engineering talent, as OpenAI, Microsoft
+ and Google recruit from the same pool of academics and tech talent. Plus, generative AI workloads are expensive thanks to the hardware and computing power required. One source estimated the cost of using generative AI in Alexa at 2 cents per query, and said a $20 price point was floated internally. Another suggested it would need to be in a single-digit dollar amount, which would undercut other subscription offerings. OpenAI's ChatGPT charges $20 per month for its advanced models. 
 
-Still, they point to Alexa’s installed user base, with devices in hundreds of millions of homes, as an opportunity. Those who worked on Alexa say the fact that it’s already in people’s living rooms and kitchens makes the stakes higher, and mistakes more costly if Alexa doesn’t understand a command or provides unreliable information. 
+Still, they point to Alexa's installed user base, with devices in hundreds of millions of homes, as an opportunity. Those who worked on Alexa say the fact that it's already in people's living rooms and kitchens makes the stakes higher, and mistakes more costly if Alexa doesn't understand a command or provides unreliable information. 
 
-Amazon has been battling a perception that it’s behind in artificial intelligence. While it offers multiple AI models on Amazon Web Services, it does not have a leading large language model to unseat OpenAI, Google or Meta
-. Amazon spent $2.75 billion backing AI startup Anthropic, its largest venture investment in the company’s three-decade history. Google also has an Anthropic investment and partnership.
+Amazon has been battling a perception that it's behind in artificial intelligence. While it offers multiple AI models on Amazon Web Services, it does not have a leading large language model to unseat OpenAI, Google or Meta
+. Amazon spent $2.75 billion backing AI startup Anthropic, its largest venture investment in the company's three-decade history. Google also has an Anthropic investment and partnership.
 
 Amazon will use its own large language model, Titan, in the Alexa upgrade, according to a source.  
 
-Bezos is among those who have voiced concern that Amazon is behind in AI, according to two sources familiar with him. Bezos is still “very involved” in Amazon’s AI efforts, CNBC reported last week, and has been sending Amazon executives emails wondering why certain AI startups are picking other cloud providers over AWS. 
+Bezos is among those who have voiced concern that Amazon is behind in AI, according to two sources familiar with him. Bezos is still "very involved" in Amazon's AI efforts, CNBC reported last week, and has been sending Amazon executives emails wondering why certain AI startups are picking other cloud providers over AWS. 
+
+"Move fast and break things" is a motto that continues to haunt the tech sector, some 20 years after it was coined by a young Mark Zuckerberg.
+
+Those five words came to symbolise Silicon Valley at its worst - a combination of ruthless ambition and a rather breathtaking arrogance - profit-driven innovation without fear of consequence.
+I was reminded of that phrase this week when the actor Scarlett Johansson clashed with OpenAI. Ms Johansson claimed both she and her agent had declined for her to be the voice of its new product for ChatGPT - and then when it was unveiled it sounded just like her anyway. OpenAI denies that it was an intentional imitation.
+It's a classic illustration of exactly what the creative industries are so worried about - being mimicked and eventually replaced by artificial intelligence.
+There are echoes in all this of the macho Silicon Valley giants of old. Seeking forgiveness rather than permission as an unofficial business plan.
+The tech firms of 2024 are extremely keen to distance themselves from that reputation.
+And OpenAI wasn't shaped from that mould. It was originally a non-profit organisation committed to investing any extra profits back into the business.
+In 2019, when it formed a profit-making arm, the company said it would be led by the non-profit side, and there would be a cap on the returns for investors.
+Not everybody was happy about the shift - it was said to have been a key reason behind co-founder Elon Musk's decision to walk away. And when OpenAI CEO Sam Altman was suddenly fired by the board late last year, one of the theories was that he wanted to move further away from the original mission. We never found out for sure.
+But even if OpenAI has become more profit-driven, it still has to face up to its responsibilities.
+Stuff of nightmares
+In the world of policy-making, almost everyone is agreed on the need for clear boundaries to keep companies like OpenAI in line before disaster strikes.
+So far, the AI giants have largely played ball on paper. At the world's first AI Safety Summit six months ago, a group of tech bosses signed a voluntary pledge to create responsible, safe products that would maximise the benefits of AI technology and minimise its risks.
+Those risks they spoke of were the stuff of nightmares - this was Terminator, Doomsday, AI-goes-rogue-and-destroys-humanity territory.
+Last week, a draft UK government report from a group of 30 independent experts concluded that there was "no evidence yet" that AI could generate a biological weapon or carry out a sophisticated cyber attack. The plausibility of humans losing control of AI was "highly contentious", it said.
+And when the summit reconvened earlier this week, the word "safety" had been removed entirely from the conference title.
+Some people in the field have been saying for quite a while that the more immediate threat from AI tools was that they will replace jobs or cannot recognise skin colours. These are the real problems, says AI ethics expert Dr Rumman Chowdhury.
+And there are further complications. That report claimed there was currently no reliable way of understanding exactly why AI tools generate the output that they do - even their developers aren't sure. And the established safety testing practice known as red teaming, in which evaluators deliberately try to get an AI tool to misbehave, has no best-practice guidelines.
+And at that follow-up summit this week, hosted jointly by the UK and South Korea in Seoul, tech firms committed to shelving a product if it didn't meet certain safety thresholds - but these will not be set until the next gathering in 2025.
+While the experts debate the nature of the threats posed by AI, the tech companies keep shipping products.
+The past few days alone have seen the launch of ChatGPT-4O from OpenAI, Project Astra from Google, and CoPilot+ from Microsoft. The AI Safety Institute declined to say whether it had the opportunity to test these tools before their release.
+OpenAI says it has a 10-point safety process, but one of its senior safety-focused engineers resigned earlier this week, saying his department had been "sailing against the wind" internally.
+"Over the past years, safety culture and processes have taken a backseat to shiny products," Jan Leike posted on X.
+Cows in the US have bird flu - is it inching closer to humans?
+What the ICC arrest warrants mean for Israel and Hamas
+What next for Iran after President Raisi's death?
+There are, of course, other teams at OpenAI who continue to focus on safety and security. But there's no official, independent oversight of what any of these companies are actually doing.
+"Volunteer agreements essentially are just a means of firms marking their own homework," says Andrew Strait, associate director of the Ada Lovelace Institute, an independent research organisation. "It's essentially no replacement for legally binding and enforceable rules which are required to incentivise responsible development of these technologies."
+"We have no guarantee that these companies are sticking to their pledges," says Professor Dame Wendy Hall, one of the UK's leading computer scientists.
+"How do we hold them to account on what they're saying, like we do with drugs companies or in other sectors where there is high risk?"
+Tougher rules are coming. The EU passed its AI Act, the first law of its kind, and has tough penalties for non-compliance, but some argue it will impact users - who will have to risk-assess AI tools themselves - rather than those that develop the AI .
+But this doesn't necessarily mean that AI companies are off the hook.
+"We need to move towards legal regulation over time but we can't rush it," says Prof Hall. "Setting up global governance principles that everyone signs up to is really hard."
+"We also need to make sure it's genuinely worldwide and not just the Western world and China that we are protecting."
+The overriding issue, as ever, is that regulation and policy move a lot more slowly than innovation.
+Prof Hall believes the "stars are aligning" at government levels.
+The question is whether the tech giants can be persuaded to wait for them.
+
+Microsoft's new AI-powered computer history feature, Recall, has been receiving criticism among PC users for being very Black Mirror-like.
+
+However, it's not just critics who are coming after Microsoft over Recall. The UK's Information Commissioner's Office (ICO) is now investigating the company's new AI feature, too.
+
+SEE ALSO: Microsoft's new AI 'Recall' feature is like hitting 'CTRL + H' on your entire digital life 
+The ICO is an independent public authority that reports to the Parliament of the United Kingdom. It's tasked, among other things, with promoting and upholding data privacy rights for individuals
+
+"We expect organisations to be transparent with users about how their data is being used and only process personal data to the extent that it is necessary to achieve a specific purpose," the ICO wrote in a statement published on Wednesday via its website. "Industry must consider data protection from the outset and rigorously assess and mitigate risks to peoples' rights and freedoms before bringing products to market."
+
+"We are making enquiries with Microsoft to understand the safeguards in place to protect user privacy," the ICO statement concluded.
+
+Why is Recall causing concern?
+Everyone is very familiar with web browser history, an archive showing users which websites they visited by date and time. All of the most popular web browsers like Google Chrome, Firefox, and Safari have this feature.
+
+Microsoft is taking that general idea and applying it to a new concept. Recall provides a history of activity on a users' entire computer powered by AI.
+
+According to Microsoft, Recall will consistently take screenshots of users' activity on their PC in the background while they go about their regular day on their computer. Using AI, the feature will scan through the text and visuals seen in each screen capture and make a searchable index of this activity for users. If a user is trying to retrieve something they did on their computer earlier in their history, Recall can pull it up, thanks to the searchable archive created by the AI-scanned screenshots.
+
+While these screenshots will be stored locally on users' own computer, Microsoft has since shared that sensitive data, including passwords, addresses, and health information, won't be removed — and will be visible to anyone who has access to the files on the device. Cybersecurity experts have shared concerns about what bad actors, such as hackers, could do with this information. Furthermore, because this feature works in the background around-the-clock, users may be unaware of which data, exactly, is being stored.
+
+It will be interesting to see how reactions from users and security professionals, as well as inquiries from government officials, affects Microsoft's Recall going forward.
+
+Wendy's is testing new artificial intelligence technology through GoogleCloud at several drive-thru locations in the Columbus area, hoping to improve order speed and accuracy.
+
+The AI takes your order almost immediately when you pull up at the drive-thru and then hands it off to the workers inside to complete.
+
+On Monday, WOSU went to the location at 3040 Northwest Boulevard in Upper Arlington and placed four orders.
+
+The first order was a Baconator meal with medium fries and a Coke. The AI processed the order correctly word for word and it was displayed on the screen.
+
+The second order was for a Double Stack Biggie Bag with a Coca-Cola and barbecue sauce for the chicken nuggets. The AI struggled at first when a "coke" was ordered, but correctly processed the full name "Coca-Cola."
+
+The third order was for a Dave's Single burger with no cheese and extra pickles. The AI initially struggled to understand, but the order did end up being correct.
+
+The fourth order was for a double hamburger with only ketchup and medium french fries. This order was placed on a separate check and because of this, a human from inside the restaurant took over to take the order.
+
+WOSU spoke to Wendy's Chief Information Officer Kevin Vasconi about the new technology and what the company has seen from it so far. He said the AI technology is now in four Columbus locations, and will launch in a fifth one this week. The company plans to expand to more Columbus locations and in another test market in Florida on a future date.
+
+The other current Columbus locations where the AI technology is being used include:
+
+5771 Maxtown Road in Westerville
+1851 W. Henderson Road in Columbus
+1600 Georgesville Square in Columbus
+Vasconi said the technology is more accurate than humans and it saves an average of 22 seconds on orders at the Westerville location. He said that difference may not seem like a lot to an outside observer, but the difference is huge for the staff inside the restaurant during a rush or the customers waiting in line.
+"There's no pause when you pull up to the speaker box. The AI agent is on. It's not on break. And that helps also in terms of making the order cycle faster for the consumer," Vasconi said.
+
+Vasconi said its important for both the crew and the consumers to embrace the technology in order for it to work. He said customers are embracing the change, and while the crew isn't completely in love with the technology they are "endorsing it."
+
+Wendy's isn't the only fast food restaurant chain getting into the AI business. Other companies like White Castle and McDonald's are also testing the technology.
+
+Wendy's said in a press release that it also measured the accuracy of orders. It said that 86% of orders turn out accurate on average, but some samplings are exceeding 90% accuracy.
+
+Vasconi said the AI will get smarter and smarter, which it does through repetition and accuracy is predicted to increase.
+
+"Some of these orders can be pretty complex, right? I want extra pickles and I want light mayonnaise. And (that is) an interesting challenge from a technology standpoint, because not everybody would order that the same way," Vasconi said.
+
+The company statement said accuracy increased to 99% when a crew member steps in to complete the order, due to it being too complicated or a customer requesting to speak to a real person.
+
+Vasconi said he can't speak to whether AI in wider society will lead to certain jobs being eliminated, but he said the company hasn't eliminated any jobs at the locations where the AI is in use and the company isn't focused on saving money on labor. He said eliminating open positions because of the AI is not in the company's plans.
+
+"The business problem we're trying to solve is speed and accuracy, and we build the human into the process," Vasconi said.
+
+Wendy's is headquartered in Dublin, but was founded in Columbus in 1969. Vasconi said this makes the area a great place to test the technology.
+
+"Our headquarters is here. I've got a big technology team here. So not only is it a good market from a piloting standpoint, but I think for the Wendy's company and actually the Chipotle folks too, we've got people ... that work here," Vasconi said.
+
+
+The Columbus Dispatch paused use of an artificial intelligence sports writing tool after a Westerville football recap faced criticism on social media that went viral last week.
+
+Why it matters: Newsrooms are increasingly experimenting with generative AI tools, but must grapple with ethical challenges while still maintaining public trust, Axios' Sara Fischer and Ryan Heath write.
+
+State of play: For several days this month, the Dispatch and other Gannett-owned newspapers published dozens of LedeAI game recaps based on simple box score data.
+
+One such Dispatch article from Aug. 18 was blasted on social media for its robotic style, lack of player names and use of awkward phrases like "close encounter of the athletic kind."
+"I feel like I was there!" The Athletic senior columnist Jon Greenberg posted sarcastically.
+The big picture: News publishers that use AI typically do so under the editorial supervision of humans.
+
+The Dispatch's page of ethical principles states, "AI-generated content must be verified for accuracy and factuality before used in reporting."
+Yes, but: A Gannett spokesperson did not respond to an emailed question about whether its newsrooms reviewed LedeAI recaps before publication.
+
+The intrigue: In a Dispatch soccer write-up from Aug. 19, AI failed to generate team names and delivered a faulty first sentence.
+
+"The Worthington Christian [[WINNING_TEAM_MASCOT]] defeated the Westerville North [[LOSING_TEAM_MASCOT]] 2-1 in an Ohio boys soccer game on Saturday," the story reads.
+What they're saying: "This local AI sports effort is being paused," a Gannett spokesperson tells Axios.
+
+"In addition to adding hundreds of reporting jobs across the country, we are experimenting with automation and AI to build tools for our journalists and add content for our readers."
+"We are continually evaluating vendors as we refine processes to ensure all the news and information we provide meets the highest journalistic standards."
+Reality check: Gannett has made numerous rounds of layoffs in recent years, shedding nearly half its workforce since its merger with GateHouse Media in 2019.
+
+Between the lines: This is the first high school football season played since Gannett shuttered ThisWeek Community News, a suburban Columbus newspaper chain that produced award-winning local sports journalism.
+
+Some staffers were folded into the Dispatch's sports desk, Gannett told Axios at the time.
+Of note: Axios does not use generative AI to create content, except where the point is to show readers what the technology can or can't do. In that case, the AI-generated material is clearly labeled.
+
+The bottom line: "The future is now: Journalism without journalists," University of Maine journalism professor Michael Socolow posted on X above a list of AI-generated high school football stories published in four newspapers, including the Dispatch.
+
+There's a new set of ABCs in the classroom: artificial intelligence, big data and ChatGPT.
+
+Why it matters: Ohio recently released guidance for how schools can best use these AI tools, which can provide unique learning opportunities. But teachers, students and even parents need help navigating the technology in a smart, ethical way.
+
+Of note: Ohio is not mandating AI use in classrooms, but made the guidance available should teachers choose to incorporate it.
+
+Details: The new "AI Toolkit" released last week was created by tech experts and InnovateOhio, a government office focused on improving digital tools such as online BMV services.
+
+The toolkit mainly compiles AI resources from other tech organizations and suggests hands-on student projects.
+Zoom in: For example, those in music class could use interactive AI software to create and mix their own songs, thus learning about various instruments, tempo changes and layering audio tracks.
+
+Another project involves students interviewing ChatGPT for a class podcast to better understand generative AI platforms.
+The intrigue: Teachers could even use ChatGPT to draft new lesson plans and class syllabi.
+
+Yes, but: Schools are encouraged to keep a human touch in all of these activities, rather than turning tasks over completely to AI.
+
+The state's resources also include guidance on how to discourage and detect cheating, such as students using ChatGPT to write homework assignments.
+What they're saying: The Ohio Education Association, a state teacher's union representing local districts, complimented the toolkit as a "good jumping off point" in a statement to Axios.
+
+"OEA believes AI can never and should never replace the experience and expertise of professional educators, but when used appropriately by trained educators, it is one of many important tools that can help educators continue to meet the needs of their students in our 21st century world."
+Between the lines: Lt. Gov. Jon Husted, who leads InnovateOhio, hopes this pays dividends for Ohio's economic future.
+
+"We want to compete. We want Ohio to be the dominant economic force of the Midwest," he said at a news conference.
+"To do that we need to continue to innovate and use technology … if we're going to get the best talent in the world, we've got to get it from our schools and our young people."
+
+Ohio is one of 11 states preparing policy guidance for K-12 schools on artificial intelligence platforms like ChatGPT, per a new report.
+
+Why it matters: Teachers and administrators are eager for guidelines on how to most effectively use AI and quash misuse, but the field is moving so rapidly that governments have been loath to issue pronouncements, Axios' Jennifer A. Kingson writes.
+
+The big picture: The Center on Reinventing Public Education, a nonpartisan research center at Arizona State University, asked states for their approach at the start of the school year.
+
+Just two, California and Oregon, had issued official recommendations and 17 states did not respond to CPRE's request.
+Despite little guidance, one-third of 498 teachers surveyed recently told Education Week that they've already used AI-powered tools in their classrooms.
+Zoom in: An Ohio Department of Education & Workforce spokesperson tells Axios there is "no set date" for when its guidance will be released, and even when it exists, "decisions regarding AI would be made by local districts."
+
+The spokesperson didn't have further details regarding who is involved or what the recommendations might cover.
+Between the lines: AI in education is such a sprawling topic, it's hard for educators and regulators to know what to tackle first.
+
+Guidelines could encompass everything from teaching about AI in classrooms to using it to enhance school operations to cracking down on students who use it to do their homework.
+The issue has surfaced alongside others also demanding schools' attention, such as ongoing staffing shortages, pandemic learning loss and a youth mental health crisis.
+What's more: If guidance is too specific, it may become obsolete as technology advances.
+
+The bottom line: "We really are looking at something that's revolutionary, and I never use those words in my profession," Joseph South, chief innovation officer for the International Society for Technology in Education, tells Axios.
+
+His tips:
+
+Offer opportunities for educators to learn and explore, which will help dispel misconceptions.
+
+Be sure to follow existing privacy and security laws.
+
+Have a "light touch" — things are changing rapidly.
+
+Focus on helping students achieve their educational goals and helping teachers do their jobs more efficiently.
+
+Include AI literacy lessons, to teach students about the technology's growing role in society.
+
+Don't turn over tasks solely to AI — ensure a human is always involved in decision-making.
+
+AI sports reporter not ready for the big leagues
+The Columbus Dispatch used AI to report on high school sports. It didn't go very well.
+After being dragged on social media for its hilariously bad AI-generated high school football reporting, the Columbus Dispatch and its owner Gannett announced they are pausing their local AI sportswriting initiative.
+
+What happened: An article written by AI recapping a football game in Westerville, Ohio, went viral on X for being borderline illegible.
+
+The write-up used the phrase "a close encounter of the athletic kind" to describe the game.
+One sentence reads: "The Warriors chalked up this decision in spite of the Warhawks' spirited fourth-quarter performance," which makes perfect sense.
+The Dispatch's ethical guidelines state that AI content has to be verified by humans before being used in reporting, but it's unclear whether that step was taken. Another AI-written sports story in the Dispatch initially failed to generate team names, publishing "[[WINNING_TEAM_MASCOT]]" and "[[LOSING_TEAM_MASCOT]]." The Dispatch has since updated AI-generated stories to correct errors.
+
+Big picture: Major news outlets are still figuring out how to incorporate AI into their reporting process. Reuters, the AP, and others have published guidelines to define AI's role in the newsroom, while Google is reportedly testing an AI product that helps journalists produce news stories. But expect more close encounters of the robot kind—experts estimate that 90% of content on the internet in a few years will be AI-generated, according to Axios.
+
+More AI drive-thrus coming to Wendy's as early results are faster and more accurate
+Wendy's is expanding its use of artificial intelligence at drive-thrus.
+
+Over the summer, the Dublin-based fast-food chain teamed up with Google Cloud to test FreshAI at its 5771 Maxtown Road location in Westerville. It then quietly expanded the test to another three Central Ohio locations.
+
+Now Wendy's says more are coming before the end of the year and in early 2024. The first test with a franchisee is in the works as well.
+The Westerville location's drive-thru is running 22 seconds faster than the market average. Order accuracy — defined as a correct order that doesn't require human intervention — is now at 86% and occasionally surpasses 90%.
+
+"If it's not going to be a better experience, it's not worth it," said Wendy's CIO Kevin Vasconi.
+
+So far, Wendy's (NASDAQ:WEN) is seeing the worth.
+
+"We think technology can give us a competitive advantage in a highly competitive business," he said. "We think our food is the best. We want our technology to be the best."
+
+Matt Spessard, senior vice president and global chief technology officer, said the key goals are speed and accuracy for customers while making jobs easier for employees.
+
+Wendy's and Google have been working on the technology for more than two years. The system is generative AI that learns and adjusts on its own as opposed to rules-based AI, which requires updates to those rules to optimize the technology.
+
+Del Taco and Carl's Jr. are among those testing rule-based AI. Columbus-based White Castle is using a generative system with Soundhound. McDonald's just last week announced it is working with Google Cloud as well on AI.
+AI checks and balances
+"The key word is learning," said Wendy's District Manager Brian Dudziak. "It's picking up on nuances with orders and techniques."
+
+Going into the test, Wendy's knew the challenges — everything from ambient noise to different dialects to unfamiliar terminology to a highly customizable menu. If someone orders a milkshake, which Wendy's doesn't sell, it suggests a Frosty, which Wendy's does.
+
+That's what could be anticipated. What it didn't anticipate was the popularity of the free senior drink at the Westerville restaurant. Dudziak singled that out as a local quirk that it had to learn since that location sees more business from senior citizens than others in the market.
+
+Broadly, the same issues that are likely to trip up humans – highly customized orders, orders where the customer changes their mind multiple times – are the same ones creating the most trouble thus far.
+
+The AI also cannot provide allergen or nutritional info. It refers customers to the website for that – but that's also the same policy with human employees so there's not real difference there.
+
+There are multiple checks and backstops in the process. The system transcribes the order on the screen so the customer is getting a visual confirmation of what they said.
+
+There's a second layer of technology that is listening and assessing for factors like confusion, repetition and sentiment. Does the customer keep changing their mind? Do they seem irritated? It kicks it to a human in those cases who can help sort out or finish the order.
+
+AI assists, not replaces
+A human is still listening as well and can intervene if needed.
+
+Having a human listening in has another benefit – the order gets started sooner. This reporter experienced just that in a demonstration of the technology earlier this month. I had intended to order a combo meal but only said the sandwich. I had already ended my order when I realized my mistake – the AI heard me right, but I ordered wrong. By the time I pulled around to the window, the good old-fashioned human already knew something wasn't right and they turned it to a combo.
+
+Factoring in the human backup that comes in on tricky situations, order accuracy is 99%, the company said.
+
+"It's still a good experience for the customer," Vasconi said.
+
+Wendy's calls it the "assistant," which is deliberate and meaningful — the technology is there to assist. It's not replacing workers in already under-staffed locations, but freeing them up to make the food.
+
+The crew works with it as if it is another team member, Dudziak said. They've named it Wendy, of course.
+
+"It's one of us," he said. "It's not out there on its own."
+
+Dave Stockslager, director of area operations, said customers have embraced it and ask about it in the times when the system isn't turned on. Westerville's FreshAI is not used during the breakfast hours, for example.
+
+We tried White Castle's new AI drive-thru
+I've been on the hunt for a robot to take my fast food order, and recently got the chance at my neighborhood White Castle.
+
+Deep frying the news: The Columbus-based chain has spent a few years experimenting with "Julia," its computer ordering persona, at restaurants on Hilliard-Rome Road and in Indiana.
+
+The goal is to expand this technology to 100 other locations by the end of 2024.
+Why it matters: AI is far from a passing chatbot fad. You are increasingly encountering AI in your day-to-day life while reading news stories, playing video games and, yes, ordering spicy chicken nuggets.
+
+How it works: A "terms and conditions" screen greets drive-thru customers, who must approve having their voices recorded to benefit the AI machine learning models.
+
+I kicked things off with a simple hamburger slider and fries. Julia nailed it.
+Then came a tougher test. I wanted two chicken sliders, but purposefully told her three and tried to fix it.
+
+Julia instead added a fourth and for some reason tossed in two orders of chicken rings.
+What they're saying: This is the main challenge for AI developers, White Castle vice president Jamie Richardson tells me.
+
+"One of the things we didn't realize is how many different ways people choose to say the same order. It could be 'gimme some sliders,' or 'I'll take some sliders' or 'how about some sliders?'"
+Julia is gradually learning to recognize these word variations, while developers work to speed up her own "voice" to sound more natural, Richardson says.
+The intrigue: Customers can request help from a human crew member at any point.
+
+I decided against it — if robot overlords are indeed coming, we might as well learn how to work with them.
+Julia didn't understand how to "change" an order, but caught on once I used simpler phrases like "remove chicken rings."
+She finally got the order correct and sent it back to Flippy, a robotic arm handling the deep fryer station.
+Between the lines: The Columbus region is expected to see 13% of its workforce threatened by AI development, we recently reported, but Richardson insists that's not happening at White Castle.
+
+"This isn't replacing people," he contends. "It's investing, just like we would if we put a new grill system in or a new register system in or we did other things that help us give our team members better tools."
+For the time being, that appears true at the Hilliard-Rome Road location.
+
+A big sign greeted me at the drive-thru window: "Now hiring."
+
+An AI Chatbot Will Take Your Order at More Wendy's Drive-Thrus
+Wendy's Co. is expanding its test of an artificial intelligence-powered chatbot that takes orders at the drive-thru.
+
+Franchisees will get the chance to test the product in 2024, the chain said Monday. The tool, powered by Google Cloud's AI software, is currently active in four company-operated restaurants near Columbus, Ohio. More locations are slated to start using it soon.
+
+After months of testing AI drive-thru in sole location, Wendy's is bringing more to central Ohio
+If you're stopping by the Wendy's at 5771 Maxtown Road any time soon, you might be surprised to find that the person who usually takes your order is now just an Artificial Intelligence chatbot.
+
+This Westerville location was one of the first locations to test out the AI drive-thrus, according to Wendy's. This new AI drive-thru concept uses Google software, called Wendy's FreshAi, and carries out conversations with customers. Think ChatGPT but for ordering food. It can understand made-to-order requests and is able to answer frequently asked questions. Wendy's hoped that less miscommunication and mistakes would be a result, and it seemed to have worked.
+
+"After months of testing Wendy's FreshAI in our hometown of Columbus, OH, we've learned a lot while reimagining the drive-thru experience…Our accuracy during the pilot, measured as the percentage of orders successfully handled by Wendy's FreshAI without restaurant team member intervention, averaged 86% and we would expect the average to only to increase," said Wendy's press release.
+According to Wendy's, this AI drive-thru has been extremely successful, efficient, and accurate. "Considering there are more than 200 billion ways to order a Dave's Double®, leveraging generative AI is a crucial piece of innovating the Wendy's drive-thru experience for customers," said Wendy's.
+
+Wendy's is technically still piloting this and using Columbus as their guinea pig, but due to the ongoing success of their Westerville AI drive-thru, Wendy's said that many more locations in central Ohio will transition to AI drive-thrus, too, slated to come at the end of 2023 and early 2024.
+
+What do you think? Would you rather order from an Artificial Intelligence with an 86% accuracy rate (for now,) or a regular ol' human? Maybe that's the new age-old question.
+
+
+USA TODAY OWNER PAUSES AI ARTICLES AFTER BUTCHERING SPORTS COVERAGE
+"THE WORTHINGTON CHRISTIAN [[WINNING_TEAM_MASCOT]] DEFEATED THE WESTERVILLE NORTH [[LOSING_TEAM_MASCOT]] 2-1 IN AN OHIO BOYS SOCCER GAME ON SATURDAY."
+GETTY IMAGES
+Fumble
+That was fast.
+
+The Columbus Dispatch, a newspaper serving the Columbus, Ohio area, has suspended its AI efforts after its AI-powered sports writing bot was caught churning out horrible, robotic articles about local sports, Axios reports.
+
+The Dispatch — which is notably owned by USA Today publisher Gannett — only started publishing the AI-generated sports pieces on August 18, using the bot to drum up quick-hit stories about the winners and losers in regional high school football and soccer matches. And though the paper's ethics disclosure states that all AI-spun content featured in its reporting "must be verified for accuracy and factuality before being used in reporting," we'd be surprised if a single human eye was laid on these articles before publishing.
+
+Why? Because each formulaic article is riddled with laughably vague statements — one August 18 article about a football game, for example, described the event as a "close encounter of the athletic kind" — and repetitive phrasing about hibernating second halves and which team drew first blood. One article even failed to populate properly, with the text instead featuring a bracketed glimpse at how its opening sentence was supposed to read.
+
+"The Worthington Christian [[WINNING_TEAM_MASCOT]] defeated the Westerville North [[LOSING_TEAM_MASCOT]] 2-1 in an Ohio boys soccer game on Saturday," reads the butchered intro. Yikes.
+
+Short and Sweet
+The Dispatch's AI efforts were powered by LedeAI, a startup claiming to use generative AI to offer "lightning-fast" and "easy to read" sports content. (The firm also goes so far as to declare that its datasets are the "deepest and most scalable in the world," which feels a bit like slapping an Amazon-purchased World's Best Coffee sticker onto any old cafe window.)
+
+Another bite of this riveting, well-informed journalism:
+
+"The Steubenville Big Red defeated the Cambridge Bobcats 10-0 in an Ohio boys soccer game on Saturday," reads one August 19th article. "A suffocating defense helped Steubenville handle Cambridge 10-0 in Ohio boys soccer on Aug. 19."
+
+That's it. That's the whole post.
+
+Second Quarter Hibernation
+Gannett has unsurprisingly put a temporary kibosh on the project, telling Axios that "this local AI sports effort is being paused."
+
+The publisher is "continually evaluating vendors," a spokesperson for the publisher added, "as we refine processes to ensure all the news and information we provide meets the highest journalistic standards."
+
+Speaking of journalistic standards? It's worth noting, as Axios did, that this is the first football season played since Gannett shut down ThisWeek Community News, an award-winning newspaper collection that documented local area sports. But in the words of Dispatch's AI itself, may the AI effort enjoy its "hibernation."
+
+Conner is cool
+
+
+
+The Legend of Zelda: Tears of the Kingdom[b] is a 2023 action-adventure game developed and published by Nintendo for the Nintendo Switch. A sequel to The Legend of Zelda: Breath of the Wild (2017), Tears of the Kingdom retains many aspects of its predecessor, including the open world environment of Hyrule, which has been expanded to allow for more vertical exploration. Link, the protagonist of Tears of the Kingdom, is joined by Zelda and is opposed by a malevolent force that seeks to destroy Hyrule. Tears of the Kingdom was conceived after ideas for Breath of the Wild downloadable content (DLC) had exceeded its scope. Its development was led by Nintendo's Entertainment Planning & Development (EPD) division, with Breath of the Wild director Hidemaro Fujibayashi and producer Eiji Aonuma reprising their roles. A teaser for the game was shown at E3 2019 with a full reveal at E3 2021. Tears of the Kingdom was initially planned for release in 2022 before being delayed to May 2023. Upon release, the game received universal acclaim from critics, with praise directed to the game's expansion of its open world setting and the use of new features to encourage player exploration and experimentation. Tears of the Kingdom features new abilities, replacing those in its predecessor Breath of the Wild. These abilities include Recall, which can reverse time for an object, Fuse, allowing the combination of weapons and materials found to form new, custom weapons; Ultrahand, which sticks objects together to allow for the modular construction of devices, vehicles and other structures; Ascend, which the player can use to travel through any flat surface above them[1][2][3] and Autobuild, an ability unlocked later within the game which consumes a new currency known as Zonaite to instantly summon any structure that the player has built previously using Ultrahand. The Legend of Zelda: Breath of the Wild[b] is a 2017 action-adventure game developed by Nintendo EPD for the Nintendo Switch and Wii U. Set at the end of the Zelda timeline, the player controls an amnesiac Link as he sets out to save Princess Zelda and prevent Calamity Ganon from destroying Hyrule. Players explore the open world of Hyrule while they collect items and complete objectives such as puzzles or side quests. Breath of the Wild's world is unstructured and encourages exploration and experimentation; the story can be completed in a nonlinear fashion. Development lasted five years, commencing immediately after the release of The Legend of Zelda: Skyward Sword in 2011. Led by director Hidemaro Fujibayashi and producer Eiji Aonuma, Nintendo sought to rethink Zelda's conventions and introduced elements such as detailed chemistry and physics engines. The designers drew inspiration from Shadow of the Colossus (2005) and The Elder Scrolls V: Skyrim (2011). Monolith Soft, known for their work on the open-world Xenoblade Chronicles series, assisted in designing landscapes and topography. Breath of the Wild was originally planned for release in 2015 as a Wii U exclusive but was delayed twice; it was eventually released on March 3, 2017, as a launch game for the Switch and the final Nintendo-published game for the Wii U. It received acclaim and won numerous Game of the Year accolades. Critics praised its open-ended gameplay, open-world design, and attention to detail, though some criticized its technical performance. It is the best-selling Zelda game and one of the best-selling video games of all time, with 30.69 million copies sold by 2022. Since its release, Breath of the Wild has been considered one of the greatest video games of all time. Journalists described it as a landmark in open-world design for its emphasis on experimentation, physics-based sandbox, and emergent gameplay. Numerous developers cited Breath of the Wild as inspiration, and it is a popular point of comparison among open-world games. A spin-off, Hyrule Warriors: Age of Calamity, was released in 2020, followed by a sequel, The Legend of Zelda: Tears of the Kingdom, which launched in 2023. 
+Breath of the Wild takes place at the end of the Zelda timeline in the kingdom of Hyrule.[18] In ancient times, the ancient Sheikah race had developed Hyrule into an advanced civilization, protected by four enormous animalistic machines called the Divine Beasts and an army of autonomous weapons called Guardians.[19] When an ancient evil known as Calamity Ganon appeared and threatened Hyrule, four great warriors were given the title of Champion, and each piloted one of the Divine Beasts to weaken Ganon while the princess with the blood of the goddess and her appointed knight fought and defeated him by sealing him away.[20][21]
+
+Ten millennia later,[22] the kingdom of Hyrule had since regressed to a medieval state.[23][24] Reading their ancestors' prophecies, Hyrule's peoples recognized the signs of Ganon's return and excavated surrounding areas to uncover the Divine Beasts and Guardians.[25] During this time, Princess Zelda trained vigorously to awaken the sealing magic needed to defeat Ganon while trying to maintain her personal research. In the meantime, a knight was appointed to protect her: Link, a Hylian who was chosen due to his ability to wield the Master Sword, also known as "the sword that seals the darkness". After being sought out by Zelda, the Champions—Mipha, princess of the aquatic Zora; Revali, archer of the birdlike Rito; Daruk, warrior of the mountainous Gorons; and Urbosa, chief of the desert-dwelling Gerudo—assembled to pilot the Divine Beasts (Vah Ruta, Vah Medoh, Vah Rudania, and Vah Naboris, respectively) while Zelda and Link would face Ganon directly.[26]
+
+However, when Ganon appeared on Zelda's seventeenth birthday, he possessed the Guardians and Divine Beasts, turning them against Hyrule. King Rhoam and the Champions were killed, much of the kingdom was laid to waste, and Link was gravely wounded protecting Zelda while on their way to Fort Hateno.[27][28] Zelda had Link taken to safety for him to heal, hid the Master Sword in Korok Forest under the protection of the Great Deku Tree, and used her light magic to seal herself and Ganon in Hyrule Castle.[29] This cataclysmic tragedy came to be known over time as the Great Calamity.
+
+A century after being placed in a healing chamber in the Shrine of Resurrection, an amnesiac Link awakens in a now-ravaged Hyrule. He meets an old man, who eventually reveals himself as the lingering spirit of King Rhoam. Rhoam explains that Ganon, sealed in Hyrule Castle, has grown stronger; he pleads for Link to defeat Ganon before he regains his full strength, breaks free, and destroys the world.[30]
+
+Link reunites with Impa, a Sheikah elder who previously served the royal family, and she instructs him to free the Divine Beasts. Link travels across Hyrule, returning to locations from his past and regaining his memories. At the behest of Hyrule's peoples,[c] he boards the four Divine Beasts and purges them of the Blight Ganons (Waterblight Ganon, Windblight Ganon, Fireblight Ganon, and Thunderblight Ganon), freeing the captive spirits of Hyrule's fallen Champions and allowing them to pilot the Divine Beasts once again. In this endeavor, Link is assisted by Sidon, the Zora prince and Mipha's younger brother; Yunobo, Daruk's cowardly descendent; Teba, a Rito warrior; and Riju, the child chief of the Gerudo. After obtaining the Master Sword from Korok Forest, Link enters Hyrule Castle and confronts Ganon. The Divine Beasts weaken him, and after Link defeats him, he transforms into Dark Beast Ganon in an attempt to destroy the world. Zelda gives Link the Bow of Light, which allows him to weaken Ganon enough for Zelda to seal him away, restoring peace and allowing the spirits of King Rhoam and the Champions to depart to the afterlife. Sensing their presence, Link and Zelda smile fondly.
+
+If players have found all thirteen memories in the "Captured Memories" main quest, they unlock a post-credits cutscene in which Zelda declares that Hyrule must be rebuilt and that she and Link must begin the process by themselves.[31][32] As Link and Zelda survey Hyrule and embark to restore it to—and perhaps beyond—its former glory, the princess confides in him that although her powers may have dwindled over time, she has come to terms with it.
+
+There is a place where the sidewalk ends
+and before the street begins,
+and there the grass grows soft and white,
+and there the sun burns crimson bright,
+and there the moon-bird rests from his flight
+to cool in the peppermint wind.
+
+Let us leave this place where the smoke blows black
+and the dark street winds and bends.
+Past the pits where the asphalt flowers grow
+we shall walk with a walk that is measured and slow
+and watch where the chalk-white arrows go
+to the place where the sidewalk ends.
+
+Yes we'll walk with a walk that is measured and slow,
+and we'll go where the chalk-white arrows go,
+for the children, they mark, and the children, they know,
+the place where the sidewalk ends.
+
+Well, my daddy left home when I was three,
+and he didn't leave much to Ma and me,
+just this old guitar and a bottle of booze.
+Now I don't blame him because he run and hid,
+but the meanest thing that he ever did was
+before he left he went and named me Sue.
+
+Well, he must have thought it was quite a joke,
+and it got lots of laughs from a lot of folks,
+it seems I had to fight my whole life through.
+Some gal would giggle and I'd get red
+and some guy would laugh and I'd bust his head,
+I tell you, life ain't easy for a boy named Sue.
+
+Well, I grew up quick and I grew up mean.
+My fist got hard and my wits got keen.
+Roamed from town to town to hide my shame,
+but I made me a vow to the moon and the stars,
+I'd search the honky tonks and bars and kill
+that man that gave me that awful name.
+
+But it was Gatlinburg in mid July and I had
+just hit town and my throat was dry.
+I'd thought i'd stop and have myself a brew.
+At an old saloon in a street of mud
+and at a table dealing stud sat the dirty,
+mangy dog that named me Sue.
+
+Well, I knew that snake was my own sweet dad
+from a worn-out picture that my mother had
+and I knew the scar on his cheek and his evil eye.
+He was big and bent and gray and old
+and I looked at him and my blood ran cold,
+and I said, 'My name is Sue. How do you do?
+Now you're gonna die.' Yeah, that's what I told him.
+
+Well, I hit him right between the eyes and he went down
+but to my surprise he came up with a knife
+and cut off a piece of my ear. But I busted a chair
+right across his teeth. And we crashed through
+the wall and into the street kicking and a-gouging
+in the mud and the blood and the beer.
+
+I tell you I've fought tougher men but I really can't remember when.
+He kicked like a mule and bit like a crocodile.
+I heard him laughin' and then I heard him cussin',
+he went for his gun and I pulled mine first.
+He stood there looking at me and I saw him smile.
+
+And he said, 'Son, this world is rough and if
+a man's gonna make it, he's gotta be tough
+and I knew I wouldn't be there to help you along.
+So I gave you that name and I said 'Goodbye'.
+I knew you'd have to get tough or die. And it's
+that name that helped to make you strong.'
+
+Yeah, he said, 'Now you have just fought one
+helluva fight, and I know you hate me and you've
+got the right to kill me now and I wouldn't blame you
+if you do. But you ought to thank me
+before I die for the gravel in your guts and the spit
+in your eye because I'm the guy that named you Sue.'
+Yeah, what could I do? What could I do?
+
+I got all choked up and I threw down my gun,
+called him pa and he called me a son,
+and I came away with a different point of view
+and I think about him now and then.
+Every time I tried, every time I win and if I
+ever have a son I think I am gonna name him
+Bill or George - anything but Sue.
+
+A Light In The Attic
+Rating: ★3.4
+♡
+Autoplay
+
+There's a light on in the attic.
+Thought the house is dark and shuttered,
+I can see a flickerin' flutter,
+And I know what it's about.
+There's a light on in the attic.
+I can see it from the outside.
+And I know you're on the inside... lookin' out.
+
+My dad gave me one dollar bill
+'Cause I'm his smartest son,
+And I swapped it for two shiny quarters
+'Cause two is more than one!
+And then I took the quarters
+And traded them to Lou
+For three dimes- I guess he didn't know
+That three is more than two!
+Just then, along came old blind Bates
+And just 'cause he can't see
+He gave me four nickels for my three dimes,
+And four is more than three!
+And I took the nickels to Hiram Coombs
+Down at the seed-feed store,
+And the fool gave me five pennies for them,
+And five is more than four!
+And I went and showed my dad,
+And he got red in the cheeks
+And closed his eyes and shook his head-
+Too proud of me to speak!
+
+If we meet and I say, 'Hi,'
+That's a salutation.
+If you ask me how I feel,
+That's a consideration.
+If we stop and talk a while,
+That's a conversation.
+If we understand each other,
+That's a communication.
+If we argue, scream and fight,
+That's an altercation.
+If later we apoligize,
+That's reconciliation.
+If we help each other home,
+That's a cooperation.
+And all these actions added up
+Make Civilization.
+(And if I say this is a wonderful poem,
+Is that exaggeration?)
+
+Lay down
+Let's explore this tenderness between us
+There ain't no one around at all to see us
+And baby would you mind
+If maybe you and I
+Took a little time to find each other?
+
+Baby, We got all the time in the world
+So why don't we just take it nice and slow?
+We got everything we need
+To plant a lovin' seed
+And all the time we need to watch it grow.
+
+Stay down
+Stay at least until the fire stops burnin'
+At least until the room has stopped it's turnin'
+And when the embers dyin'
+We're lyin' in the afterglow
+It'll be as sweet as anything we've ever known
+
+Baby, We got all the time in the world
+So why don't we just take it nice and slow?
+We got everything we need
+To plant a lovin' seed
+And all the time we need to watch it grow.
+
+There are too many kids in this tub
+There are too many elbows to scrub
+I just washed a behind that I'm sure wasn't mine
+There are too many kids in this tub.
+
+I broke into the bank on Sunday,
+You should see the money I got.
+I couldn't drag it home 'til Monday,
+'Cause it sure weighed an awful lot.
+
+Then I sat down to count it,
+And much to my surprise,
+A whole lotta little brown, little round coins,
+Rolled out before my eyes
+
+Chorus:
+I've got a hundred thousand dollars worth of pennies,
+Not a solitary dollar or a dime,
+And I don't believe there's many,
+Rich men with a problem like mine.
+
+And I don't think this is any
+Kind of ending to a perfect crime.
+I've got a hundred thousand dollars worth of pennies,
+And I'm spendin' it a penny at a time!
+
+Now a steak sure would taste delicious,
+And I've forgot how a beer would feel,
+But the man just might get suspicious,
+If I gave him eight hundred pennies for a meal.
+
+So I guess I'll just weigh myself again,
+And buy me another stick of gum,
+I've got a hundred thousand dollars worth of pennies, Lord!
+And I'm livin' like a penniless bum!
+
+Chorus:
+I've got a hundred thousand dollars worth of pennies,
+Not a solitary dollar or a dime,
+And I don't believe there's many,
+Rich men with a problem like mine.
+
+I made myself a snowball
+As perfect as could be.
+I thought I'd keep it as a pet
+And let it sleep with me.
+I made it some pajamas
+And a pillow for its head.
+Then last night it ran away,
+But first it wet the bed.
+
+Colors
+Rating: ★3.3
+♡
+Autoplay
+
+My skin is kind of sort of brownish
+Pinkish yellowish white.
+My eyes are greyish blueish green,
+But I'm told they look orange in the night.
+My hair is reddish blondish brown,
+But it's silver when it's wet.
+And all the colors I am inside
+Have not been invented yet.
+
+Now a friend of mine, way back in Chicago
+You know, he finally made his pile.
+Well he got himself a mansion on Butler and Sheff
+An' he was livin' in the latest style;
+But I run into him, he was eatin' in a greasy spoon
+While parkled in front was his big limousine.
+I said, 'Buddy, you've got so much money
+How come youre in here, eatin' beans?'
+An' he said
+'After you've been havin' steak for a long time,
+Beans, beans taste fine.
+An' after you've been drinkin' champagne and brandy
+You gonna settle for wine.'
+He said 'The world is funny, and people are strange,
+And man is a creature of constant change, and
+After you've been havin' steak for a long time
+Beans, beans taste fine.'
+Now, you know I ran into another friend of mine
+In a rowdy old Clark Street Bar.
+I said, 'Friend, is it true what I heard about you?
+I heard you married a beautiful 18-year-old shapely movie star,
+Yet here you sit, tryin' to make out with some barfly
+Who's too old and ugly to be true.'
+He said, 'Shelley, you're still a very young man
+So sit down. I'll explain it all to you.
+He said
+'After you've been havin' steak for a long time
+Beans, beans taste fine.
+An' after you've been drinkin' champagne and Chivas Regal
+You gonna settle for Thunderbird wine.'
+He said 'The world is funny, and people are strange,
+And man is a creature of constant change, and
+After you've been havin' steak for a long time
+Beans, beans taste fine.'
+
+I'll tell you the story of Jimmy Jet--
+And you know what I tell you is true.
+He loved to watch his TV set
+Almost as much as you.
+
+He watched all day, he watched all night
+Till he grew pale and lean,
+From 'The Early Show' to 'The Late Show'
+And all the shows in between.
+
+He watched till his eyes were frozen wide,
+And his bottom grew into his chair.
+And his chin turned into a tuning dial,
+And antennae grew out of his hair.
+
+And his brains turned into TV tubes,
+And his face to a TV screen.
+And two knobs saying 'vert.' and 'horiz.'
+Grew where his ears had been.
+
+And he grew a plug that looked like a tail
+So we plugged in little Jim.
+And now instead of him watching TV
+We all sit around and watch him.
+
+If the world was crazy, you know what I'd eat?
+A big slice of soup and a whole quart of meat,
+A lemonade sandwich, and then I might try
+Some roasted ice cream or a bicycle pie,
+A nice notebook salad, and underwear roast,
+An omelet of hats and some crisp cardboard toast,
+A thick malted milk made from pencils and daisies,
+And that's what I'd eat if the world was crazy.
+
+If the world was crazy, you know what I'd wear?
+A chocolate suit and a tie of eclair,
+Some marshmallow earmuffs, some licorice shoes,
+And I'd read a paper of peppermint news.
+I'd call the boys 'Suzy' and I'd call the girls 'Harry,'
+I'd talk through my ears, and I always would carry
+A paper unbrella for when it grew hazy
+To keep in the rain, if the world was crazy.
+
+If the world was crazy, you know what I'd do?
+I'd walk on the ocean and swim in my shoe,
+I'd fly through the ground and I'd skip through the air,
+I'd run down the bathtub and bathe on the stair.
+When I met somebody I'd say 'G'bye, Joe,'
+And when I was leaving - then I'd say 'Hello.'
+And the greatest of men would be silly and lazy
+So I would be king... if the world was cazy.
+
+Eight balloons no one was buyin'
+All broke loose one afternoon.
+Eight balloons with strings a-flyin',
+Free to do what they wanted to.
+One flew up to touch the sun - POP!
+One thought highways might be fun - POP!
+One took a nap in a cactus pile - POP!
+One stayed to play with a careless child - POP!
+One tried to taste some bacon fryin' - POP!
+One fell in love with a porcupine - POP!
+One looked close in a crocodile's mouth - POP!
+One sat around 'til his air ran out - WHOOSH!
+Eight balloons no one was buyin' -
+They broke loose and away they flew,
+Free to float and free to fly
+And free to pop where they wanted to.
+
+One sister for sale!
+One sister for sale!
+One crying and spying young sister for sale!
+I’m really not kidding,
+So who’ll start the bidding?
+Do I hear the dollar?
+A nickel?
+A penny?
+Oh, isn’t there, isn’t there, isn’t there any
+One kid that will buy this old sister for sale,
+This crying and spying young sister for sale?
+
+Oh the Crocodile
+Went to the dentist
+And sat down in the chair,
+And the dentist said, 'Now tell me, sir,
+Why does it hurt and where?'
+And the Crocodile said, 'I'll tell you the truth.
+I have a terrible ache in my tooth.'
+And he opened his jaws so wide, so wide,
+That the dentist he climbed right inside,
+And the dentist laughed, 'Oh, isn't this fun?'
+As he pulled the teeth out, one by one.
+And the Crocodile cried, 'You're hurting me so!
+Please put down your pliers and let me go.'
+But the dentist just laughed with a Ho Ho Ho,
+And he said, 'I still have twelve to go --
+Oops, that's the wrong one, I confess.
+But what's one crocodile's tooth, more or less?'
+Then suddenly the jaws went snap,
+And the dentist was gone right off the map.
+And where he went one could only guess...
+To North or South or East or West...
+He left no forwarding address.
+But what's one dentist more or less?
+
+Small as a peanut,
+Big as a giant,
+We're all the same size
+When we turn off the light
+Rich as a sultan,
+Poor as a mite,
+We're all worth the same
+When we turn off the light.
+Red, black or orange,
+Yellow or white,
+We all look the same
+When we turn off the light.
+So maybe the way
+To make everything right
+Is for God to just reach out
+And turn off the light!
+
+If you were only one inch tall, you'd ride a worm to school.
+The teardrop of a crying ant would be your swimming pool.
+A crumb of cake would be a feast
+And last you seven days at least,
+A flea would be a frightening beast
+If you were one inch tall.
+
+If you were only one inch tall, you'd walk beneath the door,
+And it would take about a month to get down to the store.
+A bit of fluff would be your bed,
+You'd swing upon a spider's thread,
+And wear a thimble on your head
+If you were one inch tall.
+
+You'd surf across the kitchen sink upon a stick of gum.
+You couldn't hug your mama, you'd just have to hug her thumb.
+You'd run from people's feet in fright,
+To move a pen would take all night,
+(This poem took fourteen years to write-
+'Cause I'm just one inch tall).
+
+Scripts.com
+Bee Movie
+By Jerry Seinfeld
+
+NARRATOR:
+(Black screen with text; The sound of buzzing bees can be heard)
+According to all known laws
+of aviation,
+ :
+there is no way a bee
+should be able to fly.
+ :
+Its wings are too small to get
+its fat little body off the ground.
+ :
+The bee, of course, flies anyway
+ :
+because bees don't care
+what humans think is impossible.
+BARRY BENSON:
+(Barry is picking out a shirt)
+Yellow, black. Yellow, black.
+Yellow, black. Yellow, black.
+ :
+Ooh, black and yellow!
+Let's shake it up a little.
+JANET BENSON:
+Barry! Breakfast is ready!
+BARRY:
+Coming!
+ :
+Hang on a second.
+(Barry uses his antenna like a phone)
+ :
+Hello?
+ADAM FLAYMAN:
+
+(Through phone)
+- Barry?
+BARRY:
+- Adam?
+ADAM:
+- Can you believe this is happening?
+BARRY:
+- I can't. I'll pick you up.
+(Barry flies down the stairs)
+ :
+MARTIN BENSON:
+Looking sharp.
+JANET:
+Use the stairs. Your father
+paid good money for those.
+BARRY:
+Sorry. I'm excited.
+MARTIN:
+Here's the graduate.
+We're very proud of you, son.
+ :
+A perfect report card, all B's.
+JANET:
+Very proud.
+(Rubs Barry's hair)
+BARRY=
+Ma! I got a thing going here.
+JANET:
+- You got lint on your fuzz.
+BARRY:
+- Ow! That's me!
+
+JANET:
+- Wave to us! We'll be in row 118,000.
+- Bye!
+(Barry flies out the door)
+JANET:
+Barry, I told you,
+stop flying in the house!
+(Barry drives through the hive,and is waved at by Adam who is reading a
+newspaper)
+BARRY==
+- Hey, Adam.
+ADAM:
+- Hey, Barry.
+(Adam gets in Barry's car)
+ :
+- Is that fuzz gel?
+BARRY:
+- A little. Special day, graduation.
+ADAM:
+Never thought I'd make it.
+(Barry pulls away from the house and continues driving)
+BARRY:
+Three days grade school,
+three days high school...
+ADAM:
+Those were awkward.
+BARRY:
+Three days college. I'm glad I took
+a day and hitchhiked around the hive.
+ADAM==
+You did come back different.
+(Barry and Adam pass by Artie, who is jogging)
+ARTIE:
+- Hi, Barry!
+
+BARRY:
+- Artie, growing a mustache? Looks good.
+ADAM:
+- Hear about Frankie?
+BARRY:
+- Yeah.
+ADAM==
+- You going to the funeral?
+BARRY:
+- No, I'm not going to his funeral.
+ :
+Everybody knows,
+sting someone, you die.
+ :
+Don't waste it on a squirrel.
+Such a hothead.
+ADAM:
+I guess he could have
+just gotten out of the way.
+(The car does a barrel roll on the loop-shaped bridge and lands on the
+highway)
+ :
+I love this incorporating
+an amusement park into our regular day.
+BARRY:
+I guess that's why they say we don't need vacations.
+(Barry parallel parks the car and together they fly over the graduating
+students)
+Boy, quite a bit of pomp...
+under the circumstances.
+(Barry and Adam sit down and put on their hats)
+ :
+- Well, Adam, today we are men.
+
+ADAM:
+- We are!
+BARRY=
+- Bee-men.
+=ADAM=
+- Amen!
+BARRY AND ADAM:
+Hallelujah!
+(Barry and Adam both have a happy spasm)
+ANNOUNCER:
+Students, faculty, distinguished bees,
+ :
+please welcome Dean Buzzwell.
+DEAN BUZZWELL:
+Welcome, New Hive Oity
+graduating class of...
+ :
+...9:
+ :
+That concludes our ceremonies.
+ :
+And begins your career
+at Honex Industries!
+ADAM:
+Will we pick our job today?
+(Adam and Barry get into a tour bus)
+BARRY=
+I heard it's just orientation.
+(Tour buses rise out of the ground and the students are automatically
+loaded into the buses)
+TOUR GUIDE:
+Heads up! Here we go.
+
+ANNOUNCER:
+Keep your hands and antennas
+inside the tram at all times.
+BARRY:
+- Wonder what it'll be like?
+ADAM:
+- A little scary.
+TOUR GUIDE==
+Welcome to Honex,
+a division of Honesco
+ :
+and a part of the Hexagon Group.
+Barry:
+This is it!
+BARRY AND ADAM:
+Wow.
+BARRY:
+Wow.
+(The bus drives down a road an on either side are the Bee's massive
+complicated Honey-making machines)
+TOUR GUIDE:
+We know that you, as a bee,
+have worked your whole life
+ :
+to get to the point where you
+can work for your whole life.
+ :
+Honey begins when our valiant Pollen
+Jocks bring the nectar to the hive.
+ :
+Our top-secret formula
+ :
+is automatically color-corrected,
+
+scent-adjusted and bubble-contoured
+ :
+into this soothing sweet syrup
+ :
+with its distinctive
+golden glow you know as...
+EVERYONE ON BUS:
+Honey!
+(The guide has been collecting honey into a bottle and she throws it into
+the crowd on the bus and it is caught by a girl in the back)
+ADAM:
+- That girl was hot.
+BARRY:
+- She's my cousin!
+ADAM==
+- She is?
+BARRY:
+- Yes, we're all cousins.
+ADAM:
+- Right. You're right.
+TOUR GUIDE:
+- At Honex, we constantly strive
+ :
+to improve every aspect
+of bee existence.
+ :
+These bees are stress-testing
+a new helmet technology.
+(The bus passes by a Bee wearing a helmet who is being smashed into the
+ground with fly-swatters, newspapers and boots. He lifts a thumbs up but
+you can hear him groan)
+ :
+ADAM==
+
+- What do you think he makes?
+BARRY:
+- Not enough.
+TOUR GUIDE:
+Here we have our latest advancement,
+the Krelman.
+(They pass by a turning wheel with Bees standing on pegs, who are each
+wearing a finger-shaped hat)
+Barry:
+- Wow, What does that do?
+TOUR GUIDE:
+- Catches that little strand of honey
+ :
+that hangs after you pour it.
+Saves us millions.
+ADAM:
+(Intrigued)
+Can anyone work on the Krelman?
+TOUR GUIDE:
+Of course. Most bee jobs are
+small ones.
+But bees know that every small job,
+if it's done well, means a lot.
+ :
+But choose carefully
+ :
+because you'll stay in the job
+you pick for the rest of your life.
+(Everyone claps except for Barry)
+BARRY:
+The same job the rest of your life?
+I didn't know that.
+ADAM:
+
+What's the difference?
+TOUR GUIDE:
+You'll be happy to know that bees,
+as a species, haven't had one day off
+ :
+in 27 million years.
+BARRY:
+(Upset)
+So you'll just work us to death?
+ :
+We'll sure try.
+(Everyone on the bus laughs except Barry. Barry and Adam are walking back
+home together)
+ADAM:
+Wow! That blew my mind!
+BARRY:
+"What's the difference?"
+How can you say that?
+ :
+One job forever?
+That's an insane choice to have to make.
+ADAM:
+I'm relieved. Now we only have
+to make one decision in life.
+BARRY:
+But, Adam, how could they
+never have told us that?
+ADAM:
+Why would you question anything?
+We're bees.
+ :
+We're the most perfectly
+functioning society on Earth.
+
+BARRY:
+You ever think maybe things
+work a little too well here?
+ADAM:
+Like what? Give me one example.
+(Barry and Adam stop walking and it is revealed to the audience that
+hundreds of cars are speeding by and narrowly missing them in perfect
+unison)
+BARRY:
+I don't know. But you know
+what I'm talking about.
+ANNOUNCER:
+Please clear the gate.
+Royal Nectar Force on approach.
+BARRY:
+Wait a second. Check it out.
+(The Pollen jocks fly in, circle around and landing in line)
+ :
+- Hey, those are Pollen Jocks!
+ADAM:
+- Wow.
+ :
+I've never seen them this close.
+BARRY:
+They know what it's like
+outside the hive.
+ADAM:
+Yeah, but some don't come back.
+GIRL BEES:
+- Hey, Jocks!
+- Hi, Jocks!
+(The Pollen Jocks hook up their backpacks to machines that pump the nectar
+to trucks, which drive away)
+
+LOU LO DUVA:
+You guys did great!
+ :
+You're monsters!
+You're sky freaks!
+I love it!
+(Punching the Pollen Jocks in joy)
+I love it!
+ADAM:
+- I wonder where they were.
+BARRY:
+- I don't know.
+ :
+Their day's not planned.
+ :
+Outside the hive, flying who knows
+where, doing who knows what.
+ :
+You can't just decide to be a Pollen
+Jock. You have to be bred for that.
+ADAM==
+Right.
+(Barry and Adam are covered in some pollen that floated off of the Pollen
+Jocks)
+BARRY:
+Look at that. That's more pollen
+than you and I will see in a lifetime.
+ADAM:
+It's just a status symbol.
+Bees make too much of it.
+BARRY:
+Perhaps. Unless you're wearing it
+and the ladies see you wearing it.
+(Barry waves at 2 girls standing a little away from them)
+
+ADAM==
+Those ladies?
+Aren't they our cousins too?
+BARRY:
+Distant. Distant.
+POLLEN JOCK #1:
+Look at these two.
+POLLEN JOCK #2:
+- Couple of Hive Harrys.
+POLLEN JOCK #1:
+- Let's have fun with them.
+GIRL BEE #1:
+It must be dangerous
+being a Pollen Jock.
+BARRY:
+Yeah. Once a bear pinned me
+against a mushroom!
+ :
+He had a paw on my throat,
+and with the other, he was slapping me!
+(Slaps Adam with his hand to represent his scenario)
+GIRL BEE #2:
+- Oh, my!
+BARRY:
+- I never thought I'd knock him out.
+GIRL BEE #1:
+(Looking at Adam)
+What were you doing during this?
+ADAM:
+Obviously I was trying to alert the authorities.
+BARRY:
+I can autograph that.
+
+(The pollen jocks walk up to Barry and Adam, they pretend that Barry and
+Adam really are pollen jocks.)
+POLLEN JOCK #1:
+A little gusty out there today,
+wasn't it, comrades?
+BARRY:
+Yeah. Gusty.
+POLLEN JOCK #1:
+We're hitting a sunflower patch
+six miles from here tomorrow.
+BARRY:
+- Six miles, huh?
+ADAM:
+- Barry!
+POLLEN JOCK #2:
+A puddle jump for us,
+but maybe you're not up for it.
+BARRY:
+- Maybe I am.
+ADAM:
+- You are not!
+POLLEN JOCK #1:
+We're going 0900 at J-Gate.
+ :
+What do you think, buzzy-boy?
+Are you bee enough?
+BARRY:
+I might be. It all depends
+on what 0900 means.
+(The scene cuts to Barry looking out on the hive-city from his balcony at
+night)
+MARTIN:
+
+Hey, Honex!
+BARRY:
+Dad, you surprised me.
+MARTIN:
+You decide what you're interested in?
+BARRY:
+- Well, there's a lot of choices.
+- But you only get one.
+ :
+Do you ever get bored
+doing the same job every day?
+MARTIN:
+Son, let me tell you about stirring.
+ :
+You grab that stick, and you just
+move it around, and you stir it around.
+ :
+You get yourself into a rhythm.
+It's a beautiful thing.
+BARRY:
+You know, Dad,
+the more I think about it,
+ :
+maybe the honey field
+just isn't right for me.
+MARTIN:
+You were thinking of what,
+making balloon animals?
+ :
+That's a bad job
+for a guy with a stinger.
+ :
+
+Janet, your son's not sure
+he wants to go into honey!
+JANET:
+- Barry, you are so funny sometimes.
+BARRY:
+- I'm not trying to be funny.
+MARTIN:
+You're not funny! You're going
+into honey. Our son, the stirrer!
+JANET:
+- You're gonna be a stirrer?
+BARRY:
+- No one's listening to me!
+MARTIN:
+Wait till you see the sticks I have.
+BARRY:
+I could say anything right now.
+I'm gonna get an ant tattoo!
+(Barry's parents don't listen to him and continue to ramble on)
+MARTIN:
+Let's open some honey and celebrate!
+BARRY:
+Maybe I'll pierce my thorax.
+Shave my antennae.
+ :
+Shack up with a grasshopper. Get
+a gold tooth and call everybody "dawg"!
+JANET:
+I'm so proud.
+(The scene cuts to Barry and Adam waiting in line to get a job)
+ADAM:
+- We're starting work today!
+
+BARRY:
+- Today's the day.
+ADAM:
+Come on! All the good jobs
+will be gone.
+BARRY:
+Yeah, right.
+JOB LISTER:
+Pollen counting, stunt bee, pouring,
+stirrer, front desk, hair removal...
+BEE IN FRONT OF LINE:
+- Is it still available?
+JOB LISTER:
+- Hang on. Two left!
+ :
+One of them's yours! Congratulations!
+Step to the side.
+ADAM:
+- What'd you get?
+BEE IN FRONT OF LINE:
+- Picking crud out. Stellar!
+(He walks away)
+ADAM:
+Wow!
+JOB LISTER:
+Couple of newbies?
+ADAM:
+Yes, sir! Our first day! We are ready!
+JOB LISTER:
+Make your choice.
+(Adam and Barry look up at the job board. There are hundreds of constantly
+changing panels that contain available or unavailable jobs. It looks very
+confusing)
+
+ADAM:
+- You want to go first?
+BARRY:
+- No, you go.
+ADAM:
+Oh, my. What's available?
+JOB LISTER:
+Restroom attendant's open,
+not for the reason you think.
+ADAM:
+- Any chance of getting the Krelman?
+JOB LISTER:
+- Sure, you're on.
+(Puts the Krelman finger-hat on Adam's head)
+(Suddenly the sign for Krelman closes out)
+ :
+I'm sorry, the Krelman just closed out.
+(Takes Adam's hat off)
+Wax monkey's always open.
+ADAM:
+The Krelman opened up again.
+ :
+What happened?
+JOB LISTER:
+A bee died. Makes an opening. See?
+He's dead. Another dead one.
+ :
+Deady. Deadified. Two more dead.
+ :
+Dead from the neck up.
+Dead from the neck down. That's life!
+
+ADAM:
+Oh, this is so hard!
+(Barry remembers what the Pollen Jock offered him and he flies off)
+Heating, cooling,
+stunt bee, pourer, stirrer,
+ :
+humming, inspector number seven,
+lint coordinator, stripe supervisor,
+ :
+mite wrangler. Barry, what
+do you think I should... Barry?
+(Adam turns around and sees Barry flying away)
+ :
+Barry!
+POLLEN JOCK:
+All right, we've got the sunflower patch
+in quadrant nine...
+ADAM:
+(Through phone)
+What happened to you?
+Where are you?
+BARRY:
+- I'm going out.
+ADAM:
+- Out? Out where?
+BARRY:
+- Out there.
+ADAM:
+- Oh, no!
+BARRY:
+I have to, before I go
+to work for the rest of my life.
+ADAM:
+
+You're gonna die! You're crazy!
+(Barry hangs up)
+Hello?
+POLLEN JOCK #2:
+Another call coming in.
+ :
+If anyone's feeling brave,
+there's a Korean deli on 83rd
+ :
+that gets their roses today.
+BARRY:
+Hey, guys.
+POLLEN JOCK #1 ==
+- Look at that.
+POLLEN JOCK #2:
+- Isn't that the kid we saw yesterday?
+LOU LO DUVA:
+Hold it, son, flight deck's restricted.
+POLLEN JOCK #1:
+It's OK, Lou. We're gonna take him up.
+(Puts hand on Barry's shoulder)
+LOU LO DUVA:
+(To Barry) Really? Feeling lucky, are you?
+BEE WITH CLIPBOARD:
+(To Barry) Sign here, here. Just initial that.
+ :
+- Thank you.
+LOU LO DUVA:
+- OK.
+ :
+You got a rain advisory today,
+ :
+
+and as you all know,
+bees cannot fly in rain.
+ :
+So be careful. As always,
+watch your brooms,
+ :
+hockey sticks, dogs,
+birds, bears and bats.
+ :
+Also, I got a couple of reports
+of root beer being poured on us.
+ :
+Murphy's in a home because of it,
+babbling like a cicada!
+BARRY:
+- That's awful.
+LOU LO DUVA:
+(Still talking through megaphone)
+- And a reminder for you rookies,
+ :
+bee law number one,
+absolutely no talking to humans!
+ :
+All right, launch positions!
+POLLEN JOCKS:
+(The Pollen Jocks run into formation)
+ :
+Buzz, buzz, buzz, buzz! Buzz, buzz,
+buzz, buzz! Buzz, buzz, buzz, buzz!
+LOU LU DUVA:
+Black and yellow!
+POLLEN JOCKS:
+
+Hello!
+POLLEN JOCK #1:
+(To Barry)You ready for this, hot shot?
+BARRY:
+Yeah. Yeah, bring it on.
+POLLEN JOCK's:
+Wind, check.
+ :
+- Antennae, check.
+- Nectar pack, check.
+ :
+- Wings, check.
+- Stinger, check.
+BARRY:
+Scared out of my shorts, check.
+LOU LO DUVA:
+OK, ladies,
+ :
+let's move it out!
+ :
+Pound those petunias,
+you striped stem-suckers!
+ :
+All of you, drain those flowers!
+(The pollen jocks fly out of the hive)
+BARRY:
+Wow! I'm out!
+ :
+I can't believe I'm out!
+ :
+So blue.
+
+ :
+I feel so fast and free!
+ :
+Box kite!
+(Barry flies through the kite)
+ :
+Wow!
+ :
+Flowers!
+(A pollen jock puts on some high tech goggles that shows flowers similar to
+heat sink goggles.)
+POLLEN JOCK:
+This is Blue Leader.
+We have roses visual.
+ :
+Bring it around 30 degrees and hold.
+ :
+Roses!
+POLLEN JOCK #1:
+30 degrees, roger. Bringing it around.
+ :
+Stand to the side, kid.
+It's got a bit of a kick.
+(The pollen jock fires a high-tech gun at the flower, shooting tubes that
+suck up the nectar from the flower and collects it into a pouch on the gun)
+BARRY:
+That is one nectar collector!
+POLLEN JOCK #1==
+- Ever see pollination up close?
+BARRY:
+- No, sir.
+POLLEN JOCK #1:
+
+(Barry and the Pollen jock fly over the field, the pollen jock sprinkles
+pollen as he goes)
+ :
+I pick up some pollen here, sprinkle it
+over here. Maybe a dash over there,
+ :
+a pinch on that one.
+See that? It's a little bit of magic.
+BARRY:
+That's amazing. Why do we do that?
+POLLEN JOCK #1:
+That's pollen power. More pollen, more
+flowers, more nectar, more honey for us.
+BARRY:
+Cool.
+POLLEN JOCK #1:
+I'm picking up a lot of bright yellow.
+could be daisies. Don't we need those?
+POLLEN JOCK #2:
+Copy that visual.
+ :
+Wait. One of these flowers
+seems to be on the move.
+POLLEN JOCK #1:
+Say again? You're reporting
+a moving flower?
+POLLEN JOCK #2:
+Affirmative.
+(The Pollen jocks land near the "flowers" which, to the audience are
+obviously just tennis balls)
+KEN:
+(In the distance) That was on the line!
+
+POLLEN JOCK #1:
+This is the coolest. What is it?
+POLLEN JOCK #2:
+I don't know, but I'm loving this color.
+ :
+It smells good.
+Not like a flower, but I like it.
+POLLEN JOCK #1:
+Yeah, fuzzy.
+(Sticks his hand on the ball but it gets stuck)
+POLLEN JOCK #3==
+Chemical-y.
+(The pollen jock finally gets his hand free from the tennis ball)
+POLLEN JOCK #1:
+Careful, guys. It's a little grabby.
+(The pollen jocks turn around and see Barry lying his entire body on top of
+one of the tennis balls)
+POLLEN JOCK #2:
+My sweet lord of bees!
+POLLEN JOCK #3:
+Candy-brain, get off there!
+POLLEN JOCK #1:
+(Pointing upwards)
+Problem!
+(A human hand reaches down and grabs the tennis ball that Barry is stuck
+to)
+BARRY:
+- Guys!
+POLLEN JOCK #2:
+- This could be bad.
+POLLEN JOCK #3:
+Affirmative.
+(Vanessa Bloome starts bouncing the tennis ball, not knowing Barry is stick
+to it)
+
+BARRY==
+Very close.
+ :
+Gonna hurt.
+ :
+Mama's little boy.
+(Barry is being hit back and forth by two humans playing tennis. He is
+still stuck to the ball)
+POLLEN JOCK #1:
+You are way out of position, rookie!
+KEN:
+Coming in at you like a MISSILE!
+(Barry flies past the pollen jocks, still stuck to the ball)
+BARRY:
+(In slow motion)
+Help me!
+POLLEN JOCK #2:
+I don't think these are flowers.
+POLLEN JOCK #3:
+- Should we tell him?
+POLLEN JOCK #1:
+- I think he knows.
+BARRY:
+What is this?!
+KEN:
+Match point!
+ :
+You can start packing up, honey,
+because you're about to EAT IT!
+(A pollen jock coughs which confused Ken and he hits the ball the wrong way
+with Barry stuck to it and it goes flying into the city)
+BARRY:
+
+Yowser!
+(Barry bounces around town and gets stuck in the engine of a car. He flies
+into the air conditioner and sees a bug that was frozen in there)
+BARRY:
+Ew, gross.
+(The man driving the car turns on the air conditioner which blows Barry
+into the car)
+GIRL IN CAR:
+There's a bee in the car!
+ :
+- Do something!
+DAD DRIVING CAR:
+- I'm driving!
+BABY GIRL:
+(Waving at Barry)
+- Hi, bee.
+(Barry smiles and waves at the baby girl)
+GUY IN BACK OF CAR:
+- He's back here!
+ :
+He's going to sting me!
+GIRL IN CAR:
+Nobody move. If you don't move,
+he won't sting you. Freeze!
+(Barry freezes as well, hovering in the middle of the car)
+ :
+GRANDMA IN CAR==
+He blinked!
+(The grandma whips out some bee-spray and sprays everywhere in the car,
+climbing into the front seat, still trying to spray Barry)
+GIRL IN CAR:
+Spray him, Granny!
+DAD DRIVING THE CAR:
+What are you doing?!
+(Barry escapes the car through the air conditioner and is flying high above
+
+the ground, safe.)
+BARRY:
+Wow... the tension level
+out here is unbelievable.
+(Barry sees that storm clouds are gathering and he can see rain clouds
+moving into this direction)
+ :
+I gotta get home.
+ :
+Can't fly in rain.
+ :
+Can't fly in rain.
+(A rain drop hits Barry and one of his wings is damaged)
+ :
+Can't fly in rain.
+(A second rain drop hits Barry again and he spirals downwards)
+Mayday! Mayday! Bee going down!
+(WW2 plane sound effects are played as he plummets, and he crash-lands on a
+plant inside an apartment near the window)
+VANESSA BLOOME:
+Ken, could you close
+the window please?
+KEN==
+Hey, check out my new resume.
+I made it into a fold-out brochure.
+ :
+You see?
+(Folds brochure resume out)
+Folds out.
+(Ken closes the window, trapping Barry inside)
+BARRY:
+Oh, no. More humans. I don't need this.
+(Barry tries to fly away but smashes into the window and falls again)
+ :
+What was that?
+
+(Barry keeps trying to fly out the window but he keeps being knocked back
+because the window is closed)
+Maybe this time. This time. This time.
+This time! This time! This...
+ :
+Drapes!
+(Barry taps the glass. He doesn't understand what it is)
+That is diabolical.
+KEN:
+It's fantastic. It's got all my special
+skills, even my top-ten favorite movies.
+ANDY:
+What's number one? Star Wars?
+KEN:
+Nah, I don't go for that...
+(Ken makes finger guns and makes "pew pew pew" sounds and then stops)
+ :
+...kind of stuff.
+BARRY:
+No wonder we shouldn't talk to them.
+They're out of their minds.
+KEN:
+When I leave a job interview, they're
+flabbergasted, can't believe what I say.
+BARRY:
+(Looking at the light on the ceiling)
+There's the sun. Maybe that's a way out.
+(Starts flying towards the lightbulb)
+ :
+I don't remember the sun
+having a big 75 on it.
+(Barry hits the lightbulb and falls into the dip on the table that the
+humans are sitting at)
+KEN:
+
+I predicted global warming.
+ :
+I could feel it getting hotter.
+At first I thought it was just me.
+(Andy dips a chip into the bowl and scoops up some dip with Barry on it and
+is about to put it in his mouth)
+ :
+Wait! Stop! Bee!
+(Andy drops the chip with Barry in fear and backs away. All the humans
+freak out)
+ :
+Stand back. These are winter boots.
+(Ken has winter boots on his hands and he is about to smash the bee but
+Vanessa saves him last second)
+VANESSA:
+Wait!
+ :
+Don't kill him!
+(Vanessa puts Barry in a glass to protect him)
+KEN:
+You know I'm allergic to them!
+This thing could kill me!
+VANESSA:
+Why does his life have
+less value than yours?
+KEN:
+Why does his life have any less value
+than mine? Is that your statement?
+VANESSA:
+I'm just saying all life has value. You
+don't know what he's capable of feeling.
+(Vanessa picks up Ken's brochure and puts it under the glass so she can
+carry Barry back to the window. Barry looks at Vanessa in amazement)
+KEN:
+
+My brochure!
+VANESSA:
+There you go, little guy.
+(Vanessa opens the window and lets Barry out but Barry stays back and is
+still shocked that a human saved his life)
+KEN:
+I'm not scared of him.
+It's an allergic thing.
+VANESSA:
+Put that on your resume brochure.
+KEN:
+My whole face could puff up.
+ANDY:
+Make it one of your special skills.
+KEN:
+Knocking someone out
+is also a special skill.
+(Ken walks to the door)
+Right. Bye, Vanessa. Thanks.
+ :
+- Vanessa, next week? Yogurt night?
+VANESSA:
+- Sure, Ken. You know, whatever.
+ :
+(Vanessa tries to close door)
+KEN==
+- You could put carob chips on there.
+VANESSA:
+- Bye.
+(Closes door but Ken opens it again)
+KEN:
+- Supposed to be less calories.
+
+VANESSA:
+- Bye.
+(Closes door)
+(Fast forward to the next day, Barry is still inside the house. He flies
+into the kitchen where Vanessa is doing dishes)
+BARRY==
+(Talking to himself)
+I gotta say something.
+ :
+She saved my life.
+I gotta say something.
+ :
+All right, here it goes.
+(Turns back)
+Nah.
+ :
+What would I say?
+ :
+I could really get in trouble.
+ :
+It's a bee law.
+You're not supposed to talk to a human.
+ :
+I can't believe I'm doing this.
+ :
+I've got to.
+(Barry disguises himself as a character on a food can as Vanessa walks by
+again)
+ :
+Oh, I can't do it. Come on!
+ :
+No. Yes. No.
+ :
+Do it. I can't.
+
+ :
+How should I start it?
+(Barry strikes a pose and wiggles his eyebrows)
+"You like jazz?"
+No, that's no good.
+(Vanessa is about to walk past Barry)
+Here she comes! Speak, you fool!
+ :
+...Hi!
+(Vanessa gasps and drops the dishes in fright and notices Barry on the
+counter)
+ :
+I'm sorry.
+VANESSA:
+- You're talking.
+BARRY:
+- Yes, I know.
+VANESSA:
+(Pointing at Barry)
+You're talking!
+BARRY:
+I'm so sorry.
+VANESSA:
+No, it's OK. It's fine.
+I know I'm dreaming.
+ :
+But I don't recall going to bed.
+BARRY:
+Well, I'm sure this
+is very disconcerting.
+VANESSA:
+This is a bit of a surprise to me.
+I mean, you're a bee!
+
+BARRY:
+I am. And I'm not supposed
+to be doing this,
+(Pointing to the living room where Ken tried to kill him last night)
+but they were all trying to kill me.
+ :
+And if it wasn't for you...
+ :
+I had to thank you.
+It's just how I was raised.
+(Vanessa stabs her hand with a fork to test whether she's dreaming or not)
+ :
+That was a little weird.
+VANESSA:
+- I'm talking with a bee.
+BARRY:
+- Yeah.
+VANESSA:
+I'm talking to a bee.
+And the bee is talking to me!
+BARRY:
+I just want to say I'm grateful.
+I'll leave now.
+(Barry turns to leave)
+VANESSA:
+- Wait! How did you learn to do that?
+BARRY:
+(Flying back)
+- What?
+VANESSA:
+The talking...thing.
+BARRY:
+
+Same way you did, I guess.
+"Mama, Dada, honey." You pick it up.
+VANESSA:
+- That's very funny.
+BARRY:
+- Yeah.
+ :
+Bees are funny. If we didn't laugh,
+we'd cry with what we have to deal with.
+ :
+Anyway...
+VANESSA:
+Can I...
+ :
+...get you something?
+BARRY:
+- Like what?
+VANESSA:
+I don't know. I mean...
+I don't know. Coffee?
+BARRY:
+I don't want to put you out.
+VANESSA:
+It's no trouble. It takes two minutes.
+ :
+- It's just coffee.
+BARRY:
+- I hate to impose.
+(Vanessa starts making coffee)
+VANESSA:
+- Don't be ridiculous!
+

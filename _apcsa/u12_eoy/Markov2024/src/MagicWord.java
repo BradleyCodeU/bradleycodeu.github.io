@@ -15,6 +15,10 @@ public class MagicWord {
         followers.add(follower);
     }
 
+    public char getRandomFollower(){
+        return followers.get( (int) (Math.random()*followers.size()) );
+    }
+
     public String getPreviousText(){
         return previousText;
     }

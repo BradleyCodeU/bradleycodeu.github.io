@@ -8,7 +8,7 @@ import java.io.IOException;
 
 class Main {
   public static void main(String[] args) throws FileNotFoundException, IOException {
-    int order = 5;
+    int order = 9;
     String inputText = "";
     
     ArrayList<Ngram> ngrams = new ArrayList<Ngram>();

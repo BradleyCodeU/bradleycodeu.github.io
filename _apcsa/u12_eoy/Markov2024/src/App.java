@@ -10,21 +10,44 @@ import java.io.IOException;
 
 public class App {
     public static void main(String[] args) throws FileNotFoundException, IOException {
-        int magicSize = 5;
+        int magicSize = 9;
         String userInput = readFile("src/sourceText.txt");
-        // File f = new File("src/sourceText.txt");
+        
+        ArrayList<MagicWord> words = breakUpIntoMagicWords(userInput, magicSize);
 
-        // Scanner input = new Scanner( f ) ;
-        // // System.out.print("Hello, please type some text: ");
-        // StringBuilder userInput = new StringBuilder();;
-        // while(input.hasNext()){
-        // userInput.append(input.nextLine());
-        // System.out.println(input.hasNext());
-        // }
-        // userInput.append("");
-        System.out.println(userInput.length());
-        System.out.println(userInput);
+        System.out.println(generateText(words, magicSize));
+        
 
+    }
+
+    public static String generateText(ArrayList<MagicWord> words, int magicSize){
+        
+        String result = "";
+        // find Capitalized magicword
+        for(int i=0; i<900; i++){
+            result = words.get( (int) (Math.random()*words.size()) ).getPreviousText();
+            if(result.charAt(0) >= 'A' && result.charAt(0) <= 90){
+                break;
+            }
+        }
+        // continue building
+        for(int i=0; i < 900; i++){
+            String lastLetters = result.substring( result.length() - magicSize );
+            int locationInList = App.findMagicWordInList(lastLetters, words);
+            if(locationInList == -1){
+                locationInList = 0;
+            }
+            // add a random follower char
+            result += words.get(locationInList).getRandomFollower();
+            // if last char is . then add \n
+            if( result.charAt( result.length()-1 ) == '.' ){
+                //result+="\n";
+            }
+        }
+        return result;
+    }
+
+    public static ArrayList<MagicWord> breakUpIntoMagicWords(String userInput, int magicSize){
         ArrayList<MagicWord> words = new ArrayList<MagicWord>();
         // loop to make multiple MagicWord objs
         for (int i = 0; i < userInput.length() - magicSize; i++) {
@@ -38,13 +61,9 @@ public class App {
                 // not in list yet
                 words.add(
                         new MagicWord(currentWord, nextLetter));
-
             }
-
         }
-
-        System.out.println(words);
-
+        return words;
     }
 
     public static String readFile(String filename) {
