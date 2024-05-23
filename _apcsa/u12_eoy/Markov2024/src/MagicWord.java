@@ -3,15 +3,15 @@ import java.util.ArrayList;
 public class MagicWord {
    
     private String previousText;
-    private ArrayList<String> followers;
+    private ArrayList<Character> followers;
 
     public MagicWord(String _previousText, char following){
         previousText = _previousText;
-        followers = new ArrayList<String>();
-        followers.add(""+following);
+        followers = new ArrayList<Character>();
+        followers.add(following);
     }
 
-    public void addFollowers(String follower){
+    public void addFollowers(char follower){
         followers.add(follower);
     }
 
@@ -20,7 +20,7 @@ public class MagicWord {
     }
 
     public String toString(){
-        return previousText + " : " + followers;
+        return previousText + " : " + followers +"\n";
     }
 
 

@@ -1,0 +1,43 @@
+Amazon
+ is upgrading its decade-old Alexa voice assistant with generative artificial intelligence and plans to charge a monthly subscription fee to offset the cost of the technology, according to people with knowledge of Amazon’s plans. 
+
+The Seattle-based tech and retail giant will launch a more conversational version of Alexa later this year, potentially positioning it to better compete with new generative AI-powered chatbots from companies including Google and OpenAI, according to two sources familiar with the matter, who asked not to be named because the discussions were private. Amazon’s subscription for Alexa will not be included in the $139-per-year Prime offering, and Amazon has not yet nailed down the price point, one source said.
+
+Amazon declined to comment on its plans for Alexa. 
+
+While Amazon wowed consumers with Alexa’s voice-driven tasks in 2014, its capabilities could seem old-fashioned amid recent leaps in artificial intelligence. Last week, OpenAI announced GPT-4o, with the capability for two-way conversations that can go significantly deeper than Alexa. For example, it can translate conversations into different languages in real time. Google launched a similar generative-AI-powered voice feature for Gemini. 
+
+Some interpreted last week’s announcements as a threat to Alexa and Siri, Apple
+’s voice assistant feature for iPhones. NYU professor Scott Galloway called the updates the “Alexa and Siri killers” on his recent podcast. Many people use Alexa and Siri for basic tasks, such as setting timers or alarms and announcing the weather.
+
+The development of new AI chatbots in recent months has increased the pressure internally on a division that was once seen as a darling of Amazon founder Jeff Bezos, according to the sources — but has been subject to strict profit imperatives since his departure. 
+
+Three former employees pointed to Bezos’ early obsession with Alexa, describing it as his passion project. Attention from Bezos resulted in more dollars and less pressure to make a return on those funds immediately. 
+
+That changed when Andy Jassy took over as CEO in 2021, according to three sources. Jassy was charged with rightsizing Amazon’s business during the pandemic, and Alexa became less of a priority internally, they said. Jassy has been privately underwhelmed with what modern-day Alexa is capable of, according to one person. The Alexa team worried they had invented an expensive alarm clock, weather machine and way to play Spotify music, one source said.  
+
+For instance, Jassy, an avid sports fan, asked the voice assistant the live score of a recent game, according to a person in the room, and was openly frustrated that Alexa didn’t know an answer that was so easy to find online. 
+
+When reached for comment, Amazon pointed to the company’s annual shareholder letter released last month. In it, Jassy mentioned that the company was building a “substantial number of GenAI applications across every Amazon consumer business,” adding that that included “an even more intelligent and capable Alexa.”
+
+The team is now tasked with turning Alexa into a relevant device that holds up amid the new AI competition, and one that justifies the resources and headcount Amazon has dedicated to it. It has undergone a massive reorganization, with much of the team shifting to the artificial general intelligence, or AGI, team, according to three sources. Others pointed to bloat within Alexa, a team of thousands of employees.
+
+As of 2023, Amazon said it had sold more than 500 million Alexa-enabled devices, giving the company a foothold with consumers. 
+
+Alexa, were you too early?
+Apple, Amazon and Google
+ were early movers with their voice assistants, which did employ AI. But the current wave of advanced generative AI enables much more creative, human-sounding interactions. Apple is expected to unveil a more conversational Siri at its annual developers conference in June, according to The New York Times. 
+
+Those who worked on the Alexa team describe it as a great idea that may have been too early, and that it’s going to be hard to turn the ship around. 
+
+There’s also the challenge of finding AI engineering talent, as OpenAI, Microsoft
+ and Google recruit from the same pool of academics and tech talent. Plus, generative AI workloads are expensive thanks to the hardware and computing power required. One source estimated the cost of using generative AI in Alexa at 2 cents per query, and said a $20 price point was floated internally. Another suggested it would need to be in a single-digit dollar amount, which would undercut other subscription offerings. OpenAI’s ChatGPT charges $20 per month for its advanced models. 
+
+Still, they point to Alexa’s installed user base, with devices in hundreds of millions of homes, as an opportunity. Those who worked on Alexa say the fact that it’s already in people’s living rooms and kitchens makes the stakes higher, and mistakes more costly if Alexa doesn’t understand a command or provides unreliable information. 
+
+Amazon has been battling a perception that it’s behind in artificial intelligence. While it offers multiple AI models on Amazon Web Services, it does not have a leading large language model to unseat OpenAI, Google or Meta
+. Amazon spent $2.75 billion backing AI startup Anthropic, its largest venture investment in the company’s three-decade history. Google also has an Anthropic investment and partnership.
+
+Amazon will use its own large language model, Titan, in the Alexa upgrade, according to a source.  
+
+Bezos is among those who have voiced concern that Amazon is behind in AI, according to two sources familiar with him. Bezos is still “very involved” in Amazon’s AI efforts, CNBC reported last week, and has been sending Amazon executives emails wondering why certain AI startups are picking other cloud providers over AWS. 
