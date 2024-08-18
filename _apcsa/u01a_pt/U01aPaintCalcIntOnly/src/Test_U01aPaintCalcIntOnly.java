@@ -1,7 +1,6 @@
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-import io.github.bradleycodeu.*;
 
 public class Test_U01aPaintCalcIntOnly {
     // WALL AREA TESTS
