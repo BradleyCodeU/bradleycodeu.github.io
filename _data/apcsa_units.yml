@@ -89,60 +89,44 @@ References and Other Info:
   content: "[1st Quarter](#1st-quarter)
 
 
-1. **[Ch1 Introduction](#ch1introduction)**
+1. **[U01a Primitive Types](#u01a-primitive-types)**
+
+1. **[U01b Modulo Operator](#u01a-modulo-operator)**
 
 1. **[Ch2 Using Objects](#ch2usingobjects)**
 
 1. **[Ch3 Implementing Classes](#ch3implementingclasses)**
 
 "
-- title: ch1introduction
-  heading: "# Ch1Introduction"
+- title: u01a_pt
+  heading: "# U01a Primitive Types"
   content: "
 
   *3 wks*
 
 
 
-  1. Class Codes - SoloLrn, Replit, Runestone, Code.org
+  1. Class Codes - SoloLrn, Runestone
 
-  1. [Ch1 SoloLrn Java Basic Concepts](/apcsa/ch1introduction/ch1sololearnjava/)
+  1. [SoloLrn Java Basic Concepts](/apcsa/ch1introduction/ch1sololearnjava/)
 
-  1. [Ch1 Kings Island](/apcsa/ch1introduction/ch1kingsisland/)
+  1. [Kings Island](/apcsa/u01a_pt/U01aKingsIsland/instructions/)
 
-  1. [Ch1 Paint Calc Int Only](/apcsa/ch1introduction/ch1paintcalcareaonly/)
+  1. [Paint Calc Int Only](/apcsa/u01a_pt/U01aPaintCalcIntOnly/instructions/)
 
-  1. [Ch1 ASCII Art](/apcsa/ch1introduction/ch1asciiart/)
+  1. [ASCII Art](/apcsa/u01a_pt/U01aASCIIArt/instructions/)
 
-  1. [Ch1 Computer Parts](/apcsa/ch1introduction/ch1review1/)
+  1. [Computer Parts](/apcsa/ch1introduction/ch1review1/)
 
-  1. [Ch1 Passer Rating](/apcsa/ch1introduction/ch1passerrating/)
+  1. [Passer Rating](/apcsa/u01a_pt/U01aPasserRating/instructions/)
 
-  1. [Ch1 Integer Overflow](/apcsa/ch1introduction/ch1integeroverflow/)
+  1. [Integer Overflow](/apcsa/ch1introduction/ch1integeroverflow/)
 
   1. U1.1 Review Quiz Primitive Types
 
   1. U1.1 FRQ Primitive Types
 
   1. U1.1 Test Primitive Types
-
-  1. Integer Division Quizizz
-
-  1. Modulo Operator Quizizz
-
-  1. [Ch4 Coin Converter](/apcsa/ch4fundamentaldatatypes/ch4coinconverter/)
-
-  1. [Ch4 Modulus Clock](/apcsa/ch4fundamentaldatatypes/ch4modulusclock/)
-
-  1. U1.2 Review Quiz Modulo
-
-  1. U1.2 FRQ Modulo
-
-  1. U1.2 Test Modulo
-
-
-
-
 
 
 
@@ -160,6 +144,26 @@ Vocab: platform, assembly, binary, bit, byte, declare, assignment, initialize, J
 
 - [Unit 1 Test Review](/apcsa/ch1introduction/unit1testreview/)
 
+"
+- title: u01b_mo
+  heading: "# U01b Modulo Operator"
+  content: "
+
+*3 wks*
+
+  1. Integer Division Quizizz
+
+  1. Modulo Operator Quizizz
+
+  1. [Ch4 Coin Converter](/apcsa/u01b_mo/U01bCoinConverter/instructions/)
+
+  1. [Ch4 Modulus Clock](/apcsa/u01b_mo/U01bModClock/instructions/)
+
+  1. U1.2 Review Quiz Modulo
+
+  1. U1.2 FRQ Modulo
+
+  1. U1.2 Test Modulo
 "
 
 - title: ch2usingobjects
