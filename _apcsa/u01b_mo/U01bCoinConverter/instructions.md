@@ -1,6 +1,6 @@
 ---
 layout: project
-category: u1a_pt
+category: u01b-modulo-operator
 title: U01b Coin Converter
 ---
 

@@ -91,7 +91,7 @@ References and Other Info:
 
 1. **[U01a Primitive Types](#u01a-primitive-types)**
 
-1. **[U01b Modulo Operator](#u01a-modulo-operator)**
+1. **[U01b Modulo Operator](#u01b-modulo-operator)**
 
 1. **[Ch2 Using Objects](#ch2usingobjects)**
 
@@ -145,8 +145,8 @@ Vocab: platform, assembly, binary, bit, byte, declare, assignment, initialize, J
 - [Unit 1 Test Review](/apcsa/ch1introduction/unit1testreview/)
 
 "
-- title: u01a-modulo-operator
-  heading: "# u01a-modulo-operator"
+- title: u01b-modulo-operator
+  heading: "# u01b-modulo-operator"
   content: "
 
 *3 wks*

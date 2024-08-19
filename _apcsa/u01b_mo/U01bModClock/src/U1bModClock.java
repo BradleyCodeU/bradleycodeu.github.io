@@ -4,9 +4,9 @@ class U01bModClock {
     // Adds a leading zero only when necessary. formatMinutes(9) -> "09" and formatMinutes(10) -> "10"
     // convert int minutes to double. For example, 9 -> 9.0
     double minutesDouble = minutes;
-    // multiply by 0.1 so there's a leading zero when needed. 9.0 -> 0.9
+    // TODO multiply by 0.1 so there's a leading zero when needed. 9.0 -> 0.9
     minutesDouble = ???;
-    // convert from double to String. 0.9 -> "0.9"
+    // TODO convert from double to String. 0.9 -> "0.9"
     String minutesString = ???;
     // use substring to extract only the two digits we need. "0.9" -> "09"
     return minutesString.substring(0,1) + minutesString.substring(2);
