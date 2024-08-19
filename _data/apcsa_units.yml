@@ -98,8 +98,8 @@ References and Other Info:
 1. **[Ch3 Implementing Classes](#ch3implementingclasses)**
 
 "
-- title: u01a_pt
-  heading: "# U01a Primitive Types"
+- title: u01a-primitive-types
+  heading: "# u01a-primitive-types"
   content: "
 
   *3 wks*
@@ -145,8 +145,8 @@ Vocab: platform, assembly, binary, bit, byte, declare, assignment, initialize, J
 - [Unit 1 Test Review](/apcsa/ch1introduction/unit1testreview/)
 
 "
-- title: u01b_mo
-  heading: "# U01b Modulo Operator"
+- title: u01a-modulo-operator
+  heading: "# u01a-modulo-operator"
   content: "
 
 *3 wks*
