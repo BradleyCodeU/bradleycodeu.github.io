@@ -15,7 +15,7 @@ public class Pitcher {
    * supplied as an argument. The object's pitchCounter is
    * initially set to zero.
    *
-   * @param String name Name of the pitcher. Can be one-word or multi-word name.
+   * @param name  the name of the pitcher. Can be one-word or multi-word name.
    */
   public Pitcher(String name) {
     this.name = name;
@@ -23,7 +23,7 @@ public class Pitcher {
   }
 
   /**
-   * The getPitch method looks at the player's name and the
+   * The nextPitch method looks at the player's name and the
    * current pitch number. If that number letter in the player's
    * name is a vowel, then they throw a great pitch. If that
    * number letter in the name is a consenent, then they throw a
@@ -31,9 +31,9 @@ public class Pitcher {
    * pitch, then great pitch. Finally, the pitchCounter is
    * incremented.
    *
-   * @return String a String that says if they threw a bad pitch or great pitch.
+   * @return  a String that says if they threw a bad pitch or great pitch.
    */
-  public String getPitch() {
+  public String nextPitch() {
     String vowels = "aeiou";
     String result = "Oof! " + this.name + " throws a bad pitch";
     String letter = this.name.substring(this.pitchCounter % this.name.length(), this.pitchCounter % this.name.length() + 1).toLowerCase();
