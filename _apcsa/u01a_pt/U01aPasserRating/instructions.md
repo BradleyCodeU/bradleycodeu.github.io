@@ -1,6 +1,6 @@
 ---
 layout: project
-category: u1a_pt
+category: u01a-primitive-types
 title: U01a Passer Rating
 ---
 # Passer Rating
