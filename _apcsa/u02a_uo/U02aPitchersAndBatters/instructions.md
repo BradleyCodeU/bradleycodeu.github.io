@@ -8,14 +8,14 @@ A Pitcher object MUST be given a name as an argument when it is constructed. Con
 Pitcher myPitcher = new Pitcher("Steve");
 ```
 
-A Pitcher object can only do one thing, getPitch(), which returns a String...
+A Pitcher object can only do one thing, nextPitch(), which returns a String...
 ```
-String message = myPitcher.getPitch();
+String message = myPitcher.nextPitch();
 ```
 
-A Batter object MUST be given a name as an argument when it is constructed. A Batter object can only do one thing, getSwing(), which returns a String...
+A Batter object MUST be given a name as an argument when it is constructed. A Batter object can only do one thing, nextSwing(), which returns a String...
 ```
-message = myBatter.getSwing();
+message = myBatter.nextSwing();
 ```
 
 STARTER TEMPLATE:
@@ -25,19 +25,19 @@ class Main {
     System.out.println("-=-=-=-=-=-=-=-=-PART 1");
     // PART 1: construct two different pitchers, the first pitcher's name MUST start with a vowel and the second's name MUST start with a consonant
 
-    // invoke the getPitch method on the first pitcher and print what the method returns
+    // invoke the nextPitch method on the first pitcher and print what the method returns
     
-    // invoke the getPitch method on the second pitcher and print what the method returns
+    // invoke the nextPitch method on the second pitcher and print what the method returns
 
     System.out.println("-=-=-=-=-=-=-=-=-PART 2");
     // PART 2: construct two different batters, the first batter's name MUST start with a vowel and the second's name MUST start with a consonant
 
-    // invoke the getSwing method on the first pitcher and print what the method returns
+    // invoke the nextSwing method on the first pitcher and print what the method returns
 
-    // invoke the getSwing method on the second pitcher and print what the method returns
+    // invoke the nextSwing method on the second pitcher and print what the method returns
 
     System.out.println("-=-=-=-=-=-=-=-=-PART 3");
-    // PART 3: The getPitch method isn't random. It's using the player's name to decide if it's a good pitch or a bad pitch. Documentation for the class is here: https://bradleycodeu.github.io/apcsa/ch2usingobjects/PitchersAndBatters/index-all.html  
+    // PART 3: The nextPitch method isn't random. It's using the player's name to decide if it's a good pitch or a bad pitch. Documentation for the class is here: https://bradleycodeu.github.io/apcsa/ch2usingobjects/PitchersAndBatters/index-all.html  
     // Print your answer to the following question... Which of the following names would make the best pitcher and why? 1) "Tyler" 2) "Louie" 3) "Aaron" 4) "Steven"
     System.out.println("Which of the following names would make the best pitcher and why? 1) \"Tyler\" 2) \"Louie\" 3) \"Aaron\" 4) \"Steven\"");
 
