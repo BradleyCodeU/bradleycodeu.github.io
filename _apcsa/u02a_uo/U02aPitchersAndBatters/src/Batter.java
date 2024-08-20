@@ -15,7 +15,7 @@ public class Batter {
    * supplied as an argument. The object's pitchCounter is
    * initially set to zero.
    *
-   * @param name  the name of the batter. Can be one-word or multi-word name.
+   * @param name the name of the batter. Can be one-word or multi-word name.
    */
   public Batter(String name) {
     this.name = name;
@@ -23,19 +23,22 @@ public class Batter {
   }
 
   /**
-   * The nextSwing method looks at the player's name and the
-   * current pitch number. If that number letter in the player's
-   * name is a vowel, then they hit a homerun. If that number
-   * letter in the name is a consonsant, then they miss the ball.
-   * For example, "Ian" would hit a homerun, hit a homerun, then
-   * miss. Finally, the pitchCounter is incremented.
+   * Determines if the next swing is a strike or a home run in a 
+   * non-random way, by looking at the player's name and the 
+   * current pitch number. If that number letter in the player's 
+   * name is a vowel, then they hit a homerun. If that number 
+   * letter in the name is a consonsant, then they miss the ball. 
+   * Finally, the pitchCounter is incremented. For example, "Ian" 
+   * would hit a homerun on the first swing, hit a homerun on the 
+   * second swing, then miss on the third swing.
    *
-   * @return  a String that says if they hit a home run or missed the ball.
+   * @return a String that says if they hit a home run or missed the ball.
    */
   public String nextSwing() {
     String vowels = "aeiou";
     String result = "Strike! Swing and a miss by " + this.name;
-    String letter = this.name.substring(this.pitchCounter % this.name.length(), this.pitchCounter % this.name.length() + 1).toLowerCase();
+    String letter = this.name
+        .substring(this.pitchCounter % this.name.length(), this.pitchCounter % this.name.length() + 1).toLowerCase();
     if (vowels.indexOf(letter) >= 0) {
       result = "BOOM! " + this.name + " hit a home run!";
     }
