@@ -49,5 +49,3 @@ Gallons of paint needed = 1
 Total cost = 17
 ```
 
-
-IMPORTANT NOTE: You *may* need to convert the sales tax to double (aka convert from int to decimal numbers) in order to avoid an incorrect result caused by [integer division](https://www.educative.io/answers/wrong-results-for-division-in-java).  When dividing two integers, Java uses integer division and the result is also an integer. The result is truncated (the fractional part is thrown away) and NOT rounded to the closest integer. `7 / 4` in Java will equal 1. However `7.0 / 4` (or `7 / 4.0` or `7.0 / 4.0`) would equal 1.75.
