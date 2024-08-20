@@ -4,7 +4,7 @@ import javax.swing.*;
 import javax.swing.ImageIcon;
 import java.net.URL;
 
-public class Main {
+public class U02aSwingProjectsApp {
 
     
   public static void main(String[] args) throws Exception {

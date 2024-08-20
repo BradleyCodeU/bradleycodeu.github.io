@@ -1,4 +1,7 @@
-# Ch2 Swing Projects
+---
+layout: project
+category: u02a-using-objects
+title: U02a Swing Projects
 ---
 
 You will complete 6 exercises for this assignment.

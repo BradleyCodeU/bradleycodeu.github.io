@@ -14,7 +14,9 @@ class U01bModClock {
   }
 
   public static String calculateFutureTime(int currentHour, int currentMinute, int hoursLater, int minutesLater) {
-    // HINT: convert everything to minutes, add all the minutes together, then convert back to hours and minutes using int division and modulus
+    // TODO convert everything to minutes, add all the minutes together, then convert back to hours and minutes using int division and modulus
+
+    // TODO use the formatMinutes method to make sure that the minutes has a leading zero, if needed
     return "";
   }
 
@@ -22,18 +24,22 @@ class U01bModClock {
   public static void main(String[] args) {
     // Input current time
     System.out.print("Please input current hour: ");
+    // TODO get the user input
     
     System.out.print("Please input current minute: ");
+    // TODO get the user input
     
     // Input hours and minutes to add
     System.out.print("Please input number of hours later: ");
+    // TODO get the user input
     
     System.out.print("Please input number of minutes later: ");
+    // TODO get the user input
     
-    // Calculate future time using the methods above
+    // TODO Calculate future time using the methods above
     
 
-    // Display current and future time
+    // TODO Display current and future time
     System.out.println("Current time = "); 
     System.out.println("Future time = ");
 

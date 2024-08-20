@@ -1,4 +1,7 @@
-# Ch2 Rectangles and Points
+---
+layout: project
+category: u02a-using-objects
+title: U02a Rectangles And Points
 ---
 
 

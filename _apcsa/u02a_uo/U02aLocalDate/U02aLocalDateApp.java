@@ -1,4 +1,4 @@
-class Main {
+public class U02aLocalDateApp {
   public static void main(String[] args) {
     
 

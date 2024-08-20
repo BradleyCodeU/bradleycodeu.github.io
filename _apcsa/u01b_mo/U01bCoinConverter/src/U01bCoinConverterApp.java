@@ -10,5 +10,9 @@ public class U01bCoinConverterApp {
   public static void main(String[] args) {
     System.out.print("Enter the amount to convert to coins in dollars and cents (for example, 3.41): ");
     // TODO Complete the main method using Scanner to collect keyboard input
+
+    // TODO use the convertCoins method to perform the calculation
+
+    // TODO print the result
   }
 }

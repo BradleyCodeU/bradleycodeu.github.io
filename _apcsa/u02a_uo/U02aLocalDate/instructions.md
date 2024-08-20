@@ -1,4 +1,7 @@
-# Ch2 LocalDate
+---
+layout: project
+category: u02a-using-objects
+title: U02a Local Date
 ---
 
 

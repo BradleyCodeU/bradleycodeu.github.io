@@ -1,4 +1,4 @@
-class Main {
+public class U02aRectanglesPoints {
   public static void main(String[] args) {
     // Check out the Rectangle class in the Java API:
 
