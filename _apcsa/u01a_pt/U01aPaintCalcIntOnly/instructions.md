@@ -4,7 +4,7 @@ category: u01a-primitive-types
 title: U01a Paint Calc Int Only
 ---
 
-You are painting a room and need to calculate the amount of paint that must be purchased. All length and area calculations will be in feet and will be entered and stored as integers. Even the final cost will be an integer.
+You are painting a room and need to calculate the amount of paint that must be purchased. All inputs and outputs will be stored as integers. Even the final cost will be an integer.
 
 - Fill in the body of the static method calculateWallArea(intlength, width, height, num_doors, num_windows)
 Assume that doors are 21 square feet and windows are 12 square feet.
@@ -18,7 +18,7 @@ Assume that doors are 21 square feet and windows are 12 square feet.
 
 Calculate and display the area to be painted. (NOTE: You will NOT be painting the ceiling, floors, doors or windows.)
 
-### Sample run #1:
+### SAMPLE OUTPUT #1:
 ```
 Enter the room dimensions below
 Length: 10
@@ -33,7 +33,7 @@ Total square feet = 435 square feet
 Gallons of paint needed = 2
 Total cost = 35
 ```
-### Sample run #2:
+### SAMPLE OUTPUT #2:
 ```
 Enter the room dimensions below
 Length: 11
@@ -48,3 +48,6 @@ Total square feet = 320 square feet
 Gallons of paint needed = 1
 Total cost = 17
 ```
+
+
+IMPORTANT NOTE: You *may* need to convert the sales tax to double (aka convert from int to decimal numbers) in order to avoid an incorrect result caused by [integer division](https://www.educative.io/answers/wrong-results-for-division-in-java).  When dividing two integers, Java uses integer division and the result is also an integer. The result is truncated (the fractional part is thrown away) and NOT rounded to the closest integer. `7 / 4` in Java will equal 1. However `7.0 / 4` (or `7 / 4.0` or `7.0 / 4.0`) would equal 1.75.

@@ -3,8 +3,6 @@ layout: project
 category: u01a-primitive-types
 title: U01a Passer Rating
 ---
-# Passer Rating
-
 
 
 Passer rating (also known as passing efficiency in college football) is a measure of the performance of passers, primarily quarterbacks, in gridiron football. Passer rating is calculated using a player's pass attempts, completions, yards, touchdowns, and interceptions. Passer rating in the NFL is on a scale from 0 to 158.3.
@@ -17,7 +15,7 @@ Passer rating is sometimes colloquially referred to as “quarterback rating” 
 - Fill in the body of the method calculateCollegeRating(int attempts, int completions, int yards, int touchdowns, int interceptions) and return a double. Use the NCAA formula found here [https://en.wikipedia.org/wiki/Passer_rating#NCAA_formula](https://en.wikipedia.org/wiki/Passer_rating#NCAA_formula)
 
 
-### Sample run #1:
+### SAMPLE OUTPUT #1:
 ```
 *** Passer Rating Calculator ***
 Enter the QB name: Tom Brady
@@ -32,7 +30,7 @@ Interceptions: 2
 The 2016 NFL passer rating for Tom Brady is 112.17206790123457
 College passer rating would be 156.92962962962963
 ```
-### Sample run #2:
+### SAMPLE OUTPUT #2:
 ```
 *** Passer Rating Calculator ***
 Enter the QB name: Aaron Rodgers

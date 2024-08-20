@@ -19,6 +19,7 @@ public class U02aDollarApp {
         // TODO print the ACTUAL result using doubles
 
         // Notice that Mr Riley has given you a partial Dollar class.
+        // Here is the documentation for the Dollar class: https://bradleycodeu.github.io/apcsa/u02a_uo/U02aDollar/doc/Dollar.html
         // Read the documentation for the Dollar class and answer the following questions.
         // Use the Dollar class for the following quesions
 

@@ -114,7 +114,7 @@ This code would create the following output. Notice that if we go OVER the maxim
 
   Run the U01aIntegerOverflowApp, then copy and paste the Console Output into a text document. 
 
-  Solve the problems in your text document.
+  Solve the problems in your text document (you can use Notability or Google Docs or whatever text editor you want).
 
   Turn in your text document as a PDF.
 

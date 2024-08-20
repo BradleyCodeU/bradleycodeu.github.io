@@ -1,4 +1,8 @@
-# Coin Converter
+---
+layout: project
+category: u01b-modulo-operator
+title: U01b Coin Converter
+---
 
 Integer division returns the result of division rounded down. It is useful for conversions.
 
