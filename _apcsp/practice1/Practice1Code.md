@@ -1,18 +1,19 @@
 ---
 layout: project
 category: practice1
-title: Practice1Code
+title: Create Practice 1 Code
 ---
-NOTE: You MAY complete this project with a partner.
+NOTE: You MAY complete the coding part of this project with a partner. If you work with a partner, write 7 or more quiz questions.
 
-Create an Educational Multi-Choice Quiz
+
+## Create an Educational Multi-Choice Quiz
 
 Computers are playing an increasing role in education. Write a program that will help a student learn basic fundamentals in math, science, a foreign language, etc.
 
 Code Specifications:
 
 	-	Contains at least 5 or more MULTI-CHOICE quiz questions. For example, "Where is the Eiffel Tower? 1 = London, 2 = Paris, 3 = New York, 4 = Tokyo" and the user might type in 2 as their answer.
-	-	MUST have a function called validNumber that requires one argument: userInput. It returns True or False if the userInput is between 1 and 4 (inclusive).
+	-	MUST have a function called validNumber that requires one argument: userInput. It returns True if the userInput is between 1 and 4 (inclusive) and returns False otherwise.
 	-	MUST notify the user if their answer is "correct" or "incorrect"
 	- If the users types in an invalid number (999, for example) then you must notify the user "999 is NOT a valid answer"
 
