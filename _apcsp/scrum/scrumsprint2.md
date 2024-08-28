@@ -17,15 +17,14 @@ TLDR: There are 5 new tasks that your group must add to your "To Do" list. Your 
 - countryScene 5pts
 - underwaterScene 5pts
 - isValidNumber 2pts
-- Main 2pts
+- main 2pts
 
 
-With last week's points and this week's points combined, each person should have completed a total of 60 story points or more (30 from last sprint plus 30 from THIS sprint) by the end of this sprint.
+GOAL: Each group of 3 should have completed a total of 60 story points or more (30 from last sprint plus 30 from THIS sprint) by the end of this sprint. A group of 4 should have completed a total of 80 points (40 from last sprint plus 40 from THIS sprint).
 
-Once you have complete your additional 30 story points for this sprint...
+Once you have completed your additional 30 (or 40) story points for this sprint, SHOW MR RILEY.
 
-Turn in a SCREENSHOT after your Main function has run (I already know the URL of your group project).
-Leave a comment with your group name.
+
 
 ## Directions
 
