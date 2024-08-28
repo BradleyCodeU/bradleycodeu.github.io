@@ -1,7 +1,7 @@
 ---
 layout: project
 category: practice1
-title: Practice1Questions
+title: Create Practice 1 Questions
 ---
 
 NOTE: Complete this part of the project ON YOUR OWN.
