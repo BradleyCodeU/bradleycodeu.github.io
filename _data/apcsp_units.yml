@@ -108,7 +108,7 @@ Projects:
 
 1. [Cheese Chase](/apcsp/scratch/005CheeseChase/)
 
-1. Scratch Test (Scratch vocab, debugging, control structure flowcharts)
+1. Scratch Quiz (Scratch vocab, debugging, control structure flowcharts)
 
 
 Additional Projects:
@@ -159,11 +159,11 @@ Projects:
 
   1. [Py Math Fun](/apcsp/py/PyMathFun/)
 
-  1. Pair- [Py Hogwarts House](/apcsp/py/109PyHogwartsHouse/)
+  1. [Py Hogwarts House](/apcsp/py/109PyHogwartsHouse/)
 
-  1. Pair- [Py Valid Number](/apcsp/py/111PyValidNumber/)
+  1. [Py Valid Number](/apcsp/py/111PyValidNumber/)
 
-  1. Pair- [Py Weight On Planets](/apcsp/py/114PyWeightOnPlanets/)
+  1. [Py Weight On Planets](/apcsp/py/114PyWeightOnPlanets/)
 
   1. Py Basics Review Quiz
 
@@ -329,7 +329,7 @@ Projects:
 
 1. [Trt Initials](/apcsp/turtleart/TurtleInitials/)
 
-1. Pair- [Trt Simple Drawing](/apcsp/turtleart/012TurtleSimpleDrawing/)
+1. [Trt Simple Drawing](/apcsp/turtleart/012TurtleSimpleDrawing/)
 
 1. KAProgramming1
 
@@ -337,30 +337,36 @@ Projects:
 
 1. [Trt How Many Squares](/apcsp/turtleart/014TurtleHowManySquares/)
 
-1. [Trt Arguments and Shapes](/apcsp/turtleart/turtleArgumentsAndShapes/)
-
-1. [Algorithm Plan](/apcsp/turtleart/algorithmPlan/)
+1. [Trt Args and Shapes](/apcsp/turtleart/turtleArgumentsAndShapes/)
 
 1. KAProg2
 
-1. [Trt Drawing Algorithm](/apcsp/turtleart/019TurtleDrawingAlgorithm/)
+1. Turtle Test (vocab, debugging, python basics)
+
+1. [Trt Random Faces](/apcsp/turtleart/turtleRandomFaces/)
 
 1. [Trt Bouncing Off Walls](/apcsp/turtleart/020TurtleBouncingOffWalls/)
 
+1. [Trt Big Shape Lil Shapes](/apcsp/turtleart/019TurtleDrawingAlgorithm/)
+
 1. KAProg3
 
-1. Pair- [Trt Mondrian](/apcsp/turtleart/TrtMondrian/)
 
-1. Pair- [Trt Random Faces](/apcsp/turtleart/turtleRandomFaces/)
 
-1. Turtle Test (vocab, debugging, python basics)
+
+
+
 
 
 Additional Projects:
 
+1. [Trt Mondrian](/apcsp/turtleart/TrtMondrian/)
+
 1. [Trt Op Art](/apcsp/turtleart/TrtOpArt/)
 
-1. Pair-Pick- [Trt Block Letters](/apcsp/turtleart/026TurtleBlockLetters/) or [Trt Polygons](/apcsp/turtleart/013TurtlePolygons/)
+1. [Trt Block Letters](/apcsp/turtleart/026TurtleBlockLetters/)
+
+1. [Trt Polygons](/apcsp/turtleart/013TurtlePolygons/)
 
 1. Pick- [Trt Random Shapes](/apcsp/turtleart/015TurtleRandomShapes/) or [Trt Mandala Art](/apcsp/turtleart/018TurtleMandalaArt/)
 
@@ -431,17 +437,17 @@ Projects:
 
 1. ScrumInUnder5Minutes Quiz
 
-1. Team- [Sprint1](/apcsp/scrum/scrumsprint1/)
+1. Team- [Sprint 1](/apcsp/scrum/scrumsprint1/)
 
 1. WaterfallDevelopment Quiz
 
 1. TheAgileManifesto Quiz
 
-1. Team- [Sprint2](/apcsp/scrum/scrumsprint2/)
+1. Team- [Sprint 2](/apcsp/scrum/scrumsprint2/)
 
-1. Team- [Sprint3](/apcsp/scrum/scrumsprint3/)
+1. Team- [Sprint 3](/apcsp/scrum/scrumsprint3/)
 
-1. Team- [Sprint4](/apcsp/scrum/scrumsprint4/)
+1. Team- [Sprint 4](/apcsp/scrum/scrumsprint4/)
 
 1. Scrum and IP vocab test
 
@@ -497,13 +503,15 @@ Resources:
 
   1. [Objects](#objects) - *2 wks*
 
+  1. [Digital Info](#digitalinfo) - *1 wk*
+
   1. [Big Data](#bigdata) - *1 wk*
 
   1. [Practice3](#practice3) - *2 wks*
 
   1. [OOP](#oop) - *1 wk*
 
-  1. [Digital Info](#digitalinfo) - *1 wk*
+
 
 
 
@@ -540,9 +548,11 @@ Projects:
 
 1. KAAlgo2
 
+1. [CBList1](/apcsp/console/CodingBatList1/)
+
 1. [FunctionPractice](/apcsp/console/FunctionPractice/)
 
-1. Pair- [TipCalculator](/apcsp/console/029ConsoleTipCalculator/)
+1. [TipCalculator](/apcsp/console/029ConsoleTipCalculator/)
 
 1. Console Test (arrays, nested conditionals, logical operators)
 
@@ -603,8 +613,6 @@ Projects:
   1. KASecurity1&2
 
   1. Pair- [BossBattle](/apcsp/textgames/bossBattle/)
-
-  1. [CBList1](/apcsp/textgames/CodingBatList1/)
 
   1. [HighLowWord](/apcsp/textgames/highLowWord/)
 
@@ -679,6 +687,40 @@ Resources:
 , [Dictionary Length](https://bradleycodeu.github.io/apcsp/tk/dictionaries05-dictionary-length/)
 "
 
+- title: digitalinfo
+  heading: "# DigitalInfo"
+  content: "
+*1 wk*
+
+
+Projects:
+
+  1. [RGB Pixels](/apcsp/digitalinfo/rgbPixels/)
+
+  1. Team- [Foobar v1](/apcsp/digitalinfo/037TextgamesFoobarv1/)
+
+  1. Team- [Foobar v2](/apcsp/digitalinfo/038TextgamesFoobarv2/)
+
+  1. [CBString1](/apcsp/digitalinfo/CodingBatString1/)
+
+  1. Team- [Foobar v3](/apcsp/digitalinfo/foobarv3/)
+
+  1. Python Loop Tracing Quiz
+
+
+
+
+Vocab: bits, bytes, kilobytes, megabytes, gigabytes, lossy compression, lossless compression, heuristic, Huffman coding, metadata, raster, bitmap, pixel, hexadecimal, RGB, image resolution, bit depth, dictionary, object
+
+
+Resources:
+
+  - Code.org Unit 2: Digital Information, [https://studio.code.org/s/csp2-2018](https://studio.code.org/s/csp2-2018)
+
+  - [Foobar the Bazbarian](https://foobar-the-bazbarian.glitch.me/)
+
+"
+
 - title: bigdata
   heading: "# BigData"
   content: "
@@ -709,13 +751,8 @@ Projects:
 
   1. [Create Practice 3 Video](/apcsp/practice3/PracticeCreateVideo/)
 
-  1. [Create Practice 3A](/apcsp/practice3/PracticeCreate3A/)
+  1. Create Practice 3 Questions
 
-  1. [Create Practice 3B](/apcsp/practice3/PracticeCreate3B/)
-
-  1. [Create Practice 3C](/apcsp/practice3/PracticeCreate3C/)
-
-  1. [Create Practice 3D](/apcsp/practice3/PracticeCreate3D/)
 
 "
 - title: oop
@@ -732,43 +769,13 @@ Projects:
 
   1. [Mythopoly Game](/apcsp/oop/MythopolyGame/)
 
-  1. KASimulations
-
   1. [Home Run Game](/apcsp/oop/HomeRunGame/)
 
   1. [Virtual Pet Game](/apcsp/oop/VirtualPetGame/)
 
 
   "
-- title: digitalinfo
-  heading: "# DigitalInfo"
-  content: "
-*1 wk*
 
-
-Projects:
-
-  1. [RGB Pixels](/apcsp/digitalinfo/rgbPixels/)
-
-  1. Team- [Foobar v1](/apcsp/digitalinfo/037TextgamesFoobarv1/)
-
-  1. Team- [Foobar v2](/apcsp/digitalinfo/038TextgamesFoobarv2/)
-
-  1. Team- [Foobar v3](/apcsp/digitalinfo/foobarv3/)
-
-
-
-
-Vocab: bits, bytes, kilobytes, megabytes, gigabytes, lossy compression, lossless compression, heuristic, Huffman coding, metadata, raster, bitmap, pixel, hexadecimal, RGB, image resolution, bit depth, dictionary, object
-
-
-Resources:
-
-  - Code.org Unit 2: Digital Information, [https://studio.code.org/s/csp2-2018](https://studio.code.org/s/csp2-2018)
-
-  - [Foobar the Bazbarian](https://foobar-the-bazbarian.glitch.me/)
-
-"
 
 
 
@@ -824,6 +831,8 @@ Resources:
 
   1. KADigInfo3
 
+  1. KASimulations
+
   1. CTVideo
 
   1. CTPrompt3a
@@ -838,9 +847,9 @@ Resources:
 
   1. KAExamPrep
 
-  1. 2017 APCSP Review Test
+  1. 2017 APCSP Review Quiz (Multiple Attempts) 
 
-  1. 2020 APCSP Review Test
+  1. 2020 APCSP Review Quiz (Multiple Attempts) 
 
 "
 
