@@ -23,7 +23,7 @@ $.getJSON("./trivia.json", function(json) {
 function loadQuestion() {
   document.getElementById("questionText").innerHTML =
     questions[currentQuestion % questions.length].question;
-  loadAnswers();
+  //loadAnswers();
 
 }
 
