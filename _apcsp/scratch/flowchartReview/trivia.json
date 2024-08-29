@@ -1,107 +1,107 @@
 [
   {
     "answer": "selection",
-    "question": "<img src='/apcsp/scratch/flowchartReview/images/01.png'>"
+    "question": "<img src='/apcsp/scratch/flowchartReview/images/01.png' class='center' >"
   },
   {
     "answer": "iteration",
-    "question": "<img src='/apcsp/scratch/flowchartReview/images/02.png'>"
+    "question": "<img src='/apcsp/scratch/flowchartReview/images/02.png' class='center' >"
   },
   {
     "answer": "selection",
-    "question": "<img src='/apcsp/scratch/flowchartReview/images/03.png'>"
+    "question": "<img src='/apcsp/scratch/flowchartReview/images/03.png' class='center' >"
   },
   {
     "answer": "selection",
-    "question": "<img src='/apcsp/scratch/flowchartReview/images/04.png'>"
+    "question": "<img src='/apcsp/scratch/flowchartReview/images/04.png' class='center' >"
   },
   {
     "answer": "sequencing",
-    "question": "<img src='/apcsp/scratch/flowchartReview/images/05.png'>"
+    "question": "<img src='/apcsp/scratch/flowchartReview/images/05.png' class='center' >"
   },
   {
     "answer": "selection",
-    "question": "<img src='/apcsp/scratch/flowchartReview/images/06.png'>"
+    "question": "<img src='/apcsp/scratch/flowchartReview/images/06.png' class='center' >"
   },
   {
     "answer": "iteration",
-    "question": "<img src='/apcsp/scratch/flowchartReview/images/07.png'>"
+    "question": "<img src='/apcsp/scratch/flowchartReview/images/07.png' class='center' >"
   },
   {
     "answer": "sequencing",
-    "question": "<img src='/apcsp/scratch/flowchartReview/images/08.png'>"
+    "question": "<img src='/apcsp/scratch/flowchartReview/images/08.png' class='center' >"
   },
   {
     "answer": "selection",
-    "question": "<img src='/apcsp/scratch/flowchartReview/images/09.png'>"
+    "question": "<img src='/apcsp/scratch/flowchartReview/images/09.png' class='center' >"
   },
   {
     "answer": "iteration",
-    "question": "<img src='/apcsp/scratch/flowchartReview/images/10.png'>"
+    "question": "<img src='/apcsp/scratch/flowchartReview/images/10.png' class='center' >"
   },
   {
     "answer": "selection",
-    "question": "<img src='/apcsp/scratch/flowchartReview/images/11.png'>"
+    "question": "<img src='/apcsp/scratch/flowchartReview/images/11.png' class='center' >"
   },
   {
     "answer": "selection",
-    "question": "<img src='/apcsp/scratch/flowchartReview/images/12.png'>"
+    "question": "<img src='/apcsp/scratch/flowchartReview/images/12.png' class='center' >"
   },
   {
     "answer": "iteration",
-    "question": "<img src='/apcsp/scratch/flowchartReview/images/13.png'>"
+    "question": "<img src='/apcsp/scratch/flowchartReview/images/13.png' class='center' >"
   },
   {
     "answer": "selection",
-    "question": "<img src='/apcsp/scratch/flowchartReview/images/14.png'>"
+    "question": "<img src='/apcsp/scratch/flowchartReview/images/14.png' class='center' >"
   },
   {
     "answer": "iteration",
-    "question": "<img src='/apcsp/scratch/flowchartReview/images/15.png'>"
+    "question": "<img src='/apcsp/scratch/flowchartReview/images/15.png' class='center' >"
   },
   {
     "answer": "sequencing",
-    "question": "<img src='/apcsp/scratch/flowchartReview/images/16.png'>"
+    "question": "<img src='/apcsp/scratch/flowchartReview/images/16.png' class='center' >"
   },
   {
     "answer": "iteration",
-    "question": "<img src='/apcsp/scratch/flowchartReview/images/17.png'>"
+    "question": "<img src='/apcsp/scratch/flowchartReview/images/17.png' class='center' >"
   },
   {
     "answer": "selection",
-    "question": "<img src='/apcsp/scratch/flowchartReview/images/18.png'>"
+    "question": "<img src='/apcsp/scratch/flowchartReview/images/18.png' class='center' >"
   },
   {
     "answer": "iteration",
-    "question": "<img src='/apcsp/scratch/flowchartReview/images/19.png'>"
+    "question": "<img src='/apcsp/scratch/flowchartReview/images/19.png' class='center' >"
   },
   {
     "answer": "sequencing",
-    "question": "<img src='/apcsp/scratch/flowchartReview/images/20.png'>"
+    "question": "<img src='/apcsp/scratch/flowchartReview/images/20.png' class='center' >"
   },
   {
     "answer": "iteration",
-    "question": "<img src='/apcsp/scratch/flowchartReview/images/21.png'>"
+    "question": "<img src='/apcsp/scratch/flowchartReview/images/21.png' class='center' >"
   },
   {
     "answer": "selection",
-    "question": "<img src='/apcsp/scratch/flowchartReview/images/22.png'>"
+    "question": "<img src='/apcsp/scratch/flowchartReview/images/22.png' class='center' >"
   },
   {
     "answer": "iteration",
-    "question": "<img src='/apcsp/scratch/flowchartReview/images/23.png'>"
+    "question": "<img src='/apcsp/scratch/flowchartReview/images/23.png' class='center' >"
   },
   {
     "answer": "selection",
-    "question": "<img src='/apcsp/scratch/flowchartReview/images/24.png'>"
+    "question": "<img src='/apcsp/scratch/flowchartReview/images/24.png' class='center' >"
   },
   {
     "answer": "iteration",
-    "question": "<img src='/apcsp/scratch/flowchartReview/images/25.png'>"
+    "question": "<img src='/apcsp/scratch/flowchartReview/images/25.png' class='center' >"
   },
   {
     "answer": "selection",
-    "question": "<img src='/apcsp/scratch/flowchartReview/images/26.png'>"
+    "question": "<img src='/apcsp/scratch/flowchartReview/images/26.png' class='center' >"
   }
 
 
