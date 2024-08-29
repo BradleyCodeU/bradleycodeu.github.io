@@ -28,23 +28,7 @@ function loadQuestion() {
 }
 
 function loadAnswers() {
-  Math.seedrandom(randomSeed);
-  var answers = [questions[currentQuestion % questions.length].answer];
-  while (answers.length < numberOfOptions) {
-    var flag = false;
-    Math.seedrandom("" + new Date().getMilliseconds());
-    var newAnswer =
-      questions[Math.floor(Math.random() * questions.length)].answer;
-    for (var i = 0; i < answers.length; i++) {
-      if (answers[i].toLowerCase() == newAnswer.toLowerCase()) {
-        flag = true;
-        break;
-      }
-    }
-    if (!flag) {
-      answers.push(newAnswer);
-    }
-  }
+  let answers = ["sequencing","selection","iteration"];
   //console.log(answers);
   // var answers2 = answers.slice(0);
   // answers2 = shuffle(answers2, "" + new Date().getMilliseconds());
@@ -52,7 +36,7 @@ function loadAnswers() {
 }
 
 function updateOptions() {
-  let answers = ["sequencing","selection","iteration"]
+  let answers = ["sequencing","selection","iteration"];
   //console.log(answers);
   var optArray = document.getElementsByClassName("opt");
   //console.log(optArray);
