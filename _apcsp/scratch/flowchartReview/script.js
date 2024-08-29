@@ -23,12 +23,12 @@ $.getJSON("./trivia.json", function(json) {
 function loadQuestion() {
   document.getElementById("questionText").innerHTML =
     questions[currentQuestion % questions.length].question;
-  //loadAnswers();
+  loadAnswers();
 
 }
 
 function loadAnswers() {
-  let answers = ["sequencing","selection","iteration"];
+  //let answers = ["sequencing","selection","iteration"];
   //console.log(answers);
   // var answers2 = answers.slice(0);
   // answers2 = shuffle(answers2, "" + new Date().getMilliseconds());
@@ -36,14 +36,14 @@ function loadAnswers() {
 }
 
 function updateOptions() {
-  let answers = ["sequencing","selection","iteration"];
-  //console.log(answers);
-  var optArray = document.getElementsByClassName("opt");
-  //console.log(optArray);
-  for (var i = 0; i < 2; i++) {
-    optArray[i].value = answers[i];
-    optArray[i].innerHTML = answers[i];
-  }
+  // let answers = ["sequencing","selection","iteration"];
+  // //console.log(answers);
+  // var optArray = document.getElementsByClassName("opt");
+  // //console.log(optArray);
+  // for (var i = 0; i < 2; i++) {
+  //   optArray[i].value = answers[i];
+  //   optArray[i].innerHTML = answers[i];
+  // }
   document.getElementById("pick").selected = true;
 }
 
