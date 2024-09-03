@@ -91,7 +91,7 @@ public class Test_U01aPaintCalcIntOnly {
         int price_per_gallon = 20;
         int sales_tax_percent = 0; // No sales tax
 
-        int expectedCost = 100; // 100 + 1 No sales tax applied
+        int expectedCost = 101; // 100 + 1 No sales tax applied
         int actualCost = U01aPaintCalcIntOnly.calculateCostEstimate(gallons_needed, price_per_gallon, sales_tax_percent);
 
         assertEquals(expectedCost, actualCost);
