@@ -4,7 +4,9 @@ category: py
 title: SoloLrn Python Basics
 ---
 
-Go to [https://www.sololearn.com/learning/1073](https://www.sololearn.com/learning/1073) and complete Module 1 "Basic Concepts" (from Lesson 1.1 Welcome to Python to Lesson 7 Code Project)
+Go to [https://www.sololearn.com/en/learn/courses/python-introduction](https://www.sololearn.com/en/learn/courses/python-introduction) and complete Module 1 "Getting Started with Python" 
+
+This includes almost everything from Lesson Writing Code to Python to Module 1 Quiz. You will skip the PRO activities.
 
 Show Mr Riley when finished.
 
