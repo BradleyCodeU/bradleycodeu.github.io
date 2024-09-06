@@ -8,7 +8,7 @@ Java primitive data types (with ones we will use in APCSA <mark>highlighted</mar
 
   - byte: Byte data type is an 8-bit signed two's complement integer.
 
-  - Short: Short data type is a 16-bit signed two's complement integer.
+  - short: short data type is a 16-bit signed two's complement integer.
 
   - <mark>int: Int data type is a 32-bit signed two's complement integer.</mark>
 
