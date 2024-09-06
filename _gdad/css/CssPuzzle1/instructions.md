@@ -16,22 +16,20 @@ Key Points:
 
   -  <mark>"A good puzzle should explain itself"</mark> Use bright colors for important sprites. Use dull colors for background sprites. The bright sprites will catch the player's attention.
   -  "If the player has an expectation of how an object will react before attempting to interact with it, that will help them learn and understand the puzzle faster" Do NOT try to trick the player with identical looking objects that behave in different ways.
-  -  "A puzzle should be inviting and rewarding. <mark>The designer should always subtly push the player towards the correct solution."</mark> The designer and player are on the same team.
+  -  "A puzzle should be inviting and rewarding. <mark> The designer should always subtly push the player towards the correct solution."</mark> The designer and player are on the same team.
   -  <mark>"a good puzzle wants to be solved!"</mark> The designer should gradually provide more difficult (NOT impossible) challenges
-  -  "puzzles should be in their smallest solvable setup"
+  -  "puzzles should be in their smallest solvable setup" Remove unnecessary clutter.
 
 
+## PROJECT DIRECTIONS:
 
-Using [Puzzlescript](https://www.puzzlescript.net/) you will create a simple Sokoban Links to an external site. puzzle game. The Puzzlescript editor is located here: [https://www.puzzlescript.net/editor.html](https://www.puzzlescript.net/editor.html)
-
-Links to an external site.Copy/paste the starter code below.
-
+Using [Puzzlescript](https://www.puzzlescript.net/) you will create a simple [Sokoban](https://en.wikipedia.org/wiki/Sokoban) box-pushing puzzle game. The Puzzlescript editor is located here: [https://www.puzzlescript.net/editor.html](https://www.puzzlescript.net/editor.html)
 
 
-PROJECT DIRECTIONS:
+REMEMBER:
 
   1.  You MUST design your own 5x5 sprites for Background, Target, Wall, Player, Box, etc.
-  1.  Use bright colors for important sprites. Use dull colors for background sprites.
+  1.  Use bright colors for important sprites. Use dull colors for background sprites. Oops! The colors in Mr Riley's starter code need fixed!
   1.  You MUST design 5 levels that gradually increase in difficulty/complexity.
   1.  Replace the title and author.
 
