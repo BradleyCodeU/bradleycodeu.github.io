@@ -27,6 +27,20 @@ class AutomaticTester(unittest.TestCase):
         myMoney = sellPhones(-2.5)
         self.assertEqual(myMoney, -798)  # Since it's converted to -2, the result would be -2 * 399 = -798
 
+    def test_positive_values(self):
+        # Test with typical valid inputs
+        self.assertEqual(sellLemonade(1.50, 10), 15.0)
+        self.assertEqual(sellLemonade(2.25, 4), 9.0)
+    
+    def test_string_inputs(self):
+        # Test with string inputs (should still work due to conversion)
+        self.assertEqual(sellLemonade("2.00", "5"), 10.0)
+        self.assertEqual(sellLemonade("3.75", "8"), 30.0)
+    
+    def test_zero_values(self):
+        # Test with zero customers
+        self.assertEqual(sellLemonade(1.50, 0), 0.0)
+        self.assertEqual(sellLemonade(0.0, 10), 0.0)
 
 # CustomTestResult version 240225
 class CustomTestResultV240225(unittest.TextTestResult):
