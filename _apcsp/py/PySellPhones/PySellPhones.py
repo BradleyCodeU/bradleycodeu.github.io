@@ -30,28 +30,28 @@ def sellLemonade(???, ???):
     # Return the money you earned
     return ???
 
-# define a function named getLemonadeGallons
+# define a function named getMaxGallons
 # this function calculates the maximum number of gallons of lemonade 
 # that can be made based on the amount of sugar and lemons available.
 # requires two arguments: bagsOfSugar, lemons
-def getLemonadeGallons(bagsOfSugar, lemons):
-    # Convert bags of sugar to a float to ensure we can handle fractional values.
+def getMaxGallons(bagsOfSugar, lemons):
+    # Convert bags of sugar to a float so we can handle fractional values
     bagsOfSugar = float(bagsOfSugar)
-    # Convert lemons to an integer to ensure we are working with whole numbers of lemons.
+    # Convert lemons to an integer so we are working with whole numbers of lemons
     lemons = int(lemons)
-    # Calculate maximum gallons of lemonade that can be made based on amount of sugar.
-    # 1 bag of sugar makes 2 gallons of lemonade, so divide total bags of sugar by 0.5.
+    # Calculate maximum gallons of lemonade that can be made based on amount of sugar
+    # 1 bag of sugar makes 2 gallons of lemonade, so divide bags of sugar by 0.5
     maxGallonsFromSugar = ???
-    # Calculate maximum gallons of lemonade that can be made based on lemons.
-    # 6 lemons are needed to make 1 gallon of lemonade, so divide total lemons by 6.
+    # Calculate maximum gallons of lemonade that can be made based on lemons
+    # 6 lemons are needed to make 1 gallon of lemonade, so divide lemons by 6
     maxGallonsFromLemons = ???
     # Use min() function to determine maximum gallons of lemonade we can make,
-    # which is limited by smaller of two resources: sugar or lemons.
+    # which is limited by smaller of: maxGallonsFromSugar or maxGallonsFromLemons
     maxGallons = ???
-    # Convert maximum gallons to an integer to ensure we only count whole gallons.
-    # This cuts off any fractional part and gives us largest whole gallons we can make.
+    # Convert maximum gallons to an integer so we only count whole gallons
+    # This cuts off any fractional part and gives largest whole gallons we can make
     maxGallons = int(maxGallons)
-    # Return maximum gallons of lemonade that can be made with given resources.
+    # Return maximum gallons of lemonade that can be made with given resources
     return maxGallons
 
 
@@ -65,7 +65,11 @@ myMoney = sellPhones(2)
 print("Expected : 2 → 798 \nYour code: 2 → " + str(myMoney))
 myMoney = sellPhones(2.5)
 print("Expected :2.5→ 798 \nYour code:2.5→ " + str(myMoney))
-moneyEarned = sellLemonade(2.5, 2)
+moneyEarned = sellLemonade("2.5", 2)
 print("Expected : 2.5, 2 → 5.0 \nYour code: 2.5, 2 → " + str(moneyEarned))
-moneyEarned = sellLemonade(1.5, 3)
+moneyEarned = sellLemonade(1.5, "3")
 print("Expected : 1.5, 3 → 4.5 \nYour code: 1.5, 3 → " + str(moneyEarned))
+gallons = getMaxGallons("3",18)
+print("Expected : '3',18 → 3 \nYour code: '3',18 → " + str(gallons))
+gallons = getMaxGallons(1.5,"10")
+print("Expected : 1.5,'10' → 1 \nYour code: 1.5,'10' → " + str(gallons))
