@@ -31,6 +31,26 @@ class AutomaticTester(unittest.TestCase):
         amountOfPhones = buyPhones(259, 5)
         self.assertEqual(amountOfPhones, 51)
 
+    def test_successful_purchase(self):
+        # Test a successful purchase
+        self.assertEqual(buyLemons(10.0, 5, 1.5), 2.5)
+        self.assertEqual(buyLemons(20.0, 4, 4.5), 2.0)
+    
+    def test_insufficient_funds(self):
+        # Test insufficient funds
+        self.assertEqual(buyLemons(5.0, 10, 1.0), -1)
+        self.assertEqual(buyLemons(3.0, 4, 1.0), -1)
+
+    def test_string_inputs(self):
+        # Test the function with string inputs that should be converted to numbers
+        self.assertEqual(buyLemons("10.0", "5", "1.5"), 2.5)
+        self.assertEqual(buyLemons("20", "4", "4.5"), 2.0)
+    
+    def test_edge_cases(self):
+        # Test edge cases such as buying zero lemons
+        self.assertEqual(buyLemons(10.0, 0, 1.0), 10.0)
+        self.assertEqual(buyLemons(10.0, 10, 0.0), 10.0)
+
 # CustomTestResult version 240225
 class CustomTestResultV240225(unittest.TextTestResult):
     def __init__(self, stream, descriptions, verbosity):
