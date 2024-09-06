@@ -42,6 +42,35 @@ class AutomaticTester(unittest.TestCase):
         self.assertEqual(sellLemonade(1.50, 0), 0.0)
         self.assertEqual(sellLemonade(0.0, 10), 0.0)
 
+    def test_exactly_sufficient_resources(self):
+        # Test when both sugar and lemons exactly match the requirement for a specific number of gallons.
+        self.assertEqual(getLemonadeGallons(1, 6), 1)  # 1 bag of sugar and 6 lemons should make exactly 1 gallon.
+
+    def test_more_sugar_than_lemons(self):
+        # Test when there is more sugar than lemons available.
+        self.assertEqual(getLemonadeGallons(2, 6), 1)  # 2 bags of sugar but only 6 lemons (1 gallon max).
+
+    def test_more_lemons_than_sugar(self):
+        # Test when there are more lemons than sugar available.
+        self.assertEqual(getLemonadeGallons(1, 15), 2)  # 1 bag of sugar but 12 lemons (2 gallon max).
+
+    def test_more_sugar_and_lemons(self):
+        # Test when both sugar and lemons are in excess of what's needed for a specific number of gallons.
+        self.assertEqual(getLemonadeGallons(2, 12), 2)  # 2 bags of sugar and 12 lemons should make 2 gallons.
+
+    def test_fractions_of_resources(self):
+        # Test with fractional bags of sugar and lemons.
+        self.assertEqual(getLemonadeGallons(1.5, 10), 1)  # 1.5 bags of sugar and 10 lemons (1 gallon max).
+
+    def test_zero_resources(self):
+        # Test with zero resources.
+        self.assertEqual(getLemonadeGallons(0, 0), 0)  # No sugar and no lemons should make 0 gallons.
+
+    def test_non_integer_inputs(self):
+        # Test with non-integer and non-float values for resources.
+        self.assertEqual(getLemonadeGallons('3', 18), 3)  # String input for bagsOfSugar should be converted to float.
+
+
 # CustomTestResult version 240225
 class CustomTestResultV240225(unittest.TextTestResult):
     def __init__(self, stream, descriptions, verbosity):
