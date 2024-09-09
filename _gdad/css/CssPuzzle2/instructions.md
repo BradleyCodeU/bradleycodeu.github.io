@@ -12,7 +12,7 @@ PROJECT DIRECTIONS:
   1.  You MUST design your own 5x5 sprites for Background, Target, Wall, Hero, HeroWithSword, Sword, Key, Lock, Troll.
   1.  Use bright colors for important moving sprites. Use dull colors for background sprites.
   1.  Each level has 5 or more moving enemies to avoid.
-  1.  You MUST design 7 levels that gradually increase in difficulty/complexity.
+  1.  You MUST design 7 levels that gradually increase in difficulty/complexity. It MUST be possible to win.
   1.  Do NOT re-use any of Mr Riley's example levels. Those examples are provided in order to show you how the game works and maybe give you ideas about what is possible.
 
 
