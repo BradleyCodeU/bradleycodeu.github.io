@@ -44,4 +44,4 @@ Turn in a screenshot. I want to see your code as well as the image. On a PC, you
 
 Do NOT crop the screenshot like this:
 
-![Pixelated letter J](/gdad\css\hexcodepixels.png)
+![Pixelated letter J](/gdad\css\CssHexcodePixels\hexcodepixels.png)
