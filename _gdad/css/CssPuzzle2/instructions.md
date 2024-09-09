@@ -4,7 +4,7 @@ category: css
 title: Css Puzzle 2
 ---
 
-Using Puzzlescript, create a dungeon-crawler game that is similar to the original Legend of Zelda game. The goal is to collect one-time-use swords (one-time-use in order to make the game more interesting), kill trolls, unlock doors with keys, and reach the exit of the dungeon (the goal).
+Using Puzzlescript, create a dungeon-crawler game that is similar to the original Legend of Zelda game... a "Zelda-like." The goal is to collect one-time-use swords (one-time-use in order to make the game more interesting), kill trolls, unlock doors with keys, and reach the exit of the dungeon (the goal).
 
 PROJECT DIRECTIONS:
 
@@ -15,6 +15,8 @@ PROJECT DIRECTIONS:
   1.  You MUST design 7 levels that gradually increase in difficulty/complexity. It MUST be possible to win.
   1.  Do NOT re-use any of Mr Riley's example levels. Those examples are provided in order to show you how the game works and maybe give you ideas about what is possible.
 
+Here are some examples:
+![The game as might appear when finished](/gdad\css\CssPuzzle2\zeldaExamples.png)
 
 When finished, click EXPORT. Turn in your finished HTML file.
 

@@ -4,195 +4,171 @@ category: css
 title: Css Puzzle 3
 ---
 
-Using PuzzleScript, create a PacMan-like puzzle game. The goal is to collect all of the Dots without touching any Ghosts.
+Using Puzzlescript, create a game that is similar to Frogger... a "Frogger-like." The goal is to start on one side of the level and reach the other side of the level (the goal) without touching any of the moving enemies (cars and trucks).
 
-### TO DO:
+PROJECT DIRECTIONS:
 
-1. Fix the colors for the sprites
-
-1. Fix the sprites
-
+1. Replace the title and author.
+1. You MUST design your own 5x5 sprites for Background, Target, Wall, Tunnel, Player, Car, etc. The Car sprite should face left.
+1. Use bright colors for important moving sprites. Use dull colors for background sprites.
+1. Each level has 5 or more moving enemies to avoid.
 1. You MUST design 5 levels that gradually increase in difficulty/complexity. It MUST be possible to win.
+1. In level #5, add a BlueCar enemy that moves from left-to-right. Look at the existing rules to help you figure out how to move BlueCar. (Hint: Try copying the red car movement rule and switching "left" to "right" and switching "Car" to "BlueCar") You MUST restart the level if the player is on the same tile as BlueCar and MUST restart the level if the player is directly in front of BlueCar.
 
-Before:
-![The game as it appears in the starter code](/gdad\css\CssPuzzle3\PacmanExample2.png)
-After:
-![The game as might appears when finished](/gdad\css\CssPuzzle3\PacmanExample1.png)
+Here are some examples:
+![The game as might appear when finished](/gdad\css\CssPuzzle3\froggerExamples.png)
 
-When finished, click EXPORT. Turn in your finished HTML file.
+When finished, click EXPORT. Turn in your finished HTML file here.
 
-### STARTER TEMPLATE:
+ 
+
+STARTER TEMPLATE:
+
 ```
-title Pacman-like Game
+title Frog Game
+author Mr Riley
+zoomscreen 9x9
 
-author Your Name
-
-homepage none
-
-
-===========
+========
 OBJECTS
-===========
+========
 
 Background
-green
-
-Player
-black
+#aaffaa
 00000
 00000
 00000
 00000
 00000
 
-DeadPlayer
-black
-.....
+Target
+#000022
+..0..
 .000.
+00000
 .000.
-.000.
-.....
-
+..0..
 
 Wall
-black black
-00010
-11111
-01000
-11111
-00010
+#ffaa77
+00000
+00000
+00000
+00000
+00000
 
-LeftGhost
-black black black
-.....
+Tunnel
+#332211
 .000.
-1212.
-.000.
-.....
+00000
+00000
+00000
+00000
 
-UpGhost
-black black black
-..0..
-.101.
-.202.
+Player
+#001100
 .000.
-.....
+00000
+00000
+00000
+.000.
 
-RightGhost
-black black black
-.....
-.000.
-.2121
-.000.
-.....
+Car
+#220000
+00000
+00000
+00000
+00000
+00000
 
-DownGhost
-black black black
-.....
-.202.
-.101.
-.000.
-..0..
 
-Dot
-black
-.....
-.....
-..0..
-.....
-.....
 
 =======
 LEGEND
 =======
-P = Player
-G = LeftGhost
+
+. = Background
 # = Wall
-. = Dot
-Ghost = LeftGhost or UpGhost or RightGhost or DownGhost
+t = Tunnel
+p = Player
+o = Target
+c = Car
 
 =======
 SOUNDS
 =======
 
-sfx0 13969308
-sfx1 66397907
-sfx2 69186905
+TitleScreen 5337906
+ShowMessage 61224106
+CloseMessage 1241234
+Startlevel 22711100
+EndLevel 88568102
+Restart 123413
+player Move 92275707
+player CantMove 69279104
 
 ================
 COLLISIONLAYERS
 ================
+
 Background
-Dot
-Wall, Player, DeadPlayer
-Ghost
+Target
+Player, Wall, Tunnel
+Car
 
 ======
 RULES
 ======
 
-( Prevents player from walking into walls )
-[> Player|Wall] -> cancel
-( Cancels player action button )
-[action player] -> cancel
-( Player to the right, ghost moves to the right )
-left [Player|...|Ghost] -> [Player|...| < RightGhost]
-( Player to the left, ghost moves to the left )
-right [Player|...|Ghost] -> [Player|...| < LeftGhost]
-( Player below, ghost moves down)
-up [Player|...|Ghost] -> [Player|...| < DownGhost]
-( Player above, ghost moves up )
-down [Player|...|Ghost] -> [Player|...| < UpGhost]
-( Left-moving ghost continues moving left if stationary )
-[ stationary LeftGhost ] -> [ left LeftGhost ]
-( Up-moving ghost continues moving up if stationary )
-[ stationary UpGhost ] -> [ up UpGhost ]
-( Right-moving ghost continues moving right if stationary )
-[ stationary RightGhost ] -> [ right RightGhost ]
-( Down-moving ghost continues moving down if stationary )
-[ stationary DownGhost ] -> [ down DownGhost ]
-( When two ghosts collide, they bounce back in opposite directions )
-[ Ghost | Ghost ] -> [ < Ghost | > Ghost ]
-( Left-moving ghost hits a wall and turns upward )
-[ > LeftGhost | Wall ] -> [ UpGhost | Wall ]
-( Up-moving ghost hits a wall and turns right )
-[ > UpGhost | Wall ] -> [ RightGhost | Wall ]
-( Right-moving ghost hits a wall and turns downward )
-[ > RightGhost | Wall ] -> [ DownGhost | Wall ]
-( Down-moving ghost hits a wall and turns left )
-[ > DownGhost | Wall ] -> [ LeftGhost | Wall ]
-( If the player dies, restart the level and play death sound )
-[DeadPlayer] -> restart 
-( When a ghost touches the player, mark player as dead and retain ghost position )
-late [Player | Ghost] -> [DeadPlayer|Ghost] sfx0
-( Another rule for when a ghost touches the player from different movement frames )
-late [Player Ghost] -> [DeadPlayer Ghost] sfx0
-( Player collects a dot, removes the dot and plays sound )
-[ > Player | Dot ] -> [ | Player ] sfx1
+
+[ stationary Car ] -> [ left Car ]
+right [ Tunnel < Car | ... | Tunnel ] -> [ Tunnel | ... | Car Tunnel ]
+[ Player Car ] -> restart
+[ Player |< Car ] -> restart
 
 ==============
 WINCONDITIONS
 ==============
-(Win Condition: Collect all dots)
 
-no Dot 
-    
-===========
+all Player on Target
+
+=======
 LEVELS
-=========
+=======
 
 message Level 1
 
-##########
-#..G.....#
-#.###.##.#
-#..G.....#
-#.##.###.#
-#..P.....#
-#.###.##.#
-#..G.....#
-##########
+#ooooooo#
+tc....c.t
+t.c..c..t
+#.......#
+t...c.c.t
+t....c.ct
+#...p...#
+
+message Level 2
+
+#ooooooo#
+t...c...t
+t....c.t#
+#.......#
+t.....ct#
+t......ct
+t...c...t
+t....c.t#
+#.......#
+t...c.ct#
+t....c.ct
+t...c...t
+t....c.t#
+#.......#
+t.....ct#
+t......ct
+t...c...t
+t....c.t#
+#.......#
+t.c...ct#
+t..c...ct
+#...p...#
 
 ```
-
-message YOU WIN
