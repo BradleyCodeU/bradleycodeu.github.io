@@ -1,4 +1,4 @@
-# replace ALL 15 blanks with the correct code
+# replace ALL 17 blanks with the correct code
 # blanks look like this: ???
 
 # define a function named buyPhones
@@ -16,14 +16,14 @@ def buyPhones( ??? , ??? ):
     ???
     # convert amountOfPhones to an int
     ???
-    return amountOfPhones
+    return ???
 
 # define a function named buyLemons
 # this function looks at how much money you have
 # and how much lemons cost and tells you 
 # whether you can afford a certain number of lemons.
 # requires three arguments: myMoney, numLemons, costPerLemon
-def buyLemons(???, ???, ???):
+??? ???(???, ???, ???):
     # convert myMoney to a float
     ???
     # convert numLemons to an int
