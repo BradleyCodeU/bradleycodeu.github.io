@@ -30,7 +30,7 @@ REMEMBER:
 
   1.  You MUST design your own 5x5 sprites for Background, Target, Wall, Player, Box, etc.
   1.  Use bright colors for important sprites. Use dull colors for background sprites. Oops! The colors in Mr Riley's starter code need fixed!
-  1.  You MUST design 5 levels that gradually increase in difficulty/complexity.
+  1.  You MUST design 5 levels that gradually increase in difficulty/complexity. It MUST be possible to win.
   1.  Replace the title and author.
 
 When finished, click EXPORT. Turn in your finished HTML file here.
