@@ -28,8 +28,16 @@ Using [Puzzlescript](https://www.puzzlescript.net/) you will create a simple [So
 
 REMEMBER:
 
-  1.  You MUST design your own 5x5 sprites for Background, Target, Wall, Player, Box, etc.
+
   1.  Use bright colors for important sprites. Use dull colors for background sprites. Oops! The colors in Mr Riley's starter code need fixed!
+  1.  You MUST design your own 5x5 sprites for Background, Target, Wall, Player, Box, etc. NONE of your finished sprites can look like this...
+        ```
+        00000
+        00000
+        00000
+        00000
+        00000
+        ```
   1.  You MUST design 5 levels that gradually increase in difficulty/complexity. It MUST be possible to win.
   1.  Replace the title and author.
 
@@ -51,7 +59,7 @@ OBJECTS
 ========
 
 Background
-yellow green
+#FFFF00 #008000
 11111
 01111
 11101
@@ -59,7 +67,7 @@ yellow green
 10111
 
 Target
-gray lightgray
+#808080 #D3D3D3
 .....
 .010.
 .101.
@@ -67,7 +75,7 @@ gray lightgray
 .....
 
 Wall
-yellow brown
+#FFFF00 #A52A2A
 00010
 11111
 01000
@@ -75,7 +83,7 @@ yellow brown
 00010
 
 Player
-gray darkgray lightgray brown
+#808080 #A9A9A9 #D3D3D3 #A52A2A
 .00..
 .11..
 2222.
@@ -83,7 +91,7 @@ gray darkgray lightgray brown
 3..3.
 
 Box
-darkgray lightgray gray
+#A9A9A9 #D3D3D3 #808080
 00000
 01220
 02120

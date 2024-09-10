@@ -10,14 +10,20 @@ Using PuzzleScript, create a puzzle game that is similar to Pac-man... a "Pacman
 
 1. Fix the colors for the sprites
 
-1. Fix the sprites
+1. You MUST design your own 5x5 sprites for Player, Wall, etc. NONE of your finished sprites can look like this...
+    ```
+    00000
+    00000
+    00000
+    00000
+    00000
+    ```
 
 1. You MUST design 5 levels that gradually increase in difficulty/complexity. It MUST be possible to win.
 
-Before:
-![The game as it appears in the starter code](/gdad\css\CssPuzzle4\PacmanExample2.png)
-After:
-![The game as might appear when finished](/gdad\css\CssPuzzle4\PacmanExample1.png)
+Example:
+
+![The game as it might appear when finished](/gdad\css\CssPuzzle4\PacmanExample1.png)
 
 When finished, click EXPORT. Turn in your finished HTML file.
 
@@ -27,18 +33,15 @@ title Pacman-like Game
 
 author Your Name
 
-homepage none
-
-
 ===========
 OBJECTS
 ===========
 
 Background
-green
+#005500
 
 Player
-black
+#000000
 00000
 00000
 00000
@@ -46,7 +49,7 @@ black
 00000
 
 DeadPlayer
-black
+#000000
 .....
 .000.
 .000.
@@ -55,47 +58,47 @@ black
 
 
 Wall
-black black
+#000000 #000000
 00010
 11111
 01000
 11111
 00010
 
-LeftGhost
-black black black
-.....
-.000.
-1212.
-.000.
-.....
+LeftGhost (enemy facing left)
+#000000 #000000 #000000
+.0000
+00000
+12120
+00000
+.0000
 
-UpGhost
-black black black
-..0..
-.101.
-.202.
+UpGhost (enemy facing up)
+#000000 #000000 #000000
 .000.
-.....
+01010
+02020
+00000
+00000
 
-RightGhost
-black black black
-.....
-.000.
-.2121
-.000.
-.....
+RightGhost (enemy facing right)
+#000000 #000000 #000000
+0000.
+00000
+02121
+00000
+0000.
 
-DownGhost
-black black black
-.....
-.202.
-.101.
+DownGhost (enemy facing down)
+#000000 #000000 #000000
+00000
+02020
+01010
+00000
 .000.
-..0..
 
 Dot
-black
+#000000
 .....
 .....
 ..0..
@@ -193,6 +196,5 @@ message Level 1
 #..G.....#
 ##########
 
-```
-
 message YOU WIN
+```

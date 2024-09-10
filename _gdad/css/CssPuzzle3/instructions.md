@@ -9,13 +9,22 @@ Using Puzzlescript, create a game that is similar to Frogger... a "Frogger-like.
 PROJECT DIRECTIONS:
 
 1. Replace the title and author.
-1. You MUST design your own 5x5 sprites for Background, Target, Wall, Tunnel, Player, Car, etc. The Car sprite should face left.
+
 1. Use bright colors for important moving sprites. Use dull colors for background sprites.
+1. You MUST design your own 5x5 sprites for Background, Target, Wall, Tunnel, Player, Car, etc. The Car sprite should face left. NONE of your finished sprites can look like this...
+    ```
+    00000
+    00000
+    00000
+    00000
+    00000
+    ```
 1. Each level has 5 or more moving enemies to avoid.
 1. You MUST design 5 levels that gradually increase in difficulty/complexity. It MUST be possible to win.
 1. In level #5, add a BlueCar enemy that moves from left-to-right. Look at the existing rules to help you figure out how to move BlueCar. (Hint: Try copying the red car movement rule and switching "left" to "right" and switching "Car" to "BlueCar") You MUST restart the level if the player is on the same tile as BlueCar and MUST restart the level if the player is directly in front of BlueCar.
 
 Here are some examples:
+
 ![The game as might appear when finished](/gdad\css\CssPuzzle3\froggerExamples.png)
 
 When finished, click EXPORT. Turn in your finished HTML file here.

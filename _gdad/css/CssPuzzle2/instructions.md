@@ -9,13 +9,22 @@ Using Puzzlescript, create a dungeon-crawler game that is similar to the origina
 PROJECT DIRECTIONS:
 
   1.  Replace the title and author.
-  1.  You MUST design your own 5x5 sprites for Background, Target, Wall, Hero, HeroWithSword, Sword, Key, Lock, Troll.
-  1.  Use bright colors for important moving sprites. Use dull colors for background sprites.
-  1.  Each level has 5 or more moving enemies to avoid.
-  1.  You MUST design 7 levels that gradually increase in difficulty/complexity. It MUST be possible to win.
+  1.  Use bright colors for important/moving sprites. Use dull colors for background sprites.
+  1.  You MUST design your own 5x5 sprites for Background, Target, Wall, Hero, HeroWithSword, Sword, Key, Lock, Troll. NONE of your finished sprites can look like this...
+        ```
+        00000
+        00000
+        00000
+        00000
+        00000
+        ```
+
+
+  1.  You MUST design 7 levels that gradually increase in difficulty/complexity. It MUST be possible to win. Each level should have increasingly more moving enemies to avoid.
   1.  Do NOT re-use any of Mr Riley's example levels. Those examples are provided in order to show you how the game works and maybe give you ideas about what is possible.
 
 Here are some examples:
+
 ![The game as might appear when finished](/gdad\css\CssPuzzle2\zeldaExamples.png)
 
 When finished, click EXPORT. Turn in your finished HTML file.
@@ -28,31 +37,44 @@ title RPG Demo
 author Mr Riley
 flickscreen 7x7
 
-
-
 ========
 OBJECTS
 ========
 
 Background
-#001018
+#2F4F2F
+00000
+00000
+00000
+00000
+00000
 
 Target
-#ffff00
+#223322
+00000
+00000
+00000
+00000
+00000
 
 Wall
-#004048
+#304433
+00000
+00000
+00000
+00000
+00000
 
 Hero
-#aaaa00
+#2A4A2A #304433
 .000.
 .000.
-.000.
-.000.
-.000.
+01110
+.111.
+.1.1.
 
 HeroWithSword
-#aaaa66 white
+#AAAA66 #FFFFFF
 .0001
 .0001
 .0001
@@ -60,17 +82,36 @@ HeroWithSword
 .0001
 
 Sword
-white
+#441144
+00000
+00000
+00000
+00000
+00000
 
 Key
-#ff7799
+#331133
+00000
+00000
+00000
+00000
+00000
 
 Lock
-#ff7700
+#441133
+00000
+00000
+00000
+00000
+00000
 
 Troll
-#aa0000
-
+#331144
+00000
+00000
+00000
+00000
+00000
 
 =======
 LEGEND
@@ -233,5 +274,4 @@ message here is an empty level template
 ##############
 
 message you win!
-
 ```
