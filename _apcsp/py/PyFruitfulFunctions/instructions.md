@@ -29,4 +29,8 @@ print("Actual Result: " + str(actual))
 
 Mr. Riley thinks that these functions are actually broken... there is some input that will not produce the correct/expected output.
 
-Test several values until you find an outlier, a value that doesn't work as expected. At most... run 10 different test. You might want to try different data types. If you don't find an outlier after 10 tests, then just move on.
+Test several values until you find an outlier, a value that doesn't work as expected. At most... run 10 different test. You might want to try different data types. 
+
+If you can find outliers, add a print statement with your theory about what inputs won't work correctly.
+
+If you don't find an outlier after 10 tests, then just move on. 
