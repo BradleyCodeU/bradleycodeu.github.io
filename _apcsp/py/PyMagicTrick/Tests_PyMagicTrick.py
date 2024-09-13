@@ -1,3 +1,4 @@
+import os
 from PyMagicTrick import *
 import unittest
 
@@ -87,4 +88,5 @@ if __name__ == "__main__":
             print(f"🐝  {each}")
         print()
     else:
+        print(os.path.basename(__file__))
         print("✅"*result.success_count + "  All tests passed!\n")
