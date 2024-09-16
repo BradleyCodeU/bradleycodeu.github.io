@@ -16,7 +16,7 @@ towards(0,0)  # Get the angle from turtle's position to another position (x,y) o
 setheading(0) # Set turtle facing an angle. Examples: 0 (East), 45 (NE), 90 (N), 180 (W), 270 (S)
               # For example, setheading(90) will always point the turtle North.
 ```
-This project is the Python version of the Scratch Bouncing Off The Walls project. If you are using Replit or Trinket, the imaginary "walls" are -150 and 150 horizontally and then -150 and 150 vertically.
+This project is the Python version of the Scratch Bouncing Off The Walls project. If you are using Trinket, the imaginary "walls" are -150 and 150 horizontally and then -150 and 150 vertically.
 
 IMPORTANT: For this project, ```do NOT use goto() or home() or setposition()```. I want you to demonstrate that you know how to use if statements and use setheading()
 

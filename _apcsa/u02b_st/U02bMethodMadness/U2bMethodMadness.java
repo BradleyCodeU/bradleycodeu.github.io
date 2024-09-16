@@ -48,6 +48,6 @@ class Main {
     // That's 75.0%!
 
 
-    // WHEN FINISHED: On the left side of the Replit editor, click the checkmark icon. Then run the tests. Click the "Results" button to see the difference between the Expected Output and the Actual Output.
+    
   }
 }

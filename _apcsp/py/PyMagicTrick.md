@@ -8,7 +8,7 @@ In this project you will demonstrate print statements, assigning a value to a va
 
 Complete the starter code to recreate a simple magic trick from [https://nrich.maths.org/1051](https://nrich.maths.org/1051)
 
-Create a [new Python project in Replit](https://replit.com/new/python3) and copy/paste the Starter Code below. When finished, press the run button. If no errors, then show Mr Riley or turn in your Replit URL to Canvas.
+Create a new Python project and copy/paste the Starter Code below. When finished, press the run button. If no errors, then show Mr Riley.
 
 
 Starter Code:

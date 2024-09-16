@@ -15,7 +15,7 @@ Blanks look like this: ???
 
 You will also WRITE TESTS starting on line 62
 
-When finished, type in both Test Runs to make sure your code works correctly. If no errors, submit your Replit URL to Canvas
+When finished, type in both Test Runs to make sure your code works correctly. If no errors, show Mr Riley
 
 Test Run 1:
 ```

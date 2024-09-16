@@ -16,7 +16,7 @@ Inputs → Output
 
 <u>Replace ALL SIX blanks in the starter code with the correct code. Blanks look like this: ???</u>
 
-When finished, run the code. If no errors, show Mr Riley or submit the Replit URL to Canvas
+When finished, run the code. If no errors, show Mr Riley 
 
 Starter Code:
 ```python

@@ -5,7 +5,7 @@ title: Ch1 ASCII Art
 ---
 ASCII art
 
-Create a new Replit project. In that one project, complete **six** of the following Java exercises.
+Create a new Java project. In that one project, complete **six** of the following Java exercises.
 
 ## Part 1
 Choose 1 of either: E1.2 or E1.3
