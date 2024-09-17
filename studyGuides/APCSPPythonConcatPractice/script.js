@@ -24,7 +24,20 @@ const initSortableList = (e) => {
 sortableList.addEventListener("dragover", initSortableList);
 sortableList.addEventListener("dragenter", e => e.preventDefault());
 
-
+function compare(a, b) {
+  // compare the first character
+  //console.log(a)
+  const bandA = a.childNodes[1].childNodes[1].textContent.substring(0,1);
+  const bandB = b.childNodes[1].childNodes[1].textContent.substring(0,1);
+  //console.log(bandA)
+  let comparison = 0;
+  if (bandA < bandB) {
+    comparison = 1;
+  } else if (bandA > bandB) {
+    comparison = -1;
+  }
+  return comparison;
+}
 
 function shuffle() {
   var container = document.getElementsByClassName("sortable-list")[0];
@@ -34,6 +47,7 @@ function shuffle() {
     container.removeChild(element);
   })
   shuffleArray(elementsArray);
+  elementsArray.sort(compare);
   elementsArray.forEach(function(element) {
     element.classList.remove("hide");
     element.classList.remove("showMe");
