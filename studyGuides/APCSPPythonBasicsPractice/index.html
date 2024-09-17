@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Python Basics Practice</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <button class="button" onclick="shuffle()">SHUFFLE</button>
+  <p>What will print when this code runs?</p>
+  <p></p>
+  <p class="item indent2" style="font-size: 1.5rem;">x = 1</p>
+  <p class="item indent2" style="font-size: 1.5rem;">y = 2</p>
+  <ul class="sortable-list">
+
+    <li class="item" draggable="true">
+      <div class="details">
+        <span class="code">x = x + y <sup>*</sup> 2</span>
+      </div>
+      <span class="alignright indent1 dragicon">&#8942;&#8942;</span>
+    </li>
+
+    <li class="item" draggable="true">
+      <div class="details">
+        <span class="code">y = y - x</span>
+      </div>
+      <span class="alignright indent1 dragicon">&#8942;&#8942;</span>
+    </li>
+
+    <li class="item" draggable="true">
+      <div class="details">
+        <span class="code">x = y + 3</span>
+      </div>
+      <span class="alignright indent1 dragicon">&#8942;&#8942;</span>
+    </li>
+
+    <li class="item" draggable="true">
+      <div class="details">
+        <span class="code">x = x + y</span>
+      </div>
+      <span class="alignright indent1 dragicon">&#8942;&#8942;</span>
+    </li>
+
+    <li class="item" draggable="true">
+      <div class="details">
+        <span class="code">y = 5 + x</span>
+      </div>
+      <span class="alignright indent1 dragicon">&#8942;&#8942;</span>
+    </li>
+
+    <li class="item" draggable="true">
+      <div class="details">
+        <span class="code">x = x + 1</span>
+      </div>
+      <span class="alignright indent1 dragicon">&#8942;&#8942;</span>
+    </li>
+
+    <li class="item" draggable="true">
+      <div class="details">
+        <span class="code">x = x + 2</span>
+      </div>
+      <span class="alignright indent1 dragicon">&#8942;&#8942;</span>
+    </li>
+
+    <li class="item" draggable="true">
+      <div class="details">
+        <span class="code">x = x <sup>*</sup> y</span>
+      </div>
+      <span class="alignright indent1 dragicon">&#8942;&#8942;</span>
+    </li>
+
+    <li class="item" draggable="true">
+      <div class="details">
+        <span class="code">x = x / 2</span>
+      </div>
+      <span class="alignright indent1 dragicon">&#8942;&#8942;</span>
+    </li>
+
+    <li class="item" draggable="true">
+      <div class="details">
+        <span class="code">x = int(x)</span>
+      </div>
+      <span class="alignright indent1 dragicon">&#8942;&#8942;</span>
+    </li>
+
+    <li class="item" draggable="true">
+      <div class="details">
+        <span class="code">x = min(x, y)</span>
+      </div>
+      <span class="alignright indent1 dragicon">&#8942;&#8942;</span>
+    </li>
+
+    <li class="item" draggable="true">
+    <div class="details">
+      <span class="code">x = max(x, y)</span>
+    </div>
+    <span class="alignright indent1 dragicon">&#8942;&#8942;</span>
+  </li>
+
+    <li class="item" draggable="true">
+      <div class="details">
+        <span class="code">y = x + y</span>
+      </div>
+      <span class="alignright indent1 dragicon">&#8942;&#8942;</span>
+    </li>
+    <li class="item" draggable="true">
+      <div class="details">
+        <span class="code">x = y</span>
+      </div>
+      <span class="alignright indent1 dragicon">&#8942;&#8942;</span>
+    </li>
+
+
+  </ul>
+  <p class="indent2" style="font-size: 1.5rem;">print(x)</p>
+
+  <button class="button" onclick="revealAnswer()">REVEAL ANSWER</button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
