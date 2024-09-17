@@ -9,7 +9,7 @@ class U01bModClock {
     // TODO convert from double to String. 0.9 -> "0.9"
     String minutesString = ???;
     // use substring to extract only the two digits we need. "0.9" -> "09"
-    return minutesString.substring(0,1) + minutesString.substring(2);
+    return minutesString.substring(0,1) + minutesString.substring(2,3);
     // Credit to Conlan D. for the above awesome hack that adds a leading zero without if-statement!
   }
 
