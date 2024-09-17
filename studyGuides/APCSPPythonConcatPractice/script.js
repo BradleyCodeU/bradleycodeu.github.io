@@ -1,5 +1,6 @@
 const sortableList = document.querySelector(".sortable-list");
 const items = sortableList.querySelectorAll(".item");
+const maxDisplayedItems = 6;
 items.forEach(item => {
   item.addEventListener("dragstart", () => {
     // Adding dragging class to item after a delay
@@ -27,7 +28,7 @@ sortableList.addEventListener("dragenter", e => e.preventDefault());
 
 function shuffle() {
   var container = document.getElementsByClassName("sortable-list")[0];
-
+  let currentlyDisplayed = 0;
   var elementsArray = Array.prototype.slice.call(container.getElementsByClassName('item'));
   elementsArray.forEach(function(element) {
     container.removeChild(element);
@@ -36,10 +37,11 @@ function shuffle() {
   elementsArray.forEach(function(element) {
     element.classList.remove("hide");
     element.classList.remove("showMe");
-    if(Math.random() > 0.5){
+    if(Math.random() > 0.5 || currentlyDisplayed >= maxDisplayedItems){
       element.classList.add("hide");
     }else{
       element.classList.add("showMe");
+      currentlyDisplayed++;
     }
     container.appendChild(element);
   })
