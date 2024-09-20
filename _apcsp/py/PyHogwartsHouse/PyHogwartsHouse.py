@@ -1,5 +1,5 @@
 
-# Fill in ALL 15 blanks with the correct code.
+# Fill in ALL 15 blanks with the correct code to complete PART ONE
 # Blanks look like this: ???
 
 # Create a function called validateNumber, that requires one
@@ -25,14 +25,16 @@ def getHouse(bravery, teamwork):
   bravery = float(bravery)
   # Convert teamwork from string to float
   ???
+  # Read this tutorial...
+  # How to use AND Operator in Python IF? https://pythonexamples.org/python-if-and/
   # If bravery & teamwork are both above 5 then return "Gryffindor"
-  if bravery > 5 also? teamwork? ???:
+  if bravery > 5 and also? teamwork ???:
     return ???
   # If bravery is 5 or less & teamwork is above 5 return "Hufflepuff"
-  if bravery <= 5 and? ???:
+  if bravery <= 5 also? ???:
     return ???
   # If bravery & teamwork are both 5 or less then return "Ravenclaw"
-  if bravery <= 5 &? ???:
+  if bravery <= 5 also? ???:
     return ???
   # If bravery is above 5 & teamwork is 5 or less return "Slytherin"
   if bravery > 5 also? ???:
@@ -52,4 +54,4 @@ def main():
     result = getHouse(braveryStr, teamworkStr)
     print(result)
 
-# main()
+main()
