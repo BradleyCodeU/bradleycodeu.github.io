@@ -103,4 +103,4 @@ def main():
   salePrice = float(input())
   profit = calculateProfit(investMoney, usedPrice, repairPrice, salePrice)
   print("-----Re$ult-----\nYou earned $"+str(round(profit,2))+" in profit")
-#main()
+main()
