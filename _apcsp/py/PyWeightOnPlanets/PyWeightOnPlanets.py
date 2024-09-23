@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import ttk
-import sv_ttk
+
 
 
 def validNumber(userInput):
@@ -51,5 +51,4 @@ numberEntry.pack()
 ttk.Button(root, text="Planet 1", command=lambda: getWeightOnPlanet(1)).pack()  #change text once you choose your planets
 ttk.Button(root, text="Planet 2", command=lambda: getWeightOnPlanet(2)).pack()  #change text once you choose your planets
 ttk.Button(root, text="Planet 3", command=lambda: getWeightOnPlanet(3)).pack()  #change text once you choose your planets
-sv_ttk.set_theme("dark")
 tk.mainloop()
