@@ -5,29 +5,29 @@ import unittest
 class AutomaticTester(unittest.TestCase):
 
     def test_validateNumber(self):
-        self.assertEquals(validateNumber("1"), True)
-        self.assertEquals(validateNumber(5), True)
-        self.assertEquals(validateNumber("10"), True)
-        self.assertEquals(validateNumber("0"), False)
-        self.assertEquals(validateNumber("11"), False)
-        self.assertEquals(validateNumber(-1), False)
-        self.assertEquals(validateNumber(9999), False)
+        self.assertEqual(validateNumber("1"), True)
+        self.assertEqual(validateNumber(5), True)
+        self.assertEqual(validateNumber("10"), True)
+        self.assertEqual(validateNumber("0"), False)
+        self.assertEqual(validateNumber("11"), False)
+        self.assertEqual(validateNumber(-1), False)
+        self.assertEqual(validateNumber(9999), False)
 
     def test_getHouse_Gryffindor(self):
-        self.assertEquals(getHouse(9, 6), "Gryffindor")
-        self.assertEquals(getHouse("7", "8"), "Gryffindor")
+        self.assertEqual(getHouse(9, 6), "Gryffindor")
+        self.assertEqual(getHouse("7", "8"), "Gryffindor")
 
     def test_getHouse_Hufflepuff(self):
-        self.assertEquals(getHouse(5, 6), "Hufflepuff")
-        self.assertEquals(getHouse("1", "9"), "Hufflepuff")
+        self.assertEqual(getHouse(5, 6), "Hufflepuff")
+        self.assertEqual(getHouse("1", "9"), "Hufflepuff")
 
     def test_getHouse_Ravenclaw(self):
-        self.assertEquals(getHouse(5,5), "Ravenclaw")
-        self.assertEquals(getHouse("2","1"), "Ravenclaw")
+        self.assertEqual(getHouse(5,5), "Ravenclaw")
+        self.assertEqual(getHouse("2","1"), "Ravenclaw")
 
     def test_getHouse_Slytherin(self):
-        self.assertEquals(getHouse(6,5), "Slytherin")
-        self.assertEquals(getHouse("10","1"), "Slytherin")
+        self.assertEqual(getHouse(6,5), "Slytherin")
+        self.assertEqual(getHouse("10","1"), "Slytherin")
 
 # CustomTestResult version 240225
 class CustomTestResultV240225(unittest.TextTestResult):

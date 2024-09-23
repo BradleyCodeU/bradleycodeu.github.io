@@ -197,29 +197,29 @@ class BaseballPlayer:
 tests:
 ```
 # isballhit
-self.assertEquals(isBallHit(False, False).lower(), "ball")
-self.assertEquals(isBallHit(True, False).lower(), "strike looking")
-self.assertEquals(isBallHit(False, True).lower(), "strike swinging")
-self.assertEquals(isBallHit(True, True).lower(), "hit")
+self.assertEqual(isBallHit(False, False).lower(), "ball")
+self.assertEqual(isBallHit(True, False).lower(), "strike looking")
+self.assertEqual(isBallHit(False, True).lower(), "strike swinging")
+self.assertEqual(isBallHit(True, True).lower(), "hit")
 
 
 mylist = [1,2,3]
-self.assertEquals(validIndex(mylist, -1), False)
-self.assertEquals(validIndex(mylist, 0), True)
-self.assertEquals(validIndex(mylist, 2), True)
-self.assertEquals(validIndex(mylist, 3), False)
+self.assertEqual(validIndex(mylist, -1), False)
+self.assertEqual(validIndex(mylist, 0), True)
+self.assertEqual(validIndex(mylist, 2), True)
+self.assertEqual(validIndex(mylist, 3), False)
 mylist = [1,2,3,4,5,6,7]
-self.assertEquals(validIndex(mylist, -1), False)
-self.assertEquals(validIndex(mylist, 0), True)
-self.assertEquals(validIndex(mylist, 6), True)
-self.assertEquals(validIndex(mylist, 7), False)
+self.assertEqual(validIndex(mylist, -1), False)
+self.assertEqual(validIndex(mylist, 0), True)
+self.assertEqual(validIndex(mylist, 6), True)
+self.assertEqual(validIndex(mylist, 7), False)
 
 
 mylist = addPlayers()
 foo = BaseballPlayer()
-self.assertEquals(5<=len(mylist)<=10, True)
+self.assertEqual(5<=len(mylist)<=10, True)
 for each in mylist:
- self.assertEquals(type(foo) is type(each),True)
+ self.assertEqual(type(foo) is type(each),True)
 
 
 # getbatswing
@@ -227,19 +227,19 @@ for each in mylist:
  x.battingAccuracy = -1
  for i in range(100):
    # swings at bad pitches
-   self.assertEquals(x.getBatSwing(False), True)
+   self.assertEqual(x.getBatSwing(False), True)
    # doesn't swing at good
-   self.assertEquals(x.getBatSwing(True), False)
+   self.assertEqual(x.getBatSwing(True), False)
  x.battingAccuracy = 11
  for i in range(100):
-   self.assertEquals(x.getBatSwing(True), True)
-   self.assertEquals(x.getBatSwing(False), False)
+   self.assertEqual(x.getBatSwing(True), True)
+   self.assertEqual(x.getBatSwing(False), False)
  x.battingAccuracy = 7.5
  mylist = []
  for i in range(100):
    mylist.append(x.getBatSwing(True))
- self.assertEquals(True in mylist, True)
- self.assertEquals(False in mylist, True)
+ self.assertEqual(True in mylist, True)
+ self.assertEqual(False in mylist, True)
 
 
 
@@ -247,43 +247,43 @@ for each in mylist:
 x = BaseballPlayer()
 x.pitchingAccuracy = -1
 for i in range(100):
-  self.assertEquals(x.getIfGoodPitch(), False)
+  self.assertEqual(x.getIfGoodPitch(), False)
 x.pitchingAccuracy = 11
 for i in range(100):
-  self.assertEquals(x.getIfGoodPitch(), True)
+  self.assertEqual(x.getIfGoodPitch(), True)
 x.pitchingAccuracy = 5
 mylist = []
 for i in range(100):
   mylist.append(x.getIfGoodPitch())
-self.assertEquals(True in mylist, True)
-self.assertEquals(False in mylist, True)
+self.assertEqual(True in mylist, True)
+self.assertEqual(False in mylist, True)
 
 
 x = BaseballPlayer()
 first = x.firstName
-self.assertEquals(first in x.getName(), True)
+self.assertEqual(first in x.getName(), True)
 last = x.lastName
-self.assertEquals(last in x.getName(), True)
+self.assertEqual(last in x.getName(), True)
 
 
 # getPitchingGrade
 x = BaseballPlayer()
 x.pitchingStrength = 1
 x.pitchingAccuracy = 3
-self.assertEquals(x.getPitchingGrade(), 2)
+self.assertEqual(x.getPitchingGrade(), 2)
 x.pitchingStrength = 7
 x.pitchingAccuracy = 3
-self.assertEquals(x.getPitchingGrade(), 5)
+self.assertEqual(x.getPitchingGrade(), 5)
 
 
 # getBattingGrade
 x = BaseballPlayer()
 x.battingStrength = 1
 x.battingAccuracy = 3
-self.assertEquals(x.getBattingGrade(), 2)
+self.assertEqual(x.getBattingGrade(), 2)
 x.battingStrength = 7
 x.battingAccuracy = 3
-self.assertEquals(x.getBattingGrade(), 5)
+self.assertEqual(x.getBattingGrade(), 5)
 
 
 # boostPitching_boostBatting
@@ -293,17 +293,17 @@ pAcc = x.pitchingAccuracy
 bStr = x.battingStrength
 bAcc = x.battingAccuracy
 x.boostPitching()
-self.assertEquals(pStr < x.pitchingStrength, True)
-self.assertEquals(pAcc < x.pitchingAccuracy, True)
+self.assertEqual(pStr < x.pitchingStrength, True)
+self.assertEqual(pAcc < x.pitchingAccuracy, True)
 x.boostBatting()
-self.assertEquals(bStr < x.battingStrength, True)
-self.assertEquals(bAcc < x.battingAccuracy, True)
+self.assertEqual(bStr < x.battingStrength, True)
+self.assertEqual(bAcc < x.battingAccuracy, True)
 
 
 # init
 x = BaseballPlayer()
-self.assertEquals(0<=x.pitchingStrength<=10, True)
-self.assertEquals(0<=x.battingStrength<=10, True)
-self.assertEquals(0<=x.pitchingAccuracy<=10, True)
-self.assertEquals(0<=x.battingAccuracy<=10, True)
+self.assertEqual(0<=x.pitchingStrength<=10, True)
+self.assertEqual(0<=x.battingStrength<=10, True)
+self.assertEqual(0<=x.pitchingAccuracy<=10, True)
+self.assertEqual(0<=x.battingAccuracy<=10, True)
 ```

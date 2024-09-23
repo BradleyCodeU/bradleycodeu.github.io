@@ -126,31 +126,31 @@ def main():
 tests:
 ```
 for i in range(100):
-    self.assertEquals(70.704<=getChefGrade( 7000, 5000 )<=71.725, True)
-    self.assertEquals(42.74<=getChefGrade( 7000, 8000 )<=43.76, True)
-    self.assertEquals(99.0<=getChefGrade( 14000, 14000 )<=100.0, True)
-    self.assertEquals(48.986<=getChefGrade( 14000, 14001 )<=50.999, True)
+    self.assertEqual(70.704<=getChefGrade( 7000, 5000 )<=71.725, True)
+    self.assertEqual(42.74<=getChefGrade( 7000, 8000 )<=43.76, True)
+    self.assertEqual(99.0<=getChefGrade( 14000, 14000 )<=100.0, True)
+    self.assertEqual(48.986<=getChefGrade( 14000, 14001 )<=50.999, True)
 
-self.assertEquals(calculateChiliScore( {'numBanana':0, 'numPoblano':0, 'numJalapeno':0} ), 0)
+self.assertEqual(calculateChiliScore( {'numBanana':0, 'numPoblano':0, 'numJalapeno':0} ), 0)
  for i in range(100):
-   self.assertEquals(3500<=calculateChiliScore( {'numBanana':1, 'numPoblano':1, 'numJalapeno':1} )<=10500, True)
-   self.assertEquals(35000<=calculateChiliScore( {'numBanana':10, 'numPoblano':10, 'numJalapeno':10} )<=105000, True)
+   self.assertEqual(3500<=calculateChiliScore( {'numBanana':1, 'numPoblano':1, 'numJalapeno':1} )<=10500, True)
+   self.assertEqual(35000<=calculateChiliScore( {'numBanana':10, 'numPoblano':10, 'numJalapeno':10} )<=105000, True)
 
 for i in range(100):
-  self.assertEquals(2500<=jalapenoPepper()<=8000, True)
+  self.assertEqual(2500<=jalapenoPepper()<=8000, True)
 
 for i in range(100):
-    self.assertEquals(1000<=poblanoPepper()<=2000, True)
+    self.assertEqual(1000<=poblanoPepper()<=2000, True)
 
 for i in range(100):
-  self.assertEquals(0<=bananaPepper()<=500, True)
+  self.assertEqual(0<=bananaPepper()<=500, True)
 
-self.assertEquals(validInteger(0), True)
-self.assertEquals(validInteger("5"), True)
-self.assertEquals(validInteger("two"), False)
-self.assertEquals(validInteger(-1), False)
-self.assertEquals(validInteger(6), False)
-self.assertEquals(validInteger(99), False)
+self.assertEqual(validInteger(0), True)
+self.assertEqual(validInteger("5"), True)
+self.assertEqual(validInteger("two"), False)
+self.assertEqual(validInteger(-1), False)
+self.assertEqual(validInteger(6), False)
+self.assertEqual(validInteger(99), False)
 
 
 ```

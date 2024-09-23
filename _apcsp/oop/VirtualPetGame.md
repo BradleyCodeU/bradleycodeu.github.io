@@ -211,15 +211,15 @@ self.assertTrue(type(x.emoji) is type("ljks"))
 
 
 self.assertTrue(isGameOver(-1))
-self.assertEquals(isGameOver(1), False)
+self.assertEqual(isGameOver(1), False)
 self.assertTrue(isGameOver(101))
-self.assertEquals(isGameOver(99), False)
+self.assertEqual(isGameOver(99), False)
 
 
 x = Pet()
 x.hungerLevel = 99
 # 4 unhappy -> 46
-self.assertEquals(updateScore(50, [x,x,x,x]), 46)
+self.assertEqual(updateScore(50, [x,x,x,x]), 46)
 
 
 y = Pet()
@@ -227,11 +227,11 @@ y.hungerLevel = 0
 y.boredomLevel = 0
 y.thirstLevel = 0
 # 4 happy -> 57
-self.assertEquals(updateScore(50, [y,y,y,y]), 57)
+self.assertEqual(updateScore(50, [y,y,y,y]), 57)
 
 
 arr = getPetList()
-self.assertEquals(len(arr), 4)
+self.assertEqual(len(arr), 4)
 x = Pet()
 for each in arr:
   self.assertTrue(type(each) is type(x) )

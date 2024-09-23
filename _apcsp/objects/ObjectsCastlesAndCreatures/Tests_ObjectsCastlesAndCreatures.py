@@ -12,58 +12,58 @@ class AutomaticTester(unittest.TestCase):
             wins += 1
             else:
             fails += 1
-        self.assertEquals(10 <= wins <= 50 and 50 <= fails <= 90, 1)
+        self.assertEqual(10 <= wins <= 50 and 50 <= fails <= 90, 1)
     def test_validInput(self):
         #validInput(0)| False |
         #|validInput(1)| True |
         #|validInput("4")| True |
         #|validInput(5)| False |
         #|validInput("one")| False |
-        self.assertEquals(validInput(0), False)
-        self.assertEquals(validInput(1), True)
-        self.assertEquals(validInput("4"), True)
-        self.assertEquals(validInput(5), False)
-        self.assertEquals(validInput("one"), False)
+        self.assertEqual(validInput(0), False)
+        self.assertEqual(validInput(1), True)
+        self.assertEqual(validInput("4"), True)
+        self.assertEqual(validInput(5), False)
+        self.assertEqual(validInput("one"), False)
     def test_isPlayerAlive(self):
-        self.assertEquals(isPlayerAlive(-1), False)
-        self.assertEquals(isPlayerAlive(0), False)
-        self.assertEquals(isPlayerAlive(1), True)
+        self.assertEqual(isPlayerAlive(-1), False)
+        self.assertEqual(isPlayerAlive(0), False)
+        self.assertEqual(isPlayerAlive(1), True)
     def test_playerLoseHealth(self):
         x = makeEnemy("x",50,60)
         for i in range(100):
-            self.assertEquals(50<=playerLoseHealth(100,x)<=99, True)
-            self.assertEquals(0<=playerLoseHealth(50,x)<=49, True)
+            self.assertEqual(50<=playerLoseHealth(100,x)<=99, True)
+            self.assertEqual(0<=playerLoseHealth(50,x)<=49, True)
     def test_enemyLoseHealth(self):
         x = makeEnemy("x",1,200)
         x['weakness'] = 2
         #enemyLoseHealth(2,x)|Only returns 182 - 197
         for i in range(100):
-            self.assertEquals(182<=enemyLoseHealth(2,x)<=197, True)
-            self.assertEquals(188<=enemyLoseHealth(5,x)<=198, True)
+            self.assertEqual(182<=enemyLoseHealth(2,x)<=197, True)
+            self.assertEqual(188<=enemyLoseHealth(5,x)<=198, True)
     def test_rollDice(self):
         #|rollDice(0)| 0 |
         #|rollDice(1)| Only returns 1 - 6 |
         #|rollDice(2)| Only returns 2 - 12 |
         #|rollDice(10)| Only returns 10 - 60 |
         for i in range(100):
-            self.assertEquals(rollDice(0), 0)
-            self.assertEquals(1<=rollDice(1)<=6, True)
-            self.assertEquals(2<=rollDice(2)<=12, True)
-            self.assertEquals(10<=rollDice(10)<=60, True)
+            self.assertEqual(rollDice(0), 0)
+            self.assertEqual(1<=rollDice(1)<=6, True)
+            self.assertEqual(2<=rollDice(2)<=12, True)
+            self.assertEqual(10<=rollDice(10)<=60, True)
     def test_makeEnemy(self):
         # |x = makeEnemy("Shrek",10,20)<br>x['power']|10|
         # |x = makeEnemy("Donkey",50,60)<br>x['health']|60|
         # |x = makeEnemy("Fiona",70,77)<br>x['name']|"Fiona"|
         # |x = makeEnemy("Fiona",70,77)<br>x['weakness']|Only returns 1 - 3|
         x1 = makeEnemy("Shrek",10,20)
-        self.assertEquals(x1['power'], 10)
+        self.assertEqual(x1['power'], 10)
         x2 = makeEnemy("Donkey",50,60)
-        self.assertEquals(x2['health'], 60)
+        self.assertEqual(x2['health'], 60)
         x3 = makeEnemy("Fiona",70,77)
-        self.assertEquals(x3['name'], "Fiona")
+        self.assertEqual(x3['name'], "Fiona")
         for i in range(10):
             x3 = makeEnemy("Fiona",70,77)
-            self.assertEquals(1<=x3['weakness']<=3, True)
+            self.assertEqual(1<=x3['weakness']<=3, True)
 
 # CustomTestResult version 240225
 class CustomTestResultV240225(unittest.TextTestResult):

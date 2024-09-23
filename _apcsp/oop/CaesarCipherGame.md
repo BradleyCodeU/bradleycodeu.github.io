@@ -175,27 +175,27 @@ tests:
 
 listA=[]
 listB=[{'name':'Ann','score':3}]
-self.assertEquals(addScore("Ann",3,listA)[0],listB[0])
+self.assertEqual(addScore("Ann",3,listA)[0],listB[0])
 list2=[{'name':'Ann','score':3}]
 list3=addScore("Bob",4,list2)
 list2=[{'name':'Ann','score':3},{'name':'Bob','score':4}]
-self.assertEquals(list2[0], list3[0])
-self.assertEquals(list2[1], list3[1])
+self.assertEqual(list2[0], list3[0])
+self.assertEqual(list2[1], list3[1])
 
 
-self.assertEquals(validInt(13),	True)
-self.assertEquals(validInt("one"),	False)
+self.assertEqual(validInt(13),	True)
+self.assertEqual(validInt("one"),	False)
 
 
-self.assertEquals(randomSecretCode(['a'],['a'],['a']),"aaa")
-self.assertEquals(randomSecretCode(['b'],['b'],['b']),"bbb")
+self.assertEqual(randomSecretCode(['a'],['a'],['a']),"aaa")
+self.assertEqual(randomSecretCode(['b'],['b'],['b']),"bbb")
 
 
-self.assertEquals(caesarDecrypt("hthtszy",5),"coconut")
-self.assertEquals(caesarDecrypt("^iphe",4),"Zelda")
+self.assertEqual(caesarDecrypt("hthtszy",5),"coconut")
+self.assertEqual(caesarDecrypt("^iphe",4),"Zelda")
 
 
-self.assertEquals(caesarEncrypt("apple",1), "bqqmf")
-self.assertEquals(caesarEncrypt("Banana",2), "Dcpcpc")
+self.assertEqual(caesarEncrypt("apple",1), "bqqmf")
+self.assertEqual(caesarEncrypt("Banana",2), "Dcpcpc")
 
 ```

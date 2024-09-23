@@ -78,29 +78,29 @@ def middleLetter(str):
 
 Tests
 ```
-self.assertEquals(True, startsWithA("Apple"))
-self.assertEquals(True, startsWithA("alaska"))
-self.assertEquals(False, startsWithA("Ohio"))
-self.assertEquals(True, startsWithA("aaa"))
-self.assertEquals(True, startsWithA("AAA"))
-self.assertEquals(False, startsWithA("lkjasdf"))
+self.assertEqual(True, startsWithA("Apple"))
+self.assertEqual(True, startsWithA("alaska"))
+self.assertEqual(False, startsWithA("Ohio"))
+self.assertEqual(True, startsWithA("aaa"))
+self.assertEqual(True, startsWithA("AAA"))
+self.assertEqual(False, startsWithA("lkjasdf"))
 
 
-self.assertEquals(middleLetter("Apple"), "p")
-self.assertEquals(middleLetter("alaska"), "s")
-self.assertEquals(middleLetter("Ohio"), "i")
-self.assertEquals(middleLetter("qwerty"), "r")
-self.assertEquals(middleLetter("qwert"), "e")
-self.assertEquals(middleLetter("qw"), "w")
-self.assertEquals(middleLetter("123456789"), "5")
+self.assertEqual(middleLetter("Apple"), "p")
+self.assertEqual(middleLetter("alaska"), "s")
+self.assertEqual(middleLetter("Ohio"), "i")
+self.assertEqual(middleLetter("qwerty"), "r")
+self.assertEqual(middleLetter("qwert"), "e")
+self.assertEqual(middleLetter("qw"), "w")
+self.assertEqual(middleLetter("123456789"), "5")
 
 
-self.assertEquals(firstAndLast("Apple"), "Ae")
-self.assertEquals(firstAndLast("alaska"), "aa")
-self.assertEquals(firstAndLast("Ohio"), "Oo")
-self.assertEquals(firstAndLast("lkjasdf"), "lf")
-self.assertEquals(firstAndLast("lf"), "lf")
-self.assertEquals(firstAndLast("qkjsdfkjsdq"), "qq")
+self.assertEqual(firstAndLast("Apple"), "Ae")
+self.assertEqual(firstAndLast("alaska"), "aa")
+self.assertEqual(firstAndLast("Ohio"), "Oo")
+self.assertEqual(firstAndLast("lkjasdf"), "lf")
+self.assertEqual(firstAndLast("lf"), "lf")
+self.assertEqual(firstAndLast("qkjsdfkjsdq"), "qq")
 ```
 
   

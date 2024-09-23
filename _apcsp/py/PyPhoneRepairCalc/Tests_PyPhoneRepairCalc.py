@@ -11,8 +11,8 @@ class AutomaticTester(unittest.TestCase):
 
     def test_buyPhones(self):
         # Enter code here
-        self.assertEquals(buyPhones(101, 50), 2)
-        self.assertEquals(buyPhones("600", "51"), 11)
+        self.assertEqual(buyPhones(101, 50), 2)
+        self.assertEqual(buyPhones("600", "51"), 11)
         
     def test_sellPhones(self):
         self.assertAlmostEqual(sellPhones(2, 5), 10.0)
