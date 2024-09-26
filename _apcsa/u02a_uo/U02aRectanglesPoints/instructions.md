@@ -11,7 +11,7 @@ Check out the Rectangle class in the Java API:
 
 You will create ONE class with one public static void main() that contains code for the following 3 exercises.
 
-## E2.1
+## Part 1 of 3
 
 Write a program that:
   1.  Constructs a Rectangle object.
@@ -34,45 +34,30 @@ New height is 26.0
 New area is 650.0
 ```
 
-## E2.5
+## Part 2 of 3
 
 Look into the API documentation of the Rectangle class and locate the method
 ```
-void add(int newx, int newy)
-```
-Read through the method documentation. Then estimate the result of the following statements:
-```
-Rectangle box = new Rectangle(5, 10, 20, 30);
-box.add(0, 0);
-```
-Print your *predicted* new X location, new Y location, new width, and new height. *NOTE: Your prediction CAN be inaccurate.*
-
-Write a program that will...
-
-  1.  Print your predicted X location for the final box
-  1.  Print your predicted Y location for the final box
-  1.  Print your predicted width for the final box
-  1.  Print your predicted height for the final box
-  1.  Instantiate a rectangle at 5, 10 that is 20 wide and 30 tall
-  1.  Add the point 0, 0 to the rectangle
-  1.  Print the actual X location (using the getX method) of the final box
-  1.  Print the actual Y location (using the getY method) of the final box
-  1.  Print the actual width (using getWidth method) of the final box
-  1.  Print the actual height (using getHeight method) of the final box
-
-Sample Output
-```
-Estimated X location = 0
-Estimated Y location = 0
-Estimated width = 20
-Estimated height = 30
-Actual X location of the rectangle =       0.0
-Actual Y location of the rectangle =       0.0
-Actual width of the rectangle =           25.0
-Actual height of the rectangle =          40.0
+boolean contains(int x, int y)
 ```
 
-## E2.14
+Directions:
+- Construct a new Rectangle named mysteryBox at any x,y location (your choice!) with a width of 20 and a height of 30.
+- Prompt the user for an x location
+- Prompt the user for a y location
+- Print mysteryBox.contains(x,y)
+- Finally, print mysteryBox to reveal the x, y, width, and height
+    
+Sample Output  (your mysteryBox should be at a different location)
+```
+Part 2 of 3
+Please type x location: 15
+Please type y location: 17
+true
+java.awt.Rectangle[x=9,y=10,width=20,height=30]
+```
+
+## Part 3 of 3
 
 [Java Point class API](https://docs.oracle.com/javase/7/docs/api/java/awt/Point.html)
 
