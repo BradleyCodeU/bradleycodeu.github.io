@@ -9,6 +9,7 @@ public class U02aRectanglesPoints {
     // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
     
     // Part 1 of 3
+    System.out.println("Part 1 of 3");
     
     // Write a program that:
 
@@ -34,46 +35,32 @@ public class U02aRectanglesPoints {
     // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
     // Part 2 of 3
+    System.out.println("Part 2 of 3");
 
     // Look into the API documentation of the Rectangle class and locate the method
     
-    // void add(int newx, int newy)
+    // boolean contains(int x, int y)
     
-    // Read through the method documentation. Then estimate the result of the following statements:
-    
-    // Rectangle box = new Rectangle(5, 10, 20, 30);
-    // box.add(0, 0);
-    
-    // Print your predicted new X location, new Y location, new width, and new height. NOTE: Your prediction CAN be inaccurate.
-    
-    // Write a program that will...
-    
-    // Print your predicted X location for the final box
-    // Print your predicted Y location for the final box
-    // Print your predicted width for the final box
-    // Print your predicted height for the final box
-    // Instantiate a rectangle at 5, 10 that is 20 wide and 30 tall
-    // Add the point 0, 0 to the rectangle
-    // Print the actual X location (using the getX method) of the final box
-    // Print the actual Y location (using the getY method) of the final box
-    // Print the actual width (using getWidth method) of the final box
-    // Print the actual height (using getHeight method) of the final box
+    // Construct a new Rectangle named mysteryBox at any x,y location (your choice!) with a width of 20 and a height of 30.
+
+    // Prompt the user for an x location
+    // Prompt the user for a y location
+    // Print mysteryBox.contains(x,y)
+    // Finally, print mysteryBox to reveal the x, y, width, and height
     
     
-    // Sample Output
+    // Sample Output (your mysteryBox should be at a different location)
     
-    // Estimated X location = 0
-    // Estimated Y location = 0
-    // Estimated width = 20
-    // Estimated height = 30
-    // Actual X location of the rectangle =       0.0
-    // Actual Y location of the rectangle =       0.0
-    // Actual width of the rectangle =           25.0
-    // Actual height of the rectangle =          40.0
+    // Part 2 of 3
+    // Please type x location: 15
+    // Please type y location: 17
+    // true
+    // java.awt.Rectangle[x=9,y=10,width=20,height=30]
 
     // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
     // Part 3 of 3
+    System.out.println("Part 3 of 3");
 
     // https://docs.oracle.com/javase/7/docs/api/java/awt/Point.html
 
