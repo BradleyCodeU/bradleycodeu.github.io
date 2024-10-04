@@ -31,6 +31,4 @@ update()
 *Note: You may NOT use write() or print()*
 
 
-Create a new Python (With Turtle) project
 
-![create a new Python with Turtle project](/apcsp/turtleart/pythonWithTurtle.jpeg)
