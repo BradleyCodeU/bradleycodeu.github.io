@@ -1,5 +1,11 @@
-# Turtle Initials
 ---
+layout: project
+category: turtleart
+title: Turtle Initials
+---
+
+### Turtle Initials
+
 
 The goal of this exercise is to practice use Turtle Graphics in Python by defining two Python functions that use Turtle Graphics to draw letter shapes.
 
