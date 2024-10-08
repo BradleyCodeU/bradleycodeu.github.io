@@ -31,6 +31,7 @@ forward()
 left()
 right()
 update()
+mainloop()
 ```
 
 *Note: You may NOT use write() or print()*
