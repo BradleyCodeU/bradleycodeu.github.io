@@ -12,7 +12,7 @@ If your initials are the same (like Amy Adams or Ryan Reynolds), then define a f
 
 Here are four different example projects...
 
-![four different example projects with drawings of initials](/apcsp/turtleart/turtleinitials.jpg)
+![four different example projects with drawings of initials]({{ site.baseurl }}/apcsp/turtleart/turtleinitials.jpg)
 
 Here are some of the basic Python Turtle commands you may need:
 ```python
