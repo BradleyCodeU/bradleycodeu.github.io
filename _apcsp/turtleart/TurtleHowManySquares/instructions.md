@@ -38,7 +38,7 @@ Example Run #2
 How many squares would you like to draw?
 4
 ```
-![squares](https://bradleycodeu.github.io/apcsp/turtleart/TurtleBounceOffWalls/squares.jpeg)
+![squares](https://bradleycodeu.github.io/apcsp/turtleart/TurtleHowManySquares/squares.jpeg)
 
 
 ### GOLD MEDAL CHALLENGE
