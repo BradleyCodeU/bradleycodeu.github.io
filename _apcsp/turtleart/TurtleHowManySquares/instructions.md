@@ -1,5 +1,11 @@
-# Turtle How Many Squares
 ---
+layout: project
+category: turtleart
+title: Turtle How Many Squares
+---
+Turtle How Many Squares
+
+
 [Read this tutorial about using Python's input() function](https://www.w3schools.com/python/ref_func_input.asp)
 
 Define a function named isValidNumber that requires one argument (myNumber) and returns True or False if myNumber is valid. For this project, any integer 1-10 is valid.
