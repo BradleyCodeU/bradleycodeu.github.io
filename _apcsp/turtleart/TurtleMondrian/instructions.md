@@ -1,5 +1,10 @@
-# Turtle Mondrian
 ---
+layout: project
+category: turtleart
+title: Turtle Mondrian
+---
+Turtle Mondrian
+
 
 Piet Mondrian is a famous modern artist of the "De Stijl" movement. One of his most famous paintings is [Composition with Red Yellow and Blue](https://www.google.com/search?surl=1&biw=1211&bih=746&tbm=isch&sa=1&q=mondrian+composition+with+red+yellow+and+blue&oq=mondrian+comp&safe=active&ssui=on)
 
@@ -36,10 +41,10 @@ Main Algorithm:
 
 EXAMPLE PROJECTS:
 
-![example 1](/mon1.jpg)
-![example 2](/mon2.jpg)
-![example 3](/mon3.jpg)
-![example 4](/mon4.jpg)
+![example 1](https://bradleycodeu.github.io/apcsp/turtleart/TurtleMondrian/mon1.jpg)
+![example 2](https://bradleycodeu.github.io/apcsp/turtleart/TurtleMondrian/mon2.jpg)
+![example 3](https://bradleycodeu.github.io/apcsp/turtleart/TurtleMondrian/mon3.jpg)
+![example 4](https://bradleycodeu.github.io/apcsp/turtleart/TurtleMondrian/mon4.jpg)
 
 ### GOLD MEDAL CHALLENGE
 

@@ -36,3 +36,18 @@ When the button is pressed:
 - Convert kilograms to pounds using your kilogramsToPounds function
 - Create a popup that tells the user "Your weight on *whatever planet* is ___ lbs"
 
+### GOLD MEDAL CHALLENGE
+
+Copy/paste your PyWeightOnPlanets code into a new file. Create your own conversion app with two buttons.
+
+Here are some ideas...
+- Meters To Yards & Yards To Meters
+- Miles To Kilometers & Kilometers To Miles
+- Celsius To Fahrenheit & Fahrenheit To Celsius
+- Liters To Gallons & Gallons To Liters
+- Grams To Ounces & Ounces To Grams
+- Inches To Centimeters & Centimeters To Inches
+- Square Feet To Square Meters & Square Meters To Square Feet
+- Pounds To Kilograms & Kilograms To Pounds
+- Hours To Minutes & Minutes To Hours
+- Pints To Quarts & Quarts To Pints

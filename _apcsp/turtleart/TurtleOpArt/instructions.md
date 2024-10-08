@@ -1,5 +1,10 @@
-Turtle Op Art
 ---
+layout: project
+category: turtleart
+title: Turtle Op Art
+---
+Turtle Op Art
+
 
 "Op Art" is a style of optical illusion art from the 1960's. One of the most famous op art paintings is [Movement in Squares by Bridget Riley](https://www.google.com/search?surl=1&biw=1536&bih=758&tbm=isch&sa=1&q=bridget+riley+movement+in+squares&oq=bridget+riley+movement+in+squares&safe=active&ssui=on)
 

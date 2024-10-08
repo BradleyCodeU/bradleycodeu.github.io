@@ -32,7 +32,7 @@ Example Run #2
 How many squares would you like to draw?
 4
 ```
-![squares](/squares.jpeg)
+![squares](https://bradleycodeu.github.io/apcsp/turtleart/TurtleBounceOffWalls/squares.jpeg)
 
 
 ### GOLD MEDAL CHALLENGE

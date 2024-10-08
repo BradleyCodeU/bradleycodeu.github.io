@@ -1,4 +1,7 @@
-# Turtle Bouncing Off Walls
+---
+layout: project
+category: turtleart
+title: Turtle Bouncing Off Walls
 ---
 For this project you will use some new commands:
 ```python
@@ -13,7 +16,7 @@ towards(0,0)  # Get the angle from turtle's position to another position (x,y) o
 setheading(0) # Set turtle facing an angle. Examples: 0 (East), 45 (NE), 90 (N), 180 (W), 270 (S)
               # For example, setheading(90) will always point the turtle North.
 ```
-This project is the Python version of the Scratch Bouncing Off The Walls project. If you are using Replit or Trinket, the imaginary "walls" are -150 and 150 horizontally and then -150 and 150 vertically.
+This project is the Python version of the Scratch Bouncing Off The Walls project. If you are using Trinket, the imaginary "walls" are -150 and 150 horizontally and then -150 and 150 vertically.
 
 IMPORTANT: For this project, ```do NOT use goto() or home() or setposition()```. I want you to demonstrate that you know how to use if statements and use setheading()
 
@@ -33,12 +36,14 @@ Write code so that your turtle will forever:
 - Turn a random angle
 - Bounce off walls
 
-![Example](/randwalk11.jpg)
+![Example](https://bradleycodeu.github.io/apcsp/turtleart/TurtleBounceOffWalls/randwalk11.jpg)
 
 ### GOLD MEDAL CHALLENGE
 
 Use three, comma-separated RGB color values to SLOWLY change the pen color over time.
 
 Instead of turning a completely random angle, turn a random angle rounded to the nearest 10th or 45th or 90th. You should get random diamonds/polygons instead of squiggles.
-![Example](/bounceChallenge2.jpg)
-![Example](/bounceChallenge.jpg)
+![Example](https://bradleycodeu.github.io/apcsp/turtleart/TurtleBounceOffWalls/bounceChallenge2.jpg)
+![Example](https://bradleycodeu.github.io/apcsp/turtleart/TurtleBounceOffWalls/bounceChallenge.jpg)
+
+<!--If you are using Mu, the "walls" are -450 and 450 horizontally and then -400 and 400 vertically.-->

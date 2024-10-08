@@ -1,5 +1,10 @@
-# Turtle Drawings At Random Locations
 ---
+layout: project
+category: turtleart
+title: Turtle Drawings At Random Locations
+---
+Turtle Drawings At Random Locations
+
 Pick two simple drawings from the list below (ghost and pumpkin, for example). You MAY re-use your code from the TrtSimpleDrawing project for one of them.
 
 Define a function that will draw a single ghost (for example). Pick a color for this drawing (not black and white).
@@ -33,7 +38,7 @@ Car or Truck<br>Flower<br>Peace sign<br>Dollar sign<br>Snowman<br>Block letter B
 </tbody>
 </table>
 
-![Random Location Example](/randlocations11.jpg)
+![Random Location Example](https://bradleycodeu.github.io/apcsp/turtleart/TurtleRandomLocations/randlocations11.jpg)
 
 Here are some of the basic Python Turtle commands you may need:
 ```python

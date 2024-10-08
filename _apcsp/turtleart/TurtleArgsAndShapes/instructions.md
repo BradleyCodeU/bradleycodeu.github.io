@@ -1,5 +1,9 @@
-# Turtle Arguments and Shapes
 ---
+layout: project
+category: turtleart
+title: Turtle Arguments and Shapes
+---
+Turtle Arguments and Shapes
 
 You will create THREE functions. The purpose of this assignment is to create functions with arguments so that you can customize each shape by supplying different arguments.
 
@@ -31,12 +35,12 @@ NOTE: Do NOT ask for user input. Demonstrate 2 tests of each function inside of 
 
 Here is an example with two pentagons, two houses, and two rectangles...
 
-![example 1 pentagons, houses, and rectangles](/trtArguments1.png)
+![example 1 pentagons, houses, and rectangles](https://bradleycodeu.github.io/apcsp/turtleart/TurtleArgsAndShapes/trtArguments1.png)
 
 Another example with two circles, two triangles, and two rectangles...
 
-![example 2 circles, triangles, and rectangles](/trtArguments2.png)
+![example 2 circles, triangles, and rectangles](https://bradleycodeu.github.io/apcsp/turtleart/TurtleArgsAndShapes/trtArguments2.png)
 
 Another example with two rhombuses, two rectangles, and two triangles...
 
-![example 3 rhombuses, rectangles, and triangles](/trtArguments3.png)
+![example 3 rhombuses, rectangles, and triangles](https://bradleycodeu.github.io/apcsp/turtleart/TurtleArgsAndShapes/trtArguments3.png)

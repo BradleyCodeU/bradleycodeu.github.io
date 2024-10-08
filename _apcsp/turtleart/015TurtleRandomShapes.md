@@ -17,6 +17,4 @@ Repeat these six steps 200 times.
 
 ![random shapes](/apcsp/turtleart/randomShapes.jpg)
 
-Create a new Python (With Turtle) project
 
-![create a new Python with Turtle project](/apcsp/turtleart/pythonWithTurtle.jpeg)

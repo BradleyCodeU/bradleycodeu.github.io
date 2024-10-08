@@ -4,7 +4,7 @@ category: turtleart
 title: Turtle Initials
 ---
 
-### Turtle Initials
+Turtle Initials
 
 
 The goal of this exercise is to practice use Turtle Graphics in Python by defining two Python functions that use Turtle Graphics to draw letter shapes.
@@ -36,3 +36,6 @@ mainloop()
 
 *Note: You may NOT use write() or print()*
 
+### GOLD MEDAL CHALLENGE
+
+Add a size argument to your functions. Use the size to control the scale of the shape. For example, `drawJ(0.5)` would draw a small J and `drawJ(1.5)` would draw a big J. Do NOT use any if statements.

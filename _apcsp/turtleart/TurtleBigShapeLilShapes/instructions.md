@@ -1,4 +1,9 @@
-# Big Shape Lil Shapes
+---
+layout: project
+category: turtleart
+title: Big Shape Lil Shapes
+---
+ Big Shape Lil Shapes
 
 Working as a team, decide on what shapes (or simple drawings) you want to make. 
 
@@ -28,8 +33,8 @@ Invalid Number!
 
 
 Your finished drawings should ```NOT``` look like a spiral/swirl. Here are a few examples of what your finished drawing should ```NOT``` look like:
-![Don't do this](/IDEK.png)
+![Don't do this](https://bradleycodeu.github.io/apcsp/turtleart/TurtleBigShapeLilShapes/IDEK.png)
 
 Here are a few examples of what your finished drawings might look like:
-![Turtle algorithm examples](/drawingAlgorithm.png)
-![House House example](/houseHouse.png)
+![Turtle algorithm examples](https://bradleycodeu.github.io/apcsp/turtleart/TurtleBigShapeLilShapes/drawingAlgorithm.png)
+![House House example](https://bradleycodeu.github.io/apcsp/turtleart/TurtleBigShapeLilShapes/houseHouse.png)
