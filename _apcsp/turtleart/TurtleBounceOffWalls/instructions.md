@@ -3,6 +3,7 @@ layout: project
 category: turtleart
 title: Turtle Bouncing Off Walls
 ---
+
 For this project you will use some new commands:
 ```python
 while True:   # Creates a "forever" loop. Indent next line(s) to place them inside the loop
@@ -46,4 +47,4 @@ Instead of turning a completely random angle, turn a random angle rounded to the
 ![Example](https://bradleycodeu.github.io/apcsp/turtleart/TurtleBounceOffWalls/bounceChallenge2.jpg)
 ![Example](https://bradleycodeu.github.io/apcsp/turtleart/TurtleBounceOffWalls/bounceChallenge.jpg)
 
-<!--If you are using Mu, the "walls" are -450 and 450 horizontally and then -400 and 400 vertically.-->
+Note: If you are using Mu, the "walls" are -450 and 450 horizontally and then -400 and 400 vertically.
