@@ -34,6 +34,9 @@ update()
 mainloop()
 ```
 
+If your code is written correctly, then you can swap your function calls and it will still look good. For example, drawJ() followed by drawR() would draw JR and swapping those would mean that drawR() followed by drawJ() would draw RJ. 
+
+
 *Note: You may NOT use write() or print()*
 
 ### GOLD MEDAL CHALLENGE
