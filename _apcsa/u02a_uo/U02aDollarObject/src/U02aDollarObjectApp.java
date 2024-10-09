@@ -1,4 +1,4 @@
-public class U02aDollarApp {
+public class U02aDollarObjectApp {
     public static void main(String[] args){
         System.out.println("PART 1 -=-=- Using doubles");
         // Calculate the following currency problems using doubles
@@ -6,21 +6,22 @@ public class U02aDollarApp {
         System.out.println("Q1)   $0.70 + $0.10 = ");
 
         // TODO print what you EXPECT the answer SHOULD be
-
         System.out.println("EXPECT ???");
 
         // TODO print the ACTUAL result using doubles
-
-        System.out.println("ACTUAL ");
+        // double answer = 0.70 + ???
+        // System.out.println("ACTUAL " + answer);
 
         System.out.println("Q2)   $0.10 + $0.20 = ");
-
         // TODO print what you EXPECT the answer SHOULD be
+        System.out.println("EXPECT ???");
 
         // TODO print the ACTUAL result using doubles
+        // answer = 0.10 + ???
+        // System.out.println("ACTUAL " + answer);
 
         // Notice that Mr Riley has given you a partial Dollar class.
-        // Here is the documentation for the Dollar class: https://bradleycodeu.github.io/apcsa/u02a_uo/U02aDollar/doc/Dollar.html
+        // Here is the documentation for the Dollar class: https://bradleycodeu.github.io/apcsa/u02a_uo/U02aDollarObject/doc/Dollar.html
         // Read the documentation for the Dollar class and answer the following questions.
         // Use the Dollar class for the following quesions
 
@@ -36,7 +37,7 @@ public class U02aDollarApp {
 
         System.out.println(""); // TODO Your answer goes here
 
-        System.out.println("Q6)   What is an immutable class? (Note: you're allowed to Google it & then answer in your own words)");
+        System.out.println("Q6)   What is an immutable class? (Note: you ARE allowed to Google it & then answer in your own words)");
 
         System.out.println(""); // TODO Your answer goes here
 
@@ -52,3 +53,4 @@ public class U02aDollarApp {
         // TODO print the ACTUAL result using Dollar objects and the add() method
     }
 }
+

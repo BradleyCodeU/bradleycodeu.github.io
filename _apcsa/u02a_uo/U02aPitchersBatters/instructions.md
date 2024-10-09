@@ -1,4 +1,7 @@
-# Ch2 Pitchers and Batters
+---
+layout: project
+category: u02a-using-objects
+title: U02a Pitchers Batters
 ---
 
 Mr. Riley has provided a Pitcher class and a Batter class. Documentation for the classes can be found here: [https://bradleycodeu.github.io/apcsa/u02a_uo/U02aPitchersAndBatters/doc/package-summary.html](https://bradleycodeu.github.io/apcsa/u02a_uo/U02aPitchersAndBatters/doc/package-summary.html)
