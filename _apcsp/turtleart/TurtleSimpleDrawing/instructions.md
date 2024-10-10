@@ -61,3 +61,5 @@ drawGhost()
 Add an angle argument to your function. Use the angle to control the direction that the shape is facing. For example, `drawGhost(angle=0)` might draw a normal ghost that is upright and `drawGhost(angle=45)` would draw a ghost that is rotated 45 degrees. Do NOT use any if statements.
 
 Add a size argument to your function. Use the size to control the scale of the shape. For example, `drawGhost(angle=0,size=0.5)` would draw a small ghost and `drawGhost(angle=0,size=1.5)` would draw a big ghost. Do NOT use any if statements.
+
+Use a for loop to draw a line of several small shape. Each one is rotated a bit more than the last.
