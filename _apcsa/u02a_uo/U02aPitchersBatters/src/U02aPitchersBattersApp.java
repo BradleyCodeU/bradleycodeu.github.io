@@ -18,14 +18,14 @@ public class U02aPitchersBattersApp {
   
       // TODO 
   
-      // TODO invoke the nextSwing method on the first pitcher and print what the method returns
+      // TODO invoke the nextSwing method on the first batter and print what the method returns
   
-      // TODO invoke the nextSwing method on the second pitcher and print what the method returns
+      // TODO invoke the nextSwing method on the second batter and print what the method returns
   
       System.out.println("-=-=-=-=-=-=-=-=-PART 3");
       // PART 3: The nextPitch method is NOT random. It's using the player's name to decide if it's a good pitch or a bad pitch. 
       // Documentation for the class is here: 
-      // https://bradleycodeu.github.io/apcsa/ch2usingobjects/PitchersAndBatters/index-all.html  
+      // https://bradleycodeu.github.io/apcsa/ch2usingobjects/PitchersBatters/index-all.html  
       // Print your answers to the following 2 questions... 
   
       System.out.println("Q1)   Which of the following names would make the best pitcher and why? 1) \"Tyler\" 2) \"Louie\" 3) \"Aaron\" 4) \"Steven\"");
