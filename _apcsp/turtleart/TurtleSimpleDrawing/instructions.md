@@ -45,11 +45,19 @@ forward()
 left()
 right()
 update()
+mainloop()
 ```
-  
+
+If your code is written correctly, then you can draw one on the left side, draw one on the right side, and it will still look good. You should NOT be using goto() inside of your function because it will always draw at that same x, y position. Instead you can use goto(), then call your function. For example... 
+```
+goto(-100,0)
+drawGhost()
+goto(100,0)
+drawGhost()
+```
 
 ### GOLD MEDAL CHALLENGE
 
-Add an angle argument to your function. Use the angle to control the direction that the shape is facing. For example, `drawJ(angle=0)` might draw a normal J that is upright and `drawJ(angle=45)` would draw a J that is rotated 45 degrees. Do NOT use any if statements.
+Add an angle argument to your function. Use the angle to control the direction that the shape is facing. For example, `drawGhost(angle=0)` might draw a normal ghost that is upright and `drawGhost(angle=45)` would draw a ghost that is rotated 45 degrees. Do NOT use any if statements.
 
-Add a size argument to your function. Use the size to control the scale of the shape. For example, `drawJ(angle=0,size=0.5)` would draw a small J and `drawJ(angle=0,size=1.5)` would draw a big J. Do NOT use any if statements.
+Add a size argument to your function. Use the size to control the scale of the shape. For example, `drawGhost(angle=0,size=0.5)` would draw a small ghost and `drawGhost(angle=0,size=1.5)` would draw a big ghost. Do NOT use any if statements.
