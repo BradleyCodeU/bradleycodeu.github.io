@@ -7,8 +7,7 @@ public class U02bClubMeetingApp {
     // The method header should be public static int randomNumber(int minimum, int
     // maximum)
     // You MUST use Math.random() inside of the method
-    // This method returns a random integer number from minimum to maximum
-    // (INCLUDING maximum).
+    // This method returns a random integer from minimum to maximum (INCLUDING maximum).
     // Call this helper method inside of the main method whenever you need a random
     // number.
     // Stuck? Refer to this tutorial:
