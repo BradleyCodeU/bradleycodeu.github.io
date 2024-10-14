@@ -4,6 +4,7 @@ public class U02bClubMeetingApp {
         // This method will return an int
         // Name this method something like randomNumber
         // This method has two parameters: int minimum and int maximum
+        // The method header should be public static int randomNumber(int minimum, int maximum)
         // You MUST use Math.random() inside of the method
         // This method returns a random integer number from minimum to maximum (INCLUDING maximum). 
         // Call this helper method inside of the main method whenever you need a random number.
@@ -16,12 +17,7 @@ public class U02bClubMeetingApp {
       
       
         public static void main(String[] args) {
-      
-          // Read [this tutorial](https://www.geeksforgeeks.org/java-math-random-method-examples/#)
-          // about using Math.random()
-      
-          // NOTE: You MUST use Math.random() for this assignment
-      
+           
           // The school coding club can't decide when to hold their meetings. The members
           // agree to create a program to randomly decide their meeting times.
       
