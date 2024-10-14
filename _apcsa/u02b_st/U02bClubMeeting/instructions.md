@@ -8,8 +8,6 @@ NOTE: You MUST use the static method Math.random() for this assignment
 
 Project Directions:
 
-
-
 The school coding club can't decide when to hold their meetings. The members agree to create a program to randomly decide their meeting times.
 
   1.  Where will we meet? Your code will randomly pick either 266 or 267.
