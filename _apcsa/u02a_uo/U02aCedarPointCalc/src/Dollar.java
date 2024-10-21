@@ -30,10 +30,10 @@ public class Dollar {
     /**
      * Constructs a {@code Dollar} object from a long representing the amount in cents.
      *
-     * @param amount the amount in cents
+     * @param cents the amount in cents
      */
-    public Dollar(long amount){
-        this.cents = amount;
+    public Dollar(long cents){
+        this.cents = cents;
     }
 
     
@@ -64,7 +64,7 @@ public class Dollar {
      * @return a new {@code Dollar} object representing the product
      */
     public Dollar mult(double multiplier){
-        return new Dollar(this.toLong() * multiplier);
+        return new Dollar(this.toDouble() * multiplier);
     }
 
     
