@@ -48,16 +48,16 @@ Students attending: 33
 =====RESULTS=====
 Chaperones = 8
 Free student coupons = 2
-Fall admission = 1677.00
-Spring admission = 1514.61
+Fall admission = $1,677.00
+Spring admission = $1,514.61
 Number of School Buses = 1
-Cost of School Buses = 1300.42
+Cost of School Buses = $1,300.42
 Number of Charter Buses = 1
-Cost of Charter Buses = 1738.92
-Food cost = 1025.00
+Cost of Charter Buses = $1,738.92
+Food cost = $1,025.00
 FINAL TOTALS...Fall Cost...Spring Cost
-School Buses   $4002.42   $3840.03
-Charter Buses   $4440.92   $4278.53
+School Buses   $4,002.42   $3,840.03
+Charter Buses   $4,440.92   $4,278.53
 ```
 
 Example Output 2
@@ -66,15 +66,15 @@ Students attending: 80
 =====RESULTS=====
 Chaperones = 20
 Free student coupons = 5
-Fall admission = 4085.00
-Spring admission = 3694.05
+Fall admission = $4,085.00
+Spring admission = $3,694.05
 Number of School Buses = 3
-Cost of School Buses = 3901.26
+Cost of School Buses = $3,901.26
 Number of Charter Buses = 2
-Cost of Charter Buses = 3477.84
-Food cost = 2500.00
+Cost of Charter Buses = $3,477.84
+Food cost = $2,500.00
 FINAL TOTALS...Fall Cost...Spring Cost
-School Buses   $10486.26   $10095.31
-Charter Buses   $10062.84   $9671.89
+School Buses   $1,0486.26   $1,0095.31
+Charter Buses   $1,0062.84   $9,671.89
 ```
   
