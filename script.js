@@ -28,7 +28,7 @@ if (today.getMonth() + 1 == 10) {
 // <!-- Spooky stuff begins -->
 function spookySeason() {
   console.log("🎃");
-  let emojis = ["","","","","👻","🎃"]
+  let emojis = ["","","","","","","","","","","","","👻","🎃","👻","🎃","👻","🎃","😱","👹","🧛‍","🦇","🕸","🧟‍"]
   let h1Array = document.getElementsByTagName("h1");
   let h2Array = document.getElementsByTagName("h2");
   let h3Array = document.getElementsByTagName("h3");
@@ -56,21 +56,21 @@ function spookySeason() {
       }
     }
     for (let i = 0; i < h2Array.length; i++) {
-      if (Math.random() + Math.random() > 25 / today.getDate()) {
+      if (Math.random() + Math.random() > 24 / today.getDate()) {
         h2Array[i].style.transition = "all 2s";
         h2Array[i].style.marginLeft = Math.floor(Math.random() * today.getDate()*2) + "px";
         h2Array[i].style.color = "#" + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)];
       }
     }
     for (let i = 0; i < h3Array.length; i++) {
-      if (Math.random() + Math.random() > 22 / today.getDate()) {
+      if (Math.random() + Math.random() > 20 / today.getDate()) {
         h3Array[i].style.transition = "all 2s";
         h3Array[i].style.marginLeft = Math.floor(Math.random() * today.getDate()*2) + "px";
         h3Array[i].style.color = "#" + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)];
       }
     }
     for (let i = 0; i < h4Array.length; i++) {
-      if (Math.random() + Math.random() > 19 / today.getDate()) {
+      if (Math.random() + Math.random() > 16 / today.getDate()) {
         h4Array[i].style.transition = "all 2s";
         h4Array[i].style.marginLeft = Math.floor(Math.random() * today.getDate()*2) + "px";
         h4Array[i].style.color = "#" + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)];
@@ -109,17 +109,17 @@ function turkeySeason() {
     }
   }
   for (let i = 0; i < h2Array.length; i++) {
-    if (Math.random() + Math.random() > 22 / today.getDate()) {
+    if (Math.random() + Math.random() > 20 / today.getDate()) {
       h2Array[i].innerHTML = choice(emojis) + " " + h2Array[i].innerHTML + " " + choice(emojis);
     }
   }
   for (let i = 0; i < h3Array.length; i++) {
-    if (Math.random() + Math.random() > 20 / today.getDate()) {
+    if (Math.random() + Math.random() > 16 / today.getDate()) {
       h3Array[i].innerHTML = choice(emojis) + " " + h3Array[i].innerHTML + " " + choice(emojis);
     }
   }
   for (let i = 0; i < h4Array.length; i++) {
-    if (Math.random() + Math.random() > 18 / today.getDate()) {
+    if (Math.random() + Math.random() > 12 / today.getDate()) {
       h4Array[i].innerHTML = choice(emojis) + " " + h4Array[i].innerHTML + " " + choice(emojis);
     }
   }
