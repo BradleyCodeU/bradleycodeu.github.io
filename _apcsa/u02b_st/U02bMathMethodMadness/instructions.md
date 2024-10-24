@@ -30,7 +30,8 @@ textOrder("dragonfruit", "coconut") --> "coconut comes before dragonfruit lexico
 ```
 
 ## Part 4:
-Next, your program will use the two numbers from Part 1 and then ask a series of math questions. Each question will be evaluated as to whether it is the right or wrong answer. 
+Next, your program will use the two numbers from Part 1 and then ask a series of math questions. 
+Each question will be evaluated as to whether it is the right or wrong answer. 
 You will need to use a conditional with an if and an else. [Read this tutorial](https://www.w3schools.com/java/java_conditions_else.asp)
 In the end a final score should be reported for the user. This is a sample transcript of what your program should do. User input always comes after a colon : and should not be put on the screen by your program.
 ```
