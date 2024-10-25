@@ -11,13 +11,13 @@ whichIsLarger(6, 4) --> "6 is larger than 4"
 
 ## Part 2:
 Create a public static method named funFacts that takes two int aguments and returns a String. You will use Math.abs(), Math.pow(), Math.sqrt(), and Math.random().
+Use \n to insert line breaks between each sentence.
 See the example inputs and outputs below.
 ```
-funFacts(-3,4) --> "Absolute value of -3 is 3. -3 to the power of 4 is -81.0. Square root of -3 is NaN. Random number between -3 and 4 is -0.14515833567916303"
-funFacts(3,4) --> "Absolute value of 3 is 3. 3 to the power of 4 is 81.0. Square root of 3 is 1.7320508075688772
-. Random number between -3 and 4 is 3.7556221204278137"
-funFacts(9,5) --> "Absolute value of 9 is 9. 9 to the power of 5 is 59049.0. Square root of 9 is 3.0. Random number between 9 and 5 is 8.102658047778291"
-funFacts(-9,-5) --> "Absolute value of -9 is 9. -9 to the power of -5 is -1.6935087808430286E-5. Square root of -9 is NaN. Random number between -9 and -5 is -7.81863598457924"
+funFacts(-3,4) --> "Absolute value of -3 is 3.\n-3 to the power of 4 is -81.0.\nSquare root of -3 is NaN.\nRandom number between -3 and 4 is -0.14515833567916303"
+funFacts(3,4) --> "Absolute value of 3 is 3.\n3 to the power of 4 is 81.0.\nSquare root of 3 is 1.7320508075688772.\nRandom number between -3 and 4 is 3.7556221204278137"
+funFacts(9,5) --> "Absolute value of 9 is 9.\n9 to the power of 5 is 59049.0.\nSquare root of 9 is 3.0.\nRandom number between 9 and 5 is 8.102658047778291"
+funFacts(-9,-5) --> "Absolute value of -9 is 9.\n-9 to the power of -5 is -1.6935087808430286E-5.\nSquare root of -9 is NaN.\nRandom number between -9 and -5 is -7.81863598457924"
 ```
 
 ## Part 3:
@@ -82,7 +82,10 @@ Enter your second number: 7
 7 is larger than 3
 Part 2-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 Fun Facts!
-Absolute value of 3 is 3. 3 to the power of 7 is 2187.0. Square root of 3 is 1.7320508075688772. Random number between 3 and 7 is 6.403731591667578
+Absolute value of 3 is 3. 
+3 to the power of 7 is 2187.0. 
+Square root of 3 is 1.7320508075688772. 
+Random number between 3 and 7 is 6.403731591667578
 Part 3-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 Gimme a word: coconut
 Gimme another word: dragonfruit
