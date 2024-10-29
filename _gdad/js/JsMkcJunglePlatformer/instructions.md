@@ -28,7 +28,7 @@ After you finish step 4, click step 4 again then click "Save To My Projects"
 
 ## Add LEVEL 2
 
-1. Look for your "game over <WIN>" block inside of the "Player overlaps chest1" container. Click the image of chest1 and change it to chest2.
+1. Look for your "game over WIN" block inside of the "Player overlaps chest1" container. Click the image of chest1 and change it to chest2.
 1. When we get to the first chest, we want to take the player to a new level. From the SCENE menu, drag "on [sprite] of kind [Player] overlaps at [location]" into an empty area of the workspace. Click the empty square and choose chest1.
 1. Let's show the player that the level has changed. From the SCENE menu, drag "set background image to []" into the empty "Player overlaps chest1" container. Click the grey square and choose background2.
 1. Change the level tilemap. From the SCENE menu, drag "set tilemap to [ ]" to the end of the "Player overlaps chest1" container. Click the grey square and toggle to My Assets to choose level2.
