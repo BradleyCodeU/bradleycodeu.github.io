@@ -94,18 +94,6 @@
 "answer": "event listener","question":"a Javascript function that waits for an event to occur such as a key press or a mouse click"
 },
 {
-"answer": "GitHub","question":"a website that allows you to backup code, collaborate on coding projects, and can host a webpage"
-},
-{
-"answer": "fork","question":"a remix of another person's project. It allows you to make changes to the project without affecting the original"
-},
-{
-"answer": "commit","question":"a change or revision to project files. It saves each project draft with a unique ID that allows you to track changes"
-},
-{
-"answer": "pull request","question":"proposed change to a project that can be accepted or rejected by someone that controls the project"
-},
-{
 "answer": "JavaScript","question":"one of the 3 main languages of the web, it is used to program the behavior of web pages"
 },
 {
@@ -197,17 +185,5 @@
 },
 {
 "answer": "event listener","question":"a Javascript function that waits for an event to occur such as a key press or a mouse click"
-},
-{
-"answer": "GitHub","question":"a website that allows you to backup code, collaborate on coding projects, and can host a webpage"
-},
-{
-"answer": "fork","question":"a remix of another person's project. It allows you to make changes to the project without affecting the original"
-},
-{
-"answer": "commit","question":"a change or revision to project files. It saves each project draft with a unique ID that allows you to track changes"
-},
-{
-"answer": "pull request","question":"proposed change to a project that can be accepted or rejected by someone that controls the project"
 }
 ]
