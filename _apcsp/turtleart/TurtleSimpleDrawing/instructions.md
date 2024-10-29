@@ -30,7 +30,7 @@ Car or Truck<br>Flower<br>Peace sign<br>Dollar sign<br>Snowman<br>Block letter B
 
 NOT just a squiggle or spiral. Your drawing should be 12 lines of code or more. Should draw 6 or more lines/shapes. Like this...
 
-![smiley](https://bradleycodeu.github.io/apcsp/turtleart/TurtleSimpleDrawing/turtlesmiley.jpg)
+![smiley face example](https://bradleycodeu.github.io/apcsp/turtleart/TurtleSimpleDrawing/turtlesmiley.jpg)
 
 
 Here are some of the basic Python Turtle commands you may need:
@@ -63,3 +63,5 @@ Add an angle argument to your function. Use the angle to control the direction t
 Add a size argument to your function. Use the size to control the scale of the shape. For example, `drawGhost(angle=0,size=0.5)` would draw a small ghost and `drawGhost(angle=0,size=1.5)` would draw a big ghost. Do NOT use any if statements.
 
 Use a for loop to draw a line of several small shape. Each one is rotated a bit more than the last.
+
+![simple Drawing Challenge Example](https://bradleycodeu.github.io/apcsp/turtleart/TurtleSimpleDrawing/simpleDrawingChallengeExample.jpg)

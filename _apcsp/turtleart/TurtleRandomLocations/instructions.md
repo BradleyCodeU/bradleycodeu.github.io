@@ -64,3 +64,5 @@ update()
 Make each item a random color.
 
 Instead of just randomly picking a location... generate a random number and round it to the nearest 50th. Your drawings will be randomly placed on a 50x50 grid.
+
+![random Locations Challenge Examples](https://bradleycodeu.github.io/apcsp/turtleart/TurtleRandomLocations/randomLocationsChallengeExamples.jpg)
