@@ -16,8 +16,8 @@ You may use the built-in backgrounds and built-in tiles/platforms, but you will 
 You MUST:
 
 - Draw your own sprite for the hero character (could be a person/animal/robot/etc)
-
-- Draw your own "fireball" explosion animation when you get to step 4 "Blown Away." NOTE: The directions say to set the projectile's vx and vy to 0, but I used different values for vx and vy so the hero is throwing the fireballs.
+- Draw your own "fireball" explosion animation when you get to step 4 "Blown Away." 
+- Your fireballs MUST fly forward so that the hero is throwing the fireballs.
 
 
 
