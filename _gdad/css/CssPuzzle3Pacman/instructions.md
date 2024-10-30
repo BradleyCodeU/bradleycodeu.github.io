@@ -1,29 +1,30 @@
 ---
 layout: project
 category: css
-title: Css Puzzle 4
+title: Css Puzzle 3 Pacman
 ---
 
-Using PuzzleScript, create a puzzle game that is similar to Pac-man... a "Pacman-like." The goal is to collect all of the Dots without touching any Ghosts.
+Using [PuzzleScript](https://www.puzzlescript.net/editor.html), create a puzzle game that is similar to [Pac-man](https://en.wikipedia.org/wiki/Pac-Man)... a "Pacman-like." The goal is to collect all of the Dots without touching any Ghosts.
 
-### TO DO:
+The Puzzlescript editor is here: [https://www.puzzlescript.net/editor.html](https://www.puzzlescript.net/editor.html)
 
-1. Fix the colors for the sprites
+### PROJECT DIRECTIONS:
 
-1. You MUST design your own 5x5 sprites for Player, Wall, etc. NONE of your finished sprites can look like this...
-    ```
-    00000
-    00000
-    00000
-    00000
-    00000
-    ```
+1. You MUST use [hexcode colors](https://en.wikipedia.org/wiki/Web_colors#HTML_color_names). Use bright colors for important sprites. Use dull colors for background sprites. The starter code below has the wrong colors and you need to fix them.
 
-1. You MUST design 5 levels that gradually increase in difficulty/complexity. It MUST be possible to win.
+1. You MUST design your own 5x5 sprites for Player, Wall, etc. 
+1. NONE of your finished sprites can just be a square
+
+1. Each level MUST have 1 or more moving enemies to avoid.
+1. You MUST design 5 levels that gradually increase in difficulty/complexity. Levels MUST be rectangular. In other words, the length of each row must be the same.
+1. It MUST be possible to win.
+
+1. Replace the title and author.
 
 Example:
 
-![The game as it might appear when finished](/gdad\css\CssPuzzle4\PacmanExample1.png)
+![The game as it might appear when finished](/gdad\css\CssPuzzle3Pacman\PacmanExample1.png)
+
 
 When finished, click EXPORT. Turn in your finished HTML file.
 
@@ -48,12 +49,12 @@ Player
 00000
 00000
 
-DeadPlayer
+DefeatedPlayer
 #000000
 .....
-.000.
-.000.
-.000.
+.0.0.
+..0..
+.0.0.
 .....
 
 
@@ -127,7 +128,7 @@ COLLISIONLAYERS
 ================
 Background
 Dot
-Wall, Player, DeadPlayer
+Wall, Player, DefeatedPlayer
 Ghost
 
 ======
@@ -164,12 +165,12 @@ down [Player|...|Ghost] -> [Player|...| < UpGhost]
 [ > RightGhost | Wall ] -> [ DownGhost | Wall ]
 ( Down-moving ghost hits a wall and turns left )
 [ > DownGhost | Wall ] -> [ LeftGhost | Wall ]
-( If the player dies, restart the level and play death sound )
-[DeadPlayer] -> restart 
-( When a ghost touches the player, mark player as dead and retain ghost position )
-late [Player | Ghost] -> [DeadPlayer|Ghost] sfx0
+( If the player dies, restart the level and play defeated sound )
+[DefeatedPlayer] -> restart 
+( When a ghost touches the player, mark player as defeated and retain ghost position )
+late [Player | Ghost] -> [DefeatedPlayer|Ghost] sfx0
 ( Another rule for when a ghost touches the player from different movement frames )
-late [Player Ghost] -> [DeadPlayer Ghost] sfx0
+late [Player Ghost] -> [DefeatedPlayer Ghost] sfx0
 ( Player collects a dot, removes the dot and plays sound )
 [ > Player | Dot ] -> [ | Player ] sfx1
 
@@ -187,14 +188,62 @@ LEVELS
 message Level 1
 
 ##########
-#..G.....#
+#........#
 #.###.##.#
 #..G.....#
 #.##.###.#
-#..P.....#
+#......P.#
 #.###.##.#
-#..G.....#
+#........#
 ##########
+
+message Level 2
+
+###########
+#.........#
+#.###.###.#
+#.........#
+#.##.####.#
+#..P......#
+#.###.###.#
+#.........#
+###########
+
+message Level 3
+
+############
+#...G......#
+#.####.###.#
+#...G......#
+#.###.####.#
+#........P.#
+#.####.###.#
+#...G......#
+############
+
+message Level 4
+
+###########
+#.........#
+#.###.###.#
+#.........#
+#.##.####.#
+#..P......#
+#.###.###.#
+#.........#
+###########
+
+message Level 5
+
+###########
+#.........#
+#.###.###.#
+#.........#
+#.##.####.#
+#..P......#
+#.###.###.#
+#.........#
+###########
 
 message YOU WIN
 ```

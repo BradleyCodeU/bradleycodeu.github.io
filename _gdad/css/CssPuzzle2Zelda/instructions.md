@@ -1,31 +1,30 @@
 ---
 layout: project
 category: css
-title: Css Puzzle 2
+title: Css Puzzle 2 Zelda
 ---
 
-Using Puzzlescript, create a dungeon-crawler game that is similar to the original Legend of Zelda game... a "Zelda-like." The goal is to collect one-time-use swords (one-time-use in order to make the game more interesting), kill trolls, unlock doors with keys, and reach the exit of the dungeon (the goal).
+Using [Puzzlescript](https://www.puzzlescript.net/editor.html), create a dungeon-crawler game that is similar to the original [Legend of Zelda](https://en.wikipedia.org/wiki/The_Legend_of_Zelda_(video_game)) game... a "Zelda-like." The goal is to collect one-time-use swords (one-time-use in order to make the game more interesting), kill trolls, unlock doors with keys (by pushing the key into the locked door), and reach the exit of the dungeon (the goal).
+
+The Puzzlescript editor is here: [https://www.puzzlescript.net/editor.html](https://www.puzzlescript.net/editor.html)
+
 
 PROJECT DIRECTIONS:
 
-  1.  Replace the title and author.
-  1.  Use bright colors for important/moving sprites. Use dull colors for background sprites.
-  1.  You MUST design your own 5x5 sprites for Background, Target, Wall, Hero, HeroWithSword, Sword, Key, Lock, Troll. NONE of your finished sprites can look like this...
-        ```
-        00000
-        00000
-        00000
-        00000
-        00000
-        ```
+ 
 
-
-  1.  You MUST design 7 levels that gradually increase in difficulty/complexity. It MUST be possible to win. Each level should have increasingly more moving enemies to avoid.
+  1.  You MUST design your own 5x5 sprites for Background, Target, Wall, Hero, HeroWithSword, Sword, Key, Lock, Troll. 
+  1.  NONE of your finished sprites can just be a square
+  1.  You MUST use [hexcode colors](https://en.wikipedia.org/wiki/Web_colors#HTML_color_names). Use bright colors for important sprites. Use dull colors for background sprites. The starter code below has the wrong colors and you need to fix them.
+  1.  Each level MUST have 2 or more moving enemies to avoid.
+  1.  You MUST design 5 levels that gradually increase in difficulty/complexity. Levels MUST be rectangular. In other words, the length of each row must be the same.
   1.  Do NOT re-use any of Mr Riley's example levels. Those examples are provided in order to show you how the game works and maybe give you ideas about what is possible.
+  1.  It MUST be possible to win.
+  1.  Replace the title and author.
 
 Here are some examples:
 
-![The game as might appear when finished](/gdad\css\CssPuzzle2\zeldaExamples.png)
+![The game as might appear when finished](/gdad\css\CssPuzzle2Zelda\zeldaExamples.png)
 
 When finished, click EXPORT. Turn in your finished HTML file.
 
@@ -42,7 +41,7 @@ OBJECTS
 ========
 
 Background
-#2F4F2F
+#00FF00
 00000
 00000
 00000
@@ -50,7 +49,7 @@ Background
 00000
 
 Target
-#223322
+#333333
 00000
 00000
 00000
@@ -58,7 +57,7 @@ Target
 00000
 
 Wall
-#304433
+#00FFFF
 00000
 00000
 00000
@@ -66,7 +65,7 @@ Wall
 00000
 
 Hero
-#2A4A2A #304433
+#333333 #00FF00
 .000.
 .000.
 01110
@@ -74,7 +73,7 @@ Hero
 .1.1.
 
 HeroWithSword
-#AAAA66 #FFFFFF
+#333333 #FFFFFF
 .0001
 .0001
 .0001
@@ -82,7 +81,7 @@ HeroWithSword
 .0001
 
 Sword
-#441144
+#551144
 00000
 00000
 00000
@@ -90,7 +89,7 @@ Sword
 00000
 
 Key
-#331133
+#331155
 00000
 00000
 00000
@@ -157,8 +156,8 @@ RULES
 [ > Hero | Sword ] -> [ | HeroWithSword ] sfx2 (if player bumps sword, replace)
 [ Troll | ... | Player ] -> [ > Troll | ... | Player ] (troll chases player)
 [ > HeroWithSword | Troll ] -> [|Hero] sfx0 (hero kills troll and sword breaks)
-[ Troll | Hero ] -> restart (swordless hero dies, restart level)
-[ > Troll | HeroWithSword ] -> restart (hero dies, restart level)
+[ Troll | Hero ] -> restart (swordless hero defeated, restart level)
+[ > Troll | HeroWithSword ] -> restart (hero defeated, restart level)
 
 
 ==============
@@ -171,7 +170,26 @@ All Player on Target
 LEVELS
 =======
 
-message here is an empty level template
+
+
+message level 1
+
+############x#
+#.....##s...l#
+#.....##.t...#
+#.........k..#
+#.....##.....#
+#.....##.....#
+###.######.###
+###.######l###
+#.....##.....#
+#.....##.....#
+#..k...l..k..#
+#.....##...p.#
+#.....##.....#
+##############
+
+message level 2
 
 ###x##########
 #.....##.....#
@@ -186,26 +204,9 @@ message here is an empty level template
 #.....##.....#
 #..........p.#
 #.....##.....#
-##############  
-
-message level 1
-
-############x#
-#.....##s...l#
-#.....##.t...#
-#.....##..k..#
-#.....##.....#
-#.....##.....#
-##########.###
-##########l###
-#.....##.....#
-#.....##...k.#
-#.....##.....#
-#.....##...p.#
-#.....##.....#
 ##############
 
-message level 2
+message level 3
 
 #x############
 #l.#.t##s...t#
@@ -222,7 +223,7 @@ message level 2
 #.....##.....#
 ##############
 
-message level 3
+message level 4
 
 ###x##########
 #..l..##...t.#
@@ -239,24 +240,8 @@ message level 3
 #..s..##.....#
 ##############
 
-message level 4
 
-########x#####
-#.....##l..s.#
-#.k.k.####l#s#
-#........#.#.#
-#.k.k.##.#.#.#
-#...t.##.#.#.#
-#.###.##.#.#.#
-#.###.##.#.#.#
-#...p.##.....#
-#####l####...#
-####..####..t#
-####....slt..#
-####..####...#
-##############
-
-message here is an empty level template
+message level 5
 
 ###x##########
 #.....##.....#
