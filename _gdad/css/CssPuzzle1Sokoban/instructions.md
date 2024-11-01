@@ -1,51 +1,39 @@
 ---
 layout: project
 category: css
-title: Css Puzzle 1
+title: Css Puzzle 1 Sokoban
 ---
 
-First, read this blog post about "How To Make A Good Puzzle": [https://auroriax.com/puzzle-explorable/](https://auroriax.com/puzzle-explorable/)
-
-
-
-Here are the solutions to the puzzles from the blog post: [https://auroriax.com/puzzle-explorable-solutions/](https://auroriax.com/puzzle-explorable-solutions/)
-
-
-
-Key Points:
+How To Make A Good Puzzle ([source](https://auroriax.com/puzzle-explorable/)): 
 
   -  <mark>"A good puzzle should explain itself"</mark> Use bright colors for important sprites. Use dull colors for background sprites. The bright sprites will catch the player's attention.
-  -  "If the player has an expectation of how an object will react before attempting to interact with it, that will help them learn and understand the puzzle faster" Do NOT try to trick the player with identical looking objects that behave in different ways.
+  -  "If the player has an expectation of how an object will react before attempting to interact with it, that will help them learn and understand the puzzle faster" A well-designed sprite symbolizes the object in a recognizable way. Do NOT try to 'trick' the player with identical looking objects that behave in different ways.
   -  "A puzzle should be inviting and rewarding. <mark> The designer should always subtly push the player towards the correct solution."</mark> The designer and player are on the same team.
   -  <mark>"a good puzzle wants to be solved!"</mark> The designer should gradually provide more difficult (NOT impossible) challenges
-  -  "puzzles should be in their smallest solvable setup" Remove unnecessary clutter.
+  -  "puzzles should be in their smallest solvable setup" Remove unnecessary clutter or unnecessary space.
+
+
+
+
+Using [Puzzlescript](https://www.puzzlescript.net/editor.html) you will create a simple [Sokoban](https://en.wikipedia.org/wiki/Sokoban) box-pushing puzzle game. The Puzzlescript editor is located here: [https://www.puzzlescript.net/editor.html](https://www.puzzlescript.net/editor.html)
 
 
 ## PROJECT DIRECTIONS:
 
-Using [Puzzlescript](https://www.puzzlescript.net/) you will create a simple [Sokoban](https://en.wikipedia.org/wiki/Sokoban) box-pushing puzzle game. The Puzzlescript editor is located here: [https://www.puzzlescript.net/editor.html](https://www.puzzlescript.net/editor.html)
 
-
-REMEMBER:
-
-
-  1.  Use bright colors for important sprites. Use dull colors for background sprites. Oops! The colors in Mr Riley's starter code need fixed!
-  1.  You MUST design your own 5x5 sprites for Background, Target, Wall, Player, Box, etc. NONE of your finished sprites can look like this...
-        ```
-        00000
-        00000
-        00000
-        00000
-        00000
-        ```
-  1.  You MUST design 5 levels that gradually increase in difficulty/complexity. It MUST be possible to win.
+  
+  1.  You MUST design your own 5x5 sprites for Background, Target, Wall, Player, Box, etc. 
+  1.  NONE of your finished sprites can just be a square
+  1.  You MUST use [hexcode colors](https://en.wikipedia.org/wiki/Web_colors#HTML_color_names). Use bright colors for important sprites. Use dull colors for background sprites. The starter code below has the wrong colors and you need to fix them.
+  1.  You MUST design 5 levels that gradually increase in difficulty/complexity. Levels MUST be rectangular. In other words, the length of each row must be the same.
+  1.  It MUST be possible to win.
   1.  Replace the title and author.
 
 When finished, click EXPORT. Turn in your finished HTML file here.
 
 
 
-Here is what the starter code below looks like when exported: [bradleycodeu.github.io/gdad/html/PuzzleScriptSokobanExample.html](bradleycodeu.github.io/gdad/html/PuzzleScriptSokobanExample.html)
+
 
 
 
@@ -59,7 +47,7 @@ OBJECTS
 ========
 
 Background
-#FFFF00 #008000
+#ffff00 #00ff00
 11111
 01111
 11101
@@ -67,15 +55,15 @@ Background
 10111
 
 Target
-#808080 #D3D3D3
-.....
-.010.
-.101.
-.010.
-.....
+#333333
+00000
+00000
+00000
+00000
+00000
 
 Wall
-#FFFF00 #A52A2A
+#ffff00 #995500
 00010
 11111
 01000
@@ -83,7 +71,7 @@ Wall
 00010
 
 Player
-#808080 #A9A9A9 #D3D3D3 #A52A2A
+#999999 #555555 #cccccc #995500
 .00..
 .11..
 2222.
@@ -91,11 +79,11 @@ Player
 3..3.
 
 Box
-#A9A9A9 #D3D3D3 #808080
+#555555
 00000
-01220
-02120
-02210
+00000
+00000
+00000
 00000
 
 =======
