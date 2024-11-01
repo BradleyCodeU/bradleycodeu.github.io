@@ -31,7 +31,23 @@ Pick 1 or 2 of these...
 
 Finally, create a function named main(). In this function, you will call your 3 functions and provide different arguments to demonstrate the custom shapes. The main function should contain at least 6 function calls.
 
-NOTE: Do NOT ask for user input. Demonstrate 2 tests of each function inside of main.
+REMEMBER: 
+  1. Do NOT ask for user input. Demonstrate 2 tests of each function inside of main.
+  1. Both of your functions MUST use 2 or more arguments.
+  1. You may NOT use any random numbers in this assignment
+
+Your main() function will begin like this...
+```
+def main():
+    penup()
+    goto(-200,0)
+    pendown()
+    drawStar(2,"red")
+    penup()
+    goto(-100,0)
+    pendown()
+    drawStar(3,"blue")
+```
 
 Here is an example with two pentagons, two houses, and two rectangles...
 
