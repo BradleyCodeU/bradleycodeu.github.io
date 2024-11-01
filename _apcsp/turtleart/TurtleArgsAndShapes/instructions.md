@@ -34,7 +34,7 @@ Finally, create a function named main(). In this function, you will call your 3 
 REMEMBER: 
   1. Do NOT ask for user input. Demonstrate 2 tests of each function inside of main.
   1. Both of your functions MUST use 2 or more arguments.
-  1. You may NOT use any random numbers in this assignment
+  1. You may NOT use any random numbers in this assignment.
 
 Your main() function will begin like this...
 ```
