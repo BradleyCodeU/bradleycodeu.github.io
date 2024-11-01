@@ -23,7 +23,7 @@ You MUST:
 
 After you finish step 4, click step 4 again then click "Save To My Projects"
 
-![Click Level 4 again and then click Save To My Projects](https://bradleycodeu.github.io\gdad\js\junglePlat.png)
+![Click Level 4 again and then click Save To My Projects](https://bradleycodeu.github.io\gdad\js\JsMkcJunglePlatformer\junglePlat.png)
 
 
 ## Add LEVEL 2
