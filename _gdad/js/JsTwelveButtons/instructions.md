@@ -2,7 +2,7 @@
 ---
 Read this tutorial about the CSS [display](https://www.w3schools.com/css/css_display_visibility.asp) property.
 
-  - You MUST create one html element (image, paragraph, heading, etc) that is NOT displayed when the page loads, but IS displayed when a [button](https://www.w3schools.com/tags/tag_button.asp) is pressed.
+  - You MUST create one html element (an image, a button, etc) that is NOT displayed when the page loads, but IS displayed when a [button](https://www.w3schools.com/tags/tag_button.asp) is pressed.
 
   - Create a heading at the top of the page that says something like... "Find the button that makes the background RED"
 
