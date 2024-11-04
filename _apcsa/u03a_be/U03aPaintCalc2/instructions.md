@@ -1,5 +1,11 @@
-# Paint Calc 2
 ---
+layout: project
+category: u03a_be
+title: U03a Paint Calc 2
+---
+
+Paint Calc 2
+
 
 
 
