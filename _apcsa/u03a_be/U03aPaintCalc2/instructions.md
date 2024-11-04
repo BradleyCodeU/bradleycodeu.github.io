@@ -43,9 +43,9 @@ If gallons and quarts are available, you would need 1 gallon 1 quart
 
 1. Create a public static method named calculateTotalSquareFeet that has 5 parameters: length, width, height, doors, windows. Returns the surface area of the walls as a double.
 
-2. Create a public static method named paintIfGallonsOnly that has 1 parameter: totalSqFeet. Returns a String that says "If gallons only = " and the number of gallons rounded up.
+2. Create a public static method named calculateIfGallonsOnly that has 1 parameter: totalSqFeet. Returns a String that says "If gallons only = " and the number of gallons rounded up.
 
-3. Create a public static method named paintIfQuartsAvailable that has 1 parameter: totalSqFeet. Returns a String that says "If quarts are available = " and the number of gallons and quarts. NOTE: If there are no quarts needed, do NOT display “0 quarts”.
+3. Create a public static method named calculateIfQuartsAvailable that has 1 parameter: totalSqFeet. Returns a String that says "If quarts are available = " and the number of gallons and quarts. NOTE: If there are no quarts needed, do NOT display “0 quarts”.
 
 
 ### Displaying results:
