@@ -41,7 +41,6 @@ Finally, create a Customize section under the two big Yes and No buttons:
 
 
     - Add an input type color that will change the Yes Button's background color. Give the input an oninput= attribute that will change the style.background of the Yes button to be this.value
-    
     - Add an input type color that changes the No Button's background color oninput.
     - Add an input type range slider that changes the width of BOTH buttons onchange.
 
