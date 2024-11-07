@@ -22,10 +22,10 @@ Columns are: 4096s 256s 16s 1s
 print("Part A: Convert the base-16 number to decimal")
 print("  For example, 00FC"+b16+" = 252"+b10)
 for i in range(6):
-    temp = random.randint(i*50,i*50+50)+random.randint(i*50,i*50+50)+17
+    temp = random.randint(i*i*10,i*i*10+10)+random.randint(i*i*10,i*i*10+10)+17
     # temp = temp[2:].zfill(4).upper()
     while temp in mylist:
-      temp = random.randint(i*50,i*50+50)+random.randint(i*50,i*50+50)+17
+      temp = random.randint(i*i*10,i*i*10+10)+random.randint(i*i*10,i*i*10+10)+17
       # temp = temp
     mylist.append(temp)
     print(
@@ -37,17 +37,17 @@ for i in range(6):
     )
 print("\nPart B: Convert the decimal number to base-16")
 print("  For example, 225"+ b10 +" = 00E1"+b16)
-for i in range(7,13):
-    temp = random.randint(i*11, i * 11 + 10) + random.randint(i*11, i * 11 + 10)+17
-    if temp%2==0:temp+=1
+for i in range(2,8):
+    temp = random.randint(i*i*3,i*i*3+10) + random.randint(i*i*3,i*i*3+10)+18
+    # if i%2==0:temp+=1
     while temp in mylist:
-      temp = random.randint(i*11, i * 11 + 10) + random.randint(i*11, i * 11 + 10)+17
-      if temp%2==0:temp+=1
+      temp = random.randint(i*i*3,i*i*3+10) + random.randint(i*i*3,i*i*3+10)+18
+      # if i%2==0:temp+=1
     mylist.append(temp)
     print(
         "\n%6s.) %25s"
         % (
-            str(i),
+            str(i + 5),
             str(temp) + b10 + " = __________"+b16,
         )
     )
