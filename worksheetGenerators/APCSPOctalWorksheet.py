@@ -19,15 +19,15 @@ print("\nPart A: Convert the octal number to decimal")
 print("For example, 0321\u208d\u2088\u208e = 209\u208d\u2081\u2080\u208e")
 for i in range(1,7):
     temp = (
-        str(int(i / 4))
-        + str(random.randint(int(i / 2), i))
+        str(int(i / 6))
+        + str(int(i / 3))
         + str(i + 1)
         + str(random.randint(i, 7))
     )
     while int(temp) in mylist:
       temp = (
-        str(int(i / 4))
-        + str(random.randint(int(i / 2), i))
+        str(int(i / 6))
+        + str(int(i / 3))
         + str(i + 1)
         + str(random.randint(i, 7))
       )
@@ -42,9 +42,9 @@ for i in range(1,7):
 print("\nPart B: Convert the decimal number to octal")
 print("For example, 221\u208d\u2081\u2080\u208e = 0335\u208d\u2088\u208e")
 for i in range(6):
-    temp = random.randint(i*52 + 9, i * 52 + 29) + random.randint(i*52 + 9, i * 52 + 29)
+    temp = random.randint(i*i*10 + 9, i*i*10 + 19) + random.randint(i*i*10 + 9, i*i*10 + 19)
     while temp in mylist:
-      temp = random.randint(i*52 + 9, i * 52 + 29) + random.randint(i*52 + 9, i * 52 + 29)
+      temp = random.randint(i*i*10 + 9, i*i*10 + 19) + random.randint(i*i*10 + 9, i*i*10 + 19)
     mylist.append(temp)
     print(
         "\n%6s.) %29s"
