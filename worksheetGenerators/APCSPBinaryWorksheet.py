@@ -40,12 +40,14 @@ print("\nPart B: Convert the 8-bit binary number to decimal")
 print("  Hint: 128s 64s 32s 16s 8s 4s 2s 1s")
 print("  For example, 10101010\u208d\u2082\u208e = 170\u208d\u2081\u2080\u208e")
 for i in range(5,9):
-    temp = random.randint(i*6,i*6+5)+random.randint(i*6,i*6+5)
+    temp = random.randint(i*i,i*i+5)+random.randint(i*i,i*i+5)
     #temp = temp[2:].zfill(8)
     while temp in mylist or is_power_of_two(temp):
-      temp = random.randint(i*6,i*6+5)+random.randint(i*6,i*6+5)
+      temp = random.randint(i*i,i*i+5)+random.randint(i*i,i*i+5)
       #temp = temp[2:].zfill(8)
     mylist.append(temp)
+    mylist.append(temp + 1)
+    mylist.append(temp - 1)
     print(
         "%6s.) %26s"
         % (
@@ -55,15 +57,15 @@ for i in range(5,9):
     )
 print("\nPart C: Convert the decimal number to binary")
 print("  For example, 223\u208d\u2081\u2080\u208e = 11011111\u208d\u2082\u208e")
-for i in range(9,15):
-    temp = random.randint(i*6,i*6+5) + random.randint(i*6,i*6+5)
+for i in range(5,11):
+    temp = random.randint(i*i,i*i+10) + random.randint(i*i,i*i+10)
     while temp in mylist  or is_power_of_two(temp):
-      temp = random.randint(i*6,i*6+5) + random.randint(i*6,i*6+5)
+      temp = random.randint(i*i,i*i+10) + random.randint(i*i,i*i+10)
     mylist.append(temp)
     print(
         "\n%6s.) %34s"
         % (
-            str(i),
+            str(i + 4),
             str(temp) + "\u208d\u2081\u2080\u208e = ____________________\u208d\u2082\u208e",
         )
     )
