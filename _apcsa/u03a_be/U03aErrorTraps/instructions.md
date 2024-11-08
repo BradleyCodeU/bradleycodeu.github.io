@@ -8,16 +8,16 @@ Conditional statements are often used to catch input values that are inaccurate.
 Write a program that does TWO THINGS...
 
 Part 1 of 2, prompt the user to provide a single character from the alphabet. Depending on the user input, print either:
-    -   VOWEL
-    -   CONSONANT
-    -   ERROR
+  -   VOWEL
+  -   CONSONANT
+  -   ERROR
 
 Part 2 of 2, prompt the user for a word. According to Trinity College, the "average length of English words is 4.5 letters". Depending on the user input, print either:
-    -   LONG WORD THAT STARTS WITH A VOWEL
-    -   LONG WORD THAT STARTS WITH A CONSONANT
-    -   SHORT WORD THAT STARTS WITH A VOWEL
-    -   SHORT WORD THAT STARTS WITH A CONSONANT
-    -   ERROR
+  -   LONG WORD THAT STARTS WITH A VOWEL
+  -   LONG WORD THAT STARTS WITH A CONSONANT
+  -   SHORT WORD THAT STARTS WITH A VOWEL
+  -   SHORT WORD THAT STARTS WITH A CONSONANT
+  -   ERROR 
 
 Print an error message if the user input...
   - doesn't start with a letter (between a and z or A and Z)
@@ -33,28 +33,28 @@ Hints:
   - You can use the charAt String method to return the char at a specified index
 
 
-SAMPLE RUN 1:
+### SAMPLE RUN 1:
 ```
 Part 1 Enter a letter: {
 ERROR
 Part 2 Enter a word: Apple
 LONG WORD THAT STARTS WITH A VOWEL
 ```
-SAMPLE RUN 2:
+### SAMPLE RUN 2:
 ```
 Part 1 Enter a letter:  E
 VOWEL
 Part 2 Enter a word: *o*o*p*s*
 ERROR
 ```
-SAMPLE RUN 3:
+### SAMPLE RUN 3:
 ```
 Part 1 Enter a letter:  y
 CONSONANT
 Part 2 Enter a word: app
 SHORT WORD THAT STARTS WITH A VOWEL
 ```
-SAMPLE RUN 4:
+### SAMPLE RUN 4:
 ```
 Part 1 Enter a letter:  just one letter
 ERROR
