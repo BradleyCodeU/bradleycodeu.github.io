@@ -14,14 +14,14 @@ Download one of these and pick 10 sounds to use:
 1. In the script section, load all 10 of the sounds. For example...
 ```
 // when the page loads
-var soundA = new Audio("https://cdn.glitch.com/475828fb-3da7-4c90-8b9a-8217d8db7a15%2F0.mp3?1509508399315");
+let soundA = new Audio("drum.mp3");
 ```
 
 1. Create a button class so that all of your piano keys look almost identical. Add a [hover](https://www.w3schools.com/cssref/sel_hover.asp) effect and an [active](https://www.w3schools.com/cssref/sel_active.asp) effect.
 
 1. Each of the piano keys can simply play ONE sound using onclick. For example, onclick="soundA.play()"
 
-1. Make a giant Play button. Here is the code for the giant Play button: [https://gist.github.com/ohiofi/c6b2bca45c7a9aa1bc9741afc1f79973](https://gist.github.com/ohiofi/c6b2bca45c7a9aa1bc9741afc1f79973)
+1. Make a giant Play button. Here is the code for the giant Play button: [https://gist.githubusercontent.com/ohiofi/c6b2bca45c7a9aa1bc9741afc1f79973/raw/5829b31f4be8ad59500eece457158993bfaa941f/JS%2520play%2520button](https://gist.githubusercontent.com/ohiofi/c6b2bca45c7a9aa1bc9741afc1f79973/raw/5829b31f4be8ad59500eece457158993bfaa941f/JS%2520play%2520button)
 
 1. Once you've copy/pasted that code and added your variables to the array/list, give your giant play button onclick="playSong()"
 
