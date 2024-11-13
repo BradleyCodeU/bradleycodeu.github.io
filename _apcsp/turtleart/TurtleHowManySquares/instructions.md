@@ -5,7 +5,7 @@ title: Turtle How Many Squares
 ---
 Turtle How Many Squares
 
-The goal of this assignment is to combine our knowledge from September's Py unit (collecting user input and validating input) with October's Turtle Art unit. Working with a partner you will create a project that collects several different drawings (smiley, house, etc), different shapes (square, star, etc), and initials. In addition to copy/pasting in your old drawings/shapes/initials from previous projects, I would like each person to add one new drawing/shape/initial.
+The goal of this assignment is to combine our knowledge from September's Py unit (collecting user input and validating input) with October's Turtle Art unit. Working with a partner you will create a project that collects several different drawings (smiley, house, etc), different shapes (square, star, etc), and initials. In addition to copy/pasting in your old drawings/shapes/initials from previous projects, I would like each person to add one new drawing/shape/initial. You could draw something simple or something [really impressive](https://bradleycodeu.github.io/apcsp/turtleart/areYouWinningSon.png)
 
 
 
