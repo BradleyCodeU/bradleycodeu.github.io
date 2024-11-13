@@ -28,7 +28,7 @@ Car or Truck<br>Flower<br>Peace sign<br>Dollar sign<br>Snowman<br>Block letter B
 </table>
 
 
-NOT just a squiggle or spiral. Your drawing should be 12 lines of code or more. Should draw 6 or more lines/shapes. Like this...
+NOT just a squiggle or spiral. Your drawing should be 12 lines of code or more. Should draw 6 or more lines/shapes. Something like this...
 
 ![smiley face example](https://bradleycodeu.github.io/apcsp/turtleart/TurtleSimpleDrawing/turtlesmiley.jpg)
 
@@ -65,3 +65,5 @@ Add a size argument to your function. Use the size to control the scale of the s
 Use a for loop to draw a line of several small shape. Each one is rotated a bit more than the last.
 
 ![simple Drawing Challenge Example](https://bradleycodeu.github.io/apcsp/turtleart/TurtleSimpleDrawing/simpleDrawingChallengeExample.jpg)
+
+Why not draw something [really impressive](https://bradleycodeu.github.io/apcsp/turtleart/areYouWinningSon.png)?
