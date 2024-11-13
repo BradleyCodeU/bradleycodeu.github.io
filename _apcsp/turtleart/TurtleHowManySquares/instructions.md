@@ -30,10 +30,12 @@ Define a main function named main(). Inside of the main function do the followin
 
     - Collect user input.
 
-    - If isValidNumber(userAnswer) is True, then draw that many squares, stars, etc. Otherwise, print "Not a valid number". NOTE: You MUST use a "for i in range()" loop so that the project is a reasonable length.
+    - If isValidNumber(userAnswer) is True, then draw that many squares, stars, etc. Otherwise, print "Not a valid number". You MUST use a "for i in range()" loop so that the project is a reasonable length.
 
 
 Drawings must be shown one after another in a straight line (not overlapping, not at random locations, not rotated in weird directions). All squares must be visible! If I ask for 5, I must be able to see 5.
+
+![example with 5 squares drawn correctly and 5 squares drawn incorrectly](https://bradleycodeu.github.io/apcsp/turtleart/TurtleHowManySquares/drawSquaresYesNo.png)
 
 
 ---
@@ -47,7 +49,7 @@ What drawing would you like? 1=square, 2=star, 3=triangle, 4=smiley
 How many would you like to draw?
 4
 ```
-![squares](https://bradleycodeu.github.io/apcsp/turtleart/TurtleHowManySquares/squares.jpeg)
+![example with 4 squares](https://bradleycodeu.github.io/apcsp/turtleart/TurtleHowManySquares/squares.jpeg)
 
 
 Example Run #2
