@@ -9,7 +9,7 @@ The goal of this assignment is to combine our knowledge from September's Py unit
 
 
 
-Define seperate functions for all of your drawings/shapes/initials. For example, you might define drawSquare() that draws a single square. Add comments 
+Define seperate functions for all of your drawings/shapes/initials. For example, you might define drawSquare() that draws a single square. Add comments so that we know who coded each function
 
 
 Define a function named isValidNumber that requires one argument (myNumber) and returns True or False if myNumber is valid. For this project, any integer 1-10 is valid.
