@@ -9,7 +9,7 @@ The goal of this assignment is to combine our knowledge from September's Py unit
 
 
 
-Define seperate functions for all of your drawings/shapes/initials. For example, you might define drawSquare() that draws a single square.
+Define seperate functions for all of your drawings/shapes/initials. For example, you might define drawSquare() that draws a single square. Add comments 
 
 
 Define a function named isValidNumber that requires one argument (myNumber) and returns True or False if myNumber is valid. For this project, any integer 1-10 is valid.
@@ -43,11 +43,12 @@ Drawings must be shown one after another in a straight line (not overlapping, no
 Example Run #1
 ```
 What drawing would you like? 1=square, 2=star, 3=triangle, 4=smiley
-3
+1
 How many would you like to draw?
-11
-Not a valid number
+4
 ```
+![squares](https://bradleycodeu.github.io/apcsp/turtleart/TurtleHowManySquares/squares.jpeg)
+
 
 Example Run #2
 ```
@@ -59,19 +60,22 @@ That is not a valid drawing option
 Example Run #3
 ```
 What drawing would you like? 1=square, 2=star, 3=triangle, 4=smiley
-1
+3
 How many would you like to draw?
-4
+11
+Not a valid number
 ```
-![squares](https://bradleycodeu.github.io/apcsp/turtleart/TurtleHowManySquares/squares.jpeg)
+
+
+
 
 
 ### GOLD MEDAL CHALLENGE
 
-While the user types in an invalid option, repeat the question. If they typed in a valid option, break out of the loop.
+1. While the user types in an invalid option, repeat the question. If they typed in a valid option, break out of the loop.
 
-Set the pen color (the outline) and the fill color to two different colors
+2. Set the pen color (the outline) and the fill color to two different colors
 
-Gradually increase the size of each drawing
+3. Gradually increase the size of each drawing
 
-Gradually change the color for each drawing (either each drawing gets lighter or each gets darker, your choice)
+4. Gradually change the color for each drawing (either each drawing gets lighter or each gets darker, your choice)
