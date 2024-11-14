@@ -22,7 +22,7 @@ let soundA = new Audio("drum.mp3");
 
 1. Each of the piano keys can simply play ONE sound using onclick. For example, onclick="soundA.play()"
 
-1. Make a giant Play button. [Click here to get the JS code for the giant Play button](https://gist.githubusercontent.com/ohiofi/c6b2bca45c7a9aa1bc9741afc1f79973/raw/ef9e4405e61d538843c36eb654f89924265b9d9d/JS%2520play%2520button)
+1. Make a giant Play button. [Click here to get the JS code for the giant Play button](https://gist.githubusercontent.com/ohiofi/c6b2bca45c7a9aa1bc9741afc1f79973/raw/3fd66936569430a6f38f489848f9665a342b7037/JS%2520play%2520button)
 
 1. Once you've copy/pasted that code and added your variables to the array/list, give your giant play button onclick="playSong(yourSoundArray)"
 
