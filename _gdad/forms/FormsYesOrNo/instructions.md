@@ -8,6 +8,7 @@ Download one of these:
   - [Alice Sound Library 1](https://www.alice.org/wp-content/uploads/2017/05/AliceSoundLibrary.zip)
   - [Alice Sound Library 2](https://www.alice.org/wp-content/uploads/2017/08/AliceSoundLibraryExpansionPackOne.zip)
   - [Essential Retro Video Game Sound Effects Collection](https://drive.google.com/uc?export=download&id=1wjLFlCGQ_HoQJ0QMawGk5qoCyOWcteY4)
+  - [Chipshop Deluxe 16bit](https://drive.google.com/uc?export=download&id=1BwXL4Szc6FoJFlN3iCRukdnNiN060Y3u)
 
 Drag a few of your favorite sounds into the same folder as your project.
 
