@@ -1,5 +1,10 @@
-# Cedar Point Calc
 ---
+layout: project
+category: u02b-strings
+title: U02b 
+---
+Cedar Point Calc 
+
 NOTE: You do NOT need to use any "if" statements for this project
 
 Mr. Cook has decided to send all student class officers from grades 7 - 12 to Cedar Point to thank them for their work. He doesn't know *exactly* how many students will be attending right now, but he has asked you to write a program that can  calculate and display the total expenses of the trip.

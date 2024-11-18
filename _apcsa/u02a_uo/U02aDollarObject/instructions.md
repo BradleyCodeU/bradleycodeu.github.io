@@ -1,7 +1,7 @@
 ---
 layout: project
 category: u02a-using-objects
-title: U02a Dollar
+title: U02a Dollar Object
 ---
 
 New coders will often use the double datatype to store an amount of money. This could lead to strange amounts of money (such as $1.1) or floating-point rounding errors (such as $44.419999999999995).

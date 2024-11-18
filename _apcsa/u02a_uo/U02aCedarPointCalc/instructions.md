@@ -1,5 +1,10 @@
-# Cedar Point Calc
 ---
+layout: project
+category: u02a-using-objects
+title: U02a Cedar Point Calc
+---
+Cedar Point Calc
+
 NOTE 1: You do NOT need to use any "if" statements for this project
 
 NOTE 2: Use the Dollar class. Documentation for the Dollar class is here: https://bradleycodeu.github.io/apcsa/u02a_uo/U02aCedarPointCalc/doc/Dollar.html 
