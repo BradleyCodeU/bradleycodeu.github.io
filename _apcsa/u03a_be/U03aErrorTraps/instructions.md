@@ -1,6 +1,6 @@
 ---
 layout: project
-category: u03a_be
+category: u03a-boolean-expressions
 title: U03a Error Traps
 ---
 Conditional statements are often used to catch input values that are inaccurate.

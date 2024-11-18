@@ -1,5 +1,10 @@
-# Ch2 Club Meeting
 ---
+layout: project
+category: u02b-strings
+title: U02b Club Meeting
+---
+Ch2 Club Meeting
+
 
 Read [this tutorial](https://www.geeksforgeeks.org/java-math-random-method-examples/) about using the static method Math.random()
 

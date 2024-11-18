@@ -1,5 +1,11 @@
-# Math Method Madness
 ---
+layout: project
+category: u02b-strings
+title: U02b Math Method Madness
+---
+Math Method Madness
+
+
 Combine these 3 parts to create one big Method Madness program.
 
 ## Part 1:

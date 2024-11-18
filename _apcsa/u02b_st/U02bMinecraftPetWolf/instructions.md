@@ -1,4 +1,9 @@
-# Minecraft Pet Wolf
+---
+layout: project
+category: u02b-strings
+title: U02b Minecraft Pet Wolf
+---
+Minecraft Pet Wolf
 
 In the `src` folder, you will write your code in the `PetWolf.java` file.
 

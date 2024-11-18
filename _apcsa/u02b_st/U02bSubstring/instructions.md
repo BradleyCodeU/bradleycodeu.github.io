@@ -1,4 +1,9 @@
-# U02b Substring
+---
+layout: project
+category: u02b-strings
+title: U02b First Vowel Substring
+---
+First Vowel Substring
 
 
 In this project you will demonstrate several String methods including substring, indexOf, toUpperCase, toLowerCase, and length
@@ -52,7 +57,7 @@ Create *ONE* Java program that does *ALL* of the following:
 1. Pig Latin. For example, if the user input "Justin" it becomes "Ustin-jay" and if the user input "bradley" it becomes "Adley-bray". Use the String class substring method, the String toUpperCase method, the String toLowerCase method, and the static findFirstVowel(inputWord) method. <ins>Print the result</ins>
 
 1. Generate a username using the first letter (converted to lowercase), the last letter (converted to uppercase), and a random three-digit number from 100 to 999. For example, if the user input "Justin" it might generate "jN371" or "jN784" or "jN196". Use the String length and substring to get the last letter. For the random number...
-    - Use double randomDouble = the Math.random() function (which returns a decimal number from 0.0 up to 0.99999999999)
+    - double randomDouble = Math.random(); // returns a decimal number from 0.0 up to 0.99999999999
     - Convert it to a String, use String randomString = randomDouble + "";
     - Use the substring method to ONLY print 3 digits. <ins>Print the random user name (like "jN371" or "jN784" or "jN196")</ins>
 

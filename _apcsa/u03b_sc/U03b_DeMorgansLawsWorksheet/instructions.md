@@ -1,6 +1,6 @@
 ---
 layout: project
-category: u03b_sc
+category: u03b-short-circuit
 title: De Morgans Laws Worksheet
 ---
 
