@@ -81,3 +81,5 @@ Not a valid number
 3. Gradually increase the size of each drawing
 
 4. Gradually change the color for each drawing (either each drawing gets lighter or each gets darker, your choice)
+
+![examples with drawings gradually changing size and gradually changing color](https://bradleycodeu.github.io/apcsp/turtleart/TurtleHowManySquares/HowManySquaresChallenges.png)
