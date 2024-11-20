@@ -1,6 +1,6 @@
 ---
 layout: project
-category: ch6loops
+category: u04a-iteration
 title: CBString2
 ---
 
@@ -20,4 +20,4 @@ NOTE: you can SKIP starOut
 
 Turn in your DONE page URL when finished.
 
-![Coding Bat with the first 6 activities in the first column completed](https://bradleycodeu.github.io/apcsa/u04a_it/U04aCBString2/cb03.png)
+![Coding Bat with the first 6 activities in the first column completed](/apcsa/ch6loops/cb03.png)

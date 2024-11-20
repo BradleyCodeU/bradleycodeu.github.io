@@ -9,15 +9,15 @@ Paint Calc 2
 
 
 
-We created PaintCalculatorAreaOnly in Unit 1 that calculated the area to be painted. We will be ADDING to this program. You may copy/paste your previous code into this assignment.
+We created "Paint Calc Int Only" in Unit 1 that calculated the area to be painted. We will be improving this program. You do NOT need to copy/paste your previous code.
 
 Calculate the number of cans of paint needed to paint the walls of the room.
 
-Assume 1 gallon of paint will cover 300 square feet.
+### Assume 1 gallon of paint will cover 300 square feet.
 
-Assume 1 quart of paint will cover 75 square feet.
+### Assume 1 quart of paint will cover 75 square feet.
 
-### Only full cans of paint:
+### Only full cans of paint! The result can NOT say that you need 0.6253 gallons. Perform your calculations as doubles, then round and convert to an int at the end.
 
 - *You will only be able to purchase **full cans of paint** (no fractions of a can).*   So if you calculate that you need 1.2 gallons, you would need to purchase 2 gallons.* 
 

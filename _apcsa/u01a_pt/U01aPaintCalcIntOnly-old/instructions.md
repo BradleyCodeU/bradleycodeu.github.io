@@ -6,8 +6,10 @@ title: U01a Paint Calc Int Only
 
 You are painting a room and need to calculate the amount of paint that must be purchased. All inputs and outputs will be stored as integers. Even the final cost will be an integer.
 
-- Fill in the body of the static method calculateWallArea(intlength, width, height, num_doors, num_windows)
-Assume that doors are 21 square feet and windows are 12 square feet.
+### Assume 1 gallon of paint will cover 300 square feet.
+
+- Fill in the body of the static method calculateWallArea(int length, width, height, num_doors, num_windows)
+Assume that doors are 21 square feet and windows are 12 square feet. This method returns an int
 
 - In the main method...
   - Prompt the user for the length, width, height, etc.
@@ -49,3 +51,18 @@ Gallons of paint needed = 1
 Total cost = 17
 ```
 
+### SAMPLE OUTPUT #3:
+```
+Enter the room dimensions below
+Length: 0
+Width: 0
+Height: 0
+How many doors does the room have: 0
+How many windows does the room have: 0
+Enter the price of a gallon of paint: 11
+Enter the sales tax percent: 5
+Results
+Total square feet = 0 square feet
+Gallons of paint needed = 0
+Total cost = 0
+```
