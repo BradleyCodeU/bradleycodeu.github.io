@@ -1,4 +1,7 @@
-# While Loops
+---
+layout: project
+category: u04a-iteration
+title: U04a While Loops
 ---
 Write while loops that will print
 
