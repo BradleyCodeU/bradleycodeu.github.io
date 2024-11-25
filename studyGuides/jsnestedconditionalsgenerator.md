@@ -45,7 +45,7 @@ function logicalOperator() {
 
 function generateConditionals() {
     let outputString = "";
-    let variableString = "var value = ";
+    let variableString = "let value = ";
     const words2DArray = [
     ["apple", "Atlanta", "ant", "alpaca", "antelope", "apricot", "armadillo", "asparagus", "almond", "animal crackers", "avocado", "alphabet soup", "American cheese", "artichoke", "avocado", "apartment", "acorn", "ambulance", "accordion", "anchor"],
     ["banana", "Baltimore", "bear", "buffalo", "bison", "blueberry", "beaver", "broccoli", "bread", "baklava", "blackberry", "butternut squash", "basil", "beet", "bell pepper", "basketball", "bicycle", "butterfly", "bowtie", "bookcase"],
