@@ -21,7 +21,7 @@ def logicalOperator():
 
 while True:
     print(" ")
-    variableString = "var value = "
+    variableString = "let value = "
     myvar = str(randint(0,20))
     variableString += str(myvar)
     print(variableString +";")
