@@ -17,9 +17,9 @@ while True:
         ml.append(randint(0,len(ml)+2))
     shuffle(ml)
     #print line 01 the array
-    result+="var "+varA+" = "+str(ml)+";\n"
+    result+="let "+varA+" = "+str(ml)+";\n"
     #print line 02 the final index
-    result+="var "+varB+" = "
+    result+="let "+varB+" = "
     indexOne = randint(0,len(ml)-1)
     indexTwo = randint(0,len(ml)-1)
     if randint(0,2):
