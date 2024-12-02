@@ -1,6 +1,6 @@
 ---
 layout: project
-category: u4b_nl
+category: u4b-nested-loops
 title: Minecraft Road Builder
 ---
 
@@ -24,7 +24,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.util.Vector;
  
-public class U06aMinecraftRoadBuilder extends JavaPlugin {
+public class U04bMinecraftRoadBuilder extends JavaPlugin {
     public static final Logger LOG = Logger.getLogger("Minecraft");
 
 

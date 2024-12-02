@@ -1,8 +1,8 @@
-name: PetWolf
+name: U04bMinecraftRoadBuilder
 
 author: Your Name
 
-main: PetWolf
+main: U04bMinecraftRoadBuilder
 
 commands:
     petwolf:

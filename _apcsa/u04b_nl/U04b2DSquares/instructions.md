@@ -1,6 +1,6 @@
 ---
 layout: project
-category: u4b_nl
+category: u4b-nested-loops
 title: U04b 2D Squares
 ---
 
