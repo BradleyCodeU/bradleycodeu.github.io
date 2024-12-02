@@ -20,8 +20,8 @@ Each day will begin with [The Daily Standup (aka The Daily Scrum)](https://www.m
 Your first meeting is also a [Sprint Planning meeting](https://www.mountaingoatsoftware.com/agile/scrum/meetings/sprint-planning-meeting) in which the team members select tasks from the Product Backlog that they plan on completing during the upcoming sprint. Pick several tasks (total of 30 pts or more). Write the task name and number of points on post-it notes. Place these tasks in the To Do column of your Scrum Board.
 
 For Sprint 1, your team must simply complete a set number of points.
-  - 3 team members = 30 pts or more
-  - 4 team members = 40 pts or more
+  - 3 team members = 45 pts or more
+  - 4 team members = 60 pts or more
 
 When finished...
 
