@@ -5,7 +5,7 @@ title: Minecraft Road Builder
 ---
 
 
-Concepts covered in this project include arrays, nested loops.
+Concepts covered in this project include nested loops and arrays (we haven't covered arrays yet, but don't worry about that!)
 
 
 Starter code:
