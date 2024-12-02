@@ -16,7 +16,7 @@ Complete the first 6 activities in the first column:
     - prefixAgain
     - sameStarChar
 
-NOTE: you can SKIP starOut
+NOTE: you can SKIP starOut because it's tricky!
 
 Turn in your DONE page URL when finished.
 
