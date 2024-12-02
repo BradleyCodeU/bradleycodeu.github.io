@@ -1,7 +1,7 @@
 ---
 layout: project
 category: u04b-nested-loops
-title: Loop Practice
+title: String Loop Practice
 ---
 
 1
