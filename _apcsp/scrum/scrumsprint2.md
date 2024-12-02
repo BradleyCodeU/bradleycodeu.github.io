@@ -3,14 +3,14 @@ layout: project
 category: scrum
 title: Scrum Sprint 2
 ---
-This project is to be completed with your assigned group of 3 or more.
+This project is to be completed with your assigned group of 3 or more. Your team will focus on ONE of the scenes during this sprint... either cityScene, countryScene, or underwaterScene. Only that ONE scene needs to look nice and organized.
 
 Do NOT delete the old tasks from the Done section of your Scrum Board.
 
 
 ![Scenes](/apcsp/scrum/ArtScene.PNG)
 
-TLDR: There are 5 new tasks that your group must add to your "To Do" list. Your team will complete ONE of the scenes during this sprint... either cityScene, countryScene, or underwaterScene. Details for these tasks are in the directions.
+TLDR: There are 5 new tasks that your group must add to your "To Do" list. Your team will focus on ONE of the scenes during this sprint... either cityScene, countryScene, or underwaterScene. Only that ONE scene needs to look nice and organized. Details for these tasks are in the directions.
 
 
 - cityScene 5pts
@@ -20,9 +20,11 @@ TLDR: There are 5 new tasks that your group must add to your "To Do" list. Your 
 - main 2pts
 
 
-GOAL: Each group of 3 should have completed a total of 60 story points or more (30 from last sprint plus 30 from THIS sprint) by the end of this sprint. A group of 4 should have completed a total of 80 points (40 from last sprint plus 40 from THIS sprint).
+GOAL: 
+- Group of 3 should have completed a total of 90 story points or more (45 from last sprint plus 45 from THIS sprint) by the end of this sprint. 
+- Groups of 4 should have completed a total of 120 points (60 from last sprint plus 60 from THIS sprint).
 
-Once you have completed your additional 30 (or 40) story points for this sprint, SHOW MR RILEY.
+Once you have completed your additional 45 (or 60) story points for this sprint, SHOW MR RILEY.
 
 
 
@@ -35,7 +37,7 @@ Hold a Sprint Planning Meeting with your group. Start by creating post-its the f
   1. Create a cityScene function that calls every function that you want drawn in the city. For example, groundWithOcean, several MountainsInTheDistance, several skyscrapers, several cars, bridge, several clouds, boat, helicopter, etc. = *5pts*
   1. Create a countryScene function that calls every function that you want drawn in the country. For example, groundWithRiver, boat, MountainsInTheDistance, several trees, barn, car, bridge, several clouds, several birds, helicopter, etc. = *5pts*
   1. Create a underwaterScene function that calls every function that you want drawn underwater. For example, waves, boat, several clouds, several seaweed, helicopter, several fish, several starfish, etc. = *5pts*
-  1. Create a Main function that asks the user "Which scene would you like? Type either 1 for city, 2 for country, or 3 for underwater: " then collects the user input. If the user input is invalid, print "Not a valid number 1-3". If it is valid then call either cityScene, countryScene, or underwaterScene. = *2pts*
+  1. Create a Main function that asks the user "Which scene would you like? Type either 1 for city, 2 for country, or 3 for underwater: " then collects the user input. If the user input is invalid, print "Not a valid number 1-3". If it is valid then call either cityScene, countryScene, or underwaterScene. Your team will focus on ONE of the scenes during this sprint... either cityScene, countryScene, or underwaterScene. Only that ONE scene needs to look nice and organized. = *2pts*
 
 
 Each day will begin with [The Daily Standup (aka The Daily Scrum)](https://www.mountaingoatsoftware.com/agile/scrum/meetings/daily-scrum) a standing (not sitting) meeting of 15 minutes or less. Taking turns, each member says:
