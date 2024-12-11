@@ -92,7 +92,7 @@ int zDepth = Integer.parseInt(arguments[1]);
 ```
 
 ### Check Road Orientation
-Either the xWidth or the zDepth *should* be set to 1. Decide how you want to fix the problem if the user forgets that one should be 1. What if the user types "road 0 -5"??? What if the user types "road 99 88"??? What if the user types "road 99 99"??? Either log a message and don't build a road OR automatically adjust the numbers for the user. Your choice.
+Either the xWidth or the zDepth *should* be set to 1. Decide how you want to fix the problem if the user forgets that one should be 1. What if the user types "road -6 0" ? ? ? What if the user types "road -99 -1" ? ? ? What if the user types "road 99 99" ? ? ? Either log a message and don't build a road OR automatically adjust the numbers for the user. Your choice.
 
 
 ### Construct the Road
