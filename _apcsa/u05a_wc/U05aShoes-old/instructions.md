@@ -1,9 +1,5 @@
+# Ch3 Shoes
 ---
-layout: project
-category: u5a-writing-classes
-title: Shoes
----
-
 Create a Shoes class and add a 2nd test to its tester file, ShoesTester.
 
 1.	Write the Shoes class that is being accessed by the ShoesTester class. NO PRINTING INSIDE OF THIS OBJECT CLASS.
