@@ -13,18 +13,18 @@ public class Test_Shoes {
       fav.setBrand("Nike");
       fav.setType("Golf");
       fav.setSize(9.5);
-      String favString = fav.toString();
-      favString = favString.substring(0, favString.indexOf("9.5"))+favString.substring(favString.indexOf("9.5")+3);
-      assertEquals(true,favString.contains("ngblue9.5"));
+      String modelNum = fav.getModelNumber();
+      assertEquals(true,modelNum.contains("ngblue9.5"));
       fav = new Shoes();
       fav.setColor("W");
       fav.setBrand("X");
       fav.setType("Y");
       fav.setSize(1.23);
-      favString = fav.toString();
-      favString = favString.substring(0, favString.indexOf("1.23"))+favString.substring(favString.indexOf("1.23")+3);
-      assertEquals(true,favString.contains("xyw1.23"));
+      modelNum = fav.getModelNumber();
+      assertEquals(true,modelNum.contains("xyw1.23"));
   }
+
+
 
   @Test
     public void test_SetColor() {
