@@ -11,12 +11,12 @@ Concepts covered in this project:
 
 Tutorials:
 
-- Calling Functions https://happycoding.io/tutorials/p5js/calling-functions
-- Using Variables https://happycoding.io/tutorials/p5js/using-variables
-- Creating Variables https://happycoding.io/tutorials/p5js/creating-variables
-- If Statements https://happycoding.io/tutorials/p5js/if-statements
-- Animation https://happycoding.io/tutorials/p5js/animation
-- Random https://happycoding.io/tutorials/p5js/random
+- Calling Functions [https://happycoding.io/tutorials/p5js/calling-functions](https://happycoding.io/tutorials/p5js/calling-functions)
+- Using Variables [https://happycoding.io/tutorials/p5js/using-variables](https://happycoding.io/tutorials/p5js/using-variables)
+- Creating Variables [https://happycoding.io/tutorials/p5js/creating-variables](https://happycoding.io/tutorials/p5js/creating-variables)
+- If Statements [https://happycoding.io/tutorials/p5js/if-statements](https://happycoding.io/tutorials/p5js/if-statements)
+- Animation [https://happycoding.io/tutorials/p5js/animation](https://happycoding.io/tutorials/p5js/animation)
+- Random [https://happycoding.io/tutorials/p5js/random](https://happycoding.io/tutorials/p5js/random)
 
 
 You will be creating a bouncing ball animation that is similar to the “bouncing dvd logo” screensaver. If you don’t know what that is, Google bouncing dvd logo
