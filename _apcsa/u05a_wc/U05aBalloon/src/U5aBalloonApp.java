@@ -1,4 +1,4 @@
-class U05aBalloonApp {
+public class U05aBalloonApp {
   public static void main(String[] args) {
     System.out.println("Expected volume for radius 5 is 523.6");
     /* Construct Balloon */
