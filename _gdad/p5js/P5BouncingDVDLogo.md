@@ -28,9 +28,9 @@ Create a Ball that moves around the screen, bounces off walls, and changes color
     - y location
     - x speed
     - y speed
-- red amount (from 0 to 255)
-- green amount (from 0 to 255)
-- blue amount (from 0 to 255)
+    - red amount (from 0 to 255)
+    - green amount (from 0 to 255)
+    - blue amount (from 0 to 255)
 - The Ball should start in the top-left portion of the screen.
 - The Ball automatically moves around the screen using its speed to change its location.
 - If the Ball’s x is less than OR EQUAL TO zero, it is touching the left wall. Switch its x speed to a random amount from 1 to 5. Set the red, green, blue to new random amounts.
