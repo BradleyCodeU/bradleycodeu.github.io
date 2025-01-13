@@ -1,6 +1,6 @@
 
 
-class U05aStudentApp {
+public class U05aStudentApp {
   public static void main(String[] args) {
     Student demoStudent = new Student("x");
     System.out.println("Added the following quiz scores: 95, 65, 85");
