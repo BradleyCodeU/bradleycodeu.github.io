@@ -40,4 +40,4 @@ Finally, create the following static variable/methods:
 - a static list of used license plate numbers that have already been generated
 - a static method named getRobotCount() that will return the amount of robots that have been constructed
 - a static method String getLicensePlates() that returns the toString version of the license plate numbers ArrayList
-- a static method String generateLicensePlateNumber() that will generate a String length 7 of random uppercase-letters and numbers, add it to the ArrayList of used license plate numbers (NOTE: use the ArrayList add() method), and return the String
+- a static method String generateLicensePlateNumber() that will generate a String length 7 of random uppercase-letters and numbers, add it to the ArrayList of used license plate numbers, and return the String
