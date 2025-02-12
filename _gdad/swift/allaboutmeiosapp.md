@@ -10,6 +10,8 @@ Create a simple iOS app with at least 5 pages (view controllers).
   - Each page MUST contain one or more clickable links.
   - Your app MUST be able to work in both portrait and landscape.
 
+Record a demo video that shows your app running in Simulator. Your demo video must show your app in both portrait and landscape.
+
 Here is an example sketch:
 
 ![ios app flowchart](/gdad/swift/img/First iOS app example.jpg)
