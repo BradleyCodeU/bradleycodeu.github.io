@@ -16,12 +16,13 @@ class AutomaticTester(unittest.TestCase):
     def test_validInput(self):
         #validInput(0)| False |
         #|validInput(1)| True |
-        #|validInput("4")| True |
+        #|validInput("4")| False |
         #|validInput(5)| False |
         #|validInput("one")| False |
         self.assertEqual(validInput(0), False)
         self.assertEqual(validInput(1), True)
-        self.assertEqual(validInput("4"), True)
+        self.assertEqual(validInput("3"), True)
+        self.assertEqual(validInput("4"), False)
         self.assertEqual(validInput(5), False)
         self.assertEqual(validInput("one"), False)
     def test_isPlayerAlive(self):
