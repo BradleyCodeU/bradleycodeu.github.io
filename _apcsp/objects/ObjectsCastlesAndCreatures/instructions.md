@@ -51,6 +51,7 @@ The main function is already completed for you.
 |validInput(1)| True |
 |validInput(9)| True |
 |validInput("3")| True |
+|validInput("4")| False |
 |validInput(5)| False |
 |validInput("one")| False |
 |tryToSteal()| 30% True, 70% False |
