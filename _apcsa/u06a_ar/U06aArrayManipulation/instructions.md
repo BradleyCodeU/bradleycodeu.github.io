@@ -1,4 +1,7 @@
-# Array Manipulation
+---
+layout: project
+category: u06a-arrays
+title: U06a Array Manipulation
 ---
 Manipulate data stored in an array.
 
