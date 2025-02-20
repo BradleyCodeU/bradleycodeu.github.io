@@ -54,7 +54,7 @@ Supply the following constructor and methods:
 
 
 - public void move()
-    - For the move method, check the robot's current direction value and update its location by one unit in that direction. Since it's a computer science graph, remember that increasing the y-value moves downward, and decreasing the y-value moves upward.
+    - For the move method, check the robot's current direction value and update its location by one unit in that direction. Since this is a computer science graph, **remember** that increasing the y-value moves downward, and decreasing the y-value moves upward.
     - The move method moves the robot by one unit in the direction it is facing. 
 - public Point getLocation()
 - public String getDirection()
