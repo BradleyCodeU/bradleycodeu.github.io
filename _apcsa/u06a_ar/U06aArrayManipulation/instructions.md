@@ -3,6 +3,8 @@ layout: project
 category: u06a-arrays
 title: U06a Array Manipulation
 ---
+Concepts: arrays, side effects
+
 Manipulate data stored in an array.
 
 Part 1:
@@ -21,6 +23,7 @@ Part 3:
   - Create a new public static int[] shiftRight(int[] numbers). Return a new array in which all elements are move to the right by one index location and move the last element into the first position. For example, 11  14  19  16  25 would be transformed into 25  11  14  19  16.
 
   - In public static void main, print "Shifted array = " then print the new array.
+  - In public static void main, print "The original array is unchanged = " and print the array.
 
 Part 4:
   - Create a new public static int[] replaceAllEven(int[] numbers). Return a new array in which all even elements are replaced with 0. For example, 56  23  19  14 would be transformed into 0  23  19  0. Return a NEW array that only contains odd numbers and zeros. DO NOT mutate the numbers array.
@@ -33,3 +36,7 @@ Part 5:
 
   - In public static void main, print "Half values = " then print the new array.
   - In public static void main, print "The original array is unchanged = " and print the array.
+
+Part 6:
+
+  - Mr. Riley created public static int[] oopsAllZeros(int[] myArray) and it successfully returns an array of all zeros. There is a problem... a method should NOT mutate an object that is passed in as an argument. Please fix Mr. Riley's mistake!
