@@ -2,6 +2,14 @@ import java.util.Arrays;
 
 public class U06aArrayManipulationApp {
 
+    // NOTE: this is an example of what NOT to do.
+    // Do NOT mutate an object that is stored in a parameter.
+    public static int[] oopsAllZeros(int[] myArray) {
+        for(int i=0; i<myArray.length; i++){
+            myArray[i] = 0; // OH NO!
+        }
+        return myArray;
+    }
 
 
     public static void main(String[] args) {
@@ -35,6 +43,11 @@ public class U06aArrayManipulationApp {
 
         System.out.println("Half values = " + Arrays.toString( halve(numbers) ));
         System.out.println("The array is unchanged = " + Arrays.toString(numbers));
+
+        System.out.println("------------------------------------------------- PART SIX -----------------------------");
+
+        System.out.println("All zeros = " + Arrays.toString( oopsAllZeros(numbers) ));
+        System.out.println("The array is unchanged??? = " + Arrays.toString(numbers));
     }
 
 }
