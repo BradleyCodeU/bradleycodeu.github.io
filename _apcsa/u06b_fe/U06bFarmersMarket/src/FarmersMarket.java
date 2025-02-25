@@ -23,6 +23,8 @@ public class FarmersMarket {
         // Create a PriceTracker array of size 3 for corn (index 0 in PriceTracker array), apples (index 1), eggs (index 2)
         // Use a for-loop to Construct all of the trackers in the trackerArray. use the no-args constructor PriceTracker()
 
+        
+
     }
 
 
@@ -33,8 +35,12 @@ public class FarmersMarket {
 
 
 
+
+
     // getName Method to get the String name
     // Returns: the name of this FarmersMarket
+
+
 
 
 
@@ -46,6 +52,8 @@ public class FarmersMarket {
 
 
 
+
+
     // getAvailableSupply(String name) Method to get the available supply of a specific item
     // Parameters:
     // - String item: The name of the item. Either "corn", "apples", or "eggs"
@@ -54,10 +62,14 @@ public class FarmersMarket {
 
 
 
+
+
     // toString() Method to generate a string representation of the FarmersMarket object
     // Returns:
     // - A string containing the name of the market and the prices and supplies of all items 
     //   with "\n" separating each item. Use the PriceTracker's toString to easily get the price and supply.
+
+
 
 
 
