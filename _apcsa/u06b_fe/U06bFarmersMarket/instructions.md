@@ -8,10 +8,10 @@ title: U06b Farmers Market
 
 A FarmersMarket is a food market at which local farmers sell fruit and vegetables and often meat, cheese, and bakery products directly to consumers.
 
-In this project you will complete the FarmersMarket class. Each FarmersMarket has...
+In this project you will complete the FarmersMarket class. All of the other classes are complete. Each FarmersMarket has...
 
 - a name 
-- an array of PriceTracker objects that can calculate prices
+- an array of PriceTracker objects that can calculate prices. For example, could be PriceTrackers for corn, beans, eggs, etc.
 
 
 In addition to instance variables there are two static variables that belong to the class...
