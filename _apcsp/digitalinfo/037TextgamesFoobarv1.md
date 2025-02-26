@@ -39,7 +39,7 @@ REQUIREMENTS:
 
 Define a function named __doesRoomExist__ that requires 2 arguments: roomArray, roomNumber. If roomArray index roomNumber is None then say "You can't go there" and return False. Otherwise return True.
 
-Define a function named __doesItemExist__ that requires 2 arguments: roomArray, roomNumber. If doesRoomExist(roomArray,roomNumber) is False then return False. Otherwise if roomArray[roomNumber]['item'] does not equal None then return True. Otherwise return False.
+Define a function named __doesItemExist__ that requires 2 arguments: roomArray, roomNumber. If doesRoomExist(roomArray,roomNumber) is False then return False. Otherwise if `roomArray[roomNumber]['item']` does not equal None then return True. Otherwise return False.
 
 
 Define a function named __move__ that requires 3 argument: roomArray, mylocation, direction. Returns an int, mylocation.
