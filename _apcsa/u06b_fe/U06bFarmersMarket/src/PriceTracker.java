@@ -7,11 +7,7 @@ public class PriceTracker {
     private double minimumPrice;
 
     public PriceTracker() {
-        if(Math.random() + Math.random() < 1){
-            PriceTracker((int)(Math.random()*6+Math.random()*6), (int)(Math.random()*20+Math.random()*20), Math.random() + Math.random());
-        } else {
-            PriceTracker((int)(Math.random()*20+Math.random()*20), (int)(Math.random()*6+Math.random()*6), Math.random() + Math.random());
-        }
+            this((int)(Math.random()*20+Math.random()*20), (int)(Math.random()*20+Math.random()*20), Math.random() + Math.random());
     }
 
     public PriceTracker(int supply, int demand, double price) {
