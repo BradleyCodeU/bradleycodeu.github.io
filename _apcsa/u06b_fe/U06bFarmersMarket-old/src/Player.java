@@ -1,4 +1,4 @@
-class Player {
+public class Player {
     private int corn;
     private int apples;
     private int eggs;
