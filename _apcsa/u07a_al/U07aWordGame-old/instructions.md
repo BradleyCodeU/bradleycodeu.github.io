@@ -1,4 +1,4 @@
-# Wordle Game
+# Word Game
 ---
 
 Concepts: ArrayList, Array, Strings, iteration
