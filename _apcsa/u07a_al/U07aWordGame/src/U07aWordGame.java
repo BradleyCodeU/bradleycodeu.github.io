@@ -1,3 +1,9 @@
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.ArrayList;
+
 public class U07aWordGame {
 
     //  Create a static method named checkLetter that returns a one-emoji String.
@@ -28,16 +34,7 @@ public class U07aWordGame {
     //  the word "sorry". Otherwise convert it to lowercase and return the secret word.
     
     
-    
-    //  Create a static method named getUserInput that returns a String.
-    //  Requires 1 argument: Scanner input.
-    //  Prompt the user to type in a 5-letter word. If the word is not exactly 5
-    //  letters long, then say it must be exactly 5 letters and prompt again.
-    //  Otherwise, return the user's guess. The method must prompt them over and
-    //  over until they enter a valid word.
-    
-    
-    // Create a static method named getWordList that returns a String array that
+    // Create a static method named getWordArray that returns a String array that
     // contains the following 5-letter words…
           // "apple", "mario", "luigi", "sonic", "mouse", "peach", "grade", "teach",
           // "shrek", "snake", "wario", "which", "there", "their", "about", "would",
@@ -50,22 +47,82 @@ public class U07aWordGame {
     
     
       public static void main(String[] args) {
-        // declare variables for String[] word array, secret word, user guess, Scanner input.
-        // create a String ArrayList to store player history (don't know how long this list needs to be)
+        // declare variables String[] word array, String secret word, String user guess, String hint string.
+        // create a String ArrayList to store hint history (don't know how long this list needs to be)
         
         // call the getWordArray method and save what it returns in wordArray variable
     
         // call randomSecret(wordArray) and save what it returns in the secret word variable
         // do this… while the secret word does not equal the user guess
-    
-        // // call the getUserInput and save what it returns in the user guess variable
-        // // call the checkGuess(secretWord, userGuess) and save the result as hintString
-        // // add the hintString to the player history list
-        // // print the hintString
-    
-        // print YOU GOT IT!!! The secret word was secretWord
-        // print the player history list with each item on its own line.
+            // // call getUserInput and save what it returns in the user guess variable
+            // // call the checkGuess(secretWord, userGuess) and save the result as hintString
+            // // add the userGuess + " " + hintString to the hint history list
+            // // call the displayHints method and pass hint history as an argument
+        // add "YOU GOT IT!!! The secret word was " + secretWord to the hint history
+        // call the displayHints method and pass hint history as an argument
       }
-    
-    
+
+
+      public static String getUserInput() {
+        final String[] userInput = {null};
+        JFrame frame = new JFrame("Word Game");
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setSize(400, 200);
+        frame.setLocation(100, 100);
+        JPanel panel = new JPanel();
+        panel.setLayout(new BorderLayout());
+        JLabel instructionLabel = new JLabel("Enter a 5-letter word:", SwingConstants.CENTER);
+        panel.add(instructionLabel, BorderLayout.NORTH);
+        JTextField guessField = new JTextField(10);
+        JButton submitButton = new JButton("Submit");
+        JPanel inputPanel = new JPanel();
+        inputPanel.add(guessField);
+        inputPanel.add(submitButton);
+        panel.add(inputPanel, BorderLayout.CENTER);
+        final Object lock = new Object();
+        submitButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                String guess = guessField.getText().trim().toLowerCase();
+                if (guess.length() == 5) {
+                    synchronized (lock) {
+                        userInput[0] = guess;
+                        lock.notify();
+                    }
+                    frame.dispose();
+                } else {
+                    JOptionPane.showMessageDialog(frame, "Word must be exactly 5 letters long.");
+                }
+            }
+        });
+        frame.add(panel);
+        frame.setVisible(true);
+        synchronized (lock) {
+            while (userInput[0] == null) {
+                try {
+                    lock.wait();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+        return userInput[0];
     }
+
+    public static void displayHints(ArrayList<String> hintHistory) {
+        JFrame frame = new JFrame("Word Game - Hints");
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setSize(400, 200);
+        frame.setLocation(100, 300);
+        JTextArea hintArea = new JTextArea();
+        hintArea.setEditable(false);
+        for (String hint : hintHistory) {
+            hintArea.append(hint + "\n");
+        }
+        JScrollPane scrollPane = new JScrollPane(hintArea);
+        frame.add(scrollPane);
+        frame.setVisible(true);
+    }
+    
+    
+}
