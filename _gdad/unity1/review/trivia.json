@@ -88,5 +88,24 @@
 },
 {
 "answer":"LateUpdate()","question":"a Unity function that is automatically called once per frame after all of the Update methods are processed. If the camera is following the player it can be used to only move the camera after the player has moved."
+},
+{
+    "answer":"Vector3.right","question":"Shorthand for writing Vector3(1, 0, 0)"
+},
+{
+    "answer":"Vector3.left","question":"Shorthand for writing Vector3(-1, 0, 0)"
+},
+{
+    "answer":"Vector3.up","question":"Shorthand for writing Vector3(0, 1, 0)"
+},
+{
+    "answer":"Vector3.down","question":"Shorthand for writing Vector3(0, -1, 0)"
+},
+{
+    "answer":"Vector3.forward","question":"Shorthand for writing Vector3(0, 0, 1)"
+},
+{
+    "answer":"Vector3.back","question":"Shorthand for writing Vector3(0, 0, -1)"
 }
+
 ]
