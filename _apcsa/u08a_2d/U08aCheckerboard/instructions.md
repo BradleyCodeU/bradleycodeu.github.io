@@ -2,38 +2,61 @@
 
 
 
-Write a program that prompt the user for a size (an integer > 1) and then fill a 2D of that size with a checkboard of 0s and 1s. For example, if the user enters 3, fill a 2D array with a 3 x 3 checkerboard. Finally, replace a middle square with 5 (with a 3 x 3 board using size/2 would replace row 1 column 1).
+Write a program that creates a checkerboard and allows the user to place numbers in the checkerboard.
 
-In addition to creating a main method. You must create (and use) a displayCheckerboard method with the follow header:
-  - public static void displayCheckerboard(int[][] arr)
+In addition to creating a main method. You must create the following static methods:
+  - public static boolean isValid(int userInput, int size) // returns true if userInput is in the range of [0...size) exclusive of size
+  - public static void displayCheckerboard(int[][] arr) // prints the checkboard
+  - public static int[][] fill2DArray(int size) // Returns a 2d array fill with alternating 0s and 1s. USING TWO NESTED LOOPS, initialize the board so that zeros and ones alternate, as on a checkerboard. <small>Hint: Check whether i + j is even.</small>
 
-For example 1 below, the user inputs 3. Create a 3 x 3 array:
-```
-int[][] board = new int[3][3];
-```
-USING TWO NESTED LOOPS, initialize the board so that zeros and ones alternate, as on a checkerboard. <small>Hint: Check whether i + j is even.</small> Use the displayCheckerboard method to print it. Replace the middle square with size (using size/2) and use displayCheckerboard to print it.
+Directions for the main method:
+ - prompt the user for a size (an integer > 1)
+ - declare the 2d array and set it to be fill2DArray(size)
+ - loop size^2 times
+ - - print the checkerboard using the displayCheckerboard() method
+ - - prompt the user for the value that they want to place
+ - - prompt the user for the row number
+ - - prompt the user for the col number
+ - - if the row number and col number are valid
+ - - - set that row and col in the 2d array to be the value
+ - - else
+ - - - print invalid
+
 
 Sample Run 1:
 ```
-Gimme an integer >1: ***3***
+Gimme an integer >1: 3
 0  1  0
 1  0  1
 0  1  0
-Replacing middle square with size
+Gimme a value: 3
+Gimme a row: 1
+Gimme a col: 1
 0  1  0
 1  3  1
 0  1  0
 ```
-Sample Run 2 (NOTICE that size/2 will result in row 2 column 2 being set to 5):
+
+Sample Run 2:
 ```
-Gimme an integer >1: ***4***
+Gimme an integer >1: 4
 0  1  0  1  
 1  0  1  0
 0  1  0  1
 1  0  1  0  
-Replacing middle square with size
+Gimme a value: 9
+Gimme a row: 2
+Gimme a col: -1
+Invalid
 0  1  0  1  
 1  0  1  0
-0  1  4  1
+0  1  0  1
+1  0  1  0  
+Gimme a value: 9
+Gimme a row: 2
+Gimme a col: 2
+0  1  0  1  
+1  0  1  0
+0  1  9  1
 1  0  1  0
 ```
