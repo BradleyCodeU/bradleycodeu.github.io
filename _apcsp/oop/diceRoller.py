@@ -17,12 +17,12 @@ else:
     
     # Create a dictionary to keep track of totals (like 2, 3, 4... up to 6 * num_dice)
     totals_count = {}
-    for total in range(num_dice * 6 + 1):
+    for total in range(num_dice * 12 + 1):
         totals_count[total] = 0
 
-    print("\nRolling "+ str(num_dice)+" dice 100 times...")
+    print("\nRolling "+ str(num_dice)+" dice 1000 times...")
     
-    for i in range(100):
+    for i in range(1000):
         total = 0
         for j in range(num_dice):
             total = total + rollSixSidedDie()
@@ -32,7 +32,7 @@ else:
         print("Roll "+str(i+1)+": "+str(total))
 
     print("\nTotal sums across all rolls:")
-    for total in range(num_dice * 6 + 1):
+    for total in range(num_dice * 12 + 1):
         print(str(total)+": "+str(totals_count[total])+" times")
     
     # Calculate average total
