@@ -150,8 +150,8 @@ if __name__ == "__main__":
 |getChefGrade( 7000, 8000 )| Only returns 42.75 - 43.75 |
 |getChefGrade( 14000, 14000 )| Only returns 99.0 - 100.0 |
 |getChefGrade( 14000, 14001 )| Only returns 48.996 - 49.996 |
-|getRoundResults( {'name':'Alex', 'chefGrade':99.9}, {'name':'Steve', 'chefGrade':88.8} )| "Alex Wins This Round!" |
-|getRoundResults( {'name':'Alex', 'chefGrade':0.111}, {'name':'Steve', 'chefGrade':0.999} )| "Steve Wins This Round!" |
+|getRoundResults( [{'name':'Alex', 'chefGrade':99.9}, {'name':'Steve', 'chefGrade':88.8}] )| "Alex Wins This Round!" |
+|getRoundResults( [{'name':'Alex', 'chefGrade':0.111}, {'name':'Steve', 'chefGrade':0.999}] )| "Steve Wins This Round!" |
 
 
 
