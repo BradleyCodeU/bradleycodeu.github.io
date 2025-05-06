@@ -10,6 +10,7 @@ In this project we are simulating a board game with a Player class and a Propert
 
 You will have 4 files: Player.py, Property.py, MythopolyGame.py, and Test_MythopolyGame.py
 
+Write the Player class and Property class. Complete the first 5 functions for the MythopolyGame. Test and play the game.
 
 Player.py
 ```
@@ -23,9 +24,9 @@ from colorama import Back
 # assets (an empty list)
 # color = a random choice from this list [Back.RED, Back.GREEN, Back.YELLOW, Back.BLUE, Back.MAGENTA, Back.CYAN]
 
-# Inside of the Player class, define a __str__(self) method that returns a String. For example… if we have an x and y location for each property, then we might do something like this…
+# Inside of the Player class, define a __str__(self) method that returns a String. Players do NOT have x,y coordinates. If we HAD an x and y location for every player, then for the str function we MIGHT do something like this…
 # def __str__ (self):
-#         return "Name=" + self.name +  ", Money=" + str(self.money) + ", Assets=" + str(self.assets)
+#         return "Name= " + self.name +  ", x= " + str(self.x) + ", y= " + str(self.y)
 
 
 ```
@@ -35,14 +36,14 @@ Property.py
 from random import *
 
 # In Property.py, create a Property class. Each Property object has the following attributes…
-# name
+# name (set to None at first)
 # price (random)
 # rent (must be 5% of purchase price)
 # houses (starts at 0)
 # hotels (starts at 0)
 # owner (set to None at first)
 
-# Inside of the Property class, define a __str__(self) method that returns a String. For example… if we have an x and y location for every property, then we might do something like this…
+# Inside of the Property class, define a __str__(self) method that returns a String. Properties do NOT have x,y coordinates. If we HAD an x and y location for every property, then for the str function we MIGHT do something like this…
 # def __str__ (self):
 #         return "Name= " + self.name +  ", x= " + str(self.x) + ", y= " + str(self.y)
 ```
@@ -60,9 +61,7 @@ import time
 
 sleepSpeed = 0.3
 
-
-
-# Create a rollTwoDice function that requires no arguments. 
+# Create a rollTwoDice function that requires no parameters. 
 # Returns a random number from 2 to 12. Get a random int 1 to 6 + a random int 1 to 6.
 # Rolls two 6-sided dice and returns their sum
 # Parameters: None
@@ -78,7 +77,7 @@ sleepSpeed = 0.3
 
 
 
-# Create an addPlayers function with no arguments. 
+# Create an addPlayers function with no parameters. 
 # It returns a playerList that contains Player objects.
 # Prompts the user to enter how many players are playing, then gathers their names
 # Parameters: None 
@@ -94,9 +93,9 @@ sleepSpeed = 0.3
 
 
 
-# Create a bankrupt function with 2 arguments: player, removals.
+# Create a bankrupt function with 2 parameters: player, removals.
 # Declares a player bankrupt and removes them from the game
-# Arguments: player (Player), removals (list of Player)
+# Parameters: player (Player), removals (list of Player)
 # Return: the list of removals
 # Print player's name is bankrupt
 # Brief pause
@@ -108,7 +107,8 @@ print(player.name + " is out of the game!")
 
 
 
-# Create a checkForWinner function with 2 arguments: players, removals. Checks for a game winner.
+# Create a checkForWinner function with 2 parameters: players, removals. 
+# Checks if the game is over.
 # Parameters: players (list of Player), removals (list of Player)
 # Return: bool (True if one player remains)
 # If the length of players minus the length of removals is 1, then return true. Otherwise return false.
@@ -119,7 +119,7 @@ print(player.name + " is out of the game!")
 # Parameters: None
 # Return: list of Property objects
 def addProperties():
-    mylist = []
+    properties = []
     for each in [
             "Olympus", "Asgard", "El Dorado", "Atlantis", "Duloc",
             "Sherwood Forest", "Emerald City", "Valhalla", "Camelot", "Xanadu",
@@ -127,8 +127,8 @@ def addProperties():
     ]:
         temp = Property()
         temp.name = each
-        mylist.append(temp)
-    return mylist
+        properties.append(temp)
+    return properties
 
 # buyProperty allows the player to buy an unowned property if they have enough money
 # Parameters: thisPlace (Property), player (Player)
