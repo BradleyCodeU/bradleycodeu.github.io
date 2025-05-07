@@ -23,6 +23,7 @@ from colorama import Back
 # location (starts at 0)
 # assets (an empty list)
 # color = a random choice from this list [Back.RED, Back.GREEN, Back.YELLOW, Back.BLUE, Back.MAGENTA, Back.CYAN]
+# one other attribute! ask Mr. Riley what other attribute you should add for the Player class
 
 # Inside of the Player class, define a __str__(self) method that returns a String. Players do NOT have x,y coordinates. If we HAD an x and y location for every player, then for the str function we MIGHT do something like this…
 # def __str__ (self):
@@ -42,6 +43,7 @@ from random import *
 # houses (starts at 0)
 # hotels (starts at 0)
 # owner (set to None at first)
+# one other attribute! ask Mr. Riley what other attribute you should add for the Property class
 
 # Inside of the Property class, define a __str__(self) method that returns a String. Properties do NOT have x,y coordinates. If we HAD an x and y location for every property, then for the str function we MIGHT do something like this…
 # def __str__ (self):
