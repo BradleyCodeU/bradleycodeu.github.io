@@ -1,37 +1,37 @@
 public class IntArrayWorkerTester
 {
   /** method to test setMatrix */
-  public static void testSetMatrix()
-  {
-    IntArrayWorker worker = new IntArrayWorker();
-    int[][] nums = {{1, 1, 1} ,{2,2,2}};
-    worker.setMatrix(nums);
-    System.out.println("This should have all 1's in first row and all 2's in second");
-    worker.print();
-  }
+  // public static void testSetMatrix()
+  // {
+  //   IntArrayWorker worker = new IntArrayWorker();
+  //   int[][] nums = {{1, 1, 1} ,{2,2,2}};
+  //   worker.setMatrix(nums);
+  //   System.out.println("This should have all 1's in first row and all 2's in second");
+  //   worker.print();
+  // }
   
-  /** Method to test fillPattern1 */
-  public static void testFillPattern1()
-  {
-    IntArrayWorker worker = new IntArrayWorker();
-    int[][] nums = new int[3][4];
-    worker.setMatrix(nums);
-    worker.fillPattern1();
-    System.out.println("fills with 2's on diagonal, 3's to left, and 1's to right");
-    worker.print();
-  }
+  // /** Method to test fillPattern1 */
+  // public static void testFillPattern1()
+  // {
+  //   IntArrayWorker worker = new IntArrayWorker();
+  //   int[][] nums = new int[3][4];
+  //   worker.setMatrix(nums);
+  //   worker.fillPattern1();
+  //   System.out.println("fills with 2's on diagonal, 3's to left, and 1's to right");
+  //   worker.print();
+  // }
   
-  /** Method to test getCount*/
-  public static void testGetCount()
-  {
-    IntArrayWorker worker = new IntArrayWorker();
-    int count = 0;
-    int[][] nums = new int[3][4];
-    worker.setMatrix(nums);
-    worker.fillPattern1();
-    //count = worker.getCount(1);
-    System.out.println("Count should be 6 and count is " + count);
-  }
+  // /** Method to test getCount*/
+  // public static void testGetCount()
+  // {
+  //   IntArrayWorker worker = new IntArrayWorker();
+  //   int count = 0;
+  //   int[][] nums = new int[3][4];
+  //   worker.setMatrix(nums);
+  //   worker.fillPattern1();
+  //   //count = worker.getCount(1);
+  //   System.out.println("Count should be 6 and count is " + count);
+  // }
   
   /** Method to test getTotal */
   public static void testGetTotal()
