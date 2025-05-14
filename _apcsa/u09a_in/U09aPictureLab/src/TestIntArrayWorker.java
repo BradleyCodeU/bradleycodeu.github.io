@@ -3,20 +3,15 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.io.ByteArrayOutputStream;
-import java.io.OutputStream;
-import java.io.PrintStream;
+
 
 /**
  * The test class TestMain
  *
- * @author  Dave Avis
- * @version 06.22.2018
  */
 public class TestIntArrayWorker
 {
-    private OutputStream os;
-    private PrintStream ps;
+
     
 
     /**
@@ -27,11 +22,7 @@ public class TestIntArrayWorker
     @Before
     public void setUp()
     {
-        //Prepare to redirect output
-        os = new ByteArrayOutputStream();
-        ps = new PrintStream(os);
-        System.setOut(ps);
-        String ls = System.getProperty("line.separator");
+  
     }
 
     /**
@@ -40,9 +31,13 @@ public class TestIntArrayWorker
     @Test
     public void getCountTest()
     {
-        String expectedOutput = "Count should be 6 and count is 6";
-        IntArrayWorkerTester.testGetCount();
-        assertEquals("Testing IntArrayWorker.getCount()", expectedOutput, os.toString().trim());
+        IntArrayWorker worker = new IntArrayWorker();
+        int count = 0;
+        int[][] nums = new int[3][4];
+        worker.setMatrix(nums);
+        worker.fillPattern1();
+        count = worker.getCount(1);
+        assertEquals(6,count);
     }
 
     /** 
@@ -51,9 +46,27 @@ public class TestIntArrayWorker
     @Test
     public void getLargestTest()
     {
-        String expectedOutput = "Largest should be 6 and is 6\nLargest should be 6 and is 6\nLargest should be 6 and is 6\nLargest should be 6 and is 6";
-        IntArrayWorkerTester.testGetLargest();
-        assertEquals("Testing IntArrayWorker.getLargest()", expectedOutput, os.toString().trim());
+        int largest = 0;
+        IntArrayWorker worker = new IntArrayWorker();
+        int [][] nums2 = {{1, 2, 3}, {4, 5, 6}};
+        worker.setMatrix(nums2);
+        largest = worker.getLargest();
+        assertEquals(6,largest);
+        // test when largest is first
+        int[][] nums3 = {{7, 2, 3}, {4, 5, 1}};
+        worker.setMatrix(nums3);
+        largest = worker.getLargest();
+        assertEquals(7,largest);
+        // test when largest is in the middle
+        int[][] nums4 = {{1, 2, 3}, {8, 5, 1}};
+        worker.setMatrix(nums4);
+        largest = worker.getLargest();
+        assertEquals(8,largest);
+        // test when duplicate largest
+        int[][] nums5 = {{9, 2, 9}, {4, 5, 1}};
+        worker.setMatrix(nums5);
+        largest = worker.getLargest();
+        assertEquals(9,largest);
     }
 
     /** 
@@ -62,9 +75,16 @@ public class TestIntArrayWorker
     @Test
     public void getColTotalTest()
     {
-        String expectedOutput = "Total for column 0 should be 5 and is 5\nTotal for column 1 should be 7 and is 7\nTotal for column 2 should be 9 and is 9";
-        IntArrayWorkerTester.testGetColTotal();
-        assertEquals("Testing IntArrayWorker.getColTotal()", expectedOutput, os.toString().trim());
+        int total = 0;
+        IntArrayWorker worker = new IntArrayWorker();
+        int [][] nums2 = {{1, 2, 3}, {4, 5, 6}};
+        worker.setMatrix(nums2);
+        total = worker.getColTotal(0);
+        assertEquals(5,total);
+        total = worker.getColTotal(1);
+        assertEquals(7,total);
+        total = worker.getColTotal(2);
+        assertEquals(9,total);
     }
     
     /**
@@ -75,8 +95,6 @@ public class TestIntArrayWorker
     @After
     public void tearDown()
     {
-        //Restore normal output
-        PrintStream originalOut = System.out;
-        System.setOut(originalOut);
+
     }
 }
