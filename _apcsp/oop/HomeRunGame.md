@@ -6,16 +6,9 @@ title: Home Run Game
 
 In this project you will create a Home Run derby simulator with a BaseballPlayer class to generate multiple pitchers and multiple batters.
 
-
-
-
-main.py
+BaseballPlayer.py
 ```
-import time
-from BaseballPlayer import *
 from random import *
-from colorama import init,Back
-init(autoreset=True)
 
 # Create a BaseballPlayer class with attributes:
 # firstName (random choice from a list of 12 first names)
@@ -25,27 +18,41 @@ init(autoreset=True)
 # pitchingAccuracy (1-10)
 # battingStrength (1-10)
 # battingAccuracy (1-10)
-
-# Inside of the BaseballPlayer class, define a boostPitching(self) method that returns nothing. Increase self.pitchingStrength by a random amount (0.0 to 0.9999) and increase self.pitchingAccuracy by a random amount (0.0 to 0.9999).
-
-# Inside of the BaseballPlayer class, define a boostBatting(self) method that returns nothing. Increase self.battingStrength by a random amount (0.0 to 0.9999) and increase self.battingAccuracy by a random amount (0.0 to 0.9999).
-
-# Inside of the BaseballPlayer class, define a getPitchingGrade(self) method that returns the average of self.pitchingStrength and self.pitchingAccuracy.
-
-# Inside of the BaseballPlayer class, define a getBattingGrade(self) method that returns the average of battingStrength and battingAccuracy.
-
-# Inside of the BaseballPlayer class, define a getName(self) method that returns the first name + " " + nickname + " " + last name.
-
-# Inside of the BaseballPlayer class, define a getIfGoodPitch(self) method. Returns True if self's pitch accuracy is greater than a random number 0 to 10. Otherwise, returns False.
-
-# Inside of the BaseballPlayer class, define a getBatSwing function that requires 2 arguments: self, isGoodPitch. If isGoodPitch is True and self’s batting accuracy is greater than a random number 5-10, return True. If isGoodPitch is False and self's batting accuracy is less than a random number 0-6, return True. Otherwise, returns False.
+class BaseballPlayer:
 
 
-# Inside of the BaseballPlayer class, define a __str__(self) method that returns a String.
-# def __str__ (self):
-#         return "Name=" + self.getName() +  ", Pitching=" + str(self.getPitchingGrade()) + ", Batting=" + str(self.getBattingGrade())
+  # Inside of the BaseballPlayer class, define a boostPitching(self) method that returns nothing. Increase self.pitchingStrength by a random amount (0.0 to 0.9999) and increase self.pitchingAccuracy by a random amount (0.0 to 0.9999).
 
-# In main.py…
+  # Inside of the BaseballPlayer class, define a boostBatting(self) method that returns nothing. Increase self.battingStrength by a random amount (0.0 to 0.9999) and increase self.battingAccuracy by a random amount (0.0 to 0.9999).
+
+  # Inside of the BaseballPlayer class, define a getPitchingGrade(self) method that returns the average of self.pitchingStrength and self.pitchingAccuracy.
+
+  # Inside of the BaseballPlayer class, define a getBattingGrade(self) method that returns the average of battingStrength and battingAccuracy.
+
+  # Inside of the BaseballPlayer class, define a getName(self) method that returns the first name + " " + nickname + " " + last name.
+
+  # Inside of the BaseballPlayer class, define a getIfGoodPitch(self) method. Returns True if self's pitch accuracy is greater than a random number 0 to 10. Otherwise, returns False.
+
+  # Inside of the BaseballPlayer class, define a getBatSwing function that requires 2 arguments: self, isGoodPitch. If isGoodPitch is True and self’s batting accuracy is greater than a random number 5-10, return True. If isGoodPitch is False and self's batting accuracy is less than a random number 0-6, return True. Otherwise, returns False.
+
+
+  # Inside of the BaseballPlayer class, define a __str__(self) method that returns a String.
+  # def __str__ (self):
+  #         return "Name=" + self.getName() +  ", Pitching=" + str(self.getPitchingGrade()) + ", Batting=" + str(self.getBattingGrade())
+  def __str__ (self):
+    return "Name=" + self.getName() +  "\n     Pitching=" + str(self.getPitchingGrade()) + ", Batting=" + str(self.getBattingGrade())
+```
+
+
+
+HomeRunGame.py
+```
+import time
+from BaseballPlayer import *
+from random import *
+from colorama import init,Back
+init(autoreset=True)
+
 
 # Create an addPlayers function with no arguments. Returns an array of 5 to 10 BaseballPlayer objects. Use a for i in range with a random number to repeatedly append a new BaseballPlayer() to the array.
 
@@ -155,155 +162,7 @@ def main():
 ```
 
 
-
-BaseballPlayer.py
-```
-from random import *
-
-# Create a BaseballPlayer class with attributes:
-# firstName (random choice from a list of 12 first names)
-# nickName (random choice from a list of 12 nicknames)
-# lastName(random choice from a list of 12 last names)
-# pitchingStrength (1-10)
-# pitchingAccuracy (1-10)
-# battingStrength (1-10)
-# battingAccuracy (1-10)
-class BaseballPlayer:
-
-
-  # Inside of the BaseballPlayer class, define a boostPitching(self) method that returns nothing. Increase self.pitchingStrength by a random amount (0.0 to 0.9999) and increase self.pitchingAccuracy by a random amount (0.0 to 0.9999).
-
-  # Inside of the BaseballPlayer class, define a boostBatting(self) method that returns nothing. Increase self.battingStrength by a random amount (0.0 to 0.9999) and increase self.battingAccuracy by a random amount (0.0 to 0.9999).
-
-  # Inside of the BaseballPlayer class, define a getPitchingGrade(self) method that returns the average of self.pitchingStrength and self.pitchingAccuracy.
-
-  # Inside of the BaseballPlayer class, define a getBattingGrade(self) method that returns the average of battingStrength and battingAccuracy.
-
-  # Inside of the BaseballPlayer class, define a getName(self) method that returns the first name + " " + nickname + " " + last name.
-
-  # Inside of the BaseballPlayer class, define a getIfGoodPitch(self) method. Returns True if self's pitch accuracy is greater than a random number 0 to 10. Otherwise, returns False.
-
-  # Inside of the BaseballPlayer class, define a getBatSwing function that requires 2 arguments: self, isGoodPitch. If isGoodPitch is True and self’s batting accuracy is greater than a random number 5-10, return True. If isGoodPitch is False and self's batting accuracy is less than a random number 0-6, return True. Otherwise, returns False.
-
-
-  # Inside of the BaseballPlayer class, define a __str__(self) method that returns a String.
-  # def __str__ (self):
-  #         return "Name=" + self.getName() +  ", Pitching=" + str(self.getPitchingGrade()) + ", Batting=" + str(self.getBattingGrade())
-  def __str__ (self):
-    return "Name=" + self.getName() +  "\n     Pitching=" + str(self.getPitchingGrade()) + ", Batting=" + str(self.getBattingGrade())
-```
-
-
-tests:
-```
-# isballhit
-self.assertEqual(isBallHit(False, False).lower(), "ball")
-self.assertEqual(isBallHit(True, False).lower(), "strike looking")
-self.assertEqual(isBallHit(False, True).lower(), "strike swinging")
-self.assertEqual(isBallHit(True, True).lower(), "hit")
-
-
-mylist = [1,2,3]
-self.assertEqual(validIndex(mylist, -1), False)
-self.assertEqual(validIndex(mylist, 0), True)
-self.assertEqual(validIndex(mylist, 2), True)
-self.assertEqual(validIndex(mylist, 3), False)
-mylist = [1,2,3,4,5,6,7]
-self.assertEqual(validIndex(mylist, -1), False)
-self.assertEqual(validIndex(mylist, 0), True)
-self.assertEqual(validIndex(mylist, 6), True)
-self.assertEqual(validIndex(mylist, 7), False)
-
-
-mylist = addPlayers()
-foo = BaseballPlayer()
-self.assertEqual(5<=len(mylist)<=10, True)
-for each in mylist:
- self.assertEqual(type(foo) is type(each),True)
-
-
-# getbatswing
- x = BaseballPlayer()
- x.battingAccuracy = -1
- for i in range(100):
-   # swings at bad pitches
-   self.assertEqual(x.getBatSwing(False), True)
-   # doesn't swing at good
-   self.assertEqual(x.getBatSwing(True), False)
- x.battingAccuracy = 11
- for i in range(100):
-   self.assertEqual(x.getBatSwing(True), True)
-   self.assertEqual(x.getBatSwing(False), False)
- x.battingAccuracy = 7.5
- mylist = []
- for i in range(100):
-   mylist.append(x.getBatSwing(True))
- self.assertEqual(True in mylist, True)
- self.assertEqual(False in mylist, True)
+Click here to [download the Test_HomeRunGame.py file](/apcsp/oop/Test_HomeRunGame.py)
 
 
 
-# getIfGoodPitch
-x = BaseballPlayer()
-x.pitchingAccuracy = -1
-for i in range(100):
-  self.assertEqual(x.getIfGoodPitch(), False)
-x.pitchingAccuracy = 11
-for i in range(100):
-  self.assertEqual(x.getIfGoodPitch(), True)
-x.pitchingAccuracy = 5
-mylist = []
-for i in range(100):
-  mylist.append(x.getIfGoodPitch())
-self.assertEqual(True in mylist, True)
-self.assertEqual(False in mylist, True)
-
-
-x = BaseballPlayer()
-first = x.firstName
-self.assertEqual(first in x.getName(), True)
-last = x.lastName
-self.assertEqual(last in x.getName(), True)
-
-
-# getPitchingGrade
-x = BaseballPlayer()
-x.pitchingStrength = 1
-x.pitchingAccuracy = 3
-self.assertEqual(x.getPitchingGrade(), 2)
-x.pitchingStrength = 7
-x.pitchingAccuracy = 3
-self.assertEqual(x.getPitchingGrade(), 5)
-
-
-# getBattingGrade
-x = BaseballPlayer()
-x.battingStrength = 1
-x.battingAccuracy = 3
-self.assertEqual(x.getBattingGrade(), 2)
-x.battingStrength = 7
-x.battingAccuracy = 3
-self.assertEqual(x.getBattingGrade(), 5)
-
-
-# boostPitching_boostBatting
-x = BaseballPlayer()
-pStr = x.pitchingStrength
-pAcc = x.pitchingAccuracy
-bStr = x.battingStrength
-bAcc = x.battingAccuracy
-x.boostPitching()
-self.assertEqual(pStr < x.pitchingStrength, True)
-self.assertEqual(pAcc < x.pitchingAccuracy, True)
-x.boostBatting()
-self.assertEqual(bStr < x.battingStrength, True)
-self.assertEqual(bAcc < x.battingAccuracy, True)
-
-
-# init
-x = BaseballPlayer()
-self.assertEqual(0<=x.pitchingStrength<=10, True)
-self.assertEqual(0<=x.battingStrength<=10, True)
-self.assertEqual(0<=x.pitchingAccuracy<=10, True)
-self.assertEqual(0<=x.battingAccuracy<=10, True)
-```
