@@ -2,6 +2,23 @@ public class IntArrayWorker
 {
   /** two dimensional matrix */
   private int[][] matrix = null;
+
+
+  // TODO
+  public int getCount(int numberToBeCounted){
+    return 0;
+  }
+
+  // TODO
+  public int getColTotal(int columnNumber){
+    return 0;
+  }
+
+  // TODO
+  public int getLargest(){
+    return 0;
+  }
+
   
   /** set the matrix to the passed one
     * @param theMatrix the one to use
