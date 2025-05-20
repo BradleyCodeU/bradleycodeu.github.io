@@ -10,6 +10,8 @@ First... download these terrain assets and add them to your Terrain project.
 
 [terrain_assets.zip](https://drive.google.com/uc?export=download&id=15ay8QTkYFEj6RlhXMlvO3WzcBLF1vQeT)
 
+Next, create a new Unity project. In Unity Hub click New Project, then click Core, then scroll down and select either First Person or Third Person.
+
 Follow the directions in [the Unity Terrain Tutorial video](https://drive.google.com/open?id=1lsFiEbqzo0u6EuoXLDo_E9q0xRFRL0j5) to:
 
   - add a grass texture to the ground
