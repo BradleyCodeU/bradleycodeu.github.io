@@ -19,15 +19,11 @@ Follow the directions in [the Unity Terrain Tutorial video](https://drive.google
   - add a stone texture to your mountains
   - create 3D trees
 
-Next... add the Character Controller packages:
 
-  - Third Person Character Controller must be added [here](https://assetstore.unity.com/packages/essentials/starter-assets-third-person-character-controller-196526)
-
-  - First Person Character Controller must be added [here](https://assetstore.unity.com/packages/essentials/starter-assets-first-person-character-controller-urp-196525)
 
 Follow the directions in [the Unity Standard Assets Characters video](https://drive.google.com/open?id=1lsFiEbqzo0u6EuoXLDo_E9q0xRFRL0j5) to create either a first person camera or third person camera (your choice)
 
-To reduce lag, change these Terrain settings:
+To reduce lag, try these Terrain settings:
 
   - Detail Distance to about 100
   - Detail Density about 0.77
