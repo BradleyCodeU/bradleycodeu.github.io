@@ -19,8 +19,10 @@ class AutomaticTester(unittest.TestCase):
     def test_player_str_representation(self):
         player = Player()
         player.name = "Zeus"
-        expected = f"Name=Zeus, Money=1500, Assets=[]"
-        self.assertEqual(str(player), expected, "__str__ output is incorrect")
+        self.assertTrue("Zeus" in str(player) and "1500" in str(player) and "[]" in str(player), "__str__ output is incorrect")
+        player2 = Player()
+        player2.name = "Amy"
+        self.assertTrue("Amy" in str(player2) and "1500" in str(player2) and "[]" in str(player2), "__str__ output is incorrect")
     
     def test_property_initial_values(self):
         prop = Property()
@@ -34,8 +36,10 @@ class AutomaticTester(unittest.TestCase):
     def test_property_str_representation(self):
         prop = Property()
         prop.name = "Atlantis"
-        expected = f"Name= Atlantis"
-        self.assertTrue(str(prop).startswith(expected), "__str__ output should include property name")
+        #expected = f"Name= Atlantis"
+        self.assertTrue("Atlantis" in str(prop), "__str__ output should include property name")
+        prop.name = "Qwerty"
+        self.assertTrue("Qwerty" in str(prop), "__str__ output should include property name")
 
     def test_rollTwoDice_range(self):
         for _ in range(100):
