@@ -100,7 +100,7 @@ public class PictureTesterGUI {
         });
 
         JButton grayscaleButton = new JButton("Grayscale");
-        negateButton.addActionListener((ActionEvent e) -> {
+        grayscaleButton.addActionListener((ActionEvent e) -> {
             Picture pic = new Picture(getSelectedImage(imageSelector));
             pic.explore();
             //pic.grayscale();
