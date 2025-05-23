@@ -20,20 +20,19 @@ let apples, bananas, loopCount, appleOp, bananaOp;
 let numberList, secret, mystery;
 
 function generateLoop() {
-  let outputString = "";
   let roll = Math.random();
 
   if (roll < 1/3) {
     // --- WHILE LOOP ---
-    makeWhileLoop();
+    outputString = makeWhileLoop();
 
   } else if (roll < 2/3) {
     // --- FOR LOOP ---
-    makeForLoop();
+    outputString = makeForLoop();
 
   } else {
     // --- FOR-EACH LOOP ---
-    makeForEachLoop();
+    outputString = makeForEachLoop();
   }
 
   document.getElementById("output").innerText = outputString;
@@ -42,6 +41,7 @@ function generateLoop() {
 }
 
 function makeWhileLoop(){
+  let outputString = "";
   loopType = "while";
     cat = Math.floor(Math.random() * 5);
     dog = Math.floor(Math.random() * 3) + 1;
@@ -56,9 +56,11 @@ function makeWhileLoop(){
     outputString += `  dog = dog * ${dogStep};\n`;
     outputString += `}\n`;
     outputString += `console.log("cat is " + cat);\nconsole.log("dog is " + dog);`;
+    return outputString;
 }
 
 function makeForLoop(){
+  let outputString = "";
   loopType = "for";
     apples = Math.floor(Math.random() * 6) + 5;
     bananas = Math.floor(Math.random() * 6) + 5;
@@ -74,9 +76,11 @@ function makeForLoop(){
     outputString += `  bananas = ${bananaOp};\n`;
     outputString += `}\n`;
     outputString += `console.log("apples is " + apples);\nconsole.log("bananas is " + bananas);`;
+    return outputString;
 }
 
 function makeForEachLoop(){
+  let outputString = "";
   loopType = "foreach";
     numberList = [];
     for (let i = 0; i < 5; i++) {
@@ -94,6 +98,7 @@ function makeForEachLoop(){
     outputString += `  mystery = mystery + each;\n`;
     outputString += `}\n`;
     outputString += `console.log("secret is " + secret);\nconsole.log("mystery is " + mystery);`;
+    return outputString;
 }
 
 function revealAnswer() {
