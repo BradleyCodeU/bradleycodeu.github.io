@@ -20,6 +20,7 @@ let apples, bananas, loopCount, appleOp, bananaOp;
 let numberList, secret, mystery;
 
 function generateLoop() {
+  let outputString = "foo";
   let roll = Math.random();
 
   if (roll < 1/3) {
