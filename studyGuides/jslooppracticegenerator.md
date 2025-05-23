@@ -17,7 +17,7 @@ title: JS Loop Practice Generator
 let loopType = "";
 let cat, dog, dogLimit, dogStep, catFormula;
 let apples, bananas, loopCount, appleOp, bananaOp;
-let numberList, secret, mystery;
+let numberList, secret, mystery, forEachLessThan;
 
 function generateLoop() {
   let outputString = "foo";
@@ -82,18 +82,27 @@ function makeForLoop(){
 
 function makeForEachLoop(){
   let outputString = "";
+  forEachLessThan = Math.random() < 0.5;
   loopType = "foreach";
+  let total = 0;
+  let listSize = Math.floor(Math.random() * 2) + 4;
     numberList = [];
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i < listSize; i++) {
       numberList.push(Math.floor(Math.random() * 10) + 1);
+      total += numberList[i];
     }
-    secret = Math.floor(Math.random() * 6) + 5; // Starting threshold
+    secret = Math.floor(total / listSize); // Starting threshold
     mystery = Math.floor(Math.random() * 4) + 1;
 
     outputString += `let numberList = [${numberList.join(",")}];\n`;
     outputString += `let secret = ${secret};\nlet mystery = ${mystery};\n\n`;
     outputString += `for (let each of numberList) {\n`;
-    outputString += `  if (each < secret) {\n`;
+    if(forEachLessThan){
+      outputString += `  if (each < secret) {\n`;
+    } else {
+      outputString += `  if (each > secret) {\n`;
+    }
+    
     outputString += `    secret = each;\n`;
     outputString += `  }\n`;
     outputString += `  mystery = mystery + each;\n`;
@@ -125,7 +134,10 @@ function revealAnswer() {
     let s = secret;
     let m = mystery;
     for (let each of numberList) {
-      if (each < s) {
+      if (forEachLessThan === true && each < s) {
+        s = each;
+      }
+      else if (forEachLessThan === false && each > s) {
         s = each;
       }
       m = m + each;
