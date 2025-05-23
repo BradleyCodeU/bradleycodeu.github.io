@@ -47,7 +47,7 @@ function makeWhileLoop(){
     cat = Math.floor(Math.random() * 5);
     dog = Math.floor(Math.random() * 3) + 1;
     dogStep = Math.floor(Math.random() * 4) + 2;
-    dogLimit = Math.floor(Math.random() * dogStep * dogStep) + dogStep * dogStep + dogStep;
+    dogLimit = Math.floor(Math.random() * dogStep * dogStep * dogStep) + dogStep * dogStep + dogStep;
     let catOps = ["cat + dog - 1", "cat + dog + 1", "cat * 2 + dog", "cat + dog * 2"];
     catFormula = catOps[Math.floor(Math.random() * catOps.length)];
 
