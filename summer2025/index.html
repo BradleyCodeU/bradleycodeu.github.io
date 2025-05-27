@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Summer Academy PD</title>
+    <meta name="description" content="Hilliard Summer Academy PD searchable schedule" />
+    <link
+      id="favicon"
+      rel="icon"
+      href="https://www.hilliardschools.org/catalog/assets/hcsd.ico"
+      type="image/x-icon"
+    />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<!--     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    /> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <!-- The navbar - The <a> elements are used to jump to a section in the scrollable area -->
+    <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top">
+      <div class="navbar-collapse collapse order-1 order-md-0 dual-collapse2">
+        <ul class="navbar-nav mr-auto">
+          <div id="bigLogo" class="container">
+            <a href="#"
+              ><img
+                src="https://www.hilliardschools.org/catalog/assets/HCSDLogo.svg"
+                width="54px"
+                class="img-responsive rounded"
+                alt="Hilliard City Schools"
+              />
+            </a>
+          </div>
+        </ul>
+      </div>
+      <div class="mx-auto order-0" style="background-color:00ff00">
+        <a
+          id="myTitle"
+          class="navbar-brand mx-auto my-0 text-md-center"
+          href="#"
+        >
+          <h2 class="my-0">
+            <img
+              id="tinyLogo"
+              src="https://www.hilliardschools.org/catalog/assets/HCSDLogo.svg"
+              height="22px"
+              class="img-responsive"
+              alt="Hilliard City Schools"
+            />
+            Summer Academy
+          </h2>
+          <small
+            id="mySubtitle"
+            class="text-black-50 small faded"
+            style="font-size:.57em;"
+          >
+            Searchable Schedule<br />
+            Summer 2025
+          </small>
+        </a>
+        <div
+          id="alertBox"
+          class="alert alert-warning"
+          style="width:100%"
+          onclick="clearSearch()"
+        >
+          <a href="#" onclick="clearSearch()" class="alert-link">
+            Clear Search Results</a>
+           for <span id="alertText"></span>
+          <div
+            style="position:absolute;margin-top:auto;margin-bottom:auto;right:8px;top:0;bottom:0;"
+          >
+            <a href="#" onclick="clearSearch()" style="color:#aaa;opacity:0.5;"
+              ><span aria-hidden="true">&times;</span></a
+            >
+          </div>
+        </div>
+        <div
+          id="filterAlertBox"
+          class="alert alert-warning"
+          style=""
+          onclick="clearFilters()"
+        >
+          <a href="#" onclick="clearFilters()" class="alert-link">
+            Remove Filters
+          </a>
+          for "<span id="filterAlertText"></span>"
+          <div
+            style="position:absolute;margin-top:auto;margin-bottom:auto;right:8px;top:0;bottom:0;"
+          >
+            <a href="#" onclick="clearFilters()" style="color:#aaa;opacity:0.5;"
+              ><span aria-hidden="true">&times;</span></a
+            >
+          </div>
+        </div>
+      </div>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target=".dual-collapse2"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+        <ul class="navbar-nav ml-auto">
+          <!-- Search           -->
+          <li>
+            <div class="form-group form-inline">
+              <div id="searchDiv" class="">
+                <label class="small align-top" id="searchLabel">
+                  <div class="input-group align-top" style="padding-left:5px;">
+                    <input
+                      id="searchText"
+                      type="text"
+                      class="form-control"
+                      placeholder="Search"
+                      onchange="jsonSearch()"
+                    />
+                  </div>
+                  <a
+                    class="text-black-50 faded"
+                    href="#advancedModal"
+                    data-toggle="modal"
+                    data-target="#advancedModal"
+                  >
+                    <span class="faded" style="float:right;" id="advancedLink">
+                      <small>Advanced</small>
+                    </span>
+                  </a>
+                </label>
+              </div>
+              <!-- Show All / Saved Only           -->
+              <div id="showAllSavedOnly" class="" data-toggle="buttons">
+                <label
+                  id="showAllButton"
+                  class="btn small"
+                  onclick="setSavedView(false)"
+                >
+                  <input
+                    type="radio"
+                    name="allOrSaved"
+                    id="showAllRadio"
+                    checked="checked"
+                  /><span class="small">Show All</span>
+                </label>
+                <label
+                  id="savedOnlyButton"
+                  class="btn small"
+                  onclick="setSavedView(true)"
+                >
+                  <input
+                    type="radio"
+                    name="allOrSaved"
+                    id="savedOnlyRadio"
+                  /><span class="small">My Schedule</span>
+                </label>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <header></header>
+    <main>
+      <table id="excelDataTable" class="table"></table>
+    </main>
+
+    <!---Welcome Modal--->
+    <div class="modal" id="welcomeModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Welcome</h4>
+            <!--             <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            <!--             <p>
+              It looks like the first time you've used this schedule on
+              this device.
+            </p> -->
+            <p>
+              Mark the sessions you plan to attend, and the catalog will save a
+              personalized "My Schedule" for you.
+            </p>
+            <p>
+              Your schedule will only live on the computer/device that you are 
+              using when marking sessions. On a different device you will 
+              not find your saved data.
+            </p>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer justify-content-between">
+            <p>
+              Which view do you prefer?<br />
+              <small>You can change view later in Advanced settings </small>
+            </p>
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-dismiss="modal"
+              onclick="setSimpleView(true)"
+            >
+              Simple
+            </button>
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-dismiss="modal"
+              onclick="setSimpleView(false)"
+            >
+              Detailed
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Advanced Modal -->
+    <div class="modal" id="advancedModal">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Advanced Options</h4>
+            <button
+              type="button"
+              class="close btn-light"
+              data-dismiss="modal"
+              style="box-shadow:none !important"
+            >
+              &times;
+            </button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            <table class="table" style="margin-top:0;">
+              <tr>
+                <td>⌚ Start Time:
+                  <br>
+                  <div class="form-group form-inline">
+                    <label for="startTime-select">
+                      <!--                       <span style="padding-right:.5rem !important;">Start Time:</span> -->
+                      <select
+                        class="form-control"
+                        id="startTime-select"
+                        onchange="checkAllFilters()"
+                      >
+                        <option default value="false">Show All Times</option>
+                        <!--                         <option value="7:30">7:30</option> -->
+                        <!--                         <option value="8:00">8:00</option>
+                        <option value="9:00">9:00</option> -->
+                        <!--                         <option value="7:30">7:30</option>
+                        <option value="8:30">8:30</option>
+                        <option value="9:30">9:30</option> -->
+                        <!--                         <option value="10:30">10:30</option>
+                        <option value="11:30">11:30</option>  -->
+                        <!--<option value="12:30">12:30</option>
+                        <option value="13:30">1:30</option>
+                        <option value="14:30">2:30</option> -->
+                        <!--                         <option value="false">Show All Times</option> -->
+                      </select>
+                    </label>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>🐈 Category:
+                  <br>
+                  <div class="form-group form-inline">
+                    <label for="category-select">
+                      <!--                       <span style="padding-right:.5rem !important;">Category:</span> -->
+                      <select
+                        class="form-control small"
+                        id="category-select"
+                        onchange="checkAllFilters()"
+                      >
+                        <option default value="false"
+                          >Show All Categories</option
+                        >
+                      </select>
+                    </label>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>🏅 Best For:
+                  <br>
+                  <div class="form-group form-inline">
+                    <label for="bestFor-select">
+                      <!--                       <span style="padding-right:.5rem !important;">Best For:</span> -->
+                      <select
+                        class="form-control"
+                        id="bestFor-select"
+                        onchange="checkAllFilters()"
+                      >
+                        <option default value="false">Show All</option>
+                      </select>
+                    </label>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>👓 View:
+                  <br>
+                  <div class="form-group form-inline">
+                    <label>
+                      <!--                       <span>View</span> -->
+                      <div
+                        class="btn-group btn-group-horizontal btn-sm"
+                        data-toggle="buttons"
+                        style="padding:0px;"
+                      >
+                        <label
+                          class="btn btn-sm small"
+                          onclick="setSimpleView(true)"
+                        >
+                          <input
+                            type="radio"
+                            name="simpleOrDetailed"
+                            class="simpleRadio"
+                            onclick="setSimpleView(true)"
+                            checked="checked"
+                          /><span class="small">Simple</span>
+                        </label>
+                        <label
+                          class="btn btn-sm small"
+                          onclick="setSimpleView(false)"
+                        >
+                          <input
+                            type="radio"
+                            name="simpleOrDetailed"
+                            class="detailedRadio"
+                            onclick="setSimpleView(false)"
+                          /><span class="small">Detailed</span>
+                        </label>
+                      </div>
+                    </label>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>📥 Sort By:
+                  <br>
+                  <div class="form-group form-inline">
+                    <label for="select1">
+                      <!--                       <span style="padding-right:.5rem !important;">Sort By</span> -->
+                      <select
+                        class="form-control"
+                        id="sortBy-select"
+                        onchange="sortBy()"
+                      >
+                        <option value="datetime">Time</option>
+                        <option value="roomnumber">Room</option>
+                        <option value="sessiontitle">Title</option>
+                        <option value="sessioncategory">Category</option>
+                      </select>
+                    </label>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-dismiss="modal"
+              onclick="$('.navbar-collapse').collapse('hide');"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Saved Only Modal -->
+    <div id="savedOnlyModal" class="modal" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+          <!--           <div class="modal-header">
+            <h5 class="modal-title">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div> -->
+          <div class="modal-body">
+            <p>
+              No sessions have been saved. Click the "Save" checkbox next to a
+              session you plan to attend, then click the "My Schedule" button to
+              see your schedule.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <!--             <button type="button" class="btn btn-primary">Save changes</button> -->
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-dismiss="modal"
+              onclick="document.getElementById('showAllRadio').checked=true"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="text-black-50 p-0">
+      <small id="myFootnote" style="float:right;"
+        >Coded by Justin Riley, Computer Science Teacher at Hilliard Bradley
+        High School / Tolles Career & Technical Center
+        <small>- v1.44</small>
+      </small>
+    </footer>
+    
+    <script src="/sessionBuilder.js"></script>
+    <script src="/script.js"></script>
+
+  </body>
+</html>

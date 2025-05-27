@@ -1,0 +1,412 @@
+:root {
+  /*   --hcs-lightblue:#8CB4EB;#A5C6EA */
+  /*   --hcs-darkblue:#043363;#003865 */
+  --hcs-darkblue: #003865;
+  --hcs-lightblue: #A5C6EA;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Whitney", "Source Sans Pro", "Montserrat", "Gotham", "Helvetica",
+    "Arial", sans-serif;
+  margin: 20px 0px 90px 0px;
+  word-break: break-word;
+}
+small.faded {
+  color: #b9b9b9;
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #b9b9b9 !important;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #b9b9b9;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #b9b9b9;
+}
+div.mx-auto.order-0 {
+  /*   width:100%; */
+  /*   border:1px solid red; */
+}
+/* span.navbar-toggler-icon, */
+button.navbar-toggler,
+button {
+  color: #bbb;
+  /*   background-color: #ddd !important; */
+}
+button.navbar-toggler {
+  position: fixed;
+  top: 6px;
+  right: 6px;
+}
+.alert {
+  display: none;
+  border-radius: 7px;
+/*   position: relative; */
+  position: fixed;
+  left: 25px;
+  top:25px;
+  width:50% !important;
+  margin-bottom: 0;
+/*   padding: 0.2rem 1.5rem 0.2rem 1.2rem; */
+      padding: 0.75rem 1.25rem;
+}
+
+h2 {
+  font-family: "Montserrat", "Gotham", "Helvetica", "Arial", sans-serif;
+  /*text-transform: uppercase;*/
+  font-weight: bold;
+  /*   color: #17a2b8; */
+  /*   color:  #fec30b; */
+  /*    color:#043363; */
+  color: #003865;
+  color: var(--hcs-darkblue);
+  /*    text-shadow:1px 2px #8CB4EB; */
+  text-shadow: 1px 2px #A5C6EA;
+  text-shadow: 1px 2px var(--hcs-lightblue);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+
+p {
+  max-width: 600px;
+}
+.container {
+  position: relative;
+}
+.center-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+form {
+  margin-bottom: 25px;
+  padding: 15px;
+  /*   background-color: #17a2b8; */
+  /*   background-color: #fec30b; */
+  /*   background-color:#8CB4EB; */
+  background-color: #A5C6EA;
+  background-color: var(--hcs-lightblue);
+  display: inline-block;
+  width: 100%;
+  max-width: 640px;
+  border-radius: 7px;
+}
+
+/* button,label.btn {*/
+label.btn {
+  font-size: 16px;
+  border-radius: 8px;
+  background-color: #eee;
+  border: 1px solid grey;
+  /*   box-shadow: 2px 2px #17a2b8; */
+  /*   box-shadow: 2px 2px #fec30b; */
+  /*   box-shadow: 2px 3px #8CB4EB; */
+  box-shadow: 2px 3px #A5C6EA;
+  box-shadow: 2px 3px var(--hcs-lightblue);
+  cursor: pointer;
+  text-align: left;
+}
+label {
+  margin: 0 !important;
+}
+span.small {
+  margin-left: 5px;
+}
+
+table {
+  margin-top: 100px;
+  font-size: 0.8rem;
+}
+
+table tr:hover td {
+  /* background-color: rgba(23, 162, 184, 0.1) !important; */
+  /*   background-color: rgba(254, 195, 11, 0.1) !important; */
+  background-color: rgba(140, 200, 255, 0.1) !important;
+}
+
+.table td,
+.table th {
+  padding: 10px 4px 10px 4px !important;
+}
+
+tr{
+  border-bottom:1px solid #ccc;
+  padding: 1.25rem;
+}
+
+tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+div.cell{
+  float:left;
+  position:relative;
+}
+
+.card-body{
+  padding: 0 1.25rem 0 0 !important
+}
+
+
+/* button:hover, */
+label.btn:hover {
+  /*   background-color: yellow; */
+  /*   background-color:#fec30b; */
+  /*   background-color:var(--hcs-lightblue); */
+  background-color: rgba(140, 200, 255, 0.1) !important;
+}
+
+button:active {
+  box-shadow: none;
+}
+ul {
+  margin: 0;
+}
+.form-group {
+  margin-bottom: 0;
+}
+li {
+  /*   margin: 0px 5px 0 5px; */
+  vertical-align: text-top;
+}
+
+footer {
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid lightgrey;
+  font-size: 10px;
+}
+
+footer > a {
+  color: #BBBBBB;
+}
+.modal-xl {
+  width: 90% !important;
+  margin-left: auto !important;
+  margin-right: auto!important;
+  max-width: 1200px;
+}
+nav.navbar-expand-md {
+  border-bottom: 2px solid #eee;
+}
+
+small#myFootnote {
+  margin: 0 8px;
+}
+
+table {
+  font-size: 0.8rem;
+} /*1rem = 16px*/
+
+
+span#advancedLink {
+/*   border: 1px solid #fff; */
+  padding: 4px 0px 6px 6px;
+  -webkit-transition: 0.3s ease-in-out 0.1s; /* For Safari 3.1 to 6.0 */
+  transition: 0.3s ease-in-out 0.1s;
+  text-decoration: none;
+  border-radius: 7px;
+}
+span#advancedLink:hover {
+  background: #f3f3f3;
+/*   border: 1px solid #999; */
+/*   border-bottom: 4px solid #999; */
+/*   padding: 3px 6px 2px 6px; */
+/*   border-radius: 7px; */
+  text-decoration: underline;
+  color:#000 !important;
+}
+h2 {
+  font-size: 1.2rem !important;
+}
+div#bigLogo {
+  display: none;
+}
+img#tinyLogo {
+  display: inline-block;
+}
+small#mySubtitle {
+  display: none;
+}
+label#searchLabel {
+  display: inline-flex;
+}
+div#searchDiv {
+  margin: 0 auto;
+}
+div#showAllSavedOnly {
+  display: inline-flex;
+  margin: 0 auto;
+}
+label#showAllButton {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+label#savedOnlyButton {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  
+}
+label#showAllButton, label#savedOnlyButton{
+  -webkit-transition: 0.3s ease-in-out 0.1s; /* For Safari 3.1 to 6.0 */
+  transition: 0.3s ease-in-out 0.1s;
+  text-decoration: none;
+}
+label#showAllButton:hover, label#savedOnlyButton:hover{
+  text-decoration: underline;
+}
+/*   div.modal-dialog {max-width:650px;} */
+div.pl-2,
+div.px-2 {
+  padding-left: 0.6rem !important;
+}
+/* placeholder text in search entry */
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #dddddd;
+  opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #dddddd;
+}
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #dddddd;
+}
+::-webkit-input-placeholder {
+  color: #dddddd;
+}
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+/* Small devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) { 
+} */
+
+@media (min-width: 576px) {
+  .form-inline .form-control {
+    display: block;
+    width: 100%;
+    /*     vertical-align: middle; */
+  }
+  div.navbar-brand,
+  div.navbar-collapse {
+    /*big Logo min-width*/
+/*     min-width: 200px; */
+    display:none;
+  }
+}
+/* Medium devices (tablets, 768px and up) The navbar toggle disappears above the 768px breakpoint */
+@media (min-width: 768px) {
+  div.navbar-brand,
+  div.navbar-collapse {
+    /*big Logo min-width*/
+/*     min-width: 300px; */
+    display:none;
+  }
+  h2 {
+    font-size: 2rem !important;
+  }
+  table {
+    font-size: 0.86rem;
+  } /*1rem = 16px*/
+  span#advancedLink {
+    border-bottom: 0px solid #A5C6EA;
+    padding: 4px 0 6px;
+  }
+  div#bigLogo {
+    display: none;
+    padding-left: 0px;
+  }
+  img#tinyLogo {
+    display: none;
+  }
+  small#mySubtitle {
+    display: block;
+  }
+  label#searchLabel {
+    display: block;
+  }
+  div#searchDiv {
+    margin: 0;
+  }
+  div#showAllSavedOnly {
+    display: block;
+    margin-left: 5px;
+  }
+  .form-inline label {
+    justify-content: left;
+  }
+  label#showAllButton {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 8px;
+  }
+  label#savedOnlyButton {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 8px;
+  }
+  /*   div.modal-dialog {max-width:650px;} */
+  div.pl-2,
+  div.px-2 {
+    padding-left: 0.7rem !important;
+  }
+}
+
+/* Large devices (landscape tablets, desktops, 992px and up) */
+@media (min-width: 992px) {
+  table {
+    font-size: 0.94rem;
+  } /*1rem = 16px*/
+  /*   span#advancedLink {border-bottom:1px solid orange}  */
+  /*   div.modal-dialog {max-width:700px;} */
+  div.navbar-brand,
+  div.navbar-collapse {
+    /*big Logo min-width*/
+/*     min-width: 300px; */
+    
+  }
+  div#bigLogo {
+    display: block;
+    padding-left: 0px;
+  }
+  div.pl-2,
+  div.px-2 {
+    padding-left: 0.8rem !important;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  table {
+    font-size: 1.02rem;
+  } /*1rem = 16px*/
+  div.pl-2,
+  div.px-2 {
+    padding-left: 0.9rem !important;
+  }
+  /*   span#advancedLink {border-bottom:1px solid blue}  */
+}
