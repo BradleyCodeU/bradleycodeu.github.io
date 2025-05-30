@@ -1,0 +1,198 @@
+{
+  "NoteToDeleteLater": [
+    "I added a keyword 'welcome' that is the starting message from HECT-R"
+  ],
+  "someKeyword": ["someReply"],
+  "adios": [
+    "Adios amigo! What elementary school do you or did you go to in Hilliard?"
+  ],
+  "ai": [
+    "Not quite...I am HECT-R. I'm atually a chatbot. Ask me about my nickname or how I use keywords."
+  ],
+  "after": [
+    "Ha! Good job! Stay home and wash your hands 20 seconds with soap! What elementary school did or do you go to in Hilliard?"
+  ],
+  "alexa": [
+    "I am similar to Alexa because I am a chatbot. She's smarter. Ask me how I learn."
+  ],
+  "alton": ["Go Panther Cubs!"],
+  "angry": ["Salty, eh? How’s the weather?"],
+  "apple": [
+    "Apples are nutrition and delicious and they make you feel ambitious! Ask me about cats."
+  ],
+  "artificial": [
+    "Not quite...I am HECT-R. I'm actually a chatbot. Ask me about my nickname or how I use keywords."
+  ],
+  "avery": ["Go Alligators!"],
+  "bad": [
+    "I'm sorry...I hope I help you cheer up. How's the weather?",
+    "The weather is bad or your mood? Any rate, do you know what I am?"
+  ],
+  "beacon": ["Go Bobcats!"],
+  "bored": ["Really? How’s the weather?"],
+  "bot": [
+    "I am HECT-R. I'm a chatbot. Ask me about keywords or other chatbots."
+  ],
+  "bradley": ["Go Jags!"],
+  "britton": ["Go Bobcats or Lynx (Learning Campus)!"],
+  "brown": ["Go Bears!"],
+  "bunny": ["They are so soft and cute! Ask me about snakes."],
+  "bunnies": ["They are so soft and cute! Ask me about snakes."],
+
+  "bye": [
+    "See you later alligator...",
+    "Sweet dreams and flying machines!",
+    "Peace out! Toodaloo Kangaroo!"
+  ],
+  "by": ["Saying goodbye? What elementary school did or do you attend?"],
+  "carrot": [
+    "A carrot is a vegetable. What kind of animal famously eats carrots?"
+  ],
+  "cat": ["Cats meow and have fur! Ask me about pizza."],
+
+  "chatbot": [
+    "I am a chatbot programmed by keywords. Now that you are woke, ask me about my nickname or ask me about keywords.",
+    "I am a chatbot. I am a bunch of code that recognizes keywords you type and tries to reply with words that make sense. Now that you are woke, ask me about keywords."
+  ],
+  "cloudy": ["Grey eh? Do you know what I am?"],
+  "chilly": ["Put on a sweater. Do you know what I am?"],
+  "cold": ["Brrrrrrr! Do you know what I am?"],
+  "cow": [
+    "A cow can be black and white and moos. What did the cow say to the goat? MOOOOOVE over! What elementary school did you or do you attend?"
+  ],
+  "creek": ["Go Snow Leopards!"],
+  "crossing": ["Go Cougars!"],
+
+  "default": [
+    "Sorry, I'm not quite sure. How are you?",
+    "Sorry, I don't know what to say. How are you?",
+    "Sorry, I don't understand. How are you?"
+  ],
+
+  "ducks": ["Ducks are the best and make me laugh. Ask me about Fortnight."],
+
+  "elephant": [
+    "Elephants are the largest land animals. Ask me about carrots.",
+    "Elephants are the only mammal that can't jump. Ask me about ducks."
+  ],
+
+  "fine": ["Let's improve your mood to great! How’s the weather?"],
+  "fortnight": [
+    "Fortnight is a game people play together. What elementary school did or do you attend?"
+  ],
+  "good": ["Just good? How’s the weather?"],
+  "great": ["I’m glad, how’s the weather?"],
+  "happy": ["I heard that! Do you know what I am?"],
+
+  "hi": [
+    "Howdy partner! I'm HECT-R. How are you?",
+    "Hi, how are you? My name is HECT-R.",
+    "Oh, hi...HECT-R here. How are you?",
+    "I'm HECT-R. How are you?",
+    "Hi I’m HECT-R. How are you?",
+    "Hey I’m HECT-R. How are you?",
+    "Hello I’m HECT-R. How are you?",
+    "Howdy, I’m HECT-R. How are you?",
+    "Well hello! I’m HECT-R. How are you?",
+    "Hello there. I’m HECT-R. How are you?",
+    "Hola Amigo! Soy HECT-R. How are you?",
+    "Good day my citizens. I'm HECT-R How are you?",
+    "Muy buenos! Soy HECT-R. How are you?",
+    "Buenos dias! Soy HECT-R. How are you?",
+    "Good morning. I'm HECT-R. How are you?",
+    "What's up bro? I'm HECT-R. How are you?"
+  ],
+  "hello": [
+    "Hi, how are you? I'm HECT-R.",
+    "Oh, hi! HECT-R here. How are you?",
+    "I'm HECT-R. How are you?",
+    "Hi I am HECT-R. How are you?",
+    "Hi I’m HECT-R. How are you?",
+    "Hey, I’m HECT-R. How are you?",
+    "Hello I’m HECT-R. How are you?",
+    "Howdy, I’m HECT-R. How are you?",
+    "Well hello! I’m HECT-R. How are you?",
+    "Hello there. I’m HECT-R. How are you?",
+    "Hola Amigo! Soy HECT-R. How are you?",
+    "Good day my citizens. I'm HECT-R How are you?",
+    "Muy buenos! Soy HECT-R. How are you?",
+    "Buenos dias! Soy HECT-R. How are you?",
+    "Sup boss! I'm HECT-R. How are you?",
+    "Good morning. I'm HECT-R. How are you?",
+    "What's up bro? I'm HECT-R. How are you?"
+  ],
+  "hey": ["Hey back! My name is HECT-R. How are you?"],
+  "hoffman": ["Go Cubs!"],
+  "hola": ["Hola, soy HECT-R. Como esta?"],
+  "howdy": ["Howdy partner! My name is HECT-R. How are you?"],
+  "washington": ["Go Wolves!"],
+  "how are you": ["I am fantastic! How are you?"],
+  "jw": ["Go Dolphins!"],
+  "keyword": [
+    "A keyword is just a word that I know how to respond to. Some of my keywords are weather, learn, and name. Ask me about elephants."
+  ],
+  "later": ["Saying goodbye? What elementary school did or do you attend?"],
+  "learn": [
+    "I do not use machine learning. I've been programmed with rules. Ask me about other chatbots."
+  ],
+  "minecraft": [
+    "I've never played Minecraft but kids seem to think it is totally tubular and radical dude! Later!"
+  ],
+  "name": [
+    "My name is HECT-R:Hilliard Experiences Chatbot Teaching Resource. I'm a Chatbot. Ask me about chatbots."
+  ],
+  "nickname": [
+    "Some call me BOT for short. Ask me about chatbots or ask me how I learn.",
+    "Some humans refer to me as a ‘bot’ for short. Ask me about chatbots or ask me how I learn."
+  ],
+  "nicknam": [
+    "Some call me BOT for short. Ask me about chatbots or ask me how I learn.",
+    "Some humans refer to me as a ‘bot’ for short. Ask me about chatbots or ask me how I learn."
+  ],
+  "no": ["Gotchoo! I am a chatbot programmed by keywords like 'chatbot'. Ask me about chatbots."],
+  "norwich": ["Go Trees or Lynx (Learning Campus)!"],
+  "ok": ["Well, let's go from 'ok' to excellent! How’s the weather?"],
+  "other": [
+    "Some chatbots get smarter with machine learning. Give <a href='https://quickdraw.withgoogle.com/'>Quick Draw</a> by Google a try! Gotta skrt skrt. Bye..."
+  ],
+  "overcast": [
+    "Still wear your sunglasses...ultraviolet rays you know. Do you know what I am?"
+  ],
+  "pizza": [
+    "Lots of people wanted me to know about pizza, chocolate, cheese, fruit and strawberries but nobody taught me anything about it in AI 1.0. Ask me about Super Smash Brothers."
+  ],
+  "rain": [
+    "April showers bring May flowers. Do you know what I am?",
+    "Grab an umbrella. Do you know what I am?"],
+  "robot": ["I am HECT-R. I'm atually a chatbot. Ask me about my nickname."],
+  "ridgewood": ["Go Roadrunners!"],
+  "sad": ["Turn that frown upside down. How’s the weather?"],
+  "scioto": ["Go Panther Cubs!"],
+  "siri": ["I am actually a chatbot. Ask me how I learn."],
+  "sonic": [
+    "Sonic the Hedgehog is video game or also a good restaurant so I've been told. Ask me about Minecraft."
+  ],
+  "snakes": ["Snakes are reptiles. They have scales. Ask me about a cow."],
+  "snowy": ["Drink some hot cocoa. Do you know what I am?"],
+  "sunny": ["Lovely! Do you know what I am?"],
+  "super": ["Super Smash Brothers is a video game. Ask me about Sonic."],
+  "tomorrow": ["I am Ready For Tomorrow! Ask me about elephants."],
+  "warm": ["Perfect! Do you know what I am?"],
+  "washington": ["Go Wolves!"],
+  "weather": [
+    "You could try checking here <a href='https://www.google.com/search?q=weather'>google.com/search?q=weather</a>. What does the weather look like right now?"
+  ],
+
+  "welcome": [
+    "Howdy! How are you?",
+    "Hello! How are you today?",
+    "Good day. How are you?"
+  ],
+  "who are you": ["I am HECT-R. I'm a Chatbot. How are you?"],
+  "what are you": [
+    "I am a chatbot named HECT-R. I am a bunch of code that looks at the words you say and tries to reply with words that make sense. Ask me about my nickname."
+  ],
+  "where are you": ["I live in the Internet. Ask me how I learn."],
+  "windy": ["Burrrrrrr. Do you know what I am?"],
+  "yes": ["YASSSSSSSS! We have a smart one here. What am I?"]
+}
