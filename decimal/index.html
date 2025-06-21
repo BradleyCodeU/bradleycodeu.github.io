@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Hello!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <small>press Enter to clear textbox</small>
+
+    <p>
+      Base<select id="baseSelect" name="baseSelect" onchange="setBase()">
+        <option value="2">2</option>
+        <option value="8">8</option>
+        <option value="16">16</option>
+        <option value="coins">¢</option>
+      </select>=
+      <input id="textBox" type="text" />
+    </p>
+
+    <p>Decimal= <span id="resultP"></span></p>
+
+    <script>
+      let base = 2;
+      function setBase() {
+        base = document.getElementById("baseSelect").value;
+        convertToDec();
+      }
+      function convertToDec() {
+        let result = 0;
+        let octNumber = document.getElementById("textBox").value;
+        if(base == "coins"){
+          result += parseInt(octNumber.charAt(octNumber.length-1)); // pennies
+          if(octNumber.length>1){
+            result += parseInt(octNumber.charAt(octNumber.length-2))*5; // nickels
+          }
+          if(octNumber.length>2){
+            result += parseInt(octNumber.charAt(octNumber.length-3))*10; // dimes
+          }
+          if(octNumber.length>3){
+            result += parseInt(octNumber.charAt(octNumber.length-4))*25; // quarters
+          }
+          if(octNumber.length>4){
+            result += parseInt(octNumber.charAt(octNumber.length-5))*100; // dollars
+          }
+        }else{
+          result = parseInt(octNumber, base);
+        }
+        if (isNaN(result)) {
+          result = "";
+        }
+        document.getElementById("resultP").innerHTML = result;
+      }
+      // Get the input field
+      var inputtext = document.getElementById("textBox");
+      // Execute a function when the user releases a key on the keyboard
+      inputtext.addEventListener("keyup", function(event) {
+        // Number 13 is the "Enter" key on the keyboard
+        if (event.keyCode === 13) {
+          // Cancel the default action, if needed
+          event.preventDefault();
+          // Trigger the button element with a click
+          document.getElementById("textBox").value = "";
+        } else {
+          convertToDec();
+        }
+      });
+    </script>
+  </body>
+</html>
