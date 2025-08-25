@@ -1,7 +1,10 @@
+// declare global variables up here
+
+
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+    createCanvas(windowWidth, windowHeight);
 }
 
 function draw() {
-  background(220);
+    background(128);
 }
