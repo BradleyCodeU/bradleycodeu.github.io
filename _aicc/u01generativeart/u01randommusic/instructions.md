@@ -27,6 +27,8 @@ If you want to play short mp3 sounds, then download one of these:
 
 Your project MUST generate a short sequence of sounds or notes each time the program runs (or refreshes).  
 
+Your project MUST be able to play 7 or more different sounds or notes.
+
 The goal is to create music that sounds different each time, but still has some structure.
 
 Your project MUST have at least **3 random elements**. For example…
