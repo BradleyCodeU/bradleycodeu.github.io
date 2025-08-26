@@ -28,11 +28,12 @@ Your project MUST have **at least 5** random elements. For example...
 - Random adverb choice
 - Random line structure or random word order. For example, "The noun is adjective" compared to "Adjective, adjective noun"
 - Random text size, text style, text font
-- The focus of this project should be the TEXT, so don't worry about random colors.
 
 With 5 random elements, each time your project loads we should see a different haiku. Refresh the page several times to see how the poems change.
 
 The haiku should be displayed as text on the canvas [https://p5js.org/reference/p5/text/](https://p5js.org/reference/p5/text/). You could also add a simple visual background, but the focus should be the poem.  
+
+NOTE: The focus of this project should be the TEXT, so don't worry about random colors.
 
 NOTE: Store your words in Javascript arrays [https://www.w3schools.com/js/js_arrays.asp](https://www.w3schools.com/js/js_arrays.asp) and use the p5js `random()` function to select from each array. [https://p5js.org/reference/p5/random/](https://p5js.org/reference/p5/random/) 
 
@@ -45,4 +46,4 @@ NOTE: Change `createCanvas(400, 400);` to `createCanvas(windowWidth, windowHeigh
 - Animate your haiku (fade in, scroll, or change over time).  
 - Add an interactive element (maybe clicking the mouse generates a new haiku).  
 - Combine your haiku with a calming generative art background.  
-- A *good* haiku conveys a single moment where the poet suddenly sees or realizes something. It should have contrast or surprise. Usually the 3rd line gives some new, important information.
+- A *good* haiku conveys a single moment where the poet suddenly sees or realizes something. It should have contrast or surprise. Usually the 3rd line gives some new, important information. Reference the same noun on the first and third lines.
