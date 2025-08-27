@@ -47,6 +47,8 @@ NOTE: Your project should mostly work without user input. You are NOT creating a
 
 NOTE: Structure your code so the generator plays a short phrase, not just one note. Use `frameCount` to space notes out in time.  
 
+NOTE: If you use mp3s, you should load sounds in the `preload()` function. [https://p5js.org/reference/p5/preload/](https://p5js.org/reference/p5/preload/)
+
 NOTE: Change `createCanvas(400, 400);` to `createCanvas(windowWidth, windowHeight);` so visuals fill the screen.
 
 ## Challenges
