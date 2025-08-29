@@ -37,6 +37,8 @@ NOTE: The focus of this project should be the TEXT, so don't worry about random 
 
 NOTE: Store your words in Javascript arrays [https://www.w3schools.com/js/js_arrays.asp](https://www.w3schools.com/js/js_arrays.asp) and use the p5js `random()` function to select from each array. [https://p5js.org/reference/p5/random/](https://p5js.org/reference/p5/random/) 
 
+NOTE: The 3rd line of your poem can NOT be exactly the same as your 1st line.
+
 NOTE: You can use `textAlign(CENTER, CENTER);` and `textSize();` to style your haiku.  
 
 NOTE: Change `createCanvas(400, 400);` to `createCanvas(windowWidth, windowHeight);` so that it fills the screen.
