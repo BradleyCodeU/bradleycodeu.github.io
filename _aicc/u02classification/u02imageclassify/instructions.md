@@ -18,6 +18,7 @@ FINAL STEP: Customize it and make your project unique.
 - Maybe play a different sound for each object. 
 - Maybe display a different meme for each object. 
 - Maybe use the [p5.speech library](https://idmnyu.github.io/p5.js-speech/) to have the computer read the text. 
+- Maybe have it display the name of the object in different languages.
 - Maybe something else! 
 
 The choice is yours!
