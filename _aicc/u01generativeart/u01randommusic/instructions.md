@@ -23,7 +23,7 @@ mySound.play();
 If you want to play short mp3 sounds, then download one of these:
   - [Alice Sound Library 1](https://www.alice.org/wp-content/uploads/2017/05/AliceSoundLibrary.zip)
   - [Alice Sound Library 2](https://www.alice.org/wp-content/uploads/2017/08/AliceSoundLibraryExpansionPackOne.zip)
-  - [Essential Retro Video Game Sound Effects Collection](https://opengameart.org/sites/default/files/The%20Essential%20Retro%20Video%20Game%20Sound%20Effects%20Collection%20%5B512%20sounds%5D.zip)
+  - [Essential Retro Video Game Sound Effects Collection](https://drive.google.com/file/d/1wjLFlCGQ_HoQJ0QMawGk5qoCyOWcteY4/view?usp=drive_link)
 
 Your project MUST generate a short sequence of sounds or notes each time the program runs (or refreshes).  
 
