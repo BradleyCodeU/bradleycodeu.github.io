@@ -195,8 +195,21 @@ function revealConcatAnswer() {
     } else if (operator === "-=") {
       result -= extra;
     }
-  }
+  } else if (concatType === "numbersToString") {
+    result = valA + valB;
 
+    if (operator === "++") {
+      result++;
+    } else if (operator === "--") {
+      result--;
+    } else if (operator === "+=") {
+      result += extra;
+    } else if (operator === "-=") {
+      result -= extra;
+    }
+
+    result = result.toString();
+  }
 
   document.getElementById("concatAnswer").innerText = "Answer: " + result;
   document.getElementById("concatAnswer").style.display = "inline";
