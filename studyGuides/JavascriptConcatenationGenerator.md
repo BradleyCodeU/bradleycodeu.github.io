@@ -1,7 +1,7 @@
 ---
 layout: project
 category: arrays
-title: JS Methods Practice Generator
+title: JS Concatenation Practice Generator
 ---
 
 <p>Practice Generator for concatenation, parseInt(), toString(), +=, -=, ++, and --</p>

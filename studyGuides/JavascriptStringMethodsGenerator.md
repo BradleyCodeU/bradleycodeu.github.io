@@ -1,7 +1,7 @@
 ---
 layout: project
 category: arrays
-title: JS Methods Practice Generator
+title: JS String Methods Practice Generator
 ---
 
 <p>Practice Generator for .length, .substring(from, to), .substring(from), .indexOf(str), and .split(del)</p>
