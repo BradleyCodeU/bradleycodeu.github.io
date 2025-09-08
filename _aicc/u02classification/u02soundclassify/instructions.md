@@ -6,7 +6,7 @@ title: U02 Sound Classify
 
 Using Teachable Machine, teach a model to classify audio by recording short sound samples.
 
-You could train your model to recognize words and/or other sounds.
+You could train your model to recognize words and/or other sounds. Your model must be able to recognize 2 words/sounds AND recognize background noise.
 
 Once your model is trained, create a p5js project with ml5 and have it display text that shows both the top result AND the confidence (as a percent, rounded to a whole number). For example... "Meow 98%"
 
