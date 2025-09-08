@@ -71,6 +71,8 @@ function generateConcat() {
     let code = `let a = ${valA};\nlet b = ${valB};\n`;
     if (operator === "++" || operator === "--") {
       code += `a${operator};\n`;
+    } else if (operator === "-=") {
+      code += `b ${operator} ${extra};\n`; // concatenates string
     } else {
       code += `b ${operator} "${extra}";\n`; // concatenates string
     }
