@@ -106,7 +106,7 @@ function generateConcat() {
   else {
     // --- String and number concatenated ---
     concatType = "mixed";
-    let words = ["cat", "dog", "sun", "car", "hat"];
+    let words = ["10", "11", "12", "13", "14"];
     valA = words[Math.floor(Math.random() * words.length)];
     valB = Math.floor(Math.random() * 50) + 1;
     extra = Math.floor(Math.random() * 10) + 1;
