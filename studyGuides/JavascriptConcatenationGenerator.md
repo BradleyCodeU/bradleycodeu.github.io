@@ -20,10 +20,10 @@ let concatType = "";
 let valA, valB, operator, extra;
 
 function generateConcat() {
-  let roll = Math.random();
+  let roll = Math.random() * 5;
   operator = pickRandomOperator();
 
-  if (roll < 1/4) {
+  if (roll < 1) {
     // --- Two String variables, parseInt, added ---
     concatType = "parseInt";
     valA = (Math.floor(Math.random() * 90) + 10).toString();
@@ -42,7 +42,7 @@ function generateConcat() {
 
     document.getElementById("concatOutput").innerText = code;
     
-  } else if (roll < 2/4) {
+  } else if (roll < 2) {
     // --- Two strings, concatenated, then parseInt ---
     concatType = "concatParseInt";
     valA = (Math.floor(Math.random() * 90) + 10).toString();
@@ -62,7 +62,7 @@ function generateConcat() {
     
     document.getElementById("concatOutput").innerText = code;
 
-  } else if (roll < 3/4) {
+  } else if (roll < 3) {
     // --- Two numbers, toString, concatenated ---
     concatType = "toString";
     valA = Math.floor(Math.random() * 50) + 1;
@@ -82,7 +82,28 @@ function generateConcat() {
 
     document.getElementById("concatOutput").innerText = code;
 
-  } else {
+  } else if (roll < 4) {
+    // --- Two numbers, added, then toString ---
+    concatType = "numbersToString";
+    valA = Math.floor(Math.random() * 50) + 1;
+    valB = Math.floor(Math.random() * 50) + 1;
+    extra = Math.floor(Math.random() * 10) + 1;
+
+    let code = `let a = ${valA};\nlet b = ${valB};\n` +
+               `let result = a + b;\n`;
+
+    if (operator === "++" || operator === "--") {
+      code += `result${operator};\n`;
+    } else {
+      code += `result ${operator} ${extra};\n`;
+    }
+
+    code += `result = result.toString();\n`;
+    code += `console.log(result);`;
+
+    document.getElementById("concatOutput").innerText = code;
+}
+  else {
     // --- String and number concatenated ---
     concatType = "mixed";
     let words = ["cat", "dog", "sun", "car", "hat"];
