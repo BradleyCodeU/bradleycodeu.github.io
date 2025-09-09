@@ -23,6 +23,6 @@ When an item is shown to the webcam and the model recognizes it with 90% confide
 
 ## ADD CATEGORIES
 
-Automatically classify items into the correct categories. For example, frozen foods, fruits, veggies, cereal, etc. Create a dictionary object that listed the correct category for each item. When an item is added, retrieve the correct category from the dictionary. Categories should be displayed seperately on the webpage.
+Automatically classify items into the correct categories. For example, frozen foods, fruits, veggies, cereal, etc. Create a dictionary (a JavaScript object [https://www.w3schools.com/js/js_object_definition.asp](https://www.w3schools.com/js/js_object_definition.asp)) that lists the correct category for each item. When an item is added, retrieve the correct category from the dictionary. Categories should be displayed seperately on the webpage.
 
 Show Mr. Riley when finished
