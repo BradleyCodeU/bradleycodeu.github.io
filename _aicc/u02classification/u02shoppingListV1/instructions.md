@@ -51,6 +51,9 @@ Copy/paste the starter template below.
     }
 
     function addListItem(someText){
+      // if the length of the text is too small then just return
+      // TODO
+          return
       // push someText into myArray
       // TODO
       // save myArray in localStorage.savedList
@@ -62,12 +65,12 @@ Copy/paste the starter template below.
     function loadFromLocalStorage(){  
       // if localStorage.savedList is undefined then return
       // TODO
-        return
+          return
       // if localStorage.savedList is not undefined then do these 3 lines of code...
       // TODO
-        let tempString = localStorage.savedList;
-        myArray = tempString.split(",");
-        displayFullList();
+          let tempString = localStorage.savedList;
+          myArray = tempString.split(",");
+          displayFullList();
     }
 
     function displaySingleListItem(someText){
@@ -83,7 +86,7 @@ Copy/paste the starter template below.
     }
 
     function removeListItem(someText){
-      // use indexOf to find the index location of someText
+      // use indexOf to find the index location of someText in the array
       // TODO
       myArray.splice(indexToRemove, 1);
       localStorage.savedList = myArray;
