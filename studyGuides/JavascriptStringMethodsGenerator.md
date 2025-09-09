@@ -36,7 +36,7 @@ function generateMethod() {
     from = getRandomIndex(baseStr.length - 1);
     to = from + getRandomIndex(baseStr.length - from) + 1;
     document.getElementById("methodOutput").innerText =
-      `let word = "${baseStr}";\nconsole.log(word.substring(${from}, ${to}));`;
+      `let word1 = "${baseStr}";\nlet word2 = "${secondStr}";\nconsole.log(word1.substring(${from}, ${to}) + word2.substring(${Math.floor(secondStr.length/2)}, ${Math.floor(secondStr.length/2 + 1)}));`;
 
   } else if (roll < 3) {
     // .substring(from)
@@ -49,10 +49,10 @@ function generateMethod() {
   } else if (roll < 4) {
     // .indexOf(str)
     methodType = "indexOf";
-    let idx = getRandomIndex(baseStr.length - 1);
-    searchStr = baseStr.charAt(idx);
+    let idx = getRandomIndex((baseStr + secondStr).length - 1);
+    searchStr = (baseStr + secondStr).charAt(idx);
     document.getElementById("methodOutput").innerText =
-      `let word = "${baseStr}";\nconsole.log(word.indexOf("${searchStr}"));`;
+      `let word = "${baseStr}";\nlet word2 = "${secondStr}";\nconsole.log(word.indexOf("${searchStr}") + " and " + word2.indexOf("${searchStr}"));`;
 
   } else {
     // .split(del)
@@ -73,11 +73,11 @@ function revealMethodAnswer() {
   if (methodType === "length") {
     answer = baseStr.length + secondStr.length;
   } else if (methodType === "substring2") {
-    answer = baseStr.substring(from, to);
+    answer = baseStr.substring(from, to) + secondStr.substring(Math.floor(secondStr.length/2), Math.floor(secondStr.length/2)+1);
   } else if (methodType === "substring1") {
     answer = baseStr.substring(from) + secondStr.substring(fromB);
   } else if (methodType === "indexOf") {
-    answer = baseStr.indexOf(searchStr);
+    answer = baseStr.indexOf(searchStr) + " and " + secondStr.indexOf(searchStr);
   } else if (methodType === "split") {
     let strWithDel = baseStr.split("").join(delimiter);
     answer = JSON.stringify(strWithDel.split(delimiter));

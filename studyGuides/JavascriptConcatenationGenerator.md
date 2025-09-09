@@ -28,10 +28,11 @@ function generateConcat() {
     concatType = "parseInt";
     valA = (Math.floor(Math.random() * 90) + 10).toString();
     valB = (Math.floor(Math.random() * 90) + 10).toString();
-    extra = Math.floor(Math.random() * 10) + 1;
+    extra = Math.floor(Math.random() * 7) + 1;
 
-    let code = `let a = "${valA}";\nlet b = "${valB}";\n` +
-               `let result = parseInt(a) + parseInt(b);\n`;
+    let code = `let a = "${valA}";\nlet b = "${valB}";\n`;
+    code += `b += ${extra};\n`;
+    code +=          `let result = parseInt(a) + parseInt(b);\n`;
 
     if (operator === "++" || operator === "--") {
       code += `result${operator};\n`;
@@ -47,10 +48,11 @@ function generateConcat() {
     concatType = "concatParseInt";
     valA = (Math.floor(Math.random() * 90) + 10).toString();
     valB = (Math.floor(Math.random() * 90) + 10).toString();
-    extra = Math.floor(Math.random() * 10) + 1;
+    extra = Math.floor(Math.random() * 7) + 1;
 
-    let code = `let a = "${valA}";\nlet b = "${valB}";\n` +
-               `let result = parseInt(a + b);\n`;
+    let code = `let a = "${valA}";\nlet b = "${valB}";\n`;
+    code += `a += ${extra};\n`;
+    code += `let result = parseInt(a + b);\n`;
 
     if (operator === "++" || operator === "--") {
       code += `result${operator};\n`;
@@ -67,7 +69,7 @@ function generateConcat() {
     concatType = "toString";
     valA = Math.floor(Math.random() * 50) + 1;
     valB = Math.floor(Math.random() * 50) + 1;
-    extra = Math.floor(Math.random() * 10) + 1;
+    extra = Math.floor(Math.random() * 9) + 1;
     let code = `let a = ${valA};\nlet b = ${valB};\n`;
     if (operator === "++" || operator === "--") {
       code += `a${operator};\n`;
@@ -78,6 +80,7 @@ function generateConcat() {
     }
 
     code += `let result = a.toString() + b.toString();\n`;
+    code += `result += ${extra};\n`;
 
     
     code += `console.log(result);`;
@@ -89,7 +92,7 @@ function generateConcat() {
     concatType = "numbersToString";
     valA = Math.floor(Math.random() * 50) + 1;
     valB = Math.floor(Math.random() * 50) + 1;
-    extra = Math.floor(Math.random() * 10) + 1;
+    extra = Math.floor(Math.random() * 5) + 1;
 
     let code = `let a = ${valA};\nlet b = ${valB};\n` +
                `let result = a + b;\n`;
@@ -101,6 +104,7 @@ function generateConcat() {
     }
 
     code += `result = result.toString();\n`;
+    code += `result += ${extra * 2};\n`;
     code += `console.log(result);`;
 
     document.getElementById("concatOutput").innerText = code;
@@ -111,9 +115,10 @@ function generateConcat() {
     let words = ["10", "11", "12", "13", "14"];
     valA = words[Math.floor(Math.random() * words.length)];
     valB = Math.floor(Math.random() * 50) + 1;
-    extra = Math.floor(Math.random() * 10) + 1;
+    extra = Math.floor(Math.random() * 4) + 1;
 
-    let code = `let a = "${valA}";\nlet b = ${valB};\n` 
+    let code = `let a = "${valA}";\nlet b = ${valB};\n`;
+    code += `a += ${extra * 2};\n`;
     if (operator === "++" || operator === "--") {
       code += `b${operator};\n`;
     } else if (operator === "+=" ) {
@@ -139,8 +144,23 @@ function revealConcatAnswer() {
 
   if (concatType === "parseInt") {
     a = parseInt(valA);
-    b = parseInt(valB);
+    b = parseInt(valB + extra.toString());
     result = a + b;
+
+    if (operator === "++") {
+      result++;
+    } else if (operator === "--") {
+      result--;
+    } else if (operator === "+=") {
+      result += extra;
+    } else if (operator === "-=") {
+      result -= extra;
+    }
+
+  }   else if (concatType === "concatParseInt") {
+    a = valA;
+    b = valB;
+    result = parseInt(a + extra.toString() + b);
 
     if (operator === "++") {
       result++;
@@ -166,10 +186,25 @@ function revealConcatAnswer() {
       b -= extra; // coercion if b is string
     }
 
-    result = a.toString() + b.toString();
+    result = a.toString() + b.toString() + extra.toString();
+
+  } else if (concatType === "numbersToString") {
+    result = valA + valB;
+
+    if (operator === "++") {
+      result++;
+    } else if (operator === "--") {
+      result--;
+    } else if (operator === "+=") {
+      result += extra;
+    } else if (operator === "-=") {
+      result -= extra;
+    }
+    extra *= 2;
+    result = result.toString() + extra.toString();
 
   } else if (concatType === "mixed") {
-    a = valA;
+    a = valA + extra * 2;
     b = valB;
 
     if (operator === "++") {
@@ -183,34 +218,8 @@ function revealConcatAnswer() {
     }
 
     result = a + b;
-  }   else if (concatType === "concatParseInt") {
-    a = valA;
-    b = valB;
-    result = parseInt(a + b);
-
-    if (operator === "++") {
-      result++;
-    } else if (operator === "--") {
-      result--;
-    } else if (operator === "+=") {
-      result += extra;
-    } else if (operator === "-=") {
-      result -= extra;
-    }
-  } else if (concatType === "numbersToString") {
-    result = valA + valB;
-
-    if (operator === "++") {
-      result++;
-    } else if (operator === "--") {
-      result--;
-    } else if (operator === "+=") {
-      result += extra;
-    } else if (operator === "-=") {
-      result -= extra;
-    }
-
-    result = result.toString();
+  
+  
   }
 
   document.getElementById("concatAnswer").innerText = "Answer: " + result;
