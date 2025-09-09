@@ -1,7 +1,7 @@
 ---
 layout: project
-category: scrum
-title: localStorage Shopping List
+category: u02_classification
+title: localStorage Shopping List v1
 ---
 In this project, you will create an app that allows you to store a list of items for a long time. It's currently a Shopping List App, but I want you to change that and design it for your own purpose. For example...
   - Video Game Collection App
@@ -12,10 +12,20 @@ In this project, you will create an app that allows you to store a list of items
   - Chores List App
   - Holiday Wishlist App
 
-Add an image and some CSS to style your app.
+Complete the JavaScript and some custom CSS to style your app. [https://www.w3schools.com/css/css_intro.asp](https://www.w3schools.com/css/css_intro.asp)
+
+In version 2 we will improve the app.
 
 Copy/paste the starter template below.
 ```
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* your custom css code goes here in the style section */
+
+</style>
+</head>
 <body onload="loadFromLocalStorage()">
   <h1>localStorage Shopping List app</h1>
   <ul id="listDisplayBox">
@@ -77,4 +87,5 @@ Copy/paste the starter template below.
     }
   </script>
 </body>
+</html>
 ```
