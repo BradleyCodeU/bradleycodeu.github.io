@@ -1,0 +1,114 @@
+[
+  {
+    "answer": "algorithm",
+    "question": "a set of steps for a computer program to accomplish a task."
+  },
+  {
+    "answer": "Artificial Intelligence",
+    "question": "a marketing term for technology that is similar to human"
+  },
+  {
+    "answer": "association",
+    "question": "finding patterns, connections, or relationships between items"
+  },
+  {
+    "answer": "classification",
+    "question": "selecting categories for items according to shared qualities or characteristics"
+  },
+  {
+    "answer": "deterministic algorithm",
+    "question": "an algorithm that will always produce the same predictable output when given the same input"
+  },
+  {
+    "answer": "filtering",
+    "question": "selecting, keeping, or removing specific items in a larger dataset"
+  },
+  {
+    "answer": "machine learning",
+    "question": "a field of study that gives computers the ability to make connections and perform a task without being explicitly programmed"
+  },
+  {
+    "answer": "machine learning algorithm",
+    "question": "an algorithm that receives training data, analyses the data to look for patterns, and attempts to predict correct outputs based on its training"
+  },
+  {
+    "answer": "nondeterministic algorithm",
+    "question": "an algorithm that may not produce the same exact output when given the same input"
+  },
+  {
+    "answer": "prioritization",
+    "question": "deciding the rank, importance, or urgency of items"
+  },
+  {
+    "answer": "rule-based algorithm",
+    "question": "an algorithm that is are constructed by a human and is direct and unambiguous"
+  },
+  {
+    "answer": "search algorithm",
+    "question": "an algorithm for locating a specific value within a list or determining that that the value in not present"
+  },
+  {
+    "answer": "sorting algorithm",
+    "question": "an algorithm that puts elements of a list into an order"
+  },
+  {
+    "answer": "stochastic algorithm",
+    "question": "an algorithm that is designed with some randomness and the probabilites are known"
+  },
+    {
+    "answer": "algorithm",
+    "question": "a set of steps for a computer program to accomplish a task."
+  },
+  {
+    "answer": "Artificial Intelligence",
+    "question": "a marketing term for technology that is similar to human"
+  },
+  {
+    "answer": "association",
+    "question": "finding patterns, connections, or relationships between items"
+  },
+  {
+    "answer": "classification",
+    "question": "selecting categories for items according to shared qualities or characteristics"
+  },
+  {
+    "answer": "deterministic algorithm",
+    "question": "an algorithm that will always produce the same predictable output when given the same input"
+  },
+  {
+    "answer": "filtering",
+    "question": "selecting, keeping, or removing specific items in a larger dataset"
+  },
+  {
+    "answer": "machine learning",
+    "question": "a field of study that gives computers the ability to make connections and perform a task without being explicitly programmed"
+  },
+  {
+    "answer": "machine learning algorithm",
+    "question": "an algorithm that receives training data, analyses the data to look for patterns, and attempts to predict correct outputs based on its training"
+  },
+  {
+    "answer": "nondeterministic algorithm",
+    "question": "an algorithm that may not produce the same exact output when given the same input"
+  },
+  {
+    "answer": "prioritization",
+    "question": "deciding the rank, importance, or urgency of items"
+  },
+  {
+    "answer": "rule-based algorithm",
+    "question": "an algorithm that is are constructed by a human and is direct and unambiguous"
+  },
+  {
+    "answer": "search algorithm",
+    "question": "an algorithm for locating a specific value within a list or determining that that the value in not present"
+  },
+  {
+    "answer": "sorting algorithm",
+    "question": "an algorithm that puts elements of a list into an order"
+  },
+  {
+    "answer": "stochastic algorithm",
+    "question": "an algorithm that is designed with some randomness and the probabilites are known"
+  },
+]
