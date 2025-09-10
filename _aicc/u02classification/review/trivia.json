@@ -16,6 +16,10 @@
     "question": "selecting categories for items according to shared qualities or characteristics"
   },
   {
+    "answer": "computer vision",
+    "question": "a field of study concerned with giving computers the ability to find patterns in images and video"
+  },
+  {
     "answer": "deterministic algorithm",
     "question": "an algorithm that will always produce the same predictable output when given the same input"
   },
@@ -25,7 +29,7 @@
   },
   {
     "answer": "machine learning",
-    "question": "a field of study that gives computers the ability to make connections and perform a task without being explicitly programmed"
+    "question": "a field of study concerned with giving computers the ability to make connections and perform a task without being explicitly programmed"
   },
   {
     "answer": "machine learning algorithm",
@@ -55,7 +59,7 @@
     "answer": "stochastic algorithm",
     "question": "an algorithm that is designed with some randomness and the probabilities are known"
   },
-    {
+  {
     "answer": "algorithm",
     "question": "a set of steps for a computer program to accomplish a task."
   },
@@ -72,6 +76,10 @@
     "question": "selecting categories for items according to shared qualities or characteristics"
   },
   {
+    "answer": "computer vision",
+    "question": "a field of study concerned with giving computers the ability to find patterns in images and video"
+  },
+  {
     "answer": "deterministic algorithm",
     "question": "an algorithm that will always produce the same predictable output when given the same input"
   },
@@ -81,7 +89,7 @@
   },
   {
     "answer": "machine learning",
-    "question": "a field of study that gives computers the ability to make connections and perform a task without being explicitly programmed"
+    "question": "a field of study concerned with giving computers the ability to make connections and perform a task without being explicitly programmed"
   },
   {
     "answer": "machine learning algorithm",
