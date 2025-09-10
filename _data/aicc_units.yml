@@ -1,0 +1,174 @@
+gdad:
+
+- title: 1stquarter
+  heading: "# 1st Quarter"
+  content: "*Whenever possible, select 'Sign up with Google' and always use your hilliardschools.org account.* &nbsp; &nbsp; <a href='https://github.com/BradleyCodeU/bradleycodeu.github.io/blob/master/_data/gdad_units.yml'>.</a>
+
+
+Sign up for:
+
+- 'Sign up with Google' [sololearn.com](https://www.sololearn.com/)
+
+- [Runestone Academy](https://runestone.academy/runestone/default/user/register) AND use the *class code* posted on Canvas
+
+- 'Sign up with Google' [khanacademy.org](https://khanacademy.org) AND use the *class code* posted on Canvas
+
+
+
+Our “Textbooks”:
+
+- [W3Schools](https://www.w3schools.com/)
+
+- [p5js](https://p5js.org/)
+
+- [How to Help Someone Use a Computer](https://pages.gseis.ucla.edu/faculty/agre/how-to-help.html)
+
+
+-------
+
+
+“Java is to JavaScript as ham is to hamster.”
+
+*-Jeremy Keith*
+
+
+“On the Internet, nobody knows you're a dog”
+
+*—Peter Steiner*
+
+
+-------
+
+
+"
+- title: menu1
+  content: "[1st Quarter](#1st-quarter)
+
+
+
+
+1. **[U01 Generative Art](#u01_generative_art)** - *? wks*
+
+1. **[U02 Classification](#u02_classification)** - *? wks*
+
+
+
+"
+
+- title: u01_generative_art
+  heading: "# U01 Generative Art"
+  content: "*? weeks*,
+
+
+1. Class Codes for MakeCode, SoloLearn, KhanAcademy
+
+1. Business Logo
+
+1. [SoloLrn HTML](/gdad/html/sololearnhtml/)
+
+1. [MC Food Chain Game](/gdad/html/foodChainGame/)
+
+1. [Simpler is Better](/gdad/html/simplerisbetter/)
+
+1. [Poetry with Emphasis](/gdad/html/poetrywithemphasis/)
+
+1. [MC Beginner Skillmap](/gdad/html/beginnerSkillmap/)
+
+1. [Club Goals Lists](/gdad/html/clubgoalslists/)
+
+1. [SoloLrn HTML 2](/gdad/html/sololearnhtml2/)
+
+1. MC Monster Truck
+
+1. Group - [Multi-page Website 1](/gdad/html/multipagepizzasite1/)
+
+1. [Twine Game v1](/gdad/html/twinegamev1/)
+
+
+
+
+Additional:
+
+1. [Hello World](/gdad/html/helloworld/)
+
+
+
+
+
+Vocab: html, hypertext, tag, element, head, body, title, h1, p, br, bold, italics, img, attribute, alt, ol, ul, li
+
+
+
+
+- [KhanAcademy Intro to HTML](https://www.khanacademy.org/computing/hour-of-code/hour-of-html/pt/html-basics)
+
+- [What is Design?](https://drive.google.com/open?id=19UTgCtOIuQPbIhIo6B2ktjPeGUDolFCM)
+
+- [Simpler is Better](https://drive.google.com/open?id=1hpUxydU5K0Lv9N_UkXRrQDSfIBxV8RAp)
+
+- [KhanAcademy HTML text emphasis](https://www.khanacademy.org/computing/hour-of-code/hour-of-html/pt/html-text-emphasis)
+
+- [KhanAcademy HTML lists](https://www.khanacademy.org/computing/hour-of-code/hour-of-html/pt/html-lists)
+
+- [GDAD HTML Unit Vocab](https://docs.google.com/document/d/1lFET0X74bM1jqZnVSS5yAaAOs6ms1UiarH5JckI54BY/edit?usp=sharing)
+
+- [GDAD HTML vocab review game](https://bradleycodeu.github.io/gdad/html/review/)
+
+
+"
+
+- title: u02_classification
+  heading: "# U02 Classification"
+  content: "*? weeks*
+
+
+
+
+1. [SoloLrn CSS](/gdad/css/CssSoloLearn1/instructions/)
+
+1. [Colorful Tables](/gdad/css/CssColorfulTablesinstructions/)
+
+1. [MC Shark Attack](/gdad/css/MkcSharkAttack/instructions/)
+
+1. [Hexcode Pixels](/gdad/css/CssHexcodePixels/instructions/)
+
+1. [Chippos](/gdad/css/CssChippos/instructions/)
+
+1. [MC Maze Game](/gdad/css/MkcMazeGame/instructions/)
+
+1. Group - [Multi-page Pizza Site 2](/gdad/css/multipagepizzasite2/)
+
+
+
+
+Additional:
+
+1. Puzzle 1 Sokoban
+
+1. Puzzle 2 Zelda
+
+1. Puzzle 3 Frogger
+
+1. Puzzle 4 Pacman
+
+1. [KhanAcademy Drawing with Code](/gdad/css/khanacademydrawingwithcode/)
+
+1. [Food Drive](/gdad/css/fooddrive/)
+
+1. [Twine Game v2](/gdad/css/twinegamev2/)
+
+
+
+Vocab: css, inline css, internal css, external css, css rule, selector, css declaration, css property and value, rgb, hexcode, font stack, serif font, sans serif font, css box model, padding, border, margin, table, tr, th, td
+
+
+
+
+- [Images Pixels and RGB](https://drive.google.com/open?id=1WDeCPoWsnHy7-FUteaoZRspIw25sJWyb)
+
+- [GDAD CSS unit vocab](https://docs.google.com/document/d/1EnxzRSG4OwMD_QLqqwv2yH0XCKy65JzupGgukky7oYA/edit?usp=sharing)
+
+- [GDAD CSS vocab review game](https://bradleycodeu.github.io/gdad/css/review/)
+
+
+"
