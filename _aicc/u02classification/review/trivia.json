@@ -53,7 +53,7 @@
   },
   {
     "answer": "stochastic algorithm",
-    "question": "an algorithm that is designed with some randomness and the probabilites are known"
+    "question": "an algorithm that is designed with some randomness and the probabilities are known"
   },
     {
     "answer": "algorithm",
@@ -109,6 +109,6 @@
   },
   {
     "answer": "stochastic algorithm",
-    "question": "an algorithm that is designed with some randomness and the probabilites are known"
+    "question": "an algorithm that is designed with some randomness and the probabilities are known"
   }
 ]
