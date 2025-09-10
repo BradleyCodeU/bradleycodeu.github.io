@@ -47,9 +47,9 @@ Our “Textbooks”:
 
 
 
-1. **[U01 Generative Art](#u01_generative_art)** - *? wks*
+1. **[U01 Generative Art](#u01-generative-art)** - *? wks*
 
-1. **[U02 Classification](#u02_classification)** - *? wks*
+1. **[U02 Classification](#u02-classification)** - *? wks*
 
 
 
@@ -60,59 +60,41 @@ Our “Textbooks”:
   content: "*? weeks*,
 
 
-1. Class Codes for MakeCode, SoloLearn, KhanAcademy
+1. [Make Art](/aicc/u01generativeart/u01makeart/)
 
-1. Business Logo
+1. [Random Art](/aicc/u01generativeart/u01randomart/)
 
-1. [SoloLrn HTML](/gdad/html/sololearnhtml/)
+1. [Make Text](/aicc/u01generativeart/u01maketext/)
 
-1. [MC Food Chain Game](/gdad/html/foodChainGame/)
+1. [Random Haiku](/aicc/u01generativeart/u01randomhaiku/)
 
-1. [Simpler is Better](/gdad/html/simplerisbetter/)
+1. [Make Sound](/aicc/u01generativeart/u01makesound/)
 
-1. [Poetry with Emphasis](/gdad/html/poetrywithemphasis/)
+1. [Random Music](/aicc/u01generativeart/u01randommusict/)
 
-1. [MC Beginner Skillmap](/gdad/html/beginnerSkillmap/)
 
-1. [Club Goals Lists](/gdad/html/clubgoalslists/)
-
-1. [SoloLrn HTML 2](/gdad/html/sololearnhtml2/)
-
-1. MC Monster Truck
-
-1. Group - [Multi-page Website 1](/gdad/html/multipagepizzasite1/)
-
-1. [Twine Game v1](/gdad/html/twinegamev1/)
+Vocab: let, const, assignment, number, string, concatenation, toString(), parseInt()
 
 
 
 
-Additional:
+- [https://editor.p5js.org/](https://editor.p5js.org/)
 
-1. [Hello World](/gdad/html/helloworld/)
+- [JavaScript Use Strict](https://www.w3schools.com/js/js_strict.asp)
 
+- [JavaScript Let](https://www.w3schools.com/js/js_let.asp)
 
+- [JavaScript Const](https://www.w3schools.com/js/js_const.asp)
 
+- [JavaScript Variables](https://www.w3schools.com/js/js_variables.asp)
 
+- [JavaScript Operators](https://www.w3schools.com/js/js_operators.asp)
 
-Vocab: html, hypertext, tag, element, head, body, title, h1, p, br, bold, italics, img, attribute, alt, ol, ul, li
+- [JavaScript Assignment](https://www.w3schools.com/js/js_assignment.asp)
 
+- [JavaScript Strings](https://www.w3schools.com/js/js_strings.asp)
 
-
-
-- [KhanAcademy Intro to HTML](https://www.khanacademy.org/computing/hour-of-code/hour-of-html/pt/html-basics)
-
-- [What is Design?](https://drive.google.com/open?id=19UTgCtOIuQPbIhIo6B2ktjPeGUDolFCM)
-
-- [Simpler is Better](https://drive.google.com/open?id=1hpUxydU5K0Lv9N_UkXRrQDSfIBxV8RAp)
-
-- [KhanAcademy HTML text emphasis](https://www.khanacademy.org/computing/hour-of-code/hour-of-html/pt/html-text-emphasis)
-
-- [KhanAcademy HTML lists](https://www.khanacademy.org/computing/hour-of-code/hour-of-html/pt/html-lists)
-
-- [GDAD HTML Unit Vocab](https://docs.google.com/document/d/1lFET0X74bM1jqZnVSS5yAaAOs6ms1UiarH5JckI54BY/edit?usp=sharing)
-
-- [GDAD HTML vocab review game](https://bradleycodeu.github.io/gdad/html/review/)
+- [JS Concatenation Practice Generator](https://bradleycodeu.github.io/studyGuides/JavascriptConcatenationGenerator/)
 
 
 "
