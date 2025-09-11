@@ -23,4 +23,6 @@ FINAL STEP: Customize it and make your project unique.
 
 The choice is yours!
 
+NOTE: You must switch to the index.html file and copy and paste the following CDN link BELOW the p5js libraries inside the <head> tag: <script src="https://unpkg.com/ml5@1/dist/ml5.min.js"></script>
+
 Show Mr Riley when finished.
