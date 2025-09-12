@@ -60,63 +60,95 @@
     "question": "an algorithm that is designed with some randomness and the probabilities are known"
   },
   {
-    "answer": "algorithm",
-    "question": "a set of steps for a computer program to accomplish a task."
+    "answer": "JavaScript",
+    "question": "one of the 3 main languages of the web, it is used to program the behavior of web pages"
   },
   {
-    "answer": "Artificial Intelligence",
-    "question": "a marketing term for technology that is similar to human"
+    "answer": "function",
+    "question": "a named group of programming instructions that performs a specific task. Reusable abstractions that reduce the complexity of writing and maintaining programs"
   },
   {
-    "answer": "association",
-    "question": "finding patterns, connections, or relationships between items"
+    "answer": "function definition",
+    "question": "the keyword “function” followed by a name, (), and curly brackets that contain lines of Javascript code"
   },
   {
-    "answer": "classification",
-    "question": "selecting categories for items according to shared qualities or characteristics"
+    "answer": "function call",
+    "question": "the name of a Javascript function followed by (). This tells the computer to run the lines of code inside the function definition"
   },
   {
-    "answer": "computer vision",
-    "question": "a field of study concerned with giving computers the ability to find patterns in images and video"
+    "answer": "argument",
+    "question": "a value passed into a function call"
   },
   {
-    "answer": "deterministic algorithm",
-    "question": "an algorithm that will always produce the same predictable output when given the same input"
+    "answer": "variable",
+    "question": "a named storage location that can store changeable information, depending on conditions or on information passed to the program"
   },
   {
-    "answer": "filtering",
-    "question": "selecting, keeping, or removing specific items in a larger dataset"
+    "answer": "constant",
+    "question": "a named value that cannot change through reassignment using the assignment operator. If a constant is an object then it can be mutated and its properties can be added, updated, or removed"
   },
   {
-    "answer": "machine learning",
-    "question": "a field of study concerned with giving computers the ability to make connections and perform a task without being explicitly programmed"
+    "answer": "let",
+    "question": "a Javascript command that defines a new variable"
   },
   {
-    "answer": "machine learning algorithm",
-    "question": "an algorithm that receives training data, analyses the data to look for patterns, and attempts to predict correct outputs based on its training"
+    "answer": "const",
+    "question": "a Javascript command that defines a new constant"
   },
   {
-    "answer": "nondeterministic algorithm",
-    "question": "an algorithm that may not produce the same exact output when given the same input"
+    "answer": "camelCase",
+    "question": "process of naming multi-word variables without spaces and so that words in the middle of the phrase begins with a capital letter. For example, numberOfCars, iPhone, eBay"
   },
   {
-    "answer": "prioritization",
-    "question": "deciding the rank, importance, or urgency of items"
+    "answer": "assignment operator",
+    "question": "the operator used to assign a new value to a variable. In JavaScript, ="
   },
   {
-    "answer": "rule-based algorithm",
-    "question": "an algorithm that is are constructed by a human and is direct and unambiguous"
+    "answer": "equality operator",
+    "question": "returns True if the value on the left is equal to the value on the right, otherwise it returns False. In JavaScript, it is the characters =="
   },
   {
-    "answer": "search algorithm",
-    "question": "an algorithm for locating a specific value within a list or determining that that the value in not present"
+    "answer": "String",
+    "question": "a data type that stores a sequence of characters which could include letters, numbers, spaces, symbols and punctuation. For example, \"steve!\", \"can't\", \"$9.99\""
   },
   {
-    "answer": "sorting algorithm",
-    "question": "an algorithm that puts elements of a list into an order"
+    "answer": "concatenation",
+    "question": "joining two or more strings together to form a single String"
   },
   {
-    "answer": "stochastic algorithm",
-    "question": "an algorithm that is designed with some randomness and the probabilities are known"
+    "answer": ".length",
+    "question": "a String data property that stores the number of characters including spaces"
+  },
+  {
+    "answer": ".substring()",
+    "question": "a String method that returns the part of this string from the start index up to, but not including, the end index, or, if only one argument is given, from the start index to the end of the string"
+  },
+  {
+    "answer": ".indexOf()",
+    "question": "a String method that searches this String and returns the index of the first occurrence of the specified argument or returns -1 if the argument is not found"
+  },
+  {
+    "answer": ".split()",
+    "question": "a String method that takes an argument and divides this String into an ordered list of substrings by searching for the argument, puts these substrings into an array, and returns the array"
+  },
+  {
+    "answer": "conditional",
+    "question": "also known as selection, a statement that uses a boolean condition to determine whether or not to run other statements. Usually an if-then statement"
+  },
+  {
+    "answer": "input",
+    "question": "information that is given to the computer by a user, usually typed text and mouse clicks"
+  },
+  {
+    "answer": "alert()",
+    "question": "a Javascript command that displays a popup box with a message and an OK button"
+  },
+  {
+    "answer": "prompt()",
+    "question": "a Javascript command that displays a popup box and allows the user to type some input. The function returns the user input as a String"
+  },
+  {
+    "answer": "confirm()",
+    "question": "a Javascript command that displays a popup box and allows the user to click OK or Cancel. The function returns true if the user clicked OK and otherwise returns false"
   }
 ]
