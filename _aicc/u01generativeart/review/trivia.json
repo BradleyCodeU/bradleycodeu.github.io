@@ -1,0 +1,66 @@
+[
+  {
+    "answer": "JavaScript",
+    "question": "one of the 3 main languages of the web, it is used to program the behavior of web pages"
+  },
+  {
+    "answer": "function",
+    "question": "a named group of programming instructions that performs a specific task. Reusable abstractions that reduce the complexity of writing and maintaining programs"
+  },
+  {
+    "answer": "function definition",
+    "question": "the keyword “function” followed by a name, (), and curly brackets that contain lines of Javascript code"
+  },
+  {
+    "answer": "function call",
+    "question": "the name of a Javascript function followed by (). This tells the computer to run the lines of code inside the function definition"
+  },
+  {
+    "answer": "argument",
+    "question": "a value passed into a function call"
+  },
+  {
+    "answer": "variable",
+    "question": "a named storage location that can store changeable information, depending on conditions or on information passed to the program"
+  },
+  {
+    "answer": "constant",
+    "question": "a named value that cannot change through reassignment using the assignment operator. If a constant is an object then it can be mutated and its properties can be added, updated, or removed"
+  },
+  {
+    "answer": "let",
+    "question": "a Javascript command that defines a new variable"
+  },
+  {
+    "answer": "const",
+    "question": "a Javascript command that defines a new constant"
+  },
+  {
+    "answer": "camelCase",
+    "question": "process of naming multi-word variables without spaces and so that words in the middle of the phrase begins with a capital letter. For example, numberOfCars, iPhone, eBay"
+  },
+  {
+    "answer": "assignment operator",
+    "question": "the operator used to assign a new value to a variable. In JavaScript, ="
+  },
+  {
+    "answer": "equality operator",
+    "question": "returns True if the value on the left is equal to the value on the right, otherwise it returns False. In JavaScript, it is the characters =="
+  },
+  {
+    "answer": "String",
+    "question": "a data type that stores a sequence of characters which could include letters, numbers, spaces, symbols and punctuation. For example, \"steve!\", \"can't\", \"$9.99\""
+  },
+  {
+    "answer": "concatenation",
+    "question": "joining two or more strings together to form a single String"
+  },
+  {
+    "answer": "conditional",
+    "question": "also known as selection, a statement that uses a boolean condition to determine whether or not to run other statements. Usually an if-then statement"
+  },
+  {
+    "answer": "input",
+    "question": "information that is given to the computer by a user, usually typed text and mouse clicks"
+  }
+]

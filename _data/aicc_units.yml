@@ -47,9 +47,9 @@ Our “Textbooks”:
 
 
 
-1. **[U01 Generative Art](#u01-generative-art)** - *? wks*
+1. **[U01 Generative Art](#u01_generative_art)** - *? wks*
 
-1. **[U02 Classification](#u02-classification)** - *? wks*
+1. **[U02 Classification](#u02_classification)** - *? wks*
 
 
 
@@ -57,16 +57,20 @@ Our “Textbooks”:
 
 - title: u01_generative_art
   heading: "# U01_Generative_Art"
-  content: "*? weeks*,
+  content: "*2 weeks*,
 
 
 1. [Make Art](/aicc/u01generativeart/u01makeart/instructions)
 
 1. [Make Text](/aicc/u01generativeart/u01maketext/instructions)
 
+1. [CodeCademy JS 1](/aicc/u01generativeart/u01ccjs1/instructions)
+
 1. [Make Sounds](/aicc/u01generativeart/u01makesounds/instructions)
 
 1. [Random Art](/aicc/u01generativeart/u01randomart/instructions)
+
+1. [CodeCademy JS 2](/aicc/u01generativeart/u01ccjs2/instructions)
 
 1. [Random Haiku](/aicc/u01generativeart/u01randomhaiku/instructions)
 
@@ -101,20 +105,20 @@ Vocab: let, const, assignment, number, string, concatenation, toString(), parseI
 
 - title: u02_classification
   heading: "# U02_Classification"
-  content: "*? weeks*
+  content: "*2 weeks*
 
 
 
 
-1. [SoloLrn CSS](/gdad/css/CssSoloLearn1/instructions/)
+1. [Image Classify](/gdad/css/CssSoloLearn1/instructions/)
 
-1. [Colorful Tables](/gdad/css/CssColorfulTablesinstructions/)
+1. [Sound Classify](/gdad/css/CssColorfulTablesinstructions/)
 
-1. [MC Shark Attack](/gdad/css/MkcSharkAttack/instructions/)
+1. [CodeCademy JS 3](/gdad/css/MkcSharkAttack/instructions/)
 
-1. [Hexcode Pixels](/gdad/css/CssHexcodePixels/instructions/)
+1. [Shopping List V1](/gdad/css/CssHexcodePixels/instructions/)
 
-1. [Chippos](/gdad/css/CssChippos/instructions/)
+1. [Shopping List V2](/gdad/css/CssHexcodePixels/instructions/)
 
 1. [MC Maze Game](/gdad/css/MkcMazeGame/instructions/)
 
@@ -123,26 +127,11 @@ Vocab: let, const, assignment, number, string, concatenation, toString(), parseI
 
 
 
-Additional:
-
-1. Puzzle 1 Sokoban
-
-1. Puzzle 2 Zelda
-
-1. Puzzle 3 Frogger
-
-1. Puzzle 4 Pacman
-
-1. [KhanAcademy Drawing with Code](/gdad/css/khanacademydrawingwithcode/)
-
-1. [Food Drive](/gdad/css/fooddrive/)
-
-1. [Twine Game v2](/gdad/css/twinegamev2/)
 
 
 
-Vocab: css, inline css, internal css, external css, css rule, selector, css declaration, css property and value, rgb, hexcode, font stack, serif font, sans serif font, css box model, padding, border, margin, table, tr, th, td
 
+Vocab: length, substring, indexOf, split
 
 
 
