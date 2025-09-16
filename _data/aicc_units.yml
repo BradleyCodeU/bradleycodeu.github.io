@@ -56,21 +56,21 @@ Our “Textbooks”:
 "
 
 - title: u01_generative_art
-  heading: "# U01 Generative Art"
+  heading: "# U01_Generative_Art"
   content: "*? weeks*,
 
 
-1. [Make Art](/aicc/u01generativeart/u01makeart/)
+1. [Make Art](/aicc/u01generativeart/u01makeart/instructions)
 
-1. [Random Art](/aicc/u01generativeart/u01randomart/)
+1. [Make Text](/aicc/u01generativeart/u01maketext/instructions)
 
-1. [Make Text](/aicc/u01generativeart/u01maketext/)
+1. [Make Sounds](/aicc/u01generativeart/u01makesounds/instructions)
 
-1. [Random Haiku](/aicc/u01generativeart/u01randomhaiku/)
+1. [Random Art](/aicc/u01generativeart/u01randomart/instructions)
 
-1. [Make Sound](/aicc/u01generativeart/u01makesound/)
+1. [Random Haiku](/aicc/u01generativeart/u01randomhaiku/instructions)
 
-1. [Random Music](/aicc/u01generativeart/u01randommusict/)
+1. [Random Music](/aicc/u01generativeart/u01randommusic/instructions)
 
 
 Vocab: let, const, assignment, number, string, concatenation, toString(), parseInt()
@@ -100,7 +100,7 @@ Vocab: let, const, assignment, number, string, concatenation, toString(), parseI
 "
 
 - title: u02_classification
-  heading: "# U02 Classification"
+  heading: "# U02_Classification"
   content: "*? weeks*
 
 

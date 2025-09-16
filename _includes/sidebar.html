@@ -16,6 +16,9 @@
         {% unless unit[0].content %}
           {% assign unit = site.data.gdad_units[page.collection] | where:"title",page.category %}
         {% endunless %}
+        {% unless unit[0].content %}
+          {% assign unit = site.data.aicc_units[page.collection] | where:"title",page.category %}
+        {% endunless %}
         {{ unit[0].content | markdownify }}
       </small>
 
