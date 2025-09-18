@@ -25,5 +25,10 @@ Create a photobooth app that allows the user to select from several masks, switc
         - Select a random mask and a random background
         - Make one key increment so that it advances to the next mask
 
-1. Finally, make the spacebar key take a screenshot by using the saveCanvas() function. [https://p5js.org/reference/p5/saveCanvas/](https://p5js.org/reference/p5/saveCanvas/)
+1. Finally, make the spacebar key take a screenshot by using the saveCanvas() function. [https://p5js.org/reference/p5/saveCanvas/](https://p5js.org/reference/p5/saveCanvas/) Either play a camera sound or flash a white background when the screenshot is taken.
+
+### Challenges
+
+- Add touch controls. When the user taps the screen, move to the next mask. [https://p5js.org/reference/p5/touchStarted/](https://p5js.org/reference/p5/touchStarted/)
+- Count how long the user's touch lasts. If it's a long press, then take a screenshot.
 
