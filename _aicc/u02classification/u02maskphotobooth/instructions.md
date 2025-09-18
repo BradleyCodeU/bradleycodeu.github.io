@@ -29,9 +29,9 @@ Create a photobooth app that allows the user to select from several masks, switc
 
 ### Challenges
 
-- [ ] Apply the mask to ALL faces, not just faces[0].
+- Apply the mask to ALL faces, not just faces[0].
 
-- [ ] Adjust the scale so that the canvas fill the entire width of the screen. This will ensure that the app looks good on all devices: phone, iPad, laptop, desktop.
-- [ ] Add touch controls. When the user taps the screen, move to the next mask. [https://p5js.org/reference/p5/touchStarted/](https://p5js.org/reference/p5/touchStarted/)
-- [ ] Count how long the user's touch lasts. If it's a long press, then take a screenshot.
+- Adjust the scale so that the canvas fill the entire width of the screen. This will ensure that the app looks good on all devices: phone, iPad, laptop, desktop.
+- Add touch controls. When the user taps the screen, move to the next mask. [https://p5js.org/reference/p5/touchStarted/](https://p5js.org/reference/p5/touchStarted/)
+- Count how long the user's touch lasts. If it's a long press, then take a screenshot.
 
