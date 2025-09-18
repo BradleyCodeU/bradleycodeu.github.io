@@ -29,6 +29,7 @@ Create a photobooth app that allows the user to select from several masks, switc
 
 ### Challenges
 
+- Apply the mask to ALL faces, not just faces[0].
 - Add touch controls. When the user taps the screen, move to the next mask. [https://p5js.org/reference/p5/touchStarted/](https://p5js.org/reference/p5/touchStarted/)
 - Count how long the user's touch lasts. If it's a long press, then take a screenshot.
 
