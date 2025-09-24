@@ -37,7 +37,7 @@ Below are the additional tutorials
 - Drag a blue "on overlaps" block into the workspace. Change the second sprite kind to Enemy.
 - Inside the "on overlaps" block
     - Place a blue "destroy sprite" block. Drag the otherSprite variable from the "on overlaps" block and place it inside the "destroy sprite"
-    - Place a pink "change lives by -1" block.
+    - Place a pink "change life by -1" block.
 
 ## Adding Projectiles (like fireballs or arrows)
 
