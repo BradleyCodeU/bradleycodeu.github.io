@@ -35,7 +35,9 @@ Below are the additional tutorials
 - For x value in the "set position to" change it to 150 (just a little less than the width of the screen).
 - Get a purple "pick random 0 to 10" block and put it inside the y value of "set position to". This time change the second number to 120 (the height of the screen)
 - Drag a blue "on overlaps" block into the workspace. Change the second sprite kind to Enemy.
-- Inside the "on overlaps" block, place a blue "destroy sprite" block. Drage the otherSprite variable from the "on overlaps" block and place it inside the "destroy sprite"
+- Inside the "on overlaps" block
+    - Place a blue "destroy sprite" block. Drag the otherSprite variable from the "on overlaps" block and place it inside the "destroy sprite"
+    - Place a purple "change lives by -1" block.
 
 ## Adding Projectiles (like fireballs or arrows)
 
