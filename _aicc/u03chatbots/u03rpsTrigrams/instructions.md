@@ -47,7 +47,7 @@ What did we learn by analyzing this short sentence? *Almost nothing*. Let's anal
 
 REMEMBER: When finished, you will show Mr Riley your chart AND your Rock Paper Scissors project.
 
-1. Using paper / Notability / the notepad app, make the following chart...
+Step 1. Using paper / Notability / the notepad app, make the following chart...
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -114,13 +114,13 @@ REMEMBER: When finished, you will show Mr Riley your chart AND your Rock Paper S
 
 
 
-2. Pick a long Wikipedia article from this list: [https://en.wikipedia.org/wiki/Wikipedia:Good_articles/By_length](https://en.wikipedia.org/wiki/Wikipedia:Good_articles/By_length)
+Step 2. Pick a long Wikipedia article from this list: [https://en.wikipedia.org/wiki/Wikipedia:Good_articles/By_length](https://en.wikipedia.org/wiki/Wikipedia:Good_articles/By_length)
 
-3. Try to predict how many times each trigram will appear. <u>Your predictions will most likely be wrong, but take a guess.</u>
+Step 3. Try to predict how many times each trigram will appear. <u>Your predictions will most likely be wrong, but take a guess.</u>
 
-4. Use the `CONTROL + F` shortcut (or from the menu click Edit > Find) and search for each trigram. Write down the actual amounts.
+Step 4. Use the `CONTROL + F` shortcut (or from the menu click Edit > Find) and search for each trigram. Write down the actual amounts.
 
-What can we learn from this data? 
+### What can we learn from this data? 
 
 - English has strong statistical biases in letter combinations. Some trigrams (for example, thz, thq, thb) may appear rarely or never, because English doesn't naturally produce those sequences often.
 
