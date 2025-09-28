@@ -6,6 +6,8 @@ title: Simple Chatbot
 
 Create a chatbot that uses a JavaScript object to store keywords and replies.
 
+![screenshot of a chat conversation between a human in blue text and a bot in red text](https://bradleycodeu.github.io/aicc/u03chatbots/u03simpleChatbot/simpleChatbotScreenshot.png)
+
 ### Setup
 
 Make a new p5js project and set it up like this...
@@ -152,7 +154,7 @@ function sendMessage(){
 }
 ```
 
-### Allow Enter Key To Send Message
+### Allow ENTER Key To Send Message
 ```
 // Define a function to handle keyboard input events
 function keyPressed(){
