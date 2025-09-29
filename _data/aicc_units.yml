@@ -47,34 +47,36 @@ Our “Textbooks”:
 
 
 
-1. **[U01 Generative Art](#u01_generative_art)** - *? wks*
+1. **[u01numbersAndStrings](#u01numbersAndStrings)** - *? wks*
 
-1. **[U02 Classification](#u02_classification)** - *? wks*
+1. **[u02stringMethods](#u02stringMethods)** - *? wks*
 
+1. **[u03arrayMethods](#u03arrayMethods)** - *? wks*
+
+1. **[u04loops](#u04loops)** - *? wks*
 
 
 "
 
-- title: u01_generative_art
-  heading: "# U01_Generative_Art"
+- title: u01numbersAndStrings
+  heading: "# u01numbersAndStrings"
   content: "*2 weeks*,
 
+1. [CodeCademy JS 1](/aicc/u01numbersAndStrings/codecademyJavaScript1/instructions)
 
-1. [Make Art](/aicc/u01generativeart/u01makeart/instructions)
+1. [Make Art](/aicc/u01numbersAndStrings/makeArt/instructions)
 
-1. [Make Text](/aicc/u01generativeart/u01maketext/instructions)
+1. [Make Text](/aicc/u01numbersAndStrings/makeText/instructions)
 
-1. [CodeCademy JS 1](/aicc/u01generativeart/u01ccjs1/instructions)
+1. [CodeCademy JS 2](/aicc/u01numbersAndStrings/codecademyJavaScript2/instructions)
 
-1. [Make Sounds](/aicc/u01generativeart/u01makesounds/instructions)
+1. [Make Sounds](/aicc/u01numbersAndStrings/makeSounds/instructions)
 
-1. [Random Art](/aicc/u01generativeart/u01randomart/instructions)
+1. [Random Art](/aicc/u01numbersAndStrings/randomArt/instructions)
 
-1. [CodeCademy JS 2](/aicc/u01generativeart/u01ccjs2/instructions)
+1. [Random Haiku](/aicc/u01numbersAndStrings/randomHaiku/instructions)
 
-1. [Random Haiku](/aicc/u01generativeart/u01randomhaiku/instructions)
-
-1. [Random Music](/aicc/u01generativeart/u01randommusic/instructions)
+1. [Random Music](/aicc/u01numbersAndStrings/randomMusic/instructions)
 
 
 Vocab: let, const, assignment, number, string, concatenation, toString(), parseInt()
@@ -103,31 +105,16 @@ Vocab: let, const, assignment, number, string, concatenation, toString(), parseI
 
 "
 
-- title: u02_classification
-  heading: "# U02_Classification"
+- title: u02stringMethods
+  heading: "# u02stringMethods"
   content: "*2 weeks*
 
 
 
 
-1. [Image Classify](/gdad/css/CssSoloLearn1/instructions/)
+1. [Image Classify](/gdad/aicc/u02stringMethods/imageClassify/instructions/)
 
-1. [Sound Classify](/gdad/css/CssColorfulTablesinstructions/)
-
-1. [CodeCademy JS 3](/gdad/css/MkcSharkAttack/instructions/)
-
-1. [Shopping List V1](/gdad/css/CssHexcodePixels/instructions/)
-
-1. [Shopping List V2](/gdad/css/CssHexcodePixels/instructions/)
-
-1. [MC Maze Game](/gdad/css/MkcMazeGame/instructions/)
-
-1. Group - [Multi-page Pizza Site 2](/gdad/css/multipagepizzasite2/)
-
-
-
-
-
+1. [Sound Classify](/gdad/aicc/u02stringMethods/soundClassify/instructions/)
 
 
 
@@ -135,11 +122,29 @@ Vocab: length, substring, indexOf, split
 
 
 
-- [Images Pixels and RGB](https://drive.google.com/open?id=1WDeCPoWsnHy7-FUteaoZRspIw25sJWyb)
+- [JS String Methods Generator](https://bradleycodeu.github.io/studyGuides/JavascriptStringMethodsGenerator/)
 
-- [GDAD CSS unit vocab](https://docs.google.com/document/d/1EnxzRSG4OwMD_QLqqwv2yH0XCKy65JzupGgukky7oYA/edit?usp=sharing)
 
-- [GDAD CSS vocab review game](https://bradleycodeu.github.io/gdad/css/review/)
+"
+
+- title: u03arrayMethods
+  heading: "# u03arrayMethods"
+  content: "*2 weeks*
+
+
+
+
+1. [Image Classify](/gdad/aicc/imageClassify/instructions/)
+
+1. [Sound Classify](/gdad/aicc/soundClassify/instructions/)
+
+
+
+Vocab: length, substring, indexOf, split
+
+
+
+- [JS String Methods Generator](https://bradleycodeu.github.io/studyGuides/JavascriptStringMethodsGenerator/)
 
 
 "

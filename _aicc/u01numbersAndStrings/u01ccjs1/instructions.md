@@ -1,6 +1,6 @@
 ---
 layout: project
-category: u01_generative_art
+category: u01numbersAndStrings
 title: U01 CodeCademy JS 1
 ---
 

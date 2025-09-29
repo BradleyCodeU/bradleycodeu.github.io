@@ -1,7 +1,7 @@
 ---
 layout: project
-category: u02_classification
-title: U02 Image Classify
+category: u02stringMethods
+title: Image Classify
 ---
 
 Using Teachable Machine, train an Image Model to recognize either:

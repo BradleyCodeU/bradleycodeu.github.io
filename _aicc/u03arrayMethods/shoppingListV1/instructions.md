@@ -1,6 +1,6 @@
 ---
 layout: project
-category: u02_classification
+category: u03arrayMethods
 title: localStorage Shopping List v1
 ---
 In this project, you will create an app that allows you to store a list of items for a long time. It's currently a Shopping List App, but I want you to change that and design it for your own purpose. For example...

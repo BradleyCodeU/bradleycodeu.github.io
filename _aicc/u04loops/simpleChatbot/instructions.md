@@ -1,6 +1,6 @@
 ---
 layout: project
-category: u04_loops
+category: u04loops
 title: Simple Chatbot
 ---
 

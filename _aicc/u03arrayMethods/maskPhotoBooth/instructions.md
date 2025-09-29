@@ -1,7 +1,7 @@
 ---
 layout: project
-category: u02_classification
-title: U02 Mask Photobooth
+category: u03arrayMethods
+title: Mask Photobooth
 ---
 
 Create a photobooth app that allows the user to select from several masks, switch backgrounds, and capture the canvas as an image.

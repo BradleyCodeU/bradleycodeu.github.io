@@ -1,6 +1,6 @@
 ---
 layout: project
-category: u02_classification
+category: u03arrayMethods
 title: localStorage Shopping List v3
 ---
 

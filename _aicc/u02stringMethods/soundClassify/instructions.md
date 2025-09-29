@@ -1,7 +1,7 @@
 ---
 layout: project
-category: u02_classification
-title: U02 Sound Classify
+category: u02stringMethods
+title: Sound Classify
 ---
 
 Using Teachable Machine, teach a model to classify audio by recording short sound samples.

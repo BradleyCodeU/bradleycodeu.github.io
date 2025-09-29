@@ -1,6 +1,6 @@
 ---
 layout: project
-category: u03_chatbots
+category: u04loops
 title: RPS Random
 ---
 
