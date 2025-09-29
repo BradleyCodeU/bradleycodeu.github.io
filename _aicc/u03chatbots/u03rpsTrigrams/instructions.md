@@ -176,7 +176,7 @@ After round 6 the bot will see a trigram with last two letters that it has seen 
 }
 ```
 
-At this point in time, there have been two trigrams that begin with rr- and those are rrp and rrs. In the future we will use this like predictive text. If the user previously played "rr" then their next move will either be "p" or "s".
+At this point, there have been two trigrams that begin with rr- and those are rrp and rrs. In the future we can use this like predictive text. If the user previously played "rr" then their next move will likely either be "p" or "s".
 
 ### Update Trigrams based on User Current Move
 
