@@ -1,6 +1,6 @@
 ---
 layout: project
-category: u03_chatbots
+category: u04_loops
 title: Simple Chatbot
 ---
 
@@ -25,7 +25,7 @@ const dictionary = {
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  background(200);
+  background(???); // TODO
   addUserInterface();
 }
 
@@ -74,7 +74,7 @@ function filterOutPunctuation(textString){
   // Initialize an empty string to store the cleaned result
   let result = "";
   // Loop through each character of the input text string
-  for(let i = 0; i < textString.length; i++){
+  for(let i = ???; i < ???; i++){ // TODO
     // Use substring to extract the current character at position i
     let currentLetter = textString.substring(???); // TODO
     // Check if the current character is NOT found in the punctuation list
@@ -100,8 +100,8 @@ function buildReply(message){
   let messageArray = ???; // TODO 
   // Initialize an empty array to store possible replies
   let replyArray = ???; // TODO
-  // Loop through each word in the message
-  for(let eachWord of messageArray){
+  // Loop through each word in the message array
+  for(let eachWord of ???){ // TODO
     // Check if the current word exists in the dictionary
     if(dictionary[eachWord]){
       // If found, add the corresponding dictionary response to replyArray
