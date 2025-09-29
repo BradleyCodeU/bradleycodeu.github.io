@@ -15,7 +15,7 @@ Create a photobooth app that allows the user to select from several masks, switc
 1. Upload 5 or more mask images and 2 or more backgrounds. 
 
     - Download this image if you want to draw your own mask.
-    - ![Mask template](https://bradleycodeu.github.io/aicc/u02classification/u02maskphotobooth/maskTemplate.png)
+    - ![Mask template](../maskTemplate.png)
 
 1. Declare an array that you will use to store your images. Inside of the preload() function, use loadImage() to add the images to the array. [https://p5js.org/reference/p5/loadImage/](https://p5js.org/reference/p5/loadImage/)
 
