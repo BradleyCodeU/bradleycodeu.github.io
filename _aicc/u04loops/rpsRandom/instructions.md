@@ -6,7 +6,7 @@ title: RPS Random
 
 Create a chatbot app that plays Rock Paper Scissors with a bot that selects its moves randomly.
 
-![screenshot of a chat conversation between a human in blue text and a bot in red text](https://bradleycodeu.github.io/aicc/u03chatbots/u03simpleChatbot/simpleChatbotScreenshot.png)
+![screenshot of a chat conversation between a human in blue text and a bot in red text](./simpleChatbotScreenshot.png)
 
 ### Setup
 
@@ -21,7 +21,7 @@ let roundQueue = [];
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  background(200);
+  background(???); // TODO
   addUserInterface();
 }
 
@@ -33,7 +33,7 @@ function draw() {
 
 function resetMessages(){
   textY = 30;
-  background(200);
+  background(???); // TODO
 }
 ```
 
