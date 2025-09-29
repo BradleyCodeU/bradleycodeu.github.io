@@ -47,11 +47,11 @@ Our “Textbooks”:
 
 
 
-1. **[u01numbersAndStrings](#u01numbersAndStrings)** - *? wks*
+1. **[u01numbersAndStrings](#u01numbersandstrings)** - *? wks*
 
-1. **[u02stringMethods](#u02stringMethods)** - *? wks*
+1. **[u02stringMethods](#u02stringmethods)** - *? wks*
 
-1. **[u03arrayMethods](#u03arrayMethods)** - *? wks*
+1. **[u03arrayMethods](#u03arraymethods)** - *? wks*
 
 1. **[u04loops](#u04loops)** - *? wks*
 
@@ -132,19 +132,41 @@ Vocab: length, substring, indexOf, split
   content: "*2 weeks*
 
 
+1. [CodeCademyArrays](/gdad/aicc/u03arrayMethods/codecademyArrays/instructions/)
 
+1. [ShoppingListV1](/gdad/aicc/u03arrayMethods/ShoppingListV1/instructions/)
 
-1. [Image Classify](/gdad/aicc/imageClassify/instructions/)
+1. [Mask Photo Booth](/gdad/aicc/u03arrayMethods/maskPhotoBooth/instructions/)
 
-1. [Sound Classify](/gdad/aicc/soundClassify/instructions/)
-
-
-
-Vocab: length, substring, indexOf, split
+1. [ShoppingListV2](/gdad/aicc/u03arrayMethods/ShoppingListV2/instructions/)
 
 
 
-- [JS String Methods Generator](https://bradleycodeu.github.io/studyGuides/JavascriptStringMethodsGenerator/)
+Vocab: length, push, splice 
+
+- [JS Array Practice Generator](https://bradleycodeu.github.io/studyGuides/JavascriptArrayPracticeGenerator/)
+
+- [JS Array Methods Generator](https://bradleycodeu.github.io/studyGuides/JavascriptArrayMethodsGenerator/)
+
+
+"
+
+- title: u04loops
+  heading: "# u04loops"
+  content: "*2 weeks*
+
+
+1. [CodeCademyLoops](/gdad/aicc/u04loops/codecademyLoops/instructions/)
+
+1. [Simple Chatbot](/gdad/aicc/u04loops/simpleChatbot/instructions/)
+
+
+
+Vocab: for loop, while loop, for-each loop, reverse for loop
+
+- [JS Array Practice Generator](https://bradleycodeu.github.io/studyGuides/JavascriptArrayPracticeGenerator/)
+
+
 
 
 "
