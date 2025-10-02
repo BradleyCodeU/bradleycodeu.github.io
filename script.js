@@ -29,7 +29,6 @@ if (today.getMonth() + 1 == 10) {
 function spookySeason() {
   console.log("🎃");
   document.body.style.background = "#000000";
-  document.body.style.transition = "background 2s";
   document.body.style.background = choice([
     "#001100",
     "#002200",
@@ -42,14 +41,17 @@ function spookySeason() {
     "#220022",
     "#221122",
     "#221525",
+    "#223322",
     "#251125",
     "#251522",
     "#330000",
     "#330033",
     "#331111",
+    "#331133",
+    "#332233",
     "#333300",
     "#333311",
-    "#883300"
+    "#773300"
   ]);
   let emojis = ["","","","","","","","","","","","","👻","🎃","👻","🎃","👻","🎃","😱","👹","🧛‍","🦇","🕸","🧟‍"]
   let h1Array = document.getElementsByTagName("h1");
