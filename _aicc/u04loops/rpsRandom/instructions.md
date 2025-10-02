@@ -6,7 +6,7 @@ title: RPS Random
 
 Create a chatbot app that plays Rock Paper Scissors with a bot that selects its moves randomly.
 
-![screenshot of a chat conversation between a human in blue text and a bot in red text](./simpleChatbotScreenshot.png)
+![screenshot of a chat conversation between a human in blue text and a bot in red text](../rpsRandomScreenshot.png)
 
 ### Setup
 
