@@ -70,7 +70,11 @@ function generatePractice() {
         result += "let " + varA + " = " + JSON.stringify(ml[0]) + ";\n";
         result += "let " + varB + " = " + JSON.stringify(ml[1]) + ";\n";
         
-        if(getRandomNumber(5)==0){
+        if(getRandomNumber(6)==0){
+          // a += b
+          result += "" + varA + " += "  + varB + ";\n";
+          ml[0] += ml[1];
+        }else if(getRandomNumber(5)==0){
           // add
           result += "" + varA + " = "  + varA + " + "  + JSON.stringify(ml[2]) + ";\n";
           ml[0] += ml[2];
@@ -92,11 +96,16 @@ function generatePractice() {
           ml[0] = ml[1] + ml[2];
         }
         
-        if(getRandomNumber(2)==0){
+        
+        if(getRandomNumber(6)==0){
+          // b += a
+          result += "" + varB + " += "  + varA + ";\n";
+          ml[1] += ml[0];
+        }else if(getRandomNumber(5)==0){
           // add
           result += "" + varB + " = "  + varB + " + "  + JSON.stringify(ml[3]) + ";\n";
           ml[1] += ml[3];
-        } else if(getRandomNumber(2)==0){
+        } else if(getRandomNumber(4)==0){
           // sub
           result += "" + varB + " = "  + varB + " - "  + JSON.stringify(ml[3]) + ";\n";
           ml[1] -= ml[3];
