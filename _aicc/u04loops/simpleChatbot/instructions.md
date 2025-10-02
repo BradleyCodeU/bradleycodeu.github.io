@@ -6,7 +6,7 @@ title: Simple Chatbot
 
 Create a chatbot that uses a JavaScript object to store keywords and replies.
 
-![screenshot of a chat conversation between a human in blue text and a bot in red text](./simpleChatbotScreenshot.png)
+![screenshot of a chat conversation between a human in blue text and a bot in red text](../simpleChatbotScreenshot.png)
 
 ### Setup
 
