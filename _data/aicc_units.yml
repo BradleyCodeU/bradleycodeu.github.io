@@ -59,7 +59,7 @@ aicc:
 "
 
 - title: u01numbersAndStrings
-  heading: "# u01numbersAndStrings"
+  heading: "# u01numbersandstrings"
   content: "*2 weeks*,
 
 1. [CodeCademy JS 1](/aicc/u01numbersAndStrings/codecademyJavaScript1/instructions)
@@ -108,7 +108,7 @@ let, const, assignment, number, string, concatenation, toString(), parseInt()
 "
 
 - title: u02stringMethods
-  heading: "# u02stringMethods"
+  heading: "# u02stringmethods"
   content: "*2 weeks*
 
 
@@ -132,7 +132,7 @@ length, substring, indexOf, split
 "
 
 - title: u03arrayMethods
-  heading: "# u03arrayMethods"
+  heading: "# u03arraymethods"
   content: "*2 weeks*
 
 
