@@ -46,6 +46,16 @@
             </a>
           </li>
 
+          {% if page.url contains "/aicc/" or page.collection == "aicc" %}
+            <li class="nav-item active text-white">
+          {% else %}
+            <li class="nav-item text-light">
+          {% endif %}
+            <a class="nav-link" href="/aicc/">
+              <h3 class="navbarHeading">A.I. & Cloud Computing</h3>
+            </a>
+          </li>
+
           {% if page.url contains "/apcsa/" %}
             <li class="nav-item active text-white">
           {% else %}
