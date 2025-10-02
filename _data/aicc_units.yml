@@ -5,7 +5,7 @@ aicc:
   content: "*Whenever possible, select 'Sign up with Google' and always use your hilliardschools.org account.* &nbsp; &nbsp; <a href='https://github.com/BradleyCodeU/bradleycodeu.github.io/blob/master/_data/gdad_units.yml'>.</a>
 
 
-Sign up for:
+### Sign up for:
 
 - 'Sign up with Google' [sololearn.com](https://www.sololearn.com/)
 
@@ -15,7 +15,7 @@ Sign up for:
 
 
 
-Our “Textbooks”:
+#### Our “Textbooks”:
 
 - [W3Schools](https://www.w3schools.com/)
 
@@ -79,10 +79,12 @@ Our “Textbooks”:
 1. [Random Music](/aicc/u01numbersAndStrings/randomMusic/instructions)
 
 
-Vocab: let, const, assignment, number, string, concatenation, toString(), parseInt()
+#### Vocab:
+
+let, const, assignment, number, string, concatenation, toString(), parseInt()
 
 
-
+#### Resources:
 
 - [https://editor.p5js.org/](https://editor.p5js.org/)
 
@@ -118,9 +120,11 @@ Vocab: let, const, assignment, number, string, concatenation, toString(), parseI
 
 
 
-Vocab: length, substring, indexOf, split
+#### Vocab:
 
+length, substring, indexOf, split
 
+#### Resources:
 
 - [JS String Methods Generator](https://bradleycodeu.github.io/studyGuides/JavascriptStringMethodsGenerator/)
 
@@ -142,7 +146,11 @@ Vocab: length, substring, indexOf, split
 
 
 
-Vocab: length, push, splice 
+#### Vocab:
+
+length, push, splice 
+
+#### Resources:
 
 - [JS Array Practice Generator](https://bradleycodeu.github.io/studyGuides/JavascriptArrayPracticeGenerator/)
 
@@ -162,7 +170,11 @@ Vocab: length, push, splice
 
 
 
-Vocab: for loop, while loop, for-each loop, reverse for loop
+#### Vocab:
+
+for loop, while loop, for-each loop, reverse for loop
+
+#### Resources:
 
 - [JS Array Practice Generator](https://bradleycodeu.github.io/studyGuides/JavascriptArrayPracticeGenerator/)
 

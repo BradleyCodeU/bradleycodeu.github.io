@@ -5,7 +5,7 @@ gdad:
   content: "*Whenever possible, select 'Sign up with Google' and always use your hilliardschools.org account.* &nbsp; &nbsp; <a href='https://github.com/BradleyCodeU/bradleycodeu.github.io/blob/master/_data/gdad_units.yml'>.</a>
 
 
-Sign up for:
+### Sign up for:
 
 - 'Sign up with Google' [sololearn.com](https://www.sololearn.com/)
 
@@ -19,7 +19,7 @@ Sign up for:
 
 
 
-Our “Textbooks”:
+#### Our “Textbooks”:
 
 - [Fundamentals of Web Programming by Brad Miller](https://runestone.academy/runestone/books/published/webfundamentals/index.html)
 
@@ -103,10 +103,12 @@ Additional:
 
 
 
-Vocab: html, hypertext, tag, element, head, body, title, h1, p, br, bold, italics, img, attribute, alt, ol, ul, li
+#### Vocab:
+
+html, hypertext, tag, element, head, body, title, h1, p, br, bold, italics, img, attribute, alt, ol, ul, li
 
 
-
+#### Resources:
 
 - [KhanAcademy Intro to HTML](https://www.khanacademy.org/computing/hour-of-code/hour-of-html/pt/html-basics)
 
@@ -167,10 +169,12 @@ Additional:
 
 
 
-Vocab: css, inline css, internal css, external css, css rule, selector, css declaration, css property and value, rgb, hexcode, font stack, serif font, sans serif font, css box model, padding, border, margin, table, tr, th, td
+#### Vocab:
+
+css, inline css, internal css, external css, css rule, selector, css declaration, css property and value, rgb, hexcode, font stack, serif font, sans serif font, css box model, padding, border, margin, table, tr, th, td
 
 
-
+#### Resources:
 
 - [Images Pixels and RGB](https://drive.google.com/open?id=1WDeCPoWsnHy7-FUteaoZRspIw25sJWyb)
 
@@ -242,9 +246,12 @@ Vocab: css, inline css, internal css, external css, css rule, selector, css decl
 
 
 
-Vocab: JavaScript, id, script, variable, var, let, button, onclick, getElementById(), innerHTML, class, alert, prompt, function, function definition, function call, console, debugging, syntax, comment, operators, assignment operator, equality operator, string, camelCase, display, block, inline, conditional, transition, event listener, GitHub, fork, commit, pull request
+#### Vocab:
+
+JavaScript, id, script, variable, var, let, button, onclick, getElementById(), innerHTML, class, alert, prompt, function, function definition, function call, console, debugging, syntax, comment, operators, assignment operator, equality operator, string, camelCase, display, block, inline, conditional, transition, event listener, GitHub, fork, commit, pull request
 
 
+#### Resources:
 
 - [https://hacktoberfest.digitalocean.com/](https://hacktoberfest.digitalocean.com/)
 
@@ -278,7 +285,9 @@ Additional:
 
 
 
-Vocab: form, label, input, radio button, select, onchange, checkbox, div, border-radius, transition, function, Math.random(), event listener,
+#### Vocab:
+
+form, label, input, radio button, select, onchange, checkbox, div, border-radius, transition, function, Math.random(), event listener,
 
 - [GDAD Forms unit vocab](https://docs.google.com/document/d/16Pcd5zadHzTg4hH85ysNGb1Fl2utWQXOLMzB06-pd2c/edit?usp=sharing)
 
@@ -319,16 +328,6 @@ Additional:
 
 
 
-  - [JS Nested Conditionals Generator](https://bradleycodeu.github.io/studyGuides/jsnestedconditionalsgenerator/)
-
-  - [JS Array Practice Generator](https://bradleycodeu.github.io/studyGuides/jsarraypracticegenerator/)
-
-
-
-
-
-Projects:
-
 1. [Random Name Generator](/gdad/arrays/randomNameGenerator/)
 
 1. Pair-[Boss Battle](/gdad/arrays/bossBattle/)
@@ -340,6 +339,14 @@ Projects:
 1. [P5 Snowflakes](/gdad/arrays/p5snowflakes/)
 
 1. [P5 Whiteboard](/gdad/arrays/p5whiteboard/)
+
+
+#### Resources:
+
+  - [JS Nested Conditionals Generator](https://bradleycodeu.github.io/studyGuides/jsnestedconditionalsgenerator/)
+
+  - [JS Array Practice Generator](https://bradleycodeu.github.io/studyGuides/jsarraypracticegenerator/)
+
 
 "
 
@@ -385,8 +392,6 @@ Look out! Here comes the Spider-man”
 
 
 
-Projects:
-
 1. [SoloLrn JS Functions](/gdad/p5js/SoloLearnJS3/)
 
 1. [FoobarGame](/gdad/objects/FoobarGame/)
@@ -415,7 +420,7 @@ Additional:
 
 
 
-Resources:
+#### Resources:
 
 - [Abstraction illustration](/gdad/objects/abstraction.png)
 
@@ -444,7 +449,7 @@ Resources:
 1. [SoloLrn C# Basics](/gdad/unity1/SoloLrnCsharpBasics/)
 
 
-Resources:
+#### Resources:
 
 - [https://screencast-o-matic.com/screen-recorder](https://screencast-o-matic.com/screen-recorder)
 
@@ -508,7 +513,7 @@ Additional:
   1. [SpaceShooterV1](/gdad/agile/UnitySpaceShooterV1/)
 
 
-Resources:
+#### Resources:
 
   - [Post Processing in Unity](/gdad\agile\PostProcessingInUnity/)
 
@@ -538,7 +543,7 @@ Resources:
 
 
 
-Resources:
+#### Resources:
 
   - [Agile vocab list](https://docs.google.com/document/d/1W2XWOGrPkRcey1bz16oligZgUBBjUUI4V6-e056omaw/edit?usp=sharing)
 
@@ -587,6 +592,23 @@ Resources:
   content: "*3 weeks*
 
 
+
+
+
+
+
+
+1. [Bootstrap Responsive Columns](/gdad/bootstrap/bootstrapresponsivecolumns/)
+
+1. [Bootstrap Club Page](/gdad/bootstrap/bootstrapclubpage/)
+
+1. [Bootstrap Club Collapse](/gdad/bootstrap/bootstrapclubcollapse/)
+
+1. [Bootstrap Club Carousel](/gdad/bootstrap/bootstrapclubcarousel/)
+
+
+#### Resources:
+
 - [Get Started](/gdad/bootstrap/bootstrap-4-get-started/)
 
 - [Containers](/gdad/bootstrap/bootstrap-4-containers/)
@@ -614,26 +636,26 @@ Resources:
 - [Google Material Icons](/gdad/bootstrap/google-material-icons/)
 
 
-
-
-Projects:
-
-
-1. [Bootstrap Responsive Columns](/gdad/bootstrap/bootstrapresponsivecolumns/)
-
-1. [Bootstrap Club Page](/gdad/bootstrap/bootstrapclubpage/)
-
-1. [Bootstrap Club Collapse](/gdad/bootstrap/bootstrapclubcollapse/)
-
-1. [Bootstrap Club Carousel](/gdad/bootstrap/bootstrapclubcarousel/)
-
-
   "
 
 
 - title: materialize
   heading: "# Materialize"
   content: "*3 weeks*
+
+
+
+
+1. [Materialize Responsive Columns](/gdad/materialize/materializeresponsivecolumns/)
+
+1. [Materialize Pizza Homepage](/gdad/materialize/pizzahomepage/)
+
+1. [Materialize Pizza Order Form](/gdad/materialize/pizzaorderform/)
+
+1. [Materialize Pizza Birthday Club](/gdad/materialize/pizzabirthdayclub/)
+
+
+#### Resources:
 
 
 - [Get Started](/gdad/materialize/materialize-get-started/)
@@ -663,20 +685,6 @@ Projects:
 - [Switches](/gdad/materialize/materialize-switches/)
 
 - [Sidenav](/gdad/materialize/materialize-sidenav/)
-
-
-
-
-Projects:
-
-1. [Materialize Responsive Columns](/gdad/materialize/materializeresponsivecolumns/)
-
-1. [Materialize Pizza Homepage](/gdad/materialize/pizzahomepage/)
-
-1. [Materialize Pizza Order Form](/gdad/materialize/pizzaorderform/)
-
-1. [Materialize Pizza Birthday Club](/gdad/materialize/pizzabirthdayclub/)
-
 
 
 "

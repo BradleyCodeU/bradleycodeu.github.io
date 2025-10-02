@@ -4,7 +4,7 @@ apcsp:
   content: "*Whenever possible, select 'Sign up with Google' & use your hilliardschools.org account.* &nbsp; &nbsp; <a href='https://github.com/BradleyCodeU/bradleycodeu.github.io/blob/master/_data/apcsp_units.yml'>.</a>
 
 
-  Sign up for:
+  ### Sign up for:
 
   - [scratch.mit.edu](https://scratch.mit.edu)
 
@@ -17,7 +17,7 @@ apcsp:
   - 'Sign up with Google' [sololearn.com](https://www.sololearn.com/)
 
 
-  Texts:
+  #### Texts:
 
   - [Python for Everybody by Charles Severance](https://books.trinket.io/pfe/index.html)
 
