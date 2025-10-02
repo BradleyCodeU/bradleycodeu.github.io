@@ -53,13 +53,13 @@ function spookySeason() {
     "#333311",
     "#993300"
   ]);
-  let emojis = ["","","","","","","","","","","","","👻","🎃","👻","🎃","👻","🎃","😱","👹","🧛‍","🦇","🕸","🧟‍"]
-  let h1Array = document.getElementsByTagName("h1");
-  let h2Array = document.getElementsByTagName("h2");
-  let h3Array = document.getElementsByTagName("h3");
-  let h4Array = document.getElementsByTagName("h4");
-  let letters = "ABCDEF";
-  let anchorArray = document.getElementsByTagName("a");
+  const emojis = ["👻","🎃","👻","🎃","👻","🎃","👻","🎃","😱","👹","🧛‍","🦇","🕸","🧟‍","👺","🕷️","🍫","🍬","🍭","🤡","🦉","🐈‍⬛","👿","😈","👽"];
+  const h1Array = document.getElementsByTagName("h1");
+  const h2Array = document.getElementsByTagName("h2");
+  const h3Array = document.getElementsByTagName("h3");
+  const h4Array = document.getElementsByTagName("h4");
+  const letters = "ABCDEF";
+  const anchorArray = document.getElementsByTagName("a");
   for (let i = 0; i < anchorArray.length; i++) {
     if (!anchorArray[i].classList.contains("nav-link") && !anchorArray[i].classList.contains("navbar-brand") && Math.random() + Math.random() > 15 / today.getDate()) {
       anchorArray[i].innerHTML = choice(emojis) + " " + anchorArray[i].innerHTML + " " + choice(emojis);
@@ -74,34 +74,33 @@ function spookySeason() {
       }
     }
     for (let i = 0; i < h1Array.length; i++) {
-      if (Math.random() + Math.random() > 28 / today.getDate()) {
+      if (Math.random() + Math.random() > 24 / today.getDate()) {
         h1Array[i].style.transition = "all 2s";
         h1Array[i].style.marginLeft = Math.floor(Math.random() * today.getDate()*2) + "px";
         h1Array[i].style.color = "#" + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)];
       }
     }
     for (let i = 0; i < h2Array.length; i++) {
-      if (Math.random() + Math.random() > 24 / today.getDate()) {
+      if (Math.random() + Math.random() > 17 / today.getDate()) {
         h2Array[i].style.transition = "all 2s";
         h2Array[i].style.marginLeft = Math.floor(Math.random() * today.getDate()*2) + "px";
         h2Array[i].style.color = "#" + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)];
       }
     }
     for (let i = 0; i < h3Array.length; i++) {
-      if (Math.random() + Math.random() > 20 / today.getDate()) {
+      if (Math.random() + Math.random() > 10 / today.getDate()) {
         h3Array[i].style.transition = "all 2s";
         h3Array[i].style.marginLeft = Math.floor(Math.random() * today.getDate()*2) + "px";
         h3Array[i].style.color = "#" + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)];
       }
     }
     for (let i = 0; i < h4Array.length; i++) {
-      if (Math.random() + Math.random() > 16 / today.getDate()) {
+      if (Math.random() + Math.random() > 3 / today.getDate()) {
         h4Array[i].style.transition = "all 2s";
         h4Array[i].style.marginLeft = Math.floor(Math.random() * today.getDate()*2) + "px";
         h4Array[i].style.color = "#" + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)] + letters[Math.floor(Math.random() * 6)];
       }
     }
-
   }, parseInt(150000/today.getDate()));
 }
 // <!-- Spooky stuff ends -->
