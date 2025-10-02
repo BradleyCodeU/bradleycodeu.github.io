@@ -36,9 +36,6 @@
 body {
   font-weight: 200 !important;
 	background: #330033;
-  transition: background-color 2s;
-   -webkit-transition: background-color 1000ms linear;
-    -ms-transition: background-color 1000ms linear;
   font-family: robo, 'Roboto Condensed', sans-serif;
   /* <!-- Halloween stuff --> */
 	font-family: 'Jolly Lodger','Roboto Condensed', 'Verdana','Arial', sans-serif;
