@@ -37,7 +37,7 @@ function generatePractice() {
     const answerElement = document.getElementById("answerSpan");
     answerElement.style.display = "none";
     let question = "What ";
-    const actions = ["will", "does", "would", "might", "number will", "number does"];
+    const actions = ["will", "does", "would", "might", "alert will", "alert does"];
     const targets = ["this code", "the following", "the following code", "the following program", "this", "this program", "this algorithm"];
     const verbs = ["print", "display", "output", "produce", "end up showing"];
     question += choice(actions) + " ";
