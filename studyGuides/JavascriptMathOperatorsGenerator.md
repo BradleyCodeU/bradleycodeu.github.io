@@ -70,63 +70,71 @@ function generatePractice() {
         result += "let " + varA + " = " + JSON.stringify(ml[0]) + ";\n";
         result += "let " + varB + " = " + JSON.stringify(ml[1]) + ";\n";
         
-        if(getRandomNumber(6)==0){
+        if(getRandomNumber(7)==0){
           // a += b
           result += "" + varA + " += "  + varB + ";\n";
           ml[0] += ml[1];
-        }else if(getRandomNumber(5)==0){
+        }else if(getRandomNumber(6)==0){
           // add
           result += "" + varA + " = "  + varA + " + "  + JSON.stringify(ml[2]) + ";\n";
           ml[0] += ml[2];
-        } else if(getRandomNumber(4)==0){
+        } else if(getRandomNumber(5)==0){
           // sub
           result += "" + varA + " = "  + varA + " - "  + JSON.stringify(ml[2]) + ";\n";
           ml[0] -= ml[2];
-        } else if(getRandomNumber(3)==0){
+        } else if(getRandomNumber(4)==0){
           // +=
           result += "" + varA + " += " + JSON.stringify(ml[2]) + ";\n";
           ml[0] += ml[2];
-        } else if(getRandomNumber(2)==0){
+        } else if(getRandomNumber(3)==0){
           // ++
           result += "" + varA + "++;\n";
           ml[0]++;
-        } else {
+        } else if(getRandomNumber(2)==0){
           // add
-          result += "" + varA + " = "  + varB + " - "  + JSON.stringify(ml[2]) + ";\n";
+          result += "" + varA + " = "  + varB + " + "  + JSON.stringify(ml[2]) + ";\n";
           ml[0] = ml[1] + ml[2];
+        } else {
+          // sub
+          result += "" + varA + " = "  + varB + " - "  + JSON.stringify(ml[2]) + ";\n";
+          ml[0] = ml[1] - ml[2];
         }
         
         
-        if(getRandomNumber(6)==0){
+        if(getRandomNumber(7)==0){
           // b += a
           result += "" + varB + " += "  + varA + ";\n";
           ml[1] += ml[0];
-        }else if(getRandomNumber(5)==0){
+        }else if(getRandomNumber(6)==0){
           // add
           result += "" + varB + " = "  + varB + " + "  + JSON.stringify(ml[3]) + ";\n";
           ml[1] += ml[3];
-        } else if(getRandomNumber(4)==0){
+        } else if(getRandomNumber(5)==0){
           // sub
           result += "" + varB + " = "  + varB + " - "  + JSON.stringify(ml[3]) + ";\n";
           ml[1] -= ml[3];
-        } else if(getRandomNumber(3)==0){
+        } else if(getRandomNumber(4)==0){
           // -=
           result += "" + varB + " -= " + JSON.stringify(ml[3]) + ";\n";
           ml[1] -= ml[3];
-        } else if(getRandomNumber(2)==0){
+        } else if(getRandomNumber(3)==0){
           // --
           result += "" + varB + "--;\n";
           ml[1]--;
-        } else {
+        } else if(getRandomNumber(2)==0){
           // add
           result += "" + varB + " = "  + varA + " + "  + JSON.stringify(ml[3]) + ";\n";
           ml[1] = ml[0] + ml[3];
+        } else {
+          // sub
+          result += "" + varB + " = "  + varA + " + "  + JSON.stringify(ml[3]) + ";\n";
+          ml[1] = ml[0] - ml[3];
         }
 
         if(getRandomNumber(2)==0){
           // mult
-          result += "let answer = "  + varA + " * "  + varB + " + 2;\n";
-          answer = ml[0] * ml[1] + 2;
+          result += "let answer = "  + varA + " * 2 + "  + varB + ";\n";
+          answer = ml[0] * 2 + ml[1];
         } else {
           // add
           result += "let answer = "  + varA + " + "  + varB + " * 2;\n";
