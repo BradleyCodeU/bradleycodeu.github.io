@@ -38,6 +38,13 @@ Sitemap
     </li>
   {% endfor %}
 
+  <li>AICC</li>
+  {% for p in site.aicc %}
+    <li>
+        <a href="{{site.baseurl}}{{p.url}}">{{p.url}}</a>
+    </li>
+  {% endfor %}
+
   <li>APCSA</li>
   {% for p in site.apcsa %}
     <li>
