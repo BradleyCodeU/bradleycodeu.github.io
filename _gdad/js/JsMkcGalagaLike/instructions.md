@@ -22,4 +22,5 @@ When finished, show Mr. Riley how to win the game and how to lose.
 
 ### If you have completed 1 or more Computer Science classes...
 
-If a projectile touches the "castle" (the thing the player is trying to protect), then you lose some health or lose some points or something. It should NOT instantly end the game.
+- If a projectile touches the "castle" (the thing the player is trying to protect), then you lose some health or lose some points or something. It should NOT instantly end the game.
+- Once you reach a certain number of points, say "Next Level" and then speed up and/or add more enemies.
