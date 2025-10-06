@@ -61,9 +61,8 @@ function addUserInterface(){
 ```
 
 
-```
-
 ### Display Message
+
 ```
 // Display one message on the canvas with a color based on who is speaking.
 // It can show the user's move, the bot's move, or the result of a round.
@@ -88,7 +87,6 @@ function displayMessage(username, textString){
   // Move the vertical text position downward for the next line
   textY += ???; // TODO
 }
-
 ```
 
 ### Build Bot Reply
