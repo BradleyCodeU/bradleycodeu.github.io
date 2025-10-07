@@ -1,7 +1,7 @@
 ---
 layout: project
 category: u03arrayMethods
-title: localStorage Shopping List v3
+title: localStorage Shopping List v2
 ---
 
 Continue working on your previous project.
@@ -13,6 +13,7 @@ Add p5js and ml5 to your project. Add these lines within the head section of `in
     <script src="https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/p5.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/addons/p5.sound.min.js"></script>
     <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <script src="sketch.js"></script>
 ```
 
 NOTE: you should keep the old "ADD" button so that items can still be added the old way.
