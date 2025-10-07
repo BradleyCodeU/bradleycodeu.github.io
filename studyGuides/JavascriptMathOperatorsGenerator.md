@@ -127,7 +127,7 @@ function generatePractice() {
           ml[1] = ml[0] + ml[3];
         } else {
           // sub
-          result += "" + varB + " = "  + varA + " + "  + JSON.stringify(ml[3]) + ";\n";
+          result += "" + varB + " = "  + varA + " - "  + JSON.stringify(ml[3]) + ";\n";
           ml[1] = ml[0] - ml[3];
         }
 
