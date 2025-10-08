@@ -8,7 +8,7 @@ Add pattern recognition to your Rock Paper Scissors bot. In this version, your b
 
 ## Trigram Chart
 
-REMEMBER: When finished, you will show Mr Riley your chart AND your Rock Paper Scissors project.
+REMEMBER: When finished, you will record a demo video showing Mr Riley both your chart AND your Rock Paper Scissors project.
 
 ### What is a trigram?
 
@@ -45,7 +45,7 @@ What did we learn by analyzing this short sentence? *Almost nothing*. Let's anal
 
 ### Finding th- patterns
 
-REMEMBER: When finished, you will show Mr Riley your chart AND your Rock Paper Scissors project.
+REMEMBER: When finished, you will record a demo video showing Mr Riley both your chart AND your Rock Paper Scissors project.
 
 Step 1. Using paper / Notability / the notepad app, make the following chart...
 
@@ -204,8 +204,22 @@ Finally, add a function call for updateTrigrams and send in the user's current m
 Test it out by playing a few rounds against the random bot. Use the browser's console to make sure that the botMemory and the botTrigrams are saving the data.
 
 
-Show Mr Riley:
+Record a demo video showing:
 
 1. your trigram chart
 
 2. your Rock Paper Scissors project (using the browser's console to show how botMemory and botTrigrams are saving the data).
+
+## CHALLENGE 
+
+Predict the user's next move!
+
+If the bot memory size is less than 3, then randomly select the bot's reply.
+
+Else if the `botTrigrams[lastTwo]` is undefined, then randomly select the bot's reply.
+
+Else predict the user's next move by getting a random array element from `botTrigrams[lastTwo]`
+
+- If the predicted next move is "r" then the bot replies "p"
+- If the predicted next move is "p" then the bot replies "s"
+- If the predicted next move is "s" then the bot replies "r"
