@@ -118,7 +118,7 @@ Step 2. Pick a long Wikipedia article from this list: [https://en.wikipedia.org/
 
 Step 3. Try to predict how many times each trigram will appear. <u>Your predictions will most likely be wrong, but take a guess.</u>
 
-Step 4. Use the `CONTROL + F` shortcut (or from the menu click Edit > Find) and search for each trigram. Write down the actual amounts.
+Step 4. After making all of your predictions, use the `CONTROL + F` shortcut (or from the menu click Edit > Find) and search for each trigram. Write down the actual amounts.
 
 ### What can we learn from this data? 
 
