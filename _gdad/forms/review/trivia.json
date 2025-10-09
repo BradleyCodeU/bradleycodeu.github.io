@@ -36,7 +36,7 @@
 "answer": "alert()","question": "a Javascript command that displays a popup box with a message and an OK button"
 },
 {
-"answer": "prompt()","question": "a Javascript command that displays a popup box that asks the user for input. It is often used if you want the user to input a value before entering a page"
+"answer": "prompt()","question": "a Javascript command that displays a popup box that asks the user for input."
 },
 {
 "answer": "function","question": "a named group of programming instructions that performs a specific task. Reusable abstractions that reduce the complexity of writing and maintaining programs."
