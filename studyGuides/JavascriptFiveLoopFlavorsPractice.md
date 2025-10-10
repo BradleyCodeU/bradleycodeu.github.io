@@ -1,10 +1,10 @@
 ---
 layout: project
 category: arrays
-title: JS Four Loop Flavors Practice Generator
+title: JS Five Loop Types Practice Generator
 ---
 
-Practice working with four loop flavors: for loop, for-each loop, while loop, reverse for loop
+Practice working with five loop types: for loop, for-each loop, while loop, reverse for loop, do-while loop
 
 <button onclick="generateLoop()">Generate Loop</button>
 <pre id="output"></pre>
@@ -20,29 +20,23 @@ let loopType = "";
 let cat, dog, dogLimit, dogStep, catFormula;
 let apples, bananas, loopCount, appleOp, bananaOp;
 let numberList, secret, mystery, forEachLessThan;
-
-// 🔹 NEW VARIABLES for reverse for-loop
 let x, y, startVal, endVal, reverseStep, xOp, yOp;
+let fish, shark, sharkLimit, sharkStep, fishFormula;
 
 function generateLoop() {
   let outputString = "foo";
   let roll = Math.random();
 
-  if (roll < 0.25) {
-    // --- WHILE LOOP ---
+  if (roll < 0.2) {
     outputString = makeWhileLoop();
-
-  } else if (roll < 0.5) {
-    // --- FOR LOOP ---
+  } else if (roll < 0.4) {
     outputString = makeForLoop();
-
-  } else if (roll < 0.75) {
-    // --- FOR-EACH LOOP ---
+  } else if (roll < 0.6) {
     outputString = makeForEachLoop();
-
-  } else {
-    // --- REVERSE FOR-LOOP ---
+  } else if (roll < 0.8) {
     outputString = makeReverseForLoop();
+  } else {
+    outputString = makeDoWhileLoop();
   }
 
   document.getElementById("output").innerText = outputString;
@@ -123,7 +117,7 @@ function makeForEachLoop(){
     return outputString;
 }
 
-// 🔹 NEW REVERSE FOR-LOOP FUNCTION
+
 function makeReverseForLoop(){
   let outputString = "";
   loopType = "reverse-for";
@@ -147,6 +141,27 @@ function makeReverseForLoop(){
   outputString += `console.log("x is " + x);\nconsole.log("y is " + y);`;
   return outputString;
 }
+
+function makeDoWhileLoop(){
+  let outputString = "";
+  loopType = "do-while";
+  fish = Math.floor(Math.random() * 5);
+  shark = Math.floor(Math.random() * 4) + 1;
+  sharkStep = Math.floor(Math.random() * 3) + 2;
+  sharkLimit = shark + sharkStep * Math.floor(Math.random() * 2 + 1) + sharkStep * Math.floor(Math.random() * 2 + 1) + Math.floor(Math.random() * 3 - 1);
+
+  let fishOps = ["fish + shark", "fish + shark * 2", "fish * 2 + shark", "fish + shark + 1"];
+  fishFormula = fishOps[Math.floor(Math.random() * fishOps.length)];
+
+  outputString += `let fish = ${fish};\nlet shark = ${shark};\n\n`;
+  outputString += `do {\n`;
+  outputString += `  fish = ${fishFormula};\n`;
+  outputString += `  shark = shark + ${sharkStep};\n`;
+  outputString += `} while (shark < ${sharkLimit});\n`;
+  outputString += `console.log("fish is " + fish);\nconsole.log("shark is " + shark);`;
+  return outputString;
+}
+
 
 function revealAnswer() {
   if (loopType === "while") {
@@ -181,7 +196,6 @@ function revealAnswer() {
     }
     document.getElementById("loopAnswer").innerText = `Answer: secret is ${s}, mystery is ${m}`;
 
-  // 🔹 NEW REVERSE FOR-LOOP ANSWER HANDLER
   } else if (loopType === "reverse-for") {
     let xCopy = x;
     let yCopy = y;
@@ -190,7 +204,17 @@ function revealAnswer() {
       yCopy = eval(yOp.replace(/x/g, xCopy).replace(/y/g, yCopy).replace(/i/g, i));
     }
     document.getElementById("loopAnswer").innerText = `Answer: x is ${xCopy}, y is ${yCopy}`;
+  
+  } else if (loopType === "do-while") {
+    let f = fish;
+    let s = shark;
+    do {
+      f = eval(fishFormula.replace(/fish/g, f).replace(/shark/g, s));
+      s = s + sharkStep;
+    } while (s < sharkLimit);
+    document.getElementById("loopAnswer").innerText = `Answer: fish is ${f}, shark is ${s}`;
   }
+
 
   document.getElementById("loopAnswer").style.display = "inline";
 }
