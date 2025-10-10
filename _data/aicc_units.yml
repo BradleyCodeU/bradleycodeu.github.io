@@ -172,6 +172,8 @@ length, push, splice
 
 1. [Should Bot](/aicc/u04loops/shouldBot/instructions/)
 
+1. [RPS Trigrams](/aicc/u04loops/rpsTrigrams/instructions/)
+
 
 
 #### Vocab:
@@ -180,7 +182,7 @@ for loop, while loop, for-each loop, reverse for loop
 
 #### Resources:
 
-- [JS Array Practice Generator](https://bradleycodeu.github.io/studyGuides/JavascriptArrayPracticeGenerator/)
+- [JS Four Loop Flavors](https://bradleycodeu.github.io/studyGuides/JavascriptArrayPracticeGenerator/)
 
 
 

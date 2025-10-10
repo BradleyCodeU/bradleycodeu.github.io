@@ -1,10 +1,10 @@
 ---
 layout: project
 category: arrays
-title: JS Four Loop Types Practice Generator
+title: JS Four Loop Flavors Practice Generator
 ---
 
-Practice working with four loop types: for loop, for-each loop, while loop, reverse for loop
+Practice working with four loop flavors: for loop, for-each loop, while loop, reverse for loop
 
 <button onclick="generateLoop()">Generate Loop</button>
 <pre id="output"></pre>
