@@ -1,10 +1,10 @@
 ---
 layout: project
 category: arrays
-title: JS Five Loop Types Practice Generator
+title: JS For Loop Practice 
 ---
 
-Practice working with five loop types: for loop, for-each loop, while loop, reverse for loop, do-while loop
+Practice working with for loops
 
 <button onclick="generateLoop()">Generate Loop</button>
 <pre id="output"></pre>
