@@ -203,7 +203,7 @@ function predict(userInput){
 ```
 // addWordsToDictionary() builds a dictionary of word relationships
 function addWordsToDictionary(wordArray){
-  // Loop through each index of the word array using a for loop
+  // Loop through each index of the word array using for loop
   for(???){ // TODO
     // Get the current word
     let currentWord = ??? // TODO
