@@ -22,6 +22,8 @@ let apples, bananas, loopCount, appleOp, bananaOp;
 let numberList, secret, mystery, forEachLessThan;
 let x, y, startVal, endVal, reverseStep, xOp, yOp;
 let fish, shark, sharkLimit, sharkStep, fishFormula;
+let variableName1, variableName2;
+
 
 function generateLoop() {
   let outputString = "foo";
@@ -66,25 +68,60 @@ function makeWhileLoop(){
     return outputString;
 }
 
-function makeForLoop(){
+function makeForLoop() {
   let outputString = "";
   loopType = "for";
-    apples = Math.floor(Math.random() * 6) + 5;
-    bananas = Math.floor(Math.random() * 6) + 5;
-    loopCount = Math.floor(Math.random() * 3) + 2;
-    let appleOps = ["apples + 2", "apples + 3", "apples + 1"];
-    let bananaOps = ["apples + bananas", "bananas + apples + 1", "bananas + apples - 1"];
-    appleOp = appleOps[Math.floor(Math.random() * appleOps.length)];
-    bananaOp = bananaOps[Math.floor(Math.random() * bananaOps.length)];
 
-    outputString += `let apples = ${apples};\nlet bananas = ${bananas};\n\n`;
-    outputString += `for (let i = 0; i < ${loopCount}; i++) {\n`;
-    outputString += `  apples = ${appleOp};\n`;
-    outputString += `  bananas = ${bananaOp};\n`;
-    outputString += `}\n`;
-    outputString += `console.log("apples is " + apples);\nconsole.log("bananas is " + bananas);`;
-    return outputString;
+  // NATO phonetic words
+  const natoPhonetic = [
+    "alpha", "bravo", "charlie", "delta", "echo", "foxtrot",
+    "golf", "hotel", "india", "juliett", "kilo", "lima", "mike",
+    "november", "oscar", "papa", "quebec", "romeo", "sierra",
+    "tango", "uniform", "victor", "whiskey", "xray", "yankee", "zulu"
+  ];
+
+  // Pick two unique variable names and store globally
+  const shuffled = natoPhonetic.sort(() => Math.random() - 0.5);
+  variableName1 = shuffled[0];
+  variableName2 = shuffled[1];
+
+  // Random initial values
+  let val1 = Math.floor(Math.random() * 6) + 5;
+  let val2 = Math.floor(Math.random() * 6) + 5;
+  loopCount = Math.floor(Math.random() * 3) + 2;
+
+  // Random operations using chosen names
+  const var1Ops = [
+    `${variableName1} + 2`,
+    `${variableName1} + 3`,
+    `${variableName1} + 1`
+  ];
+  const var2Ops = [
+    `${variableName1} + ${variableName2}`,
+    `${variableName2} + ${variableName1} + 1`,
+    `${variableName2} + ${variableName1} - 1`
+  ];
+
+  appleOp = var1Ops[Math.floor(Math.random() * var1Ops.length)];
+  bananaOp = var2Ops[Math.floor(Math.random() * var2Ops.length)];
+
+  // Generate the loop code text
+  outputString += `let ${variableName1} = ${val1};\nlet ${variableName2} = ${val2};\n\n`;
+  outputString += `for (let i = 0; i < ${loopCount}; i++) {\n`;
+  outputString += `  ${variableName1} = ${appleOp};\n`;
+  outputString += `  ${variableName2} = ${bananaOp};\n`;
+  outputString += `}\n`;
+  outputString += `console.log("${variableName1} is " + ${variableName1});\n`;
+  outputString += `console.log("${variableName2} is " + ${variableName2});`;
+
+  // Store initial values globally for revealAnswer
+  window[variableName1] = val1;
+  window[variableName2] = val2;
+
+  return outputString;
 }
+
+
 
 function makeForEachLoop(){
   let outputString = "";
@@ -171,16 +208,28 @@ function revealAnswer() {
       catCopy = eval(catFormula.replace(/cat/g, catCopy).replace(/dog/g, dogCopy));
       dogCopy = dogCopy * dogStep;
     }
-    document.getElementById("loopAnswer").innerText = `Answer: cat is ${catCopy}, dog is ${dogCopy}`;
+    document.getElementById("loopAnswer").innerText =
+      `Answer: cat is ${catCopy}, dog is ${dogCopy}`;
 
   } else if (loopType === "for") {
-    let a = apples;
-    let b = bananas;
+    // Use the global NATO variable names
+    const var1 = variableName1;
+    const var2 = variableName2;
+
+    let a = window[var1];
+    let b = window[var2];
+
     for (let i = 0; i < loopCount; i++) {
-      a = eval(appleOp.replace(/apples/g, a).replace(/i/g, i));
-      b = eval(bananaOp.replace(/bananas/g, b).replace(/apples/g, a).replace(/i/g, i));
+      a = eval(appleOp.replace(new RegExp(var1, "g"), a).replace(/i/g, i));
+      b = eval(bananaOp
+        .replace(new RegExp(var1, "g"), a)
+        .replace(new RegExp(var2, "g"), b)
+        .replace(/i/g, i)
+      );
     }
-    document.getElementById("loopAnswer").innerText = `Answer: apples is ${a}, bananas is ${b}`;
+
+    document.getElementById("loopAnswer").innerText =
+      `Answer: ${var1} is ${a}, ${var2} is ${b}`;
 
   } else if (loopType === "foreach") {
     let s = secret;
@@ -188,8 +237,7 @@ function revealAnswer() {
     for (let each of numberList) {
       if (forEachLessThan === true && each < s) {
         s = each;
-      }
-      else if (forEachLessThan === false && each > s) {
+      } else if (forEachLessThan === false && each > s) {
         s = each;
       }
       m = m + each;
@@ -203,8 +251,9 @@ function revealAnswer() {
       xCopy = eval(xOp.replace(/x/g, xCopy).replace(/y/g, yCopy).replace(/i/g, i));
       yCopy = eval(yOp.replace(/x/g, xCopy).replace(/y/g, yCopy).replace(/i/g, i));
     }
-    document.getElementById("loopAnswer").innerText = `Answer: x is ${xCopy}, y is ${yCopy}`;
-  
+    document.getElementById("loopAnswer").innerText =
+      `Answer: x is ${xCopy}, y is ${yCopy}`;
+
   } else if (loopType === "do-while") {
     let f = fish;
     let s = shark;
@@ -212,12 +261,13 @@ function revealAnswer() {
       f = eval(fishFormula.replace(/fish/g, f).replace(/shark/g, s));
       s = s + sharkStep;
     } while (s < sharkLimit);
-    document.getElementById("loopAnswer").innerText = `Answer: fish is ${f}, shark is ${s}`;
+    document.getElementById("loopAnswer").innerText =
+      `Answer: fish is ${f}, shark is ${s}`;
   }
-
 
   document.getElementById("loopAnswer").style.display = "inline";
 }
+
 
 // Generate one on load
 generateLoop();
