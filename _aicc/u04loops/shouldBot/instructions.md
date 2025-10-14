@@ -21,12 +21,12 @@ Create a chatbot app that randomly answers this or that questions
             <td>eee</td>
         </tr>
         <tr>
-            <td>hot dog or salad or sushi</td>
-            <td>salad</td>
+            <td>hot dog or greek salad or sushi</td>
+            <td>greek salad</td>
         </tr>
         <tr>
-            <td>pizza, burgers, hot dogs or subs</td>
-            <td>burgers</td>
+            <td>pizza, veggie burgers, hot dogs or subs</td>
+            <td>veggie burgers</td>
         </tr>
         <tr>
             <td>chocolate, vanilla, or strawberry?</td>
