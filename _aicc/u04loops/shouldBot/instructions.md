@@ -6,7 +6,38 @@ title: Should Bot
 
 Create a chatbot app that randomly answers this or that questions
 
-
+<table border="1" cellspacing="0" cellpadding="6">
+    <tbody>
+        <tr>
+            <th>The user asks "_____"</th>
+            <th>Sometimes the bot will randomly reply "_____"</th>
+        </tr>
+        <tr>
+            <td>hawaiian pizza or hamburgers</td>
+            <td>hawaiian pizza</td>
+        </tr>
+        <tr>
+            <td>aaa or bbb or ccc or ddd or eee or fff or ggg</td>
+            <td>eee</td>
+        </tr>
+        <tr>
+            <td>hot dog or salad or sushi</td>
+            <td>salad</td>
+        </tr>
+        <tr>
+            <td>pizza, burgers, hot dogs or subs</td>
+            <td>burgers</td>
+        </tr>
+        <tr>
+            <td>chocolate, vanilla, or strawberry?</td>
+            <td>strawberry</td>
+        </tr>
+        <tr>
+            <td>should i play mario or should i play sonic?</td>
+            <td>you should play mario</td>
+        </tr>
+    </tbody>
+</table>
 
 ### Setup
 
