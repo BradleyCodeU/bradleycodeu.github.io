@@ -171,7 +171,7 @@ function sendMessage(){
   // TODO
   // Call build bot reply function and send user message as an argument
   // TODO
-  // Dipslay the bot message
+  // Display the bot message
   // TODO
 }
 ```
