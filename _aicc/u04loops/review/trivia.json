@@ -1,154 +1,74 @@
 [
   {
-    "answer": "algorithm",
-    "question": "a set of steps for a computer program to accomplish a task."
+    "answer": "n-gram",
+    "question": "a sequence of a specific number of adjacent elements"
   },
   {
-    "answer": "Artificial Intelligence",
-    "question": "a marketing term for technology that is similar to human"
+    "answer": "bigram",
+    "question": "a sequence of two consecutive elements"
   },
   {
-    "answer": "association",
-    "question": "finding patterns, connections, or relationships between items"
+    "answer": "trigram",
+    "question": "a sequence of three consecutive elements"
   },
   {
-    "answer": "classification",
-    "question": "selecting categories for items according to shared qualities or characteristics"
+    "answer": "finite state machine",
+    "question": "a hardware or software device that has multiple modes and can be in only one mode at a time, such as a traffic light with distinct color states"
   },
   {
-    "answer": "computer vision",
-    "question": "a field of study concerned with giving computers the ability to find patterns in images and video"
+    "answer": "markov chain",
+    "question": "a mathematical system that transitions from one state to another based on probabilities"
   },
   {
-    "answer": "deterministic algorithm",
-    "question": "an algorithm that will always produce the same predictable output when given the same input"
+    "answer": "law of large numbers",
+    "question": "as the sample size increases, the average result should get closer to the ideal result"
   },
   {
-    "answer": "filtering",
-    "question": "selecting, keeping, or removing specific items in a larger dataset"
+    "answer": "monte carlo simulation",
+    "question": "a computational approach that applies the law of large numbers to predict and understand the behavior of systems involving uncertainty"
   },
   {
-    "answer": "machine learning",
-    "question": "a field of study concerned with giving computers the ability to make connections and perform a task without being explicitly programmed"
+    "answer": "mechanical turk",
+    "question": "a fake, chess-playing robot"
   },
   {
-    "answer": "machine learning algorithm",
-    "question": "an algorithm that receives training data, analyses the data to look for patterns, and attempts to predict correct outputs based on its training"
+    "answer": "luddite",
+    "question": "someone who is opposed to new technologies or technological change"
   },
   {
-    "answer": "nondeterministic algorithm",
-    "question": "an algorithm that may not produce the same exact output when given the same input"
+    "answer": "supervised learning",
+    "question": "a type of machine learning where an algorithm learns from examples that include labeled input data and correctly labeled answers"
   },
   {
-    "answer": "prioritization",
-    "question": "deciding the rank, importance, or urgency of items"
+    "answer": "unsupervised learning",
+    "question": "a type of machine learning where an algorithm studies data without labels to find hidden patterns, unknown groups, or unusual anomalies"
   },
   {
-    "answer": "rule-based algorithm",
-    "question": "an algorithm that is constructed by a human and is direct and unambiguous"
+    "answer": "self-supervised learning",
+    "question": "a method where an algorithm creates its own labels from unlabeled data by generating variations so it can learn to predict missing parts when given incomplete data"
   },
   {
-    "answer": "search algorithm",
-    "question": "an algorithm for locating a specific value within a list or determining that the value is not present"
+    "answer": "pre-trained model",
+    "question": "a machine learning model that has already been trained on a large dataset to perform a specific task"
   },
   {
-    "answer": "sorting algorithm",
-    "question": "an algorithm that puts elements of a list into an order"
+    "answer": "self-learning model",
+    "question": "a machine learning model that keeps learning and improving on its own as it gets more data or experience"
   },
   {
-    "answer": "stochastic algorithm",
-    "question": "an algorithm that is designed with some randomness and the probabilities are known"
+    "answer": "Jacob Bernoulli",
+    "question": "wrote the book 'Ars Conjectandi' that proved the weak law of large numbers"
   },
   {
-    "answer": "JavaScript",
-    "question": "one of the 3 main languages of the web, it is used to program the behavior of web pages"
+    "answer": "Andrey Markov",
+    "question": "applied Bernoulli's law of large numbers to sequences of vowels and consonants in text to show that it applies to natural systems and dependent variables"
   },
   {
-    "answer": "function",
-    "question": "a named group of programming instructions that performs a specific task. Reusable abstractions that reduce the complexity of writing and maintaining programs"
+    "answer": "Isaac Asimov",
+    "question": "a science fiction writer who created the Three Laws of Robotics"
   },
   {
-    "answer": "function definition",
-    "question": "the keyword “function” followed by a name, (), and curly brackets that contain lines of Javascript code"
-  },
-  {
-    "answer": "function call",
-    "question": "the name of a Javascript function followed by (). This tells the computer to run the lines of code inside the function definition"
-  },
-  {
-    "answer": "argument",
-    "question": "a value passed into a function call"
-  },
-  {
-    "answer": "variable",
-    "question": "a named storage location that can store changeable information, depending on conditions or on information passed to the program"
-  },
-  {
-    "answer": "constant",
-    "question": "a named value that cannot change through reassignment using the assignment operator. If a constant is an object then it can be mutated and its properties can be added, updated, or removed"
-  },
-  {
-    "answer": "let",
-    "question": "a Javascript command that defines a new variable"
-  },
-  {
-    "answer": "const",
-    "question": "a Javascript command that defines a new constant"
-  },
-  {
-    "answer": "camelCase",
-    "question": "process of naming multi-word variables without spaces and so that words in the middle of the phrase begins with a capital letter. For example, numberOfCars, iPhone, eBay"
-  },
-  {
-    "answer": "assignment operator",
-    "question": "the operator used to assign a new value to a variable. In JavaScript, ="
-  },
-  {
-    "answer": "equality operator",
-    "question": "returns True if the value on the left is equal to the value on the right, otherwise it returns False. In JavaScript, it is the characters =="
-  },
-  {
-    "answer": "String",
-    "question": "a data type that stores a sequence of characters which could include letters, numbers, spaces, symbols and punctuation. For example, \"steve!\", \"can't\", \"$9.99\""
-  },
-  {
-    "answer": "concatenation",
-    "question": "joining two or more strings together to form a single String"
-  },
-  {
-    "answer": ".length",
-    "question": "a String data property that stores the number of characters including spaces"
-  },
-  {
-    "answer": ".substring()",
-    "question": "a String method that returns the part of this string from the start index up to, but not including, the end index, or, if only one argument is given, from the start index to the end of the string"
-  },
-  {
-    "answer": ".indexOf()",
-    "question": "a String method that searches this String and returns the index of the first occurrence of the specified argument or returns -1 if the argument is not found"
-  },
-  {
-    "answer": ".split()",
-    "question": "a String method that takes an argument and divides this String into an ordered list of substrings by searching for the argument, puts these substrings into an array, and returns the array"
-  },
-  {
-    "answer": "conditional",
-    "question": "also known as selection, a statement that uses a boolean condition to determine whether or not to run other statements. Usually an if-then statement"
-  },
-  {
-    "answer": "input",
-    "question": "information that is given to the computer by a user, usually typed text and mouse clicks"
-  },
-  {
-    "answer": "alert()",
-    "question": "a Javascript command that displays a popup box with a message and an OK button"
-  },
-  {
-    "answer": "prompt()",
-    "question": "a Javascript command that displays a popup box and allows the user to type some input. The function returns the user input as a String"
-  },
-  {
-    "answer": "confirm()",
-    "question": "a Javascript command that displays a popup box and allows the user to click OK or Cancel. The function returns true if the user clicked OK and otherwise returns false"
+    "answer": "Claude Shannon",
+    "question": "published 'The Mathematical Theory of Communication', which proposed the first n-gram language models based on Markov’s work"
   }
 ]
