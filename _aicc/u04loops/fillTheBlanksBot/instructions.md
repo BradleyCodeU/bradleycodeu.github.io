@@ -162,11 +162,16 @@ function predict(userInput){
   let result = [];
   // Split the user input string into an array of words
   let arrayOfWords = ??? // TODO
-  
   // Loop through each index of the word array using a for loop
   for(???){ // TODO
+    // Get the current word
+    let currentWord = ??? // TODO
+    // Get the word before the current word
+    let previous = ??? // TODO
+    // Get the word after the current word
+    let next = ??? // TODO
     // If the current word is not an asterisk
-    if(arrayOfWords[i] != "*"){
+    if(currentWord != "*"){
       // Add the word into the result array
       ??? // TODO
     } 
@@ -178,7 +183,6 @@ function predict(userInput){
       previousAndNext = previousAndNext.toLowerCase();
       // Look up the key in the dictionary
       let possibleWords = dictionary[previousAndNext];
-      
       // If no matching entry is found
       if(possibleWords == undefined){
         // Insert a placeholder UNKNOWN
