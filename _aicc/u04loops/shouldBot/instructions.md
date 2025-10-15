@@ -71,9 +71,8 @@ function resetMessages(){
 // Create the text input and send button elements
 function addUserInterface(){
   // Create an input element.
-  // Set its default text to "hello!".
   textInput = createInput('');
-  textInput.attribute('placeholder', 'type either: r, p, or s');
+  textInput.attribute('placeholder', 'please type a this or that question');
   // Set the font size for the input
   textInput.style('font-size', '25px');
   // Place it at the bottom of the canvas. 
@@ -108,10 +107,9 @@ function displayMessage(username, textString){
     // Set the fill color for the bot's message
     fill(???); // TODO
   }
-  // Otherwise, assume it's a result message (who wins)
+  // Otherwise, just make it black text
   else {
-    // Set the fill color for the who wins text (black)
-    fill(???); // TODO
+    fill(0);
   }
   // Draw the message on the canvas at x=???, y=textY
   text(username + ": " + textString, ???, textY); // TODO
