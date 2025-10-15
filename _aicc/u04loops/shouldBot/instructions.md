@@ -133,11 +133,13 @@ function buildBotReply(userInput){
 
 #### Detailed Directions for Build Bot Reply
 
-If the text "should i" appears in the userInput, replace it with "you should". Use indexOf to detect if userInput contains "should i" You may also need to replace additional text before you split the string into an array.
+Complete the following using ONLY the String methods that we covered in class
 
-Separate the two (OR MORE) options in the userInput with split. 
+STEP ONE: If the text "should i" appears in the userInput, replace it with "you should". Detect if the userInput contains "should i" You may also need to replace additional text before you split the string into an array.
 
-Randomly select an option.
+STEP TWO: Separate the two (OR MORE) options in the userInput with split. Console log the array of options.
+
+STEP THREE: Randomly select an option.
 
 For example…
 
