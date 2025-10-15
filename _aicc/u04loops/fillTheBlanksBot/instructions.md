@@ -66,31 +66,15 @@ function replaceMultipleSpaces(someText){
 }
 ```
 
+### Add User Interface
+```
+Copy/paste your function from a previous project
+
+```
+
 ### Display Message
 ```
-// Display one message on the canvas with a color based on who is speaking.
-// It can show the user's move, the bot's move, or the result of a round.
-function displayMessage(username, textString){
-  // Check if the username equals "User"
-  if(???) { // TODO
-    // Set the fill color for the user's message
-    fill(???); // TODO
-  } 
-  // Check if the username equals "Bot"
-  else if(???) { // TODO
-    // Set the fill color for the bot's message
-    fill(???); // TODO
-  }
-  // Otherwise, assume it's a result message (who wins)
-  else {
-    // Set the fill color for the who wins text (black)
-    fill(???); // TODO
-  }
-  // Draw the message on the canvas at x=???, y=textY
-  text(username + ": " + textString, ???, textY); // TODO
-  // Move the vertical text position downward for the next line
-  textY += ???; // TODO
-}
+Copy/paste your function from a previous project
 
 ```
 
