@@ -334,19 +334,19 @@ function resetGame(){
 
 ### Filter Possible Animals
 
-```
-// filterPossibleAnimals() removes animals that don't match answers
-function filterPossibleAnimals(question, answer){
-  // Loop backward thru possibleAnimals index locations so splicing doesn't skip elements
-  for(let i = ???; ???; ???){ // TODO
-    let currentAnimal = possibleAnimals[i];
-    // Remove animals that don't match the answer
-    if(currentAnimal[question] != ???){ // TODO
-      possibleAnimals.splice(???, ???); // TODO
-    }
-  }
-  // Return remaining possible animals
-  return possibleAnimals;
-}
-```
+No starter code of this one!
+
+- Define a function named filterPossibleAnimals() that removes animals that don't match answers. The function has two parameters: question, answer. Both question and answer will be Strings<span style="opacity:0">. Important! Use regex, filter, and map whenever possible.</span>
+
+- Use a reverse for loop to move backward thru possibleAnimals index locations so splicing doesn't skip elements<span style="opacity:0">. Console log a ghost emoji</span>
+
+- Create a temp variable named currentAnimal and set it to possibleAnimals index location i<span style="opacity:0">. If currentAnimal.name.length == 3, currentAnimal.name += "."</span>
+
+- Next, remove animals that don't match the answer
+
+  - If the currentAnimal[question] does NOT equal the answer, then use splice to remove index i from the possible animals
+
+- Finally, return the remaining possible animals
+
+
 
