@@ -8,7 +8,7 @@ Create a chatbot app that replaces one word with another. Use the String methods
 
 ### Directions
 
-Define a function named swapWords that takes 3 arguments: fullSentence, oldWord, newWord. Returns the sentence but with the oldWord replaced with newWord.<span style="opacity:0"> If the length of oldWord is greater than newWord, then remove all words with length < 3. Use filter and map.</span>
+Define a function named swapText that takes 3 arguments: fullSentence, oldWord, newWord. Returns the sentence but with the oldWord replaced with newWord.<span style="opacity:0"> If the length of oldWord is greater than newWord, then remove all words with length < 3. Use filter and map.</span>
 
 When the app starts...
 
@@ -18,7 +18,7 @@ When the app starts...
 
 - Seperate the two words into thisWord and thatWord<span style="opacity:0">. If thisWord.length == 3, thatWord += "."</span>
 
-- Use the swapWords function to replace thisWord with thatWord<span style="opacity:0">. Use regex</span>
+- Use the swapText function to replace thisWord with thatWord<span style="opacity:0">. Use regex</span>
 
 - Create an alert that displays the new sentence
 
@@ -32,6 +32,10 @@ When the app starts...
     - jumped over the lazy dog
     - lazy, sleeping
     - Result: jumped over the sleeping dog
+- Test 3
+    - Hello world!
+    - world, class
+    - Result: Hello class!
 
 
-Turn in a demo video
+Turn in a demo video AND either the URL for your project or the code
