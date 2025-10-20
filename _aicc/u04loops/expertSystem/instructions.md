@@ -239,7 +239,7 @@ function addNewQuestion(newAnimal){
       eachAnimal[newQuestion] = ???; // TODO
     }
   }
-  // If the nex question is not in the questions array, add it
+  // If the new question is not already in the questions array, then add it
   if(questions.indexOf(???) ??? ???){ // TODO
     questions.push(???); // TODO
   }
