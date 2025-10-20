@@ -8,7 +8,7 @@ Download one of these:
   - [Alice Sound Library 1](https://bradleycodeu.github.io/gdad/audio/AliceSoundLibrary.zip)
   - [Alice Sound Library 2](https://bradleycodeu.github.io/gdad/audio/AliceSoundLibraryExpansionPackOne.zip)
   - [Essential Retro Video Game Sound Effects Collection](https://bradleycodeu.github.io/gdad/audio/EssentialRetroVideoGameSoundEffectsCollection.zip)
-  - [Chipshop Deluxe 16bit](https://bradleycodeu.github.io/gdad/audio/ChipshopDeluxe16bit.zip)
+  - [Chipshop Deluxe 16bit](https://drive.google.com/uc?export=download&id=1BwXL4Szc6FoJFlN3iCRukdnNiN060Y3u)
 
 Drag a few of your favorite sounds into the same folder as your project.
 
