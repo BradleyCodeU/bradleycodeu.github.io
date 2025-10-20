@@ -3,7 +3,7 @@ layout: project
 category: forms
 title: Join Club
 ---
-Add-on to your Bradley Club Page, so that new members can sign-up and join the club.
+Create a webpage for a club, so that new members can sign-up and join the club.
 
 Use this w3schools page as a reference: https://www.w3schools.com/html/html_form_input_types.asp
 
