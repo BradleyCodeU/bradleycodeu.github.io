@@ -38,9 +38,8 @@ Finally, create a Customize section under the two big Yes and No buttons:
 
 ### If you have already completed 1 or more Computer Science classes...
 
-1. Under the two big Yes and No buttons, create a Customize section.
-
-    - Add an input type text that is labelled Yes Button Text. Give the input an oninput= attribute that will change the innerHTML of the Yes button to be this.value
+1. In the Customize section....
+   
     - Add an input type color that will change the Yes Button's background color. Give the input an oninput= attribute that will change the style.background of the Yes button to be this.value
     - Add an input type text that is labelled No Button Text and changes the text on the button. 
     - Add an input type color that changes the No Button's background color.
