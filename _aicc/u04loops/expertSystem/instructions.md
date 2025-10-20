@@ -55,6 +55,18 @@ let askedQuestions = {};                // Record of questions and "y"/"n" answe
 // Start the game by loading saved data
 loadData();
 
+function setup(){
+  // greet the user
+  let keepPlaying = confirm("Hello!");
+  if(keepPlaying == false){
+    return GAMESTATE.QUIT;
+  }
+  // Move to the reset game state
+  currentState = GAMESTATE.RESET_GAME;
+  // Start the game loop
+  getNextBotMessage();
+}
+
 // saveData() stores animal and question data in localStorage
 function saveData(){
   localStorage.setItem("animals", JSON.stringify(animals));
