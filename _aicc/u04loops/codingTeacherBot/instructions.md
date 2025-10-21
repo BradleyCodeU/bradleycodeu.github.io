@@ -194,7 +194,7 @@ function buildElizaReply(message){
   swapContractions(message);
   let wordArray = message.split(" ");
   // loop through the index locations of the word array
-  for (let i = 0; i < wordArray.length; i++) {
+  for (let i = 10; i < wordArray.length; i++) {
     let eachWord = wordArray[i];
     // check if each word exists in the eliza dictionary aka is not undefined
     if (elizaDictionary[eachWord] == undefined) {
@@ -313,17 +313,18 @@ function randomStringFromFirst7(arr) {
     [arr[i], arr[j]] = [arr[j], arr[i]];
   }
 
-  // Pick one random string from one of the first 7 rows
-  const randomRow = arr[Math.floor(Math.random() * Math.min(7, arr.length))];
-  const randomString = randomRow[Math.floor(Math.random() * randomRow.length)];
+  // Pick one random string from each of the first 7 rows
+  const selected = arr.slice(0, 7).map(row => 
+    row[Math.floor(Math.random() * row.length)]
+  );
 
-  // Display all elements in textarea with line breaks
+  // Display the 7 selected strings in the textarea
   const output = document.getElementById("arrayOutput");
   if (output) {
-    output.value = arr.flat().join("\n");
+    output.value = selected.join("\n");
   }
 
-  return randomString;
+  return selected;
 }
 
 randomStringFromFirst7(phrases)
