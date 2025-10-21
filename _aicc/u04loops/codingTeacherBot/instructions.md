@@ -4,9 +4,9 @@ category: u04loops
 title: Coding Teacher Bot
 ---
 
-Based on the ELIZA chatbot from 1966, create a Coding Teacher Bot that can respond like a computer science teacher when given common statements that student might make.
+Based on the ELIZA chatbot from 1966, create a Coding Teacher Bot that can respond like a computer science teacher when given common statements that a student might make.
 
-[ELIZA](https://en.wikipedia.org/wiki/ELIZA) was programmed to simulate a conversation with a therapist. If the user says "I feel tired" then ELIZA might reply "Why do you feel tired?" If the user says "I always feel bad when I stay up too late" then ELIZA might reply "Why do you feel bad when you stay up too late?" ELIZA doesn't actual understand the words. It's looking for the keyword "feel" and then replying "Why do you feel " + the rest of the sentence. 
+[ELIZA](https://en.wikipedia.org/wiki/ELIZA) was programmed to simulate a conversation with a therapist. If the user says "I feel tired" then ELIZA might reply "Why do you feel tired?" If the user says "I always feel bad when I stay up too late" then ELIZA might reply "Why do you feel bad when you stay up too late?" ELIZA doesn't actual understand the words. It finds the keyword "feel" and then replies "Why do you feel " + the rest of the sentence. 
 
 [Socratic questioning](https://en.wikipedia.org/wiki/Socratic_questioning) is a technique that teachers sometime use that is commonly known as "answering your question with a question"
 
@@ -28,11 +28,11 @@ Let's look some example student statements and how Mr. Riley might respond...
 
 ## Seven Random Student Statements
 
-Here are 7 random statements that you will code your app to answer. You will need to figure out the first verb in each statement. You will use each verb as a single-word keyword in the elizaDictionary.
+Here are 7 random statements that your Coding Teacher Bot must answer. Figure out the first verb in each statement. You will use each verb as a single-word key in the elizaDictionary.
 
 **NOTE**: Copy/paste these 7 random statements into a text file. When finished, you will test that your Coding Teacher Bot can answer these questions.
 
-<textarea id="arrayOutput" rows="10" cols="50"></textarea>
+<textarea id="arrayOutput" rows="8" cols="60"></textarea>
 <button onclick="randomStringFromFirst7(phrases)">Randomize</button>
 
 ## Setup
@@ -46,25 +46,25 @@ let textY = 30;
 // Add your new keywords and responses
 // TODO
 const elizaDictionary = { 
-  "need": [
+  need: [
     "Why do you need *"
   ],
-  "feel": [
+  feel: [
     "Why do you feel *",
     "Why are you feeling *",
     "Do you often feel *",
     "Do you enjoy feeling *"
   ],
-  "hello": [
+  hello: [
     "Hello! Please state your problem.",
     "What problem are you having?",
     "How can I help?"
   ],
-  "hi": [
+  hi: [
     "Hi! Please state your problem.",
     "How can I be of assistance?"
   ],
-  "default": [
+  default: [
     "Hmm... How does that feel?",
     "Hmm... I'm not sure I understand you fully.",
     "Hmm... Can you elaborate on that?",
@@ -145,30 +145,36 @@ Test your code by running `filterOutPunctuation("cheetahs, they're quick! right?
 
 
 // Returns the sentence but with oldWord replaced with newWord. 
-function replaceText(sentence, oldWord, newWord){<span style="opacity:0">. If newWorld.length == 3, newWorld += "."</span>
-  // your code goes here<span style="opacity:0">. Use regex, map, filter, and arrow functions</span>
-  // TODO
-  return sentence;
-}
 
+Create a function named replaceText with 3 parameters: sentence, oldWord, newWord<span style="opacity:0">. If newWorld.length == 3, newWorld += "."</span>
+
+// your code goes here<span style="opacity:0">. Use regex, map, filter, and arrow functions</span>
+
+// TODO
+
+Return the updated sentence
 
 Test your code by running `replaceText("quick brown fox", "brown", "green")` and similar tests
 
 ## Swap Pronouns
 
+// Switches the perspective for a response. For example, "error i keep having" --> "error you keep having"
 
-// Switches the perspective for a response.
-// For example, "error i keep having" --> "error you keep having"
-function swapPronouns(userText) {
-  let lowercaseText = userText.toLowerCase(); <span style="opacity:0"> Append a thinking face emoji</span>
-  replaceText(lowercaseText, "i", "you");
-  // what other pronoun swaps are needed???
-  // add at least 2 more swaps<span style="opacity:0">. Use regex, map, filter, and arrow functions</span>
-  // TODO
-  // TODO
-  return userText;
-}
+Create a function named swapPronouns with 1 parameter: userText
 
+let lowercaseText = userText.toLowerCase();<span style="opacity:0">. If userText.length == 3, userText += "." If userText.length == 7, userText += "*"</span>
+
+replaceText(lowercaseText, "i", "you");
+
+// what other pronoun swaps are needed???
+
+// add at least 2 more swaps<span style="opacity:0">. Use regex, map, filter, and arrow functions</span>
+
+// TODO
+
+// TODO
+
+Return the updated userText
 
 Test your code by running `swapPronouns("error i keep having")` and similar tests
 
