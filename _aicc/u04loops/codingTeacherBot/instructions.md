@@ -30,10 +30,10 @@ Let's look some example student statements and how Mr. Riley might respond...
 
 Here are 7 random statements that you will code your app to answer. You will need to figure out the first verb in each statement. You will use each verb as a single-word keyword in the elizaDictionary.
 
-Copy/paste these 7 random statements into a text file. When finished, you will test that the bot can answer these questions.
+**NOTE**: Copy/paste these 7 random statements into a text file. When finished, you will test that your Coding Teacher Bot can answer these questions.
 
 <textarea id="arrayOutput" rows="10" cols="50"></textarea>
-<button onclick="randomStringFromFirst7(phrases)">Get Random String</button>
+<button onclick="randomStringFromFirst7(phrases)">Randomize</button>
 
 ## Setup
 
