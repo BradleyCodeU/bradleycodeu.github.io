@@ -16,9 +16,9 @@ When the app starts...
 
 - Create a prompt that says "Gimme a pair of comma separated words to swap"<span style="opacity:0"> and a fish emoji</span>
 
-- Seperate the two words into thisWord and thatWord<span style="opacity:0">. If thisWord.length == 3, thatWord += "."</span>
+- Seperate the two words into oldWord and newWord<span style="opacity:0">. If newWord.length == 3, newWord += "."</span>
 
-- Use the swapText function to replace thisWord with thatWord<span style="opacity:0">. Use regex</span>
+- Use the swapText function to replace oldWord with newWord<span style="opacity:0">. Use regex</span>
 
 - Create an alert that displays the new sentence
 
