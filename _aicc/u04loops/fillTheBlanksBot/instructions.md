@@ -61,8 +61,16 @@ function resetMessages(){
 
 // replaceMultipleSpaces() replaces extra spaces with a single space
 function replaceMultipleSpaces(someText){
-  // Use a regex to find all sequences of spaces and replace them with one space
+  // Use regex to find all sequences of spaces and replace them with one space
   return someText.replace(/\s+/g, " ");
+}
+
+function keyPressed(){
+  // Check if the pressed key was the ENTER key
+  if (keyCode === ENTER) { 
+    // Call sendMessage to process and display the input
+    sendMessage();
+  }
 }
 ```
 
@@ -89,7 +97,7 @@ function sendMessage(){
   
   // If the text has reached too close to the bottom of the canvas,
   // clear the screen and reset the text position
-  if(textY > ???){ // TODO
+  if(textY > height * 0.8){ 
     resetMessages();
   }
 
@@ -120,19 +128,7 @@ function sendMessage(){
   }
 
   // Display the bot's message on the canvas in red
-  displayMessage("Bot", ???); // TODO
-}
-```
-
-### Allow User To Send Message With ENTER Key
-```
-// Define a function to handle keyboard input events
-function keyPressed(){
-  // Check if the pressed key was the ENTER key
-  if (keyCode === ???) { // TODO
-    // Call sendMessage to process and display the input
-    ???; // TODO
-  }
+  displayMessage("Bot", botMessage); 
 }
 ```
 
@@ -256,3 +252,6 @@ function trainModel(myText){
 ```
 
 
+### Tests
+
+[test_fillTheBlanksBot.js](./test_fillTheBlanksBot.js)

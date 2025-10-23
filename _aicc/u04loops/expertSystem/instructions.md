@@ -292,9 +292,10 @@ function addNewAnimal(animalName){
   // If findAnimal returns a number greater than -1, then the animal already exists
   if(findAnimal(animalName) ??? ???){ // TODO
     // Get the existing animal and update with new info
-    myAnimal = animals[findAnimal(animalName)];
+    let index = findAnimal(animalName);
+    myAnimal = animals[index];
     // Combine the two objects
-    myAnimal = { ...myAnimal, ...askedQuestions };
+    animals[index] = { ...myAnimal, ...askedQuestions };
   }
   else {
     // Create a brand-new animal entry
@@ -362,3 +363,6 @@ No starter code of this one!
 
 
 
+### Tests
+
+[test_expertSystem.js](./test_expertSystem.js)
