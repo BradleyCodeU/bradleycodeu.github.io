@@ -253,4 +253,4 @@ function trainModel(myText){
 
 ### Tests
 
-[test_fillTheBlanksBot.js](./test_fillTheBlanksBot.js)
+[test_fillTheBlanksBot.js](../test_fillTheBlanksBot.js)
