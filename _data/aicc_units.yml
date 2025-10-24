@@ -178,11 +178,38 @@ length, push, splice
 
 1. [Expert System](/aicc/u04loops/expertSystem/instructions/)
 
+1. [Coding Teacher Bot](/aicc/u04loops/codingTeacherBot/instructions/)
 
 
 #### Vocab:
 
 for loop, while loop, for-each loop, reverse for loop
+
+#### Resources:
+
+- [JS Five Loop Flavors](https://bradleycodeu.github.io/studyGuides/JavascriptFiveLoopFlavorsPractice/)
+
+
+
+
+"
+
+- title: u05arraysOfArrays
+  heading: "# u05arraysOfArrays"
+  content: "*2 weeks*
+
+
+1. [Graphing with P5](/aicc/u04loops/graphingWithP5/instructions/)
+
+1. [Chart JS](/aicc/u04loops/chartjs/instructions/)
+
+1. [Tensorflow Linear](/aicc/u04loops/tensorflowLinear/instructions/)
+
+
+
+#### Vocab:
+
+2d array, ragged array, matrix
 
 #### Resources:
 
