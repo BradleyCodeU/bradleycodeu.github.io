@@ -233,7 +233,7 @@ function buildElizaReply(message){
 const phrases = [
     [
         "I am getting an error message",
-        "I am confused",
+        "I am confused by this part of the code",
         "I'm not sure what to do",
         "I am trying to get this to work",
     ], 
@@ -280,7 +280,7 @@ const phrases = [
         "It's giving me is a syntax error",
         "It is printing the wrong thing",
         "It's stuck in a loop",
-        "It's frozen",
+        "It's frozen right when it starts",
         "It's running when it's not supposed to",
         "It's not doing anything",
         "My code isn't working",
@@ -307,8 +307,8 @@ const phrases = [
         "I want the game to keep going",
     ], 
     [
-        "It won't compile",
-        "It won't load",
+        "It won't compile at all",
+        "It won't load at all",
         "My app won't start",
         "My code won't run",
     ]
