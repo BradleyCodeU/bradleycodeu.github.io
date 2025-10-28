@@ -54,9 +54,7 @@ function setup() {
 }
 
 function draw() {
-  if(roundQueue.length > 0){
     // do nothing
-  }
 }
 
 function resetMessages(){
