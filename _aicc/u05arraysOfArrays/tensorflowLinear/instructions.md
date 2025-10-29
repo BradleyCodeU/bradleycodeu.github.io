@@ -100,7 +100,7 @@ Run the code again and again. Do any of the values change?
 
 According to the algorithm, what is the slope of the line that contains these points?
 
-`(7,9), (13, 21), (3, 1)`
+`(7, 9), (13, 21), (3, 1)`
 
 Copy or write down all 3 values in the console.
 
@@ -116,9 +116,21 @@ Copy or write down all 3 values in the console.
 
 Run the code again and again. Do any of the values change?
 
+#### Question 4
+
+What is the slope of these points?
+
+`(8, 9), (13, 11), (3, 1), (9, 13), (1, 4)`
+
+Copy or write down all 3 values in the console.
+
+Run the code again and again. Do any of the values change?
+
 ## Let's Grade The Algorithm's Homework!
 
 #### Answer 1:
+
+The points were `(1, 5), (3, 5)`
 
 Use the slope formula: m = (y₂ − y₁) / (x₂ − x₁)
 
@@ -130,9 +142,13 @@ The slope is 0
 
 Was the algorithm correct? Write down either CORRECT or INCORRECT
 
+![A chart showing points (1, 5), (3, 5) connected by a line](../linear01.png)
+
 #### Answer 2:
 
-This one is easy!!!
+Using points `(7, 9), (13, 21), (3, 1)`
+
+This one is easy!
 
 We only need two points to find a slope... `(7, 9)` and `(13, 21)` 
 
@@ -142,7 +158,11 @@ The slope is 2
 
 Was the algorithm correct? Write down either CORRECT or INCORRECT
 
+![A chart showing points (7, 9), (13, 21), (3, 1) connected by a line](../linear02.png)
+
 #### Answer 3:
+
+Our points are `(-1, 10), (1, 2), (3, -6), (5, -14)`
 
 We only need two points to find a slope... `(-1, 10), (1, 2)` 
 
@@ -152,6 +172,16 @@ The slope is -4
 
 Was the algorithm correct? Write down either CORRECT or INCORRECT
 
+![A chart showing points (-1, 10), (1, 2), (3, -6), (5, -14) connected by a line](../linear03.png)
+
+#### Answer 4:
+
+These points `(8,9), (13,11), (3,1), (9,13), (1,4)` don't form a single line, so it's impossible... right? Is this a trick question???
+
+![A chart showing points (-1, 10), (1, 2), (3, -6), (5, -14) connected by a line](../linear03.png)
+
+
+
 ## Fix the Algorithm
 
 The algorithm is trying to solve the problems BUT it gives up too soon. It's giving up after it's first try.
@@ -160,16 +190,21 @@ Find the `// TRAINING LOOP` and notice that Mr. Riley set it to repeat 1 time.
 
 #### Question 4
 
-REMEMBER: For the last 2 questions, you should have the loop repeat 10 times, then try 100 times, then 1000, then 10000, then finally 100000
+REMEMBER: For these last 3 questions, you should have the loop repeat 10 times, then try 100 times, then 1000, then 10000, then finally 100000
 
-With these points `(7,9), (13, 21), (3, 1)` we *expect* that the slope will be 2. 
+With these points `(7, 9), (13, 21), (3, 1)` we *expect* that the slope will be 2. 
 
 What is the minimum amount of repetitions needed to get the correct slope from the algorithm?
 
 #### Question 5
 
-REMEMBER: For the last 2 questions, you should have the loop repeat 10 times, then try 100 times, then 1000, then 10000, then finally 100000
+REMEMBER: For these last 3 questions, you should have the loop repeat 10 times, then try 100 times, then 1000, then 10000, then finally 100000
 
 With these points `(-1, 10), (1, 2), (3, -6), (5, -14)` we *expect* that the slope will be -4. 
 
 What is the minimum amount of repetitions needed to get the correct slope from the algorithm?
+
+#### Question 6
+
+REMEMBER: For these last 3 questions, you should have the loop repeat 10 times, then try 100 times, then 1000, then 10000, then finally 100000
+
