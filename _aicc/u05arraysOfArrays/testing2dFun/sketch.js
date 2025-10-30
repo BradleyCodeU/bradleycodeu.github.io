@@ -1,6 +1,6 @@
 // arrayToString
 
-// Converts a JavaScript array into a string representation.
+// Converts a JavaScript array into a string representation with brackets.
 // Example: arrayToString([[1,2],[3,4]]) → "[[1,2],[3,4]]"
 // Input: any array (1D or 2D)
 // Output: a string version of that array.
