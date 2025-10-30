@@ -8,6 +8,7 @@ let actual;
 // ensuring that arrays and nested arrays can be compared reliably (since direct array
 // equality in JavaScript compares references, not contents).
 // Returns true if both match exactly, otherwise false.
+
 function assertEqual(expected, actual){
     return arrayToString(actual) === arrayToString(expected)
 }
@@ -41,7 +42,6 @@ console.assert(expected === actual, `❌ Failed: arrayToString 2D array with 3 r
 
 console.log("✅ Finished testing arrayToString");
 
-// TODO remove the 1 bug in arrayToString function
 
 
 
@@ -72,7 +72,6 @@ console.assert(expected === actual, `❌ Failed: sum2dArray with positive and ne
 
 console.log("✅ Finished testing sum2dArray");
 
-// TODO fix the 1 bug in the sum2dArray function
 
 
 
@@ -103,7 +102,6 @@ console.assert(assertEqual(expected, actual), `❌ Failed: stringTo2dArray two c
 
 console.log("✅ Finished testing stringTo2dArray");
 
-// TODO fix the 2 bugs in stringTo2dArray function
 
 
 
