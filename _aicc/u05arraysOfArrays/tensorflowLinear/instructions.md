@@ -178,7 +178,7 @@ Was the algorithm correct? Write down either CORRECT or INCORRECT
 
 These points `(8,9), (13,11), (3,1), (9,13), (1,4)` don't form a single line, so it's impossible... right? Is this a trick question???
 
-![A chart showing points (-1, 10), (1, 2), (3, -6), (5, -14) connected by a line](../linear03.png)
+![A chart showing points (-1, 10), (1, 2), (3, -6), (5, -14) connected by a line](../linear04.png)
 
 
 
