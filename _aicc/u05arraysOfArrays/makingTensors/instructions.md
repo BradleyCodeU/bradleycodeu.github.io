@@ -4,11 +4,13 @@ category: u05arraysOfArrays
 title: Making Tensors
 ---
 
-A tensor may be represented as a (potentially multidimensional) array. In mathematics, a tensor is an algebraic object that describes a multilinear relationship between sets of algebraic objects associated with a vector space.
+A tensor is type of structure used in math and physics. [https://en.wikipedia.org/wiki/Tensor](https://en.wikipedia.org/wiki/Tensor)
 
-An order-0 tensor can be represented as a single number, a scalar... `10`
+A tensor can be represented as a (potentially multidimensional) array. In mathematics, a tensor is an algebraic object that describes a multilinear relationship between sets of algebraic objects associated with a vector space.
 
-An order-1 tensor can be represented as a 1-dimensional array of numbers, a vector... `[10, 20]`
+An order-0 tensor can be represented as a single number, a scalar: `10`
+
+An order-1 tensor can be represented as a 1-dimensional array of numbers, a vector: `[10, 20]`
 
 An order-2 tensor can be represented as a 2D matrix... 
 ```
@@ -20,9 +22,13 @@ Additional orders exist for 3-dimensional, 4-dimensional, etc.
 
 ### What is TensorFlow?
 
+TensorFlow is an open-source software library created by Google for machine learning and artificial intelligence.
+
+TensorFlow can be used in a wide variety of programming languages, including Python, JavaScript, C++, and Java.
+
 [https://www.tensorflow.org/js](https://www.tensorflow.org/js)
 
-
+[https://en.wikipedia.org/wiki/TensorFlow](https://en.wikipedia.org/wiki/TensorFlow)
 
 ## Setup
 
@@ -50,7 +56,7 @@ There are lots of ways to create a tensor, including... tf.tensor(), tf.scalar()
 
 ## Part 2
 
-A college admissions counselor is looking at Beth's attendance records for middle and high school. look like this `15 16 9 7 17 8 11 12 10 5 4 3 2 13 14 6 9 8 2 7 5 7 9 13`
+A college admissions counselor is looking at Beth's attendance records for middle and high school. The records look like this `15 16 9 7 17 8 11 12 10 5 4 3 2 13 14 6 9 8 2 7 5 7 9 13`
 
 Each number represents the number of days Beth was absent in a quarter. The first four values being 7th grade year, the next four 8th grade year, Freshman year, etc. The final four values are Senior year.
 
@@ -66,7 +72,7 @@ Use `data2.print();` to display your data2 tensor
 
 ## Part 3
 
-Adding tensors [https://js.tensorflow.org/api/latest/#add](https://js.tensorflow.org/api/latest/#add)
+Adding tensors together [https://js.tensorflow.org/api/latest/#add](https://js.tensorflow.org/api/latest/#add)
 
 Here is a tensor for Carter's attendance records. What do you get if you add Beth's record and Carter's record?
 
@@ -79,7 +85,7 @@ Add the two tensors using the add method and print the result
 
 ## Part 4
 
-Add this at the top of the file...
+Copy/paster this at the top of your sketch.js file...
 ```
 let cuteDog;
 
@@ -89,18 +95,19 @@ function preload(){
 ```
 
 
-Add this code inside of the setup() function...
+Put this code inside of the setup() function...
 
 ```
   let moreGreenFilter = tf.tensor([0.7, 1.5, 0.9]); // Example photo filter
+
 
   console.log("Question 4. The moreGreenFilter tensor is an order ??? tensor"); // TODO fill in the blank
 
   let brighterFilter = tf.tensor([2]); // Example photo filter
 
+
   console.log("Question 5. The brighterFilter tensor is an order ??? tensor"); // TODO fill in the blank
 
-  
   // let maximumBlueFilter = ??? // TODO
   // maximumBlueFilter.print();
 
@@ -113,9 +120,9 @@ Add this code inside of the setup() function...
   // Convert canvas pixels to a tensor (values 0–255)
   const tfImg = tf.browser.fromPixels(canvas).toFloat();
 
+
   console.log("Question 6. The tfImg tensor is an order ??? tensor"); // TODO fill in the blank
 
-      
   // Multiply each pixel by the values in the photo filter
   const filtered = tfImg.mul(moreGreenFilter).clipByValue(0, 255);
 
