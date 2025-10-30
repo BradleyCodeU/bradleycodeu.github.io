@@ -186,7 +186,7 @@ These points `(8,9), (13,11), (3,1), (9,13), (1,4)` don't form a single line, so
 
 The algorithm is trying to solve the problems BUT it gives up too soon. It's giving up after it's first try.
 
-Find the `// TRAINING LOOP` and notice that Mr. Riley set it to repeat 1 time.
+Find the `// TRAINING LOOP` and notice that Mr. Riley set it to repeat 1 time. How many times should it repeat? That's the question we'll try to answer in the next questions.
 
 #### Question 4
 
@@ -195,6 +195,8 @@ REMEMBER: For these last 3 questions, you should have the loop repeat 10 times, 
 With these points `(7, 9), (13, 21), (3, 1)` we *expect* that the slope will be 2. 
 
 What is the minimum amount of repetitions needed to get the correct slope from the algorithm?
+
+What happens to the `loss` every 100 repetitions?
 
 #### Question 5
 
@@ -208,3 +210,4 @@ What is the minimum amount of repetitions needed to get the correct slope from t
 
 REMEMBER: For these last 3 questions, you should have the loop repeat 10 times, then try 100 times, then 1000, then 10000, then finally 100000
 
+With points `(8,9), (13,11), (3,1), (9,13), (1,4)` linear regression will find the "line of best fit" by minimizing the loss.
