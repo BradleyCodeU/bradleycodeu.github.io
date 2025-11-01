@@ -1,0 +1,100 @@
+[
+  {
+    "answer": "feature",
+    "question": "An input to an AI model, used to generate output"
+  },
+  {
+    "answer": "natural language processing",
+    "question": "A form of AI that reads data from text and images and can include speech recognition and object detection"
+  },
+  {
+    "answer": "labeled data",
+    "question": "Data that is paired with output targets in an AI model"
+  },
+  {
+    "answer": "unlabeled data",
+    "question": "Data that is not paired with output targets in an AI model"
+  },
+  {
+    "answer": "supervised algorithm",
+    "question": "An algorithm that uses labeled data, which means data where a target variable is known"
+  },
+  {
+    "answer": "unsupervised algorithm",
+    "question": "An algorithm that does not use labeled data"
+  },
+  {
+    "answer": "bias",
+    "question": "An imbalance in data that can cause data to be skewed toward a demographic group, which can harm an AI machine learning model"
+  },
+  {
+    "answer": "confusion matrix",
+    "question": "A chart that defines true and false positives and true and false negatives for an AI model"
+  },
+  {
+    "answer": "true positive",
+    "question": "A correct positive result for an AI model"
+  },
+  {
+    "answer": "true negative",
+    "question": "A correct negative result for an AI model"
+  },
+  {
+    "answer": "false positive",
+    "question": "An incorrect positive result for an AI model"
+  },
+  {
+    "answer": "false negative",
+    "question": "An incorrect negative result for an AI model"
+  },
+  {
+    "answer": "accuracy",
+    "question": "The percentage of correct model predictions"
+  },
+  {
+    "answer": "precision",
+    "question": "The percentage of true positive predictions among all positive predictions in an outcome"
+  },
+  {
+    "answer": "recall",
+    "question": "The measure of true positive predictions among all actual positives"
+  },
+  {
+    "answer": "f1 score",
+    "question": "The harmonic mean of precision and recall"
+  },
+  {
+    "answer": "harmonic mean",
+    "question": "A kind of mathematical average that will be closer to the smaller values"
+  },
+  {
+    "answer": "area under the curve",
+    "question": "a model's probability of choosing a positive instance over a negative instance"
+  },
+  {
+    "answer": "receiver operating characteristic curve",
+    "question": "Stands for Receiver Operating Characteristic Curve, the plot of True Positive Rate against the False Positive Rate for model results"
+  },
+  {
+    "answer": "sensitivity",
+    "question": "The relative change of a model and its output"
+  },
+  {
+    "answer": "specificity",
+    "question": "The process of evaluating a model's ability to accurately identify negative instances or nonrelevant outcomes"
+  },
+  {
+    "answer": "regression",
+    "question": "A model type that looks at the relationship between a dependent variable and one or more independent variables. Finding the line of best fit"
+  },
+  {
+    "answer": "linear regression",
+    "question": "A form of finding the line of best fit in which an outcome is a continuous variable, like a number"
+  },
+  {
+    "answer": "logistic regression",
+    "question": "A form of finding the line of best fit in which an outcome uses binary dependent variables"
+  }
+
+
+]
