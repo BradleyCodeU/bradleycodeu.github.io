@@ -4,9 +4,9 @@ category: u05arraysOfArrays
 title: Tensorflow Linear
 ---
 
-Let's use a Tensorflow Linear Regression algorithm to complete some Algebra 1 problems.
+NOTE: Use Google Docs, Notepad, or any other text editor to write down your answers. 
 
-Use Notability, Google Docs, Notepad, or something similar to write/type your answers to the problems.
+Let's use a Tensorflow Linear Regression algorithm to complete some Algebra 1 problems.
 
 Copy/paste the following into a new p5js sketch:
 
@@ -77,7 +77,7 @@ trainModel();
 
 ## Algebra Questions
 
-#### Question 1
+## Question 1
 
 According to the algorithm, what is the slope of the line that contains these points?
 
@@ -96,7 +96,7 @@ Copy or write down all 3 values.
 
 Run the code again and again. Do any of the values change?
 
-#### Question 2
+## Question 2
 
 According to the algorithm, what is the slope of the line that contains these points?
 
@@ -106,7 +106,7 @@ Copy or write down all 3 values in the console.
 
 Run the code again and again. Do any of the values change? Is this algorithm deterministic or nondeterministic?
 
-#### Question 3
+## Question 3
 
 According to the algorithm, what is the slope of the line that contains these points?
 
@@ -116,7 +116,7 @@ Copy or write down all 3 values in the console.
 
 Run the code again and again. Do any of the values change?
 
-#### Question 4
+## Question 4
 
 What is the slope of these points?
 
@@ -188,9 +188,23 @@ The algorithm is trying to solve the problems BUT it gives up too soon. It's giv
 
 Find the `// TRAINING LOOP` and notice that Mr. Riley set it to repeat 1 time. How many times should it repeat? That's the question we'll try to answer in the next questions.
 
-#### Question 4
+## Epochs
 
-REMEMBER: For these last 3 questions, you should have the loop repeat 10 times, then try 100 times, then 1000, then 10000, then finally 100000
+[https://developers.google.com/machine-learning/crash-course/linear-regression/hyperparameters](https://developers.google.com/machine-learning/crash-course/linear-regression/hyperparameters)
+
+Hyperparameters are variables that control different aspects of training. Three common hyperparameters are:
+
+- Learning rate
+- Batch size
+- Epochs
+
+In contrast, parameters are the variables, like the weights and bias, that are part of the model itself. In other words, hyperparameters are values that you control; parameters are values that the model calculates during training.
+
+Training typically requires MANY epochs. That is, the system needs to process every example in the training set multiple times.
+
+## Question 5
+
+REMEMBER: For these last 3 questions, you should have the loop repeat 10 times, then try 100 times, then 1000, then 10000, and finally 100000
 
 With these points `(7, 9), (13, 21), (3, 1)` we *expect* that the slope will be 2. 
 
@@ -198,16 +212,18 @@ What is the minimum amount of repetitions needed to get the correct slope from t
 
 What happens to the `loss` every 100 repetitions?
 
-#### Question 5
+## Question 6
 
-REMEMBER: For these last 3 questions, you should have the loop repeat 10 times, then try 100 times, then 1000, then 10000, then finally 100000
+REMEMBER: For these last 3 questions, you should have the loop repeat 10 times, then try 100 times, then 1000, then 10000, and finally 100000
 
 With these points `(-1, 10), (1, 2), (3, -6), (5, -14)` we *expect* that the slope will be -4. 
 
 What is the minimum amount of repetitions needed to get the correct slope from the algorithm?
 
-#### Question 6
+## Question 7
 
-REMEMBER: For these last 3 questions, you should have the loop repeat 10 times, then try 100 times, then 1000, then 10000, then finally 100000
+REMEMBER: For these last 3 questions, you should have the loop repeat 10 times, then try 100 times, then 1000, then 10000, and finally 100000
 
 With points `(8,9), (13,11), (3,1), (9,13), (1,4)` linear regression will find the "line of best fit" by minimizing the loss.
+
+What is the minimum amount of repetitions needed to get the least amount of loss?

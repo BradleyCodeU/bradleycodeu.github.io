@@ -4,6 +4,8 @@ category: u05arraysOfArrays
 title: Logistic Math
 ---
 
+NOTE: Use Google Docs, Notepad, or any other text editor to write down your answers. 
+
 Camp Anawanna is hiring new Summer Camp Counselors. There are 3 hiring factors: age, years of work experience, number of hikes.
 
 ### How can we create an equation to automate the hiring process?
@@ -62,10 +64,10 @@ The regression algorithm will randomly pick weights and bias, then carefully adj
 
 $$
 \begin{align}
-  b &= -200 \\
-  w_1 &= 5 \\
-  w_2 &= 2 \\
-  w_3 &= 1
+  b &= -1 \\
+  w_1 &= 0.025 \\
+  w_2 &= -0.015 \\
+  w_3 &= 0.012
 \end{align}
 $$
 
@@ -74,8 +76,8 @@ In Javascript our equation looks like this using the first person in our trainin
 let age = 25;
 let experience = 7; 
 let hikes = 10;
-let bias = -200;
-let weights = [5, 2, 1];
+let bias = -1;
+let weights = [0.025, -0.015, 0.012];
 let z = bias + weights[0] * age + weights[1] * experience + weights[2] * hikes;
 ```
 
@@ -96,8 +98,8 @@ In Javascript the full equation looks like this when using the first person in o
 let age = 25;
 let experience = 7; 
 let hikes = 10;
-let bias = -200;
-let weights = [5, 2, 1];
+let bias = -1;
+let weights = [0.025, -0.015, 0.012];
 let z = bias + weights[0] * age + weights[1] * experience + weights[2] * hikes;
 let y = Math.round(1 / (1 + Math.pow(Math.E, -z)));
 console.log(y);
@@ -128,8 +130,8 @@ const trainingData = [
 // returns a y value of either 0 or 1
 
 function predict(age, experience, hikes){
-    let bias = -200;
-    let weights = [5, 2, 1];
+    let bias = -1;
+    let weights = [0.025, -0.015, 0.012];
     let z = bias + weights[0] * age + weights[1] * experience + weights[2] * hikes;
     let y = Math.round(1 / (1 + Math.pow(Math.E, -z)))
     return ???; // TODO what should be returned???
@@ -137,21 +139,27 @@ function predict(age, experience, hikes){
 
 for(???){ // TODO write a loop
     let age = ???; // TODO get index 0
-    let exp = ???; // TODO
+    let experience = ???; // TODO
     let hikes = ???; // TODO
     let actual = ??? // TODO get index 3
-    let inputStr = age + "," + exp + "," + hikes;
-    let y = predict(age, exp, hikes);
-    console.log(inputStr + ", Actual: " + expected + ", Predicted: " + y);
+    let inputStr = age + "," + experience + "," + hikes;
+    let y = predict(age, experience, hikes);
+    console.log(inputStr + ", Actual: " + actual + ", Predicted: " + y);
 }
 ```
 
+## Question 1.
+
 ### Confusion Matrix
 
-Make a confusion matrix for Mr Riley's hiring algorithm
+
+
+Make a confusion matrix for Mr Riley's hiring algorithm.
+
+Fill in the results
 
 <table style="border-collapse: collapse; width: 100%; text-align: center;" border="1" cellpadding="10">
-    <caption><strong>Confusion Matrix: Hiring Example</strong></caption>
+    <caption><strong>Mr Riley's Hiring Prediction Algorithm</strong></caption>
     <tbody>
         <tr>
             <th></th>
@@ -180,9 +188,63 @@ Make a confusion matrix for Mr Riley's hiring algorithm
     </tbody>
 </table>
 
-Write down the results
 
-Finally, calculate the following
+
+## Question 2.
+
+### Recall, Accuracy, Precision, and Specificity
+
+Calculate the following for Mr Riley's algorithm. SHOW YOUR WORK. The most important thing is that you are able to fill in the equations with the correct values from the data.
+
+```
+Recall: TP / total actual positives
+
+Accuracy: (TP + TN) / total count
+
+Precision: TP / total pred positives
+
+Specificity: TN / total pred negatives
+```
+
+### Do It Yourself
+
+Make YOUR Hiring Prediction Algorithm
+
+Using the previous Javascript code, pick random values for bias and the weights. You must follow these rules:
+
+- All of your weights must be decimal values between -0.999 and 0.999
+- Your bias can be a positive value, negative value, or zero.
+- Your algorithm MUST predict to hire at least 1 person
+- Your algorithm MUST predict to not hire at least 1 person
+- Your algorithm must give different results than Mr Riley's algorithm
+
+You will likely need to test out a few different values. 
+
+## Question 3.
+
+Write down your bias and weights:
+```
+bias = 
+w1 = 
+w2 =
+w3 =
+```
+
+## Question 4.
+
+Record the following for YOUR algorithm:
+```
+         Actual 1 | Actual 0
+        --------------------
+Pred 1 |  ___ TP  |  ___ FP
+        --------------------
+Pred 0 |  ___ FN  |  ___ TN
+```
+
+## Question 5.
+
+Calculate the following for YOUR algorithm. SHOW YOUR WORK. The most important thing is that you are able to fill in the equations with the correct values from the data.
+
 ```
 Recall: TP / total actual positives
 
