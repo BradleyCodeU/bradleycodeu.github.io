@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Logistic Regression Hiring</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.16.0/dist/tf.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <h2>Logistic Regression Hiring</h2>
+    <p>
+        Camp Anawanna is hiring new Summer Camp Counselors. There are 3 hiring
+        factors: age, years of work experience, number of hikes.
+    </p>
+    <div>
+        <h3>Input Sliders</h3>
+        <label>Age: <output id="ageVal">30</output>
+            <input type="range" id="age" min="0" max="70" value="30" step="1" />
+        </label>
+        <label>Years of Experience: <output id="expVal">8</output>
+            <input type="range" id="experience" min="0" max="20" value="8" step="1" />
+        </label>
+        <label>Number of Hikes: <output id="hikeVal">20</output>
+            <input type="range" id="hikes" min="0" max="50" value="20" step="1" />
+        </label>
+        <button id="predictBtn" disabled>Predict</button>
+    </div>
+    <h3>Output Results</h3>
+    <div id="spinner" class="spinner"></div>
+    <pre id="output">Training model...</pre>
+    <h3>Training Data Confusion Matrix</h3>
+    <canvas id="confusion" width="500px" height="300px"></canvas>
+    <h3>Training Data 3D Scatterplot</h3>
+    <div id="plot3d" style="width: 700px; height: 500px"></div>
+    <script src="sketch.js"></script>
+</body>
+
+</html>
