@@ -204,7 +204,7 @@ Accuracy: (TP + TN) / total count
 
 Precision: TP / total pred positives
 
-Specificity: TN / total pred negatives
+Specificity: TN / total actual negatives
 ```
 
 ### Do It Yourself
@@ -235,10 +235,10 @@ w3 =
 
 Record the following for YOUR algorithm:
 ```
-         Actual 1 | Actual 0
-        --------------------
+       | Actual 1 | Actual 0
+----------------------------
 Pred 1 |  ___ TP  |  ___ FP
-        --------------------
+----------------------------
 Pred 0 |  ___ FN  |  ___ TN
 ```
 
@@ -253,5 +253,5 @@ Accuracy: (TP + TN) / total count
 
 Precision: TP / total pred positives
 
-Specificity: TN / total pred negatives
+Specificity: TN / total actual negatives
 ```
