@@ -110,7 +110,9 @@ console.log(y);
 
 ### Looping Thru A 2D Array
 
-We COULD just copy/paste the above code 10 times and change all the x-values each time, but instead let's just write a loop.
+We COULD just copy/paste the above code 10 times and change all the x-values each time, but that would take a lot of work.
+
+Instead, let's create a predict function and use a loop to iterate through the data.
 
 Copy/paste the code below into code editor. Fill in the blanks.
 
