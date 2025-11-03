@@ -207,11 +207,15 @@ for loop, while loop, for-each loop, reverse for loop
 
 1. [Making Tensors](/aicc/u05arraysOfArrays/makingTensors/instructions/)
 
+1. [Logistic Hiring](/aicc/u05arraysOfArrays/logisticHiring/instructions/)
+
+1. [Logistic Math](/aicc/u05arraysOfArrays/logisticMath/instructions/)
+
 
 
 #### Vocab:
 
-2d array, ragged array, scalar, vector, matrix, tensor, TensorFlow, confusion matrix,
+2d array, ragged array, scalar, vector, matrix, tensor, TensorFlow, confusion matrix, linear regression, logistic regression
 
 #### Resources:
 
