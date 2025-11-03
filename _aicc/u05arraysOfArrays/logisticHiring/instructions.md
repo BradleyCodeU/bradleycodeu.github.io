@@ -6,6 +6,12 @@ title: Logistic Hiring
 
 NOTE: Use Google Docs, Notepad, or any other text editor to write down your answers. 
 
+The use of A.I. can make hiring faster and more efficient, but there are still ethical concerns. People worry about how transparent and fair these algorithms are, who is responsible when they make mistakes, and how to make sure they stay unbiased and fair over time.
+
+[https://en.wikipedia.org/wiki/Artificial_intelligence_in_hiring](https://en.wikipedia.org/wiki/Artificial_intelligence_in_hiring)
+
+
+
 Camp Anawanna is hiring new Summer Camp Counselors. There are 3 hiring factors: age, years of work experience, number of hikes.
 
 Let's use TensorFlow to make a Logistic Regression Hiring Algorithm.
