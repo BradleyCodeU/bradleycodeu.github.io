@@ -4,7 +4,7 @@ category: arrays
 title: JS While Loops Practice Generator
 ---
 
-Practice working with while loops
+Practice working with while loops AND do-while loops
 
 <button onclick="generateLoop()">Generate Loop</button>
 <pre id="output"></pre>
@@ -22,6 +22,8 @@ let apples, bananas, loopCount, appleOp, bananaOp;
 let numberList, secret, mystery, forEachLessThan;
 let x, y, startVal, endVal, reverseStep, xOp, yOp;
 let fish, shark, sharkLimit, sharkStep, fishFormula;
+let doWhileState = {};
+let whileState = {};
 
 function randomVarNames(count) {
   const pool = [
@@ -64,8 +66,14 @@ function generateLoop() {
   let outputString = "foo";
   let roll = Math.random();
 
-  //if (roll < 0.2) {
+  if (roll < 0.5) {
     outputString = makeWhileLoop();
+  } else {
+    outputString = makeDoWhileLoop();
+  }
+
+  //if (roll < 0.2) {
+  //  outputString = makeWhileLoop();
   // } else if (roll < 0.4) {
   //   outputString = makeForLoop();
   // } else if (roll < 0.6) {
@@ -81,8 +89,7 @@ function generateLoop() {
   document.getElementById("loopAnswer").innerText = "";
 }
 
-// WHILE LOOP GENERATOR
-let whileState = {};
+
 function makeWhileLoop(){
   loopType = "while";
   const [a, b] = randomVarNames(2);
@@ -91,7 +98,7 @@ function makeWhileLoop(){
   const aVal = Math.floor(Math.random() * 5);
   const bVal = Math.floor(Math.random() * 3) + 1;
   const bStep = Math.floor(Math.random() * 4) + 2;
-  const reps = Math.floor(Math.random() * 3) + 2;
+  const reps = Math.floor(Math.random() * 2) + 3;
   const bLimit = Math.pow(bStep, reps) - Math.floor(Math.random() * bStep);
 
   const formulas = [
@@ -108,7 +115,7 @@ function makeWhileLoop(){
   code += `while (${b} < ${bLimit}) {\n`;
   code += `  ${a} = ${aFormula};\n`;
   code += `  ${b} = ${b} * ${bStep};\n`;
-  code += `}\n`;
+  code += `}\n\n`;
   code += `console.log("${a} is " + ${a});\nconsole.log("${b} is " + ${b});`;
 
   return code;
@@ -190,25 +197,42 @@ function makeReverseForLoop(){
   return outputString;
 }
 
-function makeDoWhileLoop(){
-  let outputString = "";
+
+
+function makeDoWhileLoop() {
   loopType = "do-while";
-  fish = Math.floor(Math.random() * 5);
-  shark = Math.floor(Math.random() * 4) + 1;
-  sharkStep = Math.floor(Math.random() * 3) + 2;
-  sharkLimit = shark + sharkStep * Math.floor(Math.random() * 2 + 1) + sharkStep * Math.floor(Math.random() * 2 + 1) + Math.floor(Math.random() * 3 - 1);
+  const [a, b] = randomVarNames(2);
+  varNames = { a, b };
 
-  let fishOps = ["fish + shark", "fish + shark * 2", "fish * 2 + shark", "fish + shark + 1"];
-  fishFormula = fishOps[Math.floor(Math.random() * fishOps.length)];
+  const aVal = Math.floor(Math.random() * 5);
+  const bVal = Math.floor(Math.random() * 4) + 1;
+  const bStep = Math.floor(Math.random() * 2) + 3;
 
-  outputString += `let fish = ${fish};\nlet shark = ${shark};\n\n`;
-  outputString += `do {\n`;
-  outputString += `  fish = ${fishFormula};\n`;
-  outputString += `  shark = shark + ${sharkStep};\n`;
-  outputString += `} while (shark < ${sharkLimit});\n`;
-  outputString += `console.log("fish is " + fish);\nconsole.log("shark is " + shark);`;
-  return outputString;
+  const bLimit = bVal +
+    bStep * Math.floor(Math.random() * 2 + 1) +
+    bStep * Math.floor(Math.random() * 2 + 1) +
+    Math.floor(Math.random() * 3 - 1);
+
+  const formulas = [
+    `${a} + ${b}`,
+    `${a} + ${b} * 2`,
+    `${a} * 2 + ${b}`,
+    `${a} + ${b} + 1`
+  ];
+  const aFormula = formulas[Math.floor(Math.random() * formulas.length)];
+
+  doWhileState = { a, b, aVal, bVal, bStep, bLimit, aFormula };
+
+  let code = `let ${a} = ${aVal};\nlet ${b} = ${bVal};\n\n`;
+  code += `do {\n`;
+  code += `  ${a} = ${aFormula};\n`;
+  code += `  ${b} = ${b} + ${bStep};\n`;
+  code += `} while (${b} < ${bLimit});\n\n`;
+  code += `console.log("${a} is " + ${a});\nconsole.log("${b} is " + ${b});`;
+
+  return code;
 }
+
 
 
 function revealAnswer() {
@@ -256,13 +280,14 @@ function revealAnswer() {
     document.getElementById("loopAnswer").innerText = `Answer: x is ${xCopy}, y is ${yCopy}`;
   
   } else if (loopType === "do-while") {
-    let f = fish;
-    let s = shark;
+    let { a, b, aVal, bVal, bStep, bLimit, aFormula } = doWhileState;
+    let aCopy = aVal;
+    let bCopy = bVal;
     do {
-      f = eval(fishFormula.replace(/fish/g, f).replace(/shark/g, s));
-      s = s + sharkStep;
-    } while (s < sharkLimit);
-    document.getElementById("loopAnswer").innerText = `Answer: fish is ${f}, shark is ${s}`;
+      aCopy = eval(aFormula.replace(new RegExp(a, "g"), aCopy).replace(new RegExp(b, "g"), bCopy));
+      bCopy = bCopy + bStep;
+    } while (bCopy < bLimit);
+    document.getElementById("loopAnswer").innerText = `Answer: ${a} is ${aCopy}, ${b} is ${bCopy}`;
   }
 
 
