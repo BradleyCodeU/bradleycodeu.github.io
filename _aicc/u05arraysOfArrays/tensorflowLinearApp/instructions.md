@@ -8,71 +8,27 @@ NOTE: Use Google Docs, Notepad, or any other text editor to write down your answ
 
 Let's use a Tensorflow Linear Regression algorithm to complete some Algebra 1 problems.
 
-Copy/paste the following into a new p5js sketch:
+Here is the starting code:
 
+[sketch.js](../sketch.js)
+
+index.html:
 ```
-const xValues = [0];
-const yValues = [0];
-
-// Optional offset (like this.offset)
-const offset = 0;
-const xShifted = xValues.map(v => v + offset);
-
-// Normalize data for stability
-const xMean = tf.mean(xShifted);
-const xStd = tf.moments(tf.tensor1d(xShifted)).variance.sqrt();
-const yMean = tf.mean(yValues);
-const yStd = tf.moments(tf.tensor1d(yValues)).variance.sqrt();
-
-const xNorm = tf.tensor1d(xShifted).sub(xMean).div(xStd);
-const yNorm = tf.tensor1d(yValues).sub(yMean).div(yStd);
-
-// Trainable variables (slope m and intercept b)
-const m = tf.variable(tf.scalar(Math.random() * 0.1));
-const b = tf.variable(tf.scalar(0));
-
-// Linear regression model: y = m*x + b
-const predict = x => m.mul(x).add(b);
-
-// Loss function: mean squared error
-const loss = (pred, labels) => pred.sub(labels).square().mean();
-
-// Optimizer with smaller learning rate
-const optimizer = tf.train.sgd(0.001);
-
-async function trainModel() {
-    // TRAINING LOOP
-    for (let i = 0; i < 1; i++) {
-        optimizer.minimize(() => loss(predict(xNorm), yNorm));
-        if (i % 100 === 0) {
-            const l = loss(predict(xNorm), yNorm).dataSync()[0];
-            console.log(`Epoch ${i}: loss = ${l.toFixed(6)}`);
-        }
-    }
-
-    // Denormalize the slope & intercept
-    const mVal = m.dataSync()[0];
-    const bVal = b.dataSync()[0];
-
-    const slope = (mVal * (yStd.dataSync()[0] / xStd.dataSync()[0]));
-    const intercept = (bVal * yStd.dataSync()[0]) + yMean.dataSync()[0] - slope * xMean.dataSync()[0];
-
-    console.log(`Slope (m): ${slope.toFixed(4)}, Intercept (b): ${intercept.toFixed(4)}`);
-
-    // Predictions (denormalized)
-    const yPred = xShifted.map(x => slope * x + intercept);
-
-    plotResults(xValues, yValues, yPred);
-}
-
-function plotResults(x, y, yPred) {
-    const trace1 = { x, y, mode: "markers", type: "scatter", name: "Data" };
-    const trace2 = { x, y: yPred, mode: "lines", name: "Model" };
-    const layout = { title: "Linear Regression (TensorFlow.js)", xaxis: { title: "X" }, yaxis: { title: "Y" } };
-    Plotly.newPlot("plot", [trace1, trace2], layout);
-}
-
-trainModel();
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.plot.ly/plotly-3.1.0.min.js" charset="utf-8"></script>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+  <h2>Tensorflow Linear Regression App</h2>
+    <div id="spinner"></div>
+    <div id="plot"></div>
+    <script src="sketch.js"></script>
+  </body>
+</html>
 ```
 
 ## Algebra Questions
@@ -208,9 +164,9 @@ REMEMBER: For these last 3 questions, you should have the loop repeat 10 times, 
 
 With these points `(7, 9), (13, 21), (3, 1)` we *expect* that the slope will be 2. 
 
-What is the minimum amount of repetitions needed to get the correct slope from the algorithm?
+5a. What is the minimum amount of repetitions needed to get the correct slope from the algorithm? In other words... how many epochs were needed for the loss to reach 0.000000?
 
-What happens to the `loss` every 100 repetitions?
+5b. What happens to the `loss` every 100 repetitions?
 
 ## Question 6
 
@@ -218,7 +174,7 @@ REMEMBER: For these last 3 questions, you should have the loop repeat 10 times, 
 
 With these points `(-1, 10), (1, 2), (3, -6), (5, -14)` we *expect* that the slope will be -4. 
 
-What is the minimum amount of repetitions needed to get the correct slope from the algorithm?
+Q6. What is the minimum amount of repetitions needed to get the correct slope from the algorithm?  In other words... how many epochs were needed for the loss to reach 0.000000?
 
 ## Question 7
 
@@ -226,4 +182,6 @@ REMEMBER: For these last 3 questions, you should have the loop repeat 10 times, 
 
 With points `(8,9), (13,11), (3,1), (9,13), (1,4)` linear regression will find the "line of best fit" by minimizing the loss.
 
-What is the minimum amount of repetitions needed to get the least amount of loss?
+7a.  Will the loss ever reach 0.000000, yes or no? 
+
+7b. What is the minimum amount of repetitions needed to get the least amount of loss?
