@@ -1,7 +1,7 @@
 ---
 layout: project
 category: u05arraysOfArrays
-title: Logistic Hiring
+title: Logistic Hiring App
 ---
 
 NOTE: Use Google Docs, Notepad, or any other text editor to write down your answers. 
@@ -14,7 +14,7 @@ The use of A.I. can make hiring faster and more efficient, but there are still e
 
 Camp Anawanna is hiring new Summer Camp Counselors. There are 3 hiring factors: age, years of work experience, number of hikes.
 
-Let's use TensorFlow to make a Logistic Regression Hiring Algorithm.
+Let's use TensorFlow to make a Logistic Regression Hiring App.
 
 Starter code is provided:
 
@@ -266,7 +266,7 @@ Hire This Applicant?: 0 ❌ (confidence 0.0%)
 
 ## Human Resources
 
-Mr Riley is confident that the Hiring Prediction algorithm is working well and meets with David, the executive director of human resources for Camp Anawanna.
+Mr Riley is confident that the Hiring Prediction App is working well and meets with David, the executive director of human resources for Camp Anawanna.
 
 David wants to change two actual entries in the training data from 1 (hired) to 0 (not hired)
 ```

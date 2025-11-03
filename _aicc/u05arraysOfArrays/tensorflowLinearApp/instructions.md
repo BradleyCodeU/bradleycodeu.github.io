@@ -1,7 +1,7 @@
 ---
 layout: project
 category: u05arraysOfArrays
-title: Tensorflow Linear
+title: Tensorflow Linear Regression App
 ---
 
 NOTE: Use Google Docs, Notepad, or any other text editor to write down your answers. 
