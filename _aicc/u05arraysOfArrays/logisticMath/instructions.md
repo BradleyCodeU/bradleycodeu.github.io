@@ -160,36 +160,13 @@ for(???){ // TODO write a loop
 Make a confusion matrix for Mr Riley's hiring algorithm.
 
 Fill in the results
-
-<table style="border-collapse: collapse; width: 100%; text-align: center;" border="1" cellpadding="10">
-    <caption><strong>Mr Riley's Hiring Prediction Algorithm</strong></caption>
-    <tbody>
-        <tr>
-            <th></th>
-            <th>Actual Hired</th>
-            <th>Actual Not Hired</th>
-            <th> </th>
-        </tr>
-        <tr>
-            <th>Predicted Hired</th>
-            <td>___ True Positives</td>
-            <td>___ False Positives</td>
-            <td><small>total pred positives<br>___</small></td>
-        </tr>
-        <tr>
-            <th>Pred Not Hired</th>
-            <td>___ False Negatives</td>
-            <td>___ True Negatives</td>
-            <td><small>total pred negatives<br>___</small></td>
-        </tr>
-        <tr>
-            <th> </th>
-            <td><small>total actual positives<br>___</small></td>
-            <td><small>total actual negative<br>___</small></td>
-            <td><small>total count<br>___  </small></td>
-        </tr>
-    </tbody>
-</table>
+```
+       | Actual 1 | Actual 0
+----------------------------
+Pred 1 |  ___ TP  |  ___ FP
+----------------------------
+Pred 0 |  ___ FN  |  ___ TN
+```
 
 
 
