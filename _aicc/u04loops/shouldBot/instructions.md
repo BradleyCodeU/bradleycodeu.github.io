@@ -95,6 +95,9 @@ function addUserInterface(){
 // Display one message on the canvas with a color based on who is speaking.
 // It can show the user's move, the bot's move, or the result of a round.
 function displayMessage(username, textString){
+  if(textY >  height * 0.9){
+    resetMessages();
+  }
   // Check if the username equals "User"
   if(???) { // TODO
     // Set the fill color for the user's message
