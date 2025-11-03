@@ -47,9 +47,10 @@ SOURCE: [https://developers.google.com/machine-learning/crash-course/logistic-re
 
 First, let's use a linear function. Notice that the format is similar to y=mx+b
 
-$$
+
 z = b + w_1 * x_1 + w_2 * x_2 + … + w_N * x_N
-$$
+
+<img src="https://latex.codecogs.com/gif.latex? z = b + w_1 * x_1 + w_2 * x_2 + … + w_N * x_N ">
 
 where:
 
@@ -64,13 +65,10 @@ We have 3 x-values (x1 is age, x2 is years of work experience, x3 is number of h
 The regression algorithm will randomly pick weights and bias, then carefully adjust those values in order to reduce loss. Mr. Riley has picked the following random weights and bais:
 
 $$
-\begin{align}
-  b &= -1 \\
-  w_1 &= 0.025 \\
-  w_2 &= -0.015 \\
-  w_3 &= 0.012
-\end{align}
+\begin{align}b &= -1 \\w_1 &= 0.025 \\w_2 &= -0.015 \\w_3 &= 0.012\end{align}
 $$
+
+<img src="https://latex.codecogs.com/gif.latex? z\begin{align}b &= -1 \\w_1 &= 0.025 \\w_2 &= -0.015 \\w_3 &= 0.012\end{align} ">
 
 In Javascript our equation looks like this using the first person in our training data.
 ```
