@@ -10,7 +10,7 @@ The use of A.I. can make hiring faster and more efficient, but there are still e
 
 [https://en.wikipedia.org/wiki/Artificial_intelligence_in_hiring](https://en.wikipedia.org/wiki/Artificial_intelligence_in_hiring)
 
-
+## Hiring Summer Camp Counselors
 
 Camp Anawanna is hiring new Summer Camp Counselors. There are 3 hiring factors: age, years of work experience, number of hikes.
 
@@ -110,10 +110,10 @@ Record the following:
 ```
 Question 1:
 
-         Actual 1 | Actual 0
-        --------------------
+       | Actual 1 | Actual 0
+----------------------------
 Pred 1 |  ___ TP  |  ___ FP
-        --------------------
+----------------------------
 Pred 0 |  ___ FN  |  ___ TN
 ```
 
@@ -188,10 +188,10 @@ Record the following:
 ```
 Question 6:
 
-         Actual 1 | Actual 0
-        --------------------
+       | Actual 1 | Actual 0
+----------------------------
 Pred 1 |  ___ TP  |  ___ FP
-        --------------------
+----------------------------
 Pred 0 |  ___ FN  |  ___ TN
 ```
 
