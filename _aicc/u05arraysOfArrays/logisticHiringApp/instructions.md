@@ -130,7 +130,7 @@ Accuracy: (TP + TN) / total count
 
 Precision: TP / total pred positives
 
-Specificity: TN / total pred negatives
+Specificity: TN / total actual negatives
 ```
 
 ## Question 3:
@@ -208,7 +208,7 @@ Accuracy: (TP + TN) / total count
 
 Precision: TP / total pred positives
 
-Specificity: TN / total pred negatives
+Specificity: TN / total actual negatives
 ```
 
 ## Question 8:
