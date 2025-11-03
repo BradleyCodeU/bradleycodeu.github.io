@@ -11,6 +11,7 @@ Camp Anawanna is hiring new Summer Camp Counselors. There are 3 hiring factors: 
 ### How can we create an equation to automate the hiring process?
 
 In the last few years, ten people have applied to be a camp counselors. Here is their data...
+
 | Age | Experience | Hikes | 0=Not Hired, 1=Hired |
 |-----|---------------------|--------|-----------------------------|
 | 25  | 7                   | 10     | 0                           |
