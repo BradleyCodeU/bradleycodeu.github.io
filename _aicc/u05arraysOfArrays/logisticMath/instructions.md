@@ -48,9 +48,11 @@ SOURCE: [https://developers.google.com/machine-learning/crash-course/logistic-re
 First, let's use a linear function. Notice that the format is similar to y=mx+b
 
 
+$$
 z = b + w_1 * x_1 + w_2 * x_2 + … + w_N * x_N
+$$
 
-<img src="https://latex.codecogs.com/gif.latex? z = b + w_1 * x_1 + w_2 * x_2 + … + w_N * x_N ">
+![Math equation z = b + w_1 * x_1 + w_2 * x_2 + … + w_N * x_N](../zbw1x1w2x2wNxN.png)
 
 where:
 
@@ -68,7 +70,7 @@ $$
 \begin{align}b &= -1 \\w_1 &= 0.025 \\w_2 &= -0.015 \\w_3 &= 0.012\end{align}
 $$
 
-<img src="https://latex.codecogs.com/gif.latex? z\begin{align}b &= -1 \\w_1 &= 0.025 \\w_2 &= -0.015 \\w_3 &= 0.012\end{align} ">
+![Math variables, b = -1, w_1 = 0.025, w_2 = -0.015, w_3 = 0.012](../biasAndWeights.png)
 
 In Javascript our equation looks like this using the first person in our training data.
 ```
@@ -85,6 +87,8 @@ To obtain the logistic regression prediction, the z value is then passed to the 
 $$
 y' = \frac{1}{1 + e^{-z}}
 $$
+
+![Math equation, y = 1 / 1 - e^-z](../yfrac11ez.png)
 
 where:
 
