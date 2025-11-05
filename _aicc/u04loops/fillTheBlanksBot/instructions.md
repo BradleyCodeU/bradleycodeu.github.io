@@ -60,9 +60,14 @@ function resetMessages(){
 }
 
 // replaceMultipleSpaces() replaces extra spaces with a single space
-function replaceMultipleSpaces(someText){
-  // Use regex to find all sequences of spaces and replace them with one space
-  return someText.replace(/\s+/g, " ");
+function replaceMultipleSpaces(mystr){
+  if(mystr.length < 2){
+    return mystr;
+  }
+  if(mystr.substring(0,1) === " " && mystr.substring(1,2) === " "){
+    return removeMultipleSpaces(mystr.substring(1));
+  }
+  return mystr.substring(0,1) + removeMultipleSpaces(mystr.substring(1));
 }
 
 function keyPressed(){
