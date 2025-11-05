@@ -99,7 +99,7 @@ function makeWhileLoop(){
   const bVal = Math.floor(Math.random() * 3) + 1;
   const bStep = Math.floor(Math.random() * 4) + 2;
   const reps = Math.floor(Math.random() * 2) + 3;
-  const bLimit = Math.pow(bStep, reps) - Math.floor(Math.random() * bStep);
+  const bLimit = Math.pow(bStep, reps) - Math.floor(Math.random() * bStep) + Math.floor(Math.random() * 3 - 1);
 
   const formulas = [
     `${a} + ${b} - 1`,
