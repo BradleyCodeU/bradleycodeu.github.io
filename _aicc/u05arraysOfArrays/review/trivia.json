@@ -73,7 +73,7 @@
   },
   {
     "answer": "receiver operating characteristic curve",
-    "question": "Stands for Receiver Operating Characteristic Curve, the plot of True Positive Rate against the False Positive Rate for model results"
+    "question": "the plot of True Positive Rate against the False Positive Rate for model results"
   },
   {
     "answer": "sensitivity",
