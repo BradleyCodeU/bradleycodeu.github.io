@@ -1,6 +1,6 @@
 ---
 layout: project
-category: u05arraysOfArrays
+category: u05_arrays_of_arrays
 title: Tensorflow Linear Regression App
 ---
 

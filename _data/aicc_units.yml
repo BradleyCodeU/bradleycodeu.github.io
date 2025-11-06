@@ -55,7 +55,7 @@ aicc:
 
 1. **[u04loops](#u04loops)** - *? wks*
 
-1. **[u05arraysOfArrays](#u05arraysOfArrays)** - *? wks*
+1. **[u05_arrays_of_arrays](#u05_arrays_of_arrays)** - *? wks*
 
 
 "
@@ -198,22 +198,22 @@ for loop, while loop, for-each loop, reverse for loop
 
 "
 
-- title: u05arraysOfArrays
-  heading: "# u05arraysOfArrays"
+- title: u05_arrays_of_arrays
+  heading: "# u05_arrays_of_arrays"
   content: "*2 weeks*
 
 
-1. [Graphing with P5](/aicc/u05arraysOfArrays/graphingWithP5/instructions/)
+1. [Graphing with P5](/aicc/u05_arrays_of_arrays/graphingWithP5/instructions/)
 
-1. [Testing 2D Fun](/aicc/u05arraysOfArrays/testing2dFun/instructions/)
+1. [Testing 2D Fun](/aicc/u05_arrays_of_arrays/testing2dFun/instructions/)
 
-1. [TensorFlow Linear Regression App](/aicc/u05arraysOfArrays/tensorflowLinearApp/instructions/)
+1. [TensorFlow Linear Regression App](/aicc/u05_arrays_of_arrays/tensorflowLinearApp/instructions/)
 
-1. [Logistic Hiring App](/aicc/u05arraysOfArrays/logisticHiringApp/instructions/)
+1. [Logistic Hiring App](/aicc/u05_arrays_of_arrays/logisticHiringApp/instructions/)
 
-1. [Making Tensors](/aicc/u05arraysOfArrays/makingTensors/instructions/)
+1. [Making Tensors](/aicc/u05_arrays_of_arrays/makingTensors/instructions/)
 
-1. [Logistic Math](/aicc/u05arraysOfArrays/logisticMath/instructions/)
+1. [Logistic Math](/aicc/u05_arrays_of_arrays/logisticMath/instructions/)
 
 
 
