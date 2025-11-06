@@ -45,13 +45,11 @@ const trainingData = [
 
 SOURCE: [https://developers.google.com/machine-learning/crash-course/logistic-regression/sigmoid-function](https://developers.google.com/machine-learning/crash-course/logistic-regression/sigmoid-function)
 
-First, let's use a linear function. Notice that the format is similar to y=mx+b
-
+First, let's use a linear function. Notice that the format is similar to y=mx+b, the slope-intercept form of a linear equation.
 
 $$
 z = b + w_1 * x_1 + w_2 * x_2 + … + w_N * x_N
 $$
-
 
 ![Math equation z = b + w_1 * x_1 + w_2 * x_2 + … + w_N * x_N](../zbw1x1w2x2wNxN.png)
 
@@ -62,6 +60,7 @@ where:
 - The w values are the model's learned weights.
 - The x values are the feature values for a particular example.
 
+**IMPORTANT NOTE**: Bias here does NOT mean unequal representation or treatment of people based on attributes such as age, gender, race, or socioeconomic status. The term Bias here means y-intercept.
 
 We have 3 x-values (x1 is age, x2 is years of work experience, x3 is number of hikes). 
 
@@ -71,7 +70,6 @@ The regression algorithm will randomly pick weights and bias, then carefully adj
 $$
 \begin{align}b &= -1 \\w_1 &= 0.025 \\w_2 &= -0.015 \\w_3 &= 0.012\end{align}
 $$
-
 
 ![Math variables, b = -1, w_1 = 0.025, w_2 = -0.015, w_3 = 0.012](../biasAndWeights.png)
 
@@ -91,7 +89,6 @@ To obtain the logistic regression prediction, the z value is then passed to the 
 $$
 y' = \frac{1}{1 + e^{-z}}
 $$
-
 
 ![Math equation, y = 1 / 1 - e^-z](../yfrac11ez.png)
 
@@ -191,6 +188,10 @@ Precision: TP / total pred positives
 Specificity: TN / total actual negatives
 ```
 
+
+
+## Question 3.
+
 *Do It Yourself*
 
 Make YOUR Hiring Prediction Algorithm
@@ -204,8 +205,6 @@ Using the previous Javascript code, pick random values for bias and the weights.
 - Your algorithm must give different results than Mr Riley's algorithm
 
 You will likely need to test out a few different values. 
-
-## Question 3.
 
 Write down your bias and weights:
 ```
