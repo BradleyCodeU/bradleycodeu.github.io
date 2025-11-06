@@ -47,10 +47,11 @@ SOURCE: [https://developers.google.com/machine-learning/crash-course/logistic-re
 
 First, let's use a linear function. Notice that the format is similar to y=mx+b
 
-
+<!-- 
 $$
 z = b + w_1 * x_1 + w_2 * x_2 + … + w_N * x_N
 $$
+-->
 
 ![Math equation z = b + w_1 * x_1 + w_2 * x_2 + … + w_N * x_N](../zbw1x1w2x2wNxN.png)
 
@@ -66,9 +67,11 @@ We have 3 x-values (x1 is age, x2 is years of work experience, x3 is number of h
 
 The regression algorithm will randomly pick weights and bias, then carefully adjust those values in order to reduce loss. Mr. Riley has picked the following random weights and bais:
 
+<!-- 
 $$
 \begin{align}b &= -1 \\w_1 &= 0.025 \\w_2 &= -0.015 \\w_3 &= 0.012\end{align}
 $$
+-->
 
 ![Math variables, b = -1, w_1 = 0.025, w_2 = -0.015, w_3 = 0.012](../biasAndWeights.png)
 
@@ -84,9 +87,11 @@ let z = bias + weights[0] * age + weights[1] * experience + weights[2] * hikes;
 
 To obtain the logistic regression prediction, the z value is then passed to the sigmoid function, yielding a value (a probability) between 0 and 1:
 
+<!-- 
 $$
 y' = \frac{1}{1 + e^{-z}}
 $$
+-->
 
 ![Math equation, y = 1 / 1 - e^-z](../yfrac11ez.png)
 
