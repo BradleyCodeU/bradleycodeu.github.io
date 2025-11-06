@@ -55,6 +55,8 @@ aicc:
 
 1. **[u04loops](#u04loops)** - *? wks*
 
+1. **[u05arraysOfArrays](#u05arraysOfArrays)** - *? wks*
+
 
 "
 
@@ -175,6 +177,8 @@ length, push, splice
 1. [Should Bot](/aicc/u04loops/shouldBot/instructions/)
 
 1. [RPS Trigrams](/aicc/u04loops/rpsTrigrams/instructions/)
+
+1. [Fill The Blanks Bot](/aicc/u04loops/fillTheBlanksBot/instructions/)
 
 1. [Expert System](/aicc/u04loops/expertSystem/instructions/)
 
