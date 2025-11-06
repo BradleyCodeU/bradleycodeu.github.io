@@ -160,9 +160,7 @@ for(???){ // TODO write a loop
 
 ## Question 1.
 
-#### Confusion Matrix
-
-
+*Confusion Matrix*
 
 Make a confusion matrix for Mr Riley's hiring algorithm.
 
@@ -179,7 +177,7 @@ Pred 0 |  ___ FN  |  ___ TN
 
 ## Question 2.
 
-##### Recall, Accuracy, Precision, and Specificity
+*Recall, Accuracy, Precision, and Specificity*
 
 Calculate the following for Mr Riley's algorithm. SHOW YOUR WORK. The most important thing is that you are able to fill in the equations with the correct values from the data.
 
@@ -193,7 +191,7 @@ Precision: TP / total pred positives
 Specificity: TN / total actual negatives
 ```
 
-#### Do It Yourself
+*Do It Yourself*
 
 Make YOUR Hiring Prediction Algorithm
 
