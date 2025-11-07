@@ -86,7 +86,7 @@ async function trainModel() {
     shuffle: true,
     verbose: 0,
   });
-  outputEl.textContent = "Model trained! 🚀";
+  outputEl.textContent = "Model trained! 🚀 Adjust sliders and click Predict.";
   spinner.style.display = "none"; // hide spinner
   predictBtn.disabled = false;
   await drawConfusionMatrix();
