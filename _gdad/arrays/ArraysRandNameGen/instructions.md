@@ -22,6 +22,17 @@ Shadow Luigi's Witchy World
 Super Wars the Return of Ghost Burger
 ```
 
+Another example...
+```
+Pony Generator
+
+Pretty Pretty Saddle from Buckingham Palace
+Cutie-Pie Pegasus from Canter-bury
+Bouncy Boi from Oat-lanta
+Yeetable Lasso from Hilliard
+Absolute Unit Unicorn from Colt-lumbus
+```
+
 Check out @BookTitleBot for another example: [https://twitter.com/booktitlebot](https://twitter.com/booktitlebot)  All of these tweets are being randomly generated based on lists of nouns, verbs, names, places, etc.
 
 ```
