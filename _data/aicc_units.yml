@@ -55,8 +55,6 @@ aicc:
 
 1. **[u04loops](#u04loops)** - *? wks*
 
-1. **[u05_arrays_of_arrays](#u05_arrays_of_arrays)** - *? wks*
-
 
 "
 
@@ -197,6 +195,17 @@ for loop, while loop, for-each loop, reverse for loop
 
 
 "
+
+
+- title: menu2
+  content: "[2nd Quarter](#2nd-quarter)
+
+
+1. **[u05_arrays_of_arrays](#u05_arrays_of_arrays)** - *? wks*
+
+"
+
+
 
 - title: u05_arrays_of_arrays
   heading: "# u05_arrays_of_arrays"
