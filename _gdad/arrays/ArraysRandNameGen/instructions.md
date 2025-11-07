@@ -32,3 +32,11 @@ Copper the Wolf's Perlious Journey through Burger king
 Matthew and the Squirrel go to Taco Bell
 ```
   
+
+## CHALLENGE
+
+Add a summary / details section
+
+- The summary should say "Add more words"
+
+- In the details section, create 3 text boxes and an ADD button. Nothing needs to happen when the button is pressed.
