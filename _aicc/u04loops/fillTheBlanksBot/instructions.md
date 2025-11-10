@@ -119,11 +119,11 @@ function sendMessage(){
   // Check if the user's message contains a "*"
   if(userMessage.indexOf(???) ??? ???){ // TODO
     // There IS a "*" in the user input
-    // Replace exclamation marks with periods for consistency
-    let fixedPunctuationInput = replacePunctuation(???, ???, ???); // TODO
-    // Replace question marks with periods for consistency
-    fixedPunctuationInput = replacePunctuation(???, ???, ???); // TODO
-    // Use the trained model to predict a word to replace the "*"
+    // swap exclamation marks with periods for consistency
+    let fixedPunctuationInput = swapPunctuation(???, ???, ???); // TODO
+    // swap question marks with periods for consistency
+    fixedPunctuationInput = swapPunctuation(???, ???, ???); // TODO
+    // Use the trained model to predict a word to use instead of "*"
     botMessage = predict(fixedPunctuationInput);
   }
   else{
@@ -140,7 +140,7 @@ function sendMessage(){
 ### Predict
 
 ```
-// predict() replaces "*" in user input with a predicted word
+// predict() look up a predicted word to use instead of "*"
 function predict(userInput){
   // Initialize an empty array to store the output words
   let result = [];
@@ -159,7 +159,7 @@ function predict(userInput){
       // Add the word into the result array
       ??? // TODO
     } 
-    // If the word is an asterisk, try to predict a replacement
+    // If the word is an asterisk, try to predict a swap
     else {
       // Combine the previous and next words as a key
       let previousAndNext = ??? + "*" + ??? // TODO
@@ -210,17 +210,17 @@ function addWordsToDictionary(wordArray){
 }
 ```
 
-### Replace Punctuation
+### Swap Punctuation
 
 ```
-// replacePunctuation() replaces one punctuation character with another
-function replacePunctuation(someText, punctuationCharacter, replaceCharacter){
+// swapPunctuation() swaps one punctuation character with another
+function swapPunctuation(someText, punctuationCharacter, swapCharacter){
   // Find the first occurrence of the punctuation character
   let index = someText.indexOf(???); // TODO
   // Continue until there are no more occurrences of that punctuation
   while (index ??? ???) { // TODO
-    // Replace the punctuation character with the replacement character
-    someText = someText.substring(0, index) + replaceCharacter + ??? // TODO
+    // swap the punctuation character with the swap character
+    someText = someText.substring(0, index) + swapCharacter + ??? // TODO
     // Find the next occurrence
     index = someText.indexOf(???); // TODO
   }
@@ -236,12 +236,12 @@ function replacePunctuation(someText, punctuationCharacter, replaceCharacter){
 function trainModel(myText){
   // Convert all characters to lowercase for consistency
   myText = myText.toLowerCase();
-  // Replace multiple spaces with a single space
+  // shrink multiple spaces down to a single space
   let fixedMultipleSpaces = shrinkMultipleSpaces(???); // TODO
-  // Replace exclamation marks with periods
-  let fixedPunctuationText = replacePunctuation(???, ???, ???); // TODO
-  // Replace question marks with periods
-  fixedPunctuationText = replacePunctuation(fixedPunctuationText, ???, ???); // TODO
+  // swap exclamation marks with periods
+  let fixedPunctuationText = swapPunctuation(???, ???, ???); // TODO
+  // swap question marks with periods
+  fixedPunctuationText = swapPunctuation(fixedPunctuationText, ???, ???); // TODO
   // Split text into an array of sentences using ". " as the delimiter
   let sentenceArray = fixedPunctuationText.??? // TODO
 
