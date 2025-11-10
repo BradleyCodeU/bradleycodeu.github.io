@@ -59,15 +59,15 @@ function resetMessages(){
   background(???); // TODO
 }
 
-// replaceMultipleSpaces() replaces extra spaces with a single space
-function replaceMultipleSpaces(mystr){
+// shrinkMultipleSpaces() recursively removes extra spaces and keeps only a single space
+function shrinkMultipleSpaces(mystr){
   if(mystr.length < 2){
     return mystr;
   }
   if(mystr.substring(0,1) === " " && mystr.substring(1,2) === " "){
-    return removeMultipleSpaces(mystr.substring(1));
+    return shrinkMultipleSpaces(mystr.substring(1));
   }
-  return mystr.substring(0,1) + removeMultipleSpaces(mystr.substring(1));
+  return mystr.substring(0,1) + shrinkMultipleSpaces(mystr.substring(1));
 }
 
 function keyPressed(){
@@ -237,7 +237,7 @@ function trainModel(myText){
   // Convert all characters to lowercase for consistency
   myText = myText.toLowerCase();
   // Replace multiple spaces with a single space
-  let fixedMultipleSpaces = replaceMultipleSpaces(???); // TODO
+  let fixedMultipleSpaces = shrinkMultipleSpaces(???); // TODO
   // Replace exclamation marks with periods
   let fixedPunctuationText = replacePunctuation(???, ???, ???); // TODO
   // Replace question marks with periods
