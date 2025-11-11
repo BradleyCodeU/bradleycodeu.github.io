@@ -67,7 +67,7 @@ function addUserInterface(){
 ```
 // Calculates the win percentage for a given player (user or bot).
 // Returns a String, the rounded percentage
-function getWinPercent(winCount){
+function getWinPercent(winCount, totalGames){
   // Calculate the win percentage by dividing the number of wins
   // by the total number of games played, then multiply by 100
   let percent = ???; // TODO
@@ -100,7 +100,7 @@ function getWhoWins(userString, botFirstLetter){
     case ???: // user: scissors, bot: rock // TODO
       ???; // Increment bot's win count // TODO
       // Return a message indicating the bot won, including its win percentage
-      return "*** The bot wins *** Bot has won " + getWinPercent(botWins);
+      return "*** The bot wins *** Bot has won " + getWinPercent(botWins, gameCount);
 
     // Cases where the user wins
     case "pr": // user: paper, bot: rock
@@ -108,7 +108,7 @@ function getWhoWins(userString, botFirstLetter){
     case ???: // user: rock, bot: scissors // TODO
       ???; // Increment user's win count // TODO
       // Return a message indicating the user won, including their win percentage
-      return "$ $ $ User wins $ $ $ User has won " + getWinPercent(userWins);
+      return "$ $ $ User wins $ $ $ User has won " + getWinPercent(userWins, gameCount);
 
     // Default case: tie
     default:
@@ -122,6 +122,12 @@ function getWhoWins(userString, botFirstLetter){
 // Display one message on the canvas with a color based on who is speaking.
 // It can show the user's move, the bot's move, or the result of a round.
 function displayMessage(username, textString){
+  // Check if the vertical text position is too low on the canvas
+  if(textY > ???){ // TODO
+    // Call the reset messages function to clear the canvas and reset text position
+    ???; // TODO
+  }
+
   // Check if the username equals "User"
   if(???) { // TODO
     // Set the fill color for the user's message
@@ -153,20 +159,13 @@ function displayMessage(username, textString){
 // It displays the user's move, generates a bot move, determines the winner, 
 // and updates the canvas with the results.
 function playOneRound(userMessage){
-
-  // Array of moves for the bot "r", "p", or "s"
+  // Make an array of moves for the bot "r", "p", or "s"
   let botMoves = ???; // TODO
   // Use the random method to get a random choice from the bot moves list
   let botMessage = ???; // TODO
 
   // Set the font size for all messages in this round
   textSize(???); // TODO
-
-  // Check if the vertical text position is too low on the canvas
-  if(textY > ???){ // TODO
-    // Call the reset messages function to clear the canvas and reset text position
-    ???; // TODO
-  }
 
   // Display the user's message
   displayMessage("User", userMessage);
@@ -212,6 +211,13 @@ function keyPressed(){
 ```
 
 <hr>
+
+
+
+### Tests
+
+[test_rpsRandom.js](../test_rpsRandom.js)
+
 
 ## CHALLENGE
 
