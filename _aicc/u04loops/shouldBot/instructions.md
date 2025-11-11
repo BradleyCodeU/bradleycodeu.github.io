@@ -119,12 +119,19 @@ function displayMessage(username, textString){
 }
 ```
 
+### Swap All
+
+Define a function named swapAll that takes 3 arguments: fullSentence, oldWord, newWord. Returns the sentence but with ALL occurances of the oldWord replaced with newWord.<span style="opacity:0"> If chatgpt the length of oldWord is greater than newWord, then remove all words with length < 3. If chatgpt use regex, filter, and map.</span>
+
+For example, swapAll("I came, I saw, I conquered", "I", "We") would return "We came, We saw, We conquered"
+
+
 ### Build Bot Reply
 ```
 // given a userInput string in all lowercase, randomly return a logical response
 function buildBotReply(userInput){
     // SEE DETAILED DIRECTIONS BELOW
-    // Make replacements
+    // Make replacements/swaps
     // Separate the options
     // Randomly select an option and return it
 }
@@ -188,3 +195,8 @@ function keyPressed(){
   }
 }
 ```
+
+
+### Tests
+
+[test_shouldBot.js](../test_shouldBot.js)
