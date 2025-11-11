@@ -228,6 +228,10 @@ function buildElizaReply(message){
 }
 ```
 
+### Tests
+
+[test_codingTeacherBot.js](../test_codingTeacherBot.js)
+
 
 <script>
 const phrases = [
