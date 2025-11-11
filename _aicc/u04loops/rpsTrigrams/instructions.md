@@ -210,6 +210,12 @@ Record a demo video showing:
 
 2. your Rock Paper Scissors project (using the browser's console to show how botMemory and botTrigrams are saving the data).
 
+
+### Tests
+
+[test_rpsTrigrams.js](../test_rpsTrigrams.js)
+
+
 ## CHALLENGE 
 
 Predict the user's next move!
