@@ -34,13 +34,13 @@ function resetGlobals() {
 }
 
 
-// 1️⃣ replacePunctuation()
+// 1️⃣ swapPunctuation()
 resetGlobals();
-let result1 = replacePunctuation("hello!world!", "!", ".");
-console.assert(result1 === "hello.world.", "replacePunctuation should replace all '!' with '.'");
+let result1 = swapPunctuation("hello!world!", "!", ".");
+console.assert(result1 === "hello.world.", "swapPunctuation should replace all '!' with '.'");
 
-let result2 = replacePunctuation("what? huh?", "?", "!");
-console.assert(result2 === "what! huh!", "replacePunctuation should replace all '?' with '!'");
+let result2 = swapPunctuation("what? huh?", "?", "!");
+console.assert(result2 === "what! huh!", "swapPunctuation should replace all '?' with '!'");
 
 
 // 2️⃣ addWordsToDictionary()
