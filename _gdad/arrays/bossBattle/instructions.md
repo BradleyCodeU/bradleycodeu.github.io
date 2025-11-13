@@ -68,3 +68,7 @@ function fight(weapon){
   checkForWins();
 }
 ```
+
+### CHALLENGE
+
+Make the background turn green if the player wins and red if the player loses.

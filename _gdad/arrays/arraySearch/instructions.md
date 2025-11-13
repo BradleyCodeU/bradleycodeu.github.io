@@ -4,7 +4,7 @@
 In your HTML file, create...
   - an h1 with the id "introTextHeading" and says something like "Welcome to Mo's Popular Movie Search"
   - a text input box with the id "textBox"
-  - a button that says "Search"
+  - a button that says "SEARCH"
   - a div with the id "resultsBox" and inside of the div:
     - an empty unordered list with the id "resultsUL"
 
@@ -41,6 +41,7 @@ Create a function called search()
   - get the user input from textBox and save it in a variable named searchText
   - erase the old text from textBox
   - for each item of the array
+    - make a comment that says // check if item contains searchText
     - if the item contains the searchText
       - increase counter by 1
       - call the addToList function and give it the item as an argument
@@ -50,9 +51,66 @@ Create a function called search()
 
 
 Your search should be working, BUT it doesn't remove old search results. It just keeps adding new results to the bottom. Create a function called removeOldList()
-  - while the resultsList has a firstChild
-    - use resultsList.removeChild() to remove resultsList.firstChild
+  - set the innerHTML of the resultsUL to be ""
 
 
 Finally, at the top of your search function call the removeOldList function.
   
+### CHALLENGE
+
+1. Delete your SEARCH button. Change the text input so that it calls the search() function oninput.
+
+2. Change your search() function. Below "// check if item contains searchText" you will use a new function fuzzySearch.
+
+Like this... `if (fuzzySearch(item, searchText)){`
+
+3. Fill in the blanks ??? in the code below to define the new fuzzySearch function. Requires two arguments: item and searchText
+
+```
+// Performs a more-inclusive, fuzzy search
+// 1. Converts both strings to lowercase
+// 2. Checks for a direct, simple inclusion (the "old search style")
+// 3. If no direct match, checks if the item contains *ANY* 3-letter cluster from the search term
+// @param {string} item - The string to search within (e.g., "An Apple a day")
+// @param {string} searchText - The search term (e.g., "applesauce")
+// @returns {boolean} - True if it's a match, false otherwise
+// For example, fuzzySearch("An Apple a day", "applesauce") would return true
+
+
+function fuzzySearch(item, searchText) {
+
+    // TODO If search is an empty string "", return false
+    if (??? == ???) {
+        return false;
+    }
+
+    // convert BOTH the item String and searchText String to lowercase
+    item = item.toLowerCase();
+    // TODO convert searchText to lowercase
+    ???
+
+    // do the old search style, does the item text contain searchText
+    if(???){
+      return true;
+    }
+
+    // make an array of 3-letter clusters from searchText
+    let clusters = []; // Start with an empty array
+
+    for (let i = 0; i <= searchText.length - 3; i++) {
+        // string.substring(from, to)
+        let letterCluster = searchText.substring(i, i + 3);
+        // TODO push the letterCluster into the array. for example, array.push(item)
+        ???
+    }
+
+    // loop thru the array of clusters and check each one
+    for (let eachCluster of clusters){
+      if (item.includes(eachCluster)){
+        return true;
+      }
+    }
+
+    return false; // we didn't find any matches
+}
+```
