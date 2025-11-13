@@ -145,7 +145,7 @@ function predict(age, experience, hikes){
 }
 
 function main(){
-    for(???){ // TODO write a loop
+    for(???){ // TODO loop through the training data
         let age = ???; // TODO get index 0
         let experience = ???; // TODO
         let hikes = ???; // TODO
