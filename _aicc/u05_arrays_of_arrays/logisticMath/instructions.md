@@ -144,15 +144,19 @@ function predict(age, experience, hikes){
     return ???; // TODO what should be returned???
 }
 
-for(???){ // TODO write a loop
-    let age = ???; // TODO get index 0
-    let experience = ???; // TODO
-    let hikes = ???; // TODO
-    let actual = ??? // TODO get index 3
-    let inputStr = age + "," + experience + "," + hikes;
-    let y = predict(age, experience, hikes);
-    console.log(inputStr + ", Actual: " + actual + ", Predicted: " + y);
+function main(){
+    for(???){ // TODO write a loop
+        let age = ???; // TODO get index 0
+        let experience = ???; // TODO
+        let hikes = ???; // TODO
+        let actual = ??? // TODO get index 3
+        let inputStr = age + "," + experience + "," + hikes;
+        let y = predict(age, experience, hikes);
+        console.log(inputStr + ", Actual: " + actual + ", Predicted: " + y);
+    }
 }
+
+// call the main() function in the console to run your code
 ```
 
 ## Question 1.
