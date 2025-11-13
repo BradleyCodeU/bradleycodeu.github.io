@@ -12,7 +12,7 @@ Camp Anawanna is hiring new Summer Camp Counselors. There are 3 hiring factors: 
 
 In the last few years, ten people have applied to be a camp counselors. Here is their data...
 
-| Age | Experience | Hikes | 0=Not Hired, 1=Hired |
+| Age | Exp. | Hikes | 0=Not Hired, 1=Hired |
 |-----|---------------------|--------|-----------------------------|
 | 25  | 7                   | 10     | 0                           |
 | 35  | 9                   | 20     | 1                           |
@@ -145,11 +145,12 @@ function predict(age, experience, hikes){
 }
 
 function main(){
+    // loop through the rows 
     for(???){ // TODO loop through the training data
-        let age = ???; // TODO get index 0
+        let age = ???; // TODO get column 0 from the row
         let experience = ???; // TODO
         let hikes = ???; // TODO
-        let actual = ??? // TODO get index 3
+        let actual = ??? // TODO get column 3 from the row
         let inputStr = age + "," + experience + "," + hikes;
         let y = predict(age, experience, hikes);
         console.log(inputStr + ", Actual: " + actual + ", Predicted: " + y);
