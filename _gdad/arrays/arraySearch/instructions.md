@@ -1,4 +1,7 @@
-# Array Search
+---
+layout: project
+category: arrays
+title: Array Search
 ---
 
 In your HTML file, create...
