@@ -1,5 +1,10 @@
-# Boss Battle
 ---
+layout: project
+category: arrays
+title: Boss Battle
+---
+
+
 In your HTML file...
 - create a div and give it the id "bossHealthBox"
 - create a div and give it the id "playerHealthBox"
