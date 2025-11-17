@@ -1,5 +1,9 @@
-# Guess One Letter
 ---
+layout: project
+category: arrays
+title: Guess One Letter
+---
+
 ## In HTML...
 
 - Create an H1 and give it the ID guessedLettersDisplay
