@@ -103,7 +103,7 @@ Put this code inside of the setup() function...
 
   console.log("Question 4. The moreGreenFilter tensor is an order ??? tensor"); // TODO fill in the blank
 
-  let brighterFilter = tf.tensor([2]); // Example photo filter
+  let brighterFilter = tf.scalar(2); // Example photo filter
 
 
   console.log("Question 5. The brighterFilter tensor is an order ??? tensor"); // TODO fill in the blank
