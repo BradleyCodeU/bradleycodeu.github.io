@@ -15,9 +15,10 @@ Test-driven development (TDD) is a way of writing code that involves writing an 
 
 [https://en.wikipedia.org/wiki/Test-driven_development](https://en.wikipedia.org/wiki/Test-driven_development)
 
-For the following 8 functions, write 2 tests first. Then write your code.
+For the following 8 functions, WRITE 2 TESTS FIRST. Then write your code.
 
-The following 8 functions are NOT in the starter code.
+The following 8 functions are NOT currently in the starter code.
+
 
 ### Distance Formula and Slope Intercept
 
@@ -55,9 +56,10 @@ function findTotalGoodSquares(slope, intercept) {
   return ???; // TODO
 }
 
-// Test 1:
+// Test 1: findTotalGoodSquares NAME-OF-TEST-HERE
 
-// Test 2:
+// Test 2: findTotalGoodSquares NAME-OF-OTHER-TEST-HERE
+
 
 
 // non-determinative function that generates random y-intercepts
@@ -76,9 +78,9 @@ function getSecretIntercept(slope) {
   return secretIntercept;
 }
 
-// Test 1:
+// Test 1: getSecretIntercept NAME-OF-TEST-HERE
 
-// Test 2:
+// Test 2: getSecretIntercept NAME-OF-OTHER-TEST-HERE
 
 ```
 
@@ -94,9 +96,9 @@ function getXValues(pointArray) {
   return xValues;
 }
 
-// Test 1:
+// Test 1: getXValues NAME-OF-TEST-HERE
 
-// Test 2:
+// Test 2: getXValues NAME-OF-OTHER-TEST-HERE
 
 // retrieve the y values from pointArray
 function getYValues(pointArray) {
@@ -107,9 +109,9 @@ function getYValues(pointArray) {
   return yValues;
 }
 
-// Test 1:
+// Test 1: getYValues NAME-OF-TEST-HERE
 
-// Test 2:
+// Test 2: getYValues NAME-OF-OTHER-TEST-HERE
 
 ```
 
@@ -120,19 +122,9 @@ function getYValues(pointArray) {
 
 ```
 
-// draws a 10x10 grid with black lines
-function drawGridLines() {
-  stroke("black");
-  noFill(); // keep the squares transparent
-  // using nested loops, draw a grid with 10 rows and 10 columns
-  // use GRID_SIZE instead of 10 
-  // the size of each square is CELL_SIZE
-  // TODO
-}
 
-// Test 1:
 
-// Test 2:
+
 
 // returns a 2d array of the given size filled with 0s
 function make2dArray(rows, cols){
@@ -145,9 +137,10 @@ function make2dArray(rows, cols){
   // TODO
 }
 
-// Test 1:
+// Test 1: make2dArray NAME-OF-TEST-HERE
 
-// Test 2:
+// Test 2: make2dArray NAME-OF-OTHER-TEST-HERE
+
 
 // if the current player is bluePlayer then return redPlayer and vice versa
 function getNextPlayer(currentPlayer) {
@@ -155,8 +148,22 @@ function getNextPlayer(currentPlayer) {
   return false;
 }
 
-// Test 1:
+// Test 1: getNextPlayer NAME-OF-TEST-HERE
 
-// Test 2:
+// Test 2: getNextPlayer NAME-OF-OTHER-TEST-HERE
+
+
+
+// draws a 10x10 grid with black lines
+function drawGridLines() {
+  stroke("black");
+  noFill(); // keep the squares transparent
+  // using nested loops, draw a grid with 10 rows and 10 columns
+  // use GRID_SIZE instead of 10 
+  // the size of each square is CELL_SIZE
+  // TODO
+}
+
+// NO TESTS NEEDED for drawGridLines
 
 ```
