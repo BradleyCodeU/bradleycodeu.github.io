@@ -1,12 +1,12 @@
 ---
 layout: project
 category: arrays
-title: JS For Loop Practice 
+title: JS Nested For Practice 
 ---
 
-Practice working with for loops
+Practice working with nested for loops
 
-<button onclick="generateLoop()">Generate Loop</button>
+<button onclick="generateLoop()">Generate Nested Loops</button>
 <pre id="output"></pre>
 <table>
   <tr>
