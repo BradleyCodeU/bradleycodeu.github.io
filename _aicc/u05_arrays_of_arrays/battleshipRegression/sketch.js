@@ -11,23 +11,19 @@ let predictedM = null;
 let predictedB = null;
 let gameOver = false;
 let goodSquaresTotal = 0;
+let gameState = "TITLE";
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  resetGame();
+  textAlign(CENTER);
+  text("click to play", width * 0.5, height * 0.5);
 }
 
 function resetGame() {
   secretSlope = random(-1.9, 1.9);
   secretIntercept = getSecretIntercept(secretSlope);
 
-  grid = [];
-  for (let row = 0; row < GRID_SIZE; row++) {
-    grid.push([]);
-    for (let col = 0; col < GRID_SIZE; col++) {
-      grid[row].push(0);
-    }
-  }
+  grid = make2dArray(GRID_SIZE, GRID_SIZE);
 
   goodSquaresTotal = findTotalGoodSquares(secretSlope, secretIntercept);
 
@@ -141,6 +137,11 @@ function displayScores() {
 
 function mousePressed() {
   if (gameOver) return;
+
+  if(gameState == "TITLE"){
+    resetGame();
+    gameState = "INGAME";
+  }
 
   const gridX = floor(mouseX / CELL_SIZE);
   const std_gridY = floor(mouseY / CELL_SIZE); // The "normal" p5.js grid Y
