@@ -44,10 +44,15 @@ function findTotalGoodSquares(slope, intercept) {
   let goodSquaresTotal = 0;
   for (let y = 0; y < GRID_SIZE; y++) {
     for (let x = 0; x < GRID_SIZE; x++) {
-        // using the distance function, get the distance
-        // between the current x,y and the x, y = mx + b
-        // HINT: use the slope and intercept parameters
+
+      // use y = mx + b to calculate the line's y location
+      // HINT: use the slope and intercept parameters
+      const lineY = ???; // TODO
+
+      // using the distance function, get the distance
+      // between the point (x,y) and the line's point (x,lineY)
       const distFromLine = ???; // TODO
+      
       if (distFromLine <= LINE_TOLERANCE) {
         goodSquaresTotal++;
       }
@@ -63,11 +68,14 @@ function findTotalGoodSquares(slope, intercept) {
 
 
 // non-determinative function that generates random y-intercepts
-// if the slope is > 0, the y-intercept should be smaller
-// if the slope is <= 0, it should be larger
+// that are decimal values between 0.0 and GRID_SIZE
+// if the slope is > 0, the y-intercept should be small-ish
+// if the slope is <= 0, it should be large-ish
 function getSecretIntercept(slope) {
   let secretIntercept = 0;
-  // generate two random numbers 0-10
+  // generate two random numbers 0 to GRID_SIZE
+  // TODO
+  // TODO
   if (slope > 0) {
     // set secretIntercept to be the smaller of the two random nums
     // TODO
