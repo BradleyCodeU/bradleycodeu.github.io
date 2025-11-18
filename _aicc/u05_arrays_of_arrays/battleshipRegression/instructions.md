@@ -154,7 +154,7 @@ function getNextPlayer(currentPlayer) {
 
 
 
-// draws a 10x10 grid with black lines
+// draws a GRID_SIZE wide and GRID_SIZE tall grid with black lines
 function drawGridLines() {
   stroke("black");
   noFill(); // keep the squares transparent
