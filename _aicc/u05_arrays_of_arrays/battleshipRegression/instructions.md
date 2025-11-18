@@ -158,8 +158,7 @@ function getNextPlayer(currentPlayer) {
 function drawGridLines() {
   stroke("black");
   noFill(); // keep the squares transparent
-  // using nested loops, draw a grid with 10 rows and 10 columns
-  // use GRID_SIZE instead of 10 
+  // using nested loops, draw a grid with GRID_SIZE rows and GRID_SIZE columns
   // the size of each square is CELL_SIZE
   // TODO
 }
