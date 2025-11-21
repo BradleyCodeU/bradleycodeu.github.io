@@ -53,12 +53,6 @@ function drawBoard() {
   // y=0 is now the bottom row, y=9 is the top row
   for (let y = 0; y < GRID_SIZE; y++) {
     for (let x = 0; x < GRID_SIZE; x++) {
-      // Calculate the screen Y-coordinate for drawing
-      // (GRID_SIZE - 1 - y) converts grid Y to screen Y for drawing rects
-      // y=0 (bottom row) -> screenY = (10-1-0)*40 = 360
-      // y=9 (top row) -> screenY = (10-1-9)*40 = 0
-      const screenY = (GRID_SIZE - 1 - y) * CELL_SIZE;
-
       drawOneSquare(x, y)
     }
   }
@@ -80,6 +74,11 @@ function drawOneSquare(x,y){
   } else {
     fill(255);
   }
+  // Calculate the screen Y-coordinate for drawing
+  // (GRID_SIZE - 1 - y) converts grid Y to screen Y for drawing rects
+  // y=0 (bottom row) -> screenY = (10-1-0)*40 = 360
+  // y=9 (top row) -> screenY = (10-1-9)*40 = 0
+  const screenY = (GRID_SIZE - 1 - y) * CELL_SIZE;
 
   // Use the calculated screenY to draw the rect
   rect(x * CELL_SIZE, screenY, CELL_SIZE, CELL_SIZE);
