@@ -15,6 +15,14 @@ In this project you will use what you learned in [Khan Academy Drawing with Code
   - The mouse pointer MUST be centered in the middle of the drawing.
   
 
+### Final Steps:
+
+  - Show Mr Riley how your drawing follows the mouse pointer.
+  - Change your code so that the drawing moves by itself (like the Khan Academy Shooting Stars). Show Mr Riley.
+  - Change your code so that if your mouse is left of the drawing it slowly moves left and if your mouse is right of the drawing it slowly moves right. Show Mr Riley
+
+
+
 ### Starter Code:
 
 index.html
@@ -39,3 +47,5 @@ index.html
 [style.css](../style.css)
 
 [sketch.js](../sketch.js)
+
+
