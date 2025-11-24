@@ -31,7 +31,7 @@ Write a function called guessLetter that requires one argument: checkLetter<span
   - congratulate the user
   - figure out if there are any more letters that need to be guessed, and if not, congratulate the user for winning the game.
 
-## Final Steps:
+## Challenge:
 
 Make a list of random secret words.
 
