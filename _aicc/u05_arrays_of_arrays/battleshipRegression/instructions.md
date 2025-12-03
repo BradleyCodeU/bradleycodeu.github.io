@@ -130,10 +130,6 @@ function getYValues(pointArray) {
 
 ```
 
-
-
-
-
 // returns a 2d array of the given size filled with 0s
 function make2dArray(rows, cols){
   // make an array
