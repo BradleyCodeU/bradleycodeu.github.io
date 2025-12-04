@@ -1,0 +1,362 @@
+[
+  {
+    "answer": "Accuracy",
+    "question": "The percentage of correct predictions within a model."
+  },
+  {
+    "answer": "AI",
+    "question": "Intelligence that can be programmed to mimic human intelligence."
+  },
+  {
+    "answer": "Algorithm",
+    "question": "A set of rules used to generate calculations or perform problem-solving operations."
+  },
+  {
+    "answer": "Anomaly",
+    "question": "An unusual activity in a group of otherwise normal activities."
+  },
+  {
+    "answer": "Attack Surface",
+    "question": "The parts of data or a system that are vulnerable to attack."
+  },
+  {
+    "answer": "AUC (Area Under the Curve)",
+    "question": "A model's probability of choosing a positive instance over a negative instance."
+  },
+  {
+    "answer": "Bias",
+    "question": "An imbalance in data that can cause data to be skewed toward a demographic group, which can harm an AI machine-learning model."
+  },
+  {
+    "answer": "Classification",
+    "question": "A model type in which a result is categorized, usually with one of two values, such as a yes or no value."
+  },
+  {
+    "answer": "Data at Rest",
+    "question": "Data stored on an on-premises or cloud storage drive."
+  },
+  {
+    "answer": "Data in Transit",
+    "question": "Data in the process of being copied or moved from one location to another."
+  },
+  {
+    "answer": "F1 Score",
+    "question": "The harmonic mean of precision and recall."
+  },
+  {
+    "answer": "Feature",
+    "question": "An input to an AI model used to generate output."
+  },
+  {
+    "answer": "Labeled Data",
+    "question": "Data that is paired with output targets in an AI model."
+  },
+  {
+    "answer": "Linear Regression",
+    "question": "A form of regression in which an outcome is a continuous variable, like a number."
+  },
+  {
+    "answer": "Logistic Regression",
+    "question": "A form of regression in which an outcome uses binary dependent variables."
+  },
+  {
+    "answer": "Model",
+    "question": "An app used to generate predictions and outcomes based on the entering and training of data entered into the app."
+  },
+  {
+    "answer": "Natural Language Processing",
+    "question": "A form of AI that reads data from text and images and can include speech recognition and object detection."
+  },
+  {
+    "answer": "Precision",
+    "question": "The percentage of true positive predictions among all positive predictions in an outcome."
+  },
+  {
+    "answer": "RBAC (Role-Based Access Control)",
+    "question": "A permission standard in which permissions are assigned to roles, and roles are assigned to individuals and groups."
+  },
+  {
+    "answer": "Recall",
+    "question": "The measure of true positive predictions among all actual positives."
+  },
+  {
+    "answer": "Regression",
+    "question": "A model type that looks at the relationship between a dependent variable and one or more independent variables."
+  },
+  {
+    "answer": "Reinforcement Learning",
+    "question": "A type of machine learning model in which an AI agent performs actions that maximize a certain reward."
+  },
+  {
+    "answer": "Risk Register",
+    "question": "A document that contains known risks for a project and the impact, probability, and mitigation strategy for those risks."
+  },
+  {
+    "answer": "ROC (Receiver Operating Characteristic Curve)",
+    "question": "The plot of the True Positive Rate against the False Positive Rate for model results."
+  },
+  {
+    "answer": "R-Squared",
+    "question": "A value that measures the proportion of variance of a dependent variable that is predictable from independent variables."
+  },
+  {
+    "answer": "Scalability",
+    "question": "The ability to adjust machine resources up or down depending upon workload demand."
+  },
+  {
+    "answer": "SME (Subject Matter Expert)",
+    "question": "An expert on the problem or problems attempting to be solved through the use of an AI model."
+  },
+  {
+    "answer": "Transparency",
+    "question": "In the context of AI, the act of being forthright about how data is collected and used for AI models."
+  },
+  {
+    "answer": "Unlabeled Data",
+    "question": "Data that is not paired with output targets in an AI model."
+  },
+  {
+    "answer": "Unsupervised",
+    "question": "A type of machine learning model that looks for hidden patterns or structures in data."
+  },
+  {
+    "answer": "Assumption",
+    "question": "A belief or condition taken to be true for a system to work as intended."
+  },
+  {
+    "answer": "Azure Machine Learning",
+    "question": "A cloud-based tool used to build AI models."
+  },
+  {
+    "answer": "Binary",
+    "question": "A form of data that stores information as ones and zeros."
+  },
+  {
+    "answer": "Constraint",
+    "question": "A limitation or restriction on an AI system."
+  },
+  {
+    "answer": "Correlation",
+    "question": "A measure of connection between two points of data."
+  },
+  {
+    "answer": "Data Type",
+    "question": "A characteristic of data, such as numeric, string, or date."
+  },
+  {
+    "answer": "Derived Feature",
+    "question": "A feature built using a formula, through splitting or combining data, or by assigning keywords based on conditions."
+  },
+  {
+    "answer": "Feature Vector",
+    "question": "An ordered list of numerical properties of observed phenomena."
+  },
+  {
+    "answer": "One-Hot Encoding",
+    "question": "A form of encoding that assigns categorical variables to binary numbers."
+  },
+  {
+    "answer": "OpenRefine",
+    "question": "A tool used to cleanse data to ready it for an AI learning model."
+  },
+  {
+    "answer": "Power Virtual Agents",
+    "question": "A Microsoft tool used to build chatbots."
+  },
+  {
+    "answer": "Predicate",
+    "question": "A logical statement or condition defining properties or relationships between entities in an AI system."
+  },
+  {
+    "answer": "Sentiment Analysis",
+    "question": "A form of machine learning in which data is assigned a positivity or negativity value."
+  },
+  {
+    "answer": "Split Ratio",
+    "question": "The ratio of data used for training an AI model versus the data used for testing."
+  },
+  {
+    "answer": "Tokenization",
+    "question": "The process of converting words to numbers to be used for data in an AI model."
+  },
+  {
+    "answer": "Trifacta Wrangler",
+    "question": "A tool used to cleanse data to ready it for an AI learning model."
+  },
+  {
+    "answer": "Confusion Matrix",
+    "question": "A chart that defines true/false positives and true/false negatives for an AI model."
+  },
+  {
+    "answer": "Decision Tree Algorithm",
+    "question": "A machine learning method in which samples are split into sets based on input variable differentiators."
+  },
+  {
+    "answer": "Deep Learning Algorithm",
+    "question": "An algorithm used for neural networks that support human-like AI interactions."
+  },
+  {
+    "answer": "Explainability Requirement",
+    "question": "A clear explanation for a decision, prediction, or recommendation made by an AI model."
+  },
+  {
+    "answer": "False Negative",
+    "question": "An incorrect negative result for an AI model."
+  },
+  {
+    "answer": "False Positive",
+    "question": "An incorrect positive result for an AI model."
+  },
+  {
+    "answer": "GDPR (General Data Protection Regulation)",
+    "question": "The European Union standard for data handling that affects companies doing business in the EU."
+  },
+  {
+    "answer": "Imbalanced Data",
+    "question": "A dataset that has too much data from one or more groups."
+  },
+  {
+    "answer": "Interpretability",
+    "question": "The ability to understand the results of an AI model."
+  },
+  {
+    "answer": "Iteration",
+    "question": "A repeated sequence of training cycles for an AI model."
+  },
+  {
+    "answer": "K-Means Clustering",
+    "question": "A machine learning model that splits data into an unspecified number of groups."
+  },
+  {
+    "answer": "KPI (Key Performance Indicator)",
+    "question": "A visualization that sets standards for performance for AI models."
+  },
+  {
+    "answer": "Neural Network",
+    "question": "A type of algorithm designed to mimic the human brain."
+  },
+  {
+    "answer": "Overfitting",
+    "question": "A situation in which a model learns training data too well but performs poorly on new data."
+  },
+  {
+    "answer": "Parameter",
+    "question": "An input value used to help train an algorithm."
+  },
+  {
+    "answer": "Performance Metrics",
+    "question": "Data gathered on an AI model to ensure proper function."
+  },
+  {
+    "answer": "Self-Fulfilling Prophecy",
+    "question": "A phenomenon where biased data perpetuates existing biases in an AI model."
+  },
+  {
+    "answer": "Sensitivity",
+    "question": "The relative change of a model and its output."
+  },
+  {
+    "answer": "Specificity",
+    "question": "The evaluation of a model's ability to accurately identify negative instances."
+  },
+  {
+    "answer": "Stakeholder",
+    "question": "An individual or group that may affect or be affected by a project."
+  },
+  {
+    "answer": "Supervised Algorithm",
+    "question": "An algorithm that uses labeled data."
+  },
+  {
+    "answer": "Trend",
+    "question": "A pattern of data within an AI model."
+  },
+  {
+    "answer": "True Negative",
+    "question": "A correct negative result for an AI model."
+  },
+  {
+    "answer": "True Positive",
+    "question": "A correct positive result for an AI model."
+  },
+  {
+    "answer": "Underfitting",
+    "question": "A situation in which a model performs poorly on both training and new data."
+  },
+  {
+    "answer": "Unsupervised Algorithm",
+    "question": "An algorithm that does not use labeled data."
+  },
+  {
+    "answer": "Visualization",
+    "question": "A chart or report that explains the results of an AI model or its data."
+  },
+  {
+    "answer": "Adversarial Testing",
+    "question": "A test where data is intentionally manipulated to evaluate vulnerability to adversarial attacks."
+  },
+  {
+    "answer": "API",
+    "question": "A set of rules that allows applications to communicate with each other."
+  },
+  {
+    "answer": "Concept Drift",
+    "question": "The change in underlying concepts used to train AI models."
+  },
+  {
+    "answer": "Data Drift",
+    "question": "The change in statistical properties of input data in an AI model."
+  },
+  {
+    "answer": "Drift Detector",
+    "question": "A mechanism that identifies shifts in underlying data."
+  },
+  {
+    "answer": "Edge Case Testing",
+    "question": "Testing an AI system's performance beyond normal operating ranges."
+  },
+  {
+    "answer": "Feedback Mechanism",
+    "question": "A means of collecting feedback for an AI system."
+  },
+  {
+    "answer": "GitHub",
+    "question": "A repository used to store code for development projects."
+  },
+  {
+    "answer": "JSON (JavaScript Object Notation)",
+    "question": "A file format in which data is stored in key-value pairs."
+  },
+  {
+    "answer": "Pipeline",
+    "question": "A series of steps used to transform data into a final AI model prediction."
+  },
+  {
+    "answer": "SQL Server",
+    "question": "Microsoft's database server used to store data for AI pipelines."
+  },
+  {
+    "answer": "User Acceptance",
+    "question": "The willingness of people to use an AI model and its outputs."
+  },
+  {
+    "answer": "A/B Test",
+    "question": "A test in which different app versions are shown to different people and usage patterns are compared."
+  },
+  {
+    "answer": "Decommission",
+    "question": "The act of no longer using an AI model in production."
+  },
+  {
+    "answer": "Degraded Mode of Operation",
+    "question": "A mode in which an AI model is not performing at maximum capability."
+  },
+  {
+    "answer": "Log",
+    "question": "A list of activities in an AI model that may indicate potential security issues."
+  },
+  {
+    "answer": "Usage Metrics",
+    "question": "The extent to which people use an AI model to its fullest."
+  }
+]

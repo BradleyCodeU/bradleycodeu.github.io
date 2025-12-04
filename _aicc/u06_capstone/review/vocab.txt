@@ -1,0 +1,50 @@
+Accuracy The percentage of correct predictions within a model.
+AI AI (artificial intelligence) is intelligence that can be programmed to mimic human intelligence.
+Algorithm A set of rules used to generate calculations or perform problem-solving operations.
+Anomaly An unusual activity in a group of otherwise normal activities.
+Attack Surface The parts of data or a system that are vulnerable to attack.
+AUC AUC (Area Under the Curve) is a model's probability of choosing a positive instance over a negative
+instance.
+Bias An imbalance in data that can cause data to be skewed toward a demographic group, which can
+harm an AI machine-learning model.
+Classification A model type in which a result is categorized, usually with one of two values, such as a yes or no
+value.
+Data at Rest Data stored on an on-premises or cloud storage drive.
+Data in Transit Data in the process of being copied or moved from one location to another.
+F1 Score The harmonic mean of precision and recall.
+Feature An input to an AI model used to generate output.
+Labeled Data Data that is paired with output targets in an AI model.
+Linear
+Regression
+A form of regression in which an outcome is a continuous variable, like a number.
+Logistic
+Regression
+A form of regression in which an outcome uses binary dependent variables.
+Model An app used to generate predictions and outcomes based on the entering and training of data
+entered into the app.
+Natural
+Language
+Processing
+A form of AI that reads data from text and images and can include speech recognition and object
+detection.
+Precision The percentage of true positive predictions among all positive predictions in an outcome.
+RBAC RBAC (Role-Based Access Control) is a permission standard in which permissions are assigned to
+roles, and roles are assigned to individuals and groups.
+Recall The measure of true positive predictions among all actual positives.
+Regression A model type that looks at the relationship between a dependent variable and one or more
+independent variables.
+Reinforcement
+Learning
+A type of machine learning model that involves an AI agent performing actions that maximize a
+certain reward.
+Risk Register A document that contains known risks for a project and the impact, probability, and mitigation
+strategy for those risks.
+ROC ROC (Receiver Operating Characteristic Curve) is the plot of the True Positive Rate against the False
+Positive Rate for model results.
+R-Squared A value that measures the proportion of variance of a dependent variable that is predictable from
+independent variables.
+Scalability The ability to adjust machine resources up or down depending upon workload demand for one or
+more apps on that machine.
+SME SME (Subject Matter Expert) is an expert on the problem or problems attempting to be solved
+through the use of an AI model.
+Transparency In the context of AI, the act of being forthright about how data is collected and used for AI models
