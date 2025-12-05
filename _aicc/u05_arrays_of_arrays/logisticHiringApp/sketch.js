@@ -94,10 +94,7 @@ async function trainModel() {
 
 async function drawConfusionMatrix() {
   const predictions = await model.predict(xs).data();
-  let TP = 0,
-    TN = 0,
-    FP = 0,
-    FN = 0;
+  let TP = 0, TN = 0, FP = 0, FN = 0;
   for (let i = 0; i < predictions.length; i++) {
     const pred = predictions[i] > 0.5 ? 1 : 0;
     const actual = outputs2dArray[i][0];
@@ -109,25 +106,26 @@ async function drawConfusionMatrix() {
 
   ctx.clearRect(0, 0, canvas.width, canvas.height);
   const size = 120;
-  ctx.strokeStyle = "black";
+  ctx.strokeStyle = 'black';
   ctx.lineWidth = 2;
   ctx.strokeRect(150, 50, size, size);
   ctx.strokeRect(150 + size, 50, size, size);
   ctx.strokeRect(150, 50 + size, size, size);
   ctx.strokeRect(150 + size, 50 + size, size, size);
 
-  ctx.font = "16px sans-serif";
-  ctx.textAlign = "center";
-  ctx.textBaseline = "middle";
+  ctx.font = '16px sans-serif';
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'middle';
   ctx.fillText(`TP: ${TP}`, 150 + size / 2, 50 + size / 2);
   ctx.fillText(`FP: ${FP}`, 150 + size + size / 2, 50 + size / 2);
   ctx.fillText(`FN: ${FN}`, 150 + size / 2, 50 + size + size / 2);
   ctx.fillText(`TN: ${TN}`, 150 + size + size / 2, 50 + size + size / 2);
-  ctx.fillText("Pred 1", 150 + size * 0.5, 40);
-  ctx.fillText("Pred 0", 150 + size * 0.5 + size, 40);
-  ctx.fillText("Actual 1", 120, 50 + size * 0.5);
-  ctx.fillText("Actual 0", 120, 50 + size * 0.5 + size);
+  ctx.fillText('Actual 1', 150 + size*0.5, 40);
+  ctx.fillText('Actual 0', 150 + size*0.5 + size, 40);
+  ctx.fillText('Pred 1', 120, 50 + size*0.5);
+  ctx.fillText('Pred 0', 120, 50 + size*0.5 + size);
 }
+
 
 // Prediction
 
