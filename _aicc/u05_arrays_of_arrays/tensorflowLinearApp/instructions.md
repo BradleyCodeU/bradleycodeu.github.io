@@ -10,8 +10,9 @@ Let's use a Tensorflow Linear Regression algorithm to complete some Algebra 1 pr
 
 Here is the starting code:
 
-[sketch.js](../sketch.js)
-[style.css](../style.css)
+- [sketch.js](../sketch.js)
+
+- [style.css](../style.css)
 
 index.html:
 ```
