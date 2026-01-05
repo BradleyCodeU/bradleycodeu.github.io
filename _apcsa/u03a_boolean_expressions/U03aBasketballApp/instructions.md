@@ -1,4 +1,8 @@
-
+---
+layout: project
+category: u03a_boolean_expressions
+title: U03a Basketball App
+---
 
 1. Create a public static method named haveSameJerseyNumber that takes two BasketballPlayer objects as arguments. Return true if the jerseyNumbers are equal otherwise return false.
 

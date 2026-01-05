@@ -1,6 +1,8 @@
-# Name Games
 ---
-
+layout: project
+category: u03a_boolean_expressions
+title: U03a Name Games
+---
 
 1. Define a static method named isVowel that requires String parameter singleLetter and returns a boolean
     

@@ -1,4 +1,8 @@
-# Instructions  
+---
+layout: project
+category: u03a_boolean_expressions
+title: U03a Dishes App
+---
 
   
 Finish the two static methods below. You can go out if you do not need to do homework, you have done the dishes, you've done at least 4 math problems, and practiced piano for at least 10 minutes. 
@@ -14,4 +18,28 @@ If no homework and dishes are done, but 0 math and 0 piano... it would return "Y
 If all 4 chores are not completed then it would return "You must do your homework. You must do the dishes. You must complete at least 4 math problems. You must practice piano for at least 10 minutes."
 
 
-  
+Starter Code:
+```
+public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Do you have homework? (y or n): ");
+        String haveHomework = input.nextLine();
+
+        System.out.print("Did you do the dishes? (y or n): ");
+        String didDishes = input.nextLine();
+
+        System.out.print("How many math problems have you completed? ");
+        int mathProblemsCompleted = input.nextInt();
+
+        System.out.print("How many minutes did you practice piano? ");
+        int pianoMinutes = input.nextInt();
+
+        System.out.println("\n\n-=-=-=-=-RESULTS-=-=-=-=-");
+
+        if (canGoOut(haveHomework, didDishes, mathProblemsCompleted, pianoMinutes)) {
+            System.out.println("You can go out.");
+        } else {
+            System.out.println(tasksNeeded(haveHomework, didDishes, mathProblemsCompleted, pianoMinutes));
+        }
+}
+```
