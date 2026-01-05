@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class U01aKingsIslandApp {
 
   public static double calculateTotalCost(int num_people, double ticket_cost, double parking_cost, double gas_cost) {
-    // TODO caculate the total cost
+    // TODO calculate the total cost
     return 0.00;
   }
 

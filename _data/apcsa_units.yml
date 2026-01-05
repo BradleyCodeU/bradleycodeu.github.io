@@ -115,10 +115,6 @@ References and Other Info:
 
   1. [Paint Calc Int Only](/apcsa/u01a_primitive_types/U01aPaintCalculatorIntOnly/instructions/)
 
-  1. [ASCII Art](/apcsa/u01a_primitive_types/U01aASCIIArt/instructions/)
-
-  1. [Computer Parts](/apcsa/u01a_primitive_types/ch1review1/)
-
   1. [Passer Rating](/apcsa/u01a_primitive_types/U01aPasserRating/instructions/)
 
   1. [Integer Overflow](/apcsa/u01a_primitive_types/U01aIntegerOverflow/instructions/)
@@ -129,6 +125,12 @@ References and Other Info:
 
   1. U1.1 Test Primitive Types
 
+
+Additional:
+
+  1. [ASCII Art](/apcsa/u01a_primitive_types/U01aASCIIArt/instructions/)
+
+  1. [Computer Parts](/apcsa/u01a_primitive_types/ch1review1/)
 
 
 Vocab: platform, assembly, binary, bit, byte, declare, assignment, initialize, JVM, IDE, RAM, CPU, primary storage, secondary storage, peripheral, source code, compiler, bytecode, .java file, .class file, class, method, main, println, Scanner, int, double, boolean, char, String, overflow, comment, magic number, final, literal, syntax error, compiler error, logic error, runtime error, method call, argument, portable, high-level language, low-level language, casting, implicit conversion, explicit conversion, lossy conversion
@@ -159,13 +161,15 @@ Vocab: platform, assembly, binary, bit, byte, declare, assignment, initialize, J
 
   1. [Coin Converter](/apcsa/u01b_modulo_operator/U01bCoinConverter/instructions/)
 
-  1. [Modulus Clock](/apcsa/u01b_modulo_operator/U01bModClock/instructions/)
+  1. [Mod Clock](/apcsa/u01b_modulo_operator/U01bModClock/instructions/)
 
   1. U1.2 Review Quiz Modulo
 
   1. U1.2 FRQ Modulo
 
   1. U1.2 Test Modulo
+
+
 "
 
 - title: u02a_using_objects
@@ -179,13 +183,26 @@ Vocab: platform, assembly, binary, bit, byte, declare, assignment, initialize, J
 
 1. [Swing Projects](/apcsa/u02a_using_objects/U02aSwingProjects/instructions/)
 
-1. [Club Meeting](/apcsa/u02a_using_objects/ch2clubmeeting/)
+1. [Pitchers and Batters](/apcsa/u02a_using_objects/U02aPitchersBatters/instructions/)
+
+1. [Dollar Object](/apcsa/u02a_using_objects/U02aDollarObject/instructions/)
+
+1. [MC Pet Wolf](/apcsa/u02a_using_objects/ch2mcpetwolf/)
+
+1. [Cedar Point Calc](/apcsa/u02a_using_objects/U02aCedarPointCalc/instructions/)
+
+
+
+
+
+
+Additional:
+
+
 
 1. [String Exercises](/apcsa/u02a_using_objects/ch2stringexercises/)
 
 1. [LocalDate](/apcsa/u02a_using_objects/ch2localdate/)
-
-1. [MC Pet Wolf](/apcsa/u02a_using_objects/ch2mcpetwolf/)
 
 1. Review Quiz
 
@@ -196,9 +213,6 @@ Vocab: platform, assembly, binary, bit, byte, declare, assignment, initialize, J
 1. Ch1 and 2 Test
 
 
-Additional:
-
-1. [Substring](/apcsa/u02a_using_objects/ch2substring/)
 
 1. [Summary](/apcsa/u02a_using_objects/ch2summary/)
 
@@ -218,6 +232,12 @@ Vocab: object, accessor, mutator, method, constructor, new, API, naming conventi
 - title: u02b_strings
   heading: "# u02b_strings"
   content: "
+
+1. [String Builder](/apcsa/u02b_strings/U02bStringBuilderComparison/instructions/)
+
+1. [Club Meeting](/apcsa/u02b_strings/U02bClubMeeting/instructions/)
+
+1. [First Vowel Substring](/apcsa/u02b_strings/U02bSubstring/instructions/)
 
 
 
@@ -302,7 +322,7 @@ Additional:
 
 Additional:
 
-    1. [Ch4 Cedar Point Trip](/apcsa/ch4fundamentaldatatypes/ch4cedarpointcalc/)
+   
 
     1. [Ch4 Printf](/apcsa/ch4fundamentaldatatypes/ch4printf/)
 
