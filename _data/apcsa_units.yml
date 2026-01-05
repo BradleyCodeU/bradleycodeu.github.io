@@ -89,7 +89,7 @@ References and Other Info:
   content: "[1st Quarter](#1st-quarter)
 
 
-1. **[U01a Primitive Types](#u01a-primitive-types)**
+1. **[U01a Primitive Types](#u01a_primitive_types)**
 
 1. **[U01b Modulo Operator](#u01b-modulo-operator)**
 
@@ -99,8 +99,8 @@ References and Other Info:
 
 "
 
-- title: u01a-primitive-types
-  heading: "# u01a-primitive-types"
+- title: u01a_primitive_types
+  heading: "# u01a_primitive_types"
   content: "
 
   *3 wks*
@@ -109,19 +109,19 @@ References and Other Info:
 
   1. Class Codes - SoloLrn, Runestone
 
-  1. [SoloLrn Java Basic Concepts](/apcsa/ch1introduction/ch1sololearnjava/)
+  1. [SoloLrn Java Basic Concepts](/apcsa/u01a_primitive_types/U01aSoloLrnJava/instructions/)
 
-  1. [Kings Island](/apcsa/u01a_pt/U01aKingsIsland/instructions/)
+  1. [Kings Island](/apcsa/u01a_primitive_types/U01aKingsIsland/instructions/)
 
-  1. [Paint Calc Int Only](/apcsa/u01a_pt/U01aPaintCalcIntOnly/instructions/)
+  1. [Paint Calc Int Only](/apcsa/u01a_primitive_types/U01aPaintCalcIntOnly/instructions/)
 
-  1. [ASCII Art](/apcsa/u01a_pt/U01aASCIIArt/instructions/)
+  1. [ASCII Art](/apcsa/u01a_primitive_types/U01aASCIIArt/instructions/)
 
   1. [Computer Parts](/apcsa/ch1introduction/ch1review1/)
 
-  1. [Passer Rating](/apcsa/u01a_pt/U01aPasserRating/instructions/)
+  1. [Passer Rating](/apcsa/u01a_primitive_types/U01aPasserRating/instructions/)
 
-  1. [Integer Overflow](/apcsa/u01a_pt/U01aIntegerOverflow/instructions/)
+  1. [Integer Overflow](/apcsa/u01a_primitive_types/U01aIntegerOverflow/instructions/)
 
   1. U1.1 Review Quiz Primitive Types
 

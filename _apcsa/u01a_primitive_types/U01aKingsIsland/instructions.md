@@ -1,6 +1,6 @@
 ---
 layout: project
-category: u01a-primitive-types
+category: u01a_primitive_types
 title: U01a Kings Island
 ---
 
