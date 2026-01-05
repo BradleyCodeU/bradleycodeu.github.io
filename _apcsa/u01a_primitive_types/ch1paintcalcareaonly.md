@@ -1,6 +1,6 @@
 ---
 layout: project
-category: ch1introduction
+category: u01a_primitive_types
 title: Ch1 Paint Calc Area Only
 ---
 

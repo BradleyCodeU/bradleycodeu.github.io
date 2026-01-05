@@ -93,9 +93,9 @@ References and Other Info:
 
 1. **[U01b Modulo Operator](#u01b_modulo_operator)**
 
-1. **[Ch2 Using Objects](#u02a_using_objects)**
+1. **[U02a Using Objects](#u02a_using_objects)**
 
-1. **[Ch3 Implementing Classes](#ch3implementingclasses)**
+1. **[U02b Strings](#u02b_strings)**
 
 "
 
@@ -143,7 +143,7 @@ Vocab: platform, assembly, binary, bit, byte, declare, assignment, initialize, J
 
 - [The Fetch-Execute Cycle Whats Your Computer Actually Doing](https://drive.google.com/file/d/1f94tL6PrfS1gtTMUn_8ZJawEZS6HYQLT/view?usp=sharing)
 
-- [Unit 1 Test Review](/apcsa/ch1introduction/unit1testreview/)
+- [Unit 1 Test Review](/apcsa/u01a_primitive_types/unit1testreview/)
 
 "
 
@@ -157,9 +157,9 @@ Vocab: platform, assembly, binary, bit, byte, declare, assignment, initialize, J
 
   1. Modulo Operator Quizizz
 
-  1. [Ch4 Coin Converter](/apcsa/u01b_modulo_operator/U01bCoinConverter/instructions/)
+  1. [Coin Converter](/apcsa/u01b_modulo_operator/U01bCoinConverter/instructions/)
 
-  1. [Ch4 Modulus Clock](/apcsa/u01b_modulo_operator/U01bModClock/instructions/)
+  1. [Modulus Clock](/apcsa/u01b_modulo_operator/U01bModClock/instructions/)
 
   1. U1.2 Review Quiz Modulo
 
@@ -175,32 +175,32 @@ Vocab: platform, assembly, binary, bit, byte, declare, assignment, initialize, J
 *3 wks*
   
 
-1. [Ch2 Rectangles and Points](/apcsa/u02a_using_objects/U02aRectanglesPoints/instructions/)
+1. [Rectangles and Points](/apcsa/u02a_using_objects/U02aRectanglesPoints/instructions/)
 
-1. [Ch2 Swing Projects](/apcsa/u02a_using_objects/U02aSwingProjects/instructions/)
+1. [Swing Projects](/apcsa/u02a_using_objects/U02aSwingProjects/instructions/)
 
-1. [Ch2 Club Meeting](/apcsa/u02a_using_objects/ch2clubmeeting/)
+1. [Club Meeting](/apcsa/u02a_using_objects/ch2clubmeeting/)
 
-1. [Ch2 String Exercises](/apcsa/u02a_using_objects/ch2stringexercises/)
+1. [String Exercises](/apcsa/u02a_using_objects/ch2stringexercises/)
 
-1. [Ch2 LocalDate](/apcsa/u02a_using_objects/ch2localdate/)
+1. [LocalDate](/apcsa/u02a_using_objects/ch2localdate/)
 
-1. [Ch2 MC Pet Wolf](/apcsa/u02a_using_objects/ch2mcpetwolf/)
+1. [MC Pet Wolf](/apcsa/u02a_using_objects/ch2mcpetwolf/)
 
-1. Ch2 Review Quiz
+1. Review Quiz
 
-1. [Ch2 Method Madness](/apcsa/u02a_using_objects/ch2methodmadness/)
+1. [Method Madness](/apcsa/u02a_using_objects/ch2methodmadness/)
 
-1. Ch2 FRQ Using Objects
+1. FRQ Using Objects
 
 1. Ch1 and 2 Test
 
 
 Additional:
 
-1. [Ch2 Substring](/apcsa/u02a_using_objects/ch2substring/)
+1. [Substring](/apcsa/u02a_using_objects/ch2substring/)
 
-1. [Ch2 Summary](/apcsa/u02a_using_objects/ch2summary/)
+1. [Summary](/apcsa/u02a_using_objects/ch2summary/)
 
 
 
@@ -214,54 +214,36 @@ Vocab: object, accessor, mutator, method, constructor, new, API, naming conventi
 
 "
 
-- title: ch3implementingclasses
-  heading: "# Ch3ImplementingClasses"
+
+- title: u02b_strings
+  heading: "# u02b_strings"
   content: "
 
-*3 wks*
 
 
-1. [Ch3 Shoes](/apcsa/ch3implementingclasses/ch3shoes/)
 
-1. [Ch3 Balloon](/apcsa/ch3implementingclasses/ch3balloon/)
+1. [Name Games](/apcsa/u02b_strings/ch45namegames/)
 
-1. [Ch3 Employee](/apcsa/ch3implementingclasses/ch3employee/)
+1. [Replace](/apcsa/u02b_strings/U02bReplace/instructions/)
 
-1. [Ch3 Student](/apcsa/ch3implementingclasses/ch3student/)
+1. FRQ Strings 
 
-1. [Ch3 Adventure Game](/apcsa/ch3implementingclasses/JavaAdventureGame/)
 
-1. [Ch3 Potato Head](/apcsa/ch3implementingclasses/ch3potatohead/)
 
-1. [Ch3 Food Review](/apcsa/ch3implementingclasses/FoodReview/)
+Additional:
 
-1. [Ch3 Car](/apcsa/ch3implementingclasses/ch3car/)
+1. [Substring](/apcsa/u02b_strings/Substring/)
 
-1. Ch3 Review Quiz
+1. [Phone Number](/apcsa/u02b_strings/ch45phonenumber/)
 
-1. Ch3 FRQ Implementing Classes
-
-1. Ch3 Test
+1. [String Review Worksheet](/apcsa/u02b_strings/ch45stringreviewworksheet/)
 
 
 
 
-Additional projects:
+  - [String Methods tutorial](https://drive.google.com/open?id=1XZih87y10vIHvB68vk0CR5rVkYSgbCyi)
 
-1. [Ch3 Cash Register](/apcsa/ch3implementingclasses/ch3cashregister/)
-
-
-
-- [https://hacktoberfest.digitalocean.com/](https://hacktoberfest.digitalocean.com/)
-
-- [Explicit parameter in Java](https://www.drjamesfroggatt.com/java/methods-java-android-development/implicit-explicit-parameters/implicit-and-explicit-parameters/)
-
-- [Abstraction illustration](https://bradleycodeu.github.io/gdad/objects/abstraction.png)
-
-
-Vocab: instance variable, [local variable](https://www.dummies.com/programming/java/local-variables-in-java/), constructor, mutator method, accessor method, [method header](http://www.cs.cornell.edu/courses/cs1130/2012sp/1130selfpaced/module2/module2part1/methodHeaders.html), return type, void, [access specifier](https://www.geeksforgeeks.org/access-specifiers-for-classes-or-interfaces-in-java/), formal parameter, actual parameter, [implicit parameter](https://www.thoughtco.com/implicit-parameter-2034139), explicit parameter, static method, invoke, public interface, overloading, preconditions
 "
-
 
 
 
@@ -290,7 +272,6 @@ Vocab: instance variable, [local variable](https://www.dummies.com/programming/j
 
 1. **[Ch4 Fundamental Data Types](#ch4fundamentaldatatypes)**
 
-1. **[Ch4.5 Strings](#ch45strings)**
 
 1. **[Ch5 Decisions](#ch5decisions)**
 
@@ -340,34 +321,54 @@ Additional:
 
 "
 
-- title: ch45strings
-  heading: "# Ch4.5Strings"
+
+
+- title: u05a_writing_classes
+  heading: "# u05a_writing_classes"
   content: "
 
+*3 wks*
+
+1. [Shoes](/apcsa/u05a_writing_classes/ch3shoes/)
+
+1. [Balloon](/apcsa/u05a_writing_classes/ch3balloon/)
+
+1. [Employee](/apcsa/u05a_writing_classes/ch3employee/)
+
+1. [Student](/apcsa/u05a_writing_classes/ch3student/)
+
+1. [Adventure Game](/apcsa/u05a_writing_classes/JavaAdventureGame/)
+
+1. [Potato Head](/apcsa/u05a_writing_classes/ch3potatohead/)
+
+1. [Food Review](/apcsa/u05a_writing_classes/FoodReview/)
+
+1. [Car](/apcsa/u05a_writing_classes/ch3car/)
+
+1. Review Quiz
+
+1. FRQ Implementing Classes
+
+1. Test
 
 
 
-1. [Ch4.5 Name Games](/apcsa/ch45strings/ch45namegames/)
-
-1. [Ch4.5 Replace](/apcsa/ch45strings/ch45substringreplace/)
-
-1. FRQ Strings 
 
 
+Additional projects:
 
-Additional:
-
-1. [Ch4.5 Substring](/apcsa/ch45strings/Substring/)
-
-1. [Ch4.5 Phone Number](/apcsa/ch45strings/ch45phonenumber/)
-
-1. [Ch4.5 String Review Worksheet](/apcsa/ch45strings/ch45stringreviewworksheet/)
+1. [Cash Register](/apcsa/u05a_writing_classes/ch3cashregister/)
 
 
 
+- [https://hacktoberfest.digitalocean.com/](https://hacktoberfest.digitalocean.com/)
 
-  - [String Methods tutorial](https://drive.google.com/open?id=1XZih87y10vIHvB68vk0CR5rVkYSgbCyi)
+- [Explicit parameter in Java](https://www.drjamesfroggatt.com/java/methods-java-android-development/implicit-explicit-parameters/implicit-and-explicit-parameters/)
 
+- [Abstraction illustration](https://bradleycodeu.github.io/gdad/objects/abstraction.png)
+
+
+Vocab: instance variable, [local variable](https://www.dummies.com/programming/java/local-variables-in-java/), constructor, mutator method, accessor method, [method header](http://www.cs.cornell.edu/courses/cs1130/2012sp/1130selfpaced/module2/module2part1/methodHeaders.html), return type, void, [access specifier](https://www.geeksforgeeks.org/access-specifiers-for-classes-or-interfaces-in-java/), formal parameter, actual parameter, [implicit parameter](https://www.thoughtco.com/implicit-parameter-2034139), explicit parameter, static method, invoke, public interface, overloading, preconditions
 "
 
 - title: ch5decisions
