@@ -1,6 +1,6 @@
 ---
 layout: project
-category: u01b-modulo-operator
+category: u01b_modulo_operator
 title: U01a Mod Clock
 ---
 

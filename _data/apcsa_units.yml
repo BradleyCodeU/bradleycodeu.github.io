@@ -93,7 +93,7 @@ References and Other Info:
 
 1. **[U01b Modulo Operator](#u01b_modulo_operator)**
 
-1. **[Ch2 Using Objects](#ch2usingobjects)**
+1. **[Ch2 Using Objects](#u02a_using_objects)**
 
 1. **[Ch3 Implementing Classes](#ch3implementingclasses)**
 
@@ -113,11 +113,11 @@ References and Other Info:
 
   1. [Kings Island](/apcsa/u01a_primitive_types/U01aKingsIsland/instructions/)
 
-  1. [Paint Calc Int Only](/apcsa/u01a_primitive_types/U01aPaintCalcIntOnly/instructions/)
+  1. [Paint Calc Int Only](/apcsa/u01a_primitive_types/U01aPaintCalculatorIntOnly/instructions/)
 
   1. [ASCII Art](/apcsa/u01a_primitive_types/U01aASCIIArt/instructions/)
 
-  1. [Computer Parts](/apcsa/ch1introduction/ch1review1/)
+  1. [Computer Parts](/apcsa/u01a_primitive_types/ch1review1/)
 
   1. [Passer Rating](/apcsa/u01a_primitive_types/U01aPasserRating/instructions/)
 
@@ -168,28 +168,28 @@ Vocab: platform, assembly, binary, bit, byte, declare, assignment, initialize, J
   1. U1.2 Test Modulo
 "
 
-- title: ch2usingobjects
-  heading: "# Ch2UsingObjects"
+- title: u02a_using_objects
+  heading: "# u02a_using_objects"
   content: "
 
 *3 wks*
   
 
-1. [Ch2 Rectangles and Points](/apcsa/u02a_uo/U02aRectanglesPoints/instructions/)
+1. [Ch2 Rectangles and Points](/apcsa/u02a_using_objects/U02aRectanglesPoints/instructions/)
 
-1. [Ch2 Swing Projects](/apcsa/u02a_uo/U02aSwingProjects/instructions/)
+1. [Ch2 Swing Projects](/apcsa/u02a_using_objects/U02aSwingProjects/instructions/)
 
-1. [Ch2 Club Meeting](/apcsa/ch2usingobjects/ch2clubmeeting/)
+1. [Ch2 Club Meeting](/apcsa/u02a_using_objects/ch2clubmeeting/)
 
-1. [Ch2 String Exercises](/apcsa/ch2usingobjects/ch2stringexercises/)
+1. [Ch2 String Exercises](/apcsa/u02a_using_objects/ch2stringexercises/)
 
-1. [Ch2 LocalDate](/apcsa/ch2usingobjects/ch2localdate/)
+1. [Ch2 LocalDate](/apcsa/u02a_using_objects/ch2localdate/)
 
-1. [Ch2 MC Pet Wolf](/apcsa/ch2usingobjects/ch2mcpetwolf/)
+1. [Ch2 MC Pet Wolf](/apcsa/u02a_using_objects/ch2mcpetwolf/)
 
 1. Ch2 Review Quiz
 
-1. [Ch2 Method Madness](/apcsa/ch2usingobjects/ch2methodmadness/)
+1. [Ch2 Method Madness](/apcsa/u02a_using_objects/ch2methodmadness/)
 
 1. Ch2 FRQ Using Objects
 
@@ -198,9 +198,9 @@ Vocab: platform, assembly, binary, bit, byte, declare, assignment, initialize, J
 
 Additional:
 
-1. [Ch2 Substring](/apcsa/ch2usingobjects/ch2substring/)
+1. [Ch2 Substring](/apcsa/u02a_using_objects/ch2substring/)
 
-1. [Ch2 Summary](/apcsa/ch2usingobjects/ch2summary/)
+1. [Ch2 Summary](/apcsa/u02a_using_objects/ch2summary/)
 
 
 
