@@ -374,19 +374,14 @@ Additional:
   heading: "# u04a_iteration"
   content: "
 
-1. [Ch6 SoloLrn Conditionals And Loops](/apcsa/u04a_iteration/Ch6SoloLrnConditionalsAndLoops/)
 
-1. [Ch6 While Loops](/apcsa/u04a_iteration/ch6whileloops/)
 
-1. [CBWarmup1](/apcsa/u04a_iteration/CodingBatWarmup1/)
+1. [While Loops](/apcsa/u04a_iteration/U04aWhileLoops/instructions/)
 
-1. Ch6 Review
+1. [CBString2](/apcsa/u04a_iteration/U04aCBString2/instructions/)
 
-1. [Ch6 For Loops](/apcsa/u04a_iteration/ch6forloops/)
+1. [For Loops](/apcsa/u04a_iteration/U04aForLoops/instructions/)
 
-1. [CBString2](/apcsa/u04a_iteration/CBString2/)
-
-1. Ch6 Test
 
 
 
@@ -394,7 +389,8 @@ Additional:
 
 
 Additional:
-1. [Ch6 Squares](/apcsa/u04a_iteration/ch6squares/)
+
+1. [Ch6 SoloLrn Conditionals And Loops](/apcsa/u04a_iteration/Ch6SoloLrnConditionalsAndLoops/)
 
 1. [Loop Practice](/apcsa/u04a_iteration/LoopPractice/)
 
@@ -408,6 +404,24 @@ Additional:
 "
 
 
+- title: u04b_nested_loops
+  heading: "# u04b_nested_loops"
+  content: "
+  
+  1. [2D Squares](/apcsa/u04b_nested_loops/U04b2DSquares/instructions/)
+
+  1. Iteration Unit Review
+
+  1. [Minecraft Road Builder](/apcsa/u04b_nested_loops/U04bMinecraftRoadBuilder/instructions/)
+  
+  1. Loops FRQ
+
+  1. Loops FRQ2
+
+  1. Unit 4 Iteration Test
+  
+  "
+
 
 
 - title: u05a_writing_classes
@@ -416,21 +430,19 @@ Additional:
 
 *3 wks*
 
-1. [Shoes](/apcsa/u05a_writing_classes/ch3shoes/)
+1. [Shoes](/apcsa/u05a_writing_classes/U05aShoes/instructions/)
 
-1. [Balloon](/apcsa/u05a_writing_classes/ch3balloon/)
+1. [Balloon](/apcsa/u05a_writing_classes/U05aBalloon/instructions/)
 
-1. [Employee](/apcsa/u05a_writing_classes/ch3employee/)
+1. [Student](/apcsa/u05a_writing_classes/U05aStudent/instructions/)
 
-1. [Student](/apcsa/u05a_writing_classes/ch3student/)
+1. [Car](/apcsa/u05a_writing_classes/U05aCar/instructions/)
+
+1. [Random Pitcher](/apcsa/u05a_writing_classes/U05aRandomPitcher/instructions/)
 
 1. [Adventure Game](/apcsa/u05a_writing_classes/JavaAdventureGame/)
 
-1. [Potato Head](/apcsa/u05a_writing_classes/ch3potatohead/)
 
-1. [Food Review](/apcsa/u05a_writing_classes/FoodReview/)
-
-1. [Car](/apcsa/u05a_writing_classes/ch3car/)
 
 1. Review Quiz
 
@@ -445,6 +457,14 @@ Additional:
 Additional projects:
 
 1. [Cash Register](/apcsa/u05a_writing_classes/ch3cashregister/)
+
+
+
+1. [Potato Head](/apcsa/u05a_writing_classes/ch3potatohead/)
+
+1. [Food Review](/apcsa/u05a_writing_classes/FoodReview/)
+
+1. [Car](/apcsa/u05a_writing_classes/ch3car/)
 
 
 
