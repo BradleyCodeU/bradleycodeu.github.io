@@ -4,7 +4,7 @@ category: u4b_nl
 title: U04b 2D Squares
 ---
 
-https://bradleycodeu.github.io/apcsa/ch6loops/ch6squares/
+https://bradleycodeu.github.io/apcsa/u04a_iteration/ch6squares/
   
 Write a program that reads an integer and displays, using asterisks, a filled and hollow square, placed next to each other. For example, if the side length is 5, the program should display:
 

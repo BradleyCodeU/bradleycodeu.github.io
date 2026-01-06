@@ -1,6 +1,6 @@
 ---
 layout: project
-category: u04a-iteration
+category: u04a_iteration
 title: U04a While Loops
 ---
 Write while loops that will print

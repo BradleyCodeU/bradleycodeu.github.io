@@ -1,6 +1,6 @@
 ---
 layout: project
-category: ch6loops
+category: u04a_iteration
 title: For Loops
 ---
 Write For loops that will compute

@@ -119,11 +119,8 @@ References and Other Info:
 
   1. [Integer Overflow](/apcsa/u01a_primitive_types/U01aIntegerOverflow/instructions/)
 
-  1. U1.1 Review Quiz Primitive Types
+  1. U1 FRQ Primitive Types
 
-  1. U1.1 FRQ Primitive Types
-
-  1. U1.1 Test Primitive Types
 
 
 Additional:
@@ -163,12 +160,15 @@ Vocab: platform, assembly, binary, bit, byte, declare, assignment, initialize, J
 
   1. [Mod Clock](/apcsa/u01b_modulo_operator/U01bModClock/instructions/)
 
-  1. U1.2 Review Quiz Modulo
+  1. U1Review (Multiple Attempts)
 
-  1. U1.2 FRQ Modulo
+  1. U1 Test Primitive Types
 
-  1. U1.2 Test Modulo
 
+
+  - [Floating Point Numbers - Computerphile](https://drive.google.com/file/d/15GKsGtSMyjbnm9rMIx3br9ypYq3p33LO/view)
+
+  - [Characters, Symbols and the Unicode Miracle - Computerphile](https://drive.google.com/file/d/1VwA4wt4wxBLPrGuVPTmCVUdTl1JMiIax/view)
 
 "
 
@@ -186,8 +186,6 @@ Vocab: platform, assembly, binary, bit, byte, declare, assignment, initialize, J
 1. [Pitchers and Batters](/apcsa/u02a_using_objects/U02aPitchersBatters/instructions/)
 
 1. [Dollar Object](/apcsa/u02a_using_objects/U02aDollarObject/instructions/)
-
-1. [MC Pet Wolf](/apcsa/u02a_using_objects/ch2mcpetwolf/)
 
 1. [Cedar Point Calc](/apcsa/u02a_using_objects/U02aCedarPointCalc/instructions/)
 
@@ -212,8 +210,6 @@ Additional:
 
 1. Ch1 and 2 Test
 
-
-
 1. [Summary](/apcsa/u02a_using_objects/ch2summary/)
 
 
@@ -233,24 +229,29 @@ Vocab: object, accessor, mutator, method, constructor, new, API, naming conventi
   heading: "# u02b_strings"
   content: "
 
+1. [MC Pet Wolf](/apcsa/u02b_strings/U02bMinecraftPetWolf/instructions/)
+
 1. [String Builder](/apcsa/u02b_strings/U02bStringBuilderComparison/instructions/)
 
 1. [Club Meeting](/apcsa/u02b_strings/U02bClubMeeting/instructions/)
 
 1. [First Vowel Substring](/apcsa/u02b_strings/U02bSubstring/instructions/)
 
+1. [Math Method Madness](/apcsa/u02b_strings/U02bMathMethodMadness/instructions/)
 
+1. FRQ String and Random
 
+1. U2 Review (Multiple Attempts)
 
-1. [Name Games](/apcsa/u02b_strings/ch45namegames/)
-
-1. [Replace](/apcsa/u02b_strings/U02bReplace/instructions/)
-
-1. FRQ Strings 
+1. U2 Test Using Objects and Strings
 
 
 
 Additional:
+
+1. [Name Games](/apcsa/u02b_strings/ch45namegames/)
+
+1. [Replace](/apcsa/u02b_strings/U02bReplace/instructions/)
 
 1. [Substring](/apcsa/u02b_strings/Substring/)
 
@@ -290,56 +291,122 @@ Additional:
   content: "
 [2nd Quarter](#2nd-quarter)
 
-1. **[Ch4 Fundamental Data Types](#ch4fundamentaldatatypes)**
+1. **[U03a Boolean Expressions](#u03a_boolean_expressions)**
 
-
-1. **[Ch5 Decisions](#ch5decisions)**
+1. **[U03b Short Circuit](#u03b_short_circuit)**
 
 1. **[Ch5.7 Short-Circuit Evaluation and De Morgan's Law](#ch57shortcircuitevaluation)**
 
-1. **[Ch6 Loops](#ch6loops)**
+1. **[Ch6 Loops](#u04a_iteration)**
 
 "
 
-- title: ch4fundamentaldatatypes
-  heading: "# Ch4FundamentalDataTypes"
+- title: u03a_boolean_expressions
+  heading: "# u03a_boolean_expressions"
   content: "
 
 
 
+  1. [Paint Calc 2](/apcsa/u03a_boolean_expressions/U03aPaintCalc2/instructions/)
+
+  1. [Error Traps](/apcsa/u03a_boolean_expressions/U03aErrorTraps/instructions/)
+
+  1. [CB Warmup 1](/apcsa/u03a_boolean_expressions/U03aCBWarmup1/instructions/)
+
+  1. Boolean Expression Unit Review
+
+  
 
 
-  1. [Ch4 Arithmetic Casting](/apcsa/ch4fundamentaldatatypes/ch4arithmeticcasting/)
-
- 
-
-  1. [Ch4 Weird Calc](/apcsa/ch4fundamentaldatatypes/ch4weirdcalc/)
-
-  1. [Ch4 Worksheet](/apcsa/ch4fundamentaldatatypes/ch4reviewsheet/)
 
   
 
 
 Additional:
 
-   
+   1. [Ch5 Paint Calc 2](/apcsa/ch5decisions/ch5paintcalc2/)
 
-    1. [Ch4 Printf](/apcsa/ch4fundamentaldatatypes/ch4printf/)
-
-
+1. [Ch5 Single Digit Roman Numerals](/apcsa/ch5decisions/ch5singledigitromannumerals/)
 
 
-  - [Floating Point Numbers - Computerphile](https://drive.google.com/file/d/15GKsGtSMyjbnm9rMIx3br9ypYq3p33LO/view)
+1. [Ch5 Error Traps](/apcsa/ch5decisions/ch5errortraps/)
 
-  - [Characters, Symbols and the Unicode Miracle - Computerphile](https://drive.google.com/file/d/1VwA4wt4wxBLPrGuVPTmCVUdTl1JMiIax/view)
+1. [Ch5 Find Distance](/apcsa/ch5decisions/ch5finddistance/)
 
-  - Integer division & floating-point division Quizizz https://join.quizizz.com use game code: ?????? tba
+1. [Ch5 Four Digit Roman Numerals](/apcsa/ch5decisions/ch5fourdigitromannumerals/)
 
-  - Modulo Operation Quizizz https://join.quizizz.com use game code: ?????? tba
+1. [Ch5 French Country Flowchart](/apcsa/ch5decisions/ch5frenchflowchart/)
+
+1. [Ch5 French Country Prefixes](/apcsa/ch5decisions/ch5frenchprefixes/)
+
+
+
+
+
+
+
   
   - VOCAB: integer division, modulo, wrapper classes
 
 "
+
+
+- title: u03b_short_circuit
+  heading: "# u03b_short_circuit"
+  content: "
+  
+  1. BooleanExpWorksheet
+
+  1. ShortCircuitWorksheet
+
+  1. DeMorgansLawsWorksheet
+
+  1. Boolean Expressions FRQ
+
+  1. Boolean Expressions Unit Test
+  
+  
+  "
+
+
+
+- title: u04a_iteration
+  heading: "# u04a_iteration"
+  content: "
+
+1. [Ch6 SoloLrn Conditionals And Loops](/apcsa/u04a_iteration/Ch6SoloLrnConditionalsAndLoops/)
+
+1. [Ch6 While Loops](/apcsa/u04a_iteration/ch6whileloops/)
+
+1. [CBWarmup1](/apcsa/u04a_iteration/CodingBatWarmup1/)
+
+1. Ch6 Review
+
+1. [Ch6 For Loops](/apcsa/u04a_iteration/ch6forloops/)
+
+1. [CBString2](/apcsa/u04a_iteration/CBString2/)
+
+1. Ch6 Test
+
+
+
+
+
+
+Additional:
+1. [Ch6 Squares](/apcsa/u04a_iteration/ch6squares/)
+
+1. [Loop Practice](/apcsa/u04a_iteration/LoopPractice/)
+
+1. [Ch6 Loop Info](/apcsa/u04a_iteration/ch6loopinfo/)
+
+1. [Ch6 Multiplication Table](/apcsa/u04a_iteration/ch6multitable/)
+
+1. [Ch6 Palindrome Checker](/apcsa/u04a_iteration/ch6palindrome/)
+
+1. [Ch6 Prime Generator](/apcsa/u04a_iteration/ch6primegenerator/)
+"
+
 
 
 
@@ -394,25 +461,7 @@ Vocab: instance variable, [local variable](https://www.dummies.com/programming/j
 - title: ch5decisions
   heading: "# Ch5Decisions"
   content: "
-1. [Ch5 Paint Calc 2](/apcsa/ch5decisions/ch5paintcalc2/)
 
-1. [Ch5 Single Digit Roman Numerals](/apcsa/ch5decisions/ch5singledigitromannumerals/)
-
-
-
-
-
-Additional:
-
-1. [Ch5 Error Traps](/apcsa/ch5decisions/ch5errortraps/)
-
-1. [Ch5 Find Distance](/apcsa/ch5decisions/ch5finddistance/)
-
-1. [Ch5 Four Digit Roman Numerals](/apcsa/ch5decisions/ch5fourdigitromannumerals/)
-
-1. [Ch5 French Country Flowchart](/apcsa/ch5decisions/ch5frenchflowchart/)
-
-1. [Ch5 French Country Prefixes](/apcsa/ch5decisions/ch5frenchprefixes/)
 
 
 - [And Or Not examples](/apcsa/ch57shortcircuitevaluation/ch57andornotexamples/)
@@ -447,42 +496,7 @@ Additional:
 "
 
 
-- title: ch6loops
-  heading: "# Ch6Loops"
-  content: "
 
-1. [Ch6 SoloLrn Conditionals And Loops](/apcsa/ch6loops/Ch6SoloLrnConditionalsAndLoops/)
-
-1. [Ch6 While Loops](/apcsa/ch6loops/ch6whileloops/)
-
-1. [CBWarmup1](/apcsa/ch6loops/CodingBatWarmup1/)
-
-1. Ch6 Review
-
-1. [Ch6 For Loops](/apcsa/ch6loops/ch6forloops/)
-
-1. [CBString2](/apcsa/ch6loops/CBString2/)
-
-1. Ch6 Test
-
-
-
-
-
-
-Additional:
-1. [Ch6 Squares](/apcsa/ch6loops/ch6squares/)
-
-1. [Loop Practice](/apcsa/ch6loops/LoopPractice/)
-
-1. [Ch6 Loop Info](/apcsa/ch6loops/ch6loopinfo/)
-
-1. [Ch6 Multiplication Table](/apcsa/ch6loops/ch6multitable/)
-
-1. [Ch6 Palindrome Checker](/apcsa/ch6loops/ch6palindrome/)
-
-1. [Ch6 Prime Generator](/apcsa/ch6loops/ch6primegenerator/)
-"
 
 
 
