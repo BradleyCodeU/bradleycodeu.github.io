@@ -190,12 +190,12 @@ Vocab: syntax, syntax error, variable, assignment, mathematical operator, float,
 
 Resources:
  [Python Functions Tutorial](/apcsp/py/pythonfunctions/)
-, [w3school Python define your own function](https://www.w3schools.com/python/python_functions.asp){:target="_blank"}
+, [w3school Python define your own function](https://www.w3schools.com/python/python_functions.asp)
 , [Functions are Recipes](https://hourofpython.trinket.io/a-visual-introduction-to-python#/functions/functions-are-recipes)
-, [w3schools Python variables](https://www.w3schools.com/python/python_variables.asp){:target="_blank"}
+, [w3schools Python variables](https://www.w3schools.com/python/python_variables.asp)
 , [learnpython.org/en/Variables_and_Types](https://www.learnpython.org/en/Variables_and_Types)
-, [w3schools Python input function](https://www.w3schools.com/python/ref_func_input.asp){:target="_blank"}
-, [w3schools Convert string to int](https://www.w3schools.com/python/python_casting.asp){:target="_blank"}
+, [w3schools Python input function](https://www.w3schools.com/python/ref_func_input.asp)
+, [w3schools Convert string to int](https://www.w3schools.com/python/python_casting.asp)
 , [learnpython.org/en/Basic_Operators](https://www.learnpython.org/en/Basic_Operators)
 , [learnpython.org/Conditions](https://www.learnpython.org/en/Conditions)
 , [Abstraction illustration](https://bradleycodeu.github.io/gdad/objects/abstraction.png)
@@ -385,7 +385,7 @@ Resources:
 , [learnpython.org/Basic_Operators](https://www.learnpython.org/en/Basic_Operators)
 , [learnpython.org/Conditions](https://www.learnpython.org/en/Conditions)
 , [learnpython.org/Loops](https://www.learnpython.org/en/Loops)
-, [w3schools Python While loops](https://www.w3schools.com/python/python_while_loops.asp){:target="_blank"}
+, [w3schools Python While loops](https://www.w3schools.com/python/python_while_loops.asp)
 , [Trt Art unit vocab](https://docs.google.com/document/d/1N__wvP1nQs7LAIH7ziRUlWPVKZxDMlzaLtgamtPvlSo/edit?usp=sharing)
 , [Trt Art review game](https://bradleycodeu.github.io/apcsp/turtleart/review/)
 
@@ -586,10 +586,10 @@ Resources:
 [learnpython.org/Basic_Operators](https://www.learnpython.org/en/Basic_Operators)
 , [learnpython.org/Conditions](https://www.learnpython.org/en/Conditions)
 , [learnpython.org/Loops](https://www.learnpython.org/en/Loops)
-, [w3schools Python While loops](https://www.w3schools.com/python/python_while_loops.asp){:target="_blank"}
+, [w3schools Python While loops](https://www.w3schools.com/python/python_while_loops.asp)
 , [If not equal to](/apcsp/console/ifnotequalto.md)
-, [w3schools arrays](https://www.w3schools.com/python/python_arrays.asp){:target="_blank"}
-, [w3schools try except](https://www.w3schools.com/python/python_try_except.asp){:target="_blank"}
+, [w3schools arrays](https://www.w3schools.com/python/python_arrays.asp)
+, [w3schools try except](https://www.w3schools.com/python/python_try_except.asp)
 , [101computing.net/number-only/](https://www.101computing.net/number-only/)
 , [Global variables](/apcsp/console/globalvariables.md)
 
@@ -639,10 +639,10 @@ Vocab: text game, arrays, logical operators, two-dimensional array, global varia
 
 Resources:
 [learnpython.org/Loops](https://www.learnpython.org/en/Loops)
-, [w3schools Python While loops](https://www.w3schools.com/python/python_while_loops.asp){:target="_blank"}
+, [w3schools Python While loops](https://www.w3schools.com/python/python_while_loops.asp)
 , [If not equal to](/apcsp/console/ifnotequalto/)
-, [w3schools arrays](https://www.w3schools.com/python/python_arrays.asp){:target="_blank"}
-, [w3schools try except](https://www.w3schools.com/python/python_try_except.asp){:target="_blank"}
+, [w3schools arrays](https://www.w3schools.com/python/python_arrays.asp)
+, [w3schools try except](https://www.w3schools.com/python/python_try_except.asp)
 , [101computing.net/number-only/](https://www.101computing.net/number-only/)
 , [Global variables](/apcsp/console/globalvariables/)
 
