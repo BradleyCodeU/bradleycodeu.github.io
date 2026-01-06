@@ -4,7 +4,7 @@ category: ch9inheritance
 title: Virtual Pet UML
 ---
 
-Plan an inheritance hierarchy for a virtual pet game. At the top of the hierarchy will be an [abstract](https://www.w3schools.com/java/java_abstract.asp) Pet class that contains all of the shared attributes and shared methods. Starter code for the Pet class is [here](/apcsa\ch9inheritance\Pet.java). Each child class only needs to add new attributes, new methods, and override basic methods with more specific implementation.
+Plan an inheritance hierarchy for a virtual pet game. At the top of the hierarchy will be an [abstract](https://www.w3schools.com/java/java_abstract.asp){:target="_blank"} Pet class that contains all of the shared attributes and shared methods. Starter code for the Pet class is [here](/apcsa\ch9inheritance\Pet.java){:target="_blank"}. Each child class only needs to add new attributes, new methods, and override basic methods with more specific implementation.
 
 You can use Notability or Google Drawings or some UML chart making website or take a photo of paper and pencil
 

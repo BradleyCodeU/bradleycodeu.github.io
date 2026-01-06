@@ -4,7 +4,7 @@ category: js
 title: Js Change Text
 ---
 
-Read this page first: [https://www.w3schools.com/js/js_events.asp](https://www.w3schools.com/js/js_events.asp)
+Read this page first: [https://www.w3schools.com/js/js_events.asp](https://www.w3schools.com/js/js_events.asp){:target="_blank"}
 
 Create two buttons that change the text of a paragraph's text to say two different things. Create two more buttons that changes a heading's text to say two different things.
 

@@ -2,7 +2,7 @@
 
 Read these tutorials:
 - [Python Functions](/apcsp\py\pythonfunctions)
-- [Python Conditionals](https://www.w3schools.com/python/python_conditions.asp)
+- [Python Conditionals](https://www.w3schools.com/python/python_conditions.asp){:target="_blank"}
 
 Create a Phone Repair Calculator that predicts the amount of profit you can earn by buying and repairing phones with cracked screens.
 

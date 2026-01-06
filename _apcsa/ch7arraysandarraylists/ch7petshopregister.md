@@ -1,6 +1,6 @@
 ---
 layout: project
-category: ch7arraysandarraylists
+category: u06a_arrays
 title: Pet Shop Register
 ---
 Pet Shop Register

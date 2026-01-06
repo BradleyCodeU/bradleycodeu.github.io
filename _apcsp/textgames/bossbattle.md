@@ -9,11 +9,11 @@ permalink: /apcsp/textgames/bossBattle/
 
 This project uses [nested conditionals](https://geek-university.com/python/nested-if-statements/) and [logical operators](https://www.tutorialspoint.com/python/logical_operators_example.htm).
 
-Read this article about the [random choice method](https://www.w3schools.com/python/ref_random_choice.asp)
+Read this article about the [random choice method](https://www.w3schools.com/python/ref_random_choice.asp){:target="_blank"}
 
-Read this article about the [Python string lower method](https://www.w3schools.com/python/ref_string_lower.asp)
+Read this article about the [Python string lower method](https://www.w3schools.com/python/ref_string_lower.asp){:target="_blank"}
 
-Read this article about the [Python in keyword](https://www.w3schools.com/python/ref_keyword_in.asp). The in keyword is used to check if a value is present within a list, string, etc.
+Read this article about the [Python in keyword](https://www.w3schools.com/python/ref_keyword_in.asp){:target="_blank"}. The in keyword is used to check if a value is present within a list, string, etc.
 
 At the top of your project, you MUST have a comment with your name on line 1. Then import time on line 2.
 

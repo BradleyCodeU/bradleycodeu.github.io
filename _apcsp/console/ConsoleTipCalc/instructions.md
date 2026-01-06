@@ -3,7 +3,7 @@
 
 You ```MUST validate the input using Try/Except``` or the program will crash.
 
-You can learn how to validate user input [here](https://www.101computing.net/number-only/) and [here](https://www.w3schools.com/python/python_try_except.asp)
+You can learn how to validate user input [here](https://www.101computing.net/number-only/) and [here](https://www.w3schools.com/python/python_try_except.asp){:target="_blank"}
 
 
 Create a valid number function named validNumber with one argument: stringInput. This function safely checks (using try/except) if the user has typed a number >= 0 and returns true or false. For example, validNumber("banana") would return False, but validNumber("0") would return True.

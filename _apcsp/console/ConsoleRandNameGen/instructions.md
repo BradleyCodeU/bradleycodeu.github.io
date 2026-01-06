@@ -4,7 +4,7 @@ Decide what type of a generator you are going to make. Ideas include: Video Game
 
 Create at least 3 lists. Each list MUST have 12 or more words. For example... a list of names, list of verbs, and a list of places.
 
-Read this article about the [random choice method](https://www.w3schools.com/python/ref_random_choice.asp)
+Read this article about the [random choice method](https://www.w3schools.com/python/ref_random_choice.asp){:target="_blank"}
 
 - Say something like Here Are 5 New Video Game Titles
 

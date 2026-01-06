@@ -1,7 +1,7 @@
 # Hogwarts House
 
 Read these tutorials:
-- [Python Conditionals](https://www.w3schools.com/python/python_conditions.asp)
+- [Python Conditionals](https://www.w3schools.com/python/python_conditions.asp){:target="_blank"}
 - [How to use AND Operator in Python IF?](https://pythonexamples.org/python-if-and/)
 
 In this project, you will create an app that:

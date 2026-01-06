@@ -13,9 +13,9 @@ Create a P5js application that allows you to draw pictures. You MUST use an arra
 In your HTML file...
 
 Create a div that will contain drawing tools:
-  - An [HTML5 color picker](https://www.w3schools.com/tags/att_input_type_color.asp)
+  - An [HTML5 color picker](https://www.w3schools.com/tags/att_input_type_color.asp){:target="_blank"}
   - A CLEAR button using a standard HTML button
-  - Two [radio buttons](https://www.w3schools.com/tags/att_input_type_radio.asp) so that you can switch between Pencil (which adds Dots at the mouse location) and Eraser (which erases Dots at the mouse location). Both buttons will have same name... name="PencilEraserSwitch" but they will both have different ids and different values. For example... id="pencil"
+  - Two [radio buttons](https://www.w3schools.com/tags/att_input_type_radio.asp){:target="_blank"} so that you can switch between Pencil (which adds Dots at the mouse location) and Eraser (which erases Dots at the mouse location). Both buttons will have same name... name="PencilEraserSwitch" but they will both have different ids and different values. For example... id="pencil"
 
 Create a div and give it the ID "canvasDiv"
 
@@ -65,5 +65,5 @@ If you have taken 1 or more computer science classes in the past, add 1 or more 
   - A color palette (several buttons with common colors so that you can quickly select common colors)
   - A random color button that randomizes the color once each time it is clicked
   - A "Confetti Mode" checkbox that (if checked) randomizes the color before every new Dot is added
-  - A [range slider](https://www.w3schools.com/tags/att_input_type_range.asp) that will change the pen size
+  - A [range slider](https://www.w3schools.com/tags/att_input_type_range.asp){:target="_blank"} that will change the pen size
   - Add a 3rd radio button, Spray Paint: add multiple slightly random dots near the mouse

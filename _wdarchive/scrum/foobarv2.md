@@ -11,7 +11,7 @@ Must use [the Map class](https://bradleycodeu.github.io/wdarchive/scrum/map.js) 
 
 ## ASCII Art
 
-Go to your index.html and add ```<pre> </pre>``` tags. These tags are for [preformatted text](https://www.w3schools.com/tags/tag_pre.asp). Text in a ```<pre>``` element is displayed in a fixed-width font, and the text preserves both spaces and line breaks.
+Go to your index.html and add ```<pre> </pre>``` tags. These tags are for [preformatted text](https://www.w3schools.com/tags/tag_pre.asp){:target="_blank"}. Text in a ```<pre>``` element is displayed in a fixed-width font, and the text preserves both spaces and line breaks.
 
 Visit [this site](http://patorjk.com/software/taag/#p=display&f=ANSI%20Shadow&t=Game%20Title) to get an ASCII art version of your game title. Notice that you can change the "font" to something else like Bulbhead, Doom, or Ogre. Some of the fonts might make the text too big, so pick one that fits.
 
@@ -65,7 +65,7 @@ In Javascript...
 Create an array to store the player's inventory.
 
 Create a function named takeItem().
-  - Push the itemArray[mylocation] into the player's inventory using the [push() method](https://www.w3schools.com/jsref/jsref_push.asp).
+  - Push the itemArray[mylocation] into the player's inventory using the [push() method](https://www.w3schools.com/jsref/jsref_push.asp){:target="_blank"}.
   - Next, set the itemArray[mylocation] equal to undefined.
   - Finally, display the player's inventory in the "backpack"
 
@@ -91,7 +91,7 @@ localStorage.mappedRooms = JSON.stringify(mappy.mappedRooms);
 
 
 
-Add a LOAD button. Define a function named loadGame() that loads all of the variables from localStorage. Don't forget that everything is saved as a string in localStorage! Use [parseInt()](https://www.w3schools.com/jsref/jsref_parseint.asp) or JSON.parse() to convert from string back to number or array.
+Add a LOAD button. Define a function named loadGame() that loads all of the variables from localStorage. Don't forget that everything is saved as a string in localStorage! Use [parseInt()](https://www.w3schools.com/jsref/jsref_parseint.asp){:target="_blank"} or JSON.parse() to convert from string back to number or array.
 
 You can load the array of rooms the player has seen like this...
 ```

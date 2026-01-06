@@ -4,7 +4,7 @@ category: py
 title: Hogwarts House
 ---
 Read this tutorial:
-- [Python Conditionals](https://www.w3schools.com/python/python_conditions.asp)
+- [Python Conditionals](https://www.w3schools.com/python/python_conditions.asp){:target="_blank"}
 
 In this project, you will create an app that:
 - prompts the user for "Bravery Score (1-10)"

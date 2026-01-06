@@ -1,6 +1,6 @@
 ---
 layout: project
-category: ch72foreachloops
+category: u06b_for_each_loops
 title: Math Quiz
 ---
 Create a simple THREE question math quiz.

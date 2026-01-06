@@ -35,7 +35,7 @@ The haiku should be displayed as text on the canvas [https://p5js.org/reference/
 
 NOTE: The focus of this project should be the TEXT, so don't worry about random colors.
 
-NOTE: Store your words in Javascript arrays [https://www.w3schools.com/js/js_arrays.asp](https://www.w3schools.com/js/js_arrays.asp) and use the p5js `random()` function to select from each array. [https://p5js.org/reference/p5/random/](https://p5js.org/reference/p5/random/) 
+NOTE: Store your words in Javascript arrays [https://www.w3schools.com/js/js_arrays.asp](https://www.w3schools.com/js/js_arrays.asp){:target="_blank"} and use the p5js `random()` function to select from each array. [https://p5js.org/reference/p5/random/](https://p5js.org/reference/p5/random/) 
 
 NOTE: The 3rd line of your poem can NOT be exactly the same as your 1st line.
 

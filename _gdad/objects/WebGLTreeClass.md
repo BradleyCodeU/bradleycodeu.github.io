@@ -4,7 +4,7 @@ category: objects
 title: WebGL Tree Class
 ---
 
-Read this tutorial about [JavaScript Classes](https://www.w3schools.com/js/js_classes.asp)
+Read this tutorial about [JavaScript Classes](https://www.w3schools.com/js/js_classes.asp){:target="_blank"}
 
 Tutorial videos:
 

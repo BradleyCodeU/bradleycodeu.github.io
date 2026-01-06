@@ -8,7 +8,7 @@ For this project you will continue working on your multi-page website with the s
 
 ### Each person will ADD ONE NEW PAGE (with an h1, text, and image) to the site.
 
-You MUST add an [HTML comment](https://www.w3schools.com/html/html_comments.asp) on each page that says the name of the programmer. For example, `<!-- coded by Mr. Riley -->`
+You MUST add an [HTML comment](https://www.w3schools.com/html/html_comments.asp){:target="_blank"} on each page that says the name of the programmer. For example, `<!-- coded by Mr. Riley -->`
 
 The FINAL number of pages in the project is determined by the number of people:
   - 2 people = index.html homepage plus 4 other pages (add 2 new pages)
@@ -63,10 +63,10 @@ CSS code that needs added by your group:
       1. use a different text color
   1. links
       1. same link color (not the default blue) on all pages
-      1. same [visited link](https://www.w3schools.com/css/css_link.asp) color (not the default purple) on all pages
+      1. same [visited link](https://www.w3schools.com/css/css_link.asp){:target="_blank"} color (not the default purple) on all pages
   1. images
       1. same solid 2 pixel dark color border (not black or white) around all images on all pages
-      1. set the [max width](https://www.w3schools.com/cssref/pr_dim_max-width.asp) so all images must be this specific size or smaller
+      1. set the [max width](https://www.w3schools.com/cssref/pr_dim_max-width.asp){:target="_blank"} so all images must be this specific size or smaller
   1. paragraphs
       1. add a 10 pixel margin and 10 pixel padding
       1. add a colorful background (not black or white)

@@ -28,7 +28,7 @@ funFacts(-9,-5) --> "Absolute value of -9 is 9.\n-9 to the power of -5 is -1.693
 
 ## Part 3:
 Create a public static method named textOrder that takes two String arguments and returns a String. This method will determine the correct [lexicographic ordering](https://en.wikipedia.org/wiki/Lexicographic_order) of those strings. For this exercise you will need to use the compareTo() String method. 
-You will need to use a conditional with an if and an else. [Read this tutorial](https://www.w3schools.com/java/java_conditions_else.asp)
+You will need to use a conditional with an if and an else. [Read this tutorial](https://www.w3schools.com/java/java_conditions_else.asp){:target="_blank"}
 Look up the compareTo method in the API docs. This is a sample transcript of what your program should do. The words "apple" and "bananas" are user input and should not be put on the screen by your program.
 ```
 textOrder("apple", "banana") --> "apple comes before banana lexicographically"
@@ -38,7 +38,7 @@ textOrder("dragonfruit", "coconut") --> "coconut comes before dragonfruit lexico
 ## Part 4:
 Next, your program will use the two numbers from Part 1 and then ask a series of math questions. 
 Each question will be evaluated as to whether it is the right or wrong answer. 
-You will need to use a conditional with an if and an else. [Read this tutorial](https://www.w3schools.com/java/java_conditions_else.asp)
+You will need to use a conditional with an if and an else. [Read this tutorial](https://www.w3schools.com/java/java_conditions_else.asp){:target="_blank"}
 In the end a final score should be reported for the user. This is a sample transcript of what your program should do. User input always comes after a colon : and should not be put on the screen by your program.
 ```
 Part 4-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-

@@ -4,7 +4,7 @@ category: objects
 title: JS Chatbot
 ---
 
-Read this tutorial about [Javascript objects](https://www.w3schools.com/js/js_objects.asp)
+Read this tutorial about [Javascript objects](https://www.w3schools.com/js/js_objects.asp){:target="_blank"}
 
 Create a chatbot character that MUST HAVE 12 or more key/value pairs. For this project, the keys are all "keywords" and the values are the "response."
 
@@ -20,15 +20,15 @@ let dan = {
 
 Create a variable named userinput and set it to "hello"
 
-Next, create a [while loop](https://www.w3schools.com/js/js_loop_while.asp) that creates the game loop. Inside the while loop:
-  - [Prompt](https://www.w3schools.com/jsref/met_win_prompt.asp) the user to ask a question and save their input in userinput
+Next, create a [while loop](https://www.w3schools.com/js/js_loop_while.asp){:target="_blank"} that creates the game loop. Inside the while loop:
+  - [Prompt](https://www.w3schools.com/jsref/met_win_prompt.asp){:target="_blank"} the user to ask a question and save their input in userinput
   - Convert userinput to lowercase
-  - Create a [for-each-in loop](https://www.w3schools.com/jsref/jsref_forin.asp) that loops through each keyword
+  - Create a [for-each-in loop](https://www.w3schools.com/jsref/jsref_forin.asp){:target="_blank"} that loops through each keyword
     - if userinput contains a keyword
       - let reply = dan[keyword]
       - create an alert that prints the reply
   - if userinput equals "q" or "quit" or "bye"
-    - [break out of the loop](https://www.w3schools.com/jsref/jsref_break.asp)
+    - [break out of the loop](https://www.w3schools.com/jsref/jsref_break.asp){:target="_blank"}
 
 
 ### If you have already completed 1 or more Computer Science classes...

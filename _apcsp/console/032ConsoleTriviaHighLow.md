@@ -9,7 +9,7 @@ Create three trivia questions in which the answers are numbers. For example, how
 
 You ```MUST validate the input using Try/Except``` or the program will crash.
 
-You can learn how to validate user input [here](https://www.101computing.net/number-only/) and [here](https://www.w3schools.com/python/python_try_except.asp)
+You can learn how to validate user input [here](https://www.101computing.net/number-only/) and [here](https://www.w3schools.com/python/python_try_except.asp){:target="_blank"}
 
 While the user's answer is wrong, tell them if their answer is "Too high" or "Too low", subtract 2 or 3 points from their score, tell them what their score is, and ask the question again. Repeat the question until they get it right.
 

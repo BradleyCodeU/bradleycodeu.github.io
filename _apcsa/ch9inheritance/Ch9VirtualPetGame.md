@@ -6,11 +6,11 @@ title: Virtual Pet Game
 
 Here is a [demo video](https://drive.google.com/file/d/12lmCfq5ru7Vth4apWrTKk2eomeqEvJ-J/view?usp=sharing) of the Virtual Pet Game
 
-Create an [abstract](https://www.w3schools.com/java/java_abstract.asp) Pet class, a Puppy class, and classes for 3 other types of pet. 
+Create an [abstract](https://www.w3schools.com/java/java_abstract.asp){:target="_blank"} Pet class, a Puppy class, and classes for 3 other types of pet. 
 
 Starter code for the Main class is [here](/apcsa\ch9inheritance\Main.java). Complete the Main class that will contain the game. Lines 8 and 10 need completed.
 
-Starter code for the Pet class is [here](/apcsa\ch9inheritance\Pet.java). Complete the [abstract](https://www.w3schools.com/java/java_abstract.asp) Pet class. Line 22 needs completed.
+Starter code for the Pet class is [here](/apcsa\ch9inheritance\Pet.java). Complete the [abstract](https://www.w3schools.com/java/java_abstract.asp){:target="_blank"} Pet class. Line 22 needs completed.
 
 Create subclasses that will inherit from the Pet class: a Puppy class, and classes for 3 other types of pet.
 

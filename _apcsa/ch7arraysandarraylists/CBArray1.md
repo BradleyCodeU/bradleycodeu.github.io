@@ -1,6 +1,6 @@
 ---
 layout: project
-category: ch7arraysandarraylists
+category: u06a_arrays
 title: CBArray1
 ---
 
@@ -10,4 +10,4 @@ Complete the third column: makePi, rotateLeft3, sum2, has23, double23, biggerTwo
 
 Turn in your DONE page URL when finished.
 
-![](/apcsa/ch7arraysandarraylists/cb04.png)
+![](/apcsa/u06a_arrays/cb04.png)

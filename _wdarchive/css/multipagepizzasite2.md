@@ -8,7 +8,7 @@ For this project you will continue working on your multi-page pizza site with th
 
 ### Each person will ADD ONE NEW PAGE (with an h1, text, and image) to the site.
 
-Add an [HTML comment](https://www.w3schools.com/html/html_comments.asp) on each page that says the name of the programmer. For example, `<!-- coded by Mr. Riley -->`
+Add an [HTML comment](https://www.w3schools.com/html/html_comments.asp){:target="_blank"} on each page that says the name of the programmer. For example, `<!-- coded by Mr. Riley -->`
 
 The FINAL number of pages in the project is determined by the number of people:
   - 2 people = index.html homepage plus 4 other pages (add 2 new pages)

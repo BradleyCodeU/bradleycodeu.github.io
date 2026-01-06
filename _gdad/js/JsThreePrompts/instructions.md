@@ -5,8 +5,8 @@ title: Js Three Prompts
 ---
 
 Read these pages first:
-- [https://www.w3schools.com/jsref/met_win_prompt.asp](https://www.w3schools.com/jsref/met_win_prompt.asp)
-- [https://www.w3schools.com/jsref/met_win_alert.asp](https://www.w3schools.com/jsref/met_win_alert.asp)
+- [https://www.w3schools.com/jsref/met_win_prompt.asp](https://www.w3schools.com/jsref/met_win_prompt.asp){:target="_blank"}
+- [https://www.w3schools.com/jsref/met_win_alert.asp](https://www.w3schools.com/jsref/met_win_alert.asp){:target="_blank"}
 
 
 

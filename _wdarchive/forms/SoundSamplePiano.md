@@ -16,7 +16,7 @@ In the script section, load all 10 of the sounds. For example...
 var soundA = new Audio("https://cdn.glitch.com/475828fb-3da7-4c90-8b9a-8217d8db7a15%2F0.mp3?1509508399315");
 ```
 
-Create a button class so that all of your piano keys look almost identical. Add a [hover](https://www.w3schools.com/cssref/sel_hover.asp) effect and an [active](https://www.w3schools.com/cssref/sel_active.asp) effect.
+Create a button class so that all of your piano keys look almost identical. Add a [hover](https://www.w3schools.com/cssref/sel_hover.asp){:target="_blank"} effect and an [active](https://www.w3schools.com/cssref/sel_active.asp){:target="_blank"} effect.
 
 Each of the piano keys can simply play one sound using onclick. For example, onclick="soundA.play()"
 
@@ -44,4 +44,4 @@ window.onkeydown = function(){
 };
 ```
 
-Read this tutorial about [key events](https://www.w3schools.com/jsref/event_key_key.asp)
+Read this tutorial about [key events](https://www.w3schools.com/jsref/event_key_key.asp){:target="_blank"}

@@ -17,7 +17,7 @@ Must have:
 
 Create a Bootstrap page for a real Bradley club.
 
-[https://www.w3schools.com/bootstrap4/bootstrap_get_started.asp](https://www.w3schools.com/bootstrap4/bootstrap_get_started.asp)
+[https://www.w3schools.com/bootstrap4/bootstrap_get_started.asp](https://www.w3schools.com/bootstrap4/bootstrap_get_started.asp){:target="_blank"}
 
 Include a jumbotron, images in a carousel, signup form, 2 or more columns using grid system.
 

@@ -2,7 +2,7 @@
 ---
 In this project you will work with an argument, convert to int, and return a value
 
-Read this [tutorial about Python functions](/apcsp/py/pythonfunctions/) and how to [convert string to int](https://www.w3schools.com/python/python_casting.asp)
+Read this [tutorial about Python functions](/apcsp/py/pythonfunctions/) and how to [convert string to int](https://www.w3schools.com/python/python_casting.asp){:target="_blank"}
 
 Define a function called sellPhones that requires one argument: myPhones. The function will return the myMoney as a whole number. Assume that 1 phone = 399 dollars
 

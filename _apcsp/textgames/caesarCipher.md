@@ -28,7 +28,7 @@ def caesarEncrypt(myString,shiftNum):
 
 Define a caesarDecrypt function based on the above encryption algorithm. It requires 2 arguments: myString, myNumber. It returns a string that has been shifted -myNumber places.
 
-Define a function named randomSecretCodeWords that requires 3 arguments: list1, list2, list3. Concatenate the arrays just like you would concatenate strings: combinedList = list1 + list2 + list3. Use the [random choice function](https://www.w3schools.com/python/ref_random_choice.asp) to randomly select one word from the combined list. Concatenate THREE random words and return the result. For example, testing this function out five times could give the following result...
+Define a function named randomSecretCodeWords that requires 3 arguments: list1, list2, list3. Concatenate the arrays just like you would concatenate strings: combinedList = list1 + list2 + list3. Use the [random choice function](https://www.w3schools.com/python/ref_random_choice.asp){:target="_blank"} to randomly select one word from the combined list. Concatenate THREE random words and return the result. For example, testing this function out five times could give the following result...
 ```
 "redlimeMiami"
 "graybananabanana"

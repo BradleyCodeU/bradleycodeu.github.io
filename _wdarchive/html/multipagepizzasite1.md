@@ -4,7 +4,7 @@ category: html
 title: Multi-page Pizza Site 1
 ---
 
-Read this tutorial about the [HTML5 \<nav\> tag](https://www.w3schools.com/tags/tag_nav.asp)
+Read this tutorial about the [HTML5 \<nav\> tag](https://www.w3schools.com/tags/tag_nav.asp){:target="_blank"}
 
 For this project you will work in a group of 2-4 people. The number of pages in the project is determined by the number of people:
   - 2 people = index.html homepage plus 2 other pages

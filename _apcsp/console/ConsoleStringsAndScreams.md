@@ -5,7 +5,7 @@ title: Console Strings and Screams
 ---
 Concepts: concatenation, len(), string indexing, string slice
 
-Read this article about [how to slice a string in Python](https://www.w3schools.com/python/python_strings_slicing.asp)
+Read this article about [how to slice a string in Python](https://www.w3schools.com/python/python_strings_slicing.asp){:target="_blank"}
 
 Write a code to prompt the user to enter their first name. Your program will respond with a welcome message for the user (Hello Steve!) and then print some information about the user's first name (length, starts with, ends with).
 
@@ -13,7 +13,7 @@ Next, prompt the user to enter their last name. Print some information about the
 
 Print the full name (Your full name is Steve Jobs).
 
-Print your nick name is then the first 2 letters of your last name plus the first 2 letters of your last name. Read this article about [how to slice a string in Python](https://www.w3schools.com/python/python_strings_slicing.asp).
+Print your nick name is then the first 2 letters of your last name plus the first 2 letters of your last name. Read this article about [how to slice a string in Python](https://www.w3schools.com/python/python_strings_slicing.asp){:target="_blank"}.
 
 Finally, scream! Create a variable named myScream that contains empty string. Make a loop that repeats for the length of the first name + the length of the second name, concatenating an "A" to myScream each repetition. After the loop, concatenate an "!" and print it.
 

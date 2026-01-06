@@ -9,9 +9,9 @@ Use this w3schools page as a reference: https://www.w3schools.com/html/html_form
 
 Directions:
 
-Create an HTML [form](https://www.w3schools.com/html/html_forms.asp) and place all of the following inside of it...
+Create an HTML [form](https://www.w3schools.com/html/html_forms.asp){:target="_blank"} and place all of the following inside of it...
 
-  1. Create a [label](https://www.w3schools.com/tags/tag_label.asp) that says "1. Name"
+  1. Create a [label](https://www.w3schools.com/tags/tag_label.asp){:target="_blank"} that says "1. Name"
 
       - Set the label's `for` attribute to yourName. Like this, for="yourName"
 
@@ -19,7 +19,7 @@ Create an HTML [form](https://www.w3schools.com/html/html_forms.asp) and place a
 
       - Set the input's `id` attribute to yourName. Like this, id="yourName"
 
-      - Add a [br tag](https://www.w3schools.com/tags/tag_br.asp) to create a line break
+      - Add a [br tag](https://www.w3schools.com/tags/tag_br.asp){:target="_blank"} to create a line break
 
   2. Create a label that says "2. When Is Your Birthday?"
 
@@ -30,7 +30,7 @@ Create an HTML [form](https://www.w3schools.com/html/html_forms.asp) and place a
 
   3. Create a label that says "3. How Old Are You Right Now?"
       - Set the label's `for` attribute to age.
-      - Add a [range slider](https://www.w3schools.com/tags/att_input_type_range.asp) type input with the minimum 5 and maximum 100
+      - Add a [range slider](https://www.w3schools.com/tags/att_input_type_range.asp){:target="_blank"} type input with the minimum 5 and maximum 100
       - Set the input's `id` attribute to age.
       - br
   4. Create a label that says "4. Email Address"

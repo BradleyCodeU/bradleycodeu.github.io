@@ -5,7 +5,7 @@ title: Console Hourly and Yearly Wages
 ---
 You ```MUST validate the input using Try/Except``` or the program will crash.
 
-You can learn how to validate user input [here](https://www.101computing.net/number-only/) and [here](https://www.w3schools.com/python/python_try_except.asp)
+You can learn how to validate user input [here](https://www.101computing.net/number-only/) and [here](https://www.w3schools.com/python/python_try_except.asp){:target="_blank"}
 
 - Tell the user "I can calculate your 1) Hourly Wage given a Yearly Wage OR 2) Yearly Wage given a Hourly Wage"
 - Collect the user input and validate that they pressed 1 or 2

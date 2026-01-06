@@ -6,7 +6,7 @@ title: U09a Virtual Pet Game
 
 Here is a [demo video](https://drive.google.com/file/d/12lmCfq5ru7Vth4apWrTKk2eomeqEvJ-J/view?usp=sharing) of a finished Virtual Pet Game
 
-Complete the [abstract](https://www.w3schools.com/java/java_abstract.asp) Pet class. Line 22 needs completed.
+Complete the [abstract](https://www.w3schools.com/java/java_abstract.asp){:target="_blank"} Pet class. Line 22 needs completed.
 
 Complete the U09aVirtualPetGame class that will contain the game. Lines 8-10 need completed.
 

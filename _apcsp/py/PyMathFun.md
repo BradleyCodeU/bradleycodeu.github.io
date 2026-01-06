@@ -4,7 +4,7 @@ category: py
 title: Math Functions
 ---
 Read this tutorial:
-- [Python Conditionals](https://www.w3schools.com/python/python_conditions.asp)
+- [Python Conditionals](https://www.w3schools.com/python/python_conditions.asp){:target="_blank"}
 
 
 In this project you will define two functions.

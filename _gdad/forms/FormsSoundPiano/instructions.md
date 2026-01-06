@@ -18,7 +18,7 @@ Download one of these and pick 10 sounds to use:
 let soundA = new Audio("drum.mp3");
 ```
 
-1. Create a button class so that all of your piano keys look almost identical. Add a [hover](https://www.w3schools.com/cssref/sel_hover.asp) effect and an [active](https://www.w3schools.com/cssref/sel_active.asp) effect.
+1. Create a button class so that all of your piano keys look almost identical. Add a [hover](https://www.w3schools.com/cssref/sel_hover.asp){:target="_blank"} effect and an [active](https://www.w3schools.com/cssref/sel_active.asp){:target="_blank"} effect.
 
 1. Each of the piano keys can simply play ONE sound using onclick. For example, onclick="soundA.play()"
 
@@ -46,4 +46,4 @@ window.onkeydown = function(){
 };
 ```
 
-Read this tutorial about [key events](https://www.w3schools.com/jsref/event_key_key.asp)
+Read this tutorial about [key events](https://www.w3schools.com/jsref/event_key_key.asp){:target="_blank"}

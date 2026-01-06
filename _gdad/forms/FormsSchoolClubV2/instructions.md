@@ -5,15 +5,15 @@ title: Forms School Club V2
 ---
 This project is Part 2 of the School Club project. Copy/paste your code from that project into this one.
 
-Add to the **SIGN UP** section. Use this w3schools page as a reference for the Form Inputs: [https://www.w3schools.com/html/html_form_input_types.asp](https://www.w3schools.com/html/html_form_input_types.asp)
+Add to the **SIGN UP** section. Use this w3schools page as a reference for the Form Inputs: [https://www.w3schools.com/html/html_form_input_types.asp](https://www.w3schools.com/html/html_form_input_types.asp){:target="_blank"}
 
 ## You should already have a Name input
   - Here are the directions for creating a Name input just in case you need it...
-  - Create a [label](https://www.w3schools.com/tags/tag_label.asp) that says "1. Name"
+  - Create a [label](https://www.w3schools.com/tags/tag_label.asp){:target="_blank"} that says "1. Name"
     - Set the `for` attribute to username. Like this, for="username"
   - Add a `text` type input
     - Set the `id` attribute to username. Like this, id="username"
-  - Add a [br tag](https://www.w3schools.com/tags/tag_br.asp) to create a line break
+  - Add a [br tag](https://www.w3schools.com/tags/tag_br.asp){:target="_blank"} to create a line break
 
 ## You should already have a Email input
   - Here are the directions for creating an Email input just in case you need it...
@@ -32,13 +32,13 @@ Add to the **SIGN UP** section. Use this w3schools page as a reference for the F
 ## Age
   - Create a label that says "4. How Old Are You Right Now?"
     - Set the `for` attribute to age.
-  - Add a [range slider](https://www.w3schools.com/tags/att_input_type_range.asp) type input with the minimum 5 and maximum 100
+  - Add a [range slider](https://www.w3schools.com/tags/att_input_type_range.asp){:target="_blank"} type input with the minimum 5 and maximum 100
     - Set the `id` attribute to age.
   - br
 ## Favorite Movie/TV
   - Create a label that either says "5. Favorite Movie" or "5. Favorite TV Show"
     - Set the `for` attribute to either favMovie or favTV.
-  - Add a [select dropdown](https://www.w3schools.com/tags/tag_select.asp) with the names of 3 or more movies or tv shows.
+  - Add a [select dropdown](https://www.w3schools.com/tags/tag_select.asp){:target="_blank"} with the names of 3 or more movies or tv shows.
     - Set the `id` attribute to either favMovie or favTV.
   - br
 ## Color

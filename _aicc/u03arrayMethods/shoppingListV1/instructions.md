@@ -12,9 +12,9 @@ In this project, you will create an app that allows you to store a list of items
   - Chores List App
   - Holiday Wishlist App
 
-Complete the JavaScript and some custom CSS to style your app. [https://www.w3schools.com/css/css_intro.asp](https://www.w3schools.com/css/css_intro.asp)
+Complete the JavaScript and some custom CSS to style your app. [https://www.w3schools.com/css/css_intro.asp](https://www.w3schools.com/css/css_intro.asp){:target="_blank"}
 
-IN A NEW FILE, create a JavaScript class [https://www.w3schools.com/js/js_classes.asp](https://www.w3schools.com/js/js_classes.asp) that will serve as a blueprint for a shopping list item. Create properties (instance variables) for the attributes that you need to store for each shopping list item.
+IN A NEW FILE, create a JavaScript class [https://www.w3schools.com/js/js_classes.asp](https://www.w3schools.com/js/js_classes.asp){:target="_blank"} that will serve as a blueprint for a shopping list item. Create properties (instance variables) for the attributes that you need to store for each shopping list item.
 
 In version 2 we will improve the app.
 

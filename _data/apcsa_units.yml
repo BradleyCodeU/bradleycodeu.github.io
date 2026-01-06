@@ -348,6 +348,8 @@ Additional:
   
   - VOCAB: integer division, modulo, wrapper classes
 
+  - [And Or Not examples](/apcsa/ch57shortcircuitevaluation/ch57andornotexamples/)
+
 "
 
 
@@ -440,15 +442,11 @@ Additional:
 
 1. [Random Pitcher](/apcsa/u05a_writing_classes/U05aRandomPitcher/instructions/)
 
-1. [Adventure Game](/apcsa/u05a_writing_classes/JavaAdventureGame/)
+1. [Adventure Game](/apcsa/u05a_writing_classes/U05aAdventureGame/instructions)
+
+1. [PracticeFRQStepTracker](/apcsa/u05a_writing_classes/U05aPracticeFRQStepTracker/instructions)
 
 
-
-1. Review Quiz
-
-1. FRQ Implementing Classes
-
-1. Test
 
 
 
@@ -457,8 +455,6 @@ Additional:
 Additional projects:
 
 1. [Cash Register](/apcsa/u05a_writing_classes/ch3cashregister/)
-
-
 
 1. [Potato Head](/apcsa/u05a_writing_classes/ch3potatohead/)
 
@@ -478,42 +474,26 @@ Additional projects:
 Vocab: instance variable, [local variable](https://www.dummies.com/programming/java/local-variables-in-java/), constructor, mutator method, accessor method, [method header](http://www.cs.cornell.edu/courses/cs1130/2012sp/1130selfpaced/module2/module2part1/methodHeaders.html), return type, void, [access specifier](https://www.geeksforgeeks.org/access-specifiers-for-classes-or-interfaces-in-java/), formal parameter, actual parameter, [implicit parameter](https://www.thoughtco.com/implicit-parameter-2034139), explicit parameter, static method, invoke, public interface, overloading, preconditions
 "
 
-- title: ch5decisions
-  heading: "# Ch5Decisions"
+
+- title: u05b_static_variables
+  heading: "# u05b_static_variables"
   content: "
 
+1. [Robot](/apcsa/u05b_static_variables/U05bRobot/instructions/)
 
+1. [Geometry](/apcsa/u05b_static_variables/U05bGeometry/instructions/)
 
-- [And Or Not examples](/apcsa/ch57shortcircuitevaluation/ch57andornotexamples/)
+1. Writing Classes Unit Review
 
+1. Unit 5 Writing Classes Test
+
+1. FRQ Test (Classes)
 
 "
 
-- title: ch57shortcircuitevaluation
-  heading: "# Ch5.7ShortCircuitEvaluation"
-  content: "
-1. [Ch5.7 Evaluating Boolean Expressions](/apcsa/ch57shortcircuitevaluation/ch57evaluatingbooleans/)
-
-1. [Ch5.7 Short Circuit 1](/apcsa/ch57shortcircuitevaluation/ch57shortcircuit1/)
-
-1. [Ch5.7 Short Circuit 2](/apcsa/ch57shortcircuitevaluation/ch57shortcircuit2/)
-
-1. Ch5 Review Quiz
-
-1. [Ch5.7 DeMorgans Law](/apcsa/ch57shortcircuitevaluation/ch57demorganslaw/)
-
-1. [Ch5.7 Boolean Review Worksheet](/apcsa/ch57shortcircuitevaluation/ch57booleanreview/)
-
-1. Practice FRQ Dishes
-
-1. Practice FRQ StepTracker
-
-1. Ch5 Test
 
 
-- [And Or Not examples](/apcsa/ch57shortcircuitevaluation/ch57andornotexamples/)
 
-"
 
 
 
@@ -547,9 +527,9 @@ Vocab: instance variable, [local variable](https://www.dummies.com/programming/j
 
 
 
-1. **[Ch7 Arrays and Array Lists](#ch7arraysandarraylists)**
+1. **[Ch7 Arrays and Array Lists](#u06a_arrays)**
 
-1. **[Ch7.2 For Each Loops](#ch72foreachloops)**
+1. **[Ch7.2 For Each Loops](#u06b_for_each_loops)**
 
 1. **[Ch7.6 2D Arrays](#ch762darrays)**
 
@@ -561,54 +541,70 @@ Vocab: instance variable, [local variable](https://www.dummies.com/programming/j
 
 
 
-- title: ch7arraysandarraylists
-  heading: "# Ch7ArraysAndArrayLists"
+- title: u06a_arrays
+  heading: "# u06a_arrays"
   content: "
 
-1. [Ch7 SoloLrn Arrays](/apcsa/ch7arraysandarraylists/Ch7SoloLrnArrays/)
+1. [Array Manipulation](/apcsa/u06a_arrays/U06aArrayManipulation/instructions/)
 
-1. [Ch7 Array Manipulation](/apcsa/ch7arraysandarraylists/ch7arraymanipulation/)
-
-1. [Ch7 CBArray1](/apcsa/ch7arraysandarraylists/CBArray1/)
-
-1. [Ch7 Pizza Toppings](/apcsa/ch7arraysandarraylists/ch7pizzatoppings/)
-
-1. [Ch7 Wordle Game](/apcsa/ch7arraysandarraylists/WordleGame/)
-
-
-Additional:
-
-  1. [Ch7 Poker Dice](/apcsa/ch7arraysandarraylists/ch7pokerdice/)
-
-  1. [Ch7 Seating Arrangements](/apcsa/ch7arraysandarraylists/ch7seatingchart/)
-
-  1. [Ch7 ArrayList Action](/apcsa/ch7arraysandarraylists/ch7arraylistaction/)
-
-  1. [Ch7 Pet Shop Register](/apcsa/ch7arraysandarraylists/ch7petshopregister/)
-
-
-"
-
-- title: ch72foreachloops
-  heading: "# Ch7.2ForEachLoops"
-  content: "
-
-
-
-1. [Ch7.2 Wordlists](/apcsa/ch72foreachloops/Ch72ArrayListReviewWordlists/)
+1. [Minecraft Rand Names](/apcsa/u06a_arrays/U06aMinecraftRandNames/instructions/)
 
 
 
 
 Additional:
 
-1. [Ch7.2 ForEach Practice](/apcsa/ch72foreachloops/Ch72ForEachLoopArrayPractice/)
+1. [Ch7 SoloLrn Arrays](/apcsa/u06a_arrays/Ch7SoloLrnArrays/)
 
-1. [Ch7.2 Hand Tracing Review](/apcsa/ch72foreachloops/Ch72ForLoopHandTracingReview/)
+1. [Ch7 CBArray1](/apcsa/u06a_arrays/CBArray1/)
 
-1. [Ch7.2 Loops And Arrays Review](/apcsa/ch72foreachloops/Ch72LoopsAndArraysReview/)
+  1. [Ch7 Poker Dice](/apcsa/u06a_arrays/ch7pokerdice/)
+
+  1. [Ch7 Seating Arrangements](/apcsa/u06a_arrays/ch7seatingchart/)
+
+  1. [Ch7 ArrayList Action](/apcsa/u06a_arrays/ch7arraylistaction/)
+
+  1. [Ch7 Pet Shop Register](/apcsa/u06a_arrays/ch7petshopregister/)
+
 
 "
+
+- title: u06b_for_each_loops
+  heading: "# u06b_for_each_loops"
+  content: "
+
+
+1. [Farmers Market](/apcsa/u06b_for_each_loops/ch7arraymanipulation/)
+
+
+
+
+
+Additional:
+
+1. [Ch7.2 Wordlists](/apcsa/u06b_for_each_loops/Ch72ArrayListReviewWordlists/)
+
+1. [Ch7.2 ForEach Practice](/apcsa/u06b_for_each_loops/Ch72ForEachLoopArrayPractice/)
+
+1. [Ch7.2 Hand Tracing Review](/apcsa/u06b_for_each_loops/Ch72ForLoopHandTracingReview/)
+
+1. [Ch7.2 Loops And Arrays Review](/apcsa/u06b_for_each_loops/Ch72LoopsAndArraysReview/)
+
+"
+
+
+- title: u07a_arraylists
+  heading: "# u07a_arraylists"
+  content: "
+  
+1. [Pizza Toppings](/apcsa/u07a_arraylists/U07aPizzaToppings/)
+
+1. [Ch7 Wordle Game](/apcsa/u07a_arraylists/U07aWordGame/)
+
+  "
+
+
+
 - title: ch762darrays
   heading: "# Ch7.62DArrays"
   content: "
@@ -620,7 +616,6 @@ Additional:
 
   1. Ch7 Array Loops FRQ
 
-  1. Ch7 MC Pet Random Names
 
   1. Ch7 Test
 

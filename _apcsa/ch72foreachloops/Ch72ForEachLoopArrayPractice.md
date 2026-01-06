@@ -1,6 +1,6 @@
 ---
 layout: project
-category: ch72foreachloops
+category: u06b_for_each_loops
 title: For Each Practice
 ---
 Watch these two videos:
@@ -9,10 +9,10 @@ Watch these two videos:
 
 Check out these examples:
 
-  - [ForEachLoopIntArrayExample.java](/apcsa\ch72foreachloops\ForEachLoopIntArrayExample.java)
+  - [ForEachLoopIntArrayExample.java](/apcsa\u06b_for_each_loops\ForEachLoopIntArrayExample.java)
 
-  - [ForEachLoopStringExample.java](/apcsa\ch72foreachloops\ForEachLoopStringExample.java)
+  - [ForEachLoopStringExample.java](/apcsa\u06b_for_each_loops\ForEachLoopStringExample.java)
 
 Complete the starter file below. NOTE: Use arrays (not ArrayLists) for this project.
 
-Download (or copy/paste) starter file: [ForEachLoopArrayPractice2.java](/apcsa\ch72foreachloops\ForEachLoopArrayPractice2.java)
+Download (or copy/paste) starter file: [ForEachLoopArrayPractice2.java](/apcsa\u06b_for_each_loops\ForEachLoopArrayPractice2.java)

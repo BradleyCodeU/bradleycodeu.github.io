@@ -37,7 +37,7 @@ You will be graded on the following requirements:
   * Add descriptions for your 15 rooms to your roomArray
   * Add 6 items to your itemArray
   * In v1, the player does NOT need to be able to pick up any items, but when visiting a room the game MUST tell you that an item is there IF the room contains an item.
-  * Create a variable named mylocation that stores the current room number. NOTE that "location" is not a good variable name because [it will re-direct the page](https://www.w3schools.com/jsref/obj_location.asp)
+  * Create a variable named mylocation that stores the current room number. NOTE that "location" is not a good variable name because [it will re-direct the page](https://www.w3schools.com/jsref/obj_location.asp){:target="_blank"}
   * Must be able to change rooms and give a message like "You can't go there" when necessary.
 
 

@@ -3,9 +3,9 @@ layout: project
 category: textgames
 title: High Low Word
 ---
-Read this article about the [random choice method](https://www.w3schools.com/python/ref_random_choice.asp)
+Read this article about the [random choice method](https://www.w3schools.com/python/ref_random_choice.asp){:target="_blank"}
 
-Read this article about the [Python string lower method](https://www.w3schools.com/python/ref_string_lower.asp)
+Read this article about the [Python string lower method](https://www.w3schools.com/python/ref_string_lower.asp){:target="_blank"}
 
 High Low (aka Hi-Lo Guessing Game) is a computer game in which the computer randomly selects an integer from 1-100. You keep guessing numbers until you find the computer's number, and the computer tells you each time if your guess was too high or too low.
 

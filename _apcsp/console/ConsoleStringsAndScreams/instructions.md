@@ -2,7 +2,7 @@
 ---
 Concepts: concatenation, len(), string indexing, string slice
 
-Read this article about [how to slice a string in Python](https://www.w3schools.com/python/python_strings_slicing.asp)
+Read this article about [how to slice a string in Python](https://www.w3schools.com/python/python_strings_slicing.asp){:target="_blank"}
 
 Define a function named getLength which take a name as an argument. Returns the length of the name
 
@@ -12,7 +12,7 @@ Define a function named lastLetter which takes a name as an argument. Returns th
 
 Define a function named printDetails which takes a name as an argument. Use the getLength, firstLetter and lastLetter functions to print the length, first letter and last letter. Return the name.
 
-Define a function named getNickname with lastname as an argument. Create a variable named nickname and set it to the first 2 letters of lastname plus the first 2 letters of lastname. Print nickname (For example, Your nickname is JoJo). Return nickname. NOTE: Read this article about [how to slice a string in Python](https://www.w3schools.com/python/python_strings_slicing.asp).
+Define a function named getNickname with lastname as an argument. Create a variable named nickname and set it to the first 2 letters of lastname plus the first 2 letters of lastname. Print nickname (For example, Your nickname is JoJo). Return nickname. NOTE: Read this article about [how to slice a string in Python](https://www.w3schools.com/python/python_strings_slicing.asp){:target="_blank"}.
 
 Define a function named scream with 2 arguments: firstname and lastname. Create a variable named myScream that contains empty string. Make a loop that repeats for the length of the first name + the length of the second name, concatenating an "A" to myScream each repetition. After the loop, concatenate an "!" to myScream. Print myScream. Return myScream. 
 

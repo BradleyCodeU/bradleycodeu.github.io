@@ -29,7 +29,7 @@ Create a variable named textBox and set it to document.getElementById("textBox")
 Create a variable named resultsList and set it to document.getElementById("resultsUL")
 
 Create a function called addToList() that requires on argument: myText
-  - [Read this tuturial](https://www.w3schools.com/jsref/met_node_appendchild.asp) to learn how to...
+  - [Read this tuturial](https://www.w3schools.com/jsref/met_node_appendchild.asp){:target="_blank"} to learn how to...
       - create a new list item element
       - create a text node with myText
       - append the text node to the new list item

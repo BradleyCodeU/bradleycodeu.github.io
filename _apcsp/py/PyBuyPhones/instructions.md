@@ -1,7 +1,7 @@
 # Buy Phones
 ---
 
-Read this [Python Functions tutorial](/apcsp/py/pythonfunctions/) and this page about the [Python float function](https://www.w3schools.com/python/ref_func_float.asp)
+Read this [Python Functions tutorial](/apcsp/py/pythonfunctions/) and this page about the [Python float function](https://www.w3schools.com/python/ref_func_float.asp){:target="_blank"}
 
 Define a function called buyPhones that requires TWO arguments: myDollars and phonePrice. The function will return the amountOfPhones you can buy as a whole number.
 

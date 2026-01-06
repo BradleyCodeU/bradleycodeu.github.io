@@ -20,7 +20,7 @@ Define a main function named main(). Inside of the main function do the followin
 
   - Ask the user a question about what drawing they want and then provide a list of options. For example, "What drawing would you like? 1=square, 2=star, 3=triangle, 4=smiley"
 
-  - Collect user input. [Review this tutorial about using Python's input() function](https://www.w3schools.com/python/ref_func_input.asp)
+  - Collect user input. [Review this tutorial about using Python's input() function](https://www.w3schools.com/python/ref_func_input.asp){:target="_blank"}
 
   - If the user did NOT type a valid answer, print something like "That is not a valid drawing option"
 

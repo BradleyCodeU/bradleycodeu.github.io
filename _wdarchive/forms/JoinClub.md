@@ -15,7 +15,7 @@ Directions
     - Set the for attribute to username. Like this, for="username"
   - Add a text type input
     - Set the id attribute to username. Like this, id="username"
-  - Add a [br tag](https://www.w3schools.com/tags/tag_br.asp) to create a line break
+  - Add a [br tag](https://www.w3schools.com/tags/tag_br.asp){:target="_blank"} to create a line break
   - Create a label that says "2. When Is Your Birthday?"
     - Set the for attribute to bday. Like this, for="bday"
   - Add a date type input

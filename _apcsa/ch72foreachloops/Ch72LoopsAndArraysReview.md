@@ -1,8 +1,8 @@
 ---
 layout: project
-category: ch72foreachloops
+category: u06b_for_each_loops
 title: Loops and Arrays Review
 ---
 Download (or copy/paste) this starter template:
 
-[LoopProgrammingReviewTemplate2.java](/apcsa\ch72foreachloops\LoopProgrammingReviewTemplate2.java)
+[LoopProgrammingReviewTemplate2.java](/apcsa\u06b_for_each_loops\LoopProgrammingReviewTemplate2.java)
