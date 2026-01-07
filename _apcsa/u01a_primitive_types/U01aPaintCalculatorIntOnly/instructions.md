@@ -41,12 +41,12 @@ Enter the room dimensions below
 Length: 11
 Width: 5
 Height: 10
-How many doors does the room have: 0
+How many doors does the room have: 1
 How many windows does the room have: 0
 Enter the price of a gallon of paint: 15
 Enter the sales tax percent: 9
 Results
-Total square feet = 320 square feet
+Total square feet = 299 square feet
 Gallons of paint needed = 1
 Total cost = 17
 ```
