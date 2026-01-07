@@ -1,6 +1,6 @@
 ---
 layout: project
-category: u04a_iteration
+category: 207_iteration
 title: SoloLrn Java Conditionals and Loops
 ---
 

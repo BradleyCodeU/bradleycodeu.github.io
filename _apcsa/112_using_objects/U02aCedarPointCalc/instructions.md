@@ -1,13 +1,13 @@
 ---
 layout: project
-category: u02a_using_objects
+category: 112_using_objects
 title: U02a Cedar Point Calc
 ---
 Cedar Point Calc
 
 NOTE 1: You do NOT need to use any "if" statements for this project
 
-NOTE 2: Use the Dollar class. Documentation for the Dollar class is here: https://bradleycodeu.github.io/apcsa/u02a_using_objects/U02aCedarPointCalc/doc/Dollar.html 
+NOTE 2: Use the Dollar class. Documentation for the Dollar class is here: https://bradleycodeu.github.io/apcsa/112_using_objects/U02aCedarPointCalc/doc/Dollar.html 
 - A new subtraction method has been added: Dollar sub(Dollar other) 
 - A new multiplication method has been added: Dollar mult(double multiplier)
 

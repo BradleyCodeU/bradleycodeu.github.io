@@ -1,20 +1,20 @@
-public class U02bClubMeetingApp {
+public class ClubMeetingApp {
 
     // Above public static void main, you MUST define a new helper method.
     // This method will return an int
-    // Name this method something like randomNumber
+    // Name this method something like randomNumberExclusive
     // This method has two parameters: int minimum and int maximum
     // Method header should be public static int randomNumber(int minimum, int maximum)
     // You MUST use Math.random() inside of the method
-    // This method returns a random integer from minimum to maximum (INCLUDING maximum)
+    // This method returns a random integer from minimum to maximum (NOT INCLUDING maximum)
     // Call this helper method inside of the main method when you need a random number
     // Stuck? Refer to this tutorial:
     // https://www.geeksforgeeks.org/java-math-random-method-examples/
-    public static ??? ???(??? ???, ??? ???) { // TODO replace the ??? to complete the method header
-        int range = maximum - minimum + 1;
-        int rand = (int)(??? * range) + min; // TODO replace the ???
-        return ???; // TODO replace the ???
-    }
+    //public static ??? ???(??? ???, ??? ???) { // TODO replace the ??? to complete the method header
+    //     int range = ???;
+    //     int randomValue = ???; // TODO
+    //     return ???; // TODO
+    // }
 
     public static void main(String[] args) {
 

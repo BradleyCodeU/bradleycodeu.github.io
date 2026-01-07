@@ -1,6 +1,6 @@
 ---
 layout: project
-category: u06b_for_each_loops
+category: 404_for_each_loops
 title: U06b Farmers Market
 ---
 

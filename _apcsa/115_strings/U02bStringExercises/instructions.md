@@ -1,6 +1,6 @@
 ---
 layout: project
-category: u02b_strings
+category: 115_strings
 title: U02b StringBuilder Comparison
 ---
 StringBuilder Comparison

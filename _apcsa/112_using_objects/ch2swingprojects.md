@@ -1,6 +1,6 @@
 ---
 layout: project
-category: u02a_using_objects
+category: 112_using_objects
 title: Ch2 Swing Projects
 ---
 
@@ -31,7 +31,7 @@ JOptionPane.PLAIN_MESSAGE, new ImageIcon(imageLocation));
 
 Construct a Rectangle object square representing a square with top-left corner (100, 100) and side length 50, prints its location by calling System.out.println(square), applies the translate and grow methods, and calls System.out.println(square) again. The calls to translate and grow should modify the square so that it has twice the size and the same top-left corner as the original. If the squares were drawn, they would look like the figure below.
 
-![Demo image of rectangle being resized so that it has twice the size and the same top-left corner as the original](https://bradleycodeu.github.io/apcsa/u02a_using_objects/Java%20Resize%20Rect.jpg)
+![Demo image of rectangle being resized so that it has twice the size and the same top-left corner as the original](https://bradleycodeu.github.io/apcsa/112_using_objects/Java%20Resize%20Rect.jpg)
 
 This code will not produce a drawing. It will simply print the locations of square before and after calling the mutator methods.
 
@@ -45,7 +45,7 @@ This code will not produce a drawing. It will simply print the locations of squa
 
 **NOTE**: In computer science, the y-axis is inverted and 0,0 is in the top-left corner of the screen.
 
-![Demo image of rectangle being resized so that it has half the width and is centered in the original square](https://bradleycodeu.github.io/apcsa/u02a_using_objects/Java%20Resize%20Rect2.jpg)
+![Demo image of rectangle being resized so that it has half the width and is centered in the original square](https://bradleycodeu.github.io/apcsa/112_using_objects/Java%20Resize%20Rect2.jpg)
 
 ### Part 6 of 6
 
@@ -105,7 +105,7 @@ public class Main {
 
     // Construct a Rectangle object square representing a square with top-left corner (100, 100) and side length 50, prints its location by calling System.out.println(square), applies the translate and grow methods, and calls System.out.println(square) again. The calls to translate and grow should modify the square so that it has twice the size and the same top-left corner as the original. If the squares were drawn, they would look like the figure below.
 
-    // ![Demo image of rectangle being resized so that it has twice the size and the same top-left corner as the original](https://bradleycodeu.github.io/apcsa/u02a_using_objects/Java%20Resize%20Rect.jpg)
+    // ![Demo image of rectangle being resized so that it has twice the size and the same top-left corner as the original](https://bradleycodeu.github.io/apcsa/112_using_objects/Java%20Resize%20Rect.jpg)
     
     // This code will not produce a drawing. It will simply print the locations of square before and after calling the mutator methods.
     
@@ -119,7 +119,7 @@ public class Main {
     
     // **NOTE**: In computer science, the y-axis is inverted and 0,0 is in the top-left corner of the screen.
     
-    // ![Demo image of rectangle being resized so that it has half the width and is centered in the original square](https://bradleycodeu.github.io/apcsa/u02a_using_objects/Java%20Resize%20Rect2.jpg)
+    // ![Demo image of rectangle being resized so that it has half the width and is centered in the original square](https://bradleycodeu.github.io/apcsa/112_using_objects/Java%20Resize%20Rect2.jpg)
 
     // Part 6 of 6
 

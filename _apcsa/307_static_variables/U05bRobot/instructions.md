@@ -1,6 +1,6 @@
 ---
 layout: project
-category: u05b_static_variables
+category: 307_static_variables
 title: Robot
 ---
 

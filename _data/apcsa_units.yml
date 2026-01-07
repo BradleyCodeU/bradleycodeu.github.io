@@ -95,9 +95,9 @@ References and Other Info:
 
 1. **[Math Class](#111_math_class)**
 
-1. **[Using Objects](#u02a_using_objects)**
+1. **[Using Objects](#112_using_objects)**
 
-1. **[U02b Strings](#u02b_strings)**
+1. **[Strings](#115_strings)**
 
 "
 
@@ -105,7 +105,7 @@ References and Other Info:
   heading: "# 101_primitive_types"
   content: "
 
-  *3 wks*
+  *1 wk*
 
 
 
@@ -174,22 +174,32 @@ Vocab: platform, assembly, binary, bit, byte, declare, assignment, initialize, J
 
 "
 
-- title: u02a_using_objects
-  heading: "# u02a_using_objects"
+- title: 111_math_class
+  heading: "# 111_math_class"
+  content: "
+  
+  1. [Club Meeting](/apcsa/111_math_class/ClubMeeting/instructions/)
+
+  1. [Drone Delivery](/apcsa/111_math_class/DroneDelivery/instructions/)
+  
+  "
+
+- title: 112_using_objects
+  heading: "# 112_using_objects"
   content: "
 
 *3 wks*
   
 
-1. [Rectangles and Points](/apcsa/u02a_using_objects/U02aRectanglesPoints/instructions/)
+1. [Rectangles and Points](/apcsa/112_using_objects/U02aRectanglesPoints/instructions/)
 
-1. [Swing Projects](/apcsa/u02a_using_objects/U02aSwingProjects/instructions/)
+1. [Swing Projects](/apcsa/112_using_objects/U02aSwingProjects/instructions/)
 
-1. [Pitchers and Batters](/apcsa/u02a_using_objects/U02aPitchersBatters/instructions/)
+1. [Pitchers and Batters](/apcsa/112_using_objects/U02aPitchersBatters/instructions/)
 
-1. [Dollar Object](/apcsa/u02a_using_objects/U02aDollarObject/instructions/)
+1. [Dollar Object](/apcsa/112_using_objects/U02aDollarObject/instructions/)
 
-1. [Cedar Point Calc](/apcsa/u02a_using_objects/U02aCedarPointCalc/instructions/)
+1. [Cedar Point Calc](/apcsa/112_using_objects/U02aCedarPointCalc/instructions/)
 
 
 
@@ -200,19 +210,19 @@ Additional:
 
 
 
-1. [String Exercises](/apcsa/u02a_using_objects/ch2stringexercises/)
+1. [String Exercises](/apcsa/112_using_objects/ch2stringexercises/)
 
-1. [LocalDate](/apcsa/u02a_using_objects/ch2localdate/)
+1. [LocalDate](/apcsa/112_using_objects/ch2localdate/)
 
 1. Review Quiz
 
-1. [Method Madness](/apcsa/u02a_using_objects/ch2methodmadness/)
+1. [Method Madness](/apcsa/112_using_objects/ch2methodmadness/)
 
 1. FRQ Using Objects
 
 1. Ch1 and 2 Test
 
-1. [Summary](/apcsa/u02a_using_objects/ch2summary/)
+1. [Summary](/apcsa/112_using_objects/ch2summary/)
 
 
 
@@ -227,19 +237,17 @@ Vocab: object, accessor, mutator, method, constructor, new, API, naming conventi
 "
 
 
-- title: u02b_strings
-  heading: "# u02b_strings"
+- title: 115_strings
+  heading: "# 115_strings"
   content: "
 
-1. [MC Pet Wolf](/apcsa/u02b_strings/U02bMinecraftPetWolf/instructions/)
+1. [MC Pet Wolf](/apcsa/115_strings/U02bMinecraftPetWolf/instructions/)
 
-1. [String Builder](/apcsa/u02b_strings/U02bStringBuilderComparison/instructions/)
+1. [String Builder](/apcsa/115_strings/U02bStringBuilderComparison/instructions/)
 
-1. [Club Meeting](/apcsa/u02b_strings/U02bClubMeeting/instructions/)
+1. [First Vowel Substring](/apcsa/115_strings/U02bSubstring/instructions/)
 
-1. [First Vowel Substring](/apcsa/u02b_strings/U02bSubstring/instructions/)
-
-1. [Math Method Madness](/apcsa/u02b_strings/U02bMathMethodMadness/instructions/)
+1. [Math Method Madness](/apcsa/115_strings/U02bMathMethodMadness/instructions/)
 
 1. FRQ String and Random
 
@@ -251,15 +259,15 @@ Vocab: object, accessor, mutator, method, constructor, new, API, naming conventi
 
 Additional:
 
-1. [Name Games](/apcsa/u02b_strings/ch45namegames/)
+1. [Name Games](/apcsa/115_strings/ch45namegames/)
 
-1. [Replace](/apcsa/u02b_strings/U02bReplace/instructions/)
+1. [Replace](/apcsa/115_strings/U02bReplace/instructions/)
 
-1. [Substring](/apcsa/u02b_strings/Substring/)
+1. [Substring](/apcsa/115_strings/Substring/)
 
-1. [Phone Number](/apcsa/u02b_strings/ch45phonenumber/)
+1. [Phone Number](/apcsa/115_strings/ch45phonenumber/)
 
-1. [String Review Worksheet](/apcsa/u02b_strings/ch45stringreviewworksheet/)
+1. [String Review Worksheet](/apcsa/115_strings/ch45stringreviewworksheet/)
 
 
 
@@ -293,27 +301,27 @@ Additional:
   content: "
 [2nd Quarter](#2nd-quarter)
 
-1. **[U03a Boolean Expressions](#u03a_boolean_expressions)**
+1. **[U03a Boolean Expressions](#201_boolean_expressions)**
 
-1. **[U03b Short Circuit](#u03b_short_circuit)**
+1. **[U03b Short Circuit](#205_short_circuit)**
 
 1. **[Ch5.7 Short-Circuit Evaluation and De Morgan's Law](#ch57shortcircuitevaluation)**
 
-1. **[Ch6 Loops](#u04a_iteration)**
+1. **[Ch6 Loops](#207_iteration)**
 
 "
 
-- title: u03a_boolean_expressions
-  heading: "# u03a_boolean_expressions"
+- title: 201_boolean_expressions
+  heading: "# 201_boolean_expressions"
   content: "
 
 
 
-  1. [Paint Calc 2](/apcsa/u03a_boolean_expressions/U03aPaintCalc2/instructions/)
+  1. [Paint Calc 2](/apcsa/201_boolean_expressions/U03aPaintCalc2/instructions/)
 
-  1. [Error Traps](/apcsa/u03a_boolean_expressions/U03aErrorTraps/instructions/)
+  1. [Error Traps](/apcsa/201_boolean_expressions/U03aErrorTraps/instructions/)
 
-  1. [CB Warmup 1](/apcsa/u03a_boolean_expressions/U03aCBWarmup1/instructions/)
+  1. [CB Warmup 1](/apcsa/201_boolean_expressions/U03aCBWarmup1/instructions/)
 
   1. Boolean Expression Unit Review
 
@@ -355,8 +363,8 @@ Additional:
 "
 
 
-- title: u03b_short_circuit
-  heading: "# u03b_short_circuit"
+- title: 205_short_circuit
+  heading: "# 205_short_circuit"
   content: "
   
   1. BooleanExpWorksheet
@@ -374,17 +382,17 @@ Additional:
 
 
 
-- title: u04a_iteration
-  heading: "# u04a_iteration"
+- title: 207_iteration
+  heading: "# 207_iteration"
   content: "
 
 
 
-1. [While Loops](/apcsa/u04a_iteration/U04aWhileLoops/instructions/)
+1. [While Loops](/apcsa/207_iteration/U04aWhileLoops/instructions/)
 
-1. [CBString2](/apcsa/u04a_iteration/U04aCBString2/instructions/)
+1. [CBString2](/apcsa/207_iteration/U04aCBString2/instructions/)
 
-1. [For Loops](/apcsa/u04a_iteration/U04aForLoops/instructions/)
+1. [For Loops](/apcsa/207_iteration/U04aForLoops/instructions/)
 
 
 
@@ -394,29 +402,29 @@ Additional:
 
 Additional:
 
-1. [Ch6 SoloLrn Conditionals And Loops](/apcsa/u04a_iteration/Ch6SoloLrnConditionalsAndLoops/)
+1. [Ch6 SoloLrn Conditionals And Loops](/apcsa/207_iteration/Ch6SoloLrnConditionalsAndLoops/)
 
-1. [Loop Practice](/apcsa/u04a_iteration/LoopPractice/)
+1. [Loop Practice](/apcsa/207_iteration/LoopPractice/)
 
-1. [Ch6 Loop Info](/apcsa/u04a_iteration/ch6loopinfo/)
+1. [Ch6 Loop Info](/apcsa/207_iteration/ch6loopinfo/)
 
-1. [Ch6 Multiplication Table](/apcsa/u04a_iteration/ch6multitable/)
+1. [Ch6 Multiplication Table](/apcsa/207_iteration/ch6multitable/)
 
-1. [Ch6 Palindrome Checker](/apcsa/u04a_iteration/ch6palindrome/)
+1. [Ch6 Palindrome Checker](/apcsa/207_iteration/ch6palindrome/)
 
-1. [Ch6 Prime Generator](/apcsa/u04a_iteration/ch6primegenerator/)
+1. [Ch6 Prime Generator](/apcsa/207_iteration/ch6primegenerator/)
 "
 
 
-- title: u04b_nested_loops
-  heading: "# u04b_nested_loops"
+- title: 211_nested_loops
+  heading: "# 211_nested_loops"
   content: "
   
-  1. [2D Squares](/apcsa/u04b_nested_loops/U04b2DSquares/instructions/)
+  1. [2D Squares](/apcsa/211_nested_loops/U04b2DSquares/instructions/)
 
   1. Iteration Unit Review
 
-  1. [Minecraft Road Builder](/apcsa/u04b_nested_loops/U04bMinecraftRoadBuilder/instructions/)
+  1. [Minecraft Road Builder](/apcsa/211_nested_loops/U04bMinecraftRoadBuilder/instructions/)
   
   1. Loops FRQ
 
@@ -428,25 +436,25 @@ Additional:
 
 
 
-- title: u05a_writing_classes
-  heading: "# u05a_writing_classes"
+- title: 301_writing_classes
+  heading: "# 301_writing_classes"
   content: "
 
 *3 wks*
 
-1. [Shoes](/apcsa/u05a_writing_classes/U05aShoes/instructions/)
+1. [Shoes](/apcsa/301_writing_classes/U05aShoes/instructions/)
 
-1. [Balloon](/apcsa/u05a_writing_classes/U05aBalloon/instructions/)
+1. [Balloon](/apcsa/301_writing_classes/U05aBalloon/instructions/)
 
-1. [Student](/apcsa/u05a_writing_classes/U05aStudent/instructions/)
+1. [Student](/apcsa/301_writing_classes/U05aStudent/instructions/)
 
-1. [Car](/apcsa/u05a_writing_classes/U05aCar/instructions/)
+1. [Car](/apcsa/301_writing_classes/U05aCar/instructions/)
 
-1. [Random Pitcher](/apcsa/u05a_writing_classes/U05aRandomPitcher/instructions/)
+1. [Random Pitcher](/apcsa/301_writing_classes/U05aRandomPitcher/instructions/)
 
-1. [Adventure Game](/apcsa/u05a_writing_classes/U05aAdventureGame/instructions)
+1. [Adventure Game](/apcsa/301_writing_classes/U05aAdventureGame/instructions)
 
-1. [PracticeFRQStepTracker](/apcsa/u05a_writing_classes/U05aPracticeFRQStepTracker/instructions)
+1. [PracticeFRQStepTracker](/apcsa/301_writing_classes/U05aPracticeFRQStepTracker/instructions)
 
 
 
@@ -456,13 +464,13 @@ Additional:
 
 Additional projects:
 
-1. [Cash Register](/apcsa/u05a_writing_classes/ch3cashregister/)
+1. [Cash Register](/apcsa/301_writing_classes/ch3cashregister/)
 
-1. [Potato Head](/apcsa/u05a_writing_classes/ch3potatohead/)
+1. [Potato Head](/apcsa/301_writing_classes/ch3potatohead/)
 
-1. [Food Review](/apcsa/u05a_writing_classes/FoodReview/)
+1. [Food Review](/apcsa/301_writing_classes/FoodReview/)
 
-1. [Car](/apcsa/u05a_writing_classes/ch3car/)
+1. [Car](/apcsa/301_writing_classes/ch3car/)
 
 
 
@@ -477,13 +485,13 @@ Vocab: instance variable, [local variable](https://www.dummies.com/programming/j
 "
 
 
-- title: u05b_static_variables
-  heading: "# u05b_static_variables"
+- title: 307_static_variables
+  heading: "# 307_static_variables"
   content: "
 
-1. [Robot](/apcsa/u05b_static_variables/U05bRobot/instructions/)
+1. [Robot](/apcsa/307_static_variables/U05bRobot/instructions/)
 
-1. [Geometry](/apcsa/u05b_static_variables/U05bGeometry/instructions/)
+1. [Geometry](/apcsa/307_static_variables/U05bGeometry/instructions/)
 
 1. Writing Classes Unit Review
 
@@ -529,9 +537,9 @@ Vocab: instance variable, [local variable](https://www.dummies.com/programming/j
 
 
 
-1. **[Ch7 Arrays and Array Lists](#u06a_arrays)**
+1. **[Ch7 Arrays and Array Lists](#401_arrays)**
 
-1. **[Ch7.2 For Each Loops](#u06b_for_each_loops)**
+1. **[Ch7.2 For Each Loops](#404_for_each_loops)**
 
 1. **[Ch7.6 2D Arrays](#ch762darrays)**
 
@@ -543,40 +551,40 @@ Vocab: instance variable, [local variable](https://www.dummies.com/programming/j
 
 
 
-- title: u06a_arrays
-  heading: "# u06a_arrays"
+- title: 401_arrays
+  heading: "# 401_arrays"
   content: "
 
-1. [Array Manipulation](/apcsa/u06a_arrays/U06aArrayManipulation/instructions/)
+1. [Array Manipulation](/apcsa/401_arrays/U06aArrayManipulation/instructions/)
 
-1. [Minecraft Rand Names](/apcsa/u06a_arrays/U06aMinecraftRandNames/instructions/)
+1. [Minecraft Rand Names](/apcsa/401_arrays/U06aMinecraftRandNames/instructions/)
 
 
 
 
 Additional:
 
-1. [Ch7 SoloLrn Arrays](/apcsa/u06a_arrays/Ch7SoloLrnArrays/)
+1. [Ch7 SoloLrn Arrays](/apcsa/401_arrays/Ch7SoloLrnArrays/)
 
-1. [Ch7 CBArray1](/apcsa/u06a_arrays/CBArray1/)
+1. [Ch7 CBArray1](/apcsa/401_arrays/CBArray1/)
 
-  1. [Ch7 Poker Dice](/apcsa/u06a_arrays/ch7pokerdice/)
+  1. [Ch7 Poker Dice](/apcsa/401_arrays/ch7pokerdice/)
 
-  1. [Ch7 Seating Arrangements](/apcsa/u06a_arrays/ch7seatingchart/)
+  1. [Ch7 Seating Arrangements](/apcsa/401_arrays/ch7seatingchart/)
 
-  1. [Ch7 ArrayList Action](/apcsa/u06a_arrays/ch7arraylistaction/)
+  1. [Ch7 ArrayList Action](/apcsa/401_arrays/ch7arraylistaction/)
 
-  1. [Ch7 Pet Shop Register](/apcsa/u06a_arrays/ch7petshopregister/)
+  1. [Ch7 Pet Shop Register](/apcsa/401_arrays/ch7petshopregister/)
 
 
 "
 
-- title: u06b_for_each_loops
-  heading: "# u06b_for_each_loops"
+- title: 404_for_each_loops
+  heading: "# 404_for_each_loops"
   content: "
 
 
-1. [Farmers Market](/apcsa/u06b_for_each_loops/ch7arraymanipulation/)
+1. [Farmers Market](/apcsa/404_for_each_loops/ch7arraymanipulation/)
 
 
 
@@ -584,24 +592,24 @@ Additional:
 
 Additional:
 
-1. [Ch7.2 Wordlists](/apcsa/u06b_for_each_loops/Ch72ArrayListReviewWordlists/)
+1. [Ch7.2 Wordlists](/apcsa/404_for_each_loops/Ch72ArrayListReviewWordlists/)
 
-1. [Ch7.2 ForEach Practice](/apcsa/u06b_for_each_loops/Ch72ForEachLoopArrayPractice/)
+1. [Ch7.2 ForEach Practice](/apcsa/404_for_each_loops/Ch72ForEachLoopArrayPractice/)
 
-1. [Ch7.2 Hand Tracing Review](/apcsa/u06b_for_each_loops/Ch72ForLoopHandTracingReview/)
+1. [Ch7.2 Hand Tracing Review](/apcsa/404_for_each_loops/Ch72ForLoopHandTracingReview/)
 
-1. [Ch7.2 Loops And Arrays Review](/apcsa/u06b_for_each_loops/Ch72LoopsAndArraysReview/)
+1. [Ch7.2 Loops And Arrays Review](/apcsa/404_for_each_loops/Ch72LoopsAndArraysReview/)
 
 "
 
 
-- title: u07a_arraylists
-  heading: "# u07a_arraylists"
+- title: 408_arraylists
+  heading: "# 408_arraylists"
   content: "
   
-1. [Pizza Toppings](/apcsa/u07a_arraylists/U07aPizzaToppings/)
+1. [Pizza Toppings](/apcsa/408_arraylists/U07aPizzaToppings/)
 
-1. [Ch7 Wordle Game](/apcsa/u07a_arraylists/U07aWordGame/)
+1. [Ch7 Wordle Game](/apcsa/408_arraylists/U07aWordGame/)
 
   "
 

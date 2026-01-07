@@ -1,6 +1,6 @@
 ---
 layout: project
-category: u06a_arrays
+category: 401_arrays
 title: Poker Dice
 ---
 You will be writing a Java program that plays the game Poker Dice. In
@@ -56,7 +56,7 @@ For an EXTRA CHALLENGE, add the ability to score Straights to your scoring funct
 
 ### Starter Template
 **For this assignment you must start with the following template of Java
-code.** [PokerDice.java Starter Code](/apcsa\u06a_arrays\PokerDice.java)
+code.** [PokerDice.java Starter Code](/apcsa\401_arrays\PokerDice.java)
 
 For this assignment you WILL want to add extra methods beyond the
 methods defined in the template. Feel free to add any methods you find

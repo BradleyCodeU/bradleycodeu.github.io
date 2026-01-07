@@ -1,6 +1,6 @@
 ---
 layout: project
-category: u06b_for_each_loops
+category: 404_for_each_loops
 title: Array List Review Wordlists
 ---
 These exercises will allow you to have some practice with the idea of ArrayLists, and more practice with programs structured using functions and procedures.

@@ -1,6 +1,6 @@
 ---
 layout: project
-category: u04a_iteration
+category: 207_iteration
 title: CBString2
 ---
 
@@ -20,4 +20,4 @@ NOTE: you can SKIP starOut
 
 Turn in your DONE page URL when finished.
 
-![Coding Bat with the first 6 activities in the first column completed](/apcsa/u04a_iteration/cb03.png)
+![Coding Bat with the first 6 activities in the first column completed](/apcsa/207_iteration/cb03.png)

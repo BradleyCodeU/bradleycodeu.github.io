@@ -1,6 +1,6 @@
 ---
 layout: project
-category: u06a_arrays
+category: 401_arrays
 title: Seating Chart
 ---
 When people are in unfamiliar seating arrangement, they generally prefer to maximize their distance from already occupied seats, by occupying the middle of the longest region of empty seats.

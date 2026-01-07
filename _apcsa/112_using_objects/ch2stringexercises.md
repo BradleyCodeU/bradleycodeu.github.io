@@ -1,6 +1,6 @@
 ---
 layout: project
-category: u02a_using_objects
+category: 112_using_objects
 title: Ch2 String Exercises
 ---
 Create *ONE* Java program that does *ALL* of the following:

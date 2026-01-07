@@ -1,6 +1,6 @@
 ---
 layout: project
-category: u04a_iteration
+category: 207_iteration
 title: Palindrome Checker
 ---
 A palindrome is a string that reads the same forwards as well as backwards. There can be numerical palindromes like "1331" or words that are palindromes like "racecar".

@@ -1,6 +1,6 @@
 ---
 layout: project
-category: u02b_strings
+category: 115_strings
 title: U02b Club Meeting
 ---
 Ch2 Club Meeting

@@ -1,7 +1,7 @@
 ---
 layout: project
-category: u02b_strings
-title: U02b Club Meeting
+category: 111_math_class
+title: Club Meeting
 ---
 Club Meeting
 
@@ -37,7 +37,7 @@ Ideas for the 5th Random Choice (unique for each student)...
   - Pick a random social media app and say "Follow us on ____" using an if-else with a random number to fill the blank
   - Pick a random prize and say "Raffle prize is ____" using an if-else with a random number to fill the blank
 
-Above public static void main, you MUST define a new helper method. This method will return an int. Name this method something like randomNumber. This method has two parameters: int minimum and int maximum. You MUST use Math.random() inside of the method. This method returns a random integer number from the minimum to the maximum (INCLUDING the maximum). Call this helper method inside of the main method whenever you need a random number ( for example, randomNumber(1,6) ). Stuck? Refer to this tutorial: https://www.geeksforgeeks.org/java-math-random-method-examples/
+Above public static void main, you MUST define a new helper method. This method will return an int. Name this method something like randomNumberExclusive. This method has two parameters: int minimum and int maximum. You MUST use Math.random() inside of the method. This method returns a random integer number from the minimum to the maximum (NOT INCLUDING the maximum). Call this helper method inside of the main method whenever you need a random number ( for example, randomNumber(1,6) ). Stuck? Refer to this tutorial: https://www.geeksforgeeks.org/java-math-random-method-examples/
 
 
 

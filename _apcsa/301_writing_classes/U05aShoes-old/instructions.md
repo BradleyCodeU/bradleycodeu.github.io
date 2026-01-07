@@ -1,6 +1,6 @@
 ---
 layout: project
-category: u05a_writing_classes
+category: 301_writing_classes
 title: Shoes
 ---
 Create a Shoes class and add a 2nd test to its tester file, ShoesTester.

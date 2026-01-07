@@ -1,6 +1,6 @@
 ---
 layout: project
-category: u07a_arraylists
+category: 408_arraylists
 title: Word Game
 ---
 

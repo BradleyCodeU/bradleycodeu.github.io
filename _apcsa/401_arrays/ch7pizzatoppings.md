@@ -1,6 +1,6 @@
 ---
 layout: project
-category: u06a_arrays
+category: 401_arrays
 title: Pizza Toppings
 ---
 Read this [w3schools ArrayList tutorial](https://www.w3schools.com/java/java_arraylist.asp){:target="_blank"}

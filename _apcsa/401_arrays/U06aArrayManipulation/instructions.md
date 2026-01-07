@@ -1,6 +1,6 @@
 ---
 layout: project
-category: u06a_arrays
+category: 401_arrays
 title: U06a Array Manipulation
 ---
 Concepts: arrays, side effects

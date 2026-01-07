@@ -1,6 +1,6 @@
 ---
 layout: project
-category: u02a_using_objects
+category: 112_using_objects
 title: Ch2 MC Pet Wolf
 ---
 
@@ -16,12 +16,12 @@ The API documentation for the Wolf class is here: [https://hub.spigotmc.org/java
 
 Here are PDFs of the API pages:
 
-- [DyeColor](https://bradleycodeu.github.io/apcsa/u02a_using_objects/DyeColor (Spigot-API 1.19.2-R0.1-SNAPSHOT API).pdf) 
-- [Llama](https://bradleycodeu.github.io/apcsa/u02a_using_objects/Llama (Spigot-API 1.19.2-R0.1-SNAPSHOT API).pdf)
-- [Llama.Color](https://bradleycodeu.github.io/apcsa/u02a_using_objects/Llama.Color (Spigot-API 1.19.2-R0.1-SNAPSHOT API).pdf)
-- [Nameable](https://bradleycodeu.github.io/apcsa/u02a_using_objects/Nameable (Spigot-API 1.19.2-R0.1-SNAPSHOT API).pdf)
-- [Tameable](https://bradleycodeu.github.io/apcsa/u02a_using_objects/Tameable (Spigot-API 1.19.2-R0.1-SNAPSHOT API).pdf)
-- [Wolf](https://bradleycodeu.github.io/apcsa/u02a_using_objects/Wolf (Spigot-API 1.19.2-R0.1-SNAPSHOT API).pdf)
+- [DyeColor](https://bradleycodeu.github.io/apcsa/112_using_objects/DyeColor (Spigot-API 1.19.2-R0.1-SNAPSHOT API).pdf) 
+- [Llama](https://bradleycodeu.github.io/apcsa/112_using_objects/Llama (Spigot-API 1.19.2-R0.1-SNAPSHOT API).pdf)
+- [Llama.Color](https://bradleycodeu.github.io/apcsa/112_using_objects/Llama.Color (Spigot-API 1.19.2-R0.1-SNAPSHOT API).pdf)
+- [Nameable](https://bradleycodeu.github.io/apcsa/112_using_objects/Nameable (Spigot-API 1.19.2-R0.1-SNAPSHOT API).pdf)
+- [Tameable](https://bradleycodeu.github.io/apcsa/112_using_objects/Tameable (Spigot-API 1.19.2-R0.1-SNAPSHOT API).pdf)
+- [Wolf](https://bradleycodeu.github.io/apcsa/112_using_objects/Wolf (Spigot-API 1.19.2-R0.1-SNAPSHOT API).pdf)
  
 
 Directions:

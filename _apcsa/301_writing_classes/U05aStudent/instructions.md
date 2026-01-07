@@ -1,6 +1,6 @@
 ---
 layout: project
-category: u05a_writing_classes
+category: 301_writing_classes
 title: Student
 ---
 Implement a class Student. For the purpose of this exercise, a student has...
