@@ -1,18 +1,32 @@
-## Getting Started
+---
+layout: project
+category: 103_modulo_operator
+title: Drone Delivery
+---
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Here is the Math Class section from the Java Quick Reference
 
-## Folder Structure
 
-The workspace contains two folders by default, where:
+Math Class
+```
+static int abs(int x) Returns the absolute value of an int value
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+static double abs(double x) Returns the absolute value of a double value
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+static double pow(double base, double exponent) Returns the value of the first parameter raised to the power of the second parameter
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+static double sqrt(double x) Returns the nonnegative square root of a double value
 
-## Dependency Management
+static double random() Returns a double value greater than or equal to 0.0 and less than 1.0
+```
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Use the Java Math class methods in order to complete the following methods...
+
+- calculateBatteryDrain
+
+- calculateImpactVelocity
+
+- estimateDeliveryTime
+
+- getSignalStrength
+
