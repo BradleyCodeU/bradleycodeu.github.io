@@ -1,11 +1,11 @@
 ---
 layout: project
 category: 103_modulo_operator
-title: U01a Mod Clock
+title: Mod Clock
 ---
 
 
-*You should already have completed the U1CoinConverter assignment. If not, Mr Riley gave these assignments in the wrong order.*
+*You should already have completed the CoinConverter assignment. If not, Mr Riley gave these assignments in the wrong order.*
 
 
 Create a program that uses integer division and modulus division to calculate the [MILITARY TIME](https://en.wikipedia.org/wiki/24-hour_clock) after a specified number of hours and minutes.

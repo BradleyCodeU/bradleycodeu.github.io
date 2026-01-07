@@ -1,6 +1,6 @@
 import java.util.Scanner; 
 
-public class U01aPaintCalculatorIntOnly {
+public class PaintCalculatorIntOnly {
   public static int calculateWallArea(int length, int width, int height, int num_doors, int num_windows) {
     // TODO Calculate the total surface area of the walls
     // Assume that doors are 21 square feet and windows are 12 square feet.

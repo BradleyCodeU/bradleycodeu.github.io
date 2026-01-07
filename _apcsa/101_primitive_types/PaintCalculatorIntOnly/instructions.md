@@ -1,7 +1,7 @@
 ---
 layout: project
-category: u01a_primitive_types
-title: U01a Paint Calc Int Only
+category: 101_primitive_types
+title: Paint Calc Int Only
 ---
 
 You are painting a room and need to calculate the amount of paint that must be purchased. All inputs and outputs will be stored as integers. Even the final cost will be an integer.

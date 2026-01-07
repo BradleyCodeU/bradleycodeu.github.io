@@ -89,7 +89,7 @@ References and Other Info:
   content: "[1st Quarter](#1st-quarter)
 
 
-1. **[U01a Primitive Types](#u01a_primitive_types)**
+1. **[U01a Primitive Types](#101_primitive_types)**
 
 1. **[103 Modulo Operator](#103_modulo_operator)**
 
@@ -99,8 +99,8 @@ References and Other Info:
 
 "
 
-- title: u01a_primitive_types
-  heading: "# u01a_primitive_types"
+- title: 101_primitive_types
+  heading: "# 101_primitive_types"
   content: "
 
   *3 wks*
@@ -109,15 +109,15 @@ References and Other Info:
 
   1. Class Codes - SoloLrn, Runestone
 
-  1. [SoloLrn Java Basic Concepts](/apcsa/u01a_primitive_types/U01aSoloLrnJava/instructions/)
+  1. [SoloLrn Java Basic Concepts](/apcsa/101_primitive_types/U01aSoloLrnJava/instructions/)
 
-  1. [Kings Island](/apcsa/u01a_primitive_types/U01aKingsIsland/instructions/)
+  1. [Kings Island](/apcsa/101_primitive_types/U01aKingsIsland/instructions/)
 
-  1. [Paint Calc Int Only](/apcsa/u01a_primitive_types/U01aPaintCalculatorIntOnly/instructions/)
+  1. [Paint Calc Int Only](/apcsa/101_primitive_types/U01aPaintCalculatorIntOnly/instructions/)
 
-  1. [Passer Rating](/apcsa/u01a_primitive_types/U01aPasserRating/instructions/)
+  1. [Passer Rating](/apcsa/101_primitive_types/U01aPasserRating/instructions/)
 
-  1. [Integer Overflow](/apcsa/u01a_primitive_types/U01aIntegerOverflow/instructions/)
+  1. [Integer Overflow](/apcsa/101_primitive_types/U01aIntegerOverflow/instructions/)
 
   1. U1 FRQ Primitive Types
 
@@ -125,9 +125,9 @@ References and Other Info:
 
 Additional:
 
-  1. [ASCII Art](/apcsa/u01a_primitive_types/U01aASCIIArt/instructions/)
+  1. [ASCII Art](/apcsa/101_primitive_types/U01aASCIIArt/instructions/)
 
-  1. [Computer Parts](/apcsa/u01a_primitive_types/ch1review1/)
+  1. [Computer Parts](/apcsa/101_primitive_types/ch1review1/)
 
 
 Vocab: platform, assembly, binary, bit, byte, declare, assignment, initialize, JVM, IDE, RAM, CPU, primary storage, secondary storage, peripheral, source code, compiler, bytecode, .java file, .class file, class, method, main, println, Scanner, int, double, boolean, char, String, overflow, comment, magic number, final, literal, syntax error, compiler error, logic error, runtime error, method call, argument, portable, high-level language, low-level language, casting, implicit conversion, explicit conversion, lossy conversion
@@ -142,7 +142,7 @@ Vocab: platform, assembly, binary, bit, byte, declare, assignment, initialize, J
 
 - [The Fetch-Execute Cycle Whats Your Computer Actually Doing](https://drive.google.com/file/d/1f94tL6PrfS1gtTMUn_8ZJawEZS6HYQLT/view?usp=sharing)
 
-- [Unit 1 Test Review](/apcsa/u01a_primitive_types/unit1testreview/)
+- [Unit 1 Test Review](/apcsa/101_primitive_types/unit1testreview/)
 
 "
 

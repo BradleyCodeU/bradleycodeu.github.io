@@ -1,7 +1,7 @@
 ---
 layout: project
 category: 103_modulo_operator
-title: 103 Coin Converter
+title: Coin Converter
 ---
 
 # Coin Converter

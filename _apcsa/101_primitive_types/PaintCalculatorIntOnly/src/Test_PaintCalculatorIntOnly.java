@@ -2,7 +2,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 
-public class Test_U01aPaintCalculatorIntOnly {
+public class Test_PaintCalculatorIntOnly {
     // WALL AREA TESTS
     @Test
     public void testCalculateWallArea() {
@@ -13,7 +13,7 @@ public class Test_U01aPaintCalculatorIntOnly {
         int num_windows = 2;
 
         int expectedArea = 435;
-        int actualArea = U01aPaintCalculatorIntOnly.calculateWallArea(length, width, height, num_doors, num_windows);
+        int actualArea = PaintCalculatorIntOnly.calculateWallArea(length, width, height, num_doors, num_windows);
 
         assertEquals(expectedArea, actualArea);
     }
@@ -26,7 +26,7 @@ public class Test_U01aPaintCalculatorIntOnly {
         int num_windows = 0;
 
         int expectedArea = 0;
-        int actualArea = U01aPaintCalculatorIntOnly.calculateWallArea(length, width, height, num_doors, num_windows);
+        int actualArea = PaintCalculatorIntOnly.calculateWallArea(length, width, height, num_doors, num_windows);
 
         assertEquals(expectedArea, actualArea);
     }
@@ -39,7 +39,7 @@ public class Test_U01aPaintCalculatorIntOnly {
         int num_windows = 20;
 
         int expectedArea = 3999550; // Total surface area of walls minus doors and windows
-        int actualArea = U01aPaintCalculatorIntOnly.calculateWallArea(length, width, height, num_doors, num_windows);
+        int actualArea = PaintCalculatorIntOnly.calculateWallArea(length, width, height, num_doors, num_windows);
 
         assertEquals(expectedArea, actualArea);
     }
@@ -50,7 +50,7 @@ public class Test_U01aPaintCalculatorIntOnly {
         int total_area = 432;
 
         int expectedGallons = 2;
-        int actualGallons = U01aPaintCalculatorIntOnly.calculatePaintGallons(total_area);
+        int actualGallons = PaintCalculatorIntOnly.calculatePaintGallons(total_area);
 
         assertEquals(expectedGallons, actualGallons);
     }
@@ -59,7 +59,7 @@ public class Test_U01aPaintCalculatorIntOnly {
         int total_area = 600; // Exact multiple of 300
 
         int expectedGallons = 2; // Exact multiple of 300
-        int actualGallons = U01aPaintCalculatorIntOnly.calculatePaintGallons(total_area);
+        int actualGallons = PaintCalculatorIntOnly.calculatePaintGallons(total_area);
 
         assertEquals(expectedGallons, actualGallons);
     }
@@ -68,7 +68,7 @@ public class Test_U01aPaintCalculatorIntOnly {
         int total_area = 200;
 
         int expectedGallons = 1; // Calculation rounds up to 1 gallon
-        int actualGallons = U01aPaintCalculatorIntOnly.calculatePaintGallons(total_area);
+        int actualGallons = PaintCalculatorIntOnly.calculatePaintGallons(total_area);
 
         assertEquals(expectedGallons, actualGallons);
     }
@@ -77,7 +77,7 @@ public class Test_U01aPaintCalculatorIntOnly {
         int total_area = 0;
 
         int expectedGallons = 0; // if zero, then zero
-        int actualGallons = U01aPaintCalculatorIntOnly.calculatePaintGallons(total_area);
+        int actualGallons = PaintCalculatorIntOnly.calculatePaintGallons(total_area);
 
         assertEquals(expectedGallons, actualGallons);
     }
@@ -90,7 +90,7 @@ public class Test_U01aPaintCalculatorIntOnly {
         int sales_tax_percent = 8;
 
         int expectedCost = 34; // Because 2 * 16 * 108 / 100 = 34
-        int actualCost = U01aPaintCalculatorIntOnly.calculateCostEstimate(gallons_needed, price_per_gallon, sales_tax_percent);
+        int actualCost = PaintCalculatorIntOnly.calculateCostEstimate(gallons_needed, price_per_gallon, sales_tax_percent);
 
         assertEquals(expectedCost, actualCost);
     }
@@ -101,7 +101,7 @@ public class Test_U01aPaintCalculatorIntOnly {
         int sales_tax_percent = 0; // No sales tax
 
         int expectedCost = 140; // // Because 7 * 20 * 100 / 100 = 120 No sales tax applied
-        int actualCost = U01aPaintCalculatorIntOnly.calculateCostEstimate(gallons_needed, price_per_gallon, sales_tax_percent);
+        int actualCost = PaintCalculatorIntOnly.calculateCostEstimate(gallons_needed, price_per_gallon, sales_tax_percent);
 
         assertEquals(expectedCost, actualCost);
     } 
@@ -112,7 +112,7 @@ public class Test_U01aPaintCalculatorIntOnly {
         int sales_tax_percent = 8;
 
         int expectedCost = 0; // if price per gallon is 0, then expected cost is 0
-        int actualCost = U01aPaintCalculatorIntOnly.calculateCostEstimate(gallons_needed, price_per_gallon, sales_tax_percent);
+        int actualCost = PaintCalculatorIntOnly.calculateCostEstimate(gallons_needed, price_per_gallon, sales_tax_percent);
 
         assertEquals(expectedCost, actualCost);
     }
@@ -123,7 +123,7 @@ public class Test_U01aPaintCalculatorIntOnly {
         int sales_tax_percent = 8;
 
         int expectedCost = 0; // Because 0 * 16 * 108 / 100 = 0
-        int actualCost = U01aPaintCalculatorIntOnly.calculateCostEstimate(gallons_needed, price_per_gallon, sales_tax_percent);
+        int actualCost = PaintCalculatorIntOnly.calculateCostEstimate(gallons_needed, price_per_gallon, sales_tax_percent);
 
         assertEquals(expectedCost, actualCost);
     }
