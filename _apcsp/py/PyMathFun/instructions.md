@@ -1,3 +1,10 @@
+---
+layout: project
+category: py
+title: Math Fun
+---
+
+
 # Read this tutorial:
 - [Python Conditionals](https://www.w3schools.com/python/python_conditions.asp){:target="_blank"}
 

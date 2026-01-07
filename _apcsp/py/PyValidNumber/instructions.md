@@ -1,4 +1,7 @@
-# Valid Number 
+---
+layout: project
+category: py
+title: Valid Number
 ---
 
 [Read this tutorial on how to define a function](https://bradleycodeu.github.io/apcsp/py/pythonfunctions/).

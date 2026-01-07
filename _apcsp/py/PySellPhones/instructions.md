@@ -1,4 +1,7 @@
-# Sell Phones
+---
+layout: project
+category: py
+title: Sell Phones
 ---
 In this project you will work with an argument, convert to int, and return a value
 

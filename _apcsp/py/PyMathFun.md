@@ -7,9 +7,9 @@ Read this tutorial:
 - [Python Conditionals](https://www.w3schools.com/python/python_conditions.asp){:target="_blank"}
 
 
-In this project you will define two functions.
+In this project you will define three functions.
 
-Pick 2:
+Pick 3:
 - [absoluteValue](#absolutevalue)
 - [slope](#slope)
 - [smallest](#smallest)
@@ -66,7 +66,7 @@ Input → Output
 maximumValue(1, 3, -5) → 3
 maximumValue("7", "2", "9") → 9
 ```
-<!--
+
 ## distance
 Given four arguments: x1, y1, x2, y2, return the distance between the two points as a float
 
@@ -85,14 +85,14 @@ normalize(20, 20, "25") → 0
 normalize(25, "20", 25) → 1
 normalize("21", 20, 25) → 0.2
 ```
--->
+
 
 --------------
 
 STARTER
 ```python
-# In this project you will complete TWO functions.
-# Pick 2 of the following 5
+# In this project you will complete THREE functions.
+# Pick 3 of the following 5
 
 
 # Given one number as an argument, return the absolute value
