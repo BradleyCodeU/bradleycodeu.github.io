@@ -13,11 +13,11 @@ Create a Phone Repair Calculator that predicts the amount of profit you can earn
 Fill in ALL 10 blanks in the starter code with the correct code.
 Blanks look like this: ???
 
-You will also WRITE TESTS starting on line 62
+You will also WRITE TESTS for the functions starting on line 62
 
-When finished, type in both Test Runs to make sure your code works correctly. If no errors, submit your Replit URL to Canvas
+When finished, type in both Example Runs to make sure the whole app works correctly. If no errors, submit your Replit URL to Canvas
 
-Test Run 1:
+Example Run 1:
 ```
 $-$-$-$-$-$-$-$-$-$-$-$
 Phone Repair Calculator
@@ -35,7 +35,7 @@ Sale price for fixed phone:
 You earned $173.11 in profit
 ```
 
-Test Run 2:
+Example Run 2:
 ```
 $-$-$-$-$-$-$-$-$-$-$-$
 Phone Repair Calculator
