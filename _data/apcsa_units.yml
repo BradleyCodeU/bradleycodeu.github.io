@@ -91,7 +91,7 @@ References and Other Info:
 
 1. **[U01a Primitive Types](#u01a_primitive_types)**
 
-1. **[U01b Modulo Operator](#u01b_modulo_operator)**
+1. **[103 Modulo Operator](#103_modulo_operator)**
 
 1. **[U02a Using Objects](#u02a_using_objects)**
 
@@ -146,8 +146,8 @@ Vocab: platform, assembly, binary, bit, byte, declare, assignment, initialize, J
 
 "
 
-- title: u01b_modulo_operator
-  heading: "# u01b_modulo_operator"
+- title: 103_modulo_operator
+  heading: "# 103_modulo_operator"
   content: "
 
 *3 wks*
@@ -156,9 +156,9 @@ Vocab: platform, assembly, binary, bit, byte, declare, assignment, initialize, J
 
   1. Modulo Operator Quizizz
 
-  1. [Coin Converter](/apcsa/u01b_modulo_operator/U01bCoinConverter/instructions/)
+  1. [Coin Converter](/apcsa/103_modulo_operator/103CoinConverter/instructions/)
 
-  1. [Mod Clock](/apcsa/u01b_modulo_operator/U01bModClock/instructions/)
+  1. [Mod Clock](/apcsa/103_modulo_operator/103ModClock/instructions/)
 
   1. U1Review (Multiple Attempts)
 

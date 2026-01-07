@@ -1,0 +1,66 @@
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+
+public class Test_ModClock {
+
+    @Test
+    public void testFormatMinutes_singleDigit() {
+        assertEquals("09", ModClock.formatMinutes(9));
+    }
+
+    @Test
+    public void testFormatMinutes_doubleDigit() {
+        assertEquals("15", ModClock.formatMinutes(15));
+    }
+
+    @Test
+    public void testFormatMinutes_zeroMinute() {
+        assertEquals("00", ModClock.formatMinutes(0));
+    }
+
+    @Test
+    public void testCalculateFutureTime_sameDay() {
+        assertEquals("13:09", ModClock.calculateFutureTime(11, 9, 2, 0));
+    }
+
+    @Test
+    public void testCalculateFutureTime_nextDay() {
+        assertEquals("0:09", ModClock.calculateFutureTime(23, 9, 1, 0));
+    }
+
+    @Test
+    public void testCalculateFutureTime_hoursAndMinutesLater() {
+        assertEquals("2:10", ModClock.calculateFutureTime(23, 50, 2, 20));
+    }
+
+    @Test
+    public void testCalculateFutureTime_hoursLaterExceeding24() {
+        assertEquals("14:07", ModClock.calculateFutureTime(11, 7, 27, 0));
+    }
+
+    @Test
+    public void testCalculateFutureTime_hoursAndMinutesLaterExceeding24() {
+        assertEquals("0:00", ModClock.calculateFutureTime(23, 59, 48, 1));
+    }
+
+    @Test
+    public void testCalculateFutureTime_hoursLaterExceeding48() {
+        assertEquals("12:05", ModClock.calculateFutureTime(11, 2, 49, 3));
+    }
+
+    @Test
+    public void testCalculateFutureTime_hours0MinutesExceeding120() {
+        assertEquals("1:13", ModClock.calculateFutureTime(23, 1, 0, 132));
+    }
+
+    @Test
+    public void testCalculateFutureTime_allZeroes() {
+        assertEquals("0:00", ModClock.calculateFutureTime(0, 0, 0, 0));
+    }
+
+    @Test
+    public void testCalculateFutureTime_largeInputs() {
+        assertEquals("10:48", ModClock.calculateFutureTime(9, 9, 99999, 99999));
+    }
+
+}
