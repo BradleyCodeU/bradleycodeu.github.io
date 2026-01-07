@@ -3,6 +3,7 @@ layout: project
 category: py
 title: Math Functions
 ---
+
 Read this tutorial:
 - [Python Conditionals](https://www.w3schools.com/python/python_conditions.asp){:target="_blank"}
 
@@ -174,11 +175,4 @@ print("Expected : maximumValue(\"7\", \"2\", \"9\") → 9 \nYour code: maximumVa
 ```
 
 
-<!--
-UNITTESTS
 
-self.assertEqual(int(absoluteValue(-55) == 55 ) + int(minimumValue(1, 3, -5) == -5) + int(maximumValue(1, 3, -5) == 3) + int(distance(-7, -5, 7, 5) == 17.204650534085253) + int(slope(0, 0, 0, 10) == "undefined") >= 2,True)
-
-self.assertEqual(int(absoluteValue("42") == 42) + int(minimumValue("-7", "-9", "-2") == -9) + int(maximumValue("7", "2", "9") == 9) + int(distance("0", "0", "0", "10") == 10.0) + int(slope("-7", "-5", "7", "5") == 0.7142857142857143) >= 2,True)
--->
-[comment]: <> (This is a comment, it will not be included)
