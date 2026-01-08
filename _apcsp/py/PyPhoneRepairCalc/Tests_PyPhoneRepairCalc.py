@@ -8,15 +8,21 @@ class AutomaticTester(unittest.TestCase):
         # Enter code here
         self.assertAlmostEqual(calculateProfit(101, 40, 10 , 250), 400.0)
         self.assertAlmostEqual(calculateProfit(600, 20, 15, 200), 2805.0)
+        self.assertAlmostEqual(calculateProfit(0, 0, 0, 0), 0)
 
     def test_buyPhones(self):
         # Enter code here
         self.assertEqual(buyPhones(101, 50), 2)
         self.assertEqual(buyPhones("600", "51"), 11)
+        self.assertEqual(buyPhones(0, 0), 0)
+        self.assertEqual(buyPhones(0, -1), 0)
         
     def test_sellPhones(self):
         self.assertAlmostEqual(sellPhones(2, 5), 10.0)
         self.assertAlmostEqual(sellPhones("6", "4"), 24.0)
+        self.assertAlmostEqual(sellPhones(0, 0), 0)
+        self.assertAlmostEqual(sellPhones(-1, 0), 0)
+        self.assertAlmostEqual(sellPhones(0, -1), 0)
 
 # CustomTestResult version 240225
 class CustomTestResultV240225(unittest.TextTestResult):
