@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class U01aIntegerOverflowApp {
+public class IntegerOverflowApp {
     public static void main(String[] args) {
         Random random = new Random();
 

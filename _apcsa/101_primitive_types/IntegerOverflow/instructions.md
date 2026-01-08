@@ -1,7 +1,7 @@
 ---
 layout: project
 category: 101_primitive_types
-title: U01a Integer Overflow
+title: Integer Overflow
 ---
 
 Java primitive data types (with ones we will use in APCSA <mark>highlighted</mark>):
@@ -112,7 +112,7 @@ This code would create the following output. Notice that if we go OVER the maxim
 
 ## Directions
 
-  Run the U01aIntegerOverflowApp, then copy and paste the Console Output into a text document. 
+  Run the IntegerOverflowApp, then copy and paste the Console Output into a text document. 
 
   Solve the problems in your text document (you can use Notability or Google Docs or whatever text editor you want).
 
