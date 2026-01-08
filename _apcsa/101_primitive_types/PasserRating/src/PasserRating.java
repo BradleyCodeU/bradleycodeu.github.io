@@ -22,7 +22,7 @@ public class PasserRating {
     // Use the methods to calculate the results
 
     System.out.println("*** Results ***");
-    System.out.println("The ??? NFL passer rating for ??? is ");
+    System.out.println("The ???year??? NFL passer rating for ???name??? is ");
     System.out.println("College passer rating would be ");
   }
 }
