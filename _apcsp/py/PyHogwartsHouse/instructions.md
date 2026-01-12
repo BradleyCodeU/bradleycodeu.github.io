@@ -1,4 +1,8 @@
-# Hogwarts House
+---
+layout: project
+category: py
+title: Hogwarts House
+---
 
 Read these tutorials:
 - [Python Conditionals](https://www.w3schools.com/python/python_conditions.asp){:target="_blank"}

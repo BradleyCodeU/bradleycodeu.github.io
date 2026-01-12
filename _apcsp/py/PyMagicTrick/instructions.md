@@ -1,4 +1,8 @@
-# Py Magic Trick
+---
+layout: project
+category: py
+title: Magic Trick
+---
 In this project you will demonstrate print statements, assigning a value to a variable, & arithmetic operators.
 
 Complete the starter code to recreate a simple magic trick from [https://nrich.maths.org/1051](https://nrich.maths.org/1051)
