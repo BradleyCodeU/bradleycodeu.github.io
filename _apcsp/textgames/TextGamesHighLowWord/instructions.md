@@ -2,17 +2,17 @@
 
 Define a function named randomSecret that requires 3 arguments (list1, list2, list3) and returns 1 string. Concatenate the arrays just like you would concatenate strings: combinedList = list1 + list2 + list3. If the length of the combined list is 0, then always return the word "oops". Otherwise, use the random choice function to randomly select one word from the combined list. Convert the word to lowercase. Return the word.
 ```
-randomSecret( ["Cat", "Cat"], ["CAT", "CAT"], ["cAt", "cAt"]) → "cat"
-randomSecret( ["RAT"], [ ], [ ]) → "rat"
-randomSecret( [ ], [ ], [ ]) → "oops"
+randomSecret( ["Cat", "Cat"], ["CAT", "CAT"], ["cAt", "cAt"]) -> "cat"
+randomSecret( ["RAT"], [ ], [ ]) -> "rat"
+randomSecret( [ ], [ ], [ ]) -> "oops"
 ```
 
 Define a function named checkGuess that requires 2 arguments (password, userGuess) and returns 1 string. Convert the userGuess to lowercase. Compare password and userGuess with greater than, less than, and equal to operators.  If the userGuess is less than the password, then return "The secret word is after " then concatenate the userGuess.
 If the userGuess is greater than the password, then return "The secret word is before " then concatenate the userGuess. Otherwise, return "You got it!"
 ```
-checkGuess("cat","dog") → "The secret word is before dog"
-checkGuess("cat","ant") → "The secret word is after ant"
-checkGuess("cat","cat") → "You got it!"
+checkGuess("cat","dog") -> "The secret word is before dog"
+checkGuess("cat","ant") -> "The secret word is after ant"
+checkGuess("cat","cat") -> "You got it!"
 ```
 
 

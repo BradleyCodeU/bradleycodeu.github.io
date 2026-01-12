@@ -18,13 +18,13 @@ wToDoubleU("www.twitter.com") ⟶ "uuuuuu.tuuitter.com"
 ```
 public static boolean hasRepeatLetters(String anyString)
 
-hasRepeatLetters("Mario Bros") → true
+hasRepeatLetters("Mario Bros") -> true
 
-hasRepeatLetters("bradley") → false
+hasRepeatLetters("bradley") -> false
 
-hasRepeatLetters("ohio") → true
+hasRepeatLetters("ohio") -> true
 
-hasRepeatLetters("Ohio") → false
+hasRepeatLetters("Ohio") -> false
 ```
 
 
@@ -34,11 +34,11 @@ hasRepeatLetters("Ohio") → false
 
 public static String finalFourReversed(String someWord)
 
-finalFourReversed("my word") → "my drow"
+finalFourReversed("my word") -> "my drow"
 
-finalFourReversed("Miami, FL") → "MiamiLF ,"
+finalFourReversed("Miami, FL") -> "MiamiLF ,"
 
-finalFourReversed("code") → "edoc"
+finalFourReversed("code") -> "edoc"
 ```
 
 
@@ -60,7 +60,7 @@ public static String onlyAToM(String word)
 
 onlyAToM("bradley") ⟶ "badle"
 
-onlyAToM("ap computer science a") → "acmeciecea"
+onlyAToM("ap computer science a") -> "acmeciecea"
 ```
 
 
