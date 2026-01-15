@@ -7,7 +7,7 @@ public class ClubMeetingApp {
     // Math.random() inside of the method. This method returns a random integer
     // number from the minimum to the maximumExclusive (NOT INCLUDING the
     // maximumExclusive). Call this helper method inside of the main method whenever
-    // you need a random number. For example, randomNumber(1,6). Stuck? Refer to
+    // you need a random number. For example, randomNumberExclusive(1,6). Stuck? Refer to
     // this tutorial:https://www.geeksforgeeks.org/java-math-random-method-examples/
 
     // TODO
