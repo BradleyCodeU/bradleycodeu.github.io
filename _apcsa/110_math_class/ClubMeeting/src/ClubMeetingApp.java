@@ -19,10 +19,11 @@ public class ClubMeetingApp {
     // Math.random() and Math.max() inside of the method. You will randomly generate
     // two numbers and keep the larger of the two numbers. This method returns a
     // random integer number from the minimum to the maximumExclusive (NOT INCLUDING
-    // the maximumExclusive). For example, cheatersDiceMax(1, 7) could return numbers
+    // the maximumExclusive). For example, cheatersDiceMax(1, 7) could return
+    // numbers
     // 1 through 6 but is much more likely to return 1.
 
-    // TODO
+    // TODO 
 
 
 
@@ -31,11 +32,11 @@ public class ClubMeetingApp {
     // Math.random() and Math.min() inside of the method. You will randomly generate
     // two numbers and keep the smaller of the two numbers. This method returns a
     // random integer number from the minimum to the maximumExclusive (NOT INCLUDING
-    // the maximumExclusive). For example, cheatersDiceMin(1, 7) could return numbers
+    // the maximumExclusive). For example, cheatersDiceMin(1, 7) could return
+    // numbers
     // 1 through 6 but is much more likely to return 6.
 
     // TODO
-
 
 
 
