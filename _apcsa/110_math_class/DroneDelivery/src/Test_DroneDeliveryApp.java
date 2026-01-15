@@ -45,6 +45,8 @@ public class Test_DroneDeliveryApp {
         assertEquals("Crossing origin: Time for distance 10 at speed 2", 5.0, actual2, DELTA);
 
         assertEquals("Zero speed", 0.0, DroneDeliveryApp.estimateDeliveryTime(-3.0, -4.0, 3.0, 4.0, 0.0), DELTA);
+
+        assertEquals("Neg speed", 0.0, DroneDeliveryApp.estimateDeliveryTime(-3.0, -4.0, 3.0, 4.0, -2.0), DELTA);
     }
 
     @Test
@@ -60,5 +62,7 @@ public class Test_DroneDeliveryApp {
         
         // Assertion 3: Zero weight
         assertEquals("Zero weight drain", 0.0, DroneDeliveryApp.calculateBatteryDrain(0.0, 0.0), DELTA);
+
+        assertEquals("Negative weight drain", 0.0, DroneDeliveryApp.calculateBatteryDrain(-7.0, 7.0), DELTA);
     }
 }
