@@ -11,6 +11,8 @@ public class DroneDeliveryApp {
      * @return The estimated percentage of battery consumed (e.g., 15.5 for 15.5%).
      */
     public static double calculateBatteryDrain(double weight, double distance) {
+        // set weight to be Math.max() with the arguments 0 and weight, so there can't be negative weight
+
         // use absolute value on the distance to ensure that it's a positive value
 
         // calculate the weightFactor which is weight to the power of 1.5
@@ -32,6 +34,8 @@ public class DroneDeliveryApp {
      * @return Total time required to cover the distance
      */
     public static double estimateDeliveryTime(double x1, double y1, double x2, double y2, double speed) {
+        // set speed to be Math.max() with the arguments 0 and speed, so there can't be negative speed
+
         // diffence in x location is the absolute value of x1 minus x2
 
         // diffence in y location is the absolute value of y1 minus y2
