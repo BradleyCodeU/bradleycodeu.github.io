@@ -1,20 +1,43 @@
 public class ClubMeetingApp {
 
-    // Above public static void main, you MUST define a new helper method.
-    // This method will return an int
-    // Name this method something like randomNumberExclusive
-    // This method has two parameters: int minimum and int maximum
-    // Method header should be public static int randomNumber(int minimum, int maximum)
-    // You MUST use Math.random() inside of the method
-    // This method returns a random integer from minimum to maximum (NOT INCLUDING maximum)
-    // Call this helper method inside of the main method when you need a random number
-    // Stuck? Refer to this tutorial:
-    // https://www.geeksforgeeks.org/java-math-random-method-examples/
-    //public static ??? ???(??? ???, ??? ???) { // TODO replace the ??? to complete the method header
-    //     int range = ???;
-    //     int randomValue = ???; // TODO
-    //     return ???; // TODO
-    // }
+    // Above public static void main, you MUST define 3 new static helper methods.
+
+    // 1. randomNumberExclusive() This public static method will return an int. This
+    // method has two parameters: int minimum and int maximumExclusive. You MUST use
+    // Math.random() inside of the method. This method returns a random integer
+    // number from the minimum to the maximumExclusive (NOT INCLUDING the
+    // maximumExclusive). Call this helper method inside of the main method whenever
+    // you need a random number. For example, randomNumber(1,6). Stuck? Refer to
+    // this tutorial:https://www.geeksforgeeks.org/java-math-random-method-examples/
+
+    // TODO
+
+
+
+    // 2. cheatersDiceMax() This public static method will return an int. This
+    // method has two parameters: int minimum and int maximumExclusive. You MUST use
+    // Math.random() and Math.max() inside of the method. You will randomly generate
+    // two numbers and keep the larger of the two numbers. This method returns a
+    // random integer number from the minimum to the maximumExclusive (NOT INCLUDING
+    // the maximumExclusive). For example, cheatersDiceMax(1, 7) could return numbers
+    // 1 through 6 but is much more likely to return 1.
+
+    // TODO
+
+
+
+    // 3. cheatersDiceMin() This public static method will return an int. This
+    // method has two parameters: int minimum and int maximumExclusive. You MUST use
+    // Math.random() and Math.min() inside of the method. You will randomly generate
+    // two numbers and keep the smaller of the two numbers. This method returns a
+    // random integer number from the minimum to the maximumExclusive (NOT INCLUDING
+    // the maximumExclusive). For example, cheatersDiceMin(1, 7) could return numbers
+    // 1 through 6 but is much more likely to return 6.
+
+    // TODO
+
+
+
 
     public static void main(String[] args) {
 
@@ -30,12 +53,12 @@ public class ClubMeetingApp {
         // TODO: Your code will randomly pick either 3, 4, or 5... and print it
 
         // 3. What grade will provide snacks? Your code will randomly pick either 9, 10,
-        // 11, or 12.
+        // 11, or 12 using the cheatersDiceMin method
         System.out.println("3. What grade will provide snacks?");
         // TODO: Your code will randomly pick either 9, 10, 11, or 12... and print it
 
         // 4. What will the membership fee be? Your code will randomly pick a number 5
-        // to 15.
+        // to 15 using the cheatersDiceMax method
         System.out.println("4. What will the membership fee be?");
         // TODO: Your code will randomly pick a number 5 to 15... and print it
 

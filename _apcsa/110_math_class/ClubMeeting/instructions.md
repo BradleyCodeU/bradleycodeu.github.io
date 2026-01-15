@@ -1,6 +1,6 @@
 ---
 layout: project
-category: 111_math_class
+category: 110_math_class
 title: Club Meeting
 ---
 Club Meeting
@@ -17,8 +17,8 @@ The school coding club can't decide when to hold their meetings. The members agr
 
   1.  Where will we meet? Your code will randomly pick either 266 or 267.
   1.  What time will we meet? Your code will randomly pick either 3, 4, or 5.
-  1.  What grade will provide snacks? Your code will randomly pick either 9, 10, 11, or 12.
-  1.  What will the membership fee be? Your code will randomly pick a number 5 to 15.
+  1.  What grade will provide snacks? Your code will randomly pick either 9, 10, 11, or 12 using the cheatersDiceMin method
+  1.  What will the membership fee be? Your code will randomly pick a number 5 to 15 using the cheatersDiceMax method
   1.  5th Random Choice (Something you make up. Every student in class should have something unique)
 
 Ideas for the 5th Random Choice (unique for each student)...
@@ -37,7 +37,13 @@ Ideas for the 5th Random Choice (unique for each student)...
   - Pick a random social media app and say "Follow us on ____" using an if-else with a random number to fill the blank
   - Pick a random prize and say "Raffle prize is ____" using an if-else with a random number to fill the blank
 
-Above public static void main, you MUST define a new helper method. This method will return an int. Name this method something like randomNumberExclusive. This method has two parameters: int minimum and int maximum. You MUST use Math.random() inside of the method. This method returns a random integer number from the minimum to the maximum (NOT INCLUDING the maximum). Call this helper method inside of the main method whenever you need a random number ( for example, randomNumber(1,6) ). Stuck? Refer to this tutorial: https://www.geeksforgeeks.org/java-math-random-method-examples/
+Above public static void main, you MUST define 3 new static helper methods. 
+
+1. randomNumberExclusive() This method will return an int. This method has two parameters: int minimum and int maximum. You MUST use Math.random() inside of the method. This method returns a random integer number from the minimum to the maximum (NOT INCLUDING the maximum). Call this helper method inside of the main method whenever you need a random number ( for example, randomNumber(1,6) ). Stuck? Refer to this tutorial: https://www.geeksforgeeks.org/java-math-random-method-examples/
+
+1. cheatersDiceMax() This method will return an int. This method has two parameters: int minimum and int maximum. You MUST use Math.random() and Math.max() inside of the method. You will randomly generate two numbers and keep the larger of the two numbers. This method returns a random integer number from the minimum to the maximum (NOT INCLUDING the maximum). For example, cheatersDiceMax(1, 7) could return numbers 1 through 6 but is much more likely to return 1.
+
+1. cheatersDiceMin() This method will return an int. This method has two parameters: int minimum and int maximum. You MUST use Math.random() and Math.min() inside of the method. You will randomly generate two numbers and keep the smaller of the two numbers. This method returns a random integer number from the minimum to the maximum (NOT INCLUDING the maximum). For example, cheatersDiceMin(1, 7) could return numbers 1 through 6 but is much more likely to return 6.
 
 
 
