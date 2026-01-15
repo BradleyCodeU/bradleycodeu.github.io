@@ -10,15 +10,15 @@ public class Test_DroneDeliveryApp {
     @Test
     public void testGetSignalStrength() {
         // Assertion 1: Positive coordinates
-        double actual1 = DroneDeliveryApp.getSignalStrength(3.0, 5.0, 0.0, 0.0, 100.0);
-        assertEquals("Positive coords: Signal should be 4.0", 4.0, actual1, DELTA);
+        double actual1 = DroneDeliveryApp.getSignalStrength(12, 16.0, 0.0, 0.0, 100.0);
+        assertEquals("Positive coords: Signal should be 0.25", 0.25, actual1, DELTA);
 
         // Assertion 2: Negative coordinates (Testing Math.abs)
         // Distance between (-3, -4) and (0, 0) is still 5.0
         double actual2 = DroneDeliveryApp.getSignalStrength(-3.0, -4.0, 0.0, 0.0, 100.0);
         assertEquals("Negative coords: Math.abs should ensure distance is still 5.0", 4.0, actual2, DELTA);
 
-        assertEquals("Zero distance", 0.0, DroneDeliveryApp.getSignalStrength(-3.0, -4.0, -3.0, -4.0, 50.0), DELTA);
+        assertEquals("Zero distance", 50.0, DroneDeliveryApp.getSignalStrength(-3.0, -4.0, -3.0, -4.0, 50.0), DELTA);
     }
 
     @Test
