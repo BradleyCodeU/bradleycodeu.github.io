@@ -41,7 +41,7 @@ public class DroneDeliveryApp {
         // diffence in y location is the absolute value of y1 minus y2
 
         // Use the Pythagorean theorem (a^2 + b^2 = c^2) to find the distance
-        // distance is the square root of (diff in x to the 2nd power) plus (diff in y
+        // distance is the square root of (difference in x to the 2nd power) plus (difference in y
         // to the 2nd power)
 
         // if speed is zero, return 0 to prevent division by zero errors
@@ -75,8 +75,8 @@ public class DroneDeliveryApp {
         // distance is the square root of (diff in x to the 2nd power) plus (diff in y
         // to the 2nd power)
 
-        // if distance is zero, return initialPower to prevent division by zero errors
-        // if (distance == 0){
+        // if distance is near zero, return initialPower to prevent division by zero errors
+        // if (distance < 0.01){
         //      return initialPower;
         // }
 
