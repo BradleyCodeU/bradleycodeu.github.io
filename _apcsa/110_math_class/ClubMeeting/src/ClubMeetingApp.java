@@ -21,7 +21,7 @@ public class ClubMeetingApp {
     // random integer number from the minimum to the maximumExclusive (NOT INCLUDING
     // the maximumExclusive). For example, cheatersDiceMax(1, 7) could return
     // numbers
-    // 1 through 6 but is much more likely to return 1.
+    // 1 through 6 but is much more likely to return 6.
 
     // TODO 
 
@@ -34,7 +34,7 @@ public class ClubMeetingApp {
     // random integer number from the minimum to the maximumExclusive (NOT INCLUDING
     // the maximumExclusive). For example, cheatersDiceMin(1, 7) could return
     // numbers
-    // 1 through 6 but is much more likely to return 6.
+    // 1 through 6 but is much more likely to return 1.
 
     // TODO
 
