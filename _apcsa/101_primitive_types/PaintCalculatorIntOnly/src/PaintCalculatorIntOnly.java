@@ -25,6 +25,7 @@ public class PaintCalculatorIntOnly {
     // TODO Calculate the total cost including sales tax
     // To get price plus tax, add 100 + the sales tax, multiply that by the cost,
     // then divide by 100.
+    // For example, to add 10% tax we can multiply the price by 110/100 
     // Integer division will automatically cause this calculation to round down.
     // 1 gallon at $16 per gallon with 10% tax will cost ABOUT $17
     // For example...
