@@ -1,6 +1,6 @@
 ---
 layout: project
-category: 110_math_class
+category: 110_math_library
 title: Club Meeting
 ---
 Club Meeting
