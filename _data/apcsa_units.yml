@@ -480,7 +480,7 @@ Additional projects:
 
 - [Explicit parameter in Java](https://www.drjamesfroggatt.com/java/methods-java-android-development/implicit-explicit-parameters/implicit-and-explicit-parameters/)
 
-- [Abstraction illustration](https://bradleycodeu.github.io/gdad/objects/abstraction.png)
+- [Abstraction illustration](https://bradleycodeu.github.io/gdad/objects/abstraction2.png)
 
 
 Vocab: instance variable, [local variable](https://www.dummies.com/programming/java/local-variables-in-java/), constructor, mutator method, accessor method, [method header](http://www.cs.cornell.edu/courses/cs1130/2012sp/1130selfpaced/module2/module2part1/methodHeaders.html), return type, void, [access specifier](https://www.geeksforgeeks.org/access-specifiers-for-classes-or-interfaces-in-java/), formal parameter, actual parameter, [implicit parameter](https://www.thoughtco.com/implicit-parameter-2034139), explicit parameter, static method, invoke, public interface, overloading, preconditions
