@@ -1,3 +1,5 @@
+import java.awt.geom.Point2D;
+
 public class U02aRectanglesPoints {
   // Check out the Rectangle class in the Java API:
 
