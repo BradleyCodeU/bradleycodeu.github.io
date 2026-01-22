@@ -16,7 +16,7 @@ You will create ONE class with:
 
 ## jumpRight(Rectangle rec)
 
-![jumpRight example](jumpRightExample.png)
+![jumpRight example](https://bradleycodeu.github.io/apcsa/112_using_objects/U02aRectanglesPoints/jumpRightExample.png)
 
 Looks at Rectangle rec and returns a new Rectangle that is located
 rec's width to the right of rec.
@@ -35,7 +35,7 @@ rec's width to the right of rec.
 
 ## jumpDown(Rectangle rec)
 
-![jumpDown example](jumpDownExample.png)
+![jumpDown example](https://bradleycodeu.github.io/apcsa/112_using_objects/U02aRectanglesPoints/jumpDownExample.png)
 
 Looks at Rectangle rec and returns a new Rectangle that is located
 rec's height below rec.
@@ -88,7 +88,7 @@ rec's height above rec.
 
 ## doubleSize(Rectangle rec)
 
-![doubleSize example](doubleSizeExample.png)
+![doubleSize example](https://bradleycodeu.github.io/apcsa/112_using_objects/U02aRectanglesPoints/doubleSizeExample.png)
 
 Looks at Rectangle rec and returns a new Rectangle that has twice
 the width and twice the height of rec.
@@ -105,7 +105,7 @@ the width and twice the height of rec.
 
 ## growFixed(Rectangle rec, int amount)
 
-![growFixed example](growFixedExample.png)
+![growFixed example](https://bradleycodeu.github.io/apcsa/112_using_objects/U02aRectanglesPoints/growFixedExample.png)
 
 Looks at Rectangle rec and returns a new Rectangle that is at the
 same x and y location, but with dimensions increased by the specified amount.
