@@ -1,4 +1,8 @@
 import java.awt.geom.Point2D;
+// TODO import the Rectangle class from java awt
+
+// TODO import the Point class from java awt
+
 
 public class U02aRectanglesPoints {
   // Check out the Rectangle class in the Java API:
@@ -23,12 +27,16 @@ public class U02aRectanglesPoints {
    *         Preconditions: rec is a rectangle object that is not null. rec has a
    *         width greater than 0.
    *         Postconditions: rec has not been changed. The method returns a new
-   *         Rectangle
-   *         object with the same y-location but with an x-location that equals
-   *         rec's x
-   *         plus rec's width.
+   *         Rectangle object with the same y-location but with an x-location that equals
+   *         rec's x plus rec's width.
    */
-  // TODO
+  // public static Rectangle jumpRight(Rectangle rec){
+  //   // TODO construct a new Rectangle object with:
+  //          - the same width and height as rec
+  //          - the same y-location as rec but shifted to the right by width
+  //   return ???;
+  // }
+  
 
   /**
    * jumpDown(Rectangle rec)
@@ -42,10 +50,8 @@ public class U02aRectanglesPoints {
    *         Preconditions: rec is a rectangle object that is not null. rec has a
    *         height greater than 0.
    *         Postconditions: rec has not been changed. The method returns a new
-   *         Rectangle
-   *         object with the same x-location but with a y-location that equals
-   *         rec's y
-   *         plus rec's height.
+   *         Rectangle object with the same x-location but with a y-location that equals
+   *         rec's y plus rec's height.
    */
   // TODO
 
@@ -61,10 +67,8 @@ public class U02aRectanglesPoints {
    *         Preconditions: rec is a rectangle object that is not null. rec has a
    *         width greater than 0.
    *         Postconditions: rec has not been changed. The method returns a new
-   *         Rectangle
-   *         object with the same y-location but with an x-location that equals
-   *         rec's x
-   *         minus rec's width.
+   *         Rectangle object with the same y-location but with an x-location that equals
+   *         rec's x minus rec's width.
    */
   // TODO
 
@@ -80,10 +84,8 @@ public class U02aRectanglesPoints {
    *         Preconditions: rec is a rectangle object that is not null. rec has a
    *         height greater than 0.
    *         Postconditions: rec has not been changed. The method returns a new
-   *         Rectangle
-   *         object with the same x-location but with a y-location that equals
-   *         rec's y
-   *         minus rec's height.
+   *         Rectangle object with the same x-location but with a y-location that equals
+   *         rec's y minus rec's height.
    */
   // TODO
 
@@ -98,8 +100,7 @@ public class U02aRectanglesPoints {
    * 
    *         Preconditions: rec is a rectangle object that is not null.
    *         Postconditions: rec has not been changed. The method returns a new
-   *         Rectangle
-   *         object with the same x and y coordinates, but with a width equal to
+   *         Rectangle object with the same x and y coordinates, but with a width equal to
    *         rec's width * 2 and a height equal to rec's height * 2.
    */
   // TODO
@@ -117,8 +118,7 @@ public class U02aRectanglesPoints {
    *         Preconditions: rec is a rectangle object that is not null.
    *         amount is a non-negative integer.
    *         Postconditions: rec has not been changed. The method returns a new
-   *         Rectangle
-   *         object with the same (x, y) coordinates, but with a
+   *         Rectangle object with the same (x, y) coordinates, but with a
    *         width equal to (rec.width + amount) and a
    *         height equal to (rec.height + amount).
    */
@@ -141,6 +141,13 @@ public class U02aRectanglesPoints {
    *         non-negative.
    *         Postconditions: p1 and p2 have not been changed.
    */
+  // TODO
+    // Look at the Point API: https://docs.oracle.com/javase/7/docs/api/java/awt/Point.html
+    // Find the distance between them, using the distance method (which is available because it is
+    // inherited from a different class)
+    // if (distance <= minimumDistance){
+    //     return true;
+    // }
 
   /**
    * findMidpoint(Point p1, Point p2)
@@ -262,8 +269,7 @@ public class U02aRectanglesPoints {
     // Look at the API of the Point class and find out how to construct a Point
     // object.
     // TODO: Construct two points with coordinates (3, 4) and (–3, –4). Find the
-    // distance
-    // between them, using the distance method (which is available because it is
+    // distance between them, using the distance method (which is available because it is
     // inherited from a different class). Print your prediction and then the
     // calculated distance.
 
