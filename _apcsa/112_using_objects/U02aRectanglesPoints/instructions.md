@@ -1,18 +1,36 @@
 ---
 layout: project
 category: 112_using_objects
-title: U02a Rectangles And Points
+title: Rectangles And Points
 ---
 
 
 Check out the Rectangle class in the Java API:
-  - [Java Rectangle class API](https://docs.oracle.com/javase/7/docs/api/index.html?java/awt/Rectangle.html)
+  - [Java Rectangle class API](https://docs.oracle.com/javase/8/docs/api/index.html?java/awt/Rectangle.html)
+Check out the Point class in the Java API:
+  - [Java Rectangle class API](https://docs.oracle.com/javase/8/docs/api/index.html?java/awt/Point.html)
 
 
 You will create ONE class with:
-  - 6 methods that work with Rectangles
-  - 2 methods that work with Points
-  - public static void main() app that contains code for the following 5 exercises.
+
+ - 7 methods that work with Rectangles
+
+ - 2 methods that work with Points
+
+ - public static void main() app that contains code for 5 exercises
+
+## calculateArea(Rectangle rec)
+
+Calculates the total area of the given Rectangle.
+
+@param rec The Rectangle object to be measured.
+
+@return The area of the rectangle (width multiplied by height).
+
+       Preconditions: rec is a rectangle object that is not null. 
+       Postconditions: rec has not been changed. The method returns the 
+       product of the rectangle's width and height.
+
 
 ## jumpRight(Rectangle rec)
 
@@ -163,75 +181,46 @@ NOTE: use Point2D.Double middle = new Point2D.Double(x, y);
         For example, the midpoint of (3,3) and (4,4) is (3.5, 3.5)
 
 
-# Write the following app in public static void main
+## Fill in the TODO's in public static void main
 
-## App Part 1 of 5
+### App Part 1 of 5
 
-Write a program that:
-  1.  Constructs a Rectangle object.
-  1.  Prompt the user for a width and height.
-  1.  Use the setSize method to adjust the width and height of your Rectangle object.
-  1.  Use the Rectangle library's grow method to grow the width by 10 and grow the height by 10. For example... boxOne.grow(10,10); 
-  1.  Print the new width using the getWidth method.
-  1.  Print the new height using the getHeight method.
-  1.  Finally, compute and print its new area using the getWidth and getHeight methods.
+Make a big Rectangle
 
-Sample Output
-```
-Part 1 of 5 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-Please enter the width and height of the rectangle as whole numbers
-Width: 5
-Height: 6
-After growing the width by 10 and the height by 10...
-New width is 25.0
-New height is 26.0
-New area is 650.0
-```
+The user guesses the area
 
-## App Part 2 of 5
+Use the Rectangle class setSize method to make box1 width 90,000 and the height 90,000
 
-Look into the API documentation of the Rectangle class and locate the method
-```
-boolean contains(int x, int y)
-```
+### App Part 2 of 5
 
-Directions:
-- Construct a new Rectangle named mysteryBox at any x,y location (your choice!) with a width of 20 and a height of 30.
-- Prompt the user for an x location
-- Prompt the user for a y location
-- Print mysteryBox.contains(x,y)
-- Finally, print mysteryBox to reveal the x, y, width, and height
-    
-Sample Output  (your mysteryBox should be at a different location)
-```
-Part 2 of 5
-Please type x location: 15
-Please type y location: 17
-true
-java.awt.Rectangle[x=9,y=10,width=20,height=30]
-```
+Compare the Rectangle class translate method and setLocation method
 
-## App Part 3 of 5
+Use the Rectangle class translate method to move it by 5 on the x-axis and 5 on the y-axis
 
-Double the height and width.
+Use the Rectangle class getLocation method to get the new x,y coordinates as a Point object named translatePoint
 
-Construct a Rectangle object named doubleSquare representing a square with top-left corner (100, 100) and side length 50, then print its location by calling System.out.println(doubleSquare). Use the translate and grow methods to make the square twice the size and move it to location (300,400). Finally, call System.out.println(doubleSquare) again.
+Use the Rectangle class setLocation method to move it to 5 on the x-axis and 5 on the y-axis
 
-This code will not produce a drawing. It will simply print the locations of square before and after calling the mutator methods. Look up the description of the grow method in the API documentation.
+### App Part 3 of 5
 
-## App Part 4 of 5
+Compare the Rectangle class grow method and our static growFixed method
 
-Halve the width only.
+Use the Rectangle class grow method to grow it by 1 horizontally and 1 vertically
 
-Construct a Rectangle object named halfWidthSquare representing a square with top-left corner (55, 55) and side length 600, then print its location by calling System.out.println(halfWidthSquare). Use the translate and grow methods to make the square half the width and move it to location (55,0). Finally, call System.out.println(halfWidthSquare) again.
+### App Part 4 of 5
 
-This code will not produce a drawing. It will simply print the locations of square before and after calling the mutator methods. Look up the description of the grow method in the API documentation.
+CATCH THE MYSTERY SPOT!
 
-**NOTE**: In computer science, the y-axis is inverted and 0,0 is in the top-left corner of the screen.
+Construct a Point object named mysterySpot with a random x 0-10, and a random y 0-10 use Math.random
 
+Use the Rectangle class setSize method to adjust the width and height of userBox
 
-## App Part 5 of 5
+Use the Rectangle class contains method to see if the mysterySpot is within userBox
 
-[Java Point class API](https://docs.oracle.com/javase/7/docs/api/java/awt/Point.html)
+### App Part 5 of 5
 
-Look at the API of the Point class and find out how to construct a Point object. In a PointTester program, construct two points with coordinates (3, 4) and (–3, –4). Find the distance between them, using the distance method (which is available because it is *inherited* from a different class). Print your prediction and then the calculated distance.
+FIND THE SECRET BOX!
+
+Construct a Rectangle object named secretBox with any x location, any y location, a width of 30, and height of 20
+
+Use the Rectangle class contains method to see if the userGuess is within secretBox
