@@ -42,10 +42,11 @@ public class U02aSwingProjectsApp {
     // Run the following. TODO: modify it to show a different greeting and image.
     // Look up your own image on the internet!
 
-    
+    // Examples...
     // URI imageUri = new URI("https://www.oracle.com/a/pr/img/rc94-news-logo.png");
     // URI imageUri = new URI("https://docs.oracle.com/cd/E19199-01/816-6873/sun.gif");
     // URI imageUri = new URI("https://blogs.oracle.com/wp-content/uploads/sites/108/2025/11/Java-horz-clr-16-1.png");
+    
     URI imageUri = new URI("https://dev.java/assets/images/duke/duke_star7.png");
     URL imageLocation = imageUri.toURL();
     ImageIcon icon = new ImageIcon(imageLocation);
