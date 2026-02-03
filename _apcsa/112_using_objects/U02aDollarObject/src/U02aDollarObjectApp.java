@@ -21,7 +21,7 @@ public class U02aDollarObjectApp {
         // System.out.println("ACTUAL " + answer);
 
         // Notice that Mr Riley has given you a partial Dollar class.
-        // Here is the documentation for the Dollar class: https://bradleycodeu.github.io/apcsa/u02a_uo/U02aDollarObject/doc/Dollar.html
+        // Here is the documentation for the Dollar class: https://bradleycodeu.github.io/apcsa/112_using_objects/U02aDollarObject/doc/Dollar.html
         // Read the documentation for the Dollar class and answer the following questions.
         // Use the Dollar class for the following quesions
 

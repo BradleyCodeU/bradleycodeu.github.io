@@ -21,6 +21,6 @@ Cost Per Person = $44.419999999999995
 
 In this assignment you will use doubles to perform currency calculations and then, as a comparison, use the Dollar class to perform currency calculations.
 
-Here is the documentation for the Dollar class: [https://bradleycodeu.github.io/apcsa/u02a_uo/U02aDollar/doc/Dollar.html](https://bradleycodeu.github.io/apcsa/u02a_uo/U02aDollar/doc/Dollar.html)
+Here is the documentation for the Dollar class: [https://bradleycodeu.github.io/apcsa/112_using_objects/U02aDollar/doc/Dollar.html](https://bradleycodeu.github.io/apcsa/112_using_objects/U02aDollar/doc/Dollar.html)
 
 Complete the code in the file U02aDollarApp.java

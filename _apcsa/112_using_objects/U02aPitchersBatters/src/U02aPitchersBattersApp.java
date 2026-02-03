@@ -25,7 +25,7 @@ public class U02aPitchersBattersApp {
       System.out.println("-=-=-=-=-=-=-=-=-PART 3");
       // PART 3: The nextPitch method is NOT random. It's using the player's name to decide if it's a good pitch or a bad pitch. 
       // Documentation for the class is here: 
-      // https://bradleycodeu.github.io/apcsa/u02a_uo/U02aPitchersBatters/doc/index-all.html  
+      // https://bradleycodeu.github.io/apcsa/112_using_objects/U02aPitchersBatters/doc/index-all.html  
       // Print your answers to the following 2 questions... 
   
       System.out.println("Q1)   Which of the following names would make the best pitcher and why? 1) \"Tyler\" 2) \"Louie\" 3) \"Aaron\" 4) \"Steven\"");
