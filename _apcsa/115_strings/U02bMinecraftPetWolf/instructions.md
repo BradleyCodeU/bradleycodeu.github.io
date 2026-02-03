@@ -26,6 +26,8 @@ The API documentation for the Wolf class is here: [https://hub.spigotmc.org/java
   1. log a message for the player
   1. create a command that will generate and tame a different pet
   1. Finally, answer the following questions as comments at the bottom of the `PetWolf.java` file:
+
+  
 ```
 // Q1: By looking at the API you should have noticed some patterns in the method names. Imagine that Mojang adds the ability for Wolves to wear hats. If they follow the pattern in the API, what should they name the two methods that will allow you to:
 //  - retrieve information about this wolf's current hat status
