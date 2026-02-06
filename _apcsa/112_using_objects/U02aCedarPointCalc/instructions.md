@@ -79,7 +79,7 @@ Number of Charter Buses = 2
 Cost of Charter Buses = $3,477.84
 Food cost = $2,500.00
 FINAL TOTALS...Fall Cost...Spring Cost
-School Buses   $1,0486.26   $1,0095.31
-Charter Buses   $1,0062.84   $9,671.89
+School Buses   $10,486.26   $10,095.31
+Charter Buses   $10,062.84   $9,671.89
 ```
   
