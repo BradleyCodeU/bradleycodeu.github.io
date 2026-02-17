@@ -32,7 +32,7 @@ OHIO STATE
 ```
 Here are a bunch of different examples:
 
-![blockletters](https://bradleycodeu.github.io/apcsp/turtleart/TurtleBlockLetters/blockletter.jpg)
+![blockletters](https://bradleycodeu.github.io/apcsp/turtleart/TurtleBlockLetters/blockletters.jpg)
 ![blockletters](https://bradleycodeu.github.io/apcsp/turtleart/TurtleBlockLetters/block00.PNG)
 ![blockletters](https://bradleycodeu.github.io/apcsp/turtleart/TurtleBlockLetters/block01.PNG)
 ![blockletters](https://bradleycodeu.github.io/apcsp/turtleart/TurtleBlockLetters/block02.PNG)
