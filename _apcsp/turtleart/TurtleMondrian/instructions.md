@@ -8,7 +8,7 @@ Turtle Mondrian
 
 Piet Mondrian is a famous modern artist of the "De Stijl" movement. One of his most famous paintings is [Composition with Red Yellow and Blue](https://www.google.com/search?surl=1&biw=1211&bih=746&tbm=isch&sa=1&q=mondrian+composition+with+red+yellow+and+blue&oq=mondrian+comp&safe=active&ssui=on)
 
-![Mondrian Composition with Red Yellow and Blue Right Piet Mondrian Composition C](/Mondrian-Composition-with-Red-Yellow-and-Blue-Right-Piet-Mondrian-Composition-C.-Images-via-piet-mondrian.org_.jpg)
+![Mondrian Composition with Red Yellow and Blue Right Piet Mondrian Composition C](https://bradleycodeu.github.io/apcsp/turtleart/TurtleMondrian/Mondrian-Composition-with-Red-Yellow-and-Blue-Right-Piet-Mondrian-Composition-C.-Images-via-piet-mondrian.org_.jpg)
 
 <br>
 In this project you will create a Mondrian-style Drawing Generator.
