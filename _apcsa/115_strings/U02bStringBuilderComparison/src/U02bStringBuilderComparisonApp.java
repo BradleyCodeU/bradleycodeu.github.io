@@ -55,7 +55,7 @@ public class U02bStringBuilderComparisonApp {
         // TODO
         System.out.println();
 
-        // 8. Create a String sphinxSentence with the text "sphinx of black quartz judge my vow". Prompt the user to type a single, lowercase letter. Use the indexOf method to find the index number of the user's letter within foxSentence. Use the substring method to get everything BEFORE that index and concatenate it with everything AFTER that index. Finally, <ins>print sphinxSentence</ins>.
+        // 8. Create a String sphinxSentence with the text "sphinx of black quartz judge my vow". Prompt the user to type a single, lowercase letter. Use the indexOf method to find the index number of the user's letter within sphinxSentence. Use the substring method to get everything BEFORE that index and concatenate it with everything AFTER that index. Finally, <ins>print sphinxSentence</ins>.
 
         System.out.println("Part 8 of 8");
         // TODO
