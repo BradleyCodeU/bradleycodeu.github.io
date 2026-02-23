@@ -76,7 +76,7 @@ public class PhoneNumberApp {
 
         // System.out.println(userNumberString1);
         System.out.println("true or false, is it now in Phone Format?");
-        // TODO call isPhoneFormat to check userPhoneFormat1 and print the result
+        // TODO call isPhoneFormat to check userNumberString1 and print the result
 
 
         System.out.print("Please type ANOTHER phone number: ");
