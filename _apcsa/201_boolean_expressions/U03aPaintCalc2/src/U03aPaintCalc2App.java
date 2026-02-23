@@ -6,6 +6,7 @@ public class U03aPaintCalc2App {
      * Create a public static method named calculateTotalSquareFeet
      * that has 5 parameters: length, width, height, doors, windows.
      * Returns the surface area of the walls as a double.
+     * Assume that a door is 21 square feet and a window is 12 sq ft.
      */
     // TODO 
 
