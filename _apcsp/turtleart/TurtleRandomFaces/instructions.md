@@ -10,8 +10,8 @@ Create an app that will generate TWO random faces each time the app runs.
 
 You MUST create at least these 6 functions:
 
-  - drawEars # random choice from two eyes shapes. for example, circle ears or triangle ears
-  - drawHead # random choice from two eyes shapes
+  - drawEars # random choice from two ear shapes. for example, circle ears or triangle ears
+  - drawHead # random choice from two head shapes
   - drawEyes # random choice from two eyes shapes
   - drawNose # random choice from two nose shapes
   - drawMouth # random choice from two mouth shapes
