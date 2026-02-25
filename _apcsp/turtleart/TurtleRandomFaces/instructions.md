@@ -12,7 +12,7 @@ You MUST create at least these 6 functions:
 
   - drawEars # random choice from two ear shapes. for example, circle ears or triangle ears
   - drawHead # random choice from two head shapes
-  - drawEyes # random choice from two eyes shapes
+  - drawEyes # random choice from two eye shapes
   - drawNose # random choice from two nose shapes
   - drawMouth # random choice from two mouth shapes
   - main # go to (-100, 0) draw a random face, go to (100, 0) draw a random face
