@@ -67,7 +67,7 @@ public class PhoneNumberApp {
         // String userPhoneFormat1 = ???
 
         // System.out.println(userPhoneFormat1);
-        System.out.println("true or false, is it now in Phone Format?");
+        System.out.println("true or false, is it now in Phone Format? expected true");
         // TODO call isPhoneFormat to check userPhoneFormat1 and print the result
 
         System.out.println("converting...");
@@ -75,7 +75,7 @@ public class PhoneNumberApp {
         // String userNumberString1 = ???
 
         // System.out.println(userNumberString1);
-        System.out.println("true or false, is it now in Phone Format?");
+        System.out.println("true or false, is it now in Phone Format? expected false");
         // TODO call isPhoneFormat to check userNumberString1 and print the result
 
 
