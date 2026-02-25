@@ -28,7 +28,7 @@ Create a function called poundsToKilograms(pounds) and a function called kilogra
 
 1 Kilogram (kg) is equal to 2.2046226218 pounds (lbs). To convert kilograms to pounds, multiply the kilogram value by 2.2046226218. For example, to convert 2 kg to pounds, multiply 2 by 2.2046226218, that makes 4.4092452436 pounds in 2 kg.
 
-When the button is pressed:
+In your tkinter app, when the button is pressed:
 - Collect the user's weight in pounds
 - Validate the number
 - Convert pounds to kilograms using your poundsToKilograms function
@@ -36,7 +36,7 @@ When the button is pressed:
 - Convert kilograms to pounds using your kilogramsToPounds function
 - Create a popup that tells the user "Your weight on *whatever planet* is ___ lbs"
 
-### GOLD MEDAL CHALLENGE
+### CHALLENGE
 
 Copy/paste your PyWeightOnPlanets code into a new file. Create your own conversion app with two buttons.
 
