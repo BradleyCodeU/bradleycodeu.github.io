@@ -12,6 +12,6 @@ Next, click the prefs link in the top-right corner and add justin_riley@hboe.org
 
 Complete the problems in the third column: sumDouble, makes10, notString, front3, front22, in1020, delDel, intMax, max1020, endUp.
 
-When finished, click the done link in the top-right corned and turn in the URL of your Done page.
+When finished, click the done link in the top-right corner and turn in the URL of your Done page.
 
 ![Coding Bat](/apcsa/207_iteration/cb02.png)
