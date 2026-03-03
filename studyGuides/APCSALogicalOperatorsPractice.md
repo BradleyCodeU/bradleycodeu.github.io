@@ -6,7 +6,7 @@ title: APCSA Logical Operators Practice
 
 <button onclick="generatePractice()">Generate Logic Practice</button>
 <p id="question"></p>
-<pre id="output" style="font-size: 1.5em; font-weight: bold; padding: 20px; background: #f4f4f4; border-radius: 5px;"></pre>
+<pre id="output" style="font-size: 1.5em; font-weight: bold; padding: 20px; border-radius: 5px;"></pre>
 <table>
     <tr>
         <td><button onclick="revealAnswer()">Reveal Answer</button></td>
