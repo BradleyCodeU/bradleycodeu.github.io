@@ -35,7 +35,7 @@ function generatePractice() {
     // First part of parenthesis
     expression += (Math.random() >= 0.5 ? "true " : "false ");
     expression += (Math.random() >= 0.5 ? "&& " : "|| "); // Using JS syntax (&& / ||)
-    if (Math.random() >= 0.5) expression += "! "; // Using JS syntax (!)
+    if (Math.random() >= 0.5) expression += "!"; // Using JS syntax (!)
     expression += (Math.random() >= 0.5 ? "true" : "false");
     
     expression += ") ";
@@ -44,7 +44,7 @@ function generatePractice() {
     expression += (Math.random() >= 0.5 ? "&& " : "|| ");
 
     // Outside part
-    if (Math.random() >= 0.5) expression += "! ";
+    if (Math.random() >= 0.5) expression += "!";
     expression += (Math.random() >= 0.5 ? "true" : "false");
 
     // Display the expression (formatted for readability)
