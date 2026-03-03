@@ -68,7 +68,7 @@ function generatePractice() {
 
 function revealAnswer() {
     const answerElement = document.getElementById("answerSpan");
-    answerElement.innerText = "Answer: " + currentAnswer.toString().toUpperCase();
+    answerElement.innerText = "Answer: " + currentAnswer.toString();
     answerElement.style.display = "block";
 }
 
