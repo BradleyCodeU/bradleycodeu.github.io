@@ -46,47 +46,37 @@ function generatePractice() {
     // Rule: Precedence of && is higher than ||, but they are evaluated Left-to-Right.
     // However, in short-circuiting, the left side always executes first.
     
-    let xResult, yResult, zResult;
+    let xVal = startX, yVal = startY, zVal = startZ;
     let boolResult;
 
-    // First Part: ++x
-    x++;
-    xResult = (x === targetX);
-
-    if (op1 === "||") {
-        if (xResult === true) {
-            // Short circuit! Skip y and z
-            boolResult = true;
+    if (op1 === "&&" && op2 === "||") {
+        // Grouping: (++x == targetX && ++y == targetY) || ++z == targetZ
+        let leftSide = (++xVal === targetX) && (++yVal === targetY);
+        if (leftSide) {
+            boolResult = true; // Short-circuits the || ++z
         } else {
-            // Must evaluate the right side of ||
-            y++;
-            yResult = (y === targetY);
-            
-            if (op2 === "||") {
-                boolResult = yResult || (z++, z === targetZ);
-            } else {
-                boolResult = yResult && (z++, z === targetZ);
-            }
+            boolResult = (++zVal === targetZ);
         }
-    } else { // op1 is "&&"
-        if (xResult === false) {
-            // Short circuit! Skip y and z
-            boolResult = false;
+    } 
+    else if (op1 === "||" && op2 === "&&") {
+        // Grouping: ++x == targetX || (++y == targetY && ++z == targetZ)
+        if (++xVal === targetX) {
+            boolResult = true; // Short-circuits the entire (&&) block
         } else {
-            // Must evaluate the right side of &&
-            y++;
-            yResult = (y === targetY);
-            
-            if (op2 === "||") {
-                boolResult = yResult || (z++, z === targetZ);
-            } else {
-                boolResult = yResult && (z++, z === targetZ);
-            }
+            boolResult = (++yVal === targetY) && (++zVal === targetZ);
+        }
+    } 
+    else {
+        // Same operator (|| || or && &&): Strict Left-to-Right
+        if (op1 === "||") {
+            boolResult = (++xVal === targetX) || (++yVal === targetY) || (++zVal === targetZ);
+        } else {
+            boolResult = (++xVal === targetX) && (++yVal === targetY) && (++zVal === targetZ);
         }
     }
 
-    // Capture the final string for the answer
-    solutionText = `${boolResult} x is ${x}, y is ${y}, z is ${z}`;
+    solutionText = `${boolResult} x is ${xVal}, y is ${yVal}, z is ${zVal}`;
+
     
     // UI Reset
     document.getElementById("answerSpan").style.display = "none";
