@@ -3,7 +3,7 @@ layout: project
 category: logic
 title: Short Circuit Practice
 ---
-
+<small>v1.1</small>
 <button onclick="generatePractice()">Generate New Challenge</button>
 <p>NOTE: ++x will increment x by 1, THEN check if it equals 1 (or whatever number)</p>
 <p id="question"></p>
