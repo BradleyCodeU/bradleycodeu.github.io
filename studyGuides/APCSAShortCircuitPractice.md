@@ -46,7 +46,7 @@ function generatePractice() {
     // Rule: Precedence of && is higher than ||, but they are evaluated Left-to-Right.
     // However, in short-circuiting, the left side always executes first.
     
-    let xVal = startX, yVal = startY, zVal = startZ;
+    let xVal = x, yVal = y, zVal = z;
     let boolResult;
 
     if (op1 === "&&" && op2 === "||") {
