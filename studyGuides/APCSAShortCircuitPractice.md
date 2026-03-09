@@ -22,9 +22,10 @@ generatePractice();
 
 function generatePractice() {
     // 1. Randomize initial values (0-1)
-    let x = Math.floor(Math.random() * 2);
-    let y = Math.floor(Math.random() * 2);
-    let z = Math.floor(Math.random() * 2);
+    // let x = Math.floor(Math.random() * 2);
+    // let y = Math.floor(Math.random() * 2);
+    // let z = Math.floor(Math.random() * 2);
+    let x = 0, y = 0, z = 0;
 
     // 2. Randomize target comparison numbers (1-2)
     let targetX = Math.floor(Math.random() * 2 + 1);
