@@ -5,13 +5,13 @@ title: De Morgan's Laws Generator
 ---
 
 <button onclick="generatePractice()">Generate New Challenge</button>
-<p id="question">Apply De Morgan's Laws to rewrite the condition (simplify all ! symbols):</p>
+<p id="question">Apply De Morgan's Laws to rewrite the condition (simplify all ! symbols). Assume that the variable has been initialized appropriately with some valid int value.</p>
 <pre id="output" style="font-size: 1.5em; padding: 20px; background: #282c34; color: #61afef; border-radius: 5px; font-weight: bold;"></pre>
 
 <table>
     <tr>
         <td><button onclick="revealAnswer()">Reveal Simplified Expression</button></td>
-        <td><span id="answerSpan" style="display:none; font-family: monospace; font-weight: bold; margin-left: 10px; color: #98c379;"></span></td>
+        <td><span id="answerSpan" style="display:none; font-family: monospace; font-weight: bold; margin-left: 10px; color:rgb(255, 255, 255);"></span></td>
     </tr>
 </table>
 
@@ -76,7 +76,7 @@ function generatePractice() {
 
 function revealAnswer() {
     const el = document.getElementById("answerSpan");
-    el.innerText = "Simplified: " + currentAnswer;
+    el.innerText = currentAnswer;
     el.style.display = "block";
 }
 
