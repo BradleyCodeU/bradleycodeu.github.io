@@ -3,19 +3,19 @@
 "answer": "Waterfall model","question": "__________ is a development method that is linear and sequential. It includes requirements, design, implementation, verification/testing, and maintenance."
 },
 {
-"answer": "Requirements","question": "__________ is the phase where the Project Manager tries to get a detailed understanding of the user's needs"
+"answer": "Requirements","question": "__________ is the Waterfall step where the Project Manager tries to get a detailed understanding of the user's needs"
 },
 {
-"answer": "Design","question": "__________ is the phase where analysts use the information collected to plan the product in pseudocode, independent of any hardware or software system"
+"answer": "Design","question": "__________ is the Waterfall step where analysts use the information collected to plan the product in pseudocode, independent of any hardware or software system"
 },
 {
-"answer": "Implementation","question": "__________ is the phase where code is written using user's needs and the plan specifications"
+"answer": "Implementation","question": "__________ is the Waterfall step where code is written using user's needs and the plan specifications"
 },
 {
-"answer": "Verification/Testing","question": "__________ is the phase where the product is checked for defects and usability and to see if it meets the users' needs. A closed beta, for example."
+"answer": "Verification/Testing","question": "__________ is the Waterfall step where the product is checked for defects and usability and to see if it meets the users' needs. A closed beta, for example."
 },
 {
-"answer": "Maintenance","question": "__________ is the phase where the customer is using the developed application. Changes are made as problems are found or as users create additional needs"
+"answer": "Maintenance","question": "__________ is the Waterfall step where the customer is using the developed application. Changes are made as problems are found or as users create additional needs"
 },
 {
 "answer": "Agile","question": "__________ is an approach to development where requirements and solutions evolve through iteration and collaboration"
