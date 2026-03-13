@@ -3,13 +3,20 @@ layout: project
 category: 207_iteration
 title: U04a While Loops
 ---
-Write while loops that will print
 
-1. All squares less than n. For example, if n is 100, print 0 1 4 9 16 25 36 49 64 81.
+Objective
 
-1. All positive numbers that are divisible by 10 and less than n. For example, if n is 100, print 10 20 30 40 50 60 70 80 90.
+Practice implementing static methods specifically using while loops. This lab focuses on performing arithmetic on individual digits of a number and generating mathematical sequences as Strings.
 
-1. All powers of two less than n. For example, if n is 100, print 1 2 4 8 16 32 64.
+Write a class containing the following four static methods. Each method must utilize a while loop for its primary logic.
+
+1. String findSquares(int n) - Must use a while loop. All squares less than n. For example, if n is 100, return "0 1 4 9 16 25 36 49 64 81 ". NOTE: there must be a space after every number including the final number
+
+1. String findDivisibleByTen(int n) - Must use a while loop. All positive numbers that are divisible by 10 and less than n. For example, if n is 100, return "10 20 30 40 50 60 70 80 90 ". NOTE: there must be a space after every number including the final number
+
+1. String findPowersOfTwo(int n) - Must use a while loop. All powers of two less than n. For example, if n is 100, return "1 2 4 8 16 32 64 ". NOTE: there must be a space after every number including the final number
+
+4. int sumOddDigits(int n) - Must use a while loop. Analyzes the individual digits of the integer n and returns the sum of only the digits that are odd. Example: sumOddDigits(816345) returns 9 (1 + 3 + 5). NOTE: int could be any valid integer value.
 
 
 Sample output 1:

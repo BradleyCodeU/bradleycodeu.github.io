@@ -44,16 +44,16 @@ public class Test_U04aForLoopsApp {
 
     // Test for sumOddDigits
     @Test
-    public void testSumOddDigits() {
-        // 163258 -> 1 + 3 + 5 = 9
-        assertEquals(9, U04aForLoopsApp.sumOddDigits(163258));
-        // 10 -> only 1
-        assertEquals(1, U04aForLoopsApp.sumOddDigits(10));
+    public void testSumOddFourDigits() {
+        // 1325 -> 1 + 3 + 5 = 9
+        assertEquals(9, U04aForLoopsApp.sumOddFourDigits(1325));
+        // 1024 -> only 1
+        assertEquals(1, U04aForLoopsApp.sumOddFourDigits(1024));
         // 2468 -> no odd digits
-        assertEquals(0, U04aForLoopsApp.sumOddDigits(2468));
+        assertEquals(0, U04aForLoopsApp.sumOddFourDigits(2468));
         // 1357 -> 1 + 3 + 5 + 7 = 16
-        assertEquals(16, U04aForLoopsApp.sumOddDigits(1357));
-        // 0 -> no odd digits
-        assertEquals(0, U04aForLoopsApp.sumOddDigits(0));
+        assertEquals(16, U04aForLoopsApp.sumOddFourDigits(1357));
+        // 8000 -> no odd digits
+        assertEquals(0, U04aForLoopsApp.sumOddFourDigits(8000));
     }
 }
