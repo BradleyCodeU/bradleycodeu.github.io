@@ -7,7 +7,7 @@ Concepts: for loops, String methods, Integer.parseInt(String s)
 
 ### String to int
 
-A Quick Refresher on Integer.parseInt()...
+One of the methods on the AP CSA Quick Reference Sheet is Integer.parseInt()
 
 Since you're working with number strings (for example "243546" or "7"), remember that Integer.parseInt() expects a String argument and returns an int
 
