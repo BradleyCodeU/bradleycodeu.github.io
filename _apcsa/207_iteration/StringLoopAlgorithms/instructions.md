@@ -5,7 +5,7 @@ title: StringLoopAlgorithms
 ---
 Concepts: for loops, String methods, Integer.parseInt(String s)
 
-Pick any 5 of the following algorithms and write static methods for them. (Ask Mr. Riley if you need clarification about how an algorithm should work)
+Pick any 5 of the following algorithms and write static methods for them (ask Mr. Riley if you need clarification about how an algorithm should work)
 
 <ul id="algorithmList">
 </ul>
