@@ -10,7 +10,7 @@ Pick any 5 of the following algorithms and write static methods for them (ask Mr
 <ul id="algorithmList">
 </ul>
 
-In the main method, create 5 expected/actual tests for each algorithm. For example, if I created an algorithm String sayHelloName(String name), then my tests might look like this...
+In the main method, create 5 expected/actual tests for EACH algorithm. Your finished project will have a total of 25 expected/actual tests. For example, if I created an algorithm String sayHelloName(String name), then my tests might look like this...
 
 ```
 System.out.println("- - -Testing sayHelloName algorithm- - -");
