@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class U04aForLoopsApp {
+public class U04aForLoopFun {
 
     // See the instructions
 

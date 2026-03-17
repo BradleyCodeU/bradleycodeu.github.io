@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class U04aWhileLoopsApp {
+public class U04aWhileLoopWork {
     
     // See the instructions
 

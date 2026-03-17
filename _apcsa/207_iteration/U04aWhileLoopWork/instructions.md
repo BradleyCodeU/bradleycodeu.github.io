@@ -1,7 +1,7 @@
 ---
 layout: project
 category: 207_iteration
-title: U04a While Loops
+title: U04a While Loop Work
 ---
 
 Objective

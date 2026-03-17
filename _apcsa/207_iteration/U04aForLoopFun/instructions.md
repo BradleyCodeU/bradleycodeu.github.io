@@ -1,15 +1,15 @@
 ---
 layout: project
 category: 207_iteration
-title: U04a For Loops
+title: U04a For Loop Fun
 ---
 Objective
 
-Practice implementing static methods that use for loops to perform mathematical analysis. This lab focuses on exclusive ranges, meaning the boundary numbers provided as arguments are not included in the calculation.
+Practice implementing static methods that use for loops to perform mathematical analysis. This project focuses on exclusive ranges, meaning the boundary numbers provided as arguments are not included in the calculation.
 
 Requirements
 
-Write a class that includes the following four static methods. Each method should be designed to handle the parameters specified and return the calculated result.
+Write a class that includes the following four static methods. Each method should be designed to handle the parameters specified and return the calculated result. You MUST use a for loop in each static method.
 
 1. sumEvensExclusive(int a) - Must use a for loop. Returns the sum of all even integers between 2 and a (exclusive of a). Example: sumEvensExclusive(10) returns 14 (4 + 6 + 8).
 
@@ -17,7 +17,7 @@ Write a class that includes the following four static methods. Each method shoul
 
 3. sumOddsInRangeExclusive(int a, int b) - Must use a for loop. Returns the sum of all odd integers between a and b (exclusive of b). Example: sumOddsInRangeExclusive(10, 16) returns 39 (11 + 13 + 15). Note: If  b is odd, it must not be included in the sum.
 
-4. sumOddFourDigits(int a) - Must use a for loop. Analyzes the individual digits of the integer a and returns the sum of only the digits that are odd. Example: sumOddDigits(1635) returns 9 (1 + 3 + 5). Precondition: int a will always be a 4-digit number.
+4. sumOddFourDigits(int a) - MUST use a for loop. You are guaranteed that the parameter will be a four-digit number, so create a for loop that repeats 4 times. Analyzes the individual digits of the integer a and returns the sum of only the digits that are odd. Example: sumOddDigits(1635) returns 9 (1 + 3 + 5). PRECONDITION: int a will always be a 4-digit number.
 
 Main method
 ```
