@@ -65,7 +65,6 @@ let mylist = [
     "int sumDigitsOfNumberString(String num)",
     "double averageDigitsOfNumberString(String num)",
     "int countTimesLetterAppears(String fullString, String letter)",
-    "boolean doesLetterAppear(String fullString, String letter)",
     "boolean hasOnlyLetter(String fullString, String letter)",
     "String removeLetter(String fullString, String letter)",
     "boolean hasNumbers(String myString)",
@@ -74,6 +73,7 @@ let mylist = [
 mylist.push( Math.random() > 0.5 ? "int countConsonants(String myString)" : "int countVowels(String myString)");
 mylist.push( Math.random() > 0.5 ? "String removeConsonants(String myString)" : "String removeVowels(String myString)");
 mylist.push( Math.random() > 0.5 ? "int removeOddDigits(String number)" : "int removeEvenDigits(String number)");
+mylist.push( Math.random() > 0.5 ? "int countOddDigits(String number)" : "int countEvenDigits(String number)");
 mylist.push( Math.random() > 0.5 ? "boolean hasOnlyConsonants(String myString)" : "boolean hasOnlyVowels(String myString)");
 mylist.push( Math.random() > 0.5 ? "int maxDigitOfNumberString(String num)" : "int minDigitOfNumberString(String num)");
 for (let i = mylist.length - 1; i > 0; i--) { 
