@@ -305,13 +305,13 @@ Additional:
   content: "
 [2nd Quarter](#2nd-quarter)
 
-1. **[U03a Boolean Expressions](#201_boolean_expressions)**
+1. **[Boolean Expressions](#201_boolean_expressions)**
 
-1. **[U03b Short Circuit](#205_short_circuit)**
+1. **[Short Circuit](#205_short_circuit)**
 
-1. **[Ch5.7 Short-Circuit Evaluation and De Morgan's Law](#ch57shortcircuitevaluation)**
+1. **[Iteration](#207_iteration)**
 
-1. **[Ch6 Loops](#207_iteration)**
+1. **[Nested Loops](#211_nested_loops)**
 
 "
 
@@ -541,15 +541,15 @@ Vocab: instance variable, [local variable](https://www.dummies.com/programming/j
 
 
 
-1. **[Ch7 Arrays and Array Lists](#401_arrays)**
+1. **[Writing Classes](#301_writing_classes)**
 
-1. **[Ch7.2 For Each Loops](#404_for_each_loops)**
+1. **[Static Variables](#307_static_variables)**
 
-1. **[Ch7.6 2D Arrays](#ch762darrays)**
+1. **[Arrays](#401_arrays)**
 
-1. **[Ch8 Designing Classes](#ch8designingclasses)**
+1. **[For Each Loops](#404_for_each_loops)**
 
-1. **[Ch9 Inheritance](#ch9inheritance)**
+1. **[ArrayLists](#408_arraylists)**
 
 "
 
@@ -619,7 +619,7 @@ Additional:
 
 
 
-- title: ch762darrays
+- title: 411_2d_arrays
   heading: "# Ch7.62DArrays"
   content: "
 
@@ -758,13 +758,13 @@ Additional:
 
 
 
-1. **[Ch14 Sorting and Searching](#ch14sortingandsearching)**
+1. **[Sorting and Searching](#414_searching_and_sorting)**
 
-1. **[Ch13 Recursion](#ch13recursion)**
+1. **[Test Prep and Labs](#aptestprep)**
 
-1. **[Test Prep And Labs](#testprepandlabs)**
+1. **[End of Year](#end_of_year)**
 
-1. **[Ch10 Interfaces](#ch10interfaces)**
+
 
 
 "
