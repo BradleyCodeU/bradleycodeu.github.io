@@ -62,20 +62,22 @@ System.out.println("- - -Testing the next algorithm- - -");
 <script>
 let mylist = [
     "String sayLaXTimes(int x)",
-    "int sumDigitsOfNumberString(String num)",
-    "double averageDigitsOfNumberString(String num)",
+    "int sumDigitsOfNumberString(String numberString)",
+    "double averageDigitsOfNumberString(String numberString)",
     "int countTimesLetterAppears(String fullString, String letter)",
     "boolean hasOnlyLetter(String fullString, String letter)",
     "String removeLetter(String fullString, String letter)",
     "boolean hasNumbers(String myString)",
-    "String replaceLetterWithStars(String fullString, String letter)"
+    "int removeAllLetters(String lettersAndNumbers)"
+    
 ]
+mylist.push( Math.random() > 0.5 ? "String replaceLetterWithStars(String fullString, String letter)" : "String replaceStarsWithLetter(String fullString, String letter)");
 mylist.push( Math.random() > 0.5 ? "int countConsonants(String myString)" : "int countVowels(String myString)");
 mylist.push( Math.random() > 0.5 ? "String removeConsonants(String myString)" : "String removeVowels(String myString)");
-mylist.push( Math.random() > 0.5 ? "int removeOddDigits(String number)" : "int removeEvenDigits(String number)");
-mylist.push( Math.random() > 0.5 ? "int countOddDigits(String number)" : "int countEvenDigits(String number)");
+mylist.push( Math.random() > 0.5 ? "int removeOddDigits(String numberString)" : "int removeEvenDigits(String numberString)");
+mylist.push( Math.random() > 0.5 ? "int countOddDigits(String numberString)" : "int countEvenDigits(String numberString)");
 mylist.push( Math.random() > 0.5 ? "boolean hasOnlyConsonants(String myString)" : "boolean hasOnlyVowels(String myString)");
-mylist.push( Math.random() > 0.5 ? "int maxDigitOfNumberString(String num)" : "int minDigitOfNumberString(String num)");
+mylist.push( Math.random() > 0.5 ? "int maxDigitOfNumberString(String numberString)" : "int minDigitOfNumberString(String numberString)");
 for (let i = mylist.length - 1; i > 0; i--) { 
     const j = Math.floor(Math.random() * (i + 1));
     const temp = mylist[i];
