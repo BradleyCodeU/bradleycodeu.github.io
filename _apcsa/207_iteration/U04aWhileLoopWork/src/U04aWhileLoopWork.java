@@ -15,13 +15,13 @@ public class U04aWhileLoopWork {
         int n = input.nextInt();
 
         System.out.println("\nSquares less than " + n + ":");
-        System.out.println(getSquares(n));
+        System.out.println(findSquares(n));
 
         System.out.println("\nDivisible by 10 and less than " + n + ":");
-        System.out.println(getDivisibleByTen(n));
+        System.out.println(findDivisibleByTen(n));
 
         System.out.println("\nPowers of two less than " + n + ":");
-        System.out.println(getPowersOfTwo(n));
+        System.out.println(findPowersOfTwo(n));
 
         // --- Test Digit Sum Method ---
         System.out.print("\nEnter an integer to sum its odd digits: ");
