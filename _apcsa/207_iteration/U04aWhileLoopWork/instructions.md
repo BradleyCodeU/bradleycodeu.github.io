@@ -8,7 +8,7 @@ Objective
 
 Practice implementing static methods specifically using while loops. This lab focuses on performing arithmetic on individual digits of a number and generating mathematical sequences as Strings.
 
-Write a class containing the following four static methods. Each method must utilize a while loop for its primary logic.
+Write four static methods. Each method must utilize a while loop for its primary logic.
 
 1. String findSquares(int n) - Must use a while loop. All squares less than n. For example, if n is 100, return "0 1 4 9 16 25 36 49 64 81 ". NOTE: there must be a space after every number including the final number
 
