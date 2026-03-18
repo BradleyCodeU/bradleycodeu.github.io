@@ -9,7 +9,7 @@ Practice implementing static methods that use for loops to perform mathematical 
 
 Requirements
 
-Write a class that includes the following four static methods. Each method should be designed to handle the parameters specified and return the calculated result. You MUST use a for loop in each static method.
+Write four static methods that contain for loops. Each method should be designed to handle the parameters specified and return the calculated result. You MUST use a for loop in each static method.
 
 1. sumEvensExclusive(int a) - Must use a for loop. Returns the sum of all even integers between 2 and a (exclusive of a). Example: sumEvensExclusive(10) returns 14 (4 + 6 + 8).
 
