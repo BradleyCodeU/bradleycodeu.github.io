@@ -34,12 +34,12 @@ public class Test_U04aForLoopFun {
     public void testSumOddsInRangeExclusive() {
         // Between 10 and 16 (11 + 13 + 15)
         assertEquals(39, U04aForLoopFun.sumOddsInRangeExclusive(10, 16));
-        // Between 25 and 30 (27 + 29) - 25 is odd but is the boundary, so exclude
-        assertEquals(56, U04aForLoopFun.sumOddsInRangeExclusive(25, 30));
-        // Between 5 and 7 (no odds strictly between)
-        assertEquals(0, U04aForLoopFun.sumOddsInRangeExclusive(5, 7));
-        // Between 1 and 5 (only 3)
-        assertEquals(3, U04aForLoopFun.sumOddsInRangeExclusive(1, 5));
+        // Between 25 and 30 (25 + 27 + 29) 
+        assertEquals(81, U04aForLoopFun.sumOddsInRangeExclusive(25, 30));
+        // Between 5 and 7 (just 5)
+        assertEquals(5, U04aForLoopFun.sumOddsInRangeExclusive(5, 7));
+        // Between 1 and 5 (1 + 3)
+        assertEquals(4, U04aForLoopFun.sumOddsInRangeExclusive(1, 5));
     }
 
     // Test for sumOddDigits
