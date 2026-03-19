@@ -33,3 +33,13 @@ Your squares must NOT look like this...
 * *  // Do NOT do this
 ***
 ```
+
+Finally, ask the user what letter they want to use.
+```
+Enter side length: 4
+Which letter to use: x
+xxxx xxxx
+xxxx x  x
+xxxx x  x
+xxxx xxxx
+```
