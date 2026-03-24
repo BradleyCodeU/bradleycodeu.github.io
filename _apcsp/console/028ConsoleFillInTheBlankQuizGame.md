@@ -5,6 +5,8 @@ title: Console Fill in the Blank Quiz Game
 ---
 In this project you will use a while loop, not, input, print, lists/arrays, append, and a few other things.
 
+YOU MUST USE LISTS TO STORE THE QUESTIONS AND ANSWERS
+
 Let's continue our discussion of loops. Pre-conditional loops include while loop, for loop, and for each loop. The most common post-conditional loop is the "do while" loop. *THERE IS NO "DO WHILE" LOOP IN PYTHON*, but we can simulate one.
 ```
 Let's look at some pseudocode for using a "do while" loop for a number guessing game:
