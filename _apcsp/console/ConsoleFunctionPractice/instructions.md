@@ -1,4 +1,7 @@
-#  Function Practice
+---
+layout: project
+category: console
+title: Console Function Practice
 ---
 ## Directions  
 
