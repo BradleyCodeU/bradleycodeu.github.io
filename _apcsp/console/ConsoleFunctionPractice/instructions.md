@@ -39,6 +39,9 @@ middleLetter("Ohio") -> "i"
 ### Part 4
 Create your own function that will count how many times a specific letter appears. You choose the letter. Everyone in class might do a different letter. Write 5 tests to test your letter counting function.
 
+
+## Starter Template
+
 main.py
 
 ```
