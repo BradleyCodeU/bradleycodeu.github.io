@@ -15,7 +15,7 @@ public double getVolume()
 ```
 that returns the current volume of the balloon. Use the volume formula for sphere AND use Math.PI for the value of 𝛑.
 
-Create the Balloon class and complete the missing code in the BalloonTester class. The tester class should test all methods with at least two balloon objects. Print your expected results and then the actual results.
+Create the Balloon class and complete the missing code in the BalloonApp class. The BalloonApp class should test all methods with at least two balloon objects. Print your expected results and then the actual results.
 
 ## Sample Output
 ```
@@ -29,7 +29,7 @@ Actual volume: 4188.790204786391
 
 STARTER CODE:
 ```
-class BalloonTester {
+class BalloonApp {
   public static void main(String[] args) {
     System.out.println("Expected volume for radius 5 is 523.6");
     /* Construct Balloon */
@@ -47,22 +47,5 @@ class BalloonTester {
 ```
 
 
-<!--
-Test case
-
-@Test
-public void inflate_and_getVolume() {
-  Balloon temp = new Balloon();
-  temp.inflate(1.0);
-  assertEquals(4.1887902047863905, temp.getVolume(), 0.0000000001);
-  temp = new Balloon();
-  temp.inflate(3.0);
-  assertEquals(113.09733552923255, temp.getVolume(), 0.0000000001);
-  temp = new Balloon();
-  temp.inflate(10.3);
-  assertEquals(4577.20415410562, temp.getVolume(), 0.0000000001);
-}
-
--->
 
   
