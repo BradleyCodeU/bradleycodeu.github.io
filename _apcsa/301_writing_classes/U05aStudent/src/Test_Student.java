@@ -56,12 +56,15 @@ public void test_getName() {
 
 @Test
 public void test_getIdNumber() {
-  Student a = new Student("Amy");
-  int result1 = (int)a.getIdNumber();
-  int result2 = (int)a.getIdNumber();
-  assertEquals(result1, result2);
-  assertEquals(true, result1 > 999);
-  assertEquals(true, result1 < 3001);
+  for(int i=0; i<500; i++){
+    Student a = new Student("Amy");
+    int result1 = (int)a.getIdNumber();
+    int result2 = (int)a.getIdNumber();
+    assertEquals(result1, result2);
+    assertEquals(true, result1 > 999);
+    assertEquals(true, result1 < 3001);
+  }
+  
 
 }
 }
