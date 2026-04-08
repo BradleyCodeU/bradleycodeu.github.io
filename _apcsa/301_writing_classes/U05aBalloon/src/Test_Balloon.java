@@ -27,6 +27,9 @@ public void test_inflate_and_getVolume() {
   temp = new Balloon();
   temp.inflate(10.3);
   assertEquals(4577.20415410562,temp.getVolume(),0.0000000001);
+  // inflating by 0.0 should give the same result as before ~4577
+  temp.inflate(0.0);
+  assertEquals(4577.20415410562,temp.getVolume(),0.0000000001);
 }
 
 }
