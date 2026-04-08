@@ -8,7 +8,7 @@ public class RandomPitcher
 //   - 5 or more instance variables including earnedRunsAllowed and inningsPitched. Do NOT store earnedRunAverage as an instance variable.
 //   - 2 constructors: a no-argument constructor and a constructor with 1 or more parameters
 //   - a few setter methods
-//   - 5 getter methods including getEarnedRunAverage()  
+//   - a few getter methods including getEarnedRunAverage()  
 //     - learn how to calculate earned run average here: [https://en.wikipedia.org/wiki/Earned_run_average](https://en.wikipedia.org/wiki/Earned_run_average)
 //     - if the RandomPitcher has pitched for 0 innings, then return an ERA of Double.POSITIVE_INFINITY
 //   - a toString() method
