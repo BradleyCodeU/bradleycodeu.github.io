@@ -7,7 +7,7 @@ public class Robot{
 // static variables go here
 // TODO: a static variable to track the amount of robots that have been constructed
 // - a static list of used license plate numbers that have already been generated
-private static ArrayList licensePlateNumbers = new ArrayList();
+private static ArrayList<String> licensePlateNumbers = new ArrayList<String>();
 
 // static methods go here
 
