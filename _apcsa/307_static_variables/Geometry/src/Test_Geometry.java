@@ -1,7 +1,7 @@
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
-public class Test_U05bGeometry {
+public class Test_Geometry {
 
 
 

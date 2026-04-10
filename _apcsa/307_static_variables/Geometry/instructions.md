@@ -13,7 +13,7 @@ Create a static class named Geometry that only contains static methods:
 
 that compute the volume and surface area of a cube with height h, and a cylinder with radius r and height h.
 
-In a separate GeometryTester file, write a program that will:
+In a separate GeometryApp file, write a program that will:
 
 1. create a variable named radius and initialize it to 3.5
 2. create a variable named height and initialize it to 2.5
