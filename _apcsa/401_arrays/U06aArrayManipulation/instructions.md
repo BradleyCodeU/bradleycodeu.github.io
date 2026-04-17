@@ -20,7 +20,7 @@ Part 2:
   - Compute the sum of the array values, except for the smallest one. Print "Sum without smallest = " and print the sum of all items except for the smallest.
 
 Part 3:
-  - Create a new public static int[] shiftRight(int[] numbers). Return a new array in which all elements are move to the right by one index location and move the last element into the first position. For example, 11  14  19  16  25 would be transformed into 25  11  14  19  16.
+  - Create a new public static int[] shiftRight(int[] numbers). Return a new array in which all elements are move to the right by one index location and move the last element into the first position. For example, 11  14  19  16  25 would be transformed into 25  11  14  19  16. `[1,2,3]` becomes `[3,1,2]`
 
   - In public static void main, print "Shifted array = " then print the new array.
   - In public static void main, print "The original array is unchanged = " and print the array.
@@ -40,3 +40,4 @@ Part 5:
 Part 6:
 
   - Mr. Riley created public static int[] oopsAllZeros(int[] myArray) and it successfully returns an array of all zeros. There is a problem... a method should NOT mutate an object that is passed in as an argument. Please fix Mr. Riley's mistake!
+  - Test your finished code by creating numbers6 = {1,3,5,2,4,6}. Running oopsAllZeros should return an array of all zeros, then print numbers6 and it should not be changed.
