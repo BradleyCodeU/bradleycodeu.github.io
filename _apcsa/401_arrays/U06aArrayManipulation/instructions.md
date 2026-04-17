@@ -40,4 +40,4 @@ Part 5:
 Part 6:
 
   - Mr. Riley created public static int[] oopsAllZeros(int[] myArray) and it successfully returns an array of all zeros. There is a problem... a method should NOT mutate an object that is passed in as an argument. Please fix Mr. Riley's mistake!
-  - Test your finished code by creating numbers6 = {1,3,5,2,4,6}. Running oopsAllZeros should return an array of all zeros, then print numbers6 and it should not be changed.
+  - Test your finished code by creating numbers6 = {1,3,5,2,4,6}. Run oopsAllZeros and print the new array that is returned. Finally, print numbers6 and to show that it is unchanged.
