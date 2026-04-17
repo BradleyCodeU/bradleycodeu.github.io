@@ -4,7 +4,7 @@ category: 401_arrays
 title: Minecraft Random Names
 ---
 
-In the `src` folder, you will write your code in the `PetWolf.java` file.
+In the `src` folder, you will write your code in the `MCRandomNames.java` file.
 
 ## STEP 1: Can you randomize the collar color?
 
