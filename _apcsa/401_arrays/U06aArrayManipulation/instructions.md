@@ -20,7 +20,7 @@ Part 2:
   - Compute the sum of the array values, except for the smallest one. Print "Sum without smallest = " and print the sum of all items except for the smallest.
 
 Part 3:
-  - Create a new public static int[] shiftRight(int[] numbers). Return a new array in which all elements are move to the right by one index location and move the last element into the first position. For example, 11  14  19  16  25 would be transformed into 25  11  14  19  16. `[1,2,3]` becomes `[3,1,2]`
+  - Create a new public static int[] shiftRight(int[] numbers). Return a new array in which all elements are move to the right by one index location and move the last element into the first position. For example, 11  14  19  16  25 would be transformed into 25  11  14  19  16. `[1,2,3,4]` becomes `[4,1,2,3]`
 
   - In public static void main, print "Shifted array = " then print the new array.
   - In public static void main, print "The original array is unchanged = " and print the array.
