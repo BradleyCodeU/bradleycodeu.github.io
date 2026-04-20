@@ -1,3 +1,8 @@
+---
+title: Replace
+layout: project
+category: 115_strings
+---
 # Replace
 ---
 

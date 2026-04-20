@@ -1,3 +1,8 @@
+---
+title: Insertions Sort
+layout: project
+category: 414_searching_and_sorting
+---
 # Insertion Sort
 
 

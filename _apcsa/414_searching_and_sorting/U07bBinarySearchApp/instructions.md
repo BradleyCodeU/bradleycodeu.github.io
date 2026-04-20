@@ -1,3 +1,8 @@
+---
+title: Binary Search App
+layout: project
+category: 414_searching_and_sorting
+---
 # Binary Search
 
 Watch these videos about search routines. 

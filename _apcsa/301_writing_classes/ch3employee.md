@@ -1,7 +1,7 @@
 ---
 layout: project
 category: ch3implementingclasses
-title: # Ch3 Employee
+title: Employee
 ---
 Implement a class Employee. An employee has a first name (a string), last name (a string), and a salary (a double).
 

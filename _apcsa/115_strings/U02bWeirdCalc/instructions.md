@@ -1,3 +1,8 @@
+---
+category: 115_strings
+layout: project
+title: Weird Calc
+---
 # Weird Calc
 ---
 

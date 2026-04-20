@@ -1,3 +1,8 @@
+---
+title: Ticket Prices
+category: 411_2d_arrays
+layout: project
+---
 # Ticket Prices
 
 A theater seating chart is implemented as a two-dimensional array of ticket prices as seen below, along with the Row number.

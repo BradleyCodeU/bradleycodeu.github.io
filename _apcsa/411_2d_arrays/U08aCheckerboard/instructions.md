@@ -1,3 +1,8 @@
+---
+title: Checkboard
+layout: project
+category: 411_2d_arrays
+---
 # Checkerboard
 
 

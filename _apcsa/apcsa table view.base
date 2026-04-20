@@ -1,0 +1,19 @@
+filters:
+  and:
+    - file.path.contains("_apcsa")
+    - file.ext.contains("md")
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - title
+      - category
+      - layout
+      - permalink
+      - file.path
+    sort:
+      - property: file.path
+        direction: ASC
+      - property: category
+        direction: ASC
