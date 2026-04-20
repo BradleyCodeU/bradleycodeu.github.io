@@ -42,9 +42,9 @@ CHALLENGE: Repeat the process so that more than one user can purchase tickets. D
 ## Tests
 ||Expected Result|
 |--|--|
-|int&lsqb;][] seats1 = {{20,30},{40,0}}; <br>isSeatTaken(seats1,0,0);|false|
-|int&lsqb;][] seats1 = {{20,30},{40,0}}; <br>isSeatTaken(seats1,1,0);|false|
-|int&lsqb;][] seats1 = {{20,30},{40,0}}; <br>isSeatTaken(seats1,1,1);|true|
-|int&lsqb;][] seats2 = {{0,30},{40,50}}; <br>isSeatTaken(seats2,0,0);|true|
-|int&lsqb;][] seats2 = {{0,30},{40,50}}; <br>isSeatTaken(seats2,0,1);|false|
-|int&lsqb;][] seats2 = {{0,30},{40,50}}; <br>isSeatTaken(seats2,1,1);|false|
+|int&lsqb;&rsqb;&lsqb;&rsqb; seats1 = {{20,30},{40,0}}; <br>isSeatTaken(seats1,0,0);|false|
+|int&lsqb;&rsqb;&lsqb;&rsqb; seats1 = {{20,30},{40,0}}; <br>isSeatTaken(seats1,1,0);|false|
+|int&lsqb;&rsqb;&lsqb;&rsqb; seats1 = {{20,30},{40,0}}; <br>isSeatTaken(seats1,1,1);|true|
+|int&lsqb;&rsqb;&lsqb;&rsqb; seats2 = {{0,30},{40,50}}; <br>isSeatTaken(seats2,0,0);|true|
+|int&lsqb;&rsqb;&lsqb;&rsqb; seats2 = {{0,30},{40,50}}; <br>isSeatTaken(seats2,0,1);|false|
+|int&lsqb;&rsqb;&lsqb;&rsqb; seats2 = {{0,30},{40,50}}; <br>isSeatTaken(seats2,1,1);|false|
