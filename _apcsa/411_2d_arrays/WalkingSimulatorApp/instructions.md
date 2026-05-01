@@ -58,13 +58,13 @@ Methods:
 
     - int getRemaining(): Loop through the Location objects and count how many have getVisited() == false.
 
-    - Location getLocation(int r, int c): Returns the Location object at those coordinates if isValid(r,c). Otherwise, returns null.
-
     - int getNumberRows(): Returns the total amount of rows in grid
 
     - int getNumberCols(): Returns the total amount of cols in grid
 
-    - boolean isValid(int r, int c): Returns true if r is in range 0...getNumberRows()-1 and c is in range 0...getNumberCols()-1
+    - boolean isValid(int r, int c): Returns true if r is in range 0...getTotalRows()-1 and c is in range 0...getTotalCols()-1 and grid[r][c] != null
+
+    - Location getLocation(int r, int c): Returns the Location object at those coordinates if isValid(r,c). Otherwise, returns null.
 
 ### Game Class
 
