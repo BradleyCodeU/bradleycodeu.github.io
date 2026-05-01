@@ -42,9 +42,9 @@ Private Instance Variable:
 
     - Location[][] grid: A 2D array of Location objects.
 
-Constructor:
+Constructor requires two parameters: numberRows, numberColumns
 
-    - Initialize the Location[][] with specific dimensions.
+    - Initialize the Location[][] with numberRows and numberColumns.
 
     - Create a Scanner object that wraps a File object. For example... new Scanner(new File("locationStrings.txt"))
 
@@ -58,7 +58,13 @@ Methods:
 
     - int getRemaining(): Loop through the Location objects and count how many have getVisited() == false.
 
-    - Location getLocation(int r, int c): Returns the Location object at those coordinates.
+    - Location getLocation(int r, int c): Returns the Location object at those coordinates if isValid(r,c). Otherwise, returns null.
+
+    - int getNumberRows(): Returns the total amount of rows in grid
+
+    - int getNumberCols(): Returns the total amount of cols in grid
+
+    - boolean isValid(int r, int c): Returns true if r is in range 0...getNumberRows()-1 and c is in range 0...getNumberCols()-1
 
 ### Game Class
 

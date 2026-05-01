@@ -18,8 +18,8 @@ public class Game {
         input = new Scanner(System.in);
 
         // Place player at a random starting location
-        playerRow = (int) (Math.random() * gameMap.getRows());
-        playerCol = (int) (Math.random() * gameMap.getCols());
+        playerRow = (int) (Math.random() * gameMap.getTotalRows());
+        playerCol = (int) (Math.random() * gameMap.getTotalCols());
 
         // Mark the starting square as visited
         gameMap.getLocation(playerRow, playerCol).setVisited(true);
