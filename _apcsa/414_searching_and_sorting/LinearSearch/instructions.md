@@ -1,17 +1,17 @@
 ---
-title: Linear Sear App
+title: Linear Search App
 layout: project
 category: 414_searching_and_sorting
 ---
-# Linear Search
+
 
 A linear search or sequential search is a method for finding an element within a list. It sequentially checks each element of the list until a match is found or the whole list has been searched.
 
-A linear search is very slow. It is not a smart approach. There are MUCH faster search algorithms that we will be learning, but we are starting with the most obvious/basic search... the linear search.
+A linear search is very slow. It is NOT a smart approach. There are MUCH faster search algorithms that we will be learning, but we are starting with the most obvious/basic search... the linear search.
 
-Copy/paste one of the following, a very long array of strings that people visiting your page will be able to search into data.txt:
+Copy/paste one of the following, a very long array of strings that people visiting your page will be able to search into data.txt
 
-
+Potential data collections:
   - [Popular Movies](https://github.com/dariusk/corpora/blob/master/data/film-tv/popular-movies.json)
   - [TV Shows](https://github.com/dariusk/corpora/blob/master/data/film-tv/tv_shows.json)
   - [Netflix Categories](https://github.com/dariusk/corpora/blob/master/data/film-tv/netflix-categories.json)
@@ -26,10 +26,16 @@ Copy/paste one of the following, a very long array of strings that people visiti
 
 - Print something like "Welcome to Mo's Popular Movie Search"
 
+- Load the data.txt file using File
+
+- Make a Scanner named fileScanner
+
+- Load each line into a String array (or add the lines to an ArrayList and use [the toArray() method](https://www.w3schools.com/java/ref_arraylist_toarray.asp) )
+
 - Collect user input
 
 - Loop through each item in the full array
-  - If each lowercase item contains the lowercase user input
+  - If each lowercase item indexOf the lowercase user input is not -1 (in other words if the user input is within each item)
     - Print the item
 - If no matches were found, then print a Not Found message (For example, if you searched for "xyz" it might say "xyz Not Found")
 
