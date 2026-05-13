@@ -25,7 +25,7 @@ Requirements:
    - binarySearch(int[] array, int target)
    - binarySearch(String[] array, String target)
 
- 1. The binarySearch(int[] array, int target) method is complete but contains 1 bug that you MUST fix. Read the pseudocode comments to help you find and fix the bug.
+ 1. The binarySearch(int[] array, int target) method is complete but contains 2 bugs that you MUST fix. Read the pseudocode comments to help you find and fix the bug.
  1. Copy the binarySearch(int[] array, int target) code and paste it into the binarySearch(String[] array, String target) method. Adjust the code for a String[] array.
  1. Finally, test both methods using the Main class.
 
