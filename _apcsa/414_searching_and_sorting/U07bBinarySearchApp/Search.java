@@ -2,26 +2,26 @@ public class Search {
 
   public static int binarySearch(int[] elements, int target) {
     // set left & right to min & max indexes, this is the search range
-    int left = 0;
-    int right = elements.length - 1;
+    int leftIndex = 0;
+    int rightIndex = elements.length - 1;
     // loop as long as there is a valid search range
-    while (left <= right) {
-      // set middle to halfway between left & right
-      int middle = (left + right) / 2;
-      // if the target is less than middle
-      if (target < elements[middle]) {
-        // set right edge of search range to middle-1
-        right = middle - 1;
+    while (leftIndex <= rightIndex) {
+      // set middle to HALFWAY between left & right
+      int middleIndex = leftIndex + (rightIndex / 2);
+      // if the target is less than value at middleIndex
+      if (target < elements[middleIndex]) {
+        // set right edge of search range to middleIndex-1
+        rightIndex = middleIndex - 1;
       }
-      // if the target is GREATER THAN middle
-      else if (target >= elements[middle]) {
-        // set left edge of search range to middle+1
-        left = middle + 1;
+      // if the target is GREATER THAN value at middleIndex
+      else if (target >= elements[middleIndex]) {
+        // set left edge of search range to middleIndex+1
+        leftIndex = middleIndex + 1;
       }
-      // the target equals the middle
+      // the target equals the middleIndex
       else {
         // match was found, return the index location
-        return middle;
+        return middleIndex;
       }
     }
     // target is not contained in elements
