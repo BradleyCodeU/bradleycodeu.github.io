@@ -14,7 +14,7 @@ Using P5.js create some Generative Art.
 
 Your project MUST have a limited color palette. At least 2 colors (not counting black and white). No more than 5 colors.
 
-Your project MUST have some randomness. For example...
+Your project MUST have something that is random. For example...
 - Random shape (circle, square, triangle, etc.)
 - Random size
 - Random position
