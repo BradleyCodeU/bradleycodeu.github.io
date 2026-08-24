@@ -41,11 +41,12 @@ let dictionary = {};
 let textInput, sendButton, myText;
 let textY = 30;
 
-function preload() {
-  myText = loadStrings('sourceText.txt');
-}
 
-function setup() {
+  
+
+
+async function setup() {
+  myText = await loadStrings('sourceText.txt');
   createCanvas(windowWidth, windowHeight);
   background(???); // TODO
   addUserInterface();

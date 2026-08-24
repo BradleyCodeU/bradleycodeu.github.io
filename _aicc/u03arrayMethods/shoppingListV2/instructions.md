@@ -53,15 +53,12 @@ let isCameraOn = false;
 // Default label text before anything is detected
 let label = "nothing";
 
-// Load the model first
-function preload() {
-  // Initialize the image classifier with the model JSON file
-  classifier = ml5.imageClassifier(imageModelURL + 'model.json');
-}
 
-function setup() {
+async function setup() {
   // Create a canvas where video and labels will be drawn
   createCanvas(320, 260);
+    // Initialize the image classifier with the model JSON file
+  classifier = ml5.imageClassifier(imageModelURL + 'model.json');
 }
 
 function draw() {

@@ -8,13 +8,12 @@ player.transform.position.z = -200;
 player.transform.rotation.y = 45;
 let cam = new Camera();
 
-function preload() {
-  myFont = loadFont(
+
+
+async function setup() {
+  myFont = await loadFont(
     "PressStart2P.ttf"
   );
-}
-
-function setup() {
   angleMode(DEGREES);
   createCanvas(windowWidth, windowHeight, WEBGL);
   setAttributes("antialias", true);

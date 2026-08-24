@@ -17,7 +17,11 @@ Create a photobooth app that allows the user to select from several masks, switc
     - Download this image if you want to draw your own mask.
     - ![Mask template](../maskTemplate.png)
 
-1. Declare an array that you will use to store your images. Inside of the preload() function, use loadImage() to add the images to the array. [https://p5js.org/reference/p5/loadImage/](https://p5js.org/reference/p5/loadImage/)
+1. Declare an array that you will use to store your images. 
+
+Use the async keyword with the setup function [https://beta.p5js.org/reference/p5/async_await/](https://beta.p5js.org/reference/p5/async_await/)
+
+Inside of the setup() function, use loadImage to add the images to the array. Use the keyword await when you call the loadImage() function  [https://p5js.org/reference/p5/loadImage/](https://p5js.org/reference/p5/loadImage/)
 
 1. Use the keyPressed() function to change the currentMask or change the background image. [https://p5js.org/reference/p5/keyPressed/](https://p5js.org/reference/p5/keyPressed/)
     - Possibilites...

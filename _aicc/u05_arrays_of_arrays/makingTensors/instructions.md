@@ -85,12 +85,12 @@ Add the two tensors using the add method and print the result
 
 ## Part 4
 
-Copy/paster this at the top of your sketch.js file...
+Make sure you have these lines at the top of your file.
 ```
 let cuteDog;
 
-function preload(){
-  cuteDog = loadImage("https://upload.wikimedia.org/wikipedia/commons/f/f4/Pricess_Dog_%288126556744%29.jpg");
+async function setup() {
+  cuteDog = await loadImage("https://upload.wikimedia.org/wikipedia/commons/f/f4/Pricess_Dog_%288126556744%29.jpg");
 }
 ```
 

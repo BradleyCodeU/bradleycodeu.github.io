@@ -6,13 +6,12 @@ let player = new GameObject();
 player.transform.rotation.y = 45;
 let cam = new Camera();
 
-function preload() {
-  myFont = loadFont(
+
+
+async function setup() {
+  myFont = await loadFont(
     "PressStart2P-Regular.ttf"
   );
-}
-
-function setup() {
   angleMode(DEGREES);
   createCanvas(windowWidth, windowHeight, WEBGL);
   setAttributes("antialias", true);

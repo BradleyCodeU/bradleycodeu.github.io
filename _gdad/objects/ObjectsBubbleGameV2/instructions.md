@@ -9,7 +9,9 @@ Copy/paste your previous code into this new p5js project.
 Add the following features...
 
   -  add 3 or more sounds
-  -  load the sounds in the preload function
+  -  load the sounds in the setup function
+      - async function setup() 
+      - use the await keyword with loadStrings()
   -  play the sounds the game begins or when a bubble is popped or a bubble hits the floor or you win or you lose.
   -  delete the you win and you lose popups
   -  add 4 different Game States: "title", "playing", "win", and "lose"
@@ -74,12 +76,12 @@ function draw() {
     text('You are playing the game now, press down arrow to stop', width / 2, 25);
     rect(100, 300, 25, 75);
     ellipse(300, 100, 50, 25);
-    if (keyIsPressed === true && keyCode === 40){
+    if (keyIsDown(DOWN_ARROW)){
         gameState = 'end';
         }
   } else if (gameState === 'end') {
     text('game over, press space bar to restart', width / 2, height / 2);
-    if (keyIsPressed === true && keyCode === 32){
+    if (keyIsDown("Space")){
      gameState = 'start'; 
     }
   }

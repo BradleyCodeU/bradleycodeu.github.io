@@ -47,7 +47,11 @@ NOTE: Your project should mostly work without user input. You are NOT creating a
 
 NOTE: Structure your code so the generator plays a short phrase, not just one note. Use `frameCount` to space notes out in time.  
 
-NOTE: If you use mp3s, you should load sounds in the `preload()` function. [https://p5js.org/reference/p5/preload/](https://p5js.org/reference/p5/preload/)
+NOTE: Load sounds in the setup function using both the async and await keywords. 
+
+Use the async keyword with the setup function [https://beta.p5js.org/reference/p5/async_await/](https://beta.p5js.org/reference/p5/async_await/)
+
+Inside of setup, use the keyword await when you call the loadSound() function [https://p5js.org/reference/p5/loadSound/](https://p5js.org/reference/p5/loadSound/)
 
 NOTE: Change `createCanvas(400, 400);` to `createCanvas(windowWidth, windowHeight);` so visuals fill the screen.
 

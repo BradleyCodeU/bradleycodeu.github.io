@@ -12,7 +12,9 @@ Upload 3 sounds.
 
 Declare 3 variables that will store your sounds.
 
-Add a preload() function and within preload you will use loadSound(). [https://p5js.org/reference/p5/loadSound/](https://p5js.org/reference/p5/loadSound/)
+Use the async keyword with the setup function [https://beta.p5js.org/reference/p5/async_await/](https://beta.p5js.org/reference/p5/async_await/)
+
+Inside of setup, use the keyword await when you call the loadSound() function [https://p5js.org/reference/p5/loadSound/](https://p5js.org/reference/p5/loadSound/)
 
 Use the p5js keyPressed() function to play a sound when a keyboard key is pressed. [https://p5js.org/reference/p5/keyPressed/](https://p5js.org/reference/p5/keyPressed/)
 
