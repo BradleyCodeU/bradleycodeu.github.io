@@ -1,7 +1,7 @@
 ---
 layout: project
 category: u01numbersAndStrings
-title: U01 Make Text
+title: U01 Intro To Text
 ---
 
 Make a random text generator

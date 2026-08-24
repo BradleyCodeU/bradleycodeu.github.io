@@ -1,7 +1,7 @@
 ---
 layout: project
 category: u01numbersAndStrings
-title: U01 Make Sounds
+title: U01 Intro To Sound
 ---
 
 Create a simple audio player app.

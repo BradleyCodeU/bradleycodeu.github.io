@@ -1,7 +1,7 @@
 ---
 layout: project
 category: u01numbersAndStrings
-title: U01 Make Art
+title: U01 Intro To Art
 ---
 
 Generative Art is a process of algorithmically generating graphics/patterns/shapes often using randomness.
