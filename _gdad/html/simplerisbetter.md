@@ -4,7 +4,7 @@ category: html
 title: Simpler is Better
 ---
 
-Watch this video about how [Simpler is Better](https://drive.google.com/open?id=1hpUxydU5K0Lv9N_UkXRrQDSfIBxV8RAp) in web design.
+Watch this video about how [Simpler is Better](https://drive.google.com/file/d/1HiiWKlO2ekEdB7l4oBIpXzYNez4pog1H/view?usp=sharing){:target="_blank"} in web design.
 
 
 Upload the simple logo for your game development company to Juicemind:
