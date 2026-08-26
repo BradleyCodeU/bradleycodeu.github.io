@@ -3,6 +3,21 @@
     "answer": "JavaScript",
     "question": "one of the 3 main languages of the web, it is used to program the behavior of web pages"
   },
+    {
+    "answer": "p5js",
+    "question": "a JavaScript library that contains functions for working with 2d and 3rd drawings, text, input, video, webcam, and sound"
+  },
+
+    {
+    "answer": "syntax",
+    "question": "the set of rules that defines a correctly structured document in a language"
+  },
+
+      {
+    "answer": "syntax error",
+    "question": "a character or string incorrectly placed in a command or instruction that causes a failure in execution"
+  },
+
   {
     "answer": "function",
     "question": "a named group of programming instructions that performs a specific task. Reusable abstractions that reduce the complexity of writing and maintaining programs"
@@ -29,24 +44,63 @@
   },
   {
     "answer": "let",
-    "question": "a Javascript command that defines a new variable"
+    "question": "a Javascript keyword that defines a new variable"
   },
   {
     "answer": "const",
-    "question": "a Javascript command that defines a new constant"
+    "question": "a Javascript keyword that defines a new constant"
   },
+
+    {
+    "answer": "scope",
+    "question": "what section of the code can use a variable, typically caused by where the variable was first created"
+  },
+
   {
     "answer": "camelCase",
     "question": "process of naming multi-word variables without spaces and so that words in the middle of the phrase begins with a capital letter. For example, numberOfCars, iPhone, eBay"
   },
+
+  {
+    "answer": "null",
+    "question": "a keyword which represents the intentional absence of any object value"
+  },
+
+  {
+    "answer": "boolean",
+    "question": "a data type that stores one of two possible values: true or false. They are case-sensitive and must be written in lowercase"
+  },
+
+    {
+    "answer": "boolean expression",
+    "question": "a math equation that is either true or false"
+  },
+
+    {
+    "answer": "boolean variable",
+    "question": "a variable that is either true or false"
+  },
+
+
   {
     "answer": "assignment operator",
     "question": "the operator used to assign a new value to a variable. In JavaScript, ="
   },
   {
     "answer": "equality operator",
-    "question": "returns True if the value on the left is equal to the value on the right, otherwise it returns False. In JavaScript, it is the characters =="
+    "question": "returns True if the value on the left is equal to the value on the right, otherwise it returns False. In JavaScript, it is the characters == or ==="
   },
+
+      {
+    "answer": "object",
+    "question": "a collection of properties with key/value pairs"
+  },
+
+      {
+    "answer": "array",
+    "question": "a type of object for storing data collections"
+  },
+
   {
     "answer": "String",
     "question": "a data type that stores a sequence of characters which could include letters, numbers, spaces, symbols and punctuation. For example, \"steve!\", \"can't\", \"$9.99\""
@@ -59,8 +113,36 @@
     "answer": "conditional",
     "question": "also known as selection, a statement that uses a boolean condition to determine whether or not to run other statements. Usually an if-then statement"
   },
-  {
+
+      {
+    "answer": "else if",
+    "question": "similar to an else statement, but with its own condition. It will only run if the previous condition was false and this condition is true"
+  },
+
+    {
     "answer": "input",
     "question": "information that is given to the computer by a user, usually typed text and mouse clicks"
+  },
+
+        {
+    "answer": "alert()",
+    "question": "a Javascript command that displays a popup box with a message and an OK button"
+  },
+
+       {
+    "answer": "prompt()",
+    "question": "a Javascript command that displays a popup box and allows the user to type some input. The function returns the user input as a String"
+  },
+
+      {
+    "answer": "confirm()",
+    "question": "a Javascript command that displays a popup box and allows the user to click OK or Cancel. The function returns true if the user clicked OK and otherwise returns false"
+  },
+
+        {
+    "answer": "console.log()",
+    "question": "a Javascript command that outputs a message to the debugging console"
   }
+
+
 ]
