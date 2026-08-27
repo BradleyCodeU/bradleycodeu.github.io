@@ -9,7 +9,8 @@ Generative Text is a process of algorithmically creating words, poems, or storie
 A haiku is a form of unrhymed poetry that has:
 - 3 lines of text
 - 5–7–5 structure (a five-syllable line, followed by a seven-syllable line, concluded with another five-syllable line)
-- must be about observing nature
+- MUST be about observing nature
+- the third line should contain a twist, reveal, surprise, or moment of insight
 
 Click here for examples: [https://www.google.com/search?udm=2&q=random+haiku+generator](https://www.google.com/search?udm=2&q=random+haiku+generator)
 
