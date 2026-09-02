@@ -80,28 +80,14 @@ More details can be found in [CONTRUBUTING.md](https://github.com/BradleyCodeU/b
 
 - [Python Turtle games](https://youtu.be/tNiluPccRMY)
 - [Nick's Invaders of Space game](https://invaders-of-spac.glitch.me/)
-- [World War 12 text game](https://will-meyers-hilliardschools-org.trinket.io/sites/world-war-12)
-- [Descent into Cornworld game](https://andrea-munroe-hilliardschools-org.trinket.io/sites/descent-into-cornworld)
 - [BBC Microbit projects](https://youtu.be/ceZ3xELcZFQ)
-- [Alyssa & David's text game](https://justin_riley_hilliardschools_org.trinket.io/sites/alyssa-and-david-s-game)
 - [Bradley + Britton Coding Project](https://youtu.be/vTinkgmyNYw)
-- [Andrea's Pupper House text game](https://andrea-munroe-hilliardschools-org.trinket.io/sites/pupper-house)
-- [Hong & Ryan's text game](https://justin_riley_hilliardschools_org.trinket.io/sites/hong-and-ryan-s-game)
-- [Marisabel's Treasure Teachers text game](https://marisabel-aguilar-hilliardschools-org.trinket.io/sites/castles-and-creatures-treasure-teachers)
 - [Bradley + Brown Coding Project](https://youtu.be/kPjRB5N6E-o)
-- [Val's Hogwarts Havoc text game](https://valerie-rastatter-hilliardschools-org.trinket.io/sites/hogwarts-havoc)
-- [Corinne's Hangman game](https://cdixon513.trinket.io/sites/hangman)
-- [Ankit's Land of the Potato Gremlins text game](https://ankit-kumar-hilliardschools-org.trinket.io/sites/land-of-the-potato-gremlins)
-- [Nicky's Escape the Ship text game](https://justin_riley_hilliardschools_org.trinket.io/sites/escape-the-ship)
-- [Corinne's MASH game](https://cdixon513.trinket.io/sites/mash)
-- [Evan's Dungeon of Doom text game](https://justin_riley_hilliardschools_org.trinket.io/sites/dungeon-of-doom)
 - [Kianni's Zelda Game for Ahmed](https://scratch.mit.edu/projects/187239163?outputOnly=true)
 
 ### AP CS A Projects
 
-- [Guess the MLB Team](https://trinket.io/java/97ba820c0b?outputOnly=true)
-- [Plagiarism Checker](https://trinket.io/java/057799e5a7)
-- [Amino Acid Weight Calculator](https://trinket.io/java/925dc155bd?outputOnly=true)
+- todo
 
 ## Contact
 

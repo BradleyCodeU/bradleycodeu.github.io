@@ -21,6 +21,6 @@ Merge Sort Robot Animation: [https://drive.google.com/open?id=1_zHzD45Y17_P1fsDx
 
 # Project Details
 
-Create a utility class (aka a static class) called Sorts ([TEMPLATE HERE](https://trinket.io/java/25da248471) and write 6 methods: a selectionSort() for arrays of ints, a selectionSort() for arrays of Strings, an insertionSort() for arrays of ints, an insertionSort() for arrays of Strings, a mergeSort() for arrays of ints, and a mergeSort() for arrays of Strings. Use the [SortSearchCode.pdf](/apcsa/ch14sortingandsearching/SortSearchCode.pdf) as a coding resource.
+Create a utility class (aka a static class) called Sorts and write 6 methods: a selectionSort() for arrays of ints, a selectionSort() for arrays of Strings, an insertionSort() for arrays of ints, an insertionSort() for arrays of Strings, a mergeSort() for arrays of ints, and a mergeSort() for arrays of Strings. Use the [SortSearchCode.pdf](/apcsa/ch14sortingandsearching/SortSearchCode.pdf) as a coding resource.
 
 Create a tester class and invoke all 6 sort methods.

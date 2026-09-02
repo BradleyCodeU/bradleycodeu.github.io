@@ -339,19 +339,7 @@ td{
   font-size: 150%;
   font-weight: 300 !important;
 }
-.trinket_container {
-	position: relative;
-	/* padding-bottom: 56.25%; /* 16:9 - this is responsive by adjusting the hight according to the width! */
-	/*padding-top: 25px; */
-	height: 900px;
-}
-.trinket_container iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
+
 
 @media (min-width: @screen-md-min) < 992px {
   /* For small tablets and mobile phones: */

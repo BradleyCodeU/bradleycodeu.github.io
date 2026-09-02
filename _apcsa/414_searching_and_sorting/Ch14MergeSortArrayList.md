@@ -4,7 +4,7 @@ category: ch14sortingandsearching
 title: MergeSort ArrayList
 ---
 
-Using [this starter template](https://trinket.io/library/trinkets/39a2bffd1b) and your static Merge Sort algorithms (from previous assignments):
+Using the starter template and your static Merge Sort algorithms (from previous assignments):
 
 1. Complete the code to use the Merge Sort to arrange an ArrayList of Dog objects in ascending order (youngest first) according to the Dog's age. The Dog class is provided.
 2. Enter appropriate code following the comments in the program.
