@@ -32,11 +32,11 @@ function generateWorksheet() {
 output into a text editor like Google Docs or Microsoft Word.
 Set the font to COURIER NEW and then complete the worksheet.\n\n`;
 
-  output += ` ██████╗ ██████╗ ██╗███╗   ██╗███████╗\n
-██╔════╝██╔═══██╗██║████╗  ██║██╔════╝\n
-██║     ██║   ██║██║██╔██╗ ██║███████╗\n
-██║     ██║   ██║██║██║╚██╗██║╚════██║\n
-╚██████╗╚██████╔╝██║██║ ╚████║███████║\n
+  output += ` ██████╗ ██████╗ ██╗███╗   ██╗███████╗
+██╔════╝██╔═══██╗██║████╗  ██║██╔════╝
+██║     ██║   ██║██║██╔██╗ ██║███████╗
+██║     ██║   ██║██║██║╚██╗██║╚════██║
+╚██████╗╚██████╔╝██║██║ ╚████║███████║
  ╚═════╝ ╚═════╝ ╚═╝╚═╝  ╚═══╝╚══════╝\n`;
 
   output += `Counting Coins Worksheet\n`;
@@ -49,9 +49,9 @@ You MUST make 199 cents using 1 silver dollar,
 3 quarters, 2 dimes, 0 nickels, and 4 pennies.\n`;
 
   output += `
-+=======+========+=========+========+========+========+\n
-|Random |Dollars |Quarters |Dimes   |Nickels |Pennies |\n
-|Number |(max 4) |(max 3)  |(max 2) |(max 1) |(max 4) |\n
++=======+========+=========+========+========+========+
+|Random |Dollars |Quarters |Dimes   |Nickels |Pennies |
+|Number |(max 4) |(max 3)  |(max 2) |(max 1) |(max 4) |
 +=======+========+=========+========+========+========+\n`;
 
   const exampleVal = ("199" + "\u00A2").padStart(6, " ");
