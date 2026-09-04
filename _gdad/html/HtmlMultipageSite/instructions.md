@@ -13,7 +13,7 @@ For this project you will work in a group of 2-4 people. The number of pages in 
   - 3 people = index.html homepage plus 3 other pages
   - 4 people = index.html homepage plus 4 other pages
 
-Ideas for "other pages" include:
+AS A GROUP, decide on the name of your fake business (using the logo designed by one of your group members) and what the "other pages" on your site will be. Ideas for "other pages" include:
 
 - Contact Us
 - Employment
