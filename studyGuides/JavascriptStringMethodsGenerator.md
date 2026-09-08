@@ -89,7 +89,7 @@ function revealMethodAnswer() {
 // --- Helpers ---
 function pickRandomString(listNumber) {
   let samples = ["apple", "avacado", "banana", "apricot", "cherry",
-                "lime", "lemon", "coconut", "kiwi", "grape", 
+                "lime", "lemon", "coconut", "kiwi", "ginger", 
                 "fig", "dragon fruit", "cranberry", "blackberry", "fig",
                 "avacado", "cucumber","durian", "raisin","guava",
                 "broccoli", "cabbage", "carrot", "celery", "corn",
