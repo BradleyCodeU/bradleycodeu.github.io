@@ -36,4 +36,4 @@ Ideas for "other pages" include:
   1. an h1
   1. a paragraph with some text
   1. a link to a Wikipedia page (for example, if the "Our Story" page says the company was founded in Hilliard, Ohio then those words can link to the Wikipedia page for Hilliard)
-  1. one (or more) images
+  1. one (or more) images. A unique image on each page (not just the logo on each page).
