@@ -23,6 +23,20 @@ FINAL STEP: Customize it and make your project unique.
 
 The choice is yours!
 
-NOTE: You must switch to the index.html file and copy and paste the following CDN link BELOW the p5js libraries inside the <head> tag: <script src="https://unpkg.com/ml5@1/dist/ml5.min.js"></script>
+### IMPORTANT ! ! !
+Changes for updated P5js and updated ml5
+
+1. Go to index.html and replace the head section with this...
+
+```
+<head>
+  <meta charset="UTF-8">
+  <title>Webcam Image Classification using a pre-trained customized model and p5.js</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.min.js"></script>
+  <script src="https://unpkg.com/ml5@1/dist/ml5.min.js"></script>
+</head>
+```
+
+2. In sketch.js, replace all flippedVideo with video. Remove all lines with `ml5.flipImage()`
 
 Show Mr Riley when finished.
