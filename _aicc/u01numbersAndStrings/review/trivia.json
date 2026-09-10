@@ -40,7 +40,7 @@
   },
   {
     "answer": "constant",
-    "question": "a named value that cannot change through reassignment using the assignment operator. If it is an object then it can be mutated and its properties can be added, updated, or removed"
+    "question": "a named value that cannot change through reassignment using the assignment operator. However, if it is an object then it can be mutated and its properties can be added, updated, or removed"
   },
   {
     "answer": "let",
