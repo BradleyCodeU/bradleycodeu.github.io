@@ -85,7 +85,7 @@
   },
   {
     "answer": "constant",
-    "question": "a named value that cannot change through reassignment using the assignment operator. If a constant is an object then it can be mutated and its properties can be added, updated, or removed"
+    "question": "a named value that cannot change through reassignment using the assignment operator. If it is an object then it can be mutated and its properties can be added, updated, or removed"
   },
   {
     "answer": "let",
@@ -93,7 +93,7 @@
   },
   {
     "answer": "const",
-    "question": "a Javascript command that defines a new constant"
+    "question": "a Javascript command that defines a new unchangable variable"
   },
   {
     "answer": "camelCase",
