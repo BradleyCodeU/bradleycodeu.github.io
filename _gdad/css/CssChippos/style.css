@@ -43,6 +43,20 @@ nav a {
   /* add 40px of padding */
 }
 
+/* phones and tablets */
+@media screen and (min-width: 0px) {
+  nav a {
+    display: block;
+  }
+}
+
+/* desktop PC */
+@media screen and (min-width: 900px) {
+  nav a {
+    display: inline;
+  }
+}
+
 /* this indicates the active page on nav */
 #activepage {
   /* add a background color that is DIFFERENT than the nav's background color */
