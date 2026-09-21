@@ -10,7 +10,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #fff;
+  background: #eee;
 }
 .alignright {
   float:right;
@@ -66,7 +66,7 @@ body {
   opacity: 0;
 }
 .button {
-  background-color: #4CAF50; /* Green */
+  background-color: #339933; /* Green */
   border-radius: 10px;
   /* border: 0px 5px 5px 0px;
   border-color: #aaa; */
@@ -75,12 +75,12 @@ body {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 10px;
+  font-size: 12px;
   /* transition-duration: 0.4s; */
 }
 
 .button:hover {
-  background-color: #4CAF50; /* Green */
+  background-color: #55aa55; /* Green */
   color: white;
   /* border: 5px 0px 0px 5px; */
 }
