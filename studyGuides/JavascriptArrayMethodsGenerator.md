@@ -79,7 +79,8 @@ function generatePractice() {
         indexOne = getRandomNumber(ml.length);
         indexTwo = getRandomNumber(ml.length,2);
         
-        if (getRandomNumber(2)) {
+        let secondVariableInitialization = getRandomNumber(3);
+        if (secondVariableInitialization == 1) {
             
                
                     // indexOne = getRandomNumber(ml.length);
@@ -87,7 +88,7 @@ function generatePractice() {
                 
                 result += "let " + varB + " = " + varA + "[" + indexOne + "] + " + varA + "[" + indexTwo + "];\n";
                 indexFour = ml[indexOne] + ml[indexTwo];
-            } else {
+        } else if (secondVariableInitialization == 2) {
                 while (indexOne === indexTwo) {
                     indexOne = getRandomNumber(ml.length);
                     indexTwo = getRandomNumber(ml.length);
@@ -100,7 +101,10 @@ function generatePractice() {
                     indexFour = ml[indexTwo] - ml[indexOne];
                 }
             
-        } 
+        } else {
+          result += "let " + varB + " = " + varA + ".length;";
+          indexFour = ml.length;
+        }
         ml.push(getRandomNumber(7));
         ml.push(getRandomNumber(4));
         result += "" + varA + ".push(" + JSON.stringify(ml[ml.length - 2]) + ");\n";
