@@ -102,7 +102,7 @@ function generatePractice() {
                 }
             
         } else {
-          result += "let " + varB + " = " + varA + ".length;";
+          result += "let " + varB + " = " + varA + ".length;\n";
           indexFour = ml.length;
         }
         ml.push(getRandomNumber(7));
