@@ -5,7 +5,7 @@ function setup() {
     createCanvas(windowWidth, windowHeight);
     vid = createCapture(VIDEO, { flipped: true });
     console.log(vid.width + " " + vid.height);
-    vid.size(64, 48);
+    vid.size(64, 48); // increasing this causes "error multiple infinite loops" 
     vid.hide();
 }
 
