@@ -1,4 +1,7 @@
-# 12 Buttons Game
+---
+layout: project
+category: js
+title: Twelve Buttons Game
 ---
 Read this tutorial about the CSS [display](https://www.w3schools.com/cssref/pr_class_display.php){:target="_blank"} property and/or this tutorial about changing the [visibility property with Javascript](https://www.w3schools.com/jsref/prop_style_visibility.asp){:target="_blank"}
 
