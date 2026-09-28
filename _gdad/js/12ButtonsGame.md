@@ -3,7 +3,7 @@ layout: project
 category: js
 title: 12 Buttons Game
 ---
-Read this tutorial about the CSS [display](https://www.w3schools.com/css/css_display_visibility.asp){:target="_blank"} property.
+Read this tutorial about the CSS [display](https://www.w3schools.com/cssref/pr_class_display.php){:target="_blank"} property and/or this tutorial about changing the [visibility property with Javascript](https://www.w3schools.com/jsref/prop_style_visibility.asp){:target="_blank"}
 
   - You MUST create one html element (image, paragraph, heading, etc) that is NOT displayed when the page loads, but IS displayed when a [button](https://www.w3schools.com/tags/tag_button.asp){:target="_blank"} is pressed.
 
