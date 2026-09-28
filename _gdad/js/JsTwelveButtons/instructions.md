@@ -1,6 +1,6 @@
 # 12 Buttons Game
 ---
-Read this tutorial about the CSS [display](https://www.w3schools.com/css/css_display_visibility.asp){:target="_blank"} property.
+Read this tutorial about the CSS [display](https://www.w3schools.com/cssref/pr_class_display.php){:target="_blank"} property and/or this tutorial about changing the [visibility property with Javascript](https://www.w3schools.com/jsref/prop_style_visibility.asp){:target="_blank"}
 
   - You MUST add something to the page (an image or a button, for example) that is NOT displayed when the page loads, but IS displayed when a [button](https://www.w3schools.com/tags/tag_button.asp){:target="_blank"} is pressed.
 
