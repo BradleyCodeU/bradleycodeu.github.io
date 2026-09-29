@@ -12,12 +12,12 @@ title: JS Function Practice Generator
 <table>
     <tr>
         <td><button onclick="revealAnswer()">Reveal Answer</button></td>
-        <td><span id="answer" style="display:none; font-weight:bold; margin-left:10px;"></span></td>
+        <td><span id="answer" style="display:none; margin-left:10px;"></span></td>
     </tr>
 </table>
 
 <script>
-const words = ["apple", "banana", "cherry", "lemon", "widget", "gadget", "box", "foo", "bar", "baz", "queen", "bear", "cat", "dog", "eagle", "fox", "koala", "lion", "moose", "otter", "panda", "shark", "tiger", "vulture", "wolf", "yak", "zebra", "coconut", "dragonfruit",  "elderberry", "fig", "grape", "honeydew", "kiwi", "mango", "nectarine", "orange", "papaya", "raspberry", "strawberry", "tangerine", "watermelon", "zucchini"];
+const words = ["apple", "banana", "cherry", "lemon", "widget", "gadget", "box", "foo", "foobar", "baz", "queen", "bear", "cat", "dog", "eagle", "fox", "koala", "lion", "moose", "otter", "panda", "shark", "tiger", "vulture", "wolf", "yak", "zebra", "coconut", "dragonfruit",  "elderberry", "fig", "grape", "honeydew", "kiwi", "mango", "nectarine", "orange", "papaya", "raspberry", "strawberry", "tangerine", "watermelon", "zucchini"];
 const colors = ["purple", "blue", "red", "green", "orange", "pink", "yellow", "violet", "brown"];
 const buttonTexts = ["Click Here!", "Submit", "Start Game", "Tap Me", "Run Code", "Claim Prize", "Go", "Begin", "Start", "Wow", "Launch", "Blast Off", "Eject", "Lift Off", "Purchase", "Update", "Quit", "Stop", "Forward"];
 const initialPTexts = ["50", "Waiting...", "Status: Off", "100 HP", "Hello World", "Ready", "All Set", "Prepared", "Systems Ready", "In Position", "0 Points", "Loading", "Charged", "Charging", "Hello There", "67"];
@@ -27,6 +27,7 @@ let currentCorrectAnswer = "";
 generatePractice();
 
 function generatePractice() {
+    let isFunctionOrderFlipped = Math.random() < 0.5;
     let btnId = choice(words) + "Btn";
     let pId = choice(words) + "Text";
     while(pId === btnId) pId = choice(words) + "Text";
@@ -134,69 +135,282 @@ function generatePractice() {
         }
     } else {
         // 75% chance: Something happens
-        let actionType = getRandomNumber(3);
-        if (actionType === 0) {
-            // Action 1: Change paragraph innerHTML
-            let newVal = choice(["100", "50", "Completed!", "Success!", "999"]);
-            let decoyVal = choice(["0", "Error!", "Failed", "10"]);
-            codeText = `<button id="${btnId}" onclick="${func1}()">${btnText}</button>\n` +
-                       `<p id="${pId}">${initialText}</p>\n` +
-                       `<script>\n` +
-                       `function ${func1}() {\n` +
-                       `    document.getElementById("${pId}").innerHTML = "${newVal}";\n` +
-                       `}\n` +
-                       `function ${func2}() {\n` +
-                       `    document.getElementById("${pId}").innerHTML = "${decoyVal}";\n` +
-                       `}\n` +
-                       `<\/script>`;
+        let actionType = getRandomNumber(6);
+        if(isFunctionOrderFlipped){
+            
+            if (actionType === 0) {
+                // Action 1: Change paragraph innerHTML
+                let newVal = choice(["100", "50", "Completed!", "Success!", "999"]);
+                let decoyVal = choice(["0", "Error!", "Failed", "10"]);
+                codeText = `<button id="${btnId}" onclick="${func1}()">${btnText}</button>\n` +
+                        `<p id="${pId}">${initialText}</p>\n` +
+                        `<script>\n` +
+                        `function ${func2}() {\n` +
+                        `    document.getElementById("${pId}").innerHTML = "${decoyVal}";\n` +
+                        `}\n` +
+                        `function ${func1}() {\n` +
+                        `    document.getElementById("${pId}").innerHTML = "${newVal}";\n` +
+                        `}\n` +
+                        
+                        `<\/script>`;
 
-            correctAnswer = `The paragraph text changes from "${initialText}" to "${newVal}".`;
-            distractors = [
-                `The paragraph text changes from "${initialText}" to "${decoyVal}".`,
-                `Nothing happens because ${func2}() is defined after ${func1}().`,
-                `The button text changes to "${newVal}".`
-            ];
-        } else if (actionType === 1) {
-            // Action 2: Change button background color
-            let color = choice(colors);
-            let decoyVal = choice(["0", "Updated", "Done"]);
-            codeText = `<button id="${btnId}" onclick="${func1}()">${btnText}</button>\n` +
-                       `<p id="${pId}">${initialText}</p>\n` +
-                       `<script>\n` +
-                       `function ${func1}() {\n` +
-                       `    document.getElementById("${btnId}").style.backgroundColor = "${color}";\n` +
-                       `}\n` +
-                       `function ${func2}() {\n` +
-                       `    document.getElementById("${pId}").innerHTML = "${decoyVal}";\n` +
-                       `}\n` +
-                       `<\/script>`;
+                correctAnswer = `The paragraph text changes from "${initialText}" to "${newVal}".`;
+                distractors = [
+                    `The paragraph text changes from "${initialText}" to "${decoyVal}".`,
+                    `Nothing happens because ${func1}() is defined after ${func2}().`,
+                    `The button text changes to "${newVal}".`
+                ];
+            }
+            else if (actionType === 1) {
+                // Action 2: Change button innerHTML
+                let color = choice(colors);
+                let decoyVal = choice(["0", "Updated", "Done"]);
+                codeText = `<button id="${btnId}" onclick="${func1}()">${btnText}</button>\n` +
+                        `<p id="${pId}">${initialText}</p>\n` +
+                        `<script>\n` +
+                        `function ${func2}() {\n` +
+                        `    document.getElementById("${pId}").innerHTML = "${decoyVal}";\n` +
+                        `}\n` +
+                        `function ${func1}() {\n` +
+                        `    document.getElementById("${btnId}").innerHTML = "${color}";\n` +
+                        `}\n` +
+                        
+                        `<\/script>`;
 
-            correctAnswer = `The button's background color changes to ${color}.`;
-            distractors = [
-                `The paragraph text changes from "${initialText}" to "${decoyVal}".`,
-                `The button background changes to ${color} AND paragraph text changes to "${decoyVal}".`,
-                `Nothing happens because ${func2}() was not called by the button.`
-            ];
-        } else {
-            // Action 3: Hide paragraph element
-            let decoyVal = choice(["Hidden", "Disabled", "0"]);
-            codeText = `<button id="${btnId}" onclick="${func1}()">${btnText}</button>\n` +
-                       `<p id="${pId}">${initialText}</p>\n` +
-                       `<script>\n` +
-                       `function ${func1}() {\n` +
-                       `    document.getElementById("${pId}").style.visibility = "hidden";\n` +
-                       `}\n` +
-                       `function ${func2}() {\n` +
-                       `    document.getElementById("${pId}").innerHTML = "${decoyVal}";\n` +
-                       `}\n` +
-                       `<\/script>`;
+                correctAnswer = `The button's text changes to ${color}.`;
+                distractors = [
+                    `The paragraph text changes from "${initialText}" to "${decoyVal}".`,
+                    `The button background changes to ${color} AND paragraph text changes to "${decoyVal}".`,
+                    `Nothing happens because ${func2}() was not called by the button.`
+                ];
+            } else if (actionType === 2) {
+                // Action 2: Change button background color
+                let color = choice(colors);
+                let decoyVal = choice(["0", "Updated", "Done"]);
+                codeText = `<button id="${btnId}" onclick="${func1}()">${btnText}</button>\n` +
+                        `<p id="${pId}">${initialText}</p>\n` +
+                        `<script>\n` +
+                        `function ${func2}() {\n` +
+                        `    document.getElementById("${pId}").innerHTML = "${decoyVal}";\n` +
+                        `}\n` +
+                        `function ${func1}() {\n` +
+                        `    document.getElementById("${btnId}").style.backgroundColor = "${color}";\n` +
+                        `}\n` +
+                        
+                        `<\/script>`;
 
-            correctAnswer = `The paragraph element becomes hidden on the page.`;
-            distractors = [
-                `The paragraph text changes from "${initialText}" to "${decoyVal}".`,
-                `The button becomes hidden on the page.`,
-                `Nothing happens because visibility is not a valid CSS property.`
-            ];
+                correctAnswer = `The button's background color changes to ${color}.`;
+                distractors = [
+                    `The paragraph text changes from "${initialText}" to "${decoyVal}".`,
+                    `The button background changes to ${color} AND paragraph text changes to "${decoyVal}".`,
+                    `Nothing happens because ${func2}() was not called by the button.`
+                ];
+            } else if (actionType === 3) {
+                // Action 2: Change para background color
+                let color = choice(colors);
+                let decoyVal = choice(["0", "Updated", "Done"]);
+                codeText = `<button id="${btnId}" onclick="${func1}()">${btnText}</button>\n` +
+                        `<p id="${pId}">${initialText}</p>\n` +
+                        `<script>\n` +
+                        `function ${func2}() {\n` +
+                        `    document.getElementById("${btnId}").innerHTML = "${decoyVal}";\n` +
+                        `}\n` +
+                        `function ${func1}() {\n` +
+                        `    document.getElementById("${pId}").style.backgroundColor = "${color}";\n` +
+                        `}\n` +
+                        
+                        `<\/script>`;
+
+                correctAnswer = `The paragraph's background color changes to ${color}.`;
+                distractors = [
+                    `The button text changes from "${btnText}" to "${decoyVal}".`,
+                    `The button background changes to ${color} AND paragraph text changes to "${decoyVal}".`,
+                    `Nothing happens because ${func2}() was not called by the button.`
+                ];
+            } else if (actionType === 4) {
+                // Action 3: Hide paragraph element
+                let decoyVal = choice(["Hidden", "Disabled", "0"]);
+                codeText = `<button id="${btnId}" onclick="${func1}()">${btnText}</button>\n` +
+                        `<p id="${pId}">${initialText}</p>\n` +
+                        `<script>\n` +
+                        `function ${func2}() {\n` +
+                        `    document.getElementById("${pId}").innerHTML = "${decoyVal}";\n` +
+                        `}\n` +
+                        `function ${func1}() {\n` +
+                        `    document.getElementById("${pId}").style.visibility = "hidden";\n` +
+                        `}\n` +
+                        
+                        `<\/script>`;
+
+                correctAnswer = `The paragraph element becomes hidden on the page.`;
+                distractors = [
+                    `The paragraph text changes from "${initialText}" to "${decoyVal}".`,
+                    `The button becomes hidden on the page.`,
+                    `Nothing happens because visibility is not a valid CSS property.`
+                ];
+            } else if (actionType === 5) {
+                // Action 3: Hide button element
+                let decoyVal = choice(["Hidden", "Disabled", "hide"]);
+                codeText = `<button id="${btnId}" onclick="${func1}()">${btnText}</button>\n` +
+                        `<p id="${pId}">${initialText}</p>\n` +
+                        `<script>\n` +
+                        `function ${func2}() {\n` +
+                        `    document.getElementById("${pId}").innerHTML = "${decoyVal}";\n` +
+                        `}\n` +
+                        `function ${func1}() {\n` +
+                        `    document.getElementById("${btnId}").style.display = "none";\n` +
+                        `}\n` +
+                        
+                        `<\/script>`;
+
+                correctAnswer = `The button element is hidden.`;
+                distractors = [
+                    `The paragraph text changes from "${initialText}" to "${decoyVal}".`,
+                    `The paragraph element becomes hidden on the page.`,
+                    `Nothing happens because visibility is not a valid CSS property.`
+                ];
+            }
+        }
+        else {
+            // function order is NOT flipped
+            if (actionType === 0) {
+                // Action 1: Change paragraph innerHTML
+                let newVal = choice(["100", "50", "Completed!", "Success!", "999"]);
+                let decoyVal = choice(["0", "Error!", "Failed", "10"]);
+                codeText = `<button id="${btnId}" onclick="${func1}()">${btnText}</button>\n` +
+                        `<p id="${pId}">${initialText}</p>\n` +
+                        `<script>\n` +
+                        `function ${func1}() {\n` +
+                        `    document.getElementById("${pId}").innerHTML = "${newVal}";\n` +
+                        `}\n` +
+                        `function ${func2}() {\n` +
+                        `    document.getElementById("${pId}").innerHTML = "${decoyVal}";\n` +
+                        `}\n` +
+                        
+                        
+                        `<\/script>`;
+
+                correctAnswer = `The paragraph text changes from "${initialText}" to "${newVal}".`;
+                distractors = [
+                    `The paragraph text changes from "${initialText}" to "${decoyVal}".`,
+                    `Nothing happens because ${func1}() is defined after ${func2}().`,
+                    `The button text changes to "${newVal}".`
+                ];
+            }
+            else if (actionType === 1) {
+                // Action 2: Change button innerHTML
+                let color = choice(colors);
+                let decoyVal = choice(["0", "Updated", "Done"]);
+                codeText = `<button id="${btnId}" onclick="${func1}()">${btnText}</button>\n` +
+                        `<p id="${pId}">${initialText}</p>\n` +
+                        `<script>\n` +
+                        `function ${func1}() {\n` +
+                        `    document.getElementById("${btnId}").innerHTML = "${color}";\n` +
+                        `}\n` +
+                        `function ${func2}() {\n` +
+                        `    document.getElementById("${pId}").innerHTML = "${decoyVal}";\n` +
+                        `}\n` +
+                        
+                        
+                        `<\/script>`;
+
+                correctAnswer = `The button's text changes to ${color}.`;
+                distractors = [
+                    `The paragraph text changes from "${initialText}" to "${decoyVal}".`,
+                    `The button background changes to ${color} AND paragraph text changes to "${decoyVal}".`,
+                    `Nothing happens because ${func2}() was not called by the button.`
+                ];
+            } else if (actionType === 2) {
+                // Action 2: Change button background color
+                let color = choice(colors);
+                let decoyVal = choice(["0", "Updated", "Done"]);
+                codeText = `<button id="${btnId}" onclick="${func1}()">${btnText}</button>\n` +
+                        `<p id="${pId}">${initialText}</p>\n` +
+                        `<script>\n` +
+                        `function ${func1}() {\n` +
+                        `    document.getElementById("${btnId}").style.backgroundColor = "${color}";\n` +
+                        `function ${func2}() {\n` +
+                        `    document.getElementById("${pId}").innerHTML = "${decoyVal}";\n` +
+                        `}\n` +
+                        
+                        `}\n` +
+                        
+                        `<\/script>`;
+
+                correctAnswer = `The button's background color changes to ${color}.`;
+                distractors = [
+                    `The paragraph text changes from "${initialText}" to "${decoyVal}".`,
+                    `The button background changes to ${color} AND paragraph text changes to "${decoyVal}".`,
+                    `Nothing happens because ${func2}() was not called by the button.`
+                ];
+            } else if (actionType === 3) {
+                // Action 2: Change para background color
+                let color = choice(colors);
+                let decoyVal = choice(["0", "Updated", "Done"]);
+                codeText = `<button id="${btnId}" onclick="${func1}()">${btnText}</button>\n` +
+                        `<p id="${pId}">${initialText}</p>\n` +
+                        `<script>\n` +
+                        `function ${func1}() {\n` +
+                        `    document.getElementById("${pId}").style.backgroundColor = "${color}";\n` +
+                        `function ${func2}() {\n` +
+                        `    document.getElementById("${btnId}").innerHTML = "${decoyVal}";\n` +
+                        `}\n` +
+                        
+                        `}\n` +
+                        
+                        `<\/script>`;
+
+                correctAnswer = `The paragraph's background color changes to ${color}.`;
+                distractors = [
+                    `The button text changes from "${btnText}" to "${decoyVal}".`,
+                    `The button background changes to ${color} AND paragraph text changes to "${decoyVal}".`,
+                    `Nothing happens because ${func2}() was not called by the button.`
+                ];
+            } else if (actionType === 4) {
+                // Action 3: Hide paragraph element
+                let decoyVal = choice(["Hidden", "Disabled", "0"]);
+                codeText = `<button id="${btnId}" onclick="${func1}()">${btnText}</button>\n` +
+                        `<p id="${pId}">${initialText}</p>\n` +
+                        `<script>\n` +
+                        `function ${func1}() {\n` +
+                        `    document.getElementById("${pId}").style.visibility = "hidden";\n` +
+                        `function ${func2}() {\n` +
+                        `    document.getElementById("${pId}").innerHTML = "${decoyVal}";\n` +
+                        `}\n` +
+                        
+                        `}\n` +
+                        
+                        `<\/script>`;
+
+                correctAnswer = `The paragraph element becomes hidden on the page.`;
+                distractors = [
+                    `The paragraph text changes from "${initialText}" to "${decoyVal}".`,
+                    `The button becomes hidden on the page.`,
+                    `Nothing happens because visibility is not a valid CSS property.`
+                ];
+            } else if (actionType === 5) {
+                // Action 3: Hide button element
+                let decoyVal = choice(["Hidden", "Disabled", "hide"]);
+                codeText = `<button id="${btnId}" onclick="${func1}()">${btnText}</button>\n` +
+                        `<p id="${pId}">${initialText}</p>\n` +
+                        `<script>\n` +
+                        `function ${func1}() {\n` +
+                        `    document.getElementById("${btnId}").style.display = "none";\n` +
+                        `}\n` +
+                        `function ${func2}() {\n` +
+                        `    document.getElementById("${pId}").innerHTML = "${decoyVal}";\n` +
+                        `}\n` +
+                        
+                        
+                        `<\/script>`;
+
+                correctAnswer = `The button element is hidden.`;
+                distractors = [
+                    `The paragraph text changes from "${initialText}" to "${decoyVal}".`,
+                    `The paragraph element becomes hidden on the page.`,
+                    `Nothing happens because visibility is not a valid CSS property.`
+                ];
+            }
         }
     }
 
