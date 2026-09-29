@@ -49,7 +49,7 @@ function generatePractice() {
     let distractors = [];
 
     if (isBug) {
-        let bugType = getRandomNumber(11);
+        let bugType = getRandomNumber(10);
         if (bugType === 0) {
             // Bug: Mismatched function name
             let wrongFunc = choice(words) + "Action";
@@ -112,7 +112,7 @@ function generatePractice() {
                 `The paragraph text changes from "${initialText}" to "Changed!".`,
                 `A new paragraph with ID '${fakeId}' is automatically created.`
             ];
-        } else if (bugType === 4) {
+        } else if (bugType === 3) {
             // Bug: Invalid HTML event attribute
             let invalidAttr = choice(["onpressing", "onmouseclickit", "onpressit", "press", "pressit", "pressing", "clicking", "onmouseclicking", "clicked", "pressed", "tapped", "clickit"]);
             codeText = `<button id="${btnId}" ${invalidAttr}="${func1}()">${btnText}</button>\n` +
@@ -132,7 +132,7 @@ function generatePractice() {
                 `The paragraph text changes from "${initialText}" to "Changed!".`,
                 `The button text changes to "Updated!".`
             ];
-        } else if (bugType === 5) {
+        } else if (bugType === 4) {
             // Bug: Invalid style attribute
             let invalidAttr = choice(["font-size", "font_size", "textSize"]);
             codeText = `<button id="${btnId}" onclick="${func1}()">${btnText}</button>\n` +
@@ -152,7 +152,7 @@ function generatePractice() {
                 `The paragraph text changes from "${initialText}" to "Changed!".`,
                 `The button text changes to "Updated!".`
             ];
-        } else if (bugType === 6) {
+        } else if (bugType === 5) {
             // Bug: Incorrect DOM property casing (innerhtml instead of innerHTML)
             codeText = `<button id="${btnId}" onclick="${func1}()">${btnText}</button>\n` +
                        `<p id="${pId}">${initialText}</p>\n` +
@@ -171,7 +171,7 @@ function generatePractice() {
                 `The paragraph text changes from "${initialText}" to "Changed!".`,
                 `The button text changes to "Updated!".`
             ];
-        } else if (bugType === 7) {
+        } else if (bugType === 6) {
             // Bug: Missing 'document.' prefix before getElementById
             codeText = `<button id="${btnId}" onclick="${func1}()">${btnText}</button>\n` +
                        `<p id="${pId}">${initialText}</p>\n` +
@@ -190,7 +190,7 @@ function generatePractice() {
                 `The paragraph text changes from "${initialText}" to "Changed!".`,
                 `An alert box appears displaying "${initialText}".`
             ];
-        } else if (bugType === 8) {
+        } else if (bugType === 7) {
             // Bug: Unquoted string value (treats string as undefined variable)
             let color = choice(colors);
             codeText = `<button id="${btnId}" onclick="${func1}()">${btnText}</button>\n` +
@@ -210,7 +210,7 @@ function generatePractice() {
                 `The paragraph text changes from "${initialText}" to "Changed!".`,
                 `The button text changes to "${color}".`
             ];
-        } else if (bugType === 9) {
+        } else if (bugType === 8) {
             // Bug: Missing function parentheses in HTML onclick attribute
             codeText = `<button id="${btnId}" onclick="${func1}">${btnText}</button>\n` +
                        `<p id="${pId}">${initialText}</p>\n` +
@@ -229,7 +229,7 @@ function generatePractice() {
                 `The paragraph text changes from "${initialText}" to "Changed!".`,
                 `The button text changes to "${func1}".`
             ];
-        } else if (bugType === 10) {
+        } else if (bugType === 9) {
             // Bug: Setting .onclick on a paragraph element instead of .innerHTML
             codeText = `<button id="${btnId}" onclick="${func1}()">${btnText}</button>\n` +
                        `<p id="${pId}">${initialText}</p>\n` +
@@ -445,11 +445,12 @@ function generatePractice() {
                         `<script>\n` +
                         `function ${func1}() {\n` +
                         `    document.getElementById("${btnId}").style.backgroundColor = "${color}";\n` +
+                        `}\n` +
                         `function ${func2}() {\n` +
                         `    document.getElementById("${pId}").innerHTML = "${decoyVal}";\n` +
                         `}\n` +
                         
-                        `}\n` +
+                        
                         
                         `<\/script>`;
 
@@ -468,11 +469,12 @@ function generatePractice() {
                         `<script>\n` +
                         `function ${func1}() {\n` +
                         `    document.getElementById("${pId}").style.backgroundColor = "${color}";\n` +
+                        `}\n` +
                         `function ${func2}() {\n` +
                         `    document.getElementById("${btnId}").innerHTML = "${decoyVal}";\n` +
                         `}\n` +
                         
-                        `}\n` +
+                        
                         
                         `<\/script>`;
 
@@ -490,11 +492,12 @@ function generatePractice() {
                         `<script>\n` +
                         `function ${func1}() {\n` +
                         `    document.getElementById("${pId}").style.visibility = "hidden";\n` +
+                        `}\n` +
                         `function ${func2}() {\n` +
                         `    document.getElementById("${pId}").innerHTML = "${decoyVal}";\n` +
                         `}\n` +
                         
-                        `}\n` +
+                        
                         
                         `<\/script>`;
 
