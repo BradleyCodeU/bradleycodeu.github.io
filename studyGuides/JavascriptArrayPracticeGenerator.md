@@ -147,8 +147,4 @@ function chooseVariableName() {
 <hr>
 <br>
 
-[https://replit.com/@JustinRiley1/JS-Array-Practice-Generator](https://replit.com/@JustinRiley1/JS-Array-Practice-Generator)
 
-<br>
-
-[https://trinket.io/embed/python3/bd04f0b6a2?outputOnly=true&runOption=run&start=result](https://trinket.io/embed/python3/bd04f0b6a2?outputOnly=true&runOption=run&start=result)
