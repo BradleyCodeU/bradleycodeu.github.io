@@ -49,9 +49,9 @@ function generatePractice() {
     let distractors = [];
 
     if (isBug) {
-        let bugType = getRandomNumber(4);
+        let bugType = getRandomNumber(11);
         if (bugType === 0) {
-            // Bug 1: Mismatched function name
+            // Bug: Mismatched function name
             let wrongFunc = choice(words) + "Action";
             codeText = `<button id="${btnId}" onclick="${func1}()">${btnText}</button>\n` +
                        `<p id="${pId}">${initialText}</p>\n` +
@@ -71,7 +71,7 @@ function generatePractice() {
                 `The button text changes to "${func1}()".`
             ];
         } else if (bugType === 1) {
-            // Bug 2: Case sensitivity mismatch
+            // Bug: Case sensitivity mismatch
             let badId = pId.toLowerCase();
             if (badId === pId) badId = pId.toUpperCase();
             
@@ -93,7 +93,7 @@ function generatePractice() {
                 `The button text changes from "${btnText}" to "Updated!".`
             ];
         } else if (bugType === 2) {
-            // Bug 3: Non-existent ID target
+            // Bug: Non-existent ID target
             let fakeId = choice(words) + "Missing";
             codeText = `<button id="${btnId}" onclick="${func1}()">${btnText}</button>\n` +
                        `<p id="${pId}">${initialText}</p>\n` +
@@ -112,9 +112,9 @@ function generatePractice() {
                 `The paragraph text changes from "${initialText}" to "Changed!".`,
                 `A new paragraph with ID '${fakeId}' is automatically created.`
             ];
-        } else {
-            // Bug 4: Invalid HTML event attribute
-            let invalidAttr = choice(["onpress", "onmouseclick", "onhover"]);
+        } else if (bugType === 4) {
+            // Bug: Invalid HTML event attribute
+            let invalidAttr = choice(["onpressing", "onmouseclickit", "onpressit", "press", "pressit", "pressing", "clicking", "onmouseclicking", "clicked", "pressed", "tapped", "clickit"]);
             codeText = `<button id="${btnId}" ${invalidAttr}="${func1}()">${btnText}</button>\n` +
                        `<p id="${pId}">${initialText}</p>\n` +
                        `<script>\n` +
@@ -126,11 +126,127 @@ function generatePractice() {
                        `}\n` +
                        `<\/script>`;
 
-            correctAnswer = `Nothing happens because '${invalidAttr}' is not a valid HTML click event attribute; it should be 'onclick'.`;
+            correctAnswer = `Nothing happens because '${invalidAttr}' is not a valid HTML click event attribute. It should be 'onclick'`;
             distractors = [
                 `The paragraph text changes from "${initialText}" to "Updated!".`,
                 `The paragraph text changes from "${initialText}" to "Changed!".`,
                 `The button text changes to "Updated!".`
+            ];
+        } else if (bugType === 5) {
+            // Bug: Invalid style attribute
+            let invalidAttr = choice(["font-size", "font_size", "textSize"]);
+            codeText = `<button id="${btnId}" onclick="${func1}()">${btnText}</button>\n` +
+                       `<p id="${pId}">${initialText}</p>\n` +
+                       `<script>\n` +
+                       `function ${func1}() {\n` +
+                       `    document.getElementById("${pId}").style.${invalidAttr} = "30 px";\n` +
+                       `}\n` +
+                       `function ${func2}() {\n` +
+                       `    document.getElementById("${pId}").innerHTML = "Changed!";\n` +
+                       `}\n` +
+                       `<\/script>`;
+
+            correctAnswer = `Nothing happens because '${invalidAttr}' is not a valid style attribute. It should be 'fontSize'`;
+            distractors = [
+                `The paragraph text changes from "${initialText}" to "Updated!".`,
+                `The paragraph text changes from "${initialText}" to "Changed!".`,
+                `The button text changes to "Updated!".`
+            ];
+        } else if (bugType === 6) {
+            // Bug: Incorrect DOM property casing (innerhtml instead of innerHTML)
+            codeText = `<button id="${btnId}" onclick="${func1}()">${btnText}</button>\n` +
+                       `<p id="${pId}">${initialText}</p>\n` +
+                       `<script>\n` +
+                       `function ${func1}() {\n` +
+                       `    document.getElementById("${pId}").innerhtml = "Updated!";\n` +
+                       `}\n` +
+                       `function ${func2}() {\n` +
+                       `    document.getElementById("${pId}").innerHTML = "Changed!";\n` +
+                       `}\n` +
+                       `<\/script>`;
+
+            correctAnswer = `Nothing happens because 'innerhtml' should be 'innerHTML'`;
+            distractors = [
+                `The paragraph text changes from "${initialText}" to "Updated!".`,
+                `The paragraph text changes from "${initialText}" to "Changed!".`,
+                `The button text changes to "Updated!".`
+            ];
+        } else if (bugType === 7) {
+            // Bug: Missing 'document.' prefix before getElementById
+            codeText = `<button id="${btnId}" onclick="${func1}()">${btnText}</button>\n` +
+                       `<p id="${pId}">${initialText}</p>\n` +
+                       `<script>\n` +
+                       `function ${func1}() {\n` +
+                       `    getElementById("${pId}").innerHTML = "Updated!";\n` +
+                       `}\n` +
+                       `function ${func2}() {\n` +
+                       `    getElementById("${pId}").innerHTML = "Changed!";\n` +
+                       `}\n` +
+                       `<\/script>`;
+
+            correctAnswer = `Nothing happens because 'getElementById' must be called on the 'document' object.`;
+            distractors = [
+                `The paragraph text changes from "${initialText}" to "Updated!".`,
+                `The paragraph text changes from "${initialText}" to "Changed!".`,
+                `An alert box appears displaying "${initialText}".`
+            ];
+        } else if (bugType === 8) {
+            // Bug: Unquoted string value (treats string as undefined variable)
+            let color = choice(colors);
+            codeText = `<button id="${btnId}" onclick="${func1}()">${btnText}</button>\n` +
+                       `<p id="${pId}">${initialText}</p>\n` +
+                       `<script>\n` +
+                       `function ${func1}() {\n` +
+                       `    document.getElementById("${btnId}").style.backgroundColor = ${color};\n` +
+                       `}\n` +
+                       `function ${func2}() {\n` +
+                       `    document.getElementById("${pId}").innerHTML = "Changed!";\n` +
+                       `}\n` +
+                       `<\/script>`;
+
+            correctAnswer = `Nothing happens because '${color}' is not in quotes, causing JavaScript to treat it as an undefined variable.`;
+            distractors = [
+                `The button's background color changes to ${color}.`,
+                `The paragraph text changes from "${initialText}" to "Changed!".`,
+                `The button text changes to "${color}".`
+            ];
+        } else if (bugType === 9) {
+            // Bug: Missing function parentheses in HTML onclick attribute
+            codeText = `<button id="${btnId}" onclick="${func1}">${btnText}</button>\n` +
+                       `<p id="${pId}">${initialText}</p>\n` +
+                       `<script>\n` +
+                       `function ${func1}() {\n` +
+                       `    document.getElementById("${pId}").innerHTML = "Updated!";\n` +
+                       `}\n` +
+                       `function ${func2}() {\n` +
+                       `    document.getElementById("${pId}").innerHTML = "Changed!";\n` +
+                       `}\n` +
+                       `<\/script>`;
+
+            correctAnswer = `Nothing happens because the onclick attribute is missing parentheses '()' needed to call the function.`;
+            distractors = [
+                `The paragraph text changes from "${initialText}" to "Updated!".`,
+                `The paragraph text changes from "${initialText}" to "Changed!".`,
+                `The button text changes to "${func1}".`
+            ];
+        } else if (bugType === 10) {
+            // Bug: Setting .onclick on a paragraph element instead of .innerHTML
+            codeText = `<button id="${btnId}" onclick="${func1}()">${btnText}</button>\n` +
+                       `<p id="${pId}">${initialText}</p>\n` +
+                       `<script>\n` +
+                       `function ${func1}() {\n` +
+                       `    document.getElementById("${pId}").text = "Updated!";\n` +
+                       `}\n` +
+                       `function ${func2}() {\n` +
+                       `    document.getElementById("${pId}").text = "Changed!";\n` +
+                       `}\n` +
+                       `<\/script>`;
+
+            correctAnswer = `Nothing happens visually because paragraph tags do not display a 'text' property. It should be 'innerHTML'`;
+            distractors = [
+                `The paragraph text changes from "${initialText}" to "Updated!".`,
+                `The paragraph text changes from "${initialText}" to "Changed!".`,
+                `The paragraph is replaced with an input text box.`
             ];
         }
     } else {
@@ -177,7 +293,7 @@ function generatePractice() {
                         
                         `<\/script>`;
 
-                correctAnswer = `The button's text changes to ${color}.`;
+                correctAnswer = `The button's text changes to say "${color}"`;
                 distractors = [
                     `The paragraph text changes from "${initialText}" to "${decoyVal}".`,
                     `The button background changes to ${color} AND paragraph text changes to "${decoyVal}".`,
@@ -314,7 +430,7 @@ function generatePractice() {
                         
                         `<\/script>`;
 
-                correctAnswer = `The button's text changes to ${color}.`;
+                correctAnswer = `The button's text changes to say "${color}"`;
                 distractors = [
                     `The paragraph text changes from "${initialText}" to "${decoyVal}".`,
                     `The button background changes to ${color} AND paragraph text changes to "${decoyVal}".`,
