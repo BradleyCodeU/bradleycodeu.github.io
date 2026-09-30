@@ -18,7 +18,7 @@ You MUST:
 - Draw your own sprite for the hero character (could be a person/animal/robot/etc)
 - Draw your own "fireball" explosion animation when you get to step 4 "Blown Away." 
 - Your fireballs MUST fly forward so that the hero is throwing the fireballs.
-
+- Edit the tilemaps for Level 1 and Level 2 so that everyone's game has different levels.
 
 
 After you finish step 4, click step 4 again then click "Save To My Projects"
@@ -35,7 +35,25 @@ After you finish step 4, click step 4 again then click "Save To My Projects"
 1. Next, carry your character back to the beginning of the level. From the ADVANCED > ANIMATION menu, drag the "animate [mySprite] with [fly to center]" block into the end of the Player overlaps chest1 container.
 1. From the SPRITE menu, drag "[mySprite] say [": )"]" into the end of the "Player overlaps chest1" container. Change the text to say "Level 2!" and click the white plus (+) to the right of the block so that the text disappears after 500 ms.
 
+## Show Mr Riley when finished
 
+<hr>
+
+## I HATE THE CONTROLS!
+
+Do you hate the controls too? Try this! Change the jump to be the A button. Make the B button have a quick press action (add a box) and a long press action (shoot a fireball).
+
+![Code blocks showing how to add a quick press action and a long press action](https://bradleycodeu.github.io\gdad\js\JsMkcJunglePlatformer\QuickPressActionAndLongPressAction.png)
+
+<hr>
+
+## CHARGED JUMP?
+
+Do you want to add a charged jump?
+
+![Code blocks showing how to add a charged jump](https://bradleycodeu.github.io\gdad\js\JsMkcJunglePlatformer\ChargedJump.png)
+
+<hr>
 
 
 ## IF YOU HAVE COMPLETED ONE OR MORE CODING CLASSES...
