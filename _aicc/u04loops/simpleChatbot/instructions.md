@@ -25,7 +25,7 @@ const dictionary = {
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  background(???); // TODO
+  background(200); 
   addUserInterface();
 }
 
@@ -35,7 +35,16 @@ function draw() {
 
 function resetMessages(){
   textY = 30;
-  background(???); // TODO
+  background(200); 
+}
+
+// Handle keyboard input events
+function keyPressed(){
+  // Check if the pressed key was the ENTER key
+  if (keyCode === ENTER) { 
+    // Call sendMessage to process and display the input
+    sendMessage(); 
+  }
 }
 ```
 
@@ -70,7 +79,7 @@ function addUserInterface(){
 // Function to remove common punctuation characters from a given text string
 function filterOutPunctuation(textString){
   // Define a string containing common punctuation characters to filter out
-  let commonPunctuation = ???; // TODO
+  let commonPunctuation = ".,!?'&"; 
   // Initialize an empty string to store the cleaned result
   let result = "";
   // Loop through each character of the input text string
@@ -93,13 +102,13 @@ function filterOutPunctuation(textString){
 // Function that generates a reply message based on input text
 function buildReply(message){
   // Convert the user's message to lowercase for consistent matching
-  message = ???.toLowerCase(); // TODO
+  message = message.toLowerCase();
   // Remove punctuation from the message for cleaner word comparisons
   message = filterOutPunctuation(???); // TODO
   // Split the cleaned message into an array of individual words
   let messageArray = ???; // TODO 
   // Initialize an empty array to store possible replies
-  let replyArray = ???; // TODO
+  let replyArray = []; 
   // Loop through each word in the message array
   for(let eachWord of ???){ // TODO
     // Check if the current word exists in the dictionary
@@ -129,7 +138,7 @@ function sendMessage(){
   // If the textY is too low
   if(textY > ???){ // TODO
     // Call the reset messages function
-    ???; // TODO
+    resetMessages();
   }
   // Get the current value typed into the text input field
   let userMessage = textInput.value();
@@ -154,17 +163,7 @@ function sendMessage(){
 }
 ```
 
-### Allow ENTER Key To Send Message
-```
-// Define a function to handle keyboard input events
-function keyPressed(){
-  // Check if the pressed key was the ENTER key
-  if (keyCode === ???) { // TODO
-    // Call sendMessage to process and display the input
-    ???; // TODO
-  }
-}
-```
+
 
 ### Add 10 More Keyword and Response Pairs
 
