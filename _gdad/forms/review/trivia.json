@@ -1,48 +1,118 @@
 [
-
-{
-"answer": "block-level element","question": "starts a new line and takes up the full width of its parent element"
-},
-{
-"answer": "inline element","question": "does not start on a new line and only takes up as much width as necessary"
-},
-{
-"answer": "conditional","question": "also known as selection, a statement that uses a boolean condition to determine whether or not to run other statements. Usually an if-then statement"
-},
-{
-"answer": "form","question": "a section of a document containing text boxes, checkboxes, radio buttons, dropdown menus, and labels for those inputs"
-},
-{
-"answer": "label","question": "an HTML tag that creates text that is connected to some type of input. When a user clicks the text, it selects the input"
-},
-{
-"answer": "input","question": "information that is given to the computer by a user, usually typed text and mouse clicks"
-},
-{
-"answer": "radio button","question": "type of HTML input that is presented in a group so that only one button in the group can be selected at the same time. Each button in the group must share the same name attribute to be treated as a group"
-},
-{
-"answer": "select","question": "an HTML tag used to create a drop-down list with one or more options"
-},
-{
-"answer": "onchange","question": "an attribute that sets the Javascript that should run when a user changes the selected option of a drop-down list"
-},
-{
-"answer": "checkbox","question": "type of HTML input that is shown as a square box that is ticked/checked when activated. This type of input allows a user to select one or more options"
-},
-{
-"answer": "div","question": "an HTML tag that defines a division or a section in an HTML document. It is often used as a container for other HTML elements"
-},
-{
-"answer": "border-radius","question": "a CSS property that controls the roundness of an element's corners"
-},
-{
-"answer": "transition","question": "a CSS property that controls animation speed when changing CSS properties. Instead of having changes take effect immediately, you can cause the changes to take place over a period of time"
-},
-{
-"answer": "Math.random()","question": "a Javascript command that returns a random decimal number between 0 (inclusive),  and 1 (exclusive)"
-},
-{
-"answer": "event listener","question": "a Javascript function that waits for an event to occur such as a key press or a mouse click"
-}
+    {
+        "answer": "form",
+        "question": "a section of a document containing text boxes, checkboxes, radio buttons, dropdown menus, and labels for those inputs"
+    },
+    {
+        "answer": "label",
+        "question": "an HTML tag that creates text that is connected to some type of input. When a user clicks the text, it selects the input"
+    },
+    {
+        "answer": "input",
+        "question": "information that is given to the computer by a user, usually typed text and mouse clicks"
+    },
+    {
+        "answer": "radio button",
+        "question": "an input type that is presented in a group so that only one button in the group can be selected at the same time. Each button in the group must share the same name attribute to be treated as a group"
+    },
+    {
+        "answer": "checkbox",
+        "question": "an input type that is shown as a square box that is ticked/checked when activated. This type of input allows a user to select one or more options"
+    },
+    {
+        "answer": "range",
+        "question": "an input type that creates a slider with a minimum and maximum"
+    },
+    {
+        "answer": "select",
+        "question": "an HTML tag that creates a drop-down list with one or more options"
+    },
+    {
+        "answer": "option",
+        "question": "an HTML tag that creates a choice in a drop-down list"
+    },
+    {
+        "answer": "value",
+        "question": "an HTML attribute that sets the data for input and option elements"
+    },
+    {
+        "answer": "placeholder",
+        "question": "an HTML attribute that hints what should be typed in an input by showing example text when the box has no value"
+    },
+    {
+        "answer": "textarea",
+        "question": "an HTML tag that creates a multi-line text entry box for when you expect users to enter multiple lines of text"
+    },
+    {
+        "answer": "onchange",
+        "question": "an attribute that sets the Javascript that should run when a user changes the selected option of a drop-down list"
+    },
+    {
+        "answer": "oninput",
+        "question": "an attribute that sets the Javascript that should run when a user types into a text input box"
+    },
+    {
+        "answer": "div",
+        "question": "an HTML tag that defines a division or a section in an HTML document. It is often used as a container for other HTML elements"
+    },
+    {
+        "answer": "span",
+        "question": "an HTML tag that is a generic inline element for styling content, but does not inherently represent anything. Similar to a div, but an inline element"
+    },
+    {
+        "answer": "hr",
+        "question": "an HTML tag that creates a separation between two sections by drawing a line between them"
+    },
+    {
+        "answer": "border-radius",
+        "question": "a CSS property that controls the roundness of an element's corners"
+    },
+    {
+        "answer": "semantic element",
+        "question": "a type of HTML element that clearly describes its content and meaning to both the browser and the developer"
+    },
+    {
+        "answer": "header",
+        "question": "an HTML tag that creates a section that is typically at the top of a page and usually contains a logo, site name, search bar, or navigation links"
+    },
+    {
+        "answer": "nav",
+        "question": "an HTML tag that creates a section that provides navigation links, either within the current page or to other documents"
+    },
+    {
+        "answer": "section",
+        "question": "an HTML tag that represents a generic standalone section of a page, which doesn't have a more specific semantic element to represent it. It should always contain a heading"
+    },
+    {
+        "answer": "article",
+        "question": "an HTML tag that creates a self-contained text content section of a page. For example, a blog post, a news post, a social media post, a product description, or a user comment"
+    },
+    {
+        "answer": "aside",
+        "question": "an HTML tag that creates a section of a document whose content is only indirectly related to the document's main content"
+    },
+    {
+        "answer": "footer",
+        "question": "an HTML tag that creates a section that is typically at the bottom of a page and usually contains the name of the author, copyright, or other links"
+    },
+    {
+        "answer": "details",
+        "question": "an HTML tag that creates an interactive section with a triangle icon that can be toggled open or closed. By default, it is closed"
+    },
+    {
+        "answer": "summary",
+        "question": "an HTML tag that creates a visible description for a details section"
+    },
+    {
+        "answer": "figure",
+        "question": "an HTML tag that creates a section for displaying an image, diagram, or code snippet that is referenced in the main text of the document. It can also have a caption that describes its contents."
+    },
+    {
+        "answer": "caption",
+        "question": "an HTML tag that creates a description for a table"
+    },
+    {
+        "answer": "figcaption",
+        "question": "an HTML tag that creates a description for a figure"
+    }
 ]
