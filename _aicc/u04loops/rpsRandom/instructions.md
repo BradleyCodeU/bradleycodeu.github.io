@@ -21,7 +21,7 @@ let roundQueue = [];
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  background(???); // TODO
+  background(200);
   addUserInterface();
 }
 
@@ -33,7 +33,7 @@ function draw() {
 
 function resetMessages(){
   textY = 30;
-  background(???); // TODO
+  background(200); 
 }
 ```
 
@@ -84,7 +84,7 @@ function getWinPercent(winCount, totalGames){
 // Returns a message indicating the winner or if it's a tie.
 function getWhoWins(userString, botFirstLetter){
   // Increment the total number of games played
-  ???; // TODO
+  gameCount++;
 
   // Use substring to take only the first character of the user string to ensure it's r, p, or s
   let userFirstLetter = ???; // TODO
@@ -96,19 +96,19 @@ function getWhoWins(userString, botFirstLetter){
   switch(userFirstLetter + botFirstLetter) {
     // Cases where the bot wins
     case "rp": // user: rock, bot: paper
-    case ???: // user: paper, bot: scissors // TODO
+    case "ps": // user: paper, bot: scissors 
     case ???: // user: scissors, bot: rock // TODO
-      ???; // Increment bot's win count // TODO
+      botWins++; // Increment bot's win count
       // Return a message indicating the bot won, including its win percentage
-      return "*** The bot wins *** Bot has won " + getWinPercent(botWins, gameCount);
+      return "*** THE BOT WINS *** Bot has won " + getWinPercent(botWins, gameCount);
 
     // Cases where the user wins
     case "pr": // user: paper, bot: rock
-    case ???: // user: scissors, bot: paper // TODO
+    case "sp": // user: scissors, bot: paper 
     case ???: // user: rock, bot: scissors // TODO
       ???; // Increment user's win count // TODO
       // Return a message indicating the user won, including their win percentage
-      return "$ $ $ User wins $ $ $ User has won " + getWinPercent(userWins, gameCount);
+      return "$ $ $ USER WINS $ $ $ User has won " + getWinPercent(userWins, gameCount);
 
     // Default case: tie
     default:
@@ -125,7 +125,7 @@ function displayMessage(username, textString){
   // Check if the vertical text position is too low on the canvas
   if(textY > ???){ // TODO
     // Call the reset messages function to clear the canvas and reset text position
-    ???; // TODO
+    resetMessages; 
   }
 
   // Check if the username equals "User"
