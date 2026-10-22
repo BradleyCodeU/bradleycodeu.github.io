@@ -41,14 +41,10 @@ let dictionary = {};
 let textInput, sendButton, myText;
 let textY = 30;
 
-
-  
-
-
 async function setup() {
   myText = await loadStrings('sourceText.txt');
   createCanvas(windowWidth, windowHeight);
-  background(???); // TODO
+  background(200); 
   addUserInterface();
   trainModel(myText.join(" "));
 }
@@ -57,7 +53,7 @@ function draw() {}
 
 function resetMessages(){
   textY = 30;
-  background(???); // TODO
+  background(200); 
 }
 
 // shrinkMultipleSpaces() recursively removes extra spaces and keeps only a single space
@@ -121,9 +117,9 @@ function sendMessage(){
   if(userMessage.indexOf(???) ??? ???){ // TODO
     // There IS a "*" in the user input
     // swap exclamation marks with periods for consistency
-    let fixedPunctuationInput = swapPunctuation(???, ???, ???); // TODO
+    let fixedPunctuationInput = swapText(???, ???, ???); // TODO
     // swap question marks with periods for consistency
-    fixedPunctuationInput = swapPunctuation(???, ???, ???); // TODO
+    fixedPunctuationInput = swapText(???, ???, ???); // TODO
     // Use the trained model to predict a word to use instead of "*"
     botMessage = predict(fixedPunctuationInput);
   }
@@ -211,24 +207,11 @@ function addWordsToDictionary(wordArray){
 }
 ```
 
-### Swap Punctuation
+### Swap Text
 
-```
-// swapPunctuation() swaps one punctuation character with another
-function swapPunctuation(someText, punctuationCharacter, swapCharacter){
-  // Find the first occurrence of the punctuation character
-  let index = someText.indexOf(???); // TODO
-  // Continue until there are no more occurrences of that punctuation
-  while (index ??? ???) { // TODO
-    // swap the punctuation character with the swap character
-    someText = someText.substring(0, index) + swapCharacter + ??? // TODO
-    // Find the next occurrence
-    index = someText.indexOf(???); // TODO
-  }
-  // Return the updated string
-  return ??? // TODO
-}
-```
+Copy/paste your swapText(fullSentence, oldWord, newWord) function from the Replacement Bot project.
+We will use it to replace punctuation. For example, swapText("Yes! No! Maybe!", "!", "?") would return "Yes? No? Maybe?"
+
 
 ### Train Model
 
@@ -240,17 +223,17 @@ function trainModel(myText){
   // shrink multiple spaces down to a single space
   let fixedMultipleSpaces = shrinkMultipleSpaces(???); // TODO
   // swap exclamation marks with periods
-  let fixedPunctuationText = swapPunctuation(???, ???, ???); // TODO
+  let fixedPunctuationText = swapText(???, ???, ???); // TODO
   // swap question marks with periods
-  fixedPunctuationText = swapPunctuation(fixedPunctuationText, ???, ???); // TODO
+  fixedPunctuationText = swapText(fixedPunctuationText, ???, ???); // TODO
   // Split text into an array of sentences using ". " as the delimiter
   let sentenceArray = fixedPunctuationText.??? // TODO
 
-  // Loop through each sentence
+  // Loop through each sentence in the sentenceArray
   for(let ??? of ???){ // TODO
     // Split sentence into words dividing at each empty space
     let wordArray = ???.split(???); // TODO
-    // Add words and their relationships to the dictionary
+    // Add all those words to the dictionary
     addWordsToDictionary(???); // TODO
   }
 }

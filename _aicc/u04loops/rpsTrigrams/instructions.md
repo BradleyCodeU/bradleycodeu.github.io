@@ -141,7 +141,7 @@ let botTrigrams = {};
 
 How will these be used?
 
-Imagine that the user is using a certain strategy. They will play r, r, p, r, r s, and then repeat.
+Imagine that a user is playing with a certain strategy. User will play r, r, p, r, r s, and then repeat.
 
 After the first 3 rounds the botMemory will show "rrp" and the botTrigrams will look like this:
 ```
@@ -199,12 +199,12 @@ function updateTrigrams(userCurrentMove){
 }
 ```
 
-Finally, add a function call for updateTrigrams and send in the user's current move. It's your choice where to add this function call.
+Finally, add a function call for updateTrigrams and send in the user's current move as an argument. It's your choice where to add this function call.
 
 Test it out by playing a few rounds against the random bot. Use the browser's console to make sure that the botMemory and the botTrigrams are saving the data.
 
 
-Record a demo video showing:
+Record a demo video or show Mr Riley:
 
 1. your trigram chart
 
