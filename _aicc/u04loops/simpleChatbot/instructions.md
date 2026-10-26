@@ -41,7 +41,7 @@ function resetMessages(){
 // Handle keyboard input events
 function keyPressed(){
   // Check if the pressed key was the ENTER key
-  if (keyCode === ENTER) { 
+  if (key === ENTER) { 
     // Call sendMessage to process and display the input
     sendMessage(); 
   }
