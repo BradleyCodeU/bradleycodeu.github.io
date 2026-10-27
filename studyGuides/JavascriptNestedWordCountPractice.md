@@ -29,7 +29,11 @@ const wordSets = [
   { words: ["mario", "peach", "bowser"], vars: ["m", "p", "b"] },
   { words: ["cat", "dog", "fish"], vars: ["c", "d", "f"] },
   { words: ["ruby", "emerald", "diamond"], vars: ["r", "e", "d"] },
-  { words: ["alpha", "bravo", "charlie"], vars: ["a", "b", "c"] }
+  { words: ["alpha", "bravo", "charlie"], vars: ["a", "b", "c"] },
+  { words: ["delta", "echo", "foxtrot"], vars: ["d", "e", "f"] },
+  { words: ["baseball", "soccer", "football"], vars: ["b", "s", "f"] },
+  { words: ["fire", "water", "air"], vars: ["f", "w", "a"] },
+  { words: ["hilliard", "ohio", "usa"], vars: ["h", "o", "u"] },
 ];
 
 const loopVarPairs = [
@@ -37,7 +41,7 @@ const loopVarPairs = [
   { outer: "row", inner: "col" },
   { outer: "king", inner: "queen" },
   { outer: "i", inner: "j" },
-  { outer: "i", inner: "i" }
+  { outer: "x", inner: "y" }
 ];
 
 function generateLoop() {
