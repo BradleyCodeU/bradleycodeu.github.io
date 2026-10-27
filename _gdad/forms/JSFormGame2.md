@@ -3,7 +3,7 @@ layout: project
 category: forms
 title: JS Form Game 2
 ---
-Continue your form game by creating the last two trivia questions (Q3 and Q4).
+Continue your form game by creating the next 3 trivia questions (Q3, Q4, and Q5).
 
 Q3 uses a [text input box](https://www.w3schools.com/tags/att_input_type_text.asp){:target="_blank"} and one [button](https://www.w3schools.com/tags/tag_button.asp){:target="_blank"}. You will add the onclick= attribute to the button. This Javascript code will allow you to get the text within a text input box:
 ```
@@ -27,3 +27,5 @@ if (isBoxAChecked == true && isBoxBChecked == false && isBoxCChecked == true) {
 }
 ```
 If isBoxAChecked == true && isBoxBChecked == false && isBoxCChecked == true, then create a popup with alert() to tell the user if they are correct. Finally add an else. The else will happen if the user has any incorrect answer, then create a popup with alert() to tell the user that they are incorrect.
+
+Q5 ask a question with a numeric answer. Give the user a range slider to enter their guess. Add a div with the id "numberDisplay" so that the user can see the number they have selected.
