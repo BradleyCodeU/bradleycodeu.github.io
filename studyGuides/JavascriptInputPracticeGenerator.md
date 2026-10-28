@@ -265,3 +265,117 @@ function generatePractice() {
                        `<\/script>`;
 
             correctAnswer = `The paragraph displays "[object HTMLOptionsCollection]" because .options returns an array-like object of options, not the selected value.`;
+            distractors = [
+                `The paragraph text changes to "${selectedOpt}".`,
+                `The paragraph text changes to "${opt1}, ${opt2}".`,
+                `Nothing happens because dropdown menus do not support JavaScript.`
+            ];
+        } else {
+            // Valid code
+            codeText = `<select id="${inputId}">\n` +
+                       `  <option value="${opt1}">${opt1}</option>\n` +
+                       `  <option value="${opt2}">${opt2}</option>\n` +
+                       `</select>\n` +
+                       `<button id="${btnId}" onclick="${funcName}()">${btnText}</button>\n` +
+                       `<p id="${pId}">${initialText}</p>\n` +
+                       `<script>\n` +
+                       `function ${funcName}() {\n` +
+                       `    let choiceVal = document.getElementById("${inputId}").value;\n` +
+                       `    document.getElementById("${pId}").innerHTML = "Selected: " + choiceVal;\n` +
+                       `}\n` +
+                       `<\/script>`;
+
+            correctAnswer = `The paragraph text changes from "${initialText}" to "Selected: ${selectedOpt}".`;
+            distractors = [
+                `The paragraph text changes from "${initialText}" to "Selected: ${selectedOpt === opt1 ? opt2 : opt1}".`,
+                `The paragraph text changes to "Selected: option".`,
+                `The dropdown menu resets to the first option.`
+            ];
+        }
+
+    // ----------------------------------------------------
+    // TYPE 4: RANGE SLIDER (<input type="range">)
+    // ----------------------------------------------------
+    } else if (inputTypeIndex === 4) {
+        let sliderVal = choice(["10", "25", "50", "75", "100"]);
+
+        questionText = `Assuming the slider is set to ${sliderVal} and the user clicks the button, what happens?`;
+
+        if (isBug) {
+            // Bug: .innerHTML on range input instead of .value
+            codeText = `<input type="range" id="${inputId}" min="0" max="100" value="50">\n` +
+                       `<button id="${btnId}" onclick="${funcName}()">${btnText}</button>\n` +
+                       `<p id="${pId}">${initialText}</p>\n` +
+                       `<script>\n` +
+                       `function ${funcName}() {\n` +
+                       `    let val = document.getElementById("${inputId}").innerHTML;\n` +
+                       `    document.getElementById("${pId}").innerHTML = "Level: " + val;\n` +
+                       `}\n` +
+                       `<\/script>`;
+
+            correctAnswer = `The paragraph displays "Level: " (with nothing after it) because range inputs use .value, not .innerHTML.`;
+            distractors = [
+                `The paragraph text changes to "Level: ${sliderVal}".`,
+                `The paragraph text changes to "Level: 50".`,
+                `The slider resets to zero.`
+            ];
+        } else {
+            // Valid code
+            codeText = `<input type="range" id="${inputId}" min="0" max="100" value="50">\n` +
+                       `<button id="${btnId}" onclick="${funcName}()">${btnText}</button>\n` +
+                       `<p id="${pId}">${initialText}</p>\n` +
+                       `<script>\n` +
+                       `function ${funcName}() {\n` +
+                       `    let val = document.getElementById("${inputId}").value;\n` +
+                       `    document.getElementById("${pId}").innerHTML = "Level: " + val;\n` +
+                       `}\n` +
+                       `<\/script>`;
+
+            correctAnswer = `The paragraph text changes from "${initialText}" to "Level: ${sliderVal}".`;
+            distractors = [
+                `The paragraph text changes from "${initialText}" to "Level: 50" (ignores user sliding).`,
+                `The paragraph text changes to "Level: range".`,
+                `Nothing happens because range sliders require an oninput event.`
+            ];
+        }
+    }
+
+    // Set Question Prompt & Code Block Output
+    document.getElementById("question").innerText = questionText;
+    document.getElementById("output").innerText = codeText;
+
+    // Shuffle and display choices
+    currentCorrectAnswer = correctAnswer;
+    let choices = [correctAnswer, ...distractors];
+    choices.sort(() => Math.random() - 0.5);
+
+    let optionsHtml = "<ol type='A'>";
+    for (let opt of choices) {
+        optionsHtml += `<li>${opt}</li>`;
+    }
+    optionsHtml += "</ol>";
+
+    document.getElementById("optionsContainer").innerHTML = optionsHtml;
+
+    // Reset Answer Reveal
+    document.getElementById("answer").innerText = "";
+    document.getElementById("answer").style.display = "none";
+}
+
+function revealAnswer() {
+    const answerElement = document.getElementById("answer");
+    answerElement.innerText = "Answer: " + currentCorrectAnswer;
+    answerElement.style.display = "inline";
+}
+
+function getRandomNumber(max, min = 0) {
+    return Math.floor(Math.random() * (max - min)) + min;
+}
+
+function choice(arr) {
+    return arr[getRandomNumber(arr.length)];
+}
+</script>
+<br>
+<hr>
+<br>
