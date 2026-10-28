@@ -212,6 +212,10 @@ function addWordsToDictionary(wordArray){
 Copy/paste your swapText(fullSentence, oldWord, newWord) function from the Replacement Bot project.
 We will use it to replace punctuation. For example, swapText("Yes! No! Maybe!", "!", "?") would return "Yes? No? Maybe?"
 
+Your swapText MUST end with a return statement. For example, `return result;`
+
+IMPORTANT: if you used an alert in your old swapText code, you will need to remove the alert. For example, if you previously had `alert(finalSentence)` you will change it to `return finalSentence;`
+
 
 ### Train Model
 
