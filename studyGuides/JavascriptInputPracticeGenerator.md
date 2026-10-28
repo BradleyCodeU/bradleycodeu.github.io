@@ -131,60 +131,98 @@ function generatePractice() {
         }
 
     // ----------------------------------------------------
-    // TYPE 1: RADIO BUTTON (<input type="radio">)
+    // TYPE 1: RADIO BUTTONS (2 Radio Buttons)
     // ----------------------------------------------------
     } else if (inputTypeIndex === 1) {
-        let radVal = choice(["Yes", "No", "Standard", "Express"]);
-        let isChecked = Math.random() < 0.5;
+        let pair = choice(radioPairs);
+        let val1 = pair[0];
+        let val2 = pair[1];
+        let groupName = choice(["optionGroup", "userChoice", "modeGroup", "statusSelection"]);
+        
+        let radId1 = choice(inputNames) + "Opt1";
+        let radId2 = choice(inputNames) + "Opt2";
+        while (radId2 === radId1) radId2 = choice(inputNames) + "Opt2";
 
-        questionText = `Assuming the radio button is currently ${isChecked ? "checked" : "UNCHECKED"} and the user clicks the button, what happens?`;
+        let selectedNum = Math.random() < 0.5 ? 1 : 2;
+        let selectedVal = selectedNum === 1 ? val1 : val2;
+        let otherVal = selectedNum === 1 ? val2 : val1;
+
+        questionText = `Assuming the user selects "${selectedVal}" (${selectedNum === 1 ? "the first" : "the second"} radio button) and clicks the button, what happens?`;
 
         if (isBug) {
-            // Bug: Checking .value instead of .checked
-            codeText = `<input type="radio" id="${inputId}" value="${radVal}"> Option\n` +
-                       `<button id="${btnId}" onclick="${funcName}()">${btnText}</button>\n` +
-                       `<p id="${pId}">${initialText}</p>\n` +
-                       `<script>\n` +
-                       `function ${funcName}() {\n` +
-                       `    if (document.getElementById("${inputId}").value == true) {\n` +
-                       `        document.getElementById("${pId}").innerHTML = "Selected!";\n` +
-                       `    } else {\n` +
-                       `        document.getElementById("${pId}").innerHTML = "Not Selected!";\n` +
-                       `    }\n` +
-                       `}\n` +
-                       `<\/script>`;
+            let bugType = getRandomNumber(2);
+            if (bugType === 0) {
+                // Bug: Testing .value == true instead of .checked
+                codeText = `<input type="radio" name="${groupName}" id="${radId1}" value="${val1}"> ${val1}\n` +
+                           `<input type="radio" name="${groupName}" id="${radId2}" value="${val2}"> ${val2}\n` +
+                           `<button id="${btnId}" onclick="${funcName}()">${btnText}</button>\n` +
+                           `<p id="${pId}">${initialText}</p>\n` +
+                           `<script>\n` +
+                           `function ${funcName}() {\n` +
+                           `    if (document.getElementById("${radId1}").value == true) {\n` +
+                           `        document.getElementById("${pId}").innerHTML = "Selected: ${val1}";\n` +
+                           `    } else if (document.getElementById("${radId2}").value == true) {\n` +
+                           `        document.getElementById("${pId}").innerHTML = "Selected: ${val2}";\n` +
+                           `    } else {\n` +
+                           `        document.getElementById("${pId}").innerHTML = "None selected";\n` +
+                           `    }\n` +
+                           `}\n` +
+                           `<\/script>`;
 
-            correctAnswer = `The paragraph displays "Not Selected!" regardless of state because .value returns string "${radVal}" (not true/false). It should use .checked.`;
-            distractors = [
-                isChecked ? `The paragraph text changes to "Selected!".` : `The paragraph text changes to "Not Selected!".`,
-                `Nothing happens because radio buttons cannot have a value attribute.`,
-                `The paragraph text changes to "${radVal}".`
-            ];
+                correctAnswer = `The paragraph displays "None selected" because .value returns a string, not a boolean true/false. It should use .checked.`;
+                distractors = [
+                    `The paragraph text changes to "Selected: ${selectedVal}".`,
+                    `The paragraph text changes to "Selected: ${otherVal}".`,
+                    `Nothing happens because radio buttons cannot share the same group name.`
+                ];
+            } else {
+                // Bug: Using .selected instead of .checked
+                codeText = `<input type="radio" name="${groupName}" id="${radId1}" value="${val1}"> ${val1}\n` +
+                           `<input type="radio" name="${groupName}" id="${radId2}" value="${val2}"> ${val2}\n` +
+                           `<button id="${btnId}" onclick="${funcName}()">${btnText}</button>\n` +
+                           `<p id="${pId}">${initialText}</p>\n` +
+                           `<script>\n` +
+                           `function ${funcName}() {\n` +
+                           `    if (document.getElementById("${radId1}").selected) {\n` +
+                           `        document.getElementById("${pId}").innerHTML = "Selected: ${val1}";\n` +
+                           `    } else if (document.getElementById("${radId2}").selected) {\n` +
+                           `        document.getElementById("${pId}").innerHTML = "Selected: ${val2}";\n` +
+                           `    } else {\n` +
+                           `        document.getElementById("${pId}").innerHTML = "None selected";\n` +
+                           `    }\n` +
+                           `}\n` +
+                           `<\/script>`;
+
+                correctAnswer = `The paragraph displays "None selected" because radio buttons use .checked, not .selected.`;
+                distractors = [
+                    `The paragraph text changes to "Selected: ${selectedVal}".`,
+                    `The paragraph text changes to "Selected: ${otherVal}".`,
+                    `The page throws an error because .selected can only be used on checkboxes.`
+                ];
+            }
         } else {
-            // Valid code
-            codeText = `<input type="radio" id="${inputId}" value="${radVal}"> Option\n` +
+            // Valid code with 2 radio buttons
+            codeText = `<input type="radio" name="${groupName}" id="${radId1}" value="${val1}"> ${val1}\n` +
+                       `<input type="radio" name="${groupName}" id="${radId2}" value="${val2}"> ${val2}\n` +
                        `<button id="${btnId}" onclick="${funcName}()">${btnText}</button>\n` +
                        `<p id="${pId}">${initialText}</p>\n` +
                        `<script>\n` +
                        `function ${funcName}() {\n` +
-                       `    if (document.getElementById("${inputId}").checked) {\n` +
-                       `        document.getElementById("${pId}").innerHTML = "Choice: " + document.getElementById("${inputId}").value;\n` +
+                       `    if (document.getElementById("${radId1}").checked) {\n` +
+                       `        document.getElementById("${pId}").innerHTML = "Selected: " + document.getElementById("${radId1}").value;\n` +
+                       `    } else if (document.getElementById("${radId2}").checked) {\n` +
+                       `        document.getElementById("${pId}").innerHTML = "Selected: " + document.getElementById("${radId2}").value;\n` +
                        `    } else {\n` +
                        `        document.getElementById("${pId}").innerHTML = "None selected";\n` +
                        `    }\n` +
                        `}\n` +
                        `<\/script>`;
 
-            if (isChecked) {
-                correctAnswer = `The paragraph text changes from "${initialText}" to "Choice: ${radVal}".`;
-            } else {
-                correctAnswer = `The paragraph text changes from "${initialText}" to "None selected".`;
-            }
-
+            correctAnswer = `The paragraph text changes from "${initialText}" to "Selected: ${selectedVal}".`;
             distractors = [
-                isChecked ? `The paragraph text changes to "None selected".` : `The paragraph text changes to "Choice: ${radVal}".`,
-                `The paragraph text changes to "Choice: true".`,
-                `Nothing happens because .checked is not a valid property.`
+                `The paragraph text changes from "${initialText}" to "Selected: ${otherVal}".`,
+                `The paragraph text changes to "Selected: true".`,
+                `The paragraph text changes to "None selected".`
             ];
         }
 
