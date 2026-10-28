@@ -19,7 +19,7 @@ title: JS Input Practice Generator
 <script>
 const inputNames = ["userName", "userAge", "userColor", "volumeLevel", "userRating", "agreeTerms", "newsletter", "themeSelect", "sizeChoice", "speedSlider", "scoreInput", "userBio"];
 const optionsList = ["Small", "Medium", "Large", "Dark Mode", "Light Mode", "Standard", "Express", "VIP"];
-const radioPairsList = [["Yes", "No"], ["Standard", "Express"], ["Dark Mode", "Light Mode"], ["Option A", "Option B"]];
+const radioPairs = [["Yes", "No"], ["Standard", "Express"], ["Dark Mode", "Light Mode"], ["Option A", "Option B"]];
 const buttonTexts = ["Submit", "Apply Settings", "Check Input", "Update Display", "Save", "Process"];
 const initialPTexts = ["Result: None", "Waiting for input...", "Output: Default", "Status: Pending", "Empty"];
 
@@ -57,6 +57,7 @@ function generatePractice() {
         if (isBug) {
             let bugType = getRandomNumber(3);
             if (bugType === 0) {
+                // Bug: .innerHTML on input
                 codeText = `<input type="text" id="${inputId}" value="${defaultVal}">\n` +
                            `<button id="${btnId}" onclick="${funcName}()">${btnText}</button>\n` +
                            `<p id="${pId}">${initialText}</p>\n` +
@@ -67,13 +68,14 @@ function generatePractice() {
                            `}\n` +
                            `<\/script>`;
 
-                correctAnswer = `The paragraph displays empty/blank text because &lt;input&gt; tags use .value, not .innerHTML, to get user input.`;
+                correctAnswer = `The paragraph displays empty/blank text because <input> tags use .value, not .innerHTML, to get user input.`;
                 distractors = [
+                    `Nothing happens because .innerHTML is an invalid property for form inputs.`,
                     `The paragraph text changes to "${userTyped}".`,
-                    `The paragraph text changes to "${defaultVal}".`,
-                    `An error is thrown because .innerHTML cannot be assigned to a paragraph.`
+                    `The paragraph text changes to "${defaultVal}".`
                 ];
             } else if (bugType === 1) {
+                // Bug: .value() function call
                 codeText = `<input type="text" id="${inputId}" value="${defaultVal}">\n` +
                            `<button id="${btnId}" onclick="${funcName}()">${btnText}</button>\n` +
                            `<p id="${pId}">${initialText}</p>\n` +
@@ -84,13 +86,14 @@ function generatePractice() {
                            `}\n` +
                            `<\/script>`;
 
-                correctAnswer = `Nothing happens (a JavaScript error occurs) because .value is a property, not a function, so calling value() is invalid.`;
+                correctAnswer = `Nothing happens because .value is a property, not a function, so calling value() causes a runtime error.`;
                 distractors = [
                     `The paragraph text changes to "${userTyped}".`,
                     `The paragraph text changes to "${defaultVal}".`,
                     `The input text box is cleared.`
                 ];
             } else {
+                // Bug: Capital .Value
                 codeText = `<input type="text" id="${inputId}" value="${defaultVal}">\n` +
                            `<button id="${btnId}" onclick="${funcName}()">${btnText}</button>\n` +
                            `<p id="${pId}">${initialText}</p>\n` +
@@ -103,12 +106,13 @@ function generatePractice() {
 
                 correctAnswer = `The paragraph text becomes "undefined" because JavaScript is case-sensitive (.value must be lowercase).`;
                 distractors = [
+                    `Nothing happens because .Value is not recognized by JavaScript.`,
                     `The paragraph text changes to "${userTyped}".`,
-                    `The paragraph text changes to "${defaultVal}".`,
-                    `Nothing happens because Value automatically capitalizes the user text.`
+                    `The paragraph text changes to "${defaultVal}".`
                 ];
             }
         } else {
+            // Valid Text Input
             codeText = `<input type="text" id="${inputId}" value="${defaultVal}">\n` +
                        `<button id="${btnId}" onclick="${funcName}()">${btnText}</button>\n` +
                        `<p id="${pId}">${initialText}</p>\n` +
@@ -121,8 +125,8 @@ function generatePractice() {
 
             correctAnswer = `The paragraph text changes from "${initialText}" to "Hello ${userTyped}".`;
             distractors = [
+                `Nothing happens because .value cannot read user-entered text without an oninput event.`,
                 `The paragraph text changes from "${initialText}" to "Hello ${defaultVal}".`,
-                `The paragraph text changes to "${userTyped}" without "Hello ".`,
                 `The text box clears and displays "Hello ${userTyped}".`
             ];
         }
@@ -131,7 +135,7 @@ function generatePractice() {
     // TYPE 1: RADIO BUTTONS (2 Radio Buttons)
     // ----------------------------------------------------
     } else if (inputTypeIndex === 1) {
-        let pair = choice(radioPairsList);
+        let pair = choice(radioPairs);
         let val1 = pair[0];
         let val2 = pair[1];
         let groupName = choice(["optionGroup", "userChoice", "modeGroup", "statusSelection"]);
@@ -149,7 +153,7 @@ function generatePractice() {
         if (isBug) {
             let bugType = getRandomNumber(2);
             if (bugType === 0) {
-                // Bug: Testing .value == true instead of .checked
+                // Bug: .value == true
                 codeText = `<input type="radio" name="${groupName}" id="${radId1}" value="${val1}"> ${val1}\n` +
                            `<input type="radio" name="${groupName}" id="${radId2}" value="${val2}"> ${val2}\n` +
                            `<button id="${btnId}" onclick="${funcName}()">${btnText}</button>\n` +
@@ -168,12 +172,12 @@ function generatePractice() {
 
                 correctAnswer = `The paragraph displays "None selected" because .value returns a string, not a boolean true/false. It should use .checked.`;
                 distractors = [
+                    `Nothing happens because radio buttons with the same name attribute cannot be read individually by ID.`,
                     `The paragraph text changes to "Selected: ${selectedVal}".`,
-                    `The paragraph text changes to "Selected: ${otherVal}".`,
-                    `Nothing happens because radio buttons cannot share the same group name.`
+                    `The paragraph text changes to "Selected: ${otherVal}".`
                 ];
             } else {
-                // Bug: Using .selected instead of .checked
+                // Bug: .selected on radio button
                 codeText = `<input type="radio" name="${groupName}" id="${radId1}" value="${val1}"> ${val1}\n` +
                            `<input type="radio" name="${groupName}" id="${radId2}" value="${val2}"> ${val2}\n` +
                            `<button id="${btnId}" onclick="${funcName}()">${btnText}</button>\n` +
@@ -192,13 +196,13 @@ function generatePractice() {
 
                 correctAnswer = `The paragraph displays "None selected" because radio buttons use .checked, not .selected.`;
                 distractors = [
+                    `Nothing happens because .selected throws a syntax error on radio elements.`,
                     `The paragraph text changes to "Selected: ${selectedVal}".`,
-                    `The paragraph text changes to "Selected: ${otherVal}".`,
-                    `The page throws an error because .selected can only be used on checkboxes.`
+                    `The paragraph text changes to "Selected: ${otherVal}".`
                 ];
             }
         } else {
-            // Valid code with 2 radio buttons
+            // Valid Radio Buttons
             codeText = `<input type="radio" name="${groupName}" id="${radId1}" value="${val1}"> ${val1}\n` +
                        `<input type="radio" name="${groupName}" id="${radId2}" value="${val2}"> ${val2}\n` +
                        `<button id="${btnId}" onclick="${funcName}()">${btnText}</button>\n` +
@@ -217,8 +221,8 @@ function generatePractice() {
 
             correctAnswer = `The paragraph text changes from "${initialText}" to "Selected: ${selectedVal}".`;
             distractors = [
+                `Nothing happens because radio buttons require an onchange attribute instead of an onclick attribute on the button.`,
                 `The paragraph text changes from "${initialText}" to "Selected: ${otherVal}".`,
-                `The paragraph text changes to "Selected: true".`,
                 `The paragraph text changes to "None selected".`
             ];
         }
@@ -232,6 +236,7 @@ function generatePractice() {
         questionText = `Assuming the checkbox is currently ${isChecked ? "checked" : "UNCHECKED"} and the user clicks the button, what happens?`;
 
         if (isBug) {
+            // Bug: .selected on checkbox
             codeText = `<input type="checkbox" id="${inputId}"> Subscribe\n` +
                        `<button id="${btnId}" onclick="${funcName}()">${btnText}</button>\n` +
                        `<p id="${pId}">${initialText}</p>\n` +
@@ -247,11 +252,12 @@ function generatePractice() {
 
             correctAnswer = `The paragraph displays "Not Subscribed" regardless of state because checkboxes use .checked (not .selected).`;
             distractors = [
+                `Nothing happens because .selected is an invalid property for checkboxes.`,
                 isChecked ? `The paragraph text changes to "Subscribed".` : `The paragraph text changes to "Not Subscribed".`,
-                `The paragraph displays "undefined".`,
                 `The checkbox automatically unchecks itself.`
             ];
         } else {
+            // Valid Checkbox
             codeText = `<input type="checkbox" id="${inputId}"> Subscribe\n` +
                        `<button id="${btnId}" onclick="${funcName}()">${btnText}</button>\n` +
                        `<p id="${pId}">${initialText}</p>\n` +
@@ -264,9 +270,9 @@ function generatePractice() {
 
             correctAnswer = `The paragraph text changes from "${initialText}" to "Checked: ${isChecked}".`;
             distractors = [
+                `Nothing happens because .checked must be written as a function call .checked().`,
                 `The paragraph text changes from "${initialText}" to "Checked: ${!isChecked}".`,
-                `The paragraph text changes to "Checked: on".`,
-                `The paragraph text changes to "Checked: ${inputId}".`
+                `The paragraph text changes to "Checked: on".`
             ];
         }
 
@@ -285,7 +291,7 @@ function generatePractice() {
         if (isBug) {
             let bugType = getRandomNumber(3);
             if (bugType === 0) {
-                // Bug 1: Using .innerHTML on <select> instead of .value
+                // Bug: .innerHTML on select
                 codeText = `<select id="${inputId}">\n` +
                            `  <option value="${opt1}">${opt1}</option>\n` +
                            `  <option value="${opt2}">${opt2}</option>\n` +
@@ -299,14 +305,14 @@ function generatePractice() {
                            `}\n` +
                            `<\/script>`;
 
-                correctAnswer = `The paragraph displays the raw HTML text of the &lt;option&gt; tags because &lt;selectgt; uses .value, not .innerHTML, to get the selected choice.`;
+                correctAnswer = `The paragraph displays the raw HTML text of the <option> tags because <select> uses .value, not .innerHTML, to get the selected choice.`;
                 distractors = [
+                    `Nothing happens because dropdown menus do not support the .innerHTML property.`,
                     `The paragraph text changes to "${selectedOpt}".`,
-                    `The paragraph text changes to "${opt1}".`,
-                    `Nothing happens because .innerHTML cannot be used inside functions.`
+                    `The paragraph text changes to "${opt1}".`
                 ];
             } else if (bugType === 1) {
-                // Bug 2: Using .innerText on <select> instead of .value
+                // Bug: .innerText on select
                 codeText = `<select id="${inputId}">\n` +
                            `  <option value="${opt1}">${opt1}</option>\n` +
                            `  <option value="${opt2}">${opt2}</option>\n` +
@@ -322,12 +328,12 @@ function generatePractice() {
 
                 correctAnswer = `The paragraph displays all option texts combined ("${opt1} ${opt2}") because .innerText gets all text inside <select>, not just the selected choice.`;
                 distractors = [
+                    `Nothing happens because .innerText is not supported on <select> elements.`,
                     `The paragraph text changes to "${selectedOpt}".`,
-                    `The paragraph text changes to "${opt1}".`,
-                    `The paragraph text remains "${initialText}".`
+                    `The paragraph text changes to "${opt1}".`
                 ];
             } else {
-                // Bug 3: Targeting an ID placed on an <option> directly instead of reading the <select> element
+                // Bug: Target ID directly on option tag
                 let opt1Id = choice(inputNames) + "Opt1";
                 codeText = `<select id="${inputId}">\n` +
                            `  <option id="${opt1Id}" value="${opt1}">${opt1}</option>\n` +
@@ -342,15 +348,15 @@ function generatePractice() {
                            `}\n` +
                            `<\/script>`;
 
-                correctAnswer = `The paragraph always displays "Selected: ${opt1}" regardless of user selection because the code targets the first &lt;option&gt; tag directly instead of reading the &lt;select&gt; element.`;
+                correctAnswer = `The paragraph always displays "Selected: ${opt1}" regardless of user selection because the code targets the first <option> tag directly instead of reading the <select> element.`;
                 distractors = [
+                    `Nothing happens because <option> elements cannot be selected with getElementById.`,
                     `The paragraph text changes from "${initialText}" to "Selected: ${selectedOpt}".`,
-                    `The paragraph text changes from "${initialText}" to "Selected: ${selectedOpt === opt1 ? opt2 : opt1}".`,
-                    `Nothing happens because &lt;option&gt; tags cannot have id attributes.`
+                    `The paragraph text changes from "${initialText}" to "Selected: ${selectedOpt === opt1 ? opt2 : opt1}".`
                 ];
             }
         } else {
-            // Valid code
+            // Valid Select
             codeText = `<select id="${inputId}">\n` +
                        `  <option value="${opt1}">${opt1}</option>\n` +
                        `  <option value="${opt2}">${opt2}</option>\n` +
@@ -366,8 +372,8 @@ function generatePractice() {
 
             correctAnswer = `The paragraph text changes from "${initialText}" to "Selected: ${selectedOpt}".`;
             distractors = [
+                `Nothing happens because <select> elements require an onchange listener instead of an onclick button.`,
                 `The paragraph text changes from "${initialText}" to "Selected: ${selectedOpt === opt1 ? opt2 : opt1}".`,
-                `The paragraph text changes to "Selected: option".`,
                 `The dropdown menu resets to the first option.`
             ];
         }
@@ -381,6 +387,7 @@ function generatePractice() {
         questionText = `Assuming the slider is set to ${sliderVal} and the user clicks the button, what happens?`;
 
         if (isBug) {
+            // Bug: .innerHTML on range input
             codeText = `<input type="range" id="${inputId}" min="0" max="100" value="50">\n` +
                        `<button id="${btnId}" onclick="${funcName}()">${btnText}</button>\n` +
                        `<p id="${pId}">${initialText}</p>\n` +
@@ -393,11 +400,12 @@ function generatePractice() {
 
             correctAnswer = `The paragraph displays "Level: " (with nothing after it) because range inputs use .value, not .innerHTML.`;
             distractors = [
+                `Nothing happens because range sliders do not support JavaScript properties.`,
                 `The paragraph text changes to "Level: ${sliderVal}".`,
-                `The paragraph text changes to "Level: 50".`,
-                `The slider resets to zero.`
+                `The paragraph text changes to "Level: 50".`
             ];
         } else {
+            // Valid Range
             codeText = `<input type="range" id="${inputId}" min="0" max="100" value="50">\n` +
                        `<button id="${btnId}" onclick="${funcName}()">${btnText}</button>\n` +
                        `<p id="${pId}">${initialText}</p>\n` +
@@ -410,11 +418,21 @@ function generatePractice() {
 
             correctAnswer = `The paragraph text changes from "${initialText}" to "Level: ${sliderVal}".`;
             distractors = [
+                `Nothing happens because range sliders only respond to oninput events, not button clicks.`,
                 `The paragraph text changes from "${initialText}" to "Level: 50" (ignores user sliding).`,
-                `The paragraph text changes to "Level: range".`,
-                `Nothing happens because range sliders require an oninput event.`
+                `The slider value resets to 0.`
             ];
         }
+    }
+
+    // ----------------------------------------------------
+    // GUARANTEE: AT LEAST ONE "Nothing happens because" OPTION
+    // ----------------------------------------------------
+    let allChoices = [correctAnswer, ...distractors];
+    let hasNothingHappens = allChoices.some(opt => opt.startsWith("Nothing happens because"));
+    
+    if (!hasNothingHappens) {
+        distractors[0] = "Nothing happens because form input values cannot be accessed inside JavaScript functions.";
     }
 
     // Set Question Prompt & Code Block Output
@@ -453,6 +471,3 @@ function choice(arr) {
     return arr[getRandomNumber(arr.length)];
 }
 </script>
-<br>
-<hr>
-<br>
