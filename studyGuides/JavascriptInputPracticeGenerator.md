@@ -283,26 +283,74 @@ function generatePractice() {
         questionText = `Assuming the user selects "${selectedOpt}" from the dropdown menu and clicks the button, what happens?`;
 
         if (isBug) {
-            codeText = `<select id="${inputId}">\n` +
-                       `  <option value="${opt1}">${opt1}</option>\n` +
-                       `  <option value="${opt2}">${opt2}</option>\n` +
-                       `</select>\n` +
-                       `<button id="${btnId}" onclick="${funcName}()">${btnText}</button>\n` +
-                       `<p id="${pId}">${initialText}</p>\n` +
-                       `<script>\n` +
-                       `function ${funcName}() {\n` +
-                       `    let choiceVal = document.getElementById("${inputId}").options;\n` +
-                       `    document.getElementById("${pId}").innerHTML = choiceVal;\n` +
-                       `}\n` +
-                       `<\/script>`;
+            let bugType = getRandomNumber(3);
+            if (bugType === 0) {
+                // Bug 1: Using .innerHTML on <select> instead of .value
+                codeText = `<select id="${inputId}">\n` +
+                           `  <option value="${opt1}">${opt1}</option>\n` +
+                           `  <option value="${opt2}">${opt2}</option>\n` +
+                           `</select>\n` +
+                           `<button id="${btnId}" onclick="${funcName}()">${btnText}</button>\n` +
+                           `<p id="${pId}">${initialText}</p>\n` +
+                           `<script>\n` +
+                           `function ${funcName}() {\n` +
+                           `    let choiceVal = document.getElementById("${inputId}").innerHTML;\n` +
+                           `    document.getElementById("${pId}").innerHTML = choiceVal;\n` +
+                           `}\n` +
+                           `<\/script>`;
 
-            correctAnswer = `The paragraph displays "[object HTMLOptionsCollection]" because .options returns an array-like object of options, not the selected value.`;
-            distractors = [
-                `The paragraph text changes to "${selectedOpt}".`,
-                `The paragraph text changes to "${opt1}, ${opt2}".`,
-                `Nothing happens because dropdown menus do not support JavaScript.`
-            ];
+                correctAnswer = `The paragraph displays the raw HTML text of the <option> tags because <select> uses .value, not .innerHTML, to get the selected choice.`;
+                distractors = [
+                    `The paragraph text changes to "${selectedOpt}".`,
+                    `The paragraph text changes to "${opt1}".`,
+                    `Nothing happens because .innerHTML cannot be used inside functions.`
+                ];
+            } else if (bugType === 1) {
+                // Bug 2: Using .innerText on <select> instead of .value
+                codeText = `<select id="${inputId}">\n` +
+                           `  <option value="${opt1}">${opt1}</option>\n` +
+                           `  <option value="${opt2}">${opt2}</option>\n` +
+                           `</select>\n` +
+                           `<button id="${btnId}" onclick="${funcName}()">${btnText}</button>\n` +
+                           `<p id="${pId}">${initialText}</p>\n` +
+                           `<script>\n` +
+                           `function ${funcName}() {\n` +
+                           `    let choiceVal = document.getElementById("${inputId}").innerText;\n` +
+                           `    document.getElementById("${pId}").innerHTML = choiceVal;\n` +
+                           `}\n` +
+                           `<\/script>`;
+
+                correctAnswer = `The paragraph displays all option texts combined ("${opt1} ${opt2}") because .innerText gets all text inside <select>, not just the selected choice.`;
+                distractors = [
+                    `The paragraph text changes to "${selectedOpt}".`,
+                    `The paragraph text changes to "${opt1}".`,
+                    `The paragraph text remains "${initialText}".`
+                ];
+            } else {
+                // Bug 3: Targeting an ID placed on an <option> directly instead of reading the <select> element
+                let opt1Id = choice(inputNames) + "Opt1";
+                codeText = `<select id="${inputId}">\n` +
+                           `  <option id="${opt1Id}" value="${opt1}">${opt1}</option>\n` +
+                           `  <option value="${opt2}">${opt2}</option>\n` +
+                           `</select>\n` +
+                           `<button id="${btnId}" onclick="${funcName}()">${btnText}</button>\n` +
+                           `<p id="${pId}">${initialText}</p>\n` +
+                           `<script>\n` +
+                           `function ${funcName}() {\n` +
+                           `    let choiceVal = document.getElementById("${opt1Id}").value;\n` +
+                           `    document.getElementById("${pId}").innerHTML = "Selected: " + choiceVal;\n` +
+                           `}\n` +
+                           `<\/script>`;
+
+                correctAnswer = `The paragraph always displays "Selected: ${opt1}" regardless of user selection because the code targets the first <option> tag directly instead of reading the <select> element.`;
+                distractors = [
+                    `The paragraph text changes from "${initialText}" to "Selected: ${selectedOpt}".`,
+                    `The paragraph text changes from "${initialText}" to "Selected: ${selectedOpt === opt1 ? opt2 : opt1}".`,
+                    `Nothing happens because <option> tags cannot have id attributes.`
+                ];
+            }
         } else {
+            // Valid code
             codeText = `<select id="${inputId}">\n` +
                        `  <option value="${opt1}">${opt1}</option>\n` +
                        `  <option value="${opt2}">${opt2}</option>\n` +
