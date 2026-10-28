@@ -19,6 +19,7 @@ title: JS Input Practice Generator
 <script>
 const inputNames = ["userName", "userAge", "userColor", "volumeLevel", "userRating", "agreeTerms", "newsletter", "themeSelect", "sizeChoice", "speedSlider", "scoreInput", "userBio"];
 const optionsList = ["Small", "Medium", "Large", "Dark Mode", "Light Mode", "Standard", "Express", "VIP"];
+const radioPairs = [["Yes", "No"], ["Standard", "Express"], ["Dark Mode", "Light Mode"], ["Option A", "Option B"]];
 const buttonTexts = ["Submit", "Apply Settings", "Check Input", "Update Display", "Save", "Process"];
 const initialPTexts = ["Result: None", "Waiting for input...", "Output: Default", "Status: Pending", "Empty"];
 
@@ -56,7 +57,6 @@ function generatePractice() {
         if (isBug) {
             let bugType = getRandomNumber(3);
             if (bugType === 0) {
-                // Bug: .innerHTML on input instead of .value
                 codeText = `<input type="text" id="${inputId}" value="${defaultVal}">\n` +
                            `<button id="${btnId}" onclick="${funcName}()">${btnText}</button>\n` +
                            `<p id="${pId}">${initialText}</p>\n` +
@@ -74,7 +74,6 @@ function generatePractice() {
                     `An error is thrown because .innerHTML cannot be assigned to a paragraph.`
                 ];
             } else if (bugType === 1) {
-                // Bug: .value() as a function call
                 codeText = `<input type="text" id="${inputId}" value="${defaultVal}">\n` +
                            `<button id="${btnId}" onclick="${funcName}()">${btnText}</button>\n` +
                            `<p id="${pId}">${initialText}</p>\n` +
@@ -92,7 +91,6 @@ function generatePractice() {
                     `The input text box is cleared.`
                 ];
             } else {
-                // Bug: Case sensitivity (.Value)
                 codeText = `<input type="text" id="${inputId}" value="${defaultVal}">\n` +
                            `<button id="${btnId}" onclick="${funcName}()">${btnText}</button>\n` +
                            `<p id="${pId}">${initialText}</p>\n` +
@@ -111,7 +109,6 @@ function generatePractice() {
                 ];
             }
         } else {
-            // Valid code
             codeText = `<input type="text" id="${inputId}" value="${defaultVal}">\n` +
                        `<button id="${btnId}" onclick="${funcName}()">${btnText}</button>\n` +
                        `<p id="${pId}">${initialText}</p>\n` +
@@ -235,7 +232,6 @@ function generatePractice() {
         questionText = `Assuming the checkbox is currently ${isChecked ? "checked" : "UNCHECKED"} and the user clicks the button, what happens?`;
 
         if (isBug) {
-            // Bug: Using .selected instead of .checked
             codeText = `<input type="checkbox" id="${inputId}"> Subscribe\n` +
                        `<button id="${btnId}" onclick="${funcName}()">${btnText}</button>\n` +
                        `<p id="${pId}">${initialText}</p>\n` +
@@ -256,7 +252,6 @@ function generatePractice() {
                 `The checkbox automatically unchecks itself.`
             ];
         } else {
-            // Valid code
             codeText = `<input type="checkbox" id="${inputId}"> Subscribe\n` +
                        `<button id="${btnId}" onclick="${funcName}()">${btnText}</button>\n` +
                        `<p id="${pId}">${initialText}</p>\n` +
@@ -288,7 +283,6 @@ function generatePractice() {
         questionText = `Assuming the user selects "${selectedOpt}" from the dropdown menu and clicks the button, what happens?`;
 
         if (isBug) {
-            // Bug: Trying to get .innerHTML of <select> instead of .value
             codeText = `<select id="${inputId}">\n` +
                        `  <option value="${opt1}">${opt1}</option>\n` +
                        `  <option value="${opt2}">${opt2}</option>\n` +
@@ -309,7 +303,6 @@ function generatePractice() {
                 `Nothing happens because dropdown menus do not support JavaScript.`
             ];
         } else {
-            // Valid code
             codeText = `<select id="${inputId}">\n` +
                        `  <option value="${opt1}">${opt1}</option>\n` +
                        `  <option value="${opt2}">${opt2}</option>\n` +
@@ -340,7 +333,6 @@ function generatePractice() {
         questionText = `Assuming the slider is set to ${sliderVal} and the user clicks the button, what happens?`;
 
         if (isBug) {
-            // Bug: .innerHTML on range input instead of .value
             codeText = `<input type="range" id="${inputId}" min="0" max="100" value="50">\n` +
                        `<button id="${btnId}" onclick="${funcName}()">${btnText}</button>\n` +
                        `<p id="${pId}">${initialText}</p>\n` +
@@ -358,7 +350,6 @@ function generatePractice() {
                 `The slider resets to zero.`
             ];
         } else {
-            // Valid code
             codeText = `<input type="range" id="${inputId}" min="0" max="100" value="50">\n` +
                        `<button id="${btnId}" onclick="${funcName}()">${btnText}</button>\n` +
                        `<p id="${pId}">${initialText}</p>\n` +
