@@ -225,7 +225,7 @@ function getCheckboxTypeQuestion({ isBug, inputId, pId, btnId, funcName, btnText
         correctAnswer = `The paragraph displays "Not Subscribed" regardless of state because checkboxes use .checked (not .selected).`;
         distractors = [
             `Nothing happens because .selected is an invalid property for &lt;input type="checkbox"&gt; elements.`,
-            isChecked ? `The paragraph text changes to "Subscribed".` : `The paragraph text changes to "Not Subscribed".`,
+            isChecked ? `The paragraph text changes to "Subscribed".` : `The paragraph text changes to "Do Not Subscribe".`,
             `The checkbox automatically unchecks itself.`
         ];
     } else {
@@ -425,7 +425,7 @@ function getSelectTypeQuestion({ isBug, inputId, pId, btnId, funcName, btnText, 
             correctAnswer = `The paragraph always displays "Selected: ${opt1}" regardless of user selection because the code targets the first &lt;option&gt; tag directly instead of reading the &lt;select&gt; element.`;
             distractors = [
                 `Nothing happens because &lt;option&gt; elements cannot be selected with getElementById.`,
-                `The paragraph text changes from "${initialText}" to "Selected: ${selectedOpt}".`,
+                `The paragraph text changes from "${initialText}" to "${selectedOpt}".`,
                 `The paragraph text changes from "${initialText}" to "Selected: ${selectedOpt === opt1 ? opt2 : opt1}".`
             ];
         }
@@ -456,7 +456,7 @@ function getSelectTypeQuestion({ isBug, inputId, pId, btnId, funcName, btnText, 
 }
 
 function getRangeTypeQuestion({ isBug, inputId, pId, btnId, funcName, btnText, initialText }) {
-    let sliderVal = choice(["10", "25", "50", "75", "100"]);
+    let sliderVal = choice(["10", "25", "67", "75", "99"]);
 
     let questionText = `Assuming the slider is set to ${sliderVal} and the user clicks the button, what happens?`;
     let codeText = "";
