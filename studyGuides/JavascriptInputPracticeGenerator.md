@@ -67,7 +67,7 @@ function generatePractice() {
                            `}\n` +
                            `<\/script>`;
 
-                correctAnswer = `The paragraph displays empty/blank text because <input> tags use .value, not .innerHTML, to get user input.`;
+                correctAnswer = `The paragraph displays empty/blank text because &lt;input&gt; tags use .value, not .innerHTML, to get user input.`;
                 distractors = [
                     `The paragraph text changes to "${userTyped}".`,
                     `The paragraph text changes to "${defaultVal}".`,
@@ -299,7 +299,7 @@ function generatePractice() {
                            `}\n` +
                            `<\/script>`;
 
-                correctAnswer = `The paragraph displays the raw HTML text of the <option> tags because <select> uses .value, not .innerHTML, to get the selected choice.`;
+                correctAnswer = `The paragraph displays the raw HTML text of the &lt;option&gt; tags because &lt;selectgt; uses .value, not .innerHTML, to get the selected choice.`;
                 distractors = [
                     `The paragraph text changes to "${selectedOpt}".`,
                     `The paragraph text changes to "${opt1}".`,
@@ -342,11 +342,11 @@ function generatePractice() {
                            `}\n` +
                            `<\/script>`;
 
-                correctAnswer = `The paragraph always displays "Selected: ${opt1}" regardless of user selection because the code targets the first <option> tag directly instead of reading the <select> element.`;
+                correctAnswer = `The paragraph always displays "Selected: ${opt1}" regardless of user selection because the code targets the first &lt;option&gt; tag directly instead of reading the &lt;select&gt; element.`;
                 distractors = [
                     `The paragraph text changes from "${initialText}" to "Selected: ${selectedOpt}".`,
                     `The paragraph text changes from "${initialText}" to "Selected: ${selectedOpt === opt1 ? opt2 : opt1}".`,
-                    `Nothing happens because <option> tags cannot have id attributes.`
+                    `Nothing happens because &lt;option&gt; tags cannot have id attributes.`
                 ];
             }
         } else {
