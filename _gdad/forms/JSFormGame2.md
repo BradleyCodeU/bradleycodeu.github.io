@@ -5,14 +5,21 @@ title: JS Form Game 2
 ---
 Continue your form game by creating the next 3 trivia questions (Q3, Q4, and Q5).
 
+### Question 3
+
 Q3 uses a [text input box](https://www.w3schools.com/tags/att_input_type_text.asp){:target="_blank"} and one [button](https://www.w3schools.com/tags/tag_button.asp){:target="_blank"}. You will add the onclick= attribute to the button. This Javascript code will allow you to get the text within a text input box:
 ```
 var userText3 = document.getElementById("textinput3").value;
 ```
 Let's assume that the correct answer is Shrek. When the user clicks on the button, you will check if userText3 == "Shrek", then create a popup with alert() to tell the user if they are correct.
 
+### Question 4
 
-Q4 uses three or more [checkboxes](https://www.w3schools.com/tags/att_input_type_checkbox.asp){:target="_blank"} and one [button](https://www.w3schools.com/tags/tag_button.asp){:target="_blank"}. You will add the onclick= attribute to the button. You will need to determine which checkboxes are checked and which checkboxes are NOT checked. This Javascript code will allow you to get the status of a single checkbox:
+Q4 ask a question with a numeric answer. Give the user a range slider to enter their guess. Add a div with the id "numberDisplay" so that the user can see the number they have selected.
+
+### Question 5
+
+Q5 uses three or more [checkboxes](https://www.w3schools.com/tags/att_input_type_checkbox.asp){:target="_blank"} and one [button](https://www.w3schools.com/tags/tag_button.asp){:target="_blank"}. You will add the onclick= attribute to the button. You will need to determine which checkboxes are checked and which checkboxes are NOT checked. This Javascript code will allow you to get the status of a single checkbox:
 ```
 var isBoxAChecked = document.getElementById("checkboxA").checked;
 ```
@@ -28,4 +35,3 @@ if (isBoxAChecked == true && isBoxBChecked == false && isBoxCChecked == true) {
 ```
 If isBoxAChecked == true && isBoxBChecked == false && isBoxCChecked == true, then create a popup with alert() to tell the user if they are correct. Finally add an else. The else will happen if the user has any incorrect answer, then create a popup with alert() to tell the user that they are incorrect.
 
-Q5 ask a question with a numeric answer. Give the user a range slider to enter their guess. Add a div with the id "numberDisplay" so that the user can see the number they have selected.
