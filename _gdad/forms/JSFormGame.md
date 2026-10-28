@@ -5,10 +5,14 @@ title: JS Form Game 1
 ---
 Create two trivia questions.
 
+### Question 1
+
 Q1 uses [radio buttons](https://www.w3schools.com/tags/att_input_type_radio.asp){:target="_blank"}. Each radio input MUST have the same name (the same name attribute) to be treated as a group. You can simply add the onclick= attribute to the one radio button that is the correct answer.
 ```
 onclick="alert('Correct')"
 ```
+
+### Question 2
 
 Q2 uses a [select drop-down list](https://www.w3schools.com/tags/tag_select.asp){:target="_blank"}. Give select the [onchange=](https://www.w3schools.com/jsref/event_onchange.asp){:target="_blank"} attribute.
 ```
