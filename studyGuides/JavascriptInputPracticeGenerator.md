@@ -19,7 +19,7 @@ title: JS Input Practice Generator
 <script>
 const inputNames = ["userName", "userAge", "userColor", "volumeLevel", "userRating", "agreeTerms", "newsletter", "themeSelect", "sizeChoice", "speedSlider", "scoreInput", "userBio"];
 const optionsList = ["Small", "Medium", "Large", "Dark Mode", "Light Mode", "Standard", "Express", "VIP"];
-const radioPairs = [["Yes", "No"], ["Standard", "Express"], ["Dark Mode", "Light Mode"], ["Option A", "Option B"]];
+const radioPairsList = [["Yes", "No"], ["Standard", "Express"], ["Dark Mode", "Light Mode"], ["Option A", "Option B"]];
 const buttonTexts = ["Submit", "Apply Settings", "Check Input", "Update Display", "Save", "Process"];
 const initialPTexts = ["Result: None", "Waiting for input...", "Output: Default", "Status: Pending", "Empty"];
 
@@ -131,7 +131,7 @@ function generatePractice() {
     // TYPE 1: RADIO BUTTONS (2 Radio Buttons)
     // ----------------------------------------------------
     } else if (inputTypeIndex === 1) {
-        let pair = choice(radioPairs);
+        let pair = choice(radioPairsList);
         let val1 = pair[0];
         let val2 = pair[1];
         let groupName = choice(["optionGroup", "userChoice", "modeGroup", "statusSelection"]);
