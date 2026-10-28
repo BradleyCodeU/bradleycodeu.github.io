@@ -382,7 +382,7 @@ function getSelectTypeQuestion({ isBug, inputId, pId, btnId, funcName, btnText, 
             correctAnswer = `The paragraph displays the raw HTML text of the &lt;option&gt; tags because &lt;select&gt; uses .value, not .innerHTML, to get the selected choice.`;
             distractors = [
                 `Nothing happens because dropdown menus do not support the .innerHTML property.`,
-                `The paragraph text changes to "${selectedOpt}".`,
+                `The paragraph text changes to "Selected: ${selectedOpt}".`,
                 `The paragraph text changes to "${opt1}".`
             ];
         } else if (bugType === 1) {
@@ -404,7 +404,7 @@ function getSelectTypeQuestion({ isBug, inputId, pId, btnId, funcName, btnText, 
             distractors = [
                 `Nothing happens because .innerText is not supported on &lt;select&gt; elements.`,
                 `The paragraph text changes to "${selectedOpt}".`,
-                `The paragraph text changes to "${opt1}".`
+                `The paragraph text changes to "Selected: ${opt1}".`
             ];
         } else {
             // Bug 3: Target ID directly on option tag
@@ -426,7 +426,7 @@ function getSelectTypeQuestion({ isBug, inputId, pId, btnId, funcName, btnText, 
             distractors = [
                 `Nothing happens because &lt;option&gt; elements cannot be selected with getElementById.`,
                 `The paragraph text changes from "${initialText}" to "${selectedOpt}".`,
-                `The paragraph text changes from "${initialText}" to "Selected: ${selectedOpt === opt1 ? opt2 : opt1}".`
+                `The paragraph text changes to "Selected: ${selectedOpt === opt1 ? opt2 : opt1}".`
             ];
         }
     } else {
