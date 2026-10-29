@@ -96,7 +96,7 @@ function generatePractice() {
 
 function revealAnswer() {
     const answerElement = document.getElementById("answer");
-    answerElement.innerText = "Answer: " + currentCorrectAnswer;
+    answerElement.innerHTML = "Answer: " + currentCorrectAnswer;
     answerElement.style.display = "inline";
 }
 
