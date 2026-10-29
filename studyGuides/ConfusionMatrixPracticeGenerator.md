@@ -31,7 +31,7 @@ const domains = [
     {
         job: "A medical screening AI",
         totalUnit: "patients for a disease",
-        task: "detect illness",
+        task: "tries to detect illness",
         target: "the AI model",
         posText: (n) => `${n} sick patients correctly diagnosed as sick (True Positives)`,
         fnText: (n) => `${n} sick patients wrongly diagnosed as not sick (False Negatives)`,
@@ -41,7 +41,7 @@ const domains = [
     {
         job: "An email spam filter AI",
         totalUnit: "incoming emails",
-        task: "flag unwanted promotional content",
+        task: "tries to flag unwanted spam",
         target: "spam detection",
         posText: (n) => `${n} spam emails correctly flagged as spam (True Positives)`,
         fnText: (n) => `${n} spam emails missed and sent to inbox (False Negatives)`,
@@ -51,7 +51,7 @@ const domains = [
     {
         job: "A dog identification app",
         totalUnit: "photos",
-        task: "identify dogs in image files",
+        task: "attempts to find dogs in the images",
         target: "the dog identification system",
         posText: (n) => `${n} dog photos correctly identified as dogs (True Positives)`,
         fnText: (n) => `${n} dog photos incorrectly labeled as non-dogs (False Negatives)`,
@@ -61,7 +61,7 @@ const domains = [
     {
         job: "An automated plagiarism detector",
         totalUnit: "student essays",
-        task: "scan for unoriginal text",
+        task: "tries to find plagiarized text",
         target: "the plagiarism detector",
         posText: (n) => `${n} plagiarized essays correctly flagged (True Positives)`,
         fnText: (n) => `${n} plagiarized essays missed by the system (False Negatives)`,
@@ -71,7 +71,7 @@ const domains = [
     {
         job: "A facial recognition security system",
         totalUnit: "people entering a building",
-        task: "authorize registered staff",
+        task: "authorizes registered staff",
         target: "the facial recognition system",
         posText: (n) => `${n} authorized employees correctly identified (True Positives)`,
         fnText: (n) => `${n} authorized employees wrongfully denied entry (False Negatives)`,
@@ -81,7 +81,7 @@ const domains = [
     {
         job: "A birdsong identification system",
         totalUnit: "audio recordings of animal sounds",
-        task: "identify that a bird is singing",
+        task: "tries to identify that a bird is singing",
         target: "the birdsong recognition system",
         posText: (n) => `${n} birdsongs correctly identified (True Positives)`,
         fnText: (n) => `${n} birdsongs not marked as "birdsong" (False Negatives)`,
