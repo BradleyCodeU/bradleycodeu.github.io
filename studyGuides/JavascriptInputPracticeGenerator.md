@@ -135,7 +135,7 @@ function getTextTypeQuestion({ isBug, inputId, pId, btnId, funcName, btnText, in
 
             correctAnswer = `The paragraph displays empty/blank text because &lt;input&gt; tags use .value, not .innerHTML, to get user input.`;
             distractors = [
-                `Nothing happens because .innerHTML is an invalid property for form inputs.`,
+                `Nothing happens because .innerHTML should be .checked`,
                 `The paragraph text changes to "${userTyped}".`,
                 `The paragraph text changes to "${defaultVal}".`
             ];
@@ -171,7 +171,7 @@ function getTextTypeQuestion({ isBug, inputId, pId, btnId, funcName, btnText, in
 
             correctAnswer = `The paragraph text becomes "undefined" because JavaScript is case-sensitive (.value must be lowercase).`;
             distractors = [
-                `Nothing happens because .Value is not recognized by JavaScript.`,
+                `Nothing happens because .Value should be .checked`,
                 `The paragraph text changes to "${userTyped}".`,
                 `The paragraph text changes to "${defaultVal}".`
             ];
@@ -224,7 +224,7 @@ function getCheckboxTypeQuestion({ isBug, inputId, pId, btnId, funcName, btnText
 
         correctAnswer = `The paragraph displays "Not Subscribed" regardless of state because checkboxes use .checked (not .selected).`;
         distractors = [
-            `Nothing happens because .selected is an invalid property for &lt;input type="checkbox"&gt; elements.`,
+            `Nothing happens because .selected should be .value`,
             isChecked ? `The paragraph text changes to "Subscribed".` : `The paragraph text changes to "Do Not Subscribe".`,
             `The checkbox automatically unchecks itself.`
         ];
@@ -242,7 +242,7 @@ function getCheckboxTypeQuestion({ isBug, inputId, pId, btnId, funcName, btnText
 
         correctAnswer = `The paragraph text changes from "${initialText}" to "Checked: ${isChecked}".`;
         distractors = [
-            `Nothing happens because .checked must be written as a function call .checked().`,
+            `Nothing happens because .checked must be written as a function call .checked()`,
             `The paragraph text changes from "${initialText}" to "Checked: ${!isChecked}".`,
             `The paragraph text changes to "Checked: on".`
         ];
@@ -290,9 +290,9 @@ function getRadioTypeQuestion({ isBug, pId, btnId, funcName, btnText, initialTex
                        `}\n` +
                        `<\/script>`;
 
-            correctAnswer = `The paragraph displays "None selected" because .value returns a string, not a boolean true/false. It should use .checked.`;
+            correctAnswer = `The paragraph displays "None selected" because .value returns a string, not a boolean true/false. It should use .checked`;
             distractors = [
-                `Nothing happens because radio buttons with the same name attribute cannot be read individually by ID.`,
+                `Nothing happens because radio buttons cannot have the same name attribute.`,
                 `The paragraph text changes to "Selected: ${selectedVal}".`,
                 `The paragraph text changes to "Selected: ${otherVal}".`
             ];
@@ -314,9 +314,9 @@ function getRadioTypeQuestion({ isBug, pId, btnId, funcName, btnText, initialTex
                        `}\n` +
                        `<\/script>`;
 
-            correctAnswer = `The paragraph displays "None selected" because radio buttons use .checked, not .selected.`;
+            correctAnswer = `The paragraph displays "None selected" because radio buttons use .checked, not .selected`;
             distractors = [
-                `Nothing happens because .selected throws a runtime error on &lt;input type="radio"&gt; elements.`,
+                `Nothing happens because .selected should be .value`,
                 `The paragraph text changes to "Selected: ${selectedVal}".`,
                 `The paragraph text changes to "Selected: ${otherVal}".`
             ];
@@ -381,7 +381,7 @@ function getSelectTypeQuestion({ isBug, inputId, pId, btnId, funcName, btnText, 
 
             correctAnswer = `The paragraph displays the raw HTML text of the &lt;option&gt; tags because &lt;select&gt; uses .value, not .innerHTML, to get the selected choice.`;
             distractors = [
-                `Nothing happens because dropdown menus do not support the .innerHTML property.`,
+                `Nothing happens because .innerHTML should be .checked`,
                 `The paragraph text changes to "Selected: ${selectedOpt}".`,
                 `The paragraph text changes to "${opt1}".`
             ];
@@ -402,7 +402,7 @@ function getSelectTypeQuestion({ isBug, inputId, pId, btnId, funcName, btnText, 
 
             correctAnswer = `The paragraph displays all option texts combined ("${opt1} ${opt2}") because .innerText gets all text inside &lt;select&gt;, not just the selected choice.`;
             distractors = [
-                `Nothing happens because .innerText is not supported on &lt;select&gt; elements.`,
+                `Nothing happens because .innerText should be .innerHTML`,
                 `The paragraph text changes to "${selectedOpt}".`,
                 `The paragraph text changes to "Selected: ${opt1}".`
             ];
@@ -424,7 +424,7 @@ function getSelectTypeQuestion({ isBug, inputId, pId, btnId, funcName, btnText, 
 
             correctAnswer = `The paragraph always displays "Selected: ${opt1}" regardless of user selection because the code targets the first &lt;option&gt; tag directly instead of reading the &lt;select&gt; element.`;
             distractors = [
-                `Nothing happens because &lt;option&gt; elements cannot be selected with getElementById.`,
+                `Nothing happens because &lt;option&gt; elements cannot have a value.`,
                 `The paragraph text changes from "${initialText}" to "${selectedOpt}".`,
                 `The paragraph text changes to "Selected: ${selectedOpt === opt1 ? opt2 : opt1}".`
             ];
@@ -446,7 +446,7 @@ function getSelectTypeQuestion({ isBug, inputId, pId, btnId, funcName, btnText, 
 
         correctAnswer = `The paragraph text changes from "${initialText}" to "Selected: ${selectedOpt}".`;
         distractors = [
-            `Nothing happens because &lt;select&gt; elements require an onchange listener instead of an onclick button.`,
+            `Nothing happens because &lt;select&gt; elements require an onchange event listener instead of an onclick button.`,
             `The paragraph text changes from "${initialText}" to "Selected: ${selectedOpt === opt1 ? opt2 : opt1}".`,
             `The dropdown menu resets to the first option.`
         ];
@@ -477,7 +477,7 @@ function getRangeTypeQuestion({ isBug, inputId, pId, btnId, funcName, btnText, i
 
         correctAnswer = `The paragraph displays "Level: " (with nothing after it) because range inputs use .value, not .innerHTML.`;
         distractors = [
-            `Nothing happens because &lt;input type="range"&gt; elements do not support JavaScript properties.`,
+            `Nothing happens because &lt;input type="range"&gt; cannot have a value attribute`,
             `The paragraph text changes to "Level: ${sliderVal}".`,
             `The paragraph text changes to "Level: 50".`
         ];
