@@ -77,3 +77,8 @@ function fight(weapon){
 ### CHALLENGE
 
 Make the background turn green if the player wins and red if the player loses.
+
+
+### Testing Suite
+
+test_bossBattle.js
