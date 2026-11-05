@@ -18,7 +18,7 @@ In 2017, 22 million comments were filed with the Federal Communications Commissi
 
 Decide what type of a generator you are going to make. Ideas include: Video Game Titles, New Sports Teams, Bad Guy Names and Powers, Heavy Metal Band Names, NPC Speech Text, Horse/My Little Pony/Unicorn Names, Harry Potter Characters, Book Titles and Authors, Random Poetry.
 
-Create at least 3 lists for each noun/verb/adjective/name/place with 12 or more words in each list.
+Create 3 or more lists. Must have 12 or more words in each list. One student might do nouns/verbs/adjectives. Another might do names/jobs/places. Another could do beginnings/middles/endings.
 
 Get a random index number using Math.floor(), Math.random(), and myArray.length. Like this: ```randomNumber = Math.floor(Math.random() * myArray.length)```
 
