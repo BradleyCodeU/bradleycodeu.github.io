@@ -183,9 +183,12 @@ playerHealth = 0;
 bossHealth = 20;
 checkForWins();
 assertTest(
-  document.body.style.backgroundColor === "red" &&
-  document.getElementById("playerButtons").style.display === "none",
-  "checkForWins() sets red background and hides buttons when player health <= 0"
+  document.body.style.backgroundColor === "red",
+  "checkForWins() sets backgroundColor to be the word 'red' when player health <= 0"
+);
+assertTest(
+  document.getElementById("playerButtons").style.display === "none" || document.getElementById("playerButtons").style.visibility === "hidden",
+  "checkForWins() hides buttons when player health <= 0"
 );
 
 // Player victory state
@@ -194,9 +197,26 @@ playerHealth = 20;
 bossHealth = 0;
 checkForWins();
 assertTest(
-  document.body.style.backgroundColor === "green" &&
-  document.getElementById("playerButtons").style.display === "none",
-  "checkForWins() sets green background and hides buttons when boss health <= 0"
+  document.body.style.backgroundColor === "green",
+  "checkForWins() sets backgroundColor to be the word 'green' when boss health <= 0"
+);
+assertTest(
+  document.getElementById("playerButtons").style.display === "none" || document.getElementById("playerButtons").style.visibility === "hidden",
+  "checkForWins() hides buttons when boss health <= 0"
+);
+
+// Tie state
+document.getElementById("playerButtons").style.display = "block";
+playerHealth = -1;
+bossHealth = -2;
+checkForWins();
+assertTest(
+  document.body.style.backgroundColor === "red",
+  "checkForWins() sets backgroundColor to be the word 'red' when both player health and boss health are less than zero"
+);
+assertTest(
+  document.getElementById("playerButtons").style.display === "none" || document.getElementById("playerButtons").style.visibility === "hidden",
+  "checkForWins() hides buttons when both player health and boss health are less than zero"
 );
 
 // --- Restore Environment Mocks ---
