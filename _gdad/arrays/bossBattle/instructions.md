@@ -77,8 +77,12 @@ function fight(weapon) {
 
 ## REMOVE THE ALERTS
 
-I hate alerts with a passion. They are so obnoxious. Make a function names showText(newText).
-It takes an argument named newText, adds a "&lt;br&gt;", and it adds it onto the textDisplay div.
+I hate alerts with a passion. They are so obnoxious. 
+
+- Make a function named showText(newText) that takes one argument named newText
+  - add "&lt;br&gt;" onto the end of newText
+  - add the newText onto the textDisplay div. Use innerHTML and += to do this
+  
 Finally, find and replace all alert() function calls with showText() function calls.
 
 ### CHALLENGE
