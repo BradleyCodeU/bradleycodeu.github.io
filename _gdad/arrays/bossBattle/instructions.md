@@ -13,7 +13,7 @@ In your HTML file...
   - create a button that says "Fire Spell" and when clicked "fight('fire spell')"
   - create a button that says "Ice Sword" and when clicked "fight('ice sword')"
   - create a button that says "Fire Sword" and when clicked "fight('fire sword')"
-
+- create a div and give it the id "textDisplay"
 
 The rest of the code will be in your JS file...
 
@@ -62,17 +62,24 @@ Define a function named checkForWins
 
 Here is the starter code for the fight function:
 ```
-function fight(weapon){
+function fight(weapon) {
   let damage = hitBoss(weapon);
   bossHealth = bossHealth - damage;
   // use document.getElementById to update the bossHealthBox
-  if (bossHealth > 0)
+  if (bossHealth > 0) {
       damage = hitPlayer();
       playerHealth = playerHealth - damage;
+  }
   // use document.getElementById to update the playerHealthBox
   checkForWins();
 }
 ```
+
+## REMOVE THE ALERTS
+
+I hate alerts with a passion. They are so obnoxious. Make a function names showText(newText).
+It takes an argument named newText, adds a "&lt;br&gt;", and it adds it onto the textDisplay div.
+Finally, find and replace all alert() function calls with showText() function calls.
 
 ### CHALLENGE
 
