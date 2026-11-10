@@ -10,6 +10,7 @@ title: Guess One Letter
   - Put underscores in the H1, like this: _ _ _
 - Create a text input
 - Create a submit button
+- Create a div and give it the ID wrongAnswerDisplay
 
 ## In Javascript...
 
@@ -30,6 +31,10 @@ Write a function called guessLetter that requires one argument: checkLetter<span
   - clear the text input
   - congratulate the user
   - figure out if there are any more letters that need to be guessed, and if not, congratulate the user for winning the game.
+- Else
+  - write a comment that says // the user's guess was wrong
+  - add the guessed letter onto the wrongAnswerDisplay
+
 
 ## Challenge:
 
