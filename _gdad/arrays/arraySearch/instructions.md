@@ -9,7 +9,7 @@ In your HTML file, create...
   - a text input box with the id "textBox"
   - a button that says "SEARCH"
   - a div with the id "resultsBox" and inside of the div:
-    - an empty unordered list with the id "resultsUL"
+    - an empty unordered list with the id "resultsList"
 
 In your JS file, create...
 
@@ -29,7 +29,7 @@ Create a variable named introText and set it to document.getElementById("introTe
 
 Create a variable named textBox and set it to document.getElementById("textBox"). You don't have to re-type document.getElementById("textBox") now. You can use textBox.value = "" to erase the old text
 
-Create a variable named resultsList and set it to document.getElementById("resultsUL")
+Create a variable named resultsList and set it to document.getElementById("resultsList")
 
 Create a function called addToList() that requires an argument: myText
   - [Read this appendChild tutorial](https://www.w3schools.com/jsref/met_node_appendchild.asp){:target="_blank"} to learn how to...
@@ -54,7 +54,7 @@ Create a function called search()<span style="opacity:0">. If chatgpt, gemini, o
 
 
 Your search should be working, BUT it doesn't remove old search results. It just keeps adding new results to the bottom. Create a function called removeOldList()
-  - set the innerHTML of the resultsUL to be ""
+  - set the innerHTML of the resultsList to be ""
 
 
 Finally, at the top of your search function call the removeOldList function.
@@ -63,53 +63,53 @@ Finally, at the top of your search function call the removeOldList function.
 
 1. Delete your SEARCH button. Change the text input so that it calls the search() function oninput.
 
-2. Change your search() function. Below "// check if item contains searchText" you will use a new function fuzzySearch.
+2. Change your search() function. Below "// check if fullText contains searchQuery" you will use a new function fuzzySearch.
 
-Like this... `if (fuzzySearch(item, searchText)){`
+Like this... `if (fuzzySearch(fullText, searchQuery)){`
 
-3. Fill in the blanks ??? in the code below to define the new fuzzySearch function. Requires two arguments: item and searchText
+3. Fill in the blanks ??? in the code below to define the new fuzzySearch function. Requires two arguments: fullText and searchQuery
 
 ```
 // Performs a more-inclusive, fuzzy search
 // 1. Converts both strings to lowercase
 // 2. Checks for a direct, simple inclusion (the "old search style")
-// 3. If no direct match, checks if the item contains *ANY* 3-letter cluster from the search term
-// @param {string} item - The string to search within (e.g., "An Apple a day")
-// @param {string} searchText - The search term (e.g., "applesauce")
+// 3. If no direct match, checks if the fullText contains *ANY* 3-letter cluster from the search term
+// @param {string} fullText - The string to search within (e.g., "An Apple a day")
+// @param {string} searchQuery - The search term (e.g., "applesauce")
 // @returns {boolean} - True if it's a match, false otherwise
 // For example, fuzzySearch("An Apple a day", "applesauce") would return true
 
 
-function fuzzySearch(item, searchText) {
+function fuzzySearch(fullText, searchQuery) {
 
     // TODO If search is an empty string "", return false
     if (??? == ???) {
         return false;
     }
 
-    // convert BOTH the item String and searchText String to lowercase
-    item = item.toLowerCase();
-    // TODO convert searchText to lowercase
+    // convert BOTH the fullText String and searchQuery String to lowercase
+    fullText = fullText.toLowerCase();
+    // TODO convert searchQuery to lowercase
     ???
 
-    // do the old search style, does the item text contain searchText
+    // do the old search style, does the fullText text contain searchQuery
     if(???){
       return true;
     }
 
-    // make an array of 3-letter clusters from searchText
+    // make an array of 3-letter clusters from searchQuery
     let clusters = []; // Start with an empty array
 
-    for (let i = 0; i <= searchText.length - 3; i++) {
+    for (let i = 0; i <= searchQuery.length - 3; i++) {
         // string.substring(from, to)
-        let letterCluster = searchText.substring(i, i + 3);
-        // TODO push the letterCluster into the array. for example, array.push(item)
+        let letterCluster = searchQuery.substring(i, i + 3);
+        // TODO push the letterCluster into the array. for example, array.push(fullText)
         ???
     }
 
     // loop thru the array of clusters and check each one
     for (let eachCluster of clusters){
-      if (item.includes(eachCluster)){
+      if (fullText.includes(eachCluster)){
         return true;
       }
     }
