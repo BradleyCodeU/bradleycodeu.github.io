@@ -1,9 +1,9 @@
 ---
 layout: project
 category: arrays
-title: JS Array Push Pop Practice
+title: JS Array Practice Generator
 ---
-<p>Practice for array sort(), indexOf(), push(), and pop()</p>
+
 <button onclick="generatePractice()">Generate Array Practice</button>
 <p id="question"></p>
 <pre id="output"></pre>
@@ -13,7 +13,6 @@ title: JS Array Push Pop Practice
         <td><span id="answer" style="display:none;"></span></td>
     </tr>
 </table>
-
 
 <script>
 let currentAnswer = "";
@@ -34,85 +33,119 @@ function generatePractice() {
     const varBOptions = ["index", "item", "idNum", "position", "val", "location", "loc", "pos", "counter", "address", "foo"];
     const varB = choice(varBOptions);
 
-    const methods = ["sort", "indexOf", "push", "pop"];
-    const method = choice(methods);
+    const method = choice(["sort", "indexOf", "push", "pop"]);
     const isUndefined = Math.random() < 0.20;
 
-    // Base array of 4 to 6 single-digit non-negative integers
-    const arrayLen = getRandomNumber(7, 4);
+    // Generate base list of 4 to 6 numbers
     let ml = [];
-    for (let i = 0; i < arrayLen; i++) {
-        ml.push(getRandomNumber(9, 0));
+    const len = getRandomNumber(7, 4);
+    for (let i = 0; i < len; i++) {
+        ml.push(getRandomNumber(9));
     }
 
     if (method === "indexOf") {
+        let offset = Math.random() < 0.5 ? 2 : -2;
         let target;
+
         if (isUndefined) {
-            // Target is not in the array so indexOf returns -1 -> arr[-1] is undefined
-            let missing = [];
-            for (let i = 0; i < 10; i++) {
-                if (!ml.includes(i)) missing.push(i);
+            if (offset === 1) {
+                // Set target at last index so targetIndex + 1 is out of bounds
+                let uniqueVal = getRandomNumber(20, 10);
+                ml[ml.length - 1] = uniqueVal;
+                target = uniqueVal;
+            } else {
+                // Either target is missing (-1 - 1 = -2) or target is at index 0 (0 - 1 = -1)
+                if (Math.random() < 0.5) {
+                    let missing = [];
+                    for (let i = 0; i < 20; i++) {
+                        if (!ml.includes(i)) missing.push(i);
+                    }
+                    target = missing.length > 0 ? choice(missing) : 99;
+                } else {
+                    target = ml[0];
+                }
             }
-            target = missing.length > 0 ? choice(missing) : 99;
-            currentAnswer = "undefined";
         } else {
-            // Target exists in the array
-            target = choice(ml);
-            currentAnswer = target;
+            // Find targets where targetIndex + offset lands on a valid array element
+            let validTargets = [];
+            for (let i = 0; i < ml.length; i++) {
+                let firstIdx = ml.indexOf(ml[i]);
+                let checkIdx = firstIdx + offset;
+                if (checkIdx >= 0 && checkIdx < ml.length) {
+                    if (!validTargets.includes(ml[i])) {
+                        validTargets.push(ml[i]);
+                    }
+                }
+            }
+            if (validTargets.length > 0) {
+                target = choice(validTargets);
+            } else {
+                let uniqueVal = getRandomNumber(20, 10);
+                ml[0] = uniqueVal;
+                target = uniqueVal;
+                offset = 1;
+            }
         }
+
+        let actualIdx = ml.indexOf(target) + offset;
+        if (actualIdx >= 0 && actualIdx < ml.length) {
+            currentAnswer = ml[actualIdx];
+        } else {
+            currentAnswer = "undefined";
+        }
+
         result += "let " + varA + " = " + JSON.stringify(ml) + ";\n";
         result += "let " + varB + " = " + varA + ".indexOf(" + target + ");\n";
+        result += varB + " = " + varB + (offset === 1 ? " + 1;\n" : " - 1;\n");
         result += "alert(" + varA + "[" + varB + "]);";
 
     } else if (method === "sort") {
         result += "let " + varA + " = " + JSON.stringify(ml) + ";\n";
         result += varA + ".sort();\n";
         let sortedMl = [...ml].sort((a, b) => a - b);
+
         let pos;
         if (isUndefined) {
-            // Out of bounds index
-            pos = ml.length + getRandomNumber(3, 0);
+            pos = ml.length + getRandomNumber(3);
             currentAnswer = "undefined";
         } else {
-            // Valid index
-            pos = getRandomNumber(ml.length, 0);
+            pos = getRandomNumber(sortedMl.length);
             currentAnswer = sortedMl[pos];
         }
+
         result += "let " + varB + " = " + pos + ";\n";
         result += "alert(" + varA + "[" + varB + "]);";
 
     } else if (method === "push") {
-        let valToPush = getRandomNumber(9, 0);
+        let valToPush = getRandomNumber(9);
         result += "let " + varA + " = " + JSON.stringify(ml) + ";\n";
+
         if (isUndefined) {
-            // push() returns the new length, accessing arr[length] evaluates to undefined
+            // push() returns the new length; arr[length] is undefined
             result += "let " + varB + " = " + varA + ".push(" + valToPush + ");\n";
             result += "alert(" + varA + "[" + varB + "]);";
             currentAnswer = "undefined";
         } else {
             result += varA + ".push(" + valToPush + ");\n";
             let newMl = [...ml, valToPush];
-            let pos = getRandomNumber(newMl.length, 0);
+            let pos = getRandomNumber(newMl.length);
             result += "let " + varB + " = " + pos + ";\n";
             result += "alert(" + varA + "[" + varB + "]);";
             currentAnswer = newMl[pos];
         }
 
     } else if (method === "pop") {
-        let remainingLen = ml.length - 1;
         if (isUndefined) {
-            // Set the popped value out of bounds for the remaining array index range
-            let invalidIndex = remainingLen + getRandomNumber(3, 0);
-            ml[ml.length - 1] = invalidIndex;
+            let poppedVal = getRandomNumber(15, ml.length);
+            ml[ml.length - 1] = poppedVal;
             currentAnswer = "undefined";
         } else {
-            // Set popped value to a valid index in the remaining array
-            let validIndex = getRandomNumber(remainingLen, 0);
-            ml[ml.length - 1] = validIndex;
-            let popped = ml[ml.length - 1];
-            let remaining = ml.slice(0, -1);
-            currentAnswer = remaining[popped];
+            let poppedVal = getRandomNumber(ml.length - 1);
+            ml[ml.length - 1] = poppedVal;
+            let remaining = ml.slice(0, ml.length - 1);
+            currentAnswer = remaining[poppedVal];
         }
+
         result += "let " + varA + " = " + JSON.stringify(ml) + ";\n";
         result += "let " + varB + " = " + varA + ".pop();\n";
         result += "alert(" + varA + "[" + varB + "]);";
@@ -127,7 +160,7 @@ function generatePractice() {
 function revealAnswer() {
     const answerElement = document.getElementById("answer");
     answerElement.innerText = "Answer: " + currentAnswer;
-    answerElement.style.display = "block";
+    answerElement.style.display = "inline";
 }
 
 function getRandomNumber(max, min = 0) {
