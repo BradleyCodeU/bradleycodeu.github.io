@@ -11,7 +11,8 @@ title: Guess One Letter
 - Create a text input
 - Create a submit button
 - Create a div and give it the ID wrongAnswerDisplay
-
+ 
+ 
 ## In Javascript...
 
 Create an array named secretWordLetters to hold the letters of the secret word (for example, 'F', 'O', 'X')
