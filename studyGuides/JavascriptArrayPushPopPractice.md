@@ -50,7 +50,7 @@ function generatePractice() {
         let target;
 
         if (isUndefined) {
-            if (offset === 1) {
+            if (offset >= 1) {
                 // Set target at last index so targetIndex + 1 is out of bounds
                 let uniqueVal = getRandomNumber(20, 10);
                 ml[ml.length - 1] = uniqueVal;
