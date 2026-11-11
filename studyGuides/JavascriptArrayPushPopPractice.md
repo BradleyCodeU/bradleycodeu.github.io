@@ -1,8 +1,10 @@
 ---
 layout: project
 category: arrays
-title: JS Array Practice Generator
+title: JS Array Push Pop Practice
 ---
+
+<p>Practice for array sort(), indexOf(), push(), and pop()</p>
 
 <button onclick="generatePractice()">Generate Array Practice</button>
 <p id="question"></p>
