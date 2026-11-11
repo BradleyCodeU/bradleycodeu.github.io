@@ -98,7 +98,7 @@ function generatePractice() {
 
         result += "let " + varA + " = " + JSON.stringify(ml) + ";\n";
         result += "let " + varB + " = " + varA + ".indexOf(" + target + ");\n";
-        result += varB + " = " + varB + (offset === 1 ? " + 2;\n" : " - 2;\n");
+        result += varB + " = " + varB + (offset === 2 ? " + 2;\n" : " - 2;\n");
         result += "alert(" + varA + "[" + varB + "]);";
 
     } else if (method === "sort") {
