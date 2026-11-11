@@ -51,9 +51,9 @@ function generatePractice() {
 
         if (isUndefined) {
             if (offset >= 1) {
-                // Set target at last index so targetIndex + 1 is out of bounds
+                // Set target at last index so targetIndex + 2 is out of bounds
                 let uniqueVal = getRandomNumber(20, 10);
-                ml[ml.length - 1] = uniqueVal;
+                ml[ml.length - 2] = uniqueVal;
                 target = uniqueVal;
             } else {
                 // Either target is missing (-1 - 1 = -2) or target is at index 0 (0 - 1 = -1)
@@ -98,7 +98,7 @@ function generatePractice() {
 
         result += "let " + varA + " = " + JSON.stringify(ml) + ";\n";
         result += "let " + varB + " = " + varA + ".indexOf(" + target + ");\n";
-        result += varB + " = " + varB + (offset === 1 ? " + 1;\n" : " - 1;\n");
+        result += varB + " = " + varB + (offset === 1 ? " + 2;\n" : " - 2;\n");
         result += "alert(" + varA + "[" + varB + "]);";
 
     } else if (method === "sort") {
