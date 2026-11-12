@@ -45,6 +45,15 @@ This file contains 3695 names (both boy and girl names)
 
 Set hugeArray to be the data from the json file.
 
+```
+async function loadNames(){
+    let response = await fetch(???); // fill in the file name
+    const data = await response.json();
+    // console.log(data);
+    // set hugeArray to be the data from the json file
+}
+```
+
 ### addToList() function
 
 Create a function called addToList() that requires an argument: myText
