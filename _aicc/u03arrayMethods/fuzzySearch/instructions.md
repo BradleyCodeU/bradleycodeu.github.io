@@ -76,7 +76,7 @@ Create a function named search().
 
 - Create an empty array named matches, like this let matches = [];
 
-- for each item of the hugeArray. Read this for…of loop tutorial
+- for each item of the hugeArray. Read this for…of loop tutorial [https://www.w3schools.com/js/js_loop_forof.asp](https://www.w3schools.com/js/js_loop_forof.asp){target:"_blank"}
 
   - make a comment that says // check if item includes searchQuery
 
@@ -88,13 +88,14 @@ Create a function named search().
 
 - after the loop finishes, sort the matches based on weight, like this matches.sort((a, b) => b.weight - a.weight);
 
+- use a for each of loop to add each match to the list, like this addToList(each.name + " (Weight: " + each.weight + ")");
+
 - if the matches.length equals 0
 
-  - call the addToList function and give an argument that is a message that says searchQuery Not Found (For example, if you searched for “xyz” it might say “xyz Not Found”)
+  - call the addToList function and give an argument that is a message that says searchQuery Not Found (For example, if you searched for “www” it might say “www Not Found”)
 
-- otherwise
 
-  - use a for loop to add each match to the list, like this addToList(each.name + " (Weight: " + each.weight + ")");
+  
 
 ### calculateSameness() function
 
@@ -105,7 +106,7 @@ The calculateSameness returns a number (a weight) that is how likely it is of ma
 Fill in the blanks ??? in the code below:
 
 ```
-// Calculates a match weight (score) between fullText and searchQuery
+// Calculates a match weight/score between fullText and searchQuery
 // @param {string} fullText - A name from the list (e.g., "Bradley")
 // @param {string} searchQuery - The user's search term (e.g., "Bradly")
 // @returns {number} - 0 if no match, or a higher number for closer matches
@@ -123,17 +124,17 @@ function calculateSameness(fullText, searchQuery) {
 
     let weight = 0;
 
-    // What if it's an obvious match? For example... Christopher includes Chris, Jackie includes Jack
+    // What if they're obviously similar? For example... Christopher includes Chris, Jackie includes Jack
     // 1. Give a 50-point bonus if fullText directly includes searchQuery
     if (fullText.includes(searchQuery)) {
         weight += 50;
     }
 
-    // 2. Search for clusters of length n-1, n-2, n-3... down to 3
+    // 2. Search for clusters of length n-1, n-2, n-3... down to 2
     let n = searchQuery.length;
 
-    // Outer loop controls the cluster size (starts at n - 1, stops at 3)
-    for (let clusterSize = n - 1; clusterSize >= 3; clusterSize--) {
+    // Outer loop controls the cluster size (starts at n - 1, stops at 2)
+    for (let clusterSize = n - 1; clusterSize >= 2; clusterSize--) {
         
         // Inner loop slides across searchQuery to grab each cluster
         for (let i = 0; i <= n - clusterSize; i++) {
