@@ -55,7 +55,7 @@ function generatePractice() {
 
     if (topic === "constructor") {
         if (Math.random() < 0.5) {
-            const rows = getRandomNumber(5, 2);
+            const rows = getRandomNumber(4, 2);
             const val1 = getRandomNumber(9, 1);
             const val2 = getRandomNumber(9, 1);
             question = "What will this code output?";
@@ -73,6 +73,27 @@ function generatePractice() {
                 expected.push([val1, val2]);
             }
             currentAnswer = JSON.stringify(expected);
+        } else if (Math.random() < 0.5) {
+            const rows = getRandomNumber(3, 1);
+            const val1 = getRandomNumber(9, 1);
+            const val2 = getRandomNumber(9, 1);
+            const val3 = getRandomNumber(9, 1);
+            question = "What will this code output?";
+            code =
+                `const i = ${rows};\n` +
+                `const j = 3;\n` +
+                `let arr = new Array(rows);\n` +
+                `for (let i = 0; i < rows; i++) {\n` +
+                `  arr[i] = [${val1}, ${val2}, ${val3}];\n` +
+                `}\n` +
+                `console.log(JSON.stringify(arr));`;
+
+            const expected = [];
+            for (let i = 0; i < rows; i++) {
+                expected.push([val1, val2, val3]);
+            }
+            currentAnswer = JSON.stringify(expected);
+        }
         } else {
             const m = getRandomNumber(6, 2);
             let n = getRandomNumber(6, 2);
@@ -165,10 +186,10 @@ function generatePractice() {
         question = "What will this code output?";
         code =
             format2DArray("myArray", arr) + "\n" +
-            `const numberOfColumns = 3;\n` +
+            `const num = 3;\n` +
             `let foo = myArray[0][0];\n\n` +
             `for (let row = 0; row < myArray.length; row++) {\n` +
-            `  for (let col = 0; col < numberOfColumns; col++) {\n` +
+            `  for (let col = 0; col < num; col++) {\n` +
             `    if (myArray[row][col] < foo) {\n` +
             `      foo = myArray[row][col];\n` +
             `    }\n` +
@@ -192,10 +213,10 @@ function generatePractice() {
         question = "What will this code output?";
         code =
             format2DArray("myArray", arr) + "\n" +
-            `const numberOfColumns = 3;\n` +
+            `const num = 3;\n` +
             `let foo = myArray[0][0];\n\n` +
             `for (let row = 0; row < myArray.length; row++) {\n` +
-            `  for (let col = 0; col < numberOfColumns; col++) {\n` +
+            `  for (let col = 0; col < num; col++) {\n` +
             `    if (myArray[row][col] > foo) {\n` +
             `      foo = myArray[row][col];\n` +
             `    }\n` +
@@ -254,12 +275,12 @@ function generatePractice() {
                     "  [94, 35, 16],",
                     "  [67, 48, 79]",
                     "];",
-                    "const num = 1;",
-                    "let foo = 0;",
+                    "const columnToSum = 1;",
+                    "let total = 0;",
                     "for (let row = 0; row < myArray.length; row++) {",
-                    "  foo = myArray[row][num];",
+                    "  total = myArray[row][columnToSum];",
                     "}",
-                    "console.log(foo);"
+                    "console.log(total);"
                 ],
                 answer: "Line 9, It uses '=' instead of '+=', so foo gets overwritten on each iteration instead of adding up the column."
             },
@@ -270,14 +291,14 @@ function generatePractice() {
                     "  [94, 35, 16],",
                     "  [67, 48, 79]",
                     "];",
-                    "const num = 1;",
-                    "const foo = 0;",
+                    "const columnToSum = 1;",
+                    "const total = 0;",
                     "for (let row = 0; row < myArray.length; row++) {",
-                    "  foo += myArray[row][num];",
+                    "  total += myArray[row][columnToSum];",
                     "}",
-                    "console.log(foo);"
+                    "console.log(total);"
                 ],
-                answer: "The error will occur on Line 8 Uncaught TypeError: Assignment to constant variable. Line 6 should be let foo = 0;"
+                answer: "The error will occur on Line 8 Uncaught TypeError: Assignment to constant variable. Line 6 should be let total = 0;"
             },
             {
                 lines: [
@@ -286,14 +307,14 @@ function generatePractice() {
                     "  [94, 35, 16],",
                     "  [67, 48, 79]",
                     "];",
-                    "const num = 3;",
-                    "let foo = 0;",
+                    "const columnToSum = 3;",
+                    "let total = 0;",
                     "for (let row = 0; row < myArray.length; row++) {",
-                    "  foo += myArray[row][num];",
+                    "  total += myArray[row][columnToSum];",
                     "}",
-                    "console.log(foo);"
+                    "console.log(total);"
                 ],
-                answer: "Line 6, num is 3, which is out of bounds (valid column indices for a 3-column array are 0, 1, and 2)."
+                answer: "Line 6, columnToSum is 3, which is out of bounds (valid column indices for a 3-column array are 0, 1, and 2)."
             },
             {
                 lines: [
@@ -339,14 +360,14 @@ function generatePractice() {
                     "  [5, 8, 2, 9],",
                     "  [4, 1, 7, 3]",
                     "];",
-                    "const num= 1;",
-                    "let foo = 0;",
-                    "for (let col = 0; col < myArray[rownum].length; col++) {",
-                    "  foo += myArray[col][rownum];",
+                    "const rowToSum = 1;",
+                    "let total = 0;",
+                    "for (let col = 0; col < myArray[rowToSum].length; col++) {",
+                    "  total += myArray[col][rowToSum];",
                     "}",
-                    "console.log(foo);"
+                    "console.log(total);"
                 ],
-                answer: "Line 8, The indices are swapped ([col][rownum] instead of [rownum][col]), causing an out-of-bounds error."
+                answer: "Line 8, The indices are swapped ([col][rowToSum] instead of [rowToSum][col]), causing an out-of-bounds error."
             },
             {
                 lines: [
@@ -383,13 +404,13 @@ function generatePractice() {
             "  [10, 20, 30],",
             "  [40, 50, 60]",
             "];",
-            "let foo = 0;",
+            "let total = 0;",
             "for (let row = 0; row < myArray.length; row++) {",
             "  for (let col = 0; col <= myArray[row].length; col++) {",
-            "    foo += myArray[row][col];",
+            "    total += myArray[row][col];",
             "  }",
             "}",
-            "console.log(foo);"
+            "console.log(total);"
         ],
         answer: "Line 7, 'col <= myArray[row].length' goes out of bounds on the final column and adds undefined (resulting in NaN); it should be 'col < myArray[row].length'."
     },
@@ -399,13 +420,13 @@ function generatePractice() {
             "  [4, 7, 2, 9],",
             "  [1, 8, 5, 3]",
             "];",
-            "let foo = 0;",
+            "let total = 0;",
             "for (let row = 0; row < myArray.length; row++) {",
             "  for (let col = 0; col < myArray.length; col++) {",
-            "    foo += myArray[row][col];",
+            "    total += myArray[row][col];",
             "  }",
             "}",
-            "console.log(foo);"
+            "console.log(total);"
         ],
         answer: "Line 7, The inner loop checks 'col < myArray.length' (the number of rows, 2) instead of 'col < myArray[row].length' (4), skipping the last two columns."
     },
@@ -416,14 +437,14 @@ function generatePractice() {
             "  [21, 24, 27],",
             "  [30, 33, 36]",
             "];",
-            "let foo = 0;",
+            "let total = 0;",
             "for (let row = 0; row < myArray.length; row++) {",
-            "  foo = 0;",
+            "  total = 0;",
             "  for (let col = 0; col < myArray[row].length; col++) {",
-            "    foo += myArray[row][col];",
+            "    total += myArray[row][col];",
             "  }",
             "}",
-            "console.log(foo);"
+            "console.log(total);"
         ],
         answer: "Line 8, 'foo = 0;' resets the sum at the start of every row, so only the sum of the final row is kept."
     },
@@ -449,6 +470,80 @@ function generatePractice() {
             "console.log(myArray[1][2]);"
         ],
         answer: "Line 6, It uses a comma inside single brackets (myArray[1, 2]) instead of two sets of square brackets (myArray[1][2])."
+    },
+    {
+        lines: [
+            "const rows = 3;",
+            "const cols = 4;",
+            "let arr = new Array(rows, cols);",
+            "arr[2][1] = 50;",
+            "console.log(arr[2][1]);"
+        ],
+        answer: "Line 3, 'new Array(rows, cols)' creates a 1D array [3, 4] instead of a 2D array; you must create the outer array first and use a loop to initialize each row."
+    },
+    {
+        lines: [
+            "const myArray = [",
+            "  [12, 34, 56],",
+            "  [78, 90, 21]",
+            "];",
+            "let total = 0;",
+            "for (let row = 0; row < myArray.length; row++) {",
+            "  for (let col = 0; col < myArray[row].length; row++) {",
+            "    total += myArray[row][col];",
+            "  }",
+            "}",
+            "console.log(total);"
+        ],
+        answer: "Line 7, The inner loop increments 'row++' instead of 'col++', causing an out-of-bounds error when 'row' reaches 2."
+    },
+    {
+        lines: [
+            "const myArray = [",
+            "  [-15, -42, -27],",
+            "  [-38, -12, -64],",
+            "  [-51, -29, -19]",
+            "];",
+            "let largest = 0;",
+            "for (let row = 0; row < myArray.length; row++) {",
+            "  for (let col = 0; col < myArray[row].length; col++) {",
+            "    if (myArray[row][col] > largest) {",
+            "      largest = myArray[row][col];",
+            "    }",
+            "  }",
+            "}",
+            "console.log(largest);"
+        ],
+        answer: "Line 6, 'largest' is initialized to 0 instead of myArray[0][0], so since all values in the array are negative, it never updates."
+    },
+    {
+        lines: [
+            "const myArray = [",
+            "  [10, 25, 40],",
+            "  [15, 30, 45],",
+            "  [20, 35, 50]",
+            "];",
+            "const columnToSum = 2;",
+            "let total = 0;",
+            "for (let row = 1; row < myArray.length; row++) {",
+            "  total += myArray[row][columnToSum];",
+            "}",
+            "console.log(total);"
+        ],
+        answer: "Line 8, The loop starts at 'row = 1' instead of 'row = 0', skipping the first element (40) in the column."
+    },
+    {
+        lines: [
+            "const myArray = [",
+            "  [10, 20, 30],",
+            "  [40, 50, 60],",
+            "  [70, 80, 90]",
+            "];",
+            "// Change the 3rd row, 2nd column to 99",
+            "myArray[3][2] = 99;",
+            "console.log(myArray);"
+        ],
+        answer: "Line 7, Arrays are 0-indexed, so the 3rd row and 2nd column should be accessed with 'myArray[2][1]' instead of 'myArray[3][2]'."
     }
         ];
 
