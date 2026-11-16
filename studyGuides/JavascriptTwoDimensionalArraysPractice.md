@@ -207,19 +207,19 @@ function generatePractice() {
 
     } else if (topic === "sumRow") {
         const arr = create2DArray(3, 3, 1, 10);
-        const rowToSum = getRandomNumber(3);
+        const ToSum = getRandomNumber(3);
         let total = 0;
-        for (let col = 0; col < arr[rowToSum].length; col++) {
+        for (let col = 0; col < arr[ToSum].length; col++) {
             total += arr[rowToSum][col];
         }
 
         question = "What will this code output?";
         code =
             format2DArray("myArray", arr) + "\n" +
-            `const rowToSum = ${rowToSum};\n` +
+            `const ToSum = ${rowToSum};\n` +
             `let total = 0;\n\n` +
-            `for (let col = 0; col < myArray[rowToSum].length; col++) {\n` +
-            `  total += myArray[rowToSum][col];\n` +
+            `for (let col = 0; col < myArray[ToSum].length; col++) {\n` +
+            `  total += myArray[ToSum][col];\n` +
             `}\n` +
             `console.log(total);`;
 
@@ -227,19 +227,19 @@ function generatePractice() {
 
     } else if (topic === "sumCol") {
         const arr = create2DArray(3, 3, 1, 10);
-        const columnToSum = getRandomNumber(3);
+        const ToSum = getRandomNumber(3);
         let total = 0;
         for (let row = 0; row < arr.length; row++) {
-            total += arr[row][columnToSum];
+            total += arr[row][ToSum];
         }
 
         question = "What will this code output?";
         code =
             format2DArray("myArray", arr) + "\n" +
-            `const columnToSum = ${columnToSum};\n` +
+            `const ToSum = ${ToSum};\n` +
             `let total = 0;\n\n` +
             `for (let row = 0; row < myArray.length; row++) {\n` +
-            `  total += myArray[row][columnToSum];\n` +
+            `  total += myArray[row][ToSum];\n` +
             `}\n` +
             `console.log(total);`;
 
@@ -254,14 +254,30 @@ function generatePractice() {
                     "  [94, 35, 16],",
                     "  [67, 48, 79]",
                     "];",
-                    "const columnToSum = 1;",
+                    "const ToSum = 1;",
                     "let total = 0;",
                     "for (let row = 0; row < myArray.length; row++) {",
-                    "  total = myArray[row][columnToSum];",
+                    "  total = myArray[row][ToSum];",
                     "}",
                     "console.log(total);"
                 ],
-                answer: "Line 9 — It uses '=' instead of '+=', so total gets overwritten on each iteration instead of adding up the column."
+                answer: "Line 9, It uses '=' instead of '+=', so total gets overwritten on each iteration instead of adding up the column."
+            },
+                        {
+                lines: [
+                    "const myArray = [",
+                    "  [12, 25, 38],",
+                    "  [94, 35, 16],",
+                    "  [67, 48, 79]",
+                    "];",
+                    "const ToSum = 1;",
+                    "const total = 0;",
+                    "for (let row = 0; row < myArray.length; row++) {",
+                    "  total += myArray[row][ToSum];",
+                    "}",
+                    "console.log(total);"
+                ],
+                answer: "The error will occur on Line 8 Uncaught TypeError: Assignment to constant variable. Line 6 should be let total = 0;"
             },
             {
                 lines: [
@@ -270,14 +286,14 @@ function generatePractice() {
                     "  [94, 35, 16],",
                     "  [67, 48, 79]",
                     "];",
-                    "const columnToSum = 3;",
+                    "const ToSum = 3;",
                     "let total = 0;",
                     "for (let row = 0; row < myArray.length; row++) {",
-                    "  total += myArray[row][columnToSum];",
+                    "  total += myArray[row][ToSum];",
                     "}",
                     "console.log(total);"
                 ],
-                answer: "Line 6 — columnToSum is 3, which is out of bounds (valid column indices for a 3-column array are 0, 1, and 2)."
+                answer: "Line 6, ToSum is 3, which is out of bounds (valid column indices for a 3-column array are 0, 1, and 2)."
             },
             {
                 lines: [
@@ -296,7 +312,7 @@ function generatePractice() {
                     "}",
                     "console.log(largest);"
                 ],
-                answer: "Line 7 — 'row <= myArray.length' goes out of bounds on the final iteration; it should be 'row < myArray.length'."
+                answer: "Line 7, 'row <= myArray.length' goes out of bounds on the final iteration; it should be 'row < myArray.length'."
             },
             {
                 lines: [
@@ -315,7 +331,7 @@ function generatePractice() {
                     "}",
                     "console.log(largest);"
                 ],
-                answer: "Line 9 — It uses '<' instead of '>', so it finds the smallest value instead of the largest."
+                answer: "Line 9, It uses '<' instead of '>', so it finds the smallest value instead of the largest."
             },
             {
                 lines: [
@@ -323,14 +339,14 @@ function generatePractice() {
                     "  [5, 8, 2, 9],",
                     "  [4, 1, 7, 3]",
                     "];",
-                    "const rowToSum = 1;",
+                    "const ToSum= 1;",
                     "let total = 0;",
                     "for (let col = 0; col < myArray[rowToSum].length; col++) {",
                     "  total += myArray[col][rowToSum];",
                     "}",
                     "console.log(total);"
                 ],
-                answer: "Line 8 — The indices are swapped ([col][rowToSum] instead of [rowToSum][col]), causing an out-of-bounds error."
+                answer: "Line 8, The indices are swapped ([col][rowToSum] instead of [rowToSum][col]), causing an out-of-bounds error."
             },
             {
                 lines: [
@@ -340,13 +356,105 @@ function generatePractice() {
                     "arr[1][2] = 99;",
                     "console.log(arr[1][2]);"
                 ],
-                answer: "Line 4 — Each row in 'arr' must first be initialized as an array (e.g., arr[i] = new Array(cols)) before assigning arr[1][2]."
-            }
+                answer: "Line 4, Each row in 'arr' must first be initialized as an array (e.g., arr[i] = new Array(cols)) before assigning arr[1][2]."
+            },
+            {
+        lines: [
+            "const myArray = [",
+            "  [15, 42, 27],",
+            "  [38, 12, 64],",
+            "  [51, 29, 19]",
+            "];",
+            "let smallest = 0;",
+            "for (let row = 0; row < myArray.length; row++) {",
+            "  for (let col = 0; col < myArray[row].length; col++) {",
+            "    if (myArray[row][col] < smallest) {",
+            "      smallest = myArray[row][col];",
+            "    }",
+            "  }",
+            "}",
+            "console.log(smallest);"
+        ],
+        answer: "Line 6, 'smallest' is initialized to 0 instead of myArray[0][0], so since all values in the array are positive, it never updates."
+    },
+    {
+        lines: [
+            "const myArray = [",
+            "  [10, 20, 30],",
+            "  [40, 50, 60]",
+            "];",
+            "let total = 0;",
+            "for (let row = 0; row < myArray.length; row++) {",
+            "  for (let col = 0; col <= myArray[row].length; col++) {",
+            "    total += myArray[row][col];",
+            "  }",
+            "}",
+            "console.log(total);"
+        ],
+        answer: "Line 7, 'col <= myArray[row].length' goes out of bounds on the final column and adds undefined (resulting in NaN); it should be 'col < myArray[row].length'."
+    },
+    {
+        lines: [
+            "const myArray = [",
+            "  [4, 7, 2, 9],",
+            "  [1, 8, 5, 3]",
+            "];",
+            "let total = 0;",
+            "for (let row = 0; row < myArray.length; row++) {",
+            "  for (let col = 0; col < myArray.length; col++) {",
+            "    total += myArray[row][col];",
+            "  }",
+            "}",
+            "console.log(total);"
+        ],
+        answer: "Line 7, The inner loop checks 'col < myArray.length' (the number of rows, 2) instead of 'col < myArray[row].length' (4), skipping the last two columns."
+    },
+    {
+        lines: [
+            "const myArray = [",
+            "  [12, 15, 18],",
+            "  [21, 24, 27],",
+            "  [30, 33, 36]",
+            "];",
+            "let total = 0;",
+            "for (let row = 0; row < myArray.length; row++) {",
+            "  total = 0;",
+            "  for (let col = 0; col < myArray[row].length; col++) {",
+            "    total += myArray[row][col];",
+            "  }",
+            "}",
+            "console.log(total);"
+        ],
+        answer: "Line 8, 'total = 0;' resets the sum at the start of every row, so only the sum of the final row is kept."
+    },
+    {
+        lines: [
+            "const myArray = [",
+            "  [11, 22, 33]",
+            "  [44, 55, 66],",
+            "  [77, 88, 99]",
+            "];",
+            "console.log(myArray[1][0]);"
+        ],
+        answer: "Line 2, There is a missing comma after '[11, 22, 33]' to separate the first and second inner arrays."
+    },
+    {
+        lines: [
+            "const myArray = [",
+            "  [10, 20, 30],",
+            "  [40, 50, 60],",
+            "  [70, 80, 90]",
+            "];",
+            "myArray[1, 2] = 100;",
+            "console.log(myArray[1][2]);"
+        ],
+        answer: "Line 6, It uses a comma inside single brackets (myArray[1, 2]) instead of two sets of square brackets (myArray[1][2])."
+    }
         ];
 
         const chosen = choice(bugScenarios);
         question = "Find the line of code that contains a bug:";
-        code = chosen.lines.map((line, idx) => `${idx + 1}: ${line}`).join("\n");
+        code = chosen.lines.map((line, idx) => `Line ${idx + 1}: ${line}`).join("\n");
         currentAnswer = chosen.answer;
     }
 
