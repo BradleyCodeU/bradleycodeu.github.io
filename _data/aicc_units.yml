@@ -53,7 +53,7 @@ aicc:
 
 1. **[u03arrayMethods](#u03arraymethods)** - *? wks*
 
-1. **[u04loops](#u04loops)** - *? wks*
+1. **[u04forandforeachloops](#u04forandforeachloops)** - *? wks*
 
 
 "
@@ -112,9 +112,11 @@ let, const, assignment, number, string, concatenation, toString(), parseInt()
   content: "*2 weeks*
 
 
-
+1. [Webcam Filters](/aicc/u02stringMethods/webcamFilters/instructions/)
 
 1. [Image Classify](/aicc/u02stringMethods/imageClassify/instructions/)
+
+1. [Simple Checkbook](/aicc/u02stringMethods/simpleCheckbook/instructions/)
 
 1. [Sound Classify](/aicc/u02stringMethods/soundClassify/instructions/)
 
@@ -122,7 +124,7 @@ let, const, assignment, number, string, concatenation, toString(), parseInt()
 
 #### Vocab:
 
-length, substring, indexOf, split
+Focusing on .length, .substring(from, to), .substring(from), .indexOf(str), and .split(del)
 
 #### Resources:
 
@@ -138,17 +140,20 @@ length, substring, indexOf, split
 
 1. [CodeCademyArrays](/aicc/u03arrayMethods/codecademyArrays/instructions/)
 
-1. [ShoppingListV1](/aicc/u03arrayMethods/ShoppingListV1/instructions/)
+1. [Webcam Pixels](/aicc/u03arrayMethods/webcamPixels/instructions/)
+
+1. [Flatworld Flowers](/aicc/u03arrayMethods/flatworldFlowers/instructions/)
+
+1. [Fuzzy Search](/aicc/u03arrayMethods/fuzzySearch/instructions/)
 
 1. [Mask Photo Booth](/aicc/u03arrayMethods/maskPhotoBooth/instructions/)
 
-1. [ShoppingListV2](/aicc/u03arrayMethods/ShoppingListV2/instructions/)
 
 
 
 #### Vocab:
 
-length, push, splice 
+Focusing on assignment, retrieval, .length, .push(), and .splice()
 
 #### Resources:
 
@@ -159,28 +164,23 @@ length, push, splice
 
 "
 
-- title: u04loops
-  heading: "# u04loops"
+- title: u04forandforeachloops
+  heading: "# u04forandforeachloops"
   content: "*2 weeks*
 
 
-1. [CodeCademyLoops](/aicc/u04loops/codecademyLoops/instructions/)
+1. [CodeCademyLoops](/aicc/u04forandforeachloops/codecademyLoops/instructions/)
 
-1. [Simple Chatbot](/aicc/u04loops/simpleChatbot/instructions/)
+1. [localStorage MVP](/aicc/u04forandforeachloops/localStorageMvp/instructions/)
 
-1. [RPS Random](/aicc/u04loops/rpsRandom/instructions/)
+1. [Cloud Storage MVP](/aicc/u04forandforeachloops/cloudStorageMvp/instructions/)
 
-1. [Replacement Bot](/aicc/u04loops/replacementBot/instructions/)
+1. [ShoppingListV1](/aicc/u03arrayMethods/ShoppingListV1/instructions/)
 
-1. [Should Bot](/aicc/u04loops/shouldBot/instructions/)
+1. [ShoppingListV2](/aicc/u03arrayMethods/ShoppingListV2/instructions/)
 
-1. [RPS Trigrams](/aicc/u04loops/rpsTrigrams/instructions/)
 
-1. [Fill The Blanks Bot](/aicc/u04loops/fillTheBlanksBot/instructions/)
 
-1. [Expert System](/aicc/u04loops/expertSystem/instructions/)
-
-1. [Coding Teacher Bot](/aicc/u04loops/codingTeacherBot/instructions/)
 
 
 #### Vocab:
@@ -197,32 +197,87 @@ for loop, while loop, for-each loop, reverse for loop
 "
 
 
+
+
 - title: menu2
   content: "[2nd Quarter](#2nd-quarter)
 
+1. **[u05whileandnestedloops](#u05whileandnestedloops)**
 
-1. **[u05_arrays_of_arrays](#u05_arrays_of_arrays)** - *? wks*
+1. **[u07twodimensionalarrays](#u07twodimensionalarrays)** - *? wks*
 
 "
 
+- title: u05whileandnestedloops
+  heading: "# u05whileandnestedloops"
+  content: "*2 weeks*
+
+1. [Simple Chatbot](/aicc/u04forandforeachloops/simpleChatbot/instructions/)
+
+1. [RPS Random](/aicc/u04forandforeachloops/rpsRandom/instructions/)
+
+1. [RPS Trigrams](/aicc/u04forandforeachloops/rpsTrigrams/instructions/)
+
+1. [Replacement Bot](/aicc/u04forandforeachloops/replacementBot/instructions/)
 
 
-- title: u05_arrays_of_arrays
-  heading: "# u05_arrays_of_arrays"
+
+
+#### Vocab:
+
+for loop, while loop, for-each loop, reverse for loop
+
+#### Resources:
+
+- [JS Five Loop Flavors](https://bradleycodeu.github.io/studyGuides/JavascriptFiveLoopFlavorsPractice/)
+
+
+"
+
+- title: u06confusionmatrix
+  heading: "# u06confusionmatrix"
+  content: "*2 weeks*
+
+1. [Baseball Tracker 1](/aicc/u06confusionmatrix/baseballTracker1/instructions/)
+
+1. [Baseball Tracker 2](/aicc/u06confusionmatrix/baseballTracker2/instructions/)
+
+1. [Fill The Blanks Bot](/aicc/u06confusionmatrix/fillTheBlanksBot/instructions/)
+
+1. [Should Bot](/aicc/u06confusionmatrix/shouldBot/instructions/)
+
+1. [Expert System](/aicc/u06confusionmatrix/expertSystem/instructions/)
+
+1. [Coding Teacher Bot](/aicc/u06confusionmatrix/codingTeacherBot/instructions/)
+
+
+#### Vocab:
+
+for loop, while loop, for-each loop, reverse for loop
+
+#### Resources:
+
+- [JS Five Loop Flavors](https://bradleycodeu.github.io/studyGuides/JavascriptFiveLoopFlavorsPractice/)
+
+
+"
+
+- title: u07twodimensionalarrays
+  heading: "# u07twodimensionalarrays"
   content: "*2 weeks*
 
 
-1. [Graphing with P5](/aicc/u05_arrays_of_arrays/graphingWithP5/instructions/)
+1. [Graphing with P5](/aicc/u07twodimensionalarrays/graphingWithP5/instructions/)
 
-1. [Testing 2D Fun](/aicc/u05_arrays_of_arrays/testing2dFun/instructions/)
+1. [Testing 2D Fun](/aicc/u07twodimensionalarrays/testing2dFun/instructions/)
 
-1. [TensorFlow Linear Regression App](/aicc/u05_arrays_of_arrays/tensorflowLinearApp/instructions/)
+1. [TensorFlow Linear Regression App](/aicc/u07twodimensionalarrays/tensorflowLinearApp/instructions/)
 
-1. [Logistic Hiring App](/aicc/u05_arrays_of_arrays/logisticHiringApp/instructions/)
+1. [Logistic Hiring App](/aicc/u07twodimensionalarrays/logisticHiringApp/instructions/)
 
-1. [Logistic Math](/aicc/u05_arrays_of_arrays/logisticMath/instructions/)
+1. [Logistic Math](/aicc/u07twodimensionalarrays/logisticMath/instructions/)
 
-1. [Making Tensors](/aicc/u05_arrays_of_arrays/makingTensors/instructions/)
+1. [Making Tensors](/aicc/u07twodimensionalarrays/makingTensors/instructions/)
 
 
 
