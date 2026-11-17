@@ -54,7 +54,41 @@ function generatePractice() {
     let code = "";
 
     if (topic === "constructor") {
-        if (Math.random() < 1/3) {
+        if (Math.random() < 1/5){
+            const m = getRandomNumber(9, 2);
+            let n = getRandomNumber(9, 2);
+            while (n === m) {
+                n = getRandomNumber(9, 2);
+            }
+            question = "How many rows and columns will the 2D array `arr` have after this code runs?";
+            code =
+                `const a = ${n};\n` +
+                `const b = ${m + 1};\n` +
+                `const c = ${m};\n` +
+                `let arr = new Array(c);\n` +
+                `for (let i = 0; i < c; i++) {\n` +
+                `  arr[i] = new Array(a);\n` +
+                `}`;
+            currentAnswer = `${m} rows and ${n} columns (arr.length is ${m}, arr[0].length is ${n})`;
+        }
+        else if (Math.random() < 1/4){
+            const m = getRandomNumber(9, 2);
+            let n = getRandomNumber(9, 2);
+            while (n === m) {
+                n = getRandomNumber(9, 2);
+            }
+            question = "How many rows and columns will the 2D array `arr` have after this code runs?";
+            code =
+                `const a = ${m + 1};\n` +
+                `const b = ${m};\n` +
+                `const c = ${n};\n` +
+                `let arr = new Array(b);\n` +
+                `for (let i = 0; i < b; i++) {\n` +
+                `  arr[i] = new Array(c);\n` +
+                `}`;
+            currentAnswer = `${m} rows and ${n} columns (arr.length is ${m}, arr[0].length is ${n})`;
+        }
+        else if (Math.random() < 1/3) {
             const rows = getRandomNumber(4, 2);
             const val1 = getRandomNumber(9, 1);
             const val2 = getRandomNumber(9, 1);
@@ -94,18 +128,19 @@ function generatePractice() {
             }
             currentAnswer = JSON.stringify(expected);
         } else {
-            const m = getRandomNumber(6, 2);
-            let n = getRandomNumber(6, 2);
+            const m = getRandomNumber(9, 2);
+            let n = getRandomNumber(9, 2);
             while (n === m) {
-                n = getRandomNumber(6, 2);
+                n = getRandomNumber(9, 2);
             }
             question = "How many rows and columns will the 2D array `arr` have after this code runs?";
             code =
-                `const m = ${m};\n` +
-                `const n = ${n};\n` +
-                `let arr = new Array(m);\n` +
-                `for (let i = 0; i < m; i++) {\n` +
-                `  arr[i] = new Array(n);\n` +
+                `const a = ${n};\n` +
+                `const b = ${m};\n` +
+                `const c = ${n + 1};\n` +
+                `let arr = new Array(b);\n` +
+                `for (let i = 0; i < b; i++) {\n` +
+                `  arr[i] = new Array(a);\n` +
                 `}`;
             currentAnswer = `${m} rows and ${n} columns (arr.length is ${m}, arr[0].length is ${n})`;
         }
@@ -141,7 +176,7 @@ function generatePractice() {
         }
 
     } else if (topic === "access") {
-        const arr = createUnique2DArray(getRandomNumber(4, 2), getRandomNumber(4, 2), 11, 98);
+        const arr = createUnique2DArray(getRandomNumber(5, 2), getRandomNumber(5, 2), 11, 98);
         const r = getRandomNumber(arr.length);
         // ~15% chance of testing an out-of-bounds column index -> undefined
         const isUndefined = Math.random() < 0.15;
@@ -163,19 +198,21 @@ function generatePractice() {
         currentAnswer = isUndefined ? "undefined" : arr[r][c];
 
     } else if (topic === "modify") {
+        const rows = getRandomNumber(5, 2);
+        const cols = getRandomNumber(5, 2);
         const base = getRandomNumber(4, 1) * 10;
         const arr = [];
         let val = base;
-        for (let r = 0; r < 3; r++) {
+        for (let r = 0; r < rows; r++) {
             const row = [];
-            for (let c = 0; c < 3; c++) {
+            for (let c = 0; c < cols; c++) {
                 row.push(val);
                 val += 10;
             }
             arr.push(row);
         }
-        const r = getRandomNumber(3);
-        const c = getRandomNumber(3);
+        const r = getRandomNumber(rows);
+        const c = getRandomNumber(cols);
         const newVal = choice([99, 100, 250, 500]);
 
         question = "What will this code output?";
