@@ -93,7 +93,6 @@ function generatePractice() {
                 expected.push([val1, val2, val3]);
             }
             currentAnswer = JSON.stringify(expected);
-        }
         } else {
             const m = getRandomNumber(6, 2);
             let n = getRandomNumber(6, 2);
