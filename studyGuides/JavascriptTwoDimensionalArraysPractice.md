@@ -141,17 +141,24 @@ function generatePractice() {
         }
 
     } else if (topic === "access") {
-        const arr = createUnique2DArray(3, 3, 11, 98);
-        const r = getRandomNumber(3);
+        const arr = createUnique2DArray(getRandomNumber(4, 2), getRandomNumber(4, 2), 11, 98);
+        const r = getRandomNumber(arr.length);
         // ~15% chance of testing an out-of-bounds column index -> undefined
         const isUndefined = Math.random() < 0.15;
         const c = isUndefined ? 3 : getRandomNumber(3);
 
         question = "What will this code output?";
+        if (Math.random() < 1/2) {
         code =
+            "const myArray = " + JSON.stringify(arr) + ";\n" +
+            `let element = myArray[${r}][${c}];\n` +
+            `console.log(element);`;
+        } else {
+            code =
             format2DArray("myArray", arr) + "\n" +
             `let element = myArray[${r}][${c}];\n` +
             `console.log(element);`;
+        }
 
         currentAnswer = isUndefined ? "undefined" : arr[r][c];
 
@@ -172,10 +179,17 @@ function generatePractice() {
         const newVal = choice([99, 100, 250, 500]);
 
         question = "What will this code output?";
-        code =
-            format2DArray("mat", arr) + "\n" +
-            `mat[${r}][${c}] = ${newVal};\n` +
-            `console.log(JSON.stringify(mat[${r}]));`;
+        if (Math.random() < 1/2) {
+            code =
+                "const mat = " + JSON.stringify(arr) + ";\n" +
+                `mat[${r}][${c}] = ${newVal};\n` +
+                `console.log(JSON.stringify(mat[${r}]));`;
+        } else {
+            code =
+                format2DArray("mat", arr) + "\n" +
+                `mat[${r}][${c}] = ${newVal};\n` +
+                `console.log(JSON.stringify(mat[${r}]));`;
+        }
 
         const updatedRow = [...arr[r]];
         updatedRow[c] = newVal;
