@@ -4,15 +4,21 @@ category: p5js
 title: KA Arrays
 ---
 
-Go to: [https://www.khanacademy.org/profile/me/assignments/](https://www.khanacademy.org/profile/me/assignments/)
+Login to KhanAcademy here: [https://www.khanacademy.org/login](https://www.khanacademy.org/login)
 
-Read the articles and then complete the challenges for:
+Next go to [https://www.khanacademy.org/computing/computer-programming/programming#arrays](https://www.khanacademy.org/computing/computer-programming/programming#arrays)
 
-1. Favorite Fruits
-1. Favorite Animals
-1. Constellation Maker
+Watch these KhanAcademy tutorials:
 
+- Intro to Arrays
+- Looping through Arrays
+- Modifying Arrays
 
-Type DONE in Canvas when complete and Mr. Riley will check your work in Khan Academy
+Then complete the following 3 challenges:
 
-https://www.khanacademy.org/computing/computer-programming/programming#arrays
+- Challenge: Favorite Fruits
+- Challenge: Favorite Animals
+- Challenge: Constellation Maker
+
+Show Mr Riley when finished
+  
