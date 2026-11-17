@@ -119,6 +119,16 @@ function generatePractice() {
             }
             const arr = create2DArray(rows, cols, 10, 99);
             question = "How many rows and how many columns does this 2D array have?";
+            code = JSON.stringify(arr);
+            currentAnswer = `${rows} rows and ${cols} columns`;
+        } else if (Math.random() < 0.5) {
+            const rows = getRandomNumber(5, 2);
+            let cols = getRandomNumber(5, 2);
+            while (cols === rows) {
+                cols = getRandomNumber(5, 2);
+            }
+            const arr = create2DArray(rows, cols, 10, 99);
+            question = "How many rows and how many columns does this 2D array have?";
             code = format2DArray("myArray", arr);
             currentAnswer = `${rows} rows and ${cols} columns`;
         } else {
