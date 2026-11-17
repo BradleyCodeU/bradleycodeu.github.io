@@ -54,7 +54,7 @@ function generatePractice() {
     let code = "";
 
     if (topic === "constructor") {
-        if (Math.random() < 0.5) {
+        if (Math.random() < 1/3) {
             const rows = getRandomNumber(4, 2);
             const val1 = getRandomNumber(9, 1);
             const val2 = getRandomNumber(9, 1);
@@ -73,7 +73,7 @@ function generatePractice() {
                 expected.push([val1, val2]);
             }
             currentAnswer = JSON.stringify(expected);
-        } else if (Math.random() < 0.5) {
+        } else if (Math.random() < 1/2) {
             const rows = getRandomNumber(3, 1);
             const val1 = getRandomNumber(9, 1);
             const val2 = getRandomNumber(9, 1);
@@ -111,7 +111,7 @@ function generatePractice() {
         }
 
     } else if (topic === "literal") {
-        if (Math.random() < 0.5) {
+        if (Math.random() < 1/3) {
             const rows = getRandomNumber(5, 2);
             let cols = getRandomNumber(5, 2);
             while (cols === rows) {
@@ -121,7 +121,7 @@ function generatePractice() {
             question = "How many rows and how many columns does this 2D array have?";
             code = JSON.stringify(arr);
             currentAnswer = `${rows} rows and ${cols} columns`;
-        } else if (Math.random() < 0.5) {
+        } else if (Math.random() < 1/2) {
             const rows = getRandomNumber(5, 2);
             let cols = getRandomNumber(5, 2);
             while (cols === rows) {
