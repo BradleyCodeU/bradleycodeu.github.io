@@ -320,10 +320,7 @@ function generatePractice() {
     const actions = ["will", "does", "would", "might"];
     const targets = ["this code", "the following code", "the following program", "this snippet"];
     const verbs = ["print", "display", "output", "produce"];
-
-    let result = "";
-    const template = choice(sampleObjects);
-    const keys = Object.keys(template.props);
+    const promptPrefix = `What ${choice(actions)} ${choice(targets)} ${choice(verbs)}?`;
 
     const template = choice(sampleObjects);
     const val1 = choice(template.strVals1);
