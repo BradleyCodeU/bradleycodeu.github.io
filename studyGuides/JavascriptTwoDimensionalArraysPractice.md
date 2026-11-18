@@ -265,7 +265,7 @@ function generatePractice() {
             const cols = getRandomNumber(5, 3);
             const num = getRandomNumber(rows);
             const arr = createUnique2DArray(rows, cols, 11, 98);
-            let foo = arr[0][0];
+            let foo = arr[num][0];
             
                 for (let c = 0; c < arr[num].length; c++) {
                     if (arr[num][c] < foo) {
@@ -292,7 +292,7 @@ function generatePractice() {
             const cols = getRandomNumber(5, 3);
             const num = getRandomNumber(cols);
             const arr = createUnique2DArray(rows, cols, 11, 98);
-            let foo = arr[0][0];
+            let foo = arr[0][num];
             
                 for (let r = 0; r < arr.length; r++) {
                     if (arr[r][num] < foo) {
@@ -348,7 +348,7 @@ function generatePractice() {
             const cols = getRandomNumber(5, 3);
             const num = getRandomNumber(rows);
             const arr = createUnique2DArray(rows, cols, 11, 98);
-            let foo = arr[0][0];
+            let foo = arr[num][0];
             
                 for (let c = 0; c < arr[num].length; c++) {
                     if (arr[num][c] > foo) {
@@ -375,7 +375,7 @@ function generatePractice() {
             const cols = getRandomNumber(5, 3);
             const num = getRandomNumber(cols);
             const arr = createUnique2DArray(rows, cols, 11, 98);
-            let foo = arr[0][0];
+            let foo = arr[0][num];
             
                 for (let r = 0; r < arr.length; r++) {
                     if (arr[r][num] > foo) {
