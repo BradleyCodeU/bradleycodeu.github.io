@@ -147,20 +147,20 @@ function generatePractice() {
 
     } else if (topic === "literal") {
         if (Math.random() < 1/3) {
-            const rows = getRandomNumber(5, 2);
-            let cols = getRandomNumber(5, 2);
+            const rows = getRandomNumber(7, 2);
+            let cols = getRandomNumber(7, 2);
             while (cols === rows) {
-                cols = getRandomNumber(5, 2);
+                cols = getRandomNumber(7, 2);
             }
             const arr = create2DArray(rows, cols, 10, 99);
             question = "How many rows and how many columns does this 2D array have?";
             code = JSON.stringify(arr);
             currentAnswer = `${rows} rows and ${cols} columns`;
         } else if (Math.random() < 1/2) {
-            const rows = getRandomNumber(5, 2);
-            let cols = getRandomNumber(5, 2);
+            const rows = getRandomNumber(7, 2);
+            let cols = getRandomNumber(7, 2);
             while (cols === rows) {
-                cols = getRandomNumber(5, 2);
+                cols = getRandomNumber(7, 2);
             }
             const arr = create2DArray(rows, cols, 10, 99);
             question = "How many rows and how many columns does this 2D array have?";
@@ -176,7 +176,7 @@ function generatePractice() {
         }
 
     } else if (topic === "access") {
-        const arr = createUnique2DArray(getRandomNumber(5, 2), getRandomNumber(5, 2), 11, 98);
+        const arr = createUnique2DArray(getRandomNumber(7, 2), getRandomNumber(7, 2), 11, 98);
         const r = getRandomNumber(arr.length);
         // ~15% chance of testing an out-of-bounds column index -> undefined
         const isUndefined = Math.random() < 0.15;
@@ -198,8 +198,8 @@ function generatePractice() {
         currentAnswer = isUndefined ? "undefined" : arr[r][c];
 
     } else if (topic === "modify") {
-        const rows = getRandomNumber(5, 2);
-        const cols = getRandomNumber(5, 2);
+        const rows = getRandomNumber(7, 2);
+        const cols = getRandomNumber(7, 2);
         const base = getRandomNumber(4, 1) * 10;
         const arr = [];
         let val = base;
@@ -213,7 +213,7 @@ function generatePractice() {
         }
         const r = getRandomNumber(rows);
         const c = getRandomNumber(cols);
-        const newVal = choice([99, 100, 250, 500]);
+        const newVal = choice([67, 123, 234, 456]);
 
         question = "What will this code output?";
         if (Math.random() < 1/2) {
@@ -233,71 +233,185 @@ function generatePractice() {
         currentAnswer = JSON.stringify(updatedRow);
 
     } else if (topic === "smallest") {
-        const arr = createUnique2DArray(3, 3, 11, 98);
-        let foo = arr[0][0];
-        for (let r = 0; r < arr.length; r++) {
-            for (let c = 0; c < arr[r].length; c++) {
-                if (arr[r][c] < foo) {
-                    foo = arr[r][c];
+        if (Math.random() < 1/3) {
+            const arr = createUnique2DArray(3, 3, 11, 98);
+            let foo = arr[0][0];
+            for (let r = 0; r < arr.length; r++) {
+                for (let c = 0; c < arr[r].length; c++) {
+                    if (arr[r][c] < foo) {
+                        foo = arr[r][c];
+                    }
                 }
             }
+
+            question = "What will this code output?";
+            code =
+                format2DArray("myArray", arr) + "\n" +
+                `const num = 3;\n` +
+                `let foo = myArray[0][0];\n\n` +
+                `for (let row = 0; row < myArray.length; row++) {\n` +
+                `  for (let col = 0; col < num; col++) {\n` +
+                `    if (myArray[row][col] < foo) {\n` +
+                `      foo = myArray[row][col];\n` +
+                `    }\n` +
+                `  }\n` +
+                `}\n` +
+                `console.log(foo);`;
+
+            currentAnswer = foo;
+        } else if (Math.random() < 1/2) {
+            // smallest in a single row
+            const rows = getRandomNumber(7, 3);
+            const cols = getRandomNumber(5, 3);
+            const num = getRandomNumber(rows);
+            const arr = createUnique2DArray(rows, cols, 11, 98);
+            let foo = arr[0][0];
+            
+                for (let c = 0; c < arr[num].length; c++) {
+                    if (arr[num][c] < foo) {
+                        foo = arr[num][c];
+                    }
+                }
+            
+            question = "What will this code output?";
+            code =
+                format2DArray("myArray", arr) + "\n" +
+                `const num = ${num};\n` +
+                `let foo = myArray[num][0];\n\n` +
+                `for (let col = 0; col < myArray[num].length; col++) {\n` +
+                `  if (myArray[num][col] < foo) {\n` +
+                `    foo = myArray[num][col];\n` +
+                `  }\n` +
+                `}\n` +
+                `console.log(foo);`;
+
+            currentAnswer = foo;
+        } else {
+             // smallest in a single col
+            const rows = getRandomNumber(7, 3);
+            const cols = getRandomNumber(5, 3);
+            const num = getRandomNumber(cols);
+            const arr = createUnique2DArray(rows, cols, 11, 98);
+            let foo = arr[0][0];
+            
+                for (let r = 0; r < arr.length; r++) {
+                    if (arr[r][num] < foo) {
+                        foo = arr[r][num];
+                    }
+                }
+            
+            question = "What will this code output?";
+            code =
+                format2DArray("myArray", arr) + "\n" +
+                `const num = ${num};\n` +
+                `let foo = myArray[0][num];\n\n` +
+                `for (let row = 0; row < myArray.length; row++) {\n` +
+                `  if (myArray[row][num] < foo) {\n` +
+                `    foo = myArray[row][num];\n` +
+                `  }\n` +
+                `}\n` +
+                `console.log(foo);`;
+
+            currentAnswer = foo;
         }
-
-        question = "What will this code output?";
-        code =
-            format2DArray("myArray", arr) + "\n" +
-            `const num = 3;\n` +
-            `let foo = myArray[0][0];\n\n` +
-            `for (let row = 0; row < myArray.length; row++) {\n` +
-            `  for (let col = 0; col < num; col++) {\n` +
-            `    if (myArray[row][col] < foo) {\n` +
-            `      foo = myArray[row][col];\n` +
-            `    }\n` +
-            `  }\n` +
-            `}\n` +
-            `console.log(foo);`;
-
-        currentAnswer = foo;
 
     } else if (topic === "largest") {
-        const arr = createUnique2DArray(3, 3, 11, 98);
-        let foo = arr[0][0];
-        for (let r = 0; r < arr.length; r++) {
-            for (let c = 0; c < arr[r].length; c++) {
-                if (arr[r][c] > foo) {
-                    foo = arr[r][c];
+        if (Math.random() < 1/3) {
+            const arr = createUnique2DArray(3, 3, 11, 98);
+            let foo = arr[0][0];
+            for (let r = 0; r < arr.length; r++) {
+                for (let c = 0; c < arr[r].length; c++) {
+                    if (arr[r][c] > foo) {
+                        foo = arr[r][c];
+                    }
                 }
             }
+
+            question = "What will this code output?";
+            code =
+                format2DArray("myArray", arr) + "\n" +
+                `const num = 3;\n` +
+                `let foo = myArray[0][0];\n\n` +
+                `for (let row = 0; row < myArray.length; row++) {\n` +
+                `  for (let col = 0; col < num; col++) {\n` +
+                `    if (myArray[row][col] > foo) {\n` +
+                `      foo = myArray[row][col];\n` +
+                `    }\n` +
+                `  }\n` +
+                `}\n` +
+                `console.log(foo);`;
+
+            currentAnswer = foo;
+        } else if (Math.random() < 1/2) {
+            // largest in a single row
+            const rows = getRandomNumber(7, 3);
+            const cols = getRandomNumber(5, 3);
+            const num = getRandomNumber(rows);
+            const arr = createUnique2DArray(rows, cols, 11, 98);
+            let foo = arr[0][0];
+            
+                for (let c = 0; c < arr[num].length; c++) {
+                    if (arr[num][c] > foo) {
+                        foo = arr[num][c];
+                    }
+                }
+            
+            question = "What will this code output?";
+            code =
+                format2DArray("myArray", arr) + "\n" +
+                `const num = ${num};\n` +
+                `let foo = myArray[num][0];\n\n` +
+                `for (let col = 0; col < myArray[num].length; col++) {\n` +
+                `  if (myArray[num][col] > foo) {\n` +
+                `    foo = myArray[num][col];\n` +
+                `  }\n` +
+                `}\n` +
+                `console.log(foo);`;
+
+            currentAnswer = foo;
+        } else {
+             // largest in a single col
+            const rows = getRandomNumber(7, 3);
+            const cols = getRandomNumber(5, 3);
+            const num = getRandomNumber(cols);
+            const arr = createUnique2DArray(rows, cols, 11, 98);
+            let foo = arr[0][0];
+            
+                for (let r = 0; r < arr.length; r++) {
+                    if (arr[r][num] > foo) {
+                        foo = arr[r][num];
+                    }
+                }
+            
+            question = "What will this code output?";
+            code =
+                format2DArray("myArray", arr) + "\n" +
+                `const num = ${num};\n` +
+                `let foo = myArray[0][num];\n\n` +
+                `for (let row = 0; row < myArray.length; row++) {\n` +
+                `  if (myArray[row][num] > foo) {\n` +
+                `    foo = myArray[row][num];\n` +
+                `  }\n` +
+                `}\n` +
+                `console.log(foo);`;
+
+            currentAnswer = foo;
         }
-
-        question = "What will this code output?";
-        code =
-            format2DArray("myArray", arr) + "\n" +
-            `const num = 3;\n` +
-            `let foo = myArray[0][0];\n\n` +
-            `for (let row = 0; row < myArray.length; row++) {\n` +
-            `  for (let col = 0; col < num; col++) {\n` +
-            `    if (myArray[row][col] > foo) {\n` +
-            `      foo = myArray[row][col];\n` +
-            `    }\n` +
-            `  }\n` +
-            `}\n` +
-            `console.log(foo);`;
-
-        currentAnswer = foo;
 
     } else if (topic === "sumRow") {
-        const arr = create2DArray(3, 3, 1, 10);
-        const num = getRandomNumber(3);
+        const rows = getRandomNumber(7, 3);
+            const cols = getRandomNumber(5, 3);
+            const num = getRandomNumber(cols);
+            const arr = createUnique2DArray(rows, cols, 11, 98);
         let foo = 0;
         for (let col = 0; col < arr[num].length; col++) {
-            foo += arr[rownum][col];
+            foo += arr[num][col];
         }
 
         question = "What will this code output?";
         code =
             format2DArray("myArray", arr) + "\n" +
-            `const num = ${rownum};\n` +
+            `const num = ${num};\n` +
             `let foo = 0;\n\n` +
             `for (let col = 0; col < myArray[num].length; col++) {\n` +
             `  foo += myArray[num][col];\n` +
@@ -307,8 +421,10 @@ function generatePractice() {
         currentAnswer = foo;
 
     } else if (topic === "sumCol") {
-        const arr = create2DArray(3, 3, 1, 10);
-        const num = getRandomNumber(3);
+        const rows = getRandomNumber(7, 3);
+            const cols = getRandomNumber(5, 3);
+            const num = getRandomNumber(cols);
+            const arr = createUnique2DArray(rows, cols, 11, 98);
         let foo = 0;
         for (let row = 0; row < arr.length; row++) {
             foo += arr[row][num];
