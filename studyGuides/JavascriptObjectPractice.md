@@ -13,6 +13,7 @@ title: JS Object Practice
     <option value="constructor">Object Constructor</option>
     <option value="access">Accessing Data</option>
     <option value="modify">Modifying Data</option>
+    <option value="bug">Find the Bug</option>
 </select>
 <button onclick="generatePractice()">Generate Object Practice</button>
 
@@ -79,17 +80,250 @@ const sampleObjects = [
     }
 ];
 
+const bugScenarios = [
+    {
+        lines: [
+            "const student = {",
+            "  name = \"Maya\",",
+            "  grade: 11,",
+            "  gpa: 3.8",
+            "};",
+            "console.log(student.name);"
+        ],
+        answer: "Line 2: Uses '=' instead of ':' to assign a property inside an object literal (should be name: \"Maya\")."
+    },
+    {
+        lines: [
+            "const student = {",
+            "  'name': \"Maya\",",
+            "  'grade': 11",
+            "  'gpa': 3.8",
+            "};",
+            "console.log(student.name);"
+        ],
+        answer: "Line 3: Missing comma after grade: 11"
+    },
+    {
+        lines: [
+            "const student = {",
+            "  name: \"Maya\",",
+            "  grade: 11,",
+            "  gpa: 3.8",
+            ";",
+            "console.log(student.name);"
+        ],
+        answer: "Line 4: Missing closing curly bracket"
+    },
+    {
+        lines: [
+            "const student = {",
+            "  'name': \"Maya\";",
+            "  'grade': 11,",
+            "  'gpa': 3.8",
+            "};",
+            "console.log(student.name);"
+        ],
+        answer: "Line 2: Line ends with semicolon, but should end with comma"
+    },
+    {
+        lines: [
+            "const car = {",
+            "  make: \"Honda\"",
+            "  model: \"Civic\",",
+            "  owner: \"Beth\",",
+            "  age_in_years: 5",
+            "};",
+            "car.owner = \"Carol\";",
+            "car.age_in_years++;",
+            "console.log(car.model);"
+        ],
+        answer: "Line 2: Missing a comma after \"Honda\" to separate the object properties."
+    },
+    {
+        lines: [
+            "const car = {",
+            "  make: \"Honda\",",
+            "  model: \"Civic\",",
+            "  owner: \"Beth\",",
+            "  age in years: 5",
+            "};",
+            "car.owner = \"Carol\";",
+            "car.age_in_years++;",
+            "console.log(car.model);"
+        ],
+        answer: "Line 4: Keys cannot contain spaces without quotation marks. Should use either \"age in years\" or ageInYears or age_in_years as the key."
+    },
+        {
+        lines: [
+            "const car = {",
+            "  make: \"Honda\",",
+            "  model: \"Civic\",",
+            "  owner: \"Beth\",",
+            "  age-in-years: 5",
+            "};",
+            "car.owner = \"Carol\";",
+            "car.age_in_years++;",
+            "console.log(car.model);"
+        ],
+        answer: "Line 4: Keys cannot contain minus without quotation marks. Should use either \"age-in-years\" or ageInYears or age_in_years as the key."
+    },
+            {
+        lines: [
+            "const car = {",
+            "  make: \"Honda\",",
+            "  model: \"Civic\",",
+            "  owner: \"Beth\",",
+            "  age_in_years: 5",
+            "};",
+            "car.owner++;",
+            "car.age_in_years++;",
+            "console.log(car.model);"
+        ],
+        answer: "Line 7: car.owner is a String. Using ++ will set the value to be NaN (not a number)"
+    },
+                {
+        lines: [
+            "const car = {",
+            "  make: \"Honda\",",
+            "  model: \"Civic\",",
+            "  owner: \"Beth\",",
+            "  age_in_years: \"5\"",
+            "};",
+            "car.owner = 'Carol';",
+            "car.age_in_years++;",
+            "console.log(car.model);"
+        ],
+        answer: "Line 5 or line 8: age_in_years is a String. Using ++ will set the value to be NaN (not a number)"
+    },
+    {
+        lines: [
+            "const book = {",
+            "  title: \"Dune\",",
+            "  author: \"Frank Herbert\",",
+            "  pages: 412",
+            "};",
+            "let key = \"author\";",
+            "console.log(book.key);"
+        ],
+        answer: "Line 7: Dot notation looks for a literal property named 'key' (returning undefined). To use the variable, write book[key]."
+    },
+        {
+        lines: [
+            "const book = {",
+            "  title: \"Dune\",",
+            "  author: \"Frank Herbert\",",
+            "  pages: 412",
+            "};",
+            "let key = \"page\";",
+            "console.log(book[key]);"
+        ],
+        answer: "Line 6: The key 'page' does not exist. Should be 'pages'"
+    },
+    {
+        lines: [
+            "const game = {",
+            "  title: \"Chess\",",
+            "  players: 2,",
+            "  rating: 4.9",
+            "};",
+            "console.log(game[players]);"
+        ],
+        answer: "Line 6: Bracket notation requires quotes around the property name (game[\"players\"]), otherwise JavaScript looks for an undefined variable named players."
+    },
+    {
+        lines: [
+            "const myFriend = {",
+            "  name = 'Steve',",
+            "  age = 15",
+            "};",
+            "const myPet = Object();",
+            "myPet.name = 'Buddy';",
+            "console.log(myPet.name);"
+        ],
+        answer: "Line 5: Missing the 'new' keyword when calling the constructor function. Should be const myPet = new Object();"
+    },
+    {
+        lines: [
+            "const myFriend = {",
+            "  name = 'Steve'",
+            "  age = 15",
+            "};",
+            "const myPet = new Object();",
+            "myPet.name = 'Buddy';",
+            "console.log(myPet.name);"
+        ],
+        answer: "Line 2: Missing comma after name = 'Steve'"
+    },
+     {
+        lines: [
+            "const myFriend = {",
+            "  name = 'Steve',",
+            "  age = 15",
+            ";",
+            "const myPet = new Object();",
+            "myPet.name = 'Buddy';",
+            "console.log(myPet.name);"
+        ],
+        answer: "Line 4: Missing closing curly bracket"
+    },
+    {
+        lines: [
+            "const player = {",
+            "  username: \"Coder99\",",
+            "  score: 50",
+            "};",
+            "player = { username: \"Coder99\", score: 100 };",
+            "console.log(player.score);"
+        ],
+        answer: "Line 5: Attempts to reassign a 'const' object variable (TypeError). Modify the property directly instead: player.score = 100;"
+    },
+    {
+        lines: [
+            "const movie = {",
+            "  title: \"Inception\",",
+            "  releaseYear: 2010,",
+            "  director: \"Christopher Nolan\"",
+            "};",
+            "console.log(movie.releaseyear);"
+        ],
+        answer: "Line 6: Property names are case-sensitive; 'releaseyear' should be 'releaseYear' (returns undefined)."
+    },
+    {
+        lines: [
+            "const laptop = {",
+            "  brand: \"Dell\";",
+            "  ram: \"16GB\";",
+            "  ssd: \"512GB\"",
+            "};",
+            "console.log(laptop.ram);"
+        ],
+        answer: "Line 2 (and Line 3): Properties inside an object literal must be separated by commas (,), not semicolons (;)."
+    },
+    {
+        lines: [
+            "const profile = new Object();",
+            "profile.username = \"alex_dev\";",
+            "profile.[level] = 5;",
+            "console.log(profile);"
+        ],
+        answer: "Line 3: Invalid syntax combining dot and bracket notation; use profile.level = 5; or profile[\"level\"] = 5;"
+    }
+];
+
 generatePractice();
 
 function generatePractice() {
     const selectedTopic = document.getElementById("topicSelect").value;
-    const topics = ["literal", "constructor", "access", "modify"];
+    const topics = ["literal", "constructor", "access", "modify", "bug"];
     const topic = selectedTopic === "all" ? choice(topics) : selectedTopic;
 
     const actions = ["will", "does", "would", "might"];
-    const targets = ["this code", "the following", "the following code", "the following program", "this"];
-    const verbs = ["print", "display", "output", "produce", "end up showing"];
-    const promptPrefix = "What " + choice(actions) + " " + choice(targets) + " " + choice(verbs) + "?";
+    const targets = ["this code", "the following code", "the following program", "this snippet"];
+    const verbs = ["print", "display", "output", "produce"];
+
+    let result = "";
+    const template = choice(sampleObjects);
+    const keys = Object.keys(template.props);
 
     const template = choice(sampleObjects);
     const val1 = choice(template.strVals1);
@@ -100,13 +334,22 @@ function generatePractice() {
     let code = "";
 
     if (topic === "literal") {
-        const mode = getRandomNumber(3);
-        if (mode === 0) {
+        if (Math.random() < 1/4) {
+            // Trace output of an object literal property
+            question = promptPrefix;
+            code = `const ${template.varName} = {\n` +
+                   `  ${template.strKey1}: "${val1}",\n` +
+                   `  ${template.strKey2}: "${val2}",\n` +
+                   `  ${template.numKey}: ${numVal}\n` +
+                   `};\n` +
+                   `console.log(${template.varName}["${template.strKey2}"]);`;
+            currentAnswer = val2;
+        } else if (Math.random() < 1/3) {
             // Write an object literal
-            question = `Write a JavaScript statement using an object literal to create an object named '${template.varName}' with '${template.strKey1}' set to "${val1}" and '${template.numKey}' set to ${numVal}.`;
+            question = `Write a JavaScript statement using an object literal to create an object named 'const ${template.varName}' with '${template.strKey1}' set to "${val1}" and '${template.numKey}' set to ${numVal}.`;
             code = `// Create ${template.varName} using { } object literal syntax`;
             currentAnswer = `const ${template.varName} = { ${template.strKey1}: "${val1}", ${template.numKey}: ${numVal} };`;
-        } else if (mode === 1) {
+        } else if (Math.random() < 1/2) {
             // Trace output of an object literal property
             question = promptPrefix;
             code = `const ${template.varName} = {\n` +
@@ -233,6 +476,11 @@ function generatePractice() {
                    `console.log(${template.varName}.${template.strKey1});`;
             currentAnswer = "undefined";
         }
+    }else if (topic === "bug") {
+        question = "Which line of code contains a bug (or causes an error/unexpected behavior), and why?";
+        const bug = choice(bugScenarios);
+        code = bug.lines.map((line, idx) => `${idx + 1}: ${line}`).join("\n");
+        currentAnswer = bug.answer;
     }
 
     document.getElementById("question").innerText = question;
