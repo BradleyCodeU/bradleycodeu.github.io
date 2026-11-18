@@ -279,8 +279,8 @@ const bugScenarios = [
     {
         lines: [
             "const myFriend = {",
-            "  name = 'Steve',",
-            "  age = 15",
+            "  name: 'Steve',",
+            "  age: 15",
             "};",
             "const myPet = Object();",
             "myPet.name = 'Buddy';",
@@ -291,26 +291,50 @@ const bugScenarios = [
     {
         lines: [
             "const myFriend = {",
-            "  name = 'Steve'",
-            "  age = 15",
+            "  name: 'Steve'",
+            "  age: 15",
             "};",
             "const myPet = new Object();",
             "myPet.name = 'Buddy';",
             "console.log(myPet.name);"
         ],
-        answer: "Line 2: Missing comma after name = 'Steve'"
+        answer: "Line 2: Missing comma after name: 'Steve'"
     },
      {
         lines: [
             "const myFriend = {",
-            "  name = 'Steve',",
-            "  age = 15",
+            "  name: 'Steve',",
+            "  age: 15",
             ";",
             "const myPet = new Object();",
             "myPet.name = 'Buddy';",
             "console.log(myPet.name);"
         ],
         answer: "Line 4: Missing closing curly bracket"
+    },
+         {
+        lines: [
+            "const myFriend = {",
+            "  name: 'Steve',",
+            "  age: 15",
+            "};",
+            "const myPet = new Object();",
+            "myPet.name: 'Buddy';",
+            "console.log(myPet.name);"
+        ],
+        answer: "Line 6: When adding an additional property and value to an object that was already constructed, use the assignment operator =. Should be myPet.name = 'Buddy';"
+    },
+             {
+        lines: [
+            "const myPet = new Object();",
+            "myPet.name = 'Buddy';",
+            "const myFriend = {",
+            "  name = 'Steve',",
+            "  age = 15",
+            "};",
+            "console.log(myPet.name);"
+        ],
+        answer: "Line 4 and Line 5: Properties and values inside an object literal must be separated by colons. Should be name: 'Steve'"
     },
     {
         lines: [
@@ -322,6 +346,17 @@ const bugScenarios = [
             "console.log(player.score);"
         ],
         answer: "Line 5: Attempts to reassign a 'const' object variable (TypeError). Modify the property directly instead: player.score = 100;"
+    },
+    {
+        lines: [
+            "const player = {",
+            "  username, \"Coder99\",",
+            "  score, 50",
+            "};",
+            "player.username = \"ImSoSkibidi67\";",
+            "console.log(player.score);"
+        ],
+        answer: "Line 2 and Line 3: Properties and values inside an object literal must be separated by colons. Should be username: \"Coder99\""
     },
     {
         lines: [
@@ -529,7 +564,7 @@ function generatePractice() {
     } else if (topic === "constructor") {
         
         if (Math.random() < 1/4) {
-            // Using new Object()
+            // Using new Object() with dot notation
             question = promptPrefix;
             code = `const ${template.varName} = new Object();\n` +
                    `${template.varName}.${template.strKey1} = "${val1}";\n` +
@@ -537,23 +572,18 @@ function generatePractice() {
                    `console.log(${template.varName}.${template.strKey1});`;
             currentAnswer = val1;
         } else if (Math.random() < 1/3) {
-            // Custom constructor function output
+            // Using new Object() with bracket notation
             question = promptPrefix;
-            code = `function ${template.className}(${template.strKey1}, ${template.numKey}) {\n` +
-                   `  this.${template.strKey1} = ${template.strKey1};\n` +
-                   `  this.${template.numKey} = ${template.numKey};\n` +
-                   `}\n\n` +
-                   `const my${template.className} = new ${template.className}("${val1}", ${numVal});\n` +
-                   `console.log(my${template.className}.${template.numKey});`;
+            code = `const ${template.varName} = new Object();\n` +
+                   `${template.varName}["${template.strKey1}"] = "${val1}";\n` +
+                   `${template.varName}["${template.numKey}"] = ${numVal};\n` +
+                   `console.log(${template.varName}.${template.numKey});`;
             currentAnswer = numVal;
         } else if (Math.random() < 1/2) {
-            // Write statement calling a constructor function
-            question = `Given the constructor function below, write a statement to create a new ${template.className} object named 'item' with "${val1}" and ${numVal}.`;
-            code = `function ${template.className}(${template.strKey1}, ${template.numKey}) {\n` +
-                   `  this.${template.strKey1} = ${template.strKey1};\n` +
-                   `  this.${template.numKey} = ${template.numKey};\n` +
-                   `}`;
-            currentAnswer = `const item = new ${template.className}("${val1}", ${numVal});`;
+            // Write statements using new Object()
+            question = `Write JavaScript statements using the Object constructor (new Object()) to create 'const ${template.varName}' with '${template.strKey1}' set to "${val1}" and '${template.numKey}' set to ${numVal}.`;
+            code = `// Instantiate ${template.varName} with new Object() and assign its properties`;
+            currentAnswer = `const ${template.varName} = new Object();\n${template.varName}.${template.strKey1} = "${val1}";\n${template.varName}.${template.numKey} = ${numVal};`;
         } else {
             // Unassigned property on new Object() -> undefined
             question = promptPrefix;
