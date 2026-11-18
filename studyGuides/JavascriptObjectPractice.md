@@ -580,10 +580,21 @@ function generatePractice() {
                    `console.log(${template.varName}.${template.numKey});`;
             currentAnswer = numVal;
         } else if (Math.random() < 1/2) {
-            // Write statements using new Object()
-            question = `Write JavaScript statements using the Object constructor (new Object()) to create 'const ${template.varName}' with '${template.strKey1}' set to "${val1}" and '${template.numKey}' set to ${numVal}.`;
-            code = `// Instantiate ${template.varName} with new Object() and assign its properties`;
-            currentAnswer = `const ${template.varName} = new Object();\n${template.varName}.${template.strKey1} = "${val1}";\n${template.varName}.${template.numKey} = ${numVal};`;
+            // Fill in 1 of the 3 lines using new Object()
+            const lines = [
+                `const ${template.varName} = new Object();`,
+                `${template.varName}.${template.strKey1} = "${val1}";`,
+                `${template.varName}.${template.numKey} = ${numVal};`
+            ];
+            const missingIdx = getRandomNumber(3);
+
+            question = `Fill in the missing line of code (Line ${missingIdx + 1}) so that '${template.varName}' is created using the Object constructor (new Object()) with '${template.strKey1}' set to "${val1}" and '${template.numKey}' set to ${numVal}.`;
+
+            const displayLines = [...lines];
+            displayLines[missingIdx] = `// Line ${missingIdx + 1}: Write the missing statement here`;
+
+            code = displayLines.join("\n");
+            currentAnswer = lines[missingIdx];
         } else {
             // Unassigned property on new Object() -> undefined
             question = promptPrefix;
@@ -652,7 +663,39 @@ function generatePractice() {
                         `  ${template.strKey2}: "${val2}",\n` +
                         `  ${template.numKey}: ${numVal}\n` +
                         `};\n`;
-        if (Math.random() < 1/6) {
+        if (Math.random() < 1/7) {
+            // Push a new element into an array inside an object
+            const arrKey = choice(["nums", "points", "values", "stats"]);
+            const arrLen = getRandomNumber(5, 3); // 3 or 4 numbers
+            const numArr = [];
+            for (let i = 0; i < arrLen; i++) {
+                numArr.push(getRandomNumber(10, 1));
+            }
+            const newVal = getRandomNumber(10, 1);
+
+            const objWithArray = `const ${template.varName} = {\n` +
+                                 `  ${template.strKey1}: "${val1}",\n` +
+                                 `  ${template.numKey}: ${numVal},\n` +
+                                 `  ${arrKey}: ${JSON.stringify(numArr)}\n` +
+                                 `};\n`;
+
+            const pushStmt = Math.random() < 0.5
+                ? `${template.varName}.${arrKey}.push(${newVal});\n`
+                : `${template.varName}["${arrKey}"].push(${newVal});\n`;
+
+            if (Math.random() < 0.5) {
+                // 50% of the time: log the updated length of the array property
+                const logStmt = Math.random() < 0.5
+                    ? `console.log(${template.varName}.${arrKey}.length);`
+                    : `console.log(${template.varName}["${arrKey}"].length);`;
+                code = objWithArray + pushStmt + logStmt;
+                currentAnswer = arrLen + 1;
+            } else {
+                // 50% of the time: log the object's key count (unchanged at 3)
+                code = objWithArray + pushStmt + `console.log(Object.keys(${template.varName}).length);`;
+                currentAnswer = 3;
+            }
+        } else if (Math.random() < 1/6) {
             // Access a number from an array inside an object
             const arrKey = choice(["nums", "points", "values", "stats"]);
             const arrLen = getRandomNumber(5, 3); // 3 or 4 numbers
