@@ -54,7 +54,28 @@ function generatePractice() {
     let code = "";
 
     if (topic === "constructor") {
-        if (Math.random() < 1/5){
+        if (Math.random() < 1/6){
+            const rows = getRandomNumber(3, 1);
+            const val1 = getRandomNumber(9, 1);
+            const val2 = getRandomNumber(9, 1);
+            const val3 = getRandomNumber(9, 1);
+            question = "What will this code output?";
+            code =
+                `const k = ${val2 - 1};\n` +
+                `const j = ${rows};\n` +
+                `let arr = new Array(j);\n` +
+                `for (let i = 0; i < j; i++) {\n` +
+                `  arr[i] = [${val1}, ${val2}, ${val3}];\n` +
+                `}\n` +
+                `console.log(JSON.stringify(arr));`;
+
+            const expected = [];
+            for (let i = 0; i < rows; i++) {
+                expected.push([val1, val2, val3]);
+            }
+            currentAnswer = JSON.stringify(expected);
+        }
+        else if (Math.random() < 1/5){
             const m = getRandomNumber(9, 2);
             let n = getRandomNumber(9, 2);
             while (n === m) {
@@ -114,10 +135,10 @@ function generatePractice() {
             const val3 = getRandomNumber(9, 1);
             question = "What will this code output?";
             code =
-                `const i = ${rows};\n` +
-                `const j = 3;\n` +
-                `let arr = new Array(rows);\n` +
-                `for (let i = 0; i < rows; i++) {\n` +
+                `const k = ${rows};\n` +
+                `const j = ${val2 - 1};\n` +
+                `let arr = new Array(k);\n` +
+                `for (let i = 0; i < k; i++) {\n` +
                 `  arr[i] = [${val1}, ${val2}, ${val3}];\n` +
                 `}\n` +
                 `console.log(JSON.stringify(arr));`;
