@@ -573,7 +573,7 @@ function generatePractice() {
         
         if (Math.random() < 1/5) {
             // Access a number from an array inside an object
-            const arrKey = choice(["nums", "points", "values", "history"]);
+            const arrKey = choice(["nums", "points", "values", "stats"]);
             const arrLen = getRandomNumber(5, 3); // 3 or 4 numbers
             const numArr = [];
             for (let i = 0; i < arrLen; i++) {
@@ -622,9 +622,51 @@ function generatePractice() {
                         `  ${template.strKey2}: "${val2}",\n` +
                         `  ${template.numKey}: ${numVal}\n` +
                         `};\n`;
-        
+        if (Math.random() < 1/6) {
+            // Access a number from an array inside an object
+            const arrKey = choice(["nums", "points", "values", "stats"]);
+            const arrLen = getRandomNumber(5, 3); // 3 or 4 numbers
+            const numArr = [];
+            for (let i = 0; i < arrLen; i++) {
+                numArr.push(getRandomNumber(10, 1));
+            }
+            const idx = getRandomNumber(arrLen);
 
-        if (Math.random() < 1/4) {
+            const objWithArray = `const ${template.varName} = {\n` +
+                                 `  ${template.strKey1}: "${val1}",\n` +
+                                 `  ${template.numKey}: ${numVal},\n` +
+                                 `  ${arrKey}: ${JSON.stringify(numArr)}\n` +
+                                 `};\n`;
+
+            const accessExpr = Math.random() < 0.5
+                ? `${template.varName}.${template.numKey} += ${template.varName}.${arrKey}[${idx}];\nconsole.log(${template.varName}.${template.numKey});`
+                : `${template.varName}["${template.numKey}"] += ${template.varName}["${arrKey}"][${idx}];\nconsole.log(${template.varName}["${template.numKey}"]);`;
+
+            code = objWithArray + accessExpr;
+            currentAnswer = numVal + numArr[idx];
+        } else if (Math.random() < 1/5) {
+            // Access a number from an array inside an object
+            const arrKey = choice(["nums", "points", "values", "stats"]);
+            const arrLen = getRandomNumber(6, 3); // 3-5 numbers
+            const numArr = [];
+            for (let i = 0; i < arrLen; i++) {
+                numArr.push(getRandomNumber(50, 10));
+            }
+            const idx = getRandomNumber(arrLen);
+
+            const objWithArray = `const ${template.varName} = {\n` +
+                                 `  ${template.strKey1}: "${val1}",\n` +
+                                 `  ${template.numKey}: ${numVal},\n` +
+                                 `  ${arrKey}: ${JSON.stringify(numArr)}\n` +
+                                 `};\n`;
+
+            const accessExpr = Math.random() < 0.5
+                ? `${template.varName}.${arrKey}.push(${idx})`
+                : `${template.varName}["${arrKey}"].push(${idx})`;
+
+            code = objWithArray + `console.log(${accessExpr});`;
+            currentAnswer = numArr.length;
+        } else if (Math.random() < 1/4) {
             // Update existing string property via dot notation
             const newVal = template.strVals2.find(v => v !== val2) || "green";
             code = baseObj +
