@@ -31,7 +31,7 @@ let currentAnswer = "";
 
 const sampleObjects = [
     {
-        varName: "car",
+        varName: "momsCar",
         className: "Car",
         strKey1: "make", strVals1: ["Toyota", "Honda", "Ford", "Subaru"],
         strKey2: "color", strVals2: ["red", "blue", "silver", "black"],
@@ -47,7 +47,7 @@ const sampleObjects = [
         extraKey: "temperature", extraVal: 67
     },
     {
-        varName: "student",
+        varName: "studentOne",
         className: "Student",
         strKey1: "name", strVals1: ["Maya", "Liam", "Sofia", "Noah"],
         strKey2: "club", strVals2: ["Robotics", "Drama", "Chess", "Debate"],
@@ -55,7 +55,7 @@ const sampleObjects = [
         extraKey: "gpa", extraVal: 3.8
     },
     {
-        varName: "book",
+        varName: "bookA",
         className: "Book",
         strKey1: "title", strVals1: ["Dune", "Hobbit", "1984", "Sapiens"],
         strKey2: "genre", strVals2: ["Sci-Fi", "Fantasy", "Dystopian", "History"],
@@ -63,7 +63,7 @@ const sampleObjects = [
         extraKey: "rating", extraVal: 5
     },
     {
-        varName: "player",
+        varName: "playerOne",
         className: "Player",
         strKey1: "username", strVals1: ["PixelAce", "Nova99", "ShadowFox", "SkyWalker"],
         strKey2: "rank", strVals2: ["Bronze", "Silver", "Gold", "Platinum"],
@@ -71,7 +71,7 @@ const sampleObjects = [
         extraKey: "lives", extraVal: 3
     },
     {
-        varName: "pet",
+        varName: "myPet",
         className: "Pet",
         strKey1: "name", strVals1: ["Buddy", "Luna", "Milo", "Bella"],
         strKey2: "species", strVals2: ["dog", "cat", "rabbit", "hamster"],
@@ -193,7 +193,7 @@ const bugScenarios = [
             "car.age_in_years++;",
             "console.log(car.model);"
         ],
-        answer: "Line 5 or line 8: age_in_years is a String. Using ++ will set the value to be NaN (not a number)"
+        answer: "Line 5 and Line 8: age_in_years is a String. Using ++ will set the value to be NaN (not a number)"
     },
     {
         lines: [
@@ -219,6 +219,30 @@ const bugScenarios = [
         ],
         answer: "Line 6: The key 'page' does not exist. Should be 'pages'"
     },
+            {
+        lines: [
+            "const book = {",
+            "  title: \"Dune\",",
+            "  author: \"Frank Herbert\",",
+            "  pages: 412",
+            "};",
+            "book.pages = 413;",
+            "console.log(book[pages]);"
+        ],
+        answer: "Line 7: When using bracket notation, there must be quotes around the property name. Should be book[\"pages\"]"
+    },
+                {
+        lines: [
+            "const book = {",
+            "  title: \"Dune\",",
+            "  author: \"Frank Herbert\",",
+            "  pages: 412",
+            "};",
+            "pages += 1;",
+            "console.log(book[\"pages\"]);"
+        ],
+        answer: "Line 6: The user is trying to update the number of pages in the book. Should be book.pages += 1; or book[\"pages\"] += 1;"
+    },
     {
         lines: [
             "const game = {",
@@ -229,6 +253,28 @@ const bugScenarios = [
             "console.log(game[players]);"
         ],
         answer: "Line 6: Bracket notation requires quotes around the property name (game[\"players\"]), otherwise JavaScript looks for an undefined variable named players."
+    },
+        {
+        lines: [
+            "const game: {",
+            "  title: \"Chess\",",
+            "  players: 2,",
+            "  rating: 4.9",
+            "};",
+            "console.log(game[\"players\"]);"
+        ],
+        answer: "Line 1: Must use the assignment operator = to store an object in a variable. Should be const game = {"
+    },
+    {
+        lines: [
+            "const game = [",
+            "  title: \"Chess\",",
+            "  players: 2,",
+            "  rating: 4.9",
+            "];",
+            "console.log(game[players]);"
+        ],
+        answer: "Line 1 and Line 5: Object literals must be created within curly brackets."
     },
     {
         lines: [
@@ -297,7 +343,119 @@ const bugScenarios = [
             "};",
             "console.log(laptop.ram);"
         ],
-        answer: "Line 2 (and Line 3): Properties inside an object literal must be separated by commas (,), not semicolons (;)."
+        answer: "Line 2 and Line 3: Properties inside an object literal must be separated by commas (,), not semicolons (;)."
+    },
+    {
+        lines: [
+            "const person1 = {};",
+            "person1[\"firstName\"] = \"Mario\";",
+            "person1[\"lastName\"] = \"Rossi\";",
+            "console.log(person1.firstName);",
+            "// Expected output: \"Mario\"",
+            "const person2: {",
+            "  firstName: \"John\",",
+            "  lastName: \"Doe\",",
+            "};",
+            "console.log(person2[\"lastName\"]);",
+            "// Expected output: \"Doe\""
+        ],
+        answer: "Line 6: The assignment operator = must be used to store an object literal in a variable"
+    },
+    {
+        lines: [
+            "const person1 = ();",
+            "person1[\"firstName\"] = \"Mario\";",
+            "person1[\"lastName\"] = \"Rossi\";",
+            "console.log(person1.firstName);",
+            "// Expected output: \"Mario\"",
+            "const person2 = {",
+            "  firstName: \"John\",",
+            "  lastName: \"Doe\",",
+            "};",
+            "console.log(person2[\"lastName\"]);",
+            "// Expected output: \"Doe\""
+        ],
+        answer: "Line 1: Curly braces '{}' must be used to create an empty object literal (const person1 = {};), not parentheses '()'."
+    },
+    {
+        lines: [
+            "const person1 = {};",
+            "person1[\"firstName\"] : \"Mario\";",
+            "person1[\"lastName\"] = \"Rossi\";",
+            "console.log(person1.firstName);",
+            "// Expected output: \"Mario\"",
+            "const person2 = {",
+            "  firstName: \"John\",",
+            "  lastName: \"Doe\",",
+            "};",
+            "console.log(person2[\"lastName\"]);",
+            "// Expected output: \"Doe\""
+        ],
+        answer: "Line 2: The assignment operator '=' must be used instead of ':' when assigning a value to a property outside of an object literal."
+    },
+    {
+        lines: [
+            "const person1 = {};",
+            "person1[firstName] = \"Mario\";",
+            "person1[\"lastName\"] = \"Rossi\";",
+            "console.log(person1.firstName);",
+            "// Expected output: \"Mario\"",
+            "const person2 = {",
+            "  firstName: \"John\",",
+            "  lastName: \"Doe\",",
+            "};",
+            "console.log(person2[\"lastName\"]);",
+            "// Expected output: \"Doe\""
+        ],
+        answer: "Line 2: Bracket notation requires quotes around the property name (person1[\"firstName\"]), otherwise JavaScript treats firstName as an undeclared variable."
+    },
+    {
+        lines: [
+            "const person1 = {};",
+            "person1[\"firstName\"] = \"Mario\";",
+            "person1[\"lastName\"] = \"Rossi\";",
+            "console.log(person1.firstname);",
+            "// Expected output: \"Mario\"",
+            "const person2 = {",
+            "  firstName: \"John\",",
+            "  lastName: \"Doe\",",
+            "};",
+            "console.log(person2[\"lastName\"]);",
+            "// Expected output: \"Doe\""
+        ],
+        answer: "Line 4: Property names are case-sensitive; 'firstname' should be 'firstName' (otherwise it outputs undefined instead of \"Mario\")."
+    },
+    {
+        lines: [
+            "const person1 = {};",
+            "person1[\"firstName\"] = \"Mario\";",
+            "person1[\"lastName\"] = \"Rossi\";",
+            "console.log(person1.firstName);",
+            "// Expected output: \"Mario\"",
+            "const person2 = {",
+            "  firstName: \"John\",",
+            "  lastName: \"Doe\",",
+            "};",
+            "console.log(person2[lastName]);",
+            "// Expected output: \"Doe\""
+        ],
+        answer: "Line 10: Bracket notation requires quotes around the key name (person2[\"lastName\"]), otherwise JavaScript looks for an undeclared variable named lastName."
+    },
+        {
+        lines: [
+            "const person1 = {};",
+            "person1[\"firstName\"] = \"Mario\";",
+            "person2[\"lastName\"] = \"Rossi\";",
+            "console.log(person1.firstName);",
+            "// Expected output: \"Mario\"",
+            "const person2 = {",
+            "  firstName: \"John\",",
+            "  lastName: \"Doe\",",
+            "};",
+            "console.log(person2[lastName]);",
+            "// Expected output: \"Doe\""
+        ],
+        answer: "Line 3: ReferenceError: person2 is not defined. The variable person2 doesn't exist before line 6."
     },
     {
         lines: [
@@ -369,8 +527,8 @@ function generatePractice() {
         }
 
     } else if (topic === "constructor") {
-        const mode = getRandomNumber(4);
-        if (mode === 0) {
+        
+        if (Math.random() < 1/4) {
             // Using new Object()
             question = promptPrefix;
             code = `const ${template.varName} = new Object();\n` +
@@ -378,7 +536,7 @@ function generatePractice() {
                    `${template.varName}.${template.numKey} = ${numVal};\n` +
                    `console.log(${template.varName}.${template.strKey1});`;
             currentAnswer = val1;
-        } else if (mode === 1) {
+        } else if (Math.random() < 1/3) {
             // Custom constructor function output
             question = promptPrefix;
             code = `function ${template.className}(${template.strKey1}, ${template.numKey}) {\n` +
@@ -388,7 +546,7 @@ function generatePractice() {
                    `const my${template.className} = new ${template.className}("${val1}", ${numVal});\n` +
                    `console.log(my${template.className}.${template.numKey});`;
             currentAnswer = numVal;
-        } else if (mode === 2) {
+        } else if (Math.random() < 1/2) {
             // Write statement calling a constructor function
             question = `Given the constructor function below, write a statement to create a new ${template.className} object named 'item' with "${val1}" and ${numVal}.`;
             code = `function ${template.className}(${template.strKey1}, ${template.numKey}) {\n` +
@@ -412,17 +570,38 @@ function generatePractice() {
                         `  ${template.strKey2}: "${val2}",\n` +
                         `  ${template.numKey}: ${numVal}\n` +
                         `};\n`;
-        const mode = getRandomNumber(4);
+        
+        if (Math.random() < 1/5) {
+            // Access a number from an array inside an object
+            const arrKey = choice(["nums", "points", "values", "history"]);
+            const arrLen = getRandomNumber(5, 3); // 3 or 4 numbers
+            const numArr = [];
+            for (let i = 0; i < arrLen; i++) {
+                numArr.push(getRandomNumber(50, 10));
+            }
+            const idx = getRandomNumber(arrLen);
 
-        if (mode === 0) {
+            const objWithArray = `const ${template.varName} = {\n` +
+                                 `  ${template.strKey1}: "${val1}",\n` +
+                                 `  ${template.numKey}: ${numVal},\n` +
+                                 `  ${arrKey}: ${JSON.stringify(numArr)}\n` +
+                                 `};\n`;
+
+            const accessExpr = Math.random() < 0.5
+                ? `${template.varName}.${arrKey}[${idx}]`
+                : `${template.varName}["${arrKey}"][${idx}]`;
+
+            code = objWithArray + `console.log(${accessExpr});`;
+            currentAnswer = numArr[idx];
+        } else if (Math.random() < 1/4) {
             // Dot notation
             code = baseObj + `console.log(${template.varName}.${template.numKey});`;
             currentAnswer = numVal;
-        } else if (mode === 1) {
+        } else if (Math.random() < 1/3) {
             // Bracket notation with string literal
             code = baseObj + `console.log(${template.varName}["${template.strKey1}"]);`;
             currentAnswer = val1;
-        } else if (mode === 2) {
+        } else if (Math.random() < 1/2) {
             // Bracket notation using a variable
             code = baseObj +
                    `let prop = "${template.strKey2}";\n` +
@@ -443,23 +622,23 @@ function generatePractice() {
                         `  ${template.strKey2}: "${val2}",\n` +
                         `  ${template.numKey}: ${numVal}\n` +
                         `};\n`;
-        const mode = getRandomNumber(4);
+        
 
-        if (mode === 0) {
+        if (Math.random() < 1/4) {
             // Update existing string property via dot notation
             const newVal = template.strVals2.find(v => v !== val2) || "green";
             code = baseObj +
                    `${template.varName}.${template.strKey2} = "${newVal}";\n` +
                    `console.log(${template.varName}.${template.strKey2});`;
             currentAnswer = newVal;
-        } else if (mode === 1) {
+        } else if (Math.random() < 1/3) {
             // Update numeric property via += and bracket notation
             const addAmt = getRandomNumber(6, 1);
             code = baseObj +
                    `${template.varName}["${template.numKey}"] += ${addAmt};\n` +
                    `console.log(${template.varName}.${template.numKey});`;
             currentAnswer = numVal + addAmt;
-        } else if (mode === 2) {
+        } else if (Math.random() < 1/2) {
             // Add a brand new property dynamically
             const formattedExtra = typeof template.extraVal === "string" ? `"${template.extraVal}"` : template.extraVal;
             code = baseObj +
