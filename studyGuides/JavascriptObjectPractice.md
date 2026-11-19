@@ -389,7 +389,7 @@ const bugScenarios = [
             "// Expected output: \"Mario\"",
             "const person2: {",
             "  firstName: \"John\",",
-            "  lastName: \"Doe\",",
+            "  lastName: \"Doe\"",
             "};",
             "console.log(person2[\"lastName\"]);",
             "// Expected output: \"Doe\""
@@ -405,7 +405,7 @@ const bugScenarios = [
             "// Expected output: \"Mario\"",
             "const person2 = {",
             "  firstName: \"John\",",
-            "  lastName: \"Doe\",",
+            "  lastName: \"Doe\"",
             "};",
             "console.log(person2[\"lastName\"]);",
             "// Expected output: \"Doe\""
@@ -421,7 +421,7 @@ const bugScenarios = [
             "// Expected output: \"Mario\"",
             "const person2 = {",
             "  firstName: \"John\",",
-            "  lastName: \"Doe\",",
+            "  lastName: \"Doe\"",
             "};",
             "console.log(person2[\"lastName\"]);",
             "// Expected output: \"Doe\""
@@ -437,7 +437,7 @@ const bugScenarios = [
             "// Expected output: \"Mario\"",
             "const person2 = {",
             "  firstName: \"John\",",
-            "  lastName: \"Doe\",",
+            "  lastName: \"Doe\"",
             "};",
             "console.log(person2[\"lastName\"]);",
             "// Expected output: \"Doe\""
@@ -453,7 +453,7 @@ const bugScenarios = [
             "// Expected output: \"Mario\"",
             "const person2 = {",
             "  firstName: \"John\",",
-            "  lastName: \"Doe\",",
+            "  lastName: \"Doe\"",
             "};",
             "console.log(person2[\"lastName\"]);",
             "// Expected output: \"Doe\""
@@ -469,7 +469,7 @@ const bugScenarios = [
             "// Expected output: \"Mario\"",
             "const person2 = {",
             "  firstName: \"John\",",
-            "  lastName: \"Doe\",",
+            "  lastName: \"Doe\"",
             "};",
             "console.log(person2[lastName]);",
             "// Expected output: \"Doe\""
@@ -485,7 +485,7 @@ const bugScenarios = [
             "// Expected output: \"Mario\"",
             "const person2 = {",
             "  firstName: \"John\",",
-            "  lastName: \"Doe\",",
+            "  lastName: \"Doe\"",
             "};",
             "console.log(person2[lastName]);",
             "// Expected output: \"Doe\""
