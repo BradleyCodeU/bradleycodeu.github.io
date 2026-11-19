@@ -29,6 +29,10 @@ title: JS Object Practice
 <script>
 let currentAnswer = "";
 
+const firstNames = ["Adam", "Brian", "Carl", "Daniel", "Elliot", "Frank", "Greg", "Hank", "John", "Kevin","Alice", "Beth", "Candice", "Danica", "Elizabeth", "Francesa", "Georgia", "Helen", "Jessica", "Karen", "Maya", "Liam", "Sofia", "Noah", "Luna", "Milo", "Bella"];
+const carMakes = ["Toyota", "Honda", "Ford", "Subaru", "Chevy", "Mazda", "Jeep", "Tesla", "Dodge", "Cadillac", "Nissan","Subaru","Mazda","Hyundai","Volkswagen","Mercedes","Audi","Porsche"];
+const carModels = ["Mustang", "Siverado","Explorer","Acadia","Yukon","Wrangler","Model 3", "Camry", "Corolla","Civic","Accord","Outback","Forester","Elantra","Sonata","Tucson","Forte","Sportage","Jetta","Corvette","Nova"]
+
 const sampleObjects = [
     {
         varName: "momsCar",
@@ -83,71 +87,71 @@ const sampleObjects = [
 const bugScenarios = [
     {
         lines: [
-            "const student = {",
-            "  name = \"Maya\",",
-            "  grade: 11,",
-            "  gpa: 3.8",
+            "const studentA = {",
+            "  name = \"#FIRSTNAME1#\",",
+            "  grade: 10,",
+            "  gpa: 3.7",
             "};",
-            "console.log(student.name);"
+            "console.log(studentA.name);"
         ],
-        answer: "Line 2: Uses '=' instead of ':' to assign a property inside an object literal (should be name: \"Maya\")."
+        answer: "Line 2: Uses '=' instead of ':' to assign a property inside an object literal (should be name: \"#FIRSTNAME1#\")."
     },
     {
         lines: [
-            "const student = {",
-            "  'name': \"Maya\",",
+            "const studentB = {",
+            "  'name': \"#FIRSTNAME1#\",",
             "  'grade': 11",
             "  'gpa': 3.8",
             "};",
-            "console.log(student.name);"
+            "console.log(studentB.name);"
         ],
         answer: "Line 3: Missing comma after grade: 11"
     },
     {
         lines: [
-            "const student = {",
-            "  name: \"Maya\",",
-            "  grade: 11,",
+            "const studentA = {",
+            "  name: \"#FIRSTNAME1#\",",
+            "  grade: 10,",
             "  gpa: 3.8",
             ";",
-            "console.log(student.name);"
+            "console.log(studentA.name);"
         ],
         answer: "Line 4: Missing closing curly bracket"
     },
     {
         lines: [
-            "const student = {",
-            "  'name': \"Maya\";",
-            "  'grade': 11,",
-            "  'gpa': 3.8",
+            "const studentB = {",
+            "  'name': \"#FIRSTNAME1#\";",
+            "  'grade': 12,",
+            "  'gpa': 3.9",
             "};",
-            "console.log(student.name);"
+            "console.log(studentB.name);"
         ],
         answer: "Line 2: Line ends with semicolon, but should end with comma"
     },
     {
         lines: [
             "const car = {",
-            "  make: \"Honda\"",
+            "  make: \"#CARMAKE#\"",
             "  model: \"Civic\",",
-            "  owner: \"Beth\",",
+            "  owner: \"#FIRSTNAME1#\",",
             "  age_in_years: 5",
             "};",
-            "car.owner = \"Carol\";",
+            "car.owner = \"#FIRSTNAME1#\";",
             "car.age_in_years++;",
             "console.log(car.model);"
         ],
-        answer: "Line 2: Missing a comma after \"Honda\" to separate the object properties."
+        answer: "Line 2: Missing a comma after \"#CARMAKE#\" to separate the object properties."
     },
     {
         lines: [
-            "const car = {",
-            "  make: \"Honda\",",
-            "  model: \"Civic\",",
-            "  owner: \"Beth\",",
-            "  age in years: 5",
+            "const car2 = {",
+            "  make: \"#CARMAKE#\",",
+            "  model: \"Mustang\",",
+            "  owner: \"#FIRSTNAME1#\",",
+            "  age in years: 6",
             "};",
-            "car.owner = \"Carol\";",
+            "car.owner = \"#FIRSTNAME1#\";",
             "car.age_in_years++;",
             "console.log(car.model);"
         ],
@@ -155,13 +159,13 @@ const bugScenarios = [
     },
         {
         lines: [
-            "const car = {",
-            "  make: \"Honda\",",
-            "  model: \"Civic\",",
-            "  owner: \"Beth\",",
-            "  age-in-years: 5",
+            "const car3 = {",
+            "  make: \"#CARMAKE#\",",
+            "  model: \"Tahoe\",",
+            "  owner: \"#FIRSTNAME1#\",",
+            "  age-in-years: 6",
             "};",
-            "car.owner = \"Carol\";",
+            "car.owner = \"#FIRSTNAME1#\";",
             "car.age_in_years++;",
             "console.log(car.model);"
         ],
@@ -169,10 +173,10 @@ const bugScenarios = [
     },
             {
         lines: [
-            "const car = {",
-            "  make: \"Honda\",",
-            "  model: \"Civic\",",
-            "  owner: \"Beth\",",
+            "const car4 = {",
+            "  make: \"#CARMAKE#\",",
+            "  model: \"Wrangler\",",
+            "  owner: \"#FIRSTNAME1#\",",
             "  age_in_years: 5",
             "};",
             "car.owner++;",
@@ -184,12 +188,12 @@ const bugScenarios = [
                 {
         lines: [
             "const car = {",
-            "  make: \"Honda\",",
+            "  make: \"#CARMAKE#\",",
             "  model: \"Civic\",",
-            "  owner: \"Beth\",",
+            "  owner: \"#FIRSTNAME1#\",",
             "  age_in_years: \"5\"",
             "};",
-            "car.owner = 'Carol';",
+            "car.owner = '#FIRSTNAME1#';",
             "car.age_in_years++;",
             "console.log(car.model);"
         ],
@@ -199,7 +203,7 @@ const bugScenarios = [
         lines: [
             "const book = {",
             "  title: \"Dune\",",
-            "  author: \"Frank Herbert\",",
+            "  author: \"#FIRSTNAME1# Herbert\",",
             "  pages: 412",
             "};",
             "let key = \"author\";",
@@ -211,7 +215,7 @@ const bugScenarios = [
         lines: [
             "const book = {",
             "  title: \"Dune\",",
-            "  author: \"Frank Herbert\",",
+            "  author: \"#FIRSTNAME1# Herbert\",",
             "  pages: 412",
             "};",
             "let key = \"page\";",
@@ -223,7 +227,7 @@ const bugScenarios = [
         lines: [
             "const book = {",
             "  title: \"Dune\",",
-            "  author: \"Frank Herbert\",",
+            "  author: \"#FIRSTNAME1# Herbert\",",
             "  pages: 412",
             "};",
             "book.pages = 413;",
@@ -235,7 +239,7 @@ const bugScenarios = [
         lines: [
             "const book = {",
             "  title: \"Dune\",",
-            "  author: \"Frank Herbert\",",
+            "  author: \"#FIRSTNAME1# Herbert\",",
             "  pages: 412",
             "};",
             "pages += 1;",
@@ -279,7 +283,7 @@ const bugScenarios = [
     {
         lines: [
             "const myFriend = {",
-            "  name: 'Steve',",
+            "  name: '#FIRSTNAME1#',",
             "  age: 15",
             "};",
             "const myPet = Object();",
@@ -291,23 +295,23 @@ const bugScenarios = [
     {
         lines: [
             "const myFriend = {",
-            "  name: 'Steve'",
+            "  name: '#FIRSTNAME1#'",
             "  age: 15",
             "};",
             "const myPet = new Object();",
-            "myPet.name = 'Buddy';",
+            "myPet.name = 'Rover';",
             "console.log(myPet.name);"
         ],
-        answer: "Line 2: Missing comma after name: 'Steve'"
+        answer: "Line 2: Missing comma after name: '#FIRSTNAME1#'"
     },
      {
         lines: [
             "const myFriend = {",
-            "  name: 'Steve',",
+            "  name: '#FIRSTNAME1#',",
             "  age: 15",
             ";",
             "const myPet = new Object();",
-            "myPet.name = 'Buddy';",
+            "myPet.name = 'Lucky';",
             "console.log(myPet.name);"
         ],
         answer: "Line 4: Missing closing curly bracket"
@@ -315,34 +319,34 @@ const bugScenarios = [
          {
         lines: [
             "const myFriend = {",
-            "  name: 'Steve',",
+            "  name: '#FIRSTNAME1#',",
             "  age: 15",
             "};",
             "const myPet = new Object();",
-            "myPet.name: 'Buddy';",
+            "myPet.name: 'Fuzzy';",
             "console.log(myPet.name);"
         ],
-        answer: "Line 6: When adding an additional property and value to an object that was already constructed, use the assignment operator =. Should be myPet.name = 'Buddy';"
+        answer: "Line 6: When adding an additional property and value to an object that was already constructed, use the assignment operator =. Should be myPet.name = 'Fuzzy';"
     },
              {
         lines: [
             "const myPet = new Object();",
-            "myPet.name = 'Buddy';",
+            "myPet.name = 'Chewy';",
             "const myFriend = {",
-            "  name = 'Steve',",
+            "  name = '#FIRSTNAME1#',",
             "  age = 15",
             "};",
             "console.log(myPet.name);"
         ],
-        answer: "Line 4 and Line 5: Properties and values inside an object literal must be separated by colons. Should be name: 'Steve'"
+        answer: "Line 4 and Line 5: Properties and values inside an object literal must be separated by colons. Should be name: '#FIRSTNAME1#'"
     },
     {
         lines: [
             "const player = {",
-            "  username: \"Coder99\",",
+            "  username: \"#FIRSTNAME1#Coder99\",",
             "  score: 50",
             "};",
-            "player = { username: \"Coder99\", score: 100 };",
+            "player = { username: \"#FIRSTNAME1#Coder99\", score: 100 };",
             "console.log(player.score);"
         ],
         answer: "Line 5: Attempts to reassign a 'const' object variable (TypeError). Modify the property directly instead: player.score = 100;"
@@ -350,20 +354,20 @@ const bugScenarios = [
     {
         lines: [
             "const player = {",
-            "  username, \"Coder99\",",
+            "  username, \"#FIRSTNAME1#Coder99\",",
             "  score, 50",
             "};",
             "player.username = \"ImSoSkibidi67\";",
             "console.log(player.score);"
         ],
-        answer: "Line 2 and Line 3: Properties and values inside an object literal must be separated by colons. Should be username: \"Coder99\""
+        answer: "Line 2 and Line 3: Properties and values inside an object literal must be separated by colons. Should be username: \"#FIRSTNAME1#Coder99\""
     },
     {
         lines: [
             "const movie = {",
             "  title: \"Inception\",",
             "  releaseYear: 2010,",
-            "  director: \"Christopher Nolan\"",
+            "  director: \"#FIRSTNAME1# Nolan\"",
             "};",
             "console.log(movie.releaseyear);"
         ],
@@ -383,119 +387,135 @@ const bugScenarios = [
     {
         lines: [
             "const person1 = {};",
-            "person1[\"firstName\"] = \"Mario\";",
-            "person1[\"lastName\"] = \"Rossi\";",
+            "person1[\"firstName\"] = \"#FIRSTNAME1#\";",
+            "person1[\"lastName\"] = \"#LASTNAME1#\";",
             "console.log(person1.firstName);",
-            "// Expected output: \"Mario\"",
+            "// Expected output: \"#FIRSTNAME1#\"",
             "const person2: {",
-            "  firstName: \"John\",",
-            "  lastName: \"Doe\"",
+            "  firstName: \"#FIRSTNAME2#\",",
+            "  lastName: \"#LASTNAME2#\"",
             "};",
             "console.log(person2[\"lastName\"]);",
-            "// Expected output: \"Doe\""
+            "// Expected output: \"#LASTNAME2#\""
         ],
         answer: "Line 6: The assignment operator = must be used to store an object literal in a variable"
     },
     {
         lines: [
             "const person1 = ();",
-            "person1[\"firstName\"] = \"Mario\";",
-            "person1[\"lastName\"] = \"Rossi\";",
+            "person1[\"firstName\"] = \"#FIRSTNAME1#\";",
+            "person1[\"lastName\"] = \"#LASTNAME1#\";",
             "console.log(person1.firstName);",
-            "// Expected output: \"Mario\"",
+            "// Expected output: \"#FIRSTNAME1#\"",
             "const person2 = {",
-            "  firstName: \"John\",",
-            "  lastName: \"Doe\"",
+            "  firstName: \"#FIRSTNAME2#\",",
+            "  lastName: \"#LASTNAME2#\"",
             "};",
             "console.log(person2[\"lastName\"]);",
-            "// Expected output: \"Doe\""
+            "// Expected output: \"#LASTNAME2#\""
         ],
         answer: "Line 1: Curly braces '{}' must be used to create an empty object literal (const person1 = {};), not parentheses '()'."
     },
     {
         lines: [
             "const person1 = {};",
-            "person1[\"firstName\"] : \"Mario\";",
-            "person1[\"lastName\"] = \"Rossi\";",
+            "person1[\"firstName\"] : \"#FIRSTNAME1#\";",
+            "person1[\"lastName\"] = \"#LASTNAME1#\";",
             "console.log(person1.firstName);",
-            "// Expected output: \"Mario\"",
+            "// Expected output: \"#FIRSTNAME1#\"",
             "const person2 = {",
-            "  firstName: \"John\",",
-            "  lastName: \"Doe\"",
+            "  firstName: \"#FIRSTNAME2#\",",
+            "  lastName: \"#LASTNAME2#\"",
             "};",
             "console.log(person2[\"lastName\"]);",
-            "// Expected output: \"Doe\""
+            "// Expected output: \"#LASTNAME2#\""
         ],
         answer: "Line 2: The assignment operator '=' must be used instead of ':' when assigning a value to a property outside of an object literal."
     },
     {
         lines: [
             "const person1 = {};",
-            "person1[firstName] = \"Mario\";",
-            "person1[\"lastName\"] = \"Rossi\";",
+            "person1[firstName] = \"#FIRSTNAME1#\";",
+            "person1[\"lastName\"] = \"#LASTNAME1#\";",
             "console.log(person1.firstName);",
-            "// Expected output: \"Mario\"",
+            "// Expected output: \"#FIRSTNAME1#\"",
             "const person2 = {",
-            "  firstName: \"John\",",
-            "  lastName: \"Doe\"",
+            "  firstName: \"#FIRSTNAME2#\",",
+            "  lastName: \"#LASTNAME2#\"",
             "};",
             "console.log(person2[\"lastName\"]);",
-            "// Expected output: \"Doe\""
+            "// Expected output: \"#LASTNAME2#\""
         ],
         answer: "Line 2: Bracket notation requires quotes around the property name (person1[\"firstName\"]), otherwise JavaScript treats firstName as an undeclared variable."
     },
     {
         lines: [
             "const person1 = {};",
-            "person1[\"firstName\"] = \"Mario\";",
-            "person1[\"lastName\"] = \"Rossi\";",
-            "console.log(person1.firstname);",
-            "// Expected output: \"Mario\"",
+            "person1[\"firstName\"] = \"#FIRSTNAME1#\";",
+            "person1[\"lastName\"] = \"#LASTNAME1#\";",
+            "console.log(person1.FiRsTnAmE);",
+            "// Expected output: \"#FIRSTNAME1#\"",
             "const person2 = {",
-            "  firstName: \"John\",",
-            "  lastName: \"Doe\"",
+            "  firstName: \"#FIRSTNAME2#\",",
+            "  lastName: \"#LASTNAME2#\"",
             "};",
             "console.log(person2[\"lastName\"]);",
-            "// Expected output: \"Doe\""
+            "// Expected output: \"#LASTNAME2#\""
         ],
-        answer: "Line 4: Property names are case-sensitive; 'firstname' should be 'firstName' (otherwise it outputs undefined instead of \"Mario\")."
+        answer: "Line 4: Property names are case-sensitive; 'FiRsTnAmE' should be 'firstName' (otherwise it outputs undefined instead of \"#FIRSTNAME1#\")."
     },
     {
         lines: [
             "const person1 = {};",
-            "person1[\"firstName\"] = \"Mario\";",
-            "person1[\"lastName\"] = \"Rossi\";",
+            "person1[\"firstName\"] = \"#FIRSTNAME1#\";",
+            "person1[\"lastName\"] = \"#LASTNAME1#\";",
             "console.log(person1.firstName);",
-            "// Expected output: \"Mario\"",
+            "// Expected output: \"#FIRSTNAME1#\"",
             "const person2 = {",
-            "  firstName: \"John\",",
-            "  lastName: \"Doe\"",
+            "  firstName: \"#FIRSTNAME2#\",",
+            "  lastName: \"#LASTNAME2#\"",
             "};",
             "console.log(person2[lastName]);",
-            "// Expected output: \"Doe\""
+            "// Expected output: \"#LASTNAME2#\""
         ],
         answer: "Line 10: Bracket notation requires quotes around the key name (person2[\"lastName\"]), otherwise JavaScript looks for an undeclared variable named lastName."
     },
         {
         lines: [
             "const person1 = {};",
-            "person1[\"firstName\"] = \"Mario\";",
-            "person2[\"lastName\"] = \"Rossi\";",
+            "person1[\"firstName\"] = \"#FIRSTNAME1#\";",
+            "personTwo[\"lastName\"] = \"#LASTNAME1#\";",
             "console.log(person1.firstName);",
-            "// Expected output: \"Mario\"",
+            "// Expected output: \"#FIRSTNAME1#\"",
+            "const personTwo = {",
+            "  firstName: \"#FIRSTNAME2#\",",
+            "  lastName: \"#LASTNAME2#\"",
+            "};",
+            "console.log(personTwo[lastName]);",
+            "// Expected output: \"#LASTNAME2#\""
+        ],
+        answer: "Line 3: ReferenceError: personTwo is not defined. The variable personTwo doesn't exist before line 6."
+    },
+           {
+        lines: [
+            "const person1 = {};",
+            "person1[\"firstName\"] = \"#FIRSTNAME1#\";",
+            "person1[\"lastName\"] = \"#LASTNAME1#\";",
+            "console.log(person1.firstName);",
+            "// Expected output: \"#FIRSTNAME1#\"",
             "const person2 = {",
-            "  firstName: \"John\",",
-            "  lastName: \"Doe\"",
+            "  firstName; \"#FIRSTNAME2#\",",
+            "  lastName; \"#LASTNAME2#\"",
             "};",
             "console.log(person2[lastName]);",
-            "// Expected output: \"Doe\""
+            "// Expected output: \"#LASTNAME2#\""
         ],
-        answer: "Line 3: ReferenceError: person2 is not defined. The variable person2 doesn't exist before line 6."
+        answer: "Line 7 and Line 8: Key/value pairs are seperated by semicolons, but should be colons"
     },
     {
         lines: [
             "const profile = new Object();",
-            "profile.username = \"alex_dev\";",
+            "profile.username = \"elite#FIRSTNAME1#\";",
             "profile.[level] = 5;",
             "console.log(profile);"
         ],
@@ -770,6 +790,23 @@ function generatePractice() {
     }else if (topic === "bug") {
         question = "Which line of code contains a bug (or causes an error/unexpected behavior), and why?";
         const bug = choice(bugScenarios);
+        const carMake = randomCombo(carMakes);
+        const name1 = randomCombo(firstNames);
+        const name2 = randomCombo(firstNames);
+        const lastname1 = choice(firstNames) + "s";
+        const lastname2 = choice(firstNames) + "s";
+        bug.answer.replace(/#CARMAKE#/g, carMake);
+        bug.answer.replace(/#FIRSTNAME1#/g, name1);
+        bug.answer.replace(/#LASTNAME1#/g, lastname1);
+        bug.answer.replace(/#FIRSTNAME2#/g, name2);
+        bug.answer.replace(/#LASTNAME2#/g, lastname2);
+        bug.lines.forEach((item,idx,arr)=>{
+            arr[idx] = item.replace(/#CARMAKE#/g, carMake);
+            arr[idx] = item.replace(/#FIRSTNAME1#/g, name1);
+            arr[idx] = item.replace(/#LASTNAME1#/g, lastname1);
+            arr[idx] = item.replace(/#FIRSTNAME2#/g, name2);
+            arr[idx] = item.replace(/#LASTNAME2#/g, lastname2);
+        })
         code = bug.lines.map((line, idx) => `${idx + 1}: ${line}`).join("\n");
         currentAnswer = bug.answer;
     }
@@ -778,6 +815,16 @@ function generatePractice() {
     document.getElementById("output").innerText = code;
     document.getElementById("answer").innerText = "";
     document.getElementById("answer").style.display = "none";
+}
+
+function randomCombo(fromList){
+    const firstIndex = Math.floor(Math.random() * arr.length);
+  let secondIndex = Math.floor(Math.random() * (arr.length - 1));
+  // Shift the second index if it lands on or after the first
+  if (secondIndex >= firstIndex) {
+    secondIndex += 1;
+  }
+  return arr[firstIndex].substring(0,arr[firstIndex].length/2) + arr[secondIndex].substring(arr[firstIndex].length/2);
 }
 
 function revealAnswer() {
