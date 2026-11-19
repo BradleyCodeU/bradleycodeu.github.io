@@ -818,13 +818,13 @@ function generatePractice() {
 }
 
 function randomCombo(fromList){
-    const firstIndex = Math.floor(Math.random() * arr.length);
-  let secondIndex = Math.floor(Math.random() * (arr.length - 1));
+    const firstIndex = Math.floor(Math.random() * fromList.length);
+  let secondIndex = Math.floor(Math.random() * (fromList.length - 1));
   // Shift the second index if it lands on or after the first
   if (secondIndex >= firstIndex) {
     secondIndex += 1;
   }
-  return arr[firstIndex].substring(0,arr[firstIndex].length/2) + arr[secondIndex].substring(arr[firstIndex].length/2);
+  return fromList[firstIndex].substring(0,fromList[firstIndex].length/2) + fromList[secondIndex].substring(fromList[firstIndex].length/2);
 }
 
 function revealAnswer() {
