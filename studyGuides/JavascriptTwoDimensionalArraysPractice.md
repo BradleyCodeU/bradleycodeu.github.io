@@ -57,8 +57,11 @@ function generatePractice() {
         if (Math.random() < 1/6){
             const rows = getRandomNumber(3, 1);
             const val1 = getRandomNumber(9, 1);
-            const val2 = getRandomNumber(9, 1);
-            const val3 = getRandomNumber(9, 1);
+            let val2 = getRandomNumber(9, 1);
+            let val3 = getRandomNumber(9, 1);
+            if(val1 == val2) val2++;
+            if(val1 == val3) val3++;
+            if(val2 == val3) val3++;
             question = "What will this code output?";
             code =
                 `const k = ${val2 - 1};\n` +
@@ -78,9 +81,8 @@ function generatePractice() {
         else if (Math.random() < 1/5){
             const m = getRandomNumber(9, 2);
             let n = getRandomNumber(9, 2);
-            while (n === m) {
-                n = getRandomNumber(9, 2);
-            }
+            if (n === m) n++;
+
             question = "How many rows and columns will the 2D array `arr` have after this code runs?";
             code =
                 `const a = ${n};\n` +
@@ -95,8 +97,8 @@ function generatePractice() {
         else if (Math.random() < 1/4){
             const m = getRandomNumber(9, 2);
             let n = getRandomNumber(9, 2);
-            while (n === m) {
-                n = getRandomNumber(9, 2);
+            if (n === m) {
+                n++
             }
             question = "How many rows and columns will the 2D array `arr` have after this code runs?";
             code =
@@ -112,7 +114,8 @@ function generatePractice() {
         else if (Math.random() < 1/3) {
             const rows = getRandomNumber(4, 2);
             const val1 = getRandomNumber(9, 1);
-            const val2 = getRandomNumber(9, 1);
+            let val2 = getRandomNumber(9, 1);
+            if(val1 == val2) val2++;
             question = "What will this code output?";
             code =
                 `const rows = ${rows};\n` +
@@ -131,8 +134,11 @@ function generatePractice() {
         } else if (Math.random() < 1/2) {
             const rows = getRandomNumber(3, 1);
             const val1 = getRandomNumber(9, 1);
-            const val2 = getRandomNumber(9, 1);
-            const val3 = getRandomNumber(9, 1);
+            let val2 = getRandomNumber(9, 1);
+            let val3 = getRandomNumber(9, 1);
+                        if(val1 == val2) val2++;
+            if(val1 == val3) val3++;
+            if(val2 == val3) val3++;
             question = "What will this code output?";
             code =
                 `const k = ${rows};\n` +
@@ -151,8 +157,8 @@ function generatePractice() {
         } else {
             const m = getRandomNumber(9, 2);
             let n = getRandomNumber(9, 2);
-            while (n === m) {
-                n = getRandomNumber(9, 2);
+            if (n === m) {
+                n++
             }
             question = "How many rows and columns will the 2D array `arr` have after this code runs?";
             code =
@@ -170,8 +176,8 @@ function generatePractice() {
         if (Math.random() < 1/3) {
             const rows = getRandomNumber(7, 2);
             let cols = getRandomNumber(7, 2);
-            while (cols === rows) {
-                cols = getRandomNumber(7, 2);
+            if (cols === rows) {
+                cols++
             }
             const arr = create2DArray(rows, cols, 10, 99);
             question = "How many rows and how many columns does this 2D array have?";
@@ -180,8 +186,8 @@ function generatePractice() {
         } else if (Math.random() < 1/2) {
             const rows = getRandomNumber(7, 2);
             let cols = getRandomNumber(7, 2);
-            while (cols === rows) {
-                cols = getRandomNumber(7, 2);
+            if (cols === rows) {
+                cols++
             }
             const arr = create2DArray(rows, cols, 10, 99);
             question = "How many rows and how many columns does this 2D array have?";
@@ -220,7 +226,8 @@ function generatePractice() {
 
     } else if (topic === "modify") {
         const rows = getRandomNumber(7, 2);
-        const cols = getRandomNumber(7, 2);
+        let cols = getRandomNumber(7, 2);
+        if(rows == cols) cols++
         const base = getRandomNumber(4, 1) * 10;
         const arr = [];
         let val = base;
@@ -233,7 +240,7 @@ function generatePractice() {
             arr.push(row);
         }
         const r = getRandomNumber(rows);
-        const c = getRandomNumber(cols);
+        let c = getRandomNumber(cols);
         const newVal = choice([67, 123, 234, 456]);
 
         question = "What will this code output?";
@@ -255,7 +262,7 @@ function generatePractice() {
 
     } else if (topic === "smallest") {
         if (Math.random() < 1/5) {
-            const arr = createUnique2DArray(3, 3, 11, 98);
+            const arr = createUnique2DArray(3, 4, 11, 98);
             let foo = getRandomNumber(109,101);
             for (let r = 0; r < arr.length; r++) {
                 for (let c = 0; c < arr[r].length; c++) {
@@ -281,7 +288,7 @@ function generatePractice() {
 
             currentAnswer = foo;
         } else if (Math.random() < 1/4) {
-            const arr = createUnique2DArray(3, 3, 11, 98);
+            const arr = createUnique2DArray(3, 4, 11, 98);
             let foo = getRandomNumber(9,1);
             for (let r = 0; r < arr.length; r++) {
                 for (let c = 0; c < arr[r].length; c++) {
@@ -307,7 +314,7 @@ function generatePractice() {
 
             currentAnswer = foo;
         } else if (Math.random() < 1/3) {
-            const arr = createUnique2DArray(3, 3, 11, 98);
+            const arr = createUnique2DArray(3, 4, 11, 98);
             let foo = arr[0][0];
             for (let r = 0; r < arr.length; r++) {
                 for (let c = 0; c < arr[r].length; c++) {
@@ -335,7 +342,8 @@ function generatePractice() {
         } else if (Math.random() < 1/2) {
             // smallest in a single row
             const rows = getRandomNumber(7, 3);
-            const cols = getRandomNumber(5, 3);
+            let cols = getRandomNumber(5, 3);
+            if(rows == cols) cols++
             const num = getRandomNumber(rows);
             const arr = createUnique2DArray(rows, cols, 11, 98);
             let foo = arr[num][0];
@@ -362,7 +370,8 @@ function generatePractice() {
         } else {
              // smallest in a single col
             const rows = getRandomNumber(7, 3);
-            const cols = getRandomNumber(5, 3);
+            let cols = getRandomNumber(5, 3);
+            if(rows == cols) cols++
             const num = getRandomNumber(cols);
             const arr = createUnique2DArray(rows, cols, 11, 98);
             let foo = arr[0][num];
@@ -390,11 +399,11 @@ function generatePractice() {
 
     } else if (topic === "largest") {
         if (Math.random() < 1/5) {
-            const arr = createUnique2DArray(3, 3, 11, 98);
+            const arr = createUnique2DArray(3, 4, 11, 98);
             let foo = getRandomNumber(109,101);
             for (let r = 0; r < arr.length; r++) {
                 for (let c = 0; c < arr[r].length; c++) {
-                    if (arr[r][c] < foo) {
+                    if (arr[r][c] > foo) {
                         foo = arr[r][c];
                     }
                 }
@@ -407,7 +416,7 @@ function generatePractice() {
                 `let foo = ${foo}$;\n\n` +
                 `for (let row = 0; row < myArray.length; row++) {\n` +
                 `  for (let col = 0; col < num; col++) {\n` +
-                `    if (myArray[row][col] < foo) {\n` +
+                `    if (myArray[row][col] > foo) {\n` +
                 `      foo = myArray[row][col];\n` +
                 `    }\n` +
                 `  }\n` +
@@ -416,11 +425,11 @@ function generatePractice() {
 
             currentAnswer = foo;
         } else if (Math.random() < 1/4) {
-            const arr = createUnique2DArray(3, 3, 11, 98);
+            const arr = createUnique2DArray(3, 4, 11, 98);
             let foo = getRandomNumber(9,1);
             for (let r = 0; r < arr.length; r++) {
                 for (let c = 0; c < arr[r].length; c++) {
-                    if (arr[r][c] < foo) {
+                    if (arr[r][c] > foo) {
                         foo = arr[r][c];
                     }
                 }
@@ -433,7 +442,7 @@ function generatePractice() {
                 `let foo = ${foo}$;\n\n` +
                 `for (let row = 0; row < myArray.length; row++) {\n` +
                 `  for (let col = 0; col < num; col++) {\n` +
-                `    if (myArray[row][col] < foo) {\n` +
+                `    if (myArray[row][col] > foo) {\n` +
                 `      foo = myArray[row][col];\n` +
                 `    }\n` +
                 `  }\n` +
@@ -442,7 +451,7 @@ function generatePractice() {
 
             currentAnswer = foo;
         } else if (Math.random() < 1/3) {
-            const arr = createUnique2DArray(3, 3, 11, 98);
+            const arr = createUnique2DArray(3, 4, 11, 98);
             let foo = arr[0][0];
             for (let r = 0; r < arr.length; r++) {
                 for (let c = 0; c < arr[r].length; c++) {
@@ -470,7 +479,8 @@ function generatePractice() {
         } else if (Math.random() < 1/2) {
             // largest in a single row
             const rows = getRandomNumber(7, 3);
-            const cols = getRandomNumber(5, 3);
+            let cols = getRandomNumber(5, 3);
+            if(rows == cols) cols++
             const num = getRandomNumber(rows);
             const arr = createUnique2DArray(rows, cols, 11, 98);
             let foo = arr[num][0];
@@ -497,7 +507,8 @@ function generatePractice() {
         } else {
              // largest in a single col
             const rows = getRandomNumber(7, 3);
-            const cols = getRandomNumber(5, 3);
+            let cols = getRandomNumber(5, 3);
+            if(rows == cols) cols++
             const num = getRandomNumber(cols);
             const arr = createUnique2DArray(rows, cols, 11, 98);
             let foo = arr[0][num];
@@ -525,7 +536,8 @@ function generatePractice() {
 
     } else if (topic === "sumRow") {
         const rows = getRandomNumber(7, 3);
-            const cols = getRandomNumber(5, 3);
+            let cols = getRandomNumber(5, 3);
+            if(rows == cols) cols++
             const num = getRandomNumber(cols);
             const arr = createUnique2DArray(rows, cols, 11, 98);
         let foo = 0;
@@ -547,7 +559,8 @@ function generatePractice() {
 
     } else if (topic === "sumCol") {
         const rows = getRandomNumber(7, 3);
-            const cols = getRandomNumber(5, 3);
+            let cols = getRandomNumber(5, 3);
+            if(rows == cols) cols++
             const num = getRandomNumber(cols);
             const arr = createUnique2DArray(rows, cols, 11, 98);
         let foo = 0;
