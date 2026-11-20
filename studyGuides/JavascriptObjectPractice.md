@@ -800,13 +800,13 @@ function generatePractice() {
         bug.answer.replace(/#LASTNAME1#/g, lastname1);
         bug.answer.replace(/#FIRSTNAME2#/g, name2);
         bug.answer.replace(/#LASTNAME2#/g, lastname2);
-        bug.lines.forEach((item,idx,arr)=>{
-            arr[idx] = item.replace(/#CARMAKE#/g, carMake);
-            arr[idx] = item.replace(/#FIRSTNAME1#/g, name1);
-            arr[idx] = item.replace(/#LASTNAME1#/g, lastname1);
-            arr[idx] = item.replace(/#FIRSTNAME2#/g, name2);
-            arr[idx] = item.replace(/#LASTNAME2#/g, lastname2);
-        })
+        for(let i=0; i< bug.lines.length; i++){
+            bug.lines[i] = bug.lines[i].replace(/#CARMAKE#/g, carMake);
+            bug.lines[i] = bug.lines[i].replace(/#FIRSTNAME1#/g, name1);
+            bug.lines[i] = bug.lines[i].replace(/#LASTNAME1#/g, lastname1);
+            bug.lines[i] = bug.lines[i].replace(/#FIRSTNAME2#/g, name2);
+            bug.lines[i] = bug.lines[i].replace(/#LASTNAME2#/g, lastname2);
+        }
         code = bug.lines.map((line, idx) => `${idx + 1}: ${line}`).join("\n");
         currentAnswer = bug.answer;
     }
