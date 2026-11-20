@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        Tester
+        <p>Practice for JavaScript object literals, object constructors, accessing data, and modifying data.</p>
+
+<label for="topicSelect"><strong>Topic:</strong></label>
+<select id="topicSelect" onchange="generatePractice()">
+    <option value="all">All Topics (Random Mix)</option>
+    <option value="literal">Object Literals</option>
+    <option value="constructor">Object Constructor</option>
+    <option value="access">Accessing Data</option>
+    <option value="modify">Modifying Data</option>
+    <option value="bug">Find the Bug</option>
+</select>
+<button onclick="generatePractice()">Generate Object Practice</button>
+
+<p id="question"></p>
+<pre id="output"></pre>
+<table>
+    <tr>
+        <td><button onclick="revealAnswer()">Reveal Answer</button></td>
+        <td><span id="answer" style="display:none;"></span></td>
+    </tr>
+</table>
+
+<script src="JavascriptObjectPracticeScript.js"></script>
+<br>
+<hr>
+<br>
+    </body>
+</html>
