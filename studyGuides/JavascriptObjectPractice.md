@@ -26,7 +26,7 @@ title: JS Object Practice
     </tr>
 </table>
 
-<script src="JavascriptObjectPracticeScript.js"></script>
+<script src="./JavascriptObjectPracticeScript.js"></script>
 <br>
 <hr>
 <br>
