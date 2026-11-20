@@ -3,7 +3,8 @@ let currentAnswer = "";
 
 const firstNames = ["Adam", "Brian", "Carl", "Daniel", "Elliot", "Frank", "Greg", "Hank", "John", "Kevin","Alice", "Beth", "Candice", "Danica", "Elizabeth", "Francesa", "Georgia", "Helen", "Jessica", "Karen", "Maya", "Liam", "Sofia", "Noah", "Luna", "Milo", "Bella"];
 const carMakes = ["Toyota", "Honda", "Ford", "Subaru", "Chevy", "Mazda", "Jeep", "Tesla", "Dodge", "Cadillac", "Nissan","Subaru","Mazda","Hyundai","Volkswagen","Mercedes","Audi","Porsche"];
-const carModels = ["Mustang", "Siverado","Explorer","Acadia","Yukon","Wrangler","Model 3", "Camry", "Corolla","Civic","Accord","Outback","Forester","Elantra","Sonata","Tucson","Forte","Sportage","Jetta","Corvette","Nova"]
+const carModels = ["Mustang", "Siverado","Explorer","Acadia","Yukon","Wrangler","Model 3", "Camry", "Corolla","Civic","Accord","Outback","Forester","Elantra","Sonata","Tucson","Forte","Sportage","Jetta","Corvette","Nova", "Rover", "Cedric", "Celica","Cheyenne","Dakota","Enzo","Sierra","Nevada","Silvia","Montana","Denali","Colorado","Malibu","Durango"]
+const dogNames = ["Luna", "Milo", "Bella", "Rover", "Cedric", "Celica","Cheyenne","Dakota","Enzo", "Daisy", "Coco", "Lucy","Ruby", "Willow", "Maggie", "Penny", "Nova", "Sadie", "Willow", "Maggie", "Penny",  "Oreo", "Cookie", "Honey", "Peanut", "Pepper", "Ginger",  "Bear", "Moose", "Duke", "King", "Prince", "Princess" ,"Buddy", "Charlie", "Rocky", "Lady", "Scout", "Rusty","Fido", "Spot", "Lassie", "Benji", "Lucky", "Buster", "Champ","Brandy", "Sandy", "Queenie", "Tippy", "Chester", "Winston", "Walter", "Bonnie", "Chewy", "Benny"]
 
 const sampleObjects = [
     {
@@ -105,11 +106,11 @@ const bugScenarios = [
         lines: [
             "const car = {",
             "  make: \"#CARMAKE#\"",
-            "  model: \"Civic\",",
+            "  model: \"#CARMODEL#\",",
             "  owner: \"#FIRSTNAME1#\",",
             "  age_in_years: 5",
             "};",
-            "car.owner = \"#FIRSTNAME1#\";",
+            "car.owner = \"#FIRSTNAME2#\";",
             "car.age_in_years++;",
             "console.log(car.model);"
         ],
@@ -119,11 +120,11 @@ const bugScenarios = [
         lines: [
             "const car2 = {",
             "  make: \"#CARMAKE#\",",
-            "  model: \"Mustang\",",
+            "  model: \"#CARMODEL#\",",
             "  owner: \"#FIRSTNAME1#\",",
             "  age in years: 6",
             "};",
-            "car.owner = \"#FIRSTNAME1#\";",
+            "car.owner = \"#FIRSTNAME2#\";",
             "car.age_in_years++;",
             "console.log(car.model);"
         ],
@@ -133,11 +134,11 @@ const bugScenarios = [
         lines: [
             "const car3 = {",
             "  make: \"#CARMAKE#\",",
-            "  model: \"Tahoe\",",
+            "  model: \"#CARMODEL#\",",
             "  owner: \"#FIRSTNAME1#\",",
             "  age-in-years: 6",
             "};",
-            "car.owner = \"#FIRSTNAME1#\";",
+            "car.owner = \"#FIRSTNAME2#\";",
             "car.age_in_years++;",
             "console.log(car.model);"
         ],
@@ -147,7 +148,7 @@ const bugScenarios = [
         lines: [
             "const car4 = {",
             "  make: \"#CARMAKE#\",",
-            "  model: \"Wrangler\",",
+            "  model: \"#CARMODEL#\",",
             "  owner: \"#FIRSTNAME1#\",",
             "  age_in_years: 5",
             "};",
@@ -161,11 +162,11 @@ const bugScenarios = [
         lines: [
             "const car = {",
             "  make: \"#CARMAKE#\",",
-            "  model: \"Civic\",",
+            "  model: \"#CARMODEL#\",",
             "  owner: \"#FIRSTNAME1#\",",
             "  age_in_years: \"5\"",
             "};",
-            "car.owner = '#FIRSTNAME1#';",
+            "car.owner = '#FIRSTNAME2#';",
             "car.age_in_years++;",
             "console.log(car.model);"
         ],
@@ -174,7 +175,7 @@ const bugScenarios = [
     {
         lines: [
             "const book = {",
-            "  title: \"Dune\",",
+            "  title: \"#CARMODEL# Legends\",",
             "  author: \"#FIRSTNAME1# Herbert\",",
             "  pages: 412",
             "};",
@@ -186,7 +187,7 @@ const bugScenarios = [
         {
         lines: [
             "const book = {",
-            "  title: \"Dune\",",
+            "  title: \"#CARMODEL# Legecy\",",
             "  author: \"#FIRSTNAME1# Herbert\",",
             "  pages: 412",
             "};",
@@ -198,7 +199,7 @@ const bugScenarios = [
             {
         lines: [
             "const book = {",
-            "  title: \"Dune\",",
+            "  title: \"#CARMODEL# Adventures\",",
             "  author: \"#FIRSTNAME1# Herbert\",",
             "  pages: 412",
             "};",
@@ -210,7 +211,7 @@ const bugScenarios = [
                 {
         lines: [
             "const book = {",
-            "  title: \"Dune\",",
+            "  title: \"#CARMODEL# of Dune\",",
             "  author: \"#FIRSTNAME1# Herbert\",",
             "  pages: 412",
             "};",
@@ -259,7 +260,7 @@ const bugScenarios = [
             "  age: 15",
             "};",
             "const myPet = Object();",
-            "myPet.name = 'Buddy';",
+            "myPet.name = '#DOGNAME#';",
             "console.log(myPet.name);"
         ],
         answer: "Line 5: Missing the 'new' keyword when calling the constructor function. Should be const myPet = new Object();"
@@ -271,7 +272,7 @@ const bugScenarios = [
             "  age: 15",
             "};",
             "const myPet = new Object();",
-            "myPet.name = 'Rover';",
+            "myPet.name = '#DOGNAME#';",
             "console.log(myPet.name);"
         ],
         answer: "Line 2: Missing comma after name: '#FIRSTNAME1#'"
@@ -283,7 +284,7 @@ const bugScenarios = [
             "  age: 15",
             ";",
             "const myPet = new Object();",
-            "myPet.name = 'Lucky';",
+            "myPet.name = '#DOGNAME#';",
             "console.log(myPet.name);"
         ],
         answer: "Line 4: Missing closing curly bracket"
@@ -295,15 +296,15 @@ const bugScenarios = [
             "  age: 15",
             "};",
             "const myPet = new Object();",
-            "myPet.name: 'Fuzzy';",
+            "myPet.name: '#DOGNAME#';",
             "console.log(myPet.name);"
         ],
-        answer: "Line 6: When adding an additional property and value to an object that was already constructed, use the assignment operator =. Should be myPet.name = 'Fuzzy';"
+        answer: "Line 6: When adding an additional property and value to an object that was already constructed, use the assignment operator =. Should be myPet.name = '#DOGNAME#';"
     },
              {
         lines: [
             "const myPet = new Object();",
-            "myPet.name = 'Chewy';",
+            "myPet.name = '#DOGNAME#';",
             "const myFriend = {",
             "  name = '#FIRSTNAME1#',",
             "  age = 15",
@@ -763,21 +764,27 @@ function generatePractice() {
         question = "Which line of code contains a bug (or causes an error/unexpected behavior), and why?";
         const bug = choice(bugScenarios);
         const carMake = randomCombo(carMakes);
+        const carModel = randomCombo(carModels);
         const name1 = randomCombo(firstNames);
         const name2 = randomCombo(firstNames);
         const lastname1 = choice(firstNames) + "s";
         const lastname2 = choice(firstNames) + "s";
+        const dogname = choice(dogNames);
         bug.answer.replace(/#CARMAKE#/g, carMake);
+        bug.answer.replace(/#CARMODEL#/g, carModel);
         bug.answer.replace(/#FIRSTNAME1#/g, name1);
         bug.answer.replace(/#LASTNAME1#/g, lastname1);
         bug.answer.replace(/#FIRSTNAME2#/g, name2);
         bug.answer.replace(/#LASTNAME2#/g, lastname2);
+        bug.answer.replace(/#DOGNAME#/g, dogname);
         for(let i=0; i< bug.lines.length; i++){
             bug.lines[i] = bug.lines[i].replace(/#CARMAKE#/g, carMake);
+            bug.lines[i] = bug.lines[i].replace(/#CARMODEL#/g, carModel);
             bug.lines[i] = bug.lines[i].replace(/#FIRSTNAME1#/g, name1);
             bug.lines[i] = bug.lines[i].replace(/#LASTNAME1#/g, lastname1);
             bug.lines[i] = bug.lines[i].replace(/#FIRSTNAME2#/g, name2);
             bug.lines[i] = bug.lines[i].replace(/#LASTNAME2#/g, lastname2);
+            bug.lines[i] = bug.lines[i].replace(/#DOGNAME#/g, dogname);
         }
         code = bug.lines.map((line, idx) => `${idx + 1}: ${line}`).join("\n");
         currentAnswer = bug.answer;
