@@ -20,11 +20,11 @@ Fill in the blanks ???
 
 Test your app. There are (at least) 3 things to fix…
 
-In index.html, the button onclick is trying to call the getSuggestions() function, but that function doesn’t exist. What function SHOULD it be calling?
+1. In index.html, the button onclick is trying to call the getSuggestions() function, but that function doesn’t exist. What function SHOULD it be calling?
 
-The results SHOULD be sorted from HIGHEST score to LOWEST score, but it’s sorting them in reverse. 
+2. The results SHOULD be sorted from HIGHEST score to LOWEST score, but it’s sorting them in reverse. 
 
-In the results, it es currently keeping only the top 10 matches. Change it to keep the top 25 matches.
+3. In the results, it is currently keeping only the top 10 matches. Change it to keep the top 25 matches.
 
 ### STEP 3:
 
@@ -34,9 +34,9 @@ Switch the training data from anime.csv to animatedMovies.csv OR animatedTop100.
 
 Test your app.
 
-If you say that you only like “Family” movies and dislike movies that are NOT “Family“, then it should suggest “Family” movies for you.
+If you say that you only like “Family” movies and dislike movies that are NOT "Family", then it should suggest “Family” movies for you.
 
-If you like all “Sci-Fi” and dislike all “Comedy” then your suggestions should include “Sci-Fi” and not include "Comedy"
+If you like all “Sci-Fi” and dislike all “Comedy” then your suggestions should include “Sci-Fi” and NOT include "Comedy"
 
 ### STARTER CODE
 
