@@ -201,9 +201,9 @@ function generatePractice() {
     } else if (topic === "access") {
         const arr = createUnique2DArray(getRandomNumber(7, 2), getRandomNumber(7, 2), 11, 98);
         const r = getRandomNumber(arr.length);
-        // ~15% chance of testing an out-of-bounds column index -> undefined
-        const isUndefined = Math.random() < 0.15;
-        const c = isUndefined ? 3 : getRandomNumber(3);
+        // ~33% chance of testing an out-of-bounds column index -> undefined
+        const isUndefined = Math.random() < 0.33;
+        const c = isUndefined ? arr[0].length + 1 : getRandomNumber(arr[0].length);
 
         question = "What will this code output?";
         if (Math.random() < 1/2) {
