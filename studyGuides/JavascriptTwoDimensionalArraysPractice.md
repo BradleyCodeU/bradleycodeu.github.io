@@ -358,7 +358,7 @@ function generatePractice() {
                 format2DArray("myArray", arr) + "\n" +
                 `const num = ${num};\n` +
                 `let foo = myArray[num][0];\n\n` +
-                `for (let col = 0; col < ${cols}$; col++) {\n` +
+                `for (let col = 0; col < ${cols}; col++) {\n` +
                 `  if (myArray[num][col] < foo) {\n` +
                 `    foo = myArray[num][col];\n` +
                 `  }\n` +
@@ -438,7 +438,7 @@ function generatePractice() {
             code =
                 format2DArray("myArray", arr) + "\n" +
                 `const num = ${num};\n` +
-                `let foo = ${foo}$;\n\n` +
+                `let foo = ${foo};\n\n` +
                 `for (let row = 0; row < myArray.length; row++) {\n` +
                 `  for (let col = 0; col < num; col++) {\n` +
                 `    if (myArray[row][col] > foo) {\n` +
@@ -496,7 +496,7 @@ function generatePractice() {
                 format2DArray("myArray", arr) + "\n" +
                 `const num = ${num};\n` +
                 `let foo = myArray[num][0];\n\n` +
-                `for (let col = 0; col < ${cols}$; col++) {\n` +
+                `for (let col = 0; col < ${cols}; col++) {\n` +
                 `  if (myArray[num][col] > foo) {\n` +
                 `    foo = myArray[num][col];\n` +
                 `  }\n` +
