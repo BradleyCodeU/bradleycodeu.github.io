@@ -770,13 +770,13 @@ function generatePractice() {
         const lastname1 = choice(firstNames) + "s";
         const lastname2 = choice(firstNames) + "s";
         const dogname = choice(dogNames);
-        bug.answer.replace(/#CARMAKE#/g, carMake);
-        bug.answer.replace(/#CARMODEL#/g, carModel);
-        bug.answer.replace(/#FIRSTNAME1#/g, name1);
-        bug.answer.replace(/#LASTNAME1#/g, lastname1);
-        bug.answer.replace(/#FIRSTNAME2#/g, name2);
-        bug.answer.replace(/#LASTNAME2#/g, lastname2);
-        bug.answer.replace(/#DOGNAME#/g, dogname);
+        bug.answer = bug.answer.replace(/#CARMAKE#/g, carMake);
+        bug.answer = bug.answer.replace(/#CARMODEL#/g, carModel);
+        bug.answer = bug.answer.replace(/#FIRSTNAME1#/g, name1);
+        bug.answer = bug.answer.replace(/#LASTNAME1#/g, lastname1);
+        bug.answer = bug.answer.replace(/#FIRSTNAME2#/g, name2);
+        bug.answer = bug.answer.replace(/#LASTNAME2#/g, lastname2);
+        bug.answer = bug.answer.replace(/#DOGNAME#/g, dogname);
         for(let i=0; i< bug.lines.length; i++){
             bug.lines[i] = bug.lines[i].replace(/#CARMAKE#/g, carMake);
             bug.lines[i] = bug.lines[i].replace(/#CARMODEL#/g, carModel);
